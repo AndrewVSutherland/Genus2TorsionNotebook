@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generic [2,2,14] realized — five End(J) = Z genus-2 curves</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.55 Georgia, 'Times New Roman', serif; max-width: 60rem;
+         margin: 2rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.7rem; line-height: 1.25; }
+  h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid #8884; padding-bottom: .25rem; }
+  code, pre { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: .84em; }
+  pre { overflow-x: auto; padding: .7rem .9rem; background: #8881; border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95em; }
+  th, td { border: 1px solid #8886; padding: .4rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #8881; }
+  .tag { display: inline-block; padding: .05rem .5rem; border-radius: 1rem; font-size: .8em;
+         background: #2a7a2a22; border: 1px solid #2a7a2a66; }
+  .rm  { background: #b0700022; border-color: #b0700066; }
+  .muted { opacity: .75; }
+  li { margin: .3rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Generic <code>[2,2,14]</code> realized: five genus-2 Jacobians over <b>Q</b> with torsion Z/2&times;Z/2&times;Z/14 and End(J<sub>Q̄</sub>) = Z</h1>
+
+<p class="muted">torsion_jac session 2026-07-23 &middot; construction, sweep, and PARI gates ran on a box where Magma was not installed; exact verification in Magma once on a system with it installed.</p>
+
+<p><b>Status before today:</b> <code>[2,2,14]</code> (order 56) and <code>[2,22]</code> (order 44) were the only two groups in the realizations table whose geometrically simple witnesses were all RM (real multiplication) — and no torsion group containing (Z/2)&sup2;&times;Z/7 appears anywhere in the published literature for <em>any</em> endomorphism type (QM is excluded outright by Laga–Schembri–Shnidman–Voight; split Jacobians cannot carry it by Mazur — an elliptic factor with a rational 7-torsion point has torsion exactly Z/7). <b>Today <code>[2,2,14]</code> has five generic witnesses.</b></p>
+
+<h2>The construction (three-root route on the contact-7 chart)</h2>
+
+<p>Work on the lab's contact-7 chart: <code>h = 1 &minus; (7/2)x + ax&sup2; + bx&sup3;</code>, <code>f = (h&sup2; + (x&minus;1)&#8311;)/x&sup2;</code> — a monic quintic whose Jacobian carries the marked class [(1,&nbsp;h(1)) &minus; &infin;] of order 7. Every rational root r of f satisfies 1&minus;r = v&sup2; with</p>
+
+<pre>a + b(1&minus;v&sup2;) = A(v),   A(v) = (2v&#8309;+4v&#8308;+6v&sup3;+8v&sup2;+10v+5) / (2(v+1)&sup2;)</pre>
+
+<p>— <b>linear in (a,b)</b>. Two roots (parameters s,t) solve for (a,b) — the known rational two-root surface with visible Z/2&times;Z/14. A <b>third root u exists iff the three points (1&minus;v&sup2;, A(v)), v &isin; {s,t,u}, are collinear</b> on a rational plane quintic — a residual <em>cubic</em> condition R(s,t,u) = 0 (S&#8323;-symmetric, tridegree (3,3,3), quadratic in e&#8323;). Factor type [1,1,1,2] then forces 2-rank 3, so the torsion contains (Z/2)&sup3;&times;Z/7 = [2,2,14]. Unlike the 3-torsion "+3" covering condition studied on this chart in July (degree-40 cover, genus &ge; 15), this is a degree-3 cover of a rational surface — and it is point-rich: a height-32 sweep found 16 hits forming 6 distinct curves.</p>
+
+<h2>The five verified generic curves</h2>
+
+<p>For each curve below, Magma verified (rebuilding everything from (s,t,u) from scratch): exact <code>TorsionSubgroup(J) = [2,2,14]</code>; the marked class has exact order 7; and the End(J<sub>Q̄</sub>) = Z certificate — L-polynomial at p&#8320; irreducible with all Frobenius-root powers of degree 4 (root-power criterion &rArr; geometrically simple), a second prime q&#8320; whose splitting field is linearly disjoint (&rArr; center Q, killing RM), and torsion order 56 &gt; 18 (&rArr; not QM). Model: y&sup2; = f(x).</p>
+
+<table>
+<tr><th>(s, t, u)</th><th>f(x)</th><th>(p&#8320;, q&#8320;)</th></tr>
+<tr><td>(&minus;10, &minus;1/2, &minus;10/7)</td><td><code>x^5 + 1136785381/11573604 x^4 &minus; 75084797/964467 x^3 &minus; 53745313/642978 x^2 + 151804/1701 x &minus; 41701/2268</code></td><td>17, 31</td></tr>
+<tr><td>(&minus;5, &minus;15/8, &minus;15/22)</td><td><code>x^5 + 463110041/18593344 x^4 + 691213617/37186688 x^3 &minus; 22161775159/297493504 x^2 + 824317/17248 x &minus; 79143/8624</code></td><td>17, 83</td></tr>
+<tr><td>(&minus;1/2, &minus;15/8, &minus;15/19)</td><td><code>x^5 + 1168230281/55472704 x^4 + 1039464297/110945408 x^3 &minus; 62905712119/887563264 x^2 + 1587293/29792 x &minus; 163047/14896</code></td><td>17, 29</td></tr>
+<tr><td>(&minus;4/9, 4/17, &minus;4/25)</td><td><code>x^5 &minus; 650775201299/140512522500 x^4 + 301045120409/35128130625 x^3 &minus; 556345299313/70256261250 x^2 + 684788/187425 x &minus; 504803/749700</code></td><td>31, 43</td></tr>
+<tr><td>(4/17, &minus;5/18, &minus;10/49)</td><td><code>x^5 &minus; 4993712661259139/1085163373145124 x^4 + 176638001774783/20868526406637 x^3 &minus; 24972622480333/3210542524098 x^2 + 58817786/16470909 x &minus; 3320579/5067972</code></td><td>43, 59</td></tr>
+</table>
+
+<p><span class="tag">independent cross-checks</span> PARI (no Magma): 56 | #J(F<sub>p</sub>) at every good p &le; 59 for all curves; for the first curve, gcd of #J(F<sub>p</sub>) over all good p &le; 199 is <b>exactly 56</b>; real-Weil-subfield discriminants scatter (End = Z signature) for all five.</p>
+
+<h2>A sixth curve: a new small RM(&radic;2) witness</h2>
+
+<p><span class="tag rm">RM</span> The smallest hit, (s,t,u) = (&minus;3, &minus;3/4, &minus;3/5):</p>
+<pre>y&sup2; = x&#8309; + 4769/400 x&#8308; + 9009/400 x&sup3; &minus; 104671/1600 x&sup2; + 1699/40 x &minus; 42/5</pre>
+<p>also has torsion exactly [2,2,14] and marked order 7, but its Frobenius real-quadratic field is constantly Q(&radic;2) across ~30 good primes — an RM(&radic;2) signature (parallel to J&#8320;(29)). It is a far smaller RM witness than the extended-database curve 152100.eb.2 (conductor 390&sup2;). Formal RM certification pending.</p>
+
+<h2>Where this leaves <code>[2,22]</code></h2>
+
+<p>Still open, with a much sharper map (see <code>notes/claude_generic_222_2214_plan_2026_07_23.md</code>): every known witness has its odd torsion class at infinity (CF orders 11/7 — including both RM witnesses), so the target is the surface {[1,1,2,2]-shape &cap; D<sub>&infin;</sub>-order-11}, which provably has rational points. Measured dead today: all easy 2-upgrades of Flynn's family (and the repo's "Daowsud–Schmidt family" was proved to <em>be</em> Flynn's — G<sub>t/4</sub>(x+1) = F<sub>t</sub>(x); the corrected arXiv-v2 family is genuinely new and now transcribed). Live routes: the genus-0 quadratic-factor component of Flynn (parametrization running), the BLP2009 resultant surface (its broken table row C&#8324; was uniquely repaired, yielding a second explicit [2,22] curve — RM(&radic;5) again, but the surface itself is provably not RM-forced), CF-backward construction anchored at the RM witness, and Chabauty closure of the branch-point family's genus-3 cover.</p>
+
+<h2>Files</h2>
+<ul>
+<li><code>notes/claude_generic_2214_found_2026_07_23.md</code> — hit note (validate-and-record)</li>
+<li><code>notes/claude_generic_222_2214_plan_2026_07_23.md</code> — strategy portfolio, probe results, literature dossier (incl. BLP2009 row-C&#8324; erratum and the Daowsud–Schmidt v1/v2 story)</li>
+<li><code>code/claude_2214_threeroot_sweep.gp</code>, <code>code/claude_2214_threeroot_surface.gp</code> — construction &amp; surface</li>
+<li><code>code/claude_2214_threeroot_verify.m</code> + <code>results/claude_2214_threeroot_verify.log</code> — exact verification (integral models and certificate &chi;-pairs in the log)</li>
+<li><code>code/claude_222_*.gp/.m</code>, <code>code/claude_cf_order_census.gp</code> + logs — the [2,22]-side probes and censuses</li>
+</ul>
+
+<p class="muted">Done in later commits on this branch: minimal models + conductors for all five (all odd non-squares; smallest N = 3&sup2;5&sup2;7&sup2;13&sup2;&middot;19&middot;23&middot;37&middot;317 = 9550095752925), the [2,2,14] certificate added to <code>data/claude_endz_certificates.txt</code>, and the paper update itself — <code>torsion_realizations.tex</code> now displays the conductor-9550095752925 generic witness with the <code>^RM</code> flag dropped ([2,22] is the sole remaining exception) and the PDF is rebuilt. Still queued: fitting the rational curve(s) through the six hit-orbits (all of common-numerator form) toward an infinite generic family; the [2,22] portfolio.</p>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+# Rational-point diagnostics for extra-2 genus-3 curves
+
+============================================================
+minus
+f = -1095*x^8 + 16512*x^7 - 108020*x^6 + 399552*x^5 - 911322*x^4 + 1307392*x^3 - 1145940*x^2 + 556992*x - 113815
+factorization = [
+<x^2 - 4*x + 13/3, 1>,
+<x^6 - 4044/365*x^5 + 18249/365*x^4 - 42664/365*x^3 + 54039/365*x^2 - 34764/365*x + 1751/73, 1>
+]
+degree = 8 genus = 3 discriminant = -194930990346033119606715696807936000
+bad_prime_factors = [ 2, 3, 5 ]
+leading_coeff = -1095 square_over_Q = false
+small prime point counts:
+  p=7 count=10
+  p=11 count=18
+  p=13 count=16
+  p=17 count=14
+  p=19 count=18
+  p=23 count=26
+  p=29 count=22
+  p=31 count=46
+  p=37 count=52
+  p=41 count=46
+  p=43 count=52
+  p=47 count=52
+search_height 20 affine_points [ <1, 16.0000000000000000000000000000>, <1, -16.0000000000000000000000000000> ]
+search_height 100 affine_points [ <1, 16.0000000000000000000000000000>, <1, -16.0000000000000000000000000000> ]
+search_height 500 affine_points [ <1, 16.0000000000000000000000000000>, <1, -16.0000000000000000000000000000> ]
+search_height 2000 affine_points [ <1, 16.0000000000000000000000000000>, <1, -16.0000000000000000000000000000> ]
+RankBounds failed: Runtime error in 'NumberFieldDatabase': GetLibraryRoot() is set to /opt/magma-2.29-4/libs but the file GetLibraryRoot()/data/Anf/anf_deg2.dat either does not exist or cannot be read (No such file or directory).  If you do not have the file it can be acquired from the webpage http://magma.maths.usyd.edu.au/magma/download/db/ otherwise the library root must be set to the right location.  This can be done by setting the environment variable MAGMA_LIBRARY_ROOT before invoking Magma, or by using the intrinsic SetLibraryRoot() during a session.
+
+TorsionSubgroup failed: Runtime error in 'TorsionSubgroup': TorsionSubgroup is only implemented for Jacobians of genus 2 curves over the rationals.
+
+============================================================
+plus
+f = -2135*x^8 + 34288*x^7 - 240740*x^6 + 965488*x^5 - 2420522*x^4 + 3888208*x^3 - 3914020*x^2 + 2262608*x - 577015
+factorization = [
+<x^2 - 32/7*x + 37/7, 1>,
+<x^6 - 3504/305*x^5 + 16761/305*x^4 - 42784/305*x^3 + 61611/305*x^2 - 47664/305*x + 3119/61, 1>
+]
+degree = 8 genus = 3 discriminant = -194930990346033119606715696807936000
+bad_prime_factors = [ 2, 3, 5 ]
+leading_coeff = -2135 square_over_Q = false
+small prime point counts:
+  p=7 count=11
+  p=11 count=18
+  p=13 count=16
+  p=17 count=14
+  p=19 count=18
+  p=23 count=26
+  p=29 count=22
+  p=31 count=46
+  p=37 count=52
+  p=41 count=46
+  p=43 count=52
+  p=47 count=52
+search_height 20 affine_points [ <7/3, 0.197530864197530864197530864198>, <7/3, -0.197530864197530864197530864198> ]
+search_height 100 affine_points [ <7/3, 0.197530864197530864197530864198>, <7/3, -0.197530864197530864197530864198> ]
+search_height 500 affine_points [ <7/3, 0.197530864197530864197530864198>, <7/3, -0.197530864197530864197530864198> ]
+search_height 2000 affine_points [ <7/3, 0.197530864197530864197530864198>, <7/3, -0.197530864197530864197530864198> ]
+RankBounds failed: Runtime error in 'NumberFieldDatabase': GetLibraryRoot() is set to /opt/magma-2.29-4/libs but the file GetLibraryRoot()/data/Anf/anf_deg2.dat either does not exist or cannot be read (No such file or directory).  If you do not have the file it can be acquired from the webpage http://magma.maths.usyd.edu.au/magma/download/db/ otherwise the library root must be set to the right location.  This can be done by setting the environment variable MAGMA_LIBRARY_ROOT before invoking Magma, or by using the intrinsic SetLibraryRoot() during a session.
+
+TorsionSubgroup failed: Runtime error in 'TorsionSubgroup': TorsionSubgroup is only implemented for Jacobians of genus 2 curves over the rationals.
+

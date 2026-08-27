@@ -1,0 +1,9 @@
+V2_SURVIVOR_PRIME_FILTER_START rows [ <-933, 383, 1>, <-237, -661, 1>, <-117, 179, 1>, <3, -1, 1>, <579, -865, 1>, <795, 851, 1> ]
+bound 997
+V2_CLASS_KILLED row <-933, 383, 1> prime 101 t 83
+V2_CLASS_KILLED row <-237, -661, 1> prime 101 t 67
+V2_CLASS_KILLED row <-117, 179, 1> prime 101 t 99
+V2_CLASS_KILLED row <579, -865, 1> prime 101 t 4
+V2_CLASS_KILLED row <795, 851, 1> prime 101 t 83
+V2_SURVIVOR_PRIME_FILTER_DONE killed 5 survivors [ <3, -1, 1> ]
+V2_EXACT_SURVIVOR row <3, -1, 1> t -2063497452257/1698222432003 square_flags [ true, false, true ]

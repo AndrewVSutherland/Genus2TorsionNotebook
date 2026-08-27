@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Split-Jacobian torsion table</title>
+<style>
+:root { --fg:#1a1a20; --bg:#ffffff; --muted:#5a5a66; --line:#d8d8e0; --accent:#7c3aed; --hl:#f3eefc; --code:#f5f5f8; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e8e8ee; --bg:#131318; --muted:#9a9aa8; --line:#33333f; --accent:#b08cf5; --hl:#231c33; --code:#1e1e26; }
+}
+* { box-sizing:border-box; }
+body { margin:0; padding:2rem 1rem 4rem; background:var(--bg); color:var(--fg);
+  font:16px/1.55 Georgia, 'Times New Roman', serif; }
+main { max-width:60rem; margin:0 auto; }
+h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .3rem; }
+h2 { font-size:1.2rem; margin:2.2rem 0 .6rem; border-bottom:1px solid var(--line); padding-bottom:.25rem; }
+.sub { color:var(--muted); margin:0 0 1.4rem; }
+p { margin:.6rem 0; }
+code, .mono { font:0.86em/1.5 ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+code { background:var(--code); padding:.1em .3em; border-radius:3px; }
+.eq { background:var(--code); border-radius:6px; padding:.6rem .8rem; margin:.5rem 0;
+  overflow-x:auto; white-space:nowrap; font:0.82em/1.6 ui-monospace, Menlo, Consolas, monospace; }
+.tblwrap { overflow-x:auto; margin:.8rem 0; }
+table { border-collapse:collapse; font-size:.88rem; min-width:34rem; }
+th, td { border:1px solid var(--line); padding:.28rem .55rem; text-align:left; vertical-align:top; }
+th { background:var(--hl); font-weight:600; }
+td.num { text-align:right; font-variant-numeric:tabular-nums; }
+.new td { background:var(--hl); }
+.k { color:var(--accent); font-weight:600; }
+ul { margin:.4rem 0 .4rem 1.2rem; padding:0; }
+li { margin:.25rem 0; }
+.note { color:var(--muted); font-size:.92em; }
+.stat { display:inline-block; margin:0 1.6rem .6rem 0; }
+.stat b { font-size:1.5rem; display:block; line-height:1.2; }
+</style>
+</head>
+<body><main>
+<h1>Torsion subgroups of split Jacobians of genus-2 curves over <b>Q</b></h1>
+<p class="sub">Session of 2026-08-12/13 &middot; branch <code>claude/split-torsion-table</code> &middot;
+table: <code>paper/split_torsion_table.{tex,pdf}</code>, working master <code>product/split_torsion_table.md</code></p>
+
+<p><span class="stat"><b>75</b>groups with exact split witnesses</span>
+<span class="stat"><b>4</b>newly realized this session</span>
+<span class="stat"><b>66&nbsp;/&nbsp;96</b>Mazur-pair products realized</span>
+<span class="stat"><b>6.2M</b>curves queried (LMFDB alpha)</span></p>
+
+<p>A group is listed when an explicit genus-2 curve <i>C</i>/Q is known with
+Jac(<i>C</i>) geometrically split (Q&#773;-isogenous to a product of elliptic curves) and
+J(Q)<sub>tors</sub> <em>exactly</em> that group. Sources merged: the LMFDB alpha database
+<code>g2c_curves_new</code> (6,216,959 curves; 3,415,569 geometrically split), a
+re-verified literature sweep (HLP&nbsp;2000, Howe&nbsp;2015, Lepr&eacute;vost&nbsp;1995,
+Platonov school, modular curves — every explicit curve re-checked in Magma), the repo's split
+anchor banks, and this session's gluing constructions.</p>
+
+<h2>Newly realized groups (all verified: exact torsion, split certificate, elliptic factors)</h2>
+<div class="tblwrap"><table>
+<tr><th>group</th><th>order</th><th>witness y&sup2; = g(x)</th><th>construction</th></tr>
+<tr class="new"><td class="k">[8,8]</td><td class="num">64</td>
+<td class="mono">836x&#8310;+88596x&#8309;+88597x&#8308;+1800118x&sup3;&minus;4045487x&sup2;&minus;4535664x+84285504</td>
+<td>glue of [2,8]-curves 82110.bs5 &times; 210.e6; ~120 examples found — every field-matched
+[2,8]-pair works under the &ldquo;cross&rdquo; identifications</td></tr>
+<tr class="new"><td class="k">[6,12]</td><td class="num">72</td>
+<td class="mono">132x&#8310;+396x&#8309;&minus;6347x&#8308;&minus;13354x&sup3;+75207x&sup2;+81950x+88825</td>
+<td>glue of [2,6]-curves 30.a6 &times; cond-630; 11 examples</td></tr>
+<tr class="new"><td class="k">[2,2,24]</td><td class="num">96</td>
+<td class="mono">581449680x&#8310;&minus;4134794160x&#8309;&minus;574778279x&#8308;+10516435114x&sup3;&minus;15881777387x&sup2;+11223443268x&minus;1729978236</td>
+<td>HLP &sect;3.7 condition (6) at their own point (t,u)=(241/81, 1/3)</td></tr>
+<tr class="new"><td class="k">[2,2,4,8]</td><td class="num">128</td>
+<td class="mono">&minus;144295356865660x&#8310;+289009358554092x&#8309;+860505249465645x&#8308;&minus;1006367755763986x&sup3;&minus;1568053362370059x&sup2;+812225828599020x+949701503960100</td>
+<td>HLP &sect;3.7 condition (5) at (t,u)=(1/6, 4/17) — vs. the ten height-10&sup1;&#8313;&hellip;10&sup1;&#8304;&#8312; anchors</td></tr>
+</table></div>
+<p class="note">With these, <b>every group in HLP Table 1 has an explicit exact-torsion witness</b>.
+Verification: exact <code>TorsionSubgroup</code> on integral models, L-polynomial reducible at every good
+p &lt; 200, factors via rational Richelot to a product (<code>product/logs/verify_witnesses*.log</code>).</p>
+
+<h2>The full table (group | order | DB count | minimal split witness)</h2>
+<div class="tblwrap"><table>
+<tr><th>ord</th><th>groups (DB count; witness)</th></tr>
+<tr><td class="num">1&ndash;9</td><td>[] (50559; 961.a2), [2] (674171; 336.a1), [3] (26703; 324.a2), [2,2] (1727196; 256.a2), [4] (174341; 289.a2), [5] (6517; 121.a2), [6] (119916; 196.a3), [7] (1083; 676.b3), [2,4] (471270; 225.a1), [2,2,2] (13681; 315.a2), [8] (26187; 300.a2), [3,3] (735; 361.a1), [9] (386; 722.a1)</td></tr>
+<tr><td class="num">10&ndash;19</td><td>[10] (4913; 363.a2), [12] (7387; 294.a1), [2,6] (76505; 196.a2), [14] (19; 1352.a1), [15] (159; 484.a1), [2,8] (12523; 225.a8), [2,2,4] (5544; 225.a3), [4,4] (8350; 225.a6), [2,2,2,2] (609; 784.c1), <b>[16]</b> (154; 2700.d1), [3,6] (1039; 196.a4), [18] (27; 490.a1), <b>[19]</b> (1; 169.a1 = X&#8321;(13), Q-simple only)</td></tr>
+<tr><td class="num">20&ndash;32</td><td>[20] (267; 363.a3), [2,10] (79; 256.a1 = X&#8321;(16)), [21] (39; 324.a1 = X&#8321;(18)), [24] (295; 300.a1), [2,12] (3516; 450.a2), [2,2,6] (274; 600.a1), <b>[25]</b> (1; 42336.dw1, Q-simple only), [5,5] (7; 121.a1 = X&#8320;(22)), <b>[27]</b> (5; 7776.e2), [3,9] (21; 2916.e2), [28] (3; 4732.c1), [2,14] (3; 86436.z3), [30] (88; 4356.j1), <b>[2,16]</b> (30; 4608.h5), [2,2,8] (227; 360.a1), [4,8] (366; 225.a2), [2,4,4] (21; 225.a5), [2,2,2,4] (27; 882.a5)</td></tr>
+<tr><td class="num">35&ndash;50</td><td>[35] (6; 7436.a2), [6,6] (176; 196.a1 = X&#8320;(28)), [36] (3; 4860.f1 = P&amp;P f&#8323;&#8326;), [2,18] (1; 64980.bo1), [3,12] (18; 2700.c1), [40] (9; 3168.i1), [2,20] (3; 30492.q2), [2,2,10] (1; 30492.q1), [45] (0; repo anchor), [2,24] (76; 1440.c2), <b>[48]</b> (5; 1764.a1 = P&amp;P f&#8324;&#8328;,&#8321;), [4,12] (2; 8100.j1), [2,2,12] (4; 1350.d1), [2,2,2,6] (7; 900.b2), [7,7] (0; HLP curve), [5,10] (1; 85500.cj1)</td></tr>
+<tr><td class="num">60&ndash;72</td><td>[2,30] (2; 13068.f2), [60] (1; 13500.r4), [63] (0; HLP curve), <span class="k">[8,8] (0; new)</span>, <b>[4,16]</b> (1; 50400.dj1), <b>[2,2,16]</b> (4; 69300.bu1), [2,4,8] (1; 573300.ir1), [2,2,2,8] (1; 4410.d2), [2,2,4,4] (0; repo), [70] (0; Howe15 f&#8327;&#8320;), <span class="k">[6,12] (0; new)</span>, <b>[3,24]</b> (1; 8100.e4), [2,6,6] (1; 132300.eo2)</td></tr>
+<tr><td class="num">96&ndash;128</td><td><b>[2,48]</b> (1; 18900.e2), <span class="k">[2,2,24] (0; new)</span>, <span class="k">[2,2,4,8] (0; new)</span> &mdash; the largest known split order is 128 = #[2,2,4,8], the maximum of HLP's Table 1; the largest cyclic order is 70</td></tr>
+</table></div>
+<p class="note"><b>Bold</b> = &ldquo;isogeny extra&rdquo;: not a subgroup of E&#8321;(Q)<sub>tors</sub> &times; E&#8322;(Q)<sub>tors</sub>
+for any pair of elliptic curves — [16], [19], [25], [27], [48], [2,16], [2,48], [3,24], [4,16], [2,2,16].
+Sanity check vs <code>g2torsion.pdf</code>: full agreement except <b>C16 and C2&times;C16 are missing from the
+slides&rsquo; extras list</b>; [19]/[25] confirmed Q-simple-only.</p>
+
+<h2>Platonov&ndash;Petrunin order-48/36 curves: recovered and settled</h2>
+<p>The flagged literature item (&ldquo;if simple they&rsquo;d beat Elkies&rsquo; cyclic-40 record&rdquo;) is resolved.
+The models are printed in Platonov, <i>Russian Math. Surveys</i> <b>69</b>:1 (2014) &sect;6
+(free full text on mathnet.ru):</p>
+<div class="eq">f&#8324;&#8328;,&#8321; = (x&minus;2)(x+2)(x&#8308;&minus;10x&sup2;&minus;3) &nbsp;&nbsp;
+f&#8324;&#8328;,&#8322; = (x&sup2;+x+2)(x&#8308;+3x&sup3;+21x&sup2;&minus;27x+18) &nbsp;&nbsp;
+f&#8323;&#8326; = (x+2)(3x&sup2;&minus;6x+8)(3x&sup3;+6x&sup2;+3x+4)</div>
+<p>Survey &sect;7 proves all three <em>non-simple over Q&#773;</em> (explicit zero-divisors in End&#8304;).
+Independent Magma verification confirms exact torsion [48]/[48]/[36], L-polys reducible 44/44,
+and identifies them as <b>LMFDB 1764.a1</b> (factors: cond-21 [8]-curve &times; cond-84 [6]-curve —
+the very 6&times;8 gluing shape of Howe&rsquo;s 2015 family), <b>5292.c2</b>, and <b>4860.f1</b> —
+i.e. the table&rsquo;s minimal [48]/[36] witnesses <em>are</em> P&amp;P&rsquo;s 2012 curves.</p>
+
+<h2>Remaining product gaps (30 of 96), by feasibility</h2>
+<ul>
+<li><b>(3,3)-gluing could give the full product</b> (needs an anti-3-congruent pair, Frengley Z(3,2)):
+[56], [2,28], [2,40], [2,56], [10,10], [2,2,20], [2,2,40], [2,8,8], [2,2,8,8].</li>
+<li><b>(2,2)-gluing image loses index 2; needs an HLP-&sect;3.7-style gain</b>:
+[2,60], [4,24], [9,9] (also: no 2-congruent pair of 9-torsion curves found in LMFDB or on X&#8321;(9)&sup2; to height 20),
+[12,12], [2,2,2,12], [2,2,2,24], [2,2,6,6].</li>
+<li><b>No (2,2)/(3,3)-route from Mazur pairs</b>: [42], [72], [84], [90], [2,36], [2,42], [2,72],
+[3,18], [3,36], [6,18], [2,2,30], [2,4,12], [2,4,24], [2,6,12].</li>
+</ul>
+
+<h2>Method</h2>
+<p>Gluing lanes over field-bucketed pairs (LMFDB seeds + X&#8321;(N) Tate-normal families, N &isin; {6,7,8,9,10,12},
+runtime-verified Kubert parametrizations) via <code>Genus2Elliptic2/3</code>; funnel = J(F<sub>p</sub>) invariants at 12 good
+odd primes &rarr; sound abelian-group compatibility test against the known set (odd part of a (2,2)-glue is exactly
+T&#8321;<sub>odd</sub> &times; T&#8322;<sub>odd</sub>, which sharpens the abort) &rarr; exact <code>TorsionSubgroup</code> only for
+survivors. Negative sweeps recorded: Richelot closures, isogeny-class sibling webs, bielliptic y&sup2;=c<sub>t</sub>(x&sup2;),
+factor-pattern gain hunt. Everything in <code>product/</code> (code, data, logs).</p>
+</main></body>
+</html>

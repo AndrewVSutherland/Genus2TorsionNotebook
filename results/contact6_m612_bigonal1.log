@@ -1,0 +1,19 @@
+H: y^2 = 1/4*$.1^6 - 9/2*$.1^5 + 81/2*$.1^4 - 243*$.1^3 - 729*$.1^2 + 8748*$.1 + 26244
+map C->H defining polynomials (3 of them):
+  p1 = Y*E - 2
+  p2 = 1/2*Y^3*E^3 - 9/2*Y^2*E^3 - 9/2*Y^2*E^2 + 27*Y*E^3 + 36*Y*E^2 + 15*Y*E - 18*E - 10
+  p3 = E + 1/3
+degrees a<=4 b<=2 d<=4 : nullspace dim 1 (mod 10007)
+EXACT VERIFIED: Y = (a + b*y)/d with
+  a = 1/4*x^4 - 15/2*x^3 + 324*x + 972
+  b = x + 6
+  d = 1/24*x^4 + x^3
+N = Y*Y^tau = (a^2 - b^2*fH)/d^2 ; numerator factorization:
+  num: [
+<x^2 - 6*x - 36, 2>
+]
+  den: [
+<x, 3>,
+<x + 24, 1>
+]
+BIGONAL1_DONE

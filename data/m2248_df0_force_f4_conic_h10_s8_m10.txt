@@ -1,0 +1,97 @@
+Loading "code/m2248_sieve.m"
+M2248 D+F0+ F4 conic search
+target F4 dn_height 10 seed_height 8 slope_height 10 dn_params 127 seed_params 
+87 slope_params 127 max_hits 20
+HPL_param_heights d 72946054224 n 53109477625 q 352612321
+C_SQUARE d -9 n -7/2 seed_q -1 slope 0 q 1 rho 279/41 sigma -31/3 tau -27/41 
+tuple_height 279 1
+C_SQUARE d -9 n -7/2 seed_q 1 slope 0 q -1 rho 279/41 sigma -31/3 tau -27/41 
+tuple_height 279 1
+C_SQUARE d -9 n -5/4 seed_q -1 slope 0 q 1 rho 99/29 sigma -11/3 tau -27/29 
+tuple_height 99 1
+C_SQUARE d -9 n -5/4 seed_q 1 slope 0 q -1 rho 99/29 sigma -11/3 tau -27/29 
+tuple_height 99 1
+C_SQUARE d -7 n -2 seed_q -1 slope 0 q 1 rho 59/13 sigma -59/10 tau -10/13 
+tuple_height 91 3
+C_SQUARE d -7 n -2 seed_q 1 slope 0 q -1 rho 59/13 sigma -59/10 tau -10/13 
+tuple_height 91 3
+C_SQUARE d -7 n 3 seed_q -1 slope 0 q 1 rho -83/19 sigma 83/15 tau -15/19 
+tuple_height 133 3
+C_SQUARE d -7 n -8/3 seed_q -1 slope 0 q 1 rho 167/31 sigma -167/20 tau -20/31 
+tuple_height 217 3
+C_SQUARE d -7 n -8/3 seed_q 1 slope 0 q -1 rho 167/31 sigma -167/20 tau -20/31 
+tuple_height 217 3
+C_SQUARE d -7 n -1/6 seed_q -1 slope 0 q 1 rho 329/247 sigma -47/35 tau -245/247
+tuple_height 329 1
+C_SQUARE d -7 n -1/6 seed_q 1 slope 0 q -1 rho 329/247 sigma -47/35 tau -245/247
+tuple_height 329 1
+C_SQUARE d -6 n 1/7 seed_q -1 slope 0 q 1 rho 102/143 sigma -17/24 tau -144/143 
+tuple_height 143 1
+C_SQUARE d -5 n -2/3 seed_q -1 slope 0 q 1 rho 25/11 sigma -5/2 tau -10/11 
+tuple_height 25 1
+C_SQUARE d -5 n -2/3 seed_q -1 slope -1/2 q -1 rho 25/11 sigma -5/2 tau -10/11 
+tuple_height 25 1
+C_SQUARE d -5 n -2/3 seed_q 1 slope 0 q -1 rho 25/11 sigma -5/2 tau -10/11 
+tuple_height 25 1
+C_SQUARE d -5 n -2/3 seed_q 1 slope 1/2 q 1 rho 25/11 sigma -5/2 tau -10/11 
+tuple_height 25 1
+C_SQUARE d -4 n -7/5 seed_q -1 slope 0 q 1 rho 172/53 sigma -43/8 tau -32/53 
+tuple_height 172 1
+C_SQUARE d -4 n -7/5 seed_q 1 slope 0 q -1 rho 172/53 sigma -43/8 tau -32/53 
+tuple_height 172 1
+C_SQUARE d -4 n 5/9 seed_q -1 slope 0 q 1 rho -4/31 sigma 1/8 tau -32/31 
+tuple_height 31 1
+C_SQUARE d -4 n 5/9 seed_q 1 slope 0 q -1 rho -4/31 sigma 1/8 tau -32/31 
+tuple_height 31 1
+C_SQUARE d -3 n 2/5 seed_q -6 slope -1/6 q -1 rho 3/17 sigma -1/6 tau -18/17 
+tuple_height 17 1
+C_SQUARE d -3 n 2/5 seed_q -1 slope 0 q 1 rho 3/17 sigma -1/6 tau -18/17 
+tuple_height 17 1
+C_SQUARE d -2 n -7/3 seed_q -1 slope 0 q 1 rho 26/19 sigma 13/8 tau 16/19 
+tuple_height 26 1
+C_SQUARE d -2 n -7/3 seed_q 1 slope 0 q -1 rho 26/19 sigma 13/8 tau 16/19 
+tuple_height 26 1
+C_SQUARE d -2 n -1/5 seed_q -1 slope 0 q 1 rho 26/19 sigma -13/8 tau -16/19 
+tuple_height 26 1
+C_SQUARE d -2 n -1/5 seed_q 1 slope 0 q -1 rho 26/19 sigma -13/8 tau -16/19 
+tuple_height 26 1
+C_SQUARE d -2 n 7/9 seed_q -1 slope 0 q 1 rho -46/73 sigma 23/40 tau -80/73 
+tuple_height 73 1
+C_SQUARE d -2 n 7/9 seed_q 1 slope 0 q -1 rho -46/73 sigma 23/40 tau -80/73 
+tuple_height 73 1
+C_SQUARE d 2 n -7/3 seed_q -1 slope 0 q 1 rho 26/19 sigma 13/8 tau 16/19 
+tuple_height 26 1
+C_SQUARE d 2 n -7/3 seed_q 1 slope 0 q -1 rho 26/19 sigma 13/8 tau 16/19 
+tuple_height 26 1
+C_SQUARE d 2 n -1/5 seed_q -1 slope 0 q 1 rho 26/19 sigma -13/8 tau -16/19 
+tuple_height 26 1
+C_SQUARE d 2 n -1/5 seed_q 1 slope 0 q -1 rho 26/19 sigma -13/8 tau -16/19 
+tuple_height 26 1
+C_SQUARE d 2 n 7/9 seed_q -1 slope 0 q 1 rho -46/73 sigma 23/40 tau -80/73 
+tuple_height 73 1
+C_SQUARE d 2 n 7/9 seed_q 1 slope 0 q -1 rho -46/73 sigma 23/40 tau -80/73 
+tuple_height 73 1
+C_SQUARE d 3 n 2/5 seed_q -6 slope -1/6 q -1 rho 3/17 sigma -1/6 tau -18/17 
+tuple_height 17 1
+C_SQUARE d 3 n 2/5 seed_q -1 slope 0 q 1 rho 3/17 sigma -1/6 tau -18/17 
+tuple_height 17 1
+C_SQUARE d 4 n -7/5 seed_q -1 slope 0 q 1 rho 172/53 sigma -43/8 tau -32/53 
+tuple_height 172 1
+C_SQUARE d 4 n -7/5 seed_q 1 slope 0 q -1 rho 172/53 sigma -43/8 tau -32/53 
+tuple_height 172 1
+C_SQUARE d 4 n 5/9 seed_q -1 slope 0 q 1 rho -4/31 sigma 1/8 tau -32/31 
+tuple_height 31 1
+C_SQUARE d 4 n 5/9 seed_q 1 slope 0 q -1 rho -4/31 sigma 1/8 tau -32/31 
+tuple_height 31 1
+DONE
+target F4
+dn_checked 15876
+valid_surface 15286
+target_seed_dns 1220
+target_seeds 2440
+target_param_points 309732
+c_square 248
+residual_square 0
+exact_sources 0
+simple_hits 0
+hits 0

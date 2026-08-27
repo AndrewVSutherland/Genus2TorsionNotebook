@@ -1,0 +1,13 @@
+SEEDINFO idx=9 trip=[ -164/297, -1/2, 164/361 ] ftype=[ 1, 1, 1, 2 ] torsion=[ 2, 2, 14 ]
+NODE idx=9 depth=0 2rank=3 torsion=[ 2, 2, 14 ] order=56 ftype=[ 1, 1, 1, 2 ]
+RSCOUNT idx=9 depth=0 nRS=3 nJac=3
+NODE idx=9 depth=1 2rank=2 torsion=[ 2, 14 ] order=28 ftype=[ 2, 2, 2 ]
+RSCOUNT idx=9 depth=1 nRS=1 nJac=1
+NODE idx=9 depth=1 2rank=2 torsion=[ 2, 14 ] order=28 ftype=[ 2, 2, 2 ]
+RSCOUNT idx=9 depth=1 nRS=1 nJac=1
+NODE idx=9 depth=1 2rank=2 torsion=[ 2, 14 ] order=28 ftype=[ 2, 2, 2 ]
+RSCOUNT idx=9 depth=1 nRS=1 nJac=1
+SEEDDONE idx=9 nodes=4 distinctgroups={
+[ 2, 14 ],
+[ 2, 2, 14 ]
+} newgroups=0

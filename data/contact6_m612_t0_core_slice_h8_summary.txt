@@ -1,0 +1,46 @@
+CONTACT6_M612_T0_CORE_SLICE_SEARCH -- HEIGHT 8 SUMMARY
+
+Command:
+  magma -b height:=8 progress_interval:=500 \
+    code/contact6_m612_t0_core_slice_search.m
+
+parameter_count 87
+checked_slices 7140
+dim0 7140
+positive_dim 0
+core_points 28
+M_squares 12
+boundary57 4
+half_roots 4
+W_squares 0
+verified 0
+simple 0
+exact_tests 0
+hits 0
+CPU seconds 120.98
+
+The four p=5,p=7-boundary core points with square M are:
+
+  omega=-4,   nu=-2,   s=1/2, M=100,   L=10,  U=-14,
+      Fhalf roots: W=5/4 with multiplicity 2; W is not a Q-square.
+
+  omega=4,    nu=-2,   s=1/2, M=100,   L=10,  U=-14,
+      Fhalf roots: W=-27/4 with multiplicity 2; W is not a Q-square.
+
+  omega=-1/4, nu=-1/2, s=8,   M=25/16, L=5/4, U=-7/2,
+      Fhalf roots: W=5 with multiplicity 2; W is not a Q-square.
+
+  omega=1/4,  nu=-1/2, s=8,   M=25/16, L=5/4, U=-7/2,
+      Fhalf roots: W=-27 with multiplicity 2; W is not a Q-square.
+
+The two underlying curves (the sign of omega does not change a,b) are
+singular, as checked independently by
+code/contact6_m612_h8_core_audit.m:
+
+  (a,b)=(5,-5/2):
+    f = x*(x+2)^2*(x^2-11/4*x+4), discriminant 0.
+
+  (a,b)=(-5/2,5):
+    f = x*(x+1/2)^2*(x^2-11/16*x+1/4), discriminant 0.
+
+Thus there is no smooth rational T0-halved core point through height 8.

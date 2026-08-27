@@ -1,0 +1,22 @@
+N11_GENUS2_QUOTIENT Hyperelliptic Curve defined by y^2 = 4826809/8561476*x^6 - 96393375/68491808*x^4 + 8479575/68491808*x^2 + 8555625/8561476 over Rational Field
+f 4826809/8561476*T^6 - 96393375/68491808*T^4 + 8479575/68491808*T^2 + 8555625/8561476
+0
+rank_bounds 0 6
+tors_error 
+In file "code/target_22224_n11_genus2_quotient.m", line 7, column 47:
+>> try print "torsion",Invariants(TorsionSubgroup(J));catch e print "tors_erro
+                                                 ^
+Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+
+points_error 
+In file "code/target_22224_n11_genus2_quotient.m", line 8, column 31:
+>> try print "points10000",Points(C:Bound:=10000);catch e print "points_error"
+                                 ^
+Runtime error in 'Points': Defining polynomial of curve must be integral
+
+elliptic_quotient_1 Elliptic Curve defined by y^2 = x^3 - 13581900*x + 15875190000 over Rational Field
+rank 3 3 gens [ (-4170 : 0 : 1), (2820 : 0 : 1), (-675 : 157275 : 1), (3604 : 117208 : 1), (-1226 : 175168 : 1) ]
+true true
+elliptic_quotient_2 Elliptic Curve defined by y^2 = x^3 - x^2 - 18318305*x + 29047959297 over Rational Field
+rank 3 3 gens [ (-4921 : 0 : 1), (2069 : 0 : 1), (-1931 : -239200 : 1), (-1333 : -226044 : 1), (2944 : -25025 : 1) ]
+true true

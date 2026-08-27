@@ -1,0 +1,41 @@
+######## PART (a)+(b): the eight twists collapse to four ########
+ZERO   (T=0, untwisted)   d1d2=($.2)($.2 - 1)($.1)($.1 - 1)               d1d3=($.1)($.1 - 1)($.1 + $.2 + 1)($.1 + $.2 + 2) d2d3=($.2)($.2 - 1)($.1 + $.2 + 1)($.1 + $.2 + 2) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+A_r1r2                    d1d2=($.2)($.1)($.1 + 2*$.2 + 1)(2*$.1 + $.2 + 1) d1d3=($.1)($.1 + $.2 + 1)($.1 + $.2 + 2)($.1 + 2*$.2 + 1) d2d3=($.2)($.1 + $.2 + 1)($.1 + $.2 + 2)(2*$.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+A_r1r3                    d1d2=-1($.2)($.2 - 1)($.1)($.1 + 2*$.2 + 1)     d1d3=($.1)($.1 - $.2)($.1 + $.2 + 1)($.1 + 2*$.2 + 1) d2d3=-1($.2)($.2 - 1)($.1 - $.2)($.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+A_r2r3                    d1d2=-1($.2)($.1)($.1 - 1)(2*$.1 + $.2 + 1)     d1d3=($.1)($.1 - 1)($.1 - $.2)($.1 + $.2 + 1)   d2d3=-1($.2)($.1 - $.2)($.1 + $.2 + 1)(2*$.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+B_quad (=4Q)              d1d2=($.2)($.2 - 1)($.1)($.1 - 1)               d1d3=($.1)($.1 - 1)($.1 + $.2 + 1)($.1 + $.2 + 2) d2d3=($.2)($.2 - 1)($.1 + $.2 + 1)($.1 + $.2 + 2) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+C_r1                      d1d2=-1($.2)($.1)($.1 - 1)(2*$.1 + $.2 + 1)     d1d3=($.1)($.1 - 1)($.1 - $.2)($.1 + $.2 + 1)   d2d3=-1($.2)($.1 - $.2)($.1 + $.2 + 1)(2*$.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+C_r2                      d1d2=-1($.2)($.2 - 1)($.1)($.1 + 2*$.2 + 1)     d1d3=($.1)($.1 - $.2)($.1 + $.2 + 1)($.1 + 2*$.2 + 1) d2d3=-1($.2)($.2 - 1)($.1 - $.2)($.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+C_r3                      d1d2=($.2)($.1)($.1 + 2*$.2 + 1)(2*$.1 + $.2 + 1) d1d3=($.1)($.1 + $.2 + 1)($.1 + $.2 + 2)($.1 + 2*$.2 + 1) d2d3=($.2)($.1 + $.2 + 1)($.1 + $.2 + 2)(2*$.1 + $.2 + 1) N(dK)=($.2)($.1)($.1 + $.2 + 1)
+
+DISTINCT_CONDITION_SETS 4
+  set 1  <- twists: [ ZERO   (T=0, untwisted), B_quad (=4Q) ]
+  set 2  <- twists: [ A_r1r2, C_r3   ]
+  set 3  <- twists: [ A_r1r3, C_r2   ]
+  set 4  <- twists: [ A_r2r3, C_r1   ]
+NORM_CONDITION_UNIFORM true   (class = ($.2)($.1)($.1 + $.2 + 1))
+COLLAPSE_IS_TRANSLATION_BY_4Q:
+  {T=0, B_quad}      same set: true
+  {A_r1r2, C_r3}     same set: true
+  {A_r1r3, C_r2}     same set: true
+  {A_r2r3, C_r1}     same set: true
+
+######## PART (c): the S_3 action on the four condition sets ########
+  perm id     sends condition sets [1,2,3,4] -> [ 1, 2, 3, 4 ]    N-cond invariant: true
+  perm (uv)   sends condition sets [1,2,3,4] -> [ 1, 2, 4, 3 ]    N-cond invariant: true
+  perm (vw)   sends condition sets [1,2,3,4] -> [ 1, 3, 2, 4 ]    N-cond invariant: true
+  perm (uw)   sends condition sets [1,2,3,4] -> [ 1, 4, 3, 2 ]    N-cond invariant: true
+  perm (uvw)  sends condition sets [1,2,3,4] -> [ 1, 4, 2, 3 ]    N-cond invariant: true
+  perm (uwv)  sends condition sets [1,2,3,4] -> [ 1, 3, 4, 2 ]    N-cond invariant: true
+Y0_IS_S3_INVARIANT true
+OTHER_THREE_FORM_ONE_ORBIT true   (orbit of set 2 = { 2, 3, 4 })
+S3_INEQUIVALENT_SURFACES 2
+
+######## PART (d): the conic parametrisations in the C sweeps ########
+  Y0: v = A/(A-k^2)   ->  u(u-1)v(v-1) - (k v)^2 = 0
+  Y1: v = -A(2u+1)/(k^2+A) -> -u(u-1)v(2u+v+1) - (k v)^2 = 0
+  surface 0: cond3_identity=true cond2_identity=true S1_closed=true S2/Dn_closed=true c3_closed=true
+  surface 1: cond3_identity=true cond2_identity=true S1_closed=true S2/Dn_closed=true c3_closed=true
+
+ALL_ASSERTIONS_PASSED
+SEARCH_DONE

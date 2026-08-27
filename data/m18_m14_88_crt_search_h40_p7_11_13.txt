@@ -1,0 +1,15 @@
+CRT-guided reduced [8,8] exact search
+height 40 primes [ 7, 11, 13 ]
+max_hits 5 max_candidates 0 progress_interval 100
+prime_profile 7 open_good 8 first_pairs 8 reduced_pairs 4
+prime_profile 11 open_good 28 first_pairs 20 reduced_pairs 12
+prime_profile 13 open_good 48 first_pairs 24 reduced_pairs 8
+parameter_count 1959 strict_good_parameters 1399 denominator_bad_parameters 560 s_residue_buckets 871
+progress 100 open_good 99 first_bases 14 first_solutions 56 second_solutions 0 verified 0 hits 0
+progress 200 open_good 199 first_bases 18 first_solutions 72 second_solutions 0 verified 0 hits 0
+progress 300 open_good 299 first_bases 26 first_solutions 104 second_solutions 0 verified 0 hits 0
+progress 400 open_good 399 first_bases 39 first_solutions 156 second_solutions 0 verified 0 hits 0
+progress 500 open_good 499 first_bases 52 first_solutions 208 second_solutions 0 verified 0 hits 0
+DONE height 40 primes [ 7, 11, 13 ]
+pair_candidates 528 open_good 528 first_bases 52 first_solutions 208 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

@@ -1,0 +1,11 @@
+M(12) full two-parameter split cover plus 5/order-60 search
+mode finite height 15 prime_bound 19 primes [ 3, 7, 11, 13, 17, 19 ]
+max_exact 100
+Precomputing rigorous affine residue masks
+MASK 3 good 0 allowed5 0 bad_boundary 9 killed 0
+MASK 7 good 18 allowed5 4 bad_boundary 31 killed 14
+MASK 11 good 70 allowed5 16 bad_boundary 51 killed 54
+MASK 13 good 110 allowed5 16 bad_boundary 59 killed 94
+MASK 17 good 198 allowed5 62 bad_boundary 91 killed 136
+MASK 19 good 260 allowed5 72 bad_boundary 101 killed 188
+DONE finite masks

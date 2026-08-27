@@ -1,0 +1,12 @@
+  fiber <25, -26, -15> torsion [ 2, 2, 2, 6 ]
+  fiber <25, -26, -15> strict prime 23 (true)
+  fiber <7, 2, 1> torsion [ 2, 2, 2, 6 ]
+  fiber <7, 2, 1> strict prime 47 (true)
+  fiber <3, -2, 5> torsion [ 2, 2, 2, 6 ]
+  fiber <3, -2, 5> strict prime 41 (true)
+  fiber <11, 4, -3> torsion [ 2, 2, 2, 6 ]
+  fiber <11, 4, -3> strict prime 23 (true)
+  fiber <5, 7, 2> torsion [ 2, 2, 2, 6 ]
+  fiber <5, 7, 2> strict prime 67 (true)
+DISTINCT_INVS 5
+DONE_C

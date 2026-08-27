@@ -1,0 +1,41 @@
+AGENT_Z48_CUBIC_CONTACT_ROUTE
+Mode=smoke
+Z48_CUBIC_CONTACT_SMOKE
+PrimeBound=43 MinGood=3 GateMode=48 ContactHeight=2 DoExact3=true
+
+SMOKE_CANDIDATE label=slice0_RT4_gate_survivor_false_positive r=-1/4 t=-1/4 p=-41/144 mu=-1/2 y=-5/8 N=5/8 z=125/96
+A16_VERIFY label=slice0_RT4_gate_survivor_false_positive squareOK=true ok16=true sign=1 reason=certified degree=6 disc_zero=false factor_degrees=[ <1, 1>, <2, 1>, <3, 1> ]
+POINT_GATE label=slice0_RT4_gate_survivor_false_positive pass=true reason=passed killp=0 killN=0 good=3 gcd=48 used=[ <13, 192, 0, 192>, <17, 336, 0, 48>, <19, 384, 0, 48> ]
+THREE_PART_DIAGNOSTIC label=slice0_RT4_gate_survivor_false_positive contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=110075314176
+
+SMOKE_CANDIDATE label=simple_rt_3_1over3_p2_mu9 r=3 t=1/3 p=2 mu=9 y=-4 N=-12 z=8/3
+A16_VERIFY label=simple_rt_3_1over3_p2_mu9 squareOK=true ok16=true sign=1 reason=certified degree=5 disc_zero=false factor_degrees=[ <1, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_3_1over3_p2_mu9 pass=false reason=killed killp=5 killN=16 good=1 gcd=16 used=[ <5, 16, 16, 16> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_3_1over3_p2_mu9 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=81
+
+SMOKE_CANDIDATE label=simple_rt_3_1over3_p2_mu27over11 r=3 t=1/3 p=2 mu=27/11 y=-8 N=-60/11 z=32/3
+A16_VERIFY label=simple_rt_3_1over3_p2_mu27over11 squareOK=true ok16=true sign=1 reason=certified degree=5 disc_zero=false factor_degrees=[ <1, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_3_1over3_p2_mu27over11 pass=false reason=killed killp=5 killN=16 good=1 gcd=16 used=[ <5, 16, 16, 16> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_3_1over3_p2_mu27over11 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=81
+
+SMOKE_CANDIDATE label=simple_rt_3_1over3_p34over9 r=3 t=1/3 p=34/9 mu=9/17 y=-4/21 N=-12/17 z=-1544/567
+A16_VERIFY label=simple_rt_3_1over3_p34over9 squareOK=true ok16=true sign=1 reason=certified degree=5 disc_zero=false factor_degrees=[ <1, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_3_1over3_p34over9 pass=false reason=killed killp=13 killN=128 good=1 gcd=128 used=[ <13, 128, 32, 128> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_3_1over3_p34over9 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=282429536481
+
+SMOKE_CANDIDATE label=simple_rt_minus1_1over3_p1over3 r=-1 t=1/3 p=1/3 mu=3/7 y=4/3 N=8/7 z=8/3
+A16_VERIFY label=simple_rt_minus1_1over3_p1over3 squareOK=true ok16=true sign=1 reason=certified degree=6 disc_zero=false factor_degrees=[ <2, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_minus1_1over3_p1over3 pass=false reason=killed killp=5 killN=32 good=1 gcd=32 used=[ <5, 32, 32, 32> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_minus1_1over3_p1over3 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=6561
+
+SMOKE_CANDIDATE label=simple_rt_minus1_1over2_pminus35over6 r=-1 t=1/2 p=-35/6 mu=1 y=-7 N=-13/2 z=77/4
+A16_VERIFY label=simple_rt_minus1_1over2_pminus35over6 squareOK=true ok16=true sign=1 reason=certified degree=6 disc_zero=false factor_degrees=[ <2, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_minus1_1over2_pminus35over6 pass=false reason=killed killp=5 killN=16 good=1 gcd=16 used=[ <5, 16, 16, 16> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_minus1_1over2_pminus35over6 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=331776
+
+SMOKE_CANDIDATE label=simple_rt_3_1over2_p17over6 r=3 t=1/2 p=17/6 mu=1 y=-1/3 N=-7/6 z=-227/36
+A16_VERIFY label=simple_rt_3_1over2_p17over6 squareOK=true ok16=true sign=1 reason=certified degree=6 disc_zero=false factor_degrees=[ <2, 1>, <4, 1> ]
+POINT_GATE label=simple_rt_3_1over2_p17over6 pass=false reason=killed killp=5 killN=16 good=1 gcd=16 used=[ <5, 16, 16, 16> ]
+THREE_PART_DIAGNOSTIC label=simple_rt_3_1over2_p17over6 contactHeight=2 contactChecked=49 contactHit=false exactOK=true has3=false torsion=[ 16 ] order=16 exponent=16 squareScale=2176782336
+SMOKE_DONE candidates=7 verified16=7 rejectedByExact3=7 contactHeightHits=0 z48Unexpected=0
+DONE

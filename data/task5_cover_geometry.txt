@@ -1,0 +1,19 @@
+=== corrected [64] degree-16 function field ===
+z=(2) * t^-2 * (t^2 + t + 1)^-1 * (t^4 + t^3 + t^2 + t + 1)
+r=(t - 1)^-1 * (t + 1)^-1 * (t^2 + 1)^-1
+p=t^5 * (t^2 + 1) * (t^2 + t + 1)^2 * (t^4 + t^3 + t^2 + t + 1)^-1
+a=(2) * t^3 * (t^2 + 1) * (t^2 + t + 1)
+b=(t^4 + t^3 + t^2 + t + 1)^-1 * (t^11 + 2*t^10 + 4*t^9 + 5*t^8 + 6*t^7 + 5*t^6 + 4*t^5 + 2*t^4 + t^3 - t^2 + 1)
+c=(-1) * (t^4 + t^3 + t^2 + t + 1)^-1 * (t^8 + 2*t^7 + 3*t^6 + 3*t^5 + t^4 - t - 2)
+extension_polynomial_degree=16
+extension_factor_degrees_exponents=[(16, 1)]
+coefficient_max_numerator_degree=176
+coefficient_max_denominator_degree=64
+normalization_genus=not_computed (Sage FunctionField.genus timed out at 180s)
+=== reduced [8,8] generic second-halving fiber ===
+E2: total_degree=6 degrees=[2, 2, 1, 2, 2, 4, 1] terms=11
+E1: total_degree=5 degrees=[1, 1, 1, 1, 2, 2, 2] terms=8
+Res_tau(E1,E2): total_degree=13 degrees=[5, 4, 2, 4, 5, 8] terms=64
+generic_degree_in_z=8
+generic_tau_degrees=(2,1)
+eta_branches=2; each has generically 8 z-roots and unique tau

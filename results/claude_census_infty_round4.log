@@ -1,0 +1,13 @@
+FIBER 2244 s=3 source torsion [ 2, 2, 4, 4 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+FIBER 2244 s=5 source torsion [ 2, 2, 4, 4 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+FIBER 2244 s=7 source torsion [ 2, 2, 4, 4 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+FIBER 2228 t=2 source torsion [ 2, 2, 2, 8 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+FIBER 2228 t=3 source torsion [ 2, 2, 2, 8 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+FIBER 2228 t=5 source torsion [ 2, 2, 2, 8 ]
+  RICHELOT_ERR Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y
+ROUND4_DONE

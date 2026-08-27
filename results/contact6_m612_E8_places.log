@@ -1,0 +1,10 @@
+E8 genus (recheck) = 4
+== places over e=0 ==
+  degree 1, ram 2, residue field: Rational Field
+    ** RATIONAL boundary place (residue field Q) **
+  degree 1, ram 6, residue field: Rational Field
+    ** RATIONAL boundary place (residue field Q) **
+== places over e=inf ==
+  degree 8, ram 1, residue field: Number Field with defining polynomial e^8 + 216*e^4 - 1296*e^2 - 3888 over the Rational Field
+    2-adic completion degrees: [ 8 ] 
+DONE

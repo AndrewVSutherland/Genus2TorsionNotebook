@@ -1,0 +1,13 @@
+BOX shard=17/3800 npr=8 minnt=6 dedupe=1 t5=0 tasks=70 threads=32 ranges [-40,40] [-40,40] [-40,40] [-40,40] [-40,40] [-40,40] [-40,40]
+PROGRESS tasks=32/70 tested=1334454577 surv=0 49.0s eta=58s
+PROGRESS tasks=64/70 tested=2711948659 surv=0 87.4s eta=8s
+BOX_DONE shard=17/3800 enum=2970230310 skip=1325 tested=2970228985 lowntdrop=564266 surv=0 wall=99.63s
+PRIME p=37 tested=2804382485 passed=97437007 rate=0.03474 (1/31=0.03226)
+PRIME p=41 tested=256483214 passed=8549660 rate=0.03333 (1/31=0.03226)
+PRIME p=43 tested=14450770 passed=469013 rate=0.03246 (1/31=0.03226)
+PRIME p=47 tested=787102 passed=24719 rate=0.03141 (1/31=0.03226)
+PRIME p=53 tested=40791 passed=1311 rate=0.03214 (1/31=0.03226)
+PRIME p=59 tested=2032 passed=60 rate=0.02953 (1/31=0.03226)
+PRIME p=61 tested=92 passed=2 rate=0.02174 (1/31=0.03226)
+PRIME p=67 tested=5 passed=0 rate=0.00000 (1/31=0.03226)
+RATE tested_per_sec=2.981e+07 per_core=9.316e+05 (threads=32)

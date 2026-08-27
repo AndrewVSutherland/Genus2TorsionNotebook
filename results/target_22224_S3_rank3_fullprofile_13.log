@@ -1,0 +1,25 @@
+RANK3_MWSIEVE_START family S3 pair <1, 3> remaining 2 N 0 E Elliptic Curve defined by y^2 = x^3 - x^2 + 67007092*x + 1181772362562 over Rational Field
+rank_bounds 3 3 generators [ (-8493 : 0 : 1), (4247 : 1242150 : 1), (314353/16 : -203211679/64 : 1), (-59537/9 : 18091450/27 : 1) ]
+known_t 5/11 primes [ 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+PRIME_PROFILE p 11 orders 8 2 4 total 128 local_fail 8 open_no3 0 open3 0 boundary 120 allowed 120
+PRIME_SKIP 13 E_bad_reduction
+PRIME_PROFILE p 17 orders 12 6 6 total 864 local_fail 0 open_no3 0 open3 0 boundary 864 allowed 864
+PRIME_PROFILE p 19 orders 12 12 4 total 1152 local_fail 480 open_no3 192 open3 192 boundary 288 allowed 480
+PRIME_PROFILE p 23 orders 6 4 12 total 576 local_fail 144 open_no3 96 open3 96 boundary 240 allowed 336
+PRIME_PROFILE p 29 orders 7 7 14 total 1372 local_fail 196 open_no3 686 open3 392 boundary 98 allowed 490
+PRIME_PROFILE p 31 orders 20 10 10 total 4000 local_fail 0 open_no3 0 open3 0 boundary 4000 allowed 4000
+PRIME_SKIP 37 E_bad_reduction
+PRIME_PROFILE p 41 orders 16 24 12 total 9216 local_fail 4800 open_no3 2304 open3 1536 boundary 576 allowed 2112
+PRIME_PROFILE p 43 orders 28 2 14 total 1568 local_fail 644 open_no3 448 open3 336 boundary 140 allowed 476
+PRIME_PROFILE p 47 orders 5 10 5 total 500 local_fail 100 open_no3 150 open3 200 boundary 50 allowed 250
+PRIME_PROFILE p 53 orders 60 10 15 total 18000 local_fail 8400 open_no3 2400 open3 6000 boundary 1200 allowed 7200
+PRIME_PROFILE p 59 orders 12 12 36 total 10368 local_fail 4896 open_no3 2160 open3 2304 boundary 1008 allowed 3312
+PRIME_PROFILE p 61 orders 4 2 8 total 128 local_fail 44 open_no3 64 open3 0 boundary 20 allowed 20
+PRIME_PROFILE p 67 orders 6 21 7 total 1764 local_fail 672 open_no3 966 open3 0 boundary 126 allowed 126
+PRIME_PROFILE p 71 orders 22 44 11 total 21296 local_fail 11374 open_no3 5808 open3 3872 boundary 242 allowed 4114
+PRIME_PROFILE p 73 orders 6 21 42 total 10584 local_fail 5796 open_no3 1008 open3 2016 boundary 1764 allowed 3780
+PRIME_PROFILE p 79 orders 17 17 34 total 19652 local_fail 9826 open_no3 6936 open3 2312 boundary 578 allowed 2890
+PRIME_PROFILE p 83 orders 7 21 6 total 1764 local_fail 756 open_no3 504 open3 462 boundary 42 allowed 504
+PRIME_PROFILE p 89 orders 92 46 23 total 194672 local_fail 93104 open_no3 42320 open3 48668 boundary 10580 allowed 59248
+PRIME_PROFILE p 97 orders 27 27 54 total 78732 local_fail 42282 open_no3 11664 open3 11664 boundary 13122 allowed 24786
+RANK3_MWSIEVE_DONE family S3 pair <1, 3> tested 2 modular 0 distinct_exact_t 0 exact_full 0 three_hits 0 modular_file results/target_22224_S3_rank3_fullprofile_13_modular.tsv

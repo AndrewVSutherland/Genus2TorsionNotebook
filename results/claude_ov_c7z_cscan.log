@@ -1,0 +1,5 @@
+scanning 429 values of c
+c=2  A=2/3 B=0  factors=[ <3, 3, 1, 1> ]  LOWGENUS
+--- 1 low-genus / reducible fibres found ---
+  c=2  [ <3, 3, 1, 1> ]
+CSCAN_DONE

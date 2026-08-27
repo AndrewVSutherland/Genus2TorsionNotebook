@@ -1,0 +1,19 @@
+U2_INFINITY_CONTACT_START depth=5
+chart=[-1071*z^2,-1054*z^2,1116*z^2,1134] z_in_13Z13
+radicand_units_mod13=(9, 7, 11, 4) square=(True, False, False, True)
+FULL_COVER_BLOWUP_OBSTRUCTION=R1/z^6=7 and R2/z^6=11 are nonsquares mod13
+contact_mod13_witnesses=17 smooth_unit=[(0, 4, 1, 3), (0, 9, 1, 3)]
+contact_singular_unit=[((0, 6, 0, 0), 1), ((0, 7, 0, 0), 1)]
+contact_Lzero_count=13 contact_Lzero=[((0, 0, 0, 0), 0), ((0, 0, 1, 7), 0), ((0, 0, 2, 1), 0), ((0, 0, 3, 8), 0), ((0, 0, 4, 2), 0), ((0, 0, 5, 9), 0), ((0, 0, 6, 3), 0), ((0, 0, 7, 10), 0), ((0, 0, 8, 4), 0), ((0, 0, 9, 11), 0), ((0, 0, 10, 5), 0), ((0, 0, 11, 12), 0), ((0, 0, 12, 6), 0)]
+contact_level=1 modulus=13 nodes=2 zclasses=1 zvaluation_hist={1: 1}
+contact_lift_to=2 source_rank_hist={3: 2}
+contact_level=2 modulus=169 nodes=26 zclasses=13 zvaluation_hist={1: 12, 2: 1}
+contact_lift_to=3 source_rank_hist={3: 26}
+contact_level=3 modulus=2197 nodes=338 zclasses=169 zvaluation_hist={1: 156, 2: 12, 3: 1}
+contact_lift_to=4 source_rank_hist={3: 338}
+contact_level=4 modulus=28561 nodes=4394 zclasses=2197 zvaluation_hist={1: 2028, 2: 156, 3: 12, 4: 1}
+contact_lift_to=5 source_rank_hist={3: 4394}
+contact_level=5 modulus=371293 nodes=57122 zclasses=28561 zvaluation_hist={1: 26364, 2: 2028, 3: 156, 4: 12, 5: 1}
+SCOPE contact branches are exhaustive only for the two smooth unit-L components; the full-cover nonsquare obstruction is complete for every nonzero z in 13 Z_13 and does not depend on L,U,v
+ACTUAL_U2_INFINITY_FULL_COVER_BRANCHES=0
+output=results/target_22224_U2_infinity_contact_lift.tsv

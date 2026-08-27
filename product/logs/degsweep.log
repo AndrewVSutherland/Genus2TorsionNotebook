@@ -1,0 +1,53 @@
+Loading "split_lab.m"
+DEGPAIR cond=66 cls=3 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=90 cls=3 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=150 cls=1 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=210 cls=2 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=210 cls=5 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=210 cls=5 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=570 cls=12 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=870 cls=9 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=2730 cls=30 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=4290 cls=28 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=6270 cls=18 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=6630 cls=23 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=8190 cls=48 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=10230 cls=33 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=11550 cls=73 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=29370 cls=42 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=30030 cls=46 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=32718 cls=23 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=46410 cls=66 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=46410 cls=66 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+PROGRESSD 50000 (found 0)
+DEGPAIR cond=61770 cls=35 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=62790 cls=46 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=77610 cls=27 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=82110 cls=46 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=82110 cls=46 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=92442 cls=24 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=94710 cls=77 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=99330 cls=33 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+PROGRESSD 100000 (found 0)
+DEGPAIR cond=110670 cls=68 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=110670 cls=68 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=117810 cls=116 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=123690 cls=51 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=125970 cls=32 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=136290 cls=1 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=140910 cls=2 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+PROGRESSD 150000 (found 0)
+DEGPAIR cond=155610 cls=6 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=167790 cls=2 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+PROGRESSD 200000 (found 0)
+DEGPAIR cond=219450 cls=4 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=219450 cls=5 deg=2 T=[ 10 ]x[ 10 ] prod=[ 10, 10 ] off-window
+DEGPAIR cond=249690 cls=62 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=249690 cls=62 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+PROGRESSD 250000 (found 0)
+DEGPAIR cond=266910 cls=63 deg=2 T=[ 8 ]x[ 2, 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=266910 cls=63 deg=2 T=[ 2, 8 ]x[ 8 ] prod=[ 2, 8, 8 ] off-window
+DEGPAIR cond=274170 cls=63 deg=2 T=[ 12 ]x[ 2, 6 ] prod=[ 2, 6, 12 ] off-window
+DEGPAIR cond=278070 cls=19 deg=2 T=[ 2, 6 ]x[ 12 ] prod=[ 2, 6, 12 ] off-window
+PROGRESSD 300000 (found 0)
+DEGSWEEP_DONE found=0

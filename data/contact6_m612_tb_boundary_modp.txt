@@ -1,0 +1,50 @@
+Magma V2.28-27    Fri Jul 10 2026 16:20:56 on <host> [Seed = 3254452011]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact6_m612_tb_boundary_modp.m"
+CONTACT6_M612_TB_BOUNDARY_MODP
+H_SHAPE <8, 3, 31>
+DISCNUM_SHAPE <52, 31, 21, 11, 2707>
+DISCNUM_Q_FACTORIZATION [ <1, 0, 0, 1, 1, 1>, <1, 0, 1, 0, 1, 2>, <2, 2, 1, 0, 3, 1>, <3, 2, 1, 1, 5, 2>, <4, 2, 2, 1, 5, 1>, <5, 3, 2, 1, 9, 6>, <7, 5, 2, 1, 12, 1> ]
+PRIME 5
+ DISC_FACTORIZATION_SHAPES [ <1, 0, 0, 1, 1, 1>, <1, 0, 1, 0, 1, 2>, <2, 2, 1, 0, 3, 1>, <3, 2, 1, 1, 5, 2>, <4, 2, 2, 1, 5, 1>, <5, 3, 2, 1, 9, 6>, <7, 5, 2, 1, 12, 1> ]
+ DISC_FACTOR <kp, 1>
+ DISC_FACTOR <rp, 2>
+ DISC_FACTOR <sp^2 + 4*sp + 2*rp, 1>
+ DISC_FACTOR <sp^2*rp + 4*sp*rp + 4*sp + 2*kp + 1, 2>
+ DISC_FACTOR <sp^2*rp^2 + 2*sp^2*kp + 4*sp*rp + 2*sp*kp + rp*kp, 1>
+ DISC_FACTOR <sp^3*rp^2 + 2*sp^2*rp^2 + 4*sp^3*kp + 4*sp^2*rp + sp*rp^2 + 3*sp*rp + 2*sp*kp + 4*rp*kp + 4*rp, 6>
+ DISC_FACTOR <sp^5*rp^2 + 4*sp^5*kp + 4*sp^4*rp + 4*sp^3*rp^2 + 2*sp^2*rp^2 + sp^3*kp + sp^2*rp + 2*sp*rp^2 + 3*sp*rp + sp*kp + 4*rp*kp + 3*rp, 1>
+ H_DISC_GCD []
+ AFFINE_BOUNDARY_TRIPLES [ <0, 1, 3>, <0, 1, 4>, <0, 2, 4>, <1, 0, 2>, <1, 1, 4>, <1, 2, 3>, <1, 3, 0>, <1, 3, 2>, <1, 4, 1>, <2, 3, 2>, <2, 4, 1>, <3, 2, 3>, <3, 3, 0>, <4, 0, 2>, <4, 1, 3> ]
+ SQUARE_K_BOUNDARY_TRIPLES [ <0, 1, 4>, <0, 2, 4>, <1, 1, 4>, <1, 4, 1>, <2, 4, 1> ]
+ RECOVERY_TRIPLES [ <0, 0, 0>, <0, 0, 2>, <1, 0, 0>, <1, 1, 0>, <2, 0, 0>, <2, 3, 0>, <2, 4, 4>, <3, 0, 0>, <3, 2, 0>, <4, 0, 0>, <4, 4, 0> ]
+ GOOD_ALLOWED_612 0
+PRIME 7
+ DISC_FACTORIZATION_SHAPES [ <1, 0, 0, 1, 1, 1>, <1, 0, 1, 0, 1, 2>, <2, 2, 1, 0, 3, 1>, <3, 2, 1, 1, 5, 2>, <4, 2, 2, 1, 5, 1>, <5, 3, 2, 1, 9, 6>, <7, 5, 2, 1, 12, 1> ]
+ DISC_FACTOR <kp, 1>
+ DISC_FACTOR <rp, 2>
+ DISC_FACTOR <sp^2 + 5*sp + 3*rp, 1>
+ DISC_FACTOR <sp^2*rp + 5*sp*rp + 6*sp + 3*kp + 2, 2>
+ DISC_FACTOR <sp^2*rp^2 + 3*sp^2*kp + 6*sp*rp + 6*sp*kp + 5*rp*kp, 1>
+ DISC_FACTOR <sp^3*rp^2 + 2*sp^2*rp^2 + 6*sp^3*kp + 6*sp^2*rp + sp*rp^2 + 5*sp*rp + 2*sp*kp + 6*rp*kp + 6*rp, 6>
+ DISC_FACTOR <sp^5*rp^2 + 6*sp^5*kp + 6*sp^4*rp + sp^3*rp^2 + 6*sp^2*rp^2 + 6*sp^3*kp + 6*sp^2*rp + 4*sp*rp^2 + sp*rp + 5*sp*kp + 4*rp*kp + 3*rp, 1>
+ H_DISC_GCD []
+ AFFINE_BOUNDARY_TRIPLES [ <0, 1, 0>, <0, 2, 1>, <0, 3, 0>, <1, 1, 4>, <1, 2, 1>, <1, 3, 5>, <1, 4, 2>, <1, 5, 4>, <1, 6, 3>, <2, 0, 6>, <2, 1, 0>, <2, 4, 2>, <3, 0, 1>, <3, 1, 4>, <3, 3, 0>, <3, 6, 5>, <4, 0, 1>, <4, 2, 5>, <4, 3, 2>, <4, 3, 5>, <5, 0, 6>, <5, 2, 1>, <5, 4, 3>, <5, 6, 6> ]
+ SQUARE_K_BOUNDARY_TRIPLES [ <0, 2, 1>, <1, 1, 4>, <1, 2, 1>, <1, 4, 2>, <1, 5, 4>, <2, 4, 2>, <3, 0, 1>, <3, 1, 4>, <4, 0, 1>, <4, 3, 2>, <5, 2, 1> ]
+ RECOVERY_TRIPLES [ <0, 0, 0>, <0, 0, 4>, <1, 0, 0>, <1, 1, 0>, <1, 5, 6>, <2, 0, 0>, <2, 4, 0>, <3, 0, 0>, <3, 5, 0>, <3, 6, 6>, <4, 0, 0>, <4, 2, 0>, <5, 0, 0>, <5, 2, 5>, <5, 3, 0>, <6, 0, 0>, <6, 6, 0> ]
+ GOOD_ALLOWED_612 0
+CONTACT6_M612_TB_BOUNDARY_MODP_DONE
+
+Total time: 2.589 seconds, Total memory usage: 32.09MB

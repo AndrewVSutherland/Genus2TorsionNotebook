@@ -1,0 +1,7 @@
+PIECE 22
+PERIOD_TERMS 80457
+PERIODS ok
+SHAT [ -1, 0, 0, 1, 0, -1, 0, 1, 1, -1, 1, 0, 0, 0, 0, 1 ]
+SHAT_INVOLUTION true
+SHAT_RESID 3.89817E-107
+Runtime error: T7 LLL failed

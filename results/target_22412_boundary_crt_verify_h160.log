@@ -1,0 +1,15 @@
+TARGET_22412_BOUNDARY_CRT_VERIFY_START
+GENERAL_POSITIVE_CONTROL 17 roots [ 1, 4, 2, 8 ]
+partition [ 1, 2, 3, 4 ]
+radicands [ 15, 2, 2, 15 ]
+divisible true J_order 576 three_primary true
+GENERAL_POSITIVE_CONTROL 19 roots [ 1, 4, 3, 7 ]
+partition [ 1, 2, 3, 4 ]
+radicands [ 1, 4, 16, 7 ]
+divisible true J_order 576 three_primary true
+QSQUARE_POSITIVE_CONTROL 43 A 2 B 3 C 36 D2 15 partition [ 1, 4, 2, 3 ]
+D3_order 3 second_half true J_order 2304
+QSQUARE_POSITIVE_CONTROL 47 A 2 B 17 C 18 D2 37 partition [ 1, 2, 3, 4 ]
+D3_order 3 second_half true J_order 2304
+EXACT_CANDIDATE_SUMMARY checked 0 target_hits 0
+TARGET_22412_BOUNDARY_CRT_VERIFY_DONE

@@ -1,0 +1,13 @@
+Z49_STRUCTURAL_3ADIC
+height 200 precision 12 modulus 531441
+rational_b 12319 branches 2 lifted 24638
+all_four_reconstructed 0 exact_open_hits 0
+coverage integral_at_3 b=1_mod3 coordinate_height<= 200
+Z49_STRUCTURAL_3ADIC_DONE
+
+resource_log
+command /usr/bin/time -v python3 code/z49_structural_3adic.py --height 200 --precision 12
+elapsed_seconds 48.80
+user_seconds 48.77
+maximum_resident_kbytes 84628
+exit_status 0

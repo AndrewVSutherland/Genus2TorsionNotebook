@@ -1,0 +1,39 @@
+CONTACT9 rational-root search
+height 80 params 7863 target 54 max_exact 20000
+filter_primes [ 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
+67, 71, 73, 79, 83, 89, 97 ]
+progress checked 2000 smooth 1991 marked9 1991 target_survivors 0 exact_tests 0 
+hits 0
+progress checked 4000 smooth 3991 marked9 3991 target_survivors 0 exact_tests 0 
+hits 0
+progress checked 6000 smooth 5991 marked9 5991 target_survivors 0 exact_tests 0 
+hits 0
+progress checked 8000 smooth 7991 marked9 7991 target_survivors 0 exact_tests 0 
+hits 0
+progress checked 10000 smooth 9991 marked9 9991 target_survivors 0 exact_tests 0
+hits 0
+progress checked 12000 smooth 11991 marked9 11991 target_survivors 0 exact_tests
+0 hits 0
+progress checked 14000 smooth 13991 marked9 13991 target_survivors 0 exact_tests
+0 hits 0
+DONE contact9 root search
+checked 15726 smooth 15718 marked9 15718 target_survivors 0 exact_tests 0 hits 0
+FIRST_KILL
+  7 1958
+  11 5678
+  13 4706
+  17 2184
+  19 474
+  23 312
+  29 78
+  31 138
+  37 76
+  41 56
+  43 24
+  47 14
+  53 2
+  59 2
+  61 12
+  67 2
+  71 2
+TORSION_COUNTS

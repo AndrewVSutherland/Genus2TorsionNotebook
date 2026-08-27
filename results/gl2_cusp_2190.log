@@ -1,0 +1,11 @@
+LEVEL 2190 TARGETPRIME 37
+AMBIENT_DIM 889
+NEW_CUSPIDAL_DIM 98
+PIECES 29 dims=[ 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 8, 8 ]
+MATCHED_PIECE 22 (all 5 Hecke traces agree) AL_signs=[ -1, -1, -1, 1 ] (expect [ -1, -1, -1, 1 ])
+MODABVAR dim=2
+TORSION_LOWER_BOUND 1
+TORSION_MULTIPLE 37
+CUSPIDAL_BOUND_INSUFFICIENT (lower=1; 37-part unproven this way)
+MATCHED_TOTAL 1
+GL2_CUSPIDAL_DONE level=2190

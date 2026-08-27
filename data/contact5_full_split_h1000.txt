@@ -1,0 +1,9 @@
+# contact5 full residual split search
+# height=1000 prime_bound=97 primes=24
+# checked=1216767 residue_survivors=3 f1_squares=3 both_squares=3 candidates=0 boundary_or_degenerate=3
+# columns: r Y W status z w t
+-2 2 0 boundary NA NA NA
+-2 -2 0 boundary NA NA NA
+-1 0 1 collision -1 -1 NA
+0 2 4 singular 0 -1 -1
+0 -2 4 singular -1 0 -1

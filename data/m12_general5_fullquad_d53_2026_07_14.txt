@@ -1,0 +1,22 @@
+# Fixed split-quadratic-B slice d=5/3; captured exact-search counters.
+local p=7 ambient=1 intrinsic_stk=1 exact_order60_control=1
+local p=11 ambient=2 intrinsic_stk=2
+local p=13 ambient=1 intrinsic_stk=1
+local p=17 ambient=3 intrinsic_stk=3
+local p=19 ambient=3 intrinsic_stk=3
+local p=23 ambient=8 intrinsic_stk=7
+local p=29 ambient=10 intrinsic_stk=10
+local p=31 ambient=7 intrinsic_stk=7
+taylor_recovery primes=7,11,13,17,19,23,29,31 recovered=35 tested=35 failures=0
+crt_subset primes=7,11,13,17,19,23,29,31 modulus=6685349671 combinations=8820 reconstructed=432
+crt_subset primes=11,13,17,19,23,29,31 modulus=955049953 combinations=8820 reconstructed=651
+crt_subset primes=7,13,17,19,23,29,31 modulus=607759061 combinations=4410 reconstructed=271
+crt_subset primes=7,11,17,19,23,29,31 modulus=514257667 combinations=8820 reconstructed=546
+crt_subset primes=7,11,13,19,23,29,31 modulus=393255863 combinations=2940 reconstructed=158
+crt_subset primes=7,11,13,17,23,29,31 modulus=351860509 combinations=2940 reconstructed=156
+crt_subset primes=7,11,13,17,19,29,31 modulus=290667377 combinations=1260 reconstructed=73
+crt_subset primes=7,11,13,17,19,23,31 modulus=230529299 combinations=882 reconstructed=27
+crt_subset primes=7,11,13,17,19,23,29 modulus=215656441 combinations=1260 reconstructed=53
+crt_total subsets=9 combinations=40152 reconstructed=2367 unique_exact_triples=2366 exact_hits=0
+height_diagnostic height=30 parameters=1111 formal_triples=1371330631 surviving_pairs=0 modular_triples=0 exact_tested=0 exact_hits=0
+padic prime=7 c_height=1000 precision=24 modulus=191581231380566414401 c_values=152249 reconstructed=6428 unique_exact_rows=6428 reconstruction_bound=9787268040 exact_hits=0

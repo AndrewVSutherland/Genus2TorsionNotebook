@@ -1,0 +1,4 @@
+fInt = 9600000000*x^5 - 30544000000*x^4 + 35200000000*x^3 - 17308760000*x^2 + 3056000000*x
+torsion = [ 2, 2, 6 ]
+VALID CERTIFICATE at p=7 : chi = x^4 + x^3 + 5*x^2 + 7*x + 49 (a1=-1, odd part nonzero)
+DONE

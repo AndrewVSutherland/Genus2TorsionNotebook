@@ -1,0 +1,6 @@
+chart	T_residue	cover_radicands	smooth	J_order	J_order_mod3	affine_contact_count
+finite	1	[ 12, 4, 9, 12 ]	1	128	2	0
+finite	4	[ 10, 1, 10, 1 ]	1	128	2	0
+finite	9	[ 10, 1, 10, 1 ]	1	128	2	0
+finite	12	[ 12, 4, 9, 12 ]	1	128	2	0
+infinity	-1	[ 12, 5, 7, 1 ]	-1	-1	-1	-1

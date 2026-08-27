@@ -1,0 +1,11 @@
+############ ARCS of degree 2 through anchor 9 : f70 Z/35   (N = 35)
+  sanity: anchor fails compat at 0 good p < 200 (must be 0)
+  sanity: the CONSTANT arc f_t = f0 is not killed : 1
+    PROGRESS transverse 5000/20000 killed 5000
+    PROGRESS transverse 10000/20000 killed 10000
+    PROGRESS transverse 15000/20000 killed 15000
+    PROGRESS transverse 20000/20000 killed 20000
+  TRANSVERSE-AT-FIRST-ORDER arcs : 20000 tested, 20000 KILLED, 0 survivors
+  TANGENT-THEN-LEAVING      arcs : 0 tested, 0 KILLED, 0 survivors
+  hardest (p,t) needed = [7, 6]
+SEARCH_DONE arcs anchor 9 deg 2

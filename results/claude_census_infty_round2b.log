@@ -1,0 +1,28 @@
+PART A [4]: f = x * Norm_{K/Q}(x^2 + (2*alpha+1)x + alpha^2), K=Q(sqrt2), alpha=1+s*sqrt2
+  s=1 torsion [ 4 ]  STRICT p=19(true)
+  s=2 torsion [ 4 ]  STRICT p=17(true)
+  s=3 torsion [ 4 ]  STRICT p=19(true)
+  s=-1 torsion [ 4 ]  STRICT p=19(true)
+  s=-2 torsion [ 4 ]  STRICT p=17(true)
+  s=1/2 torsion [ 4 ]  STRICT p=11(true)
+  s=5 torsion [ 4 ]  STRICT p=11(true)
+  s=-3 torsion [ 4 ]  STRICT p=19(true)
+PART B [2,4]: f = x*(x^2+(2a+1)x+a^2)*(x^2+((2g d +1)/d^2)x+g^2/d^2), a=t, (g,d)=(2,3)
+  t=1 torsion [ 2, 2, 4 ]
+  t=2 degenerate
+  t=3 torsion [ 2, 2, 4 ]
+  t=-2 torsion [ 2, 2, 4 ]
+  t=5 torsion [ 2, 2, 4 ]
+  t=1/2 torsion [ 2, 2, 4 ]
+  t=-4 torsion [ 2, 2, 4 ]
+  t=7 torsion [ 2, 2, 4 ]
+PART C [2,2,4]: f = x(x+4)(x+9)(x^2+(2t+1)x+t^2)
+  t=1 torsion [ 2, 2, 4 ]  STRICT p=13(true)
+  t=2 degenerate
+  t=3 torsion [ 2, 2, 4 ]  STRICT p=19(true)
+  t=-2 torsion [ 2, 2, 4 ]  STRICT p=17(true)
+  t=5 torsion [ 2, 2, 4 ]  STRICT p=13(true)
+  t=1/2 torsion [ 2, 2, 4 ]  STRICT p=29(true)
+  t=-4 torsion [ 2, 2, 4 ]  STRICT p=17(true)
+  t=7 torsion [ 2, 2, 4 ]  STRICT p=17(true)
+ROUND2B_DONE

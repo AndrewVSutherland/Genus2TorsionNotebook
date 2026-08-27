@@ -1,0 +1,96 @@
+Loading "split_lab.m"
+FAMILY N1=10 verified 3/3
+PRECAND t=-1 lam=-5/19 tors2=[ 10 ]
+PRECAND t=-1 lam=41/5 tors2=[]
+PRECAND t=1/3 lam=9/25 tors2=[ 10 ]
+PRECAND t=-1/3 lam=7/55 tors2=[]
+PRECAND t=1/4 lam=10/19 tors2=[ 10 ]
+PRECAND t=1/5 lam=-28/9 tors2=[]
+PROGRESS t#10 lam=44080 pre=6 cand=3 glue=0 hit=0 20.570s
+PRECAND t=-1/7 lam=52/43 tors2=[]
+PRECAND t=1/8 lam=42/19 tors2=[]
+PRECAND t=-1/11 lam=-16/33 tors2=[]
+PROGRESS t#20 lam=88160 pre=9 cand=3 glue=0 hit=0 47.470s
+PRECAND t=-1/14 lam=1/52 tors2=[]
+PROGRESS t#30 lam=132240 pre=10 cand=3 glue=0 hit=0 76.720s
+PRECAND t=2 lam=1/25 tors2=[ 10 ]
+PRECAND t=2/3 lam=-45/19 tors2=[ 10 ]
+PROGRESS t#40 lam=176320 pre=12 cand=5 glue=0 hit=0 98.890s
+PRECAND t=3/2 lam=5/38 tors2=[ 10 ]
+PROGRESS t#50 lam=220400 pre=13 cand=6 glue=0 hit=0 124.120s
+PRECAND t=3/5 lam=43/34 tors2=[]
+PRECAND t=-3/7 lam=16/23 tors2=[]
+PROGRESS t#60 lam=264480 pre=15 cand=6 glue=0 hit=0 147.770s
+PRECAND t=-3/11 lam=-13/50 tors2=[]
+PRECAND t=3/13 lam=-53/55 tors2=[]
+PRECAND t=-3/16 lam=7/54 tors2=[]
+PROGRESS t#70 lam=308560 pre=18 cand=6 glue=0 hit=0 175.840s
+PRECAND t=4/3 lam=-28/25 tors2=[]
+PROGRESS t#80 lam=352640 pre=19 cand=6 glue=0 hit=0 201.650s
+PRECAND t=-4/13 lam=-15/38 tors2=[]
+PRECAND t=-4/15 lam=1/37 tors2=[]
+PROGRESS t#90 lam=396720 pre=21 cand=6 glue=0 hit=0 226.710s
+PRECAND t=-5/4 lam=-27/43 tors2=[]
+PRECAND t=-5/9 lam=31/59 tors2=[]
+PROGRESS t#100 lam=440800 pre=23 cand=6 glue=0 hit=0 253.280s
+PRECAND t=5/12 lam=-32/19 tors2=[]
+PRECAND t=-5/16 lam=-43/32 tors2=[]
+PROGRESS t#110 lam=484880 pre=25 cand=6 glue=0 hit=0 280.780s
+PRECAND t=6/5 lam=-54 tors2=[]
+PRECAND t=-6/7 lam=55/32 tors2=[]
+PROGRESS t#120 lam=528960 pre=27 cand=6 glue=0 hit=0 308.500s
+PRECAND t=-7/3 lam=51/32 tors2=[]
+PROGRESS t#130 lam=573040 pre=28 cand=6 glue=0 hit=0 333.140s
+PRECAND t=7/8 lam=-26/35 tors2=[]
+PRECAND t=7/11 lam=55/29 tors2=[]
+PRECAND t=-7/11 lam=-58/13 tors2=[]
+PROGRESS t#140 lam=617120 pre=31 cand=6 glue=0 hit=0 362.400s
+PRECAND t=-7/15 lam=53/38 tors2=[]
+PRECAND t=8 lam=1/58 tors2=[]
+PRECAND t=8 lam=59/34 tors2=[]
+PROGRESS t#150 lam=661200 pre=34 cand=6 glue=0 hit=0 391.560s
+PRECAND t=-8/3 lam=5/19 tors2=[]
+PRECAND t=-8/3 lam=-59/16 tors2=[]
+PROGRESS t#160 lam=705280 pre=36 cand=6 glue=0 hit=0 419.420s
+PRECAND t=-8/13 lam=51/29 tors2=[]
+PRECAND t=-9 lam=59/11 tors2=[]
+PROGRESS t#170 lam=749360 pre=38 cand=6 glue=0 hit=0 446.760s
+PROGRESS t#180 lam=793440 pre=38 cand=6 glue=0 hit=0 476.850s
+PRECAND t=10/3 lam=-19/24 tors2=[]
+PROGRESS t#190 lam=837520 pre=39 cand=6 glue=0 hit=0 506.040s
+PRECAND t=10/7 lam=-29/34 tors2=[]
+PROGRESS t#200 lam=881600 pre=40 cand=6 glue=0 hit=0 537.540s
+PRECAND t=-11/3 lam=29/14 tors2=[]
+PRECAND t=-11/3 lam=-47/54 tors2=[]
+PRECAND t=-11/5 lam=46/31 tors2=[]
+PRECAND t=-11/6 lam=-37/25 tors2=[]
+PROGRESS t#210 lam=925680 pre=44 cand=6 glue=0 hit=0 564.270s
+PRECAND t=11/10 lam=-47/34 tors2=[]
+PROGRESS t#220 lam=969760 pre=45 cand=6 glue=0 hit=0 594.760s
+PROGRESS t#230 lam=1013840 pre=45 cand=6 glue=0 hit=0 625.810s
+PRECAND t=12/13 lam=-57/4 tors2=[]
+PROGRESS t#240 lam=1057920 pre=46 cand=6 glue=0 hit=0 656.050s
+PRECAND t=13/2 lam=-7/52 tors2=[]
+PRECAND t=13/4 lam=49/18 tors2=[]
+PRECAND t=-13/6 lam=11/9 tors2=[]
+PROGRESS t#250 lam=1102000 pre=49 cand=6 glue=0 hit=0 683.230s
+PRECAND t=13/7 lam=-6 tors2=[]
+PROGRESS t#260 lam=1146080 pre=50 cand=6 glue=0 hit=0 714.970s
+PRECAND t=-13/14 lam=36/7 tors2=[]
+PRECAND t=-13/14 lam=47/23 tors2=[]
+PRECAND t=-13/14 lam=51/29 tors2=[]
+PRECAND t=-13/14 lam=53/26 tors2=[]
+PRECAND t=-13/14 lam=-53/29 tors2=[]
+PRECAND t=-13/14 lam=58/43 tors2=[]
+PRECAND t=-14 lam=13/7 tors2=[]
+PRECAND t=-14 lam=-38/13 tors2=[]
+PROGRESS t#270 lam=1190160 pre=58 cand=6 glue=0 hit=0 747.490s
+PROGRESS t#280 lam=1234240 pre=58 cand=6 glue=0 hit=0 779.430s
+PRECAND t=15 lam=-9/8 tors2=[]
+PRECAND t=-15/2 lam=-31/59 tors2=[]
+PRECAND t=-15/2 lam=-50/51 tors2=[]
+PRECAND t=-15/4 lam=7/50 tors2=[]
+PROGRESS t#290 lam=1278320 pre=62 cand=6 glue=0 hit=0 809.410s
+PROGRESS t#300 lam=1322400 pre=62 cand=6 glue=0 hit=0 841.510s
+PROGRESS t#310 lam=1366480 pre=62 cand=6 glue=0 hit=0 872.340s
+SEARCH_DONE c33 N1=10 T2=10 TH=16 SH=60 part 1/1 t=316 lam=1392928 pre=62 cand=6 glue=0 hits=0 892.4 s

@@ -1,0 +1,28 @@
+REPEATED_RANK2_MWSIEVE_START N2 pair <1, 3> remaining 2 N 1001 fixed [ -25, -1, 40 ]
+d0 4205/98 known_t 49/29 E Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+rank_bounds 2 2 generators [ (-60 : 0 : 1), (-3170/81 : -1284400/729 : 1), (1630 : 67600 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE N2 p 23 orders 4 6 total 48 third_fail 24 open_no3 22 open_3 0 boundary 2 finite_direct_boundary 0 infinity 2 allowed 2 lattice_before 8024018 lattice_after 334668
+PRIME_PROFILE N2 p 11 orders 8 8 total 128 third_fail 32 open_no3 0 open_3 0 boundary 96 finite_direct_boundary 72 infinity 24 allowed 96 lattice_before 334668 lattice_after 334668
+PRIORITY_CLASSES N2 p 11 boundary_count 96 open3_count 0 boundary [ <2, 6, 0>, <1, 1, 1>, <1, 7, 6>, <2, 2, 6>, <1, 3, 6>, <1, 1, 0>, <1, 3, 7>, <1, 0, 2>, <2, 6, 4>, <1, 6, 7>, <2, 2, 0>, <1, 4, 0>, <2, 6, 2>, <1, 5, 0>, <2, 4, 1>, <2, 3, 2>, <1, 6, 4>, <2, 7, 1>, <1, 2, 0>, <2, 5, 7>, <1, 7, 2>, <1, 0, 5>, <2, 4, 4>, <1, 2, 4>, <2, 1, 4>, <1, 5, 1>, <2, 4, 5>, <2, 7, 3>, <1, 4, 2>, <1, 0, 0>, <2, 5, 0>, <1, 3, 5>, <1, 5, 3>, <1, 5, 4>, <2, 2, 3>, <1, 1, 3>, <1, 6, 3>, <2, 1, 7>, <2, 7, 5>, <2, 7, 7>, <2, 3, 6>, <1, 5, 5>, <1, 4, 4>, <2, 0, 2>, <1, 1, 5>, <1, 1, 4>, <2, 4, 2>, <1, 4, 1>, <2, 5, 1>, <1, 0, 6>, <1, 6, 0>, <2, 0, 0>, <2, 4, 6>, <2, 0, 6>, <1, 5, 7>, <2, 7, 6>, <2, 2, 7>, <2, 2, 4>, <1, 6, 6>, <1, 3, 3>, <1, 3, 2>, <1, 4, 6>, <2, 0, 4>, <2, 1, 1>, <1, 7, 5>, <2, 7, 2>, <1, 2, 6>, <1, 0, 4>, <1, 7, 7>, <1, 2, 2>, <1, 4, 5>, <1, 1, 7>, <1, 0, 1>, <2, 3, 3>, <1, 7, 1>, <2, 6, 7>, <2, 5, 4>, <1, 2, 7>, <1, 6, 2>, <2, 1, 3>, <1, 3, 1>, <2, 2, 2>, <2, 0, 1>, <2, 3, 5>, <1, 2, 3>, <2, 5, 3>, <2, 1, 0>, <2, 4, 0>, <1, 7, 3>, <2, 3, 1>, <2, 0, 5>, <2, 1, 5>, <2, 6, 6>, <2, 6, 3>, <2, 3, 7>, <2, 5, 5> ]
+PRIME_PROFILE N2 p 17 orders 8 24 total 384 third_fail 192 open_no3 64 open_3 48 boundary 80 finite_direct_boundary 32 infinity 48 allowed 128 lattice_before 334668 lattice_after 334668
+PRIME_PROFILE N2 p 19 orders 2 12 total 48 third_fail 16 open_no3 8 open_3 8 boundary 16 finite_direct_boundary 14 infinity 2 allowed 24 lattice_before 334668 lattice_after 334668
+PRIME_PROFILE N2 p 29 orders 32 32 total 2048 third_fail 0 open_no3 0 open_3 0 boundary 2048 finite_direct_boundary 64 infinity 1984 allowed 2048 lattice_before 334668 lattice_after 334668
+PRIME_PROFILE N2 p 31 orders 18 6 total 216 third_fail 84 open_no3 48 open_3 48 boundary 36 finite_direct_boundary 24 infinity 12 allowed 84 lattice_before 334668 lattice_after 129926
+PRIME_PROFILE N2 p 37 orders 11 11 total 242 third_fail 0 open_no3 0 open_3 0 boundary 242 finite_direct_boundary 231 infinity 11 allowed 242 lattice_before 129926 lattice_after 129926
+PRIME_PROFILE N2 p 41 orders 9 9 total 162 third_fail 0 open_no3 0 open_3 0 boundary 162 finite_direct_boundary 153 infinity 9 allowed 162 lattice_before 129926 lattice_after 129926
+PRIME_PROFILE N2 p 43 orders 3 3 total 18 third_fail 4 open_no3 8 open_3 4 boundary 2 finite_direct_boundary 1 infinity 1 allowed 6 lattice_before 129926 lattice_after 55444
+PRIME_PROFILE N2 p 47 orders 24 12 total 576 third_fail 228 open_no3 192 open_3 144 boundary 12 finite_direct_boundary 0 infinity 12 allowed 156 lattice_before 55444 lattice_after 18537
+PRIME_PROFILE N2 p 53 orders 14 14 total 392 third_fail 112 open_no3 0 open_3 196 boundary 84 finite_direct_boundary 56 infinity 28 allowed 280 lattice_before 18537 lattice_after 13241
+PRIME_PROFILE N2 p 59 orders 28 28 total 1568 third_fail 672 open_no3 336 open_3 196 boundary 364 finite_direct_boundary 280 infinity 84 allowed 560 lattice_before 13241 lattice_after 5681
+PRIME_PROFILE N2 p 61 orders 52 52 total 5408 third_fail 2704 open_no3 2392 open_3 0 boundary 312 finite_direct_boundary 0 infinity 312 allowed 312 lattice_before 5681 lattice_after 653
+PRIME_PROFILE N2 p 67 orders 14 7 total 196 third_fail 42 open_no3 112 open_3 0 boundary 42 finite_direct_boundary 0 infinity 42 allowed 42 lattice_before 653 lattice_after 127
+PRIME_PROFILE N2 p 71 orders 17 17 total 578 third_fail 204 open_no3 204 open_3 51 boundary 119 finite_direct_boundary 102 infinity 17 allowed 170 lattice_before 127 lattice_after 27
+PRIME_PROFILE N2 p 73 orders 88 88 total 15488 third_fail 5456 open_no3 5632 open_3 3520 boundary 880 finite_direct_boundary 704 infinity 176 allowed 4400 lattice_before 27 lattice_after 5
+PRIME_PROFILE N2 p 79 orders 24 8 total 384 third_fail 128 open_no3 128 open_3 64 boundary 64 finite_direct_boundary 48 infinity 16 allowed 128 lattice_before 5 lattice_after 5
+PRIME_PROFILE N2 p 83 orders 6 12 total 144 third_fail 36 open_no3 48 open_3 48 boundary 12 finite_direct_boundary 0 infinity 12 allowed 60 lattice_before 5 lattice_after 4
+PRIME_PROFILE N2 p 89 orders 46 46 total 4232 third_fail 1104 open_no3 1840 open_3 644 boundary 644 finite_direct_boundary 552 infinity 92 allowed 1288 lattice_before 4 lattice_after 2
+PRIME_PROFILE N2 p 97 orders 96 96 total 18432 third_fail 6528 open_no3 6720 open_3 4608 boundary 576 finite_direct_boundary 384 infinity 192 allowed 5184 lattice_before 2 lattice_after 2
+REPEATED_RANK2_MWSIEVE_DONE N2 N 1001 used_primes [ 23, 11, 17, 19, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+lattice_survivors 2 distinct_exact_t 2 exact_full 0 three_hits 0 output results/target_22224_N2_rank2_mwsieve_13_N1001.tsv

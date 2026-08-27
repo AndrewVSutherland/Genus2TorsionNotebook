@@ -1,0 +1,22 @@
+affine curve is irreducible: true
+genus = 1
+  known point (-1/9,-7/3) on C: true
+  known point (-8/7,19/4) on C: true
+  known point (-61/450,625/114) on C: true
+  known point (297/133,361/525) on C: true
+  known point (49/36,50/63) on C: true
+EllipticCurve: Elliptic Curve defined by y^2 = x^3 - 12*x over Rational Field
+Conductor = 288
+j-invariant = 1728
+TorsionSubgroup = [ 2 ]
+RankBounds = 1 .. 1
+MordellWeilGroup = [ 2, 0 ]  (proven: true true)
+generators: [ (-2 : 4 : 1), (0 : 0 : 1) ]
+--- known points on E2 ---
+  (-1/9,-7/3) -> (0 : 1 : 0)
+  (-8/7,19/4) -> (6 : 12 : 1)
+  (-61/450,625/114) -> (14884/1089 : 1756556/35937 : 1)
+  (297/133,361/525) -> (-3267/3721 : 712701/226981 : 1)
+  (49/36,50/63) -> (-2 : 4 : 1)
+heights: [ 0.000000000000000000000000000000, 0.250591196023589181855559992183, 9.02128305684921054680015971857, 9.02128305684921054680015971857, 0.250591196023589181855559992183, 4.00945913637742690968895987493, 6.26477990058972954638899980457, 1.00236478409435672742223996873, 1.00236478409435672742223996873, 6.26477990058972954638899980457 ]
+ELL2_DONE

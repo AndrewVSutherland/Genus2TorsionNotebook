@@ -1,0 +1,9 @@
+GPCHECK charpoly pass=160 fail=0
+GPCHECK brute pass=24 fail=0
+WITNESS disc = [-1, 1; 2, 23; 3, 15; 5, 11; 61, 2]
+WITNESS p=37 J=1550 Jmod31=0
+WITNESS p=41 J=1519 Jmod31=0
+WITNESS p=43 J=1953 Jmod31=0
+WITNESS p=47 J=1953 Jmod31=0
+WITNESS p=53 J=3038 Jmod31=0
+WITNESS p=59 J=3472 Jmod31=0

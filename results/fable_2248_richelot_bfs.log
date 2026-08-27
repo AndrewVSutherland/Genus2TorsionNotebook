@@ -1,0 +1,108 @@
+VERTEX S1_2244 inv=[ 2, 2, 4, 4 ]
+DIV4 S1_2244 order4classes=48 halved=0
+VERTEX S2_2228 inv=[ 2, 2, 2, 8 ]
+HALF4 S2_2228 a 4-class halves rationally: inv=[ 2, 2, 2, 8 ]
+HALF4 S2_2228 a 4-class halves rationally: inv=[ 2, 2, 2, 8 ]
+DIV4 S2_2228 order4classes=16 halved=2
+VERTEX S1_2244.1 inv=[ 2, 2, 2, 2 ]
+VERTEX S1_2244.2 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.2 order4classes=8 halved=0
+VERTEX S1_2244.3 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.3 order4classes=8 halved=0
+VERTEX S1_2244.4 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.4 order4classes=8 halved=0
+VERTEX S1_2244.5 inv=[ 4, 4 ]
+DIV4 S1_2244.5 order4classes=12 halved=0
+VERTEX S1_2244.6 inv=[ 4, 4 ]
+DIV4 S1_2244.6 order4classes=12 halved=0
+VERTEX S1_2244.7 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.7 order4classes=8 halved=0
+VERTEX S1_2244.8 inv=[ 4, 4 ]
+DIV4 S1_2244.8 order4classes=12 halved=0
+VERTEX S1_2244.9 inv=[ 4, 4 ]
+DIV4 S1_2244.9 order4classes=12 halved=0
+VERTEX S1_2244.10 inv=[ 4, 4 ]
+DIV4 S1_2244.10 order4classes=12 halved=0
+VERTEX S1_2244.11 inv=[ 4, 4 ]
+DIV4 S1_2244.11 order4classes=12 halved=0
+VERTEX S1_2244.12 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.12 order4classes=8 halved=0
+VERTEX S1_2244.13 inv=[ 4, 4 ]
+DIV4 S1_2244.13 order4classes=12 halved=0
+VERTEX S1_2244.14 inv=[ 4, 4 ]
+DIV4 S1_2244.14 order4classes=12 halved=0
+VERTEX S1_2244.15 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.15 order4classes=8 halved=0
+VERTEX S2_2228.1 inv=[ 2, 2, 4 ]
+DIV4 S2_2228.1 order4classes=8 halved=0
+VERTEX S2_2228.2 inv=[ 2, 2, 4 ]
+DIV4 S2_2228.2 order4classes=8 halved=0
+VERTEX S2_2228.3 inv=[ 2, 2, 4 ]
+DIV4 S2_2228.3 order4classes=8 halved=0
+VERTEX S2_2228.4 inv=[ 2, 8 ]
+HALF4 S2_2228.4 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.4 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.4 order4classes=4 halved=2
+VERTEX S2_2228.5 inv=[ 2, 8 ]
+HALF4 S2_2228.5 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.5 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.5 order4classes=4 halved=2
+VERTEX S2_2228.6 inv=[ 2, 8 ]
+HALF4 S2_2228.6 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.6 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.6 order4classes=4 halved=2
+VERTEX S2_2228.7 inv=[ 2, 8 ]
+HALF4 S2_2228.7 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.7 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.7 order4classes=4 halved=2
+VERTEX S2_2228.8 inv=[ 2, 8 ]
+HALF4 S2_2228.8 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.8 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.8 order4classes=4 halved=2
+VERTEX S2_2228.9 inv=[ 2, 8 ]
+HALF4 S2_2228.9 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.9 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.9 order4classes=4 halved=2
+VERTEX S2_2228.10 inv=[ 2, 8 ]
+HALF4 S2_2228.10 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.10 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.10 order4classes=4 halved=2
+VERTEX S2_2228.11 inv=[ 2, 8 ]
+HALF4 S2_2228.11 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.11 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.11 order4classes=4 halved=2
+VERTEX S2_2228.12 inv=[ 2, 8 ]
+HALF4 S2_2228.12 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.12 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.12 order4classes=4 halved=2
+VERTEX S2_2228.13 inv=[ 2, 8 ]
+HALF4 S2_2228.13 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.13 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.13 order4classes=4 halved=2
+VERTEX S2_2228.14 inv=[ 2, 8 ]
+HALF4 S2_2228.14 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.14 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.14 order4classes=4 halved=2
+VERTEX S2_2228.15 inv=[ 2, 8 ]
+HALF4 S2_2228.15 a 4-class halves rationally: inv=[ 2, 8 ]
+HALF4 S2_2228.15 a 4-class halves rationally: inv=[ 2, 8 ]
+DIV4 S2_2228.15 order4classes=4 halved=2
+VERTEX S1_2244.1.1 inv=[ 2, 2 ]
+VERTEX S1_2244.1.3 inv=[ 2, 2, 2 ]
+VERTEX S1_2244.1.4 inv=[ 2, 2 ]
+VERTEX S1_2244.1.5 inv=[ 2, 2, 2 ]
+VERTEX S1_2244.1.6 inv=[ 2, 2, 2, 2 ]
+VERTEX S1_2244.1.7 inv=[ 2, 2 ]
+VERTEX S1_2244.1.8 inv=[ 2, 2 ]
+VERTEX S1_2244.1.9 inv=[ 2, 2, 2 ]
+VERTEX S1_2244.1.10 inv=[ 2, 2, 4 ]
+DIV4 S1_2244.1.10 order4classes=8 halved=0
+VERTEX S1_2244.1.11 inv=[ 2, 2 ]
+VERTEX S1_2244.1.12 inv=[ 2, 2, 2 ]
+VERTEX S1_2244.1.13 inv=[ 2, 2 ]
+VERTEX S1_2244.1.14 inv=[ 2, 2 ]
+VERTEX S1_2244.1.15 inv=[ 2, 2 ]
+VERTEX S2_2228.1.1 inv=[ 2, 2, 2, 2 ]
+VERTEX S2_2228.1.2 inv=[ 2, 2, 4 ]
+DIV4 S2_2228.1.2 order4classes=8 halved=0
+BFS_DONE vertices=48 (max_depth=2)

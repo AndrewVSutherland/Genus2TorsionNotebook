@@ -1,0 +1,6 @@
+TARGET_22224_OFFRECTANGLE_FIBERS_START MultipleBound 20 PointBound 100 LatticeBound 2
+FIBER_START P8 fixed [ 528, -726, -891 ]
+d0 50 known_t 19/5
+QUOTIENT P8 <1, 2> quartic -625/97682*T^4 + 2475/97682*T^2 + 47916/48841
+known_point_order 0 rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 1520244*x + 202972176 over Rational Field

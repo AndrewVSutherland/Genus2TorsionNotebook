@@ -1,0 +1,10 @@
+ROW [45] : computed torsion [ 45 ] (order 45)
+ROW [63] : computed torsion [ 63 ] (order 63)
+ROW [70] : computed torsion [ 70 ] (order 70)
+ROW [6,12] : computed torsion [ 6, 12 ] (order 72)
+ROW [7,7] : computed torsion [ 7, 7 ] (order 49)
+ROW [8,8] : computed torsion [ 8, 8 ] (order 64)
+ROW [2,2,24] : computed torsion [ 2, 2, 24 ] (order 96)
+ROW [2,2,4,4] : computed torsion [ 2, 2, 4, 4 ] (order 64)
+ROW [2,2,4,8] : computed torsion [ 2, 2, 4, 8 ] (order 128)
+TABLE_VERIFY_DONE

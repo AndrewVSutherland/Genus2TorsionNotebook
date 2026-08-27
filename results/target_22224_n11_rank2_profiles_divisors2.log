@@ -1,0 +1,11 @@
+N11_RANK2_MWSIEVE_START N 1000 primes [ 37, 41, 107 ]
+E Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+rank_bounds 2 2 generators [ (4310 : 176400 : 1), (26360 : -4013100 : 1), (28265/4 : 1466325/8 : 1) ]
+known_t 1/13
+N11_PRIME_PROFILE p 37 orders 24 24 total 2304 third_fail 960 open_no3 144 open_3 528 boundary 672 allowed 1200
+N11_PRIORITY_CLASSES p 37 boundary_count 672 open_3_count 528 full_list_in results/target_22224_n11_rank2_profiles_divisors2.tsv
+N11_PRIME_PROFILE p 41 orders 13 26 total 1352 third_fail 442 open_no3 208 open_3 598 boundary 104 allowed 702
+N11_PRIORITY_CLASSES p 41 boundary_count 104 open_3_count 598 full_list_in results/target_22224_n11_rank2_profiles_divisors2.tsv
+N11_PRIME_PROFILE p 107 orders 26 13 total 1352 third_fail 468 open_no3 286 open_3 494 boundary 104 allowed 598
+N11_PRIORITY_CLASSES p 107 boundary_count 104 open_3_count 494 full_list_in results/target_22224_n11_rank2_profiles_divisors2.tsv
+N11_PROFILE_ONLY_DONE results/target_22224_n11_rank2_profiles_divisors2.tsv

@@ -1,0 +1,850 @@
+SEARCH p=3 boundary tags for contact-7 rational-root plus 3
+height 20 params 511 target 42
+filter_primes_away_from_3 [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 
+53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+progress checked 50000 smooth 46929 survivors_away3 0
+progress checked 100000 smooth 96914 survivors_away3 0
+progress checked 150000 smooth 146913 survivors_away3 0
+progress checked 200000 smooth 196913 survivors_away3 0
+progress checked 250000 smooth 246913 survivors_away3 0
+progress checked 300000 smooth 296913 survivors_away3 0
+progress checked 350000 smooth 346913 survivors_away3 0
+progress checked 400000 smooth 396913 survivors_away3 0
+progress checked 450000 smooth 446913 survivors_away3 0
+progress checked 500000 smooth 496913 survivors_away3 0
+DONE
+checked 522242 smooth 519156 survivors_away3 0
+TAG_COUNTS
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral 16214
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral 18090
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral 18090
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+16080
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral 16214
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral 18090
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral 18090
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+16080
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral 4260
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 16212
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 18088
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true 18090
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral 3696
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral 4260
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+3864
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral 4260
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 16212
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 18088
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true 18090
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral 3696
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral 4260
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+3864
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 32400
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 29034
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 32400
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 28800
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral 228
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral 264
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral 264
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral 29040
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral 32396
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral 32400
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 28042
+TAG_GOOD3
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true 18090
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true 18090
+TAG_SURVIVORS_AWAY3
+TAG_FIRST_KILL
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=11 3087
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=13 2333
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=17 1324
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=19 842
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=23 487
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=29 230
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=31 80
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=37 25
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=41 13
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=43 9
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=5 3740
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=53 1
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=7 4043
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=11 3487
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=13 2379
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=17 1433
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=19 945
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=23 547
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=29 227
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=31 101
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=37 36
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=41 14
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=43 8
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=47 3
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=5 4159
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=53 1
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=7 4750
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=11 3445
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=13 2321
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=17 1561
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=19 822
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=23 502
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=29 212
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=31 114
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=37 38
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=41 21
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=43 8
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=5 4164
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=53 3
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=61 1
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=7 4878
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=11 3053
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=13 2059
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=17 1141
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=19 630
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=23 298
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=29 152
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=31 59
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=37 29
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=41 7
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=43 7
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=47 3
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=5 3740
+  r=0,cancel=no,sres=1,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=7 4902
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=11 3087
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=13 2333
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=17 1324
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=19 842
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=23 487
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=29 230
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=31 80
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=37 25
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=41 13
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=43 9
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=5 3740
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=53 1
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=7 4043
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=11 3487
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=13 2379
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=17 1433
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=19 945
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=23 547
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=29 227
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=31 101
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=37 36
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=41 14
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=43 8
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=47 3
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=5 4159
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=53 1
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=7 4750
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=11 3445
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=13 2321
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=17 1561
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=19 822
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=23 502
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=29 212
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=31 114
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=37 38
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=41 21
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=43 8
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=5 4164
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=53 3
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=61 1
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=7 4878
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=11 3053
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=13 2059
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=17 1141
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=19 630
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=23 298
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=29 152
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=31 59
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=37 29
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=41 7
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=43 7
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=47 3
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=5 3740
+  r=0,cancel=no,sres=2,epss=2,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral |
+firstkill=7 4902
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 858
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 595
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 345
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 201
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 115
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 44
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 13
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 8
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=43 2
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=47 1
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 865
+  r=0,cancel=yes,sres=1,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1213
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=11
+3217
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=13
+2289
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=17
+1504
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=19
+918
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=23
+684
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=29
+263
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=31
+116
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=37
+55
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=41
+16
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=43
+6
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=5 
+3380
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=53
+1
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=7 
+3763
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=11
+3558
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=13
+2417
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=17
+1581
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=19
+1090
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=23
+685
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=29
+270
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=31
+134
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=37
+67
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=41
+14
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=43
+11
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=47
+5
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=5 
+3769
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=7 
+4487
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=11 3581
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=13 2322
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=17 1752
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=19 907
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=23 676
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=29 289
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=31 119
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=37 80
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=41 18
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=43 12
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=47 7
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=5 3744
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=53 1
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=59 1
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=7 4581
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 796
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 440
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 325
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 171
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 97
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 37
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 11
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 6
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=41 2
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 599
+  r=0,cancel=yes,sres=1,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1212
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 845
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 563
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 366
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 198
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 119
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 42
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 24
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 6
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=41 5
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=43 1
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 864
+  r=0,cancel=yes,sres=1,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1227
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=11 705
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=13 482
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=17 307
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=19 193
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=23 107
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=29 40
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=31 12
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=37 10
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=43 2
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=5 1052
+  r=0,cancel=yes,sres=1,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=7 954
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 858
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 595
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 345
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 201
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 115
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 44
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 13
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 8
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=43 2
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=47 1
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 865
+  r=0,cancel=yes,sres=2,epss=1,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1213
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=11
+3217
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=13
+2289
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=17
+1504
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=19
+918
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=23
+684
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=29
+263
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=31
+116
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=37
+55
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=41
+16
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=43
+6
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=5 
+3380
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=53
+1
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=7 
+3763
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=11
+3558
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=13
+2417
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=17
+1581
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=19
+1090
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=23
+685
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=29
+270
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=31
+134
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=37
+67
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=41
+14
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=43
+11
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=47
+5
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=5 
+3769
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=1 | red3=bad:h11:disc0 | firstkill=7 
+4487
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=11 3581
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=13 2322
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=17 1752
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=19 907
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=23 676
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=29 289
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=31 119
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=37 80
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=41 18
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=43 12
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=47 7
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=5 3744
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=53 1
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=59 1
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=2 | red3=good:#J14:pass14true | 
+firstkill=7 4581
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 796
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 440
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 325
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 171
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 97
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 37
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 11
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 6
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=41 2
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 599
+  r=0,cancel=yes,sres=2,epss=1,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1212
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 845
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 563
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 366
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 198
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 119
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 42
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 24
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 6
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=41 5
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=43 1
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=5 864
+  r=0,cancel=yes,sres=2,epss=1,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=7 1227
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=11 705
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=13 482
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=17 307
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=19 193
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=23 107
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=29 40
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=31 12
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=37 10
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=43 2
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=5 1052
+  r=0,cancel=yes,sres=2,epss=1,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral 
+| firstkill=7 954
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=11 6404
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=13 4138
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=17 2412
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=19 1520
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=23 822
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=29 346
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=31 152
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=37 70
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=41 34
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=43 8
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=47 4
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=5 7120
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=53 2
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=59 2
+  s=0,sres=0,epss=0,ares=0,bres=1 | red3=bad:h10:disc0 | firstkill=7 9366
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=11 5616
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=13 4014
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=17 2260
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=19 1436
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=23 760
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=29 350
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=31 140
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=37 72
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=41 20
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=43 14
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=47 4
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=5 6400
+  s=0,sres=0,epss=0,ares=1,bres=0 | red3=bad:h10:disc0 | firstkill=7 7948
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=11 6280
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=13 3968
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=17 2658
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=19 1314
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=23 792
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=29 366
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=31 188
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=37 76
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=41 22
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=43 22
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=47 2
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=5 7120
+  s=0,sres=0,epss=0,ares=2,bres=2 | red3=bad:h10:disc0 | firstkill=7 9592
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=11 5512
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=13 3418
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=17 1962
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=19 1000
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=23 488
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=29 204
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=31 96
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=37 34
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=41 12
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=43 8
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=47 2
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=5 6400
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=53 2
+  s=0,sres=0,epss=0,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=7 9662
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 40
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 34
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 18
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 10
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 6
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 4
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | 
+firstkill=43 2
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | firstkill=5
+44
+  s=inf,sres=inf,epss=inf,ares=0,bres=inf,b=inf | red3=nonintegral | firstkill=7
+70
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 62
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 28
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 18
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 14
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=29 4
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | 
+firstkill=31 2
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | firstkill=5
+40
+  s=inf,sres=inf,epss=inf,ares=1,bres=inf,b=inf | red3=nonintegral | firstkill=7
+96
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=11 48
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=13 34
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=17 12
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=19 18
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=23 10
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | 
+firstkill=37 2
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | firstkill=5
+36
+  s=inf,sres=inf,epss=inf,ares=2,bres=inf,b=inf | red3=nonintegral | firstkill=7
+104
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=11 5498
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=13 4116
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=17 2360
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=19 1358
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=23 764
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=29 348
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=31 134
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=37 66
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=41 20
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=43 12
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=47 2
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | firstkill=5
+6400
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | 
+firstkill=53 2
+  s=inf,sres=inf,epss=inf,ares=inf,bres=0,a=inf | red3=nonintegral | firstkill=7
+7960
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=11 6224
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=13 4098
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=17 2502
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=19 1560
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=23 866
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=29 376
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=31 168
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=37 54
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=41 22
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=43 10
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | 
+firstkill=47 6
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | firstkill=5
+7120
+  s=inf,sres=inf,epss=inf,ares=inf,bres=1,a=inf | red3=nonintegral | firstkill=7
+9390
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=11 6118
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=13 4088
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=17 2666
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=19 1416
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=23 756
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=29 346
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=31 120
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=37 70
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=41 38
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=43 10
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | 
+firstkill=47 2
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | firstkill=5
+7120
+  s=inf,sres=inf,epss=inf,ares=inf,bres=2,a=inf | red3=nonintegral | firstkill=7
+9650
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=11 5194
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=13 3446
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=17 2010
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=19 954
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=23 418
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=29 182
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=31 94
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=37 22
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=41 14
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=43 8
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=47 2
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=5 6280
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=61 2
+  s=inf,sres=inf,epss=inf,ares=inf,bres=inf,a=inf,b=inf | red3=nonintegral | 
+firstkill=7 9416

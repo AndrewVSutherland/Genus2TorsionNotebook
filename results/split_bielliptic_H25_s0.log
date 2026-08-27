@@ -1,0 +1,37 @@
+PROGRESS a=-25 processed 130040 exact 13220
+PROGRESS a=-23 processed 260082 exact 18367
+HIT [-21,-19,24,16] TORSION [ 2, 8 ] order 16
+PROGRESS a=-21 processed 390118 exact 31175
+PROGRESS a=-19 processed 520148 exact 36463
+PROGRESS a=-17 processed 650172 exact 41147
+HIT [-15,-2,13,4] TORSION [ 2, 8 ] order 16
+HIT [-15,-1,12,4] TORSION [ 2, 8 ] order 16
+PROGRESS a=-15 processed 780190 exact 52066
+PROGRESS a=-13 processed 910202 exact 63094
+PROGRESS a=-11 processed 1040210 exact 72965
+PROGRESS a=-9 processed 1170192 exact 76175
+HIT [-7,-20,-20,-7] TORSION [ 3, 6 ] order 18
+PROGRESS a=-7 processed 1300184 exact 83807
+PROGRESS a=-5 processed 1430170 exact 89912
+PROGRESS a=-3 processed 1560148 exact 92030
+PROGRESS a=-1 processed 1690112 exact 93988
+HIT [1,-2,9,8] TORSION [ 21 ] order 21
+PROGRESS a=1 processed 1820076 exact 94424
+PROGRESS a=3 processed 1950054 exact 94822
+HIT [5,-6,21,-4] TORSION [ 3, 6 ] order 18
+PROGRESS a=5 processed 2080040 exact 95830
+PROGRESS a=7 processed 2210032 exact 96184
+PROGRESS a=9 processed 2340014 exact 96561
+PROGRESS a=11 processed 2470022 exact 97362
+HIT [13,10,-3,-4] TORSION [ 21 ] order 21
+PROGRESS a=13 processed 2600034 exact 98622
+PROGRESS a=15 processed 2730052 exact 99568
+
+Current total memory usage: 2191.8MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached
+
+Current total memory usage: 2191.8MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached
+
+Current total memory usage: 2191.8MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached

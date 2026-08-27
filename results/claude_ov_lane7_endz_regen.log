@@ -1,0 +1,15 @@
+[2,2,14]  (s,t,u)=(-10,-10/7,-1/2)  N=2^2*3^2*5^2*7^2*13^2*19*23*37*317=38200383011700 [v_2(disc_min)=10<12, Ogg guaranteed]: torsion [ 2, 2, 14 ], root-power p0=17, disjoint q0=31, tors>18 true => End=Z true
+[2,2,20]: torsion [ 2, 2, 20 ], root-power p0=71, disjoint q0=83, tors>18 true => End=Z true
+[2,4,8]: torsion [ 2, 4, 8 ], root-power p0=47, disjoint q0=83, tors>18 true => End=Z true
+[6,6]: torsion [ 6, 6 ], root-power p0=37, disjoint q0=59, tors>18 true => End=Z true
+[2,4,4]: torsion [ 2, 4, 4 ], root-power p0=97, disjoint q0=113, tors>18 true => End=Z true
+[2,2,4,4]: torsion [ 2, 2, 4, 4 ], root-power p0=37, disjoint q0=61, tors>18 true => End=Z true
+[2,2,2,8]: torsion [ 2, 2, 2, 8 ], root-power p0=41, disjoint q0=47, tors>18 true => End=Z true
+[2,2,2,12]: torsion [ 2, 2, 2, 12 ], root-power p0=71, disjoint q0=103, tors>18 true => End=Z true
+[2,2,2,10]: torsion [ 2, 2, 2, 10 ], root-power p0=11, disjoint q0=71, tors>18 true => End=Z true
+[2,2,14] #2 (s,t,u)=(-511/61,-511/625,-1/2)   N=2^3*1363558168459661985137828367867185325 [v_2(disc_min)=8<12, Ogg guaranteed]: torsion [ 2, 2, 14 ], root-power p0=17, disjoint q0=79, tors>18 true => End=Z true
+[2,2,14] #3 (s,t,u)=(-165/41,-33/16,-165/289) N=2^2*11352674691759169446159049425 [v_2(disc_min)=21, 2-part unverified]: torsion [ 2, 2, 14 ], root-power p0=71, disjoint q0=79, tors>18 true => End=Z true
+[2,2,14] #4 (s,t,u)=(-164/297,-1/2,164/361)   N=2^2*10200972432773189299959691439475 [v_2(disc_min)=26, 2-part unverified]: torsion [ 2, 2, 14 ], root-power p0=17, disjoint q0=29, tors>18 true => End=Z true
+[2,2,14] #5 (s,t,u)=(-17/50,-34/189,34/121)   N=2^4*3069529451653112094922275 [v_2(disc_min)=14, 2-part unverified]: torsion [ 2, 2, 14 ], root-power p0=41, disjoint q0=43, tors>18 true => End=Z true
+[2,2,14] #6 (s,t,u)=(-1/2,-13/49,13/50)       N=2^2*69195300331841508825 [v_2(disc_min)=14, 2-part unverified]: torsion [ 2, 2, 14 ], root-power p0=17, disjoint q0=31, tors>18 true => End=Z true
+ALL_DONE

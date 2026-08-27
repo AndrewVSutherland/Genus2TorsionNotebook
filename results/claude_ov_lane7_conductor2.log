@@ -1,0 +1,82 @@
+COND2 idx=1 (s,t,u)=(-10, -10/7, -1/2) v_2(disc_min)=10 oggreliable=true
+COND2 idx=1 N = 38200383011700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <13, 2>, <19, 1>, <23, 1>, <37, 1>, <317, 1> ]
+COND2 idx=1 oddpart(N) = 9550095752925   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 1 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=2 (s,t,u)=(-5, -15/8, -15/22) v_2(disc_min)=14 oggreliable=false
+COND2 idx=2 N = 71739344823300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <19, 1>, <59, 1>, <67, 1>, <179, 1> ]
+COND2 idx=2 oddpart(N) = 17934836205825   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 2 rc=0 ---
+COND2 idx=3 (s,t,u)=(-3, -3/4, -3/5) v_2(disc_min)=7 oggreliable=true
+COND2 idx=3 N = 152100 = [ <2, 2>, <3, 2>, <5, 2>, <13, 2> ]
+COND2 idx=3 oddpart(N) = 38025   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 3 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=4 (s,t,u)=(-15/8, -15/19, -1/2) v_2(disc_min)=14 oggreliable=false
+COND2 idx=4 N = 57756824308883700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <31, 1>, <59, 1>, <97, 1> ]
+COND2 idx=4 oddpart(N) = 14439206077220925   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 4 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+
+Current total memory usage: 2748.3MB, failed memory request: 196.0MB
+System Error: User memory limit has been reached
+COND2 idx=5 (s,t,u)=(-5/18, -10/49, 4/17) v_2(disc_min)=30 oggreliable=false
+
+In file "code/claude_ov_lane7_conductor2.m", line 45, column 43:
+>> printf "COND2 idx=%o N = %o = %o\n", IDX, N, Factorization(N);
+                                             ^
+User error: Identifier 'N' has not been declared or assigned
+
+In file "code/claude_ov_lane7_conductor2.m", line 46, column 65:
+>> printf "COND2 idx=%o oddpart(N) = %o   2part(N) = 2^%o\n", IDX, N div 2^Val
+                                                                   ^
+User error: Identifier 'N' has not been declared or assigned
+LANE7_COND2_DONE
+--- idx 5 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=6 (s,t,u)=(-4/9, -4/25, 4/17) v_2(disc_min)=30 oggreliable=false
+COND2 idx=6 N = 677181093170400 = [ <2, 5>, <3, 2>, <5, 2>, <7, 2>, <13, 1>, <17, 2>, <23, 1>, <97, 1>, <229, 1> ]
+COND2 idx=6 oddpart(N) = 21161909161575   2part(N) = 2^5
+LANE7_COND2_DONE
+--- idx 6 rc=0 ---
+COND2 idx=7 (s,t,u)=(-511/61, -511/625, -1/2) v_2(disc_min)=8 oggreliable=true
+COND2 idx=7 N = 10908465347677295881102626942937482600 = [ <2, 3>, <3, 2>, <5, 2>, <7, 2>, <19, 2>, <23, 1>, <31, 1>, <47, 1>, <59, 1>, <61, 2>, <73, 2>, <397, 1>, <7681, 1>, <8219, 1>, <348671, 1> ]
+COND2 idx=7 oddpart(N) = 1363558168459661985137828367867185325   2part(N) = 2^3
+LANE7_COND2_DONE
+--- idx 7 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=8 (s,t,u)=(-165/41, -33/16, -165/289) v_2(disc_min)=21 oggreliable=false
+COND2 idx=8 N = 45410698767036677784636197700 = [ <2, 2>, <3, 2>, <5, 2>, <11, 2>, <13, 2>, <17, 2>, <19, 1>, <31, 2>, <41, 2>, <43, 1>, <61, 1>, <67, 1>, <1063, 1>, <1489, 1> ]
+COND2 idx=8 oddpart(N) = 11352674691759169446159049425   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 8 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=9 (s,t,u)=(-164/297, -1/2, 164/361) v_2(disc_min)=26 oggreliable=false
+COND2 idx=9 N = 40803889731092757199838765757900 = [ <2, 2>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <23, 1>, <31, 1>, <37, 1>, <41, 2>, <47, 1>, <53, 1>, <71, 1>, <251, 1>, <409, 1>, <467, 1> ]
+COND2 idx=9 oddpart(N) = 10200972432773189299959691439475   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 9 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=10 (s,t,u)=(-17/50, -34/189, 34/121) v_2(disc_min)=14 oggreliable=false
+COND2 idx=10 N = 49112471226449793518756400 = [ <2, 4>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <17, 2>, <23, 1>, <31, 2>, <37, 1>, <89, 1>, <563, 1>, <3449, 1> ]
+COND2 idx=10 oddpart(N) = 3069529451653112094922275   2part(N) = 2^4
+LANE7_COND2_DONE
+--- idx 10 rc=0 ---
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+COND2 idx=11 (s,t,u)=(-1/2, -13/49, 13/50) v_2(disc_min)=14 oggreliable=false
+COND2 idx=11 N = 276781201327366035300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 1>, <13, 2>, <19, 1>, <23, 1>, <107, 1>, <179, 1>, <311, 1>, <1297, 1> ]
+COND2 idx=11 oddpart(N) = 69195300331841508825   2part(N) = 2^2
+LANE7_COND2_DONE
+--- idx 11 rc=0 ---

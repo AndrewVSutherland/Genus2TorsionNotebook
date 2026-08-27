@@ -1,0 +1,22 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+SWEEP 2266sigma H=40 values=1953 census=1 scramble=1
+sigma=[ 1, 2, 3 ] drop=1: 312 (t,u) surface points at H=40
+sigma=[ 1, 2, 3 ] drop=2: 2 (t,u) surface points at H=40
+sigma=[ 1, 2, 3 ] drop=3: 388 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=1: 2001 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=2: 8 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=3: 228 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=1: 231 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=2: 4 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=3: 231 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=1: 231 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=2: 6 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=3: 2003 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=1: 355 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=2: 6 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=3: 297 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=1: 367 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=2: 7 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=3: 355 (t,u) surface points at H=40
+SEARCH_DONE 2266sigma H=40 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 0.050 s

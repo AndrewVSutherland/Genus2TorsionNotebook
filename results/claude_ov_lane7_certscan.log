@@ -1,0 +1,67 @@
+SCAN known (-10, -10/7, -1/2) PMAX=1500 goodprimes=230 irreducible=181 rootpower_strict=163 strict_with_sqrt2=16
+  strict primes (first 40): [ 17, 31, 41, 43, 53, 79, 83, 89, 97, 103, 107, 127, 131, 137, 167, 173, 181, 193, 199, 229, 233, 241, 251, 263, 269, 281, 293, 331, 347, 349, 359, 397, 401, 409, 419, 433, 439, 461, 463, 467 ]
+BESTPAIR (-10, -10/7, -1/2) p0=17 q0=31  disjoint_pairs_among_first_15_strict = 92 of 105
+  chi_p0 = x^4 - 4*x^3 + 6*x^2 - 68*x + 289
+  chi_q0 = x^4 - 2*x^3 - 2*x^2 - 62*x + 961
+
+SCAN known (-5, -15/8, -15/22) PMAX=1500 goodprimes=230 irreducible=185 rootpower_strict=163 strict_with_sqrt2=12
+  strict primes (first 40): [ 17, 53, 73, 83, 89, 97, 103, 107, 113, 131, 149, 157, 167, 173, 181, 193, 199, 223, 227, 251, 257, 269, 271, 283, 293, 313, 317, 331, 337, 347, 353, 359, 367, 373, 389, 409, 419, 421, 431, 439 ]
+BESTPAIR (-5, -15/8, -15/22) p0=17 q0=83  disjoint_pairs_among_first_15_strict = 89 of 105
+  chi_p0 = x^4 + 4*x^3 + 30*x^2 + 68*x + 289
+  chi_q0 = x^4 + 2*x^3 + 110*x^2 + 166*x + 6889
+
+SCAN known-RM (-3, -3/4, -3/5) PMAX=1500 goodprimes=234 irreducible=213 rootpower_strict=195 strict_with_sqrt2=195
+  strict primes (first 40): [ 17, 29, 37, 41, 43, 53, 59, 73, 79, 83, 89, 97, 101, 103, 109, 113, 127, 131, 137, 139, 149, 157, 167, 173, 179, 181, 193, 197, 199, 211, 223, 229, 233, 241, 251, 257, 263, 269, 271, 281 ]
+BESTPAIR (-3, -3/4, -3/5) p0=0 q0=0  disjoint_pairs_among_first_15_strict = 0 of 105
+  chi_p0 = 0
+  chi_q0 = 0
+
+SCAN known (-15/8, -15/19, -1/2) PMAX=1500 goodprimes=229 irreducible=171 rootpower_strict=159 strict_with_sqrt2=13
+  strict primes (first 40): [ 17, 29, 41, 53, 61, 71, 79, 101, 107, 109, 127, 131, 137, 157, 181, 193, 227, 263, 269, 277, 293, 307, 313, 331, 337, 347, 349, 353, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 439 ]
+BESTPAIR (-15/8, -15/19, -1/2) p0=17 q0=29  disjoint_pairs_among_first_15_strict = 88 of 105
+  chi_p0 = x^4 - 4*x^3 + 6*x^2 - 68*x + 289
+  chi_q0 = x^4 - 6*x^3 + 10*x^2 - 174*x + 841
+
+SCAN known (-5/18, -10/49, 4/17) PMAX=1500 goodprimes=227 irreducible=170 rootpower_strict=158 strict_with_sqrt2=13
+  strict primes (first 40): [ 43, 59, 83, 97, 107, 109, 113, 127, 131, 137, 149, 151, 163, 167, 181, 191, 197, 199, 223, 227, 229, 239, 251, 257, 263, 269, 271, 281, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367 ]
+BESTPAIR (-5/18, -10/49, 4/17) p0=43 q0=59  disjoint_pairs_among_first_15_strict = 101 of 105
+  chi_p0 = x^4 - 8*x^3 + 70*x^2 - 344*x + 1849
+  chi_q0 = x^4 - 8*x^3 + 78*x^2 - 472*x + 3481
+
+SCAN known (-4/9, -4/25, 4/17) PMAX=1500 goodprimes=230 irreducible=179 rootpower_strict=152 strict_with_sqrt2=15
+  strict primes (first 40): [ 31, 43, 59, 61, 89, 101, 103, 109, 137, 157, 167, 173, 193, 197, 199, 223, 227, 233, 239, 241, 251, 257, 263, 269, 277, 283, 307, 313, 331, 337, 347, 349, 353, 359, 373, 379, 383, 389, 397, 409 ]
+BESTPAIR (-4/9, -4/25, 4/17) p0=31 q0=43  disjoint_pairs_among_first_15_strict = 94 of 105
+  chi_p0 = x^4 - 6*x^3 + 14*x^2 - 186*x + 961
+  chi_q0 = x^4 - 8*x^3 + 70*x^2 - 344*x + 1849
+
+SCAN NEW (-511/61, -511/625, -1/2) PMAX=1500 goodprimes=227 irreducible=182 rootpower_strict=169 strict_with_sqrt2=21
+  strict primes (first 40): [ 17, 41, 43, 53, 67, 79, 103, 107, 113, 131, 137, 149, 157, 163, 173, 181, 193, 211, 223, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 317, 331, 337, 347, 353, 359, 367 ]
+BESTPAIR (-511/61, -511/625, -1/2) p0=17 q0=79  disjoint_pairs_among_first_15_strict = 87 of 105
+  chi_p0 = x^4 - 4*x^3 + 6*x^2 - 68*x + 289
+  chi_q0 = x^4 - 4*x^3 - 42*x^2 - 316*x + 6241
+
+SCAN NEW (-165/41, -33/16, -165/289) PMAX=1500 goodprimes=224 irreducible=171 rootpower_strict=153 strict_with_sqrt2=4
+  strict primes (first 40): [ 71, 79, 83, 101, 131, 137, 139, 149, 157, 163, 167, 173, 181, 199, 211, 229, 233, 241, 257, 269, 281, 283, 293, 307, 313, 347, 353, 359, 379, 383, 401, 409, 419, 421, 433, 439, 443, 449, 461, 467 ]
+BESTPAIR (-165/41, -33/16, -165/289) p0=71 q0=79  disjoint_pairs_among_first_15_strict = 102 of 105
+  chi_p0 = x^4 + 2*x^3 + 78*x^2 + 142*x + 5041
+  chi_q0 = x^4 + 8*x^3 + 62*x^2 + 632*x + 6241
+
+SCAN NEW (-164/297, -1/2, 164/361) PMAX=1500 goodprimes=222 irreducible=172 rootpower_strict=159 strict_with_sqrt2=15
+  strict primes (first 40): [ 17, 29, 83, 101, 107, 113, 127, 149, 151, 157, 163, 167, 179, 181, 191, 229, 263, 269, 271, 277, 281, 283, 293, 311, 313, 317, 331, 349, 353, 359, 383, 389, 397, 433, 439, 443, 449, 457, 463, 491 ]
+BESTPAIR (-164/297, -1/2, 164/361) p0=17 q0=29  disjoint_pairs_among_first_15_strict = 94 of 105
+  chi_p0 = x^4 - 4*x^3 + 6*x^2 - 68*x + 289
+  chi_q0 = x^4 - 6*x^3 + 10*x^2 - 174*x + 841
+
+SCAN NEW (-17/50, -34/189, 34/121) PMAX=1500 goodprimes=227 irreducible=173 rootpower_strict=156 strict_with_sqrt2=12
+  strict primes (first 40): [ 41, 43, 83, 101, 113, 137, 139, 151, 163, 167, 173, 179, 191, 193, 199, 211, 223, 227, 239, 241, 257, 263, 271, 277, 281, 283, 293, 313, 317, 331, 347, 349, 353, 359, 367, 373, 379, 389, 397, 401 ]
+BESTPAIR (-17/50, -34/189, 34/121) p0=41 q0=43  disjoint_pairs_among_first_15_strict = 100 of 105
+  chi_p0 = x^4 + 4*x^3 + 54*x^2 + 164*x + 1681
+  chi_q0 = x^4 + 2*x^3 + 22*x^2 + 86*x + 1849
+
+SCAN NEW (-1/2, -13/49, 13/50) PMAX=1500 goodprimes=227 irreducible=184 rootpower_strict=170 strict_with_sqrt2=13
+  strict primes (first 40): [ 17, 31, 37, 41, 43, 53, 61, 67, 73, 79, 83, 89, 97, 101, 109, 127, 137, 151, 157, 163, 167, 193, 199, 211, 223, 229, 241, 251, 257, 269, 271, 283, 307, 313, 317, 331, 337, 347, 349, 353 ]
+BESTPAIR (-1/2, -13/49, 13/50) p0=17 q0=31  disjoint_pairs_among_first_15_strict = 90 of 105
+  chi_p0 = x^4 + 4*x^3 + 30*x^2 + 68*x + 289
+  chi_q0 = x^4 - 6*x^3 + 14*x^2 - 186*x + 961
+
+LANE7_CERTSCAN_DONE

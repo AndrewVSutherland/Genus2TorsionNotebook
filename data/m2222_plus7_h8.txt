@@ -1,0 +1,6 @@
+SEARCH M(2,2,2,2) plus 7
+height 8 filter_primes [ 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
+61, 67, 71 ]
+params 85
+DONE m2222_plus7 height 8 checked 98770 smooth 98770 reduction_survivors 0 
+exact_tests 0 hits 0

@@ -1,0 +1,27 @@
+LOCA c=1679616 degs=[19, 17, 17]
+LOCD c=6561 degs=[9, 6, 7]
+LOCW c=18509302102818816 degs=[67, 66, 56]
+SELFTEST D1 SQUARE at n=-6 sg=1
+SELFTEST A1 DEGEN (pole/zero) at n=-4 sg=0 u=-2
+SELFTEST A1 DEGEN (pole/zero) at n=-4 sg=1 u=-2
+SELFTEST D1 SQUARE at n=-1 sg=1
+SELFTEST A1 DEGEN (pole/zero) at n=-1 sg=1 u=0
+SELFTEST done (expect exactly: D1 square at n=-6 sg=1, and A1/D1 DEGEN at u=-2)
+PROGRESS primes=25 last p=107
+PROGRESS primes=50 last p=241
+PROGRESS primes=75 last p=397
+PROGRESS primes=100 last p=563
+PROGRESS primes=125 last p=719
+PROGRESS primes=150 last p=883
+PROGRESS primes=175 last p=1061
+PROGRESS primes=200 last p=1237
+PROGRESS primes=225 last p=1439
+PROGRESS primes=250 last p=1607
+PROGRESS primes=275 last p=1789
+PROGRESS primes=300 last p=1999
+PROGRESS primes=325 last p=2203
+PROGRESS primes=350 last p=2381
+PROGRESS primes=375 last p=2593
+PROGRESS primes=400 last p=2767
+PROGRESS primes=425 last p=2969
+MKTABLES_DONE tag=main primes=427 skipped=0 file=/home/claude/torsion_jac/results/claude_ov_b4_tab_main.txt

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The sigma-surfaces: universal deck sections and the deck-confinement of [2,2,6,6]</title>
+<style>
+:root { --fg:#1a1a20; --bg:#ffffff; --muted:#5a5a66; --line:#d8d8e0; --accent:#7c3aed; --hl:#f3eefc; --code:#f5f5f8; --ok:#0a7d38; --bad:#b3261e; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e8e8ee; --bg:#131318; --muted:#9a9aa8; --line:#33333f; --accent:#b08cf5; --hl:#231c33; --code:#1e1e26; --ok:#4cc47a; --bad:#f28b82; }
+}
+* { box-sizing:border-box; }
+body { margin:0; padding:2rem 1rem 4rem; background:var(--bg); color:var(--fg);
+  font:16px/1.55 Georgia, 'Times New Roman', serif; }
+main { max-width:60rem; margin:0 auto; }
+h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .3rem; }
+h2 { font-size:1.2rem; margin:2.2rem 0 .6rem; border-bottom:1px solid var(--line); padding-bottom:.25rem; }
+h3 { font-size:1.02rem; margin:1.4rem 0 .4rem; }
+.sub { color:var(--muted); margin:0 0 1.4rem; }
+p { margin:.6rem 0; }
+code, .mono { font:0.86em/1.5 ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+code { background:var(--code); padding:.1em .3em; border-radius:3px; }
+.eq { background:var(--code); border-radius:6px; padding:.6rem .8rem; margin:.5rem 0;
+  overflow-x:auto; white-space:nowrap; font:0.82em/1.6 ui-monospace, Menlo, Consolas, monospace; }
+.tblwrap { overflow-x:auto; margin:.8rem 0; }
+table { border-collapse:collapse; font-size:.88rem; min-width:34rem; }
+th, td { border:1px solid var(--line); padding:.28rem .55rem; text-align:left; vertical-align:top; }
+th { background:var(--hl); font-weight:600; }
+td.num { text-align:right; font-variant-numeric:tabular-nums; }
+.dead td { color:var(--muted); }
+.k { color:var(--accent); font-weight:600; }
+.ok { color:var(--ok); font-weight:600; }
+.bad { color:var(--bad); font-weight:600; }
+ul { margin:.4rem 0 .4rem 1.2rem; padding:0; }
+li { margin:.25rem 0; }
+.note { color:var(--muted); font-size:.92em; }
+</style>
+</head>
+<body><main>
+<h1>The sigma-surfaces: universal deck sections, and the deck-confinement of [2,2,6,6]</h1>
+<p class="sub">Session of 2026-08-14 &middot; executing <code>notes/claude_split_2266_sigma_plan_2026_08_14.md</code> &middot;
+working notes <code>notes/claude_split_2266_sigma_session_2026_08_14.md</code> &middot;
+predecessor: <a href="index.html">the 2026-08-13 order-144 hunt</a></p>
+
+<p>The one attack surface left open by the 08-13 session was the family of five
+<b>non-identity sigma-surfaces</b>: for a (2,2)-gluing of E26(t)&times;E26(u) (both factors from the
+universal [2,6]-torsion family), the glued Jacobian has torsion &ge; [2,2,6,6] (order 144, beating
+the current split record 128) iff three explicit square conditions hold, one system per
+root-matching permutation &sigma; in S&#8323;.  The &sigma;=id system was closed on 08-13; the five others had
+231&ndash;388 two-of-three points each at height 40 and had never been fibered.  This session fibered
+all five &mdash; and found the reason the hunt keeps coming up empty.</p>
+
+<h2>1. Headline: every sigma-system has a universal section, and it is a deck graph</h2>
+
+<p>Factoring the j-equality correspondence of the family (<code>deck_derive.m</code>) gives, besides the
+diagonal, exactly five M&ouml;bius components and six (3,3)-components.  The M&ouml;bius maps biject with
+the non-identity permutations (<code>deck_sigma_match.m</code>): <b>each sigma-system is satisfied
+identically, over Q(u), by exactly one deck map</b>:</p>
+
+<div class="tblwrap"><table>
+<tr><th>&sigma;</th><th>universal section t = &delta;(u)</th><th>&sigma;</th><th>universal section t = &delta;(u)</th></tr>
+<tr><td>id</td><td class="mono">t = u (HLP)</td><td>(23)</td><td class="mono">t = (5u&minus;9)/(u&minus;5)</td></tr>
+<tr><td>(12)</td><td class="mono">t = (u+15)/(u&minus;1)</td><td>(123)</td><td class="mono">t = (u&minus;21)/(u&minus;5)</td></tr>
+<tr><td>(13)</td><td class="mono">t = 6&minus;u</td><td>(132)</td><td class="mono">t = (5u&minus;21)/(u&minus;1)</td></tr>
+</table></div>
+
+<p>This overturns the plan&rsquo;s premise that the non-id surfaces are section-less torsor fibrations:
+they are elliptic surfaces with universal sections &mdash; but the sections consist entirely of
+<b>deck pairs</b> (j(E26(t)) = j(E26(u))), for which the &ldquo;gluing&rdquo; degenerates to a self-gluing
+(ruled out on 08-13).  The 144-locus is nonempty on every surface; it is just, as far as every
+probe of this session can see, <em>exactly equal to</em> the deck locus.</p>
+
+<h2>2. What was run (all gates passed first)</h2>
+
+<div class="tblwrap"><table>
+<tr><th>lane</th><th>what</th><th>result</th></tr>
+<tr><td><code>lane_2266_derive.m</code> (rerun)</td><td>the five anchors of the criterion</td><td class="ok">byte-identical log, all PASS</td></tr>
+<tr><td><code>lane_2266_sigma.m</code> census</td><td>positive control at H=40</td><td class="ok">all 18 census counts exact</td></tr>
+<tr><td>scramble control</td><td>swapped probe coordinates</td><td class="ok">sign-twisted rows collapse to 2&ndash;8 matches; sign-free rows land on <em>other</em> surfaces&rsquo; counts &mdash; a bonus consistency proof of the kernel mechanics</td></tr>
+<tr><td><code>lane_2266_sigma.m</code> H=150</td><td>2-of-3 hash joins, 15 (&sigma;,drop) pairs, third condition tested on the spot</td><td>62&thinsp;079 surface points listed; <b>every</b> full match is a deck pair (3027&ndash;5092 per surface); 0 genuine</td></tr>
+<tr><td><code>lane_2266_sigma_fib.m</code> &times;5</td><td>per-fiber Mordell&ndash;Weil over each surface: t = 3 + s&sup2;/(2c_B(u&#8320;)), quartic fibers, deck base points</td><td><b>10&thinsp;264 fibers processed</b> (3072&ndash;5188 populated per surface; multi-point fibers all covered; TimeCap frontiers cut only the high-height single-point tails); 96&ndash;98% rank &ge; 1 and rank&thinsp;0 nowhere &mdash; the deck section has infinite order on essentially every fiber; 316 MWSKIP (~3%, Points fallback), 0 GENFAIL; 10&thinsp;194 third-condition survivors, <b>every one a deck point; genuine candidates: zero</b></td></tr>
+<tr><td><code>sigma_section_scan.py</code></td><td>exact-arithmetic section detection on the 62k points</td><td>dozens of rational curves with 5&ndash;56 points each (counts as corrected in review round 2); si5/si6 swap symmetry PASS</td></tr>
+<tr><td><code>lane_2266_sigma_sections.m</code></td><td>symbolic deck-section multiples (the id-machinery, ported)</td><td class="bad">same wall as id: condition curves of genus 7/23/47/79/119, no parametric family, no survivors</td></tr>
+<tr><td><code>lane_2266_sigma_lines.m</code></td><td>48 empirical curves, symbolic reduction + u-sweep to height 2000</td><td>26 full points found &mdash; all on deck sections; 0 genuine</td></tr>
+<tr><td><code>lane_2266_line_close.m</code></td><td>closure certificates for the 9 special M&ouml;bius curves</td><td class="ok">all reduce to 3 quartics, each <b>locally insoluble at p=3</b> &mdash; provably empty</td></tr>
+<tr><td><code>lane_cong_sieve.m</code> (E26-only, H=150)</td><td>21&thinsp;658 curves, ~2.3&middot;10&#8312; pairs, traces mod 5 and mod 7 (MINCMP 14)</td><td class="bad">0 congruent pairs &mdash; the product-injection alternative has no instances at family scale</td></tr>
+<tr><td><code>lane_sigma_local.m</code></td><td>Q_p (p &le; 47) and R solubility of each full 3-condition variety</td><td class="ok">everywhere locally soluble, all five surfaces</td></tr>
+</table></div>
+
+<h2>3. The special curves and the p=3 wall</h2>
+
+<p>The scanner&rsquo;s richest signals were rational curves on which <em>one</em> condition is identically
+square, collapsing the full system to a genus-&le;1 problem in u alone.  Exact simplification
+revealed the scanner&rsquo;s deg-2 candidates to be M&ouml;bius curves in disguise; per surface they are the
+deck section plus a handful of <b>special M&ouml;bius curves</b>:
+t = u&plusmn;4, (6u&minus;9)/u, &minus;9/(u&minus;6) on (13); (21u&minus;9)/(5u&minus;9) on (123); (5u+11)/(u&minus;1) on (132).
+Each reduces to one of just three quartics, e.g. t=u+4 gives</p>
+<div class="eq">W&sup2; = &minus;U&#8308; &minus; 4U&sup3; &minus; 118U&sup2; &minus; 228U &minus; 4209,&nbsp;&nbsp;&nbsp; t=u&minus;4 gives W&sup2; = &minus;15U&#8308; &minus; 34U&sup2; &minus; 15,</div>
+<p>and <b>all three quartics are locally insoluble at p = 3</b> (<code>lane_2266_line_close.m</code>) &mdash; the
+special curves are unconditionally empty.  Note the fine structure: the ambient surfaces are
+everywhere-locally-soluble, yet every stratum on which the 144-condition &ldquo;almost&rdquo; holds is
+3-adically obstructed; p=3 is exactly the degeneration prime of the E26 family (t = &plusmn;3 are
+excluded parameters).  The obstruction lives on the boundary strata, not on the surfaces.</p>
+
+<h2>4. Bonus theorem: the twisted-diagonal impossibility is now unconditional</h2>
+
+<p>The 08-13 session left the [10,10]/[12,12] conjugation-self-gluing closure resting on
+GRH-conditional rank bounds for two genus-3 Jacobians.  Today (<code>lane_tw_cleanup*.m</code>):
+RankBound(J) = 0 <b>without GRH bounds</b> for both; exact rational 2-torsion (Z/2)&sup3; resp. (Z/2)&#8308;
+from the odd-model factorizations; and a class-order sieve (reduction is injective on torsion at
+odd good primes, so the order of [P&minus;&infin;] is preserved exactly) shows every rational class has
+order &le; 2 &mdash; but the class of an affine non-Weierstrass point is never 2-torsion, so</p>
+<div class="eq">C(Q) = {&infin;} &cup; {rational Weierstrass points} &mdash; the known degenerate points, for both curves, unconditionally.</div>
+
+<h2>5. Where this leaves order 144</h2>
+
+<ul>
+<li><b>Closed today:</b> the five sigma-surface fibrations (deck-section multiples + per-fiber MW +
+48-curve sweeps), the nine special M&ouml;bius curves (p=3), the within-family 5/7-congruence route
+(empty sieve), and the twisted diagonals (now a theorem).</li>
+<li><b>The structural verdict:</b> the [2,2,6,6] locus on the E26&times;E26 chart is everywhere-locally-soluble
+but <em>deck-confined</em> in every stratum probed &mdash; genuinely thin, not locally obstructed.  A genuine
+point, if one exists, lies on none of the identified rational curves and on no fiber reachable by
+height-150 joins + rank-&le;2 coefficient boxes.</li>
+<li><b>Still open elsewhere:</b> the un-fibered (3,3)-gluing routes of the gap classification
+(&sect;5 of <code>product/split_torsion_table.md</code>), order-144 via [2,6,12]/[12,12] on other charts,
+and the deg-(3,3) deck correspondences (non-rational sections) which were not exploited.</li>
+</ul>
+
+<h2>Post-review addendum (codex rounds on PR #16, 2026-08-15)</h2>
+<p>Review verification of the weak-recognition warning uncovered that the 08-13 <em>analytic-glue
+validation itself</em> was a weak-test artifact: the old <code>validate_glue.log</code> "rational invariant"
+(height 47) sits exactly 10<sup>&minus;80</sup> from the true analytic value at every working precision
+(120&ndash;500 digits; the log had stalled in Mestre before ever comparing against the algebraic
+gluings).  The recognition-free comparison shows the truth is better than the claim: the six
+analytic anti-isometries match the six algebraic gluings <b>bijectively to 10<sup>&minus;175</sup>&ndash;10<sup>&minus;191</sup></b>,
+with true invariant heights 100&ndash;182 digits.  <code>analytic_glue.m</code> now uses strict height-relative
+recognition everywhere (err &lt; 10<sup>&minus;(2h+15)</sup>, precision-driven ladder), and the rewritten
+<code>validate_glue.m</code> passes both gates: 6/6 recognition-free matches, and strict recognition at
+prec 600 returning <em>exactly</em> the six algebraic rational triples.  Also from review: the section
+scanner's deg-2 support counts were inflated by pole points (58&rarr;56 etc.; candidate set and all
+conclusions unchanged), and the [8,8] family count is 59 distinct instances, not 86 (the H&le;120
+set is a subset of the H&le;250 log).</p>
+<p>Round 3 caught the sharpest issue: the fiber lane collected at most two <em>unverified</em>
+generators per fiber, leaving rank-3/4 boxes (1&thinsp;462 fibers) certainly incomplete and rank-2
+boxes unverified.  A completion pass (<code>lane_2266_sigma_fib2.m</code>) reprocessed all 6&thinsp;444
+rank&thinsp;&ge;&thinsp;2 fibers with verified-independent generator sets (height-pairing regulator) and
+rank-adaptive boxes, and (round 5) <b>saturation of every generator set</b> (Saturation to
+p&thinsp;&le;&thinsp;100; a finite-index sublattice's box would miss whole cosets) with conclusive handling of
+unequal rank bounds.  Final stitched accounting over all 6&thinsp;444 fibers: <b>5&thinsp;701 (88.5%)
+complete over p&thinsp;&le;&thinsp;100-saturated full-rank bases, 740 GENSHORT, 3 RBOPEN</b> (rank bounds [1,2]
+unresolved: si2 u=&minus;47/73, u=&minus;65/4; si5 u=&minus;65/4), nothing else.  <s>satfix&thinsp;=&thinsp;0 everywhere</s> <b>RETRACTED</b>: the owner-approved full-saturation
+certificate pass (2026-08-16) revealed that outcome was an artifact of a verification-guard bug
+(Saturation results silently discarded whenever a torsion point was appended to the return);
+real enlargements exist &mdash; e.g. si5 u=2 has exact index&thinsp;2 &mdash; and the affected fibers&rsquo; boxes
+are being rerun on the corrected (adopted-saturation) lattices; final certificate numbers below.  25 sweep-populated fibers lacking a base point were recovered in round 4.
+<b>Corrected box fleet (2026-08-17): the hole is closed.</b>  All 6&thinsp;444 rank&thinsp;&ge;&thinsp;2 fibers were
+re-enumerated over verified-saturated bases: <b>4&thinsp;070 fibers (63%) had genuinely enlarged
+(typically index-2) lattices</b> &mdash; the earlier boxes were sublattice-short at scale &mdash; and with
+every previously-missed coset now covered (5&thinsp;703 complete boxes, 738 GENSHORT, 3 RBOPEN),
+<b>the survivors are still 100% deck points: zero genuine [2,2,6,6] candidates</b>.  Precisely scoped:
+for the <b>5&thinsp;703 verified-complete fibers</b> the boxes are complete over p&thinsp;&le;&thinsp;100-saturated
+lattices, so deck-confinement there holds up to the residual possibility of an index whose prime
+factors all exceed 100.  The idx&thinsp;=&thinsp;1 certificate fleet (Minkowski + CPS/Silverman + bounded
+search + Saturation-to-B<sub>idx</sub>) was <b>closed out partway by owner decision</b> (2026-08-18,
+the paper being positive-results-only): <b>532 fibers fully certified, zero violations</b> &mdash; on
+every fiber checked the certificates confirmed the box lattices.  The 738 GENSHORT and 3 RBOPEN
+fibers remain flagged incomplete as tabulated.  <b>Recorded verdict: this path to a [2,2,6,6]
+realization is not completely ruled out, but after every probe came back deck-confined it now
+seems less likely than the other open routes</b> (the gap-table's (3,3)-gluings, section-gain
+constructions, and other charts).</p>
+
+<p class="note">Environment notes recorded for future sessions: Magma&rsquo;s <code>Alarm</code> does not interrupt deep
+descent computations (enforce wall caps externally with <code>timeout</code>); always <code>MinimalModel</code>
+before <code>RankBounds</code> (the raw glued model stalls indefinitely; the minimal model of the same fiber
+takes 0.00&thinsp;s); never call unbounded <code>MordellWeilGroup</code> in a fiber loop &mdash; <code>TorsionSubgroup</code> +
+<code>RankBounds</code> + bounded <code>TwoDescent</code>-cover searches decide every case with bounded work.</p>
+
+</main></body>
+</html>

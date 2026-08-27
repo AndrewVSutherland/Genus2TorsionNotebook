@@ -1,0 +1,13 @@
+Sigma core: degree 40, degR 40, degw 32, terms 416
+Sigma even in w: true
+p=11: affine core points 6, with d2 square 6
+p=13: affine core points 8, with d2 square 6
+p=17: affine core points 10, with d2 square 10
+p=19: affine core points 8, with d2 square 8
+p=23: affine core points 16, with d2 square 16
+
+HUNT height=30 (sweep R, roots in W=w^2, W square)
+
+SUMMARY swept_R=1108 Wroots=0 w_rational=0 certified16=0 hits416=0
+TORSION_COUNTS
+DONE

@@ -1,0 +1,75 @@
+N11_RANK2_MWSIEVE_START N 1000 primes [ 29, 31, 37, 41, 43, 47, 53, 59, 67, 71, 73, 79, 83, 89, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+E Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+rank_bounds 2 2 generators [ (4310 : 176400 : 1), (26360 : -4013100 : 1), (28265/4 : 1466325/8 : 1) ]
+known_t 1/13
+N11_PRIME_PROFILE p 29 orders 16 16 total 1024 third_fail 320 open_no3 224 open_3 224 boundary 256 allowed 480
+N11_PRIORITY_CLASSES p 29 boundary_count 256 open_3_count 224 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 31 orders 32 32 total 4096 third_fail 1408 open_no3 1024 open_3 896 boundary 768 allowed 1664
+N11_PRIORITY_CLASSES p 31 boundary_count 768 open_3_count 896 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 37 orders 24 24 total 2304 third_fail 960 open_no3 144 open_3 528 boundary 672 allowed 1200
+N11_PRIORITY_CLASSES p 37 boundary_count 672 open_3_count 528 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 41 orders 13 26 total 1352 third_fail 442 open_no3 208 open_3 598 boundary 104 allowed 702
+N11_PRIORITY_CLASSES p 41 boundary_count 104 open_3_count 598 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 43 orders 40 8 total 1280 third_fail 384 open_no3 448 open_3 128 boundary 320 allowed 448
+N11_PRIORITY_CLASSES p 43 boundary_count 320 open_3_count 128 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 47 orders 56 56 total 12544 third_fail 5376 open_no3 1792 open_3 3360 boundary 2016 allowed 5376
+N11_PRIORITY_CLASSES p 47 boundary_count 2016 open_3_count 3360 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 53 orders 30 15 total 1800 third_fail 660 open_no3 570 open_3 330 boundary 240 allowed 570
+N11_PRIORITY_CLASSES p 53 boundary_count 240 open_3_count 330 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 59 orders 28 28 total 3136 third_fail 1120 open_no3 448 open_3 1120 boundary 448 allowed 1568
+N11_PRIORITY_CLASSES p 59 boundary_count 448 open_3_count 1120 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 67 orders 72 72 total 20736 third_fail 9216 open_no3 7776 open_3 1152 boundary 2592 allowed 3744
+N11_PRIORITY_CLASSES p 67 boundary_count 2592 open_3_count 1152 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 71 orders 12 18 total 864 third_fail 312 open_no3 276 open_3 144 boundary 132 allowed 276
+N11_PRIORITY_CLASSES p 71 boundary_count 132 open_3_count 144 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 73 orders 34 17 total 2312 third_fail 850 open_no3 918 open_3 408 boundary 136 allowed 544
+N11_PRIORITY_CLASSES p 73 boundary_count 136 open_3_count 408 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 79 orders 11 11 total 484 third_fail 154 open_no3 198 open_3 44 boundary 88 allowed 132
+N11_PRIORITY_CLASSES p 79 boundary_count 88 open_3_count 44 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 83 orders 20 8 total 640 third_fail 352 open_no3 112 open_3 128 boundary 48 allowed 176
+N11_PRIORITY_CLASSES p 83 boundary_count 48 open_3_count 128 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 89 orders 25 50 total 5000 third_fail 2600 open_no3 1200 open_3 900 boundary 300 allowed 1200
+N11_PRIORITY_CLASSES p 89 boundary_count 300 open_3_count 900 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 101 orders 6 24 total 576 third_fail 216 open_no3 96 open_3 168 boundary 96 allowed 264
+N11_PRIORITY_CLASSES p 101 boundary_count 96 open_3_count 168 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 103 orders 11 44 total 1936 third_fail 660 open_no3 616 open_3 396 boundary 264 allowed 660
+N11_PRIORITY_CLASSES p 103 boundary_count 264 open_3_count 396 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 107 orders 26 13 total 1352 third_fail 468 open_no3 286 open_3 494 boundary 104 allowed 598
+N11_PRIORITY_CLASSES p 107 boundary_count 104 open_3_count 494 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 109 orders 58 29 total 6728 third_fail 3364 open_no3 1972 open_3 928 boundary 464 allowed 1392
+N11_PRIORITY_CLASSES p 109 boundary_count 464 open_3_count 928 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 113 orders 14 28 total 1568 third_fail 504 open_no3 308 open_3 224 boundary 532 allowed 756
+N11_PRIORITY_CLASSES p 113 boundary_count 532 open_3_count 224 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 127 orders 68 34 total 9248 third_fail 3808 open_no3 2924 open_3 1836 boundary 680 allowed 2516
+N11_PRIORITY_CLASSES p 127 boundary_count 680 open_3_count 1836 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 131 orders 38 76 total 11552 third_fail 5624 open_no3 4104 open_3 608 boundary 1216 allowed 1824
+N11_PRIORITY_CLASSES p 131 boundary_count 1216 open_3_count 608 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 137 orders 16 16 total 1024 third_fail 448 open_no3 160 open_3 128 boundary 288 allowed 416
+N11_PRIORITY_CLASSES p 137 boundary_count 288 open_3_count 128 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 139 orders 64 8 total 2048 third_fail 928 open_no3 576 open_3 416 boundary 128 allowed 544
+N11_PRIORITY_CLASSES p 139 boundary_count 128 open_3_count 416 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 149 orders 40 8 total 1280 third_fail 520 open_no3 472 open_3 224 boundary 64 allowed 288
+N11_PRIORITY_CLASSES p 149 boundary_count 64 open_3_count 224 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 151 orders 19 76 total 5776 third_fail 2128 open_no3 2280 open_3 608 boundary 760 allowed 1368
+N11_PRIORITY_CLASSES p 151 boundary_count 760 open_3_count 608 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 157 orders 22 22 total 1936 third_fail 968 open_no3 154 open_3 528 boundary 286 allowed 814
+N11_PRIORITY_CLASSES p 157 boundary_count 286 open_3_count 528 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 163 orders 152 152 total 92416 third_fail 39520 open_no3 26144 open_3 24320 boundary 2432 allowed 26752
+N11_PRIORITY_CLASSES p 163 boundary_count 2432 open_3_count 24320 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 167 orders 184 184 total 135424 third_fail 70656 open_no3 37536 open_3 22816 boundary 4416 allowed 27232
+N11_PRIORITY_CLASSES p 167 boundary_count 4416 open_3_count 22816 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 173 orders 180 36 total 25920 third_fail 13104 open_no3 6336 open_3 5616 boundary 864 allowed 6480
+N11_PRIORITY_CLASSES p 173 boundary_count 864 open_3_count 5616 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 179 orders 160 32 total 20480 third_fail 10880 open_no3 3584 open_3 5504 boundary 512 allowed 6016
+N11_PRIORITY_CLASSES p 179 boundary_count 512 open_3_count 5504 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 181 orders 180 36 total 25920 third_fail 12816 open_no3 6336 open_3 6192 boundary 576 allowed 6768
+N11_PRIORITY_CLASSES p 181 boundary_count 576 open_3_count 6192 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 191 orders 48 16 total 3072 third_fail 1056 open_no3 992 open_3 640 boundary 384 allowed 1024
+N11_PRIORITY_CLASSES p 191 boundary_count 384 open_3_count 640 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 193 orders 204 68 total 55488 third_fail 27472 open_no3 17408 open_3 9520 boundary 1088 allowed 10608
+N11_PRIORITY_CLASSES p 193 boundary_count 1088 open_3_count 9520 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 197 orders 49 98 total 19208 third_fail 9016 open_no3 6076 open_3 3136 boundary 980 allowed 4116
+N11_PRIORITY_CLASSES p 197 boundary_count 980 open_3_count 3136 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PRIME_PROFILE p 199 orders 64 192 total 49152 third_fail 27904 open_no3 13056 open_3 7168 boundary 1024 allowed 8192
+N11_PRIORITY_CLASSES p 199 boundary_count 1024 open_3_count 7168 full_list_in results/target_22224_n11_rank2_profiles_p199_all.tsv
+N11_PROFILE_ONLY_DONE results/target_22224_n11_rank2_profiles_p199_all.tsv

@@ -1,0 +1,13 @@
+
+== tw12: y^2 = T^7 - 432*T^6 + 75168*T^5 - 7231680*T^4 + 423263232*T^3 - 15237476352*T^2 + 313456656384*T - 2821109907456 ==
+FACTORS tw12: 4 irreducible factors, degrees [ 1, 2, 2, 2 ]
+EXACT2TORS tw12: J(Q)[2] = (Z/2)^3, order 8
+TORSBOUND2 tw12: gcd over 93 primes (<= 499) = 128 (min v2 = 7 at p=5)
+TORSION_GAP tw12: gcd 128 > 2-torsion 8 - possible rational 2^k-torsion beyond J[2]; needs halving analysis
+
+== tw10: y^2 = x^7 - 160*x^6 + 8192*x^5 - 159744*x^4 + 524288*x^3 + 16777216*x^2 - 134217728*x ==
+FACTORS tw10: 5 irreducible factors, degrees [ 1, 1, 1, 2, 2 ]
+EXACT2TORS tw10: J(Q)[2] = (Z/2)^4, order 16
+TORSBOUND2 tw10: gcd over 93 primes (<= 499) = 32 (min v2 = 5 at p=3)
+TORSION_GAP tw10: gcd 32 > 2-torsion 16 - possible rational 2^k-torsion beyond J[2]; needs halving analysis
+TWCLEANUP2_DONE

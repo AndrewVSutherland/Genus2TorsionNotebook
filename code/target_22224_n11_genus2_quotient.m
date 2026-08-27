@@ -1,0 +1,14 @@
+SetColumns(0);SetSeed(11);Q:=Rationals();R<T>:=PolynomialRing(Q);
+fixed:=[Q!-960,Q!1800,Q!2535];d0:=Q!-1352;t0:=Q!1/13;
+RR:=[(z+d0*T^2)/(z+d0*t0^2):z in fixed];
+C:=HyperellipticCurve(&*RR);J:=Jacobian(C);
+print "N11_GENUS2_QUOTIENT",C;print "f",HyperellipticPolynomials(C);
+try print "rank_bounds",RankBounds(J);catch e print "rank_error",e;end try;
+try print "torsion",Invariants(TorsionSubgroup(J));catch e print "tors_error",e;end try;
+try print "points10000",Points(C:Bound:=10000);catch e print "points_error",e;end try;
+S<U>:=PolynomialRing(Q);A:=&*[(z+d0*U)/(z+d0*t0^2):z in fixed];
+C1:=HyperellipticCurve(A);P1:=C1![t0^2,Q!1,Q!1];E1,mp1:=EllipticCurve(C1,P1);E1m:=MinimalModel(E1);
+C2:=HyperellipticCurve(U*A);P2:=C2![t0^2,t0,Q!1];E2,mp2:=EllipticCurve(C2,P2);E2m:=MinimalModel(E2);
+print "elliptic_quotient_1",E1m,"rank",RankBounds(E1m),"gens",Generators(E1m);
+print "elliptic_quotient_2",E2m,"rank",RankBounds(E2m),"gens",Generators(E2m);
+quit;

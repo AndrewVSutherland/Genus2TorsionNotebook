@@ -1,0 +1,1 @@
+DIRECT_CONTACT_PADIC_TUBE_CRT modulus 399365217381454753 bound 446858600 mask_sizes [1, 1, 1, 2, 4, 3, 8] counts {'comb': 192, 'ratrec': 11, 'p37': 0, 'p41': 0, 'p43': 0} survivors 0 output results/target_22224_direct_contact_deep13_padic_tube_crt.tsv

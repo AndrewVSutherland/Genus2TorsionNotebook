@@ -1,0 +1,17 @@
+# T5 near-miss/hit points known after the Lane D sibling-hunt (2026-07-18).
+# Format: STATUS p q rn rd   (u=p/q on member rho'=rn/rd of the T5 pencil of
+# M(2,2,2,6)); failing class = sqfree core of F(u)=(q(u)rho'-1)(q(u)rho'-2u+1),
+# constant per member (empirical).  HIT = all four conditions square (all four
+# representations below are the SAME curve, the first (2,2,2,12) Jacobian).
+HIT -97 48 -49 240      # class 1; discovery session
+HIT 133 145 289 240     # class 1; discovery session (involution partner)
+HIT 3637 7105 -49 240   # class 1; NEW (this session, C-scan + t5sweep 20k)
+HIT 6767 13872 289 240  # class 1; NEW (this session; partner of the above)
+NEAR 17 1 -1 143        # class 3
+NEAR 13 4 -1 143        # class 3
+NEAR 10 1 -25 551       # class 6
+NEAR 41 25 -25 551      # class 6
+NEAR -4 1 -169 1431     # class 10
+NEAR 89 169 -169 1431   # class 10; NEW (this session)
+NEAR 43 52 841 697      # class -1
+NEAR 633 841 841 697    # class -1; NEW (this session)

@@ -1,0 +1,116 @@
+PARAM_VALUES 47 (Hr=6)
+PROGRESS tested=500 syst=499 hits=0
+PROGRESS tested=1000 syst=999 hits=0
+PROGRESS tested=1500 syst=1499 hits=0
+PROGRESS tested=2000 syst=1999 hits=0
+CAND r=-1 s=2 d=0 q=16/9 cford=9 type={* 1^^2, 2^^2 *}
+PROGRESS tested=2500 syst=2499 hits=0
+PROGRESS tested=3000 syst=2999 hits=0
+CAND r=1/2 s=1/6 d=0 q=-1/18 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=3500 syst=3499 hits=0
+PROGRESS tested=4000 syst=3999 hits=0
+PROGRESS tested=4500 syst=4499 hits=0
+PROGRESS tested=5000 syst=4999 hits=0
+PROGRESS tested=5500 syst=5499 hits=0
+CAND r=1/3 s=1/6 d=0 q=-1/12 cford=5 type={* 1^^4, 2 *}
+CAND r=1/3 s=2/3 d=0 q=8/3 cford=11 type={* 1^^2, 2^^2 *}
+EXACT r=1/3 s=2/3 d=0 q=8/3 TORSION=[ 2, 22 ]
+HIT22 r=1/3 s=2/3 d=0 q=8/3 TORSION=[ 2, 22 ] f=X^6 - 2*X^5 + 37/9*X^4 - 20/3*X^3 + 628/81*X^2 - 352/81*X + 64/81
+PROGRESS tested=6000 syst=5999 hits=1
+PROGRESS tested=6500 syst=6499 hits=1
+PROGRESS tested=7000 syst=6999 hits=1
+PROGRESS tested=7500 syst=7499 hits=1
+PROGRESS tested=8000 syst=7999 hits=1
+PROGRESS tested=8500 syst=8499 hits=1
+PROGRESS tested=9000 syst=8999 hits=1
+PROGRESS tested=9500 syst=9499 hits=1
+PROGRESS tested=10000 syst=9999 hits=1
+PROGRESS tested=10500 syst=10499 hits=1
+PROGRESS tested=11000 syst=10999 hits=1
+PROGRESS tested=11500 syst=11499 hits=1
+PROGRESS tested=12000 syst=11999 hits=1
+PROGRESS tested=12500 syst=12499 hits=1
+PROGRESS tested=13000 syst=12999 hits=1
+PROGRESS tested=13500 syst=13499 hits=1
+PROGRESS tested=14000 syst=13999 hits=1
+CAND r=2 s=-1 d=0 q=-8/9 cford=9 type={* 1^^2, 2^^2 *}
+PROGRESS tested=14500 syst=14499 hits=1
+PROGRESS tested=15000 syst=14999 hits=1
+PROGRESS tested=15500 syst=15499 hits=1
+PROGRESS tested=16000 syst=15999 hits=1
+CAND r=-2 s=6 d=0 q=18 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=16500 syst=16499 hits=1
+PROGRESS tested=17000 syst=16999 hits=1
+CAND r=-2/3 s=-1/3 d=0 q=2/3 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=17500 syst=17499 hits=1
+PROGRESS tested=18000 syst=17999 hits=1
+PROGRESS tested=18500 syst=18499 hits=1
+PROGRESS tested=19000 syst=18999 hits=1
+PROGRESS tested=19500 syst=19499 hits=1
+PROGRESS tested=20000 syst=19999 hits=1
+PROGRESS tested=20500 syst=20499 hits=1
+PROGRESS tested=21000 syst=20999 hits=1
+PROGRESS tested=21500 syst=21499 hits=1
+PROGRESS tested=22000 syst=21999 hits=1
+CAND r=-3 s=6 d=0 q=12 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=22500 syst=22499 hits=1
+PROGRESS tested=23000 syst=22999 hits=1
+PROGRESS tested=23500 syst=23499 hits=1
+CAND r=-3/2 s=-1/2 d=0 q=3/2 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=24000 syst=23999 hits=1
+PROGRESS tested=24500 syst=24499 hits=1
+PROGRESS tested=25000 syst=24999 hits=1
+PROGRESS tested=25500 syst=25499 hits=1
+PROGRESS tested=26000 syst=25999 hits=1
+PROGRESS tested=26500 syst=26499 hits=1
+PROGRESS tested=27000 syst=26999 hits=1
+PROGRESS tested=27500 syst=27499 hits=1
+PROGRESS tested=28000 syst=27999 hits=1
+PROGRESS tested=28500 syst=28499 hits=1
+PROGRESS tested=29000 syst=28999 hits=1
+PROGRESS tested=29500 syst=29499 hits=1
+PROGRESS tested=30000 syst=29999 hits=1
+PROGRESS tested=30500 syst=30499 hits=1
+PROGRESS tested=31000 syst=30999 hits=1
+PROGRESS tested=31500 syst=31499 hits=1
+PROGRESS tested=32000 syst=31999 hits=1
+PROGRESS tested=32500 syst=32499 hits=1
+PROGRESS tested=33000 syst=32999 hits=1
+PROGRESS tested=33500 syst=33499 hits=1
+PROGRESS tested=34000 syst=33999 hits=1
+PROGRESS tested=34500 syst=34499 hits=1
+PROGRESS tested=35000 syst=34999 hits=1
+PROGRESS tested=35500 syst=35499 hits=1
+PROGRESS tested=36000 syst=35999 hits=1
+PROGRESS tested=36500 syst=36499 hits=1
+PROGRESS tested=37000 syst=36999 hits=1
+PROGRESS tested=37500 syst=37499 hits=1
+PROGRESS tested=38000 syst=37999 hits=1
+PROGRESS tested=38500 syst=38499 hits=1
+PROGRESS tested=39000 syst=38999 hits=1
+PROGRESS tested=39500 syst=39499 hits=1
+PROGRESS tested=40000 syst=39999 hits=1
+PROGRESS tested=40500 syst=40499 hits=1
+PROGRESS tested=41000 syst=40999 hits=1
+PROGRESS tested=41500 syst=41499 hits=1
+PROGRESS tested=42000 syst=41999 hits=1
+PROGRESS tested=42500 syst=42499 hits=1
+PROGRESS tested=43000 syst=42999 hits=1
+PROGRESS tested=43500 syst=43499 hits=1
+PROGRESS tested=44000 syst=43999 hits=1
+PROGRESS tested=44500 syst=44499 hits=1
+PROGRESS tested=45000 syst=44999 hits=1
+PROGRESS tested=45500 syst=45499 hits=1
+PROGRESS tested=46000 syst=45999 hits=1
+PROGRESS tested=46500 syst=46499 hits=1
+CAND r=6 s=-2 d=0 q=-6 cford=5 type={* 1^^4, 2 *}
+CAND r=6 s=-3 d=0 q=-6 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=47000 syst=46999 hits=1
+PROGRESS tested=47500 syst=47499 hits=1
+PROGRESS tested=48000 syst=47999 hits=1
+PROGRESS tested=48500 syst=48499 hits=1
+PROGRESS tested=49000 syst=48999 hits=1
+PROGRESS tested=49500 syst=49499 hits=1
+PROGRESS tested=50000 syst=49999 hits=1
+PROGRESS tested=50500 syst=50499 hits=1
+SEARCH_DONE Hr=6 Part=0/2 tested=50517 syst=50517 hits=1

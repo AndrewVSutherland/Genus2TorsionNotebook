@@ -1,0 +1,33 @@
+# Elkies N=32 reconstructed family: search for D divisible by 2
+
+Parameter height bound B = 2000
+Parametrization coordinate degrees = [ 8, 8, 8 ]
+Sieve primes are applied in the chosen genus-0 parameter.  This is a targeted search, not a proof that no bad-reduction parameter was missed.
+
+Residue sieve data:
+  p=11 image=9 allowed=3 residues=[ 0, 1, 2 ]
+  p=13 image=6 allowed=2 residues=[ 4, 6 ]
+  p=19 image=15 allowed=6 residues=[ 1, 8, 12, 15, 16, 17 ]
+  p=23 image=21 allowed=14 residues=[ 1, 4, 5, 6, 7, 8, 9, 11, 13, 16, 17, 19, 21, -1 ]
+  p=29 image=24 allowed=14 residues=[ 4, 5, 7, 8, 9, 11, 12, 13, 14, 15, 17, 19, 23, -1 ]
+  p=31 image=27 allowed=8 residues=[ 0, 5, 17, 20, 23, 25, 26, 27 ]
+  p=37 image=31 allowed=17 residues=[ 1, 2, 3, 9, 10, 11, 13, 14, 17, 19, 20, 21, 26, 30, 31, 35, -1 ]
+  p=41 image=36 allowed=14 residues=[ 1, 6, 13, 20, 22, 23, 24, 29, 30, 31, 34, 35, 38, -1 ]
+  p=43 image=39 allowed=19 residues=[ 0, 3, 4, 11, 15, 17, 20, 22, 23, 31, 32, 33, 34, 36, 37, 38, 39, 41, 42 ]
+  p=47 image=45 allowed=20 residues=[ 0, 2, 3, 4, 9, 15, 18, 20, 23, 25, 26, 28, 31, 32, 33, 36, 39, 41, 43, 45 ]
+  p=53 image=46 allowed=20 residues=[ 5, 7, 11, 13, 20, 21, 28, 31, 33, 36, 37, 38, 39, 40, 43, 46, 47, 48, 49, 50 ]
+  p=59 image=57 allowed=20 residues=[ 5, 6, 8, 11, 14, 15, 16, 22, 24, 25, 31, 32, 33, 34, 35, 37, 45, 46, 47, 53 ]
+
+EXACT t=-1116/347 result=false
+EXACT t=705/446 result=false
+EXACT t=-188/753 result=false
+EXACT t=-1195/816 result=false
+EXACT t=-313/861 result=false
+EXACT t=-1738/915 result=false
+EXACT t=1452/1091 result=false
+EXACT t=-1999/1268 result=false
+EXACT t=-179/1291 result=false
+EXACT t=201/1873 result=false
+EXACT t=654/1955 result=false
+
+SUMMARY B=2000 total=4866351 pass_sieve=11 nonsingular=11 exact_checked=11 hits=0

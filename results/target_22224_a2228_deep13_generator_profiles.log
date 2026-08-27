@@ -1,0 +1,73 @@
+PROFILE_FAMILY p 5 family 1 boundary 6 allowed 6 good_allowed 0
+PROFILE_FAMILY p 5 family 2 boundary 6 allowed 6 good_allowed 0
+PROFILE_FAMILY p 5 family 3 boundary 6 allowed 6 good_allowed 0
+PROFILE_PRIME p 5 total 18 boundary 18 good 0 allowed 18 good_allowed 0
+PROFILE_FAMILY p 7 family 1 boundary 8 allowed 8 good_allowed 0
+PROFILE_FAMILY p 7 family 2 boundary 8 allowed 8 good_allowed 0
+PROFILE_FAMILY p 7 family 3 boundary 8 allowed 8 good_allowed 0
+PROFILE_PRIME p 7 total 24 boundary 24 good 0 allowed 24 good_allowed 0
+PROFILE_FAMILY p 11 family 1 boundary 12 allowed 12 good_allowed 0
+PROFILE_FAMILY p 11 family 2 boundary 8 allowed 8 good_allowed 0
+PROFILE_FAMILY p 11 family 3 boundary 4 allowed 4 good_allowed 0
+PROFILE_PRIME p 11 total 36 boundary 24 good 12 allowed 24 good_allowed 0
+PROFILE_FAMILY p 13 family 1 boundary 8 allowed 8 good_allowed 0
+PROFILE_FAMILY p 13 family 2 boundary 14 allowed 14 good_allowed 0
+PROFILE_FAMILY p 13 family 3 boundary 6 allowed 6 good_allowed 0
+PROFILE_PRIME p 13 total 42 boundary 28 good 14 allowed 28 good_allowed 0
+PROFILE_FAMILY p 17 family 1 boundary 6 allowed 6 good_allowed 0
+PROFILE_FAMILY p 17 family 2 boundary 10 allowed 10 good_allowed 0
+PROFILE_FAMILY p 17 family 3 boundary 10 allowed 18 good_allowed 8
+PROFILE_PRIME p 17 total 54 boundary 26 good 28 allowed 34 good_allowed 8
+PROFILE_FAMILY p 19 family 1 boundary 14 allowed 20 good_allowed 6
+PROFILE_FAMILY p 19 family 2 boundary 12 allowed 16 good_allowed 4
+PROFILE_FAMILY p 19 family 3 boundary 4 allowed 12 good_allowed 8
+PROFILE_PRIME p 19 total 60 boundary 30 good 30 allowed 48 good_allowed 18
+PROFILE_FAMILY p 23 family 1 boundary 18 allowed 18 good_allowed 0
+PROFILE_FAMILY p 23 family 2 boundary 12 allowed 12 good_allowed 0
+PROFILE_FAMILY p 23 family 3 boundary 8 allowed 24 good_allowed 16
+PROFILE_PRIME p 23 total 72 boundary 38 good 34 allowed 54 good_allowed 16
+PROFILE_FAMILY p 29 family 1 boundary 12 allowed 12 good_allowed 0
+PROFILE_FAMILY p 29 family 2 boundary 10 allowed 18 good_allowed 8
+PROFILE_FAMILY p 29 family 3 boundary 6 allowed 14 good_allowed 8
+PROFILE_PRIME p 29 total 90 boundary 28 good 62 allowed 44 good_allowed 16
+PROFILE_FAMILY p 31 family 1 boundary 20 allowed 20 good_allowed 0
+PROFILE_FAMILY p 31 family 2 boundary 16 allowed 20 good_allowed 4
+PROFILE_FAMILY p 31 family 3 boundary 8 allowed 16 good_allowed 8
+PROFILE_PRIME p 31 total 96 boundary 44 good 52 allowed 56 good_allowed 12
+PROFILE_FAMILY p 37 family 1 boundary 8 allowed 26 good_allowed 18
+PROFILE_FAMILY p 37 family 2 boundary 14 allowed 26 good_allowed 12
+PROFILE_FAMILY p 37 family 3 boundary 6 allowed 22 good_allowed 16
+PROFILE_PRIME p 37 total 114 boundary 28 good 86 allowed 74 good_allowed 46
+PROFILE_FAMILY p 41 family 1 boundary 18 allowed 30 good_allowed 12
+PROFILE_FAMILY p 41 family 2 boundary 14 allowed 22 good_allowed 8
+PROFILE_FAMILY p 41 family 3 boundary 10 allowed 42 good_allowed 32
+PROFILE_PRIME p 41 total 126 boundary 42 good 84 allowed 94 good_allowed 52
+PROFILE_FAMILY p 43 family 1 boundary 8 allowed 32 good_allowed 24
+PROFILE_FAMILY p 43 family 2 boundary 8 allowed 20 good_allowed 12
+PROFILE_FAMILY p 43 family 3 boundary 4 allowed 36 good_allowed 32
+PROFILE_PRIME p 43 total 132 boundary 20 good 112 allowed 88 good_allowed 68
+PROFILE_FAMILY p 47 family 1 boundary 12 allowed 24 good_allowed 12
+PROFILE_FAMILY p 47 family 2 boundary 8 allowed 16 good_allowed 8
+PROFILE_FAMILY p 47 family 3 boundary 8 allowed 48 good_allowed 40
+PROFILE_PRIME p 47 total 144 boundary 28 good 116 allowed 88 good_allowed 60
+PROFILE_FAMILY p 53 family 1 boundary 6 allowed 24 good_allowed 18
+PROFILE_FAMILY p 53 family 2 boundary 6 allowed 26 good_allowed 20
+PROFILE_FAMILY p 53 family 3 boundary 6 allowed 38 good_allowed 32
+PROFILE_PRIME p 53 total 162 boundary 18 good 144 allowed 88 good_allowed 70
+PROFILE_FAMILY p 59 family 1 boundary 12 allowed 42 good_allowed 30
+PROFILE_FAMILY p 59 family 2 boundary 8 allowed 32 good_allowed 24
+PROFILE_FAMILY p 59 family 3 boundary 4 allowed 36 good_allowed 32
+PROFILE_PRIME p 59 total 180 boundary 24 good 156 allowed 110 good_allowed 86
+PROFILE_FAMILY p 61 family 1 boundary 14 allowed 32 good_allowed 18
+PROFILE_FAMILY p 61 family 2 boundary 18 allowed 34 good_allowed 16
+PROFILE_FAMILY p 61 family 3 boundary 6 allowed 30 good_allowed 24
+PROFILE_PRIME p 61 total 186 boundary 38 good 148 allowed 96 good_allowed 58
+PROFILE_FAMILY p 67 family 1 boundary 8 allowed 26 good_allowed 18
+PROFILE_FAMILY p 67 family 2 boundary 8 allowed 28 good_allowed 20
+PROFILE_FAMILY p 67 family 3 boundary 4 allowed 12 good_allowed 8
+PROFILE_PRIME p 67 total 204 boundary 20 good 184 allowed 66 good_allowed 46
+PROFILE_FAMILY p 71 family 1 boundary 12 allowed 36 good_allowed 24
+PROFILE_FAMILY p 71 family 2 boundary 8 allowed 28 good_allowed 20
+PROFILE_FAMILY p 71 family 3 boundary 8 allowed 40 good_allowed 32
+PROFILE_PRIME p 71 total 216 boundary 28 good 188 allowed 104 good_allowed 76
+TARGET_22224_A2228_PROFILE_DONE file results/target_22224_a2228_deep13_generator_profiles.tsv

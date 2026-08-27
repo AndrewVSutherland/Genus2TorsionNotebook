@@ -1,0 +1,54 @@
+E = Elliptic Curve defined by y^2 = x^3 + 6*x^2 - 16 over Rational Field ; disc = 110592 = [ <2, 12>, <3, 3> ] ; conductor 288 ; E(Q) = Z x Z/2
+base k0=2   eps=1 : best N = 26      torsion witnesses (17,29)  cert (17,229)  S=[ 17, 29, 229 ]
+base k0=3   eps=0 : best N = 11      torsion witnesses (43,263)  cert (43,307)  S=[ 43, 263, 307 ]
+base k0=3   eps=1 : best N = 12      torsion witnesses (23,61)  cert (61,313)  S=[ 23, 61, 313 ]
+base k0=4   eps=0 : best N = 39      torsion witnesses (29,311)  cert (29,311)  S=[ 29, 311 ]
+base k0=4   eps=1 : best N = 26      torsion witnesses (17,29)  cert (17,229)  S=[ 17, 29, 229 ]
+base k0=5   eps=0 : best N = 34      torsion witnesses (41,67)  cert (41,73)  S=[ 41, 67, 73 ]
+base k0=5   eps=1 : best N = 30      torsion witnesses (59,239)  cert (59,239)  S=[ 59, 239 ]
+base k0=6   eps=0 : best N = 41      torsion witnesses (101,389)  cert (101,163)  S=[ 101, 163, 389 ]
+base k0=6   eps=1 : best N = 50      torsion witnesses (13,281)  cert (281,433)  S=[ 13, 281, 433 ]
+base k0=7   eps=0 : best N = 26      torsion witnesses (17,29)  cert (17,229)  S=[ 17, 29, 229 ]
+base k0=7   eps=1 : best N = 41      torsion witnesses (101,389)  cert (101,389)  S=[ 101, 389 ]
+base k0=8   eps=0 : best N = 11      torsion witnesses (43,263)  cert (43,307)  S=[ 43, 263, 307 ]
+base k0=8   eps=1 : best N = 41      torsion witnesses (101,389)  cert (163,389)  S=[ 101, 163, 389 ]
+base k0=9   eps=0 : best N = 12      torsion witnesses (61,313)  cert (61,313)  S=[ 61, 313 ]
+base k0=9   eps=1 : best N = 12      torsion witnesses (23,61)  cert (61,313)  S=[ 23, 61, 313 ]
+base k0=10  eps=0 : best N = 30      torsion witnesses (59,239)  cert (59,239)  S=[ 59, 239 ]
+base k0=10  eps=1 : best N = 26      torsion witnesses (17,29)  cert (17,29)  S=[ 17, 29 ]
+base k0=11  eps=0 : best N = 26      torsion witnesses (17,229)  cert (17,229)  S=[ 17, 229 ]
+base k0=11  eps=1 : best N = 41      torsion witnesses (101,163)  cert (101,163)  S=[ 101, 163 ]
+base k0=12  eps=0 : best N = 41      torsion witnesses (101,163)  cert (101,163)  S=[ 101, 163 ]
+base k0=12  eps=1 : best N = 41      torsion witnesses (101,389)  cert (101,389)  S=[ 101, 389 ]
+
+=== BEST CONGRUENCE FAMILY ===
+  base member k0 = 3, eps = 0 ; prime set S = [ 43, 263, 307 ] ; N = 11
+  torsion witnesses (p1,p2) = (43,263) ; End=Z certificate (p0,q0) = (43,307)
+  m0 = 1/13 ; (s,t,u) = (-13/49,13/50,-1/2)
+  IDENTITY x^2*f - h^2 = (x-1)^7 : true ; h(1) = 28561/9525600
+  the three rational roots 1-v^2 are roots of f : true
+  p=43   ordGbar=11   #J(F_p)=1568     cert=true  chi=x^4 - 8*x^3 + 70*x^2 - 344*x + 1849
+  p=263  ordGbar=11   #J(F_p)=71064    cert=false chi=x^4 + 6*x^3 + 310*x^2 + 1578*x + 69169
+  p=307  ordGbar=11   #J(F_p)=88928    cert=true  chi=x^4 - 18*x^3 + 222*x^2 - 5526*x + 94249
+  gcd over S = 56
+
+=== the construction descends to E(F_p) (rebuild from Pbar alone) ===
+  p=43   Pbar=(9 : 9 : 1) : built-from-Pbar equals reduction of f : true
+  p=263  Pbar=(52 : 133 : 1) : built-from-Pbar equals reduction of f : true
+  p=307  Pbar=(52 : 89 : 1) : built-from-Pbar equals reduction of f : true
+
+=== direct verification of the congruence prediction ===
+  n=-2  k=-19    log10ht=470     3 rational roots: true ; g(-m) square (2-rank 4): false ; same (N_p,chi_p) on S: true ; gcd=56 => tors EXACTLY [2,2,14] and End=Z: true  [0.470s]
+  n=-1  k=-8     log10ht=80      3 rational roots: true ; g(-m) square (2-rank 4): false ; same (N_p,chi_p) on S: true ; gcd=56 => tors EXACTLY [2,2,14] and End=Z: true  [0.460s]
+  n=1   k=14     log10ht=253     3 rational roots: true ; g(-m) square (2-rank 4): false ; same (N_p,chi_p) on S: true ; gcd=56 => tors EXACTLY [2,2,14] and End=Z: true  [0.470s]
+  n=2   k=25     log10ht=815     3 rational roots: true ; g(-m) square (2-rank 4): false ; same (N_p,chi_p) on S: true ; gcd=56 => tors EXACTLY [2,2,14] and End=Z: true  [0.470s]
+
+=== absolute Igusa invariant j1 (Qbar-isomorphism invariant), small members ===
+
+In file "code/claude_ov_lane1_theorem.m", line 212, column 9:
+>>   iv := AbsoluteIgusaInvariants(HyperellipticCurve(ff));
+           ^
+User error: Identifier 'AbsoluteIgusaInvariants' has not been declared or assigned
+  pairwise distinct: true  => m |-> C_P is finite-to-one, so the coset gives infinitely many Qbar-isomorphism classes
+
+LANE1_THEOREM_DONE

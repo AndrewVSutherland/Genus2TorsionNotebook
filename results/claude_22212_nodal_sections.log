@@ -1,0 +1,24 @@
+nodes: 36
+distinct spanned hyperplanes: 2349
+hyperplanes with >=7 nodes: 271
+  H 16 nodes: [ 0, 0, 1, 0, 0 ]
+  H 16 nodes: [ 1, 0, 0, 0, 0 ]
+  H 16 nodes: [ 0, 1, 0, 0, 0 ]
+  H 15 nodes: [ 1, 1, 1, -1, 1 ]
+  H 15 nodes: [ 1, -1, -1, 1, 1 ]
+  H 15 nodes: [ 1, -1, 1, 1, 1 ]
+  H 15 nodes: [ 1, 1, -1, -1, -1 ]
+  H 15 nodes: [ 1, -1, 1, 1, -1 ]
+  H 15 nodes: [ 1, -1, 1, -1, -1 ]
+  H 15 nodes: [ 1, -1, -1, -1, -1 ]
+  H 15 nodes: [ 1, 1, -1, 1, 1 ]
+  H 15 nodes: [ 1, 1, 1, 1, -1 ]
+  H 15 nodes: [ 1, -1, -1, -1, 1 ]
+  H 15 nodes: [ 1, -1, 1, -1, 1 ]
+  H 15 nodes: [ 1, 1, -1, 1, -1 ]
+  H 15 nodes: [ 1, 1, 1, -1, -1 ]
+  H 15 nodes: [ 1, 1, -1, -1, 1 ]
+  H 15 nodes: [ 1, 1, 1, 1, 1 ]
+  H 15 nodes: [ 1, -1, -1, 1, -1 ]
+  H 13 nodes: [ 0, 1, 0, 0, 1 ]
+NODAL_HYPS_DONE

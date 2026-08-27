@@ -1,0 +1,51 @@
+\documentclass[11pt]{amsart}
+\usepackage{amsmath, amssymb, amscd}
+
+\begin{document}
+
+\section*{The Triple Fiber Product for $M(2,2,4,8)$}
+
+Let $\mathcal{A}_t$ be the elliptic curve given by the Weierstrass model 
+\[ \mathcal{A}_t \colon y^2 = x(x-t-1)\left(x-\frac{t+1}{t}\right). \]
+We are studying the covers of $\mathcal{A}_t$ defined by adjoining the square roots of $f_1 = (a^2-1)(a^2-t^2)$ and $f_2 = (b^2-1)(b^2-t^2)$. The functions $a, b \in K(\mathcal{A}_t)$ are given explicitly by
+\[ b(x) = \frac{-xt}{t+1} \]
+and
+\[ a(x,y) = \frac{N(x,y)}{D(x)}, \]
+where the denominator $D(x)$ is a perfect square, $D(x) = (-xt + t^2 + 2t + 1)^2$, and $N(x,y)$ is the degree-2 numerator. 
+
+\subsection*{Decoding the Magma Output}
+Direct computation in Magma to find the squarefree part of $f_1(x,y)$ over the rational function field yields a factorization into four seemingly complicated polynomials, $F_1, \dots, F_4$. However, this obscures a simple geometric structure. 
+
+Notice that the function $a(x,y)$ can be translated by $\pm 1$ and $\pm t$ to match the roots of $f_1$:
+\begin{align*}
+    a \pm 1 &= \frac{N(x,y) \pm D(x)}{D(x)} \\
+    a \pm t &= \frac{N(x,y) \pm tD(x)}{D(x)}.
+\end{align*}
+The squarefree part of $f_1(x,y)$ over $\mathbb{C}(x)$ is obtained essentially by clearing the $D(x)^4$ denominator. The four ``ugly'' factors $F_i$ returned by Magma are precisely the unexpanded numerators of these rational functions. Up to scaling by powers of $t$, we have:
+\begin{itemize}
+    \item $F_3 = N(x,y) + D(x)$, corresponding to the numerator of $a+1$.
+    \item $F_4 = N(x,y) - D(x)$, corresponding to the numerator of $a-1$.
+    \item $F_1 = (N(x,y) + tD(x))/t$, corresponding to the numerator of $a+t$.
+    \item $F_2 = (tD(x) - N(x,y))/t$, corresponding to the numerator of $t-a$.
+\end{itemize}
+
+\subsection*{The $a$-cover and $b$-cover}
+The parameter $b(x)$ is a fractional linear transformation of $x$. Thus, substituting $b(x)$ into $f_2(x)$ preserves the degree, leaving a quartic polynomial in $x$. Magma easily birationally transforms the cover $u^2 = f_2(x)$ into the standard Legendre form
+\begin{equation} \label{eq:b_cover}
+    t(t+1)u^2 = X(X-1)(X-t^2),
+\end{equation}
+via some fractional linear map $X = \Phi(b)$.
+
+The parameter $a(x,y)$, on the other hand, has degree 2 over $\mathbb{P}^1_x$, leading to the large polynomial expressions when expanded. However, because $f_1$ and $f_2$ have the exact same algebraic form, the first double cover $v^2 = f_1(x,y)$ maps to the \emph{exact same} Weierstrass model via the \emph{exact same} transformation $\Phi$, simply evaluated at $a$. Thus, the $a$-cover is birational to 
+\begin{equation} \label{eq:a_cover}
+    t(t+1)v^2 = X'(X'-1)(X'-t^2),
+\end{equation}
+where $X' = \Phi(a(x,y))$. 
+
+\subsection*{The Triple Fiber Product via Involution}
+Abstractly, the relationship between the $a$-cover and $b$-cover is governed by the symmetry of the base surface $M(2,2,2,8)$. The relation $s_2^2 - 4s_4 = 0$ is symmetric in $a$ and $b$, which induces an involution $\tau \colon \mathcal{A}_t \to \mathcal{A}_t$ that swaps the roles of the two variables. That is, if $\tau(x,y) = (x', y')$, we have
+\[ b(x') = a(x,y) \quad \text{and} \quad a(x',y') = b(x). \]
+
+Geometrically, this implies that the $a$-cover $C_1 \to \mathcal{A}_t$ is simply the pullback of the $b$-cover $C_2 \to \mathcal{A}_t$ by the involution $\tau$. The full triple fiber product defining the $(\mathbb{Z}/2\mathbb{Z})^2$-cover over the same $x$-line is therefore isomorphic to the fiber product of the relatively minimal model of $C_2$ and its translation $\tau^* C_2$ over $\mathcal{A}_t$.
+
+\end{document}

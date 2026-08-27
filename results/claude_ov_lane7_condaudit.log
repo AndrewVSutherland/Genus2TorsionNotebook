@@ -1,0 +1,123 @@
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+
+Current total memory usage: 5680.2MB, failed memory request: 885.5MB
+System Error: User memory limit has been reached
+CA 1 (-10, -10/7, -1/2) v_2(disc_min) = 10  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 38200383011700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <13, 2>, <19, 1>, <23, 1>, <37, 1>, <317, 1> ]
+   pari  N   = 9550095752925
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 2 (-5, -15/8, -15/22) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 71739344823300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <19, 1>, <59, 1>, <67, 1>, <179, 1> ]
+   pari  N   = 17934836205825
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 3 (-3, -3/4, -3/5) v_2(disc_min) = 7  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 152100 = [ <2, 2>, <3, 2>, <5, 2>, <13, 2> ]
+   pari  N   = 38025
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 4 (-15/8, -15/19, -1/2) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 57756824308883700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <31, 1>, <59, 1>, <97, 1> ]
+   pari  N   = 14439206077220925
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 5 : child produced no output (died)
+CA 6 (-4/9, -4/25, 4/17) v_2(disc_min) = 30  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 677181093170400 = [ <2, 5>, <3, 2>, <5, 2>, <7, 2>, <13, 1>, <17, 2>, <23, 1>, <97, 1>, <229, 1> ]
+   pari  N   = 21161909161575
+   ratio magma/pari = 32 ; odd parts agree = true
+
+CA 7 (-511/61, -511/625, -1/2) v_2(disc_min) = 8  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 10908465347677295881102626942937482600 = [ <2, 3>, <3, 2>, <5, 2>, <7, 2>, <19, 2>, <23, 1>, <31, 1>, <47, 1>, <59, 1>, <61, 2>, <73, 2>, <397, 1>, <7681, 1>, <8219, 1>, <348671, 1> ]
+   pari  N   = 1363558168459661985137828367867185325
+   ratio magma/pari = 8 ; odd parts agree = true
+
+CA 8 (-165/41, -33/16, -165/289) v_2(disc_min) = 21  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 45410698767036677784636197700 = [ <2, 2>, <3, 2>, <5, 2>, <11, 2>, <13, 2>, <17, 2>, <19, 1>, <31, 2>, <41, 2>, <43, 1>, <61, 1>, <67, 1>, <1063, 1>, <1489, 1> ]
+   pari  N   = 11352674691759169446159049425
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 9 (-164/297, -1/2, 164/361) v_2(disc_min) = 26  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 40803889731092757199838765757900 = [ <2, 2>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <23, 1>, <31, 1>, <37, 1>, <41, 2>, <47, 1>, <53, 1>, <71, 1>, <251, 1>, <409, 1>, <467, 1> ]
+   pari  N   = 10200972432773189299959691439475
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 10 (-17/50, -34/189, 34/121) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 49112471226449793518756400 = [ <2, 4>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <17, 2>, <23, 1>, <31, 2>, <37, 1>, <89, 1>, <563, 1>, <3449, 1> ]
+   pari  N   = 3069529451653112094922275
+   ratio magma/pari = 16 ; odd parts agree = true
+
+CA 11 (-1/2, -13/49, 13/50) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 276781201327366035300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 1>, <13, 2>, <19, 1>, <23, 1>, <107, 1>, <179, 1>, <311, 1>, <1297, 1> ]
+   pari  N   = 69195300331841508825
+   ratio magma/pari = 4 ; odd parts agree = true
+
+LANE7_CONDAUDIT_DONE
+CA 1 (-10, -10/7, -1/2) v_2(disc_min) = 10  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 38200383011700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <13, 2>, <19, 1>, <23, 1>, <37, 1>, <317, 1> ]
+   pari  N   = 9550095752925
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 2 (-5, -15/8, -15/22) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 71739344823300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <19, 1>, <59, 1>, <67, 1>, <179, 1> ]
+   pari  N   = 17934836205825
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 3 (-3, -3/4, -3/5) v_2(disc_min) = 7  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 152100 = [ <2, 2>, <3, 2>, <5, 2>, <13, 2> ]
+   pari  N   = 38025
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 4 (-15/8, -15/19, -1/2) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 57756824308883700 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <31, 1>, <59, 1>, <97, 1> ]
+   pari  N   = 14439206077220925
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 5 : child produced no output (died)
+CA 6 (-4/9, -4/25, 4/17) v_2(disc_min) = 30  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 677181093170400 = [ <2, 5>, <3, 2>, <5, 2>, <7, 2>, <13, 1>, <17, 2>, <23, 1>, <97, 1>, <229, 1> ]
+   pari  N   = 21161909161575
+   ratio magma/pari = 32 ; odd parts agree = true
+
+CA 7 (-511/61, -511/625, -1/2) v_2(disc_min) = 8  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 10908465347677295881102626942937482600 = [ <2, 3>, <3, 2>, <5, 2>, <7, 2>, <19, 2>, <23, 1>, <31, 1>, <47, 1>, <59, 1>, <61, 2>, <73, 2>, <397, 1>, <7681, 1>, <8219, 1>, <348671, 1> ]
+   pari  N   = 1363558168459661985137828367867185325
+   ratio magma/pari = 8 ; odd parts agree = true
+
+CA 8 (-165/41, -33/16, -165/289) v_2(disc_min) = 21  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 45410698767036677784636197700 = [ <2, 2>, <3, 2>, <5, 2>, <11, 2>, <13, 2>, <17, 2>, <19, 1>, <31, 2>, <41, 2>, <43, 1>, <61, 1>, <67, 1>, <1063, 1>, <1489, 1> ]
+   pari  N   = 11352674691759169446159049425
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 9 (-164/297, -1/2, 164/361) v_2(disc_min) = 26  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 40803889731092757199838765757900 = [ <2, 2>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <19, 2>, <23, 1>, <31, 1>, <37, 1>, <41, 2>, <47, 1>, <53, 1>, <71, 1>, <251, 1>, <409, 1>, <467, 1> ]
+   pari  N   = 10200972432773189299959691439475
+   ratio magma/pari = 4 ; odd parts agree = true
+
+CA 10 (-17/50, -34/189, 34/121) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 49112471226449793518756400 = [ <2, 4>, <3, 1>, <5, 2>, <7, 2>, <11, 2>, <13, 2>, <17, 2>, <23, 1>, <31, 2>, <37, 1>, <89, 1>, <563, 1>, <3449, 1> ]
+   pari  N   = 3069529451653112094922275
+   ratio magma/pari = 16 ; odd parts agree = true
+
+CA 11 (-1/2, -13/49, 13/50) v_2(disc_min) = 14  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 276781201327366035300 = [ <2, 2>, <3, 2>, <5, 2>, <7, 2>, <11, 1>, <13, 2>, <19, 1>, <23, 1>, <107, 1>, <179, 1>, <311, 1>, <1297, 1> ]
+   pari  N   = 69195300331841508825
+   ratio magma/pari = 4 ; odd parts agree = true
+
+LANE7_CONDAUDIT_DONE

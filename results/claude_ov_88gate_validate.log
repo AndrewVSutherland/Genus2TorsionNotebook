@@ -1,0 +1,37 @@
+GATE 225.a2 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=6 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=6 AGREE=true
+GATE 1800.d1 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=10 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=2 AGREE=true
+GATE 2925.c1 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=6 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=6 AGREE=true
+GATE 3150.c2 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=10 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=2 AGREE=true
+GATE 3150.c5 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 5040.m2 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 5760.x10 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 8820.i2 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=8 gate_pass=4 truth_pass=4 normfail=8 degu_mismatch=4 AGREE=true
+GATE 12600.ba6 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 18450.g2 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 21420.n2 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 25200.t3 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 8 ] order4=12 handled=12 gate_pass=4 truth_pass=4 normfail=0 degu_mismatch=0 AGREE=true
+GATE 50400.dj1 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 16 ] order4=12 handled=10 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=2 AGREE=true
+GATE 573300.ir1 degF=5 shape=[ 1, 1, 1, 2 ] tors=[ 2, 4, 8 ] order4=24 handled=24 gate_pass=4 truth_pass=4 normfail=16 degu_mismatch=0 AGREE=true
+GATE 8100.j1 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 12 ] order4=12 handled=8 gate_pass=0 truth_pass=0 normfail=12 degu_mismatch=4 AGREE=true
+GATE 352800.ge1 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 12 ] order4=12 handled=8 gate_pass=0 truth_pass=0 normfail=12 degu_mismatch=4 AGREE=true
+GATE 69300.bu1 degF=6 shape=[ 1, 1, 1, 1, 2 ] tors=[ 2, 2, 16 ] order4=8 handled=8 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=0 AGREE=true
+GATE 371700.k1 degF=6 shape=[ 1, 1, 1, 1, 2 ] tors=[ 2, 2, 16 ] order4=8 handled=8 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=0 AGREE=true
+  DISAGREE 8100.e4 deg(F)=6 u=x^2 - x - 1 degu=2 d=2 gate=false truth=true lam=[] ds=[]
+  DISAGREE 8100.e4 deg(F)=6 u=x^2 - x - 1 degu=2 d=2 gate=false truth=true lam=[] ds=[]
+GATE 8100.e4 degF=6 shape=[ 2, 4 ] tors=[ 3, 24 ] order4=2 handled=2 gate_pass=0 truth_pass=2 normfail=0 degu_mismatch=0 AGREE=false
+GATE 18900.e2 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 2, 48 ] order4=4 handled=2 gate_pass=2 truth_pass=2 normfail=0 degu_mismatch=2 AGREE=true
+GATE 225.a6 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 255.a5 degF=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=8 degu_mismatch=0 AGREE=true
+  DISAGREE 315.a1 deg(F)=6 u=x^2 degu=2 d=2 gate=true truth=false lam=[ 1, -1, 1 ] ds=[ -7, -1, -15 ]
+  DISAGREE 315.a1 deg(F)=6 u=1 degu=0 d=2 gate=true truth=false lam=[ 1, 1, 1 ] ds=[ -7, -1, -15 ]
+  DISAGREE 315.a1 deg(F)=6 u=x^2 degu=2 d=2 gate=true truth=false lam=[ 1, -1, 1 ] ds=[ -7, -1, -15 ]
+  DISAGREE 315.a1 deg(F)=6 u=1 degu=0 d=2 gate=true truth=false lam=[ 1, 1, 1 ] ds=[ -7, -1, -15 ]
+GATE 315.a1 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=6 gate_pass=2 truth_pass=0 normfail=0 degu_mismatch=6 AGREE=false
+GATE 315.a3 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 315.a8 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 315.a11 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 360.a7 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 360.a12 degF=6 shape=[ 2, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE 360.a13 degF=5 shape=[ 1, 2, 2 ] tors=[ 4, 4 ] order4=12 handled=12 gate_pass=0 truth_pass=0 normfail=0 degu_mismatch=0 AGREE=true
+GATE_SUMMARY curves=29 order4_classes=296 per_curve_agree=27 disagreements=4
+GATE_VALIDATE_DONE

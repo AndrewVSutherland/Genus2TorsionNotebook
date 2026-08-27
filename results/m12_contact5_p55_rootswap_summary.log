@@ -1,0 +1,4 @@
+P55_ROOTSWAP_INPUT <55, 26, 29, 579>
+P55_ROOTSWAP_GCD <0, 0, 0, 1> swapped_numerator <84, 55, 29, 1053>
+P55_ROOTSWAP_NUMERATOR_FACTORS [ <1, 16, 1, 0, 1>, <1, 16, 1, 0, 2>, <52, 1, 23, 29, 573> ]
+Runtime error: root-swap formula does not stabilize P55

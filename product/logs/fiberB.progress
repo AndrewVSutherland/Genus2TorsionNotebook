@@ -1,0 +1,6 @@
+fiberB N=12 200 fibers 59 tested 0 surv
+fiberB N=12 400 fibers 71 tested 0 surv
+fiberB N=12 600 fibers 71 tested 0 surv
+fiberB N=10 200 fibers 69 tested 0 surv
+fiberB N=10 400 fibers 84 tested 0 surv
+fiberB N=10 600 fibers 85 tested 0 surv

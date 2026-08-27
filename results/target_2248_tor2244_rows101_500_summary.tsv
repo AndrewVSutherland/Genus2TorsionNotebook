@@ -1,0 +1,3 @@
+row	reverse_edge	tuple	source_torsion	Q_isomorphism_class	classification	witness	product_edge	forward_edges	full_edge	full_torsion	full_order	target_2248
+136	13	[53312,54600,60088,61880]	[2,4,8]	1	proven_product	rational_SetCart_quotient	1	3	3	[2,2,4,4]	64	no
+136	14	[53312,54600,60088,61880]	[2,4,8]	2	proven_product	rational_SetCart_quotient	1	3	3	[2,2,4,4]	64	no

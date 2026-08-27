@@ -1,0 +1,101 @@
+Magma V2.28-27    Thu Jul  2 2026 12:06:37 on <host> [Seed = 1450881499]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/agent_z5x5_b2zero_lift.m"
+# Z/5 x Z/5 b2=0 h1=1 h2=0 lift/reconstruction driver
+parameters max_7_power=3 max_11_power=3 rational_num_bound=80 rational_den_bound=40 max_search_tuples=2000000
+integral_residual_denominators=[ 65536, 16384, 16384, 256, 512 ]
+  E0 degree=10 total_degree=10 terms=26
+  E1 degree=9 total_degree=9 terms=23
+  E2 degree=8 total_degree=8 terms=20
+  E3 degree=7 total_degree=7 terms=15
+  E4 degree=6 total_degree=6 terms=11
+
+# lift_chart F7_slice_A p=7 max_power=3
+  base_mod_7=<K=2,s=0,t=6,b0=3,b1=1>
+  base_boundary_values=[ 2, 1, 3, 4, 1, 2 ]
+  slice_jacobian_rank_mod_7=5 determinant=4
+  level=1 modulus=7 lift_count=1 sample=[ 2, 0, 6, 3, 1 ] balanced=[ 2, 0, -1, 3, 1 ]
+  level=2 modulus=49 lift_count=1 capped=false sample=[ 30, 35, 13, 3, 36 ] balanced=[ -19, -14, 13, 3, -13 ] jac_rank_mod_7=5 determinant=4
+  level=3 modulus=343 lift_count=1 capped=false sample=[ 30, 84, 258, 52, 134 ] balanced=[ 30, 84, -85, 52, 134 ] jac_rank_mod_7=5 determinant=4
+
+# lift_chart F7_slice_B p=7 max_power=3
+  base_mod_7=<K=2,s=0,t=6,b0=4,b1=6>
+  base_boundary_values=[ 2, 6, 4, 4, 1, 2 ]
+  slice_jacobian_rank_mod_7=5 determinant=4
+  level=1 modulus=7 lift_count=1 sample=[ 2, 0, 6, 4, 6 ] balanced=[ 2, 0, -1, -3, -1 ]
+  level=2 modulus=49 lift_count=1 capped=false sample=[ 30, 35, 13, 46, 13 ] balanced=[ -19, -14, 13, -3, 13 ] jac_rank_mod_7=5 determinant=4
+  level=3 modulus=343 lift_count=1 capped=false sample=[ 30, 84, 258, 291, 209 ] balanced=[ 30, 84, -85, -52, -134 ] jac_rank_mod_7=5 determinant=4
+
+# lift_chart F11_slice_A p=11 max_power=3
+  base_mod_11=<K=7,s=5,t=10,b0=2,b1=4>
+  base_boundary_values=[ 7, 4, 2, 7, 3, 10 ]
+  slice_jacobian_rank_mod_11=5 determinant=4
+  level=1 modulus=11 lift_count=1 sample=[ 7, 5, 10, 2, 4 ] balanced=[ -4, 5, -1, 2, 4 ]
+  level=2 modulus=121 lift_count=1 capped=false sample=[ 84, 5, 87, 101, 81 ] balanced=[ -37, 5, -34, -20, -40 ] jac_rank_mod_11=5 determinant=4
+  level=3 modulus=1331 lift_count=1 capped=false sample=[ 689, 489, 571, 1190, 202 ] balanced=[ -642, 489, 571, -141, 202 ] jac_rank_mod_11=5 determinant=4
+
+# rational_search F7_slice_A modulus=343 num_bound=80 den_bound=40
+  candidate_counts=<K=10,s=9,t=8,b0=11,b1=10> tuple_count=79200
+  candidates_1_preview=[ -73/9, -43/10, -69/32, -13/11, -9/34, 4/23, 17/12, 64/25 ]
+  candidates_2_preview=[ -7/4, 21/37, 28/33, 35/29, 42/25, 56/17, 63/13, 70/9 ]
+  candidates_3_preview=[ -79/9, -76/13, -73/17, -67/25, -64/29, -61/33, -58/37, 3/4 ]
+  candidates_4_preview=[ -31/6, -72/25, -41/19, -51/32, -10/13, 1/33, 11/20, 32/27 ]
+  candidates_5_preview=[ -75/2, -16/5, -53/38, -37/33, -5/23, 11/18, 38/31, 27/13 ]
+  tested=79200 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search F7_slice_B modulus=343 num_bound=80 den_bound=40
+  candidate_counts=<K=10,s=9,t=8,b0=11,b1=10> tuple_count=79200
+  candidates_1_preview=[ -73/9, -43/10, -69/32, -13/11, -9/34, 4/23, 17/12, 64/25 ]
+  candidates_2_preview=[ -7/4, 21/37, 28/33, 35/29, 42/25, 56/17, 63/13, 70/9 ]
+  candidates_3_preview=[ -79/9, -76/13, -73/17, -67/25, -64/29, -61/33, -58/37, 3/4 ]
+  candidates_4_preview=[ -52, -73/8, -53/34, -32/27, -11/20, -1/33, 10/13, 51/32 ]
+  candidates_5_preview=[ -59/3, -43/8, -27/13, -38/31, -11/18, 5/23, 37/33, 53/38 ]
+  tested=79200 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search F11_slice_A modulus=1331 num_bound=80 den_bound=40
+  candidate_counts=<K=5,s=2,t=1,b0=4,b1=2> tuple_count=80
+  candidates_1_preview=[ -78/25, -31/27, 16/29, 63/31, 47/2 ]
+  candidates_2_preview=[ -26/19, 29/30 ]
+  candidates_3_preview=[ 4/7 ]
+  candidates_4_preview=[ -79/10, -17/19, 45/28, 62/9 ]
+  candidates_5_preview=[ -36/13, 47/20 ]
+  tested=80 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search CRT_F7A_F11A modulus=456533 num_bound=80 den_bound=40
+  candidate_counts=<K=0,s=0,t=0,b0=0,b1=0> tuple_count=0
+  candidates_1_preview=[]
+  candidates_2_preview=[]
+  candidates_3_preview=[]
+  candidates_4_preview=[]
+  candidates_5_preview=[]
+  search_result=no_candidates
+
+# rational_search CRT_F7B_F11A modulus=456533 num_bound=80 den_bound=40
+  candidate_counts=<K=0,s=0,t=0,b0=0,b1=0> tuple_count=0
+  candidates_1_preview=[]
+  candidates_2_preview=[]
+  candidates_3_preview=[]
+  candidates_4_preview=[]
+  candidates_5_preview=[]
+  search_result=no_candidates
+
+# verdict_marker
+smooth_lift_targets_have_unique_lifts_when_slice_jacobian_rank_is_5
+bounded_rational_search_completed
+
+Total time: 8.480 seconds, Total memory usage: 32.09MB

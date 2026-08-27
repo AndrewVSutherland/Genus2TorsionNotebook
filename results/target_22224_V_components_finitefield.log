@@ -1,0 +1,24 @@
+FINITE_FIELD V1 p 13 T 1 base [ 6, 2, 1, 12 ]
+smooth false
+FINITE_FIELD V1 p 13 T 5 base [ 6, 2, 1, 1 ]
+smooth false
+FINITE_FIELD V1 p 13 T 8 base [ 6, 2, 1, 1 ]
+smooth false
+FINITE_FIELD V1 p 13 T 12 base [ 6, 2, 1, 12 ]
+smooth false
+FINITE_FIELD V2 p 11 T 1 base [ 5, 2, 7, 1 ]
+smooth true Jorder 128 mod3 2
+FINITE_FIELD V2 p 11 T 5 base [ 5, 2, 7, 3 ]
+smooth true Jorder 128 mod3 2
+FINITE_FIELD V2 p 11 T 6 base [ 5, 2, 7, 3 ]
+smooth true Jorder 128 mod3 2
+FINITE_FIELD V2 p 11 T 10 base [ 5, 2, 7, 1 ]
+smooth true Jorder 128 mod3 2
+FINITE_FIELD V2 p 13 T 1 base [ 11, 6, 8, 5 ]
+smooth false
+FINITE_FIELD V2 p 13 T 4 base [ 11, 6, 8, 2 ]
+smooth false
+FINITE_FIELD V2 p 13 T 9 base [ 11, 6, 8, 2 ]
+smooth false
+FINITE_FIELD V2 p 13 T 12 base [ 11, 6, 8, 5 ]
+smooth false

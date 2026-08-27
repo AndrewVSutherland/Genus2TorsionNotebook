@@ -1,0 +1,15 @@
+SEED F4 branches (-126, 28, 49, -50) radicand_roots (2940, 12936, 2156, 539)
+  p 11 signed (6, 6, 5, 5) squares (3, 3, 3, 3) smooth False scaled_contact_solutions [(3, 7, 6, 0), (8, 7, 6, 0)]
+  p 13 signed (4, 2, 10, 2) squares (3, 4, 9, 4) smooth False scaled_contact_solutions []
+SEED F4_partner branches (-126, 28, 49, -578) radicand_roots (9996, 25872, 10780, 12397)
+  p 11 signed (6, 6, 5, 5) squares (3, 3, 3, 3) smooth False scaled_contact_solutions [(3, 7, 6, 0), (8, 7, 6, 0)]
+  p 13 signed (4, 2, 10, 7) squares (3, 4, 9, 10) smooth True scaled_contact_solutions []
+SEED F5 branches (-112, 14, 49, -338) radicand_roots (5096, 17640, 5292, 7497)
+  p 11 signed (9, 3, 5, 3) squares (4, 9, 3, 9) smooth False scaled_contact_solutions [(3, 5, 9, 3), (8, 5, 9, 3)]
+  p 13 signed (5, 1, 10, 0) squares (12, 1, 9, 0) smooth False scaled_contact_solutions []
+SEED F7 branches (-18, 1, 16, -1682) radicand_roots (696, 1020, 697, 952)
+  p 11 signed (4, 1, 5, 1) squares (5, 1, 3, 1) smooth False scaled_contact_solutions [(5, 4, 5, 10), (6, 4, 5, 10)]
+  p 13 signed (8, 1, 3, 8) squares (12, 1, 9, 12) smooth False scaled_contact_solutions []
+SEED B2000 branches (144, 697, -722, -1394) radicand_roots (317832, 295800, 101065, 148580)
+  p 11 signed (1, 4, 4, 3) squares (1, 5, 5, 9) smooth False scaled_contact_solutions [(5, 5, 9, 3), (6, 5, 9, 3)]
+  p 13 signed (1, 8, 6, 10) squares (1, 12, 10, 9) smooth True scaled_contact_solutions []

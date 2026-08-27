@@ -1,0 +1,15 @@
+C : y^2 = 3168*x^5 + 697*x^4 - 23220*x^3 + 37620*x^2 - 23328*x + 5184
+genus 2   TorsionSubgroup [ 70 ]
+function field: Function Field of Hyperelliptic Curve defined by y^2 = 3168*x^5 + 697*x^4 - 23220*x^3 + 37620*x^2 - 23328*x + 5184 over Rational Field
+Subfields FAILED: Runtime error in 'Subfields': Bad argument types
+Argument types given: FldFunFracSch[CrvHyp[FldRat]]
+
+Subfields time 0.010  success false
+
+E1 cond 66 torsion [ 10 ] ; E2 cond 858 torsion [ 7 ]
+3-division polynomials: deg 4, 4
+  factor degrees E1: [ <4, 1> ]
+  factor degrees E2: [ <4, 1> ]
+  splitting field of psi_3: deg 24 and 24 ; ISOMORPHIC: true
+  disc(E1) sqfree core 33 ; disc(E2) sqfree core -286
+SEARCH_DONE f70subfield

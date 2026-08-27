@@ -1,0 +1,15 @@
+M(12) full extra-Weierstrass constructive s=m^2 [4,12] search
+height 20
+Done
+checked_split 258548
+extra_roots 1640
+order12_tests 3280
+s_polys 3280
+s_roots 0
+square_s 0
+zero_s_polys 0
+special_s_roots 0
+special_square_s 0
+constructed 0
+verified_halves 0
+hits 0

@@ -1,0 +1,33 @@
+WSPLIT_CONTACT_DISC_SURVEY_START
+Primes [ 19 ]
+SampleLimit 10 TopN 8 IncludeBeta0 true
+columns: ell beta_points unique_bases smooth order8 rank2 j3 contact_bases contact_conics raw_beta_contact split_conics irreducible_conics non_d0_conics non_d0_irred_conics d0_conics
+19 5521 2378 1016 1016 1016 328 266 316 692 162 154 235 102
+  beta_degenerate=35 duplicate_beta=3143 beta_mult_hist=[ <"2", 259>, <"6", 7> ]
+  exact_disc_top_all [ <18, 24>, <6, 22>, <9, 21>, <8, 21>, <14, 20>, <17, 19>, <13, 18>, <7, 18> ]
+  exact_disc_top_raw_beta [ <18, 52>, <6, 52>, <14, 48>, <13, 44>, <9, 42>, <8, 42>, <4, 42>, <7, 40> ]
+  exact_disc_top_non_d0 [ <18, 19>, <9, 19>, <6, 19>, <17, 17>, <5, 16>, <8, 15>, <7, 15>, <16, 14> ]
+  exact_disc_top_non_d0_irred [ <18, 19>, <8, 15>, <15, 12>, <14, 11>, <13, 11>, <3, 11>, <12, 10>, <2, 7> ]
+  samples
+    <6, 13, 1, 8, 1, pp^2 + 17*pp + 9, true, 2>
+    <1, 17, 7, 4, 16, pp^2 + 12*pp + 12, true, 2>
+    <4, 6, 0, 6, 0, pp^2 + 7*pp + 16, true, 6>
+    <6, 6, 0, 6, 0, pp^2 + 13*pp + 17, true, 6>
+    <14, 6, 0, 6, 0, pp^2 + 15*pp + 10, false, 6>
+    <7, 6, 12, 10, 10, pp^2 + 3*pp + 10, true, 2>
+    <7, 6, 12, 10, 10, pp^2 + 14*pp + 14, true, 2>
+    <18, 6, 12, 10, 10, pp^2 + 18*pp + 10, false, 2>
+    <9, 6, 12, 10, 10, pp^2 + 18*pp + 17, true, 2>
+    <15, 16, 1, 18, 6, pp^2 + 9*pp + 7, false, 2>
+  non_d0_irred_samples
+    <18, 6, 12, 10, 10, pp^2 + 18*pp + 10, 2>
+    <15, 16, 1, 18, 6, pp^2 + 9*pp + 7, 2>
+    <15, 7, 18, 14, 16, pp^2 + 11*pp + 17, 2>
+    <8, 4, 14, 6, 6, pp^2 + 9*pp + 4, 2>
+    <12, 4, 6, 3, 15, pp^2 + 6*pp + 6, 2>
+    <2, 3, 11, 8, 12, pp^2 + 15*pp + 13, 2>
+    <18, 14, 10, 7, 15, pp^2 + pp + 10, 2>
+    <13, 9, 6, 12, 2, pp^2 + 12*pp + 9, 2>
+    <10, 14, 13, 12, 6, pp^2 + 5*pp + 18, 2>
+    <14, 10, 5, 9, 1, pp^2 + 2*pp + 7, 2>
+WSPLIT_CONTACT_DISC_SURVEY_DONE

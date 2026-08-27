@@ -1,0 +1,35 @@
+TWCLEANUP_START AlarmS=1800 DoRank=1
+MODEL tw12: y^2 = x^7 - 12*x^6 + 58*x^5 - 155*x^4 + 252*x^3 - 252*x^2 + 144*x - 36  (T = 1/x; infty <-> T=0)
+MODEL tw10: y^2 = x^7 - 160*x^6 + 8192*x^5 - 159744*x^4 + 524288*x^3 + 16777216*x^2 - 134217728*x  (T = x/32; infty <-> T=infty)
+== tw12: genus 3 ==
+  #J(F_5) = 128 = [ <2, 7> ]
+  #J(F_7) = 384 = [ <2, 7>, <3, 1> ]
+  #J(F_11) = 2304 = [ <2, 8>, <3, 2> ]
+  #J(F_13) = 4096 = [ <2, 12> ]
+  #J(F_17) = 4096 = [ <2, 12> ]
+  #J(F_19) = 5376 = [ <2, 8>, <3, 1>, <7, 1> ]
+TORSBOUND curve=tw12 B=128 primes=[ 5, 7, 11, 13, 17, 19 ]
+  known points: infty + [
+[ 1, 0 ]
+]
+KNOWNSUB curve=tw12 order=2
+CLEANUP curve=tw12 GAP bound=128 known=2 (extra torsion or untight gcd -> investigate)
+== tw10: genus 3 ==
+  #J(F_3) = 32 = [ <2, 5> ]
+  #J(F_7) = 480 = [ <2, 5>, <3, 1>, <5, 1> ]
+  #J(F_11) = 2048 = [ <2, 11> ]
+  #J(F_13) = 2560 = [ <2, 9>, <5, 1> ]
+  #J(F_17) = 4096 = [ <2, 12> ]
+  #J(F_19) = 4096 = [ <2, 12> ]
+TORSBOUND curve=tw10 B=32 primes=[ 3, 7, 11, 13, 17, 19 ]
+  known points: infty + [
+[ 0, 0 ],
+[ 16, 0 ],
+[ 32, 0 ]
+]
+KNOWNSUB curve=tw10 order=8
+CLEANUP curve=tw10 GAP bound=32 known=8 (extra torsion or untight gcd -> investigate)
+RANKPHASE_START (no GRH class-group bounds; Alarm(1800))
+RANKBOUND_UNCOND curve=tw12 bound=0
+RANKBOUND_UNCOND curve=tw10 bound=0
+TWCLEANUP_DONE

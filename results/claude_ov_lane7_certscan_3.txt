@@ -1,0 +1,6 @@
+SCAN known-RM (-3, -3/4, -3/5) PMAX=1500 goodprimes=234 irreducible=213 rootpower_strict=195 strict_with_sqrt2=195
+  strict primes (first 40): [ 17, 29, 37, 41, 43, 53, 59, 73, 79, 83, 89, 97, 101, 103, 109, 113, 127, 131, 137, 139, 149, 157, 167, 173, 179, 181, 193, 197, 199, 211, 223, 229, 233, 241, 251, 257, 263, 269, 271, 281 ]
+BESTPAIR (-3, -3/4, -3/5) p0=0 q0=0  disjoint_pairs_among_first_15_strict = 0 of 105
+  chi_p0 = 0
+  chi_q0 = 0
+

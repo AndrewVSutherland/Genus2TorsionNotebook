@@ -1,0 +1,17 @@
+WSPLIT_CONTACT_COVER_STATS
+variables: r,p,t,beta,U,V,H0,H1,H2,H3,Kappa
+contact equations are coeffs of f-H^2-Kappa*q3^3 in degrees 0..6
+ contact_c0 total_degree=12 terms=86
+ contact_c1 total_degree=9 terms=51
+ contact_c2 total_degree=9 terms=41
+ contact_c3 total_degree=6 terms=18
+ contact_c4 total_degree=6 terms=20
+ contact_c5 total_degree=3 terms=6
+ contact_c6 total_degree=3 terms=4
+ wsplit total_degree=9 terms=28
+ disc_q3 equation U^2 - 4*V total_degree=2 terms=2
+wsplit_factorization
+[
+<r^5*t^2*beta^2 - 4*r^5*t^2 + 8*r^5*t - 4*r^5 + 8*r^4*p*t^2 - 16*r^4*p*t + 8*r^4*p + 4*r^4*t^3*beta^2 - 8*r^4*t^2*beta^2 + 6*r^4*t*beta^2 - 4*r^3*p^2*t^2 + 8*r^3*p^2*t - 4*r^3*p^2 - 8*r^3*p*t*beta^2 + 4*r^3*t^4*beta^2 - 8*r^3*t^3*beta^2 - 2*r^3*t^2*beta^4 + r^3*beta^2 + 4*r^2*p^2*t*beta^2 - 8*r^2*p*t^3*beta^2 + 24*r^2*p*t^2*beta^2 - 8*r^2*p*t*beta^2 - 2*r^2*t*beta^4 - 4*r*p^2*t^2*beta^2 + 8*r*p*t^2*beta^4 + 4*r*t^4*beta^4 + r*t^2*beta^6 - 8*p*t^3*beta^4, 1>
+]
+stats_done

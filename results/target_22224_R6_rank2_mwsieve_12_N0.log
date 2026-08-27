@@ -1,0 +1,13 @@
+REPEATED_RANK2_MWSIEVE_START R6 pair <1, 2> remaining 3 N 0 fixed [ -3, 5, 75 ]
+d0 -405/121 known_t 11/21 E Elliptic Curve defined by y^2 = x^3 + 3300*x + 34000 over Rational Field
+rank_bounds 2 2 generators [ (-10 : 0 : 1), (80 : -900 : 1), (230 : -3600 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE R6 p 11 orders 12 6 total 144 third_fail 0 open_no3 0 open_3 0 boundary 144 finite_direct_boundary 12 infinity 132 allowed 144 lattice_before 2 lattice_after 2
+PRIORITY_CLASSES R6 p 11 boundary_count 144 open3_count 0 boundary []
+PRIME_PROFILE R6 p 13 orders 5 20 total 200 third_fail 100 open_no3 30 open_3 0 boundary 70 finite_direct_boundary 60 infinity 10 allowed 70 lattice_before 2 lattice_after 2
+PRIORITY_CLASSES R6 p 13 boundary_count 70 open3_count 0 boundary [ <2, 3, 12>, <1, 0, 10>, <2, 0, 6>, <1, 3, 4>, <1, 2, 12>, <2, 2, 8>, <2, 0, 2>, <1, 1, 8>, <2, 0, 16>, <1, 0, 16>, <2, 3, 14>, <1, 2, 14>, <2, 1, 4>, <2, 2, 18>, <2, 0, 0>, <2, 4, 2>, <2, 4, 14>, <1, 1, 6>, <1, 2, 16>, <1, 3, 6>, <1, 1, 18>, <2, 1, 8>, <1, 3, 14>, <2, 2, 4>, <1, 0, 12>, <2, 4, 12>, <1, 0, 18>, <1, 1, 14>, <1, 1, 10>, <2, 1, 0>, <1, 4, 14>, <1, 4, 8>, <2, 0, 12>, <1, 3, 2>, <2, 2, 2>, <1, 1, 4>, <2, 0, 8>, <2, 1, 16>, <2, 3, 16>, <2, 3, 6>, <1, 2, 2>, <2, 2, 12>, <2, 1, 14>, <1, 4, 4>, <2, 2, 16>, <1, 3, 0>, <2, 3, 4>, <1, 0, 2>, <2, 3, 10>, <2, 4, 0>, <2, 0, 10>, <1, 1, 0>, <1, 4, 12>, <1, 4, 10>, <1, 4, 18>, <2, 1, 18>, <1, 2, 8>, <2, 2, 6>, <1, 4, 2>, <1, 2, 18>, <1, 3, 16>, <2, 4, 4>, <2, 1, 10>, <2, 4, 18>, <1, 3, 10>, <1, 0, 6>, <1, 0, 0>, <2, 4, 8>, <1, 2, 6>, <2, 3, 0> ]
+PRIME_PROFILE R6 p 17 orders 10 5 total 100 third_fail 0 open_no3 0 open_3 0 boundary 100 finite_direct_boundary 95 infinity 5 allowed 100 lattice_before 2 lattice_after 2
+PRIME_PROFILE R6 p 19 orders 12 4 total 96 third_fail 28 open_no3 48 open_3 0 boundary 20 finite_direct_boundary 16 infinity 4 allowed 20 lattice_before 2 lattice_after 0
+REPEATED_RANK2_MWSIEVE_DONE R6 N 0 used_primes [ 11, 13, 17, 19 ]
+lattice_survivors 0 distinct_exact_t 0 deferred 0 exact_full 0 three_hits 0 output results/target_22224_R6_rank2_mwsieve_12_N0.tsv modular_file results/target_22224_R6_rank2_mwsieve_12_N0_modular.tsv

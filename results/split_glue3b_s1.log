@@ -1,0 +1,38 @@
+GRID 93 values, twists 10, shard 1/3
+PROGRESS ia=1/93 processed 8556 escalated 0
+PROGRESS ia=4/93 processed 17112 escalated 0
+PROGRESS ia=7/93 processed 25668 escalated 0
+PROGRESS ia=10/93 processed 34222 escalated 0
+PROGRESS ia=13/93 processed 42776 escalated 0
+PROGRESS ia=16/93 processed 51332 escalated 0
+PROGRESS ia=19/93 processed 59886 escalated 0
+PROGRESS ia=22/93 processed 68442 escalated 0
+PROGRESS ia=25/93 processed 76998 escalated 0
+PROGRESS ia=28/93 processed 85554 escalated 0
+PROGRESS ia=31/93 processed 94108 escalated 0
+PROGRESS ia=34/93 processed 102664 escalated 0
+G3HIT a=-11/3 b=-3 c=-1/2 t=-6 E1tors=3 E2tors=6 JTORSION [ 6 ] order 6
+PROGRESS ia=37/93 processed 111218 escalated 1
+PROGRESS ia=40/93 processed 119772 escalated 1
+G3HIT a=-2/3 b=-1/2 c=-2/3 t=-1 E1tors=3 E2tors=6 JTORSION [ 6 ] order 6
+G3HIT a=-2/3 b=-1/2 c=0 t=-1 E1tors=3 E2tors=6 JTORSION [ 6 ] order 6
+PROGRESS ia=43/93 processed 128326 escalated 3
+PROGRESS ia=46/93 processed 136880 escalated 3
+PROGRESS ia=49/93 processed 145434 escalated 3
+PROGRESS ia=52/93 processed 153988 escalated 3
+G3HIT a=-7/4 b=-5/4 c=-1/6 t=-1 E1tors=5 E2tors=4 JTORSION [ 2, 10 ] order 20
+PROGRESS ia=55/93 processed 162542 escalated 4
+PROGRESS ia=58/93 processed 171098 escalated 4
+G3HIT a=5/4 b=-1 c=0 t=-6 E1tors=6 E2tors=6 JTORSION [ 2, 6 ] order 12
+PROGRESS ia=61/93 processed 179652 escalated 5
+PROGRESS ia=64/93 processed 188208 escalated 5
+PROGRESS ia=67/93 processed 196762 escalated 5
+PROGRESS ia=70/93 processed 205318 escalated 5
+PROGRESS ia=73/93 processed 213874 escalated 5
+PROGRESS ia=76/93 processed 222430 escalated 5
+PROGRESS ia=79/93 processed 230986 escalated 5
+PROGRESS ia=82/93 processed 239542 escalated 5
+PROGRESS ia=85/93 processed 248096 escalated 5
+PROGRESS ia=88/93 processed 256650 escalated 5
+PROGRESS ia=91/93 processed 265204 escalated 5
+GLUE3_DONE shard 1/3

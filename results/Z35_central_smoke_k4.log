@@ -1,0 +1,154 @@
+Z35 central b=0,r=1 deep lift
+max_k 4 direct_depth 3 max_store 100000 recon_height 80 use_compressed 0 sample_parent_limit 20
+local convention: H=0 mod 3^k; original G_i=0 mod 3^(k+1)
+central directions [ 1, 1, 1, 0, 1, 0 ]
+[ 1, 1, 1, 2, 1, 0 ]
+CENTER 1 dir [ 1, 1, 1, 0, 1, 0 ]
+chart_scales [ 1, 1, 1, 1, 1 ]
+ jacobian_mod3_rank 3
+ left_obstruction_rows_on_scaled_residuals [
+[ 1, 0, 2, 1, 0 ],
+[ 0, 1, 2, 0, 1 ]
+]
+ homogeneous_correction_kernel_rows [
+[ 1, 0, 0, 2, 2, 2 ],
+[ 0, 1, 0, 1, 0, 0 ],
+[ 0, 0, 1, 1, 1, 1 ]
+]
+ correction_coset_formula every nonempty next-digit set is d0 + span(kernel_rows) over F3
+ initial_branch_next_digit_solution_count 27 rank_histogram [ <3, 27> ]
+ initial_next_digit_affine_basis
+   dC2 + 2*dR + 2 = 0
+   dB + 2*dC1 + dR + 2 = 0
+   dA + 2*dC0 + dR + 1 = 0
+ direct_lift_rows_to_depth 3
+<1, 3, 1, [ <27, 0> ], true>
+<2, 9, 27, [ <27, 1> ], true>
+<3, 27, 729, [ <27, 27> ], true>
+ direct_stop completed stored_residues 729
+ exact_one_step_lookahead_row
+<4, 81, 6561, [ <0, 486>, <27, 243> ], false>
+ sampled_next_obstruction_from_depth 3 sampled_parent_count 20 of 729
+  sampled_parent_index 115 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + 2*dR + 1 = 0
+    dB + 2*dC1 + dR + 2 = 0
+    dA + 2*dC0 + dR + 1 = 0
+  sampled_parent_index 154 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + 2*dR = 0
+    dB + 2*dC1 + dR + 2 = 0
+    dA + 2*dC0 + dR + 2 = 0
+  sampled_parent_index 269 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + 2*dR + 2 = 0
+    dB + 2*dC1 + dR + 2 = 0
+    dA + 2*dC0 + dR + 2 = 0
+ sampled_parent_liftable_child_count_hist [ <"0", 13>, <"27", 7> ]
+ sampled_child_obstruction_hist [ <"[ 0, 0 ]", 189> ]
+ representative_recurrence_rows
+ columns: k modulus inferred_lifts input_parent_count good_parent_count no_representative obstruction_hist status
+ compressed_transition_status skipped by default; use -b use_compressed:=1 for the experimental exact grouped automaton
+ sample_lifts_and_reconstruction
+ sample_mode 1 found true
+  sample_local_mod 81 [ 1, 4, 1, 42, 1, 24 ]
+  sample_original_mod 243 [ 4, 12, 4, 127, 4, 73 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 27/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -80, -77, -80, -39, -80, -57 ]
+   reconstructed_original [ -239, -231, -239, -116, -239, -170 ]
+   reconstructed_exact_zero false
+ sample_mode 2 found true
+  sample_local_mod 81 [ 79, 79, 79, 9, 28, 42 ]
+  sample_original_mod 243 [ 238, 237, 238, 28, 85, 127 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 945/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -2, -2, -2, -72, -53, -39 ]
+   reconstructed_original [ -5, -6, -5, -215, -158, -116 ]
+   reconstructed_exact_zero false
+ sample_mode 3 found true
+  sample_local_mod 81 [ 43, 43, 37, 12, 76, 54 ]
+  sample_original_mod 243 [ 130, 129, 112, 37, 229, 163 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 513/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -38, -38, -44, -69, -5, -27 ]
+   reconstructed_original [ -113, -114, -131, -206, -14, -80 ]
+   reconstructed_exact_zero false
+CENTER 2 dir [ 1, 1, 1, 2, 1, 0 ]
+chart_scales [ 1, 1, 1, 1, 1 ]
+ jacobian_mod3_rank 3
+ left_obstruction_rows_on_scaled_residuals [
+[ 1, 0, 2, 1, 0 ],
+[ 0, 1, 2, 0, 1 ]
+]
+ homogeneous_correction_kernel_rows [
+[ 1, 0, 0, 1, 1, 2 ],
+[ 0, 1, 0, 2, 0, 0 ],
+[ 0, 0, 1, 1, 1, 2 ]
+]
+ correction_coset_formula every nonempty next-digit set is d0 + span(kernel_rows) over F3
+ initial_branch_next_digit_solution_count 27 rank_histogram [ <3, 27> ]
+ initial_next_digit_affine_basis
+   dC2 + dR + 2 = 0
+   dB + dC1 + dR = 0
+   dA + dC0 + dR + 2 = 0
+ direct_lift_rows_to_depth 3
+<1, 3, 1, [ <27, 0> ], true>
+<2, 9, 27, [ <27, 1> ], true>
+<3, 27, 729, [ <27, 27> ], true>
+ direct_stop completed stored_residues 729
+ exact_one_step_lookahead_row
+<4, 81, 6561, [ <0, 486>, <27, 243> ], false>
+ sampled_next_obstruction_from_depth 3 sampled_parent_count 20 of 729
+  sampled_parent_index 115 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + dR + 1 = 0
+    dB + dC1 + dR + 2 = 0
+    dA + dC0 + dR = 0
+  sampled_parent_index 154 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + dR + 1 = 0
+    dB + dC1 + dR + 1 = 0
+    dA + dC0 + dR + 2 = 0
+  sampled_parent_index 269 next_depth_liftable_child_digits 27 affine_basis_for_liftable_next_digit_subset
+    dC2 + dR + 1 = 0
+    dB + dC1 + dR + 2 = 0
+    dA + dC0 + dR + 1 = 0
+ sampled_parent_liftable_child_count_hist [ <"0", 13>, <"27", 7> ]
+ sampled_child_obstruction_hist [ <"[ 0, 0 ]", 189> ]
+ representative_recurrence_rows
+ columns: k modulus inferred_lifts input_parent_count good_parent_count no_representative obstruction_hist status
+ compressed_transition_status skipped by default; use -b use_compressed:=1 for the experimental exact grouped automaton
+ sample_lifts_and_reconstruction
+ sample_mode 1 found true
+  sample_local_mod 81 [ 1, 4, 1, 32, 1, 57 ]
+  sample_original_mod 243 [ 4, 12, 5, 98, 5, 172 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 27/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -80, -77, -80, -49, -80, -24 ]
+   reconstructed_original [ -239, -231, -238, -145, -238, -71 ]
+   reconstructed_exact_zero false
+ sample_mode 2 found true
+  sample_local_mod 81 [ 79, 79, 79, 23, 22, 63 ]
+  sample_original_mod 243 [ 238, 237, 239, 71, 68, 190 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 945/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -2, -2, -2, -58, -59, -18 ]
+   reconstructed_original [ -5, -6, -4, -172, -175, -53 ]
+   reconstructed_exact_zero false
+ sample_mode 3 found true
+  sample_local_mod 81 [ 43, 43, 37, 53, 25, 15 ]
+  sample_original_mod 243 [ 130, 129, 113, 161, 77, 46 ]
+  original_G_residues_mod_3^(max_k+1) [ 0, 0, 0, 0, 0 ]
+  sample_h1 513/2 sample_disc_v3 27 sample_disc_nonzero true
+  reconstruction_height 80 ok true
+   reconstructed_local [ -38, -38, -44, -28, -56, -66 ]
+   reconstructed_original [ -113, -114, -130, -82, -166, -197 ]
+   reconstructed_exact_zero false
+CENTRAL_TOTAL_LIFT_TABLE
+columns: k modulus total_lifts_two_central_branches nonzero_central_branches
+1 3 2 2
+2 9 54 2
+3 27 1458 2
+4 81 13122 2
+verdict_marker central branches survive through requested precision if final table has two nonzero branches

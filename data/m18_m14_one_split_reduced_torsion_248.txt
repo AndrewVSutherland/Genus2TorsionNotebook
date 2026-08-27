@@ -1,0 +1,13 @@
+
+>> G,phi := TorsionSubgroup(J);
+                           ^
+Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+
+
+>> print "torsion", Invariants(G);
+                               ^
+User error: Identifier 'G' has not been declared or assigned
+p 47 L 2209*x^4 - 188*x^3 + 30*x^2 - 4*x + 1
+fac [
+<2209*x^4 - 188*x^3 + 30*x^2 - 4*x + 1, 1>
+]

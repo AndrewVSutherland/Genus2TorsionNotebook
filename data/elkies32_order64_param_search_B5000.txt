@@ -1,0 +1,22 @@
+# Elkies N=32 reconstructed family: search for D divisible by 2
+
+Parameter height bound B = 5000
+Parametrization coordinate degrees = [ 8, 8, 8 ]
+Sieve primes are applied in the chosen genus-0 parameter.  This is a targeted search, not a proof that no bad-reduction parameter was missed.
+
+Residue sieve data:
+  p=11 image=9 allowed=0 residues=[]
+  p=13 image=6 allowed=1 residues=[ 12 ]
+  p=19 image=15 allowed=2 residues=[ 14, 16 ]
+  p=23 image=21 allowed=4 residues=[ 8, 13, 18, 22 ]
+  p=29 image=24 allowed=2 residues=[ 8, 23 ]
+  p=31 image=27 allowed=6 residues=[ 0, 8, 17, 22, 26, 27 ]
+  p=37 image=31 allowed=10 residues=[ 1, 2, 3, 4, 13, 19, 21, 22, 26, 31 ]
+  p=41 image=36 allowed=10 residues=[ 2, 3, 12, 18, 21, 24, 30, 33, 37, -1 ]
+  p=43 image=39 allowed=8 residues=[ 3, 5, 8, 16, 34, 36, 38, 39 ]
+  p=47 image=45 allowed=10 residues=[ 5, 8, 14, 21, 24, 28, 29, 33, 34, -1 ]
+  p=53 image=46 allowed=12 residues=[ 2, 13, 15, 16, 21, 28, 31, 34, 42, 45, 51, -1 ]
+  p=59 image=57 allowed=15 residues=[ 0, 5, 11, 12, 13, 19, 22, 24, 25, 31, 36, 42, 47, 50, 54 ]
+
+
+SUMMARY B=5000 total=30401831 pass_sieve=0 nonsingular=0 exact_checked=0 hits=0

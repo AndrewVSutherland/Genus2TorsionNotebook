@@ -1,0 +1,34 @@
+CONTACT7_TWO_ROOT_SAMPLE
+parameters s=2 t=3 eps=1 delta=1
+r -3
+w -8
+a 691/1440
+b -5983/1440
+h -5983/1440*x^3 + 691/1440*x^2 - 7/2*x + 1
+f x^5 + 21281089/2073600*x^4 + 17638547/1036800*x^3 - 11789879/2073600*x^2 + 3733/160*x - 5609/720
+factorization
+  (x + 3)
+  (x + 8)
+  (x^3 - 1528511/2073600*x^2 + 464863/414720*x - 5609/17280)
+residual_cubic_irreducible true
+contact_identity true
+root_identities true true
+marked_y -247/40
+smooth true
+visible_orders D7=7 Dr=2 Dw=2 Dr+Dw=2
+integral_scale 1440
+integral_model 2073600*x^5 + 21281089*x^4 + 35277094*x^3 - 11789879*x^2 + 48379680*x - 16153920
+torsion_invariants [2,14]
+torsion_order 28
+reduced_minimal_model
+  y^2 + (x^2+x)*y = 518400*x^5 + 5320272*x^4 + 8819273*x^3 - 2947470*x^2 + 12094920*x - 4038480
+good_prime 7
+Frobenius x^4 + x^3 - 2*x^2 + 7*x + 49
+Frobenius_irreducible true
+ordinary true
+Galois_group D(4)
+root_power_degrees_n_2_to_12 [4,4,4,4,4,4,4,4,4,4,4]
+absolutely_simple true
+
+Generated and asserted by:
+  magma -b mode:=sample code/contact7_two_root_surface.m

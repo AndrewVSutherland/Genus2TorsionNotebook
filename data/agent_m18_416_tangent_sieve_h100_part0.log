@@ -1,0 +1,23 @@
+external gate_file supplied; skipping inline mod-49 survivor gate
+M_1(8,4) [4,16] live-stratum gated search
+height=100 aux_primes=[ 11, 13, 37, 41 ] tangent_sieve_primes=[ 17, 23, 29, 47 ] Part=0/6 smooth_strata_only=false gate_mod=343
+gate_file=data/agent_m18_416_smooth_strata_mod343_gate.txt
+trace_file=data/agent_m18_416_tangent_sieve_h100_part0.txt
+aux_prime 11: open target416 residues 4
+aux_prime 13: open target416 residues 4
+aux_prime 37: open target416 residues 64
+aux_prime 41: open target416 residues 112
+parameters=12175  gate_residues=5692  mod343-gated pair budget=5495485
+FIRSTPOSS R=11/26 w=-35/76 t=-4699/55432 stratum=<5,0> mod343=<40,329> plus=false minus=true tangent=0 tansievekill=true kill_ell=47
+progress cand=50000 smooth=49723 firstposs=1 tansievekill=1 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+FIRSTPOSS R=-71/11 w=-41/11 t=1539/572 stratum=<5,2> mod343=<243,121> plus=true minus=false tangent=0 tansievekill=true kill_ell=29
+FIRSTPOSS R=-2/43 w=-17/58 t=531/9245 stratum=<5,2> mod343=<327,254> plus=true minus=false tangent=0 tansievekill=true kill_ell=23
+DONE cand=74192 auxkill=846736 smooth=73739 firstposs=3 tansievekill=3 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+TORSION_COUNTS
+P7_STRATUM_COUNTS
+  <3,3> gate_res=766 gate_budget=732080 work_res=135 work_budget=129726 auxkill=118852 cand=10874 smooth=10737 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <3,4> gate_res=766 gate_budget=732080 work_res=123 work_budget=117745 auxkill=107890 cand=9855 smooth=9761 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <4,0> gate_res=833 gate_budget=816416 work_res=140 work_budget=137555 auxkill=126526 cand=10902 smooth=10902 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,0> gate_res=1715 gate_budget=1672837 work_res=281 work_budget=277972 auxkill=256805 cand=21077 smooth=21077 firstposs=1 tansievekill=1 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,2> gate_res=806 gate_budget=771036 work_res=131 work_budget=123590 auxkill=113144 cand=10446 smooth=10376 firstposs=2 tansievekill=2 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,5> gate_res=806 gate_budget=771036 work_res=138 work_budget=134557 auxkill=123519 cand=11038 smooth=10886 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0

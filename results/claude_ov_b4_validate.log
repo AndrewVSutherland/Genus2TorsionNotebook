@@ -1,0 +1,29 @@
+=== CONTROL SEED ===
+control 2-rank = 1
+control G2Invariants = [ 625000000/2883, 12375000/961, -747500/2883 ]
+control #RichelotIsogenousSurfaces = 1  types=[ JacHyp ]
+control MAGMA codomain: f = -2*x^5 - 24*x^4 - 64*x^3 - 32*x^2 - 4*x
+control MAGMA codomain G2Invariants = [ 9494696984224/279, 387008781260/279, 20562793414/279 ]  2-rank = 1
+control GP codomain G2Invariants = [ 9494696984224/279, 387008781260/279, 20562793414/279 ]  2-rank = 1
+control GP == MAGMA codomain (isomorphic over Q)? true ; twist by -1? false
+=== FLYNN(6,2) SEED n=-1 (u=0, v=1/4, t=1/4) ===
+seed1: f = 256*x^6 + 512*x^5 + 896*x^4 + 512*x^3 + 272*x^2 + 96*x + 16
+seed1: factor degs = [ 2, 4 ]
+seed1: 2-rank = 1
+seed1: G2Invariants = [ 2825761/16, 8405/8, 1271/16 ]
+seed1: TORSION = [ 22 ]
+seed1 integral model: 256*x^6 + 512*x^5 + 896*x^4 + 512*x^3 + 272*x^2 + 96*x + 16
+seed1 #RichelotIsogenousSurfaces = 1 types=[ JacHyp ]
+seed1 MAGMA codomain G2Invariants = [ 597344110151923491257/93068815139524, 8996439521400280821/93068815139524, -56625915077502945/93068815139524 ]  2-rank = 1
+seed1 MAGMA codomain TORSION = [ 22 ]
+seed1 GP codomain G2Invariants = [ 597344110151923491257/93068815139524, 8996439521400280821/93068815139524, -56625915077502945/93068815139524 ]  2-rank = 1
+seed1 GP codomain TORSION = [ 22 ]
+seed1 GP == MAGMA codomain (isomorphic over Q)? true ; twist by -1? false
+seed1 #J(F_p) seed   = [ 154, 176, 264, 330, 484, 880, 836, 1276, -1, 1848, 2200, 3696, 3564 ]
+seed1 #J(F_p) GP cod = [ 154, 176, 264, 330, 484, 880, 836, 1276, -1, 1848, 2200, 3696, 3564 ]
+
+In file "claude_ov_b4_validate.m", line 96, column 113:
+>> is the bug that was fixed)\n", Invariants(TorsionSubgroup(Jb));
+                                                            ^
+Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+

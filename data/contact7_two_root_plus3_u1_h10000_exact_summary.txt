@@ -1,0 +1,49 @@
+CONTACT7 TWO-ROOT PLUS-3: REMOVABLE u=1 BRANCH
+date 2026-07-11
+
+exact family
+  u = 1, r = 0, a = 35/8
+  b = -(8*t^4+24*t^3+48*t^2+45*t+15)/(8*(t+1)^3)
+  w = 1-t^2
+  h(1) = -t^2*(8*t^2+9*t+3)/(8*(t+1)^3)
+
+height convention
+  t=num/den in lowest terms
+  |num| <= 10000, 1 <= den <= 10000
+
+enumeration
+  rational_parameters 121589943
+  exact_invalid_parameters 3
+    t=-1 incompatible pole
+    t=0 singular/contact collision
+    t=1 coincident-root singularity
+  projective t=infinity was audited separately:
+    after y/t scaling the limit is y^2=x^4, singular
+  tested 121589940
+
+conservative masks p=5..83
+  survivors 86
+
+independent exact Magma reductions p=89..251
+  additional_local_survivors 0
+  first_kill counts
+    89  42
+    97  31
+    101 7
+    103 4
+    107 1
+    127 1
+
+key finite fact
+  At p=5 the u=1 branch has two good affine t-residues, t=2 and t=3.
+  Both have #J(F_5)=28, so neither supports an added rational 3-class.
+  All t=0,1,-1,infinity residue disks were retained conservatively.
+
+exact sample
+  t=2 is smooth with visible orders 7,2,2,2.
+  J(Q)_tors = [2,14], order 28.
+  The Jacobian is geometrically simple via an ordinary D4 Frobenius
+  certificate at p=7.
+
+outcome
+  no target-84 candidate on the complete u=1 branch height-10000 box

@@ -1,0 +1,886 @@
+M(2,2,2,2)+7 boundary-focused search
+height 10 params 125
+boundary_primes [ 5, 13 ]
+filter_primes [ 11, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71 ]
+DONE
+checked 317750
+smooth 317750
+boundary_5 310150
+boundary_5_13 116458
+reduction_survivors 0
+exact_tests 0
+hits 0
+FIRST_KILL_AFTER_BOUNDARY
+11 52302
+17 43839
+19 14366
+23 4533
+29 1230
+31 164
+37 18
+41 6
+43 0
+47 0
+53 0
+59 0
+61 0
+67 0
+71 0
+BOUNDARY_TAG_COUNTS
+13:a=1 10239
+13:a=1&a=b&a=c&b=1&b=c&c=1 54
+13:a=1&a=b&b=1 769
+13:a=1&a=c&c=1 979
+13:a=1&b=c 867
+13:a=b 18869
+13:a=b&a=c&b=c 1601
+13:a=b&c=1 1786
+13:a=c 21029
+13:a=c&b=1 1755
+13:b=1 17923
+13:b=1&b=c&c=1 1435
+13:b=c 18802
+13:c=1 20350
+5:a=0 3575
+5:a=0&a=b&a=c&b=0&b=c&c=0 740
+5:a=0&a=b&b=0 2020
+5:a=0&a=b&b=0&c=1 507
+5:a=0&a=b&b=0&c=inf 1377
+5:a=0&a=c&b=1&c=0 676
+5:a=0&a=c&b=inf&c=0 954
+5:a=0&a=c&c=0 2180
+5:a=0&b=1 1532
+5:a=0&b=1&b=c&c=1 328
+5:a=0&b=1&c=inf 1055
+5:a=0&b=c 1680
+5:a=0&b=inf 2289
+5:a=0&b=inf&c=1 555
+5:a=0&b=inf&c=inf 1509
+5:a=0&c=1 1298
+5:a=0&c=inf 3480
+5:a=1 2567
+5:a=1&a=b&a=c&b=1&b=c&c=1 140
+5:a=1&a=b&b=1 809
+5:a=1&a=b&b=1&c=0 386
+5:a=1&a=b&b=1&c=inf 592
+5:a=1&a=c&b=0&c=1 394
+5:a=1&a=c&b=inf&c=1 387
+5:a=1&a=c&c=1 880
+5:a=1&b=0 1584
+5:a=1&b=0&b=c&c=0 611
+5:a=1&b=0&c=inf 1105
+5:a=1&b=c 1223
+5:a=1&b=inf 1672
+5:a=1&b=inf&c=0 696
+5:a=1&b=inf&c=inf 1074
+5:a=1&c=0 1657
+5:a=1&c=inf 2518
+5:a=b 2540
+5:a=b&a=c&b=c 1165
+5:a=b&c=0 1599
+5:a=b&c=1 849
+5:a=b&c=inf 2463
+5:a=c 2926
+5:a=c&b=0 1863
+5:a=c&b=1 1166
+5:a=c&b=inf 1800
+5:a=inf 1752
+5:a=inf&b=0 1047
+5:a=inf&b=0&b=c&c=0 407
+5:a=inf&b=0&c=1 253
+5:a=inf&b=0&c=inf 698
+5:a=inf&b=1 625
+5:a=inf&b=1&b=c&c=1 129
+5:a=inf&b=1&c=0 328
+5:a=inf&b=1&c=inf 420
+5:a=inf&b=c 879
+5:a=inf&b=inf 1269
+5:a=inf&b=inf&c=0 531
+5:a=inf&b=inf&c=1 300
+5:a=inf&b=inf&c=inf 740
+5:a=inf&c=0 1164
+5:a=inf&c=1 616
+5:a=inf&c=inf 1560
+5:b=0 3786
+5:b=0&b=c&c=0 2164
+5:b=0&c=1 1422
+5:b=0&c=inf 3790
+5:b=1 2364
+5:b=1&b=c&c=1 716
+5:b=1&c=0 1617
+5:b=1&c=inf 2390
+5:b=c 2786
+5:b=inf 3690
+5:b=inf&c=0 2280
+5:b=inf&c=1 1289
+5:b=inf&c=inf 3535
+5:c=0 3743
+5:c=1 2085
+5:c=inf 5662
+BOUNDARY_COMBO_COUNTS
+5:a=0 | 13:a=1 464
+5:a=0 | 13:a=1&a=b&a=c&b=1&b=c&c=1 5
+5:a=0 | 13:a=1&a=b&b=1 60
+5:a=0 | 13:a=1&a=c&c=1 49
+5:a=0 | 13:a=1&b=c 38
+5:a=0 | 13:a=b 532
+5:a=0 | 13:a=b&a=c&b=c 48
+5:a=0 | 13:a=b&c=1 52
+5:a=0 | 13:a=c 582
+5:a=0 | 13:a=c&b=1 60
+5:a=0 | 13:b=1 590
+5:a=0 | 13:b=1&b=c&c=1 54
+5:a=0 | 13:b=c 473
+5:a=0 | 13:c=1 568
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=1 123
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=1&a=b&b=1 5
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=1&a=c&c=1 11
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=1&b=c 7
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=b 66
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=b&c=1 8
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=c 112
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:a=c&b=1 11
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:b=1 170
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:b=1&b=c&c=1 6
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:b=c 76
+5:a=0&a=b&a=c&b=0&b=c&c=0 | 13:c=1 143
+5:a=0&a=b&b=0 | 13:a=1 297
+5:a=0&a=b&b=0 | 13:a=1&a=b&b=1 12
+5:a=0&a=b&b=0 | 13:a=1&a=c&c=1 33
+5:a=0&a=b&b=0 | 13:a=1&b=c 24
+5:a=0&a=b&b=0 | 13:a=b 172
+5:a=0&a=b&b=0 | 13:a=b&a=c&b=c 12
+5:a=0&a=b&b=0 | 13:a=b&c=1 14
+5:a=0&a=b&b=0 | 13:a=c 341
+5:a=0&a=b&b=0 | 13:a=c&b=1 39
+5:a=0&a=b&b=0 | 13:b=1 387
+5:a=0&a=b&b=0 | 13:b=1&b=c&c=1 41
+5:a=0&a=b&b=0 | 13:b=c 289
+5:a=0&a=b&b=0 | 13:c=1 358
+5:a=0&a=b&b=0&c=1 | 13:a=1 89
+5:a=0&a=b&b=0&c=1 | 13:a=1&b=c 11
+5:a=0&a=b&b=0&c=1 | 13:a=b 47
+5:a=0&a=b&b=0&c=1 | 13:a=b&a=c&b=c 5
+5:a=0&a=b&b=0&c=1 | 13:a=c 107
+5:a=0&a=b&b=0&c=1 | 13:a=c&b=1 11
+5:a=0&a=b&b=0&c=1 | 13:b=1 118
+5:a=0&a=b&b=0&c=1 | 13:b=c 116
+5:a=0&a=b&b=0&c=inf | 13:a=1 198
+5:a=0&a=b&b=0&c=inf | 13:a=1&a=b&b=1 7
+5:a=0&a=b&b=0&c=inf | 13:a=1&a=c&c=1 26
+5:a=0&a=b&b=0&c=inf | 13:a=1&b=c 24
+5:a=0&a=b&b=0&c=inf | 13:a=b 80
+5:a=0&a=b&b=0&c=inf | 13:a=b&a=c&b=c 11
+5:a=0&a=b&b=0&c=inf | 13:a=b&c=1 13
+5:a=0&a=b&b=0&c=inf | 13:a=c 212
+5:a=0&a=b&b=0&c=inf | 13:a=c&b=1 23
+5:a=0&a=b&b=0&c=inf | 13:b=1 228
+5:a=0&a=b&b=0&c=inf | 13:b=1&b=c&c=1 29
+5:a=0&a=b&b=0&c=inf | 13:b=c 252
+5:a=0&a=b&b=0&c=inf | 13:c=1 273
+5:a=0&a=c&b=1&c=0 | 13:a=1 110
+5:a=0&a=c&b=1&c=0 | 13:a=1&a=c&c=1 10
+5:a=0&a=c&b=1&c=0 | 13:a=1&b=c 13
+5:a=0&a=c&b=1&c=0 | 13:a=b 132
+5:a=0&a=c&b=1&c=0 | 13:a=b&a=c&b=c 13
+5:a=0&a=c&b=1&c=0 | 13:a=b&c=1 14
+5:a=0&a=c&b=1&c=0 | 13:a=c 97
+5:a=0&a=c&b=1&c=0 | 13:b=c 152
+5:a=0&a=c&b=1&c=0 | 13:c=1 135
+5:a=0&a=c&b=inf&c=0 | 13:a=1 150
+5:a=0&a=c&b=inf&c=0 | 13:a=1&a=b&b=1 11
+5:a=0&a=c&b=inf&c=0 | 13:a=1&a=c&c=1 15
+5:a=0&a=c&b=inf&c=0 | 13:a=1&b=c 15
+5:a=0&a=c&b=inf&c=0 | 13:a=b 150
+5:a=0&a=c&b=inf&c=0 | 13:a=b&a=c&b=c 15
+5:a=0&a=c&b=inf&c=0 | 13:a=b&c=1 15
+5:a=0&a=c&b=inf&c=0 | 13:a=c 150
+5:a=0&a=c&b=inf&c=0 | 13:a=c&b=1 11
+5:a=0&a=c&b=inf&c=0 | 13:b=1 110
+5:a=0&a=c&b=inf&c=0 | 13:b=1&b=c&c=1 11
+5:a=0&a=c&b=inf&c=0 | 13:b=c 150
+5:a=0&a=c&b=inf&c=0 | 13:c=1 150
+5:a=0&a=c&c=0 | 13:a=1 305
+5:a=0&a=c&c=0 | 13:a=1&a=b&b=1 36
+5:a=0&a=c&c=0 | 13:a=1&a=c&c=1 25
+5:a=0&a=c&c=0 | 13:a=1&b=c 26
+5:a=0&a=c&c=0 | 13:a=b 352
+5:a=0&a=c&c=0 | 13:a=b&a=c&b=c 23
+5:a=0&a=c&c=0 | 13:a=b&c=1 35
+5:a=0&a=c&c=0 | 13:a=c 269
+5:a=0&a=c&c=0 | 13:a=c&b=1 32
+5:a=0&a=c&c=0 | 13:b=1 358
+5:a=0&a=c&c=0 | 13:b=1&b=c&c=1 34
+5:a=0&a=c&c=0 | 13:b=c 318
+5:a=0&a=c&c=0 | 13:c=1 364
+5:a=0&b=1 | 13:a=1 260
+5:a=0&b=1 | 13:a=1&a=c&c=1 27
+5:a=0&b=1 | 13:a=1&b=c 21
+5:a=0&b=1 | 13:a=b 316
+5:a=0&b=1 | 13:a=b&a=c&b=c 25
+5:a=0&b=1 | 13:a=b&c=1 32
+5:a=0&b=1 | 13:a=c 313
+5:a=0&b=1 | 13:b=c 239
+5:a=0&b=1 | 13:c=1 299
+5:a=0&b=1&b=c&c=1 | 13:a=1 76
+5:a=0&b=1&b=c&c=1 | 13:a=1&b=c 5
+5:a=0&b=1&b=c&c=1 | 13:a=b 94
+5:a=0&b=1&b=c&c=1 | 13:a=b&a=c&b=c 7
+5:a=0&b=1&b=c&c=1 | 13:a=c 85
+5:a=0&b=1&b=c&c=1 | 13:b=c 61
+5:a=0&b=1&c=inf | 13:a=1 168
+5:a=0&b=1&c=inf | 13:a=1&a=c&c=1 21
+5:a=0&b=1&c=inf | 13:a=1&b=c 19
+5:a=0&b=1&c=inf | 13:a=b 195
+5:a=0&b=1&c=inf | 13:a=b&a=c&b=c 21
+5:a=0&b=1&c=inf | 13:a=b&c=1 24
+5:a=0&b=1&c=inf | 13:a=c 180
+5:a=0&b=1&c=inf | 13:b=c 203
+5:a=0&b=1&c=inf | 13:c=1 224
+5:a=0&b=c | 13:a=1 211
+5:a=0&b=c | 13:a=1&a=b&b=1 27
+5:a=0&b=c | 13:a=1&a=c&c=1 24
+5:a=0&b=c | 13:a=1&b=c 19
+5:a=0&b=c | 13:a=b 243
+5:a=0&b=c | 13:a=b&a=c&b=c 23
+5:a=0&b=c | 13:a=b&c=1 27
+5:a=0&b=c | 13:a=c 269
+5:a=0&b=c | 13:a=c&b=1 26
+5:a=0&b=c | 13:b=1 277
+5:a=0&b=c | 13:b=1&b=c&c=1 9
+5:a=0&b=c | 13:b=c 255
+5:a=0&b=c | 13:c=1 269
+5:a=0&b=inf | 13:a=1 343
+5:a=0&b=inf | 13:a=1&a=b&b=1 25
+5:a=0&b=inf | 13:a=1&a=c&c=1 45
+5:a=0&b=inf | 13:a=1&b=c 32
+5:a=0&b=inf | 13:a=b 343
+5:a=0&b=inf | 13:a=b&a=c&b=c 32
+5:a=0&b=inf | 13:a=b&c=1 45
+5:a=0&b=inf | 13:a=c 343
+5:a=0&b=inf | 13:a=c&b=1 25
+5:a=0&b=inf | 13:b=1 250
+5:a=0&b=inf | 13:b=1&b=c&c=1 33
+5:a=0&b=inf | 13:b=c 320
+5:a=0&b=inf | 13:c=1 450
+5:a=0&b=inf&c=1 | 13:a=1 109
+5:a=0&b=inf&c=1 | 13:a=1&a=b&b=1 8
+5:a=0&b=inf&c=1 | 13:a=1&b=c 11
+5:a=0&b=inf&c=1 | 13:a=b 109
+5:a=0&b=inf&c=1 | 13:a=b&a=c&b=c 11
+5:a=0&b=inf&c=1 | 13:a=c 109
+5:a=0&b=inf&c=1 | 13:a=c&b=1 8
+5:a=0&b=inf&c=1 | 13:b=1 80
+5:a=0&b=inf&c=1 | 13:b=c 110
+5:a=0&b=inf&c=inf | 13:a=1 239
+5:a=0&b=inf&c=inf | 13:a=1&a=b&b=1 31
+5:a=0&b=inf&c=inf | 13:a=1&a=c&c=1 20
+5:a=0&b=inf&c=inf | 13:a=1&b=c 13
+5:a=0&b=inf&c=inf | 13:a=b 245
+5:a=0&b=inf&c=inf | 13:a=b&a=c&b=c 13
+5:a=0&b=inf&c=inf | 13:a=b&c=1 21
+5:a=0&b=inf&c=inf | 13:a=c 245
+5:a=0&b=inf&c=inf | 13:a=c&b=1 32
+5:a=0&b=inf&c=inf | 13:b=1 309
+5:a=0&b=inf&c=inf | 13:b=1&b=c&c=1 11
+5:a=0&b=inf&c=inf | 13:b=c 130
+5:a=0&b=inf&c=inf | 13:c=1 199
+5:a=0&c=1 | 13:a=1 222
+5:a=0&c=1 | 13:a=1&a=b&b=1 28
+5:a=0&c=1 | 13:a=1&b=c 14
+5:a=0&c=1 | 13:a=b 257
+5:a=0&c=1 | 13:a=b&a=c&b=c 17
+5:a=0&c=1 | 13:a=c 268
+5:a=0&c=1 | 13:a=c&b=1 28
+5:a=0&c=1 | 13:b=1 274
+5:a=0&c=1 | 13:b=c 190
+5:a=0&c=inf | 13:a=1 481
+5:a=0&c=inf | 13:a=1&a=b&a=c&b=1&b=c&c=1 6
+5:a=0&c=inf | 13:a=1&a=b&b=1 50
+5:a=0&c=inf | 13:a=1&a=c&c=1 61
+5:a=0&c=inf | 13:a=1&b=c 42
+5:a=0&c=inf | 13:a=b 509
+5:a=0&c=inf | 13:a=b&a=c&b=c 44
+5:a=0&c=inf | 13:a=b&c=1 63
+5:a=0&c=inf | 13:a=c 526
+5:a=0&c=inf | 13:a=c&b=1 48
+5:a=0&c=inf | 13:b=1 465
+5:a=0&c=inf | 13:b=1&b=c&c=1 63
+5:a=0&c=inf | 13:b=c 460
+5:a=0&c=inf | 13:c=1 662
+5:a=1 | 13:a=b 472
+5:a=1 | 13:a=b&a=c&b=c 41
+5:a=1 | 13:a=b&c=1 48
+5:a=1 | 13:a=c 472
+5:a=1 | 13:a=c&b=1 50
+5:a=1 | 13:b=1 518
+5:a=1 | 13:b=1&b=c&c=1 48
+5:a=1 | 13:b=c 420
+5:a=1 | 13:c=1 498
+5:a=1&a=b&a=c&b=1&b=c&c=1 | 13:a=b 23
+5:a=1&a=b&a=c&b=1&b=c&c=1 | 13:a=c 64
+5:a=1&a=b&a=c&b=1&b=c&c=1 | 13:b=c 51
+5:a=1&a=b&b=1 | 13:a=b 101
+5:a=1&a=b&b=1 | 13:a=b&c=1 7
+5:a=1&a=b&b=1 | 13:a=c 246
+5:a=1&a=b&b=1 | 13:b=c 200
+5:a=1&a=b&b=1 | 13:c=1 252
+5:a=1&a=b&b=1&c=0 | 13:a=b 37
+5:a=1&a=b&b=1&c=0 | 13:a=b&a=c&b=c 6
+5:a=1&a=b&b=1&c=0 | 13:a=b&c=1 5
+5:a=1&a=b&b=1&c=0 | 13:a=c 103
+5:a=1&a=b&b=1&c=0 | 13:b=c 125
+5:a=1&a=b&b=1&c=0 | 13:c=1 110
+5:a=1&a=b&b=1&c=inf | 13:a=b 55
+5:a=1&a=b&b=1&c=inf | 13:a=b&a=c&b=c 8
+5:a=1&a=b&b=1&c=inf | 13:a=b&c=1 9
+5:a=1&a=b&b=1&c=inf | 13:a=c 161
+5:a=1&a=b&b=1&c=inf | 13:b=c 170
+5:a=1&a=b&b=1&c=inf | 13:c=1 189
+5:a=1&a=c&b=0&c=1 | 13:a=b 92
+5:a=1&a=c&b=0&c=1 | 13:a=b&a=c&b=c 8
+5:a=1&a=c&b=0&c=1 | 13:a=c 79
+5:a=1&a=c&b=0&c=1 | 13:a=c&b=1 8
+5:a=1&a=c&b=0&c=1 | 13:b=1 102
+5:a=1&a=c&b=0&c=1 | 13:b=c 105
+5:a=1&a=c&b=inf&c=1 | 13:a=b 102
+5:a=1&a=c&b=inf&c=1 | 13:a=b&a=c&b=c 10
+5:a=1&a=c&b=inf&c=1 | 13:a=c 95
+5:a=1&a=c&b=inf&c=1 | 13:a=c&b=1 7
+5:a=1&a=c&b=inf&c=1 | 13:b=1 73
+5:a=1&a=c&b=inf&c=1 | 13:b=c 100
+5:a=1&a=c&c=1 | 13:a=b 231
+5:a=1&a=c&c=1 | 13:a=b&a=c&b=c 14
+5:a=1&a=c&c=1 | 13:a=c 199
+5:a=1&a=c&c=1 | 13:a=c&b=1 23
+5:a=1&a=c&c=1 | 13:b=1 241
+5:a=1&a=c&c=1 | 13:b=c 172
+5:a=1&b=0 | 13:a=b 292
+5:a=1&b=0 | 13:a=b&a=c&b=c 24
+5:a=1&b=0 | 13:a=b&c=1 29
+5:a=1&b=0 | 13:a=c 283
+5:a=1&b=0 | 13:a=c&b=1 31
+5:a=1&b=0 | 13:b=1 334
+5:a=1&b=0 | 13:b=1&b=c&c=1 35
+5:a=1&b=0 | 13:b=c 246
+5:a=1&b=0 | 13:c=1 310
+5:a=1&b=0&b=c&c=0 | 13:a=b 120
+5:a=1&b=0&b=c&c=0 | 13:a=b&a=c&b=c 6
+5:a=1&b=0&b=c&c=0 | 13:a=b&c=1 14
+5:a=1&b=0&b=c&c=0 | 13:a=c 123
+5:a=1&b=0&b=c&c=0 | 13:a=c&b=1 13
+5:a=1&b=0&b=c&c=0 | 13:b=1 142
+5:a=1&b=0&b=c&c=0 | 13:b=1&b=c&c=1 5
+5:a=1&b=0&b=c&c=0 | 13:b=c 66
+5:a=1&b=0&b=c&c=0 | 13:c=1 122
+5:a=1&b=0&c=inf | 13:a=b 177
+5:a=1&b=0&c=inf | 13:a=b&a=c&b=c 23
+5:a=1&b=0&c=inf | 13:a=b&c=1 24
+5:a=1&b=0&c=inf | 13:a=c 193
+5:a=1&b=0&c=inf | 13:a=c&b=1 21
+5:a=1&b=0&c=inf | 13:b=1 194
+5:a=1&b=0&c=inf | 13:b=1&b=c&c=1 25
+5:a=1&b=0&c=inf | 13:b=c 214
+5:a=1&b=0&c=inf | 13:c=1 234
+5:a=1&b=c | 13:a=b 221
+5:a=1&b=c | 13:a=b&a=c&b=c 18
+5:a=1&b=c | 13:a=b&c=1 24
+5:a=1&b=c | 13:a=c 225
+5:a=1&b=c | 13:a=c&b=1 23
+5:a=1&b=c | 13:b=1 243
+5:a=1&b=c | 13:b=1&b=c&c=1 8
+5:a=1&b=c | 13:b=c 222
+5:a=1&b=c | 13:c=1 239
+5:a=1&b=inf | 13:a=b 321
+5:a=1&b=inf | 13:a=b&a=c&b=c 29
+5:a=1&b=inf | 13:a=b&c=1 42
+5:a=1&b=inf | 13:a=c 301
+5:a=1&b=inf | 13:a=c&b=1 22
+5:a=1&b=inf | 13:b=1 228
+5:a=1&b=inf | 13:b=1&b=c&c=1 30
+5:a=1&b=inf | 13:b=c 291
+5:a=1&b=inf | 13:c=1 408
+5:a=1&b=inf&c=0 | 13:a=b 140
+5:a=1&b=inf&c=0 | 13:a=b&a=c&b=c 14
+5:a=1&b=inf&c=0 | 13:a=b&c=1 14
+5:a=1&b=inf&c=0 | 13:a=c 136
+5:a=1&b=inf&c=0 | 13:a=c&b=1 10
+5:a=1&b=inf&c=0 | 13:b=1 100
+5:a=1&b=inf&c=0 | 13:b=1&b=c&c=1 10
+5:a=1&b=inf&c=0 | 13:b=c 136
+5:a=1&b=inf&c=0 | 13:c=1 136
+5:a=1&b=inf&c=inf | 13:a=b 216
+5:a=1&b=inf&c=inf | 13:a=b&a=c&b=c 12
+5:a=1&b=inf&c=inf | 13:a=b&c=1 17
+5:a=1&b=inf&c=inf | 13:a=c 222
+5:a=1&b=inf&c=inf | 13:a=c&b=1 30
+5:a=1&b=inf&c=inf | 13:b=1 270
+5:a=1&b=inf&c=inf | 13:b=1&b=c&c=1 10
+5:a=1&b=inf&c=inf | 13:b=c 118
+5:a=1&b=inf&c=inf | 13:c=1 179
+5:a=1&c=0 | 13:a=b 305
+5:a=1&c=0 | 13:a=b&a=c&b=c 26
+5:a=1&c=0 | 13:a=b&c=1 30
+5:a=1&c=0 | 13:a=c 329
+5:a=1&c=0 | 13:a=c&b=1 32
+5:a=1&c=0 | 13:b=1 310
+5:a=1&c=0 | 13:b=1&b=c&c=1 30
+5:a=1&c=0 | 13:b=c 275
+5:a=1&c=0 | 13:c=1 320
+5:a=1&c=inf | 13:a=b 440
+5:a=1&c=inf | 13:a=b&a=c&b=c 42
+5:a=1&c=inf | 13:a=b&c=1 54
+5:a=1&c=inf | 13:a=c 502
+5:a=1&c=inf | 13:a=c&b=1 41
+5:a=1&c=inf | 13:b=1 401
+5:a=1&c=inf | 13:b=1&b=c&c=1 54
+5:a=1&c=inf | 13:b=c 404
+5:a=1&c=inf | 13:c=1 580
+5:a=b | 13:a=1 203
+5:a=b | 13:a=1&a=c&c=1 17
+5:a=b | 13:a=1&b=c 12
+5:a=b | 13:a=b 192
+5:a=b | 13:a=b&a=c&b=c 10
+5:a=b | 13:a=b&c=1 18
+5:a=b | 13:a=c 521
+5:a=b | 13:a=c&b=1 55
+5:a=b | 13:b=1 521
+5:a=b | 13:b=1&b=c&c=1 49
+5:a=b | 13:b=c 428
+5:a=b | 13:c=1 510
+5:a=b&a=c&b=c | 13:a=1 80
+5:a=b&a=c&b=c | 13:a=1&a=c&c=1 7
+5:a=b&a=c&b=c | 13:a=1&b=c 12
+5:a=b&a=c&b=c | 13:a=b 76
+5:a=b&a=c&b=c | 13:a=b&a=c&b=c 14
+5:a=b&a=c&b=c | 13:a=b&c=1 6
+5:a=b&a=c&b=c | 13:a=c 229
+5:a=b&a=c&b=c | 13:a=c&b=1 24
+5:a=b&a=c&b=c | 13:b=1 242
+5:a=b&a=c&b=c | 13:b=1&b=c&c=1 9
+5:a=b&a=c&b=c | 13:b=c 215
+5:a=b&a=c&b=c | 13:c=1 250
+5:a=b&c=0 | 13:a=1 124
+5:a=b&c=0 | 13:a=1&a=c&c=1 13
+5:a=b&c=0 | 13:a=1&b=c 10
+5:a=b&c=0 | 13:a=b 128
+5:a=b&c=0 | 13:a=b&a=c&b=c 8
+5:a=b&c=0 | 13:a=b&c=1 10
+5:a=b&c=0 | 13:a=c 324
+5:a=b&c=0 | 13:a=c&b=1 29
+5:a=b&c=0 | 13:b=1 318
+5:a=b&c=0 | 13:b=1&b=c&c=1 30
+5:a=b&c=0 | 13:b=c 281
+5:a=b&c=0 | 13:c=1 322
+5:a=b&c=1 | 13:a=1 86
+5:a=b&c=1 | 13:a=1&b=c 5
+5:a=b&c=1 | 13:a=b 86
+5:a=b&c=1 | 13:a=c 224
+5:a=b&c=1 | 13:a=c&b=1 22
+5:a=b&c=1 | 13:b=1 246
+5:a=b&c=1 | 13:b=c 177
+5:a=b&c=inf | 13:a=1 183
+5:a=b&c=inf | 13:a=1&a=b&b=1 7
+5:a=b&c=inf | 13:a=1&a=c&c=1 27
+5:a=b&c=inf | 13:a=1&b=c 14
+5:a=b&c=inf | 13:a=b 225
+5:a=b&c=inf | 13:a=b&a=c&b=c 13
+5:a=b&c=inf | 13:a=b&c=1 34
+5:a=b&c=inf | 13:a=c 449
+5:a=b&c=inf | 13:a=c&b=1 42
+5:a=b&c=inf | 13:b=1 415
+5:a=b&c=inf | 13:b=1&b=c&c=1 55
+5:a=b&c=inf | 13:b=c 419
+5:a=b&c=inf | 13:c=1 579
+5:a=c | 13:a=1 207
+5:a=c | 13:a=1&a=b&b=1 25
+5:a=c | 13:a=1&a=c&c=1 18
+5:a=c | 13:a=1&b=c 14
+5:a=c | 13:a=b 496
+5:a=c | 13:a=b&a=c&b=c 41
+5:a=c | 13:a=b&c=1 50
+5:a=c | 13:a=c 505
+5:a=c | 13:a=c&b=1 52
+5:a=c | 13:b=1 506
+5:a=c | 13:b=1&b=c&c=1 47
+5:a=c | 13:b=c 442
+5:a=c | 13:c=1 521
+5:a=c&b=0 | 13:a=1 123
+5:a=c&b=0 | 13:a=1&a=b&b=1 12
+5:a=c&b=0 | 13:a=1&a=c&c=1 11
+5:a=c&b=0 | 13:a=1&b=c 12
+5:a=c&b=0 | 13:a=b 303
+5:a=c&b=0 | 13:a=b&a=c&b=c 26
+5:a=c&b=0 | 13:a=b&c=1 36
+5:a=c&b=0 | 13:a=c 308
+5:a=c&b=0 | 13:a=c&b=1 39
+5:a=c&b=0 | 13:b=1 355
+5:a=c&b=0 | 13:b=1&b=c&c=1 38
+5:a=c&b=0 | 13:b=c 266
+5:a=c&b=0 | 13:c=1 333
+5:a=c&b=1 | 13:a=1 105
+5:a=c&b=1 | 13:a=1&a=c&c=1 8
+5:a=c&b=1 | 13:a=1&b=c 6
+5:a=c&b=1 | 13:a=b 254
+5:a=c&b=1 | 13:a=b&a=c&b=c 21
+5:a=c&b=1 | 13:a=b&c=1 24
+5:a=c&b=1 | 13:a=c 264
+5:a=c&b=1 | 13:b=c 211
+5:a=c&b=1 | 13:c=1 273
+5:a=c&b=inf | 13:a=1 95
+5:a=c&b=inf | 13:a=1&a=b&b=1 7
+5:a=c&b=inf | 13:a=1&a=c&c=1 15
+5:a=c&b=inf | 13:a=1&b=c 10
+5:a=c&b=inf | 13:a=b 321
+5:a=c&b=inf | 13:a=b&a=c&b=c 29
+5:a=c&b=inf | 13:a=b&c=1 42
+5:a=c&b=inf | 13:a=c 301
+5:a=c&b=inf | 13:a=c&b=1 22
+5:a=c&b=inf | 13:b=1 228
+5:a=c&b=inf | 13:b=1&b=c&c=1 30
+5:a=c&b=inf | 13:b=c 291
+5:a=c&b=inf | 13:c=1 408
+5:a=inf | 13:a=1 194
+5:a=inf | 13:a=1&a=b&b=1 34
+5:a=inf | 13:a=1&a=c&c=1 16
+5:a=inf | 13:a=1&b=c 13
+5:a=inf | 13:a=b 243
+5:a=inf | 13:a=b&a=c&b=c 15
+5:a=inf | 13:a=b&c=1 18
+5:a=inf | 13:a=c 259
+5:a=inf | 13:a=c&b=1 46
+5:a=inf | 13:b=1 464
+5:a=inf | 13:b=1&b=c&c=1 45
+5:a=inf | 13:b=c 180
+5:a=inf | 13:c=1 222
+5:a=inf&b=0 | 13:a=1 136
+5:a=inf&b=0 | 13:a=1&a=b&b=1 12
+5:a=inf&b=0 | 13:a=1&a=c&c=1 12
+5:a=inf&b=0 | 13:a=1&b=c 10
+5:a=inf&b=0 | 13:a=b 174
+5:a=inf&b=0 | 13:a=b&a=c&b=c 15
+5:a=inf&b=0 | 13:a=b&c=1 16
+5:a=inf&b=0 | 13:a=c 177
+5:a=inf&b=0 | 13:a=c&b=1 16
+5:a=inf&b=0 | 13:b=1 164
+5:a=inf&b=0 | 13:b=1&b=c&c=1 15
+5:a=inf&b=0 | 13:b=c 135
+5:a=inf&b=0 | 13:c=1 164
+5:a=inf&b=0&b=c&c=0 | 13:a=1 53
+5:a=inf&b=0&b=c&c=0 | 13:a=1&a=b&b=1 5
+5:a=inf&b=0&b=c&c=0 | 13:a=1&a=c&c=1 6
+5:a=inf&b=0&b=c&c=0 | 13:a=b 69
+5:a=inf&b=0&b=c&c=0 | 13:a=b&c=1 8
+5:a=inf&b=0&b=c&c=0 | 13:a=c 77
+5:a=inf&b=0&b=c&c=0 | 13:a=c&b=1 7
+5:a=inf&b=0&b=c&c=0 | 13:b=1 68
+5:a=inf&b=0&b=c&c=0 | 13:b=c 28
+5:a=inf&b=0&b=c&c=0 | 13:c=1 82
+5:a=inf&b=0&c=1 | 13:a=1 38
+5:a=inf&b=0&c=1 | 13:a=b 51
+5:a=inf&b=0&c=1 | 13:a=c 52
+5:a=inf&b=0&c=1 | 13:b=1 42
+5:a=inf&b=0&c=1 | 13:b=c 56
+5:a=inf&b=0&c=inf | 13:a=1 68
+5:a=inf&b=0&c=inf | 13:a=1&a=b&b=1 7
+5:a=inf&b=0&c=inf | 13:a=1&a=c&c=1 11
+5:a=inf&b=0&c=inf | 13:a=1&b=c 9
+5:a=inf&b=0&c=inf | 13:a=b 94
+5:a=inf&b=0&c=inf | 13:a=b&a=c&b=c 11
+5:a=inf&b=0&c=inf | 13:a=b&c=1 15
+5:a=inf&b=0&c=inf | 13:a=c 88
+5:a=inf&b=0&c=inf | 13:a=c&b=1 9
+5:a=inf&b=0&c=inf | 13:b=1 96
+5:a=inf&b=0&c=inf | 13:b=1&b=c&c=1 15
+5:a=inf&b=0&c=inf | 13:b=c 124
+5:a=inf&b=0&c=inf | 13:c=1 150
+5:a=inf&b=1 | 13:a=1 106
+5:a=inf&b=1 | 13:a=1&a=c&c=1 8
+5:a=inf&b=1 | 13:a=1&b=c 6
+5:a=inf&b=1 | 13:a=b 155
+5:a=inf&b=1 | 13:a=b&a=c&b=c 8
+5:a=inf&b=1 | 13:a=b&c=1 11
+5:a=inf&b=1 | 13:a=c 140
+5:a=inf&b=1 | 13:b=c 82
+5:a=inf&b=1 | 13:c=1 109
+5:a=inf&b=1&b=c&c=1 | 13:a=1 26
+5:a=inf&b=1&b=c&c=1 | 13:a=b 37
+5:a=inf&b=1&b=c&c=1 | 13:a=c 34
+5:a=inf&b=1&b=c&c=1 | 13:b=c 27
+5:a=inf&b=1&c=0 | 13:a=1 40
+5:a=inf&b=1&c=0 | 13:a=1&a=c&c=1 5
+5:a=inf&b=1&c=0 | 13:a=1&b=c 6
+5:a=inf&b=1&c=0 | 13:a=b 56
+5:a=inf&b=1&c=0 | 13:a=b&a=c&b=c 9
+5:a=inf&b=1&c=0 | 13:a=b&c=1 8
+5:a=inf&b=1&c=0 | 13:a=c 56
+5:a=inf&b=1&c=0 | 13:b=c 81
+5:a=inf&b=1&c=0 | 13:c=1 67
+5:a=inf&b=1&c=inf | 13:a=1 49
+5:a=inf&b=1&c=inf | 13:a=1&a=c&c=1 8
+5:a=inf&b=1&c=inf | 13:a=1&b=c 7
+5:a=inf&b=1&c=inf | 13:a=b 68
+5:a=inf&b=1&c=inf | 13:a=b&a=c&b=c 9
+5:a=inf&b=1&c=inf | 13:a=b&c=1 11
+5:a=inf&b=1&c=inf | 13:a=c 63
+5:a=inf&b=1&c=inf | 13:b=c 96
+5:a=inf&b=1&c=inf | 13:c=1 109
+5:a=inf&b=c | 13:a=1 81
+5:a=inf&b=c | 13:a=1&a=b&b=1 18
+5:a=inf&b=c | 13:a=1&a=c&c=1 7
+5:a=inf&b=c | 13:a=1&b=c 12
+5:a=inf&b=c | 13:a=b 97
+5:a=inf&b=c | 13:a=b&a=c&b=c 15
+5:a=inf&b=c | 13:a=b&c=1 10
+5:a=inf&b=c | 13:a=c 109
+5:a=inf&b=c | 13:a=c&b=1 22
+5:a=inf&b=c | 13:b=1 248
+5:a=inf&b=c | 13:b=c 165
+5:a=inf&b=c | 13:c=1 95
+5:a=inf&b=inf | 13:a=1 321
+5:a=inf&b=inf | 13:a=1&a=c&c=1 42
+5:a=inf&b=inf | 13:a=1&b=c 29
+5:a=inf&b=inf | 13:a=b 93
+5:a=inf&b=inf | 13:a=b&a=c&b=c 7
+5:a=inf&b=inf | 13:a=b&c=1 12
+5:a=inf&b=inf | 13:a=c 220
+5:a=inf&b=inf | 13:b=1 22
+5:a=inf&b=inf | 13:b=c 214
+5:a=inf&b=inf | 13:c=1 303
+5:a=inf&b=inf&c=0 | 13:a=1 140
+5:a=inf&b=inf&c=0 | 13:a=1&a=c&c=1 14
+5:a=inf&b=inf&c=0 | 13:a=1&b=c 14
+5:a=inf&b=inf&c=0 | 13:a=b 40
+5:a=inf&b=inf&c=0 | 13:a=c 101
+5:a=inf&b=inf&c=0 | 13:b=1 10
+5:a=inf&b=inf&c=0 | 13:b=c 101
+5:a=inf&b=inf&c=0 | 13:c=1 101
+5:a=inf&b=inf&c=1 | 13:a=1 101
+5:a=inf&b=inf&c=1 | 13:a=1&b=c 11
+5:a=inf&b=inf&c=1 | 13:a=b 29
+5:a=inf&b=inf&c=1 | 13:a=c 70
+5:a=inf&b=inf&c=1 | 13:b=1 8
+5:a=inf&b=inf&c=1 | 13:b=c 78
+5:a=inf&b=inf&c=inf | 13:a=1 208
+5:a=inf&b=inf&c=inf | 13:a=1&a=b&b=1 5
+5:a=inf&b=inf&c=inf | 13:a=1&a=c&c=1 16
+5:a=inf&b=inf&c=inf | 13:a=1&b=c 12
+5:a=inf&b=inf&c=inf | 13:a=b 63
+5:a=inf&b=inf&c=inf | 13:a=b&c=1 6
+5:a=inf&b=inf&c=inf | 13:a=c 122
+5:a=inf&b=inf&c=inf | 13:a=c&b=1 8
+5:a=inf&b=inf&c=inf | 13:b=1 98
+5:a=inf&b=inf&c=inf | 13:b=c 69
+5:a=inf&b=inf&c=inf | 13:c=1 130
+5:a=inf&c=0 | 13:a=1 120
+5:a=inf&c=0 | 13:a=1&a=b&b=1 21
+5:a=inf&c=0 | 13:a=1&a=c&c=1 13
+5:a=inf&c=0 | 13:a=1&b=c 9
+5:a=inf&c=0 | 13:a=b 149
+5:a=inf&c=0 | 13:a=b&a=c&b=c 11
+5:a=inf&c=0 | 13:a=b&c=1 16
+5:a=inf&c=0 | 13:a=c 175
+5:a=inf&c=0 | 13:a=c&b=1 29
+5:a=inf&c=0 | 13:b=1 286
+5:a=inf&c=0 | 13:b=1&b=c&c=1 30
+5:a=inf&c=0 | 13:b=c 124
+5:a=inf&c=0 | 13:c=1 179
+5:a=inf&c=1 | 13:a=1 84
+5:a=inf&c=1 | 13:a=1&a=b&b=1 16
+5:a=inf&c=1 | 13:a=b 104
+5:a=inf&c=1 | 13:a=c 108
+5:a=inf&c=1 | 13:a=c&b=1 22
+5:a=inf&c=1 | 13:b=1 218
+5:a=inf&c=1 | 13:b=c 56
+5:a=inf&c=inf | 13:a=1 163
+5:a=inf&c=inf | 13:a=1&a=b&b=1 21
+5:a=inf&c=inf | 13:a=1&a=c&c=1 25
+5:a=inf&c=inf | 13:a=1&b=c 12
+5:a=inf&c=inf | 13:a=b 210
+5:a=inf&c=inf | 13:a=b&a=c&b=c 14
+5:a=inf&c=inf | 13:a=b&c=1 32
+5:a=inf&c=inf | 13:a=c 211
+5:a=inf&c=inf | 13:a=c&b=1 27
+5:a=inf&c=inf | 13:b=1 288
+5:a=inf&c=inf | 13:b=1&b=c&c=1 45
+5:a=inf&c=inf | 13:b=c 166
+5:a=inf&c=inf | 13:c=1 343
+5:b=0 | 13:a=1 269
+5:b=0 | 13:a=1&a=b&b=1 24
+5:b=0 | 13:a=1&a=c&c=1 25
+5:b=0 | 13:a=1&b=c 19
+5:b=0 | 13:a=b 620
+5:b=0 | 13:a=b&a=c&b=c 52
+5:b=0 | 13:a=b&c=1 63
+5:b=0 | 13:a=c 644
+5:b=0 | 13:a=c&b=1 73
+5:b=0 | 13:b=1 715
+5:b=0 | 13:b=1&b=c&c=1 77
+5:b=0 | 13:b=c 534
+5:b=0 | 13:c=1 669
+5:b=0&b=c&c=0 | 13:a=1 156
+5:b=0&b=c&c=0 | 13:a=1&a=b&b=1 15
+5:b=0&b=c&c=0 | 13:a=1&a=c&c=1 17
+5:b=0&b=c&c=0 | 13:a=1&b=c 6
+5:b=0&b=c&c=0 | 13:a=b 382
+5:b=0&b=c&c=0 | 13:a=b&a=c&b=c 22
+5:b=0&b=c&c=0 | 13:a=b&c=1 38
+5:b=0&b=c&c=0 | 13:a=c 388
+5:b=0&b=c&c=0 | 13:a=c&b=1 46
+5:b=0&b=c&c=0 | 13:b=1 457
+5:b=0&b=c&c=0 | 13:b=1&b=c&c=1 18
+5:b=0&b=c&c=0 | 13:b=c 217
+5:b=0&b=c&c=0 | 13:c=1 402
+5:b=0&c=1 | 13:a=1 111
+5:b=0&c=1 | 13:a=1&a=b&b=1 9
+5:b=0&c=1 | 13:a=1&b=c 12
+5:b=0&c=1 | 13:a=b 289
+5:b=0&c=1 | 13:a=b&a=c&b=c 31
+5:b=0&c=1 | 13:a=c 274
+5:b=0&c=1 | 13:a=c&b=1 32
+5:b=0&c=1 | 13:b=1 331
+5:b=0&c=1 | 13:b=c 333
+5:b=0&c=inf | 13:a=1 237
+5:b=0&c=inf | 13:a=1&a=b&b=1 21
+5:b=0&c=inf | 13:a=1&a=c&c=1 36
+5:b=0&c=inf | 13:a=1&b=c 31
+5:b=0&c=inf | 13:a=b 559
+5:b=0&c=inf | 13:a=b&a=c&b=c 66
+5:b=0&c=inf | 13:a=b&c=1 71
+5:b=0&c=inf | 13:a=c 552
+5:b=0&c=inf | 13:a=c&b=1 60
+5:b=0&c=inf | 13:b=1 637
+5:b=0&c=inf | 13:b=1&b=c&c=1 79
+5:b=0&c=inf | 13:b=c 694
+5:b=0&c=inf | 13:c=1 744
+5:b=1 | 13:a=1 225
+5:b=1 | 13:a=1&a=c&c=1 18
+5:b=1 | 13:a=1&b=c 13
+5:b=1 | 13:a=b 495
+5:b=1 | 13:a=b&a=c&b=c 41
+5:b=1 | 13:a=b&c=1 53
+5:b=1 | 13:a=c 549
+5:b=1 | 13:b=c 433
+5:b=1 | 13:c=1 537
+5:b=1&b=c&c=1 | 13:a=1 83
+5:b=1&b=c&c=1 | 13:a=1&b=c 6
+5:b=1&b=c&c=1 | 13:a=b 225
+5:b=1&b=c&c=1 | 13:a=b&a=c&b=c 14
+5:b=1&b=c&c=1 | 13:a=c 224
+5:b=1&b=c&c=1 | 13:b=c 164
+5:b=1&c=0 | 13:a=1 128
+5:b=1&c=0 | 13:a=1&a=c&c=1 15
+5:b=1&c=0 | 13:a=1&b=c 19
+5:b=1&c=0 | 13:a=b 309
+5:b=1&c=0 | 13:a=b&a=c&b=c 37
+5:b=1&c=0 | 13:a=b&c=1 32
+5:b=1&c=0 | 13:a=c 332
+5:b=1&c=0 | 13:b=c 392
+5:b=1&c=0 | 13:c=1 353
+5:b=1&c=inf | 13:a=1 187
+5:b=1&c=inf | 13:a=1&a=c&c=1 28
+5:b=1&c=inf | 13:a=1&b=c 25
+5:b=1&c=inf | 13:a=b 436
+5:b=1&c=inf | 13:a=b&a=c&b=c 47
+5:b=1&c=inf | 13:a=b&c=1 53
+5:b=1&c=inf | 13:a=c 467
+5:b=1&c=inf | 13:b=c 544
+5:b=1&c=inf | 13:c=1 603
+5:b=c | 13:a=1 188
+5:b=c | 13:a=1&a=b&b=1 27
+5:b=c | 13:a=1&a=c&c=1 17
+5:b=c | 13:a=1&b=c 24
+5:b=c | 13:a=b 457
+5:b=c | 13:a=b&a=c&b=c 45
+5:b=c | 13:a=b&c=1 49
+5:b=c | 13:a=c 488
+5:b=c | 13:a=c&b=1 48
+5:b=c | 13:b=1 470
+5:b=c | 13:b=1&b=c&c=1 16
+5:b=c | 13:b=c 447
+5:b=c | 13:c=1 510
+5:b=inf | 13:a=1 248
+5:b=inf | 13:a=1&a=b&b=1 18
+5:b=inf | 13:a=1&a=c&c=1 30
+5:b=inf | 13:a=1&b=c 22
+5:b=inf | 13:a=b 640
+5:b=inf | 13:a=b&a=c&b=c 60
+5:b=inf | 13:a=b&c=1 84
+5:b=inf | 13:a=c 630
+5:b=inf | 13:a=c&b=1 46
+5:b=inf | 13:b=1 454
+5:b=inf | 13:b=1&b=c&c=1 60
+5:b=inf | 13:b=c 580
+5:b=inf | 13:c=1 816
+5:b=inf&c=0 | 13:a=1 150
+5:b=inf&c=0 | 13:a=1&a=b&b=1 11
+5:b=inf&c=0 | 13:a=1&a=c&c=1 15
+5:b=inf&c=0 | 13:a=1&b=c 15
+5:b=inf&c=0 | 13:a=b 420
+5:b=inf&c=0 | 13:a=b&a=c&b=c 42
+5:b=inf&c=0 | 13:a=b&c=1 42
+5:b=inf&c=0 | 13:a=c 408
+5:b=inf&c=0 | 13:a=c&b=1 30
+5:b=inf&c=0 | 13:b=1 300
+5:b=inf&c=0 | 13:b=1&b=c&c=1 30
+5:b=inf&c=0 | 13:b=c 408
+5:b=inf&c=0 | 13:c=1 408
+5:b=inf&c=1 | 13:a=1 109
+5:b=inf&c=1 | 13:a=1&a=b&b=1 8
+5:b=inf&c=1 | 13:a=1&b=c 11
+5:b=inf&c=1 | 13:a=b 306
+5:b=inf&c=1 | 13:a=b&a=c&b=c 30
+5:b=inf&c=1 | 13:a=c 285
+5:b=inf&c=1 | 13:a=c&b=1 21
+5:b=inf&c=1 | 13:b=1 219
+5:b=inf&c=1 | 13:b=c 300
+5:b=inf&c=inf | 13:a=1 281
+5:b=inf&c=inf | 13:a=1&a=b&b=1 41
+5:b=inf&c=inf | 13:a=1&a=c&c=1 24
+5:b=inf&c=inf | 13:a=1&b=c 13
+5:b=inf&c=inf | 13:a=b 661
+5:b=inf&c=inf | 13:a=b&a=c&b=c 36
+5:b=inf&c=inf | 13:a=b&c=1 56
+5:b=inf&c=inf | 13:a=c 599
+5:b=inf&c=inf | 13:a=c&b=1 76
+5:b=inf&c=inf | 13:b=1 829
+5:b=inf&c=inf | 13:b=1&b=c&c=1 30
+5:b=inf&c=inf | 13:b=c 354
+5:b=inf&c=inf | 13:c=1 534
+5:c=0 | 13:a=1 275
+5:c=0 | 13:a=1&a=b&b=1 31
+5:c=0 | 13:a=1&a=c&c=1 28
+5:c=0 | 13:a=1&b=c 19
+5:c=0 | 13:a=b 641
+5:c=0 | 13:a=b&a=c&b=c 56
+5:c=0 | 13:a=b&c=1 63
+5:c=0 | 13:a=c 665
+5:c=0 | 13:a=c&b=1 63
+5:c=0 | 13:b=1 609
+5:c=0 | 13:b=1&b=c&c=1 58
+5:c=0 | 13:b=c 571
+5:c=0 | 13:c=1 661
+5:c=1 | 13:a=1 193
+5:c=1 | 13:a=1&a=b&b=1 24
+5:c=1 | 13:a=1&b=c 9
+5:c=1 | 13:a=b 481
+5:c=1 | 13:a=b&a=c&b=c 34
+5:c=1 | 13:a=c 470
+5:c=1 | 13:a=c&b=1 43
+5:c=1 | 13:b=1 477
+5:c=1 | 13:b=c 354
+5:c=inf | 13:a=1 420
+5:c=inf | 13:a=1&a=b&a=c&b=1&b=c&c=1 5
+5:c=inf | 13:a=1&a=b&b=1 35
+5:c=inf | 13:a=1&a=c&c=1 60
+5:c=inf | 13:a=1&b=c 32
+5:c=inf | 13:a=b 948
+5:c=inf | 13:a=b&a=c&b=c 81
+5:c=inf | 13:a=b&c=1 115
+5:c=inf | 13:a=c 926
+5:c=inf | 13:a=c&b=1 74
+5:c=inf | 13:b=1 810
+5:c=inf | 13:b=1&b=c&c=1 108
+5:c=inf | 13:b=c 856
+5:c=inf | 13:c=1 1192
+SURVIVOR_COMBO_COUNTS

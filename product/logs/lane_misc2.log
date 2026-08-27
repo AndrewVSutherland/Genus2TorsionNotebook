@@ -1,0 +1,31 @@
+== twisted diagonal curves ==
+N=12 twisted: kernel w^2 = -1296*T^8 + 5184*T^7 - 9072*T^6 + 9072*T^5 - 5580*T^4 + 2088*T^3 - 432*T^2 + 36*T
+   genus 3
+   RankBound(J) = 0
+   points to 20000: {@ (0 : 0 : 1), (1 : 0 : 1) @}
+   RANK 0: torsion-only; the listed points are ALL rational points -> twisted diagonal PROVABLY empty if all degenerate
+N=10 twisted: kernel w^2 = 32*T^7 - 160*T^6 + 256*T^5 - 156*T^4 + 16*T^3 + 16*T^2 - 4*T
+   genus 3
+   RankBound(J) = 0
+   points to 20000: {@ (1 : 0 : 0), (0 : 0 : 1), (1 : 0 : 1), (1 : 0 : 2) @}
+   RANK 0: torsion-only; the listed points are ALL rational points -> twisted diagonal PROVABLY empty if all degenerate
+== sigma-surface census (2-of-3 conditions, H=40) ==
+sigma=[ 1, 2, 3 ] drop=1: 2001 (t,u) surface points at H=40
+sigma=[ 1, 2, 3 ] drop=2: 1983 (t,u) surface points at H=40
+sigma=[ 1, 2, 3 ] drop=3: 2003 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=1: 312 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=2: 297 (t,u) surface points at H=40
+sigma=[ 2, 1, 3 ] drop=3: 297 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=1: 355 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=2: 354 (t,u) surface points at H=40
+sigma=[ 3, 2, 1 ] drop=3: 355 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=1: 367 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=2: 367 (t,u) surface points at H=40
+sigma=[ 1, 3, 2 ] drop=3: 388 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=1: 231 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=2: 231 (t,u) surface points at H=40
+sigma=[ 2, 3, 1 ] drop=3: 228 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=1: 231 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=2: 228 (t,u) surface points at H=40
+sigma=[ 3, 1, 2 ] drop=3: 231 (t,u) surface points at H=40
+MISC2_DONE

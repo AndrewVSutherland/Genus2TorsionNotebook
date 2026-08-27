@@ -1,0 +1,6 @@
+Z49_NONCONSTANT_INFINITY3_SEARCH
+parameter_height 80 coordinate_bound 5000 precision 17 modulus 129140163
+lifts 5927 reconstructed 10 exact_quotient 0 square_scale 0 exact_open_hits 0
+Z49_NONCONSTANT_INFINITY3_SEARCH_DONE
+elapsed_seconds 24.10
+max_rss_kb 84720

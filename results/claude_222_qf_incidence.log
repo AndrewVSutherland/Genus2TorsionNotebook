@@ -1,0 +1,50 @@
+  ***   Warning: new maximum stack size = 2000003072 (1907.352 Mbytes).
+Flynn factorization over Q(t):
+Mat([x^6 + 2*x^5 + (2*t + 3)*x^4 + 2*x^3 + (t^2 + 1)*x^2 + (-2*t^2 + 2*t)*x + t^2, 1])
+DS factorization over Q(t):
+Mat([x^6 - 4*x^5 + (8*t + 8)*x^4 + (-32*t - 10)*x^3 + (16*t^2 + 48*t + 8)*x^2 + (-64*t^2 - 24*t - 4)*x + (64*t^2 + 1), 1])
+CF self-test: f14 -> 14 (want 14), f18 -> 18 (want 18)
+Flynn t=2 CFOrd=11
+Flynn t=5 CFOrd=11
+Flynn t=-3 CFOrd=11
+DS t=1 CFOrd=11
+DS t=3 CFOrd=11
+DS t=-2 CFOrd=11
+==== Flynn: t-resultant of quadratic-factor incidence ====
+  factor mult=1 deg_u=4 deg_v=3 :
+    u^4 + (2*v - 2)*u^3 + (v^2 - 6*v + 3)*u^2 + (-8*v^2 + 10*v - 2)*u + (-4*v^3 + 8*v^2 - 4*v + 1)
+  factor mult=1 deg_u=6 deg_v=2 :
+    u^6 + (2*v - 2)*u^5 + (v^2 - 10*v + 3)*u^4 + (-8*v^2 + 18*v - 2)*u^3 + (24*v^2 - 16*v + 1)*u^2 + (-32*v^2 + 8*v)*u + (16*v^2 - 4*v)
+    disc_v factored: [u - 1, 2; u^3 - 3*u^2 + 2*u - 1, 1]
+QF_POINT Flynn t=-36 u=-7 v=9 type=[1, 2, 3] CFOrd=11
+QF_POINT Flynn t=-63/4 u=-4 v=9/4 type=[2, 4] CFOrd=11
+QF_POINT Flynn t=-9/4 u=-1 v=9/4 type=[1, 2, 3] CFOrd=11
+QF_POINT Flynn t=1/4 u=0 v=1/4 type=[2, 4] CFOrd=11
+QF_POINT Flynn t=4/3 u=1 v=1 type=[2, 4] CFOrd=11
+QF_POINT Flynn t=9/2 u=2 v=9 type=[2, 4] CFOrd=11
+QF_POINT Flynn t=-196/9 u=-13/3 v=49/9 type=[1, 2, 3] CFOrd=11
+QF_POINT Flynn t=7/16 u=3/4 v=1/4 type=[2, 4] CFOrd=11
+QF_POINT Flynn t=-9/16 u=11/4 v=9/4 type=[1, 2, 3] CFOrd=11
+QF_POINT Flynn t=-196/81 u=41/9 v=49/9 type=[1, 2, 3] CFOrd=11
+Flynn sweep found=10
+==== DS: t-resultant of quadratic-factor incidence ====
+  factor mult=1 deg_u=4 deg_v=3 :
+    4*u^4 + (4*v + 8)*u^3 + (v^2 - 12*v + 8)*u^2 + (-16*v^2 - 30*v + 12)*u + (-4*v^3 - 16*v^2 - 12*v + 9)
+  factor mult=1 deg_u=6 deg_v=2 :
+    4*u^6 + (4*v + 24)*u^5 + (v^2 + 12*v + 72)*u^4 + (18*v + 132)*u^3 + (12*v + 153)*u^2 + 104*u + (-4*v + 32)
+    disc_v factored: [u + 1, 2; u^3 + 3*u^2 + 2*u - 1, 1]
+QF_POINT DS t=-63/16 u=-6 v=29/4 type=[2, 4] CFOrd=11
+QF_POINT DS t=-9/16 u=-3 v=17/4 type=[1, 2, 3] CFOrd=11
+QF_POINT DS t=1/16 u=-2 v=5/4 type=[2, 4] CFOrd=11
+QF_POINT DS t=1/3 u=-1 v=1 type=[2, 4] CFOrd=11
+QF_POINT DS t=9/8 u=0 v=8 type=[2, 4] CFOrd=11
+QF_POINT DS t=7/64 u=-5/4 v=1/2 type=[2, 4] CFOrd=11
+QF_POINT DS t=-9/64 u=3/4 v=1/2 type=[1, 2, 3] CFOrd=11
+QF_POINT DS t=-49/81 u=23/9 v=17/9 type=[1, 2, 3] CFOrd=11
+DS sweep found=8
+WITNESS 1192.a [22] type=[1, 1, 4] lc=1 CFOrd(D_inf)=11
+WITNESS 1312.c [22] type=[2, 4] lc=4 CFOrd(D_inf)=11
+WITNESS 1416.b [2,14] type=[1, 1, 1, 3] lc=1 CFOrd(D_inf)=7
+WITNESS RM 19044.h [2,22] type=[1, 1, 2, 2] lc=4 CFOrd(D_inf)=11
+WITNESS RM 152100.eb [2,2,14] type=[1, 1, 1, 1, 2] lc=36 CFOrd(D_inf)=7
+PROBE_B_DONE

@@ -1,0 +1,11 @@
+Extra-root fixed-slice component check
+eps = 1
+r = 2
+
+F degrees = [ 7, 8, 6 ]
+F terms = [ 13, 48, 24 ]
+
+Res(F1,F2;b): degree 28, terms 332, factor summary [ <1, 1, 4>, <1, 2, 2>, <22, 174, 1> ]
+Res(F1,F3;b): degree 21, terms 214, factor summary [ <1, 1, 3>, <1, 2, 1>, <17, 155, 1> ]
+gcd degree 4, terms 2, factor summary [ <1, 1, 3>, <1, 2, 1> ]
+gcd = M0^4 - M0^3

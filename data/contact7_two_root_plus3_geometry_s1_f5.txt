@@ -1,0 +1,35 @@
+CONTACT-7 TWO-ROOT +3: REMOVABLE s=1 BRANCH
+Exact modular function-field certificate, 2026-07-11
+
+Command:
+  magma -b p:=5 MemGB:=8 compute_genus:=false \
+    code/contact7_two_root_plus3_geometry_s1_functionfield.m
+
+Relevant exact output:
+
+S1_FUNCTION_FIELD_SAT_M_BEGIN characteristic 5
+Time: 0.500
+Time: 22.320
+S1_FUNCTION_FIELD_SAT_M_DONE 3 [ <39, 1, 0, 39, 41>, <39, 0, 1, 39, 41>, <40, 0, 0, 40, 38> ]
+M_UNIVARIATES 1
+ M_POLY <40, 38>
+ M_FACTORS [ <40, 1> ]
+ QUOTIENT_FUNCTION_FIELD_BEGIN
+ INTEGRAL_SCALE_DEGREE 168
+ EXACT_SQUARE_COVER_IRREDUCIBLE true
+
+Interpretation:
+  * After saturating M=0, the lexicographic basis over F_5(t) is
+    triangular.  Its M-polynomial has degree 40 and is irreducible.
+  * This is the cover parametrizing nonzero 3-torsion modulo sign
+    (equivalently cyclic order-3 subgroups).
+  * Adjoining L with L^2=M is irreducible over that degree-40 function
+    field, so the exact marked nonzero-3-torsion cover has degree 80 and
+    is connected in characteristic 5.
+  * The script contains the exact equations and all assertions needed to
+    reproduce the certificate; no floating-point computation is used.
+
+The run was stopped after this connectivity certificate.  Direct genus
+normalization was intentionally not pursued because Picard--Lefschetz
+already gives the decisive characteristic-zero lower bounds recorded in
+notes/contact7_two_root_plus3_geometry_2026_07_11.md.

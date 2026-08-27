@@ -1,0 +1,128 @@
+M18_416_FIRSTPOSS_L2_DIAG primes=[ 43, 47, 53, 59, 61, 67, 71 ] trace_files=[ data/agent_m18_416_trace_firstposs_aux37_41_h100_part0.txt, data/agent_m18_416_trace_firstposs_aux37_41_h100_part1.txt, data/agent_m18_416_trace_firstposs_aux37_41_h100_part2.txt, data/agent_m18_416_trace_firstposs_aux37_41_h100_part3.txt, data/agent_m18_416_trace_firstposs_aux37_41_h100_part4.txt, data/agent_m18_416_trace_firstposs_aux37_41_h100_part5.txt ] rows=13
+TRACE_PAIR idx=1 R=11/26 W=-35/76 t=-4699/55432 st=<5,0> gate=<40,329> plus=0 minus=1 rational_tangent=0
+L2_PRIME idx=1 ell=43 residue=open r=12 w=25 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=1 ell=47 residue=open r=42 w=15 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=1 ell=53 residue=open r=31 w=10 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=1 ell=59 residue=open r=39 w=50 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=1 ell=61 residue=open r=45 w=18 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=1 ell=67 residue=open r=3 w=11 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=1 ell=71 residue=open r=25 w=64 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=2 R=-71/11 W=-41/11 t=1539/572 st=<5,2> gate=<243,121> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=2 ell=43 residue=open r=17 w=8 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=2 ell=47 residue=open r=32 w=39 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=2 ell=53 residue=open r=8 w=30 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=2 ell=59 residue=open r=15 w=7 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=2 ell=61 residue=open r=49 w=24 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=2 ell=67 residue=open r=24 w=45 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=2 ell=71 residue=boundary labels=[ R ] verdict=SKIP_NONOPEN
+TRACE_PAIR idx=3 R=-2/43 W=-17/58 t=531/9245 st=<5,2> gate=<327,254> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=3 ell=43 residue=denom labels=[] verdict=SKIP_NONOPEN
+L2_PRIME idx=3 ell=47 residue=open r=24 w=7 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=3 ell=53 residue=open r=32 w=39 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=3 ell=59 residue=boundary labels=[ Q ] verdict=SKIP_NONOPEN
+L2_PRIME idx=3 ell=61 residue=open r=34 w=26 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=3 ell=67 residue=open r=28 w=54 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=3 ell=71 residue=open r=66 w=45 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=4 R=-27/17 W=-63/43 t=34371/61268 st=<5,0> gate=<180,182> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=4 ell=43 residue=denom labels=[] verdict=SKIP_NONOPEN
+L2_PRIME idx=4 ell=47 residue=open r=15 w=4 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=4 ell=53 residue=boundary labels=[ w-1 ] verdict=SKIP_NONOPEN
+L2_PRIME idx=4 ell=59 residue=open r=47 w=15 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=4 ell=61 residue=open r=2 w=34 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=4 ell=67 residue=boundary labels=[ Q ] verdict=SKIP_NONOPEN
+L2_PRIME idx=4 ell=71 residue=open r=36 w=20 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=5 R=-47/10 W=-66/29 t=1599/500 st=<3,4> gate=<304,116> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=5 ell=43 residue=open r=34 w=17 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=5 ell=47 residue=boundary labels=[ R ] verdict=SKIP_NONOPEN
+L2_PRIME idx=5 ell=53 residue=open r=43 w=16 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=5 ell=59 residue=open r=13 w=14 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=5 ell=61 residue=open r=38 w=44 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=5 ell=67 residue=open r=2 w=37 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=5 ell=71 residue=open r=45 w=32 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+TRACE_PAIR idx=6 R=-48/89 W=2/39 t=-2834/293077 st=<3,4> gate=<38,88> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=6 ell=43 residue=open r=27 w=21 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=6 ell=47 residue=open r=19 w=35 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=6 ell=53 residue=open r=34 w=15 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=6 ell=59 residue=open r=22 w=53 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=6 ell=61 residue=open r=7 w=11 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=6 ell=67 residue=open r=10 w=43 modl_roots=8 modl_tangent=0 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=8 modl2_tangent=0 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=6 ell=71 residue=open r=21 w=31 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+TRACE_PAIR idx=7 R=-43/2 W=-58/17 t=531/20 st=<3,4> gate=<150,158> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=7 ell=43 residue=boundary labels=[ R ] verdict=SKIP_NONOPEN
+L2_PRIME idx=7 ell=47 residue=open r=2 w=27 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=7 ell=53 residue=open r=5 w=34 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=7 ell=59 residue=boundary labels=[ Q ] verdict=SKIP_NONOPEN
+L2_PRIME idx=7 ell=61 residue=open r=9 w=54 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=7 ell=67 residue=open r=12 w=36 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=7 ell=71 residue=open r=14 w=30 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=8 R=-16/25 W=-2/3 t=598/3125 st=<3,4> gate=<164,228> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=8 ell=43 residue=open r=20 w=28 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=8 ell=47 residue=open r=5 w=15 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=8 ell=53 residue=open r=46 w=17 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=8 ell=59 residue=open r=56 w=19 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=8 ell=61 residue=open r=14 w=40 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=8 ell=67 residue=open r=61 w=44 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=8 ell=71 residue=open r=59 w=23 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=9 R=82/43 W=41/24 t=-9102/31433 st=<5,2> gate=<313,16> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=9 ell=43 residue=denom labels=[] verdict=SKIP_NONOPEN
+L2_PRIME idx=9 ell=47 residue=open r=3 w=35 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=9 ell=53 residue=open r=13 w=26 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=9 ell=59 residue=open r=17 w=14 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=9 ell=61 residue=open r=9 w=50 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=9 ell=67 residue=open r=58 w=38 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=9 ell=71 residue=open r=63 w=52 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=10 R=-13/31 W=5/13 t=85/961 st=<5,2> gate=<243,317> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=10 ell=43 residue=open r=19 w=7 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=10 ell=47 residue=open r=39 w=4 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=10 ell=53 residue=boundary labels=[ Quartic ] verdict=SKIP_NONOPEN
+L2_PRIME idx=10 ell=59 residue=open r=11 w=14 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=10 ell=61 residue=open r=35 w=52 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=10 ell=67 residue=open r=32 w=21 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=10 ell=71 residue=open r=66 w=55 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+TRACE_PAIR idx=11 R=-25/16 W=-35/26 t=6075/7808 st=<5,0> gate=<320,91> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=11 ell=43 residue=open r=28 w=40 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=11 ell=47 residue=open r=19 w=33 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=11 ell=53 residue=open r=15 w=17 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=11 ell=59 residue=open r=39 w=10 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=11 ell=61 residue=boundary labels=[ w-1 ] verdict=SKIP_NONOPEN
+L2_PRIME idx=11 ell=67 residue=open r=11 w=27 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=11 ell=71 residue=open r=65 w=56 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+TRACE_PAIR idx=12 R=-80/19 W=50/11 t=4590/4693 st=<5,2> gate=<68,254> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=12 ell=43 residue=open r=32 w=28 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=12 ell=47 residue=open r=23 w=43 modl_roots=8 modl_tangent=8 modl_roots_byV=[ 4, 4 ] modl_tangent_byV=[ 4, 4 ] modl2_roots=8 modl2_tangent=8 modl2_roots_byV=[ 4, 4 ] modl2_tangent_byV=[ 4, 4 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=12 ell=53 residue=open r=46 w=19 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=12 ell=59 residue=open r=2 w=26 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=12 ell=61 residue=boundary labels=[ w+1, R+1, R-w, Lplus, Q, Quartic ] verdict=SKIP_NONOPEN
+L2_PRIME idx=12 ell=67 residue=open r=24 w=35 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=12 ell=71 residue=open r=7 w=11 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+TRACE_PAIR idx=13 R=-18/37 W=-63/82 t=21960/39701 st=<5,0> gate=<222,154> plus=1 minus=0 rational_tangent=0
+L2_PRIME idx=13 ell=43 residue=open r=3 w=5 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=13 ell=47 residue=boundary labels=[ R+w, Lplus ] verdict=SKIP_NONOPEN
+L2_PRIME idx=13 ell=53 residue=open r=21 w=49 modl_roots=4 modl_tangent=4 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 2, 2 ] modl2_roots=4 modl2_tangent=4 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 2, 2 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=13 ell=59 residue=open r=33 w=46 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_PRIME idx=13 ell=61 residue=boundary labels=[ Q ] verdict=SKIP_NONOPEN
+L2_PRIME idx=13 ell=67 residue=open r=14 w=36 modl_roots=4 modl_tangent=0 modl_roots_byV=[ 2, 2 ] modl_tangent_byV=[ 0, 0 ] modl2_roots=4 modl2_tangent=0 modl2_roots_byV=[ 2, 2 ] modl2_tangent_byV=[ 0, 0 ] verdict=NO_TANGENT_MOD_L
+L2_PRIME idx=13 ell=71 residue=open r=59 w=33 modl_roots=4 modl_tangent=2 modl_roots_byV=[ 4, 0 ] modl_tangent_byV=[ 2, 0 ] modl2_roots=4 modl2_tangent=2 modl2_roots_byV=[ 4, 0 ] modl2_tangent_byV=[ 2, 0 ] verdict=SURVIVES_MOD_L2
+L2_SUMMARY
+  ell=43 status=NO_TANGENT_MOD_L count=3
+  ell=43 status=SURVIVES_MOD_L2 count=6
+  ell=43 status=boundary count=1
+  ell=43 status=denom count=3
+  ell=47 status=NO_TANGENT_MOD_L count=3
+  ell=47 status=SURVIVES_MOD_L2 count=8
+  ell=47 status=boundary count=2
+  ell=53 status=NO_TANGENT_MOD_L count=4
+  ell=53 status=SURVIVES_MOD_L2 count=7
+  ell=53 status=boundary count=2
+  ell=59 status=NO_TANGENT_MOD_L count=3
+  ell=59 status=SURVIVES_MOD_L2 count=8
+  ell=59 status=boundary count=2
+  ell=61 status=NO_TANGENT_MOD_L count=4
+  ell=61 status=SURVIVES_MOD_L2 count=6
+  ell=61 status=boundary count=3
+  ell=67 status=NO_TANGENT_MOD_L count=5
+  ell=67 status=SURVIVES_MOD_L2 count=7
+  ell=67 status=boundary count=1
+  ell=71 status=NO_TANGENT_MOD_L count=4
+  ell=71 status=SURVIVES_MOD_L2 count=8
+  ell=71 status=boundary count=1

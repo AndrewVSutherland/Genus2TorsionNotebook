@@ -1,0 +1,21 @@
+conic ok
+parametrization found
+u(tau) = (-11/100*tau^3 + 919/50*tau^2 - 8017/25*tau + 40154/25)/(tau^3 - 23*tau^2 + 168*tau - 396)
+v(tau) = (2401/1600*tau^4 - 12593/200*tau^3 + 205647/200*tau^2 - 385757/50*tau + 2253001/100)/(tau^4 - 34*tau^3 + 421*tau^2 - 2244*tau + 4356)
+deg_T gcd = 1
+t(tau) = (-21609/40000*tau^6 + 435561/10000*tau^5 - 2897123/2000*tau^4 + 6390763/250*tau^3 - 126932427/500*tau^2 + 844854361/625*tau - 1894773841/625)/(tau^6 - 46*tau^5 + 865*tau^4 - 8520*tau^3 + 46440*tau^2 - 133056*tau + 156816)
+Q4 = X^4 + (211/100*tau^3 - 3219/50*tau^2 + 16417/25*tau - 59954/25)/(tau^3 - 23*tau^2 + 168*tau - 396)*X^3 + (26041/40000*tau^6 - 157789/10000*tau^5 - 415573/2000*tau^4 + 2879713/250*tau^3 - 81235477/500*tau^2 + 642935011/625*tau - 1595049991/625)/(tau^6 - 46*tau^5 + 865*tau^4 - 8520*tau^3 + 46440*tau^2 - 133056*tau + 156816)*X^2 + (-547353/500000*tau^8 + 6482433/62500*tau^7 - 66834977/15625*tau^6 + 1578736769/15625*tau^5 - 4708213621/3125*tau^4 + 228428287724/15625*tau^3 - 1415899642432/15625*tau^2 + 5144130164272/15625*tau - 8409021298024/15625)/(tau^8 - 58*tau^7 + 1453*tau^6 - 20556*tau^5 + 179820*tau^4 - 997056*tau^3 + 3425328*tau^2 - 6671808*tau + 5645376)*X + (194481/1000000*tau^8 - 362502/15625*tau^7 + 75029733/62500*tau^6 - 550430994/15625*tau^5 + 4013421667/6250*tau^4 - 116565611824/15625*tau^3 + 844813137732/15625*tau^2 - 3501471367072/15625*tau + 6374019201124/15625)/(tau^8 - 58*tau^7 + 1453*tau^6 - 20556*tau^5 + 179820*tau^4 - 997056*tau^3 + 3425328*tau^2 - 6671808*tau + 5645376)
+Q4 irreducible over Q(tau): false
+GaloisGroup(Q4/Q(tau)) order 6 : S3
+extra-root cover:
+  comp deg 3 absirred true GENUS 0
+  comp deg 9 absirred true GENUS 3
+Q4 factorization degrees over Q(tau): [ 1, 3 ]
+  rational root rho(tau) = (9/25*tau^2 - 348/25*tau + 3364/25)/(tau^2 - 12*tau + 36)
+  cubic factor C3 (irreducible: true)
+full-split locus = {C3 has a rational root} = genus-3 extra-root component (above)
+SANITY tau=2 t=-11336689/202500 torsion=[ 22 ]
+SANITY tau=3 t=-27122466721/207360000 torsion=[ 22 ]
+SANITY tau=1/2 t=-6185253558289/258267240000 torsion=[ 22 ]
+SANITY tau=-4 t=-582169/90000 torsion=[ 22 ]
+FLYNN43_PARAM_DONE

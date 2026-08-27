@@ -1,0 +1,60 @@
+TABLES 427 primes, nloci=1, NMAX=100000000
+  A1 after p<=31 : survivors=6934297
+  A1 after p<=67 : survivors=134273
+  A1 after p<=103 : survivors=4685
+  A1 after p<=149 : survivors=35
+  A1 after p<=191 : survivors=3
+  A1 after p<=233 : survivors=3
+  A1 after p<=277 : survivors=3
+  A1 after p<=331 : survivors=3
+  A1 after p<=379 : survivors=3
+  A1 after p<=431 : survivors=3
+  A1 after p<=467 : survivors=3
+  A1 after p<=523 : survivors=3
+  A1 after p<=587 : survivors=3
+  A1 after p<=631 : survivors=3
+  A1 after p<=677 : survivors=3
+  A1 after p<=739 : survivors=3
+  A1 after p<=797 : survivors=3
+  A1 after p<=853 : survivors=3
+  A1 after p<=907 : survivors=3
+  A1 after p<=967 : survivors=3
+  A1 after p<=1019 : survivors=3
+  A1 after p<=1063 : survivors=3
+  A1 after p<=1117 : survivors=3
+  A1 after p<=1187 : survivors=3
+  A1 after p<=1237 : survivors=3
+  A1 after p<=1297 : survivors=3
+  A1 after p<=1367 : survivors=3
+  A1 after p<=1433 : survivors=3
+  A1 after p<=1483 : survivors=3
+  A1 after p<=1543 : survivors=3
+  A1 after p<=1597 : survivors=3
+  A1 after p<=1637 : survivors=3
+  A1 after p<=1709 : survivors=3
+  A1 after p<=1777 : survivors=3
+  A1 after p<=1847 : survivors=3
+  A1 after p<=1901 : survivors=3
+  A1 after p<=1979 : survivors=3
+  A1 after p<=2027 : survivors=3
+  A1 after p<=2087 : survivors=3
+  A1 after p<=2141 : survivors=3
+  A1 after p<=2221 : survivors=3
+  A1 after p<=2281 : survivors=3
+  A1 after p<=2341 : survivors=3
+  A1 after p<=2389 : survivors=3
+  A1 after p<=2447 : survivors=3
+  A1 after p<=2539 : survivors=3
+  A1 after p<=2609 : survivors=3
+  A1 after p<=2671 : survivors=3
+  A1 after p<=2711 : survivors=3
+  A1 after p<=2767 : survivors=3
+  A1 after p<=2833 : survivors=3
+  A1 after p<=2897 : survivors=3
+  A1 after p<=2963 : survivors=3
+  A1 after p<=2999 : survivors=3
+  SURVIVOR A1 n=-2
+  SURVIVOR A1 n=1
+  SURVIVOR A1 n=2
+LOCUS A1 NMAX=100000000 primes=427 SURVIVORS=3
+SIEVE_DONE

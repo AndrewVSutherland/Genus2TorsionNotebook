@@ -1,0 +1,431 @@
+SCREEN_SUMMARY p=3 tested=18 smooth=12 allowed=0 rank_counts=[ <1, 12> ]
+SCREEN_SUMMARY p=7 tested=294 smooth=252 allowed=6 rank_counts=[ <1, 246>, <2, 6> ]
+SCREEN_SUMMARY p=11 tested=1210 smooth=1120 allowed=262 rank_counts=[ <1, 858>, <2, 250>, <3, 12> ]
+SCREEN_SUMMARY p=13 tested=2028 smooth=1872 allowed=60 rank_counts=[ <1, 1812>, <2, 60> ]
+SCREEN_SUMMARY p=17 tested=4624 smooth=4352 allowed=176 rank_counts=[ <1, 4176>, <2, 176> ]
+EXACT_TEST phase=integer base=<-30, -4, -15> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">, <7, <5, 3, 6>, "singular_displayed_reduction">,
+<11, <3, 7, 7>, <2, [ 10, 20 ], 200>>,
+<13, <9, 9, 11>, <2, [ 5, 40 ], 200>>,
+<17, <4, 13, 2>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-30, 1, 13> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <5, 1, 6>, "singular_displayed_reduction">,
+<11, <3, 1, 2>, <2, [ 5, 25 ], 125>>,
+<13, <9, 1, 0>, "singular_displayed_reduction">,
+<17, <4, 1, 13>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-29, -26, 26> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <6, 2, 5>, "singular_displayed_reduction">,
+<11, <4, 7, 4>, <2, [ 5, 20 ], 100>>,
+<13, <10, 0, 0>, "singular_displayed_reduction">,
+<17, <5, 8, 9>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 57*W^3 + 8*W^2 + 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-29, 17, 13> finite=[* <3, <1, 2, 1>, "singular_displayed_reduction">, <7, <6, 3, 6>, "singular_displayed_reduction">,
+<11, <4, 6, 2>, <2, [ 5, 30 ], 150>>,
+<13, <10, 4, 0>, "singular_displayed_reduction">,
+<17, <5, 0, 13>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-27, -28, 30> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">,
+<7, <1, 0, 2>, <2, [ 10, 10 ], 100>>,
+<11, <6, 5, 8>, <2, [ 10, 10 ], 100>>,
+<13, <12, 11, 4>, "singular_displayed_reduction">, <17, <7, 6, 13>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 29*W^3 + 48*W^2 + W + 1 y_scale=1 torsion=[ 10 ]
+EXACT_TEST phase=integer base=<-27, -23, 28> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <1, 5, 0>, "singular_displayed_reduction">,
+<11, <6, 10, 6>, <2, [ 5, 20 ], 100>>,
+<13, <12, 3, 2>, "singular_displayed_reduction">, <17, <7, 11, 11>, "singular_displayed_reduction">,
+<19, <2, [ 5, 55 ], 275>>
+*] simple_p=19 L=361*W^4 - 95*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-27, 19, -11> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <1, 5, 3>, "singular_displayed_reduction">, <11, <6, 8, 0>, "singular_displayed_reduction">,
+<13, <12, 6, 2>, <2, [ 5, 40 ], 200>>,
+<17, <7, 2, 6>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 57*W^3 + 18*W^2 + 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-26, 5, -24> finite=[* <3, <1, 2, 0>, "singular_displayed_reduction">, <7, <2, 5, 4>, "singular_displayed_reduction">,
+<11, <7, 5, 9>, <2, [ 5, 15 ], 75>>,
+<13, <0, 5, 2>, "singular_displayed_reduction">,
+<17, <8, 5, 10>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-25, -4, -7> finite=[* <3, <2, 2, 2>, "singular_displayed_reduction">, <7, <3, 3, 0>, "singular_displayed_reduction">,
+<11, <8, 7, 4>, <2, [ 10, 20 ], 200>>,
+<13, <1, 9, 6>, <2, [ 5, 40 ], 200>>,
+<17, <9, 13, 10>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-24, 28, -17> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">,
+<7, <4, 0, 4>, <2, [ 10, 10 ], 100>>,
+<11, <9, 6, 5>, <2, [ 5, 20 ], 100>>,
+<13, <2, 2, 9>, "singular_displayed_reduction">, <17, <10, 11, 0>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 58*W^3 + 38*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-23, 1, 20> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <5, 1, 6>, "singular_displayed_reduction">,
+<11, <10, 1, 9>, <2, [ 5, 15 ], 75>>,
+<13, <3, 1, 7>, <2, [ 5, 40 ], 200>>,
+<17, <11, 1, 3>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-21, 22, -14> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <0, 1, 0>, "singular_displayed_reduction">,
+<11, <1, 0, 8>, <2, [ 5, 15 ], 75>>,
+<13, <5, 9, 12>, <2, [ 10, 10 ], 100>>,
+<17, <13, 5, 3>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-20, -19, -26> finite=[* <3, <1, 2, 1>, "singular_displayed_reduction">, <7, <1, 2, 2>, "singular_displayed_reduction">,
+<11, <2, 3, 7>, <2, [ 10, 10 ], 100>>,
+<13, <6, 7, 0>, "singular_displayed_reduction">,
+<17, <14, 15, 8>, <2, [ 20, 20 ], 400>>
+*] simple_p=23 L=529*W^4 + 115*W^3 + 30*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-19, -28, -13> finite=[* <3, <2, 2, 2>, "singular_displayed_reduction">,
+<7, <2, 0, 1>, <2, [ 10, 10 ], 100>>,
+<11, <3, 5, 9>, <2, [ 5, 20 ], 100>>,
+<13, <7, 11, 0>, "singular_displayed_reduction">, <17, <15, 6, 4>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 - 58*W^3 - 2*W^2 - 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-17, 10, -28> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <4, 3, 0>, "singular_displayed_reduction">,
+<11, <5, 10, 5>, <2, [ 5, 20 ], 100>>,
+<13, <9, 10, 11>, <2, [ 5, 25 ], 125>>,
+<17, <0, 10, 6>, "singular_displayed_reduction">
+*] simple_p=13 L=169*W^4 - 39*W^3 - 3*W^2 - 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-15, -17, -14> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <6, 4, 0>, "singular_displayed_reduction">,
+<11, <7, 5, 8>, <2, [ 5, 25 ], 125>>,
+<13, <11, 9, 12>, "singular_displayed_reduction">,
+<17, <2, 0, 3>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-15, -8, 20> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <6, 6, 6>, "singular_displayed_reduction">,
+<11, <7, 3, 9>, <2, [ 5, 25 ], 125>>,
+<13, <11, 5, 7>, "singular_displayed_reduction">,
+<17, <2, 9, 3>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-15, 9, -9> finite=[* <3, <0, 0, 0>, "singular_displayed_reduction">, <7, <6, 2, 5>, "singular_displayed_reduction">,
+<11, <7, 9, 2>, <2, [ 5, 20 ], 100>>,
+<13, <11, 9, 4>, <2, [ 5, 25 ], 125>>,
+<17, <2, 9, 8>, "singular_displayed_reduction">
+*] simple_p=13 L=169*W^4 - 39*W^3 - 3*W^2 - 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-14, 13, -7> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <0, 6, 0>, "singular_displayed_reduction">,
+<11, <8, 2, 4>, <2, [ 5, 25 ], 125>>,
+<13, <12, 0, 6>, "singular_displayed_reduction">, <17, <3, 13, 10>, "singular_displayed_reduction">,
+<19, <2, [ 5, 95 ], 475>>
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-13, 7, -26> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">,
+<7, <1, 0, 2>, <2, [ 10, 10 ], 100>>,
+<11, <9, 7, 7>, <2, [ 5, 25 ], 125>>,
+<13, <0, 7, 0>, "singular_displayed_reduction">, <17, <4, 7, 8>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-12, 21, -6> finite=[* <3, <0, 0, 0>, "singular_displayed_reduction">,
+<7, <2, 0, 1>, <2, [ 10, 10 ], 100>>,
+<11, <10, 10, 5>, <2, [ 5, 20 ], 100>>,
+<13, <1, 8, 7>, "singular_displayed_reduction">, <17, <5, 4, 11>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 - 38*W^3 - 2*W^2 - 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-10, -23, 28> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <4, 5, 0>, "singular_displayed_reduction">,
+<11, <1, 10, 6>, <2, [ 5, 20 ], 100>>,
+<13, <3, 3, 2>, <2, [ 5, 40 ], 200>>,
+<17, <7, 11, 11>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 + 95*W^3 + 13*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-10, 10, 13> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <4, 3, 6>, "singular_displayed_reduction">,
+<11, <1, 10, 2>, <2, [ 5, 30 ], 150>>,
+<13, <3, 10, 0>, "singular_displayed_reduction">,
+<17, <7, 10, 13>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-9, 1, 13> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <5, 1, 6>, "singular_displayed_reduction">,
+<11, <2, 1, 2>, <2, [ 5, 20 ], 100>>,
+<13, <4, 1, 0>, "singular_displayed_reduction">,
+<17, <8, 1, 13>, <2, [ 20, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 190*W^3 + 58*W^2 + 10*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-9, 22, -7> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <5, 1, 0>, "singular_displayed_reduction">,
+<11, <2, 0, 4>, <2, [ 5, 30 ], 150>>,
+<13, <4, 9, 6>, "singular_displayed_reduction">,
+<17, <8, 5, 10>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-5, 1, -13> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <2, 1, 1>, "singular_displayed_reduction">,
+<11, <6, 1, 9>, <2, [ 10, 20 ], 200>>,
+<13, <8, 1, 0>, "singular_displayed_reduction">,
+<17, <12, 1, 4>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-5, 1, 21> finite=[* <3, <1, 1, 0>, "singular_displayed_reduction">, <7, <2, 1, 0>, "singular_displayed_reduction">,
+<11, <6, 1, 10>, <2, [ 5, 20 ], 100>>,
+<13, <8, 1, 8>, "singular_displayed_reduction">,
+<17, <12, 1, 4>, <2, [ 5, 55 ], 275>>
+*] simple_p=17 L=289*W^4 - 17*W^3 + 3*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-3, -29, 7> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <4, 6, 0>, "singular_displayed_reduction">,
+<11, <8, 4, 7>, <2, [ 10, 10 ], 100>>,
+<13, <10, 10, 7>, <2, [ 10, 10 ], 100>>,
+<17, <14, 5, 7>, "singular_displayed_reduction">
+*] simple_p=23 L=529*W^4 + 92*W^3 - 6*W^2 + 4*W + 1 y_scale=1 torsion=[ 10 ]
+EXACT_TEST phase=integer base=<-3, -2, -26> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <4, 5, 2>, "singular_displayed_reduction">,
+<11, <8, 9, 7>, <2, [ 10, 20 ], 200>>,
+<13, <10, 11, 0>, "singular_displayed_reduction">,
+<17, <14, 15, 8>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<-2, 0, -3> finite=[* <3, <1, 0, 0>, "singular_displayed_reduction">, <7, <5, 0, 4>, "singular_displayed_reduction">,
+<11, <9, 0, 8>, <2, [ 5, 15 ], 75>>,
+<13, <11, 0, 10>, "singular_displayed_reduction">,
+<17, <15, 0, 14>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<0, -20, -8> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <0, 1, 6>, "singular_displayed_reduction">,
+<11, <0, 2, 3>, <2, [ 5, 20 ], 100>>,
+<13, <0, 6, 5>, "singular_displayed_reduction">,
+<17, <0, 14, 9>, <2, [ 5, 50 ], 250>>
+*] simple_p=23 L=529*W^4 + 23*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<0, -20, 8> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <0, 1, 1>, "singular_displayed_reduction">,
+<11, <0, 2, 8>, <2, [ 5, 20 ], 100>>,
+<13, <0, 6, 8>, "singular_displayed_reduction">,
+<17, <0, 14, 8>, <2, [ 5, 50 ], 250>>
+*] simple_p=23 L=529*W^4 + 23*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<2, 0, 3> finite=[* <3, <2, 0, 0>, "singular_displayed_reduction">, <7, <2, 0, 3>, "singular_displayed_reduction">,
+<11, <2, 0, 3>, <2, [ 5, 15 ], 75>>,
+<13, <2, 0, 3>, "singular_displayed_reduction">,
+<17, <2, 0, 3>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<3, -29, -7> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <3, 6, 0>, "singular_displayed_reduction">,
+<11, <3, 4, 4>, <2, [ 10, 10 ], 100>>,
+<13, <3, 10, 6>, <2, [ 10, 10 ], 100>>,
+<17, <3, 5, 10>, "singular_displayed_reduction">
+*] simple_p=23 L=529*W^4 + 92*W^3 - 6*W^2 + 4*W + 1 y_scale=1 torsion=[ 10 ]
+EXACT_TEST phase=integer base=<3, -2, 26> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <3, 5, 5>, "singular_displayed_reduction">,
+<11, <3, 9, 4>, <2, [ 10, 20 ], 200>>,
+<13, <3, 11, 0>, "singular_displayed_reduction">,
+<17, <3, 15, 9>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<5, 1, -21> finite=[* <3, <2, 1, 0>, "singular_displayed_reduction">, <7, <5, 1, 0>, "singular_displayed_reduction">,
+<11, <5, 1, 1>, <2, [ 5, 20 ], 100>>,
+<13, <5, 1, 5>, "singular_displayed_reduction">,
+<17, <5, 1, 13>, <2, [ 5, 55 ], 275>>
+*] simple_p=17 L=289*W^4 - 17*W^3 + 3*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<5, 1, 13> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <5, 1, 6>, "singular_displayed_reduction">,
+<11, <5, 1, 2>, <2, [ 10, 20 ], 200>>,
+<13, <5, 1, 0>, "singular_displayed_reduction">,
+<17, <5, 1, 13>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<9, 1, -13> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <2, 1, 1>, "singular_displayed_reduction">,
+<11, <9, 1, 9>, <2, [ 5, 20 ], 100>>,
+<13, <9, 1, 0>, "singular_displayed_reduction">,
+<17, <9, 1, 4>, <2, [ 20, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 190*W^3 + 58*W^2 + 10*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<9, 22, 7> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <2, 1, 0>, "singular_displayed_reduction">,
+<11, <9, 0, 7>, <2, [ 5, 30 ], 150>>,
+<13, <9, 9, 7>, "singular_displayed_reduction">,
+<17, <9, 5, 7>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<10, -23, -28> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <3, 5, 0>, "singular_displayed_reduction">,
+<11, <10, 10, 5>, <2, [ 5, 20 ], 100>>,
+<13, <10, 3, 11>, <2, [ 5, 40 ], 200>>,
+<17, <10, 11, 6>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 + 95*W^3 + 13*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<10, 10, -13> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">, <7, <3, 3, 1>, "singular_displayed_reduction">,
+<11, <10, 10, 9>, <2, [ 5, 30 ], 150>>,
+<13, <10, 10, 0>, "singular_displayed_reduction">,
+<17, <10, 10, 4>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<12, 21, 6> finite=[* <3, <0, 0, 0>, "singular_displayed_reduction">,
+<7, <5, 0, 6>, <2, [ 10, 10 ], 100>>,
+<11, <1, 10, 6>, <2, [ 5, 20 ], 100>>,
+<13, <12, 8, 6>, "singular_displayed_reduction">, <17, <12, 4, 6>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 - 38*W^3 - 2*W^2 - 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<13, 7, 26> finite=[* <3, <1, 1, 2>, "singular_displayed_reduction">,
+<7, <6, 0, 5>, <2, [ 10, 10 ], 100>>,
+<11, <2, 7, 4>, <2, [ 5, 25 ], 125>>,
+<13, <0, 7, 0>, "singular_displayed_reduction">, <17, <13, 7, 9>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<14, 13, 7> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <0, 6, 0>, "singular_displayed_reduction">,
+<11, <3, 2, 7>, <2, [ 5, 25 ], 125>>,
+<13, <1, 0, 7>, "singular_displayed_reduction">, <17, <14, 13, 7>, "singular_displayed_reduction">,
+<19, <2, [ 5, 95 ], 475>>
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<15, -17, 14> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <1, 4, 0>, "singular_displayed_reduction">,
+<11, <4, 5, 3>, <2, [ 5, 25 ], 125>>,
+<13, <2, 9, 1>, "singular_displayed_reduction">,
+<17, <15, 0, 14>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<15, -8, -20> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <1, 6, 1>, "singular_displayed_reduction">,
+<11, <4, 3, 2>, <2, [ 5, 25 ], 125>>,
+<13, <2, 5, 6>, "singular_displayed_reduction">,
+<17, <15, 9, 14>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<15, 9, 9> finite=[* <3, <0, 0, 0>, "singular_displayed_reduction">, <7, <1, 2, 2>, "singular_displayed_reduction">,
+<11, <4, 9, 9>, <2, [ 5, 20 ], 100>>,
+<13, <2, 9, 9>, <2, [ 5, 25 ], 125>>,
+<17, <15, 9, 9>, "singular_displayed_reduction">
+*] simple_p=13 L=169*W^4 - 39*W^3 - 3*W^2 - 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<17, 10, 28> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <3, 3, 0>, "singular_displayed_reduction">,
+<11, <6, 10, 6>, <2, [ 5, 20 ], 100>>,
+<13, <4, 10, 2>, <2, [ 5, 25 ], 125>>,
+<17, <0, 10, 11>, "singular_displayed_reduction">
+*] simple_p=13 L=169*W^4 - 39*W^3 - 3*W^2 - 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<19, -28, 13> finite=[* <3, <1, 2, 1>, "singular_displayed_reduction">,
+<7, <5, 0, 6>, <2, [ 10, 10 ], 100>>,
+<11, <8, 5, 2>, <2, [ 5, 20 ], 100>>,
+<13, <6, 11, 0>, "singular_displayed_reduction">, <17, <2, 6, 13>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 - 58*W^3 - 2*W^2 - 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<20, -19, 26> finite=[* <3, <2, 2, 2>, "singular_displayed_reduction">, <7, <6, 2, 5>, "singular_displayed_reduction">,
+<11, <9, 3, 4>, <2, [ 10, 10 ], 100>>,
+<13, <7, 7, 0>, "singular_displayed_reduction">,
+<17, <3, 15, 9>, <2, [ 20, 20 ], 400>>
+*] simple_p=23 L=529*W^4 + 115*W^3 + 30*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<21, 22, 14> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <0, 1, 0>, "singular_displayed_reduction">,
+<11, <10, 0, 3>, <2, [ 5, 15 ], 75>>,
+<13, <8, 9, 1>, <2, [ 10, 10 ], 100>>,
+<17, <4, 5, 14>, <2, [ 5, 55 ], 275>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<23, 1, -20> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <2, 1, 1>, "singular_displayed_reduction">,
+<11, <1, 1, 2>, <2, [ 5, 15 ], 75>>,
+<13, <10, 1, 6>, <2, [ 5, 40 ], 200>>,
+<17, <6, 1, 14>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<24, 28, 17> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">,
+<7, <3, 0, 3>, <2, [ 10, 10 ], 100>>,
+<11, <2, 6, 6>, <2, [ 5, 20 ], 100>>,
+<13, <11, 2, 4>, "singular_displayed_reduction">, <17, <7, 11, 0>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 58*W^3 + 38*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<25, -4, 7> finite=[* <3, <1, 2, 1>, "singular_displayed_reduction">, <7, <4, 3, 0>, "singular_displayed_reduction">,
+<11, <3, 7, 7>, <2, [ 10, 20 ], 200>>,
+<13, <12, 9, 7>, <2, [ 5, 40 ], 200>>,
+<17, <8, 13, 7>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<26, 5, 24> finite=[* <3, <2, 2, 0>, "singular_displayed_reduction">, <7, <5, 5, 3>, "singular_displayed_reduction">,
+<11, <4, 5, 2>, <2, [ 5, 15 ], 75>>,
+<13, <0, 5, 11>, "singular_displayed_reduction">,
+<17, <9, 5, 7>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 - 55*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<27, -28, -30> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">,
+<7, <6, 0, 5>, <2, [ 10, 10 ], 100>>,
+<11, <5, 5, 3>, <2, [ 10, 10 ], 100>>,
+<13, <1, 11, 9>, "singular_displayed_reduction">, <17, <10, 6, 4>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 29*W^3 + 48*W^2 + W + 1 y_scale=1 torsion=[ 10 ]
+EXACT_TEST phase=integer base=<27, -23, -28> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <6, 5, 0>, "singular_displayed_reduction">,
+<11, <5, 10, 5>, <2, [ 5, 20 ], 100>>,
+<13, <1, 3, 11>, "singular_displayed_reduction">, <17, <10, 11, 6>, "singular_displayed_reduction">,
+<19, <2, [ 5, 55 ], 275>>
+*] simple_p=19 L=361*W^4 - 95*W^3 + 13*W^2 - 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<27, 19, 11> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <6, 5, 4>, "singular_displayed_reduction">, <11, <5, 8, 0>, "singular_displayed_reduction">,
+<13, <1, 6, 11>, <2, [ 5, 40 ], 200>>,
+<17, <10, 2, 11>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 57*W^3 + 18*W^2 + 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<29, -26, -26> finite=[* <3, <2, 1, 1>, "singular_displayed_reduction">, <7, <1, 2, 2>, "singular_displayed_reduction">,
+<11, <7, 7, 7>, <2, [ 5, 20 ], 100>>,
+<13, <3, 0, 0>, "singular_displayed_reduction">,
+<17, <12, 8, 8>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=19 L=361*W^4 + 57*W^3 + 8*W^2 + 3*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<29, 17, -13> finite=[* <3, <2, 2, 2>, "singular_displayed_reduction">, <7, <1, 3, 1>, "singular_displayed_reduction">,
+<11, <7, 6, 9>, <2, [ 5, 30 ], 150>>,
+<13, <3, 4, 0>, "singular_displayed_reduction">,
+<17, <12, 0, 4>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<30, -4, 15> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">, <7, <2, 3, 1>, "singular_displayed_reduction">,
+<11, <8, 7, 4>, <2, [ 10, 20 ], 200>>,
+<13, <4, 9, 2>, <2, [ 5, 40 ], 200>>,
+<17, <13, 13, 15>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=integer base=<30, 1, -13> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <2, 1, 1>, "singular_displayed_reduction">,
+<11, <8, 1, 9>, <2, [ 5, 25 ], 125>>,
+<13, <4, 1, 0>, "singular_displayed_reduction">,
+<17, <13, 1, 4>, <2, [ 2, 10, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=1 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-3, -1/4, 3/5> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">, <7, <4, 5, 2>, "singular_displayed_reduction">,
+<11, <8, 8, 5>, <2, [ 10, 10 ], 100>>,
+<13, <10, 3, 11>, <2, [ 5, 40 ], 200>>,
+<17, <14, 4, 4>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 - 57*W^3 + 18*W^2 - 3*W + 1 y_scale=80 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-5/3, -1/4, 5/4> finite=[* <3, "undefined_base_reduction">, <7, <3, 5, 3>, "singular_displayed_reduction">,
+<11, <2, 8, 4>, <2, [ 10, 20 ], 200>>,
+<13, <7, 3, 11>, "singular_displayed_reduction">,
+<17, <4, 4, 14>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-4/3, -1/3, -4/5> finite=[* <3, "undefined_base_reduction">, <7, <1, 2, 2>, "singular_displayed_reduction">,
+<11, <6, 7, 8>, <3, [ 5, 5, 5 ], 125>>,
+<13, <3, 4, 7>, <2, [ 5, 25 ], 125>>,
+<17, <10, 11, 6>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=45 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-5/6, 0, -5/4> finite=[* <3, "undefined_base_reduction">, <7, <5, 0, 4>, "singular_displayed_reduction">,
+<11, <1, 0, 7>, <2, [ 5, 30 ], 150>>,
+<13, <10, 0, 2>, "singular_displayed_reduction">,
+<17, <2, 0, 3>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=36 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-5/6, 4/3, -4/5> finite=[* <3, "undefined_base_reduction">, <7, <5, 6, 2>, "singular_displayed_reduction">,
+<11, <1, 5, 8>, <2, [ 5, 30 ], 150>>,
+<13, <10, 10, 7>, <2, [ 10, 10 ], 100>>,
+<17, <2, 7, 6>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=180 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-3/4, 5, -5/3> finite=[* <3, "undefined_base_reduction">, <7, <1, 5, 3>, "singular_displayed_reduction">,
+<11, <2, 5, 2>, <2, [ 5, 20 ], 100>>,
+<13, <9, 5, 7>, <2, [ 5, 40 ], 200>>,
+<17, <12, 5, 4>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 203*W^3 + 48*W^2 + 7*W + 1 y_scale=48 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-1/4, -5/3, 5/4> finite=[* <3, "undefined_base_reduction">, <7, <5, 3, 3>, "singular_displayed_reduction">,
+<11, <8, 2, 4>, <2, [ 5, 25 ], 125>>,
+<13, <3, 7, 11>, "singular_displayed_reduction">,
+<17, <4, 4, 14>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-1/4, 5/4, 2/3> finite=[* <3, "undefined_base_reduction">, <7, <5, 3, 3>, "singular_displayed_reduction">,
+<11, <8, 4, 8>, <2, [ 10, 10 ], 100>>,
+<13, <3, 11, 5>, "singular_displayed_reduction">,
+<17, <4, 14, 12>, <2, [ 5, 40 ], 200>>
+*] simple_p=29 L=841*W^4 - 319*W^3 + 78*W^2 - 11*W + 1 y_scale=48 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-1/5, 3/2, 3/5> finite=[* <3, <1, 0, 0>, "singular_displayed_reduction">, <7, <4, 5, 2>, "singular_displayed_reduction">,
+<11, <2, 7, 5>, <2, [ 5, 20 ], 100>>,
+<13, <5, 8, 11>, "singular_displayed_reduction">,
+<17, <10, 10, 4>, <2, [ 5, 55 ], 275>>
+*] simple_p=17 L=289*W^4 - 17*W^3 + 3*W^2 - W + 1 y_scale=100 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<-1/6, 1/4, 1/4> finite=[* <3, "undefined_base_reduction">, <7, <1, 2, 2>, "singular_displayed_reduction">,
+<11, <9, 3, 3>, <2, [ 10, 10 ], 100>>,
+<13, <2, 10, 10>, <2, [ 5, 40 ], 200>>,
+<17, <14, 13, 13>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 203*W^3 + 38*W^2 + 7*W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<0, -5, -1/4> finite=[* <3, <0, 1, 2>, "singular_displayed_reduction">, <7, <0, 2, 5>, "singular_displayed_reduction">,
+<11, <0, 6, 8>, <2, [ 5, 20 ], 100>>,
+<13, <0, 8, 3>, "singular_displayed_reduction">,
+<17, <0, 12, 4>, <2, [ 5, 50 ], 250>>
+*] simple_p=23 L=529*W^4 + 23*W^3 - 9*W^2 + W + 1 y_scale=4 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<0, -5, 1/4> finite=[* <3, <0, 1, 1>, "singular_displayed_reduction">, <7, <0, 2, 2>, "singular_displayed_reduction">,
+<11, <0, 6, 3>, <2, [ 5, 20 ], 100>>,
+<13, <0, 8, 10>, "singular_displayed_reduction">,
+<17, <0, 12, 13>, <2, [ 5, 50 ], 250>>
+*] simple_p=23 L=529*W^4 + 23*W^3 - 9*W^2 + W + 1 y_scale=4 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<1/6, 1/4, -1/4> finite=[* <3, "undefined_base_reduction">, <7, <6, 2, 5>, "singular_displayed_reduction">,
+<11, <2, 3, 8>, <2, [ 10, 10 ], 100>>,
+<13, <11, 10, 3>, <2, [ 5, 40 ], 200>>,
+<17, <3, 13, 4>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 203*W^3 + 38*W^2 + 7*W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<1/5, 3/2, -3/5> finite=[* <3, <2, 0, 0>, "singular_displayed_reduction">, <7, <3, 5, 5>, "singular_displayed_reduction">,
+<11, <9, 7, 6>, <2, [ 5, 20 ], 100>>,
+<13, <8, 8, 2>, "singular_displayed_reduction">,
+<17, <7, 10, 13>, <2, [ 5, 55 ], 275>>
+*] simple_p=17 L=289*W^4 - 17*W^3 + 3*W^2 - W + 1 y_scale=100 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<1/4, -5/3, -5/4> finite=[* <3, "undefined_base_reduction">, <7, <2, 3, 4>, "singular_displayed_reduction">,
+<11, <3, 2, 7>, <2, [ 5, 25 ], 125>>,
+<13, <10, 7, 2>, "singular_displayed_reduction">,
+<17, <13, 4, 3>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 - 11*W^3 + 15*W^2 - W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<1/4, 5/4, -2/3> finite=[* <3, "undefined_base_reduction">, <7, <2, 3, 4>, "singular_displayed_reduction">,
+<11, <3, 4, 3>, <2, [ 10, 10 ], 100>>,
+<13, <10, 11, 8>, "singular_displayed_reduction">,
+<17, <13, 14, 5>, <2, [ 5, 40 ], 200>>
+*] simple_p=29 L=841*W^4 - 319*W^3 + 78*W^2 - 11*W + 1 y_scale=48 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<3/4, 5, 5/3> finite=[* <3, "undefined_base_reduction">, <7, <6, 5, 4>, "singular_displayed_reduction">,
+<11, <9, 5, 9>, <2, [ 5, 20 ], 100>>,
+<13, <4, 5, 6>, <2, [ 5, 40 ], 200>>,
+<17, <5, 5, 13>, "singular_displayed_reduction">
+*] simple_p=29 L=841*W^4 + 203*W^3 + 48*W^2 + 7*W + 1 y_scale=48 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<5/6, 0, 5/4> finite=[* <3, "undefined_base_reduction">, <7, <2, 0, 3>, "singular_displayed_reduction">,
+<11, <10, 0, 4>, <2, [ 5, 30 ], 150>>,
+<13, <3, 0, 11>, "singular_displayed_reduction">,
+<17, <15, 0, 14>, <2, [ 5, 40 ], 200>>
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=36 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<5/6, 4/3, 4/5> finite=[* <3, "undefined_base_reduction">, <7, <2, 6, 5>, "singular_displayed_reduction">,
+<11, <10, 5, 3>, <2, [ 5, 30 ], 150>>,
+<13, <3, 10, 6>, <2, [ 10, 10 ], 100>>,
+<17, <15, 7, 11>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 + 22*W^3 + 4*W^2 + 2*W + 1 y_scale=180 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<4/3, -1/3, 4/5> finite=[* <3, "undefined_base_reduction">, <7, <6, 2, 5>, "singular_displayed_reduction">,
+<11, <5, 7, 3>, <3, [ 5, 5, 5 ], 125>>,
+<13, <10, 4, 6>, <2, [ 5, 25 ], 125>>,
+<17, <7, 11, 11>, "singular_displayed_reduction">
+*] simple_p=11 L=121*W^4 + 11*W^3 - 9*W^2 + W + 1 y_scale=45 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<5/3, -1/4, -5/4> finite=[* <3, "undefined_base_reduction">, <7, <4, 5, 4>, "singular_displayed_reduction">,
+<11, <9, 8, 7>, <2, [ 10, 20 ], 200>>,
+<13, <6, 3, 2>, "singular_displayed_reduction">,
+<17, <13, 4, 3>, <2, [ 20, 20 ], 400>>
+*] simple_p=11 L=121*W^4 + 55*W^3 + 18*W^2 + 5*W + 1 y_scale=144 torsion=[ 5 ]
+EXACT_TEST phase=rational base=<3, -1/4, -3/5> finite=[* <3, <0, 2, 0>, "singular_displayed_reduction">, <7, <3, 5, 5>, "singular_displayed_reduction">,
+<11, <3, 8, 6>, <2, [ 10, 10 ], 100>>,
+<13, <3, 3, 2>, <2, [ 5, 40 ], 200>>,
+<17, <3, 4, 13>, "singular_displayed_reduction">
+*] simple_p=19 L=361*W^4 - 57*W^3 + 18*W^2 - 3*W + 1 y_scale=80 torsion=[ 5 ]
+# counts are <enumerated unique triples, two-prime rank survivors, simple survivors, exact tests>
+PHASE_SUMMARY integer [ 226981, 62, 62, 62 ]
+PHASE_SUMMARY rational [ 101626, 22, 22, 22 ]
+TOTAL_UNIQUE_BASES 328607
+TOTAL_TWO_PRIME_SURVIVORS 84
+TOTAL_SIMPLE_SURVIVORS 84
+INSUFFICIENT_GOOD_PRIME_COUNT 0
+EXACT_HIT_COUNT 0

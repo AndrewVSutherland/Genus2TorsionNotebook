@@ -1,0 +1,27 @@
+RMSPEC_CTRL p=61  with 11|#J : 2229   without : 21771
+-- AMBIENT | 11 divides #J(F_p)   <-- the correct control (n=2229), top 12:
+   core=3      count=413    frac=0.1853
+   core=5      count=298    frac=0.1337
+   core=1      count=292    frac=0.1310
+   core=37     count=239    frac=0.1072
+   core=89     count=179    frac=0.08031
+   core=33     count=111    frac=0.04980
+   core=11     count=71     frac=0.03185
+   core=137    count=59     frac=0.02647
+   core=14     count=56     frac=0.02512
+   core=15     count=56     frac=0.02512
+   core=97     count=54     frac=0.02423
+   core=34     count=54     frac=0.02423
+-- AMBIENT | 11 does not divide #J(F_p) (n=21771), top 12:
+   core=1      count=5582   frac=0.2564
+   core=2      count=1469   frac=0.06747
+   core=17     count=1364   frac=0.06265
+   core=5      count=1175   frac=0.05397
+   core=33     count=838    frac=0.03849
+   core=13     count=726    frac=0.03335
+   core=41     count=689    frac=0.03165
+   core=3      count=640    frac=0.02940
+   core=6      count=628    frac=0.02884
+   core=65     count=612    frac=0.02811
+   core=7      count=496    frac=0.02278
+   core=73     count=482    frac=0.02214

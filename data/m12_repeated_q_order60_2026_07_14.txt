@@ -1,0 +1,38 @@
+Exact repeated-q / point-order-10 audit, 2026-07-14
+
+DIRECT JACOBIAN COUNTS
+p  smooth_bases  exact_order10_points
+7       18          2
+11      70          4
+13     110          2
+17     198          6
+19     260         12
+23     404         10
+29     680         16
+31     790         18
+37    1166         30
+61    3378         42
+
+LINEAR-B REPEATED SUPPORT (e=-2), signed open quotient points
+p=7   0
+p=11  1  (exact point order 10; F factor type 1+2+2)
+p=13  0
+
+RECIPROCAL-T ELIMINATION
+N1_SHAPE <28,12,4,18,143>
+N3_SHAPE <31,9,2,24,74>
+RESULTANT_FACTORS
+  t^30
+  b^4
+  (b-1)^10
+  (b-1/2)^8
+  ((5*t^8-1)*b^2-10*t^8*b+5*t^8)^4
+  R(b,t)
+R_SHAPE <total=80,b=22,t=58,terms=446>, irreducible, even in t
+quadratic discriminant = 20*t^8: no rational b for rational t != 0
+
+EXACT SLICE SEARCH
+Every nonzero reduced rational t of height <= 50: 3094 slices.
+For every slice all rational roots of the degree-22 R(b,t) were computed;
+b was not height-bounded.
+Result: 0 rational b roots.

@@ -1,0 +1,16 @@
+Contact-6 targeted [3,6] cubic-contact search
+height 4 parameter_count 23 max_hits 20
+progress 50000 nonboundary 44797 linear_roots 42813 contact_hits 4 exact36 0 exact66 0
+progress 100000 nonboundary 89601 linear_roots 85631 contact_hits 4 exact36 0 exact66 0
+progress 150000 nonboundary 134399 linear_roots 128445 contact_hits 4 exact36 0 exact66 0
+progress 200000 nonboundary 179203 linear_roots 171263 contact_hits 4 exact36 0 exact66 0
+progress 250000 nonboundary 224001 linear_roots 214077 contact_hits 4 exact36 0 exact66 0
+Done
+checked 267674
+nonboundary 239844
+linear_roots 229218
+special_f1 22
+contact_hits 4
+exact_hits36 0
+exact_hits66 0
+hits 0

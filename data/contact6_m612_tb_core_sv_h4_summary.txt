@@ -1,0 +1,42 @@
+CONTACT6_M612_TB_CORE_SV_SEARCH -- HEIGHT 4 SUMMARY
+
+Command:
+  magma -b height:=4 progress_interval:=25 \
+    code/contact6_m612_tb_core_sv_search.m
+
+This is the discovery-oriented slicing: for each rational (s,v), solve the
+full saturated fiber product algebraically in (r,K,M,U), with no height bound
+on r.  Require K and M to be rational squares before exact verification.
+
+parameter_count 23
+checked_slices 484
+empty_dimension_minus_one 2
+zero_dimensional_slices 482
+positive_dimensional_slices 0
+saturation_failures 0
+variety_failures 0
+rational_fiber_product_points 11
+points_with_K_square 0
+points_with_M_square 7
+points_with_both_squares 0
+verified_intersections 0
+simple_exact_tests 0
+hits_6_12 0
+CPU_seconds 395.47
+
+The only empty saturated slices are (s,v)=(-1,1) and (1,1).  No
+positive-dimensional or unresolved exceptional slice occurs.
+
+All 11 rational fiber-product points fail the K=m^2 lift.  The seven points
+with M=L^2 therefore give rational cubic-contact data but no rational
+T_B-half on this square-root chart.  Representative recurring points include
+
+  (s,v,r,K,M,U,a,b)=
+    (-2,-1/2,1/2,5/4,25/16,-7/2,-5/2,5),
+    ( 2,-1/2,1/2,-27/4,25/16,-7/2,-5/2,5),
+    (1/2,-2,2,27/4,100,-14,5,-5/2).
+
+At 395 seconds for 484 slices, an unfiltered height-6 run (roughly 2,100
+slices) is projected to take about 30 minutes and was not started.  The next
+extension should add projective finite-field slice masks or run selected new
+height shells in parallel.

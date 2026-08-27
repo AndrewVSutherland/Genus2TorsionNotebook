@@ -1,0 +1,14 @@
+SLICE_BEGIN d 1
+REMAINING_VARIABLES [ b, w, c, e ]
+EQUATION_SHAPES [ <11, 81>, <13, 176>, <12, 117>, <23, 941> ]
+RAW_BASIS_END cpu 0.000 len 4 degrees [ 11, 13, 12, 23 ]
+terms [ 81, 176, 117, 941 ]
+SAT_END b cpu 93.990 len 205 unit false
+SAT_END w cpu 49.140 len 182 unit false
+SAT_END b-1 cpu 1.030 len 182 unit false
+SAT_END 2b-1 cpu 0.560 len 182 unit false
+SAT_END d cpu 0.000 len 182 unit false
+SAT_END e-2 cpu 0.240 len 182 unit false
+SAT_END e+2 cpu 0.250 len 182 unit false
+SAT_END ell3 cpu 0.820 len 182 unit false
+CHEAP_DIMENSION 0 COMPONENT_DEGREES []

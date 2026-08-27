@@ -1,0 +1,109 @@
+######## closed-form halving criterion, per condition set ########
+  conditions:  lam0*d1*d2 = square,  lam0*d1*d3 = square  (printed as g12, g13),
+               u*v*(u+v+1) = t^2,  and  lam0*(P +- 2*s*t) = square.
+
+---- SET1 = surface 0  (T = 0, B_quad)
+   g12   = [
+<$.2, 1>,
+<$.2 - 1, 1>,
+<$.1, 1>,
+<$.1 - 1, 1>
+]
+   g13   = [
+<$.1, 1>,
+<$.1 - 1, 1>,
+<$.1 + $.2 + 1, 1>,
+<$.1 + $.2 + 2, 1>
+]
+   lam0  = [
+<$.2 - 1, 1>,
+<$.1 - 1, 1>,
+<$.1 + $.2 + 2, 1>
+]
+   P     = u^2*v - u^2 + u*v^2 - u - v^2 - v
+   s     = 1
+
+---- SET2             (T = A_r1r2, C_r3)
+   g12   = [
+<$.2, 1>,
+<$.1, 1>,
+<$.1 + 2*$.2 + 1, 1>,
+<$.1 + 1/2*$.2 + 1/2, 1>
+]
+   g13   = [
+<$.1, 1>,
+<$.1 + $.2 + 1, 1>,
+<$.1 + $.2 + 2, 1>,
+<$.1 + 2*$.2 + 1, 1>
+]
+   lam0  = [
+<$.2 - 1, 1>,
+<$.1 - 1, 1>,
+<$.1 + $.2 + 2, 1>
+]
+   P     = (u^7*v^4 - 4*u^7*v^3 + 6*u^7*v^2 - 4*u^7*v + u^7 + 3*u^6*v^5 - 10*u^6*v^4 + 10*u^6*v^3 - 5*u^6*v + 2*u^6 + 3*u^5*v^6 - 12*u^5*v^5 + 12*u^5*v^4 + u^5*v^3 - 4*u^5*v^2 - u^5*v + u^5 + u^4*v^7 - 10*u^4*v^6 + 12*u^4*v^5 + 2*u^4*v^4 - 5*u^4*v^3 - 4*u^3*v^7 + 10*u^3*v^6 + u^3*v^5 - 5*u^3*v^4 + 6*u^2*v^7 - 4*u^2*v^5 - 4*u*v^7 - 5*u*v^6 - u*v^5 + v^7 + 2*v^6 + v^5)/(u*v - u - v + 1)
+   s     = u^2*v^2/(u*v - u - v + 1)
+
+---- SET3             (T = A_r1r3, C_r2)
+   g12   = [
+<$.2, 1>,
+<$.2 - 1, 1>,
+<$.1, 1>,
+<$.1 + 2*$.2 + 1, 1>
+]
+   g13   = [
+<$.1, 1>,
+<$.1 - $.2, 1>,
+<$.1 + $.2 + 1, 1>,
+<$.1 + 2*$.2 + 1, 1>
+]
+   lam0  = [
+<$.2 - 1, 1>,
+<$.1 - 1, 1>,
+<$.1 + $.2 + 2, 1>
+]
+   P     = (u^8*v^3 - 3*u^8*v^2 + 3*u^8*v - u^8 + 4*u^7*v^4 - 8*u^7*v^3 + 8*u^7*v - 4*u^7 + 6*u^6*v^5 - 10*u^6*v^4 - 8*u^6*v^3 + 13*u^6*v^2 + 5*u^6*v - 6*u^6 + 4*u^5*v^6 - 12*u^5*v^5 - 12*u^5*v^4 + 15*u^5*v^3 + 12*u^5*v^2 - 3*u^5*v - 4*u^5 + u^4*v^7 - 11*u^4*v^6 - 9*u^4*v^5 + 18*u^4*v^4 + 17*u^4*v^3 - u^4*v^2 - 4*u^4*v - u^4 - 4*u^3*v^7 + 4*u^3*v^6 + 25*u^3*v^5 + 20*u^3*v^4 - 4*u^3*v^2 - u^3*v + 6*u^2*v^7 + 14*u^2*v^6 + 5*u^2*v^5 - 10*u^2*v^4 - 10*u^2*v^3 - 4*u^2*v^2 - u^2*v - 4*u*v^7 - 16*u*v^6 - 25*u*v^5 - 20*u*v^4 - 10*u*v^3 - 4*u*v^2 - u*v + v^7 + 5*v^6 + 10*v^5 + 10*v^4 + 5*v^3 + v^2)/(u^2 + u*v + u - v - 2)
+   s     = (u^4 + 2*u^3*v + 2*u^3 + u^2*v^2 + 2*u^2*v + u^2)/(u^2 + u*v + u - v - 2)
+
+---- SET4 = surface 1  (T = A_r2r3, C_r1)
+   g12   = [
+<$.2, 1>,
+<$.1, 1>,
+<$.1 - 1, 1>,
+<$.1 + 1/2*$.2 + 1/2, 1>
+]
+   g13   = [
+<$.1, 1>,
+<$.1 - 1, 1>,
+<$.1 - $.2, 1>,
+<$.1 + $.2 + 1, 1>
+]
+   lam0  = [
+<$.2 - 1, 1>,
+<$.1 - 1, 1>,
+<$.1 + $.2 + 2, 1>
+]
+   P     = (u^7*v^4 - 4*u^7*v^3 + 6*u^7*v^2 - 4*u^7*v + u^7 + 4*u^6*v^5 - 11*u^6*v^4 + 4*u^6*v^3 + 14*u^6*v^2 - 16*u^6*v + 5*u^6 + 6*u^5*v^6 - 12*u^5*v^5 - 9*u^5*v^4 + 25*u^5*v^3 + 5*u^5*v^2 - 25*u^5*v + 10*u^5 + 4*u^4*v^7 - 10*u^4*v^6 - 12*u^4*v^5 + 18*u^4*v^4 + 20*u^4*v^3 - 10*u^4*v^2 - 20*u^4*v + 10*u^4 + u^3*v^8 - 8*u^3*v^7 - 8*u^3*v^6 + 15*u^3*v^5 + 17*u^3*v^4 - 10*u^3*v^2 - 10*u^3*v + 5*u^3 - 3*u^2*v^8 + 13*u^2*v^6 + 12*u^2*v^5 - u^2*v^4 - 4*u^2*v^3 - 4*u^2*v^2 - 4*u^2*v + u^2 + 3*u*v^8 + 8*u*v^7 + 5*u*v^6 - 3*u*v^5 - 4*u*v^4 - u*v^3 - u*v^2 - u*v - v^8 - 4*v^7 - 6*v^6 - 4*v^5 - v^4)/(u*v - u + v^2 + v - 2)
+   s     = (u^2*v^2 + 2*u*v^3 + 2*u*v^2 + v^4 + 2*v^3 + v^2)/(u*v - u + v^2 + v - 2)
+
+######## numerical validation against the delta module + IsDivisibleBy ########
+Loading "code/claude_ov_2216_delta.m"
+  u=1681/385 v=-2809/216 set=1 ONSURFACE eps+=4233451695 eps-=12933161670 field=false magma=false
+  u=25/24 v=-49/15 set=1 ONSURFACE eps+=39 eps-=-111 field=false magma=false
+  u=25/16 v=121/105 set=1 ONSURFACE eps+=630939 eps-=-1193961 field=false magma=false
+  u=-625/104 v=361/105 set=1 ONSURFACE eps+=142826349 eps-=-27047901 field=false magma=false
+  u=-8/17 v=-72/217 set=1 ONSURFACE eps+=32929 eps-=-17 field=false magma=false
+  u=-8/17 v=-72/2737 set=1 ONSURFACE eps+=2773 eps-=2881 field=false magma=false
+  u=-161/81 v=1288/1377 set=4 ONSURFACE eps+=2881 eps-=2773 field=false magma=false
+  u=-17/8 v=153/217 set=4 ONSURFACE eps+=-17 eps-=32929 field=false magma=false
+  u=-17/8 v=9/161 set=4 ONSURFACE eps+=2881 eps-=2773 field=false magma=false
+  u=-217/72 v=217/153 set=4 ONSURFACE eps+=-17 eps-=32929 field=false magma=false
+  u=-15/49 v=-125/392 set=4 ONSURFACE eps+=-111 eps-=39 field=false magma=false
+  u=24/25 v=-392/125 set=4 ONSURFACE eps+=-111 eps-=39 field=false magma=false
+  u=105/121 v=2625/1936 set=4 ONSURFACE eps+=-1193961 eps-=630939 field=false magma=false
+  u=16/25 v=1936/2625 set=4 ONSURFACE eps+=-1193961 eps-=630939 field=false magma=false
+  u=40/49 v=125/147 set=4 ONSURFACE eps+=-111 eps-=39 field=false magma=false
+
+points=15  (point,set) checks=60  closedform_agrees_with_magma=60  on-surface=15
+CLOSED_FORM_VALIDATED
+SEARCH_DONE

@@ -1,0 +1,86 @@
+Loading "code/m2248_sieve.m"
+M2248 D+F0 simultaneous pair-fiber diagnostic
+dn_height 10 seed_height 8 slope_height 10 dn_params 127 seed_params 87 
+slope_params 127
+HPL_PAIR_FIBER F1 F2 degree 4 squarefree_degree 4 genus 1
+HPL_PAIR_FIBER F1 F4 degree 4 squarefree_degree 4 genus 1
+HPL_PAIR_FIBER F2 F4 degree 4 squarefree_degree 4 genus 1
+PAIR_START F1 F2
+PAIR_C_SQUARE F1 F2 d -9 n -10 q0 -1 slope 0 q 1 rho 79/9 sigma 79/2 tau 2/9 
+tuple_height 81 3 genus 1
+PAIR_C_SQUARE F1 F2 d -5 n -9 q0 -1 slope 0 q 1 rho 25/7 sigma 5 tau 5/7 
+tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3 n -4 q0 -1 slope -5 q 1 rho 7/3 sigma 7/2 tau 2/3 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3 n 6 q0 -1 slope 0 q 1 rho -31/11 sigma -31/4 tau 4/11 
+tuple_height 33 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3 n -9/4 q0 -1 slope 0 q 1 rho 623/209 sigma 623/25 tau 
+25/209 tuple_height 627 3 genus 1
+PAIR_C_SQUARE F1 F2 d -2 n -9 q0 -1 slope 0 q 1 rho -2/7 sigma -1/4 tau 8/7 
+tuple_height 7 1 genus 1
+PAIR_C_SQUARE F1 F2 d -2 n -9/5 q0 -1 slope 0 q 1 rho 22/13 sigma 11/4 tau 8/13 
+tuple_height 22 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3/2 n -5/2 q0 -1 slope 0 q 1 rho 1/6 sigma 1/8 tau 4/3 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3/2 n 9/2 q0 -1 slope 0 q 1 rho -121/86 sigma -121/40 tau
+20/43 tuple_height 129 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3/2 n -5/6 q0 -1 slope 0 q 1 rho 19/14 sigma 19/8 tau 4/7
+tuple_height 21 3 genus 1
+PAIR_C_SQUARE F1 F2 d -1/2 n 9/10 q0 -1 slope 0 q 1 rho -7/2 sigma 7/8 tau -4 
+tuple_height 7 1 genus 1
+PAIR_C_SQUARE F1 F2 d -7/3 n 9/2 q0 -1 slope 0 q 1 rho -287/127 sigma -41/5 tau 
+35/127 tuple_height 287 1 genus 1
+PAIR_C_SQUARE F1 F2 d -5/3 n -8/7 q0 -1 slope 0 q 1 rho 25/17 sigma 5/2 tau 
+10/17 tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -2/3 n 5/7 q0 -6 slope -9/2 q 1 rho 6 sigma 3/4 tau 8 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -2/3 n 9/7 q0 -1 slope 0 q 1 rho -86/121 sigma 43/20 tau 
+-40/121 tuple_height 129 3 genus 1
+PAIR_C_SQUARE F1 F2 d -1/3 n 4/5 q0 -1 slope 0 q 1 rho 3/7 sigma 3/2 tau 2/7 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -1/3 n 6/5 q0 -1 slope 0 q 1 rho -11/31 sigma 11/4 tau 
+-4/31 tuple_height 33 3 genus 1
+PAIR_C_SQUARE F1 F2 d -9/5 n -7/5 q0 -1 slope 0 q 1 rho 39/25 sigma 13/5 tau 3/5
+tuple_height 39 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3/5 n 6/5 q0 -1 slope 0 q 1 rho -17/25 sigma 17/10 tau 
+-2/5 tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -1/5 n 9/10 q0 -1 slope 0 q 1 rho 7/25 sigma 7/5 tau 1/5 
+tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3/7 n 5/7 q0 -1 slope 0 q 1 rho 11/21 sigma 11/7 tau 1/3 
+tuple_height 21 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3/7 n 9/7 q0 -1 slope 0 q 1 rho -127/287 sigma 127/35 tau
+-5/41 tuple_height 287 1 genus 1
+PAIR_DONE F1 F2
+dn_checked 15876
+valid_surface 15286
+seed_dns 382
+seeds 382
+DEGREE_COUNT F1 F2 3 2
+DEGREE_COUNT F1 F2 4 380
+GENUS_COUNT F1 F2 1 382
+pair_slope_points 100
+c_square_unique 22
+all_cover_square 0
+PAIR_START F1 F4
+PAIR_DONE F1 F4
+dn_checked 15876
+valid_surface 15286
+seed_dns 382
+seeds 382
+DEGREE_COUNT F1 F4 4 382
+GENUS_COUNT F1 F4 1 382
+pair_slope_points 72
+c_square_unique 0
+all_cover_square 0
+PAIR_START F2 F4
+PAIR_DONE F2 F4
+dn_checked 15876
+valid_surface 15286
+seed_dns 356
+seeds 356
+DEGREE_COUNT F2 F4 4 356
+GENUS_COUNT F2 F4 1 356
+pair_slope_points 80
+c_square_unique 0
+all_cover_square 0
+DONE

@@ -1,0 +1,7 @@
+RECORD_HEIGHT187_CONTROL exact_double_square 1 p29_boundary p31_smooth_no_target p37_smooth_no_target p41_target
+QSQUARE_BOUNDARY_SIEVE height 187 positive_values 21407 ordered_pairs 95427692 exact_collision_or_trivial 21464 modular_survivors 982078 exact_double_square_survivors 0 written 0
+PRIME_MASK 29 nonsquare_reject 53858814 smooth_no_target_reject 5124979 boundary_pass 31296538 target_pass 5125897
+PRIME_MASK 31 nonsquare_reject 23695578 smooth_no_target_reject 1715944 boundary_pass 11010913 target_pass 0
+PRIME_MASK 37 nonsquare_reject 6907096 smooth_no_target_reject 1116299 boundary_pass 2619061 target_pass 368457
+PRIME_MASK 41 nonsquare_reject 1918820 smooth_no_target_reject 86620 boundary_pass 733610 target_pass 248468
+OUTPUT results/target_22224_qsquare_crt_sieve_h187_candidates.tsv

@@ -1,0 +1,15 @@
+Jmin points to 2000: 3
+infinite-order: 2
+GENERATOR (Mumford): a = x^2 + 2*x + 4 ; b = 5*x + 5 ; d = 2
+IsIsomorphic(Cmin, Cpar): true
+map: Mapping from: CrvHyp: Cmin to CrvHyp: Cpar
+with equations : 
+2*$.1 + $.3
+1/3*$.2
+$.3
+and inverse
+$.1 - $.3
+24*$.2
+2*$.3
+e-fit NOT FOUND up to degree 7
+COLEMAN_PREP2_DONE

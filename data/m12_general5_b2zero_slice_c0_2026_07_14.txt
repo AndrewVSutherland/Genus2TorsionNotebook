@@ -1,0 +1,13 @@
+SLICE_BEGIN c 0
+EQUATION_SHAPES [ <11, 102>, <13, 252>, <12, 143>, <23, 1858> ]
+RAW_BASIS_END cpu 0.000 len 5 degrees [ 11, 13, 12, 23, 1 ]
+terms [ 102, 252, 143, 1858, 1 ]
+SAT_END b cpu 12.700 len 304 unit false
+SAT_END w cpu 8.300 len 188 unit false
+SAT_END b-1 cpu 0.210 len 188 unit false
+SAT_END 2b-1 cpu 0.230 len 188 unit false
+SAT_END d cpu 9.280 len 199 unit false
+SAT_END e-2 cpu 0.150 len 199 unit false
+SAT_END e+2 cpu 0.110 len 199 unit false
+SAT_END ell3 cpu 12.460 len 157 unit false
+CHEAP_DIMENSION 0 COMPONENT_DEGREES []

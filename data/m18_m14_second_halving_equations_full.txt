@@ -1,0 +1,42 @@
+Family data
+t = (-1/4*$.1*$.2^2 + 1/2*$.1^2 - 1/2*$.2^2 + 1/4*$.1)/($.2^2 - 1)
+Y_R = ($.1^4*$.2^2 - 2*$.1^5 + 3*$.1^4 - 3*$.1^2*$.2^2 + 2*$.1*$.2^2 - $.1^2)/($.2^2 - 1)
+f(-R)-Y_R^2 is zero true
+
+FIRST_COVER count 5
+FIRST_COVER eq 0 total_degree 8 terms 4
+2*R^6*w^2 - 2*R^4*w^2 - 2*R^2*V^2 + 2*V^2
+FIRST_COVER eq 1 total_degree 10 terms 21
+R^6*w^4 + 2*R^5*w^4 + 6*R^6*w^2 - 3*R^4*w^4 - 12*R^5*w^2 + 8*R^3*w^4 - 3*R^6 - 2*R^4*w^2 - 4*R^2*w^4 - 4*R^2*w^2*U*V - w^4*N^2 + 2*R^5 + 8*R^3*w^2 - 8*R*w^4 + R^4 + 4*w^4 + 4*R^2*U*V + 4*w^2*U*V + 2*w^2*N^2 - 4*U*V - N^2
+FIRST_COVER eq 2 total_degree 8 terms 24
+4*R^6*w^2 + 4*R^3*w^4 + 4*R^6 - 16*R^4*w^2 + 8*R^2*w^4 - 2*R^2*w^2*U^2 - 2*w^4*M*N - 16*R^5 + 24*R^3*w^2 - 16*R*w^4 - 4*R^2*w^2*V + 8*R^4 - 16*R^2*w^2 + 4*w^4 + 2*R^2*U^2 + 2*w^2*U^2 + 4*w^2*M*N + 4*R^3 + 4*R^2*V + 4*w^2*V + 4*w^2 - 2*U^2 - 2*M*N - 4*V
+FIRST_COVER eq 3 total_degree 6 terms 21
+4*R^6 + R^2*w^4 - w^4*M^2 - 8*R^5 + 8*R^3*w^2 + 2*R*w^4 - 4*R^2*w^2*U - 4*R^4 - 2*R^2*w^2 - 3*w^4 + 2*w^2*M^2 + 8*R^3 - 12*R*w^2 + 4*R^2*U + 4*w^2*U - 3*R^2 + 6*w^2 - M^2 + 2*R - 4*U + 1
+FIRST_COVER eq 4 total_degree -1 terms 0
+0
+
+TARGET_416 count 5
+TARGET_416 eq 0 total_degree 5 terms 4
+-2*R^3*b^2 - w^2*e^2 + 2*R*b^2 + e^2
+TARGET_416 eq 1 total_degree 8 terms 8
+2*R^6*w^2 - 2*R^4*w^2 - 4*R^3*a*b - 2*R^2*b^2 - 2*w^2*d*e + 4*R*a*b + 2*b^2 + 2*d*e
+TARGET_416 eq 2 total_degree 10 terms 32
+R^6*w^4 + 2*R^5*w^4 + 6*R^6*w^2 - 3*R^4*w^4 - 12*R^5*w^2 + 8*R^3*w^4 - 2*R^3*w^2*a^2 - 3*R^6 - 2*R^4*w^2 - 4*R^2*w^4 - 4*R^3*w^2*b - 4*R^2*w^2*a*b - w^4*d^2 - 2*w^4*c*e + 2*R^5 + 8*R^3*w^2 - 8*R*w^4 + 2*R^3*a^2 + 2*R*w^2*a^2 + R^4 + 4*w^4 + 4*R^3*b + 4*R*w^2*b + 4*R^2*a*b + 4*w^2*a*b + 2*w^2*d^2 + 4*w^2*c*e - 2*R*a^2 - 4*R*b - 4*a*b - d^2 - 2*c*e
+TARGET_416 eq 3 total_degree 8 terms 28
+4*R^6*w^2 + 4*R^3*w^4 + 4*R^6 - 16*R^4*w^2 + 8*R^2*w^4 - 4*R^3*w^2*a - 2*R^2*w^2*a^2 - 2*w^4*c*d - 16*R^5 + 24*R^3*w^2 - 16*R*w^4 - 4*R^2*w^2*b + 8*R^4 - 16*R^2*w^2 + 4*w^4 + 4*R^3*a + 4*R*w^2*a + 2*R^2*a^2 + 2*w^2*a^2 + 4*w^2*c*d + 4*R^3 + 4*R^2*b + 4*w^2*b + 4*w^2 - 4*R*a - 2*a^2 - 2*c*d - 4*b
+TARGET_416 eq 4 total_degree 6 terms 20
+4*R^6 + R^2*w^4 - w^4*c^2 - 8*R^5 + 6*R^3*w^2 + 2*R*w^4 - 4*R^2*w^2*a - 4*R^4 - 2*R^2*w^2 - 3*w^4 + 2*w^2*c^2 + 10*R^3 - 10*R*w^2 + 4*R^2*a + 4*w^2*a - 3*R^2 + 6*w^2 - c^2 - 4*a + 1
+
+TARGET_88 count 6
+TARGET_88 eq 0 total_degree 5 terms 4
+V*b^2*rho^2 - V^2*M^2 + 2*V^2*M*sigma - V^2*sigma^2
+TARGET_88 eq 1 total_degree 8 terms 20
+2*R^6*w^2 + 2*w^2*V*a*b*rho^2 + w^2*U*b^2*rho^2 - 2*R^4*w^2 - 2*w^2*U*V*M^2 + 2*w^2*V^2*M*rho + 4*w^2*U*V*M*sigma - 2*w^2*V^2*rho*sigma - 2*w^2*U*V*sigma^2 + 2*w^2*V*M*N - 2*V*a*b*rho^2 - U*b^2*rho^2 - 2*w^2*V*N*sigma + 2*U*V*M^2 - 2*V^2*M*rho - 4*U*V*M*sigma + 2*V^2*rho*sigma + 2*U*V*sigma^2 - 2*V*M*N + 2*V*N*sigma
+TARGET_88 eq 2 total_degree 10 terms 62
+R^6*w^4 + 2*R^5*w^4 + w^4*V*a^2*rho^2 + 2*w^4*U*a*b*rho^2 + 6*R^6*w^2 - 3*R^4*w^4 - w^4*U^2*M^2 + 4*w^4*U*V*M*rho - w^4*V^2*rho^2 + 2*w^4*V*b*rho^2 + w^4*b^2*rho^2 + 2*w^4*U^2*M*sigma - 4*w^4*U*V*rho*sigma - w^4*U^2*sigma^2 - 12*R^5*w^2 + 8*R^3*w^4 + 2*w^4*U*M*N - 2*w^4*V*N*rho - 2*w^2*V*a^2*rho^2 - 4*w^2*U*a*b*rho^2 + 2*w^4*V*M*sigma - 2*w^4*U*N*sigma - 2*w^4*V*sigma^2 - 3*R^6 - 2*R^4*w^2 - 4*R^2*w^4 + 2*w^2*U^2*M^2 - w^4*N^2 - 8*w^2*U*V*M*rho + 2*w^2*V^2*rho^2 - 4*w^2*V*b*rho^2 - 2*w^2*b^2*rho^2 - 4*w^2*U^2*M*sigma + 8*w^2*U*V*rho*sigma + 2*w^2*U^2*sigma^2 + 2*R^5 + 8*R^3*w^2 - 8*R*w^4 - 4*w^2*U*M*N + 4*w^2*V*N*rho + V*a^2*rho^2 + 2*U*a*b*rho^2 - 4*w^2*V*M*sigma + 4*w^2*U*N*sigma + 4*w^2*V*sigma^2 + R^4 + 4*w^4 - U^2*M^2 + 2*w^2*N^2 + 4*U*V*M*rho - V^2*rho^2 + 2*V*b*rho^2 + b^2*rho^2 + 2*U^2*M*sigma - 4*U*V*rho*sigma - U^2*sigma^2 + 2*U*M*N - 2*V*N*rho + 2*V*M*sigma - 2*U*N*sigma - 2*V*sigma^2 - N^2
+TARGET_88 eq 3 total_degree 9 terms 52
+w^4*U*a^2*rho^2 + 4*R^6*w^2 + 2*w^4*U^2*M*rho - 2*w^4*U*V*rho^2 + 2*w^4*V*a*rho^2 + 2*w^4*U*b*rho^2 + 2*w^4*a*b*rho^2 - 2*w^4*U^2*rho*sigma + 4*R^3*w^4 + 2*w^4*V*M*rho - 2*w^4*U*N*rho - 2*w^2*U*a^2*rho^2 + 2*w^4*U*M*sigma - 4*w^4*V*rho*sigma - 2*w^4*U*sigma^2 + 4*R^6 - 16*R^4*w^2 + 8*R^2*w^4 - 4*w^2*U^2*M*rho + 4*w^2*U*V*rho^2 - 4*w^2*V*a*rho^2 - 4*w^2*U*b*rho^2 - 4*w^2*a*b*rho^2 - 2*w^4*N*sigma + 4*w^2*U^2*rho*sigma - 16*R^5 + 24*R^3*w^2 - 16*R*w^4 - 4*w^2*V*M*rho + 4*w^2*U*N*rho + U*a^2*rho^2 - 4*w^2*U*M*sigma + 8*w^2*V*rho*sigma + 4*w^2*U*sigma^2 + 8*R^4 - 16*R^2*w^2 + 4*w^4 + 2*U^2*M*rho - 2*U*V*rho^2 + 2*V*a*rho^2 + 2*U*b*rho^2 + 2*a*b*rho^2 + 4*w^2*N*sigma - 2*U^2*rho*sigma + 4*R^3 + 2*V*M*rho - 2*U*N*rho + 2*U*M*sigma - 4*V*rho*sigma - 2*U*sigma^2 + 4*w^2 - 2*N*sigma
+TARGET_88 eq 4 total_degree 8 terms 41
+-w^4*U^2*rho^2 + 2*w^4*U*a*rho^2 + w^4*a^2*rho^2 + 2*w^4*U*M*rho - w^4*V*rho^2 + 2*w^4*b*rho^2 - 4*w^4*U*rho*sigma + 4*R^6 + R^2*w^4 - 2*w^4*N*rho + 2*w^2*U^2*rho^2 - 4*w^2*U*a*rho^2 - 2*w^2*a^2*rho^2 - w^4*sigma^2 - 8*R^5 + 8*R^3*w^2 + 2*R*w^4 - 4*w^2*U*M*rho + 2*w^2*V*rho^2 - 4*w^2*b*rho^2 + 8*w^2*U*rho*sigma - 4*R^4 - 2*R^2*w^2 - 3*w^4 + 4*w^2*N*rho - U^2*rho^2 + 2*U*a*rho^2 + a^2*rho^2 + 2*w^2*sigma^2 + 8*R^3 - 12*R*w^2 + 2*U*M*rho - V*rho^2 + 2*b*rho^2 - 4*U*rho*sigma - 3*R^2 + 6*w^2 - 2*N*rho - sigma^2 + 2*R + 1
+TARGET_88 eq 5 total_degree 5 terms 8
+-w^2*U*rho^2 + 2*w^2*a*rho^2 - 2*w^2*rho*sigma + U*rho^2 - 2*a*rho^2 + 2*R^2 + 2*rho*sigma - 2

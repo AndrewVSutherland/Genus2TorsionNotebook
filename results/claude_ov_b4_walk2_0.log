@@ -1,0 +1,46 @@
+MEM n=10 sg=0 uhgt=6 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=10 sg=1 uhgt=6 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=10 members=2 raises=0
+MEM n=20 sg=0 uhgt=18 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=20 sg=1 uhgt=18 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=20 members=4 raises=0
+MEM n=30 sg=0 uhgt=40 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=30 sg=1 uhgt=40 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=30 members=6 raises=0
+MEM n=40 sg=0 uhgt=69 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=40 sg=1 uhgt=69 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=40 members=8 raises=0
+MEM n=50 sg=0 uhgt=109 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=50 sg=1 uhgt=109 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=50 members=10 raises=0
+MEM n=60 sg=0 uhgt=157 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=60 sg=1 uhgt=157 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=60 members=12 raises=0
+MEM n=70 sg=0 uhgt=213 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=70 sg=1 uhgt=213 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=70 members=14 raises=0
+MEM n=80 sg=0 uhgt=278 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=80 sg=1 uhgt=278 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=80 members=16 raises=0
+MEM n=90 sg=0 uhgt=351 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=90 sg=1 uhgt=351 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=90 members=18 raises=0
+MEM n=100 sg=0 uhgt=434 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=100 sg=1 uhgt=434 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=100 members=20 raises=0
+MEM n=110 sg=0 uhgt=525 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=110 sg=1 uhgt=525 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=110 members=22 raises=0
+MEM n=120 sg=0 uhgt=624 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=120 sg=1 uhgt=624 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=120 members=24 raises=0
+MEM n=130 sg=0 uhgt=732 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=130 sg=1 uhgt=732 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=130 members=26 raises=0
+MEM n=140 sg=0 uhgt=848 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=140 sg=1 uhgt=848 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=140 members=28 raises=0
+MEM n=150 sg=0 uhgt=975 codtype=[2, 4] cod2rank=1 pred=[2,4]
+MEM n=150 sg=1 uhgt=975 codtype=[2, 4] cod2rank=1 pred=[2,4]
+PROGRESS n=150 members=30 raises=0
+WALK_DONE off=0/10 range=[1,150] members=30 raises=0 mismatches=0 failures=0

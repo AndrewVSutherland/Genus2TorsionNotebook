@@ -1,0 +1,59 @@
+==== PART A: symbolic identities ====
+chain n eq email n: true
+chain m eq email m: true
+chain s eq email s: false
+EmailF eq (B2-A2)(B2-C2)(B2-A2-C2): true
+EmailG eq (B2-A2-C2)(B2(A2+C2)-(A4+A2C2+C4)): true
+S1/Fsextic is square: true (unit 1/4, oddpart 1)
+S4/Gsextic is square: false (unit 1/4, oddpart A^4*B^2 - A^4*C^2 - 2*A^2*B^4 + 3*A^2*B^2*C^2 - A^2*C^4 + B^6 - 2*B^4*C^2 + B^2*C^4)
+S2 is square identically: true (unit 1, oddpart 1)
+S3 is square identically: true (unit 1/4, oddpart 1)
+==== PART B: the two known curves ====
+--- candidate (A:B:C) = (120:218:143) for curve #2 ---
+email (s,m,n) = (-92/545, 8303/13080, 60/109)
+projective match with recorded (s:m:n): true
+F value square: true (y=3371550); G value square: true (z=3054675)
+all 16 discriminant factors nonzero: true
+conic-pencil parameter t = (B^2-A^2-C^2)/(AC) = 65/88
+quintic model from recorded (s,m,n) matches recorded curve (G2Invariants): true
+quintic model from email-affine (s,m,n) matches too: true
+--- candidate (A:B:C) = (408:437:143) for curve #1 ---
+email (s,m,n) = (-1649/874, 689185/178296, 408/437)
+projective match with recorded (s:m:n): true
+F value square: true (y=4116840); G value square: true (z=4108728)
+all 16 discriminant factors nonzero: true
+conic-pencil parameter t = (B^2-A^2-C^2)/(AC) = 13/187
+quintic model from recorded (s,m,n) matches recorded curve (G2Invariants): true
+quintic model from email-affine (s,m,n) matches too: true
+==== PART C: special-fiber genus-1 curves ====
+E2 quadric intersection nonsingular: true
+E2 = [ 1, 0, 1, -19, 26 ]
+E2 conductor = 30
+E2 RankBounds: [0, 0]
+E2 torsion: [ 2, 6 ]
+Eh conic parametrization: A=2*$.1^2 - 2*$.2^2, C=4*$.1*$.2 + $.2^2, B=2*$.1^2 + $.1*$.2 + 2*$.2^2
+Eh quartic q(u) = 16*x^4 + 80*x^3 + 52*x^2 - 48*x  (degree 4)
+q at infinity (u:v)=(1:0): 16 (square: true)
+Eh Jacobian = [ 1, 0, 1, -19, 26 ]
+Eh conductor = 30
+Eh RankBounds: [0, 0]
+Eh torsion: [ 2, 6 ]
+-- direct point harvest on E2 (line B=A+C): a/c height <= 300 --
+E2 point (a:c)=(0:1) -> (A:B:C)=(0:1:1) disc_ok=false
+E2 point (a:c)=(1:0) -> (A:B:C)=(1:1:0) disc_ok=false
+E2 point (a:c)=(-1:2) -> (A:B:C)=(-1:1:2) disc_ok=false
+E2 point (a:c)=(2:-1) -> (A:B:C)=(2:1:-1) disc_ok=false
+E2 direct points found (height<=300): 4
+-- direct point harvest on Eh (conic 2B^2=2A^2+AC+2C^2): u height <= 300 --
+Eh point (u:v)=(-1:1) -> (A:B:C)=(0:1:-1) disc_ok=false
+Eh point (u:v)=(1:-1) -> (A:B:C)=(0:1:-1) disc_ok=false
+Eh point (u:v)=(0:1) -> (A:B:C)=(-2:2:1) disc_ok=false
+Eh point (u:v)=(1:0) -> (A:B:C)=(1:1:0) disc_ok=false
+Eh point (u:v)=(1:1) -> (A:B:C)=(0:1:1) disc_ok=false
+Eh point (u:v)=(1:1) -> (A:B:C)=(0:1:1) disc_ok=false
+Eh point (u:v)=(1:2) -> (A:B:C)=(-1:2:2) disc_ok=false
+Eh point (u:v)=(3:-2) -> (A:B:C)=(1:2:-2) disc_ok=false
+Eh point (u:v)=(-1:4) -> (A:B:C)=(-1:1:0) disc_ok=false
+Eh point (u:v)=(4:-1) -> (A:B:C)=(2:2:-1) disc_ok=false
+Eh direct points found (height<=300): 10
+ALL_DONE

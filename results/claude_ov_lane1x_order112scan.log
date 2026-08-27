@@ -1,0 +1,14 @@
+== symbolic identity check at many rational m ==
+  checked 24 values of m,  mismatches: 0
+  => Delta = 4 g(-m)/((m-1)^4 (m+2)^2)  CONFIRMED independently.
+
+== exact check at the five originally known members ==
+  m=-4/5  g(-m)=4144/625  issquare=0
+  m=-9/5  g(-m)=10089/625  issquare=0
+  m=-98/73  g(-m)=367336144/28398241  issquare=0
+  m=16/41  g(-m)=-1894464/2825761  issquare=0
+  m=1/13  g(-m)=-7775/28561  issquare=0
+
+== SEARCH: is g(-m) a square for any family member? ==
+  tested 1994 family members (|n| <= 500),  order-112 hits: 0
+SEARCH_DONE order112scan NMAX=500

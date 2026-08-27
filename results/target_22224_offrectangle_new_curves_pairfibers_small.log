@@ -1,0 +1,71 @@
+TARGET_22224_OFFRECTANGLE_PAIRFIBERS_START LatticeBound 1 MultipleBound 20 FiberStart 2 FiberEnd 7 DoFullMW false HeightCeiling 10000000000000000000000000000000000000000
+PAIRFIBER P2 base [ 20, 225, 304, 380 ]
+lambda1 9 quartic 870975000*p^4 + 4345367805625/729*p^2 + 1416882775000/6561
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 + x*y = x^3 - 30467519660*x + 1510620780362700 over Rational Field
+PAIRFIBER_LIFT P2 lambda 9 primitive [ 180, 225, 304, 3420 ]
+known true rectangle false three_survivor false gcd 128 used [ <13, 128, 128> ]
+PAIRFIBER_LIFT_SUMMARY P2 height_digits 16 three_survivor false gcd 1408
+PAIRFIBER_LIFT_SUMMARY P2 height_digits 16 three_survivor false gcd 1408
+PAIRFIBER_LIFT P2 lambda 1 primitive [ 20, 225, 304, 380 ]
+known true rectangle false three_survivor false gcd 128 used [ <13, 128, 128> ]
+PAIRFIBER P3 base [ 13, 276, 624, 828 ]
+lambda1 16 quartic 1560963931920/121*x^4 + 236631256736256/5929*x^2 + 399606766571520/290521
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 10659112640*x + 210178158141300 over Rational Field
+PAIRFIBER_LIFT P3 lambda 1 primitive [ 13, 276, 624, 828 ]
+known true rectangle false three_survivor false gcd 448 used [ <19, 448, 448> ]
+PAIRFIBER_LIFT P3 lambda 16 primitive [ 52, 69, 156, 3312 ]
+known true rectangle false three_survivor false gcd 448 used [ <19, 448, 448> ]
+PAIRFIBER_LIFT_SUMMARY P3 height_digits 21 three_survivor false gcd 448
+PAIRFIBER_LIFT_SUMMARY P3 height_digits 20 three_survivor false gcd 448
+PAIRFIBER P4 base [ 41, 256, 800, 1312 ]
+lambda1 6400/1681 quartic 32657338368*x^4 + 76460867997696/841*x^2 + 7841026942156800/707281
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 322452520*x - 682095494468 over Rational Field
+PAIRFIBER_LIFT_SUMMARY P4 height_digits 21 three_survivor false gcd 128
+PAIRFIBER_LIFT_SUMMARY P4 height_digits 21 three_survivor false gcd 128
+PAIRFIBER_LIFT P4 lambda 1 primitive [ 41, 256, 800, 1312 ]
+known true rectangle false three_survivor false gcd 128 used [ <13, 128, 128> ]
+PAIRFIBER_LIFT P4 lambda 6400/1681 primitive [ 200, 328, 1025, 6400 ]
+known true rectangle false three_survivor false gcd 128 used [ <13, 128, 128> ]
+PAIRFIBER P5 base [ 2, 46, 292, 1679 ]
+lambda1 4 quartic 775945664*x^4 + 265906716800/49*x^2 + 484966040000/2401
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 2187523520*x + 29012594318400 over Rational Field
+PAIRFIBER_LIFT P5 lambda 1 primitive [ 2, 46, 292, 1679 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+PAIRFIBER_LIFT_SUMMARY P5 height_digits 16 three_survivor false gcd 128
+PAIRFIBER_LIFT P5 lambda 4 primitive [ 4, 23, 146, 3358 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+PAIRFIBER_LIFT_SUMMARY P5 height_digits 40 three_survivor false gcd 256
+PAIRFIBER_LIFT_SUMMARY P5 height_digits 15 three_survivor false gcd 128
+PAIRFIBER_LIFT_SUMMARY P5 height_digits 39 three_survivor false gcd 256
+PAIRFIBER P6 base [ 18, 158, 711, 1764 ]
+lambda1 6241/1764 quartic 478412492544/25*x^4 + 133704471112192/2025*x^2 + 1001868443371264/164025
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 208814660*x + 26517397308 over Rational Field
+PAIRFIBER_LIFT_SUMMARY P6 height_digits 23 three_survivor false gcd 256
+PAIRFIBER_LIFT_SUMMARY P6 height_digits 21 three_survivor false gcd 256
+PAIRFIBER_LIFT P6 lambda 6241/1764 primitive [ 79, 196, 882, 7742 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+PAIRFIBER_LIFT P6 lambda 1 primitive [ 18, 158, 711, 1764 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+PAIRFIBER P7 base [ 50, 791, 2800, 5650 ]
+lambda1 196/25 quartic 845704977191200/169*x^4 + 2683592064970649/169*x^2 + 135312796350592/169
+known_order 0 rank_bounds -1 -1 MW []
+torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 + x*y + y = x^3 + x^2 - 268718070*x + 558361642995 over Rational Field
+PAIRFIBER_LIFT P7 lambda 1 primitive [ 50, 791, 2800, 5650 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+PAIRFIBER_LIFT_SUMMARY P7 height_digits 40 three_survivor false gcd 256
+PAIRFIBER_LIFT_SUMMARY P7 height_digits 17 three_survivor false gcd 256
+PAIRFIBER_LIFT_SUMMARY P7 height_digits 15 three_survivor false gcd 256
+PAIRFIBER_LIFT P7 lambda 196/25 primitive [ 56, 113, 400, 6328 ]
+known true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+TARGET_22224_OFFRECTANGLE_PAIRFIBERS_DONE quotients 6 known_points_infinite 6 searched_E_points 984 full_lifts 252 height_skipped 225 new_offrectangle_full 15 three_survivors 0

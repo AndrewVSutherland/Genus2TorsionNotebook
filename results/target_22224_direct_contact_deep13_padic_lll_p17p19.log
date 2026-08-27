@@ -1,0 +1,4 @@
+PADIC_LLL_START masks 484 52 included [ 17, 19 ]
+good_states 2 lattices 50336 M 19314466188589 coeffs 40
+PADIC_LLL_DONE pairs 50336 vectors 2013440 nonzeroD 2013440 unique 1711698 passes [ <17, 1617578, 5855>, <19, 1557632, 3447>, <23, 78224, 67658>, <29, 3012, 2673>, <31, 134, 122>, <37, 3, 2>, <41, 0, 0>, <43, 0, 0> ]
+survivors 0 output results/target_22224_direct_contact_deep13_padic_lll_p17p19.tsv

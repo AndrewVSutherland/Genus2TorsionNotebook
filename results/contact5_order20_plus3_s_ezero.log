@@ -1,0 +1,42 @@
+Magma V2.28-27    Fri Jul 10 2026 12:52:01 on <host> [Seed = 3538524998]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact5_order20_plus3_s_ezero.m"
+CONTACT_EZERO_SELF_TEST_PASS
+EZERO equation_degrees [ 12, 16 ]
+terms [ 24, 36 ]
+EZERO boundary_degree 21 discq [
+<R, 1>,
+<s^2*R + 2*s*R + R + 9, 1>
+]
+EZERO_COMMON_FACTOR degree 2 terms 1 factorization [
+<R, 2>
+]
+EZERO_RAW dimension 1 [ 1 ]
+basis_degrees [ 10, 10, 9, 9, 9, 9, 9, 9 ]
+Time: 0.010
+EZERO_SAT dimension 0 []
+basis_degrees [ 8, 8, 7, 7, 7, 7, 7, 7 ]
+basis_terms [ 31, 31, 31, 31, 31, 31, 31, 31 ]
+Time: 0.000
+EZERO_RESULTANT_S degree 54 terms 55
+EZERO_RESULTANT_FACTORS 3
+ S_FACTOR multiplicity 24 degree 1 terms 2 ss - 1
+ S_FACTOR multiplicity 1 degree 10 terms 11 ss^10 - 17*ss^9 + 72*ss^8 + 93*ss^7 - 939/8*ss^6 - 30123/4*ss^5 + 197349/8*ss^4 + 93*ss^3 - 366399/4*ss^2 + 139222*ss - 267539/4
+ S_FACTOR multiplicity 1 degree 20 terms 21 ss^20 - 43*ss^19 + 757*ss^18 - 6798*ss^17 + 236211/8*ss^16 - 121803/8*ss^15 - 860379/2*ss^14 + 14935263/8*ss^13 - 43451643/16*ss^12 - 242217367/64*ss^11 + 2257079053/64*ss^10 - 8159031979/64*ss^9 + 113945632509/512*ss^8 + 14812174497/256*ss^7 - 228289281249/256*ss^6 + 282201284661/256*ss^5 + 521757695649/1024*ss^4 - 310124209749/128*ss^3 + 1271357355581/512*ss^2 - 160354247747/128*ss + 291055291495/1024
+EZERO_RATIONAL_S_ROOTS [ <1, 24> ]
+EZERO_OPEN_SQUARE_CANDIDATES 0 []
+EZERO_DONE
+
+Total time: 0.030 seconds, Total memory usage: 32.09MB

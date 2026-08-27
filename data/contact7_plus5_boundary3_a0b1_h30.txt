@@ -1,0 +1,37 @@
+contact-7 plus 5: p=3 boundary-focused search
+height 30 params 1111 only_tag finite:a=0,b=1,h1=0,L=0
+filter_primes [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 
+71, 73, 79, 83, 89, 97 ]
+progress checked 200000 smooth 199893 boundary 12809 survivors 0 exact_tests 0 
+hits 0
+progress checked 400000 smooth 399781 boundary 23969 survivors 0 exact_tests 0 
+hits 0
+progress checked 600000 smooth 599703 boundary 38415 survivors 0 exact_tests 0 
+hits 0
+progress checked 800000 smooth 799674 boundary 50970 survivors 0 exact_tests 0 
+hits 0
+progress checked 1000000 smooth 999653 boundary 62974 survivors 0 exact_tests 0 
+hits 0
+progress checked 1200000 smooth 1199641 boundary 75558 survivors 0 exact_tests 0
+hits 0
+DONE
+checked 1234321
+smooth 1233959
+boundary 77166
+survivors 0
+exact_tests 0
+hits 0
+TAG_COUNTS
+finite:a=0,b=1,h1=0,L=0 77166
+TAG_FIRST_KILL
+finite:a=0,b=1,h1=0,L=0 | 11 23978
+finite:a=0,b=1,h1=0,L=0 | 13 9559
+finite:a=0,b=1,h1=0,L=0 | 17 4743
+finite:a=0,b=1,h1=0,L=0 | 19 1945
+finite:a=0,b=1,h1=0,L=0 | 23 582
+finite:a=0,b=1,h1=0,L=0 | 29 191
+finite:a=0,b=1,h1=0,L=0 | 31 78
+finite:a=0,b=1,h1=0,L=0 | 37 19
+finite:a=0,b=1,h1=0,L=0 | 41 5
+finite:a=0,b=1,h1=0,L=0 | 43 1
+finite:a=0,b=1,h1=0,L=0 | 7 36065

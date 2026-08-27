@@ -1,0 +1,52 @@
+CONTACT_SELF_TEST_PASS t 2 u 0 gcd_degree 1 root_multiplicity 1
+NORMALIZED_CONTACT_GEOMETRY
+F degree_xi 5 terms 6
+E3 degree_u 12 total_degree 24 terms 342
+E4 degree_u 16 total_degree 33 terms 876
+OPEN_BOUNDARY_POWERS E3 [ 1, 0, 0, 0 ]
+E4 [ 1, 0, 0, 0 ]
+COMMON_FACTOR total_degree 0 terms 1
+OPEN E3 factors
+E3_FACTOR multiplicity 1 degree 23 degree_u 12 terms 342
+OPEN E4 factors
+E4_FACTOR multiplicity 1 degree 32 degree_u 16 terms 876
+DISCRIMINANT_BOUNDARY_POWERS [ 9, 1, 4, 0 ]
+DISCRIMINANT_OPEN_FACTORS
+DISC_FACTOR multiplicity 6 degree 2 terms 3
+BB*WW - WW + 1
+DISC_FACTOR multiplicity 1 degree 12 terms 29
+BB^8*WW^4 - 5*BB^7*WW^4 + 20*BB^7*WW^3 + 41/4*BB^6*WW^4 - 80*BB^6*WW^3 - 11*BB^5*WW^4 + 118*BB^6*WW^2 + 136*BB^5*WW^3 + 13/2*BB^4*WW^4 - 354*BB^5*WW^2 - 128*BB^4*WW^3 - 2*BB^3*WW^4 + 180*BB^5*WW + 789/2*BB^4*WW^2 + 283/4*BB^3*WW^3 + 1/4*BB^2*WW^4 - 360*BB^4*WW - 199*BB^3*WW^2 - 43/2*BB^2*WW^3 + 81*BB^4 + 198*BB^3*WW + 42*BB^2*WW^2 + 11/4*BB*WW^3 - 81*BB^3 - 18*BB^2*WW - 3/2*BB*WW^2 - 27/4*BB^2 - 9/4*BB*WW - 1/4*WW^2
+SPECIAL_CONTACT_SLICES
+SLICE u 0 E3_degree 14 E4_degree 19 gcd_degree 7 gcd_terms 1
+SLICE_FACTOR u 0 multiplicity 2 degree 1 terms 1 WW
+SLICE_FACTOR u 0 multiplicity 5 degree 1 terms 1 BB
+SLICE u -1 E3_degree 15 E4_degree 21 gcd_degree 15 gcd_terms 51
+SLICE_FACTOR u -1 multiplicity 5 degree 1 terms 2 BB - 1
+SLICE_FACTOR u -1 multiplicity 5 degree 2 terms 3 BB*WW - WW + 1
+SLICE_U0_SQUARE_COVER v^2 = w*(w+4*b)
+RESULTANT_ELIMINATE_W_BEGIN degrees_w <5, 7>
+Time: 0.320
+RESULTANT_BOUNDARY_POWERS [ 17, 4, 0 ]
+RESULTANT_OPEN degree 227 terms 9507
+RESULTANT_FACTORS 6
+RES_FACTOR multiplicity 8 degree 1 degree_b 0 degree_u 1 terms 1 w_infinity_boundary false
+Up
+RES_FACTOR multiplicity 48 degree 1 degree_b 0 degree_u 1 terms 2 w_infinity_boundary false
+Up + 1
+RES_FACTOR multiplicity 1 degree 2 degree_b 1 degree_u 1 terms 2 w_infinity_boundary true
+Bp*Up + 1
+RES_FACTOR multiplicity 25 degree 2 degree_b 1 degree_u 1 terms 3 w_infinity_boundary true
+Bp*Up + 1/2*Bp - 1/2*Up
+RES_FACTOR multiplicity 8 degree 8 degree_b 4 degree_u 4 terms 19 w_infinity_boundary false
+Bp^4*Up^4 - 4*Bp^4*Up^3 - Bp^3*Up^4 - 14*Bp^4*Up^2 + 12*Bp^3*Up^3 + 1/4*Bp^2*Up^4 - 12*Bp^4*Up + 28*Bp^3*Up^2 - 17/2*Bp^2*Up^3 - 3*Bp^4 + 18*Bp^3*Up - 49/4*Bp^2*Up^2 + 7/4*Bp*Up^3 + 3*Bp^3 - 3*Bp^2*Up + 1/2*Bp*Up^2 + 3/4*Bp^2 - 3/4*Bp*Up + 1/4*Up^2
+RES_FACTOR multiplicity 1 degree 55 degree_b 26 degree_u 29 terms 579 w_infinity_boundary false
+PROJECTED_COMPONENT_GEOMETRY
+GENUINE_COMPONENT degree 1 degree_b 0 degree_u 1 terms 1
+ projective_degree 1 normalized_genus 0
+GENUINE_COMPONENT degree 1 degree_b 0 degree_u 1 terms 2
+ projective_degree 1 normalized_genus 0
+GENUINE_COMPONENT degree 8 degree_b 4 degree_u 4 terms 19
+ projective_degree 8 normalized_genus 0
+GENUINE_COMPONENT degree 55 degree_b 26 degree_u 29 terms 579
+ geometry_skipped_degree_limit 12
+NORMALIZED_PROJECTION_SCAN_SUMMARY height_b 50 b_values 3095 projected_bu 6184 recovered_bwu 3092 recovered_bwu_in_Hbw_box 2318 exact_cover_points 0 exact60 0

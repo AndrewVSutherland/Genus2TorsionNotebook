@@ -1,0 +1,19 @@
+==== cyclic [40] curve (contact5 t=-1/3) ====
+[40] torsion: [ 40 ] (order 40)
+[40]: STRICT pass at p=17
+[40]: STRICT pass at p=23
+[40]: strict passes found: 2
+==== cyclic [28] curve (contact7 rational root) ====
+[28] torsion: [ 28 ] (order 28)
+[28] chi at p=5: x^4 + 2*x^2 + 25
+[28]: STRICT pass at p=7
+[28]: STRICT pass at p=31
+[28]: strict passes found: 2
+==== record curve: Sol's reduction and Frobenius claims ====
+#J(F_31) = 864 (claim 864), #J(F_37) = 1248 (claim 1248), gcd = 96
+P_37 = x^4 - 4*x^3 + 30*x^2 - 148*x + 1369
+P_73 = x^4 + 8*x^3 + 30*x^2 + 584*x + 5329
+==== C_66 claims ====
+C66 torsion: [ 6, 6 ]
+#J(F_7) = 36 (claim 36), #J(F_11) = 144 (claim 144)
+ALL_DONE

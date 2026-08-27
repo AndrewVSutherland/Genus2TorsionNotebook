@@ -1,0 +1,30 @@
+SURFACE_PROFILE t <1, 2> p 37 boundary 10 allowed 18 good_allowed 8
+SURFACE_PROFILE t <1, 2> p 41 boundary 6 allowed 42 good_allowed 36
+SURFACE_PROFILE t <1, 2> p 43 boundary 8 allowed 44 good_allowed 36
+SURFACE_PROFILE t <1, 2> p 47 boundary 8 allowed 48 good_allowed 40
+SURFACE_PROFILE t <1, 2> p 53 boundary 10 allowed 34 good_allowed 24
+SURFACE_PROFILE t <1, 2> p 59 boundary 8 allowed 60 good_allowed 52
+SURFACE_PROFILE t <1, 2> p 61 boundary 6 allowed 62 good_allowed 56
+SURFACE_PROFILE t <1, 2> p 67 boundary 8 allowed 28 good_allowed 20
+SURFACE_PROFILE t <1, 2> p 71 boundary 8 allowed 36 good_allowed 28
+SURFACE_PROFILE t <1, 2> p 73 boundary 6 allowed 30 good_allowed 24
+SURFACE_PROFILE t <1, 2> p 79 boundary 8 allowed 36 good_allowed 28
+SURFACE_PROFILE t <1, 2> p 83 boundary 8 allowed 84 good_allowed 76
+SURFACE_PROFILE t <1, 2> p 89 boundary 6 allowed 46 good_allowed 40
+SURFACE_PROFILE t <1, 2> p 97 boundary 6 allowed 98 good_allowed 92
+SURFACE_PROFILE t <1, 2> p 101 boundary 6 allowed 102 good_allowed 96
+SURFACE_PROFILE t <1, 2> p 103 boundary 8 allowed 48 good_allowed 40
+SURFACE_PROFILE t <1, 2> p 107 boundary 8 allowed 108 good_allowed 100
+SURFACE_PROFILE t <1, 2> p 109 boundary 10 allowed 110 good_allowed 100
+SURFACE_PROFILE t <1, 2> p 113 boundary 10 allowed 114 good_allowed 104
+SURFACE_PROFILE t <1, 2> p 127 boundary 8 allowed 128 good_allowed 120
+SURFACE_PROFILE t <1, 2> p 131 boundary 8 allowed 72 good_allowed 64
+SURFACE_PROFILE t <1, 2> p 137 boundary 10 allowed 82 good_allowed 72
+SURFACE_PROFILE t <1, 2> p 139 boundary 8 allowed 140 good_allowed 132
+SURFACE_PROFILE t <1, 2> p 149 boundary 10 allowed 58 good_allowed 48
+SURFACE_PROFILE t <1, 2> p 151 boundary 8 allowed 64 good_allowed 56
+SURFACE_PROFILE t <1, 2> p 157 boundary 6 allowed 70 good_allowed 64
+SURFACE_PROFILE t <1, 2> p 163 boundary 8 allowed 164 good_allowed 156
+SURFACE_PROFILE t <1, 2> p 167 boundary 8 allowed 76 good_allowed 68
+
+[Interrupted]

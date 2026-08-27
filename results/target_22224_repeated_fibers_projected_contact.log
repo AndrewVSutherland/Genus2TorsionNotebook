@@ -1,0 +1,110 @@
+p=11 base_square_multisets=21 projected=65
+P8 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+F1 finite=[1, 10] infinity=True allzero_infinity_chart=False
+F2 finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=False allzero_infinity_chart=True
+F3 finite=[0, 1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+F4 finite=[0, 1, 10] infinity=True allzero_infinity_chart=False
+F5 finite=[0, 1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+F6 finite=[2, 9] infinity=True allzero_infinity_chart=False
+F7 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+N1 finite=[0, 1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+N2 finite=[0, 1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+N3 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+N4 finite=[0, 5, 6] infinity=True allzero_infinity_chart=False
+N5 finite=[0, 1, 10] infinity=True allzero_infinity_chart=False
+N6 finite=[1, 10] infinity=True allzero_infinity_chart=False
+N7 finite=[0, 2, 3, 4, 7, 8, 9] infinity=True allzero_infinity_chart=False
+N8 finite=[] infinity=False allzero_infinity_chart=True
+N9 finite=[0, 1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+N10 finite=[] infinity=False allzero_infinity_chart=True
+N11 finite=[5, 6] infinity=True allzero_infinity_chart=False
+N12 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+O1 finite=[0, 3, 4, 5, 6, 7, 8] infinity=True allzero_infinity_chart=False
+O2 finite=[1, 10] infinity=True allzero_infinity_chart=False
+O3 finite=[0, 2, 3, 4, 7, 8, 9] infinity=True allzero_infinity_chart=False
+O4 finite=[5, 6] infinity=True allzero_infinity_chart=False
+O5 finite=[0, 3, 4, 5, 6, 7, 8] infinity=True allzero_infinity_chart=False
+O6 finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=False allzero_infinity_chart=True
+O7 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+O8 finite=[0, 2, 9] infinity=True allzero_infinity_chart=False
+O9 finite=[0, 2, 9] infinity=True allzero_infinity_chart=False
+M1 finite=[1, 2, 4, 7, 9, 10] infinity=True allzero_infinity_chart=False
+M2 finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=False allzero_infinity_chart=True
+M3 finite=[2, 3, 5, 6, 8, 9] infinity=True allzero_infinity_chart=False
+M4 finite=[2, 9] infinity=True allzero_infinity_chart=False
+M5 finite=[0, 2, 9] infinity=True allzero_infinity_chart=False
+R1 finite=[0, 3, 4, 5, 6, 7, 8] infinity=True allzero_infinity_chart=False
+R2 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+R3 finite=[0, 1, 10] infinity=True allzero_infinity_chart=False
+R4 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+R5 finite=[2, 9] infinity=True allzero_infinity_chart=False
+R6 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+R7 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+S1 finite=[1, 10] infinity=True allzero_infinity_chart=False
+S2 finite=[5, 6] infinity=True allzero_infinity_chart=False
+S3 finite=[] infinity=False allzero_infinity_chart=True
+U1 finite=[0, 3, 4, 5, 6, 7, 8] infinity=True allzero_infinity_chart=False
+U2 finite=[0, 2, 3, 4, 7, 8, 9] infinity=True allzero_infinity_chart=False
+V1 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+V2 finite=[0, 2, 3, 4, 7, 8, 9] infinity=True allzero_infinity_chart=False
+W1 finite=[0, 1, 3, 5, 6, 8, 10] infinity=True allzero_infinity_chart=False
+W2 finite=[2, 3, 5, 6, 8, 9] infinity=True allzero_infinity_chart=False
+X1 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] infinity=True allzero_infinity_chart=False
+Y1 finite=[2, 3, 5, 6, 8, 9] infinity=True allzero_infinity_chart=False
+Z1 finite=[0, 2, 3, 4, 7, 8, 9] infinity=True allzero_infinity_chart=False
+AA1 finite=[5, 6] infinity=True allzero_infinity_chart=False
+p=13 base_square_multisets=31 projected=87
+P8 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+F1 finite=[1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+F2 finite=[0] infinity=True allzero_infinity_chart=False
+F3 finite=[] infinity=False allzero_infinity_chart=True
+F4 finite=[] infinity=True allzero_infinity_chart=False
+F5 finite=[] infinity=True allzero_infinity_chart=False
+F6 finite=[0] infinity=True allzero_infinity_chart=False
+F7 finite=[] infinity=True allzero_infinity_chart=False
+N1 finite=[0, 1, 4, 5, 6, 7, 8, 9, 12] infinity=True allzero_infinity_chart=False
+N2 finite=[0, 1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+N3 finite=[] infinity=True allzero_infinity_chart=False
+N4 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+N5 finite=[] infinity=True allzero_infinity_chart=False
+N6 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+N7 finite=[0, 2, 3, 10, 11] infinity=True allzero_infinity_chart=False
+N8 finite=[2, 3, 10, 11] infinity=True allzero_infinity_chart=False
+N9 finite=[4, 6, 7, 9] infinity=True allzero_infinity_chart=False
+N10 finite=[1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+N11 finite=[] infinity=False allzero_infinity_chart=True
+N12 finite=[0, 2, 3, 10, 11] infinity=True allzero_infinity_chart=False
+O1 finite=[] infinity=True allzero_infinity_chart=False
+O2 finite=[] infinity=False allzero_infinity_chart=True
+O3 finite=[0] infinity=True allzero_infinity_chart=False
+O4 finite=[] infinity=True allzero_infinity_chart=False
+O5 finite=[0, 4, 6, 7, 9] infinity=True allzero_infinity_chart=False
+O6 finite=[0, 1, 2, 3, 5, 8, 10, 11, 12] infinity=True allzero_infinity_chart=False
+O7 finite=[0, 1, 2, 3, 5, 8, 10, 11, 12] infinity=True allzero_infinity_chart=False
+O8 finite=[4, 6, 7, 9] infinity=True allzero_infinity_chart=False
+O9 finite=[] infinity=True allzero_infinity_chart=False
+M1 finite=[1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+M2 finite=[0, 1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+M3 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+M4 finite=[] infinity=True allzero_infinity_chart=False
+M5 finite=[4, 6, 7, 9] infinity=True allzero_infinity_chart=False
+R1 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+R2 finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=False allzero_infinity_chart=True
+R3 finite=[] infinity=False allzero_infinity_chart=True
+R4 finite=[0] infinity=True allzero_infinity_chart=False
+R5 finite=[] infinity=True allzero_infinity_chart=False
+R6 finite=[0, 1, 4, 5, 6, 7, 8, 9, 12] infinity=True allzero_infinity_chart=False
+R7 finite=[] infinity=True allzero_infinity_chart=False
+S1 finite=[0, 1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+S2 finite=[] infinity=False allzero_infinity_chart=True
+S3 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+U1 finite=[0] infinity=True allzero_infinity_chart=False
+U2 finite=[] infinity=True allzero_infinity_chart=False
+V1 finite=[1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+V2 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+W1 finite=[2, 3, 10, 11] infinity=True allzero_infinity_chart=False
+W2 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False
+X1 finite=[0, 1, 4, 5, 6, 7, 8, 9, 12] infinity=True allzero_infinity_chart=False
+Y1 finite=[0, 1, 5, 8, 12] infinity=True allzero_infinity_chart=False
+Z1 finite=[2, 3, 4, 6, 7, 9, 10, 11] infinity=True allzero_infinity_chart=False
+AA1 finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] infinity=True allzero_infinity_chart=False

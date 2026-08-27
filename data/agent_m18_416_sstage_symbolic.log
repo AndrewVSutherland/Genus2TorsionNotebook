@@ -1,0 +1,138 @@
+C1 = -c4*R is a square in Q(R,m): true
+
+== G (the C2 conic-bundle condition) ==
+G:
+  num: [
+<R - 1, 2>,
+<R + 1, 2>,
+<R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4, 1>
+]
+  den: [
+<R^3 - R + 1/2*m^2, 2>
+]
+  squarefree core: R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4
+
+== component A ==
+d_A = disc:
+  num: [
+<R - 1, 2>,
+<R^3 - R + 1/2*m^2, 4>,
+<R^3 - 2*R^2 + R + 1/2*m^2, 1>,
+<R^3 + 2*R^2 + R + 1/2*m^2, 1>,
+<R^8 - 2*R^7 - R^6 + R^5*m^2 + 4*R^5 - 2*R^4*m^2 - R^4 - 2*R^3*m^2 - 2*R^3 + 1/4*R^2*m^4 - 2*R^2*m^2 + R^2 - 1/2*R*m^4 + R*m^2 + 1/4*m^4, 1>
+]
+  den: [
+<m, 8>,
+<R, 4>
+]
+  squarefree core: R^14 - 2*R^13 - 3*R^12 + 2*R^11*m^2 + 8*R^11 - 4*R^10*m^2 + 2*R^10 - 4*R^9*m^2 - 12*R^9 + 3/2*R^8*m^4 + 4*R^8*m^2 + 2*R^8 - 3*R^7*m^4 + 4*R^7*m^2 + 8*R^7 - 3/2*R^6*m^4 + 4*R^6*m^2 - 3*R^6 + 1/2*R^5*m^6 - 2*R^5*m^4 - 4*R^5*m^2 - 2*R^5 - R^4*m^6 - 3/2*R^4*m^4 - 4*R^4*m^2 + R^4 - 3*R^3*m^4 + 2*R^3*m^2 + 1/16*R^2*m^8 - R^2*m^6 + 3/2*R^2*m^4 - 1/8*R*m^8 + 1/2*R*m^6 + 1/16*m^8
+alpha_A:
+  num: [
+<R - 1, 1>,
+<R^3 - R + 1/2*m^2, 2>,
+<R^7 - R^6 - 2*R^5 + R^4*m^2 + 2*R^4 - R^3*m^2 + R^3 - R^2*m^2 - R^2 + 1/4*R*m^4 - R*m^2 - 1/4*m^4, 1>
+]
+  den: [
+<m, 4>,
+<R, 2>
+]
+  squarefree core: R^8 - 2*R^7 - R^6 + R^5*m^2 + 4*R^5 - 2*R^4*m^2 - R^4 - 2*R^3 + 1/4*R^2*m^4 + R^2 - 1/2*R*m^4 + R*m^2 + 1/4*m^4
+N_A:
+  num: [
+<R - 1, 2>,
+<R^3 - R + 1/2*m^2, 4>,
+<R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4, 1>
+]
+  den: [
+<m, 6>,
+<R, 2>
+]
+  squarefree core: R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4
+  N/G is a perfect square in Q(R,m): true
+    sqrt = h_A with:
+    h_A:
+  num: [
+<R^3 - R + 1/2*m^2, 3>
+]
+  den: [
+<m, 3>,
+<R, 1>,
+<R + 1, 1>
+]
+  squarefree core: R^5*m + R^4*m - R^3*m + 1/2*R^2*m^3 - R^2*m + 1/2*R*m^3
+  N/(G*C1) is a perfect square in Q(R,m): true
+    sqrt = h_A with:
+    h_A:
+  num: [
+<R^3 - R + 1/2*m^2, 2>
+]
+  den: [
+<m, 2>,
+<R, 1>,
+<R + 1, 1>
+]
+  squarefree core: R^2 + R
+
+== component B ==
+d_B = disc:
+  num: [
+<R - 1, 2>,
+<R^3 - 2*R^2 + R + m^2, 1>,
+<R^3 + 2*R^2 + R + 1/4*m^2, 1>
+]
+  den: [
+<m, 2>,
+<R, 1>
+]
+  squarefree core: R^7 - 2*R^5 + 5/4*R^4*m^2 + 3/2*R^3*m^2 + R^3 + 5/4*R^2*m^2 + 1/4*R*m^4
+alpha_B:
+  num: [
+<R - 1, 1>,
+<R^6 - 2*R^4 + R^3*m^2 + 1/2*R^2*m^2 + R^2 + 1/2*R*m^2 + 1/4*m^4, 1>
+]
+  den: [
+<m, 2>,
+<R, 1>
+]
+  squarefree core: R^8 - R^7 - 2*R^6 + R^5*m^2 + 2*R^5 - 1/2*R^4*m^2 + R^4 - R^3 + 1/4*R^2*m^4 - 1/2*R^2*m^2 - 1/4*R*m^4
+N_B:
+  num: [
+<R - 1, 2>,
+<R^3 - R + 1/2*m^2, 2>,
+<R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4, 1>
+]
+  den: [
+<m, 4>,
+<R, 2>
+]
+  squarefree core: R^6 - 2*R^4 + R^3*m^2 + R^2*m^2 + R^2 + R*m^2 + 1/4*m^4
+  N/G is a perfect square in Q(R,m): true
+    sqrt = h_B with:
+    h_B:
+  num: [
+<R^3 - R + 1/2*m^2, 2>
+]
+  den: [
+<m, 2>,
+<R, 1>,
+<R + 1, 1>
+]
+  squarefree core: R^2 + R
+  N/(G*C1) is a perfect square in Q(R,m): true
+    sqrt = h_B with:
+    h_B:
+  num: [
+<R^3 - R + 1/2*m^2, 1>
+]
+  den: [
+<m, 1>,
+<R, 1>,
+<R + 1, 1>
+]
+  squarefree core: R^5*m + R^4*m - R^3*m + 1/2*R^2*m^3 - R^2*m + 1/2*R*m^3
+
+== the second-stage objects on the cover g^2 = G ==
+S_A <=> 2*(alpha_A + g*h_A) in {1, d_A} mod squares   (n_A = g*h_A)
+S_B <=> 2*(alpha_B + n_B)   in {1, d_B} mod squares
+with the exact identities 2(a+n)*2(a-n) = 4*d*beta^2 == d mod sq.
+DONE

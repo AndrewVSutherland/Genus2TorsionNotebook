@@ -1,0 +1,168 @@
+A2244 small-prime bad-reduction congruence diagnostics
+surface=(ab+ac+ad+bc+bd+cd)^2-4abcd=0
+
+Bad reduction condition for squared branch coordinates:
+  p | a*b*c*d*prod_{i<j}(a_i^2-a_j^2).
+For p <= 7 this is automatic for every primitive tuple, since
+|(F_p^*)^2|=(p-1)/2 < 4.  Equivalently, modulo p at least
+one coordinate is zero or two coordinates are congruent up to sign.
+
+A2244 squareclass condition for a partition I|J:
+  all a_i^2-a_j^2, i in I, j in J, have the same Q_p squareclass.
+For odd p: same valuation parity and same Legendre symbol of the unit.
+For p=2: same valuation parity and same odd unit modulo 8.
+Deep means a cross-difference is 0 modulo the tested prime power.
+Unit_ambiguous only occurs at p=2 when the tested modulus has not
+determined the odd unit modulo 8.
+
+p=2, depth=5, modulus=32
+roots_mod_prime_power=106496
+primitive_roots=81920
+boundary_roots_mod_p=81920
+any_partition_not_killed=23552 (0.287500)
+real_partition_12|34_not_killed=21504 (0.262500)
+partition_status_counts
+  12|34 deep=15872 killed=60416 unit_ambiguous=5632
+  13|24 deep=15872 killed=60416 unit_ambiguous=5632
+  14|23 deep=15872 killed=60416 unit_ambiguous=5632
+top_mod_p_boundary_signatures
+  16384 Z1+Z2+Z3+E12+E13+E23
+  16384 Z1+Z2+Z4+E12+E14+E24
+  16384 Z1+Z3+Z4+E13+E14+E34
+  16384 Z2+Z3+Z4+E23+E24+E34
+  16384 E12+E13+E14+E23+E24+E34
+top_not_killed_signatures
+  7168 E12+E13+E14+E23+E24+E34
+  4096 Z1+Z2+Z3+E12+E13+E23
+  4096 Z1+Z2+Z4+E12+E14+E24
+  4096 Z1+Z3+Z4+E13+E14+E34
+  4096 Z2+Z3+Z4+E23+E24+E34
+top_fully_killed_signatures
+  12288 Z1+Z3+Z4+E13+E14+E34
+  12288 Z1+Z2+Z4+E12+E14+E24
+  12288 Z1+Z2+Z3+E12+E13+E23
+  12288 Z2+Z3+Z4+E23+E24+E34
+  9216 E12+E13+E14+E23+E24+E34
+
+p=3, depth=3, modulus=27
+roots_mod_prime_power=43011
+primitive_roots=36450
+boundary_roots_mod_p=36450
+any_partition_not_killed=18810 (0.516049)
+real_partition_12|34_not_killed=14490 (0.397531)
+partition_status_counts
+  12|34 deep=14310 killed=21960 resolved_ok=180
+  13|24 deep=14310 killed=21960 resolved_ok=180
+  14|23 deep=14310 killed=21960 resolved_ok=180
+top_mod_p_boundary_signatures
+  13122 E12+E13+E14+E23+E24+E34
+  4374 Z1+Z2+Z3+E12+E13+E23
+  4374 Z1+Z2+Z4+E12+E14+E24
+  4374 Z1+Z3+Z4+E13+E14+E34
+  4374 Z2+Z3+Z4+E23+E24+E34
+  1458 Z1+E23+E24+E34
+  1458 Z2+E13+E14+E34
+  1458 Z3+E12+E14+E24
+  1458 Z4+E12+E13+E23
+top_not_killed_signatures
+  4374 Z1+Z2+Z3+E12+E13+E23
+  4374 Z1+Z2+Z4+E12+E14+E24
+  4374 Z1+Z3+Z4+E13+E14+E34
+  4374 Z2+Z3+Z4+E23+E24+E34
+  810 E12+E13+E14+E23+E24+E34
+  126 Z4+E12+E13+E23
+  126 Z3+E12+E14+E24
+  126 Z2+E13+E14+E34
+  126 Z1+E23+E24+E34
+top_fully_killed_signatures
+  12312 E12+E13+E14+E23+E24+E34
+  1332 Z1+E23+E24+E34
+  1332 Z2+E13+E14+E34
+  1332 Z3+E12+E14+E24
+  1332 Z4+E12+E13+E23
+
+p=5, depth=2, modulus=25
+roots_mod_prime_power=30125
+primitive_roots=29500
+boundary_roots_mod_p=29500
+any_partition_not_killed=19180 (0.650169)
+real_partition_12|34_not_killed=15020 (0.509153)
+partition_status_counts
+  12|34 deep=12300 killed=14480 resolved_ok=2720
+  13|24 deep=12300 killed=14480 resolved_ok=2720
+  14|23 deep=12300 killed=14480 resolved_ok=2720
+top_mod_p_boundary_signatures
+  7500 E12+E13+E14+E23+E24+E34
+  2500 Z1+Z2+Z3+E12+E13+E23
+  2500 Z1+Z2+Z4+E12+E14+E24
+  2500 Z1+Z3+Z4+E13+E14+E34
+  2500 Z2+Z3+Z4+E23+E24+E34
+  2000 E12+E34
+  2000 E13+E24
+  2000 E14+E23
+  500 Z1+E23
+  500 Z1+E24
+top_not_killed_signatures
+  3180 E12+E13+E14+E23+E24+E34
+  2500 Z1+Z2+Z3+E12+E13+E23
+  2500 Z1+Z2+Z4+E12+E14+E24
+  2500 Z1+Z3+Z4+E13+E14+E34
+  2500 Z2+Z3+Z4+E23+E24+E34
+  2000 E12+E34
+  2000 E13+E24
+  2000 E14+E23
+top_fully_killed_signatures
+  4320 E12+E13+E14+E23+E24+E34
+  500 Z1+E23
+  500 Z1+E24
+  500 Z1+E34
+  500 Z2+E13
+  500 Z2+E14
+  500 Z2+E34
+  500 Z3+E12
+  500 Z4+E12
+  500 Z3+E14
+
+p=7, depth=1, modulus=7
+roots_mod_prime_power=343
+primitive_roots=342
+boundary_roots_mod_p=342
+any_partition_not_killed=150 (0.438596)
+real_partition_12|34_not_killed=102 (0.298246)
+partition_status_counts
+  12|34 deep=90 killed=240 resolved_ok=12
+  13|24 deep=90 killed=240 resolved_ok=12
+  14|23 deep=90 killed=240 resolved_ok=12
+top_mod_p_boundary_signatures
+  24 E24
+  24 E14
+  24 E23
+  24 E13
+  24 E34
+  24 E12
+  18 E12+E13+E14+E23+E24+E34
+  12 Z1
+  12 Z2
+  12 E12+E34
+top_not_killed_signatures
+  18 E12+E13+E14+E23+E24+E34
+  12 E12+E34
+  12 E13+E24
+  12 E14+E23
+  6 Z1+Z2+Z3+E12+E13+E23
+  6 Z1+Z2+Z4+E12+E14+E24
+  6 Z1+Z3+Z4+E13+E14+E34
+  6 Z1+E23
+  6 Z1+E24
+  6 Z1+E34
+top_fully_killed_signatures
+  24 E24
+  24 E14
+  24 E23
+  24 E13
+  24 E34
+  24 E12
+  12 Z1
+  12 Z2
+  12 Z3
+  12 Z4

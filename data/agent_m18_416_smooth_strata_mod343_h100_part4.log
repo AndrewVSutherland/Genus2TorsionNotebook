@@ -1,0 +1,21 @@
+computing mod-49 survivor gate (level-1 blowup) ...
+mod-49 survivor gate: 449 residues
+M_1(8,4) [4,16] live-stratum gated search
+height=100 aux_primes=[ 11, 13 ] Part=4/6 smooth_strata_only=false gate_mod=343
+gate_file=data/agent_m18_416_smooth_strata_mod343_gate.txt
+aux_prime 11: open target416 residues 4
+aux_prime 13: open target416 residues 4
+parameters=12175  gate_residues=5692  mod343-gated pair budget=5495485
+progress cand=50000 smooth=49943 firstposs=0 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=100000 smooth=99877 firstposs=0 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=150000 smooth=149854 firstposs=2 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=200000 smooth=199825 firstposs=3 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=250000 smooth=249785 firstposs=3 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=300000 smooth=299764 firstposs=4 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=350000 smooth=349733 firstposs=7 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=400000 smooth=399733 firstposs=8 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=450000 smooth=449690 firstposs=12 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=500000 smooth=499690 firstposs=17 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=550000 smooth=549661 firstposs=19 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+DONE cand=557304 auxkill=353112 smooth=556930 firstposs=19 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+TORSION_COUNTS

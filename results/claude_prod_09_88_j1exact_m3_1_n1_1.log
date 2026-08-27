@@ -1,0 +1,10 @@
+Loading "code/claude_prod_09_88_defs.m"
+BASE m=3 n=1 s=337/162 t=5/3
+RANKBOUNDS [1,1]
+MW rank_used=1 invariants=[ 2, 2, 0 ]
+V_CANDIDATES 8
+J1EXACT m=3 n=1 v=-59049/64124 J1=[ 4, 4 ]
+J1EXACT m=3 n=1 v=-26244/30625 J1=[ 4, 4 ]
+J1EXACT m=3 n=1 v=46656/113569 J1=[ 4, 4 ]
+J1EXACT m=3 n=1 v=803722500/1820624639 J1=[ 4, 4 ]
+SEARCH_DONE m=3 n=1 tested=4 upgrades=0

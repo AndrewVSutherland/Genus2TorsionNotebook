@@ -1,0 +1,71 @@
+FINITE qsplit M_1(8) chart: q=b*(x-b)*(x-c), need 5 | #J(Fp)
+p 3 total 6 good 1 five_possible 0 samples []
+p 7 total 42 good 29 five_possible 5 samples [ <1, 5>, <4, 3>, <4, 5>, <5, 3>, 
+<6, 3> ]
+p 11 total 110 good 83 five_possible 14 samples [ <1, 5>, <2, 7>, <2, 10>, <3, 
+5>, <3, 8>, <3, 9>, <5, 6>, <5, 9> ]
+p 13 total 156 good 123 five_possible 25 samples [ <1, 4>, <1, 5>, <2, 6>, <2, 
+12>, <3, 4>, <3, 7>, <4, 7>, <5, 6> ]
+p 17 total 272 good 229 five_possible 48 samples [ <1, 3>, <1, 7>, <1, 10>, <1, 
+11>, <1, 12>, <1, 13>, <1, 14>, <2, 1> ]
+p 19 total 342 good 291 five_possible 63 samples [ <1, 6>, <1, 9>, <1, 10>, <1, 
+12>, <2, 15>, <3, 7>, <3, 11>, <3, 13> ]
+p 23 total 506 good 445 five_possible 126 samples [ <1, 3>, <1, 5>, <1, 10>, <1,
+13>, <1, 21>, <1, 22>, <2, 5>, <2, 7> ]
+p 29 total 812 good 731 five_possible 189 samples [ <1, 3>, <1, 8>, <1, 9>, <1, 
+15>, <1, 18>, <1, 19>, <1, 26>, <2, 3> ]
+p 31 total 930 good 845 five_possible 158 samples [ <1, 9>, <1, 13>, <1, 16>, 
+<1, 19>, <1, 22>, <1, 23>, <1, 27>, <1, 28> ]
+p 37 total 1332 good 1227 five_possible 304 samples [ <1, 2>, <1, 10>, <1, 11>, 
+<1, 16>, <1, 25>, <1, 27>, <1, 32>, <2, 5> ]
+FINITE M_1(8,4) tangent-cover chart: cover condition and 5 | #J(Fp)
+  note: Magma IsDivisibleBy is Q-only, so finite verification is by cover 
+equations
+p 3 checked 0 cover 0 good 0 five_possible 0 samples []
+p 7 checked 24 cover 22 good 6 five_possible 0 samples []
+p 11 checked 80 cover 68 good 16 five_possible 0 samples []
+p 13 checked 120 cover 108 good 44 five_possible 20 samples [ <2, 6>, <4, 5>, 
+<4, 6>, <4, 7>, <5, 3>, <5, 4>, <5, 9>, <5, 10> ]
+p 17 checked 224 cover 196 good 108 five_possible 0 samples []
+p 19 checked 288 cover 252 good 128 five_possible 0 samples []
+p 23 checked 440 cover 370 good 218 five_possible 38 samples [ <2, 3>, <2, 11>, 
+<2, 12>, <2, 20>, <4, 5>, <4, 18>, <5, 3>, <5, 20> ]
+p 29 checked 728 cover 608 good 408 five_possible 120 samples [ <2, 6>, <2, 8>, 
+<3, 2>, <3, 16>, <3, 27>, <4, 5>, <4, 11>, <4, 14> ]
+p 31 checked 840 cover 674 good 474 five_possible 184 samples [ <2, 4>, <2, 5>, 
+<2, 9>, <2, 13>, <2, 18>, <2, 22>, <2, 26>, <3, 2> ]
+p 37 checked 1224 cover 956 good 700 five_possible 110 samples [ <2, 7>, <2, 
+30>, <3, 5>, <3, 9>, <3, 28>, <3, 32>, <4, 16>, <4, 18> ]
+FINITE split M(2,2,2,6): need 5 | #J(Fp)
+p 3 projective 13 good 0 five_possible 0 samples []
+p 7 projective 57 good 10 five_possible 0 samples []
+p 11 projective 133 good 30 five_possible 0 samples []
+p 13 projective 183 good 64 five_possible 30 samples [ <1, 1, 5>, <1, 1, 10>, 
+<1, 2, 4>, <1, 2, 6>, <1, 2, 7>, <1, 2, 8>, <1, 2, 9>, <1, 2, 11> ]
+p 17 projective 307 good 132 five_possible 30 samples [ <1, 1, 7>, <1, 1, 12>, 
+<1, 2, 4>, <1, 2, 8>, <1, 2, 9>, <1, 2, 10>, <1, 2, 11>, <1, 2, 15> ]
+p 19 projective 381 good 190 five_possible 0 samples []
+p 23 projective 553 good 306 five_possible 0 samples []
+p 29 projective 871 good 552 five_possible 216 samples [ <1, 1, 3>, <1, 1, 5>, 
+<1, 1, 12>, <1, 1, 19>, <1, 1, 26>, <1, 1, 28>, <1, 3, 3>, <1, 3, 5> ]
+p 31 projective 993 good 658 five_possible 144 samples [ <1, 1, 3>, <1, 1, 10>, 
+<1, 1, 14>, <1, 1, 19>, <1, 1, 23>, <1, 1, 30>, <1, 3, 3>, <1, 3, 10> ]
+p 37 projective 1407 good 1000 five_possible 102 samples [ <1, 2, 6>, <1, 2, 
+10>, <1, 2, 12>, <1, 2, 27>, <1, 2, 29>, <1, 2, 33>, <1, 3, 13>, <1, 3, 26> ]
+FINITE contact-5 family
+  note: finite 2-divisibility is skipped because IsDivisibleBy is Q-only
+p 3 total 6 good 3 j5 3 samples [ <0, 0>, <1, 0>, <2, 2> ]
+p 5 total 20 good 15 j5 15 samples [ <0, 1>, <0, 2>, <0, 3>, <1, 0>, <1, 1>, <1,
+4>, <2, 0>, <2, 1> ]
+p 7 total 42 good 32 j5 32 samples [ <0, 0>, <0, 1>, <0, 3>, <0, 5>, <1, 0>, <1,
+1>, <1, 3>, <1, 4> ]
+p 11 total 110 good 96 j5 96 samples [ <0, 0>, <0, 1>, <0, 2>, <0, 3>, <0, 4>, 
+<0, 5>, <0, 7>, <0, 8> ]
+p 13 total 156 good 134 j5 134 samples [ <0, 0>, <0, 1>, <0, 2>, <0, 3>, <0, 4>,
+<0, 5>, <0, 6>, <0, 9> ]
+p 17 total 272 good 242 j5 242 samples [ <0, 0>, <0, 1>, <0, 2>, <0, 3>, <0, 4>,
+<0, 5>, <0, 6>, <0, 7> ]
+p 19 total 342 good 312 j5 312 samples [ <0, 0>, <0, 1>, <0, 2>, <0, 3>, <0, 4>,
+<0, 5>, <0, 6>, <0, 7> ]
+p 23 total 506 good 464 j5 464 samples [ <0, 0>, <0, 1>, <0, 2>, <0, 3>, <0, 4>,
+<0, 5>, <0, 6>, <0, 7> ]

@@ -1,0 +1,8 @@
+run B=20000 start=1 end=50 chunk_size=10 primes=11,23 boundary=11:N,23:N local_depth=4
+start ax=1..10
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 3133151/16194277
+allowed positive c residue entries: 6266302/32388554
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_11_23_ax1_50.txt.chunks/ax_1_10.txt with required bad primes 11 23 ax_range 1..10 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=1..10 return=0 elapsed=115.957s rows=0
+start ax=11..20

@@ -1,0 +1,3422 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+FAMILY N=7 verified
+FAMILY N=8 verified
+FAMILY N=9 verified
+FAMILY N=10 verified
+FAMILY N=12 verified
+POOL N=7: 255 curves
+POOL N=8: 316 curves
+POOL N=9: 255 curves
+POOL N=10: 382 curves
+POOL N=12: 318 curves
+BUCKET C-546 size 2 Ns=[ 7, 7 ]
+CUBICMATCH N=7 t=-1/6 and N=7 t=-14/13
+BUCKET C-6 size 2 Ns=[ 7, 9 ]
+BUCKET C-741 size 2 Ns=[ 7, 9 ]
+CUBICMATCH N=7 t=3/19 and N=9 t=-1/3
+BUCKET D-1 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=1/6)|8(t=5/18)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/6)|8(t=5/18)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/6)|8(t=5/18)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/6)|8(t=5/18)|2 invs=[ 4, 8 ]
+BUCKET D-110 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-3/4)|10(t=-7/2)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/4)|10(t=-7/2)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-3/4)|10(t=-7/2)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/4)|10(t=-7/2)|2 invs=[ 5, 10 ]
+BUCKET D-119 size 4 Ns=[ 8, 8, 8, 10 ]
+CAND x1fam|8(t=4/13)|8(t=4/19)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|8(t=4/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/13)|8(t=4/19)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|8(t=4/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/13)|8(t=5/11)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|8(t=5/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/13)|8(t=5/11)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|8(t=5/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/13)|10(t=-5/7)|1 unknown=[
+[ 80 ],
+[ 160 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|10(t=-5/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=4/13)|10(t=-5/7)|2 unknown=[
+[ 80 ],
+[ 160 ]
+]
+EXACTKNOWN x1fam|8(t=4/13)|10(t=-5/7)|2 invs=[ 40 ]
+CAND x1fam|8(t=4/19)|8(t=5/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=4/19)|8(t=5/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/19)|8(t=5/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=4/19)|8(t=5/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/19)|10(t=-5/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=4/19)|10(t=-5/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=4/19)|10(t=-5/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=4/19)|10(t=-5/7)|2 invs=[ 40 ]
+CAND x1fam|8(t=5/11)|10(t=-5/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=5/11)|10(t=-5/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=5/11)|10(t=-5/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=5/11)|10(t=-5/7)|2 invs=[ 40 ]
+BUCKET D-1199 size 2 Ns=[ 10, 12 ]
+CAND x1fam|10(t=-5)|12(t=3/13)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-5)|12(t=3/13)|1 invs=[ 60 ]
+CAND x1fam|10(t=-5)|12(t=3/13)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-5)|12(t=3/13)|2 invs=[ 60 ]
+BUCKET D-127 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=4/15)|8(t=4/17)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=4/15)|8(t=4/17)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=4/15)|8(t=4/17)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=4/15)|8(t=4/17)|2 invs=[ 4, 8 ]
+BUCKET D-14 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=3/8)|8(t=3/16)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/8)|8(t=3/16)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/8)|8(t=3/16)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/8)|8(t=3/16)|2 invs=[ 4, 8 ]
+BUCKET D-15 size 3 Ns=[ 10, 10, 12 ]
+CAND x1fam|10(t=-1)|10(t=-1/3)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1)|10(t=-1/3)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1)|10(t=-1/3)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1)|10(t=-1/3)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1)|12(t=1/3)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1)|12(t=1/3)|1 invs=[ 60 ]
+CAND x1fam|10(t=-1)|12(t=1/3)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1)|12(t=1/3)|2 invs=[ 60 ]
+CAND x1fam|10(t=-1/3)|12(t=1/3)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1/3)|12(t=1/3)|1 invs=[ 60 ]
+CAND x1fam|10(t=-1/3)|12(t=1/3)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1/3)|12(t=1/3)|2 invs=[ 60 ]
+BUCKET D-17 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=3/10)|8(t=3/14)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/10)|8(t=3/14)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/10)|8(t=3/14)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/10)|8(t=3/14)|2 invs=[ 4, 8 ]
+BUCKET D-2 size 5 Ns=[ 8, 8, 8, 10, 10 ]
+CAND x1fam|8(t=1/4)|8(t=3/20)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|8(t=3/20)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/4)|8(t=3/20)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|8(t=3/20)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/4)|8(t=9/20)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|8(t=9/20)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/4)|8(t=9/20)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|8(t=9/20)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/4)|10(t=-1/2)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|10(t=-1/2)|1 invs=[ 40 ]
+CAND x1fam|8(t=1/4)|10(t=-1/2)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|10(t=-1/2)|2 invs=[ 40 ]
+CAND x1fam|8(t=1/4)|10(t=-17/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|10(t=-17/16)|1 invs=[ 40 ]
+CAND x1fam|8(t=1/4)|10(t=-17/16)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/4)|10(t=-17/16)|2 invs=[ 40 ]
+CAND x1fam|8(t=3/20)|8(t=9/20)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|8(t=9/20)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/20)|8(t=9/20)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|8(t=9/20)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/20)|10(t=-1/2)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|10(t=-1/2)|1 invs=[ 40 ]
+CAND x1fam|8(t=3/20)|10(t=-1/2)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|10(t=-1/2)|2 invs=[ 40 ]
+CAND x1fam|8(t=3/20)|10(t=-17/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|10(t=-17/16)|1 invs=[ 40 ]
+CAND x1fam|8(t=3/20)|10(t=-17/16)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/20)|10(t=-17/16)|2 invs=[ 40 ]
+CAND x1fam|8(t=9/20)|10(t=-1/2)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=9/20)|10(t=-1/2)|1 invs=[ 40 ]
+CAND x1fam|8(t=9/20)|10(t=-1/2)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=9/20)|10(t=-1/2)|2 invs=[ 40 ]
+PROGRESS x1fam 25 pairs, curves 48, aborts 2 known 46 hits 0, 7.090 s
+CAND x1fam|8(t=9/20)|10(t=-17/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=9/20)|10(t=-17/16)|1 invs=[ 40 ]
+CAND x1fam|8(t=9/20)|10(t=-17/16)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=9/20)|10(t=-17/16)|2 invs=[ 40 ]
+CAND x1fam|10(t=-1/2)|10(t=-17/16)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/2)|10(t=-17/16)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/2)|10(t=-17/16)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/2)|10(t=-17/16)|2 invs=[ 5, 10 ]
+BUCKET D-20735 size 2 Ns=[ 10, 12 ]
+CAND x1fam|10(t=-18/13)|12(t=8/17)|1 unknown=[
+[ 120 ],
+[ 240 ]
+]
+EXACTKNOWN x1fam|10(t=-18/13)|12(t=8/17)|1 invs=[ 60 ]
+CAND x1fam|10(t=-18/13)|12(t=8/17)|2 unknown=[
+[ 120 ],
+[ 240 ]
+]
+EXACTKNOWN x1fam|10(t=-18/13)|12(t=8/17)|2 invs=[ 60 ]
+BUCKET D-2090 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-9/4)|10(t=-13/10)|1 unknown=[
+[ 10, 10 ],
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-9/4)|10(t=-13/10)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-9/4)|10(t=-13/10)|2 unknown=[
+[ 10, 10 ],
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-9/4)|10(t=-13/10)|2 invs=[ 5, 10 ]
+BUCKET D-214415 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-9/19)|10(t=-16/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-9/19)|10(t=-16/5)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-9/19)|10(t=-16/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-9/19)|10(t=-16/5)|2 invs=[ 5, 10 ]
+BUCKET D-23 size 4 Ns=[ 8, 8, 8, 12 ]
+CAND x1fam|8(t=2/5)|8(t=2/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|8(t=2/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/5)|8(t=2/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|8(t=2/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/5)|8(t=3/19)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|8(t=3/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/5)|8(t=3/19)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|8(t=3/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/5)|12(t=3/7)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|12(t=3/7)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=2/5)|12(t=3/7)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/5)|12(t=3/7)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=2/11)|8(t=3/19)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/11)|8(t=3/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/11)|8(t=3/19)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/11)|8(t=3/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/11)|12(t=3/7)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/11)|12(t=3/7)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=2/11)|12(t=3/7)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/11)|12(t=3/7)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=3/19)|12(t=3/7)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/19)|12(t=3/7)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=3/19)|12(t=3/7)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/19)|12(t=3/7)|2 invs=[ 2, 24 ]
+BUCKET D-239 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=6/17)|10(t=-15/2)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=6/17)|10(t=-15/2)|1 invs=[ 40 ]
+CAND x1fam|8(t=6/17)|10(t=-15/2)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=6/17)|10(t=-15/2)|2 invs=[ 40 ]
+BUCKET D-26 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-5/16)|10(t=-17/18)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-5/16)|10(t=-17/18)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-5/16)|10(t=-17/18)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-5/16)|10(t=-17/18)|2 invs=[ 5, 10 ]
+BUCKET D-287 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=8/17)|10(t=-3)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=8/17)|10(t=-3)|1 invs=[ 40 ]
+CAND x1fam|8(t=8/17)|10(t=-3)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=8/17)|10(t=-3)|2 invs=[ 40 ]
+BUCKET D-31 size 3 Ns=[ 8, 8, 10 ]
+CAND x1fam|8(t=2/7)|8(t=2/9)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/7)|8(t=2/9)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/7)|8(t=2/9)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/7)|8(t=2/9)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/7)|10(t=-7/18)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/7)|10(t=-7/18)|1 invs=[ 40 ]
+CAND x1fam|8(t=2/7)|10(t=-7/18)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/7)|10(t=-7/18)|2 invs=[ 40 ]
+CAND x1fam|8(t=2/9)|10(t=-7/18)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/9)|10(t=-7/18)|1 invs=[ 40 ]
+CAND x1fam|8(t=2/9)|10(t=-7/18)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/9)|10(t=-7/18)|2 invs=[ 40 ]
+BUCKET D-319 size 2 Ns=[ 10, 12 ]
+CAND x1fam|10(t=-8/9)|12(t=2/7)|1 unknown=[
+[ 120 ],
+[ 240 ]
+]
+EXACTKNOWN x1fam|10(t=-8/9)|12(t=2/7)|1 invs=[ 60 ]
+CAND x1fam|10(t=-8/9)|12(t=2/7)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-8/9)|12(t=2/7)|2 invs=[ 60 ]
+BUCKET D-407 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-13/11)|10(t=-18)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-13/11)|10(t=-18)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-13/11)|10(t=-18)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-13/11)|10(t=-18)|2 invs=[ 5, 10 ]
+BUCKET D-47 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=3/7)|8(t=3/17)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/7)|8(t=3/17)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/7)|8(t=3/17)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/7)|8(t=3/17)|2 invs=[ 4, 8 ]
+BUCKET D-6479 size 3 Ns=[ 10, 10, 10 ]
+CAND x1fam|10(t=-4/11)|10(t=-6/19)|1 unknown=[
+[ 5, 40 ],
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-4/11)|10(t=-6/19)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-4/11)|10(t=-6/19)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-4/11)|10(t=-6/19)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-4/11)|10(t=-9)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-4/11)|10(t=-9)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-4/11)|10(t=-9)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-4/11)|10(t=-9)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-6/19)|10(t=-9)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-6/19)|10(t=-9)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-6/19)|10(t=-9)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-6/19)|10(t=-9)|2 invs=[ 5, 10 ]
+BUCKET D-7 size 4 Ns=[ 8, 8, 8, 8 ]
+CAND x1fam|8(t=1/3)|8(t=1/5)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=1/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/3)|8(t=1/5)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=1/5)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/3)|8(t=2/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=2/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/3)|8(t=2/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=2/13)|2 invs=[ 4, 8 ]
+PROGRESS x1fam 50 pairs, curves 98, aborts 2 known 96 hits 0, 15.810 s
+CAND x1fam|8(t=1/3)|8(t=8/19)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=8/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/3)|8(t=8/19)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/3)|8(t=8/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/5)|8(t=2/13)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/5)|8(t=2/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/5)|8(t=2/13)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/5)|8(t=2/13)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/5)|8(t=8/19)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/5)|8(t=8/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/5)|8(t=8/19)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/5)|8(t=8/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/13)|8(t=8/19)|1 unknown=[
+[ 8, 8 ],
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/13)|8(t=8/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/13)|8(t=8/19)|2 unknown=[
+[ 8, 8 ],
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/13)|8(t=8/19)|2 invs=[ 4, 8 ]
+BUCKET D-71 size 4 Ns=[ 8, 8, 10, 12 ]
+CAND x1fam|8(t=3/11)|8(t=3/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|8(t=3/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/11)|8(t=3/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|8(t=3/13)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=3/11)|10(t=-4)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|10(t=-4)|1 invs=[ 40 ]
+CAND x1fam|8(t=3/11)|10(t=-4)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|10(t=-4)|2 invs=[ 40 ]
+CAND x1fam|8(t=3/11)|12(t=5/17)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|12(t=5/17)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=3/11)|12(t=5/17)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/11)|12(t=5/17)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=3/13)|10(t=-4)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/13)|10(t=-4)|1 invs=[ 40 ]
+CAND x1fam|8(t=3/13)|10(t=-4)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=3/13)|10(t=-4)|2 invs=[ 40 ]
+CAND x1fam|8(t=3/13)|12(t=5/17)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/13)|12(t=5/17)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=3/13)|12(t=5/17)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=3/13)|12(t=5/17)|2 invs=[ 2, 24 ]
+CAND x1fam|10(t=-4)|12(t=5/17)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-4)|12(t=5/17)|1 invs=[ 60 ]
+CAND x1fam|10(t=-4)|12(t=5/17)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-4)|12(t=5/17)|2 invs=[ 60 ]
+BUCKET D10 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=1/4)|10(t=-3/10)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/4)|10(t=-3/10)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=1/4)|10(t=-3/10)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/4)|10(t=-3/10)|2 invs=[ 5, 10 ]
+BUCKET D1090 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=1/20)|10(t=9/20)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/20)|10(t=9/20)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=1/20)|10(t=9/20)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/20)|10(t=9/20)|2 invs=[ 5, 10 ]
+BUCKET D113 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/7)|8(t=1/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/7)|8(t=1/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/7)|8(t=1/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/7)|8(t=1/15)|2 invs=[ 4, 8 ]
+BUCKET D1169 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-5/17)|8(t=-8/9)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-5/17)|8(t=-8/9)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-5/17)|8(t=-8/9)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-5/17)|8(t=-8/9)|2 invs=[ 4, 8 ]
+BUCKET D119 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/18)|8(t=-5/6)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/18)|8(t=-5/6)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/18)|8(t=-5/6)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/18)|8(t=-5/6)|2 invs=[ 4, 8 ]
+BUCKET D12585 size 2 Ns=[ 10, 12 ]
+CAND x1fam|10(t=16/5)|12(t=-19/3)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=16/5)|12(t=-19/3)|1 invs=[ 60 ]
+CAND x1fam|10(t=16/5)|12(t=-19/3)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=16/5)|12(t=-19/3)|2 invs=[ 60 ]
+BUCKET D127281 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-1/19)|10(t=16/11)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/19)|10(t=16/11)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/19)|10(t=16/11)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/19)|10(t=16/11)|2 invs=[ 5, 10 ]
+BUCKET D13585 size 3 Ns=[ 10, 10, 10 ]
+CAND x1fam|10(t=-1/11)|10(t=-3/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/11)|10(t=-3/13)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/11)|10(t=-3/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/11)|10(t=-3/13)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/11)|10(t=4/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/11)|10(t=4/13)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/11)|10(t=4/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/11)|10(t=4/13)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-3/13)|10(t=4/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/13)|10(t=4/13)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-3/13)|10(t=4/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/13)|10(t=4/13)|2 invs=[ 5, 10 ]
+BUCKET D14 size 3 Ns=[ 8, 8, 8 ]
+CAND x1fam|8(t=-1/4)|8(t=1/12)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/4)|8(t=1/12)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/4)|8(t=1/12)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/4)|8(t=1/12)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/4)|8(t=-13/12)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/4)|8(t=-13/12)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/4)|8(t=-13/12)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/4)|8(t=-13/12)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/12)|8(t=-13/12)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/12)|8(t=-13/12)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/12)|8(t=-13/12)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/12)|8(t=-13/12)|2 invs=[ 4, 8 ]
+BUCKET D142 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-1/20)|10(t=7/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1/20)|10(t=7/16)|1 invs=[ 40 ]
+CAND x1fam|8(t=-1/20)|10(t=7/16)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1/20)|10(t=7/16)|2 invs=[ 40 ]
+BUCKET D145 size 3 Ns=[ 10, 10, 10 ]
+CAND x1fam|10(t=1/10)|10(t=2/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/10)|10(t=2/5)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=1/10)|10(t=2/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/10)|10(t=2/5)|2 invs=[ 5, 10 ]
+PROGRESS x1fam 75 pairs, curves 148, aborts 2 known 146 hits 0, 23.990 s
+CAND x1fam|10(t=1/10)|10(t=17/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/10)|10(t=17/5)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=1/10)|10(t=17/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/10)|10(t=17/5)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=2/5)|10(t=17/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=2/5)|10(t=17/5)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=2/5)|10(t=17/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=2/5)|10(t=17/5)|2 invs=[ 5, 10 ]
+BUCKET D1457 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-7/15)|8(t=-13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-7/15)|8(t=-13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-7/15)|8(t=-13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-7/15)|8(t=-13)|2 invs=[ 4, 8 ]
+BUCKET D1513 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-8/13)|10(t=-4/17)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-8/13)|10(t=-4/17)|1 invs=[ 40 ]
+CAND x1fam|8(t=-8/13)|10(t=-4/17)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-8/13)|10(t=-4/17)|2 invs=[ 40 ]
+BUCKET D1561 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-6/19)|8(t=-9/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-6/19)|8(t=-9/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-6/19)|8(t=-9/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-6/19)|8(t=-9/11)|2 invs=[ 4, 8 ]
+BUCKET D161 size 3 Ns=[ 8, 8, 8 ]
+CAND x1fam|8(t=-1/9)|8(t=1/17)|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 2, 128 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN x1fam|8(t=-1/9)|8(t=1/17)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/9)|8(t=1/17)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-1/9)|8(t=1/17)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/9)|8(t=-4)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/9)|8(t=-4)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/9)|8(t=-4)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/9)|8(t=-4)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/17)|8(t=-4)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/17)|8(t=-4)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/17)|8(t=-4)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=1/17)|8(t=-4)|2 invs=[ 4, 8 ]
+BUCKET D1633 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-7/17)|8(t=-11/7)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-7/17)|8(t=-11/7)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-7/17)|8(t=-11/7)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-7/17)|8(t=-11/7)|2 invs=[ 4, 8 ]
+BUCKET D17 size 6 Ns=[ 8, 8, 8, 8, 10, 12 ]
+CAND x1fam|8(t=-1)|8(t=1/9)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=1/9)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|8(t=1/9)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=1/9)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|8(t=2/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=2/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|8(t=2/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=2/15)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|8(t=-4/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=-4/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|8(t=-4/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|8(t=-4/15)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1)|10(t=4/17)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|10(t=4/17)|1 invs=[ 40 ]
+CAND x1fam|8(t=-1)|10(t=4/17)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|10(t=4/17)|2 invs=[ 40 ]
+CAND x1fam|8(t=-1)|12(t=1/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|12(t=1/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-1)|12(t=1/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1)|12(t=1/5)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/9)|8(t=2/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|8(t=2/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/9)|8(t=2/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|8(t=2/15)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/9)|8(t=-4/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|8(t=-4/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/9)|8(t=-4/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|8(t=-4/15)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/9)|10(t=4/17)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|10(t=4/17)|1 invs=[ 40 ]
+CAND x1fam|8(t=1/9)|10(t=4/17)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|10(t=4/17)|2 invs=[ 40 ]
+CAND x1fam|8(t=1/9)|12(t=1/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|12(t=1/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/9)|12(t=1/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/9)|12(t=1/5)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=2/15)|8(t=-4/15)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|8(t=-4/15)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/15)|8(t=-4/15)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|8(t=-4/15)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=2/15)|10(t=4/17)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|10(t=4/17)|1 invs=[ 40 ]
+CAND x1fam|8(t=2/15)|10(t=4/17)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|10(t=4/17)|2 invs=[ 40 ]
+CAND x1fam|8(t=2/15)|12(t=1/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|12(t=1/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=2/15)|12(t=1/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=2/15)|12(t=1/5)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=-4/15)|10(t=4/17)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-4/15)|10(t=4/17)|1 invs=[ 40 ]
+CAND x1fam|8(t=-4/15)|10(t=4/17)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-4/15)|10(t=4/17)|2 invs=[ 40 ]
+CAND x1fam|8(t=-4/15)|12(t=1/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-4/15)|12(t=1/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-4/15)|12(t=1/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-4/15)|12(t=1/5)|2 invs=[ 2, 24 ]
+CAND x1fam|10(t=4/17)|12(t=1/5)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=4/17)|12(t=1/5)|1 invs=[ 60 ]
+CAND x1fam|10(t=4/17)|12(t=1/5)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=4/17)|12(t=1/5)|2 invs=[ 60 ]
+BUCKET D178 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-3/16)|10(t=1/18)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/16)|10(t=1/18)|1 invs=[ 40 ]
+CAND x1fam|8(t=-3/16)|10(t=1/18)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/16)|10(t=1/18)|2 invs=[ 40 ]
+PROGRESS x1fam 100 pairs, curves 198, aborts 2 known 196 hits 0, 32.660 s
+BUCKET D1921 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-15)|12(t=-20/19)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-15)|12(t=-20/19)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-15)|12(t=-20/19)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-15)|12(t=-20/19)|2 invs=[ 2, 24 ]
+BUCKET D193 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-2/7)|12(t=-7/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-2/7)|12(t=-7/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-2/7)|12(t=-7/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-2/7)|12(t=-7/5)|2 invs=[ 2, 24 ]
+BUCKET D2 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=1/8)|8(t=-1/16)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/8)|8(t=-1/16)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/8)|8(t=-1/16)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/8)|8(t=-1/16)|2 invs=[ 4, 8 ]
+BUCKET D217 size 4 Ns=[ 8, 8, 8, 10 ]
+CAND x1fam|8(t=-1/11)|8(t=1/19)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|8(t=1/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/11)|8(t=1/19)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|8(t=1/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/11)|8(t=-3/5)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|8(t=-3/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/11)|8(t=-3/5)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|8(t=-3/5)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/11)|10(t=-1/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|10(t=-1/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=-1/11)|10(t=-1/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-1/11)|10(t=-1/7)|2 invs=[ 40 ]
+CAND x1fam|8(t=1/19)|8(t=-3/5)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/19)|8(t=-3/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/19)|8(t=-3/5)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/19)|8(t=-3/5)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/19)|10(t=-1/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/19)|10(t=-1/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=1/19)|10(t=-1/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=1/19)|10(t=-1/7)|2 invs=[ 40 ]
+CAND x1fam|8(t=-3/5)|10(t=-1/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/5)|10(t=-1/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=-3/5)|10(t=-1/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/5)|10(t=-1/7)|2 invs=[ 40 ]
+BUCKET D23 size 3 Ns=[ 8, 8, 8 ]
+CAND x1fam|8(t=-1/6)|8(t=1/14)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/6)|8(t=1/14)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/6)|8(t=1/14)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/6)|8(t=1/14)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/6)|8(t=-19/10)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/6)|8(t=-19/10)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/6)|8(t=-19/10)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/6)|8(t=-19/10)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/14)|8(t=-19/10)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/14)|8(t=-19/10)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/14)|8(t=-19/10)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/14)|8(t=-19/10)|2 invs=[ 4, 8 ]
+BUCKET D238 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-3/20)|8(t=-9/4)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-3/20)|8(t=-9/4)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-3/20)|8(t=-9/4)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-3/20)|8(t=-9/4)|2 invs=[ 4, 8 ]
+BUCKET D241 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-5)|12(t=4/19)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-5)|12(t=4/19)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-5)|12(t=4/19)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-5)|12(t=4/19)|2 invs=[ 2, 24 ]
+BUCKET D2449 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-10/17)|8(t=-17)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-10/17)|8(t=-17)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-10/17)|8(t=-17)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-10/17)|8(t=-17)|2 invs=[ 4, 8 ]
+BUCKET D24961 size 2 Ns=[ 12, 12 ]
+CAND x1fam|12(t=2/17)|12(t=-3/7)|1 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 48 ],
+[ 3, 96 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=2/17)|12(t=-3/7)|1 invs=[ 6, 12 ] Lpred=23/23 g=548986245615181088*x^6 + 37544640061410768*x^5 - 14384937562211867156*x^4 - 27769124307142544216*x^3 + 4584204808237011793*x^2 + 5911826386788197898*x + 819659967920914725
+CAND x1fam|12(t=2/17)|12(t=-3/7)|2 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 48 ],
+[ 3, 96 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=2/17)|12(t=-3/7)|2 invs=[ 6, 12 ] Lpred=22/22 g=63515202088448*x^6 + 199647318393024*x^5 + 159342947694528*x^4 + 41062006995356*x^3 - 90481854976596*x^2 - 187804548194400*x + 97166836710000
+BUCKET D2665 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=2/13)|10(t=17/8)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=2/13)|10(t=17/8)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=2/13)|10(t=17/8)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=2/13)|10(t=17/8)|2 invs=[ 5, 10 ]
+BUCKET D329 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-2/11)|8(t=-5/3)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/11)|8(t=-5/3)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-2/11)|8(t=-5/3)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/11)|8(t=-5/3)|2 invs=[ 4, 8 ]
+BUCKET D3337 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-12/19)|8(t=-18/5)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-12/19)|8(t=-18/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-12/19)|8(t=-18/5)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-12/19)|8(t=-18/5)|2 invs=[ 4, 8 ]
+BUCKET D34 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/8)|8(t=1/16)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/8)|8(t=1/16)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/8)|8(t=1/16)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/8)|8(t=1/16)|2 invs=[ 4, 8 ]
+BUCKET D3689 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-13/19)|8(t=-20/3)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-13/19)|8(t=-20/3)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-13/19)|8(t=-20/3)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-13/19)|8(t=-20/3)|2 invs=[ 4, 8 ]
+BUCKET D385 size 3 Ns=[ 10, 10, 10 ]
+CAND x1fam|10(t=-1/5)|10(t=-2/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/5)|10(t=-2/7)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/5)|10(t=-2/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/5)|10(t=-2/7)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/5)|10(t=3/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/5)|10(t=3/7)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/5)|10(t=3/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/5)|10(t=3/7)|2 invs=[ 5, 10 ]
+CAND x1fam|10(t=-2/7)|10(t=3/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-2/7)|10(t=3/7)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-2/7)|10(t=3/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-2/7)|10(t=3/7)|2 invs=[ 5, 10 ]
+BUCKET D39 size 2 Ns=[ 12, 12 ]
+CAND x1fam|12(t=1/6)|12(t=-1/6)|1 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=1/6)|12(t=-1/6)|1 invs=[ 6, 12 ] Lpred=23/23 g=400562500*x^6 + 1201687500*x^5 - 13923514539*x^4 - 29849841578*x^3 + 127135453785*x^2 + 142260655824*x + 9809674560
+CAND x1fam|12(t=1/6)|12(t=-1/6)|2 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=1/6)|12(t=-1/6)|2 invs=[ 6, 12 ] Lpred=22/22 g=54265381572*x^6 - 358011318132*x^5 + 198772476477*x^4 + 914632039842*x^3 + 1819791172005*x^2 + 1744019954604*x + 520378897860
+PROGRESS x1fam 125 pairs, curves 248, aborts 2 known 242 hits 4, 46.010 s
+BUCKET D409 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-2/13)|12(t=-5/7)|1 unknown=[
+[ 2, 96 ],
+[ 96 ],
+[ 192 ]
+]
+EXACTKNOWN x1fam|8(t=-2/13)|12(t=-5/7)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-2/13)|12(t=-5/7)|2 unknown=[
+[ 2, 96 ],
+[ 96 ],
+[ 192 ]
+]
+EXACTKNOWN x1fam|8(t=-2/13)|12(t=-5/7)|2 invs=[ 2, 24 ]
+BUCKET D41 size 4 Ns=[ 8, 8, 8, 12 ]
+CAND x1fam|8(t=-1/3)|8(t=1/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|8(t=1/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/3)|8(t=1/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|8(t=1/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/3)|8(t=-10/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|8(t=-10/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/3)|8(t=-10/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|8(t=-10/13)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/3)|12(t=-4)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|12(t=-4)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-1/3)|12(t=-4)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/3)|12(t=-4)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/11)|8(t=-10/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/11)|8(t=-10/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/11)|8(t=-10/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/11)|8(t=-10/13)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/11)|12(t=-4)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/11)|12(t=-4)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/11)|12(t=-4)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/11)|12(t=-4)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=-10/13)|12(t=-4)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-10/13)|12(t=-4)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-10/13)|12(t=-4)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-10/13)|12(t=-4)|2 invs=[ 2, 24 ]
+BUCKET D465 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=1/5)|10(t=13/2)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/5)|10(t=13/2)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=1/5)|10(t=13/2)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=1/5)|10(t=13/2)|2 invs=[ 5, 10 ]
+BUCKET D47 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/10)|8(t=1/18)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/10)|8(t=1/18)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/10)|8(t=1/18)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/10)|8(t=1/18)|2 invs=[ 4, 8 ]
+BUCKET D481 size 2 Ns=[ 12, 12 ]
+CAND x1fam|12(t=1/7)|12(t=-2)|1 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=1/7)|12(t=-2)|1 invs=[ 6, 12 ] Lpred=23/23 g=19299418112*x^6 - 178475623260*x^4 + 413375730009*x^2 - 15993254144
+CAND x1fam|12(t=1/7)|12(t=-2)|2 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=1/7)|12(t=-2)|2 invs=[ 6, 12 ] Lpred=21/21 g=660110000*x^6 - 5615068800*x^5 + 12886870876*x^4 - 6476400436*x^3 + 5723737096*x^2 + 1806392016*x - 1204261344
+BUCKET D497 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-2/15)|8(t=-4/9)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/15)|8(t=-4/9)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-2/15)|8(t=-4/9)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/15)|8(t=-4/9)|2 invs=[ 4, 8 ]
+BUCKET D5257 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-17/19)|10(t=16/7)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-17/19)|10(t=16/7)|1 invs=[ 40 ]
+CAND x1fam|8(t=-17/19)|10(t=16/7)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-17/19)|10(t=16/7)|2 invs=[ 40 ]
+BUCKET D55 size 2 Ns=[ 10, 12 ]
+CAND x1fam|10(t=-1/8)|12(t=-1/2)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1/8)|12(t=-1/2)|1 invs=[ 60 ]
+CAND x1fam|10(t=-1/8)|12(t=-1/2)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=-1/8)|12(t=-1/2)|2 invs=[ 60 ]
+BUCKET D553 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-3/13)|8(t=-6/5)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-3/13)|8(t=-6/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-3/13)|8(t=-6/5)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-3/13)|8(t=-6/5)|2 invs=[ 4, 8 ]
+BUCKET D574 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-15/4)|10(t=-1/14)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-15/4)|10(t=-1/14)|1 invs=[ 40 ]
+CAND x1fam|8(t=-15/4)|10(t=-1/14)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-15/4)|10(t=-1/14)|2 invs=[ 40 ]
+BUCKET D62 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/12)|8(t=1/20)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-1/12)|8(t=1/20)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/12)|8(t=1/20)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/12)|8(t=1/20)|2 invs=[ 4, 8 ]
+BUCKET D649 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-1/9)|10(t=13)|1 unknown=[
+[ 5, 40 ],
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/9)|10(t=13)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-1/9)|10(t=13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-1/9)|10(t=13)|2 invs=[ 5, 10 ]
+BUCKET D682 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=-3/16)|10(t=19/2)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/16)|10(t=19/2)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=-3/16)|10(t=19/2)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=-3/16)|10(t=19/2)|2 invs=[ 5, 10 ]
+BUCKET D697 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-2/19)|8(t=-7/5)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/19)|8(t=-7/5)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-2/19)|8(t=-7/5)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/19)|8(t=-7/5)|2 invs=[ 4, 8 ]
+BUCKET D7 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-1/2)|8(t=1/10)|1 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-1/2)|8(t=1/10)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/2)|8(t=1/10)|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN x1fam|8(t=-1/2)|8(t=1/10)|2 invs=[ 4, 8 ]
+BUCKET D713 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-4/13)|8(t=-8/3)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-4/13)|8(t=-8/3)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-4/13)|8(t=-8/3)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-4/13)|8(t=-8/3)|2 invs=[ 4, 8 ]
+BUCKET D73 size 5 Ns=[ 8, 8, 8, 12, 12 ]
+CAND x1fam|8(t=-1/5)|8(t=1/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|8(t=1/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/5)|8(t=1/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|8(t=1/13)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/5)|8(t=-16/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|8(t=-16/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/5)|8(t=-16/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|8(t=-16/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-1/5)|12(t=-3)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|12(t=-3)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-1/5)|12(t=-3)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|12(t=-3)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=-1/5)|12(t=-3/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|12(t=-3/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-1/5)|12(t=-3/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-1/5)|12(t=-3/5)|2 invs=[ 2, 24 ]
+PROGRESS x1fam 150 pairs, curves 298, aborts 2 known 290 hits 6, 56.860 s
+CAND x1fam|8(t=1/13)|8(t=-16/11)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|8(t=-16/11)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/13)|8(t=-16/11)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|8(t=-16/11)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=1/13)|12(t=-3)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|12(t=-3)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/13)|12(t=-3)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|12(t=-3)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/13)|12(t=-3/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|12(t=-3/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=1/13)|12(t=-3/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=1/13)|12(t=-3/5)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=-16/11)|12(t=-3)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-16/11)|12(t=-3)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-16/11)|12(t=-3)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-16/11)|12(t=-3)|2 invs=[ 2, 24 ]
+CAND x1fam|8(t=-16/11)|12(t=-3/5)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-16/11)|12(t=-3/5)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-16/11)|12(t=-3/5)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-16/11)|12(t=-3/5)|2 invs=[ 2, 24 ]
+CAND x1fam|12(t=-3)|12(t=-3/5)|1 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=-3)|12(t=-3/5)|1 invs=[ 6, 12 ] Lpred=16/16 g=3839519618375744*x^6 - 6339198156398640*x^5 - 15596414674474823*x^4 + 22364744266440622*x^3 + 15702215656569469*x^2 - 16947114701157972*x + 1428451685222724
+CAND x1fam|12(t=-3)|12(t=-3/5)|2 unknown=[
+[ 6, 24 ],
+[ 3, 48 ],
+[ 6, 12 ]
+]
+HIT x1fam|12(t=-3)|12(t=-3/5)|2 invs=[ 6, 12 ] Lpred=20/20 g=63631942002064*x^6 - 1637146141703304*x^5 + 3062488815122745*x^4 - 5059173491573444*x^3 - 2228457593088198*x^2 + 12733489812925404*x + 5492076533933229
+BUCKET D769 size 3 Ns=[ 8, 10, 12 ]
+CAND x1fam|8(t=-3/17)|10(t=17/9)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/17)|10(t=17/9)|1 invs=[ 40 ]
+CAND x1fam|8(t=-3/17)|10(t=17/9)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-3/17)|10(t=17/9)|2 invs=[ 40 ]
+CAND x1fam|8(t=-3/17)|12(t=-8/7)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-3/17)|12(t=-8/7)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-3/17)|12(t=-8/7)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-3/17)|12(t=-8/7)|2 invs=[ 2, 24 ]
+CAND x1fam|10(t=17/9)|12(t=-8/7)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=17/9)|12(t=-8/7)|1 invs=[ 60 ]
+CAND x1fam|10(t=17/9)|12(t=-8/7)|2 unknown=[
+[ 120 ]
+]
+EXACTKNOWN x1fam|10(t=17/9)|12(t=-8/7)|2 invs=[ 60 ]
+BUCKET D799 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-19/2)|12(t=-3/2)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-19/2)|12(t=-3/2)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-19/2)|12(t=-3/2)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-19/2)|12(t=-3/2)|2 invs=[ 2, 24 ]
+BUCKET D8569 size 2 Ns=[ 10, 10 ]
+CAND x1fam|10(t=5/19)|10(t=18/11)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=5/19)|10(t=18/11)|1 invs=[ 5, 10 ]
+CAND x1fam|10(t=5/19)|10(t=18/11)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN x1fam|10(t=5/19)|10(t=18/11)|2 invs=[ 5, 10 ]
+BUCKET D889 size 2 Ns=[ 8, 8 ]
+CAND x1fam|8(t=-3/19)|8(t=-5/13)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-3/19)|8(t=-5/13)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-3/19)|8(t=-5/13)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-3/19)|8(t=-5/13)|2 invs=[ 4, 8 ]
+BUCKET D89 size 3 Ns=[ 8, 8, 10 ]
+CAND x1fam|8(t=-2/3)|8(t=2/19)|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/3)|8(t=2/19)|1 invs=[ 4, 8 ]
+CAND x1fam|8(t=-2/3)|8(t=2/19)|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN x1fam|8(t=-2/3)|8(t=2/19)|2 invs=[ 4, 8 ]
+CAND x1fam|8(t=-2/3)|10(t=4/9)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-2/3)|10(t=4/9)|1 invs=[ 40 ]
+CAND x1fam|8(t=-2/3)|10(t=4/9)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-2/3)|10(t=4/9)|2 invs=[ 40 ]
+CAND x1fam|8(t=2/19)|10(t=4/9)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/19)|10(t=4/9)|1 invs=[ 40 ]
+CAND x1fam|8(t=2/19)|10(t=4/9)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=2/19)|10(t=4/9)|2 invs=[ 40 ]
+BUCKET D943 size 2 Ns=[ 8, 12 ]
+CAND x1fam|8(t=-17/10)|12(t=1/10)|1 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-17/10)|12(t=1/10)|1 invs=[ 2, 24 ]
+CAND x1fam|8(t=-17/10)|12(t=1/10)|2 unknown=[
+[ 96 ]
+]
+EXACTKNOWN x1fam|8(t=-17/10)|12(t=1/10)|2 invs=[ 2, 24 ]
+BUCKET D994 size 2 Ns=[ 8, 10 ]
+CAND x1fam|8(t=-15/16)|10(t=1/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-15/16)|10(t=1/16)|1 invs=[ 40 ]
+CAND x1fam|8(t=-15/16)|10(t=1/16)|2 unknown=[
+[ 80 ]
+]
+EXACTKNOWN x1fam|8(t=-15/16)|10(t=1/16)|2 invs=[ 40 ]
+BUCKET Q size 6 Ns=[ 8, 8, 8, 8, 8, 8 ]
+CAND x1fam|8(t=1/7)|8(t=2/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=2/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=2/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=2/17)|2 invs=[ 8, 8 ] Lpred=23/23 g=52097024*x^6 + 4310861572*x^4 + 61592188129*x^2 - 58466699200
+CAND x1fam|8(t=1/7)|8(t=2/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=2/17)|3 invs=[ 8, 8 ] Lpred=24/24 g=-301860479692800*x^6 + 9610567225887556*x^4 + 561015177735225841*x^2 + 338767639905240000
+CAND x1fam|8(t=1/7)|8(t=2/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=2/17)|4 invs=[ 8, 8 ] Lpred=25/25 g=103870248652800*x^6 - 4916541711891644*x^4 + 50559312875328241*x^2 + 116570009523240000
+CAND x1fam|8(t=1/7)|8(t=2/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=2/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=2/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=2/17)|6 invs=[ 8, 8 ] Lpred=25/25 g=4917024*x^6 + 7375536*x^5 + 106900828*x^4 + 103827688*x^3 + 447509617*x^2 + 210853176*x + 112176656
+CAND x1fam|8(t=1/7)|8(t=-4/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-4/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-4/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-4/17)|2 invs=[ 8, 8 ] Lpred=23/23 g=31614465600*x^6 + 91120173360*x^5 - 91837443071*x^4 + 14578662740*x^3 + 187738618426*x^2 - 188963724180*x + 95168729525
+CAND x1fam|8(t=1/7)|8(t=-4/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-4/17)|3 invs=[ 8, 8 ] Lpred=24/24 g=-106451510112*x^6 + 345373773168*x^5 - 66805695908*x^4 - 182109456952*x^3 + 2328698076409*x^2 - 2252448288660*x + 597508160900
+CAND x1fam|8(t=1/7)|8(t=-4/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-4/17)|4 invs=[ 8, 8 ] Lpred=23/23 g=129228734720*x^6 + 3059602676544*x^5 + 10245225021220*x^4 - 29916760814288*x^3 + 15147444880897*x^2 - 221112252462*x + 1530745304157
+CAND x1fam|8(t=1/7)|8(t=-4/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-4/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-4/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-4/17)|6 invs=[ 8, 8 ] Lpred=25/25 g=7100900*x^6 + 63463980*x^5 + 198694261*x^4 + 207888094*x^3 + 273398917*x^2 + 92792916*x + 67299012
+CAND x1fam|8(t=1/7)|8(t=-5/7)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-5/7)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-5/7)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-5/7)|2 invs=[ 8, 8 ] Lpred=23/23 g=45710832960*x^6 - 213578517408*x^5 + 279614936260*x^4 - 473716104896*x^3 + 389092553305*x^2 - 296125353438*x + 289941544805
+CAND x1fam|8(t=1/7)|8(t=-5/7)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-5/7)|3 invs=[ 8, 8 ] Lpred=23/23 g=836*x^6 + 88596*x^5 + 88597*x^4 + 1800118*x^3 - 4045487*x^2 - 4535664*x + 84285504
+CAND x1fam|8(t=1/7)|8(t=-5/7)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-5/7)|4 invs=[ 8, 8 ] Lpred=23/23 g=377986725*x^6 - 2094751590*x^5 + 3866745889*x^4 - 3982063928*x^3 + 4245610444*x^2 - 1806163440*x + 234624800
+CAND x1fam|8(t=1/7)|8(t=-5/7)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-5/7)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-5/7)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-5/7)|6 invs=[ 8, 8 ] Lpred=19/19 g=392850466085*x^6 + 455138165832*x^5 + 3359849169550*x^4 - 728656658676*x^3 + 8391605999833*x^2 - 7315825686756*x + 7552393469732
+CAND x1fam|8(t=1/7)|8(t=-14)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-14)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-14)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-14)|2 invs=[ 8, 8 ] Lpred=21/21 g=1377946629*x^6 - 1306364028*x^5 + 3249196522*x^4 + 2088383164*x^3 - 7317248543*x^2 + 2010298992*x - 1609687936
+CAND x1fam|8(t=1/7)|8(t=-14)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-14)|3 invs=[ 8, 8 ] Lpred=25/25 g=-393919200*x^6 - 590878800*x^5 - 32636910884*x^4 - 32390711384*x^3 + 56445308305*x^2 + 32265338088*x + 28439679923600
+CAND x1fam|8(t=1/7)|8(t=-14)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-14)|4 invs=[ 8, 8 ] Lpred=25/25 g=51843508531200*x^6 + 9452331865526404*x^4 - 7489999667227489151*x^2 + 239512614866741160000
+CAND x1fam|8(t=1/7)|8(t=-14)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-14)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-14)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-14)|6 invs=[ 8, 8 ] Lpred=24/24 g=-980284291*x^6 - 2211566982*x^5 - 11131154807*x^4 - 15379286176*x^3 - 35696775164*x^2 - 24356045280*x - 30521131200
+CAND x1fam|8(t=1/7)|8(t=-18/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-18/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-18/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-18/17)|2 invs=[ 8, 8 ] Lpred=22/22 g=-2015174475*x^6 - 25352087052*x^5 - 17584590230*x^4 - 51011128284*x^3 + 49182346369*x^2 + 59657650200*x + 108408130000
+CAND x1fam|8(t=1/7)|8(t=-18/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-18/17)|3 invs=[ 8, 8 ] Lpred=22/22 g=-99699904*x^6 + 203306208*x^5 + 942118852*x^4 + 2550639824*x^3 + 4403146249*x^2 + 1264660740*x + 1688696100
+CAND x1fam|8(t=1/7)|8(t=-18/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-18/17)|4 invs=[ 8, 8 ] Lpred=23/23 g=5147454281699525*x^6 - 1185005407019880*x^5 - 14870229494133266*x^4 + 9964277911277844*x^3 + 3259846487979097*x^2 - 10410707359279452*x + 8575344503453156
+CAND x1fam|8(t=1/7)|8(t=-18/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=1/7)|8(t=-18/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=1/7)|8(t=-18/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=1/7)|8(t=-18/17)|6 invs=[ 8, 8 ] Lpred=23/23 g=16712791040*x^6 + 16986526848*x^5 + 942199801060*x^4 - 1560376119824*x^3 + 28715679106609*x^2 - 55593154994490*x + 282626793425925
+CAND x1fam|8(t=2/17)|8(t=-4/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-4/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-4/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-4/17)|2 invs=[ 8, 8 ] Lpred=24/24 g=567987614722045440000*x^6 + 77616419687908758963076*x^4 + 297012361340970104218321*x^2 - 8934041874762587520000
+CAND x1fam|8(t=2/17)|8(t=-4/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-4/17)|3 invs=[ 8, 8 ] Lpred=22/22 g=6141673967738400*x^6 - 25095043077573360*x^5 + 19365451783247596*x^4 - 10527888318095032*x^3 - 1003026329696951*x^2 + 35729484600968106*x + 17328431785291757
+CAND x1fam|8(t=2/17)|8(t=-4/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-4/17)|4 invs=[ 8, 8 ] Lpred=23/23 g=498944264513831172*x^6 - 4144889500127960412*x^5 + 318634988269015153*x^4 - 124510417132958112852*x^3 + 695913999415419244846*x^2 + 2676614700351607337280*x + 2015685057243318367725
+CAND x1fam|8(t=2/17)|8(t=-4/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-4/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-4/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-4/17)|6 invs=[ 8, 8 ] Lpred=22/22 g=43268*x^6 + 242532*x^5 - 26099*x^4 - 571114*x^3 + 3626521*x^2 - 8861664*x + 6776064
+CAND x1fam|8(t=2/17)|8(t=-5/7)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-5/7)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-5/7)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-5/7)|2 invs=[ 8, 8 ] Lpred=23/23 g=181262092005*x^6 + 1790819197128*x^5 + 5878387263790*x^4 - 4041958572884*x^3 + 29492073379513*x^2 - 77355659900484*x + 2995817818532
+CAND x1fam|8(t=2/17)|8(t=-5/7)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-5/7)|3 invs=[ 8, 8 ] Lpred=23/23 g=1730326592*x^6 + 2764286544*x^5 - 5031938087*x^4 + 13750493554*x^3 - 19678000295*x^2 + 4733215152*x + 139024664640
+CAND x1fam|8(t=2/17)|8(t=-5/7)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-5/7)|4 invs=[ 8, 8 ] Lpred=23/23 g=220121930912*x^6 + 823663212144*x^5 - 2034109879652*x^4 - 4366920001656*x^3 + 5217272836345*x^2 - 15710303075628*x + 37509422118980
+CAND x1fam|8(t=2/17)|8(t=-5/7)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-5/7)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-5/7)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-5/7)|6 invs=[ 8, 8 ] Lpred=24/24 g=9267791547560000*x^6 + 2857870914329363761*x^4 + 29273412100936404484*x^2 + 21956659473244160000
+CAND x1fam|8(t=2/17)|8(t=-14)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-14)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-14)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-14)|2 invs=[ 8, 8 ] Lpred=21/21 g=134264507911788672*x^6 + 1828947380140632432*x^5 - 4838048175108196847*x^4 + 1711189860864943452*x^3 - 493676620111522454*x^2 + 6108358849345851300*x - 1697818634502496875
+CAND x1fam|8(t=2/17)|8(t=-14)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-14)|3 invs=[ 8, 8 ] Lpred=23/23 g=-1058374069740000*x^6 + 1587561104610000*x^5 + 1507069853049244*x^4 - 2168553646636744*x^3 + 4532339043573793*x^2 - 1978563221117616*x + 1301770469323328
+CAND x1fam|8(t=2/17)|8(t=-14)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-14)|4 invs=[ 8, 8 ] Lpred=23/23 g=727544152977408*x^6 + 44501468346436228*x^4 - 131195673779091743*x^2 + 46796969244981312
+CAND x1fam|8(t=2/17)|8(t=-14)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-14)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-14)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-14)|6 invs=[ 8, 8 ] Lpred=23/23 g=377199264565760000*x^6 + 6837146997979590724*x^4 + 24305033132836165201*x^2 + 24262145892967640000
+PROGRESS x1fam 175 pairs, curves 380, aborts 2 known 338 hits 40, 106.530 s
+CAND x1fam|8(t=2/17)|8(t=-18/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-18/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-18/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-18/17)|2 invs=[ 8, 8 ] Lpred=19/19 g=1128983459648*x^6 - 1955952856800*x^5 - 1476988165052*x^4 + 3761271045280*x^3 - 3377493876743*x^2 + 9675332570130*x + 1839900255957
+CAND x1fam|8(t=2/17)|8(t=-18/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-18/17)|3 invs=[ 8, 8 ] Lpred=19/19 g=11697901921280*x^6 + 1285640215771008*x^5 + 8633199497256100*x^4 + 6716578397621456*x^3 + 153698040343924369*x^2 - 173766868833044490*x + 436359087592888725
+CAND x1fam|8(t=2/17)|8(t=-18/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-18/17)|4 invs=[ 8, 8 ] Lpred=23/23 g=972457938930081240000*x^6 + 2378391189751046486582641*x^4 - 5159109401043848145436647356*x^2 + 2098059661096765893348272640000
+CAND x1fam|8(t=2/17)|8(t=-18/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=2/17)|8(t=-18/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=2/17)|8(t=-18/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=2/17)|8(t=-18/17)|6 invs=[ 8, 8 ] Lpred=23/23 g=14131342012840000*x^6 + 328178796200156139169*x^4 + 289295479684596811867396*x^2 + 30488103852513533130240000
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-5/7)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-5/7)|2 invs=[ 8, 8 ] Lpred=21/21 g=1220816678272564100*x^6 - 1116394857884441580*x^5 - 6409071658031008919*x^4 - 2581292247793942652*x^3 + 7913630969045390878*x^2 + 42160721102912232408*x + 29680924932951348357
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-5/7)|3 invs=[ 8, 8 ] Lpred=22/22 g=1058280848*x^6 - 3808360824*x^5 - 4104778919*x^4 - 78688532*x^3 + 17984653354*x^2 + 34039181820*x + 22639686525
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-5/7)|4 invs=[ 8, 8 ] Lpred=22/22 g=127700340992*x^6 + 217449688512*x^5 + 369566109124*x^4 + 1255829020256*x^3 + 991063047409*x^2 - 214959643920*x + 10151438400
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-5/7)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-5/7)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-5/7)|6 invs=[ 8, 8 ] Lpred=23/23 g=7354245768765440000*x^6 + 159989815986571699396*x^4 + 244293203766346998481*x^2 + 3124907898788480000
+CAND x1fam|8(t=-4/17)|8(t=-14)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-14)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-14)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-14)|2 invs=[ 8, 8 ] Lpred=23/23 g=1877102429184*x^6 + 605314176289249*x^4 - 930427743107900*x^2 - 491266556817408
+CAND x1fam|8(t=-4/17)|8(t=-14)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-14)|3 invs=[ 8, 8 ] Lpred=23/23 g=212292308900*x^6 - 2298968827596*x^5 + 3230043046645*x^4 - 4394761212718*x^3 + 9372903171061*x^2 - 1485794047860*x + 6960477816900
+CAND x1fam|8(t=-4/17)|8(t=-14)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-14)|4 invs=[ 8, 8 ] Lpred=22/22 g=167653504492565*x^6 + 3307599529850406*x^5 + 3500867907295105*x^4 - 33124173857928472*x^3 + 392873986293676*x^2 + 54713952571685520*x + 16000882481325600
+CAND x1fam|8(t=-4/17)|8(t=-14)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-14)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-14)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-14)|6 invs=[ 8, 8 ] Lpred=23/23 g=280843153998848*x^6 + 17337065395663105*x^4 + 70454026817846596*x^2 + 73500969966104576
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-18/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-18/17)|2 invs=[ 8, 8 ] Lpred=23/23 g=88691649359274820414080000*x^6 + 608965024081224407285001953089*x^4 + 20914165908713986580251609959364*x^2 - 190081848639464537396341962240000
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-18/17)|3 invs=[ 8, 8 ] Lpred=22/22 g=4721089572*x^6 - 525377603964*x^5 + 4117611500701*x^4 - 6189102319198*x^3 + 9842469524869*x^2 - 5031298656972*x + 2178270572324
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-18/17)|4 invs=[ 8, 8 ] Lpred=22/22 g=6183995341824*x^6 + 5764554453145249*x^4 - 568542573126815420*x^2 + 13253392794513641472
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-4/17)|8(t=-18/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-4/17)|8(t=-18/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-4/17)|8(t=-18/17)|6 invs=[ 8, 8 ] Lpred=22/22 g=9297951057412555725*x^6 + 219051194842855067970*x^5 + 2776791167444812469761*x^4 - 6934574887205501513296*x^3 + 32131583895562750378852*x^2 - 41033467954971548301504*x + 38335268227362383999232
+CAND x1fam|8(t=-5/7)|8(t=-14)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-5/7)|8(t=-14)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-5/7)|8(t=-14)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-14)|2 invs=[ 8, 8 ] Lpred=22/22 g=1498082991593357352960000*x^6 + 16749730142599854325745284*x^4 - 12478600041515949486967919*x^2 - 2603060190770357563560000
+CAND x1fam|8(t=-5/7)|8(t=-14)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-14)|3 invs=[ 8, 8 ] Lpred=23/23 g=-19364113018847232*x^6 + 5218331758860868*x^4 + 58796491686120577*x^2 + 33646968834034752
+CAND x1fam|8(t=-5/7)|8(t=-14)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-14)|4 invs=[ 8, 8 ] Lpred=20/20 g=447125471300*x^6 - 1971871132932*x^5 - 4244737515755*x^4 + 978734629726*x^3 + 18267472754149*x^2 + 2145870610500*x - 1249306177500
+CAND x1fam|8(t=-5/7)|8(t=-14)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-5/7)|8(t=-14)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-5/7)|8(t=-14)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-14)|6 invs=[ 8, 8 ] Lpred=22/22 g=152034926400*x^6 - 247452547680*x^5 + 3386405423524*x^4 - 3637284304992*x^3 + 22113900560737*x^2 - 11877256736982*x + 43175786190453
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-5/7)|8(t=-18/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-18/17)|2 invs=[ 8, 8 ] Lpred=21/21 g=-121459655710000*x^6 - 2556346861287000*x^5 + 55264112011880761*x^4 - 203930762105325140*x^3 + 6675065894862719146*x^2 + 10272004127682709980*x + 52568323396573693725
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-18/17)|3 invs=[ 8, 8 ] Lpred=23/23 g=4376815290616640*x^6 + 50648235914405472*x^5 + 55806083419534180*x^4 + 80460051076786624*x^3 + 107067528567534433*x^2 - 63741388446844206*x + 104391157018862637
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-18/17)|4 invs=[ 8, 8 ] Lpred=23/23 g=26732616158220840000*x^6 + 80197848474662520000*x^5 + 53955323613475880161*x^4 - 25752433564152439678*x^3 - 29265863304189478325447*x^2 - 29239620779328291685608*x + 373072864471880980356752
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-5/7)|8(t=-18/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-5/7)|8(t=-18/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-5/7)|8(t=-18/17)|6 invs=[ 8, 8 ] Lpred=23/23 g=196288941457408*x^6 + 46386846614748868*x^4 + 996769446054291457*x^2 + 2793012357280606272
+CAND x1fam|8(t=-14)|8(t=-18/17)|1 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-14)|8(t=-18/17)|1 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-14)|8(t=-18/17)|2 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-14)|8(t=-18/17)|2 invs=[ 8, 8 ] Lpred=21/21 g=756796894761393166293*x^6 - 2113788692102937647964*x^5 + 3496736980272492117322*x^4 - 4306629668833055822084*x^3 + 1883892187772089401265*x^2 - 1000829034625959714672*x - 1069114446511703603200
+CAND x1fam|8(t=-14)|8(t=-18/17)|3 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-14)|8(t=-18/17)|3 invs=[ 8, 8 ] Lpred=19/19 g=-27487571118216880*x^6 + 114904744050844152*x^5 + 685574932184285665*x^4 + 1521359459199182284*x^3 + 177060695529612634*x^2 + 999080199319010220*x + 1319513317340523525
+CAND x1fam|8(t=-14)|8(t=-18/17)|4 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-14)|8(t=-18/17)|4 invs=[ 8, 8 ] Lpred=21/21 g=177416605086961956660000*x^6 + 266124907630442934990000*x^5 - 1308525757624257193139684*x^4 - 1419411135803608416052184*x^3 + 570292501684878300238657*x^2 + 465344777272373982698664*x + 418544098295967351581072
+CAND x1fam|8(t=-14)|8(t=-18/17)|5 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 64 ],
+[ 4, 64 ],
+[ 8, 8 ],
+[ 2, 128 ],
+[ 2, 4, 32 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 16, 16 ],
+[ 8, 16 ],
+[ 2, 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 8, 8 ],
+[ 8, 32 ],
+[ 2, 32 ],
+[ 2, 2, 64 ],
+[ 256 ]
+]
+EXACTKNOWN x1fam|8(t=-14)|8(t=-18/17)|5 invs=[ 2, 4, 8 ]
+CAND x1fam|8(t=-14)|8(t=-18/17)|6 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+HIT x1fam|8(t=-14)|8(t=-18/17)|6 invs=[ 8, 8 ] Lpred=18/18 g=77369731191425205*x^6 - 115114591676876616*x^5 + 409379478103244785870*x^4 - 473467014683581656148*x^3 + 722417504419502952389545*x^2 - 474702443450617435486836*x + 424947660359259664375909380
+SEARCH_DONE x1fam pairs 182 curves 422 aborts 2 known 352 hits 68 fails 0 134.720 s

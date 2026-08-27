@@ -1,0 +1,31 @@
+
+== tw12 ==
+tw12: 7 nontrivial 2-torsion representatives (expect 7)
+DIVFAIL tw12 rep T^2 - 72*T + 2592
+DIVFAIL tw12 rep T^3 - 144*T^2 + 7776*T - 139968
+DIVFAIL tw12 rep T^2 - 108*T + 3888
+DIVFAIL tw12 rep T - 36
+DIVFAIL tw12 rep T^3 - 108*T^2 + 5184*T - 93312
+DIVFAIL tw12 rep T^2 - 216*T + 7776
+DIVFAIL tw12 rep T^3 - 252*T^2 + 15552*T - 279936
+CLEANUP3_INCONCLUSIVE tw12: halvable=0 buildfail/divfail=7
+
+== tw10 ==
+tw10: 15 nontrivial 2-torsion representatives (expect 15)
+DIVFAIL tw10 rep T^3 - 128*T^2 + 4096*T - 32768
+DIVFAIL tw10 rep T
+DIVFAIL tw10 rep T^2 - 32*T
+DIVFAIL tw10 rep T^2 - 96*T + 1024
+DIVFAIL tw10 rep T^3 - 48*T^2 + 256*T + 8192
+DIVFAIL tw10 rep T^2 - 16*T - 256
+DIVFAIL tw10 rep T^3 - 96*T^2 + 1024*T
+DIVFAIL tw10 rep T^3 - 48*T^2 + 512*T
+DIVFAIL tw10 rep T - 16
+DIVFAIL tw10 rep T^2 - 16*T
+DIVFAIL tw10 rep T^2 - 48*T + 512
+DIVFAIL tw10 rep T^3 - 112*T^2 + 2560*T - 16384
+DIVFAIL tw10 rep T^3 - 32*T^2 + 4096
+DIVFAIL tw10 rep T^3 - 16*T^2 - 256*T
+DIVFAIL tw10 rep T - 32
+CLEANUP3_INCONCLUSIVE tw10: halvable=0 buildfail/divfail=15
+TWCLEANUP3_DONE

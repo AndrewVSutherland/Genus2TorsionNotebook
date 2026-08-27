@@ -1,0 +1,9 @@
+FIBER_START Y1 fixed [ -15, 28, 50 ]
+d0 -5290/189 t1 3/23
+QUOTIENT Y1 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 3025256325*x + 37444377811750 over Rational Field
+QUOTIENT Y1 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 4571700*x + 5421458000 over Rational Field
+QUOTIENT Y1 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 568507212*x + 5209659380016 over Rational Field
+FIBER_DONE Y1

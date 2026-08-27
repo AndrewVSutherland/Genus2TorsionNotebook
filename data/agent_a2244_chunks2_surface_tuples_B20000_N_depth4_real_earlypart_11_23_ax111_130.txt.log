@@ -1,0 +1,16 @@
+run B=20000 start=111 end=130 chunk_size=10 primes=11,23 boundary=11:N,23:N local_depth=4
+start ax=111..120
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/agent_a2244_chunks2_surface_tuples_B20000_N_depth4_real_earlypart_11_23_ax111_130.chunks/ax_111_120.txt.tmp with required bad primes 11 23 ax_range 111..120 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=111..120 return=0 elapsed=91.984s rows=0
+start ax=121..130
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/agent_a2244_chunks2_surface_tuples_B20000_N_depth4_real_earlypart_11_23_ax111_130.chunks/ax_121_130.txt.tmp with required bad primes 11 23 ax_range 121..130 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=121..130 return=0 elapsed=67.174s rows=0
+merged_chunks=2 unique_rows=0 elapsed_total=159.161s output=data/agent_a2244_chunks2_surface_tuples_B20000_N_depth4_real_earlypart_11_23_ax111_130.txt

@@ -1,0 +1,12 @@
+HLP_Z63_EXACT
+f 897*x^6 - 197570*x^4 + 79136353*x^2 - 146398496
+marked_D (x^2 + 69*x + 98, -136482*x - 193614, 2) order 63
+TORSION [ 63 ]
+order 63
+J_F5_order 63
+elliptic_quotient_torsion [ 9 ] [ 7 ]
+GEOMETRICALLY_SPLIT true
+HLP_Z63_EXACT_DONE
+wall_seconds 0.19
+peak_rss_kb 82184
+address_space_cap_bytes 250000000

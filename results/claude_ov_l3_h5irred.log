@@ -1,0 +1,5 @@
+H5 #terms=16 totaldeg=8
+factorisation over Q: 1 factor(s), degrees [ 8 ], mults [ 1 ]
+integral primitive: content=1, #terms=16
+p=7 : irreducible over F_(p^k) for k=1..8 ? true
+ABSOLUTELY_IRREDUCIBLE via p=7  =>  Z(H5) = H_5

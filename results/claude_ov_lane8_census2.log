@@ -1,0 +1,818 @@
+
+########## p = 3 : 63 Weil-admissible isogeny classes
+  Z/35      compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/45      compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/63      compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/70      compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/7xZ/7   compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/2xZ/24  compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/3xZ/12  compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/40 CTL  compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+  Z/30 CTL  compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/48 CTL  compatible:     0   ABS-SIMPLE:     0   >>> NO compatible class: forced BAD REDUCTION here 
+
+########## p = 5 : 129 Weil-admissible isogeny classes
+  Z/35      compatible:     3   ABS-SIMPLE:     1    e.g. [[-1, 3, 35]]
+  Z/45      compatible:     2   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/63      compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/70      compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/7xZ/7   compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     2   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:     2   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/3xZ/12  compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/40 CTL  compatible:     3   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/30 CTL  compatible:     5   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/48 CTL  compatible:     2   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+
+########## p = 7 : 207 Weil-admissible isogeny classes
+  Z/35      compatible:     7   ABS-SIMPLE:     5    e.g. [[-5, 15, 105], [-2, 4, 70]]
+  Z/45      compatible:     5   ABS-SIMPLE:     1    e.g. [[1, 3, 45]]
+  Z/63      compatible:     3   ABS-SIMPLE:     1    e.g. [[-1, 5, 63]]
+  Z/70      compatible:     2   ABS-SIMPLE:     1    e.g. [[-2, 4, 70]]
+  Z/7xZ/7   compatible:     1   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     2   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:     5   ABS-SIMPLE:     1    e.g. [[1, 6, 48]]
+  Z/3xZ/12  compatible:     9   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/40 CTL  compatible:     7   ABS-SIMPLE:     2    e.g. [[-3, 6, 80], [1, -2, 40]]
+  Z/30 CTL  compatible:     8   ABS-SIMPLE:     1    e.g. [[4, 12, 30]]
+  Z/48 CTL  compatible:     5   ABS-SIMPLE:     1    e.g. [[1, 6, 48]]
+
+########## p = 11 : 401 Weil-admissible isogeny classes
+  Z/35      compatible:    12   ABS-SIMPLE:     6    e.g. [[-3, 17, 175], [-2, -6, 140]]
+  Z/45      compatible:    10   ABS-SIMPLE:     3    e.g. [[-1, 1, 135], [2, -8, 90]]
+  Z/63      compatible:     7   ABS-SIMPLE:     2    e.g. [[-4, 19, 189], [7, 25, 63]]
+  Z/70      compatible:     6   ABS-SIMPLE:     3    e.g. [[-2, -6, 140], [-1, 6, 140]]
+  Z/7xZ/7   compatible:     3   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     9   ABS-SIMPLE:     2    e.g. [[-5, 18, 200], [-2, 4, 150]]
+  Z/2xZ/24  compatible:    11   ABS-SIMPLE:     2    e.g. [[1, -14, 96], [3, 10, 96]]
+  Z/3xZ/12  compatible:     8   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/40 CTL  compatible:    11   ABS-SIMPLE:     5    e.g. [[-5, 18, 200], [-3, 2, 160]]
+  Z/30 CTL  compatible:    16   ABS-SIMPLE:     4    e.g. [[-2, 4, 150], [-1, -14, 120]]
+  Z/48 CTL  compatible:    11   ABS-SIMPLE:     2    e.g. [[1, -14, 96], [3, 10, 96]]
+
+########## p = 13 : 513 Weil-admissible isogeny classes
+  Z/35      compatible:    17   ABS-SIMPLE:     7    e.g. [[-4, 19, 245], [-2, 12, 210]]
+  Z/45      compatible:    13   ABS-SIMPLE:     3    e.g. [[-3, 13, 225], [2, -7, 135]]
+  Z/63      compatible:    12   ABS-SIMPLE:     2    e.g. [[-1, 5, 189], [4, 12, 126]]
+  Z/70      compatible:    10   ABS-SIMPLE:     3    e.g. [[-2, 12, 210], [2, -2, 140]]
+  Z/7xZ/7   compatible:     6   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     5   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:    13   ABS-SIMPLE:     2    e.g. [[-2, -6, 192], [-1, 8, 192]]
+  Z/3xZ/12  compatible:    18   ABS-SIMPLE:     2    e.g. [[-3, 4, 216], [6, 22, 108]]
+  Z/40 CTL  compatible:    15   ABS-SIMPLE:     3    e.g. [[-1, 16, 200], [1, 4, 160]]
+  Z/30 CTL  compatible:    21   ABS-SIMPLE:     4    e.g. [[-2, 12, 210], [1, -6, 150]]
+  Z/48 CTL  compatible:    13   ABS-SIMPLE:     2    e.g. [[-2, -6, 192], [-1, 8, 192]]
+
+########## p = 17 : 765 Weil-admissible isogeny classes
+  Z/35      compatible:    21   ABS-SIMPLE:    12    e.g. [[-7, 39, 455], [-6, 22, 420]]
+  Z/45      compatible:    17   ABS-SIMPLE:     8    e.g. [[-9, 43, 495], [-5, 25, 405]]
+  Z/63      compatible:    14   ABS-SIMPLE:     8    e.g. [[-7, 25, 441], [-4, 16, 378]]
+  Z/70      compatible:    11   ABS-SIMPLE:     4    e.g. [[-6, 22, 420], [-2, 24, 350]]
+  Z/7xZ/7   compatible:     3   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     7   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:    20   ABS-SIMPLE:     4    e.g. [[-1, -20, 288], [1, 16, 288]]
+  Z/3xZ/12  compatible:    10   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/40 CTL  compatible:    23   ABS-SIMPLE:     6    e.g. [[-7, 24, 440], [-2, -6, 320]]
+  Z/30 CTL  compatible:    29   ABS-SIMPLE:     7    e.g. [[-6, 22, 420], [-4, 28, 390]]
+  Z/48 CTL  compatible:    20   ABS-SIMPLE:     4    e.g. [[-1, -20, 288], [1, 16, 288]]
+
+########## p = 19 : 897 Weil-admissible isogeny classes
+  Z/35      compatible:    25   ABS-SIMPLE:    14    e.g. [[-9, 53, 595], [-5, 28, 490]]
+  Z/45      compatible:    22   ABS-SIMPLE:    10    e.g. [[-9, 43, 585], [-5, 33, 495]]
+  Z/63      compatible:    17   ABS-SIMPLE:     5    e.g. [[-4, -1, 441], [-3, 19, 441]]
+  Z/70      compatible:    13   ABS-SIMPLE:     5    e.g. [[-5, 28, 490], [-2, 18, 420]]
+  Z/7xZ/7   compatible:     6   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/5xZ/10  compatible:     4   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:    23   ABS-SIMPLE:     6    e.g. [[-7, 26, 528], [-5, 18, 480]]
+  Z/3xZ/12  compatible:    31   ABS-SIMPLE:     4    e.g. [[-2, -6, 396], [-1, -22, 360]]
+  Z/40 CTL  compatible:    26   ABS-SIMPLE:    12    e.g. [[-11, 58, 640], [-5, 18, 480]]
+  Z/30 CTL  compatible:    32   ABS-SIMPLE:    11    e.g. [[-8, 48, 570], [-6, 28, 510]]
+  Z/48 CTL  compatible:    23   ABS-SIMPLE:     6    e.g. [[-7, 26, 528], [-5, 18, 480]]
+
+########## p = 23 : 1193 Weil-admissible isogeny classes
+  Z/35      compatible:    34   ABS-SIMPLE:    24    e.g. [[-9, 59, 805], [-8, 48, 770]]
+  Z/45      compatible:    31   ABS-SIMPLE:    14    e.g. [[-11, 61, 855], [-8, 43, 765]]
+  Z/63      compatible:    20   ABS-SIMPLE:    10    e.g. [[-8, 34, 756], [-5, 43, 693]]
+  Z/70      compatible:    17   ABS-SIMPLE:    10    e.g. [[-8, 48, 770], [-6, 26, 700]]
+  Z/7xZ/7   compatible:     4   ABS-SIMPLE:     1    e.g. [[-1, -15, 539]]
+  Z/5xZ/10  compatible:     7   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:    30   ABS-SIMPLE:     8    e.g. [[-7, 22, 720], [-4, -2, 624]]
+  Z/3xZ/12  compatible:    13   ABS-SIMPLE:     2    e.g. [[-3, 10, 612], [3, 10, 468]]
+  Z/40 CTL  compatible:    33   ABS-SIMPLE:    13    e.g. [[-8, 38, 760], [-7, 22, 720]]
+  Z/30 CTL  compatible:    47   ABS-SIMPLE:    11    e.g. [[-7, 22, 720], [-6, 16, 690]]
+  Z/48 CTL  compatible:    30   ABS-SIMPLE:     8    e.g. [[-7, 22, 720], [-4, -2, 624]]
+
+########## p = 29 : 1683 Weil-admissible isogeny classes
+  Z/35      compatible:    53   ABS-SIMPLE:    22    e.g. [[-9, 43, 1155], [-7, 33, 1085]]
+  Z/45      compatible:    37   ABS-SIMPLE:    20    e.g. [[-10, 73, 1215], [-8, 43, 1125]]
+  Z/63      compatible:    27   ABS-SIMPLE:    15    e.g. [[-13, 91, 1323], [-10, 55, 1197]]
+  Z/70      compatible:    27   ABS-SIMPLE:     8    e.g. [[-6, 28, 1050], [-4, 18, 980]]
+  Z/7xZ/7   compatible:    36   ABS-SIMPLE:    20    e.g. [[-13, 91, 1323], [-9, 64, 1176]]
+  Z/5xZ/10  compatible:    13   ABS-SIMPLE:     0   >>> compatible but none abs-simple: p can never CERTIFY 
+  Z/2xZ/24  compatible:    39   ABS-SIMPLE:    14    e.g. [[-9, 40, 1152], [-7, 52, 1104]]
+  Z/3xZ/12  compatible:    20   ABS-SIMPLE:     4    e.g. [[-9, 40, 1152], [-6, 22, 1044]]
+  Z/40 CTL  compatible:    54   ABS-SIMPLE:    13    e.g. [[-5, 48, 1040], [-4, 38, 1000]]
+  Z/30 CTL  compatible:    62   ABS-SIMPLE:    22    e.g. [[-12, 88, 1290], [-6, 28, 1050]]
+  Z/48 CTL  compatible:    39   ABS-SIMPLE:    14    e.g. [[-9, 40, 1152], [-7, 52, 1104]]
+
+########## p = 31 : 1861 Weil-admissible isogeny classes
+  Z/35      compatible:    60   ABS-SIMPLE:    25    e.g. [[-9, 45, 1295], [-7, 39, 1225]]
+  Z/45      compatible:    44   ABS-SIMPLE:    25    e.g. [[-11, 81, 1395], [-10, 68, 1350]]
+  Z/63      compatible:    35   ABS-SIMPLE:    14    e.g. [[-9, 73, 1323], [-4, 44, 1134]]
+  Z/70      compatible:    30   ABS-SIMPLE:     9    e.g. [[-6, 36, 1190], [-5, -2, 1120]]
+  Z/7xZ/7   compatible:    11   ABS-SIMPLE:     1    e.g. [[1, 1, 931]]
+  Z/5xZ/10  compatible:    41   ABS-SIMPLE:    17    e.g. [[-15, 108, 1550], [-10, 68, 1350]]
+  Z/2xZ/24  compatible:    42   ABS-SIMPLE:    18    e.g. [[-11, 78, 1392], [-9, 46, 1296]]
+  Z/3xZ/12  compatible:    61   ABS-SIMPLE:    17    e.g. [[-9, 46, 1296], [-7, 38, 1224]]
+  Z/40 CTL  compatible:    54   ABS-SIMPLE:    21    e.g. [[-6, 6, 1160], [-5, -2, 1120]]
+  Z/30 CTL  compatible:    68   ABS-SIMPLE:    27    e.g. [[-11, 66, 1380], [-10, 68, 1350]]
+  Z/48 CTL  compatible:    42   ABS-SIMPLE:    18    e.g. [[-11, 78, 1392], [-9, 46, 1296]]
+
+########## p = 37 : 2425 Weil-admissible isogeny classes
+  Z/35      compatible:    75   ABS-SIMPLE:    35    e.g. [[-15, 125, 2065], [-12, 99, 1925]]
+  Z/45      compatible:    60   ABS-SIMPLE:    19    e.g. [[-9, 43, 1755], [-8, 36, 1710]]
+  Z/63      compatible:    40   ABS-SIMPLE:    20    e.g. [[-13, 89, 1953], [-10, 77, 1827]]
+  Z/70      compatible:    39   ABS-SIMPLE:    13    e.g. [[-10, 70, 1820], [-8, 76, 1750]]
+  Z/7xZ/7   compatible:    11   ABS-SIMPLE:     1    e.g. [[-1, 13, 1421]]
+  Z/5xZ/10  compatible:    15   ABS-SIMPLE:     3    e.g. [[-4, 28, 1550], [1, -32, 1300]]
+  Z/2xZ/24  compatible:    57   ABS-SIMPLE:    14    e.g. [[-5, 72, 1632], [-3, 52, 1536]]
+  Z/3xZ/12  compatible:    76   ABS-SIMPLE:    24    e.g. [[-12, 82, 1908], [-10, 86, 1836]]
+  Z/40 CTL  compatible:    68   ABS-SIMPLE:    25    e.g. [[-9, 48, 1760], [-8, 46, 1720]]
+  Z/30 CTL  compatible:    90   ABS-SIMPLE:    34    e.g. [[-14, 108, 2010], [-11, 72, 1860]]
+  Z/48 CTL  compatible:    57   ABS-SIMPLE:    14    e.g. [[-5, 72, 1632], [-3, 52, 1536]]
+
+########## p = 41 : 2821 Weil-admissible isogeny classes
+  Z/35      compatible:    85   ABS-SIMPLE:    46    e.g. [[-18, 152, 2590], [-16, 131, 2485]]
+  Z/45      compatible:    70   ABS-SIMPLE:    29    e.g. [[-11, 61, 2205], [-9, 55, 2115]]
+  Z/63      compatible:    45   ABS-SIMPLE:    28    e.g. [[-14, 124, 2394], [-13, 103, 2331]]
+  Z/70      compatible:    43   ABS-SIMPLE:    19    e.g. [[-18, 152, 2590], [-14, 110, 2380]]
+  Z/7xZ/7   compatible:    10   ABS-SIMPLE:     2    e.g. [[-7, 33, 2009], [7, 33, 1421]]
+  Z/5xZ/10  compatible:    63   ABS-SIMPLE:    22    e.g. [[-10, 48, 2150], [-7, 24, 2000]]
+  Z/2xZ/24  compatible:    66   ABS-SIMPLE:    22    e.g. [[-11, 64, 2208], [-9, 52, 2112]]
+  Z/3xZ/12  compatible:    31   ABS-SIMPLE:     6    e.g. [[-9, 64, 2124], [-6, 46, 1980]]
+  Z/40 CTL  compatible:    77   ABS-SIMPLE:    32    e.g. [[-16, 126, 2480], [-15, 128, 2440]]
+  Z/30 CTL  compatible:   104   ABS-SIMPLE:    44    e.g. [[-16, 136, 2490], [-14, 100, 2370]]
+  Z/48 CTL  compatible:    66   ABS-SIMPLE:    22    e.g. [[-11, 64, 2208], [-9, 52, 2112]]
+
+########## p = 43 : 3031 Weil-admissible isogeny classes
+  Z/35      compatible:    93   ABS-SIMPLE:    49    e.g. [[-15, 115, 2625], [-14, 124, 2590]]
+  Z/45      compatible:    72   ABS-SIMPLE:    32    e.g. [[-17, 147, 2745], [-9, 49, 2295]]
+  Z/63      compatible:    48   ABS-SIMPLE:    25    e.g. [[-14, 117, 2583], [-12, 79, 2457]]
+  Z/70      compatible:    47   ABS-SIMPLE:    21    e.g. [[-14, 124, 2590], [-10, 90, 2380]]
+  Z/7xZ/7   compatible:    70   ABS-SIMPLE:    29    e.g. [[-11, 67, 2401], [-9, 57, 2303]]
+  Z/5xZ/10  compatible:    14   ABS-SIMPLE:     4    e.g. [[-2, -38, 1900], [-2, 12, 1950]]
+  Z/2xZ/24  compatible:    71   ABS-SIMPLE:    25    e.g. [[-11, 66, 2400], [-9, 58, 2304]]
+  Z/3xZ/12  compatible:    94   ABS-SIMPLE:    32    e.g. [[-9, 58, 2304], [-8, 30, 2232]]
+  Z/40 CTL  compatible:    82   ABS-SIMPLE:    37    e.g. [[-16, 126, 2680], [-12, 102, 2480]]
+  Z/30 CTL  compatible:   104   ABS-SIMPLE:    60    e.g. [[-20, 180, 2910], [-14, 114, 2580]]
+  Z/48 CTL  compatible:    71   ABS-SIMPLE:    25    e.g. [[-11, 66, 2400], [-9, 58, 2304]]
+
+########## p = 47 : 3461 Weil-admissible isogeny classes
+  Z/35      compatible:   108   ABS-SIMPLE:    63    e.g. [[-19, 168, 3290], [-17, 159, 3185]]
+  Z/45      compatible:    84   ABS-SIMPLE:    39    e.g. [[-16, 127, 3105], [-14, 133, 3015]]
+  Z/63      compatible:    54   ABS-SIMPLE:    34    e.g. [[-13, 127, 2961], [-12, 112, 2898]]
+  Z/70      compatible:    55   ABS-SIMPLE:    28    e.g. [[-19, 168, 3290], [-14, 128, 3010]]
+  Z/7xZ/7   compatible:    14   ABS-SIMPLE:     4    e.g. [[-9, 53, 2695], [-2, -52, 2254]]
+  Z/5xZ/10  compatible:    18   ABS-SIMPLE:     3    e.g. [[-4, 48, 2450], [1, -12, 2150]]
+  Z/2xZ/24  compatible:    80   ABS-SIMPLE:    36    e.g. [[-17, 142, 3168], [-15, 142, 3072]]
+  Z/3xZ/12  compatible:    38   ABS-SIMPLE:     8    e.g. [[-6, 58, 2556], [-3, -50, 2304]]
+  Z/40 CTL  compatible:    93   ABS-SIMPLE:    40    e.g. [[-13, 86, 2920], [-13, 126, 2960]]
+  Z/30 CTL  compatible:   125   ABS-SIMPLE:    59    e.g. [[-12, 124, 2910], [-10, 100, 2790]]
+  Z/48 CTL  compatible:    80   ABS-SIMPLE:    36    e.g. [[-17, 142, 3168], [-15, 142, 3072]]
+
+########## p = 53 : 4139 Weil-admissible isogeny classes
+  Z/35      compatible:   119   ABS-SIMPLE:    90    e.g. [[-19, 189, 4025], [-18, 173, 3955]]
+  Z/45      compatible:    98   ABS-SIMPLE:    51    e.g. [[-17, 142, 3870], [-16, 151, 3825]]
+  Z/63      compatible:    72   ABS-SIMPLE:    29    e.g. [[-12, 70, 3528], [-11, 61, 3465]]
+  Z/70      compatible:    58   ABS-SIMPLE:    37    e.g. [[-14, 144, 3710], [-12, 112, 3570]]
+  Z/7xZ/7   compatible:    15   ABS-SIMPLE:     4    e.g. [[-11, 75, 3479], [-4, 12, 3038]]
+  Z/5xZ/10  compatible:    22   ABS-SIMPLE:     7    e.g. [[-12, 92, 3550], [-7, 12, 3200]]
+  Z/2xZ/24  compatible:    93   ABS-SIMPLE:    39    e.g. [[-17, 160, 3888], [-15, 124, 3744]]
+  Z/3xZ/12  compatible:    44   ABS-SIMPLE:    18    e.g. [[-15, 124, 3744], [-12, 70, 3528]]
+  Z/40 CTL  compatible:   116   ABS-SIMPLE:    54    e.g. [[-17, 152, 3880], [-15, 140, 3760]]
+  Z/30 CTL  compatible:   148   ABS-SIMPLE:    77    e.g. [[-24, 244, 4350], [-17, 142, 3870]]
+  Z/48 CTL  compatible:    93   ABS-SIMPLE:    39    e.g. [[-17, 160, 3888], [-15, 124, 3744]]
+
+########## p = 59 : 4861 Weil-admissible isogeny classes
+  Z/35      compatible:   144   ABS-SIMPLE:    90    e.g. [[-17, 153, 4655], [-16, 143, 4585]]
+  Z/45      compatible:   126   ABS-SIMPLE:    60    e.g. [[-19, 193, 4815], [-16, 148, 4590]]
+  Z/63      compatible:    86   ABS-SIMPLE:    43    e.g. [[-23, 241, 5103], [-13, 85, 4347]]
+  Z/70      compatible:    76   ABS-SIMPLE:    33    e.g. [[-12, 68, 4270], [-10, 48, 4130]]
+  Z/7xZ/7   compatible:    18   ABS-SIMPLE:     8    e.g. [[-13, 99, 4361], [-6, -20, 3822]]
+  Z/5xZ/10  compatible:    25   ABS-SIMPLE:     4    e.g. [[-10, 68, 4150], [-5, 18, 3800]]
+  Z/2xZ/24  compatible:   110   ABS-SIMPLE:    47    e.g. [[-17, 154, 4656], [-15, 130, 4512]]
+  Z/3xZ/12  compatible:    51   ABS-SIMPLE:    14    e.g. [[-12, 82, 4284], [-9, 46, 4068]]
+  Z/40 CTL  compatible:   126   ABS-SIMPLE:    78    e.g. [[-21, 218, 4960], [-20, 198, 4880]]
+  Z/30 CTL  compatible:   174   ABS-SIMPLE:    84    e.g. [[-20, 208, 4890], [-18, 178, 4740]]
+  Z/48 CTL  compatible:   110   ABS-SIMPLE:    47    e.g. [[-17, 154, 4656], [-15, 130, 4512]]
+
+########## p = 61 : 5109 Weil-admissible isogeny classes
+  Z/35      compatible:   152   ABS-SIMPLE:    95    e.g. [[-19, 175, 5075], [-17, 159, 4935]]
+  Z/45      compatible:   118   ABS-SIMPLE:    81    e.g. [[-22, 224, 5310], [-19, 185, 5085]]
+  Z/63      compatible:    88   ABS-SIMPLE:    45    e.g. [[-20, 204, 5166], [-19, 203, 5103]]
+  Z/70      compatible:    81   ABS-SIMPLE:    37    e.g. [[-14, 100, 4690], [-12, 84, 4550]]
+  Z/7xZ/7   compatible:    20   ABS-SIMPLE:     5    e.g. [[-9, 81, 4361], [-2, -24, 3822]]
+  Z/5xZ/10  compatible:   109   ABS-SIMPLE:    47    e.g. [[-16, 136, 4850], [-14, 110, 4700]]
+  Z/2xZ/24  compatible:   114   ABS-SIMPLE:    47    e.g. [[-19, 188, 5088], [-17, 168, 4944]]
+  Z/3xZ/12  compatible:   152   ABS-SIMPLE:    74    e.g. [[-19, 176, 5076], [-18, 166, 5004]]
+  Z/40 CTL  compatible:   133   ABS-SIMPLE:    84    e.g. [[-21, 216, 5240], [-20, 198, 5160]]
+  Z/30 CTL  compatible:   180   ABS-SIMPLE:   103    e.g. [[-22, 224, 5310], [-20, 198, 5160]]
+  Z/48 CTL  compatible:   114   ABS-SIMPLE:    47    e.g. [[-19, 188, 5088], [-17, 168, 4944]]
+
+########## p = 67 : 5877 Weil-admissible isogeny classes
+  Z/35      compatible:   173   ABS-SIMPLE:   114    e.g. [[-25, 285, 6475], [-22, 244, 6230]]
+  Z/45      compatible:   132   ABS-SIMPLE:    87    e.g. [[-24, 268, 6390], [-19, 203, 5985]]
+  Z/63      compatible:   103   ABS-SIMPLE:    47    e.g. [[-19, 203, 5985], [-18, 208, 5922]]
+  Z/70      compatible:    91   ABS-SIMPLE:    42    e.g. [[-22, 244, 6230], [-12, 84, 5390]]
+  Z/7xZ/7   compatible:    23   ABS-SIMPLE:     8    e.g. [[-11, 103, 5341], [-4, -9, 4753]]
+  Z/5xZ/10  compatible:    27   ABS-SIMPLE:    11    e.g. [[-14, 108, 5550], [-9, 48, 5150]]
+  Z/2xZ/24  compatible:   128   ABS-SIMPLE:    74    e.g. [[-21, 226, 6144], [-17, 162, 5808]]
+  Z/3xZ/12  compatible:   174   ABS-SIMPLE:    78    e.g. [[-16, 146, 5724], [-14, 138, 5580]]
+  Z/40 CTL  compatible:   155   ABS-SIMPLE:    85    e.g. [[-19, 178, 5960], [-17, 154, 5800]]
+  Z/30 CTL  compatible:   203   ABS-SIMPLE:   116    e.g. [[-24, 268, 6390], [-20, 210, 6060]]
+  Z/48 CTL  compatible:   128   ABS-SIMPLE:    74    e.g. [[-21, 226, 6144], [-17, 162, 5808]]
+
+########## p = 71 : 6409 Weil-admissible isogeny classes
+  Z/35      compatible:   188   ABS-SIMPLE:   125    e.g. [[-24, 265, 7035], [-23, 267, 6965]]
+  Z/45      compatible:   145   ABS-SIMPLE:   107    e.g. [[-21, 241, 6795], [-20, 223, 6705]]
+  Z/63      compatible:   108   ABS-SIMPLE:    56    e.g. [[-22, 241, 6867], [-20, 196, 6678]]
+  Z/70      compatible:    99   ABS-SIMPLE:    46    e.g. [[-22, 234, 6860], [-21, 236, 6790]]
+  Z/7xZ/7   compatible:   133   ABS-SIMPLE:   101    e.g. [[-27, 315, 7301], [-23, 260, 6958]]
+  Z/5xZ/10  compatible:   133   ABS-SIMPLE:    88    e.g. [[-24, 280, 7050], [-23, 252, 6950]]
+  Z/2xZ/24  compatible:   140   ABS-SIMPLE:    84    e.g. [[-21, 214, 6768], [-19, 214, 6624]]
+  Z/3xZ/12  compatible:    66   ABS-SIMPLE:    28    e.g. [[-21, 214, 6768], [-18, 178, 6516]]
+  Z/40 CTL  compatible:   168   ABS-SIMPLE:    95    e.g. [[-20, 198, 6680], [-18, 182, 6520]]
+  Z/30 CTL  compatible:   221   ABS-SIMPLE:   137    e.g. [[-24, 280, 7050], [-22, 244, 6870]]
+  Z/48 CTL  compatible:   140   ABS-SIMPLE:    84    e.g. [[-21, 214, 6768], [-19, 214, 6624]]
+
+########## p = 73 : 6683 Weil-admissible isogeny classes
+  Z/35      compatible:   200   ABS-SIMPLE:   135    e.g. [[-24, 279, 7385], [-22, 252, 7210]]
+  Z/45      compatible:   158   ABS-SIMPLE:    84    e.g. [[-17, 207, 6795], [-16, 191, 6705]]
+  Z/63      compatible:   116   ABS-SIMPLE:    55    e.g. [[-21, 235, 7119], [-18, 205, 6867]]
+  Z/70      compatible:   105   ABS-SIMPLE:    52    e.g. [[-22, 252, 7210], [-18, 198, 6860]]
+  Z/7xZ/7   compatible:    25   ABS-SIMPLE:    10    e.g. [[-13, 127, 6419], [-6, 8, 5782]]
+  Z/5xZ/10  compatible:    32   ABS-SIMPLE:    10    e.g. [[-12, 132, 6350], [-7, 52, 5900]]
+  Z/2xZ/24  compatible:   146   ABS-SIMPLE:    84    e.g. [[-23, 264, 7296], [-20, 198, 7008]]
+  Z/3xZ/12  compatible:   196   ABS-SIMPLE:    98    e.g. [[-19, 212, 6948], [-18, 214, 6876]]
+  Z/40 CTL  compatible:   176   ABS-SIMPLE:    97    e.g. [[-19, 184, 6920], [-17, 172, 6760]]
+  Z/30 CTL  compatible:   236   ABS-SIMPLE:   117    e.g. [[-20, 240, 7050], [-18, 208, 6870]]
+  Z/48 CTL  compatible:   146   ABS-SIMPLE:    84    e.g. [[-23, 264, 7296], [-20, 198, 7008]]
+
+########## p = 79 : 7521 Weil-admissible isogeny classes
+  Z/35      compatible:   220   ABS-SIMPLE:   153    e.g. [[-29, 363, 8925], [-25, 298, 8540]]
+  Z/45      compatible:   173   ABS-SIMPLE:   103    e.g. [[-21, 223, 8145], [-20, 213, 8055]]
+  Z/63      compatible:   134   ABS-SIMPLE:    75    e.g. [[-26, 309, 8631], [-24, 280, 8442]]
+  Z/70      compatible:   112   ABS-SIMPLE:    61    e.g. [[-25, 298, 8540], [-22, 258, 8260]]
+  Z/7xZ/7   compatible:    25   ABS-SIMPLE:    10    e.g. [[-15, 153, 7595], [-8, 27, 6909]]
+  Z/5xZ/10  compatible:    33   ABS-SIMPLE:    10    e.g. [[-20, 208, 8050], [-10, 58, 7100]]
+  Z/2xZ/24  compatible:   167   ABS-SIMPLE:    84    e.g. [[-17, 222, 7824], [-15, 190, 7632]]
+  Z/3xZ/12  compatible:   219   ABS-SIMPLE:   117    e.g. [[-25, 290, 8532], [-21, 250, 8172]]
+  Z/40 CTL  compatible:   198   ABS-SIMPLE:   124    e.g. [[-29, 358, 8920], [-24, 278, 8440]]
+  Z/30 CTL  compatible:   259   ABS-SIMPLE:   160    e.g. [[-23, 258, 8340], [-22, 248, 8250]]
+  Z/48 CTL  compatible:   167   ABS-SIMPLE:    84    e.g. [[-17, 222, 7824], [-15, 190, 7632]]
+
+########## p = 83 : 8099 Weil-admissible isogeny classes
+  Z/35      compatible:   237   ABS-SIMPLE:   168    e.g. [[-29, 369, 9695], [-28, 348, 9590]]
+  Z/45      compatible:   186   ABS-SIMPLE:   117    e.g. [[-27, 337, 9495], [-20, 205, 8775]]
+  Z/63      compatible:   130   ABS-SIMPLE:    96    e.g. [[-26, 313, 9387], [-24, 292, 9198]]
+  Z/70      compatible:   123   ABS-SIMPLE:    65    e.g. [[-28, 348, 9590], [-21, 236, 8890]]
+  Z/7xZ/7   compatible:    27   ABS-SIMPLE:     8    e.g. [[-14, 117, 8183], [-7, -30, 7448]]
+  Z/5xZ/10  compatible:    37   ABS-SIMPLE:    14    e.g. [[-12, 152, 8050], [-7, -28, 7450]]
+  Z/2xZ/24  compatible:   178   ABS-SIMPLE:    97    e.g. [[-21, 226, 8880], [-20, 214, 8784]]
+  Z/3xZ/12  compatible:    86   ABS-SIMPLE:    34    e.g. [[-21, 238, 8892], [-18, 202, 8604]]
+  Z/40 CTL  compatible:   212   ABS-SIMPLE:   128    e.g. [[-25, 290, 9280], [-23, 258, 9080]]
+  Z/30 CTL  compatible:   280   ABS-SIMPLE:   170    e.g. [[-26, 316, 9390], [-24, 304, 9210]]
+  Z/48 CTL  compatible:   178   ABS-SIMPLE:    97    e.g. [[-21, 226, 8880], [-20, 214, 8784]]
+
+########## p = 89 : 8987 Weil-admissible isogeny classes
+  Z/35      compatible:   261   ABS-SIMPLE:   191    e.g. [[-24, 278, 10360], [-23, 263, 10255]]
+  Z/45      compatible:   208   ABS-SIMPLE:   126    e.g. [[-26, 313, 10575], [-25, 313, 10485]]
+  Z/63      compatible:   145   ABS-SIMPLE:   101    e.g. [[-23, 277, 10269], [-22, 241, 10143]]
+  Z/70      compatible:   128   ABS-SIMPLE:    86    e.g. [[-24, 278, 10360], [-22, 248, 10150]]
+  Z/7xZ/7   compatible:    29   ABS-SIMPLE:    14    e.g. [[-16, 144, 9506], [-9, 39, 8771]]
+  Z/5xZ/10  compatible:    40   ABS-SIMPLE:    16    e.g. [[-20, 228, 9950], [-15, 128, 9400]]
+  Z/2xZ/24  compatible:   199   ABS-SIMPLE:   106    e.g. [[-27, 352, 10704], [-21, 220, 10032]]
+  Z/3xZ/12  compatible:    92   ABS-SIMPLE:    34    e.g. [[-18, 214, 9756], [-15, 160, 9432]]
+  Z/40 CTL  compatible:   232   ABS-SIMPLE:   143    e.g. [[-31, 408, 11120], [-25, 308, 10480]]
+  Z/30 CTL  compatible:   308   ABS-SIMPLE:   192    e.g. [[-26, 328, 10590], [-25, 298, 10470]]
+  Z/48 CTL  compatible:   199   ABS-SIMPLE:   106    e.g. [[-27, 352, 10704], [-21, 220, 10032]]
+
+########## p = 97 : 10223 Weil-admissible isogeny classes
+  Z/35      compatible:   297   ABS-SIMPLE:   220    e.g. [[-32, 439, 12985], [-29, 383, 12635]]
+  Z/45      compatible:   234   ABS-SIMPLE:   150    e.g. [[-29, 393, 12645], [-25, 335, 12195]]
+  Z/63      compatible:   165   ABS-SIMPLE:   115    e.g. [[-28, 383, 12537], [-27, 355, 12411]]
+  Z/70      compatible:   149   ABS-SIMPLE:    99    e.g. [[-28, 376, 12530], [-22, 264, 11830]]
+  Z/7xZ/7   compatible:    34   ABS-SIMPLE:    14    e.g. [[-21, 243, 11711], [-14, 96, 10878]]
+  Z/5xZ/10  compatible:    46   ABS-SIMPLE:    19    e.g. [[-14, 118, 10900], [-14, 168, 10950]]
+  Z/2xZ/24  compatible:   222   ABS-SIMPLE:   125    e.g. [[-26, 330, 12288], [-25, 332, 12192]]
+  Z/3xZ/12  compatible:   295   ABS-SIMPLE:   173    e.g. [[-24, 298, 12060], [-23, 288, 11952]]
+  Z/40 CTL  compatible:   265   ABS-SIMPLE:   166    e.g. [[-29, 388, 12640], [-28, 366, 12520]]
+  Z/30 CTL  compatible:   351   ABS-SIMPLE:   233    e.g. [[-32, 444, 12990], [-30, 400, 12750]]
+  Z/48 CTL  compatible:   222   ABS-SIMPLE:   125    e.g. [[-26, 330, 12288], [-25, 332, 12192]]
+
+########## p = 101 : 10865 Weil-admissible isogeny classes
+  Z/35      compatible:   318   ABS-SIMPLE:   229    e.g. [[-33, 467, 14035], [-31, 426, 13790]]
+  Z/45      compatible:   248   ABS-SIMPLE:   163    e.g. [[-29, 385, 13545], [-26, 331, 13185]]
+  Z/63      compatible:   175   ABS-SIMPLE:   129    e.g. [[-31, 433, 13797], [-30, 409, 13671]]
+  Z/70      compatible:   160   ABS-SIMPLE:   103    e.g. [[-31, 426, 13790], [-24, 300, 12950]]
+  Z/7xZ/7   compatible:    36   ABS-SIMPLE:    14    e.g. [[-20, 204, 12446], [-13, 85, 11613]]
+  Z/5xZ/10  compatible:   224   ABS-SIMPLE:   146    e.g. [[-29, 390, 13550], [-25, 348, 13100]]
+  Z/2xZ/24  compatible:   237   ABS-SIMPLE:   137    e.g. [[-25, 304, 13056], [-23, 268, 12816]]
+  Z/3xZ/12  compatible:   108   ABS-SIMPLE:    48    e.g. [[-18, 166, 12204], [-18, 238, 12276]]
+  Z/40 CTL  compatible:   281   ABS-SIMPLE:   175    e.g. [[-21, 296, 12640], [-20, 278, 12520]]
+  Z/30 CTL  compatible:   375   ABS-SIMPLE:   228    e.g. [[-24, 340, 12990], [-22, 244, 12690]]
+  Z/48 CTL  compatible:   237   ABS-SIMPLE:   137    e.g. [[-25, 304, 13056], [-23, 268, 12816]]
+
+########## p = 103 : 11185 Weil-admissible isogeny classes
+  Z/35      compatible:   326   ABS-SIMPLE:   240    e.g. [[-32, 447, 14385], [-30, 410, 14140]]
+  Z/45      compatible:   256   ABS-SIMPLE:   164    e.g. [[-31, 431, 14265], [-28, 383, 13905]]
+  Z/63      compatible:   183   ABS-SIMPLE:   131    e.g. [[-27, 379, 13797], [-26, 357, 13671]]
+  Z/70      compatible:   163   ABS-SIMPLE:   108    e.g. [[-30, 410, 14140], [-27, 372, 13790]]
+  Z/7xZ/7   compatible:    39   ABS-SIMPLE:    18    e.g. [[-23, 277, 13279], [-16, 123, 12397]]
+  Z/5xZ/10  compatible:    49   ABS-SIMPLE:    22    e.g. [[-22, 252, 13150], [-17, 172, 12550]]
+  Z/2xZ/24  compatible:   243   ABS-SIMPLE:   144    e.g. [[-29, 390, 14016], [-25, 326, 13536]]
+  Z/3xZ/12  compatible:   323   ABS-SIMPLE:   189    e.g. [[-30, 418, 14148], [-28, 374, 13896]]
+  Z/40 CTL  compatible:   288   ABS-SIMPLE:   185    e.g. [[-25, 310, 13520], [-24, 294, 13400]]
+  Z/30 CTL  compatible:   387   ABS-SIMPLE:   235    e.g. [[-29, 384, 14010], [-28, 368, 13890]]
+  Z/48 CTL  compatible:   243   ABS-SIMPLE:   144    e.g. [[-29, 390, 14016], [-25, 326, 13536]]
+
+########## p = 107 : 11839 Weil-admissible isogeny classes
+  Z/35      compatible:   339   ABS-SIMPLE:   254    e.g. [[-32, 459, 15365], [-29, 398, 14980]]
+  Z/45      compatible:   270   ABS-SIMPLE:   179    e.g. [[-34, 493, 15615], [-29, 403, 14985]]
+  Z/63      compatible:   196   ABS-SIMPLE:   122    e.g. [[-19, 295, 13797], [-18, 277, 13671]]
+  Z/70      compatible:   170   ABS-SIMPLE:   115    e.g. [[-29, 398, 14980], [-28, 366, 14840]]
+  Z/7xZ/7   compatible:    39   ABS-SIMPLE:    17    e.g. [[-15, 111, 13181], [-15, 209, 13279]]
+  Z/5xZ/10  compatible:    52   ABS-SIMPLE:    25    e.g. [[-24, 308, 14350], [-19, 198, 13700]]
+  Z/2xZ/24  compatible:   258   ABS-SIMPLE:   153    e.g. [[-27, 370, 14736], [-25, 346, 14496]]
+  Z/3xZ/12  compatible:   116   ABS-SIMPLE:    62    e.g. [[-27, 358, 14724], [-24, 286, 14328]]
+  Z/40 CTL  compatible:   306   ABS-SIMPLE:   198    e.g. [[-28, 366, 14840], [-26, 342, 14600]]
+  Z/30 CTL  compatible:   408   ABS-SIMPLE:   261    e.g. [[-36, 532, 15870], [-29, 388, 14970]]
+  Z/48 CTL  compatible:   258   ABS-SIMPLE:   153    e.g. [[-27, 370, 14736], [-25, 346, 14496]]
+
+########## p = 109 : 12173 Weil-admissible isogeny classes
+  Z/35      compatible:   355   ABS-SIMPLE:   263    e.g. [[-33, 483, 15995], [-32, 453, 15855]]
+  Z/45      compatible:   279   ABS-SIMPLE:   179    e.g. [[-35, 513, 16245], [-30, 433, 15615]]
+  Z/63      compatible:   201   ABS-SIMPLE:   121    e.g. [[-23, 267, 14679], [-22, 251, 14553]]
+  Z/70      compatible:   179   ABS-SIMPLE:   118    e.g. [[-30, 428, 15610], [-28, 368, 15330]]
+  Z/7xZ/7   compatible:    40   ABS-SIMPLE:    19    e.g. [[-25, 313, 14945], [-18, 201, 14063]]
+  Z/5xZ/10  compatible:    57   ABS-SIMPLE:    16    e.g. [[-20, 268, 14350], [-15, 168, 13700]]
+  Z/2xZ/24  compatible:   263   ABS-SIMPLE:   152    e.g. [[-27, 364, 15216], [-26, 330, 15072]]
+  Z/3xZ/12  compatible:   351   ABS-SIMPLE:   213    e.g. [[-31, 440, 15732], [-28, 374, 15336]]
+  Z/40 CTL  compatible:   313   ABS-SIMPLE:   200    e.g. [[-27, 348, 15200], [-25, 328, 14960]]
+  Z/30 CTL  compatible:   420   ABS-SIMPLE:   257    e.g. [[-32, 468, 15870], [-28, 368, 15330]]
+  Z/48 CTL  compatible:   263   ABS-SIMPLE:   152    e.g. [[-27, 364, 15216], [-26, 330, 15072]]
+
+########## p = 113 : 12849 Weil-admissible isogeny classes
+  Z/35      compatible:   373   ABS-SIMPLE:   279    e.g. [[-34, 504, 17150], [-31, 461, 16765]]
+  Z/45      compatible:   307   ABS-SIMPLE:   206    e.g. [[-27, 397, 16245], [-26, 376, 16110]]
+  Z/63      compatible:   212   ABS-SIMPLE:   134    e.g. [[-25, 319, 15939], [-24, 307, 15813]]
+  Z/70      compatible:   188   ABS-SIMPLE:   129    e.g. [[-34, 504, 17150], [-27, 392, 16240]]
+  Z/7xZ/7   compatible:   267   ABS-SIMPLE:   188    e.g. [[-34, 504, 17150], [-30, 421, 16611]]
+  Z/5xZ/10  compatible:    57   ABS-SIMPLE:    27    e.g. [[-22, 272, 15550], [-17, 192, 14900]]
+  Z/2xZ/24  compatible:   279   ABS-SIMPLE:   165    e.g. [[-31, 448, 16752], [-30, 418, 16608]]
+  Z/3xZ/12  compatible:   129   ABS-SIMPLE:    60    e.g. [[-24, 298, 15804], [-21, 244, 15408]]
+  Z/40 CTL  compatible:   329   ABS-SIMPLE:   217    e.g. [[-32, 462, 16880], [-31, 456, 16760]]
+  Z/30 CTL  compatible:   441   ABS-SIMPLE:   290    e.g. [[-32, 472, 16890], [-30, 430, 16620]]
+  Z/48 CTL  compatible:   279   ABS-SIMPLE:   165    e.g. [[-31, 448, 16752], [-30, 418, 16608]]
+
+########## p = 127 : 15301 Weil-admissible isogeny classes
+  Z/35      compatible:   436   ABS-SIMPLE:   336    e.g. [[-37, 589, 21455], [-31, 447, 20545]]
+  Z/45      compatible:   348   ABS-SIMPLE:   238    e.g. [[-34, 533, 21015], [-31, 467, 20565]]
+  Z/63      compatible:   252   ABS-SIMPLE:   167    e.g. [[-33, 499, 20853], [-30, 442, 20412]]
+  Z/70      compatible:   223   ABS-SIMPLE:   142    e.g. [[-26, 352, 19810], [-25, 340, 19670]]
+  Z/7xZ/7   compatible:   317   ABS-SIMPLE:   235    e.g. [[-27, 357, 19943], [-25, 319, 19649]]
+  Z/5xZ/10  compatible:    69   ABS-SIMPLE:    33    e.g. [[-24, 348, 19550], [-19, 238, 18800]]
+  Z/2xZ/24  compatible:   329   ABS-SIMPLE:   212    e.g. [[-31, 446, 20544], [-29, 414, 20256]]
+  Z/3xZ/12  compatible:   442   ABS-SIMPLE:   264    e.g. [[-31, 458, 20556], [-30, 442, 20412]]
+  Z/40 CTL  compatible:   393   ABS-SIMPLE:   272    e.g. [[-35, 550, 21160], [-31, 462, 20560]]
+  Z/30 CTL  compatible:   525   ABS-SIMPLE:   343    e.g. [[-32, 504, 20730], [-30, 460, 20430]]
+  Z/48 CTL  compatible:   329   ABS-SIMPLE:   212    e.g. [[-31, 446, 20544], [-29, 414, 20256]]
+
+########## p = 131 : 16031 Weil-admissible isogeny classes
+  Z/35      compatible:   465   ABS-SIMPLE:   356    e.g. [[-37, 599, 22645], [-34, 540, 22190]]
+  Z/45      compatible:   364   ABS-SIMPLE:   259    e.g. [[-37, 589, 22635], [-32, 484, 21870]]
+  Z/63      compatible:   262   ABS-SIMPLE:   177    e.g. [[-32, 475, 21861], [-31, 481, 21735]]
+  Z/70      compatible:   238   ABS-SIMPLE:   150    e.g. [[-34, 540, 22190], [-26, 336, 20930]]
+  Z/7xZ/7   compatible:    52   ABS-SIMPLE:    24    e.g. [[-23, 333, 20531], [-16, 179, 19453]]
+  Z/5xZ/10  compatible:   331   ABS-SIMPLE:   217    e.g. [[-30, 428, 21550], [-29, 410, 21400]]
+  Z/2xZ/24  compatible:   346   ABS-SIMPLE:   229    e.g. [[-39, 634, 22944], [-30, 430, 21552]]
+  Z/3xZ/12  compatible:   155   ABS-SIMPLE:    92    e.g. [[-30, 442, 21564], [-27, 370, 21096]]
+  Z/40 CTL  compatible:   409   ABS-SIMPLE:   284    e.g. [[-37, 594, 22640], [-36, 566, 22480]]
+  Z/30 CTL  compatible:   548   ABS-SIMPLE:   370    e.g. [[-34, 520, 22170], [-33, 502, 22020]]
+  Z/48 CTL  compatible:   346   ABS-SIMPLE:   229    e.g. [[-39, 634, 22944], [-30, 430, 21552]]
+
+########## p = 137 : 17143 Weil-admissible isogeny classes
+  Z/35      compatible:   497   ABS-SIMPLE:   383    e.g. [[-36, 587, 24325], [-34, 548, 24010]]
+  Z/45      compatible:   389   ABS-SIMPLE:   278    e.g. [[-39, 643, 24795], [-35, 565, 24165]]
+  Z/63      compatible:   279   ABS-SIMPLE:   191    e.g. [[-36, 580, 24318], [-34, 541, 24003]]
+  Z/70      compatible:   253   ABS-SIMPLE:   166    e.g. [[-34, 548, 24010], [-30, 470, 23380]]
+  Z/7xZ/7   compatible:    57   ABS-SIMPLE:    28    e.g. [[-25, 369, 22589], [-18, 208, 21462]]
+  Z/5xZ/10  compatible:    76   ABS-SIMPLE:    36    e.g. [[-24, 368, 22450], [-19, 258, 21650]]
+  Z/2xZ/24  compatible:   367   ABS-SIMPLE:   238    e.g. [[-33, 532, 23856], [-32, 478, 23664]]
+  Z/3xZ/12  compatible:   166   ABS-SIMPLE:    94    e.g. [[-33, 508, 23832], [-30, 454, 23364]]
+  Z/40 CTL  compatible:   445   ABS-SIMPLE:   278    e.g. [[-29, 468, 23240], [-28, 446, 23080]]
+  Z/30 CTL  compatible:   586   ABS-SIMPLE:   400    e.g. [[-38, 616, 24630], [-36, 592, 24330]]
+  Z/48 CTL  compatible:   367   ABS-SIMPLE:   238    e.g. [[-33, 532, 23856], [-32, 478, 23664]]
+
+########## p = 139 : 17519 Weil-admissible isogeny classes
+  Z/35      compatible:   508   ABS-SIMPLE:   398    e.g. [[-38, 628, 25270], [-35, 558, 24780]]
+  Z/45      compatible:   398   ABS-SIMPLE:   277    e.g. [[-39, 643, 25425], [-35, 573, 24795]]
+  Z/63      compatible:   287   ABS-SIMPLE:   187    e.g. [[-38, 621, 25263], [-32, 516, 24318]]
+  Z/70      compatible:   256   ABS-SIMPLE:   170    e.g. [[-38, 628, 25270], [-35, 558, 24780]]
+  Z/7xZ/7   compatible:    56   ABS-SIMPLE:    20    e.g. [[-21, 229, 22491], [-21, 327, 22589]]
+  Z/5xZ/10  compatible:    76   ABS-SIMPLE:    32    e.g. [[-25, 328, 23150], [-20, 228, 22350]]
+  Z/2xZ/24  compatible:   376   ABS-SIMPLE:   250    e.g. [[-37, 602, 25104], [-32, 486, 24288]]
+  Z/3xZ/12  compatible:   500   ABS-SIMPLE:   322    e.g. [[-31, 458, 24120], [-31, 494, 24156]]
+  Z/40 CTL  compatible:   452   ABS-SIMPLE:   294    e.g. [[-32, 478, 24280], [-31, 458, 24120]]
+  Z/30 CTL  compatible:   597   ABS-SIMPLE:   405    e.g. [[-40, 668, 25590], [-35, 558, 24780]]
+  Z/48 CTL  compatible:   376   ABS-SIMPLE:   250    e.g. [[-37, 602, 25104], [-32, 486, 24288]]
+
+########## p = 149 : 19441 Weil-admissible isogeny classes
+  Z/35      compatible:   559   ABS-SIMPLE:   446    e.g. [[-37, 633, 28385], [-36, 608, 28210]]
+  Z/45      compatible:   438   ABS-SIMPLE:   316    e.g. [[-40, 688, 28890], [-35, 583, 28035]]
+  Z/63      compatible:   332   ABS-SIMPLE:   225    e.g. [[-38, 637, 28539], [-35, 583, 28035]]
+  Z/70      compatible:   285   ABS-SIMPLE:   192    e.g. [[-36, 608, 28210], [-34, 558, 27860]]
+  Z/7xZ/7   compatible:    63   ABS-SIMPLE:    34    e.g. [[-29, 447, 26999], [-22, 272, 25774]]
+  Z/5xZ/10  compatible:    84   ABS-SIMPLE:    40    e.g. [[-30, 448, 27150], [-25, 348, 26300]]
+  Z/2xZ/24  compatible:   416   ABS-SIMPLE:   274    e.g. [[-37, 616, 28368], [-35, 580, 28032]]
+  Z/3xZ/12  compatible:   191   ABS-SIMPLE:   102    e.g. [[-33, 532, 27684], [-30, 478, 27180]]
+  Z/40 CTL  compatible:   494   ABS-SIMPLE:   353    e.g. [[-39, 668, 28720], [-37, 608, 28360]]
+  Z/30 CTL  compatible:   660   ABS-SIMPLE:   472    e.g. [[-40, 688, 28890], [-36, 598, 28200]]
+  Z/48 CTL  compatible:   416   ABS-SIMPLE:   274    e.g. [[-37, 616, 28368], [-35, 580, 28032]]
+
+########## p = 151 : 19833 Weil-admissible isogeny classes
+  Z/35      compatible:   578   ABS-SIMPLE:   425    e.g. [[-33, 567, 28385], [-32, 544, 28210]]
+  Z/45      compatible:   447   ABS-SIMPLE:   322    e.g. [[-41, 711, 29745], [-40, 683, 29565]]
+  Z/63      compatible:   317   ABS-SIMPLE:   247    e.g. [[-37, 617, 29043], [-34, 569, 28539]]
+  Z/70      compatible:   295   ABS-SIMPLE:   187    e.g. [[-32, 544, 28210], [-30, 498, 27860]]
+  Z/7xZ/7   compatible:    63   ABS-SIMPLE:    35    e.g. [[-25, 397, 26999], [-18, 236, 25774]]
+  Z/5xZ/10  compatible:   406   ABS-SIMPLE:   282    e.g. [[-34, 580, 28550], [-32, 534, 28200]]
+  Z/2xZ/24  compatible:   425   ABS-SIMPLE:   278    e.g. [[-35, 582, 28704], [-33, 550, 28368]]
+  Z/3xZ/12  compatible:   564   ABS-SIMPLE:   388    e.g. [[-37, 626, 29052], [-36, 598, 28872]]
+  Z/40 CTL  compatible:   505   ABS-SIMPLE:   356    e.g. [[-36, 606, 28880], [-35, 598, 28720]]
+  Z/30 CTL  compatible:   671   ABS-SIMPLE:   477    e.g. [[-44, 780, 30270], [-38, 642, 29220]]
+  Z/48 CTL  compatible:   425   ABS-SIMPLE:   278    e.g. [[-35, 582, 28704], [-33, 550, 28368]]
+
+########## p = 157 : 21027 Weil-admissible isogeny classes
+  Z/35      compatible:   616   ABS-SIMPLE:   452    e.g. [[-37, 619, 31115], [-35, 585, 30765]]
+  Z/45      compatible:   481   ABS-SIMPLE:   313    e.g. [[-31, 467, 30015], [-30, 445, 29835]]
+  Z/63      compatible:   338   ABS-SIMPLE:   255    e.g. [[-38, 657, 31311], [-36, 595, 30933]]
+  Z/70      compatible:   313   ABS-SIMPLE:   194    e.g. [[-34, 568, 30590], [-33, 516, 30380]]
+  Z/7xZ/7   compatible:    71   ABS-SIMPLE:    35    e.g. [[-27, 435, 29351], [-20, 267, 28077]]
+  Z/5xZ/10  compatible:    90   ABS-SIMPLE:    49    e.g. [[-29, 418, 29650], [-24, 308, 28750]]
+  Z/2xZ/24  compatible:   451   ABS-SIMPLE:   302    e.g. [[-39, 676, 31488], [-38, 642, 31296]]
+  Z/3xZ/12  compatible:   601   ABS-SIMPLE:   391    e.g. [[-34, 542, 30564], [-32, 498, 30204]]
+  Z/40 CTL  compatible:   535   ABS-SIMPLE:   376    e.g. [[-39, 668, 31480], [-37, 624, 31120]]
+  Z/30 CTL  compatible:   716   ABS-SIMPLE:   491    e.g. [[-36, 592, 30930], [-35, 570, 30750]]
+  Z/48 CTL  compatible:   451   ABS-SIMPLE:   302    e.g. [[-39, 676, 31488], [-38, 642, 31296]]
+
+########## p = 163 : 22239 Weil-admissible isogeny classes
+  Z/35      compatible:   646   ABS-SIMPLE:   481    e.g. [[-43, 783, 34405], [-40, 715, 33845]]
+  Z/45      compatible:   502   ABS-SIMPLE:   369    e.g. [[-35, 585, 32895], [-34, 569, 32715]]
+  Z/63      compatible:   373   ABS-SIMPLE:   254    e.g. [[-33, 589, 32571], [-32, 564, 32382]]
+  Z/70      compatible:   327   ABS-SIMPLE:   208    e.g. [[-38, 658, 33460], [-36, 636, 33110]]
+  Z/7xZ/7   compatible:    73   ABS-SIMPLE:    37    e.g. [[-29, 475, 31801], [-22, 300, 30478]]
+  Z/5xZ/10  compatible:    93   ABS-SIMPLE:    52    e.g. [[-32, 532, 32350], [-27, 402, 31400]]
+  Z/2xZ/24  compatible:   474   ABS-SIMPLE:   334    e.g. [[-41, 738, 34032], [-39, 682, 33648]]
+  Z/3xZ/12  compatible:   635   ABS-SIMPLE:   418    e.g. [[-36, 610, 33084], [-35, 594, 32904]]
+  Z/40 CTL  compatible:   565   ABS-SIMPLE:   409    e.g. [[-43, 778, 34400], [-39, 674, 33640]]
+  Z/30 CTL  compatible:   754   ABS-SIMPLE:   541    e.g. [[-44, 804, 34590], [-38, 648, 33450]]
+  Z/48 CTL  compatible:   474   ABS-SIMPLE:   334    e.g. [[-41, 738, 34032], [-39, 682, 33648]]
+
+########## p = 167 : 23065 Weil-admissible isogeny classes
+  Z/35      compatible:   663   ABS-SIMPLE:   540    e.g. [[-42, 754, 35700], [-41, 747, 35525]]
+  Z/45      compatible:   521   ABS-SIMPLE:   392    e.g. [[-44, 808, 36090], [-41, 727, 35505]]
+  Z/63      compatible:   374   ABS-SIMPLE:   263    e.g. [[-33, 523, 33957], [-32, 502, 33768]]
+  Z/70      compatible:   332   ABS-SIMPLE:   255    e.g. [[-42, 754, 35700], [-39, 698, 35140]]
+  Z/7xZ/7   compatible:    72   ABS-SIMPLE:    34    e.g. [[-35, 579, 34349], [-28, 432, 33026]]
+  Z/5xZ/10  compatible:    98   ABS-SIMPLE:    57    e.g. [[-34, 548, 34150], [-29, 438, 33200]]
+  Z/2xZ/24  compatible:   494   ABS-SIMPLE:   308    e.g. [[-33, 598, 34032], [-31, 550, 33648]]
+  Z/3xZ/12  compatible:   225   ABS-SIMPLE:   126    e.g. [[-30, 442, 33372], [-30, 514, 33444]]
+  Z/40 CTL  compatible:   587   ABS-SIMPLE:   434    e.g. [[-45, 830, 36280], [-40, 710, 35320]]
+  Z/30 CTL  compatible:   785   ABS-SIMPLE:   571    e.g. [[-44, 808, 36090], [-42, 754, 35700]]
+  Z/48 CTL  compatible:   494   ABS-SIMPLE:   308    e.g. [[-33, 598, 34032], [-31, 550, 33648]]
+
+########## p = 173 : 24317 Weil-admissible isogeny classes
+  Z/35      compatible:   701   ABS-SIMPLE:   570    e.g. [[-45, 845, 38605], [-42, 772, 38010]]
+  Z/45      compatible:   549   ABS-SIMPLE:   405    e.g. [[-43, 793, 38205], [-38, 673, 37215]]
+  Z/63      compatible:   394   ABS-SIMPLE:   291    e.g. [[-35, 583, 36603], [-34, 568, 36414]]
+  Z/70      compatible:   352   ABS-SIMPLE:   264    e.g. [[-42, 772, 38010], [-37, 662, 37030]]
+  Z/7xZ/7   compatible:    75   ABS-SIMPLE:    46    e.g. [[-23, 270, 34202], [-23, 319, 34251]]
+  Z/5xZ/10  compatible:   108   ABS-SIMPLE:    56    e.g. [[-32, 552, 36050], [-27, 422, 35050]]
+  Z/2xZ/24  compatible:   517   ABS-SIMPLE:   358    e.g. [[-37, 640, 37008], [-36, 622, 36816]]
+  Z/3xZ/12  compatible:   234   ABS-SIMPLE:   142    e.g. [[-39, 688, 37404], [-33, 544, 36216]]
+  Z/40 CTL  compatible:   637   ABS-SIMPLE:   431    e.g. [[-37, 672, 37040], [-36, 646, 36840]]
+  Z/30 CTL  compatible:   828   ABS-SIMPLE:   579    e.g. [[-42, 772, 38010], [-39, 694, 37410]]
+  Z/48 CTL  compatible:   517   ABS-SIMPLE:   358    e.g. [[-37, 640, 37008], [-36, 622, 36816]]
+
+########## p = 179 : 25589 Weil-admissible isogeny classes
+  Z/35      compatible:   739   ABS-SIMPLE:   597    e.g. [[-47, 903, 41405], [-46, 873, 41195]]
+  Z/45      compatible:   574   ABS-SIMPLE:   444    e.g. [[-45, 853, 40995], [-41, 763, 40185]]
+  Z/63      compatible:   413   ABS-SIMPLE:   310    e.g. [[-46, 880, 41202], [-42, 781, 40383]]
+  Z/70      compatible:   369   ABS-SIMPLE:   277    e.g. [[-42, 788, 40390], [-40, 728, 39970]]
+  Z/7xZ/7   compatible:    80   ABS-SIMPLE:    43    e.g. [[-32, 516, 38318], [-25, 355, 36897]]
+  Z/5xZ/10  compatible:   107   ABS-SIMPLE:    50    e.g. [[-30, 458, 37900], [-30, 508, 37950]]
+  Z/2xZ/24  compatible:   545   ABS-SIMPLE:   392    e.g. [[-45, 850, 40992], [-42, 766, 40368]]
+  Z/3xZ/12  compatible:   246   ABS-SIMPLE:   146    e.g. [[-36, 610, 39132], [-33, 538, 38520]]
+  Z/40 CTL  compatible:   654   ABS-SIMPLE:   464    e.g. [[-40, 718, 39960], [-39, 698, 39760]]
+  Z/30 CTL  compatible:   866   ABS-SIMPLE:   650    e.g. [[-48, 928, 41610], [-42, 778, 40380]]
+  Z/48 CTL  compatible:   545   ABS-SIMPLE:   392    e.g. [[-45, 850, 40992], [-42, 766, 40368]]
+
+########## p = 181 : 26019 Weil-admissible isogeny classes
+  Z/35      compatible:   749   ABS-SIMPLE:   620    e.g. [[-43, 817, 41405], [-42, 789, 41195]]
+  Z/45      compatible:   587   ABS-SIMPLE:   444    e.g. [[-45, 853, 41805], [-41, 771, 40995]]
+  Z/63      compatible:   422   ABS-SIMPLE:   312    e.g. [[-43, 803, 41391], [-42, 796, 41202]]
+  Z/70      compatible:   375   ABS-SIMPLE:   294    e.g. [[-38, 712, 40390], [-36, 656, 39970]]
+  Z/7xZ/7   compatible:    81   ABS-SIMPLE:    42    e.g. [[-35, 607, 39739], [-28, 411, 38269]]
+  Z/5xZ/10  compatible:   529   ABS-SIMPLE:   398    e.g. [[-39, 690, 40550], [-38, 672, 40350]]
+  Z/2xZ/24  compatible:   557   ABS-SIMPLE:   374    e.g. [[-41, 768, 40992], [-38, 690, 40368]]
+  Z/3xZ/12  compatible:   738   ABS-SIMPLE:   516    e.g. [[-46, 878, 42012], [-41, 744, 40968]]
+  Z/40 CTL  compatible:   662   ABS-SIMPLE:   464    e.g. [[-40, 718, 40760], [-38, 682, 40360]]
+  Z/30 CTL  compatible:   881   ABS-SIMPLE:   665    e.g. [[-44, 840, 41610], [-42, 784, 41190]]
+  Z/48 CTL  compatible:   557   ABS-SIMPLE:   374    e.g. [[-41, 768, 40992], [-38, 690, 40368]]
+
+########## p = 191 : 28203 Weil-admissible isogeny classes
+  Z/35      compatible:   818   ABS-SIMPLE:   631    e.g. [[-49, 975, 46865], [-41, 761, 45115]]
+  Z/45      compatible:   636   ABS-SIMPLE:   482    e.g. [[-46, 901, 46215], [-44, 835, 45765]]
+  Z/63      compatible:   459   ABS-SIMPLE:   335    e.g. [[-47, 925, 46431], [-43, 811, 45549]]
+  Z/70      compatible:   414   ABS-SIMPLE:   283    e.g. [[-38, 672, 44450], [-37, 654, 44240]]
+  Z/7xZ/7   compatible:    88   ABS-SIMPLE:    51    e.g. [[-29, 433, 42483], [-29, 531, 42581]]
+  Z/5xZ/10  compatible:   575   ABS-SIMPLE:   433    e.g. [[-48, 952, 46650], [-45, 878, 46000]]
+  Z/2xZ/24  compatible:   602   ABS-SIMPLE:   428    e.g. [[-45, 862, 45984], [-41, 766, 45120]]
+  Z/3xZ/12  compatible:   272   ABS-SIMPLE:   160    e.g. [[-36, 634, 44028], [-33, 562, 43380]]
+  Z/40 CTL  compatible:   715   ABS-SIMPLE:   548    e.g. [[-45, 878, 46000], [-43, 822, 45560]]
+  Z/30 CTL  compatible:   956   ABS-SIMPLE:   699    e.g. [[-48, 952, 46650], [-42, 784, 45330]]
+  Z/48 CTL  compatible:   602   ABS-SIMPLE:   428    e.g. [[-45, 862, 45984], [-41, 766, 45120]]
+
+########## p = 193 : 28647 Weil-admissible isogeny classes
+  Z/35      compatible:   824   ABS-SIMPLE:   643    e.g. [[-46, 901, 47075], [-45, 885, 46865]]
+  Z/45      compatible:   645   ABS-SIMPLE:   499    e.g. [[-47, 927, 47295], [-46, 896, 47070]]
+  Z/63      compatible:   465   ABS-SIMPLE:   335    e.g. [[-43, 839, 46431], [-40, 728, 45738]]
+  Z/70      compatible:   418   ABS-SIMPLE:   286    e.g. [[-37, 652, 45080], [-36, 636, 44870]]
+  Z/7xZ/7   compatible:    89   ABS-SIMPLE:    52    e.g. [[-39, 705, 45521], [-32, 544, 44002]]
+  Z/5xZ/10  compatible:   121   ABS-SIMPLE:    69    e.g. [[-32, 592, 44050], [-27, 462, 42950]]
+  Z/2xZ/24  compatible:   610   ABS-SIMPLE:   425    e.g. [[-43, 824, 46416], [-41, 780, 45984]]
+  Z/3xZ/12  compatible:   813   ABS-SIMPLE:   569    e.g. [[-43, 812, 46404], [-42, 790, 46188]]
+  Z/40 CTL  compatible:   726   ABS-SIMPLE:   536    e.g. [[-41, 756, 45960], [-41, 796, 46000]]
+  Z/30 CTL  compatible:   969   ABS-SIMPLE:   722    e.g. [[-46, 896, 47070], [-44, 864, 46650]]
+  Z/48 CTL  compatible:   610   ABS-SIMPLE:   425    e.g. [[-43, 824, 46416], [-41, 780, 45984]]
+
+########## p = 197 : 29545 Weil-admissible isogeny classes
+  Z/35      compatible:   857   ABS-SIMPLE:   663    e.g. [[-45, 895, 48615], [-44, 848, 48370]]
+  Z/45      compatible:   674   ABS-SIMPLE:   474    e.g. [[-39, 763, 47295], [-38, 736, 47070]]
+  Z/63      compatible:   477   ABS-SIMPLE:   355    e.g. [[-42, 817, 47943], [-41, 763, 47691]]
+  Z/70      compatible:   436   ABS-SIMPLE:   295    e.g. [[-44, 848, 48370], [-42, 824, 47950]]
+  Z/7xZ/7   compatible:   608   ABS-SIMPLE:   491    e.g. [[-47, 933, 49049], [-43, 843, 48167]]
+  Z/5xZ/10  compatible:   130   ABS-SIMPLE:    72    e.g. [[-34, 608, 46150], [-29, 498, 45050]]
+  Z/2xZ/24  compatible:   627   ABS-SIMPLE:   445    e.g. [[-43, 820, 48144], [-40, 742, 47472]]
+  Z/3xZ/12  compatible:   284   ABS-SIMPLE:   182    e.g. [[-42, 790, 47916], [-39, 736, 47268]]
+  Z/40 CTL  compatible:   754   ABS-SIMPLE:   551    e.g. [[-42, 794, 47920], [-41, 792, 47720]]
+  Z/30 CTL  compatible:  1007   ABS-SIMPLE:   728    e.g. [[-44, 868, 48390], [-42, 814, 47940]]
+  Z/48 CTL  compatible:   627   ABS-SIMPLE:   445    e.g. [[-43, 820, 48144], [-40, 742, 47472]]
+
+########## p = 199 : 29993 Weil-admissible isogeny classes
+  Z/35      compatible:   867   ABS-SIMPLE:   680    e.g. [[-47, 943, 49945], [-45, 888, 49490]]
+  Z/45      compatible:   680   ABS-SIMPLE:   486    e.g. [[-39, 703, 48105], [-37, 653, 47655]]
+  Z/63      compatible:   484   ABS-SIMPLE:   364    e.g. [[-46, 905, 49707], [-44, 864, 49266]]
+  Z/70      compatible:   440   ABS-SIMPLE:   306    e.g. [[-45, 888, 49490], [-42, 788, 48790]]
+  Z/7xZ/7   compatible:    93   ABS-SIMPLE:    57    e.g. [[-34, 589, 46991], [-27, 372, 45374]]
+  Z/5xZ/10  compatible:   126   ABS-SIMPLE:    68    e.g. [[-40, 748, 48350], [-35, 598, 47200]]
+  Z/2xZ/24  compatible:   637   ABS-SIMPLE:   452    e.g. [[-45, 886, 49488], [-41, 774, 48576]]
+  Z/3xZ/12  compatible:   851   ABS-SIMPLE:   588    e.g. [[-46, 914, 49716], [-40, 746, 48348]]
+  Z/40 CTL  compatible:   760   ABS-SIMPLE:   570    e.g. [[-45, 878, 49480], [-43, 838, 49040]]
+  Z/30 CTL  compatible:  1014   ABS-SIMPLE:   740    e.g. [[-46, 908, 49710], [-44, 858, 49260]]
+  Z/48 CTL  compatible:   637   ABS-SIMPLE:   452    e.g. [[-45, 886, 49488], [-41, 774, 48576]]
+
+########## p = 211 : 32743 Weil-admissible isogeny classes
+  Z/35      compatible:   943   ABS-SIMPLE:   783    e.g. [[-48, 987, 55685], [-46, 921, 55195]]
+  Z/45      compatible:   739   ABS-SIMPLE:   564    e.g. [[-46, 941, 55215], [-43, 857, 54495]]
+  Z/63      compatible:   529   ABS-SIMPLE:   391    e.g. [[-52, 1091, 56637], [-43, 857, 54495]]
+  Z/70      compatible:   478   ABS-SIMPLE:   353    e.g. [[-45, 888, 54950], [-42, 824, 54250]]
+  Z/7xZ/7   compatible:   677   ABS-SIMPLE:   557    e.g. [[-51, 1065, 56399], [-50, 1032, 56154]]
+  Z/5xZ/10  compatible:   663   ABS-SIMPLE:   505    e.g. [[-47, 964, 55450], [-45, 888, 54950]]
+  Z/2xZ/24  compatible:   702   ABS-SIMPLE:   477    e.g. [[-41, 834, 54048], [-39, 778, 53568]]
+  Z/3xZ/12  compatible:   925   ABS-SIMPLE:   673    e.g. [[-45, 910, 54972], [-43, 830, 54468]]
+  Z/40 CTL  compatible:   837   ABS-SIMPLE:   603    e.g. [[-41, 826, 54040], [-40, 798, 53800]]
+  Z/30 CTL  compatible:  1108   ABS-SIMPLE:   810    e.g. [[-44, 900, 54750], [-42, 844, 54270]]
+  Z/48 CTL  compatible:   702   ABS-SIMPLE:   477    e.g. [[-41, 834, 54048], [-39, 778, 53568]]
+
+########## p = 223 : 35573 Weil-admissible isogeny classes
+  Z/35      compatible:  1029   ABS-SIMPLE:   819    e.g. [[-46, 936, 60970], [-45, 915, 60725]]
+  Z/45      compatible:   799   ABS-SIMPLE:   615    e.g. [[-51, 1081, 62235], [-48, 988, 61470]]
+  Z/63      compatible:   575   ABS-SIMPLE:   424    e.g. [[-39, 817, 59283], [-38, 789, 59031]]
+  Z/70      compatible:   520   ABS-SIMPLE:   367    e.g. [[-46, 936, 60970], [-42, 852, 59990]]
+  Z/7xZ/7   compatible:   111   ABS-SIMPLE:    52    e.g. [[-35, 691, 58261], [-28, 397, 56399]]
+  Z/5xZ/10  compatible:   150   ABS-SIMPLE:    91    e.g. [[-42, 812, 59950], [-37, 682, 58700]]
+  Z/2xZ/24  compatible:   753   ABS-SIMPLE:   571    e.g. [[-49, 1022, 61728], [-47, 990, 61248]]
+  Z/3xZ/12  compatible:  1005   ABS-SIMPLE:   714    e.g. [[-42, 874, 60012], [-40, 818, 59508]]
+  Z/40 CTL  compatible:   903   ABS-SIMPLE:   674    e.g. [[-51, 1086, 62240], [-48, 998, 61480]]
+  Z/30 CTL  compatible:  1202   ABS-SIMPLE:   903    e.g. [[-52, 1112, 62490], [-50, 1050, 61980]]
+  Z/48 CTL  compatible:   753   ABS-SIMPLE:   571    e.g. [[-49, 1022, 61728], [-47, 990, 61248]]
+
+########## p = 227 : 36535 Weil-admissible isogeny classes
+  Z/35      compatible:  1055   ABS-SIMPLE:   851    e.g. [[-55, 1205, 65275], [-52, 1119, 64505]]
+  Z/45      compatible:   821   ABS-SIMPLE:   639    e.g. [[-50, 1060, 63990], [-47, 979, 63225]]
+  Z/63      compatible:   590   ABS-SIMPLE:   448    e.g. [[-43, 847, 62181], [-42, 823, 61929]]
+  Z/70      compatible:   532   ABS-SIMPLE:   384    e.g. [[-48, 1016, 63490], [-44, 878, 62440]]
+  Z/7xZ/7   compatible:   113   ABS-SIMPLE:    76    e.g. [[-41, 813, 61691], [-34, 596, 59878]]
+  Z/5xZ/10  compatible:   154   ABS-SIMPLE:    96    e.g. [[-44, 888, 62450], [-39, 728, 61150]]
+  Z/2xZ/24  compatible:   776   ABS-SIMPLE:   567    e.g. [[-47, 970, 63216], [-45, 946, 62736]]
+  Z/3xZ/12  compatible:   356   ABS-SIMPLE:   220    e.g. [[-45, 922, 62712], [-42, 850, 61956]]
+  Z/40 CTL  compatible:   927   ABS-SIMPLE:   685    e.g. [[-53, 1146, 64760], [-48, 1006, 63480]]
+  Z/30 CTL  compatible:  1236   ABS-SIMPLE:   925    e.g. [[-50, 1060, 63990], [-48, 1006, 63480]]
+  Z/48 CTL  compatible:   776   ABS-SIMPLE:   567    e.g. [[-47, 970, 63216], [-45, 946, 62736]]
+
+########## p = 229 : 37015 Weil-admissible isogeny classes
+  Z/35      compatible:  1069   ABS-SIMPLE:   847    e.g. [[-51, 1103, 65275], [-48, 1023, 64505]]
+  Z/45      compatible:   831   ABS-SIMPLE:   649    e.g. [[-49, 1043, 64755], [-48, 1003, 64485]]
+  Z/63      compatible:   598   ABS-SIMPLE:   452    e.g. [[-44, 879, 63441], [-43, 857, 63189]]
+  Z/70      compatible:   541   ABS-SIMPLE:   381    e.g. [[-46, 958, 63980], [-44, 928, 63490]]
+  Z/7xZ/7   compatible:   116   ABS-SIMPLE:    71    e.g. [[-37, 739, 61691], [-30, 536, 59878]]
+  Z/5xZ/10  compatible:   165   ABS-SIMPLE:    80    e.g. [[-40, 808, 62450], [-35, 658, 61150]]
+  Z/2xZ/24  compatible:   785   ABS-SIMPLE:   566    e.g. [[-49, 1040, 64752], [-47, 972, 64224]]
+  Z/3xZ/12  compatible:  1046   ABS-SIMPLE:   765    e.g. [[-47, 972, 64224], [-46, 950, 63972]]
+  Z/40 CTL  compatible:   960   ABS-SIMPLE:   685    e.g. [[-49, 1048, 64760], [-47, 988, 64240]]
+  Z/30 CTL  compatible:  1253   ABS-SIMPLE:   930    e.g. [[-50, 1068, 65010], [-47, 978, 64230]]
+  Z/48 CTL  compatible:   785   ABS-SIMPLE:   566    e.g. [[-49, 1040, 64752], [-47, 972, 64224]]
+
+########## p = 233 : 37987 Weil-admissible isogeny classes
+  Z/35      compatible:  1097   ABS-SIMPLE:   892    e.g. [[-54, 1184, 68110], [-52, 1127, 67585]]
+  Z/45      compatible:   853   ABS-SIMPLE:   671    e.g. [[-52, 1132, 67590], [-47, 997, 66285]]
+  Z/63      compatible:   614   ABS-SIMPLE:   472    e.g. [[-53, 1159, 67851], [-43, 853, 65205]]
+  Z/70      compatible:   553   ABS-SIMPLE:   405    e.g. [[-54, 1184, 68110], [-50, 1070, 67060]]
+  Z/7xZ/7   compatible:   115   ABS-SIMPLE:    78    e.g. [[-43, 867, 65219], [-36, 643, 63357]]
+  Z/5xZ/10  compatible:   159   ABS-SIMPLE:   101    e.g. [[-42, 832, 64950], [-37, 702, 63650]]
+  Z/2xZ/24  compatible:   809   ABS-SIMPLE:   577    e.g. [[-47, 1000, 66288], [-45, 940, 65760]]
+  Z/3xZ/12  compatible:   366   ABS-SIMPLE:   220    e.g. [[-42, 862, 64980], [-39, 772, 64188]]
+  Z/40 CTL  compatible:   961   ABS-SIMPLE:   734    e.g. [[-49, 1044, 66800], [-47, 992, 66280]]
+  Z/30 CTL  compatible:  1281   ABS-SIMPLE:   969    e.g. [[-52, 1132, 67590], [-48, 1018, 66540]]
+  Z/48 CTL  compatible:   809   ABS-SIMPLE:   577    e.g. [[-47, 1000, 66288], [-45, 940, 65760]]
+
+########## p = 239 : 39463 Weil-admissible isogeny classes
+  Z/35      compatible:  1141   ABS-SIMPLE:   916    e.g. [[-53, 1173, 71015], [-52, 1133, 70735]]
+  Z/45      compatible:   892   ABS-SIMPLE:   658    e.g. [[-45, 973, 68895], [-44, 943, 68625]]
+  Z/63      compatible:   635   ABS-SIMPLE:   487    e.g. [[-52, 1147, 70749], [-48, 1036, 69678]]
+  Z/70      compatible:   578   ABS-SIMPLE:   411    e.g. [[-50, 1088, 70210], [-48, 1008, 69650]]
+  Z/7xZ/7   compatible:   813   ABS-SIMPLE:   677    e.g. [[-51, 1100, 70462], [-50, 1095, 70217]]
+  Z/5xZ/10  compatible:   168   ABS-SIMPLE:    82    e.g. [[-40, 828, 67550], [-35, 678, 66200]]
+  Z/2xZ/24  compatible:   834   ABS-SIMPLE:   630    e.g. [[-51, 1102, 70464], [-49, 1054, 69936]]
+  Z/3xZ/12  compatible:   377   ABS-SIMPLE:   240    e.g. [[-45, 946, 68868], [-42, 874, 68076]]
+  Z/40 CTL  compatible:   998   ABS-SIMPLE:   772    e.g. [[-51, 1118, 70480], [-49, 1038, 69920]]
+  Z/30 CTL  compatible:  1336   ABS-SIMPLE:   974    e.g. [[-48, 1048, 69690], [-46, 988, 69150]]
+  Z/48 CTL  compatible:   834   ABS-SIMPLE:   630    e.g. [[-51, 1102, 70464], [-49, 1054, 69936]]
+
+########## p = 241 : 39961 Weil-admissible isogeny classes
+  Z/35      compatible:  1150   ABS-SIMPLE:   969    e.g. [[-55, 1233, 72625], [-51, 1116, 71540]]
+  Z/45      compatible:   902   ABS-SIMPLE:   674    e.g. [[-43, 857, 69345], [-41, 801, 68805]]
+  Z/63      compatible:   653   ABS-SIMPLE:   495    e.g. [[-49, 1061, 71001], [-48, 1051, 70749]]
+  Z/70      compatible:   576   ABS-SIMPLE:   461    e.g. [[-51, 1116, 71540], [-50, 1078, 71260]]
+  Z/7xZ/7   compatible:   127   ABS-SIMPLE:    82    e.g. [[-41, 841, 68845], [-34, 624, 66934]]
+  Z/5xZ/10  compatible:   810   ABS-SIMPLE:   643    e.g. [[-54, 1200, 72350], [-52, 1134, 71800]]
+  Z/2xZ/24  compatible:   847   ABS-SIMPLE:   612    e.g. [[-47, 1008, 70464], [-45, 964, 69936]]
+  Z/3xZ/12  compatible:  1129   ABS-SIMPLE:   818    e.g. [[-47, 996, 70452], [-46, 950, 70164]]
+  Z/40 CTL  compatible:  1011   ABS-SIMPLE:   780    e.g. [[-52, 1134, 71800], [-49, 1060, 71000]]
+  Z/30 CTL  compatible:  1350   ABS-SIMPLE:  1031    e.g. [[-48, 1012, 70710], [-47, 984, 70440]]
+  Z/48 CTL  compatible:   847   ABS-SIMPLE:   612    e.g. [[-47, 1008, 70464], [-45, 964, 69936]]
+
+########## p = 251 : 42469 Weil-admissible isogeny classes
+  Z/35      compatible:  1226   ABS-SIMPLE:   998    e.g. [[-50, 1083, 76685], [-49, 1055, 76405]]
+  Z/45      compatible:   956   ABS-SIMPLE:   735    e.g. [[-56, 1276, 78390], [-52, 1159, 77265]]
+  Z/63      compatible:   672   ABS-SIMPLE:   520    e.g. [[-53, 1195, 77553], [-49, 1069, 76419]]
+  Z/70      compatible:   617   ABS-SIMPLE:   452    e.g. [[-40, 768, 73850], [-39, 740, 73570]]
+  Z/7xZ/7   compatible:   129   ABS-SIMPLE:    68    e.g. [[-42, 845, 74431], [-35, 649, 72471]]
+  Z/5xZ/10  compatible:   860   ABS-SIMPLE:   663    e.g. [[-50, 1098, 76700], [-48, 1052, 76150]]
+  Z/2xZ/24  compatible:   898   ABS-SIMPLE:   685    e.g. [[-57, 1306, 78672], [-51, 1138, 76992]]
+  Z/3xZ/12  compatible:   406   ABS-SIMPLE:   268    e.g. [[-51, 1114, 76968], [-45, 934, 75276]]
+  Z/40 CTL  compatible:  1077   ABS-SIMPLE:   829    e.g. [[-48, 1022, 76120], [-47, 994, 75840]]
+  Z/30 CTL  compatible:  1432   ABS-SIMPLE:  1112    e.g. [[-56, 1276, 78390], [-54, 1210, 77820]]
+  Z/48 CTL  compatible:   898   ABS-SIMPLE:   685    e.g. [[-57, 1306, 78672], [-51, 1138, 76992]]
+
+########## p = 257 : 44005 Weil-admissible isogeny classes
+  Z/35      compatible:  1270   ABS-SIMPLE:  1039    e.g. [[-57, 1319, 82075], [-50, 1095, 80045]]
+  Z/45      compatible:   984   ABS-SIMPLE:   789    e.g. [[-55, 1255, 81495], [-50, 1105, 80055]]
+  Z/63      compatible:   707   ABS-SIMPLE:   554    e.g. [[-54, 1225, 81207], [-49, 1066, 79758]]
+  Z/70      compatible:   642   ABS-SIMPLE:   476    e.g. [[-46, 972, 78890], [-45, 950, 78610]]
+  Z/7xZ/7   compatible:   134   ABS-SIMPLE:    88    e.g. [[-44, 900, 78302], [-37, 697, 76293]]
+  Z/5xZ/10  compatible:   189   ABS-SIMPLE:   118    e.g. [[-44, 948, 78350], [-39, 788, 76900]]
+  Z/2xZ/24  compatible:   935   ABS-SIMPLE:   671    e.g. [[-45, 1012, 78672], [-43, 952, 78096]]
+  Z/3xZ/12  compatible:   421   ABS-SIMPLE:   272    e.g. [[-42, 838, 77724], [-42, 910, 77796]]
+  Z/40 CTL  compatible:  1119   ABS-SIMPLE:   843    e.g. [[-49, 1068, 79760], [-48, 1046, 79480]]
+  Z/30 CTL  compatible:  1489   ABS-SIMPLE:  1145    e.g. [[-54, 1228, 81210], [-51, 1132, 80340]]
+  Z/48 CTL  compatible:   935   ABS-SIMPLE:   671    e.g. [[-45, 1012, 78672], [-43, 952, 78096]]
+
+########## p = 263 : 45551 Weil-admissible isogeny classes
+  Z/35      compatible:  1313   ABS-SIMPLE:  1081    e.g. [[-59, 1389, 86135], [-53, 1223, 84385]]
+  Z/45      compatible:  1021   ABS-SIMPLE:   826    e.g. [[-57, 1327, 85545], [-53, 1213, 84375]]
+  Z/63      compatible:   733   ABS-SIMPLE:   579    e.g. [[-53, 1195, 84357], [-50, 1105, 83475]]
+  Z/70      compatible:   661   ABS-SIMPLE:   492    e.g. [[-52, 1172, 84070], [-50, 1140, 83510]]
+  Z/7xZ/7   compatible:   138   ABS-SIMPLE:    92    e.g. [[-39, 747, 80213], [-39, 845, 80311]]
+  Z/5xZ/10  compatible:   190   ABS-SIMPLE:   126    e.g. [[-42, 842, 81100], [-42, 892, 81150]]
+  Z/2xZ/24  compatible:   966   ABS-SIMPLE:   704    e.g. [[-49, 1078, 83184], [-48, 1054, 82896]]
+  Z/3xZ/12  compatible:   434   ABS-SIMPLE:   294    e.g. [[-51, 1138, 83772], [-45, 958, 82008]]
+  Z/40 CTL  compatible:  1154   ABS-SIMPLE:   880    e.g. [[-52, 1182, 84080], [-51, 1166, 83800]]
+  Z/30 CTL  compatible:  1534   ABS-SIMPLE:  1197    e.g. [[-54, 1234, 84660], [-52, 1162, 84060]]
+  Z/48 CTL  compatible:   966   ABS-SIMPLE:   704    e.g. [[-49, 1078, 83184], [-48, 1054, 82896]]
+
+########## p = 269 : 47113 Weil-admissible isogeny classes
+  Z/35      compatible:  1356   ABS-SIMPLE:  1111    e.g. [[-58, 1368, 89390], [-55, 1268, 88480]]
+  Z/45      compatible:  1056   ABS-SIMPLE:   848    e.g. [[-56, 1303, 88785], [-53, 1213, 87885]]
+  Z/63      compatible:   759   ABS-SIMPLE:   599    e.g. [[-53, 1213, 87885], [-52, 1168, 87570]]
+  Z/70      compatible:   685   ABS-SIMPLE:   506    e.g. [[-58, 1368, 89390], [-55, 1268, 88480]]
+  Z/7xZ/7   compatible:   146   ABS-SIMPLE:    90    e.g. [[-41, 897, 84329], [-34, 582, 82124]]
+  Z/5xZ/10  compatible:   196   ABS-SIMPLE:   108    e.g. [[-40, 788, 83950], [-40, 888, 84050]]
+  Z/2xZ/24  compatible:  1000   ABS-SIMPLE:   735    e.g. [[-57, 1336, 89088], [-54, 1234, 88176]]
+  Z/3xZ/12  compatible:   448   ABS-SIMPLE:   298    e.g. [[-48, 1042, 86364], [-45, 952, 85464]]
+  Z/40 CTL  compatible:  1194   ABS-SIMPLE:   901    e.g. [[-55, 1268, 88480], [-53, 1208, 87880]]
+  Z/30 CTL  compatible:  1590   ABS-SIMPLE:  1208    e.g. [[-52, 1168, 87570], [-51, 1138, 87270]]
+  Z/48 CTL  compatible:  1000   ABS-SIMPLE:   735    e.g. [[-57, 1336, 89088], [-54, 1234, 88176]]
+
+########## p = 271 : 47641 Weil-admissible isogeny classes
+  Z/35      compatible:  1373   ABS-SIMPLE:  1135    e.g. [[-59, 1405, 90895], [-56, 1311, 89985]]
+  Z/45      compatible:  1070   ABS-SIMPLE:   847    e.g. [[-55, 1283, 89685], [-54, 1240, 89370]]
+  Z/63      compatible:   766   ABS-SIMPLE:   601    e.g. [[-58, 1376, 90594], [-52, 1181, 88767]]
+  Z/70      compatible:   692   ABS-SIMPLE:   523    e.g. [[-54, 1260, 89390], [-52, 1174, 88760]]
+  Z/7xZ/7   compatible:   144   ABS-SIMPLE:    99    e.g. [[-44, 928, 86338], [-37, 725, 84231]]
+  Z/5xZ/10  compatible:   967   ABS-SIMPLE:   731    e.g. [[-50, 1108, 88150], [-49, 1080, 87850]]
+  Z/2xZ/24  compatible:  1013   ABS-SIMPLE:   734    e.g. [[-53, 1230, 89088], [-50, 1134, 88176]]
+  Z/3xZ/12  compatible:  1343   ABS-SIMPLE:  1008    e.g. [[-55, 1274, 89676], [-54, 1258, 89388]]
+  Z/40 CTL  compatible:  1210   ABS-SIMPLE:   916    e.g. [[-53, 1222, 89080], [-52, 1174, 88760]]
+  Z/30 CTL  compatible:  1607   ABS-SIMPLE:  1217    e.g. [[-54, 1240, 89370], [-53, 1212, 89070]]
+  Z/48 CTL  compatible:  1013   ABS-SIMPLE:   734    e.g. [[-53, 1230, 89088], [-50, 1134, 88176]]
+
+########## p = 277 : 49227 Weil-admissible isogeny classes
+  Z/35      compatible:  1431   ABS-SIMPLE:  1174    e.g. [[-61, 1477, 95165], [-56, 1327, 93625]]
+  Z/45      compatible:  1103   ABS-SIMPLE:   889    e.g. [[-59, 1413, 94545], [-54, 1273, 93015]]
+  Z/63      compatible:   791   ABS-SIMPLE:   620    e.g. [[-57, 1357, 93933], [-56, 1320, 93618]]
+  Z/70      compatible:   720   ABS-SIMPLE:   535    e.g. [[-53, 1216, 92680], [-50, 1140, 91770]]
+  Z/7xZ/7   compatible:   154   ABS-SIMPLE:    98    e.g. [[-46, 985, 90503], [-39, 775, 88347]]
+  Z/5xZ/10  compatible:   207   ABS-SIMPLE:   129    e.g. [[-44, 988, 89950], [-39, 828, 88400]]
+  Z/2xZ/24  compatible:  1040   ABS-SIMPLE:   798    e.g. [[-55, 1292, 93312], [-53, 1224, 92688]]
+  Z/3xZ/12  compatible:  1387   ABS-SIMPLE:  1052    e.g. [[-57, 1348, 93924], [-55, 1292, 93312]]
+  Z/40 CTL  compatible:  1243   ABS-SIMPLE:   981    e.g. [[-57, 1344, 93920], [-55, 1300, 93320]]
+  Z/30 CTL  compatible:  1658   ABS-SIMPLE:  1291    e.g. [[-56, 1332, 93630], [-52, 1184, 92370]]
+  Z/48 CTL  compatible:  1040   ABS-SIMPLE:   798    e.g. [[-55, 1292, 93312], [-53, 1224, 92688]]
+
+########## p = 281 : 50301 Weil-admissible isogeny classes
+  Z/35      compatible:  1447   ABS-SIMPLE:  1186    e.g. [[-53, 1257, 95165], [-52, 1224, 94850]]
+  Z/45      compatible:  1136   ABS-SIMPLE:   869    e.g. [[-51, 1201, 94545], [-50, 1168, 94230]]
+  Z/63      compatible:   826   ABS-SIMPLE:   602    e.g. [[-49, 1153, 93933], [-48, 1120, 93618]]
+  Z/70      compatible:   729   ABS-SIMPLE:   540    e.g. [[-52, 1224, 94850], [-50, 1158, 94220]]
+  Z/7xZ/7   compatible:  1034   ABS-SIMPLE:   879    e.g. [[-56, 1335, 96089], [-54, 1262, 95452]]
+  Z/5xZ/10  compatible:  1018   ABS-SIMPLE:   770    e.g. [[-54, 1260, 95450], [-53, 1242, 95150]]
+  Z/2xZ/24  compatible:  1063   ABS-SIMPLE:   810    e.g. [[-53, 1228, 95136], [-51, 1168, 94512]]
+  Z/3xZ/12  compatible:   478   ABS-SIMPLE:   314    e.g. [[-48, 1066, 93564], [-45, 976, 92628]]
+  Z/40 CTL  compatible:  1272   ABS-SIMPLE:  1007    e.g. [[-56, 1326, 96080], [-54, 1250, 95440]]
+  Z/30 CTL  compatible:  1697   ABS-SIMPLE:  1308    e.g. [[-56, 1336, 96090], [-54, 1270, 95460]]
+  Z/48 CTL  compatible:  1063   ABS-SIMPLE:   810    e.g. [[-53, 1228, 95136], [-51, 1168, 94512]]
+
+########## p = 283 : 50837 Weil-admissible isogeny classes
+  Z/35      compatible:  1464   ABS-SIMPLE:  1215    e.g. [[-51, 1151, 95725], [-50, 1120, 95410]]
+  Z/45      compatible:  1143   ABS-SIMPLE:   877    e.g. [[-47, 1017, 94455], [-47, 1107, 94545]]
+  Z/63      compatible:   825   ABS-SIMPLE:   596    e.g. [[-45, 1063, 93933], [-44, 1032, 93618]]
+  Z/70      compatible:   737   ABS-SIMPLE:   560    e.g. [[-50, 1120, 95410], [-48, 1058, 94780]]
+  Z/7xZ/7   compatible:   156   ABS-SIMPLE:   101    e.g. [[-41, 827, 92561], [-41, 925, 92659]]
+  Z/5xZ/10  compatible:   207   ABS-SIMPLE:   142    e.g. [[-52, 1192, 96050], [-42, 932, 92950]]
+  Z/2xZ/24  compatible:  1073   ABS-SIMPLE:   828    e.g. [[-57, 1354, 97632], [-55, 1298, 97008]]
+  Z/3xZ/12  compatible:  1432   ABS-SIMPLE:  1072    e.g. [[-58, 1394, 97956], [-57, 1354, 97632]]
+  Z/40 CTL  compatible:  1283   ABS-SIMPLE:  1037    e.g. [[-57, 1362, 97640], [-56, 1326, 97320]]
+  Z/30 CTL  compatible:  1712   ABS-SIMPLE:  1342    e.g. [[-58, 1388, 97950], [-56, 1326, 97320]]
+  Z/48 CTL  compatible:  1073   ABS-SIMPLE:   828    e.g. [[-57, 1354, 97632], [-55, 1298, 97008]]
+
+########## p = 293 : 53555 Weil-admissible isogeny classes
+  Z/35      compatible:  1541   ABS-SIMPLE:  1289    e.g. [[-63, 1573, 105945], [-60, 1475, 104965]]
+  Z/45      compatible:  1206   ABS-SIMPLE:   946    e.g. [[-62, 1537, 105615], [-58, 1408, 104310]]
+  Z/63      compatible:   858   ABS-SIMPLE:   687    e.g. [[-59, 1447, 104643], [-50, 1132, 101682]]
+  Z/70      compatible:   777   ABS-SIMPLE:   593    e.g. [[-56, 1356, 103670], [-52, 1202, 102340]]
+  Z/7xZ/7   compatible:   164   ABS-SIMPLE:   100    e.g. [[-49, 1125, 101381], [-42, 880, 99078]]
+  Z/5xZ/10  compatible:   227   ABS-SIMPLE:   149    e.g. [[-52, 1212, 102350], [-47, 1032, 100700]]
+  Z/2xZ/24  compatible:  1131   ABS-SIMPLE:   860    e.g. [[-55, 1324, 103344], [-54, 1282, 103008]]
+  Z/3xZ/12  compatible:   509   ABS-SIMPLE:   344    e.g. [[-54, 1270, 102996], [-48, 1090, 101052]]
+  Z/40 CTL  compatible:  1358   ABS-SIMPLE:  1034    e.g. [[-54, 1274, 103000], [-53, 1248, 102680]]
+  Z/30 CTL  compatible:  1803   ABS-SIMPLE:  1423    e.g. [[-60, 1480, 104970], [-58, 1408, 104310]]
+  Z/48 CTL  compatible:  1131   ABS-SIMPLE:   860    e.g. [[-55, 1324, 103344], [-54, 1282, 103008]]
+
+
+================ SUMMARY over p in [3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293]
+  Z/35      primes with NO compatible class (forced bad reduction): []
+  Z/35      #primes that CAN certify simplicity: 60 of 61 ; smallest: 5
+  Z/45      primes with NO compatible class (forced bad reduction): [3]
+  Z/45      #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/63      primes with NO compatible class (forced bad reduction): [3]
+  Z/63      #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/70      primes with NO compatible class (forced bad reduction): [3]
+  Z/70      #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/7xZ/7   primes with NO compatible class (forced bad reduction): []
+  Z/7xZ/7   #primes that CAN certify simplicity: 54 of 61 ; smallest: 23
+  Z/5xZ/10  primes with NO compatible class (forced bad reduction): [3]
+  Z/5xZ/10  #primes that CAN certify simplicity: 53 of 61 ; smallest: 11
+  Z/2xZ/24  primes with NO compatible class (forced bad reduction): [3]
+  Z/2xZ/24  #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/3xZ/12  primes with NO compatible class (forced bad reduction): []
+  Z/3xZ/12  #primes that CAN certify simplicity: 56 of 61 ; smallest: 13
+  Z/40 CTL  primes with NO compatible class (forced bad reduction): [3]
+  Z/40 CTL  #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/30 CTL  primes with NO compatible class (forced bad reduction): []
+  Z/30 CTL  #primes that CAN certify simplicity: 59 of 61 ; smallest: 7
+  Z/48 CTL  primes with NO compatible class (forced bad reduction): [3]
+  Z/48 CTL  #primes that CAN certify simplicity: 59 of 61 ; smallest: 7

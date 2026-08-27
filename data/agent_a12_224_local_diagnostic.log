@@ -1,0 +1,6 @@
+q=11: chart_pts=316  halvable(H)=116  rank>=2(R)=128  BOTH(HR)=32  J(F_q) has [2,24]-type=32
+q=13: chart_pts=544  halvable(H)=168  rank>=2(R)=188  BOTH(HR)=32  J(F_q) has [2,24]-type=32
+q=17: chart_pts=1728  halvable(H)=656  rank>=2(R)=784  BOTH(HR)=256  J(F_q) has [2,24]-type=256
+q=19: chart_pts=3016  halvable(H)=1188  rank>=2(R)=1476  BOTH(HR)=544  J(F_q) has [2,24]-type=544
+q=23: chart_pts=6260  halvable(H)=2528  rank>=2(R)=3008  BOTH(HR)=1116  J(F_q) has [2,24]-type=1116
+DONE

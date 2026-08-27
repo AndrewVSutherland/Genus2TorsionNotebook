@@ -1,0 +1,320 @@
+A2244 p-adic residue-class boundary analysis
+surface=(ab+ac+ad+bc+bd+cd)^2-4abcd=0
+depth=p^2 refinement of mod-p ambiguous partition classes
+all_zero_mod_p_root=excluded_by_default
+
+Status meanings
+resolved_ok: all four cross-differences have a determined common squareclass
+deep: compatible so far, but at least one cross-difference is 0 mod p^2
+killed: determined cross-difference squareclasses are incompatible
+
+p=11
+elapsed_seconds=3.218
+Fp_roots=1470
+boundary_roots=1230
+good_reduction_roots=240
+singular_roots=70
+ambiguous_roots=390
+ambiguous_root_partitions=930
+good_reduction_roots_with_any_modp_partition_survivor=0
+
+mod-p partition status
+  12|34 killed=1120 ambiguous=310 resolved_ok=40
+  13|24 killed=1120 ambiguous=310 resolved_ok=40
+  14|23 killed=1120 ambiguous=310 resolved_ok=40
+
+mod-p root status distributions
+  960 ('killed', 'killed', 'killed')
+  150 ('ambiguous', 'ambiguous', 'ambiguous')
+  80 ('ambiguous', 'ambiguous', 'killed')
+  80 ('ambiguous', 'killed', 'ambiguous')
+  80 ('killed', 'ambiguous', 'ambiguous')
+  40 ('killed', 'killed', 'resolved_ok')
+  40 ('killed', 'resolved_ok', 'killed')
+  40 ('resolved_ok', 'killed', 'killed')
+
+p^2 lift residue status, restricted to mod-p ambiguous root-partitions
+  12|34 killed=462000 deep=839410 resolved_ok=42900
+  13|24 killed=462000 deep=839410 resolved_ok=42900
+  14|23 killed=462000 deep=839410 resolved_ok=42900
+
+p^2 root-partition outcomes
+  12|34 all_lifts_killed=0 deep_only=280 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=310
+  13|24 all_lifts_killed=0 deep_only=280 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=310
+  14|23 all_lifts_killed=0 deep_only=280 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=310
+
+top mod-p boundary signatures among ambiguous root-partitions
+  40 12|34 E14
+  40 13|24 E14
+  40 12|34 E24
+  40 14|23 E24
+  40 12|34 E23
+  40 13|24 E23
+  40 12|34 E13
+  40 14|23 E13
+  40 13|24 E34
+  40 14|23 E34
+  40 13|24 E12
+  40 14|23 E12
+
+top p^2 deep masks by partition
+  12|34
+    149930 E13+E23
+    149930 E14+E24
+    149930 E13+E14
+    149930 E23+E24
+    59840 E14
+    59840 E24
+    59840 E23
+    59840 E13
+    330 E13+E14+E23+E24
+  13|24
+    149930 E12+E23
+    149930 E12+E14
+    149930 E14+E34
+    149930 E23+E34
+    59840 E12
+    59840 E34
+    59840 E14
+    59840 E23
+    330 E12+E14+E23+E34
+  14|23
+    149930 E12+E13
+    149930 E12+E24
+    149930 E13+E34
+    149930 E24+E34
+    59840 E12
+    59840 E34
+    59840 E24
+    59840 E13
+    330 E12+E13+E24+E34
+
+top mod-p boundary signatures with p^2 resolved lifts
+  12|34
+    42900 E12+E13+E14+E23+E24+E34
+  13|24
+    42900 E12+E13+E14+E23+E24+E34
+  14|23
+    42900 E12+E13+E14+E23+E24+E34
+
+top mod-p boundary signatures with p^2 deep lifts
+  12|34
+    146410 Z1+Z2+Z3+E12+E13+E23
+    146410 Z1+Z2+Z4+E12+E14+E24
+    146410 Z1+Z3+Z4+E13+E14+E34
+    146410 Z2+Z3+Z4+E23+E24+E34
+    53240 E14
+    53240 E24
+    53240 E23
+    53240 E13
+    39930 E12+E13+E14+E23+E24+E34
+    220 E12+E13+E23
+    220 E12+E14+E24
+    220 E13+E14+E34
+  13|24
+    146410 Z1+Z2+Z3+E12+E13+E23
+    146410 Z1+Z2+Z4+E12+E14+E24
+    146410 Z1+Z3+Z4+E13+E14+E34
+    146410 Z2+Z3+Z4+E23+E24+E34
+    53240 E14
+    53240 E23
+    53240 E34
+    53240 E12
+    39930 E12+E13+E14+E23+E24+E34
+    220 E12+E13+E23
+    220 E12+E14+E24
+    220 E13+E14+E34
+  14|23
+    146410 Z1+Z2+Z3+E12+E13+E23
+    146410 Z1+Z2+Z4+E12+E14+E24
+    146410 Z1+Z3+Z4+E13+E14+E34
+    146410 Z2+Z3+Z4+E23+E24+E34
+    53240 E24
+    53240 E13
+    53240 E34
+    53240 E12
+    39930 E12+E13+E14+E23+E24+E34
+    220 E12+E13+E23
+    220 E12+E14+E24
+    220 E13+E14+E34
+
+examples: resolved_ok p^2 lifts
+  modp=(1, 1, 10, 10) lift=(1, 1, 10, 10) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 1, 10, 10) lift=(1, 12, 21, 87) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 1, 10, 10) lift=(1, 12, 21, 32) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 1, 10) lift=(1, 10, 34, 76) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 1, 10) lift=(1, 10, 1, 10) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 1, 10) lift=(1, 10, 23, 87) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 10, 1) lift=(1, 10, 43, 67) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 10, 1) lift=(1, 10, 32, 78) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 10, 10, 1) lift=(1, 10, 10, 1) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 9, 9) lift=(2, 2, 9, 9) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 9, 9) lift=(2, 13, 20, 86) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 9, 9) lift=(2, 13, 20, 31) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+
+examples: deep p^2 lifts
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+
+examples: mod-p ambiguous root-partitions killed by every p^2 lift
+
+p=23
+elapsed_seconds=139.668
+Fp_roots=12166
+boundary_roots=6886
+good_reduction_roots=5280
+singular_roots=154
+ambiguous_roots=1738
+ambiguous_root_partitions=3630
+good_reduction_roots_with_any_modp_partition_survivor=0
+
+mod-p partition status
+  12|34 killed=10120 ambiguous=1210 resolved_ok=836
+  13|24 killed=10120 ambiguous=1210 resolved_ok=836
+  14|23 killed=10120 ambiguous=1210 resolved_ok=836
+
+mod-p root status distributions
+  7920 ('killed', 'killed', 'killed')
+  836 ('killed', 'killed', 'resolved_ok')
+  836 ('resolved_ok', 'killed', 'killed')
+  836 ('killed', 'resolved_ok', 'killed')
+  528 ('killed', 'ambiguous', 'ambiguous')
+  528 ('ambiguous', 'ambiguous', 'killed')
+  528 ('ambiguous', 'killed', 'ambiguous')
+  154 ('ambiguous', 'ambiguous', 'ambiguous')
+
+p^2 lift residue status, restricted to mod-p ambiguous root-partitions
+  12|34 killed=19725904 deep=34180806 resolved_ok=2037156
+  13|24 killed=19725904 deep=34180806 resolved_ok=2037156
+  14|23 killed=19725904 deep=34180806 resolved_ok=2037156
+
+p^2 root-partition outcomes
+  12|34 all_lifts_killed=0 deep_only=1144 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=1210
+  13|24 all_lifts_killed=0 deep_only=1144 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=1210
+  14|23 all_lifts_killed=0 deep_only=1144 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=1210
+
+top mod-p boundary signatures among ambiguous root-partitions
+  264 13|24 E12
+  264 14|23 E12
+  264 13|24 E34
+  264 14|23 E34
+  264 12|34 E14
+  264 13|24 E14
+  264 12|34 E23
+  264 13|24 E23
+  264 12|34 E24
+  264 14|23 E24
+  264 12|34 E13
+  264 14|23 E13
+
+top p^2 deep masks by partition
+  12|34
+    6189898 E13+E23
+    6189898 E14+E24
+    6189898 E13+E14
+    6189898 E23+E24
+    2354924 E14
+    2354924 E24
+    2354924 E23
+    2354924 E13
+    1518 E13+E14+E23+E24
+  13|24
+    6189898 E12+E23
+    6189898 E12+E14
+    6189898 E14+E34
+    6189898 E23+E34
+    2354924 E12
+    2354924 E14
+    2354924 E34
+    2354924 E23
+    1518 E12+E14+E23+E34
+  14|23
+    6189898 E12+E13
+    6189898 E12+E24
+    6189898 E13+E34
+    6189898 E24+E34
+    2354924 E12
+    2354924 E34
+    2354924 E24
+    2354924 E13
+    1518 E12+E13+E24+E34
+
+top mod-p boundary signatures with p^2 resolved lifts
+  12|34
+    2037156 E12+E13+E14+E23+E24+E34
+  13|24
+    2037156 E12+E13+E14+E23+E24+E34
+  14|23
+    2037156 E12+E13+E14+E23+E24+E34
+
+top mod-p boundary signatures with p^2 deep lifts
+  12|34
+    6156502 Z1+Z2+Z3+E12+E13+E23
+    6156502 Z1+Z2+Z4+E12+E14+E24
+    6156502 Z1+Z3+Z4+E13+E14+E34
+    6156502 Z2+Z3+Z4+E23+E24+E34
+    2187944 E14
+    2187944 E23
+    2187944 E24
+    2187944 E13
+    803022 E12+E13+E14+E23+E24+E34
+  13|24
+    6156502 Z1+Z2+Z3+E12+E13+E23
+    6156502 Z1+Z2+Z4+E12+E14+E24
+    6156502 Z1+Z3+Z4+E13+E14+E34
+    6156502 Z2+Z3+Z4+E23+E24+E34
+    2187944 E12
+    2187944 E34
+    2187944 E14
+    2187944 E23
+    803022 E12+E13+E14+E23+E24+E34
+  14|23
+    6156502 Z1+Z2+Z3+E12+E13+E23
+    6156502 Z1+Z2+Z4+E12+E14+E24
+    6156502 Z1+Z3+Z4+E13+E14+E34
+    6156502 Z2+Z3+Z4+E23+E24+E34
+    2187944 E12
+    2187944 E34
+    2187944 E24
+    2187944 E13
+    803022 E12+E13+E14+E23+E24+E34
+
+examples: resolved_ok p^2 lifts
+  modp=(1, 1, 22, 22) lift=(1, 1, 22, 22) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 1, 22, 22) lift=(1, 24, 22, 252) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 1, 22, 22) lift=(1, 24, 114, 160) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 1, 22) lift=(1, 22, 24, 252) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 1, 22) lift=(1, 22, 1, 22) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 1, 22) lift=(1, 22, 116, 137) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 22, 1) lift=(1, 22, 45, 231) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 22, 1) lift=(1, 22, 137, 116) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(1, 22, 22, 1) lift=(1, 22, 22, 1) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 21, 21) lift=(2, 2, 21, 21) partition=12|34 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 21, 21) lift=(2, 25, 21, 251) partition=13|24 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+  modp=(2, 2, 21, 21) lift=(2, 25, 113, 159) partition=14|23 boundary=E12 + E13 + E14 + E23 + E24 + E34 singular=True
+
+examples: deep p^2 lifts
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 1) lift=(0, 0, 0, 1) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 2) lift=(0, 0, 0, 2) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 3) lift=(0, 0, 0, 3) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=12|34 deep=E13+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=13|24 deep=E12+E23 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+  modp=(0, 0, 0, 4) lift=(0, 0, 0, 4) partition=14|23 deep=E12+E13 boundary=Z1 + Z2 + Z3 + E12 + E13 + E23 singular=True
+
+examples: mod-p ambiguous root-partitions killed by every p^2 lift

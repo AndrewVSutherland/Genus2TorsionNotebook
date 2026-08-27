@@ -1,0 +1,867 @@
+Richelot sweep over contact-5 extra-2 [2,20] sources
+height 7 params 71 max_sources_per_label 30 min_source_order 40 target_order 80
+SOURCE linear_1 family linear param 1 t -9/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -6400000000*x^5 + 28900000000*x^4 + 47812500000*x^3 - 
+    113037109375*x^2 - 109863281250*x + 152587890625
+RICHELOT_COUNT linear_1 0
+TWOPOWER_COUNT linear_1 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_1 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_1 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE_SKIP_SINGULAR label linear param -2 t -3
+SOURCE linear_3 family linear param 2 t -7/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -10251562500*x^5 + 32400000000*x^4 + 39375000000*x^3 - 
+    128662109375*x^2 - 85449218750*x + 152587890625
+RICHELOT_COUNT linear_3 0
+TWOPOWER_COUNT linear_3 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_3 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_3 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_4 family linear param -1/2 t -33/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -400000000*x^5 + 21025000000*x^4 - 149531250000*x^3 + 
+    379150390625*x^2 - 402832031250*x + 152587890625
+RICHELOT_COUNT linear_4 0
+TWOPOWER_COUNT linear_4 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_4 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_4 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_5 family linear param 1/2 t -97/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -5480457482732544*x^5 + 74802324392018496*x^4 + 
+    256105786081528656*x^3 - 226993243348332383*x^2 - 763851018825662066*x + 
+    665416609183179841
+RICHELOT_COUNT linear_5 0
+TWOPOWER_COUNT linear_5 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_5 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_5 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_6 family linear param -3 t -73/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -518400000000*x^5 + 2160900000000*x^4 - 3353437500000*x^3 + 
+    2449462890625*x^2 - 891113281250*x + 152587890625
+RICHELOT_COUNT linear_6 0
+TWOPOWER_COUNT linear_6 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_6 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_6 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_7 family linear param 3 t -97/289 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -2369934234363101184*x^5 + 9578741351539838976*x^4 + 
+    14492705975157399936*x^3 - 37697406615477225983*x^2 - 32665298352523780226*x
+    + 48661191875666868481
+RICHELOT_COUNT linear_7 0
+TWOPOWER_COUNT linear_7 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_7 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_7 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_8 family linear param -3/2 t -49/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -32400000000*x^5 + 308025000000*x^4 - 849843750000*x^3 + 
+    1019775390625*x^2 - 598144531250*x + 152587890625
+RICHELOT_COUNT linear_8 0
+TWOPOWER_COUNT linear_8 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_8 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_8 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_9 family linear param 3/2 t -241/841 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -16207983779936400000000*x^5 + 52708543341061838760000*x^4 + 
+    65822675741896207897200*x^3 - 209146640833633654046879*x^2 - 
+    143423068149735341397842*x + 250246473680347348787521
+RICHELOT_COUNT linear_9 0
+TWOPOWER_COUNT linear_9 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_9 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_9 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_10 family linear param -2/3 t -31/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -126562500*x^5 + 11025000000*x^4 - 101718750000*x^3 + 
+    316650390625*x^2 - 378417968750*x + 152587890625
+RICHELOT_COUNT linear_10 0
+TWOPOWER_COUNT linear_10 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_10 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_10 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_11 family linear param -1/3 t -217/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -1082559502761984*x^5 + 70007393955522816*x^4 - 
+    554270543724285024*x^3 + 1528750451481835777*x^2 - 1708821351393491426*x + 
+    665416609183179841
+RICHELOT_COUNT linear_11 0
+TWOPOWER_COUNT linear_11 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_11 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_11 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_12 family linear param 1/3 t -433/625 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -51840000000000000000*x^5 + 1574105625000000000000*x^4 + 
+    8388317871093750000000*x^3 - 932633876800537109375*x^2 - 
+    32261013984680175781250*x + 23283064365386962890625
+RICHELOT_COUNT linear_12 0
+TWOPOWER_COUNT linear_12 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_12 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_12 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_13 family linear param 2/3 t -139/289 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -882869301126562500*x^5 + 7187890224780810000*x^4 + 
+    17990326368826786200*x^3 - 26147503384634443919*x^2 - 46809035783513458262*x
+    + 48661191875666868481
+RICHELOT_COUNT linear_13 0
+TWOPOWER_COUNT linear_13 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_13 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_13 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_14 family linear param -4 t -61/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -164025000000*x^5 + 936056250000*x^4 - 1844296875000*x^3 + 
+    1664306640625*x^2 - 744628906250*x + 152587890625
+RICHELOT_COUNT linear_14 0
+TWOPOWER_COUNT linear_14 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_14 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_14 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_15 family linear param 4 t -69/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -20393268025000000*x^5 + 115515627400810000*x^4 + 
+    226391215314427800*x^3 - 443572242646915759*x^2 - 543357941226501882*x + 
+    665416609183179841
+RICHELOT_COUNT linear_15 0
+TWOPOWER_COUNT linear_15 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_15 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_15 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_16 family linear param -4/3 t -37/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -2025000000*x^5 + 54056250000*x^4 - 268828125000*x^3 + 
+    515869140625*x^2 - 451660156250*x + 152587890625
+RICHELOT_COUNT linear_16 0
+TWOPOWER_COUNT linear_16 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_16 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_16 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_17 family linear param 4/3 t -253/841 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -14949728176409782185024*x^5 + 51750349598956389904656*x^4 + 
+    68469183395010185111016*x^3 - 204951812763949613096783*x^2 - 
+    150564465733954528521386*x + 250246473680347348787521
+RICHELOT_COUNT linear_17 0
+TWOPOWER_COUNT linear_17 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_17 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_17 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_18 family linear param -3/4 t -337/289 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -9257555602980864*x^5 + 1574571987618806016*x^4 - 
+    20414309050873053024*x^3 + 83674457844226585537*x^2 - 
+    113486655101036226146*x + 48661191875666868481
+RICHELOT_COUNT linear_18 0
+TWOPOWER_COUNT linear_18 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_18 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_18 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_19 family linear param -1/4 t -769/625 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -16402500000000000000*x^5 + 1537130039062500000000*x^4 - 
+    14721487426757812500000*x^3 + 47212660312652587890625*x^2 - 
+    57294964790344238281250*x + 23283064365386962890625
+RICHELOT_COUNT linear_19 0
+TWOPOWER_COUNT linear_19 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_19 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_19 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_20 family linear param 1/4 t -1281/1681 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -51103521466374400000000*x^5 + 2802211773675210508960000*x^4 + 
+    20371956607606431386848800*x^3 + 10292584298905339808895041*x^2 - 
+    97174680073373661651136482*x + 63759030914653054346432641
+RICHELOT_COUNT linear_20 0
+TWOPOWER_COUNT linear_20 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_20 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_20 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_21 family linear param 3/4 t -1873/4225 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -2437789103156948486400000000*x^5 + 
+    16386882387241252968900000000*x^4 + 36165633863242384665937500000*x^3 - 
+    61625977689013453253662109375*x^2 - 90023266240414652062988281250*x + 
+    101534516782101416168212890625
+RICHELOT_COUNT linear_21 0
+TWOPOWER_COUNT linear_21 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_21 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_21 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_22 family linear param -5 t -609/289 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -18286529586135040000*x^5 + 144007134808375398400*x^4 - 
+    352803448404912005760*x^3 + 383505844056355110401*x^2 - 
+    205084192749350331522*x + 48661191875666868481
+RICHELOT_COUNT linear_22 0
+TWOPOWER_COUNT linear_22 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_22 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_22 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_23 family linear param 5 t -649/1369 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -235984667619078973440000*x^5 + 1853792487610335959558400*x^4 + 
+    4534355806586606386092960*x^3 - 6792019978593508961489279*x^2 - 
+    11697655562201520772996322*x + 12337511914217166362274241
+RICHELOT_COUNT linear_23 0
+TWOPOWER_COUNT linear_23 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_23 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_23 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_24 family linear param -5/2 t -529/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -3425285926707840000*x^5 + 12876643554288321600*x^4 - 
+    18325132289031044880*x^3 + 12374102268337231201*x^2 - 4165744216069847762*x 
+    + 665416609183179841
+RICHELOT_COUNT linear_24 0
+TWOPOWER_COUNT linear_24 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_24 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_24 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_25 family linear param 5/2 t -849/2809 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -229705424347586754663040000*x^5 + 800104126874162289416641600*x^4 
+    + 1064550231552149645984017680*x^3 - 3168069231224211907415097439*x^2 - 
+    2343148752973030118720394162*x + 3876269050118516845397872321
+RICHELOT_COUNT linear_25 0
+TWOPOWER_COUNT linear_25 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_25 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_25 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_26 family linear param -5/3 t -409/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -676599689226240000*x^5 + 3924325183601721600*x^4 - 
+    7821605565620951520*x^3 + 7129237345564308481*x^2 - 3220773883502018402*x + 
+    665416609183179841
+RICHELOT_COUNT linear_26 0
+TWOPOWER_COUNT linear_26 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_26 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_26 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_27 family linear param 5/3 t -1489/5329 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -43837702708961381229527040000*x^5 + 
+    138197228074897306156808601600*x^4 + 167537303110664358373491064320*x^3 - 
+    548824656484044513272630532479*x^2 - 363450051810365341070264928002*x + 
+    650377879817809571042122834561
+RICHELOT_COUNT linear_27 0
+TWOPOWER_COUNT linear_27 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_27 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_27 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_28 family linear param -5/4 t -369/289 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -71431756195840000*x^5 + 4832402951496198400*x^4 - 
+    39158988081345447840*x^3 + 109999661011216106561*x^2 - 
+    124262836000837885602*x + 48661191875666868481
+RICHELOT_COUNT linear_28 0
+TWOPOWER_COUNT linear_28 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_28 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_28 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_29 family linear param 5/4 t -2929/9409 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -3454728369082083420107581440000*x^5 + 
+    12524298974661143659923487238400*x^4 + 17268574403030006981303803355040*x^3 
+    - 49520361221235243611219429924159*x^2 - 38243149133642394056098046824802*x 
+    + 61425365346268570446197767595521
+RICHELOT_COUNT linear_29 0
+TWOPOWER_COUNT linear_29 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_29 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+TWOPOWER linear_29 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE linear_30 family linear param -4/5 t -189/169 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -32629228840000*x^5 + 10454731212624400*x^4 - 
+    186555625509740760*x^3 + 999045188137107761*x^2 - 1488328273794331242*x + 
+    665416609183179841
+RICHELOT_COUNT linear_30 0
+TWOPOWER_COUNT linear_30 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_30 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_30 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 1+2+3
+SOURCE qq_1 family qq param -1 t -29/5 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -51840000*x^5 + 104040000*x^4 - 73950000*x^3 + 25890625*x^2 - 
+    4531250*x + 390625
+RICHELOT_COUNT qq_1 1
+RICHELOT_TYPE qq_1 richelot_1 JacHyp
+RICHELOT qq_1 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_1 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_1 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_1 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_1 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_2 family qq param -1/2 t -877/637 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -136566036380067840000*x^5 + 5434654901497326086400*x^4 - 
+    33422110590781370771040*x^3 + 75660740308047380104801*x^2 - 
+    74645840996866831992482*x + 27109122414483564412321
+RICHELOT_COUNT qq_2 1
+RICHELOT_TYPE qq_2 richelot_1 JacHyp
+RICHELOT qq_2 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_2 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_2 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_2 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_2 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_3 family qq param 1/2 t -293/245 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -4781556541440000*x^5 + 600691341831840000*x^4 - 
+    6679155510129900000*x^3 + 24151532274957390625*x^2 - 31049900053868281250*x 
+    + 12981613503750390625
+RICHELOT_COUNT qq_3 1
+RICHELOT_TYPE qq_3 richelot_1 JacHyp
+RICHELOT qq_3 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_3 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_3 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_3 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_3 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_4 family qq param -3 t -1553/833 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -32348191095706429440000*x^5 + 355243291888681172793600*x^4 - 
+    1070038486794496857835680*x^3 + 1379721912932263683336001*x^2 - 
+    864403389637872113004962*x + 231824862707130544151041
+RICHELOT_COUNT qq_4 1
+RICHELOT_TYPE qq_4 richelot_1 JacHyp
+RICHELOT qq_4 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_4 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_4 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_4 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_4 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_5 family qq param 3 t -317/245 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -24206629991040000*x^5 + 1474830023705640000*x^4 - 
+    11322921489827850000*x^3 + 30483921169414890625*x^2 - 33593236577052031250*x
+    + 12981613503750390625
+RICHELOT_COUNT qq_5 1
+RICHELOT_TYPE qq_5 richelot_1 JacHyp
+RICHELOT qq_5 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_5 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_5 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_5 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_5 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+SOURCE qq_6 family qq param -3/2 t -5069/29 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -114091724892579840000*x^5 + 116732755008940089600*x^4 - 
+    2671422923254871520*x^3 + 30567185894229601*x^2 - 174879246020642*x + 
+    500246412961
+RICHELOT_COUNT qq_6 1
+RICHELOT_TYPE qq_6 richelot_1 JacHyp
+RICHELOT qq_6 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_6 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_6 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER qq_6 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_6 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_7 family qq param 3/2 t 139/5 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -67184640000*x^5 + 58177440000*x^4 + 8381700000*x^3 + 603390625*x^2
+    + 21718750*x + 390625
+RICHELOT_COUNT qq_7 1
+RICHELOT_TYPE qq_7 richelot_1 JacHyp
+RICHELOT qq_7 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_7 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_7 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_7 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_7 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_8 family qq param -1/3 t -8233/7225 torsion [ 2, 2, 20 ]
+order 80 exponent 20 factor_type 1+1+2
+SOURCE_CURVE -703288543446609926400000000*x^5 + 
+    165393746339277042108900000000*x^4 - 2525580452984074226862187500000*x^3 + 
+    11857835156537267139949462890625*x^2 - 16922053784955418071984863281250*x + 
+    7425108623606394726715087890625
+INTERESTING source qq_8 object source torsion [ 2, 2, 20 ]
+order 80 exponent 20
+INTERESTING_CURVE -703288543446609926400000000*x^5 + 
+    165393746339277042108900000000*x^4 - 2525580452984074226862187500000*x^3 + 
+    11857835156537267139949462890625*x^2 - 16922053784955418071984863281250*x + 
+    7425108623606394726715087890625
+RICHELOT_COUNT qq_8 3
+RICHELOT_TYPE qq_8 richelot_1 JacHyp
+RICHELOT qq_8 richelot_1 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2+2
+RICHELOT_TYPE qq_8 richelot_2 JacHyp
+RICHELOT qq_8 richelot_2 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2+2
+RICHELOT_TYPE qq_8 richelot_3 JacHyp
+RICHELOT qq_8 richelot_3 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_8 jacobians 5 products 0 weil_restrictions 0
+TWOPOWER qq_8 twopower_1 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2+2
+TWOPOWER qq_8 twopower_2 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2+2
+TWOPOWER qq_8 twopower_3 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_8 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_8 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+NEW_INTERESTING_AFTER_SOURCE qq 8
+SOURCE qq_9 family qq param 1/3 t -4117/3757 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -836594089520142695040000*x^5 + 400221680652636933601742400*x^4 - 
+    8735439365549948921109374160*x^3 + 55637613829289556018305027521*x^2 - 
+    86995988683759800869920660562*x + 39694429133457076981818304801
+RICHELOT_COUNT qq_9 1
+RICHELOT_TYPE qq_9 richelot_1 JacHyp
+RICHELOT qq_9 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_9 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_9 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_9 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_9 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+SOURCE qq_10 family qq param -3/4 t -78737/34385 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -1352287263843442837251667108823040000*x^5 + 
+    8797042503388403419178058142947840000*x^4 - 
+    18988221550500654557825514217222800000*x^3 + 
+    18538703489608027002508512388450890625*x^2 - 
+    8949361677088102844545710467415781250*x + 
+    1954124498435769817936321262062890625
+RICHELOT_COUNT qq_10 1
+RICHELOT_TYPE qq_10 richelot_1 JacHyp
+RICHELOT qq_10 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_10 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_10 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER qq_10 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_10 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_11 family qq param -1/4 t -42281/39401 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -41451374616533883368665251840000*x^5 + 
+    33343154726246513196600633688166400*x^4 - 
+    944496435127722211897018627019448960*x^3 + 
+    7568742031743053242538602250607731521*x^2 - 
+    12465966537052017380567284074595004162*x + 
+    5808419237085056370612468482570395201
+RICHELOT_COUNT qq_11 1
+RICHELOT_TYPE qq_11 richelot_1 JacHyp
+RICHELOT qq_11 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_11 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_11 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_11 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_11 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_12 family qq param 1/4 t -25369/24025 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -271763213275239417446400000000*x^5 + 
+    367062929432292431054606400000000*x^4 - 
+    13480121178736707711105566250000000*x^3 + 
+    136527901188989444088406840087890625*x^2 - 
+    234410530915727317507610461425781250*x + 
+    110995959739255563938672027587890625
+RICHELOT_COUNT qq_12 1
+RICHELOT_TYPE qq_12 richelot_1 JacHyp
+RICHELOT qq_12 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_12 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_12 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_12 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_12 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_13 family qq param 3/4 t -11873/8993 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -112493734214118997913763840000*x^5 + 
+    5905025317052585489057403801600*x^4 - 41967695835940083959792774805120*x^3 +
+    106355024057654831774585183024641*x^2 - 112959462544494043713736690849922*x 
+    + 42779602739940829407800642668801
+RICHELOT_COUNT qq_13 1
+RICHELOT_TYPE qq_13 richelot_1 JacHyp
+RICHELOT qq_13 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_13 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_13 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_13 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_13 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_14 family qq param -5 t -23773/19573 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -11417387858752358245568400000000*x^5 + 
+    1216091427889061449281793161960000*x^4 - 
+    12432809747417566157156237745694800*x^3 + 
+    42013253385475060057987972865575681*x^2 - 
+    52325785762069233941706431935866962*x + 21540668083981430949838472054026081
+RICHELOT_COUNT qq_14 1
+RICHELOT_TYPE qq_14 richelot_1 JacHyp
+RICHELOT qq_14 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_14 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_14 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_14 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+TWOPOWER qq_14 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_15 family qq param 5 t -10193/8993 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -3390653157977641478400000000*x^5 + 
+    866741826102199957052998560000*x^4 - 13803546336756541122178539976800*x^3 + 
+    67136571680674975255294336382401*x^2 - 96975979256803485856491037634402*x + 
+    42779602739940829407800642668801
+RICHELOT_COUNT qq_15 1
+RICHELOT_TYPE qq_15 richelot_1 JacHyp
+RICHELOT qq_15 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_15 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_15 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_15 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_15 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_16 family qq param -5/2 t -40517/15317 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -5549284889583150138670598400000000*x^5 + 
+    27241650959246734474644201977760000*x^4 - 
+    48062363775142720945029769133359200*x^3 + 
+    39368511998173867022710917242891041*x^2 - 
+    16028145033921584739718781262504482*x + 3029630741226854326064029575212641
+RICHELOT_COUNT qq_16 1
+RICHELOT_TYPE qq_16 richelot_1 JacHyp
+RICHELOT qq_16 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_16 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_16 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_16 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_16 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_17 family qq param 5/2 t -4957/3757 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -103283220928412678400000000*x^5 + 5446310436250707587110560000*x^4
+    - 38799282628598731528753183200*x^3 + 98507785936219003289474431201*x^2 - 
+    104745959656399643651250112802*x + 39694429133457076981818304801
+RICHELOT_COUNT qq_17 1
+RICHELOT_TYPE qq_17 richelot_1 JacHyp
+RICHELOT qq_17 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_17 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_17 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_17 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_17 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_18 family qq param -5/3 t -82777/3577 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -1610335976566558777204838400000000*x^5 + 
+    1914392794818560089836680760960000*x^4 - 
+    331521748526935875644067111595200*x^3 + 28678559237560171409148701782081*x^2
+    - 1240429994866678433014241578562*x + 26801032241070036090290431681
+RICHELOT_COUNT qq_18 1
+RICHELOT_TYPE qq_18 richelot_1 JacHyp
+RICHELOT qq_18 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_18 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_18 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_18 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_18 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_19 family qq param 5/3 t 1163/637 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -432103474483808400000000*x^5 + 36898969415519189160000*x^4 + 
+    115487538703288958278800*x^3 + 153619117520236043214721*x^2 + 
+    98988726430280644934158*x + 27109122414483564412321
+RICHELOT_COUNT qq_19 1
+RICHELOT_TYPE qq_19 richelot_1 JacHyp
+RICHELOT qq_19 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_19 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_19 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_19 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+TWOPOWER qq_19 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_20 family qq param -5/4 t -191953/4753 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -156687605406324341939242598400000000*x^5 + 
+    173004806442560384389895963343360000*x^4 - 
+    17145787110223541486635794896092800*x^3 + 
+    849363378109894567037654588108161*x^2 - 21037765008881319006541076737922*x +
+    260460886485787951316441362561
+RICHELOT_COUNT qq_20 1
+RICHELOT_TYPE qq_20 richelot_1 JacHyp
+RICHELOT qq_20 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_20 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_20 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_20 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_20 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_21 family qq param 5/4 t 3967/833 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -63897661423617638400000000*x^5 + 27239584158232196405760000*x^4 + 
+    23934669614524578168739200*x^3 + 10283541418743920871632641*x^2 + 
+    2208041369409812409717118*x + 231824862707130544151041
+RICHELOT_COUNT qq_21 1
+RICHELOT_TYPE qq_21 richelot_1 JacHyp
+RICHELOT qq_21 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_21 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_21 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_21 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_21 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_22 family qq param -3/5 t -243209/149609 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -9613339589591229013551061409894400000000*x^5 + 
+    169318864285428319618052270770021791360000*x^4 - 
+    670247914529586904455971752760967111316800*x^3 + 
+    1075593494787216633123620965246684325219521*x^2 - 
+    816044192314502947654964279141626385288642*x + 
+    250993087361036128382813857295781780025921
+RICHELOT_COUNT qq_22 1
+RICHELOT_TYPE qq_22 richelot_1 JacHyp
+RICHELOT qq_22 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_22 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_22 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_22 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_22 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_23 family qq param -1/5 t -153061/146461 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -218274866419245495584620064400000000*x^5 + 
+    449545147345216573217859272678165160000*x^4 - 
+    20391406590696111090004719469724267917200*x^3 + 
+    250751117526931341789480157927054871666881*x^2 - 
+    442535899637852422869340780357397173382162*x + 
+    211726861829138394842143067247452804472481
+RICHELOT_COUNT qq_23 1
+RICHELOT_TYPE qq_23 richelot_1 JacHyp
+RICHELOT qq_23 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_23 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_23 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_23 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_23 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+SOURCE qq_24 family qq param 1/5 t -102041/98441 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -3943247883146479088764934400000000*x^5 + 
+    12229250742966898830364126047603360000*x^4 - 
+    680820582563716899691218596304787783200*x^3 + 
+    10132374951100954057224635170389857358721*x^2 - 
+    18282552075842032127025375559859656167842*x + 
+    8818772399809711217140683624661383232321
+RICHELOT_COUNT qq_24 1
+RICHELOT_TYPE qq_24 richelot_1 JacHyp
+RICHELOT qq_24 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_24 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_24 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER qq_24 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_24 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_25 family qq param 3/5 t -61349/48749 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -35586480176902077266593184400000000*x^5 + 
+    2717082365997006567644213584382760000*x^4 - 
+    23430740796589036839809146888674754800*x^3 + 
+    69132188255421590780586760363522329601*x^2 - 
+    80278169853577355801780752761686194802*x + 
+    31895226508924697370625518886855860001
+RICHELOT_COUNT qq_25 1
+RICHELOT_TYPE qq_25 richelot_1 JacHyp
+RICHELOT qq_25 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_25 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_25 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_25 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_25 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+1+2+2
+SOURCE qq_26 family qq param -5/6 t -1020013/346813 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -742844497964930039720695710877678598400000000*x^5 + 
+    3062218382698823558368349487339769455296160000*x^4 - 
+    4709121404300785416695035681322896312489528800*x^3 + 
+    3411578750443273454064191357406251390996193121*x^2 - 
+    1231128203362377421030164379932398280556599842*x + 
+    209296972485995865013354927386952345153775521
+RICHELOT_COUNT qq_26 1
+RICHELOT_TYPE qq_26 richelot_1 JacHyp
+RICHELOT qq_26 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_26 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_26 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER qq_26 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_26 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_27 family qq param -1/6 t -441589/428485 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -248483776516515199347550117695498240000*x^5 + 
+    1095475457266959311697750683692090580640000*x^4 - 
+    72720429924658388714938309526984754801900000*x^3 + 
+    1277403965544647416976470628124653325087390625*x^2 - 
+    2342057775223687218167179738322682996368281250*x + 
+    1136279012630207747109149016591440031000390625
+RICHELOT_COUNT qq_27 1
+RICHELOT_TYPE qq_27 richelot_1 JacHyp
+RICHELOT qq_27 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_27 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_27 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_27 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_27 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_28 family qq param 1/6 t -315421/307501 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -8794818166684741122926006165514240000*x^5 + 
+    54405629574419572250118895811165378054400*x^4 - 
+    4278407209600323382939240846321985500883040*x^3 + 
+    88283452666775958361440415330603358310144481*x^2 - 
+    164000936145824055734254511335082020250535842*x + 
+    79941493853892167868244340880995647577460001
+RICHELOT_COUNT qq_28 1
+RICHELOT_TYPE qq_28 richelot_1 JacHyp
+RICHELOT qq_28 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_28 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_28 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_28 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_28 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_29 family qq param 5/6 t -106933/81733 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -4499165114039137302493885958400000000*x^5 + 
+    252184351148711602685926176678521760000*x^4 - 
+    1854356083667361720398041133373114760800*x^3 + 
+    4826207560698858983671554123752628347041*x^2 - 
+    5211033034770340907940834307006233211682*x + 
+    1991496371704171179283889025906597865441
+RICHELOT_COUNT qq_29 1
+RICHELOT_TYPE qq_29 richelot_1 JacHyp
+RICHELOT qq_29 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_29 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_29 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER qq_29 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+TWOPOWER qq_29 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+SOURCE qq_30 family qq param -7 t -157697/143585 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -4214349700496134782763798770647040000*x^5 + 
+    1920878102021930501952685682011443840000*x^4 - 
+    40919521586373752055675198754716109800000*x^3 + 
+    255179824009115883414393807623329090890625*x^2 - 
+    396841364944898103408732297306603090781250*x + 
+    180664398769834537682843766554749312890625
+RICHELOT_COUNT qq_30 1
+RICHELOT_TYPE qq_30 richelot_1 JacHyp
+RICHELOT qq_30 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_30 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_30 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_30 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_30 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+DONE
+checked_linear 32 checked_qq 48 tested_linear 30 tested_qq 30 unique_t 60
+best_order 80 best_exponent 20
+best_records [
+    <"qq_8", "source", [ 2, 2, 20 ], 80, 20>
+]
+interesting_count 1
+INTERESTING_RECORD qq_8 source torsion [ 2, 2, 20 ]
+order 80 exponent 20

@@ -1,0 +1,22 @@
+F irreducible over Q(t): true
+F factor degrees over Q(t): [ 6 ]
+GALOIS GROUP of F over Q(t): order 72, S3wrC2
+  transitive: true
+number of (2,2,2) partitions: 15
+ORBITS of Gal on the 15 partitions: sizes [ 6, 9 ]
+  orbit size 9 : e.g. {
+{ 2, 6 },
+{ 1, 4 },
+{ 3, 5 }
+}
+  orbit size 6 : e.g. {
+{ 2, 5 },
+{ 3, 4 },
+{ 1, 6 }
+}
+STABLE PARTITIONS over Q(t) (orbit size 1): 0
+
+(For reference: an orbit of size d is a degree-d component of the
+ Richelot-source cover of the t-line.  The quadratic-factor incidence
+ variety accounts only for partitions containing a rational pair.)
+GALOIS15_DONE

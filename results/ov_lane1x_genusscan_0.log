@@ -1,0 +1,33 @@
+GENUSSCAN H=1000 #c-values=1216766 NParts=192
+PROGRESS part=0 done=200 at c=-605/76
+PROGRESS part=0 done=400 at c=-536/135
+PROGRESS part=0 done=600 at c=-693/262
+PROGRESS part=0 done=800 at c=-807/407
+PROGRESS part=0 done=1000 at c=-517/326
+PROGRESS part=0 done=1200 at c=-662/501
+PROGRESS part=0 done=1400 at c=-436/385
+PROGRESS part=0 done=1600 at c=-958/967
+PROGRESS part=0 done=1800 at c=-855/989
+PROGRESS part=0 done=2000 at c=-110/149
+PROGRESS part=0 done=2200 at c=-437/714
+PROGRESS part=0 done=2400 at c=-188/387
+PROGRESS part=0 done=2600 at c=-343/954
+PROGRESS part=0 done=2800 at c=-228/977
+PROGRESS part=0 done=3000 at c=-77/719
+PROGRESS part=0 done=3200 at c=9/469
+PROGRESS part=0 done=3400 at c=74/509
+PROGRESS part=0 done=3600 at c=157/578
+PROGRESS part=0 done=3800 at c=294/739
+PROGRESS part=0 done=4000 at c=337/643
+PROGRESS part=0 done=4200 at c=385/592
+PROGRESS part=0 done=4400 at c=212/273
+PROGRESS part=0 done=4600 at c=743/823
+PROGRESS part=0 done=4800 at c=619/601
+PROGRESS part=0 done=5000 at c=863/729
+PROGRESS part=0 done=5200 at c=817/587
+PROGRESS part=0 done=5400 at c=439/260
+PROGRESS part=0 done=5600 at c=103/48
+PROGRESS part=0 done=5800 at c=983/334
+PROGRESS part=0 done=6000 at c=857/183
+PROGRESS part=0 done=6200 at c=985/86
+GENUSSCAN_DONE part=0 count=6338

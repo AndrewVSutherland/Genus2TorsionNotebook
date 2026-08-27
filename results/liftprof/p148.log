@@ -1,0 +1,185 @@
+MEMBER stv 1/4 3/4 -3/2 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T1 pat=000 resclass=[ -406, 13398, -33 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -406, 13398, -33 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 13398, -1914, -7 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -33, -7, 231 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 13398, -1914, -7 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -33, -7, 231 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -406, 13398, -33 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -406, 13398, -33 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 13398, -1914, -7 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -33, -7, 231 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 13398, -1914, -7 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -33, -7, 231 ] xT=false
+MEMBER stv 1/3 2/3 -2/3 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ 222, -1110, -5 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 222, -1110, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -222, 222, -1 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1, -5, 5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -222, 222, -1 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1, -5, 5 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 222, -1110, -5 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 222, -1110, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -222, 222, -1 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1, -5, 5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -222, 222, -1 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1, -5, 5 ] xT=false
+MEMBER stv 1/2 1/3 -4 INVALID
+MEMBER stv 2/3 1/4 -4/3 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ 31295, -18777, -15 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 31295, -18777, -15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1001, -15, 15015 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -258895, 31295, -1001 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1001, -15, 15015 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -258895, 31295, -1001 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 31295, -18777, -15 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 31295, -18777, -15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1001, -15, 15015 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -258895, 31295, -1001 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -1001, -15, 15015 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -258895, 31295, -1001 ] xT=false
+MEMBER stv 2/3 4 -1/2 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T1 pat=000 resclass=[ 461333670, -228270, -2021 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 461333670, -228270, -2021 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -228270, -15218, 15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -2021, 15, -30315 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -228270, -15218, 15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -2021, 15, -30315 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 461333670, -228270, -2021 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 461333670, -228270, -2021 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -228270, -15218, 15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -2021, 15, -30315 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -228270, -15218, 15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -2021, 15, -30315 ] xT=false
+MEMBER stv 3/4 2 -3 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ 6215, 18645, 3 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 6215, 18645, 3 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -15, 3, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3729, 6215, -15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -15, 3, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3729, 6215, -15 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 6215, 18645, 3 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 6215, 18645, 3 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -15, 3, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3729, 6215, -15 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -15, 3, -5 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3729, 6215, -15 ] xT=false
+MEMBER stv 1 3/2 -1 INVALID
+MEMBER stv 4/3 4/3 -1/3 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T3 pat=000 resclass=[ 95, 7, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 95, 7, 665 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -4630395, -48741, 95 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -48741, -6963, 7 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -4630395, -48741, 95 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -48741, -6963, 7 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 95, 7, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 95, 7, 665 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -4630395, -48741, 95 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -48741, -6963, 7 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -4630395, -48741, 95 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -48741, -6963, 7 ] xT=false
+MEMBER stv 3/2 2/3 -2 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T1 pat=000 resclass=[ 28487410, 45290, 629 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 28487410, 45290, 629 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 45290, -9058, -5 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 629, -5, -3145 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 45290, -9058, -5 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 629, -5, -3145 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 28487410, 45290, 629 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 28487410, 45290, 629 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 45290, -9058, -5 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 629, -5, -3145 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 45290, -9058, -5 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 629, -5, -3145 ] xT=false
+MEMBER stv 2 1/2 -3/4 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T3 pat=000 resclass=[ 55, -3, -165 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 55, -3, -165 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 274, -822, -3 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 15070, 274, 55 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 274, -822, -3 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 15070, 274, 55 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 55, -3, -165 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 55, -3, -165 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 274, -822, -3 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 15070, 274, 55 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 274, -822, -3 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 15070, 274, 55 ] xT=false
+MEMBER stv 3 1/3 -1/4 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ 4130, -2065, -2 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 4130, -2065, -2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 2242, 4130, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 665, -2, -1330 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 2242, 4130, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 665, -2, -1330 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 4130, -2065, -2 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 4130, -2065, -2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 2242, 4130, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 665, -2, -1330 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 2242, 4130, 665 ] xT=false
+  D4 above=T3 pat=000 resclass=[ 665, -2, -1330 ] xT=false
+MEMBER stv 3 4 -3/2 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ 278, 4170, 15 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 278, 4170, 15 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -417, 278, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -6, 15, -10 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -417, 278, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -6, 15, -10 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 278, 4170, 15 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 278, 4170, 15 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -417, 278, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -6, 15, -10 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -417, 278, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -6, 15, -10 ] xT=false
+MEMBER stv 4 3 -2/3 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T3 pat=000 resclass=[ -3, 2, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -3, 2, -6 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 10005, 20010, 2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3335, 10005, -3 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 10005, 20010, 2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3335, 10005, -3 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -3, 2, -6 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -3, 2, -6 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 10005, 20010, 2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3335, 10005, -3 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 10005, 20010, 2 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -3335, 10005, -3 ] xT=false
+MEMBER stv 4 9/2 -11/9 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T1 pat=000 resclass=[ -437263579095, 77078015, -5673 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -437263579095, 77078015, -5673 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 77078015, 121122595, 77 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -5673, 77, -436821 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 77078015, 121122595, 77 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -5673, 77, -436821 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -437263579095, 77078015, -5673 ] xT=false
+  D4 above=T1 pat=000 resclass=[ -437263579095, 77078015, -5673 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 77078015, 121122595, 77 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -5673, 77, -436821 ] xT=false
+  D4 above=T2 pat=000 resclass=[ 77078015, 121122595, 77 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -5673, 77, -436821 ] xT=false
+MEMBER stv 5/4 15/7 3/5 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=000 resclass=[ -1563803835, -142163985, 11 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -1563803835, -142163985, 11 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 8409615756685, -1563803835, -48399 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -48399, 11, -532389 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 8409615756685, -1563803835, -48399 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -48399, 11, -532389 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -1563803835, -142163985, 11 ] xT=false
+  D4 above=T2 pat=000 resclass=[ -1563803835, -142163985, 11 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 8409615756685, -1563803835, -48399 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -48399, 11, -532389 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 8409615756685, -1563803835, -48399 ] xT=false
+  D4 above=T3 pat=000 resclass=[ -48399, 11, -532389 ] xT=false
+MEMBER stv 5/6 5/3 -17/12 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 norm111=0 xTpass=0
+  D4 above=T2 pat=001 resclass=[ -9732891, -9732891, 1 ] xT=false
+  D4 above=T2 pat=001 resclass=[ -9732891, -9732891, 1 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 26908581, -9732891, -799 ] xT=false
+  D4 above=T3 pat=010 resclass=[ -799, 1, -799 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 26908581, -9732891, -799 ] xT=false
+  D4 above=T3 pat=010 resclass=[ -799, 1, -799 ] xT=false
+  D4 above=T2 pat=001 resclass=[ -9732891, -9732891, 1 ] xT=false
+  D4 above=T2 pat=001 resclass=[ -9732891, -9732891, 1 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 26908581, -9732891, -799 ] xT=false
+  D4 above=T3 pat=010 resclass=[ -799, 1, -799 ] xT=false
+  D4 above=T1 pat=000 resclass=[ 26908581, -9732891, -799 ] xT=false
+  D4 above=T3 pat=010 resclass=[ -799, 1, -799 ] xT=false
+PART_DONE part=148

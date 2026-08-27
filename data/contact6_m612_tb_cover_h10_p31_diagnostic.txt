@@ -1,0 +1,60 @@
+Loading "../../halving_mumford_tools.m"
+CONTACT6_M612_TB_COVER_SEARCH
+H_SHAPE <8, 4, 5, 3, 31>
+height 10 prime_bound 31 mask_primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31 ]
+max_exact 100 max_hits 10 diagnostic_halves true
+MASK 5 allowed 3 boundary 14
+MASK 7 allowed 10 boundary 22
+MASK 11 allowed 30 boundary 42
+MASK 13 allowed 45 boundary 50
+MASK 17 allowed 85 boundary 68
+MASK 19 allowed 110 boundary 76
+MASK 23 allowed 164 boundary 100
+MASK 29 allowed 273 boundary 128
+MASK 31 allowed 331 boundary 132
+SMOOTH_DIAGNOSTIC s 1 r 5/8 K 25/64 a 49/32 b -1 poly_half true jac_half true first_kill 11 statuses [*
+<5, "curve_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "good_killed", [ 2, 2, 24 ]>
+*]
+SMOOTH_DIAGNOSTIC s -4/3 r -3/8 K 9/64 a -229/96 b 5/9 poly_half true jac_half true first_kill 13 statuses [*
+<5, "curve_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "good_allowed", [ 12, 12 ]>,
+<13, "good_killed", [ 2, 4, 24 ]>
+*]
+progress 5000 mask 77 roots 92 square 13 smooth 2 local 0 simple 0 exact 0 hits 0
+RECOVERY_BOUNDARY s -7/4 r 7/8 K 81/64
+SMOOTH_DIAGNOSTIC s -7/4 r 9/8 K 225/64 a -37/8 b 25/8 poly_half true jac_half true first_kill 23 statuses [*
+<5, "curve_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "good_allowed", [ 12, 12 ]>,
+<13, "curve_boundary", []>,
+<17, "curve_boundary", []>,
+<19, "good_allowed", [ 2, 12, 24 ]>,
+<23, "good_killed", [ 2, 360 ]>
+*]
+SMOOTH_DIAGNOSTIC s 3/4 r 3/2 K 9/4 a 3/8 b -15/8 poly_half true jac_half true first_kill 7 statuses [*
+<5, "curve_boundary", []>,
+<7, "good_killed", [ 2, 36 ]>
+*]
+SMOOTH_DIAGNOSTIC s -3/5 r 9 K 36 a 519/25 b -57/25 poly_half true jac_half true first_kill 13 statuses [*
+<5, "parameter_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "curve_boundary", []>,
+<13, "good_killed", [ 2, 96 ]>
+*]
+SMOOTH_DIAGNOSTIC s 5/6 r 9/4 K 9 a 1 b -29/18 poly_half true jac_half true first_kill 11 statuses [*
+<5, "curve_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "good_killed", [ 2, 72 ]>
+*]
+SMOOTH_DIAGNOSTIC s 7/6 r 1/4 K 1 a -11/9 b -5/18 poly_half true jac_half true first_kill 11 statuses [*
+<5, "curve_boundary", []>,
+<7, "curve_boundary", []>,
+<11, "good_killed", [ 2, 36 ]>
+*]
+progress 10000 mask 146 roots 175 square 27 smooth 7 local 0 simple 0 exact 0 hits 0
+progress 15000 mask 191 roots 216 square 27 smooth 7 local 0 simple 0 exact 0 hits 0
+DONE checked 15876 mask_survivors 200 cubic_roots 224 square_lifts 27 smooth 7 local_survivors 0 simple_survivors 0 exact_tests 0 hits 0
+KILL_COUNTS [ <5, 3977>, <7, 3758>, <11, 4120>, <13, 2199>, <17, 963>, <19, 406>, <23, 147>, <29, 74>, <31, 32> ]

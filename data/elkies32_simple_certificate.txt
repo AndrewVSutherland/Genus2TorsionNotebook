@@ -1,0 +1,11 @@
+Elkies printed N=32 curve
+f = 15840*x^5 + 2341689*x^4 + 238272*x^3 - 16562*x^2 - 2464*x + 121
+
+p 2 skipped
+p 3 skipped
+p 5 skipped
+p 7 L 49*x^4 + 7*x^3 + 6*x^2 + x + 1
+factorization [
+    <49*x^4 + 7*x^3 + 6*x^2 + x + 1, 1>
+]
+simple certificate at p = 7

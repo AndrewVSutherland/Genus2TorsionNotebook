@@ -1,0 +1,12 @@
+VERIFY 10178.2.a.i : y^2 + (x^2 + x)y = -92*x^6 + 98*x^5 + 556*x^4 + 1299*x^3 + 2025*x^2 + 1193*x + 457
+integral model: y^2 = -368*x^6 + 392*x^5 + 2225*x^4 + 5198*x^3 + 8101*x^2 + 4772*x + 1828
+APDATA primes: [ 3, 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ] (n=44)
+TWIST d=1 matches at 44 good primes (of 44 APDATA primes)
+FINALCURVE 10178.2.a.i : y^2 = -1472*x^6 + 1568*x^5 + 8900*x^4 + 20792*x^3 + 32404*x^2 + 19088*x + 7312
+LMATCH_FINAL 10178.2.a.i : 44 good primes match (deg2-split 38, deg1-rational 6)
+TORSION_INVARIANTS 10178.2.a.i : [ 11 ] (0.220 s)
+TORSION_GEN 1: (x^2 - 451/163*x + 134/163, 8778056/26569*x + 633864/26569, 2)  order 11
+SIMPLICITY 10178.2.a.i : true  witness prime 5  chi = x^4 - 4*x^3 + 9*x^2 - 20*x + 25
+RMSCREEN 10178.2.a.i : distinct cores = [ 5 ] => RM
+BADPRIMES 10178.2.a.i : [ 2, 7, 727 ] (level primes [ <2, 1>, <7, 1>, <727, 1> ])
+VERIFYDONE 10178.2.a.i

@@ -1,0 +1,33 @@
+
+############ TARGET Z/35 = E_7^{-1} glued to E_5^{1/26} ############
+E = E_7^(-1)   f = zz^3 + 9/4*zz^2 - zz + 1
+F = E_5^(1/26)   g = zz^3 + 521/2704*zz^2 - 25/1352*zz + 1/2704
+disc f core -26 ; disc g core -26
+E: cond 26 torsion [ 7 ] rank 0 ; F: cond 806 torsion [ 5 ] rank 0
+Prop4 returned 1 rational sextics (ok)
+--------------------------------------------------
+TARGET Z/35 = E_7^{-1} glued to E_5^{1/26} -- root labelling [ 1, 3, 2 ]
+MODEL  y^2 = -341*zz^6 + 408320*zz^4 - 7941648*zz^2 + 40213888
+genus 2
+TORSION invariants: [ 35 ]
+order 35
+2-torsion: []
+G2Invariants: [ 3969130996137729286861877165625/5690851817253648201728, 1026547601212916425070040375/218878916048217238528, 1059718028436416778075/20889379275454976 ]
+good primes 3..200: 42  irreducible chi: 0  RM/split-screen cores: [ 0, 1 ]
+
+############ TARGET Z/45 = E_9^{-5} glued to E_5^{93/10} ############
+E = E_9^(-5)   f = x^3 + 41401/4*x^2 + 351075*x + 5405625
+F = E_5^(93/10)   g = x^3 + 3169/400*x^2 + 7719/200*x + 8649/400
+disc f core -930 ; disc g core -930
+E: cond 15810 torsion [ 9 ] rank 1 ; F: cond 38130 torsion [ 5 ] rank 0
+Prop4 returned 1 rational sextics (ok)
+--------------------------------------------------
+TARGET Z/45 = E_9^{-5} glued to E_5^{93/10} -- root labelling [ 1, 3, 2 ]
+MODEL  y^2 = 13981*x^6 + 29240200*x^4 + 49996210000*x^2 + 168300000000
+genus 2
+TORSION invariants: [ 45 ]
+order 45
+2-torsion: []
+G2Invariants: [ 9063874232082521949153897811992563494510713289751/31983936421465054359086831115687000000000000, -20768279236565407615960544099146292002940303/1146377649514876500325692871530000000000, 7198570201867975637870740316500847/58950939228278721418763100000000 ]
+good primes 3..200: 39  irreducible chi: 0  RM/split-screen cores: [ 1 ]
+SEARCH_DONE stage 2

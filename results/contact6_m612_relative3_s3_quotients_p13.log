@@ -1,0 +1,22 @@
+S3_QUOTIENTS_MODP p = 13
+f12 irreducible mod p: true
+p24 degree 24, resultant 0.01s
+p24 irreducible mod p: true (connected signed cover)
+internal factorization 25.39s : degrees [ <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <1, 1>, <9, 1>, <9, 1> ]
+deck (linear) roots: 6
+deck map 1: exact order 2 (root = -ell? true)
+deck map 2: exact order 1 (root = -ell? false)
+deck map 3: exact order 3 (root = -ell? false)
+deck map 4: exact order 3 (root = -ell? false)
+deck map 5: exact order 2 (root = -ell? false)
+deck map 6: exact order 2 (root = -ell? false)
+deck group orders: [ 1, 2, 2, 2, 3, 3 ] (S3 iff [1,2,2,2,3,3] as multiset)
+C3_QUOTIENT_GENUS (E8, deg 8) = 4
+hneg(s3) = -s3? true
+S3_QUOTIENT_GENUS (E4, deg 4) = 2
+C2_QUOTIENT_GENUS (deck 1 = sign flip -> F12, deg 12) = 5
+C2_QUOTIENT_GENUS (deck 5, deg 12) = 5
+C2_QUOTIENT_GENUS (deck 6, deg 12) = 5
+SUPPORT_GENUS (F12, deg 12) = 5
+SIGNED_GENUS (F24, deg 24) = 10
+S3_QUOTIENTS_MODP_DONE

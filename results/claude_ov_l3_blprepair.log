@@ -1,0 +1,38 @@
+BLP_REPAIR PB=600
+BLP C1       H5zero=false | naive #=61 scatter | REPAIRED #=61 scatter | np=104 na1z=3 nsq=16
+BLP C2       H5zero=false | naive #=63 scatter | REPAIRED #=62 scatter | np=104 na1z=3 nsq=17
+BLP C3       H5zero=false | naive #=59 scatter | REPAIRED #=57 scatter | np=104 na1z=5 nsq=20
+BLP C4corr   H5zero=true | naive #=1 [ 5 ] | REPAIRED #=1 [ 5 ] | np=105 na1z=8 nsq=0
+BLP C5=X023  H5zero=true | naive #=1 [ 5 ] | REPAIRED #=1 [ 5 ] | np=106 na1z=5 nsq=0
+BLP C6       H5zero=true | naive #=1 [ 5 ] | REPAIRED #=1 [ 5 ] | np=104 na1z=6 nsq=0
+BLP C7       H5zero=false | naive #=53 scatter | REPAIRED #=50 scatter | np=102 na1z=4 nsq=25
+BLP C8       H5zero=false | naive #=64 scatter | REPAIRED #=62 scatter | np=104 na1z=4 nsq=11
+BLP C9       H5zero=false | naive #=64 scatter | REPAIRED #=64 scatter | np=102 na1z=3 nsq=9
+BLP C10      H5zero=false | naive #=58 scatter | REPAIRED #=55 scatter | np=103 na1z=4 nsq=18
+BLP Ct1      H5zero=false | naive #=54 scatter | REPAIRED #=51 scatter | np=106 na1z=4 nsq=23
+BLP Ct2      H5zero=false | naive #=58 scatter | REPAIRED #=55 scatter | np=104 na1z=5 nsq=16
+BLP Ct3      H5zero=false | naive #=57 scatter | REPAIRED #=54 scatter | np=106 na1z=5 nsq=16
+BLP Ct4      H5zero=false | naive #=59 scatter | REPAIRED #=57 scatter | np=104 na1z=3 nsq=16
+BLP Ct5      H5zero=false | naive #=59 scatter | REPAIRED #=57 scatter | np=105 na1z=6 nsq=14
+BLP Ct7      H5zero=false | naive #=59 scatter | REPAIRED #=57 scatter | np=104 na1z=4 nsq=18
+BLP Ct8      H5zero=false | naive #=60 scatter | REPAIRED #=59 scatter | np=103 na1z=4 nsq=16
+BLP Ct9      H5zero=false | naive #=66 scatter | REPAIRED #=64 scatter | np=105 na1z=4 nsq=19
+BLP_SUMMARY n=18  naive-RM=3  REPAIRED-RM=3  onH5=3
+HIT [ 4, 27, -3, 8 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -3, 8, 4, 27 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -6, 32, 1, 6 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -1/12, -2/9, -7/36, -5/324 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=105 na1z=8
+HIT [ -23/12, 25/36, -65/36, 64/81 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=105 na1z=8
+HIT [ 4/15, -5/9, -61/15, 128/45 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=105 na1z=8
+HIT [ -15/4, 27/4, -19/4, 6 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ 11/4, 9/4, 7/4, 4 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -19/4, 6, -15/4, 27/4 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ 1, 6, -6, 32 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -34/15, 32/45, 31/15, -2/9 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=105 na1z=8
+HIT [ -19/6, 8/3, -25/6, 9/2 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ 31/15, -2/9, -34/15, 32/45 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=105 na1z=8
+HIT [ 7/4, 4, 11/4, 9/4 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ 7/6, 1/2, 13/6, 4/3 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ 13/6, 4/3, 7/6, 1/2 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT [ -25/6, 9/2, -19/6, 8/3 ] H5zero=true naive=[ 5 ] REPAIRED=[ 5 ] np=106 na1z=9
+HIT_SUMMARY n=17 onH5=17 repaired-core5=17

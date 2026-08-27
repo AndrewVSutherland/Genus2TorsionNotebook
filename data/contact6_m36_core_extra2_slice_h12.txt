@@ -1,0 +1,15 @@
+Contact-6 core extra-2 slice search for exact [2,6,6]
+height 12 parameter_count 183 simple_only false
+algebraic filter: factor degrees [1,1,1,2], equivalently exactly one of Qp,Qm splits
+progress 5000 slice_solutions 358 split_formal 0 verified 0 hits 0
+progress 10000 slice_solutions 370 split_formal 0 verified 0 hits 0
+progress 15000 slice_solutions 370 split_formal 0 verified 0 hits 0
+progress 20000 slice_solutions 374 split_formal 0 verified 0 hits 0
+progress 25000 slice_solutions 386 split_formal 0 verified 0 hits 0
+progress 30000 slice_solutions 390 split_formal 0 verified 0 hits 0
+Done
+checked_slices 33123
+slice_solutions 390
+split_formal 0
+verified 0
+hits 0

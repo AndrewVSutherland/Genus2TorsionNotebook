@@ -1,0 +1,1 @@
+<Polynomial([RationalField() | 972, 324, 0, -15/2, 1/4]), Polynomial([RationalField() | 6, 1]), Polynomial([RationalField() | 0, 0, 0, 1, 1/24])>

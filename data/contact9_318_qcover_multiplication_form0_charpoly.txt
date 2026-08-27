@@ -1,0 +1,12 @@
+stage=build_open_quotient
+stage=open_quotient_complete
+stage=standard_monomials_complete
+contact9 [3,18] q-cover multiplication matrices
+quotient_degree=40
+groebner_basis_count=17
+leading_exponents=((0, 4, 2), (1, 2, 3), (0, 3, 3), (0, 2, 4), (0, 1, 5), (0, 0, 6), (3, 2, 0), (2, 3, 0), (1, 4, 0), (0, 5, 0), (2, 2, 1), (1, 3, 1), (2, 1, 2), (2, 0, 3), (1, 0, 4), (4, 0, 0), (3, 0, 1))
+standard_monomial_count=40
+standard_exponents=[(0, 0, 0), (0, 0, 1), (0, 1, 0), (1, 0, 0), (0, 0, 2), (0, 1, 1), (0, 2, 0), (1, 0, 1), (1, 1, 0), (2, 0, 0), (0, 0, 3), (0, 1, 2), (0, 2, 1), (0, 3, 0), (1, 0, 2), (1, 1, 1), (1, 2, 0), (2, 0, 1), (2, 1, 0), (3, 0, 0), (0, 0, 4), (0, 1, 3), (0, 2, 2), (0, 3, 1), (0, 4, 0), (1, 0, 3), (1, 1, 2), (1, 2, 1), (1, 3, 0), (2, 0, 2), (2, 1, 1), (2, 2, 0), (3, 1, 0), (0, 0, 5), (0, 1, 4), (0, 2, 3), (0, 3, 2), (0, 4, 1), (1, 1, 3), (1, 2, 2)]
+stage=form_0_matrix_start
+stage=form_0_matrix_complete
+stage=form_0_charpoly_start

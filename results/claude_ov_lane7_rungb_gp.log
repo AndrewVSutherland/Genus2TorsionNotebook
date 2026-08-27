@@ -1,0 +1,15 @@
+---- CONTROL: the [6,6] witness (full rational 3-torsion) ----
+CONTROLGP [6,6] : 3 | #J(F_p) at 87/87 good primes (100%)  first failing prime = 0  [skipped 0]
+---- the eleven contact-7 three-root points ----
+RUNGBGP (-10, -10/7, -1/2) : 3 | #J(F_p) at 36/86 good primes (41%)  first failing prime = 11  [skipped 0]
+RUNGBGP (-5, -15/8, -15/22) : 3 | #J(F_p) at 34/86 good primes (39%)  first failing prime = 13  [skipped 0]
+RUNGBGP (-3, -3/4, -3/5) : 3 | #J(F_p) at 6/90 good primes (6%)  first failing prime = 11  [skipped 0]
+RUNGBGP (-15/8, -15/19, -1/2) : 3 | #J(F_p) at 40/85 good primes (47%)  first failing prime = 17  [skipped 0]
+RUNGBGP (-5/18, -10/49, 4/17) : 3 | #J(F_p) at 29/84 good primes (34%)  first failing prime = 11  [skipped 0]
+RUNGBGP (-4/9, -4/25, 4/17) : 3 | #J(F_p) at 31/86 good primes (36%)  first failing prime = 11  [skipped 0]
+RUNGBGP (-511/61, -511/625, -1/2) : 3 | #J(F_p) at 30/83 good primes (36%)  first failing prime = 11  [skipped 0]
+RUNGBGP (-165/41, -33/16, -165/289) : 3 | #J(F_p) at 30/82 good primes (36%)  first failing prime = 23  [skipped 0]
+RUNGBGP (-164/297, -1/2, 164/361) : 3 | #J(F_p) at 34/78 good primes (43%)  first failing prime = 17  [skipped 0]
+RUNGBGP (-17/50, -34/189, 34/121) : 3 | #J(F_p) at 35/84 good primes (41%)  first failing prime = 19  [skipped 0]
+RUNGBGP (-1/2, -13/49, 13/50) : 3 | #J(F_p) at 31/84 good primes (36%)  first failing prime = 17  [skipped 0]
+RUNGBGPDONE

@@ -1,0 +1,128 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+FIBER LANE Sig=2 sg=[ 2, 1, 3 ] Org=1 Test=3 H=60 HU=12
+JOIN Sig=2 drop=3 matches=687 fibers=645
+SWEEP HU=12 fibers-with-points=19 pts=54 infsq-fibers=2 0.080 s
+FIBERS Sig=2 total=645 multi=48
+MWRANK u=-1 r=1 gens=2
+FIBSURV Sig=2 t=-7 u=-1
+SKIPISO t=-7 u=-1
+MWRANK u=2 r=2 gens=2
+FIBSURV Sig=2 t=17 u=2
+SKIPISO t=17 u=2
+MWRANK u=3/2 r=2 gens=2
+FIBSURV Sig=2 t=33 u=3/2
+SKIPISO t=33 u=3/2
+MWRANK u=-1/3 r=2 gens=2
+FIBSURV Sig=2 t=-11 u=-1/3
+SKIPISO t=-11 u=-1/3
+MWRANK u=4 r=2 gens=2
+FIBSURV Sig=2 t=19/3 u=4
+SKIPISO t=19/3 u=4
+MWRANK u=-5 r=2 gens=2
+FIBSURV Sig=2 t=-5/3 u=-5
+SKIPISO t=-5/3 u=-5
+MWRANK u=-3/5 r=2 gens=2
+FIBSURV Sig=2 t=-9 u=-3/5
+SKIPISO t=-9 u=-3/5
+MWRANK u=-6 r=2 gens=2
+FIBSURV Sig=2 t=-9/7 u=-6
+SKIPISO t=-9/7 u=-6
+MWRANK u=6 r=1 gens=2
+FIBSURV Sig=2 t=21/5 u=6
+SKIPISO t=21/5 u=6
+MWRANK u=7 r=1 gens=2
+FIBSURV Sig=2 t=11/3 u=7
+SKIPISO t=11/3 u=7
+MWRANK u=-7 r=1 gens=2
+FIBSURV Sig=2 t=-1 u=-7
+SKIPISO t=-1 u=-7
+MWRANK u=-9/7 r=2 gens=2
+FIBSURV Sig=2 t=-6 u=-9/7
+SKIPISO t=-6 u=-9/7
+MWRANK u=-9 r=2 gens=2
+FIBSURV Sig=2 t=-3/5 u=-9
+SKIPISO t=-3/5 u=-9
+MWRANK u=9/2 r=2 gens=2
+FIBSURV Sig=2 t=39/7 u=9/2
+SKIPISO t=39/7 u=9/2
+MWRANK u=-10 r=2 gens=2
+FIBSURV Sig=2 t=-5/11 u=-10
+SKIPISO t=-5/11 u=-10
+MWRANK u=-11/3 r=2 gens=2
+FIBSURV Sig=2 t=-17/7 u=-11/3
+SKIPISO t=-17/7 u=-11/3
+MWRANK u=11 r=2 gens=2
+FIBSURV Sig=2 t=13/5 u=11
+SKIPISO t=13/5 u=11
+MWRANK u=12 r=2 gens=2
+FIBSURV Sig=2 t=27/11 u=12
+SKIPISO t=27/11 u=12
+MWRANK u=-12 r=2 gens=2
+FIBSURV Sig=2 t=-3/13 u=-12
+SKIPISO t=-3/13 u=-12
+MWRANK u=15 r=2 gens=2
+FIBSURV Sig=2 t=15/7 u=15
+SKIPISO t=15/7 u=15
+MWRANK u=-16 r=2 gens=2
+FIBSURV Sig=2 t=1/17 u=-16
+SKIPISO t=1/17 u=-16
+MWRANK u=18 r=2 gens=2
+FIBSURV Sig=2 t=33/17 u=18
+SKIPISO t=33/17 u=18
+MWRANK u=-19/9 r=2 gens=2
+FIBSURV Sig=2 t=-29/7 u=-19/9
+SKIPISO t=-29/7 u=-19/9
+MWRANK u=19/3 r=2 gens=2
+FIBSURV Sig=2 t=4 u=19/3
+SKIPISO t=4 u=19/3
+MWRANK u=22 r=2 gens=2
+FIBSURV Sig=2 t=37/21 u=22
+SKIPISO t=37/21 u=22
+MWRANK u=-23/3 r=2 gens=2
+FIBSURV Sig=2 t=-11/13 u=-23/3
+SKIPISO t=-11/13 u=-23/3
+MWRANK u=15/23 r=2 gens=2
+FIBSURV Sig=2 t=-45 u=15/23
+SKIPISO t=-45 u=15/23
+MWRANK u=7/23 r=2 gens=2
+FIBSURV Sig=2 t=-22 u=7/23
+SKIPISO t=-22 u=7/23
+MWRANK u=-25/3 r=3 gens=2
+FIBSURV Sig=2 t=-5/7 u=-25/3
+SKIPISO t=-5/7 u=-25/3
+MWRANK u=-27/5 r=2 gens=2
+FIBSURV Sig=2 t=-3/2 u=-27/5
+SKIPISO t=-3/2 u=-27/5
+MWRANK u=29 r=2 gens=2
+FIBSURV Sig=2 t=11/7 u=29
+SKIPISO t=11/7 u=29
+MWRANK u=29/3 r=2 gens=2
+FIBSURV Sig=2 t=37/13 u=29/3
+SKIPISO t=37/13 u=29/3
+MWRANK u=31/7 r=2 gens=2
+FIBSURV Sig=2 t=17/3 u=31/7
+SKIPISO t=17/3 u=31/7
+MWRANK u=33/17 r=3 gens=2
+FIBSURV Sig=2 t=18 u=33/17
+SKIPISO t=18 u=33/17
+MWRANK u=33/13 r=2 gens=2
+FIBSURV Sig=2 t=57/5 u=33/13
+SKIPISO t=57/5 u=33/13
+MWRANK u=-37/3 r=3 gens=2
+FIBSURV Sig=2 t=-1/5 u=-37/3
+SKIPISO t=-1/5 u=-37/3
+MWRANK u=41/3 r=2 gens=2
+FIBSURV Sig=2 t=43/19 u=41/3
+SKIPISO t=43/19 u=41/3
+MWRANK u=-23/41 r=2 gens=2
+FIBSURV Sig=2 t=-37/4 u=-23/41
+SKIPISO t=-37/4 u=-23/41
+MWRANK u=-43/13 r=2 gens=2
+FIBSURV Sig=2 t=-19/7 u=-43/13
+SKIPISO t=-19/7 u=-43/13
+MWRANK u=43/3 r=3 gens=2
+FIBSURV Sig=2 t=11/5 u=43/3
+SKIPISO t=11/5 u=43/3
+MAXFIB 40 reached at fiber 41
+SEARCH_DONE 2266sigfib Sig=2 Org=1 fibers=645 proc=40 mwskip=0 rank0=0 rankpos=40 surv=40 deck=40 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 10.240 s

@@ -1,0 +1,5 @@
+CA 3 (-3, -3/4, -3/5) v_2(disc_min) = 7  bad_at_2 = true  magma_ogg_disclaimer_applies = false
+   magma N   = 152100 = [ <2, 2>, <3, 2>, <5, 2>, <13, 2> ]
+   pari  N   = 38025
+   ratio magma/pari = 4 ; odd parts agree = true
+

@@ -1,0 +1,5 @@
+F3_RANK3_PROFILES_START E Elliptic Curve defined by y^2 = x^3 - x^2 - 28129*x + 46385185 over Rational Field
+rank_bounds 3 3 gens [ (-385 : 0 : 1), (8809/9 : 834632/27 : 1), (337 : -8664 : 1), (673 : 18216 : 1) ]
+F3_PROFILE_SKIP 11 map
+F3_PROFILE_SKIP 13 map
+F3_RANK3_PROFILES_DONE results/target_22224_f3_rank3_profiles_p1113.tsv

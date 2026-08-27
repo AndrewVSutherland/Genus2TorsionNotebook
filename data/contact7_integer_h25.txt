@@ -1,0 +1,7 @@
+CONTACT7 search integer
+height 25 parameters 51 max_exact 10000
+DONE contact7 integer
+checked 2601 smooth 2601 verified7 2601 reducible 0 exact_tests 0 hits 0
+Factor type counts
+  5 2601
+Torsion counts among exact reducible cases

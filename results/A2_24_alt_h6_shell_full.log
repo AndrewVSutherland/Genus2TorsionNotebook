@@ -1,0 +1,32 @@
+A2_24_ALT_SCOUT_START
+parameters Height=6 ShellOnly=true LowDegree=4 SkipClosedBest=true PStart=1 PStop=0 MaxRows=0 MaxFibers=0 MaxChecked=0 Progress=5000 VerboseRows=false DirectSearchHeight=0
+height_values_count=47 nonzero_p_count=46 active_p_index_range=[1,46]
+partition_estimate full_enumerated_triples=99452 full_active_triples=43136 partition_enumerated_triples=99452 partition_active_triples=43136 active_fraction=1.00000000000
+SCAN_PROGRESS active_checked=5000 enumerated=11270 shell_skipped=6270 split_fibers=0 order12_split_fibers=0 rows=0 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=9.170
+SCAN_PROGRESS active_checked=10000 enumerated=23338 shell_skipped=13338 split_fibers=0 order12_split_fibers=0 rows=0 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=17.060
+SCAN_PROGRESS active_checked=15000 enumerated=33525 shell_skipped=18525 split_fibers=0 order12_split_fibers=0 rows=0 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=24.500
+FIBER source=height_shell p=-1/5 z=-6/5 r=5/4 F_factor_degrees=[ <1, 1>, <1, 1>, <2, 1> ] quadratic_subfactors=2 two_count=8
+FIBER source=height_shell p=-1/5 z=6/5 r=5/4 F_factor_degrees=[ <1, 1>, <1, 1>, <2, 1> ] quadratic_subfactors=2 two_count=8
+SCAN_PROGRESS active_checked=20000 enumerated=48158 shell_skipped=28158 split_fibers=2 order12_split_fibers=2 rows=16 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=31.610
+FIBER source=height_shell p=1/5 z=-6/5 r=-5/4 F_factor_degrees=[ <1, 1>, <1, 1>, <2, 1> ] quadratic_subfactors=2 two_count=8
+FIBER source=height_shell p=1/5 z=6/5 r=-5/4 F_factor_degrees=[ <1, 1>, <1, 1>, <2, 1> ] quadratic_subfactors=2 two_count=8
+SCAN_PROGRESS active_checked=25000 enumerated=55908 shell_skipped=30908 split_fibers=4 order12_split_fibers=4 rows=32 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=37.910
+SCAN_PROGRESS active_checked=30000 enumerated=71496 shell_skipped=41496 split_fibers=4 order12_split_fibers=4 rows=32 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=45.230
+SCAN_PROGRESS active_checked=35000 enumerated=78329 shell_skipped=43329 split_fibers=4 order12_split_fibers=4 rows=32 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=52.860
+SCAN_PROGRESS active_checked=40000 enumerated=94093 shell_skipped=54093 split_fibers=4 order12_split_fibers=4 rows=32 low_rows=0 degree4_rows=0 rational_M_root_rows=0 errors=0 cputime=60.520
+AFFINE_DEGREE_DISTRIBUTION_START
+AFFINE_DEGREE_DISTRIBUTION degrees=[ 16 ] count=24
+AFFINE_DEGREE_DISTRIBUTION degrees=[ 8, 8 ] count=8
+AFFINE_DEGREE_DISTRIBUTION_END
+MIN_AFFINE_DEGREE_DISTRIBUTION_START
+MIN_AFFINE_DEGREE_DISTRIBUTION min_degree=16 count=24
+MIN_AFFINE_DEGREE_DISTRIBUTION min_degree=8 count=8
+MIN_AFFINE_DEGREE_DISTRIBUTION_END
+RESIDUAL_QUARTIC_FACTOR_DISTRIBUTION_START
+RESIDUAL_QUARTIC_FACTOR_DISTRIBUTION degrees=[ <1, 1>, <1, 1>, <2, 1> ] count=4
+RESIDUAL_QUARTIC_FACTOR_DISTRIBUTION_END
+RATIONAL_TWO_TORSION_COUNT_DISTRIBUTION_START
+RATIONAL_TWO_TORSION_COUNT_DISTRIBUTION two_count=8 count=4
+RATIONAL_TWO_TORSION_COUNT_DISTRIBUTION_END
+KNOWN_CLOSED_BEST_SKIPPED closed_fibers=0 known_degree4_translated_rows_if_full_four=0 known_quartic_branches_if_full_four=0
+A2_24_ALT_SCOUT_DONE enumerated=99452 shell_skipped=56316 active_checked=43136 estimated_partition_active=43136 estimated_full_active=43136 split_fibers=4 order12_split_fibers=4 translated_order12_rows=32 low_rows_le_4=0 degree4_or_less_rows=0 rational_M_root_rows=0 rational_M_root_factors=0 rational_point_rows=0 exact_divisible_rows=0 torsion_cert_rows=0 positive_dim_rows=0 errors=0 closed_best_skipped=0 stopped_early=false cputime=66.230

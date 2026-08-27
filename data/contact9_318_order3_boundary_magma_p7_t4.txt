@@ -1,0 +1,49 @@
+Magma V2.29-4     Fri Jul 10 2026 23:28:21 on <host>  [Seed = 1149192677]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact9_318_order3_boundary_check.m"
+contact9 [3,18] order-3 cover check
+field Finite field of size 7
+f x^5 + 6*x^4 + x^3 + 2*x + 5
+factorization [
+    <x + 1, 2>,
+    <x^3 + 4*x^2 + 6*x + 5, 1>
+]
+ideal_dimension 0 []
+solution_count 12
+solution [ 0, 6, 1, 1, 2, 2 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+solution [ 0, 6, 6, 6, 5, 5 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+solution [ 1, 4, 3, 2, 2, 5 ]
+q_at_node 4 fiber_rank 6 fiber_det 6
+solution [ 1, 4, 4, 5, 5, 2 ]
+q_at_node 4 fiber_rank 6 fiber_det 6
+solution [ 2, 3, 1, 4, 6, 5 ]
+q_at_node 2 fiber_rank 6 fiber_det 6
+solution [ 2, 3, 6, 3, 1, 2 ]
+q_at_node 2 fiber_rank 6 fiber_det 6
+solution [ 3, 2, 3, 1, 3, 5 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+solution [ 3, 2, 4, 6, 4, 2 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+solution [ 3, 3, 2, 5, 5, 1 ]
+q_at_node 1 fiber_rank 6 fiber_det 5
+solution [ 3, 3, 5, 2, 2, 6 ]
+q_at_node 1 fiber_rank 6 fiber_det 5
+solution [ 5, 4, 3, 4, 3, 2 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+solution [ 5, 4, 4, 3, 4, 5 ]
+q_at_node 0 fiber_rank 5 fiber_det 0
+exact_t4
+f4 X^5 + 1313043849/100000000*X^4 - 411903/16000*X^3 + 5305461/160000*X^2 - 
+    787923/40000*X + 179469/40000
+integral_model 10000000000000000*X^5 + 131304384900000000*X^4 - 
+    257439375000000000*X^3 + 331591312500000000*X^2 - 196980750000000000*X + 
+    44867250000000000
+y_scale 100000000
+discriminant 11844560903148869846384723316432680906185701084939/909494701772928\
+2379150390625000000000000
+torsion_invariants [ 18 ]
+
+Total time: 0.160 seconds, Total memory usage: 83.16MB

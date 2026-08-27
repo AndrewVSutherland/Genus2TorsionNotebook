@@ -1,0 +1,15 @@
+Loading "results/gl2_bigP_clean.m"
+LOADED 12 dumped matrices
+NOVARIANT combo=[ 1, 1, 1, 1 ]
+NOVARIANT combo=[ 1, 2, 1, 1 ]
+NOVARIANT combo=[ 1, 1, 2, 1 ]
+NOVARIANT combo=[ 1, 2, 2, 1 ]
+NOVARIANT combo=[ 1, 1, 1, 2 ]
+NOVARIANT combo=[ 1, 2, 1, 2 ]
+NOVARIANT combo=[ 1, 1, 2, 2 ]
+NOVARIANT combo=[ 1, 2, 2, 2 ]
+NOVARIANT combo=[ 1, 1, 1, 3 ]
+NOVARIANT combo=[ 1, 2, 1, 3 ]
+NOVARIANT combo=[ 1, 1, 2, 3 ]
+NOVARIANT combo=[ 1, 2, 2, 3 ]
+PROBE_DONE

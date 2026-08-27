@@ -1,0 +1,20 @@
+Loading "split_lab.m"
+SATCERT LANE Sig=3 sg=[ 3, 2, 1 ] fibers=1161 PtsCap=2000000
+JOIN fibers=4604
+SATFIX u=33/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/7
+SATCERT2 u=33/7 r=3 m1lb=0.0500295283034354979834449391570 Bidx=615 (saturated to Bidx -> idx=1)
+SATFIX u=33/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/5
+SATCERT2 u=33/5 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=33/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/8
+SATCERT u=33/8 r=2 Rsub=5.09465842278562332740832645897 Teff=0.0258050990437534549475491030499 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=33/25 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/25
+SATCERT2 u=33/25 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=34 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=34
+SATCERT2 u=34 r=2 m1lb=0.0501564698316407847427064251832 Bidx=113 (saturated to Bidx -> idx=1)
+SATFIX u=-34 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-34

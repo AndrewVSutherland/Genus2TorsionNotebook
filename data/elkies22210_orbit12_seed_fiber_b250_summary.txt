@@ -1,0 +1,50 @@
+ELKIES22210 ORBIT-12 KNOWN-SEED FIBER SEARCH
+date 2026-07-11
+command magma -b code/elkies22210_orbit12_seed_fiber_search.m
+
+s 59/49
+quotient_model y^2=x^3-(7103/2401)x^2-(1503792/117649)x+162409536/5764801
+minimal_model y^2+x*y=x^3-5656459*x+2951658593
+rank_bounds 2 2
+MW_invariants 4 0 0
+MW_group Z/4 + Z + Z
+
+fixed_T (0,12744/2401) order 4
+fixed_P1 (-288/343,101160/16807)
+fixed_P2 (-944/441,367688/64827)
+fixed_P1_minimal (-1096,89063)
+fixed_P2_minimal (-16892/9,2277427/27)
+fixed_basis_change_determinant 1
+
+seed_q 8/7
+seed_quotient_point (1593/343,38232/16807)
+seed_minimal_point (8783/4,258841/8)
+seed_complement_roots -9/7 -5/7 -1/7
+seed_coordinates_T_P1_P2 2 1 -1
+seed_radicands_for_roots_as_listed 36864/117649 19584/117649 59904/117649 6912/16807
+seed_square_mask true false false false
+
+coefficient_box -250 <= n1,n2 <= 250
+all_torsion_translates 4
+MW_elements_covered 1004004
+sign_representatives_excluding_identity 502002
+sieve_primes 11 13 17 19 23 29 31 37 41 43 47 53 61 67 71 73 79 83
+sieve_counts 188375 56514 21455 5405 1800 1072 814 616 411 53 17 17 6 6 5 5 5 5
+modular_sieve_survivors 5
+exact_points_constructed 5
+finite_q_survivors 4
+exact_cubic_discriminant_squares 2
+exact_cubics_split_completely 2
+smooth_split_lifts 1
+max_exact_square_mask_weight 1
+full_hits 0
+
+exact_split_boundary q=59/49 roots=0,-1,-59/49
+only_smooth_split_lift q=8/7 roots=-1/7,-5/7,-9/7 mask=true,false,false,false
+
+The local sieve is necessary-only and therefore cannot discard a cubic
+that splits over Q.  At a good prime, if q has finite reduction, a monic
+cubic split over Q reduces to a completely split cubic over F_p; points
+where q has indeterminate/infinite reduction are retained.  Exact tests
+are applied to every survivor.  The conclusion is exhaustive only in
+the stated fixed Mordell--Weil coefficient box.

@@ -1,0 +1,950 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+FAMILY N=6 verified
+FAMILY N=8 verified
+FAMILY N=10 verified
+FAMILY N=12 FAILED
+POOL N=6: 707 curves
+POOL N=8: 445 curves
+POOL N=10: 970 curves
+BUCKET D-1 size 7 Ns={* 6^^4, 8^^3 *}
+BUCKET D-10 size 2 Ns={* 6^^2 *}
+BUCKET D-103 size 4 Ns={* 6^^2, 8^^2 *}
+BUCKET D-11 size 3 Ns={* 6^^2, 10 *}
+BUCKET D-110 size 3 Ns={* 10^^3 *}
+CAND gain|10(t=-3/4)|10(t=-7/2)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/4)|10(t=-7/2)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-3/4)|10(t=-7/2)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/4)|10(t=-7/2)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-3/4)|10(t=-7/22)|1 unknown=[
+[ 5, 40 ],
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/4)|10(t=-7/22)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-3/4)|10(t=-7/22)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/4)|10(t=-7/22)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-7/2)|10(t=-7/22)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-7/2)|10(t=-7/22)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-7/2)|10(t=-7/22)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-7/2)|10(t=-7/22)|2 invs=[ 5, 10 ]
+BUCKET D-111 size 2 Ns={* 6^^2 *}
+BUCKET D-119 size 7 Ns={* 6^^3, 8^^3, 10 *}
+BUCKET D-12122 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-17/4)|10(t=-21/22)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-17/4)|10(t=-21/22)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-17/4)|10(t=-21/22)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-17/4)|10(t=-21/22)|2 invs=[ 5, 10 ]
+BUCKET D-123 size 2 Ns={* 6, 10 *}
+BUCKET D-127 size 3 Ns={* 6, 8^^2 *}
+BUCKET D-14 size 3 Ns={* 6, 8^^2 *}
+BUCKET D-143 size 3 Ns={* 6^^3 *}
+BUCKET D-15 size 12 Ns={* 6^^9, 10^^3 *}
+CAND gain|10(t=-1)|10(t=-1/3)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1)|10(t=-1/3)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1)|10(t=-1/3)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1)|10(t=-1/3)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1)|10(t=-23/8)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1)|10(t=-23/8)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1)|10(t=-23/8)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1)|10(t=-23/8)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1/3)|10(t=-23/8)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/3)|10(t=-23/8)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/3)|10(t=-23/8)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/3)|10(t=-23/8)|2 invs=[ 5, 10 ]
+BUCKET D-151 size 2 Ns={* 6, 8 *}
+BUCKET D-159 size 2 Ns={* 6^^2 *}
+BUCKET D-167 size 2 Ns={* 6, 8 *}
+BUCKET D-17 size 3 Ns={* 6, 8^^2 *}
+BUCKET D-183 size 2 Ns={* 6^^2 *}
+BUCKET D-191 size 2 Ns={* 8^^2 *}
+BUCKET D-195 size 2 Ns={* 6^^2 *}
+BUCKET D-1965359 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-16/29)|10(t=-25/11)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-16/29)|10(t=-25/11)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-16/29)|10(t=-25/11)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-16/29)|10(t=-25/11)|2 invs=[ 5, 10 ]
+BUCKET D-199 size 2 Ns={* 8^^2 *}
+BUCKET D-2 size 8 Ns={* 6^^3, 8^^3, 10^^2 *}
+CAND gain|10(t=-1/2)|10(t=-17/16)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/2)|10(t=-17/16)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/2)|10(t=-17/16)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/2)|10(t=-17/16)|2 invs=[ 5, 10 ]
+BUCKET D-2090 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-9/4)|10(t=-13/10)|1 unknown=[
+[ 10, 10 ],
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/4)|10(t=-13/10)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-9/4)|10(t=-13/10)|2 unknown=[
+[ 10, 10 ],
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/4)|10(t=-13/10)|2 invs=[ 5, 10 ]
+BUCKET D-21 size 2 Ns={* 6^^2 *}
+BUCKET D-214415 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-9/19)|10(t=-16/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/19)|10(t=-16/5)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-9/19)|10(t=-16/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/19)|10(t=-16/5)|2 invs=[ 5, 10 ]
+BUCKET D-215 size 2 Ns={* 6, 10 *}
+BUCKET D-23 size 5 Ns={* 6^^2, 8^^3 *}
+BUCKET D-231 size 4 Ns={* 6^^3, 10 *}
+BUCKET D-239 size 2 Ns={* 8, 10 *}
+BUCKET D-247 size 2 Ns={* 6^^2 *}
+BUCKET D-255 size 4 Ns={* 6^^4 *}
+BUCKET D-26 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-5/16)|10(t=-17/18)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/16)|10(t=-17/18)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-5/16)|10(t=-17/18)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/16)|10(t=-17/18)|2 invs=[ 5, 10 ]
+BUCKET D-27335 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-17/22)|10(t=-31)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-17/22)|10(t=-31)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-17/22)|10(t=-31)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-17/22)|10(t=-31)|2 invs=[ 5, 10 ]
+BUCKET D-287 size 4 Ns={* 6, 8^^2, 10 *}
+BUCKET D-29 size 3 Ns={* 6, 10^^2 *}
+CAND gain|10(t=-5/8)|10(t=-13/32)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/8)|10(t=-13/32)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-5/8)|10(t=-13/32)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/8)|10(t=-13/32)|2 invs=[ 5, 10 ]
+BUCKET D-3 size 7 Ns={* 6^^7 *}
+PROGRESS gain 200 pairs, funneled 35, aborts 7 known 28 hits 0, 15.810 s
+BUCKET D-31 size 5 Ns={* 6^^2, 8^^2, 10 *}
+BUCKET D-319 size 2 Ns={* 6, 10 *}
+BUCKET D-33 size 2 Ns={* 6^^2 *}
+BUCKET D-35 size 4 Ns={* 6^^3, 10 *}
+BUCKET D-39 size 6 Ns={* 6^^5, 10 *}
+BUCKET D-391 size 2 Ns={* 6, 8 *}
+BUCKET D-399 size 4 Ns={* 6^^3, 10 *}
+BUCKET D-407 size 3 Ns={* 6, 10^^2 *}
+CAND gain|10(t=-13/11)|10(t=-18)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-13/11)|10(t=-18)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-13/11)|10(t=-18)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-13/11)|10(t=-18)|2 invs=[ 5, 10 ]
+BUCKET D-455 size 4 Ns={* 6^^3, 10 *}
+BUCKET D-46 size 2 Ns={* 8^^2 *}
+BUCKET D-47 size 4 Ns={* 6^^2, 8^^2 *}
+BUCKET D-5 size 2 Ns={* 6^^2 *}
+BUCKET D-51 size 2 Ns={* 6^^2 *}
+BUCKET D-511 size 2 Ns={* 6, 8 *}
+BUCKET D-527 size 2 Ns={* 6, 8 *}
+BUCKET D-55 size 7 Ns={* 6^^6, 10 *}
+BUCKET D-6 size 2 Ns={* 6^^2 *}
+BUCKET D-615 size 3 Ns={* 6^^2, 10 *}
+BUCKET D-6479 size 4 Ns={* 10^^4 *}
+CAND gain|10(t=-4/11)|10(t=-6/19)|1 unknown=[
+[ 5, 40 ],
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-6/19)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/11)|10(t=-6/19)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-6/19)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-4/11)|10(t=-9)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-9)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/11)|10(t=-9)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-9)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-4/11)|10(t=-15/32)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-15/32)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/11)|10(t=-15/32)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/11)|10(t=-15/32)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-6/19)|10(t=-9)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-6/19)|10(t=-9)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-6/19)|10(t=-9)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-6/19)|10(t=-9)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-6/19)|10(t=-15/32)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-6/19)|10(t=-15/32)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-6/19)|10(t=-15/32)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-6/19)|10(t=-15/32)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-9)|10(t=-15/32)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9)|10(t=-15/32)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-9)|10(t=-15/32)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9)|10(t=-15/32)|2 invs=[ 5, 10 ]
+BUCKET D-663 size 2 Ns={* 6^^2 *}
+BUCKET D-671 size 2 Ns={* 6, 10 *}
+BUCKET D-695 size 2 Ns={* 6, 10 *}
+BUCKET D-7 size 12 Ns={* 6^^8, 8^^4 *}
+BUCKET D-71 size 5 Ns={* 6^^2, 8^^2, 10 *}
+BUCKET D-79 size 4 Ns={* 6^^2, 8^^2 *}
+BUCKET D-87 size 2 Ns={* 6^^2 *}
+BUCKET D-935 size 2 Ns={* 6, 10 *}
+BUCKET D-95 size 5 Ns={* 6^^4, 10 *}
+BUCKET D10 size 4 Ns={* 6^^2, 10^^2 *}
+CAND gain|6(t=-9)|10(t=1/4)|1 unknown=[
+[ 120 ]
+]
+EXACTKNOWN gain|6(t=-9)|10(t=1/4)|1 invs=[ 30 ]
+CAND gain|10(t=1/4)|10(t=-3/10)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/4)|10(t=-3/10)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/4)|10(t=-3/10)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/4)|10(t=-3/10)|2 invs=[ 5, 10 ]
+BUCKET D1001 size 3 Ns={* 6^^3 *}
+BUCKET D101 size 2 Ns={* 6, 10 *}
+PROGRESS gain 400 pairs, funneled 57, aborts 12 known 45 hits 0, 29.620 s
+BUCKET D105 size 9 Ns={* 6^^9 *}
+CAND gain|6(t=-4)|6(t=-16/9)|1 unknown=[
+[ 6, 24 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=-4)|6(t=-16/9)|1 invs=[ 6, 6 ]
+CAND gain|6(t=-4)|6(t=-16/9)|2 unknown=[
+[ 6, 24 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=-4)|6(t=-16/9)|2 invs=[ 6, 6 ]
+BUCKET D1057 size 2 Ns={* 6, 8 *}
+BUCKET D1081 size 2 Ns={* 6, 8 *}
+BUCKET D1090 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=1/20)|10(t=9/20)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/20)|10(t=9/20)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/20)|10(t=9/20)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/20)|10(t=9/20)|2 invs=[ 5, 10 ]
+BUCKET D110 size 2 Ns={* 6, 10 *}
+BUCKET D1105 size 3 Ns={* 6^^3 *}
+BUCKET D1113 size 2 Ns={* 6^^2 *}
+BUCKET D113 size 6 Ns={* 6^^3, 8^^3 *}
+BUCKET D115 size 2 Ns={* 6, 10 *}
+BUCKET D1169 size 3 Ns={* 6, 8^^2 *}
+BUCKET D119 size 3 Ns={* 6, 8^^2 *}
+BUCKET D1241 size 3 Ns={* 6, 8^^2 *}
+BUCKET D1265 size 2 Ns={* 6^^2 *}
+BUCKET D127281 size 3 Ns={* 10^^3 *}
+CAND gain|10(t=-1/19)|10(t=-4/21)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/19)|10(t=-4/21)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/19)|10(t=-4/21)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/19)|10(t=-4/21)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1/19)|10(t=5/21)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/19)|10(t=5/21)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/19)|10(t=5/21)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/19)|10(t=5/21)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-4/21)|10(t=5/21)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/21)|10(t=5/21)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/21)|10(t=5/21)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/21)|10(t=5/21)|2 invs=[ 5, 10 ]
+BUCKET D1281 size 3 Ns={* 6^^2, 10 *}
+BUCKET D129 size 3 Ns={* 6^^3 *}
+BUCKET D13 size 7 Ns={* 6^^6, 10 *}
+BUCKET D1337 size 2 Ns={* 6, 8 *}
+BUCKET D13585 size 3 Ns={* 10^^3 *}
+CAND gain|10(t=-1/11)|10(t=-3/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/11)|10(t=-3/13)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/11)|10(t=-3/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/11)|10(t=-3/13)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1/11)|10(t=4/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/11)|10(t=4/13)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/11)|10(t=4/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/11)|10(t=4/13)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-3/13)|10(t=4/13)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/13)|10(t=4/13)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-3/13)|10(t=4/13)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/13)|10(t=4/13)|2 invs=[ 5, 10 ]
+BUCKET D1365 size 2 Ns={* 6^^2 *}
+BUCKET D137 size 5 Ns={* 6^^3, 8^^2 *}
+BUCKET D1393 size 3 Ns={* 6, 8^^2 *}
+BUCKET D14 size 5 Ns={* 6^^2, 8^^3 *}
+BUCKET D142 size 2 Ns={* 8, 10 *}
+BUCKET D1441 size 2 Ns={* 6, 10 *}
+BUCKET D145 size 8 Ns={* 6^^4, 10^^4 *}
+CAND gain|10(t=1/10)|10(t=2/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=2/5)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/10)|10(t=2/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=2/5)|2 invs=[ 5, 10 ]
+CAND gain|10(t=1/10)|10(t=-8/29)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=-8/29)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/10)|10(t=-8/29)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=-8/29)|2 invs=[ 5, 10 ]
+CAND gain|10(t=1/10)|10(t=12/29)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=12/29)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/10)|10(t=12/29)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/10)|10(t=12/29)|2 invs=[ 5, 10 ]
+CAND gain|10(t=2/5)|10(t=-8/29)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/5)|10(t=-8/29)|1 invs=[ 5, 10 ]
+CAND gain|10(t=2/5)|10(t=-8/29)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/5)|10(t=-8/29)|2 invs=[ 5, 10 ]
+CAND gain|10(t=2/5)|10(t=12/29)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/5)|10(t=12/29)|1 invs=[ 5, 10 ]
+CAND gain|10(t=2/5)|10(t=12/29)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/5)|10(t=12/29)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-8/29)|10(t=12/29)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-8/29)|10(t=12/29)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-8/29)|10(t=12/29)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-8/29)|10(t=12/29)|2 invs=[ 5, 10 ]
+BUCKET D1457 size 2 Ns={* 8^^2 *}
+BUCKET D15 size 7 Ns={* 6^^6, 10 *}
+BUCKET D1513 size 3 Ns={* 6, 8, 10 *}
+BUCKET D1529 size 2 Ns={* 6, 10 *}
+BUCKET D1561 size 2 Ns={* 8^^2 *}
+BUCKET D161 size 9 Ns={* 6^^6, 8^^3 *}
+PROGRESS gain 600 pairs, funneled 88, aborts 15 known 73 hits 0, 43.480 s
+BUCKET D1633 size 3 Ns={* 6, 8^^2 *}
+BUCKET D1649 size 2 Ns={* 6, 8 *}
+BUCKET D165 size 3 Ns={* 6^^3 *}
+BUCKET D17 size 17 Ns={* 6^^12, 8^^4, 10 *}
+BUCKET D1729 size 2 Ns={* 6^^2 *}
+BUCKET D177 size 4 Ns={* 6^^4 *}
+BUCKET D178 size 2 Ns={* 8, 10 *}
+BUCKET D1785 size 3 Ns={* 6^^3 *}
+BUCKET D1817 size 2 Ns={* 6, 8 *}
+BUCKET D185 size 3 Ns={* 6^^3 *}
+BUCKET D19 size 3 Ns={* 6^^2, 10 *}
+BUCKET D1921 size 3 Ns={* 6, 8^^2 *}
+BUCKET D193 size 5 Ns={* 6^^3, 8^^2 *}
+BUCKET D2 size 9 Ns={* 6^^5, 8^^4 *}
+PROGRESS gain 800 pairs, funneled 92, aborts 19 known 73 hits 0, 53.970 s
+BUCKET D2001 size 2 Ns={* 6^^2 *}
+BUCKET D201 size 3 Ns={* 6^^3 *}
+BUCKET D209 size 5 Ns={* 6^^5 *}
+BUCKET D21 size 6 Ns={* 6^^6 *}
+BUCKET D2145 size 3 Ns={* 6^^3 *}
+BUCKET D217 size 7 Ns={* 6^^3, 8^^3, 10 *}
+BUCKET D2185 size 4 Ns={* 6^^2, 10^^2 *}
+CAND gain|10(t=2/23)|10(t=-7/32)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/23)|10(t=-7/32)|1 invs=[ 5, 10 ]
+CAND gain|10(t=2/23)|10(t=-7/32)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/23)|10(t=-7/32)|2 invs=[ 5, 10 ]
+BUCKET D22 size 2 Ns={* 6^^2 *}
+BUCKET D2233 size 3 Ns={* 6^^2, 10 *}
+BUCKET D2265 size 2 Ns={* 6, 10 *}
+BUCKET D23 size 5 Ns={* 6^^2, 8^^3 *}
+BUCKET D2329 size 2 Ns={* 6, 8 *}
+BUCKET D2337 size 2 Ns={* 6, 10 *}
+BUCKET D2353 size 2 Ns={* 6, 10 *}
+BUCKET D2369 size 2 Ns={* 6, 8 *}
+BUCKET D238 size 2 Ns={* 8^^2 *}
+BUCKET D2449 size 4 Ns={* 8^^2, 10^^2 *}
+CAND gain|10(t=-9/31)|10(t=25)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/31)|10(t=25)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-9/31)|10(t=25)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-9/31)|10(t=25)|2 invs=[ 5, 10 ]
+BUCKET D2465 size 2 Ns={* 6^^2 *}
+BUCKET D249 size 2 Ns={* 6^^2 *}
+BUCKET D2513 size 2 Ns={* 8^^2 *}
+BUCKET D2665 size 3 Ns={* 6, 10^^2 *}
+CAND gain|10(t=2/13)|10(t=9/26)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/13)|10(t=9/26)|1 invs=[ 5, 10 ]
+CAND gain|10(t=2/13)|10(t=9/26)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=2/13)|10(t=9/26)|2 invs=[ 5, 10 ]
+BUCKET D2697 size 2 Ns={* 6^^2 *}
+BUCKET D271 size 2 Ns={* 8, 10 *}
+BUCKET D273 size 8 Ns={* 6^^7, 10 *}
+BUCKET D2737 size 3 Ns={* 6^^2, 8 *}
+BUCKET D281 size 2 Ns={* 8^^2 *}
+BUCKET D285 size 2 Ns={* 6^^2 *}
+BUCKET D287 size 2 Ns={* 6, 8 *}
+BUCKET D29 size 2 Ns={* 6^^2 *}
+BUCKET D2921 size 3 Ns={* 6, 8^^2 *}
+BUCKET D2945 size 2 Ns={* 6^^2 *}
+BUCKET D3 size 9 Ns={* 6^^9 *}
+BUCKET D30 size 4 Ns={* 6^^3, 10 *}
+BUCKET D3009 size 2 Ns={* 6, 10 *}
+BUCKET D31 size 3 Ns={* 6, 8, 10 *}
+BUCKET D3193 size 2 Ns={* 6, 8 *}
+BUCKET D321 size 2 Ns={* 6^^2 *}
+BUCKET D3281 size 2 Ns={* 6, 8 *}
+BUCKET D329 size 3 Ns={* 6, 8^^2 *}
+BUCKET D33 size 10 Ns={* 6^^8, 10^^2 *}
+PROGRESS gain 1000 pairs, funneled 102, aborts 23 known 79 hits 0, 65.630 s
+CAND gain|10(t=1/3)|10(t=-4/25)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/3)|10(t=-4/25)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/3)|10(t=-4/25)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/3)|10(t=-4/25)|2 invs=[ 5, 10 ]
+BUCKET D3337 size 2 Ns={* 8^^2 *}
+BUCKET D34 size 4 Ns={* 6, 8^^2, 10 *}
+BUCKET D345 size 6 Ns={* 6^^6 *}
+BUCKET D3473 size 2 Ns={* 6, 8 *}
+BUCKET D35 size 5 Ns={* 6^^5 *}
+BUCKET D353 size 2 Ns={* 8^^2 *}
+BUCKET D3553 size 3 Ns={* 6^^2, 10 *}
+BUCKET D3689 size 3 Ns={* 6, 8^^2 *}
+BUCKET D37 size 2 Ns={* 6^^2 *}
+BUCKET D377 size 3 Ns={* 6^^2, 10 *}
+BUCKET D385 size 6 Ns={* 6^^3, 10^^3 *}
+CAND gain|10(t=-1/5)|10(t=-2/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/5)|10(t=-2/7)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/5)|10(t=-2/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/5)|10(t=-2/7)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1/5)|10(t=3/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/5)|10(t=3/7)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/5)|10(t=3/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/5)|10(t=3/7)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-2/7)|10(t=3/7)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-2/7)|10(t=3/7)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-2/7)|10(t=3/7)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-2/7)|10(t=3/7)|2 invs=[ 5, 10 ]
+BUCKET D3857 size 2 Ns={* 6^^2 *}
+BUCKET D39 size 2 Ns={* 6^^2 *}
+BUCKET D391 size 2 Ns={* 8^^2 *}
+BUCKET D393 size 2 Ns={* 6^^2 *}
+BUCKET D4009 size 2 Ns={* 6, 10 *}
+BUCKET D41 size 7 Ns={* 6^^4, 8^^3 *}
+BUCKET D417 size 2 Ns={* 6^^2 *}
+BUCKET D42 size 2 Ns={* 6^^2 *}
+BUCKET D429 size 2 Ns={* 6^^2 *}
+BUCKET D43 size 2 Ns={* 6^^2 *}
+BUCKET D4305 size 2 Ns={* 6^^2 *}
+BUCKET D434 size 2 Ns={* 8^^2 *}
+BUCKET D4393 size 2 Ns={* 6, 8 *}
+BUCKET D4577 size 2 Ns={* 6, 8 *}
+BUCKET D46 size 2 Ns={* 6, 8 *}
+BUCKET D465 size 8 Ns={* 6^^5, 10^^3 *}
+CAND gain|10(t=1/5)|10(t=-2/27)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/5)|10(t=-2/27)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/5)|10(t=-2/27)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/5)|10(t=-2/27)|2 invs=[ 5, 10 ]
+CAND gain|10(t=1/5)|10(t=11/24)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/5)|10(t=11/24)|1 invs=[ 5, 10 ]
+CAND gain|10(t=1/5)|10(t=11/24)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=1/5)|10(t=11/24)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-2/27)|10(t=11/24)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-2/27)|10(t=11/24)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-2/27)|10(t=11/24)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-2/27)|10(t=11/24)|2 invs=[ 5, 10 ]
+BUCKET D4681 size 2 Ns={* 6, 8 *}
+BUCKET D47 size 4 Ns={* 6^^2, 8^^2 *}
+BUCKET D4785 size 3 Ns={* 6^^2, 10 *}
+BUCKET D481 size 2 Ns={* 6, 10 *}
+BUCKET D489 size 2 Ns={* 6^^2 *}
+BUCKET D497 size 3 Ns={* 6, 8^^2 *}
+BUCKET D5 size 8 Ns={* 6^^8 *}
+BUCKET D505 size 2 Ns={* 6, 10 *}
+BUCKET D5177 size 3 Ns={* 6, 8^^2 *}
+BUCKET D5257 size 2 Ns={* 8, 10 *}
+BUCKET D53 size 2 Ns={* 6^^2 *}
+BUCKET D537 size 2 Ns={* 6^^2 *}
+BUCKET D55 size 3 Ns={* 6^^2, 10 *}
+BUCKET D553 size 3 Ns={* 6, 8^^2 *}
+BUCKET D561 size 4 Ns={* 6^^4 *}
+BUCKET D57 size 8 Ns={* 6^^7, 10 *}
+PROGRESS gain 1200 pairs, funneled 121, aborts 28 known 93 hits 0, 78.100 s
+BUCKET D574 size 2 Ns={* 8, 10 *}
+BUCKET D5969 size 2 Ns={* 8^^2 *}
+BUCKET D6 size 5 Ns={* 6^^4, 10 *}
+BUCKET D609 size 4 Ns={* 6^^4 *}
+BUCKET D61 size 2 Ns={* 6^^2 *}
+BUCKET D6105 size 2 Ns={* 6^^2 *}
+BUCKET D62 size 2 Ns={* 8^^2 *}
+BUCKET D627 size 2 Ns={* 6, 10 *}
+BUCKET D649 size 3 Ns={* 6, 10^^2 *}
+CAND gain|10(t=-1/9)|10(t=12/25)|1 unknown=[
+[ 5, 40 ],
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/9)|10(t=12/25)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/9)|10(t=12/25)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/9)|10(t=12/25)|2 invs=[ 5, 10 ]
+BUCKET D65 size 7 Ns={* 6^^7 *}
+BUCKET D66 size 2 Ns={* 6, 10 *}
+BUCKET D665 size 5 Ns={* 6^^4, 10 *}
+BUCKET D6697 size 2 Ns={* 6, 10 *}
+BUCKET D682 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-3/16)|10(t=19/2)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/16)|10(t=19/2)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-3/16)|10(t=19/2)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-3/16)|10(t=19/2)|2 invs=[ 5, 10 ]
+BUCKET D69 size 2 Ns={* 6^^2 *}
+BUCKET D6913 size 2 Ns={* 6, 8 *}
+BUCKET D697 size 3 Ns={* 6, 8^^2 *}
+BUCKET D7 size 5 Ns={* 6^^2, 8^^3 *}
+BUCKET D700321 size 3 Ns={* 10^^3 *}
+CAND gain|10(t=-1/29)|10(t=-5/31)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/29)|10(t=-5/31)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/29)|10(t=-5/31)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/29)|10(t=-5/31)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-1/29)|10(t=6/31)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/29)|10(t=6/31)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-1/29)|10(t=6/31)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-1/29)|10(t=6/31)|2 invs=[ 5, 10 ]
+CAND gain|10(t=-5/31)|10(t=6/31)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/31)|10(t=6/31)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-5/31)|10(t=6/31)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-5/31)|10(t=6/31)|2 invs=[ 5, 10 ]
+BUCKET D705 size 2 Ns={* 6^^2 *}
+BUCKET D713 size 4 Ns={* 6^^2, 8^^2 *}
+BUCKET D7161 size 2 Ns={* 6, 10 *}
+BUCKET D721 size 3 Ns={* 6, 8^^2 *}
+BUCKET D73 size 6 Ns={* 6^^3, 8^^3 *}
+BUCKET D7585 size 2 Ns={* 6^^2 *}
+BUCKET D769 size 2 Ns={* 8, 10 *}
+BUCKET D77 size 6 Ns={* 6^^6 *}
+BUCKET D7761 size 2 Ns={* 6, 10 *}
+BUCKET D777 size 3 Ns={* 6^^3 *}
+BUCKET D784641 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-4/31)|10(t=25/11)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/31)|10(t=25/11)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/31)|10(t=25/11)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/31)|10(t=25/11)|2 invs=[ 5, 10 ]
+BUCKET D79 size 2 Ns={* 8^^2 *}
+BUCKET D8265 size 2 Ns={* 10^^2 *}
+CAND gain|10(t=-4/19)|10(t=31/5)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/19)|10(t=31/5)|1 invs=[ 5, 10 ]
+CAND gain|10(t=-4/19)|10(t=31/5)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=-4/19)|10(t=31/5)|2 invs=[ 5, 10 ]
+BUCKET D8385 size 2 Ns={* 6^^2 *}
+BUCKET D85 size 3 Ns={* 6^^3 *}
+BUCKET D8569 size 3 Ns={* 6, 10^^2 *}
+CAND gain|10(t=5/19)|10(t=7/25)|1 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=5/19)|10(t=7/25)|1 invs=[ 5, 10 ]
+CAND gain|10(t=5/19)|10(t=7/25)|2 unknown=[
+[ 5, 20 ]
+]
+EXACTKNOWN gain|10(t=5/19)|10(t=7/25)|2 invs=[ 5, 10 ]
+BUCKET D885 size 2 Ns={* 6, 10 *}
+BUCKET D889 size 3 Ns={* 6, 8^^2 *}
+BUCKET D89 size 6 Ns={* 6^^3, 8^^2, 10 *}
+BUCKET D897 size 2 Ns={* 6^^2 *}
+BUCKET D93 size 2 Ns={* 6^^2 *}
+BUCKET D9553 size 2 Ns={* 6, 8 *}
+BUCKET D969 size 3 Ns={* 6^^2, 10 *}
+BUCKET D97 size 4 Ns={* 6^^3, 8 *}
+BUCKET D994 size 2 Ns={* 8, 10 *}
+CAND gain|8(t=-15/16)|10(t=1/16)|1 unknown=[
+[ 80 ]
+]
+EXACTKNOWN gain|8(t=-15/16)|10(t=1/16)|1 invs=[ 40 ]
+BUCKET Q size 18 Ns={* 6^^10, 8^^8 *}
+CAND gain|6(t=-1/10)|6(t=2/7)|4 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=-1/10)|6(t=2/7)|4 invs=[ 6, 6 ]
+CAND gain|6(t=-1/10)|6(t=5/4)|3 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=-1/10)|6(t=5/4)|3 invs=[ 6, 6 ]
+CAND gain|6(t=2/7)|6(t=-10/9)|4 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=2/7)|6(t=-10/9)|4 invs=[ 6, 6 ]
+CAND gain|6(t=2/7)|6(t=-14/5)|3 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=2/7)|6(t=-14/5)|3 invs=[ 6, 6 ]
+CAND gain|6(t=2/7)|8(t=1/7)|3 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=2/7)|8(t=1/7)|3 invs=[ 2, 24 ]
+PROGRESS gain 1400 pairs, funneled 148, aborts 33 known 115 hits 0, 92.550 s
+CAND gain|6(t=3/22)|6(t=-10/9)|4 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=3/22)|6(t=-10/9)|4 invs=[ 6, 6 ]
+CAND gain|6(t=3/22)|6(t=-21/20)|4 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=3/22)|6(t=-21/20)|4 invs=[ 6, 6 ]
+CAND gain|6(t=5/4)|6(t=7/18)|4 unknown=[
+[ 2, 6, 12 ],
+[ 12, 12 ],
+[ 3, 48 ],
+[ 6, 24 ]
+]
+EXACTKNOWN gain|6(t=5/4)|6(t=7/18)|4 invs=[ 2, 6, 6 ]
+CAND gain|6(t=5/4)|6(t=12/13)|3 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=5/4)|6(t=12/13)|3 invs=[ 6, 6 ]
+CAND gain|6(t=5/4)|8(t=1/7)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=1/7)|1 invs=[ 2, 24 ]
+CAND gain|6(t=5/4)|8(t=1/7)|5 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=1/7)|5 invs=[ 2, 24 ]
+CAND gain|6(t=5/4)|8(t=-4/17)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=-4/17)|1 invs=[ 2, 24 ]
+CAND gain|6(t=5/4)|8(t=-14)|5 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=-14)|5 invs=[ 2, 24 ]
+CAND gain|6(t=5/4)|8(t=-18/17)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=-18/17)|1 invs=[ 2, 24 ]
+CAND gain|6(t=5/4)|8(t=-18/17)|5 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=5/4)|8(t=-18/17)|5 invs=[ 2, 24 ]
+CAND gain|6(t=-10/9)|6(t=18/7)|3 unknown=[
+[ 6, 24 ],
+[ 12, 12 ],
+[ 3, 48 ]
+]
+EXACTKNOWN gain|6(t=-10/9)|6(t=18/7)|3 invs=[ 6, 6 ]
+CAND gain|6(t=-10/9)|8(t=1/7)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=-10/9)|8(t=1/7)|1 invs=[ 2, 48 ]
+CAND gain|6(t=-10/9)|8(t=-4/17)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=-10/9)|8(t=-4/17)|1 invs=[ 2, 24 ]
+CAND gain|6(t=-10/9)|8(t=-14)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=-10/9)|8(t=-14)|1 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=1/7)|4 unknown=[
+[ 2, 192 ],
+[ 4, 48 ],
+[ 96 ],
+[ 4, 96 ],
+[ 384 ],
+[ 4, 24 ],
+[ 2, 96 ],
+[ 192 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=1/7)|4 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=3/23)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=3/23)|2 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=3/23)|4 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=3/23)|4 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=-7/23)|4 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=-7/23)|4 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=-14)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=-14)|2 invs=[ 2, 24 ]
+CAND gain|6(t=12/13)|8(t=-18/17)|4 unknown=[
+[ 2, 192 ],
+[ 4, 48 ],
+[ 96 ],
+[ 4, 96 ],
+[ 384 ],
+[ 4, 24 ],
+[ 2, 96 ],
+[ 192 ]
+]
+EXACTKNOWN gain|6(t=12/13)|8(t=-18/17)|4 invs=[ 2, 24 ]
+CAND gain|6(t=-14/5)|8(t=1/7)|1 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=-14/5)|8(t=1/7)|1 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=1/7)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=1/7)|2 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=1/7)|4 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=1/7)|4 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=-4/17)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=-4/17)|2 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=-14)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=-14)|2 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=-21/23)|2 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=-21/23)|2 invs=[ 2, 24 ]
+CAND gain|6(t=18/7)|8(t=-21/23)|4 unknown=[
+[ 192 ],
+[ 4, 48 ],
+[ 4, 24 ],
+[ 96 ],
+[ 2, 96 ]
+]
+EXACTKNOWN gain|6(t=18/7)|8(t=-21/23)|4 invs=[ 2, 24 ]
+SEARCH_DONE gainhunt pairs 1493 funneled 175 aborts 33 known 142 hits 0 fails 0 104.770 s

@@ -1,0 +1,10 @@
+collecting mp4 mod primes [ 7, 11, 13, 17 ]
+p=7 : ok=true (12.4s)
+p=11 : ok=true (94.6s)
+p=13 : ok=true (24.2s)
+p=17 : ok=true (102.7s)
+
+In file "code/contact6_m612_relative3_E4_exact.m", line 216, column 1:
+>> assert ok4;
+   ^
+Runtime error in assert: Assertion failed

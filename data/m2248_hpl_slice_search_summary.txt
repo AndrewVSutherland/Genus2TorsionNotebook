@@ -1,0 +1,42 @@
+HPL-based slice/fibration attempts for M(2,2,4,8)
+
+Scripts:
+  code/m2248_hpl_f1_slice_search.m
+  code/m2248_hpl_c_f1_slice_search.m
+  code/m2248_hpl_slice_genus_diagnostic.m
+
+F1-slice search:
+  Command:
+    magma -b dir_bound:=5 height:=30 max_hits:=20 progress_interval:=200000 code/m2248_hpl_f1_slice_search.m
+  Result:
+    checked 1476300
+    valid_slice 1472980
+    branch_square 0
+    cover_square 0
+    exact_sources 0
+    simple_hits 0
+    hits 0
+
+C-square + F1-slice search:
+  Command:
+    magma -b dir_bound:=5 height:=30 max_hits:=20 progress_interval:=200000 code/m2248_hpl_c_f1_slice_search.m
+  Result:
+    checked 1476300
+    valid_slice 1472960
+    d_square 0
+    cover_square 0
+    exact_sources 0
+    simple_hits 0
+    hits 0
+
+Genus diagnostic for C-square + F1 slices:
+  Command:
+    magma -b dir_bound:=5 top:=20 show_polys:=false code/m2248_hpl_slice_genus_diagnostic.m
+  Result:
+    directions 1330
+    best degree 6, genus 2, directions [0,0,+/-1], ..., [0,0,+/-5]
+    next best degree 12, genus 5, directions [0,+/-1,0], ..., [0,+/-5,0]
+    no degree 3/4 genus-one slice among these directions
+
+Conclusion:
+  Simple HPL line slices are not producing a usable elliptic fibration. Even after forcing C=c^2 and F1 square by construction, the first remaining square condition D=d^2 has genus at least 2 for all small directions tested. This explains why the numeric line-slice searches find no nontrivial branch-square point. The next algebraic step should not be another line slice; it should use the HPL witness to build a higher-dimensional conic/elliptic fibration that makes at least two of the remaining full-cover square conditions automatic.

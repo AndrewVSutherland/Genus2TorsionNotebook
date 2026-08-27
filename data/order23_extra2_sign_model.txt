@@ -1,0 +1,24 @@
+lambda*alpha factor:
+(81) * t^-4 * (t - 1)^-2 * (t + 1)^-2 * (t^2 + 1)^-6 * (t^4 + 1/3)^4
+alpha factor:
+(5/2) * t^-2 * (t^2 + 1)^-3 * (t^8 + 2*t^4 + 1/5)
+alpha-1 factor:
+(3/2) * t^-2 * (t - 1)^2 * (t + 1)^2 * (t^2 + 1)^-3 * (t^4 + 1/3)
+alpha-beta factor:
+(-1/4) * t^-2 * (t - 1)^5 * (t + 1)^5 * (t^2 + 1)^-3
+raw sign equation factor degrees:
+[(1, 0, 3), (16, 5, 1)]
+main sign model degrees:
+deg_q 16 deg_z 5 total_degree 21 terms 98
+affine singular points:
+[(0, 1), (1, 0)]
+geometric genus:
+16
+simple symmetry tests:
+z -> -z proportional: False
+1/q proportional False gcd_total_degree 0
+-q proportional False gcd_total_degree 0
+1-q proportional False gcd_total_degree 0
+q/(q-1) proportional False gcd_total_degree 0
+1/(1-q) proportional False gcd_total_degree 0
+(q-1)/q proportional False gcd_total_degree 0

@@ -1,0 +1,754 @@
+M_1(8,4) plus 5 boundary branch classifier
+height 50 params 3095 branch_primes [ 7, 11, 19 ]
+SURVIVES_7_11_19_NECESSARY R -40 w -14 t 68/5 pattern 7:w=0&disc_zero | 
+11:disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -18 w -21/4 t 252/25 pattern 7:w=0&disc_zero | 
+11:disc_zero | 19:degree_drop
+SURVIVES_7_11_19_NECESSARY R -11 w -37/3 t 45/17 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -11 w -23/3 t 171/52 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -11 w -11/6 t 1881/68 pattern 7:disc_zero | 
+11:R=0&w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -11 w 22/7 t 1045/116 pattern 7:w=inf&degree_drop |
+11:R=0&w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -11 w 47/7 t 65/18 pattern 7:w=inf&degree_drop | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -9 w 33/7 t 189/52 pattern 7:w=inf&degree_drop | 
+11:w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 11 w 29/5 t -24/17 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 34 w -38/3 t -441/82 pattern 7:w=-1&disc_zero | 
+11:degree_drop | 19:w=0&disc_zero
+SURVIVES_7_11_19_NECESSARY R -27/2 w -21/4 t 855/136 pattern 7:w=0&disc_zero | 
+11:disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -4/3 w -37/33 t 323/240 pattern 7:w=1&disc_zero | 
+11:w=inf&degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 16/3 w -42/23 t 182/45 pattern 7:w=0&disc_zero | 
+11:disc_zero | 19:w=-1&good_pass5
+SURVIVES_7_11_19_NECESSARY R 22/3 w 19/6 t 23/39 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:w=0&degree_drop
+SURVIVES_7_11_19_NECESSARY R 22/3 w -33/8 t -253/369 pattern 7:disc_zero | 
+11:R=0&w=0&disc_zero | 19:degree_drop
+SURVIVES_7_11_19_NECESSARY R 22/3 w 34/15 t 1189/294 pattern 7:w=-1&coeff_bad | 
+11:R=0&disc_zero | 19:w=1&disc_zero
+SURVIVES_7_11_19_NECESSARY R 22/3 w -49/24 t 1313/219 pattern 7:w=0&disc_zero | 
+11:R=0&disc_zero | 19:degree_drop
+SURVIVES_7_11_19_NECESSARY R -29/4 w 21/4 t 621/272 pattern 7:w=0&disc_zero | 
+11:degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -3/4 w -33/37 t 969/1280 pattern 7:w=1&disc_zero | 
+11:w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 13/4 w 49/32 t 323/144 pattern 7:w=0&disc_zero | 
+11:disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -13/5 w -33/25 t 2337/580 pattern 7:disc_zero | 
+11:w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -7/5 w -21/19 t 252/125 pattern 7:R=0&w=0&disc_zero
+| 11:disc_zero | 19:w=inf&degree_drop
+SURVIVES_7_11_19_NECESSARY R -7/5 w -33/25 t 72/145 pattern 7:R=0&disc_zero | 
+11:w=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 11/5 w 13/45 t -456/145 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 11/6 w -49/36 t 133/312 pattern 7:w=0&disc_zero | 
+11:R=0&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -37/7 w -17/7 t 25/7 pattern 
+7:R=inf&w=inf&coeff_bad | 11:degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -37/7 w -37/13 t 666/245 pattern 7:R=inf&coeff_bad 
+| 11:degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -37/7 w 37/13 t 666/245 pattern 7:R=inf&coeff_bad |
+11:degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -5/7 w -19/21 t 36/35 pattern 
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:w=0&disc_zero
+SURVIVES_7_11_19_NECESSARY R -5/7 w -25/33 t 360/1421 pattern 7:R=inf&coeff_bad 
+| 11:w=inf&degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 18/7 w -6/5 t 513/98 pattern 7:R=inf&coeff_bad | 
+11:w=1&disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 27/7 w 45/28 t 5967/2044 pattern 
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -29/9 w -43/33 t 253/36 pattern 7:disc_zero | 
+11:w=inf&degree_drop | 19:w=1&disc_zero
+SURVIVES_7_11_19_NECESSARY R -19/9 w 37/27 t 575/288 pattern 7:degree_drop | 
+11:disc_zero | 19:R=0&disc_zero
+SURVIVES_7_11_19_NECESSARY R -17/9 w 37/21 t 152/261 pattern 7:w=inf&degree_drop
+| 11:disc_zero | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R -1/9 w 7/33 t 7/156 pattern 7:w=0&disc_zero | 
+11:w=inf&degree_drop | 19:disc_zero
+SURVIVES_7_11_19_NECESSARY R 19/9 w -43/27 t 7/72 pattern 7:w=1&disc_zero | 
+11:disc_zero | 19:R=0&disc_zero
+SURVIVES_7_11_19_NECESSARY R -47/10 w 31/6 t 5427/5000 pattern 7:disc_zero | 
+11:disc_zero | 19:degree_drop
+SURVIVES_7_11_19_NECESSARY R -33/10 w -38/15 t 328/265 pattern 7:disc_zero | 
+11:R=0&disc_zero | 19:w=0&disc_zero
+SURVIVES_7_11_19_NECESSARY R -31/10 w 11/4 t 931/1000 pattern 7:w=1&disc_zero | 
+11:w=0&disc_zero | 19:disc_zero
+checked 9566648
+cover 15322
+smooth 922
+pass_all_branch_primes 178
+bad_or_pass_7_11 450
+bad_or_pass_7_11_19 178
+TAG_COUNTS
+11:R=0&disc_zero 45
+11:R=0&w=0&disc_zero 31
+11:R=inf&coeff_bad 45
+11:R=inf&w=inf&coeff_bad 31
+11:degree_drop 102
+11:disc_zero 172
+11:good_kill5 278
+11:w=-1&good_kill5 46
+11:w=0&degree_drop 12
+11:w=0&disc_zero 50
+11:w=1&disc_zero 34
+11:w=1&good_kill5 14
+11:w=inf&degree_drop 62
+19:R=0&disc_zero 27
+19:R=0&w=0&disc_zero 16
+19:R=inf&coeff_bad 27
+19:R=inf&w=inf&coeff_bad 16
+19:degree_drop 48
+19:disc_zero 180
+19:good_kill5 530
+19:w=-1&disc_zero 2
+19:w=-1&good_kill5 16
+19:w=-1&good_pass5 2
+19:w=0&degree_drop 1
+19:w=0&disc_zero 20
+19:w=1&disc_zero 14
+19:w=1&good_kill5 2
+19:w=inf&degree_drop 21
+7:R=0&disc_zero 35
+7:R=0&w=0&disc_zero 61
+7:R=0&w=inf&degree_drop 12
+7:R=inf&coeff_bad 35
+7:R=inf&w=0&coeff_bad 12
+7:R=inf&w=inf&coeff_bad 61
+7:degree_drop 24
+7:disc_zero 194
+7:good_kill5 140
+7:w=-1&coeff_bad 6
+7:w=-1&disc_zero 24
+7:w=-1&good_kill5 56
+7:w=0&degree_drop 3
+7:w=0&disc_zero 81
+7:w=1&disc_zero 70
+7:w=1&good_kill5 24
+7:w=inf&degree_drop 84
+PATTERN_COUNTS
+7:R=0&disc_zero | 11:R=inf&coeff_bad | 19:w=1&disc_zero 1
+7:R=0&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:degree_drop 2
+7:R=0&disc_zero | 11:degree_drop | 19:disc_zero 2
+7:R=0&disc_zero | 11:degree_drop | 19:good_kill5 2
+7:R=0&disc_zero | 11:disc_zero | 19:good_kill5 8
+7:R=0&disc_zero | 11:disc_zero | 19:w=0&disc_zero 1
+7:R=0&disc_zero | 11:disc_zero | 19:w=1&disc_zero 1
+7:R=0&disc_zero | 11:good_kill5 | 19:R=inf&coeff_bad 1
+7:R=0&disc_zero | 11:good_kill5 | 19:disc_zero 1
+7:R=0&disc_zero | 11:good_kill5 | 19:good_kill5 6
+7:R=0&disc_zero | 11:good_kill5 | 19:w=inf&degree_drop 1
+7:R=0&disc_zero | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=0&disc_zero | 11:w=0&disc_zero | 19:disc_zero 1
+7:R=0&disc_zero | 11:w=0&disc_zero | 19:good_kill5 1
+7:R=0&disc_zero | 11:w=1&disc_zero | 19:R=inf&coeff_bad 1
+7:R=0&disc_zero | 11:w=1&disc_zero | 19:disc_zero 1
+7:R=0&disc_zero | 11:w=1&disc_zero | 19:good_kill5 1
+7:R=0&disc_zero | 11:w=1&disc_zero | 19:w=-1&good_kill5 1
+7:R=0&disc_zero | 11:w=1&good_kill5 | 19:good_kill5 1
+7:R=0&disc_zero | 11:w=inf&degree_drop | 19:R=inf&coeff_bad 1
+7:R=0&w=0&disc_zero | 11:R=inf&coeff_bad | 19:degree_drop 1
+7:R=0&w=0&disc_zero | 11:R=inf&coeff_bad | 19:good_kill5 1
+7:R=0&w=0&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 1
+7:R=0&w=0&disc_zero | 11:degree_drop | 19:disc_zero 3
+7:R=0&w=0&disc_zero | 11:degree_drop | 19:good_kill5 3
+7:R=0&w=0&disc_zero | 11:degree_drop | 19:w=inf&degree_drop 1
+7:R=0&w=0&disc_zero | 11:disc_zero | 19:disc_zero 2
+7:R=0&w=0&disc_zero | 11:disc_zero | 19:good_kill5 9
+7:R=0&w=0&disc_zero | 11:disc_zero | 19:w=-1&good_kill5 1
+7:R=0&w=0&disc_zero | 11:disc_zero | 19:w=inf&degree_drop 1
+7:R=0&w=0&disc_zero | 11:good_kill5 | 19:degree_drop 3
+7:R=0&w=0&disc_zero | 11:good_kill5 | 19:disc_zero 5
+7:R=0&w=0&disc_zero | 11:good_kill5 | 19:good_kill5 16
+7:R=0&w=0&disc_zero | 11:good_kill5 | 19:w=inf&degree_drop 2
+7:R=0&w=0&disc_zero | 11:w=-1&good_kill5 | 19:degree_drop 2
+7:R=0&w=0&disc_zero | 11:w=-1&good_kill5 | 19:disc_zero 1
+7:R=0&w=0&disc_zero | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=0&w=0&disc_zero | 11:w=1&disc_zero | 19:good_kill5 2
+7:R=0&w=0&disc_zero | 11:w=1&good_kill5 | 19:good_kill5 1
+7:R=0&w=0&disc_zero | 11:w=inf&degree_drop | 19:degree_drop 2
+7:R=0&w=0&disc_zero | 11:w=inf&degree_drop | 19:good_kill5 3
+7:R=0&w=inf&degree_drop | 11:R=inf&coeff_bad | 19:degree_drop 1
+7:R=0&w=inf&degree_drop | 11:degree_drop | 19:good_kill5 1
+7:R=0&w=inf&degree_drop | 11:disc_zero | 19:good_kill5 4
+7:R=0&w=inf&degree_drop | 11:good_kill5 | 19:disc_zero 2
+7:R=0&w=inf&degree_drop | 11:good_kill5 | 19:good_kill5 2
+7:R=0&w=inf&degree_drop | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=0&w=inf&degree_drop | 11:w=0&disc_zero | 19:good_kill5 1
+7:R=inf&coeff_bad | 11:R=0&disc_zero | 19:w=1&disc_zero 1
+7:R=inf&coeff_bad | 11:R=0&w=0&disc_zero | 19:degree_drop 2
+7:R=inf&coeff_bad | 11:degree_drop | 19:disc_zero 2
+7:R=inf&coeff_bad | 11:degree_drop | 19:good_kill5 2
+7:R=inf&coeff_bad | 11:disc_zero | 19:good_kill5 8
+7:R=inf&coeff_bad | 11:disc_zero | 19:w=1&disc_zero 1
+7:R=inf&coeff_bad | 11:disc_zero | 19:w=inf&degree_drop 1
+7:R=inf&coeff_bad | 11:good_kill5 | 19:R=0&disc_zero 1
+7:R=inf&coeff_bad | 11:good_kill5 | 19:disc_zero 1
+7:R=inf&coeff_bad | 11:good_kill5 | 19:good_kill5 6
+7:R=inf&coeff_bad | 11:good_kill5 | 19:w=0&disc_zero 1
+7:R=inf&coeff_bad | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=inf&coeff_bad | 11:w=0&disc_zero | 19:R=0&disc_zero 1
+7:R=inf&coeff_bad | 11:w=1&disc_zero | 19:R=0&disc_zero 1
+7:R=inf&coeff_bad | 11:w=1&disc_zero | 19:disc_zero 1
+7:R=inf&coeff_bad | 11:w=1&disc_zero | 19:good_kill5 1
+7:R=inf&coeff_bad | 11:w=1&disc_zero | 19:w=-1&good_kill5 1
+7:R=inf&coeff_bad | 11:w=1&good_kill5 | 19:good_kill5 1
+7:R=inf&coeff_bad | 11:w=inf&degree_drop | 19:disc_zero 1
+7:R=inf&coeff_bad | 11:w=inf&degree_drop | 19:good_kill5 1
+7:R=inf&w=0&coeff_bad | 11:R=0&disc_zero | 19:degree_drop 1
+7:R=inf&w=0&coeff_bad | 11:degree_drop | 19:good_kill5 1
+7:R=inf&w=0&coeff_bad | 11:disc_zero | 19:good_kill5 4
+7:R=inf&w=0&coeff_bad | 11:good_kill5 | 19:disc_zero 2
+7:R=inf&w=0&coeff_bad | 11:good_kill5 | 19:good_kill5 2
+7:R=inf&w=0&coeff_bad | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=inf&w=0&coeff_bad | 11:w=inf&degree_drop | 19:good_kill5 1
+7:R=inf&w=inf&coeff_bad | 11:R=0&disc_zero | 19:degree_drop 1
+7:R=inf&w=inf&coeff_bad | 11:R=0&disc_zero | 19:good_kill5 1
+7:R=inf&w=inf&coeff_bad | 11:R=0&w=0&disc_zero | 19:good_kill5 1
+7:R=inf&w=inf&coeff_bad | 11:degree_drop | 19:disc_zero 3
+7:R=inf&w=inf&coeff_bad | 11:degree_drop | 19:good_kill5 3
+7:R=inf&w=inf&coeff_bad | 11:degree_drop | 19:w=0&disc_zero 1
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:disc_zero 2
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:good_kill5 9
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:w=-1&good_kill5 1
+7:R=inf&w=inf&coeff_bad | 11:disc_zero | 19:w=0&disc_zero 1
+7:R=inf&w=inf&coeff_bad | 11:good_kill5 | 19:degree_drop 3
+7:R=inf&w=inf&coeff_bad | 11:good_kill5 | 19:disc_zero 5
+7:R=inf&w=inf&coeff_bad | 11:good_kill5 | 19:good_kill5 16
+7:R=inf&w=inf&coeff_bad | 11:good_kill5 | 19:w=0&disc_zero 2
+7:R=inf&w=inf&coeff_bad | 11:w=-1&good_kill5 | 19:degree_drop 2
+7:R=inf&w=inf&coeff_bad | 11:w=-1&good_kill5 | 19:disc_zero 1
+7:R=inf&w=inf&coeff_bad | 11:w=-1&good_kill5 | 19:good_kill5 1
+7:R=inf&w=inf&coeff_bad | 11:w=0&disc_zero | 19:degree_drop 2
+7:R=inf&w=inf&coeff_bad | 11:w=0&disc_zero | 19:good_kill5 3
+7:R=inf&w=inf&coeff_bad | 11:w=1&disc_zero | 19:good_kill5 2
+7:R=inf&w=inf&coeff_bad | 11:w=1&good_kill5 | 19:good_kill5 1
+7:degree_drop | 11:R=0&disc_zero | 19:good_kill5 1
+7:degree_drop | 11:R=0&w=0&disc_zero | 19:disc_zero 1
+7:degree_drop | 11:R=0&w=0&disc_zero | 19:good_kill5 1
+7:degree_drop | 11:R=0&w=0&disc_zero | 19:w=1&disc_zero 1
+7:degree_drop | 11:R=inf&coeff_bad | 19:good_kill5 1
+7:degree_drop | 11:R=inf&w=inf&coeff_bad | 19:disc_zero 1
+7:degree_drop | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 1
+7:degree_drop | 11:R=inf&w=inf&coeff_bad | 19:w=1&disc_zero 1
+7:degree_drop | 11:disc_zero | 19:R=0&disc_zero 1
+7:degree_drop | 11:disc_zero | 19:R=inf&coeff_bad 1
+7:degree_drop | 11:disc_zero | 19:good_kill5 4
+7:degree_drop | 11:good_kill5 | 19:R=0&w=0&disc_zero 1
+7:degree_drop | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 1
+7:degree_drop | 11:good_kill5 | 19:good_kill5 4
+7:degree_drop | 11:good_kill5 | 19:w=0&disc_zero 1
+7:degree_drop | 11:good_kill5 | 19:w=inf&degree_drop 1
+7:degree_drop | 11:w=1&disc_zero | 19:R=0&w=0&disc_zero 1
+7:degree_drop | 11:w=1&disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:disc_zero | 11:R=0&disc_zero | 19:disc_zero 7
+7:disc_zero | 11:R=0&disc_zero | 19:good_kill5 4
+7:disc_zero | 11:R=0&disc_zero | 19:w=0&degree_drop 1
+7:disc_zero | 11:R=0&disc_zero | 19:w=0&disc_zero 1
+7:disc_zero | 11:R=0&w=0&disc_zero | 19:R=inf&coeff_bad 1
+7:disc_zero | 11:R=0&w=0&disc_zero | 19:degree_drop 1
+7:disc_zero | 11:R=0&w=0&disc_zero | 19:disc_zero 1
+7:disc_zero | 11:R=0&w=0&disc_zero | 19:good_kill5 2
+7:disc_zero | 11:R=0&w=0&disc_zero | 19:w=inf&degree_drop 1
+7:disc_zero | 11:R=inf&coeff_bad | 19:disc_zero 7
+7:disc_zero | 11:R=inf&coeff_bad | 19:good_kill5 4
+7:disc_zero | 11:R=inf&coeff_bad | 19:w=inf&degree_drop 2
+7:disc_zero | 11:R=inf&w=inf&coeff_bad | 19:R=0&disc_zero 1
+7:disc_zero | 11:R=inf&w=inf&coeff_bad | 19:degree_drop 1
+7:disc_zero | 11:R=inf&w=inf&coeff_bad | 19:disc_zero 1
+7:disc_zero | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 2
+7:disc_zero | 11:R=inf&w=inf&coeff_bad | 19:w=0&disc_zero 1
+7:disc_zero | 11:degree_drop | 19:disc_zero 6
+7:disc_zero | 11:degree_drop | 19:good_kill5 12
+7:disc_zero | 11:disc_zero | 19:R=0&w=0&disc_zero 1
+7:disc_zero | 11:disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:disc_zero | 11:disc_zero | 19:degree_drop 6
+7:disc_zero | 11:disc_zero | 19:disc_zero 2
+7:disc_zero | 11:disc_zero | 19:good_kill5 20
+7:disc_zero | 11:disc_zero | 19:w=-1&good_kill5 2
+7:disc_zero | 11:good_kill5 | 19:R=0&disc_zero 3
+7:disc_zero | 11:good_kill5 | 19:R=0&w=0&disc_zero 1
+7:disc_zero | 11:good_kill5 | 19:R=inf&coeff_bad 3
+7:disc_zero | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 1
+7:disc_zero | 11:good_kill5 | 19:degree_drop 4
+7:disc_zero | 11:good_kill5 | 19:disc_zero 10
+7:disc_zero | 11:good_kill5 | 19:good_kill5 16
+7:disc_zero | 11:good_kill5 | 19:w=0&disc_zero 3
+7:disc_zero | 11:good_kill5 | 19:w=inf&degree_drop 3
+7:disc_zero | 11:w=-1&good_kill5 | 19:R=0&disc_zero 1
+7:disc_zero | 11:w=-1&good_kill5 | 19:R=inf&coeff_bad 1
+7:disc_zero | 11:w=-1&good_kill5 | 19:disc_zero 2
+7:disc_zero | 11:w=-1&good_kill5 | 19:good_kill5 4
+7:disc_zero | 11:w=0&degree_drop | 19:good_kill5 4
+7:disc_zero | 11:w=0&degree_drop | 19:w=-1&good_kill5 2
+7:disc_zero | 11:w=0&disc_zero | 19:R=0&disc_zero 1
+7:disc_zero | 11:w=0&disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:disc_zero | 11:w=0&disc_zero | 19:disc_zero 3
+7:disc_zero | 11:w=0&disc_zero | 19:good_kill5 9
+7:disc_zero | 11:w=0&disc_zero | 19:w=-1&good_kill5 1
+7:disc_zero | 11:w=0&disc_zero | 19:w=1&disc_zero 1
+7:disc_zero | 11:w=1&disc_zero | 19:good_kill5 6
+7:disc_zero | 11:w=1&good_kill5 | 19:disc_zero 4
+7:disc_zero | 11:w=inf&degree_drop | 19:R=0&w=0&disc_zero 1
+7:disc_zero | 11:w=inf&degree_drop | 19:R=inf&coeff_bad 1
+7:disc_zero | 11:w=inf&degree_drop | 19:disc_zero 3
+7:disc_zero | 11:w=inf&degree_drop | 19:good_kill5 13
+7:disc_zero | 11:w=inf&degree_drop | 19:w=-1&good_kill5 3
+7:disc_zero | 11:w=inf&degree_drop | 19:w=1&disc_zero 1
+7:good_kill5 | 11:R=0&disc_zero | 19:good_kill5 4
+7:good_kill5 | 11:R=0&w=0&disc_zero | 19:good_kill5 5
+7:good_kill5 | 11:R=0&w=0&disc_zero | 19:w=inf&degree_drop 1
+7:good_kill5 | 11:R=inf&coeff_bad | 19:good_kill5 4
+7:good_kill5 | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 5
+7:good_kill5 | 11:R=inf&w=inf&coeff_bad | 19:w=0&disc_zero 1
+7:good_kill5 | 11:degree_drop | 19:disc_zero 8
+7:good_kill5 | 11:degree_drop | 19:good_kill5 6
+7:good_kill5 | 11:disc_zero | 19:R=0&w=0&disc_zero 1
+7:good_kill5 | 11:disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:good_kill5 | 11:disc_zero | 19:disc_zero 4
+7:good_kill5 | 11:disc_zero | 19:good_kill5 14
+7:good_kill5 | 11:disc_zero | 19:w=-1&disc_zero 2
+7:good_kill5 | 11:disc_zero | 19:w=0&disc_zero 1
+7:good_kill5 | 11:disc_zero | 19:w=inf&degree_drop 1
+7:good_kill5 | 11:good_kill5 | 19:R=0&disc_zero 2
+7:good_kill5 | 11:good_kill5 | 19:R=0&w=0&disc_zero 3
+7:good_kill5 | 11:good_kill5 | 19:R=inf&coeff_bad 2
+7:good_kill5 | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 3
+7:good_kill5 | 11:good_kill5 | 19:disc_zero 6
+7:good_kill5 | 11:good_kill5 | 19:good_kill5 32
+7:good_kill5 | 11:good_kill5 | 19:w=0&disc_zero 1
+7:good_kill5 | 11:good_kill5 | 19:w=inf&degree_drop 1
+7:good_kill5 | 11:w=-1&good_kill5 | 19:R=0&disc_zero 1
+7:good_kill5 | 11:w=-1&good_kill5 | 19:R=inf&coeff_bad 1
+7:good_kill5 | 11:w=-1&good_kill5 | 19:good_kill5 6
+7:good_kill5 | 11:w=-1&good_kill5 | 19:w=0&disc_zero 1
+7:good_kill5 | 11:w=-1&good_kill5 | 19:w=inf&degree_drop 1
+7:good_kill5 | 11:w=0&degree_drop | 19:R=inf&w=inf&coeff_bad 1
+7:good_kill5 | 11:w=0&degree_drop | 19:w=-1&good_kill5 1
+7:good_kill5 | 11:w=0&disc_zero | 19:disc_zero 1
+7:good_kill5 | 11:w=0&disc_zero | 19:good_kill5 2
+7:good_kill5 | 11:w=1&disc_zero | 19:degree_drop 2
+7:good_kill5 | 11:w=1&disc_zero | 19:good_kill5 6
+7:good_kill5 | 11:w=1&good_kill5 | 19:disc_zero 2
+7:good_kill5 | 11:w=1&good_kill5 | 19:w=0&disc_zero 1
+7:good_kill5 | 11:w=1&good_kill5 | 19:w=inf&degree_drop 1
+7:good_kill5 | 11:w=inf&degree_drop | 19:R=0&w=0&disc_zero 1
+7:good_kill5 | 11:w=inf&degree_drop | 19:disc_zero 1
+7:good_kill5 | 11:w=inf&degree_drop | 19:good_kill5 2
+7:good_kill5 | 11:w=inf&degree_drop | 19:w=-1&good_kill5 1
+7:w=-1&coeff_bad | 11:R=0&disc_zero | 19:w=1&disc_zero 1
+7:w=-1&coeff_bad | 11:R=inf&coeff_bad | 19:w=1&disc_zero 1
+7:w=-1&coeff_bad | 11:good_kill5 | 19:good_kill5 4
+7:w=-1&disc_zero | 11:R=0&disc_zero | 19:good_kill5 1
+7:w=-1&disc_zero | 11:R=0&disc_zero | 19:w=inf&degree_drop 1
+7:w=-1&disc_zero | 11:R=inf&coeff_bad | 19:good_kill5 1
+7:w=-1&disc_zero | 11:R=inf&coeff_bad | 19:w=0&disc_zero 1
+7:w=-1&disc_zero | 11:degree_drop | 19:good_kill5 2
+7:w=-1&disc_zero | 11:degree_drop | 19:w=0&disc_zero 1
+7:w=-1&disc_zero | 11:degree_drop | 19:w=inf&degree_drop 1
+7:w=-1&disc_zero | 11:good_kill5 | 19:R=0&disc_zero 1
+7:w=-1&disc_zero | 11:good_kill5 | 19:R=0&w=0&disc_zero 1
+7:w=-1&disc_zero | 11:good_kill5 | 19:R=inf&coeff_bad 1
+7:w=-1&disc_zero | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 1
+7:w=-1&disc_zero | 11:good_kill5 | 19:disc_zero 4
+7:w=-1&disc_zero | 11:good_kill5 | 19:good_kill5 6
+7:w=-1&disc_zero | 11:w=0&degree_drop | 19:R=0&disc_zero 1
+7:w=-1&disc_zero | 11:w=inf&degree_drop | 19:R=inf&coeff_bad 1
+7:w=-1&good_kill5 | 11:R=0&disc_zero | 19:disc_zero 1
+7:w=-1&good_kill5 | 11:R=0&disc_zero | 19:good_kill5 3
+7:w=-1&good_kill5 | 11:R=0&w=0&disc_zero | 19:degree_drop 1
+7:w=-1&good_kill5 | 11:R=inf&coeff_bad | 19:disc_zero 1
+7:w=-1&good_kill5 | 11:R=inf&coeff_bad | 19:good_kill5 3
+7:w=-1&good_kill5 | 11:R=inf&w=inf&coeff_bad | 19:degree_drop 1
+7:w=-1&good_kill5 | 11:degree_drop | 19:disc_zero 2
+7:w=-1&good_kill5 | 11:degree_drop | 19:good_kill5 8
+7:w=-1&good_kill5 | 11:disc_zero | 19:R=0&disc_zero 1
+7:w=-1&good_kill5 | 11:disc_zero | 19:R=inf&coeff_bad 1
+7:w=-1&good_kill5 | 11:disc_zero | 19:disc_zero 2
+7:w=-1&good_kill5 | 11:good_kill5 | 19:R=0&disc_zero 1
+7:w=-1&good_kill5 | 11:good_kill5 | 19:R=0&w=0&disc_zero 1
+7:w=-1&good_kill5 | 11:good_kill5 | 19:R=inf&coeff_bad 1
+7:w=-1&good_kill5 | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 1
+7:w=-1&good_kill5 | 11:good_kill5 | 19:degree_drop 2
+7:w=-1&good_kill5 | 11:good_kill5 | 19:disc_zero 2
+7:w=-1&good_kill5 | 11:good_kill5 | 19:good_kill5 10
+7:w=-1&good_kill5 | 11:w=0&degree_drop | 19:R=inf&coeff_bad 1
+7:w=-1&good_kill5 | 11:w=0&disc_zero | 19:disc_zero 1
+7:w=-1&good_kill5 | 11:w=0&disc_zero | 19:good_kill5 4
+7:w=-1&good_kill5 | 11:w=0&disc_zero | 19:w=inf&degree_drop 1
+7:w=-1&good_kill5 | 11:w=inf&degree_drop | 19:R=0&disc_zero 1
+7:w=-1&good_kill5 | 11:w=inf&degree_drop | 19:disc_zero 1
+7:w=-1&good_kill5 | 11:w=inf&degree_drop | 19:good_kill5 4
+7:w=-1&good_kill5 | 11:w=inf&degree_drop | 19:w=0&disc_zero 1
+7:w=0&degree_drop | 11:R=0&disc_zero | 19:good_kill5 1
+7:w=0&degree_drop | 11:R=inf&w=inf&coeff_bad | 19:disc_zero 1
+7:w=0&degree_drop | 11:disc_zero | 19:good_kill5 1
+7:w=0&disc_zero | 11:R=0&disc_zero | 19:degree_drop 1
+7:w=0&disc_zero | 11:R=0&disc_zero | 19:disc_zero 1
+7:w=0&disc_zero | 11:R=0&disc_zero | 19:good_kill5 3
+7:w=0&disc_zero | 11:R=inf&coeff_bad | 19:disc_zero 2
+7:w=0&disc_zero | 11:R=inf&coeff_bad | 19:good_kill5 3
+7:w=0&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:disc_zero 1
+7:w=0&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 7
+7:w=0&disc_zero | 11:degree_drop | 19:disc_zero 2
+7:w=0&disc_zero | 11:degree_drop | 19:good_kill5 7
+7:w=0&disc_zero | 11:disc_zero | 19:R=0&disc_zero 3
+7:w=0&disc_zero | 11:disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:w=0&disc_zero | 11:disc_zero | 19:degree_drop 2
+7:w=0&disc_zero | 11:disc_zero | 19:disc_zero 5
+7:w=0&disc_zero | 11:disc_zero | 19:good_kill5 4
+7:w=0&disc_zero | 11:disc_zero | 19:w=-1&good_pass5 1
+7:w=0&disc_zero | 11:disc_zero | 19:w=1&good_kill5 1
+7:w=0&disc_zero | 11:good_kill5 | 19:R=inf&w=inf&coeff_bad 1
+7:w=0&disc_zero | 11:good_kill5 | 19:disc_zero 4
+7:w=0&disc_zero | 11:good_kill5 | 19:good_kill5 10
+7:w=0&disc_zero | 11:good_kill5 | 19:w=1&disc_zero 2
+7:w=0&disc_zero | 11:w=-1&good_kill5 | 19:good_kill5 7
+7:w=0&disc_zero | 11:w=1&disc_zero | 19:disc_zero 1
+7:w=0&disc_zero | 11:w=1&disc_zero | 19:good_kill5 2
+7:w=0&disc_zero | 11:w=1&good_kill5 | 19:good_kill5 1
+7:w=0&disc_zero | 11:w=inf&degree_drop | 19:disc_zero 1
+7:w=0&disc_zero | 11:w=inf&degree_drop | 19:good_kill5 8
+7:w=1&disc_zero | 11:R=0&disc_zero | 19:good_kill5 2
+7:w=1&disc_zero | 11:R=0&w=0&disc_zero | 19:disc_zero 1
+7:w=1&disc_zero | 11:R=0&w=0&disc_zero | 19:good_kill5 1
+7:w=1&disc_zero | 11:R=0&w=0&disc_zero | 19:w=-1&good_kill5 1
+7:w=1&disc_zero | 11:R=inf&coeff_bad | 19:good_kill5 2
+7:w=1&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:disc_zero 1
+7:w=1&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:good_kill5 1
+7:w=1&disc_zero | 11:R=inf&w=inf&coeff_bad | 19:w=-1&good_kill5 1
+7:w=1&disc_zero | 11:degree_drop | 19:R=0&w=0&disc_zero 1
+7:w=1&disc_zero | 11:degree_drop | 19:R=inf&w=inf&coeff_bad 1
+7:w=1&disc_zero | 11:degree_drop | 19:disc_zero 4
+7:w=1&disc_zero | 11:degree_drop | 19:good_kill5 6
+7:w=1&disc_zero | 11:disc_zero | 19:R=0&disc_zero 1
+7:w=1&disc_zero | 11:disc_zero | 19:R=inf&coeff_bad 1
+7:w=1&disc_zero | 11:disc_zero | 19:disc_zero 2
+7:w=1&disc_zero | 11:disc_zero | 19:good_kill5 8
+7:w=1&disc_zero | 11:good_kill5 | 19:R=0&disc_zero 1
+7:w=1&disc_zero | 11:good_kill5 | 19:R=inf&coeff_bad 1
+7:w=1&disc_zero | 11:good_kill5 | 19:degree_drop 2
+7:w=1&disc_zero | 11:good_kill5 | 19:disc_zero 2
+7:w=1&disc_zero | 11:good_kill5 | 19:good_kill5 18
+7:w=1&disc_zero | 11:w=-1&good_kill5 | 19:disc_zero 2
+7:w=1&disc_zero | 11:w=0&disc_zero | 19:R=0&disc_zero 1
+7:w=1&disc_zero | 11:w=0&disc_zero | 19:R=inf&w=inf&coeff_bad 1
+7:w=1&disc_zero | 11:w=0&disc_zero | 19:disc_zero 2
+7:w=1&disc_zero | 11:w=0&disc_zero | 19:good_kill5 1
+7:w=1&disc_zero | 11:w=inf&degree_drop | 19:R=0&w=0&disc_zero 1
+7:w=1&disc_zero | 11:w=inf&degree_drop | 19:R=inf&coeff_bad 1
+7:w=1&disc_zero | 11:w=inf&degree_drop | 19:disc_zero 2
+7:w=1&disc_zero | 11:w=inf&degree_drop | 19:good_kill5 1
+7:w=1&good_kill5 | 11:R=0&disc_zero | 19:disc_zero 2
+7:w=1&good_kill5 | 11:R=0&disc_zero | 19:good_kill5 1
+7:w=1&good_kill5 | 11:R=inf&coeff_bad | 19:disc_zero 2
+7:w=1&good_kill5 | 11:R=inf&coeff_bad | 19:good_kill5 1
+7:w=1&good_kill5 | 11:degree_drop | 19:good_kill5 2
+7:w=1&good_kill5 | 11:disc_zero | 19:R=0&disc_zero 2
+7:w=1&good_kill5 | 11:disc_zero | 19:R=inf&coeff_bad 2
+7:w=1&good_kill5 | 11:good_kill5 | 19:disc_zero 2
+7:w=1&good_kill5 | 11:good_kill5 | 19:good_kill5 2
+7:w=1&good_kill5 | 11:w=0&disc_zero | 19:R=0&disc_zero 1
+7:w=1&good_kill5 | 11:w=0&disc_zero | 19:disc_zero 1
+7:w=1&good_kill5 | 11:w=0&disc_zero | 19:good_kill5 2
+7:w=1&good_kill5 | 11:w=inf&degree_drop | 19:R=inf&coeff_bad 1
+7:w=1&good_kill5 | 11:w=inf&degree_drop | 19:disc_zero 1
+7:w=1&good_kill5 | 11:w=inf&degree_drop | 19:good_kill5 2
+7:w=inf&degree_drop | 11:R=0&disc_zero | 19:disc_zero 2
+7:w=inf&degree_drop | 11:R=0&disc_zero | 19:good_kill5 3
+7:w=inf&degree_drop | 11:R=0&w=0&disc_zero | 19:disc_zero 2
+7:w=inf&degree_drop | 11:R=0&w=0&disc_zero | 19:good_kill5 7
+7:w=inf&degree_drop | 11:R=inf&coeff_bad | 19:degree_drop 1
+7:w=inf&degree_drop | 11:R=inf&coeff_bad | 19:disc_zero 1
+7:w=inf&degree_drop | 11:R=inf&coeff_bad | 19:good_kill5 4
+7:w=inf&degree_drop | 11:degree_drop | 19:disc_zero 2
+7:w=inf&degree_drop | 11:degree_drop | 19:good_kill5 7
+7:w=inf&degree_drop | 11:disc_zero | 19:R=0&w=0&disc_zero 1
+7:w=inf&degree_drop | 11:disc_zero | 19:R=inf&coeff_bad 3
+7:w=inf&degree_drop | 11:disc_zero | 19:degree_drop 2
+7:w=inf&degree_drop | 11:disc_zero | 19:disc_zero 5
+7:w=inf&degree_drop | 11:disc_zero | 19:good_kill5 5
+7:w=inf&degree_drop | 11:disc_zero | 19:w=-1&good_pass5 1
+7:w=inf&degree_drop | 11:disc_zero | 19:w=1&good_kill5 1
+7:w=inf&degree_drop | 11:good_kill5 | 19:R=0&w=0&disc_zero 1
+7:w=inf&degree_drop | 11:good_kill5 | 19:disc_zero 4
+7:w=inf&degree_drop | 11:good_kill5 | 19:good_kill5 10
+7:w=inf&degree_drop | 11:good_kill5 | 19:w=1&disc_zero 2
+7:w=inf&degree_drop | 11:w=-1&good_kill5 | 19:good_kill5 7
+7:w=inf&degree_drop | 11:w=0&degree_drop | 19:good_kill5 2
+7:w=inf&degree_drop | 11:w=0&disc_zero | 19:disc_zero 1
+7:w=inf&degree_drop | 11:w=0&disc_zero | 19:good_kill5 6
+7:w=inf&degree_drop | 11:w=1&disc_zero | 19:disc_zero 1
+7:w=inf&degree_drop | 11:w=1&disc_zero | 19:good_kill5 2
+7:w=inf&degree_drop | 11:w=1&good_kill5 | 19:good_kill5 1
+TOP_RESIDUE_COUNTS
+11:R=0,w=0,R=0&w=0&disc_zero 31
+11:R=0,w=2,R=0&disc_zero 6
+11:R=0,w=3,R=0&disc_zero 7
+11:R=0,w=4,R=0&disc_zero 5
+11:R=0,w=5,R=0&disc_zero 6
+11:R=0,w=6,R=0&disc_zero 5
+11:R=0,w=7,R=0&disc_zero 6
+11:R=0,w=8,R=0&disc_zero 4
+11:R=0,w=9,R=0&disc_zero 6
+11:R=1,w=0,w=0&degree_drop 12
+11:R=1,w=1,w=1&disc_zero 20
+11:R=1,w=2,degree_drop 13
+11:R=1,w=3,degree_drop 7
+11:R=1,w=4,degree_drop 7
+11:R=1,w=5,degree_drop 14
+11:R=1,w=6,degree_drop 13
+11:R=1,w=7,degree_drop 17
+11:R=1,w=8,degree_drop 17
+11:R=1,w=9,degree_drop 14
+11:R=1,w=inf,w=inf&degree_drop 12
+11:R=10,w=1,w=1&disc_zero 14
+11:R=10,w=1,w=1&good_kill5 14
+11:R=10,w=10,w=-1&good_kill5 46
+11:R=2,w=0,w=0&disc_zero 13
+11:R=2,w=2,disc_zero 5
+11:R=2,w=3,disc_zero 9
+11:R=2,w=4,good_kill5 23
+11:R=2,w=5,good_kill5 25
+11:R=2,w=8,disc_zero 1
+11:R=2,w=9,disc_zero 2
+11:R=3,w=0,w=0&disc_zero 12
+11:R=3,w=3,disc_zero 6
+11:R=3,w=4,disc_zero 15
+11:R=3,w=5,good_kill5 16
+11:R=3,w=6,good_kill5 15
+11:R=3,w=7,disc_zero 19
+11:R=3,w=8,disc_zero 3
+11:R=3,w=9,disc_zero 11
+11:R=3,w=inf,w=inf&degree_drop 7
+11:R=4,w=0,w=0&disc_zero 7
+11:R=4,w=2,good_kill5 15
+11:R=4,w=3,disc_zero 15
+11:R=4,w=4,disc_zero 6
+11:R=4,w=5,disc_zero 11
+11:R=4,w=7,disc_zero 3
+11:R=4,w=8,disc_zero 19
+11:R=4,w=9,good_kill5 16
+11:R=4,w=inf,w=inf&degree_drop 12
+11:R=5,w=0,w=0&disc_zero 11
+11:R=5,w=2,disc_zero 2
+11:R=5,w=3,good_kill5 24
+11:R=5,w=6,disc_zero 2
+11:R=5,w=inf,w=inf&degree_drop 5
+11:R=6,w=3,good_kill5 23
+11:R=6,w=4,disc_zero 9
+11:R=6,w=5,disc_zero 2
+11:R=6,w=6,disc_zero 5
+11:R=6,w=7,disc_zero 1
+11:R=6,w=9,good_kill5 25
+11:R=6,w=inf,w=inf&degree_drop 13
+11:R=7,w=0,w=0&disc_zero 2
+11:R=7,w=2,disc_zero 6
+11:R=7,w=4,disc_zero 2
+11:R=7,w=5,good_kill5 20
+11:R=7,w=8,good_kill5 10
+11:R=7,w=9,disc_zero 3
+11:R=8,w=3,disc_zero 2
+11:R=8,w=5,disc_zero 3
+11:R=8,w=6,disc_zero 6
+11:R=8,w=7,good_kill5 10
+11:R=8,w=9,good_kill5 20
+11:R=8,w=inf,w=inf&degree_drop 2
+11:R=9,w=0,w=0&disc_zero 5
+11:R=9,w=2,disc_zero 2
+11:R=9,w=4,good_kill5 24
+11:R=9,w=6,disc_zero 2
+11:R=9,w=inf,w=inf&degree_drop 11
+11:R=inf,w=2,R=inf&coeff_bad 5
+11:R=inf,w=3,R=inf&coeff_bad 5
+11:R=inf,w=4,R=inf&coeff_bad 7
+11:R=inf,w=5,R=inf&coeff_bad 6
+11:R=inf,w=6,R=inf&coeff_bad 6
+11:R=inf,w=7,R=inf&coeff_bad 4
+11:R=inf,w=8,R=inf&coeff_bad 6
+11:R=inf,w=9,R=inf&coeff_bad 6
+11:R=inf,w=inf,R=inf&w=inf&coeff_bad 31
+19:R=0,w=0,R=0&w=0&disc_zero 16
+19:R=0,w=10,R=0&disc_zero 4
+19:R=0,w=12,R=0&disc_zero 5
+19:R=0,w=16,R=0&disc_zero 1
+19:R=0,w=2,R=0&disc_zero 2
+19:R=0,w=3,R=0&disc_zero 2
+19:R=0,w=5,R=0&disc_zero 5
+19:R=0,w=7,R=0&disc_zero 6
+19:R=0,w=9,R=0&disc_zero 2
+19:R=1,w=0,w=0&degree_drop 1
+19:R=1,w=1,w=1&disc_zero 10
+19:R=1,w=10,degree_drop 1
+19:R=1,w=11,degree_drop 4
+19:R=1,w=12,degree_drop 5
+19:R=1,w=13,degree_drop 4
+19:R=1,w=14,degree_drop 2
+19:R=1,w=15,degree_drop 2
+19:R=1,w=16,degree_drop 3
+19:R=1,w=17,degree_drop 4
+19:R=1,w=18,w=-1&disc_zero 2
+19:R=1,w=2,degree_drop 1
+19:R=1,w=3,degree_drop 4
+19:R=1,w=4,degree_drop 1
+19:R=1,w=5,degree_drop 1
+19:R=1,w=6,degree_drop 3
+19:R=1,w=7,degree_drop 4
+19:R=1,w=8,degree_drop 5
+19:R=1,w=9,degree_drop 4
+19:R=1,w=inf,w=inf&degree_drop 1
+19:R=10,w=0,w=0&disc_zero 2
+19:R=10,w=15,disc_zero 6
+19:R=10,w=17,disc_zero 2
+19:R=10,w=2,disc_zero 6
+19:R=10,w=4,disc_zero 4
+19:R=10,w=9,disc_zero 1
+19:R=10,w=inf,w=inf&degree_drop 2
+19:R=11,w=0,w=0&disc_zero 1
+19:R=11,w=16,disc_zero 1
+19:R=11,w=17,disc_zero 2
+19:R=11,w=2,disc_zero 2
+19:R=11,w=3,disc_zero 8
+19:R=12,w=12,disc_zero 2
+19:R=12,w=15,disc_zero 4
+19:R=12,w=3,disc_zero 1
+19:R=12,w=4,disc_zero 6
+19:R=12,w=5,disc_zero 2
+19:R=12,w=7,disc_zero 1
+19:R=13,w=13,disc_zero 1
+19:R=13,w=6,disc_zero 1
+19:R=13,w=inf,w=inf&degree_drop 2
+19:R=14,w=0,w=0&disc_zero 1
+19:R=14,w=10,good_kill5 10
+19:R=14,w=17,disc_zero 4
+19:R=14,w=2,disc_zero 1
+19:R=14,w=inf,w=inf&degree_drop 4
+19:R=15,w=0,w=0&disc_zero 4
+19:R=15,w=10,disc_zero 1
+19:R=15,w=2,good_kill5 10
+19:R=15,w=9,disc_zero 4
+19:R=15,w=inf,w=inf&degree_drop 1
+19:R=16,w=0,w=0&disc_zero 2
+19:R=16,w=13,good_kill5 10
+19:R=16,w=17,disc_zero 5
+19:R=16,w=2,disc_zero 5
+19:R=16,w=3,disc_zero 1
+19:R=17,w=17,disc_zero 1
+19:R=17,w=2,disc_zero 1
+19:R=17,w=3,disc_zero 3
+19:R=17,w=5,disc_zero 3
+19:R=17,w=inf,w=inf&degree_drop 2
+19:R=18,w=1,w=1&disc_zero 4
+19:R=18,w=18,w=-1&good_kill5 16
+19:R=18,w=18,w=-1&good_pass5 2
+19:R=2,w=0,w=0&disc_zero 2
+19:R=2,w=10,disc_zero 6
+19:R=2,w=14,disc_zero 6
+19:R=2,w=17,disc_zero 1
+19:R=2,w=5,disc_zero 4
+19:R=2,w=9,disc_zero 2
+19:R=2,w=inf,w=inf&degree_drop 2
+19:R=3,w=0,w=0&disc_zero 2
+19:R=3,w=16,disc_zero 1
+19:R=3,w=3,disc_zero 1
+19:R=4,w=0,w=0&disc_zero 2
+19:R=4,w=14,disc_zero 3
+19:R=4,w=15,disc_zero 1
+19:R=4,w=16,good_kill5 11
+19:R=4,w=5,disc_zero 8
+19:R=4,w=9,disc_zero 4
+19:R=4,w=inf,w=inf&degree_drop 2
+19:R=5,w=0,w=0&disc_zero 2
+19:R=5,w=14,disc_zero 1
+19:R=5,w=15,disc_zero 3
+19:R=5,w=17,disc_zero 4
+19:R=5,w=4,disc_zero 8
+19:R=5,w=6,good_kill5 11
+19:R=5,w=inf,w=inf&degree_drop 2
+19:R=6,w=10,disc_zero 5
+19:R=6,w=13,disc_zero 1
+19:R=6,w=3,good_kill5 10
+19:R=6,w=9,disc_zero 5
+19:R=6,w=inf,w=inf&degree_drop 2
+19:R=7,w=10,disc_zero 2
+19:R=7,w=13,disc_zero 8
+19:R=7,w=6,disc_zero 1
+19:R=7,w=9,disc_zero 2
+19:R=7,w=inf,w=inf&degree_drop 1
+19:R=8,w=11,disc_zero 1
+19:R=8,w=13,disc_zero 1
+19:R=8,w=14,disc_zero 4
+19:R=8,w=4,disc_zero 2
+19:R=8,w=5,disc_zero 6
+19:R=8,w=8,disc_zero 2
+19:R=9,w=0,w=0&disc_zero 2
+19:R=9,w=10,disc_zero 1
+19:R=9,w=13,disc_zero 3
+19:R=9,w=4,disc_zero 3
+19:R=9,w=9,disc_zero 1
+19:R=inf,w=10,R=inf&coeff_bad 2
+19:R=inf,w=11,R=inf&coeff_bad 6
+19:R=inf,w=13,R=inf&coeff_bad 2
+19:R=inf,w=17,R=inf&coeff_bad 2
+19:R=inf,w=2,R=inf&coeff_bad 4
+19:R=inf,w=4,R=inf&coeff_bad 5
+19:R=inf,w=6,R=inf&coeff_bad 1
+19:R=inf,w=8,R=inf&coeff_bad 5
+19:R=inf,w=inf,R=inf&w=inf&coeff_bad 16
+7:R=0,w=0,R=0&w=0&disc_zero 61
+7:R=0,w=2,R=0&disc_zero 1
+7:R=0,w=3,R=0&disc_zero 9
+7:R=0,w=4,R=0&disc_zero 20
+7:R=0,w=5,R=0&disc_zero 5
+7:R=0,w=inf,R=0&w=inf&degree_drop 12
+7:R=1,w=0,w=0&degree_drop 3
+7:R=1,w=1,w=1&disc_zero 34
+7:R=1,w=2,degree_drop 7
+7:R=1,w=3,degree_drop 5
+7:R=1,w=4,degree_drop 7
+7:R=1,w=5,degree_drop 5
+7:R=1,w=6,w=-1&disc_zero 18
+7:R=1,w=inf,w=inf&degree_drop 3
+7:R=2,w=0,w=0&disc_zero 3
+7:R=2,w=2,disc_zero 3
+7:R=2,w=3,good_kill5 15
+7:R=2,w=4,good_kill5 12
+7:R=2,w=5,disc_zero 11
+7:R=2,w=6,w=-1&coeff_bad 1
+7:R=2,w=inf,w=inf&degree_drop 11
+7:R=3,w=0,w=0&disc_zero 38
+7:R=3,w=2,good_kill5 43
+7:R=3,w=3,disc_zero 3
+7:R=3,w=4,disc_zero 80
+7:R=3,w=6,w=-1&coeff_bad 2
+7:R=3,w=inf,w=inf&degree_drop 29
+7:R=4,w=0,w=0&disc_zero 11
+7:R=4,w=2,good_kill5 12
+7:R=4,w=3,disc_zero 11
+7:R=4,w=4,disc_zero 3
+7:R=4,w=5,good_kill5 15
+7:R=4,w=6,w=-1&coeff_bad 1
+7:R=4,w=inf,w=inf&degree_drop 3
+7:R=5,w=0,w=0&disc_zero 29
+7:R=5,w=2,disc_zero 80
+7:R=5,w=4,good_kill5 43
+7:R=5,w=5,disc_zero 3
+7:R=5,w=6,w=-1&coeff_bad 2
+7:R=5,w=inf,w=inf&degree_drop 38
+7:R=6,w=1,w=1&disc_zero 36
+7:R=6,w=1,w=1&good_kill5 24
+7:R=6,w=6,w=-1&disc_zero 6
+7:R=6,w=6,w=-1&good_kill5 56
+7:R=inf,w=0,R=inf&w=0&coeff_bad 12
+7:R=inf,w=2,R=inf&coeff_bad 20
+7:R=inf,w=3,R=inf&coeff_bad 5
+7:R=inf,w=4,R=inf&coeff_bad 1
+7:R=inf,w=5,R=inf&coeff_bad 9
+7:R=inf,w=inf,R=inf&w=inf&coeff_bad 61
+DONE

@@ -1,0 +1,12 @@
+HIT [-12,-5,-2,1] TORSION [ 16 ] order 16
+PROGRESS a=-12 processed 14992 exact 944
+HIT [-9,4,4,1] TORSION [ 2, 6 ] order 12
+PROGRESS a=-9 processed 29976 exact 1793
+PROGRESS a=-6 processed 44958 exact 2571
+PROGRESS a=-3 processed 59930 exact 3141
+PROGRESS a=3 processed 74902 exact 3220
+PROGRESS a=6 processed 89884 exact 3353
+PROGRESS a=9 processed 104868 exact 3502
+HIT [12,-8,7,-11] TORSION [ 12 ] order 12
+PROGRESS a=12 processed 119860 exact 3585
+SEARCH_DONE shard 0/3 H=12 processed 119860 exact 3585

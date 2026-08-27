@@ -1,0 +1,57 @@
+CONTACT7 TWO-ROOT PLUS-3 SEARCH: EXACT SUMMARY
+date 2026-07-11
+
+coordinates
+  r = 1-u^2, w = 1-v^2, h(r)=u^7, h(w)=v^7
+  u,v are signed; the original eps,delta signs are absorbed.
+
+height convention
+  u=num/den and v=num/den in lowest terms
+  |num| <= 100, 1 <= den <= 100
+  unordered pairs only
+
+enumeration
+  rational_parameters 12175
+  unordered_raw_pairs 74109225
+  exact_open-chart_boundaries 30433
+  tested_open-chart_pairs 74078792
+
+conservative C++ residue sieve
+  primes 5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83
+  bad reduction, denominator, and affine-chart boundary residues were skipped
+  survivors 167
+
+independent exact Magma reduction of the 167 survivors
+  extra good primes tested 89..251
+  additional_local_survivors 0
+  first_kill counts
+    89  74
+    97  60
+    101 14
+    103 8
+    107 6
+    109 1
+    113 2
+    127 2
+
+finite-field cross-checks (C++ and Magma agree)
+  p=5:  4 good, 0 pass target 84, 4 fail; every one has #J(F_5)=28
+  p=7:  16 good, 2 pass, 14 fail
+  p=11: 52 good, 16 pass, 36 fail
+  p=13: 70 good, 30 pass, 40 fail
+  base-torsion divisibility anomalies 0 at every tested prime
+
+two intermediate height-30 survivors exact-tested
+  (u,v)=(-20/9,21/26): torsion [2,14], order 28;
+      geometrically simple D4 certificate at p=17
+  (u,v)=(-30/23,-4/5): torsion [2,14], order 28;
+      geometrically simple D4 certificate at p=31
+
+outcome
+  no target-84 candidate in the complete signed unordered height-100 box
+  on the open affine two-root chart
+
+correction
+  This summary uses the cancelled A(u) parametrization and includes the
+  removable u=+1 and v=+1 branches.  Earlier uncancelled counts (536
+  survivors and an apparent p=7 obstruction) are superseded.

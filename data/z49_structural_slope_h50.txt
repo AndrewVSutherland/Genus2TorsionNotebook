@@ -1,0 +1,6 @@
+Z49_STRUCTURAL_SLOPE_HENSEL
+slope_height 50 slopes 3094 coordinate_bound 5000
+attempted_branch_lifts 4620 singular_matches 0 all_four_reconstructed 2 exact_open_hits 0
+Z49_STRUCTURAL_SLOPE_HENSEL_DONE
+elapsed_seconds 28.40
+max_rss_kb 84692

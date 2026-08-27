@@ -1,0 +1,11 @@
+VERIFY 10285.2.a.o : y^2 + (x^3 + x + 1)y = 15969*x^6 - 80696*x^5 + 129706*x^4 - 181880*x^3 + 127212*x^2 - 96883*x + 40246
+integral model: y^2 = 63877*x^6 - 322784*x^5 + 518826*x^4 - 727518*x^3 + 508849*x^2 - 387530*x + 160985
+APDATA primes: [ 2, 3, 7, 13, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ] (n=43)
+TWIST d=1 matches at 42 good primes (of 43 APDATA primes)
+FINALCURVE 10285.2.a.o : y^2 = 255508*x^6 - 1291136*x^5 + 2075304*x^4 - 2910072*x^3 + 2035396*x^2 - 1550120*x + 643940
+LMATCH_FINAL 10285.2.a.o : 42 good primes match (deg2-split 39, deg1-rational 3)
+TORSION_INVARIANTS 10285.2.a.o : [] (0.210 s)
+SIMPLICITY 10285.2.a.o : true  witness prime 3  chi = x^4 - x^3 + 5*x^2 - 3*x + 9
+RMSCREEN 10285.2.a.o : distinct cores = [ 5 ] => RM
+BADPRIMES 10285.2.a.o : [ 2, 5, 11, 17, 277 ] (level primes [ <5, 1>, <11, 2>, <17, 1> ])
+VERIFYDONE 10285.2.a.o

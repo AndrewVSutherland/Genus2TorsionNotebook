@@ -1,0 +1,21 @@
+K genus = 1
+STEP1 ok: F = G1 * Q4 over K
+STEP2 resolvent roots of Q4 in K: 1
+STEP2 A ne 0: true
+STEP3 L = K(sqrt A) built; genus(L) = 3
+STEP4 G1*G2*G3 = F over L: true
+STEP5 Delta ne 0: true
+STEP5 codomain degree = 6
+STEP6 codomain descends to K: true
+STEP7 CODOMAIN FACTOR DEGREES OVER K: [ 2, 4 ]
+STEP7 multiplicities: [ 1, 1 ]
+STEP7 GENERIC 2-RANK OF THE IMAGE FAMILY = 1
+STEP8 image quartic resolvent roots in K: 1
+STEP8 A1 ne 0: true
+STEP8 IS A1 A SQUARE IN K (=> image ALWAYS 2-rank 2)? false
+STEP8 branch divisor degree of s^2 = A1 : 4
+STEP8 RAISE-LOCUS COVER  s^2 = A1  HAS GENUS 3
+STEP8 constant field: Rational Field
+STEP9 IS disc(image quadratic) A SQUARE IN K? false
+STEP9 COVER {image quadratic splits} HAS GENUS 3
+CODOMAIN_SYMBOLIC_DONE

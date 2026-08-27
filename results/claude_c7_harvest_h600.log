@@ -1,0 +1,26 @@
+# claude_c7_harvest -- contact-7 three-root / SPLITALL harvester
+# H=600, 30 shards, 12 small-prime has-a-root bitmaps (tier 1) + 30 primes w/ disc-QR (tier 2)
+# Positive control at H=40 reproduces the project's 16 recorded three-root hits in 0.85 s.
+# NOTE: 42 primes is under-powered at this box size -- an irreducible S3 cubic survives with
+#       probability (2/3)^42 ~ 8e-8, so ~8000 statistical false positives are expected over
+#       the 9.6e10 pairs. Exact factorisation over Q separates them (TRUE TRIPLES below).
+HARVEST_DONE thr=15 pairs=3197319706 tier1=97518308 r3=715 r5=0
+HARVEST_DONE thr=22 pairs=3197217504 tier1=97470333 r3=749 r5=0
+HARVEST_DONE thr=28 pairs=3197129898 tier1=97761804 r3=773 r5=0
+HARVEST_DONE thr=9 pairs=3197407315 tier1=98328563 r3=753 r5=0
+
+# TRUE three-root triples recovered by exact factorisation over Q (11 distinct, 5 NEW):
+(-10, -10/7, -1/2)            known
+(-5, -15/8, -15/22)           known
+(-3, -3/4, -3/5)              known (RM(sqrt2))
+(-15/8, -15/19, -1/2)         known
+(-5/18, -10/49, 4/17)         known
+(-4/9, -4/25, 4/17)           known
+(-511/61, -511/625, -1/2)     NEW  -> exact torsion [2,2,14], marked order 7, End=Z signature
+(-165/41, -33/16, -165/289)   NEW  -> exact torsion [2,2,14], marked order 7, End=Z signature
+(-164/297, -1/2, 164/361)     NEW  -> exact torsion [2,2,14], marked order 7, End=Z signature
+(-17/50, -34/189, 34/121)     NEW  -> exact torsion [2,2,14], marked order 7, End=Z signature
+(-1/2, -13/49, 13/50)         NEW  -> exact torsion [2,2,14], marked order 7, End=Z signature
+(verification: code/claude_c7_newhits_verify.m, results/claude_c7_newhits_verify.log)
+
+SPLITALL candidates (5 rational roots => [2,2,2,14], order 112): 0

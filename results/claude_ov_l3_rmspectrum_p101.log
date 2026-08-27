@@ -1,0 +1,44 @@
+RMSPECTRUM p=101  sigma_sampled=8523 (onH5 767, offH5 7756)  ambient=8000
+-- SIGMA'' (all) : 45 distinct cores over 8523 points; top 12:
+   core=1      count=3081   frac=0.3615
+   core=5      count=998    frac=0.1171
+   core=3      count=891    frac=0.1045
+   core=0      count=610    frac=0.07157
+   core=37     count=416    frac=0.04881
+   core=33     count=383    frac=0.04494
+   core=113    count=220    frac=0.02581
+   core=201    count=201    frac=0.02358
+   core=137    count=143    frac=0.01678
+   core=209    count=132    frac=0.01549
+   core=97     count=131    frac=0.01537
+   core=93     count=109    frac=0.01279
+-- SIGMA'' cap H_5   <-- positive control : 3 distinct cores over 767 points; top 12:
+   core=5      count=387    frac=0.5046
+   core=0      count=370    frac=0.4824
+   core=3      count=10     frac=0.01304
+-- SIGMA'' off H_5   <-- the question : 45 distinct cores over 7756 points; top 12:
+   core=1      count=3081   frac=0.3972
+   core=3      count=881    frac=0.1136
+   core=5      count=611    frac=0.07878
+   core=37     count=416    frac=0.05363
+   core=33     count=383    frac=0.04938
+   core=0      count=240    frac=0.03094
+   core=113    count=220    frac=0.02837
+   core=201    count=201    frac=0.02592
+   core=137    count=143    frac=0.01844
+   core=209    count=132    frac=0.01702
+   core=97     count=131    frac=0.01689
+   core=93     count=109    frac=0.01405
+-- AMBIENT chart (unconditioned) : 112 distinct cores over 8000 points; top 12:
+   core=1      count=1643   frac=0.2054
+   core=5      count=422    frac=0.05275
+   core=17     count=399    frac=0.04987
+   core=2      count=398    frac=0.04975
+   core=3      count=314    frac=0.03925
+   core=33     count=287    frac=0.03587
+   core=41     count=235    frac=0.02938
+   core=13     count=217    frac=0.02712
+   core=57     count=178    frac=0.02225
+   core=6      count=174    frac=0.02175
+   core=7      count=156    frac=0.01950
+   core=21     count=151    frac=0.01888

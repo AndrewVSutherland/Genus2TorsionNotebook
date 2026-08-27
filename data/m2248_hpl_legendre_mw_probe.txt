@@ -1,0 +1,17 @@
+Magma V2.29-4     Sat Jun 27 2026 17:35:12 on <host>  [Seed = 895518026]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m2248_hpl_legendre_mw_probe.m"
+E0 Elliptic Curve defined by y^2 = x^3 - 
+6238905464699159722801/2820616613600375640625*x^2 + 
+3418288851098784082176/2820616613600375640625*x over Rational Field
+P0 (94616775682560000/124335448921007041 : 
+-26673210075821574360384875313460224/93137477446813583540101689789995905 : 1)
+RankBounds 2 2
+TorsionSubgroup 
+Abelian Group isomorphic to Z/2 + Z/2
+Defined on 2 generators
+Relations:
+    2*$.1 = 0
+    2*$.2 = 0
+Trying Generators(E0)

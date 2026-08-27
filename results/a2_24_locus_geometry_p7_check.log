@@ -1,0 +1,5 @@
+LOCUS GEOMETRY PROBE  primes=[ 7 ]
+ell   N_o8       N_o8_r2    N_full     Nfull/ell    Nfull-ell   
+7     0          0          0          0.000000     -7          
+RESULTS [ <7, 0, 0, 0> ]
+DONE

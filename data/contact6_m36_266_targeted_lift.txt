@@ -1,0 +1,26 @@
+Bounded [2,6,6] component/Hensel/CRT diagnostic (Sage/Singular)
+lift_precision 6 do_primary False skip_exact True
+go_stop all smooth roots; fixed primes <=31; no height box
+
+FIBER r2_b3 eps 1 r 2 a -10 b 3
+ exact_auto_label none AutoA [4256, -6992, 608] AutoB [12768, -6992, 608]
+ polynomial_summaries [(5, 7), (4, 17), (3, 10)]
+ exact_fiber_analysis SKIPPED_BY_TIME_CAP
+ PRIME 13 smooth_good_roots 2 lifted 2 auto_mod_p False root_samples [(4, 0, 5), (9, 0, 8)]
+ PRIME 19 smooth_good_roots 2 lifted 2 auto_mod_p True root_samples [(7, 3, 14), (7, 16, 5)]
+CRT_SUMMARY r2_b3 primes 13 19 precision 6 modulus 227081481823729 balanced_height_bound 10655549 pairs 4 reconstructed 1 exact_points 0
+
+FIBER r4_b5 eps 1 r 4 a -59/2 b 5
+ exact_auto_label none AutoA [298080, -715392, 59616] AutoB [974592, -497664, 10368]
+ polynomial_summaries [(5, 7), (4, 17), (3, 10)]
+ exact_fiber_analysis SKIPPED_BY_TIME_CAP
+ PRIME 11 smooth_good_roots 0 lifted 0 auto_mod_p False root_samples []
+ PRIME 13 smooth_good_roots 2 lifted 2 auto_mod_p False root_samples [(1, 4, 6), (1, 9, 7)]
+ PRIME 17 smooth_good_roots 0 lifted 0 auto_mod_p False root_samples []
+ PRIME 19 smooth_good_roots 2 lifted 2 auto_mod_p False root_samples [(6, 9, 3), (17, 9, 16)]
+ PRIME 23 smooth_good_roots 1 lifted 1 auto_mod_p True root_samples [(6, 3, 22)]
+ PRIME 29 smooth_good_roots 0 lifted 0 auto_mod_p False root_samples []
+ PRIME 31 smooth_good_roots 0 lifted 0 auto_mod_p False root_samples []
+CRT_SUMMARY r4_b5 primes 13 19 precision 6 modulus 227081481823729 balanced_height_bound 10655549 pairs 4 reconstructed 0 exact_points 0
+
+DONE

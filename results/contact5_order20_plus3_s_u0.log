@@ -1,0 +1,39 @@
+Magma V2.28-27    Fri Jul 10 2026 12:57:52 on <host> [Seed = 1007121363]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact5_order20_plus3_s_u0.m"
+CONTACT_U0_SELF_TEST_PASS
+U0 equation_degrees [ 8, 10, 12 ]
+terms [ 19, 29, 37 ]
+raw_dimension 1 [ 1 ]
+Time: 0.050
+U0_SAT dimension 0 []
+basis_size 16 basis_degrees [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4 ]
+basis_terms [ 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 ]
+Time: 0.120
+Time: 0.010
+U0_LEX dimension 0 []
+basis_size 3 elim_generators 1
+U0_LEX variable_degrees [
+[ 1, 0, 30 ],
+[ 0, 1, 30 ],
+[ 0, 0, 31 ]
+]
+U0_S_ELIM degree 31 terms 32 factors 1
+ S_FACTOR multiplicity 1 degree 31 terms 32 zS^31 + 107/32*zS^30 - 8223/512*zS^29 - 187231/4096*zS^28 + 373579/2048*zS^27 + 109197/256*zS^26 - 2479559/2048*zS^25 - 11713339/4096*zS^24 + 14406813/4096*zS^23 + 19002261/2048*zS^22 - 15228753/4096*zS^21 - 33900399/4096*zS^20 + 785979/128*zS^19 - 2450997/256*zS^18 - 2176083/256*zS^17 + 119800835/8192*zS^16 - 28031245/512*zS^15 - 79390095/2048*zS^14 + 56982361/512*zS^13 + 8351425/2048*zS^12 - 110793321/512*zS^11 - 159066641/2048*zS^10 + 41714569/128*zS^9 + 1393255047/8192*zS^8 - 1943069009/4096*zS^7 - 35203183/2048*zS^6 + 1620846717/4096*zS^5 - 421488593/4096*zS^4 - 278203801/2048*zS^3 + 10277109/256*zS^2 + 15134465/2048*zS - 9046025/4096
+U0_RATIONAL_S_ROOTS []
+U0_OPEN_SQUARE_CANDIDATES 0 []
+U0_DONE
+
+Total time: 0.200 seconds, Total memory usage: 32.09MB

@@ -1,0 +1,7 @@
+M(12) full extra-Weierstrass Z/12 x Z/4 search
+height 10
+Done
+checked_split 15488
+extra_roots 316
+exact_tests 632
+hits 0

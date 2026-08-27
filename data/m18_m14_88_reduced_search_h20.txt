@@ -1,0 +1,4 @@
+Reduced [8,8] exact search
+height 20 params 511 pairs 261121 max_hits 10 progress_interval 500000 use_filter false
+
+[Interrupted]

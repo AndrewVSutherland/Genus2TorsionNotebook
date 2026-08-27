@@ -1,0 +1,25 @@
+VERIFY contact-9 samples
+a 0 f x^5 - 9*x^4 + 36*x^3 - 10479/256*x^2 + 1449/64*x - 315/64
+h1 -35/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 11
+a 1 f x^5 - 8*x^4 + 183/8*x^3 - 6447/256*x^2 + 873/64*x - 187/64
+h1 -19/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 3
+a -1 f x^5 - 8*x^4 + 393/8*x^3 - 14511/256*x^2 + 2025/64*x - 443/64
+h1 -51/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 19
+a 2 f x^5 - 5*x^4 + 39/4*x^3 - 2415/256*x^2 + 297/64*x - 59/64
+h1 -3/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 7
+a -3/2 f x^5 - 27/4*x^4 + 891/16*x^3 - 16527/256*x^2 + 2313/64*x - 507/64
+h1 -59/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 7
+a 5/4 f x^5 - 119/16*x^4 + 627/32*x^3 - 5439/256*x^2 + 729/64*x - 155/64
+h1 -15/16 disc_nonzero true
+  marked_order 9 torsion [ 9 ]
+simple true pcert 7

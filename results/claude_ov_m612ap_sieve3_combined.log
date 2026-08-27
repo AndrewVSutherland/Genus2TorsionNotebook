@@ -1,0 +1,113 @@
+=== Abel-Prym MW sieve, combination (E8 / [6,12] lane 9) ===
+directory results/ap3   usable primes: 26   skipped: 1
+  SKIP q=5    genus 2
+primes: [7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 107, 113, 131]
+
+[torsion]  gcd_q #J(E8)(F_q) = 9   (bounds #J(E8)(Q)_tors)
+           gcd_q #J(E8)(F_q)/#J(E4)(F_q) = 9  (bounds #Pr(Q)_tors)
+           exponent of J(E8)(F_7)[3^oo] is 3  => 3*t = 0 for every rational torsion class t
+
+[saturation]  ell can divide [Pr(Q)/tors : Lambda] only if the
+  reference class is ell-divisible in J(E8)(F_q) for EVERY q with
+  ell | #J(E8)(F_q).  One failure kills ell.
+  ell = 23    NOT ruled out  (1/1 primes divisible: q in [61])
+  ell = 29    NOT ruled out  (2/2 primes divisible: q in [37, 89])
+  ell = 41    NOT ruled out  (1/1 primes divisible: q in [47])
+  ell = 47    NOT ruled out  (1/1 primes divisible: q in [13])
+  ell = 61    NOT ruled out  (1/1 primes divisible: q in [101])
+  ell = 71    NOT ruled out  (1/1 primes divisible: q in [11])
+  ell = 79    NOT ruled out  (2/2 primes divisible: q in [7, 47])
+  ell = 97    NOT ruled out  (1/1 primes divisible: q in [73])
+  ell = 127   NOT ruled out  (1/1 primes divisible: q in [67])
+  ell = 139   NOT ruled out  (1/1 primes divisible: q in [97])
+  ell ruled out: [2, 3, 5, 7, 11, 13, 17, 31, 37, 43]
+  ell NOT ruled out: [23, 29, 41, 47, 61, 71, 79, 97, 127, 139]
+
+[raw sieve power]  q : #E8(F_q) deg-1 places / non-iota-fixed / with class in <W> / ord(W mod q) / #Pr(F_q)
+   q = 7    12    10    2     7        63
+   q = 11   18    16    0     15       135
+   q = 13   20    18    0     5        225
+   q = 17   24    22    2     16       288
+   q = 19   26    24    4     43       387
+   q = 23   30    28    0     21       567
+   q = 29   36    34    0     6        864
+   q = 31   24    22    4     91       819
+   q = 37   42    40    2     62       1116
+   q = 41   48    46    0     14       1764
+   q = 43   48    46    4     211      1899
+   q = 47   66    64    4     85       2295
+   q = 53   58    56    4     160      2880
+   q = 59   54    52    2     75       3375
+   q = 61   72    70    4     222      3996
+   q = 67   56    54    2     22       4356
+   q = 71   82    80    4     189      5103
+   q = 73   66    64    18    601      5409
+   q = 79   78    76    12    607      5463
+   q = 83   84    82    0     96       6912
+   q = 89   100   98    6     144      7776
+   q = 97   114   112   4     626      11268
+   q = 101  110   108   10    576      10368
+   q = 107  94    92    4     1295     11655
+   q = 113  120   118   8     714      12852
+   q = 131  144   142   24    1911     17199
+   TOTAL: 124 of 1574 non-fixed F_q-points (7.88%) have Abel-Prym class in <W mod q>
+
+====================================================================
+SIEVE VARIANT V0   (constraint: alpha(P) = d*W exactly)
+primes contributing: 26
+  ell = 2     top modulus 64       (12 primes)  |allowed| = 1     [0]   ell^6 | d
+  ell = 3     top modulus 27       (11 primes)  |allowed| = 3     [0, 9, 18]   ell^2 | d
+  ell = 5     top modulus 25       (6 primes)  |allowed| = 1     [0]   ell^2 | d
+  ell = 7     top modulus 49       (8 primes)  |allowed| = 5     [0, 7, 21, 28, 42]   ell^1 | d
+  ell = 11    top modulus 11       (1 primes)  |allowed| = 3     [0, 4, 7]   ell^0 | d
+  ell = 13    top modulus 13       (2 primes)  |allowed| = 5     [0, 3, 4, 9, 10]   ell^0 | d
+  ell = 17    top modulus 17       (2 primes)  |allowed| = 5     [0, 4, 7, 10, 13]   ell^0 | d
+  ell = 31    top modulus 31       (1 primes)  |allowed| = 3     [0, 4, 27]   ell^0 | d
+  ell = 37    top modulus 37       (2 primes)  |allowed| = 1     [0]   ell^1 | d
+  ell = 43    top modulus 43       (1 primes)  |allowed| = 5     [0, 11, 17, 26, 32]   ell^0 | d
+  ell = 211   top modulus 211      (1 primes)  |allowed| = 5     [0, 30, 102, 109, 181]   ell^0 | d
+  ell = 313   top modulus 313      (1 primes)  |allowed| = 5     [0, 48, 90, 223, 265]   ell^0 | d
+  ell = 601   top modulus 601      (1 primes)  |allowed| = 19       ell^0 | d
+  ell = 607   top modulus 607      (1 primes)  |allowed| = 13       ell^0 | d
+  --> d = 0 mod 3729600
+  --> classes of d surviving modulo lcm of all moduli: 104203125
+
+====================================================================
+SIEVE VARIANT V3   (constraint: 3*alpha(P) = 3*d*W, torsion of exponent | 3)
+primes contributing: 26
+  ell = 2     top modulus 64       (12 primes)  |allowed| = 1     [0]   ell^6 | d
+  ell = 3     top modulus 27       (11 primes)  |allowed| = 15       ell^0 | d
+  ell = 5     top modulus 25       (6 primes)  |allowed| = 1     [0]   ell^2 | d
+  ell = 7     top modulus 49       (8 primes)  |allowed| = 7     [0, 7, 14, 21, 28, 35, 42]   ell^1 | d
+  ell = 11    top modulus 11       (1 primes)  |allowed| = 3     [0, 4, 7]   ell^0 | d
+  ell = 13    top modulus 13       (2 primes)  |allowed| = 11       ell^0 | d
+  ell = 17    top modulus 17       (2 primes)  |allowed| = 9        ell^0 | d
+  ell = 31    top modulus 31       (1 primes)  |allowed| = 21       ell^0 | d
+  ell = 37    top modulus 37       (2 primes)  |allowed| = 23       ell^0 | d
+  ell = 43    top modulus 43       (1 primes)  |allowed| = 17       ell^0 | d
+  ell = 211   top modulus 211      (1 primes)  |allowed| = 39       ell^0 | d
+  ell = 313   top modulus 313      (1 primes)  |allowed| = 57       ell^0 | d
+  ell = 601   top modulus 601      (1 primes)  |allowed| = 57       ell^0 | d
+  ell = 607   top modulus 607      (1 primes)  |allowed| = 71       ell^0 | d
+  --> d = 0 mod 11200
+  --> classes of d surviving modulo lcm of all moduli: 2303639239736835
+
+====================================================================
+SIEVE VARIANT V9   (constraint: 9*alpha(P) = 9*d*W, torsion of exponent | 9)
+primes contributing: 26
+  ell = 2     top modulus 64       (12 primes)  |allowed| = 1     [0]   ell^6 | d
+  ell = 3     top modulus 27       (11 primes)  |allowed| = 27       ell^0 | d
+  ell = 5     top modulus 25       (6 primes)  |allowed| = 1     [0]   ell^2 | d
+  ell = 7     top modulus 49       (8 primes)  |allowed| = 7     [0, 7, 14, 21, 28, 35, 42]   ell^1 | d
+  ell = 11    top modulus 11       (1 primes)  |allowed| = 3     [0, 4, 7]   ell^0 | d
+  ell = 13    top modulus 13       (2 primes)  |allowed| = 11       ell^0 | d
+  ell = 17    top modulus 17       (2 primes)  |allowed| = 15       ell^0 | d
+  ell = 31    top modulus 31       (1 primes)  |allowed| = 21       ell^0 | d
+  ell = 37    top modulus 37       (2 primes)  |allowed| = 23       ell^0 | d
+  ell = 43    top modulus 43       (1 primes)  |allowed| = 17       ell^0 | d
+  ell = 211   top modulus 211      (1 primes)  |allowed| = 39       ell^0 | d
+  ell = 313   top modulus 313      (1 primes)  |allowed| = 57       ell^0 | d
+  ell = 601   top modulus 601      (1 primes)  |allowed| = 57       ell^0 | d
+  ell = 607   top modulus 607      (1 primes)  |allowed| = 71       ell^0 | d
+  --> d = 0 mod 11200
+  --> classes of d surviving modulo lcm of all moduli: 6910917719210505

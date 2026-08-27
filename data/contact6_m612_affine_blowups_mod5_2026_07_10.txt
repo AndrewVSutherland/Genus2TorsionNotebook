@@ -1,0 +1,46 @@
+CONTACT6_M612_AFFINE_FIRST_BLOWUPS_MOD5_CORRECTED
+date 2026-07-10
+scope balanced cones z!=0; reciprocal charts deduplicated
+certificate rank d(F1,F2,F3)/d(t,z,X,Y) = 3
+meaning raw pullback smooth with q free; strict-transform saturation unchanged locally
+warning fiber rank < 3 is UNRESOLVED, not a Hensel branch
+
+base deep raw_cones certified_strict_smooth unresolved dual_square_smooth
+b3 L   0 0 0 -
+b3 v   0 0 0 -
+b3 Up  8 8 0 -
+b3 Um 48 0 48 -
+a3 L   0 0 0 -
+a3 v  24 0 24 -
+a3 Up  8 8 0 -
+a3 Um 48 0 48 -
+rr L   0 0 0 -
+rr v  16 0 16 -
+rr Up  0 0 0 -
+rr Um 40 0 40 -
+DB L   0 0 0 0
+DB v   0 0 0 0
+DB Up  8 0 8 0
+DB Um 48 8 40 8
+DC L   0 0 0 0
+DC v   8 0 8 0
+DC Up  8 0 8 0
+DC Um 48 8 40 8
+TOTAL 312 32 280 16
+
+unresolved_fiber_ranks rank1=40 rank2=240 rank0=0
+
+certified_cone_families key=<t,e_dir,D_dir,X,Y>
+b3 Up <4,r,1,L,3> r=1..4 L in {1,4}
+a3 Up <4,r,1,L,2> r=1..4 L in {2,3}
+DB Um <0,r,1,L,4> r=1..4 L in {2,3}
+DC Um <0,r,1,L,4> r=1..4 L in {2,3}
+
+dual_square_layer
+DB=-8e=W^2 and DC=-8e=W^2
+chart1 q=-W^2/(8z); chart2 q=-W^2/8
+all 8 DB/Um and all 8 DC/Um certified cones remain rank-3 smooth
+
+global_saturation_status incomplete on nontrivial rank-deficient charts
+do_not_claim the 280 unresolved raw cones
+CONTACT6_M612_AFFINE_FIRST_BLOWUPS_MOD5_CORRECTED_DONE

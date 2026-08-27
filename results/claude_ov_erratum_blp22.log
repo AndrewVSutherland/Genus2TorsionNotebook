@@ -1,0 +1,10 @@
+BLP22 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 30*x^5 - 120*x^4 - 259*x^3 + 18*x^2 + 138*x + 36 over Rational Field
+BLP22 v_2(disc_min) = 28  ogg_guaranteed = false
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+BLP22 N = 1664100 = [ <2, 2>, <3, 2>, <5, 2>, <43, 2> ]
+BLP22 oddpart(N) = 416025 (should be 416025 = 645^2: true)   2part(N) = 2^2
+BLP22 N is a perfect square: true  (N = 1290^2)
+BLP22 simplified model = Hyperelliptic Curve defined by y^2 = 120*x^5 - 479*x^4 - 1034*x^3 + 73*x^2 + 552*x + 144 over Rational Field
+BLP22 torsion = [ 2, 22 ] (order 44)
+ERRATUM_BLP22_DONE

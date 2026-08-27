@@ -1,0 +1,8 @@
+Sigma core: degree 40, degR 40, degw 32, terms 416
+Sigma even in w: true
+
+HUNT height=150 (sweep R, roots in W=w^2, W square)
+
+SUMMARY swept_R=27428 Wroots=0 w_rational=0 certified16=0 hits416=0
+TORSION_COUNTS
+DONE

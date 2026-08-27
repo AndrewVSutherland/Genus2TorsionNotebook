@@ -1,0 +1,40 @@
+M(2,2,2,2)+7 refined boundary search at 5,13 then 11,17
+height 12 params 181
+post_primes [ 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71 ]
+DONE
+checked 971970
+smooth 971970
+boundary_5_13 361774
+compatible_11 291600
+compatible_11_17 103490
+post_survivors 0
+exact_tests 0
+hits 0
+STATUS_COUNTS
+11:boundary 269654
+11:good_kill7 70174
+11:good_pass7 21946
+17:boundary 73348
+17:good_kill7 188110
+17:good_pass7 30142
+PAIR_STATUS_COUNTS_AFTER_11_COMPATIBLE
+11:boundary | 17:boundary 67450
+11:boundary | 17:good_kill7 174410
+11:boundary | 17:good_pass7 27794
+11:good_pass7 | 17:boundary 5898
+11:good_pass7 | 17:good_kill7 13700
+11:good_pass7 | 17:good_pass7 2348
+FIRST_KILL_AFTER_11_17
+19 69384
+23 24707
+29 7919
+31 1289
+37 148
+41 43
+43 0
+47 0
+53 0
+59 0
+61 0
+67 0
+71 0

@@ -1,0 +1,30 @@
+# Clebsch--Klein doubled-theta diagnostic, 2026-07-14
+# Code: code/agent_ck_doubled_theta_diagnostic.m
+# Every run had a 4 GiB address-space cap and at most 300 seconds.
+
+FINITE_HEADER p total_ck open_ck general01 general12 T_plus_S12 2T_plus_S01 2T_plus_S12
+FINITE 11 144 24 0 0 0 0 0
+FINITE 19 400 120 0 0 0 0 0
+FINITE 23 530 240 24 0 0 24 0
+FINITE 29 900 480 0 24 12 0 24
+FINITE 31 1024 504 0 24 12 0 0
+FINITE 37 1370 720 48 60 24 48 48
+FINITE 41 1764 1104 72 120 48 24 96
+FINITE 43 1850 960 24 72 36 0 0
+
+# One exact reconstructed finite point for each of the three cases.
+# Tuple format: case p (r1,r2,r3,r4,r5) alpha beta.
+SAMPLE 2T_plus_S01 23 (1,4,12,14,15) 10 14
+SAMPLE T_plus_S12 29 (1,5,2,10,11) 2 9
+SAMPLE 2T_plus_S12 29 (1,5,2,10,11) 8 12
+# For every sample the script asserts beta^2=g(alpha), 2*(P-infinity)=D,
+# 5*D=S, and 2*(5*(P-infinity))=S.
+
+RATIONAL_HEADER height triples tuples open_canonical unique_sources classes hits
+RATIONAL 30 226981 46260 1320 11 275 0
+RATIONAL 100 8120601 514680 11280 94 2350 0
+
+# Direct on-disk smoke test after the final syntax correction:
+# timeout 120s prlimit --as=4294967296 -- magma -b mode:="finite" \
+#   primes:="11" code/agent_ck_doubled_theta_diagnostic.m
+# reproduced the p=11 row above.

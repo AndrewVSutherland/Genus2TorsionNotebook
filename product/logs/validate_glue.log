@@ -1,0 +1,19 @@
+Loading "split_lab.m"
+Loading "analytic_glue.m"
+reference: 6 algebraic gluings
+alg 1: invariant heights 133 104 104
+alg 2: invariant heights 165 124 123
+alg 3: invariant heights 162 121 122
+alg 4: invariant heights 100 83 83
+alg 5: invariant heights 178 132 132
+alg 6: invariant heights 182 134 134
+MATCH M=[0,1;1,0] -> alg 6 at distance 10^-182 PASS
+MATCH M=[0,1;1,1] -> alg 2 at distance 10^-185 PASS
+MATCH M=[1,0;0,1] -> alg 1 at distance 10^-175 PASS
+MATCH M=[1,0;1,1] -> alg 5 at distance 10^-186 PASS
+MATCH M=[1,1;0,1] -> alg 4 at distance 10^-191 PASS
+MATCH M=[1,1;1,0] -> alg 3 at distance 10^-190 PASS
+VALIDATE_GLUE_MATCH 6/6 analytic gluings matched, 6/6 algebraic gluings covered
+strict GlueScan at prec 600: 6 rational triples
+VALIDATE_GLUE_STRICT 6/6 strict recognitions exactly equal algebraic invariants
+VALIDATE_GLUE_DONE

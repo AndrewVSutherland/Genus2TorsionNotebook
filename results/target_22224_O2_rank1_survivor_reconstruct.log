@@ -1,0 +1,5 @@
+O2_SURVIVOR_RECONSTRUCT_START Elliptic Curve defined by y^2 = x^3 + x^2 + 4*x + 
+30 over Rational Field
+G (1 : 6 : 1) torsion_cosets [ (0 : 1 : 0), (-3 : 0 : 1) ]
+O2_SURVIVOR -3 1 t 58579667/520376167 v13_den 0 v11_den 0
+O2_SURVIVOR 0 1 t 1 v13_den 0 v11_den 0

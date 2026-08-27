@@ -1,0 +1,30 @@
+H5 loaded: #terms=16
+
+-- control: the 18 BLP2009 order-11 curves (ambient BLP stratum) --
+  BLP C1 : onH5=false
+  BLP C2 : onH5=false
+  BLP C3 : onH5=false
+  BLP C4corr : onH5=true
+  BLP C5=X023 : onH5=true
+  BLP C6 : onH5=true
+  BLP C7 : onH5=false
+  BLP C8 : onH5=false
+  BLP C9 : onH5=false
+  BLP C10 : onH5=false
+  BLP Ct1 : onH5=false
+  BLP Ct2 : onH5=false
+  BLP Ct3 : onH5=false
+  BLP Ct4 : onH5=false
+  BLP Ct5 : onH5=false
+  BLP Ct7 : onH5=false
+  BLP Ct8 : onH5=false
+  BLP Ct9 : onH5=false
+CONTROL_BLP onH5=3 of 18
+
+-- control: the 17 exact-[2,22] chart tuples of the H=60 sweep --
+CONTROL_HITS onH5=17 of 17
+
+-- control: RANDOM points of the chart (ambient stratum) --
+CONTROL_AMBIENT p=151 tested=3813 onH5=49  (expect ~ 25.25 = tested/p)
+SIGMA_POINTS 189372   p^2=22801   ratio=8.3054
+HUMBTEST_RESULT p=151 total=189372 onH5=9094 offH5=180278 bad=0  frac_on=0.0480219

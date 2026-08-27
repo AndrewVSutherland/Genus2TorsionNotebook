@@ -1,0 +1,25 @@
+TARGET_22224_QSQUARE_CRT_SIEVE_START
+CONFIG PrimeList [ 61, 67, 71 ]
+output_stem results/target_22224_p31_boundary_crt_mask
+FINITE_EXHAUSTIVE 61 scope A*B*rho*sigma*disc*CRTdet*s4 != 0 torus_AB_pairs 3600 double_square_AB_pairs 1128 rho_zero_pairs 28 sigma_zero_pairs 28 sheet_boundary_AB_pairs 52 affine_slice_sheet_points 4304 collision_sheet_points 1616 smooth_slice_sheet_points 2688 open_marked_presentations 8064 CRT_chart_failures 0 contact_failures 0
+FINITE_ORDERS 61 tests 8064 order12 8064 other 0 divisibility_tests 8064 finite_group_decompositions 448 divisible_presentations 288 unique_marked_classes 448
+FINITE_TARGETS 61 target_AB_pairs 48 target_slice_points 96 target_presentations 288 unique_target_marked 16 target_halves 3960 unique_halves 220 verified_halves 3960 relative_rank_counts [ 0, 0, 3960 ]
+finite_s4_boundary_points 0 projective_MN_halves 648 all_group_halves 4608
+FINITE_FILES 61 results/target_22224_p31_boundary_crt_mask_p61_points.tsv results/target_22224_p31_boundary_crt_mask_p61_boundary.tsv results/target_22224_p31_boundary_crt_mask_p61_masks.tsv
+FINITE_PROJECTIVE_SCOPE 61 A=0, B=0, A=infinity, B=infinity, rho=0, sigma=0, and s4=0 are boundary strata, not affine obstructions
+FINITE_BRANCH_SIGNATURES 61 [ <"A=B", 16>, <"A=B+A=C+B=C", 8>, <"A=B+C=D", 4>, <"A=C", 16>, <"A=C+B=D", 4>, <"A=D", 112>, <"A=D+B=C", 4>, <"B=C", 16>, <"B=D", 112>, <"C=D", 112>, <"smooth", 672> ]
+FINITE_EXHAUSTIVE 67 scope A*B*rho*sigma*disc*CRTdet*s4 != 0 torus_AB_pairs 4356 double_square_AB_pairs 1324 rho_zero_pairs 40 sigma_zero_pairs 40 sheet_boundary_AB_pairs 76 affine_slice_sheet_points 4992 collision_sheet_points 1920 smooth_slice_sheet_points 3072 open_marked_presentations 9216 CRT_chart_failures 0 contact_failures 0
+FINITE_ORDERS 67 tests 9216 order12 9216 other 0 divisibility_tests 9216 finite_group_decompositions 512 divisible_presentations 360 unique_marked_classes 512
+FINITE_TARGETS 67 target_AB_pairs 60 target_slice_points 120 target_presentations 360 unique_target_marked 20 target_halves 5544 unique_halves 308 verified_halves 5544 relative_rank_counts [ 0, 0, 5544 ]
+finite_s4_boundary_points 0 projective_MN_halves 216 all_group_halves 5760
+FINITE_FILES 67 results/target_22224_p31_boundary_crt_mask_p67_points.tsv results/target_22224_p31_boundary_crt_mask_p67_boundary.tsv results/target_22224_p31_boundary_crt_mask_p67_masks.tsv
+FINITE_PROJECTIVE_SCOPE 67 A=0, B=0, A=infinity, B=infinity, rho=0, sigma=0, and s4=0 are boundary strata, not affine obstructions
+FINITE_BRANCH_SIGNATURES 67 [ <"A=B", 32>, <"A=C", 32>, <"A=D", 128>, <"B=C", 32>, <"B=D", 128>, <"C=D", 128>, <"smooth", 768> ]
+FINITE_EXHAUSTIVE 71 scope A*B*rho*sigma*disc*CRTdet*s4 != 0 torus_AB_pairs 4900 double_square_AB_pairs 1396 rho_zero_pairs 28 sigma_zero_pairs 28 sheet_boundary_AB_pairs 52 affine_slice_sheet_points 5376 collision_sheet_points 1920 smooth_slice_sheet_points 3456 open_marked_presentations 10368 CRT_chart_failures 0 contact_failures 0
+FINITE_ORDERS 71 tests 10368 order12 10368 other 0 divisibility_tests 10368 finite_group_decompositions 576 divisible_presentations 648 unique_marked_classes 576
+FINITE_TARGETS 71 target_AB_pairs 108 target_slice_points 216 target_presentations 648 unique_target_marked 36 target_halves 9504 unique_halves 528 verified_halves 9504 relative_rank_counts [ 0, 0, 9504 ]
+finite_s4_boundary_points 0 projective_MN_halves 864 all_group_halves 10368
+FINITE_FILES 71 results/target_22224_p31_boundary_crt_mask_p71_points.tsv results/target_22224_p31_boundary_crt_mask_p71_boundary.tsv results/target_22224_p31_boundary_crt_mask_p71_masks.tsv
+FINITE_PROJECTIVE_SCOPE 71 A=0, B=0, A=infinity, B=infinity, rho=0, sigma=0, and s4=0 are boundary strata, not affine obstructions
+FINITE_BRANCH_SIGNATURES 71 [ <"A=B", 24>, <"A=C", 24>, <"A=D", 136>, <"B=C", 24>, <"B=D", 136>, <"C=D", 136>, <"smooth", 864> ]
+TARGET_22224_QSQUARE_CRT_SIEVE_DONE

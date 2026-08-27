@@ -1,0 +1,93 @@
+P8_RANK2_MWSIEVE_START family F7 quotient <1, 3> N 0 primes [ 13, 11, 19, 29, 41, 73, 31, 43, 53, 61, 89, 103, 109, 113, 127, 131, 137, 139, 181, 23, 47, 59, 67, 71, 79, 173 ]
+E Elliptic Curve defined by y^2 = x^3 - x^2 + 1151*x + 1153 over Rational Field
+rank_bounds 2 2 generators [ (33 : 272 : 1), (577 : 13872 : 1), (97 : 1008 : 1) ]
+known_t 29/5
+P8_PRIME_PROFILE p 13 orders 20 20 total 1600 third_fail 1440 open_no3 0 open_3 0 boundary 160 allowed 160
+P8_PRIORITY_CLASSES p 13 boundary_count 160 open_3_count 0 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 11 orders 8 4 total 128 third_fail 64 open_no3 0 open_3 0 boundary 64 allowed 64
+P8_PRIORITY_CLASSES p 11 boundary [ <4, 2, 0>, <4, 5, 3>, <3, 2, 0>, <3, 3, 3>, <1, 3, 3>, <2, 1, 1>, <2, 0, 2>, <1, 5, 1>, <1, 5, 3>, <1, 1, 3>, <3, 3, 1>, <3, 4, 0>, <3, 1, 3>, <2, 0, 0>, <3, 0, 2>, <2, 4, 2>, <3, 6, 2>, <2, 5, 1>, <2, 2, 0>, <3, 4, 2>, <1, 3, 1>, <3, 2, 2>, <2, 7, 1>, <2, 3, 3>, <1, 2, 0>, <1, 7, 1>, <4, 4, 0>, <2, 2, 2>, <4, 7, 1>, <4, 3, 1>, <2, 6, 0>, <2, 1, 3>, <4, 7, 3>, <1, 6, 0>, <4, 1, 3>, <1, 2, 2>, <4, 0, 2>, <3, 0, 0>, <4, 4, 2>, <4, 0, 0>, <1, 0, 2>, <2, 4, 0>, <4, 2, 2>, <1, 6, 2>, <4, 3, 3>, <1, 4, 0>, <2, 6, 2>, <3, 7, 3>, <1, 1, 1>, <2, 7, 3>, <3, 6, 0>, <1, 4, 2>, <2, 5, 3>, <2, 3, 1>, <4, 1, 1>, <1, 7, 3>, <3, 5, 1>, <4, 5, 1>, <3, 7, 1>, <4, 6, 0>, <4, 6, 2>, <1, 0, 0>, <3, 1, 1>, <3, 5, 3> ]
+open_3 []
+P8_PRIME_PROFILE p 19 orders 12 6 total 288 third_fail 144 open_no3 0 open_3 0 boundary 144 allowed 144
+P8_PRIORITY_CLASSES p 19 boundary_count 144 open_3_count 0 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 29 orders 24 8 total 768 third_fail 416 open_no3 224 open_3 0 boundary 128 allowed 128
+P8_PRIORITY_CLASSES p 29 boundary_count 128 open_3_count 0 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 41 orders 6 6 total 144 third_fail 48 open_no3 36 open_3 0 boundary 60 allowed 60
+P8_PRIORITY_CLASSES p 41 boundary [ <3, 2, 0>, <3, 3, 3>, <1, 3, 4>, <3, 3, 2>, <1, 5, 1>, <1, 5, 3>, <1, 1, 3>, <3, 3, 1>, <3, 4, 0>, <3, 1, 3>, <1, 2, 4>, <1, 0, 1>, <3, 0, 2>, <1, 1, 5>, <3, 0, 1>, <1, 2, 1>, <1, 2, 3>, <1, 5, 4>, <1, 3, 1>, <3, 4, 2>, <3, 1, 0>, <3, 2, 3>, <3, 2, 4>, <1, 2, 0>, <1, 3, 5>, <1, 3, 2>, <3, 4, 1>, <1, 4, 5>, <1, 1, 4>, <3, 4, 3>, <3, 3, 4>, <3, 5, 0>, <3, 1, 5>, <1, 4, 3>, <1, 2, 2>, <3, 0, 4>, <1, 4, 4>, <1, 0, 5>, <3, 2, 5>, <1, 0, 4>, <1, 3, 0>, <3, 3, 5>, <1, 0, 2>, <3, 4, 5>, <3, 5, 4>, <1, 4, 0>, <1, 1, 0>, <1, 5, 2>, <3, 5, 5>, <3, 0, 3>, <3, 1, 2>, <1, 4, 2>, <3, 5, 1>, <1, 5, 0>, <1, 1, 2>, <3, 2, 1>, <1, 0, 0>, <3, 1, 1>, <3, 0, 5>, <3, 5, 3> ]
+open_3 []
+P8_PRIME_PROFILE p 73 orders 4 8 total 128 third_fail 76 open_no3 28 open_3 0 boundary 24 allowed 24
+P8_PRIORITY_CLASSES p 73 boundary [ <1, 0, 7>, <3, 0, 6>, <1, 0, 3>, <3, 3, 5>, <1, 0, 6>, <1, 2, 4>, <1, 0, 0>, <3, 2, 2>, <1, 3, 4>, <3, 1, 2>, <3, 3, 6>, <1, 2, 7>, <3, 0, 3>, <3, 1, 5>, <3, 3, 1>, <3, 1, 1>, <1, 1, 5>, <1, 3, 1>, <3, 2, 7>, <3, 3, 4>, <3, 1, 0>, <1, 1, 0>, <1, 2, 2>, <1, 2, 3> ]
+open_3 []
+P8_PRIME_PROFILE p 31 orders 3 6 total 72 third_fail 18 open_no3 30 open_3 8 boundary 16 allowed 24
+P8_PRIORITY_CLASSES p 31 boundary [ <2, 1, 1>, <4, 0, 0>, <1, 0, 0>, <2, 0, 0>, <4, 1, 4>, <3, 1, 1>, <4, 2, 2>, <4, 0, 3>, <2, 2, 2>, <2, 0, 3>, <1, 1, 4>, <2, 1, 4>, <4, 2, 5>, <3, 0, 3>, <2, 2, 5>, <4, 1, 1> ]
+open_3 [ <4, 1, 5>, <2, 1, 2>, <4, 1, 3>, <2, 1, 3>, <2, 1, 0>, <4, 1, 2>, <2, 1, 5>, <4, 1, 0> ]
+P8_PRIME_PROFILE p 43 orders 24 6 total 576 third_fail 288 open_no3 132 open_3 48 boundary 108 allowed 156
+P8_PRIORITY_CLASSES p 43 boundary_count 108 open_3_count 48 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 53 orders 60 12 total 2880 third_fail 1584 open_no3 384 open_3 528 boundary 384 allowed 912
+P8_PRIORITY_CLASSES p 53 boundary_count 384 open_3_count 528 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 61 orders 48 16 total 3072 third_fail 1280 open_no3 1024 open_3 448 boundary 320 allowed 768
+P8_PRIORITY_CLASSES p 61 boundary_count 320 open_3_count 448 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 89 orders 8 24 total 768 third_fail 240 open_no3 112 open_3 128 boundary 288 allowed 416
+P8_PRIORITY_CLASSES p 89 boundary_count 288 open_3_count 128 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 103 orders 48 48 total 9216 third_fail 3840 open_no3 1344 open_3 2112 boundary 1920 allowed 4032
+P8_PRIORITY_CLASSES p 103 boundary_count 1920 open_3_count 2112 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 109 orders 120 120 total 57600 third_fail 33120 open_no3 12960 open_3 9600 boundary 1920 allowed 11520
+P8_PRIORITY_CLASSES p 109 boundary_count 1920 open_3_count 9600 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 113 orders 10 6 total 240 third_fail 114 open_no3 78 open_3 24 boundary 24 allowed 48
+P8_PRIORITY_CLASSES p 113 boundary [ <3, 5, 3>, <2, 7, 4>, <1, 7, 1>, <1, 0, 0>, <4, 2, 1>, <2, 7, 1>, <1, 9, 3>, <3, 1, 1>, <4, 2, 4>, <2, 2, 4>, <1, 5, 5>, <3, 2, 4>, <1, 2, 4>, <4, 7, 1>, <1, 6, 4>, <1, 4, 0>, <2, 2, 1>, <3, 7, 1>, <3, 9, 3>, <1, 0, 2>, <3, 5, 5>, <4, 7, 4>, <3, 4, 0>, <3, 0, 2> ]
+open_3 [ <4, 0, 0>, <3, 0, 5>, <4, 1, 3>, <2, 6, 0>, <1, 4, 3>, <4, 4, 2>, <1, 5, 2>, <2, 0, 0>, <2, 3, 5>, <2, 4, 2>, <2, 8, 2>, <4, 5, 3>, <3, 9, 0>, <2, 5, 3>, <2, 9, 5>, <2, 1, 3>, <4, 3, 5>, <1, 0, 5>, <4, 6, 0>, <3, 5, 2>, <4, 9, 5>, <4, 8, 2>, <1, 9, 0>, <3, 4, 3> ]
+P8_PRIME_PROFILE p 127 orders 12 60 total 2880 third_fail 1296 open_no3 912 open_3 192 boundary 480 allowed 672
+P8_PRIORITY_CLASSES p 127 boundary_count 480 open_3_count 192 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 131 orders 72 18 total 5184 third_fail 2124 open_no3 2016 open_3 684 boundary 360 allowed 1044
+P8_PRIORITY_CLASSES p 131 boundary_count 360 open_3_count 684 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 137 orders 6 18 total 432 third_fail 186 open_no3 42 open_3 48 boundary 156 allowed 204
+P8_PRIORITY_CLASSES p 137 boundary_count 156 open_3_count 48 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 139 orders 72 36 total 10368 third_fail 4824 open_no3 2592 open_3 2232 boundary 720 allowed 2952
+P8_PRIORITY_CLASSES p 139 boundary_count 720 open_3_count 2232 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 181 orders 160 160 total 102400 third_fail 54400 open_no3 30720 open_3 14720 boundary 2560 allowed 17280
+P8_PRIORITY_CLASSES p 181 boundary_count 2560 open_3_count 14720 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 23 orders 14 7 total 392 third_fail 182 open_no3 112 open_3 42 boundary 56 allowed 98
+P8_PRIORITY_CLASSES p 23 boundary [ <3, 9, 5>, <3, 11, 2>, <2, 6, 1>, <3, 3, 2>, <2, 1, 2>, <1, 4, 6>, <2, 10, 3>, <4, 8, 2>, <4, 9, 6>, <2, 0, 5>, <1, 10, 2>, <4, 7, 5>, <2, 13, 1>, <4, 10, 3>, <2, 8, 2>, <1, 12, 3>, <1, 2, 1>, <4, 5, 4>, <3, 5, 6>, <4, 13, 1>, <2, 9, 6>, <1, 2, 5>, <2, 3, 3>, <1, 6, 3>, <4, 11, 0>, <3, 13, 3>, <4, 4, 0>, <1, 10, 5>, <2, 12, 4>, <4, 1, 2>, <3, 13, 0>, <1, 6, 0>, <3, 9, 1>, <4, 0, 5>, <3, 7, 0>, <1, 0, 4>, <2, 11, 0>, <3, 3, 5>, <3, 7, 4>, <2, 5, 4>, <1, 8, 1>, <2, 4, 0>, <4, 3, 3>, <4, 6, 1>, <1, 12, 6>, <4, 12, 4>, <2, 7, 5>, <2, 2, 6>, <1, 4, 2>, <3, 1, 4>, <4, 2, 6>, <1, 8, 4>, <3, 11, 6>, <1, 0, 0>, <3, 1, 1>, <3, 5, 3> ]
+open_3 [ <1, 1, 0>, <3, 4, 5>, <3, 10, 5>, <1, 3, 5>, <3, 11, 5>, <1, 13, 6>, <1, 9, 4>, <1, 11, 2>, <1, 6, 6>, <3, 4, 2>, <1, 13, 3>, <3, 10, 1>, <3, 6, 3>, <3, 12, 6>, <3, 8, 4>, <1, 5, 6>, <1, 8, 0>, <1, 10, 1>, <3, 3, 1>, <1, 3, 1>, <3, 1, 0>, <3, 8, 0>, <1, 1, 4>, <3, 5, 2>, <3, 9, 4>, <1, 7, 0>, <1, 12, 2>, <3, 6, 6>, <1, 9, 1>, <3, 2, 4>, <3, 7, 3>, <1, 4, 5>, <1, 2, 4>, <1, 7, 3>, <3, 12, 2>, <1, 11, 5>, <3, 13, 6>, <1, 0, 3>, <3, 2, 1>, <3, 0, 0>, <3, 0, 3>, <1, 5, 2> ]
+P8_PRIME_PROFILE p 47 orders 14 14 total 784 third_fail 392 open_no3 84 open_3 84 boundary 224 allowed 308
+P8_PRIORITY_CLASSES p 47 boundary_count 224 open_3_count 84 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 59 orders 28 14 total 1568 third_fail 784 open_no3 336 open_3 168 boundary 280 allowed 448
+P8_PRIORITY_CLASSES p 59 boundary_count 280 open_3_count 168 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 67 orders 28 14 total 1568 third_fail 868 open_no3 308 open_3 112 boundary 280 allowed 392
+P8_PRIORITY_CLASSES p 67 boundary_count 280 open_3_count 112 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 71 orders 6 21 total 504 third_fail 210 open_no3 96 open_3 162 boundary 36 allowed 198
+P8_PRIORITY_CLASSES p 71 boundary_count 36 open_3_count 162 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 79 orders 21 42 total 3528 third_fail 1260 open_no3 1008 open_3 924 boundary 336 allowed 1260
+P8_PRIORITY_CLASSES p 79 boundary_count 336 open_3_count 924 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_PRIME_PROFILE p 173 orders 168 56 total 37632 third_fail 15680 open_no3 12992 open_3 8064 boundary 896 allowed 8960
+P8_PRIORITY_CLASSES p 173 boundary_count 896 open_3_count 8064 full_list_in results/target_22224_F7_rank2_residues_factor7.tsv
+P8_CRT_STEP p 13 classes 160
+P8_CRT_STEP p 11 classes 160
+P8_CRT_STEP p 19 classes 1440
+P8_CRT_STEP p 29 classes 960
+P8_CRT_STEP p 41 classes 800
+P8_CRT_STEP p 73 classes 320
+P8_CRT_STEP p 31 classes 80
+P8_CRT_STEP p 43 classes 50
+P8_CRT_STEP p 53 classes 28
+P8_CRT_STEP p 61 classes 112
+P8_CRT_STEP p 89 classes 112
+P8_CRT_STEP p 103 classes 40
+P8_CRT_STEP p 109 classes 12
+P8_CRT_STEP p 113 classes 8
+P8_CRT_STEP p 127 classes 8
+P8_CRT_STEP p 131 classes 30
+P8_CRT_STEP p 137 classes 20
+P8_CRT_STEP p 139 classes 12
+P8_CRT_STEP p 181 classes 24
+P8_CRT_STEP p 23 classes 504
+P8_CRT_STEP p 47 classes 264
+P8_CRT_STEP p 59 classes 112
+P8_CRT_STEP p 67 classes 48
+P8_CRT_STEP p 71 classes 40
+P8_CRT_STEP p 79 classes 24
+P8_CRT_STEP p 173 classes 24
+P8_CRT_CLASSES count 24
+[ <1, 2520, 10080, 7560, 10080>, <1, 7560, 10080, 2520, 10080>, <1, 7560, 10080, 7560, 10080>, <1, 2520, 10080, 2520, 10080>, <1, 5880, 10080, 840, 10080>, <1, 840, 10080, 5880, 10080>, <1, 840, 10080, 840, 10080>, <1, 5880, 10080, 5880, 10080>, <1, 5040, 10080, 0, 10080>, <1, 5040, 10080, 5040, 10080>, <1, 0, 10080, 0, 10080>, <1, 0, 10080, 5040, 10080>, <1, 8400, 10080, 3360, 10080>, <1, 8400, 10080, 8400, 10080>, <1, 3360, 10080, 3360, 10080>, <1, 3360, 10080, 8400, 10080>, <3, 2521, 10080, 2521, 10080>, <3, 7561, 10080, 7561, 10080>, <3, 5881, 10080, 5881, 10080>, <3, 841, 10080, 841, 10080>, <3, 5041, 10080, 5041, 10080>, <3, 1, 10080, 1, 10080>, <3, 8401, 10080, 8401, 10080>, <3, 3361, 10080, 3361, 10080> ]
+P8_EXACT_CLASS m 0 n 0 ti 1 t 1 tuple [ 18, -1, -16, 50 ]
+three false gcd 256
+P8_RANK2_MWSIEVE_DONE box_total 4 periodic_enumerated 1 modular_survivors 1 deferred_large_index 0 exact_full 1 height_skip 0 three_hits 0 crt_file results/target_22224_F7_rank2_periodic_lattice_factor7.tsv modular_file results/target_22224_F7_rank2_crt_factor7_modular.tsv

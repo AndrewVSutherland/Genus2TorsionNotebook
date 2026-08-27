@@ -1,0 +1,31 @@
+CHECK C43(u(w),v(w)) = 0
+DIVIDES EXACTLY: true
+GENERIC FACTOR TYPE of F over Q(w): [ 1, 2, 3 ]
+  FACTOR (1): X + (-w^2 + 2*w - 1)/w^2
+  FACTOR (2): X^2 + (2*w^3 - 2*w^2 + 2*w - 1)/w^2*X + (w^4 - 2*w^3 + 3*w^2 - 2*w + 1)/w^2
+  FACTOR (3): X^3 + (-2*w^3 + 5*w^2 - 4*w + 2)/w^2*X^2 + (w^6 - 4*w^5 + 9*w^4 - 10*w^3 + 8*w^2 - 4*w + 1)/w^4*X + (-w^6 + 4*w^5 - 8*w^4 + 10*w^3 - 8*w^2 + 4*w - 1)/w^4
+Q4 factor degrees over Q(w): [ 1, 3 ]
+F squarefree: true
+C43_U_NUM 2*$.1^3 - 2*$.1^2 + 2*$.1 - 1
+C43_U_DEN $.1^2
+C43_V_NUM $.1^4 - 2*$.1^3 + 3*$.1^2 - 2*$.1 + 1
+C43_V_DEN $.1^2
+C43_T_NUM -$.1^6 + 4*$.1^5 - 8*$.1^4 + 10*$.1^3 - 8*$.1^2 + 4*$.1 - 1
+C43_T_DEN $.1^4
+NUMBER OF RATIONAL QUADRATIC BLOCKS over Q(w): 1
+
+=== BLOCK 1 : Sv^2 + (2*w^3 - 2*w^2 + 2*w - 1)/w^2*Sv + (w^4 - 2*w^3 + 3*w^2 - 2*w + 1)/w^2 ===
+  RESOLVENT ROOTS of the quartic cofactor in Q(w): 0
+  NO IDENTITY: Galois(quartic) is not generically inside D4.
+  Res0 irreducible over Q(w): true
+  D4 COVER: degree 3, genus 3, constant field Rational Field
+  disc(Res0) square in Q(w)? false
+  RES0_B1_C0_NUM -1/8*w^18 + 3*w^17 - 123/4*w^16 + 1465/8*w^15 - 5849/8*w^14 + 16989/8*w^13 - 150981/32*w^12 + 33093/4*w^11 - 11673*w^10 + 214433/16*w^9 - 201385/16*w^8 + 154713/16*w^7 - 774019/128*w^6 + 24381/8*w^5 - 77949/64*w^4 + 48141/128*w^3 - 10989/128*w^2 + 1701/128*w - 567/512
+  RES0_B1_C0_DEN w^12
+  RES0_B1_C1_NUM -1/4*w^12 + 4*w^11 - 25*w^10 + 175/2*w^9 - 397/2*w^8 + 629/2*w^7 - 2905/8*w^6 + 621/2*w^5 - 391/2*w^4 + 705/8*w^3 - 219/8*w^2 + 45/8*w - 45/64
+  RES0_B1_C1_DEN w^8
+  RES0_B1_C2_NUM 1/2*w^6 - 4*w^5 + 9*w^4 - 27/2*w^3 + 23/2*w^2 - 11/2*w + 11/8
+  RES0_B1_C2_DEN w^4
+  RES0_B1_C3_NUM 1
+  RES0_B1_C3_DEN 1
+C43PARAM_DONE

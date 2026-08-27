@@ -1,0 +1,29 @@
+contact-7 to cyclic-49: p=3 ordinary-node boundary, height 12
+date: 2026-07-18
+
+chart:
+  alpha = alpha0 + 3*u
+  beta  = 5/2 - alpha + 3^7*s
+  v3(s) = 0
+filter primes: 5,11,13,17,19,23,29,31,37,41,43
+
+alpha0=0, residue pair (0,1):
+  parameters: 135
+  smooth pairs checked: 11610
+  survivors: 0
+  first local obstruction counts:
+    5:4488  11:3672  13:2880  17:492  19:66  23:11  29:1
+  max RSS: 36864 KB
+  elapsed: 15.72 s
+
+alpha0=2, residue pair (2,2):
+  parameters: 135
+  smooth pairs checked: 11610
+  survivors: 0
+  first local obstruction counts:
+    5:4510  11:3672  13:2851  17:486  19:67  23:19  29:5
+  max RSS: 36608 KB
+  elapsed: 15.39 s
+
+total smooth pairs checked: 23220
+total survivors: 0

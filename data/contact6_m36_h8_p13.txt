@@ -1,0 +1,17 @@
+Contact-6 M(6) search for [3,6] and [6,6]
+height 8 prime_bound 13 max_exact 2000 max_hits 50
+precomputing residue filters
+ p 5 good 10 allowed36 1 allowed66 1
+ p 7 good 24 allowed36 3 allowed66 3
+ p 11 good 76 allowed36 14 allowed66 14
+ p 13 good 114 allowed36 33 allowed66 33
+Done
+checked 7569
+smooth 7343
+survivors36 890
+survivors66 890
+exact 890
+hits36 0
+hits66 0
+kill36 Associative Array with index universe Integer Ring
+kill66 Null Associative Array

@@ -1,0 +1,9 @@
+SEED 1192a
+SEED_TORSION 1192a = [ 22 ]
+LEVEL 1 DONE new_vertices=0
+BFS_DONE 1192a total_vertices=1
+SEED flynn_t-36
+SEED_TORSION flynn_t-36 = [ 22 ]
+LEVEL 1 DONE new_vertices=0
+BFS_DONE flynn_t-36 total_vertices=1
+Z22_RICHELOT_BFS_DONE

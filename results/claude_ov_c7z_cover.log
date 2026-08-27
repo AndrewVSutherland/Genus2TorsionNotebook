@@ -1,0 +1,8 @@
+C: irreducible=true genus=1
+D = s^2-4p as a function on C: is it a square in K(C)? false
+
+In file "code/claude_ov_c7z_cover.m", line 29, column 9:
+>> L := ext< KC | t^2 - Dfn >;
+           ^
+Runtime error: No constructor provided for this type of object
+

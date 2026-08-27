@@ -1,0 +1,86 @@
+# Z/5 x Z/5 b2=0 h1=1 h2=0 lift/reconstruction driver
+parameters max_7_power=4 max_11_power=3 rational_num_bound=200 rational_den_bound=100 max_search_tuples=5000000
+integral_residual_denominators=[ 65536, 16384, 16384, 256, 512 ]
+  E0 degree=10 total_degree=10 terms=26
+  E1 degree=9 total_degree=9 terms=23
+  E2 degree=8 total_degree=8 terms=20
+  E3 degree=7 total_degree=7 terms=15
+  E4 degree=6 total_degree=6 terms=11
+
+# lift_chart F7_slice_A p=7 max_power=4
+  base_mod_7=<K=2,s=0,t=6,b0=3,b1=1>
+  base_boundary_values=[ 2, 1, 3, 4, 1, 2 ]
+  slice_jacobian_rank_mod_7=5 determinant=4
+  level=1 modulus=7 lift_count=1 sample=[ 2, 0, 6, 3, 1 ] balanced=[ 2, 0, -1, 3, 1 ]
+  level=2 modulus=49 lift_count=1 capped=false sample=[ 30, 35, 13, 3, 36 ] balanced=[ -19, -14, 13, 3, -13 ] jac_rank_mod_7=5 determinant=4
+  level=3 modulus=343 lift_count=1 capped=false sample=[ 30, 84, 258, 52, 134 ] balanced=[ 30, 84, -85, 52, 134 ] jac_rank_mod_7=5 determinant=4
+  level=4 modulus=2401 lift_count=1 capped=false sample=[ 2088, 2142, 258, 1424, 1849 ] balanced=[ -313, -259, 258, -977, -552 ] jac_rank_mod_7=5 determinant=4
+
+# lift_chart F7_slice_B p=7 max_power=4
+  base_mod_7=<K=2,s=0,t=6,b0=4,b1=6>
+  base_boundary_values=[ 2, 6, 4, 4, 1, 2 ]
+  slice_jacobian_rank_mod_7=5 determinant=4
+  level=1 modulus=7 lift_count=1 sample=[ 2, 0, 6, 4, 6 ] balanced=[ 2, 0, -1, -3, -1 ]
+  level=2 modulus=49 lift_count=1 capped=false sample=[ 30, 35, 13, 46, 13 ] balanced=[ -19, -14, 13, -3, 13 ] jac_rank_mod_7=5 determinant=4
+  level=3 modulus=343 lift_count=1 capped=false sample=[ 30, 84, 258, 291, 209 ] balanced=[ 30, 84, -85, -52, -134 ] jac_rank_mod_7=5 determinant=4
+  level=4 modulus=2401 lift_count=1 capped=false sample=[ 2088, 2142, 258, 977, 552 ] balanced=[ -313, -259, 258, 977, 552 ] jac_rank_mod_7=5 determinant=4
+
+# lift_chart F11_slice_A p=11 max_power=3
+  base_mod_11=<K=7,s=5,t=10,b0=2,b1=4>
+  base_boundary_values=[ 7, 4, 2, 7, 3, 10 ]
+  slice_jacobian_rank_mod_11=5 determinant=4
+  level=1 modulus=11 lift_count=1 sample=[ 7, 5, 10, 2, 4 ] balanced=[ -4, 5, -1, 2, 4 ]
+  level=2 modulus=121 lift_count=1 capped=false sample=[ 84, 5, 87, 101, 81 ] balanced=[ -37, 5, -34, -20, -40 ] jac_rank_mod_11=5 determinant=4
+  level=3 modulus=1331 lift_count=1 capped=false sample=[ 689, 489, 571, 1190, 202 ] balanced=[ -642, 489, 571, -141, 202 ] jac_rank_mod_11=5 determinant=4
+
+# rational_search F7_slice_A modulus=2401 num_bound=200 den_bound=100
+  candidate_counts=<K=9,s=10,t=10,b0=10,b1=10> tuple_count=90000
+  candidates_1_preview=[ -103/8, -99/31, -194/85, -95/54, -87/100, 4/23, 115/61, 111/38 ]
+  candidates_2_preview=[ -189/10, -119/19, -168/47, -77/93, -28/65, 21/37, 112/83, 91/46 ]
+  candidates_3_preview=[ -79/9, -137/46, -195/83, -58/37, -37/65, -16/93, 142/75, 121/47 ]
+  candidates_4_preview=[ -83/5, -134/37, -185/69, -51/32, -19/59, 13/86, 32/27, 179/76 ]
+  candidates_5_preview=[ -166/9, -139/22, -197/83, -85/48, -58/61, -31/74, -4/87, 23/100 ]
+  tested=90000 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search F7_slice_B modulus=2401 num_bound=200 den_bound=100
+  candidate_counts=<K=9,s=10,t=10,b0=10,b1=10> tuple_count=90000
+  candidates_1_preview=[ -103/8, -99/31, -194/85, -95/54, -87/100, 4/23, 115/61, 111/38 ]
+  candidates_2_preview=[ -189/10, -119/19, -168/47, -77/93, -28/65, 21/37, 112/83, 91/46 ]
+  candidates_3_preview=[ -79/9, -137/46, -195/83, -58/37, -37/65, -16/93, 142/75, 121/47 ]
+  candidates_4_preview=[ -198/17, -115/22, -179/76, -32/27, -13/86, 19/59, 51/32, 185/69 ]
+  candidates_5_preview=[ -193/4, -27/13, -23/100, 4/87, 31/74, 58/61, 85/48, 197/83 ]
+  tested=90000 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search F11_slice_A modulus=1331 num_bound=200 den_bound=100
+  candidate_counts=<K=17,s=18,t=17,b0=17,b1=18> tuple_count=1591812
+  candidates_1_preview=[ -172/21, -125/23, -78/25, -109/52, -140/79, -31/27, -46/83, -15/56 ]
+  candidates_2_preview=[ -81/8, -188/35, -107/27, -133/46, -159/65, -185/84, -26/19, -49/87 ]
+  candidates_3_preview=[ -189/2, -185/9, -181/16, -177/23, -173/30, -169/37, -161/51, -157/58 ]
+  candidates_4_preview=[ -141, -79/10, -175/39, -96/29, -113/48, -130/67, -147/86, -17/19 ]
+  candidates_5_preview=[ -119/6, -155/19, -191/32, -36/13, -169/98, -133/85, -97/72, -61/59 ]
+  tested=1591812 exact_hits=0
+  search_result=no_exact_rational_candidate
+
+# rational_search CRT_F7A_F11A modulus=3195731 num_bound=200 den_bound=100
+  candidate_counts=<K=0,s=0,t=0,b0=0,b1=0> tuple_count=0
+  candidates_1_preview=[]
+  candidates_2_preview=[]
+  candidates_3_preview=[]
+  candidates_4_preview=[]
+  candidates_5_preview=[]
+  search_result=no_candidates
+
+# rational_search CRT_F7B_F11A modulus=3195731 num_bound=200 den_bound=100
+  candidate_counts=<K=0,s=0,t=0,b0=0,b1=0> tuple_count=0
+  candidates_1_preview=[]
+  candidates_2_preview=[]
+  candidates_3_preview=[]
+  candidates_4_preview=[]
+  candidates_5_preview=[]
+  search_result=no_candidates
+
+# verdict_marker
+smooth_lift_targets_have_unique_lifts_when_slice_jacobian_rank_is_5
+bounded_rational_search_completed

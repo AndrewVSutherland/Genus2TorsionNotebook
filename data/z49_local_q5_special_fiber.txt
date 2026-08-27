@@ -1,0 +1,21 @@
+Q5_ONLY_RESIDUE <1, 1>
+h x^3 + x^2 + x + 1
+h(1) 1
+f_factor [
+<x, 2>,
+<x^3 + 2*x + 1, 1>
+]
+split_node true node_preimages [ <0, 1>, <0, 2> ]
+normalization Elliptic Curve defined by y^2 = x^3 + 2*x + 1 over GF(3)
+E_order 7 E_invariants [ 7 ]
+marked_projection (1 : 1 : 1) marked_projection_order 7
+identity_group_order 14
+conclusion if 7 does not divide node thickness, D7 is not 7-divisible
+INTERSECTION_RESIDUE <1, 0>
+intersection_h x^2 + x + 1
+h(1) 0
+intersection_f_factor [
+<x, 1>,
+<x + 2, 4>
+]
+intersection_conclusion nonordinary four-root cluster; separate blowup required

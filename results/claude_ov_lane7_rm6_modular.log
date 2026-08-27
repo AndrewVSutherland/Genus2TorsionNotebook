@@ -1,0 +1,9 @@
+NEWFORM390 curve y^2 = 2560000*x^5 + 30521600*x^4 + 57657600*x^3 - 167473600*x^2 + 108736000*x - 21504000 ; conductor 152100 = 390^2
+NEWFORM390 level 390 weight 2 : 8 newform Galois orbits, Hecke-field degrees [ 1, 1, 1, 1, 1, 1, 1, 2 ] (total 9)
+NEWFORM390 orbit 8 : deg-2 Hecke field x^2 - 8  isQ(sqrt2)=true
+NEWFORM390 orbits with Hecke field Q(sqrt2): [ 8 ]
+NEWFORM390 comparing at 74 good primes p < 400 (Sturm bound for level 390 weight 2 is 168)
+MATCH390 orbit 8 : chi_p == Norm_{K/Q}(T^2 - a_p T + p) at 74 of 74 primes ; mismatches 0
+MATCH390 orbit 8 : CERTIFIED. J is isogenous over Q to A_f (level 390, weight 2, trivial character, Hecke field Q(sqrt2)); hence End^0(J) contains Q(sqrt2) and J has REAL MULTIPLICATION BY Q(sqrt2), defined over Q.
+MATCH390 orbit 8 q-expansion (first 30 coefficients): q + q^2 + q^3 + q^4 + q^5 + q^6 + KK.1*q^7 + q^8 + q^9 + q^10 - 2*KK.1*q^11 + q^12 - q^13 + KK.1*q^14 + q^15 + q^16 + (-KK.1 - 2)*q^17 + q^18 - KK.1*q^19 + q^20 + KK.1*q^21 - 2*KK.1*q^22 + 3*KK.1*q^23 + q^24 + q^25 - q^26 + q^27 + KK.1*q^28 + (KK.1 - 6)*q^29 + O(q^30)
+LANE7_RM6MOD_DONE

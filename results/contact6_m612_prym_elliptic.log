@@ -1,0 +1,111 @@
+TWIST RANK BOUNDS (J of y^2=x^6-8x^3+25): 1..1
+twist torsion: [ 3, 3 ]
+p=7 : L_p factors [
+<49*x^4 + 14*x^3 - 3*x^2 + 2*x + 1, 1>
+]
+p=13 : L_p factors [
+<13*x^2 + x + 1, 2>
+]
+p=19 : L_p factors [
+<361*x^4 + 38*x^3 - 15*x^2 + 2*x + 1, 1>
+]
+p=31 : L_p factors [
+<31*x^2 - 11*x + 1, 1>,
+<31*x^2 + 7*x + 1, 1>
+]
+p=37 : L_p factors [
+<1369*x^4 - 259*x^3 + 12*x^2 - 7*x + 1, 1>
+]
+p=43 : L_p factors [
+<1849*x^4 + 86*x^3 - 39*x^2 + 2*x + 1, 1>
+]
+p=61 : L_p factors [
+<3721*x^4 + 305*x^3 - 36*x^2 + 5*x + 1, 1>
+]
+p=67 : L_p factors [
+<67*x^2 - 2*x + 1, 2>
+]
+candidates: 1296
+p=7: not split into 2 factors; skip
+p=13: not split into 2 factors; skip
+p=19: not split into 2 factors; skip
+p=31 : required a-pair [ -7, 11 ] ; survivors now 72
+p=37: not split into 2 factors; skip
+p=43: not split into 2 factors; skip
+p=61: not split into 2 factors; skip
+p=67: not split into 2 factors; skip
+SURVIVING d candidates: [
+z,
+125*z,
+-15*z,
+-1875*z,
+225*z,
+28125*z,
+2*z,
+250*z,
+-30*z,
+-3750*z,
+450*z,
+56250*z,
+4*z,
+500*z,
+-60*z,
+-7500*z,
+900*z,
+112500*z,
+8*z,
+1000*z,
+-120*z,
+-15000*z,
+1800*z,
+225000*z,
+16*z,
+2000*z,
+-240*z,
+-30000*z,
+3600*z,
+450000*z,
+32*z,
+4000*z,
+-480*z,
+-60000*z,
+7200*z,
+900000*z,
+-z - 1,
+-125*z - 125,
+15*z + 15,
+1875*z + 1875,
+-225*z - 225,
+-28125*z - 28125,
+-2*z - 2,
+-250*z - 250,
+30*z + 30,
+3750*z + 3750,
+-450*z - 450,
+-56250*z - 56250,
+-4*z - 4,
+-500*z - 500,
+60*z + 60,
+7500*z + 7500,
+-900*z - 900,
+-112500*z - 112500,
+-8*z - 8,
+-1000*z - 1000,
+120*z + 120,
+15000*z + 15000,
+-1800*z - 1800,
+-225000*z - 225000,
+-16*z - 16,
+-2000*z - 2000,
+240*z + 240,
+30000*z + 30000,
+-3600*z - 3600,
+-450000*z - 450000,
+-32*z - 32,
+-4000*z - 4000,
+480*z + 480,
+60000*z + 60000,
+-7200*z - 7200,
+-900000*z - 900000
+]
+PRYM_ELLIPTIC_DONE

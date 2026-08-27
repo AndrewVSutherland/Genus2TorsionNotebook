@@ -1,0 +1,60 @@
+ROOTSCREEN h2=1 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=1 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-1 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-1 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=2 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-2 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=3 degs={ 62 } counts=[ <10007, 1>, <10009, 2>, <10037, 4>, <10039, 7>, <10061, 5>, <10067, 0> ]
+ROOTSCREEN h2=3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10067, deg stable)
+ROOTSCREEN h2=-3 degs={ 62 } counts=[ <10007, 1>, <10009, 3>, <10037, 1>, <10039, 4>, <10061, 4>, <10067, 1>, <10069, 4>, <10079, 4>, <10091, 7>, <10093, 1>, <10099, 2>, <10103, 0> ]
+ROOTSCREEN h2=-3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10103, deg stable)
+ROOTSCREEN h2=1/2 degs={ 61 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=1/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-1/2 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-1/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=4 degs={ 62 } counts=[ <10007, 1>, <10009, 4>, <10037, 1>, <10039, 1>, <10061, 4>, <10067, 1>, <10069, 5>, <10079, 2>, <10091, 4>, <10093, 1>, <10099, 3>, <10103, 1> ]
+ROOTSCREEN h2=4 VERDICT=ROOTS_AT_ALL_12_PRIMES -> escalate
+ROOTSCREEN h2=-4 degs={ 62 } counts=[ <10007, 1>, <10009, 2>, <10037, 2>, <10039, 1>, <10061, 4>, <10067, 2>, <10069, 2>, <10079, 5>, <10091, 4>, <10093, 1>, <10099, 3>, <10103, 2> ]
+ROOTSCREEN h2=-4 VERDICT=ROOTS_AT_ALL_12_PRIMES -> escalate
+ROOTSCREEN h2=1/3 degs={ 62 } counts=[ <10007, 1>, <10009, 4>, <10037, 0> ]
+ROOTSCREEN h2=1/3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=-1/3 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-1/3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=5 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=5 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-5 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-5 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=2/3 degs={ 62 } counts=[ <10007, 2>, <10009, 3>, <10037, 0> ]
+ROOTSCREEN h2=2/3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=-2/3 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-2/3 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=3/2 degs={ 62 } counts=[ <10007, 2>, <10009, 4>, <10037, 1>, <10039, 2>, <10061, 5>, <10067, 3>, <10069, 3>, <10079, 2>, <10091, 0> ]
+ROOTSCREEN h2=3/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10091, deg stable)
+ROOTSCREEN h2=-3/2 degs={ 62 } counts=[ <10007, 1>, <10009, 1>, <10037, 1>, <10039, 5>, <10061, 5>, <10067, 0> ]
+ROOTSCREEN h2=-3/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10067, deg stable)
+ROOTSCREEN h2=1/4 degs={ 53 } counts=[ <10007, 1>, <10009, 4>, <10037, 0> ]
+ROOTSCREEN h2=1/4 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=-1/4 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-1/4 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=5/2 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=5/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-5/2 degs={ 62 } counts=[ <10007, 2>, <10009, 5>, <10037, 0> ]
+ROOTSCREEN h2=-5/2 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=1/5 degs={ 62 } counts=[ <10007, 3>, <10009, 2>, <10037, 0> ]
+ROOTSCREEN h2=1/5 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=-1/5 degs={ 62 } counts=[ <10007, 2>, <10009, 2>, <10037, 0> ]
+ROOTSCREEN h2=-1/5 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10037, deg stable)
+ROOTSCREEN h2=6 degs={ 62 } counts=[ <10007, 1>, <10009, 4>, <10037, 2>, <10039, 6>, <10061, 3>, <10067, 0> ]
+ROOTSCREEN h2=6 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10067, deg stable)
+ROOTSCREEN h2=-6 degs={ 62 } counts=[ <10007, 2>, <10009, 1>, <10037, 1>, <10039, 1>, <10061, 2>, <10067, 0> ]
+ROOTSCREEN h2=-6 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10067, deg stable)
+ROOTSCREEN h2=7 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=7 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)
+ROOTSCREEN h2=-7 degs={ 62 } counts=[ <10007, 1>, <10009, 3>, <10037, 2>, <10039, 2>, <10061, 0> ]
+ROOTSCREEN h2=-7 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10061, deg stable)
+ROOTSCREEN h2=8 degs={ 62 } counts=[ <10007, 2>, <10009, 4>, <10037, 2>, <10039, 1>, <10061, 2>, <10067, 1>, <10069, 2>, <10079, 6>, <10091, 2>, <10093, 1>, <10099, 3>, <10103, 2> ]
+ROOTSCREEN h2=8 VERDICT=ROOTS_AT_ALL_12_PRIMES -> escalate
+ROOTSCREEN h2=-8 degs={ 62 } counts=[ <10007, 0> ]
+ROOTSCREEN h2=-8 VERDICT=NO_RATIONAL_K_ROOT (rootfree at p=10007, deg stable)

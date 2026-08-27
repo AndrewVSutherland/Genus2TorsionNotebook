@@ -1,0 +1,932 @@
+Loading "split_lab.m"
+POOL 26: 1554 curves
+POOL 28: 1138 curves
+POOL x9: 979 curves
+POOL x10: 1468 curves
+POOL x12: 1223 curves
+POOL total 6362
+SIEVECAND L=5 26(t=-1/8)[ 2, 6 ] x x12(t=1/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-1/8)[ 2, 6 ] x x12(t=1/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=2/3)[ 2, 6 ] x x12(t=2/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=2/3)[ 2, 6 ] x x12(t=2/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-3/2)[ 2, 6 ] x x12(t=1/6)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-3/2)[ 2, 6 ] x x12(t=1/6)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=45 NEW ISOGENOUS
+SIEVECAND L=5 26(t=3/25)[ 2, 6 ] x x12(t=1/12)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=3/25)[ 2, 6 ] x x12(t=1/12)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-3/25)[ 2, 6 ] x x12(t=-1/6)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-3/25)[ 2, 6 ] x x12(t=-1/6)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-4)[ 2, 6 ] x x12(t=-1)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-4)[ 2, 6 ] x x12(t=-1)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=45 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-4/5)[ 2, 6 ] x x12(t=2/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-4/5)[ 2, 6 ] x x12(t=2/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-5)[ 2, 6 ] x x12(t=1/4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=46 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-5)[ 2, 6 ] x x12(t=1/4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=46 NEW ISOGENOUS
+SIEVECAND L=5 26(t=5/2)[ 2, 6 ] x x12(t=-1/2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=5/2)[ 2, 6 ] x x12(t=-1/2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=5/6)[ 2, 6 ] x x12(t=3/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=5/6)[ 2, 6 ] x x12(t=3/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-5/9)[ 2, 6 ] x x12(t=1/8)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-5/9)[ 2, 6 ] x x12(t=1/8)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=5/14)[ 2, 6 ] x x12(t=4/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=5/14)[ 2, 6 ] x x12(t=4/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=5/18)[ 2, 6 ] x x12(t=1/14)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=5/18)[ 2, 6 ] x x12(t=1/14)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=6)[ 2, 6 ] x x12(t=1/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=46 NEW ISOGENOUS
+SIEVECAND L=7 26(t=6)[ 2, 6 ] x x12(t=1/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=46 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-7/2)[ 2, 6 ] x x12(t=1/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-7/2)[ 2, 6 ] x x12(t=1/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-7/13)[ 2, 6 ] x x12(t=-1/4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-7/13)[ 2, 6 ] x x12(t=-1/4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=7/15)[ 2, 6 ] x x12(t=3/8)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=7/15)[ 2, 6 ] x x12(t=3/8)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-7/18)[ 2, 6 ] x x12(t=4/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-7/18)[ 2, 6 ] x x12(t=4/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=8/33)[ 2, 6 ] x x12(t=6/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 26(t=8/33)[ 2, 6 ] x x12(t=6/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+SIEVECAND L=5 26(t=9/10)[ 2, 6 ] x x12(t=4/9)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=9/10)[ 2, 6 ] x x12(t=4/9)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-10/3)[ 2, 6 ] x x12(t=-2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-10/3)[ 2, 6 ] x x12(t=-2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-10/39)[ 2, 6 ] x x12(t=6/19)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-10/39)[ 2, 6 ] x x12(t=6/19)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+SIEVECAND L=5 26(t=11/20)[ 2, 6 ] x x12(t=5/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=11/20)[ 2, 6 ] x x12(t=5/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+PROGRESS sieve 500/6362 rows, 46 cands, 6.560 s
+SIEVECAND L=5 26(t=-11/21)[ 2, 6 ] x x12(t=3/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-11/21)[ 2, 6 ] x x12(t=3/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-11/37)[ 2, 6 ] x x12(t=-1/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-11/37)[ 2, 6 ] x x12(t=-1/5)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-13/12)[ 2, 6 ] x x12(t=3/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-13/12)[ 2, 6 ] x x12(t=3/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=14/15)[ 2, 6 ] x x12(t=5/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=14/15)[ 2, 6 ] x x12(t=5/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-15/2)[ 2, 6 ] x x12(t=-1/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-15/2)[ 2, 6 ] x x12(t=-1/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=15/32)[ 2, 6 ] x x12(t=1/18)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=15/32)[ 2, 6 ] x x12(t=1/18)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-18/7)[ 2, 6 ] x x12(t=2/9)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-18/7)[ 2, 6 ] x x12(t=2/9)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-19/6)[ 2, 6 ] x x12(t=-3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-19/6)[ 2, 6 ] x x12(t=-3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-19/30)[ 2, 6 ] x x12(t=5/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-19/30)[ 2, 6 ] x x12(t=5/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=20/21)[ 2, 6 ] x x12(t=6/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=20/21)[ 2, 6 ] x x12(t=6/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-22/3)[ 2, 6 ] x x12(t=1/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-22/3)[ 2, 6 ] x x12(t=1/7)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=23/8)[ 2, 6 ] x x12(t=-3/2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 26(t=23/8)[ 2, 6 ] x x12(t=-3/2)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=44 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-24/5)[ 2, 6 ] x x12(t=-2/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-24/5)[ 2, 6 ] x x12(t=-2/3)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+PROGRESS sieve 1000/6362 rows, 72 cands, 11.620 s
+SIEVECAND L=5 26(t=-25/8)[ 2, 6 ] x x12(t=3/14)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-25/8)[ 2, 6 ] x x12(t=3/14)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-25/32)[ 2, 6 ] x x12(t=3/22)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-25/32)[ 2, 6 ] x x12(t=3/22)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=26/35)[ 2, 6 ] x x12(t=7/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=26/35)[ 2, 6 ] x x12(t=7/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-27/22)[ 2, 6 ] x x12(t=4/15)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-27/22)[ 2, 6 ] x x12(t=4/15)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=27/28)[ 2, 6 ] x x12(t=7/15)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=27/28)[ 2, 6 ] x x12(t=7/15)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=27/35)[ 2, 6 ] x x12(t=5/12)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=27/35)[ 2, 6 ] x x12(t=5/12)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=29/18)[ 2, 6 ] x x12(t=-1/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=29/18)[ 2, 6 ] x x12(t=-1/10)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-31/10)[ 2, 6 ] x x12(t=-4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-31/10)[ 2, 6 ] x x12(t=-4)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=43 NEW ISOGENOUS
+SIEVECAND L=5 26(t=-34/15)[ 2, 6 ] x x12(t=3/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-34/15)[ 2, 6 ] x x12(t=3/13)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=5 26(t=35/36)[ 2, 6 ] x x12(t=8/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 26(t=35/36)[ 2, 6 ] x x12(t=8/17)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=41 NEW ISOGENOUS
+PROGRESS sieve 1500/6362 rows, 92 cands, 15.750 s
+SIEVECAND L=5 26(t=-40/9)[ 2, 6 ] x x12(t=2/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 26(t=-40/9)[ 2, 6 ] x x12(t=2/11)[ 12 ] prod=[ 2, 6, 12 ] order=144 cmp=42 NEW ISOGENOUS
+PROGRESS sieve 2000/6362 rows, 94 cands, 19.650 s
+PROGRESS sieve 2500/6362 rows, 94 cands, 22.320 s
+PROGRESS sieve 3000/6362 rows, 94 cands, 23.960 s
+PROGRESS sieve 3500/6362 rows, 94 cands, 25.160 s
+SIEVECAND L=7 x10(t=-1)[ 10 ] x x10(t=1/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=46 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1)[ 10 ] x x10(t=1/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=46 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/2)[ 10 ] x x10(t=1/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/2)[ 10 ] x x10(t=1/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/3)[ 10 ] x x10(t=3/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/3)[ 10 ] x x10(t=3/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/4)[ 10 ] x x10(t=2/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/4)[ 10 ] x x10(t=2/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/5)[ 10 ] x x10(t=-3/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/5)[ 10 ] x x10(t=-3/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/5)[ 10 ] x x10(t=5/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/5)[ 10 ] x x10(t=5/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/6)[ 10 ] x x10(t=-2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/6)[ 10 ] x x10(t=-2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/6)[ 10 ] x x10(t=3/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/6)[ 10 ] x x10(t=3/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/7)[ 10 ] x x10(t=-5/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/7)[ 10 ] x x10(t=-5/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/7)[ 10 ] x x10(t=7/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/7)[ 10 ] x x10(t=7/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/8)[ 10 ] x x10(t=-3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/8)[ 10 ] x x10(t=-3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/8)[ 10 ] x x10(t=4/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/8)[ 10 ] x x10(t=4/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/9)[ 10 ] x x10(t=-7/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/9)[ 10 ] x x10(t=-7/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/9)[ 10 ] x x10(t=9/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/9)[ 10 ] x x10(t=9/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/10)[ 10 ] x x10(t=-4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/10)[ 10 ] x x10(t=-4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/10)[ 10 ] x x10(t=5/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/10)[ 10 ] x x10(t=5/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/11)[ 10 ] x x10(t=-9/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/11)[ 10 ] x x10(t=-9/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/11)[ 10 ] x x10(t=11/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/11)[ 10 ] x x10(t=11/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/12)[ 10 ] x x10(t=-5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/12)[ 10 ] x x10(t=-5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/12)[ 10 ] x x10(t=6/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/12)[ 10 ] x x10(t=6/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/13)[ 10 ] x x10(t=-11/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/13)[ 10 ] x x10(t=-11/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/13)[ 10 ] x x10(t=13/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/13)[ 10 ] x x10(t=13/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/14)[ 10 ] x x10(t=-6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/14)[ 10 ] x x10(t=-6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/14)[ 10 ] x x10(t=7/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/14)[ 10 ] x x10(t=7/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/15)[ 10 ] x x10(t=-13/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/15)[ 10 ] x x10(t=-13/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/15)[ 10 ] x x10(t=15/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/15)[ 10 ] x x10(t=15/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/16)[ 10 ] x x10(t=-7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/16)[ 10 ] x x10(t=-7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/16)[ 10 ] x x10(t=8/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/16)[ 10 ] x x10(t=8/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/17)[ 10 ] x x10(t=-15/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/17)[ 10 ] x x10(t=-15/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/17)[ 10 ] x x10(t=17/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/17)[ 10 ] x x10(t=17/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/18)[ 10 ] x x10(t=-8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/18)[ 10 ] x x10(t=-8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/18)[ 10 ] x x10(t=9/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/18)[ 10 ] x x10(t=9/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/19)[ 10 ] x x10(t=-17/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/19)[ 10 ] x x10(t=-17/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/19)[ 10 ] x x10(t=19/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/19)[ 10 ] x x10(t=19/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/20)[ 10 ] x x10(t=-9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/20)[ 10 ] x x10(t=-9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/20)[ 10 ] x x10(t=10/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/20)[ 10 ] x x10(t=10/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/21)[ 10 ] x x10(t=-19/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/21)[ 10 ] x x10(t=-19/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/21)[ 10 ] x x10(t=23/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/21)[ 10 ] x x10(t=23/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/22)[ 10 ] x x10(t=-10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/22)[ 10 ] x x10(t=-10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/22)[ 10 ] x x10(t=11/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/22)[ 10 ] x x10(t=11/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/23)[ 10 ] x x10(t=-21/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/23)[ 10 ] x x10(t=-21/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/23)[ 10 ] x x10(t=25/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/23)[ 10 ] x x10(t=25/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/24)[ 10 ] x x10(t=-11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/24)[ 10 ] x x10(t=-11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/24)[ 10 ] x x10(t=12/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/24)[ 10 ] x x10(t=12/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/25)[ 10 ] x x10(t=-23/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/25)[ 10 ] x x10(t=-23/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/25)[ 10 ] x x10(t=27/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/25)[ 10 ] x x10(t=27/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/26)[ 10 ] x x10(t=-12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/26)[ 10 ] x x10(t=-12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/26)[ 10 ] x x10(t=13/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/26)[ 10 ] x x10(t=13/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/27)[ 10 ] x x10(t=-25/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/27)[ 10 ] x x10(t=-25/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/27)[ 10 ] x x10(t=29/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/27)[ 10 ] x x10(t=29/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/28)[ 10 ] x x10(t=-13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/28)[ 10 ] x x10(t=-13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/28)[ 10 ] x x10(t=14/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/28)[ 10 ] x x10(t=14/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/29)[ 10 ] x x10(t=-27/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/29)[ 10 ] x x10(t=-27/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/29)[ 10 ] x x10(t=31/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/29)[ 10 ] x x10(t=31/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/30)[ 10 ] x x10(t=-14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/30)[ 10 ] x x10(t=-14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/30)[ 10 ] x x10(t=15/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/30)[ 10 ] x x10(t=15/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/31)[ 10 ] x x10(t=-29/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/31)[ 10 ] x x10(t=-29/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/31)[ 10 ] x x10(t=33/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/31)[ 10 ] x x10(t=33/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/32)[ 10 ] x x10(t=-15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/32)[ 10 ] x x10(t=-15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/32)[ 10 ] x x10(t=16/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/32)[ 10 ] x x10(t=16/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/33)[ 10 ] x x10(t=-31/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/33)[ 10 ] x x10(t=-31/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/33)[ 10 ] x x10(t=35/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/33)[ 10 ] x x10(t=35/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/34)[ 10 ] x x10(t=-16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/34)[ 10 ] x x10(t=-16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/34)[ 10 ] x x10(t=17/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/34)[ 10 ] x x10(t=17/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/35)[ 10 ] x x10(t=-33/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/35)[ 10 ] x x10(t=-33/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/35)[ 10 ] x x10(t=37/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/35)[ 10 ] x x10(t=37/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/36)[ 10 ] x x10(t=-17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/36)[ 10 ] x x10(t=-17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/36)[ 10 ] x x10(t=18/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/36)[ 10 ] x x10(t=18/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/37)[ 10 ] x x10(t=-35/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/37)[ 10 ] x x10(t=-35/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/37)[ 10 ] x x10(t=39/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/37)[ 10 ] x x10(t=39/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/38)[ 10 ] x x10(t=-18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/38)[ 10 ] x x10(t=-18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/38)[ 10 ] x x10(t=19/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/38)[ 10 ] x x10(t=19/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/39)[ 10 ] x x10(t=-37/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/39)[ 10 ] x x10(t=-37/2)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=1/40)[ 10 ] x x10(t=-19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=1/40)[ 10 ] x x10(t=-19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-1/40)[ 10 ] x x10(t=21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-1/40)[ 10 ] x x10(t=21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/3)[ 10 ] x x10(t=3/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/3)[ 10 ] x x10(t=3/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/5)[ 10 ] x x10(t=5/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/5)[ 10 ] x x10(t=5/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/7)[ 10 ] x x10(t=-3/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/7)[ 10 ] x x10(t=-3/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/7)[ 10 ] x x10(t=7/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/7)[ 10 ] x x10(t=7/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/9)[ 10 ] x x10(t=-5/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/9)[ 10 ] x x10(t=-5/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/9)[ 10 ] x x10(t=9/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/9)[ 10 ] x x10(t=9/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/11)[ 10 ] x x10(t=-7/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/11)[ 10 ] x x10(t=-7/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/11)[ 10 ] x x10(t=11/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/11)[ 10 ] x x10(t=11/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/13)[ 10 ] x x10(t=-9/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/13)[ 10 ] x x10(t=-9/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/13)[ 10 ] x x10(t=13/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/13)[ 10 ] x x10(t=13/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/15)[ 10 ] x x10(t=-11/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/15)[ 10 ] x x10(t=-11/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/15)[ 10 ] x x10(t=15/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/15)[ 10 ] x x10(t=15/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/17)[ 10 ] x x10(t=-13/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/17)[ 10 ] x x10(t=-13/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/17)[ 10 ] x x10(t=17/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/17)[ 10 ] x x10(t=17/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/19)[ 10 ] x x10(t=-15/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/19)[ 10 ] x x10(t=-15/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/19)[ 10 ] x x10(t=23/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/19)[ 10 ] x x10(t=23/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/21)[ 10 ] x x10(t=-17/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/21)[ 10 ] x x10(t=-17/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/21)[ 10 ] x x10(t=25/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/21)[ 10 ] x x10(t=25/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/23)[ 10 ] x x10(t=-19/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/23)[ 10 ] x x10(t=-19/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/23)[ 10 ] x x10(t=27/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/23)[ 10 ] x x10(t=27/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/25)[ 10 ] x x10(t=-21/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/25)[ 10 ] x x10(t=-21/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/25)[ 10 ] x x10(t=29/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/25)[ 10 ] x x10(t=29/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/27)[ 10 ] x x10(t=-23/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/27)[ 10 ] x x10(t=-23/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/27)[ 10 ] x x10(t=31/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/27)[ 10 ] x x10(t=31/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/29)[ 10 ] x x10(t=-25/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/29)[ 10 ] x x10(t=-25/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/29)[ 10 ] x x10(t=33/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/29)[ 10 ] x x10(t=33/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/31)[ 10 ] x x10(t=-27/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/31)[ 10 ] x x10(t=-27/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/31)[ 10 ] x x10(t=35/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/31)[ 10 ] x x10(t=35/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/33)[ 10 ] x x10(t=-29/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/33)[ 10 ] x x10(t=-29/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/33)[ 10 ] x x10(t=37/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/33)[ 10 ] x x10(t=37/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/35)[ 10 ] x x10(t=-31/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/35)[ 10 ] x x10(t=-31/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-2/35)[ 10 ] x x10(t=39/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-2/35)[ 10 ] x x10(t=39/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/37)[ 10 ] x x10(t=-33/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/37)[ 10 ] x x10(t=-33/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=2/39)[ 10 ] x x10(t=-35/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=2/39)[ 10 ] x x10(t=-35/4)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/5)[ 10 ] x x10(t=5/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/5)[ 10 ] x x10(t=5/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/7)[ 10 ] x x10(t=7/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/7)[ 10 ] x x10(t=7/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/8)[ 10 ] x x10(t=4/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/8)[ 10 ] x x10(t=4/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/10)[ 10 ] x x10(t=5/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/10)[ 10 ] x x10(t=5/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/11)[ 10 ] x x10(t=-5/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/11)[ 10 ] x x10(t=-5/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/11)[ 10 ] x x10(t=11/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/11)[ 10 ] x x10(t=11/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/13)[ 10 ] x x10(t=-7/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/13)[ 10 ] x x10(t=-7/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/13)[ 10 ] x x10(t=13/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/13)[ 10 ] x x10(t=13/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/14)[ 10 ] x x10(t=-4/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/14)[ 10 ] x x10(t=-4/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/14)[ 10 ] x x10(t=7/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/14)[ 10 ] x x10(t=7/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/16)[ 10 ] x x10(t=-5/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/16)[ 10 ] x x10(t=-5/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/16)[ 10 ] x x10(t=8/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/16)[ 10 ] x x10(t=8/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/17)[ 10 ] x x10(t=-11/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/17)[ 10 ] x x10(t=-11/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/17)[ 10 ] x x10(t=17/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/17)[ 10 ] x x10(t=17/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/19)[ 10 ] x x10(t=-13/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/19)[ 10 ] x x10(t=-13/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/19)[ 10 ] x x10(t=25/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/19)[ 10 ] x x10(t=25/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/20)[ 10 ] x x10(t=-7/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/20)[ 10 ] x x10(t=-7/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/20)[ 10 ] x x10(t=10/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/20)[ 10 ] x x10(t=10/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/22)[ 10 ] x x10(t=-8/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/22)[ 10 ] x x10(t=-8/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/22)[ 10 ] x x10(t=11/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/22)[ 10 ] x x10(t=11/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/23)[ 10 ] x x10(t=-17/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/23)[ 10 ] x x10(t=-17/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/23)[ 10 ] x x10(t=29/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/23)[ 10 ] x x10(t=29/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/25)[ 10 ] x x10(t=-19/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/25)[ 10 ] x x10(t=-19/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/25)[ 10 ] x x10(t=31/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/25)[ 10 ] x x10(t=31/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/26)[ 10 ] x x10(t=-10/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/26)[ 10 ] x x10(t=-10/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/26)[ 10 ] x x10(t=13/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/26)[ 10 ] x x10(t=13/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/28)[ 10 ] x x10(t=-11/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/28)[ 10 ] x x10(t=-11/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/28)[ 10 ] x x10(t=14/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/28)[ 10 ] x x10(t=14/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/29)[ 10 ] x x10(t=-23/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=39 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/29)[ 10 ] x x10(t=-23/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=39 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/29)[ 10 ] x x10(t=35/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/29)[ 10 ] x x10(t=35/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/31)[ 10 ] x x10(t=-25/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/31)[ 10 ] x x10(t=-25/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/31)[ 10 ] x x10(t=37/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/31)[ 10 ] x x10(t=37/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/32)[ 10 ] x x10(t=-13/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/32)[ 10 ] x x10(t=-13/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/32)[ 10 ] x x10(t=16/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/32)[ 10 ] x x10(t=16/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/34)[ 10 ] x x10(t=-14/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/34)[ 10 ] x x10(t=-14/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/34)[ 10 ] x x10(t=17/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/34)[ 10 ] x x10(t=17/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/35)[ 10 ] x x10(t=-29/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/35)[ 10 ] x x10(t=-29/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/37)[ 10 ] x x10(t=-31/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/37)[ 10 ] x x10(t=-31/6)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/38)[ 10 ] x x10(t=-16/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/38)[ 10 ] x x10(t=-16/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/38)[ 10 ] x x10(t=22/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/38)[ 10 ] x x10(t=22/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=3/40)[ 10 ] x x10(t=-17/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=3/40)[ 10 ] x x10(t=-17/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-3/40)[ 10 ] x x10(t=23/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-3/40)[ 10 ] x x10(t=23/3)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/5)[ 10 ] x x10(t=5/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/5)[ 10 ] x x10(t=5/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/7)[ 10 ] x x10(t=7/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/7)[ 10 ] x x10(t=7/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/9)[ 10 ] x x10(t=9/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/9)[ 10 ] x x10(t=9/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/11)[ 10 ] x x10(t=11/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/11)[ 10 ] x x10(t=11/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/13)[ 10 ] x x10(t=-5/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/13)[ 10 ] x x10(t=-5/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/13)[ 10 ] x x10(t=13/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/13)[ 10 ] x x10(t=13/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/15)[ 10 ] x x10(t=-7/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/15)[ 10 ] x x10(t=-7/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/15)[ 10 ] x x10(t=15/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/15)[ 10 ] x x10(t=15/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/17)[ 10 ] x x10(t=-9/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/17)[ 10 ] x x10(t=-9/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/17)[ 10 ] x x10(t=25/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/17)[ 10 ] x x10(t=25/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/19)[ 10 ] x x10(t=-11/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/19)[ 10 ] x x10(t=-11/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/19)[ 10 ] x x10(t=27/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/19)[ 10 ] x x10(t=27/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/21)[ 10 ] x x10(t=-13/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/21)[ 10 ] x x10(t=-13/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/21)[ 10 ] x x10(t=29/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/21)[ 10 ] x x10(t=29/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/23)[ 10 ] x x10(t=-15/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/23)[ 10 ] x x10(t=-15/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/23)[ 10 ] x x10(t=31/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/23)[ 10 ] x x10(t=31/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/25)[ 10 ] x x10(t=-17/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/25)[ 10 ] x x10(t=-17/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/25)[ 10 ] x x10(t=33/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/25)[ 10 ] x x10(t=33/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/27)[ 10 ] x x10(t=-19/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/27)[ 10 ] x x10(t=-19/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/27)[ 10 ] x x10(t=35/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/27)[ 10 ] x x10(t=35/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/29)[ 10 ] x x10(t=-21/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/29)[ 10 ] x x10(t=-21/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/29)[ 10 ] x x10(t=37/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/29)[ 10 ] x x10(t=37/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/31)[ 10 ] x x10(t=-23/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/31)[ 10 ] x x10(t=-23/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-4/31)[ 10 ] x x10(t=39/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-4/31)[ 10 ] x x10(t=39/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/33)[ 10 ] x x10(t=-25/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/33)[ 10 ] x x10(t=-25/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/35)[ 10 ] x x10(t=-27/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/35)[ 10 ] x x10(t=-27/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/37)[ 10 ] x x10(t=-29/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/37)[ 10 ] x x10(t=-29/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=4/39)[ 10 ] x x10(t=-31/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=4/39)[ 10 ] x x10(t=-31/8)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/7)[ 10 ] x x10(t=7/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/7)[ 10 ] x x10(t=7/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/9)[ 10 ] x x10(t=9/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/9)[ 10 ] x x10(t=9/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/11)[ 10 ] x x10(t=11/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/11)[ 10 ] x x10(t=11/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/12)[ 10 ] x x10(t=6/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/12)[ 10 ] x x10(t=6/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/13)[ 10 ] x x10(t=13/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/13)[ 10 ] x x10(t=13/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/14)[ 10 ] x x10(t=7/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/14)[ 10 ] x x10(t=7/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/16)[ 10 ] x x10(t=8/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/16)[ 10 ] x x10(t=8/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/17)[ 10 ] x x10(t=-7/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/17)[ 10 ] x x10(t=-7/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/17)[ 10 ] x x10(t=27/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/17)[ 10 ] x x10(t=27/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/18)[ 10 ] x x10(t=9/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/18)[ 10 ] x x10(t=9/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/19)[ 10 ] x x10(t=-9/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/19)[ 10 ] x x10(t=-9/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/19)[ 10 ] x x10(t=29/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/19)[ 10 ] x x10(t=29/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/21)[ 10 ] x x10(t=-11/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/21)[ 10 ] x x10(t=-11/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/21)[ 10 ] x x10(t=31/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/21)[ 10 ] x x10(t=31/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/22)[ 10 ] x x10(t=-6/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/22)[ 10 ] x x10(t=-6/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/22)[ 10 ] x x10(t=11/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/22)[ 10 ] x x10(t=11/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/23)[ 10 ] x x10(t=-13/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/23)[ 10 ] x x10(t=-13/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/23)[ 10 ] x x10(t=33/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/23)[ 10 ] x x10(t=33/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/24)[ 10 ] x x10(t=-7/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/24)[ 10 ] x x10(t=-7/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/24)[ 10 ] x x10(t=12/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/24)[ 10 ] x x10(t=12/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/26)[ 10 ] x x10(t=-8/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/26)[ 10 ] x x10(t=-8/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/26)[ 10 ] x x10(t=13/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/26)[ 10 ] x x10(t=13/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/27)[ 10 ] x x10(t=-17/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/27)[ 10 ] x x10(t=-17/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/27)[ 10 ] x x10(t=37/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/27)[ 10 ] x x10(t=37/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/28)[ 10 ] x x10(t=-9/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/28)[ 10 ] x x10(t=-9/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/28)[ 10 ] x x10(t=14/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/28)[ 10 ] x x10(t=14/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/29)[ 10 ] x x10(t=-19/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/29)[ 10 ] x x10(t=-19/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/29)[ 10 ] x x10(t=39/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/29)[ 10 ] x x10(t=39/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/31)[ 10 ] x x10(t=-21/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/31)[ 10 ] x x10(t=-21/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/32)[ 10 ] x x10(t=-11/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/32)[ 10 ] x x10(t=-11/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/32)[ 10 ] x x10(t=16/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/32)[ 10 ] x x10(t=16/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/33)[ 10 ] x x10(t=-23/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/33)[ 10 ] x x10(t=-23/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/34)[ 10 ] x x10(t=-12/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/34)[ 10 ] x x10(t=-12/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/34)[ 10 ] x x10(t=17/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/34)[ 10 ] x x10(t=17/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/36)[ 10 ] x x10(t=-13/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/36)[ 10 ] x x10(t=-13/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/36)[ 10 ] x x10(t=23/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/36)[ 10 ] x x10(t=23/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/37)[ 10 ] x x10(t=-27/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/37)[ 10 ] x x10(t=-27/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/38)[ 10 ] x x10(t=-14/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/38)[ 10 ] x x10(t=-14/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-5/38)[ 10 ] x x10(t=24/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-5/38)[ 10 ] x x10(t=24/5)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=5/39)[ 10 ] x x10(t=-29/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=5/39)[ 10 ] x x10(t=-29/10)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/7)[ 10 ] x x10(t=7/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/7)[ 10 ] x x10(t=7/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/11)[ 10 ] x x10(t=11/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/11)[ 10 ] x x10(t=11/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/13)[ 10 ] x x10(t=13/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/13)[ 10 ] x x10(t=13/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/17)[ 10 ] x x10(t=29/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/17)[ 10 ] x x10(t=29/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/19)[ 10 ] x x10(t=-7/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/19)[ 10 ] x x10(t=-7/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/19)[ 10 ] x x10(t=31/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/19)[ 10 ] x x10(t=31/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/23)[ 10 ] x x10(t=-11/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/23)[ 10 ] x x10(t=-11/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/23)[ 10 ] x x10(t=35/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/23)[ 10 ] x x10(t=35/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/25)[ 10 ] x x10(t=-13/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/25)[ 10 ] x x10(t=-13/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-6/25)[ 10 ] x x10(t=37/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-6/25)[ 10 ] x x10(t=37/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/29)[ 10 ] x x10(t=-17/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/29)[ 10 ] x x10(t=-17/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/31)[ 10 ] x x10(t=-19/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/31)[ 10 ] x x10(t=-19/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/35)[ 10 ] x x10(t=-23/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/35)[ 10 ] x x10(t=-23/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=6/37)[ 10 ] x x10(t=-25/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=6/37)[ 10 ] x x10(t=-25/12)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/9)[ 10 ] x x10(t=9/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/9)[ 10 ] x x10(t=9/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/11)[ 10 ] x x10(t=11/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/11)[ 10 ] x x10(t=11/36)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/13)[ 10 ] x x10(t=13/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/13)[ 10 ] x x10(t=13/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/15)[ 10 ] x x10(t=29/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/15)[ 10 ] x x10(t=29/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/16)[ 10 ] x x10(t=8/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/16)[ 10 ] x x10(t=8/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/17)[ 10 ] x x10(t=31/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/17)[ 10 ] x x10(t=31/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/18)[ 10 ] x x10(t=9/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/18)[ 10 ] x x10(t=9/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/19)[ 10 ] x x10(t=33/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/19)[ 10 ] x x10(t=33/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/20)[ 10 ] x x10(t=10/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/20)[ 10 ] x x10(t=10/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/22)[ 10 ] x x10(t=11/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/22)[ 10 ] x x10(t=11/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/23)[ 10 ] x x10(t=-9/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/23)[ 10 ] x x10(t=-9/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/23)[ 10 ] x x10(t=37/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/23)[ 10 ] x x10(t=37/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/24)[ 10 ] x x10(t=12/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/24)[ 10 ] x x10(t=12/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/25)[ 10 ] x x10(t=-11/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/25)[ 10 ] x x10(t=-11/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/25)[ 10 ] x x10(t=39/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/25)[ 10 ] x x10(t=39/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/26)[ 10 ] x x10(t=13/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/26)[ 10 ] x x10(t=13/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/27)[ 10 ] x x10(t=-13/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/27)[ 10 ] x x10(t=-13/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/29)[ 10 ] x x10(t=-15/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/29)[ 10 ] x x10(t=-15/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/30)[ 10 ] x x10(t=-8/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/30)[ 10 ] x x10(t=-8/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/30)[ 10 ] x x10(t=15/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/30)[ 10 ] x x10(t=15/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/31)[ 10 ] x x10(t=-17/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/31)[ 10 ] x x10(t=-17/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/32)[ 10 ] x x10(t=-9/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/32)[ 10 ] x x10(t=-9/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/32)[ 10 ] x x10(t=16/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/32)[ 10 ] x x10(t=16/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/33)[ 10 ] x x10(t=-19/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/33)[ 10 ] x x10(t=-19/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/34)[ 10 ] x x10(t=-10/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/34)[ 10 ] x x10(t=-10/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/34)[ 10 ] x x10(t=24/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/34)[ 10 ] x x10(t=24/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/36)[ 10 ] x x10(t=-11/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/36)[ 10 ] x x10(t=-11/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+PROGRESS sieve 4000/6362 rows, 614 cands, 26.740 s
+SIEVECAND L=7 x10(t=-7/36)[ 10 ] x x10(t=25/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/36)[ 10 ] x x10(t=25/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/37)[ 10 ] x x10(t=-23/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/37)[ 10 ] x x10(t=-23/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/38)[ 10 ] x x10(t=-12/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/38)[ 10 ] x x10(t=-12/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/38)[ 10 ] x x10(t=26/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/38)[ 10 ] x x10(t=26/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/39)[ 10 ] x x10(t=-25/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/39)[ 10 ] x x10(t=-25/14)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=7/40)[ 10 ] x x10(t=-13/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=7/40)[ 10 ] x x10(t=-13/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-7/40)[ 10 ] x x10(t=27/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-7/40)[ 10 ] x x10(t=27/7)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/9)[ 10 ] x x10(t=9/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/9)[ 10 ] x x10(t=9/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/11)[ 10 ] x x10(t=11/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/11)[ 10 ] x x10(t=11/38)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/13)[ 10 ] x x10(t=29/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/13)[ 10 ] x x10(t=29/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/15)[ 10 ] x x10(t=31/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/15)[ 10 ] x x10(t=31/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/17)[ 10 ] x x10(t=33/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/17)[ 10 ] x x10(t=33/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/19)[ 10 ] x x10(t=35/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/19)[ 10 ] x x10(t=35/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/21)[ 10 ] x x10(t=37/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/21)[ 10 ] x x10(t=37/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-8/23)[ 10 ] x x10(t=39/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-8/23)[ 10 ] x x10(t=39/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/25)[ 10 ] x x10(t=-9/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/25)[ 10 ] x x10(t=-9/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/27)[ 10 ] x x10(t=-11/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/27)[ 10 ] x x10(t=-11/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/29)[ 10 ] x x10(t=-13/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/29)[ 10 ] x x10(t=-13/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/31)[ 10 ] x x10(t=-15/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/31)[ 10 ] x x10(t=-15/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/33)[ 10 ] x x10(t=-17/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/33)[ 10 ] x x10(t=-17/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/35)[ 10 ] x x10(t=-19/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/35)[ 10 ] x x10(t=-19/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/37)[ 10 ] x x10(t=-21/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/37)[ 10 ] x x10(t=-21/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=8/39)[ 10 ] x x10(t=-23/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=8/39)[ 10 ] x x10(t=-23/16)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/11)[ 10 ] x x10(t=11/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/11)[ 10 ] x x10(t=11/40)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/13)[ 10 ] x x10(t=31/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/13)[ 10 ] x x10(t=31/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/17)[ 10 ] x x10(t=35/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/17)[ 10 ] x x10(t=35/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/19)[ 10 ] x x10(t=37/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/19)[ 10 ] x x10(t=37/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/20)[ 10 ] x x10(t=10/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/20)[ 10 ] x x10(t=10/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/22)[ 10 ] x x10(t=11/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/22)[ 10 ] x x10(t=11/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/26)[ 10 ] x x10(t=13/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/26)[ 10 ] x x10(t=13/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/28)[ 10 ] x x10(t=14/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/28)[ 10 ] x x10(t=14/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/29)[ 10 ] x x10(t=-11/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/29)[ 10 ] x x10(t=-11/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/31)[ 10 ] x x10(t=-13/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/31)[ 10 ] x x10(t=-13/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/32)[ 10 ] x x10(t=25/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/32)[ 10 ] x x10(t=25/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/34)[ 10 ] x x10(t=26/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/34)[ 10 ] x x10(t=26/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/35)[ 10 ] x x10(t=-17/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/35)[ 10 ] x x10(t=-17/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/37)[ 10 ] x x10(t=-19/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/37)[ 10 ] x x10(t=-19/18)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/38)[ 10 ] x x10(t=-10/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/38)[ 10 ] x x10(t=-10/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/38)[ 10 ] x x10(t=28/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/38)[ 10 ] x x10(t=28/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=9/40)[ 10 ] x x10(t=-11/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=9/40)[ 10 ] x x10(t=-11/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-9/40)[ 10 ] x x10(t=29/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-9/40)[ 10 ] x x10(t=29/9)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-10/11)[ 10 ] x x10(t=31/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-10/11)[ 10 ] x x10(t=31/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-10/13)[ 10 ] x x10(t=33/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-10/13)[ 10 ] x x10(t=33/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-10/17)[ 10 ] x x10(t=37/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-10/17)[ 10 ] x x10(t=37/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-10/19)[ 10 ] x x10(t=39/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-10/19)[ 10 ] x x10(t=39/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=10/31)[ 10 ] x x10(t=-11/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=10/31)[ 10 ] x x10(t=-11/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=10/33)[ 10 ] x x10(t=-13/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=10/33)[ 10 ] x x10(t=-13/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=10/37)[ 10 ] x x10(t=-17/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=10/37)[ 10 ] x x10(t=-17/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=10/39)[ 10 ] x x10(t=-19/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=10/39)[ 10 ] x x10(t=-19/20)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/13)[ 10 ] x x10(t=35/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/13)[ 10 ] x x10(t=35/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/15)[ 10 ] x x10(t=37/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/15)[ 10 ] x x10(t=37/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/17)[ 10 ] x x10(t=39/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/17)[ 10 ] x x10(t=39/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/24)[ 10 ] x x10(t=12/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/24)[ 10 ] x x10(t=12/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/26)[ 10 ] x x10(t=13/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/26)[ 10 ] x x10(t=13/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/28)[ 10 ] x x10(t=14/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/28)[ 10 ] x x10(t=14/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/30)[ 10 ] x x10(t=26/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/30)[ 10 ] x x10(t=26/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/32)[ 10 ] x x10(t=27/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/32)[ 10 ] x x10(t=27/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/34)[ 10 ] x x10(t=28/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/34)[ 10 ] x x10(t=28/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=11/35)[ 10 ] x x10(t=-13/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=11/35)[ 10 ] x x10(t=-13/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/36)[ 10 ] x x10(t=29/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/36)[ 10 ] x x10(t=29/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=11/37)[ 10 ] x x10(t=-15/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=11/37)[ 10 ] x x10(t=-15/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/38)[ 10 ] x x10(t=30/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/38)[ 10 ] x x10(t=30/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=11/39)[ 10 ] x x10(t=-17/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=11/39)[ 10 ] x x10(t=-17/22)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-11/40)[ 10 ] x x10(t=31/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-11/40)[ 10 ] x x10(t=31/11)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-12/11)[ 10 ] x x10(t=35/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-12/11)[ 10 ] x x10(t=35/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-12/13)[ 10 ] x x10(t=37/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-12/13)[ 10 ] x x10(t=37/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=12/37)[ 10 ] x x10(t=-13/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=12/37)[ 10 ] x x10(t=-13/24)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/9)[ 10 ] x x10(t=35/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/9)[ 10 ] x x10(t=35/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/11)[ 10 ] x x10(t=37/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/11)[ 10 ] x x10(t=37/26)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/28)[ 10 ] x x10(t=27/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/28)[ 10 ] x x10(t=27/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/30)[ 10 ] x x10(t=28/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/30)[ 10 ] x x10(t=28/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/32)[ 10 ] x x10(t=29/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/32)[ 10 ] x x10(t=29/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/34)[ 10 ] x x10(t=30/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/34)[ 10 ] x x10(t=30/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/36)[ 10 ] x x10(t=31/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/36)[ 10 ] x x10(t=31/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/38)[ 10 ] x x10(t=32/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/38)[ 10 ] x x10(t=32/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-13/40)[ 10 ] x x10(t=33/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-13/40)[ 10 ] x x10(t=33/13)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-14/9)[ 10 ] x x10(t=37/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-14/9)[ 10 ] x x10(t=37/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-14/11)[ 10 ] x x10(t=39/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-14/11)[ 10 ] x x10(t=39/28)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/7)[ 10 ] x x10(t=37/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/7)[ 10 ] x x10(t=37/30)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/26)[ 10 ] x x10(t=28/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/26)[ 10 ] x x10(t=28/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/28)[ 10 ] x x10(t=29/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/28)[ 10 ] x x10(t=29/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/32)[ 10 ] x x10(t=31/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/32)[ 10 ] x x10(t=31/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/34)[ 10 ] x x10(t=32/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/34)[ 10 ] x x10(t=32/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-15/38)[ 10 ] x x10(t=34/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-15/38)[ 10 ] x x10(t=34/15)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-16/5)[ 10 ] x x10(t=37/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-16/5)[ 10 ] x x10(t=37/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-16/7)[ 10 ] x x10(t=39/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-16/7)[ 10 ] x x10(t=39/32)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/5)[ 10 ] x x10(t=39/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/5)[ 10 ] x x10(t=39/34)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/24)[ 10 ] x x10(t=29/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/24)[ 10 ] x x10(t=29/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/26)[ 10 ] x x10(t=30/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=39 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/26)[ 10 ] x x10(t=30/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=39 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/28)[ 10 ] x x10(t=31/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/28)[ 10 ] x x10(t=31/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/30)[ 10 ] x x10(t=32/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/30)[ 10 ] x x10(t=32/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/32)[ 10 ] x x10(t=33/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/32)[ 10 ] x x10(t=33/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/36)[ 10 ] x x10(t=35/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/36)[ 10 ] x x10(t=35/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/38)[ 10 ] x x10(t=36/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/38)[ 10 ] x x10(t=36/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-17/40)[ 10 ] x x10(t=37/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-17/40)[ 10 ] x x10(t=37/17)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/22)[ 10 ] x x10(t=30/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/22)[ 10 ] x x10(t=30/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/24)[ 10 ] x x10(t=31/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/24)[ 10 ] x x10(t=31/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/26)[ 10 ] x x10(t=32/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/26)[ 10 ] x x10(t=32/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/28)[ 10 ] x x10(t=33/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/28)[ 10 ] x x10(t=33/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/30)[ 10 ] x x10(t=34/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/30)[ 10 ] x x10(t=34/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/32)[ 10 ] x x10(t=35/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/32)[ 10 ] x x10(t=35/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/34)[ 10 ] x x10(t=36/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/34)[ 10 ] x x10(t=36/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/36)[ 10 ] x x10(t=37/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/36)[ 10 ] x x10(t=37/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-19/40)[ 10 ] x x10(t=39/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-19/40)[ 10 ] x x10(t=39/19)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/20)[ 10 ] x x10(t=31/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/20)[ 10 ] x x10(t=31/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/22)[ 10 ] x x10(t=32/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/22)[ 10 ] x x10(t=32/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/26)[ 10 ] x x10(t=34/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/26)[ 10 ] x x10(t=34/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/32)[ 10 ] x x10(t=37/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/32)[ 10 ] x x10(t=37/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/34)[ 10 ] x x10(t=38/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/34)[ 10 ] x x10(t=38/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-21/38)[ 10 ] x x10(t=40/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-21/38)[ 10 ] x x10(t=40/21)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/18)[ 10 ] x x10(t=32/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/18)[ 10 ] x x10(t=32/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/20)[ 10 ] x x10(t=33/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/20)[ 10 ] x x10(t=33/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/22)[ 10 ] x x10(t=34/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/22)[ 10 ] x x10(t=34/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/24)[ 10 ] x x10(t=35/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/24)[ 10 ] x x10(t=35/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/26)[ 10 ] x x10(t=36/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/26)[ 10 ] x x10(t=36/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/28)[ 10 ] x x10(t=37/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/28)[ 10 ] x x10(t=37/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/30)[ 10 ] x x10(t=38/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/30)[ 10 ] x x10(t=38/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/32)[ 10 ] x x10(t=39/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/32)[ 10 ] x x10(t=39/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-23/34)[ 10 ] x x10(t=40/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-23/34)[ 10 ] x x10(t=40/23)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+PROGRESS sieve 4500/6362 rows, 852 cands, 28.740 s
+SIEVECAND L=7 x10(t=-25/16)[ 10 ] x x10(t=33/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/16)[ 10 ] x x10(t=33/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-25/18)[ 10 ] x x10(t=34/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/18)[ 10 ] x x10(t=34/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-25/22)[ 10 ] x x10(t=36/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/22)[ 10 ] x x10(t=36/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-25/24)[ 10 ] x x10(t=37/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/24)[ 10 ] x x10(t=37/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-25/26)[ 10 ] x x10(t=38/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/26)[ 10 ] x x10(t=38/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-25/28)[ 10 ] x x10(t=39/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-25/28)[ 10 ] x x10(t=39/25)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-27/14)[ 10 ] x x10(t=34/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-27/14)[ 10 ] x x10(t=34/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=40 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-27/16)[ 10 ] x x10(t=35/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-27/16)[ 10 ] x x10(t=35/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=45 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-27/20)[ 10 ] x x10(t=37/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-27/20)[ 10 ] x x10(t=37/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-27/22)[ 10 ] x x10(t=38/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-27/22)[ 10 ] x x10(t=38/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-27/26)[ 10 ] x x10(t=40/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-27/26)[ 10 ] x x10(t=40/27)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/12)[ 10 ] x x10(t=35/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/12)[ 10 ] x x10(t=35/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/14)[ 10 ] x x10(t=36/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/14)[ 10 ] x x10(t=36/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/16)[ 10 ] x x10(t=37/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/16)[ 10 ] x x10(t=37/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/18)[ 10 ] x x10(t=38/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/18)[ 10 ] x x10(t=38/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/20)[ 10 ] x x10(t=39/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/20)[ 10 ] x x10(t=39/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-29/22)[ 10 ] x x10(t=40/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-29/22)[ 10 ] x x10(t=40/29)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-31/10)[ 10 ] x x10(t=36/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-31/10)[ 10 ] x x10(t=36/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-31/12)[ 10 ] x x10(t=37/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-31/12)[ 10 ] x x10(t=37/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-31/14)[ 10 ] x x10(t=38/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-31/14)[ 10 ] x x10(t=38/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-31/16)[ 10 ] x x10(t=39/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-31/16)[ 10 ] x x10(t=39/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-31/18)[ 10 ] x x10(t=40/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-31/18)[ 10 ] x x10(t=40/31)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-33/8)[ 10 ] x x10(t=37/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-33/8)[ 10 ] x x10(t=37/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-33/10)[ 10 ] x x10(t=38/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-33/10)[ 10 ] x x10(t=38/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=43 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-33/14)[ 10 ] x x10(t=40/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-33/14)[ 10 ] x x10(t=40/33)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-35/6)[ 10 ] x x10(t=38/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-35/6)[ 10 ] x x10(t=38/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-35/8)[ 10 ] x x10(t=39/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-35/8)[ 10 ] x x10(t=39/35)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-37/4)[ 10 ] x x10(t=39/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-37/4)[ 10 ] x x10(t=39/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=41 NEW ISOGENOUS
+SIEVECAND L=7 x10(t=-37/6)[ 10 ] x x10(t=40/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-37/6)[ 10 ] x x10(t=40/37)[ 10 ] prod=[ 10, 10 ] order=100 cmp=42 NEW ISOGENOUS
+PROGRESS sieve 5000/6362 rows, 910 cands, 29.850 s
+SIEVECAND L=7 x10(t=-39/2)[ 10 ] x x10(t=40/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+SIEVECAND L=3 x10(t=-39/2)[ 10 ] x x10(t=40/39)[ 10 ] prod=[ 10, 10 ] order=100 cmp=44 NEW ISOGENOUS
+PROGRESS sieve 5500/6362 rows, 912 cands, 30.790 s
+PROGRESS sieve 6000/6362 rows, 912 cands, 31.340 s
+SIEVE_DONE cands=912 31.480 s

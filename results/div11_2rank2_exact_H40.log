@@ -1,0 +1,13 @@
+INPUT_LINES 11
+EXACT a=7 b=-29 c=25 d=14 torsion=[ 2, 2 ]
+EXACT a=2 b=25 c=12 d=15 torsion=[ 2, 2 ]
+EXACT a=0 b=-31 c=15 d=12 torsion=[ 2, 2 ]
+EXACT a=0 b=-21 c=37 d=21 torsion=[ 2, 2 ]
+EXACT a=0 b=-12 c=30 d=39 torsion=[ 2, 2 ]
+EXACT a=4 b=-23 c=9 d=38 torsion=[ 2, 2 ]
+EXACT a=19 b=15 c=35 d=25 torsion=[ 2, 2 ]
+EXACT a=20 b=-35 c=22 d=-29 torsion=[ 2, 2 ]
+EXACT a=25 b=-33 c=26 d=22 torsion=[ 2, 2 ]
+EXACT a=34 b=-24 c=37 d=24 torsion=[ 2, 2 ]
+EXACT a=27 b=33 c=36 d=40 torsion=[ 2, 2 ]
+EXACT_DONE run=11 hits=0

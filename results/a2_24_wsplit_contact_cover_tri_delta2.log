@@ -1,0 +1,9 @@
+WSPLIT_CONTACT_TRIANGULAR_STATS
+Delta 2
+variables: r,p,t,beta,U,M where M=H3 and V=(U^2-Delta)/4
+chart assumptions: M != 0, r != 0, t != 0
+ residual_c2 total_degree=17 terms=564
+ residual_c1 total_degree=21 terms=1381
+ residual_c0 total_degree=26 terms=2848
+ wsplit total_degree=9 terms=28
+triangular_stats_done

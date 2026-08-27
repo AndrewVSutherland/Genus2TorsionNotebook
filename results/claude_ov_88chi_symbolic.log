@@ -1,0 +1,21 @@
+=== (1) b is a perfect square ===
+b - b0^2 = 0
+r^2 - b*c = 0
+=== (2) resultants and L1(+-r) ===
+Res(L1,L2) - (b*c-a)^2*(b-c)^2/e2^2 = 0
+Res(L2,L3) - (b*c-a)^2 = 0
+L1(r)  - (b*c-a)*(b0-t)^2/e2 = 0
+L1(-r) - (b*c-a)*(b0+t)^2/e2 = 0
+L3(r) - (b*c-a) = 0
+=== (3) c-b == Psi modulo squares ===
+(c-b)/Psi = 4*s^2*t^2 / s^8*v^4 - 2*s^6*t^4*v^4 + 2*s^6*t^2*v^4 + 4*s^6*v^3 + s^4*t^8*v^4 - 2*s^4*t^6*v^4 + s^4*t^4*v^4 - 4*s^4*t^4*v^3 + 4*s^4*t^2*v^3 + 6*s^4*v^2 - 2*s^2*t^4*v^2 + 2*s^2*t^2*v^2 + 4*s^2*v + 1
+IsSquare( num*den of (c-b)/Psi ) = true
+   sqrt = 2*s^5*t*v^2 - 2*s^3*t^5*v^2 + 2*s^3*t^3*v^2 + 4*s^3*t*v + 2*s*t
+=== (4) the halving system above T2 ===
+remainder of (k u^2 + d2 L1 L3) mod L2  =  0
+lc(quotient) - (k+d2) = 0
+disc(quotient) numerator factorization:
+   [deg 1, mult 1] (large)
+   [deg 1, mult 1] (large)
+   [deg 2, mult 1] (large)
+SYMBOLIC_DONE

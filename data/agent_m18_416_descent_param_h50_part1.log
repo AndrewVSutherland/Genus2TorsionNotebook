@@ -1,0 +1,7 @@
+PARAM DESCENT SEARCH hR=50 hM=50 Part=1/6
+PROGRESS tested=500000 wOK=250614 C2pass=11 sstage=0 halvable=0 hits=0
+PROGRESS tested=1000000 wOK=499995 C2pass=11 sstage=0 halvable=0 hits=0
+PROGRESS tested=1500000 wOK=750295 C2pass=11 sstage=0 halvable=0 hits=0
+SEARCH_DONE tested=1597020 wOK=798252 C2pass=11 sstage=0 halvable=0 hits416=0
+TORSION_COUNTS
+DONE

@@ -1,0 +1,2 @@
+N9_DEEP_PADIC_FILTER_START p 13 precision 60 bank 144 input results/target_22224_N9_rank3_periodic_N3000.tsv
+N9_DEEP_PADIC_FILTER_DONE p 13 tested 219487 finite 219486 infinity 1 unresolved 0 deep_p5 0 output results/target_22224_N9_rank3_periodic_N3000_p13deep.tsv

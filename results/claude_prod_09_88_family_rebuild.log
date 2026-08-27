@@ -1,0 +1,21 @@
+Loading "code/claude_prod_09_88_defs.m"
+GATE_A (2,3,1): a=17/2 b=670761/69169 c=9
+GATE_A_PASS
+STAGE1 m=2 n=1 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=2 n=1 v=-1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=2 n=1 v=2 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=2 n=3 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=3 n=1 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=3 n=2 v=-1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=1/2 n=2 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=2/3 n=1 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=2 n=5 v=1/2 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+STAGE1 m=3 n=1/3 v=1 J2=[ 2, 2, 2, 4 ] over0a=true J1=[ 4, 4 ]
+GATE_B_PASS (10/10 stage-1 rows reproduced)
+DOUBLE m=3 n=1/3 v=-729/17500 J2=[ 2, 2, 4, 4 ] over0a=true overcoo=true J1=[ 4, 4 ]
+DOUBLE m=3 n=1/3 v=26244/7975 J2=[ 2, 2, 4, 4 ] over0a=true overcoo=true J1=[ 4, 4 ]
+DOUBLE m=3 n=1/3 v=729/38425 J2=[ 2, 2, 4, 4 ] over0a=true overcoo=true J1=[ 4, 4 ]
+GATE_C_PASS (3/3 double-stage-1 rows reproduced)
+GATE_D (3,1/2,1): J1=[ 2, 4, 4 ]
+GATE_D_PASS
+FAMILY_REBUILD_VALIDATED

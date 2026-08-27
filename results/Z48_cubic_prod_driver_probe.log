@@ -1,0 +1,15 @@
+AGENT_Z48_CUBIC_PRODUCTION_DRIVER
+Mode=search
+Z48_CUBIC_CONTACT_SEARCH
+RTHeight=4 ExcludeRTHeight=3 SearchBound=2 PrimeBound=19 MinGood=1 GateMode=48 SliceMod=1 SliceClass=0 MaxSlices=1 MaxA16Roots=5 MaxExact=1 ContactHeight=1 DoExact3=true UseFixedSlice=false FixedR=0 FixedT=0
+primes [ 5, 7, 11, 13, 17, 19 ]
+PROGRESS runSlices=1 rawSlices=1 tested=0 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+SEARCH_DONE rawSlices=462 completedSkipped=182 eligibleSlices=280 partitionSkipped=0 maxSliceSkipped=279 runSlices=1 sliceBuildFail=0 tested=49 commonRootPairs=0 rationalRoots=0 rootCapSkipped=0 singular=0 nonsingular=0 pointGateReject=0 pointGatePass=0 threeChecked=0 threeReject=0 threePass=0 contactHits=0 exactTried=0 squareReject=0 d8Reject=0 d16Reject=0 certified=0 z48Hits=0
+SLICE_CATEGORIES_RUN
+  bothnew : 1
+ROOT_CATEGORIES
+NONSINGULAR_CATEGORIES
+FIRST_POINT_GATE_KILLS
+FIRST_POINT_GATE_KILLS_BY_CATEGORY
+EXACT3_TORSION_HISTOGRAM
+DONE

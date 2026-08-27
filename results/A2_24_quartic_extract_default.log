@@ -1,0 +1,389 @@
+Magma V2.28-27    Thu Jul  2 2026 11:54:45 on <host> [Seed = 2727231498]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/agent_A2_24_quartic_extract.m"
+A2_24_QUARTIC_EXTRACT_START
+parameters SearchHeight=8
+
+FIBER index=1 p=-1/3 z=-1 r=4/3
+  R=1/5*x^2 + 1/5*x + 7/5
+  F=9/25*x^4 + 33/25*x^3 + 3*x^2 + 56/25*x + 16/25
+  f=9/125*x^6 + 42/125*x^5 + 171/125*x^4 + 362/125*x^3 + 597/125*x^2 + 408/125*x + 112/125
+  F_factorization=[
+<x^2 + x + 1/3, 1>,
+<x^2 + 8/3*x + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  cyclic_two_torsion_TR_u=x^2 + x + 7 TR_v=0
+  rational_two_torsion_count=4
+  TWO_CLASS label=O index=1 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=1 p=-1/3 z=-1 r=4/3 two_index=2 two_count=4
+    T_u=x^2 + x + 1/3
+    T_v=0
+    D=P12+T u=x^2 - 2/3*x - 4/3
+    D=P12+T v=-7/3*x - 8/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=1 p=-1/3 z=-1 r=4/3 two_index=2 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625, 1>
+] rational_roots=[]
+      discriminant=-184312513953792/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 18>, <3, 15>, <7, 2> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 1728/4225*eta^2 + 73872/1373125*eta - 93312/34328125 resolvent_factorization=[
+<eta - 72/325, 1>,
+<eta^2 - 792/4225*eta + 1296/105625, 1>
+] resolvent_roots_Q=[ <72/325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/126*(4225*a^3 + 2730*a^2 + 846*a + 198) degree_N=1
+      N_expression=1/126*(-4225*a^3 - 2730*a^2 - 846*a - 198)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=1 p=-1/3 z=-1 r=4/3 two_index=2 branch=2 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(-325*a^2 - 390*a + 51) degree_N=1
+      N_expression=1/120*(325*a^2 + 390*a - 51)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 60/13*m^7 + 51066/4225*m^6 + 51408/4225*m^5 + 1070739/105625*m^4 + 2395008/528125*m^3 + 3873906/2640625*m^2 + 3577932/13203125*m + 1266273/66015625
+  TWO_CLASS label=TR index=3 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=1 p=-1/3 z=-1 r=4/3 two_index=4 two_count=4
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D=P12+T u=m^2 + 13/3*m + 26/3
+    D=P12+T v=5/3*m + 16/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=1 p=-1/3 z=-1 r=4/3 two_index=4 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(325*a^2 - 90*a + 69) degree_N=1
+      N_expression=1/120*(-325*a^2 + 90*a - 69)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=1 p=-1/3 z=-1 r=4/3 two_index=4 branch=2 mult=1
+      qM_monic=eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625
+      q_factorization_Q=[
+<eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/5165516130531461748291015625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <11, 10>, <13, 8> ]
+      cubic_resolvent=eta^3 - 56646/511225*eta^2 + 8210484/1827629375*eta - 397374984/6533775015625 resolvent_factorization=[
+<eta - 1098/39325, 1>,
+<eta^2 - 3852/46475*eta + 361908/166148125, 1>
+] resolvent_roots_Q=[ <1098/39325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/18720*(-2556125*a^3 + 1083225*a^2 - 105975*a + 9171) degree_N=1
+      N_expression=1/18720*(2556125*a^3 - 1083225*a^2 + 105975*a - 9171)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 192/143*m^7 + 110412/511225*m^6 - 8892288/28117375*m^5 - 174495546/1546455625*m^4 + 225364032/7732278125*m^3 + 741675852/38661390625*m^2 - 1160054784/193306953125*m + 440118441/966534765625
+
+FIBER index=2 p=-1/3 z=1 r=4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TWO_CLASS label=O index=1 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=2 p=-1/3 z=1 r=4/3 two_index=2 two_count=4
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D=P12+T u=m^2 + 13/3*m + 26/3
+    D=P12+T v=5/3*m + 16/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=2 p=-1/3 z=1 r=4/3 two_index=2 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(325*a^2 - 90*a + 69) degree_N=1
+      N_expression=1/120*(-325*a^2 + 90*a - 69)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=2 p=-1/3 z=1 r=4/3 two_index=2 branch=2 mult=1
+      qM_monic=eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625
+      q_factorization_Q=[
+<eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/5165516130531461748291015625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <11, 10>, <13, 8> ]
+      cubic_resolvent=eta^3 - 56646/511225*eta^2 + 8210484/1827629375*eta - 397374984/6533775015625 resolvent_factorization=[
+<eta - 1098/39325, 1>,
+<eta^2 - 3852/46475*eta + 361908/166148125, 1>
+] resolvent_roots_Q=[ <1098/39325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/18720*(-2556125*a^3 + 1083225*a^2 - 105975*a + 9171) degree_N=1
+      N_expression=1/18720*(2556125*a^3 - 1083225*a^2 + 105975*a - 9171)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 192/143*m^7 + 110412/511225*m^6 - 8892288/28117375*m^5 - 174495546/1546455625*m^4 + 225364032/7732278125*m^3 + 741675852/38661390625*m^2 - 1160054784/193306953125*m + 440118441/966534765625
+  TWO_CLASS label=TR index=3 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=2 p=-1/3 z=1 r=4/3 two_index=4 two_count=4
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D=P12+T u=m^2 - 2/3*m - 4/3
+    D=P12+T v=-7/3*m - 8/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=2 p=-1/3 z=1 r=4/3 two_index=4 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625, 1>
+] rational_roots=[]
+      discriminant=-184312513953792/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 18>, <3, 15>, <7, 2> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 1728/4225*eta^2 + 73872/1373125*eta - 93312/34328125 resolvent_factorization=[
+<eta - 72/325, 1>,
+<eta^2 - 792/4225*eta + 1296/105625, 1>
+] resolvent_roots_Q=[ <72/325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/126*(4225*a^3 + 2730*a^2 + 846*a + 198) degree_N=1
+      N_expression=1/126*(-4225*a^3 - 2730*a^2 - 846*a - 198)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=2 p=-1/3 z=1 r=4/3 two_index=4 branch=2 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(-325*a^2 - 390*a + 51) degree_N=1
+      N_expression=1/120*(325*a^2 + 390*a - 51)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 60/13*m^7 + 51066/4225*m^6 + 51408/4225*m^5 + 1070739/105625*m^4 + 2395008/528125*m^3 + 3873906/2640625*m^2 + 3577932/13203125*m + 1266273/66015625
+
+FIBER index=3 p=1/3 z=-1 r=-4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TWO_CLASS label=O index=1 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=3 p=1/3 z=-1 r=-4/3 two_index=2 two_count=4
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D=P12+T u=m^2 - 2/3*m - 4/3
+    D=P12+T v=-7/3*m - 8/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=3 p=1/3 z=-1 r=-4/3 two_index=2 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625, 1>
+] rational_roots=[]
+      discriminant=-184312513953792/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 18>, <3, 15>, <7, 2> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 1728/4225*eta^2 + 73872/1373125*eta - 93312/34328125 resolvent_factorization=[
+<eta - 72/325, 1>,
+<eta^2 - 792/4225*eta + 1296/105625, 1>
+] resolvent_roots_Q=[ <72/325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/126*(4225*a^3 + 2730*a^2 + 846*a + 198) degree_N=1
+      N_expression=1/126*(-4225*a^3 - 2730*a^2 - 846*a - 198)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=3 p=1/3 z=-1 r=-4/3 two_index=2 branch=2 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(-325*a^2 - 390*a + 51) degree_N=1
+      N_expression=1/120*(325*a^2 + 390*a - 51)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 60/13*m^7 + 51066/4225*m^6 + 51408/4225*m^5 + 1070739/105625*m^4 + 2395008/528125*m^3 + 3873906/2640625*m^2 + 3577932/13203125*m + 1266273/66015625
+  TWO_CLASS label=TR index=3 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=3 p=1/3 z=-1 r=-4/3 two_index=4 two_count=4
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D=P12+T u=m^2 + 13/3*m + 26/3
+    D=P12+T v=5/3*m + 16/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=3 p=1/3 z=-1 r=-4/3 two_index=4 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(325*a^2 - 90*a + 69) degree_N=1
+      N_expression=1/120*(-325*a^2 + 90*a - 69)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=3 p=1/3 z=-1 r=-4/3 two_index=4 branch=2 mult=1
+      qM_monic=eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625
+      q_factorization_Q=[
+<eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/5165516130531461748291015625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <11, 10>, <13, 8> ]
+      cubic_resolvent=eta^3 - 56646/511225*eta^2 + 8210484/1827629375*eta - 397374984/6533775015625 resolvent_factorization=[
+<eta - 1098/39325, 1>,
+<eta^2 - 3852/46475*eta + 361908/166148125, 1>
+] resolvent_roots_Q=[ <1098/39325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/18720*(-2556125*a^3 + 1083225*a^2 - 105975*a + 9171) degree_N=1
+      N_expression=1/18720*(2556125*a^3 - 1083225*a^2 + 105975*a - 9171)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 192/143*m^7 + 110412/511225*m^6 - 8892288/28117375*m^5 - 174495546/1546455625*m^4 + 225364032/7732278125*m^3 + 741675852/38661390625*m^2 - 1160054784/193306953125*m + 440118441/966534765625
+
+FIBER index=4 p=1/3 z=1 r=-4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TWO_CLASS label=O index=1 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=4 p=1/3 z=1 r=-4/3 two_index=2 two_count=4
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D=P12+T u=m^2 + 13/3*m + 26/3
+    D=P12+T v=5/3*m + 16/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=4 p=1/3 z=1 r=-4/3 two_index=2 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(325*a^2 - 90*a + 69) degree_N=1
+      N_expression=1/120*(-325*a^2 + 90*a - 69)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=4 p=1/3 z=1 r=-4/3 two_index=2 branch=2 mult=1
+      qM_monic=eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625
+      q_factorization_Q=[
+<eta^4 - 84/143*eta^3 + 56646/511225*eta^2 - 14364/2556125*eta - 3807/12780625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/5165516130531461748291015625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <11, 10>, <13, 8> ]
+      cubic_resolvent=eta^3 - 56646/511225*eta^2 + 8210484/1827629375*eta - 397374984/6533775015625 resolvent_factorization=[
+<eta - 1098/39325, 1>,
+<eta^2 - 3852/46475*eta + 361908/166148125, 1>
+] resolvent_roots_Q=[ <1098/39325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/18720*(-2556125*a^3 + 1083225*a^2 - 105975*a + 9171) degree_N=1
+      N_expression=1/18720*(2556125*a^3 - 1083225*a^2 + 105975*a - 9171)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 192/143*m^7 + 110412/511225*m^6 - 8892288/28117375*m^5 - 174495546/1546455625*m^4 + 225364032/7732278125*m^3 + 741675852/38661390625*m^2 - 1160054784/193306953125*m + 440118441/966534765625
+  TWO_CLASS label=TR index=3 affine_factor_degrees=[ <16, 1> ]
+  EXTRA_TRANSLATION fiber=4 p=1/3 z=1 r=-4/3 two_index=4 two_count=4
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D=P12+T u=m^2 - 2/3*m - 4/3
+    D=P12+T v=-7/3*m - 8/3
+    D_exact_order12=true
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    s4=M^2 - 9/125
+    s4_factor_degrees=[ <2, 1> ] raw_resultant_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    QUARTIC_BRANCH fiber=4 p=1/3 z=1 r=-4/3 two_index=4 branch=1 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 1728/4225*eta^2 + 1512/21125*eta + 324/105625, 1>
+] rational_roots=[]
+      discriminant=-184312513953792/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 18>, <3, 15>, <7, 2> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 1728/4225*eta^2 + 73872/1373125*eta - 93312/34328125 resolvent_factorization=[
+<eta - 72/325, 1>,
+<eta^2 - 792/4225*eta + 1296/105625, 1>
+] resolvent_roots_Q=[ <72/325, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/126*(4225*a^3 + 2730*a^2 + 846*a + 198) degree_N=1
+      N_expression=1/126*(-4225*a^3 - 2730*a^2 - 846*a - 198)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    QUARTIC_BRANCH fiber=4 p=1/3 z=1 r=-4/3 two_index=4 branch=2 mult=1
+      qM_monic=eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625
+      q_factorization_Q=[
+<eta^4 + 12/13*eta^3 + 2214/4225*eta^2 - 3348/21125*eta - 1863/105625, 1>
+] rational_roots=[]
+      discriminant=-3944197523094110208/33656858361572265625 disc_is_square=false disc_num_factorization=[ <2, 38>, <3, 15> ] disc_den_factorization=[ <5, 12>, <13, 10> ]
+      cubic_resolvent=eta^3 - 2214/4225*eta^2 - 104004/1373125*eta - 1615464/34328125 resolvent_factorization=[
+<eta - 18/25, 1>,
+<eta^2 + 828/4225*eta + 89748/1373125, 1>
+] resolvent_roots_Q=[ <18/25, 1> ]
+      branch_field=Q<a>/(qM) gcd_N=n + 1/120*(-325*a^2 - 390*a + 51) degree_N=1
+      N_expression=1/120*(325*a^2 + 390*a - 51)
+      s4_at_branch=1/125*(125*a^2 - 9) nonzero=true
+      component_type=zero_dimensional_linear_N no_low_genus_model
+    NONQUARTIC_AFFINE_FACTOR degree_M=8 mult=1 rational_roots=[] factor=m^8 + 60/13*m^7 + 51066/4225*m^6 + 51408/4225*m^5 + 1070739/105625*m^4 + 2395008/528125*m^3 + 3873906/2640625*m^2 + 3577932/13203125*m + 1266273/66015625
+
+A2_24_QUARTIC_EXTRACT_DONE fibers=4 extra_classes=8 quartic_branches=16 quartics_with_Q_root=0 direct_Q_points_height_8=0 cputime=0.630
+
+Total time: 0.610 seconds, Total memory usage: 32.09MB

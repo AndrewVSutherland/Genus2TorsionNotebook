@@ -1,0 +1,56 @@
+===== N = 8 =====
+alpha      = -36*t^2 + 36*t
+cls(alpha) = -T^2 + T
+cls(Delta) = 2*T^2 - 2*T + 1/4
+cls(alpha*Delta) = -2*T^4 + 4*T^3 - 9/4*T^2 + 1/4*T
+-- untwisted condition curve: w^2 = -T^2 + T
+   degree <= 2 (conic-like): -T^2 + T -- handle manually
+-- twisted condition curve: w^2 = -32*T^4 + 64*T^3 - 36*T^2 + 4*T
+   genus 1
+   small points (bound 2000): {@ (0 : 0 : 1), (1 : 0 : 1) @}
+   E = [ 0, 0, 0, -11, -14 ], conductor 32
+   MW [ 2 ]
+   CANDT N=8 case=twisted t=0
+   CANDT N=8 case=twisted t=1
+===== N = 10 =====
+alpha      = (36*t^4 - 36*t^3)/(t^2 - 3*t + 1)
+cls(alpha) = T^4 - 4*T^3 + 4*T^2 - T
+cls(Delta) = 2*T^3 - 2*T^2 + 1/4
+cls(alpha*Delta) = 2*T^7 - 10*T^6 + 16*T^5 - 39/4*T^4 + T^3 + T^2 - 1/4*T
+-- untwisted condition curve: w^2 = T^4 - 4*T^3 + 4*T^2 - T
+   genus 1
+   small points (bound 2000): {@ (1 : -1 : 0), (1 : 1 : 0), (0 : 0 : 1), (1 : 0 : 1), (1 : -1 : 2), (1 : 1 : 2) @}
+   E = [ 0, 1, 0, -1, 0 ], conductor 20
+   MW [ 6 ]
+   CANDT N=10 case=untwisted t=1/2
+   CANDT N=10 case=untwisted t=0
+   CANDT N=10 case=untwisted t=1/2
+   CANDT N=10 case=untwisted t=1
+-- twisted condition curve: w^2 = 32*T^7 - 160*T^6 + 256*T^5 - 156*T^4 + 16*T^3 + 16*T^2 - 4*T
+   genus 3
+   small points (bound 2000): {@ (1 : 0 : 0), (0 : 0 : 1), (1 : 0 : 1), (1 : 0 : 2) @}
+   genus 3 >= 2: finitely many points; listed above
+   CANDT N=10 case=twisted t=0
+   CANDT N=10 case=twisted t=1
+   CANDT N=10 case=twisted t=1/2
+===== N = 12 =====
+alpha      = (-108*t^3 + 108*t^2 - 36*t)/(t - 1)
+cls(alpha) = -3*T^4 + 6*T^3 - 4*T^2 + T
+cls(Delta) = 3*T^4 - 6*T^3 + 5*T^2 - 2*T + 1/4
+cls(alpha*Delta) = -T^8 + 4*T^7 - 7*T^6 + 7*T^5 - 155/36*T^4 + 29/18*T^3 - 1/3*T^2 + 1/36*T
+-- untwisted condition curve: w^2 = -3*T^4 + 6*T^3 - 4*T^2 + T
+   genus 1
+   small points (bound 2000): {@ (0 : 0 : 1), (1 : 0 : 1), (1 : -1 : 2), (1 : 1 : 2) @}
+   E = [ 0, -1, 0, 1, 0 ], conductor 24
+   MW [ 4 ]
+   CANDT N=12 case=untwisted t=0
+   CANDT N=12 case=untwisted t=1/2
+   CANDT N=12 case=untwisted t=1
+   CANDT N=12 case=untwisted t=1/2
+-- twisted condition curve: w^2 = -1296*T^8 + 5184*T^7 - 9072*T^6 + 9072*T^5 - 5580*T^4 + 2088*T^3 - 432*T^2 + 36*T
+   genus 3
+   small points (bound 2000): {@ (0 : 0 : 1), (1 : 0 : 1) @}
+   genus 3 >= 2: finitely many points; listed above
+   CANDT N=12 case=twisted t=0
+   CANDT N=12 case=twisted t=1
+SYM_DONE

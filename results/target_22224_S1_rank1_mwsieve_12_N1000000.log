@@ -1,0 +1,28 @@
+REPEATED_RANK2_MWSIEVE_START S1 pair <1, 2> remaining 3 N 1000000 fixed [ -4, 9, 30 ]
+d0 -2166/245 known_t 7/19 E Elliptic Curve defined by y^2 = x^3 + x^2 + 3392*x + 62288 over Rational Field
+rank_bounds 1 1 generators [ (-17 : 0 : 1), (152 : -2028 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_SKIP 11 map_reduction
+PRIME_SKIP 13 E_bad_reduction
+PRIME_PROFILE S1 p 17 orders 10 1 total 20 third_fail 0 open_no3 0 open_3 0 boundary 20 finite_direct_boundary 18 infinity 2 allowed 20 lattice_before 4000002 lattice_after 4000002
+PRIME_PROFILE S1 p 19 orders 3 1 total 6 third_fail 0 open_no3 0 open_3 0 boundary 6 finite_direct_boundary 1 infinity 5 allowed 6 lattice_before 4000002 lattice_after 4000002
+PRIME_PROFILE S1 p 23 orders 16 1 total 32 third_fail 6 open_no3 16 open_3 8 boundary 2 finite_direct_boundary 0 infinity 2 allowed 10 lattice_before 4000002 lattice_after 1250000
+PRIME_PROFILE S1 p 29 orders 8 1 total 16 third_fail 0 open_no3 8 open_3 6 boundary 2 finite_direct_boundary 0 infinity 2 allowed 8 lattice_before 1250000 lattice_after 1250000
+PRIME_PROFILE S1 p 31 orders 7 1 total 14 third_fail 0 open_no3 4 open_3 0 boundary 10 finite_direct_boundary 7 infinity 3 allowed 10 lattice_before 1250000 lattice_after 892854
+PRIME_PROFILE S1 p 37 orders 14 1 total 28 third_fail 4 open_no3 14 open_3 8 boundary 2 finite_direct_boundary 0 infinity 2 allowed 10 lattice_before 892854 lattice_after 446427
+PRIME_PROFILE S1 p 41 orders 10 1 total 20 third_fail 7 open_no3 0 open_3 8 boundary 5 finite_direct_boundary 4 infinity 1 allowed 13 lattice_before 446427 lattice_after 300000
+PRIME_PROFILE S1 p 43 orders 10 1 total 20 third_fail 0 open_no3 8 open_3 6 boundary 6 finite_direct_boundary 4 infinity 2 allowed 12 lattice_before 300000 lattice_after 121427
+PRIME_PROFILE S1 p 47 orders 9 1 total 18 third_fail 4 open_no3 0 open_3 8 boundary 6 finite_direct_boundary 5 infinity 1 allowed 14 lattice_before 121427 lattice_after 94448
+PRIME_PROFILE S1 p 53 orders 15 1 total 30 third_fail 19 open_no3 8 open_3 0 boundary 3 finite_direct_boundary 2 infinity 1 allowed 3 lattice_before 94448 lattice_after 15474
+PRIME_PROFILE S1 p 59 orders 30 1 total 60 third_fail 34 open_no3 8 open_3 16 boundary 2 finite_direct_boundary 0 infinity 2 allowed 18 lattice_before 15474 lattice_after 10713
+PRIME_PROFILE S1 p 61 orders 4 1 total 8 third_fail 0 open_no3 3 open_3 0 boundary 5 finite_direct_boundary 4 infinity 1 allowed 5 lattice_before 10713 lattice_after 10713
+PRIME_PROFILE S1 p 67 orders 38 1 total 76 third_fail 30 open_no3 32 open_3 0 boundary 14 finite_direct_boundary 12 infinity 2 allowed 14 lattice_before 10713 lattice_after 2256
+PRIME_PROFILE S1 p 71 orders 42 1 total 84 third_fail 34 open_no3 48 open_3 0 boundary 2 finite_direct_boundary 0 infinity 2 allowed 2 lattice_before 2256 lattice_after 753
+PRIME_PROFILE S1 p 73 orders 21 1 total 42 third_fail 23 open_no3 16 open_3 0 boundary 3 finite_direct_boundary 2 infinity 1 allowed 3 lattice_before 753 lattice_after 753
+PRIME_PROFILE S1 p 79 orders 44 1 total 88 third_fail 40 open_no3 38 open_3 8 boundary 2 finite_direct_boundary 0 infinity 2 allowed 10 lattice_before 753 lattice_after 135
+PRIME_PROFILE S1 p 83 orders 14 1 total 28 third_fail 4 open_no3 14 open_3 8 boundary 2 finite_direct_boundary 0 infinity 2 allowed 10 lattice_before 135 lattice_after 135
+PRIME_PROFILE S1 p 89 orders 26 1 total 52 third_fail 23 open_no3 16 open_3 12 boundary 1 finite_direct_boundary 0 infinity 1 allowed 13 lattice_before 135 lattice_after 43
+PRIME_PROFILE S1 p 97 orders 25 1 total 50 third_fail 16 open_no3 20 open_3 11 boundary 3 finite_direct_boundary 2 infinity 1 allowed 14 lattice_before 43 lattice_after 26
+REPEATED_RANK2_MWSIEVE_DONE S1 N 1000000 used_primes [ 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+lattice_survivors 26 distinct_exact_t 1 deferred 25 exact_full 0 three_hits 0 output results/target_22224_S1_rank1_mwsieve_12_N1000000.tsv modular_file results/target_22224_S1_rank1_mwsieve_12_N1000000_modular.tsv

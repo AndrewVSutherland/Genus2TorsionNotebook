@@ -1,0 +1,9 @@
+PADIC_LIFT p 11 exponent 5 modulus 161051 base (0, 5, 2, 8, 4, 9, 10) flags qrep+root0+rad0 jacobian_ranks [7]
+  vector (114829, 114284, 113379, 92584, 39384, 64348, 91772, 82313, 93379, 103590, 57886)
+  equations [0, 0, 0, 0, 0, 0, 0, 0]
+  open_values {'t': 64348, 'qdisc': 2750, 'rootprod': 14399, 'qroot0': 161022, 'y0': 82313, 'qroot1': 53461, 'y1': 93379, 'qroot2': 95220, 'y2': 103590, 'qroot3': 76081, 'y3': 57886, 'diff01': 52060, 'diff02': 102846, 'diff03': 113137, 'diff12': 50786, 'diff13': 61077, 'diff23': 10291, 'rect01_23': 99545, 'rect02_13': 15195, 'rect03_12': 143144}
+PADIC_LIFT p 13 exponent 5 modulus 371293 base (7, 7, 8, 5, 5, 4, 6) flags qrep+rootrep+rad0 jacobian_ranks [8]
+  vector (99041, 205199, 64397, 78070, 232770, 34467, 233629, 65864, 310965, 349679, 328211)
+  equations [0, 0, 0, 0, 0, 0, 0, 0]
+  open_values {'t': 34467, 'qdisc': 110747, 'rootprod': 250377, 'qroot0': 95174, 'y0': 65864, 'qroot1': 183782, 'y1': 310965, 'qroot2': 310306, 'y2': 349679, 'qroot3': 180176, 'y3': 328211, 'diff01': 154271, 'diff02': 299115, 'diff03': 150902, 'diff12': 144844, 'diff13': 367924, 'diff23': 223080, 'rect01_23': 225234, 'rect02_13': 165264, 'rect03_12': 72012}
+CERTIFICATES 2 OUTPUT results/target_22224_direct_contact_deep13_padic_lift.tsv

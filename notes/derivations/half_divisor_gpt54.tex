@@ -1,0 +1,200 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+
+\newtheorem{proposition}{Proposition}
+
+\begin{document}
+This is the halving describing the Mumford representation of the order 4 element in the (2,2,4,4) family. Written entirely by GPT 5.4 Thinking (see the companion scripts halving.m and halving\_all.m).
+
+
+\begin{proposition}
+Let
+\[
+A=a^2,\qquad B=b^2,\qquad C=c^2,\qquad D=d^2,
+\]
+and suppose that
+\[
+u^2=(A-C)(A-D),\qquad
+v^2=(B-C)(B-D),\qquad
+w^2=(A-C)(B-C),\qquad
+t^2=(A-D)(B-D),
+\]
+so that $uv=wt$. Let
+\[
+C:\ y^2=x(x+A)(x+B)(x+C)(x+D),
+\]
+and let
+\[
+P_a=(-A,0),\qquad P_b=(-B,0).
+\]
+Then the divisor class
+\[
+D:=P_a+P_b-2\infty\in J(\mathbf Q)=\operatorname{Jac}(C)(\mathbf Q)
+\]
+is divisible by $2$.
+
+Define
+\[
+\rho=\frac{a}{b},\qquad
+\sigma=\frac{A-C}{w}=\frac{w}{B-C},\qquad
+\tau=\frac{A-D}{t}=\frac{t}{B-D},
+\]
+and let $s_1,s_2,s_3,s_4$ be the elementary symmetric polynomials in
+\[
+1,\ \rho,\ \sigma,\ \tau.
+\]
+Thus
+\[
+s_1=1+\rho+\sigma+\tau,
+\]
+\[
+s_2=\rho+\sigma+\tau+\rho\sigma+\rho\tau+\sigma\tau,
+\]
+\[
+s_3=\rho\sigma+\rho\tau+\sigma\tau+\rho\sigma\tau,
+\]
+\[
+s_4=\rho\sigma\tau.
+\]
+Set
+\[
+\delta:=1+s_2+s_4.
+\]
+
+Then one divisor class $D'\in J(\mathbf Q)$ satisfying $2D'=D$ has Mumford
+representation
+\[
+D'=[U(x),V(x)],
+\]
+where
+\[
+U(x)=\frac{(x+A)^2+s_2(x+A)(x+B)+s_4(x+B)^2}{\delta},
+\]
+i.e.
+\[
+U(x)=x^2+\frac{2A+s_2(A+B)+2Bs_4}{\delta}\,x
++\frac{A^2+ABs_2+B^2s_4}{\delta},
+\]
+and
+\[
+V(x)=-\frac{bv}{\delta^2}\,(\Lambda x+M),
+\]
+with
+\[
+\Lambda
+=
+s_1s_2-s_1s_4^2+3s_1s_4+s_2s_3s_4+3s_3s_4-s_3,
+\]
+and
+\[
+M
+=
+As_1s_2+2As_1s_4+As_3s_4-As_3
+-Bs_1s_4^2+Bs_1s_4+Bs_2s_3s_4+2Bs_3s_4.
+\]
+
+Hence
+\[
+2[U(x),V(x)]=P_a+P_b-2\infty.
+\]
+
+Different choices of the square roots $\rho,\sigma,\tau$ give the other halves,
+differing from $D'$ by elements of $J[2]$.
+\end{proposition}
+
+\begin{proof}
+Consider the birational change of variables
+\[
+z=-\frac{x+A}{x+B},
+\qquad
+Y=\frac{(B-A)^2}{bv}\,\frac{y}{(x+B)^3}.
+\]
+A direct calculation shows that $C$ becomes
+\[
+C':\quad
+Y^2=z(z+1)(z+\alpha)(z+\beta)(z+\gamma),
+\]
+where
+\[
+\alpha=\frac{A}{B}=\rho^2,\qquad
+\beta=\frac{A-C}{B-C}=\sigma^2,\qquad
+\gamma=\frac{A-D}{B-D}=\tau^2.
+\]
+
+Under this map,
+\[
+P_a\longmapsto (0,0),\qquad
+P_b\longmapsto \infty',\qquad
+\infty\longmapsto (-1,0).
+\]
+Therefore
+\[
+P_a+P_b-2\infty
+\longmapsto
+(0,0)+\infty'-2(-1,0)
+\sim
+(0,0)-\infty',
+\]
+since $(-1,0)-\infty'$ is a $2$-torsion point on $\operatorname{Jac}(C')$.
+
+Now apply Lemma~3.1(b) to the curve $C'$, whose four nonzero branch points are
+\[
+1,\ \rho^2,\ \sigma^2,\ \tau^2.
+\]
+It follows that a half of $(0,0)-\infty'$ is represented on $C'$ by
+\[
+U'(z)=z^2-s_2z+s_4,
+\qquad
+V'(z)=(s_1s_2-s_3)z-s_1s_4.
+\]
+
+Pulling this divisor back to $C$, we substitute
+\[
+z=-\frac{x+A}{x+B}.
+\]
+Multiplying $U'(z)$ by $(x+B)^2$ and normalizing to make it monic gives
+\[
+U(x)=\frac{(x+A)^2+s_2(x+A)(x+B)+s_4(x+B)^2}{\delta},
+\qquad
+\delta=U'(-1)=1+s_2+s_4.
+\]
+
+For the $v$-polynomial, the pullback of $V'(z)$ is
+\[
+\widetilde V(x)
+=
+\frac{bv}{(B-A)^2}(x+B)^2
+\Bigl(-(s_1s_2-s_3)(x+A)-s_1s_4(x+B)\Bigr).
+\]
+Reducing $\widetilde V(x)$ modulo $U(x)$ gives the unique linear polynomial
+$V(x)$ with
+\[
+V(x)\equiv \widetilde V(x)\pmod{U(x)}.
+\]
+A straightforward reduction yields
+\[
+V(x)=-\frac{bv}{\delta^2}\,(\Lambda x+M),
+\]
+where
+\[
+\Lambda
+=
+s_1s_2-s_1s_4^2+3s_1s_4+s_2s_3s_4+3s_3s_4-s_3,
+\]
+and
+\[
+M
+=
+As_1s_2+2As_1s_4+As_3s_4-As_3
+-Bs_1s_4^2+Bs_1s_4+Bs_2s_3s_4+2Bs_3s_4.
+\]
+
+Thus the pullback divisor $[U(x),V(x)]$ satisfies
+\[
+2[U(x),V(x)]=P_a+P_b-2\infty,
+\]
+as required.
+\end{proof}
+
+\end{document}

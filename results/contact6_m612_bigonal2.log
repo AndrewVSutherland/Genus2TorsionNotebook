@@ -1,0 +1,15 @@
+N verified
+conic parametrization verified; u^2 = N(x(t)) holds
+S(t) = (-1/192*X^8 + 1/16*X^6 + 1/4*X^5 + 27/32*X^4 - 3/2*X^3 - 195/16*X^2 - 171/4*X - 4995/64)/X^2
+f2' (squarefree model rhs) = -1/192*x^6 + 1/32*x^5 - 5/64*x^4 + 7/16*x^3 - 69/64*x^2 + 33/32*x - 555/64
+degree 6, factorization [ <6, 1> ]
+C2' genus = 2
+== L-factor cross-check ==
+p=5: bad reduction for C2', skip
+p=7 : trace(E8)-trace(E4) = -4 - -2 = -2 ; trace(J C2') = -2  MATCH
+p=11 : trace(E8)-trace(E4) = -6 - -6 = 0 ; trace(J C2') = 0  MATCH
+p=13 : trace(E8)-trace(E4) = -6 - -4 = -2 ; trace(J C2') = -2  MATCH
+p=17 : trace(E8)-trace(E4) = -6 - -6 = 0 ; trace(J C2') = 0  MATCH
+p=19 : trace(E8)-trace(E4) = -6 - -4 = -2 ; trace(J C2') = -2  MATCH
+PRYM RANK BOUNDS: 0 <= rank <= 1
+BIGONAL2_DONE

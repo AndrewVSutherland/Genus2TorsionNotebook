@@ -1,0 +1,14 @@
+OBS_RECORDS 185
+EXACT_GATE_PASS comp1=0 comp3=0
+LOCALLY_SOLUBLE comp1=1 comp3=2 both=0
+HIST_obstructing_places_comp1 [[0, 1], [2, 22], [4, 59], [6, 54], [8, 31], [10, 8], [12, 3], [14, 6], [18, 1]]
+NDISTINCT_obstruction_primes_comp1 171
+TOP_obstruction_primes_comp1 [[56, 7], [44, 3], [38, 11], [37, -1], [36, 23], [32, 43], [31, 19], [24, 31], [23, 199], [21, 79], [20, 13], [18, 47], [16, 59], [16, 53], [15, 71]]
+NDISTINCT_obstruction_primes_comp3 89
+TOP_obstruction_primes_comp3 [[109, 3], [94, 2], [74, 7], [56, 13], [56, 11], [50, 5], [37, -1], [25, 23], [22, 19], [18, 37], [18, 17], [17, 43], [17, 29], [12, 293], [12, 79]]
+SMALLEST_obstructing_place_comp1 max over records = 3613  (0 = the real place)
+PARTIALLY_SOLUBLE_RECORDS [D1,a,def1,def3,#obs1,#obs3]:
+  [-201389431427379695759, 4991, 226207269941307577332717778717273147868510569, 9119428492738748293094834, 4, 0]
+  [-322, -2233, 470534, 89166, 0, 4]
+  [8533, 455, 73087, 12805, 2, 0]
+OBS_DONE

@@ -1,0 +1,3 @@
+geometric_endomorphism_algebra_is_field(B=100) = True
+geometric_endomorphism_ring_is_ZZ(B=100) = True
+LOMBARDO_CROSSCHECK_PASSED: End(Jac_Qbar) = ZZ, geometrically simple

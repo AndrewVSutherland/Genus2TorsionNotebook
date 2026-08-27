@@ -1,0 +1,68 @@
+Richelot sweep over contact-5 extra-2 [2,20] sources
+height 4 params 23 max_sources_per_label 2 min_source_order 40 target_order 80
+SOURCE linear_1 family linear param -4 t -61/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -164025000000*x^5 + 936056250000*x^4 - 1844296875000*x^3 + 
+    1664306640625*x^2 - 744628906250*x + 152587890625
+RICHELOT_COUNT linear_1 0
+TWOPOWER_COUNT linear_1 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_1 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_1 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE linear_2 family linear param -3 t -73/25 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 1+3
+SOURCE_CURVE -518400000000*x^5 + 2160900000000*x^4 - 3353437500000*x^3 + 
+    2449462890625*x^2 - 891113281250*x + 152587890625
+RICHELOT_COUNT linear_2 0
+TWOPOWER_COUNT linear_2 jacobians 2 products 0 weil_restrictions 0
+TWOPOWER linear_2 twopower_1 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+TWOPOWER linear_2 twopower_2 torsion [ 10 ]
+order 10 exponent 10 factor_type 2+3
+SOURCE qq_1 family qq param -4 t -877/637 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -136566036380067840000*x^5 + 5434654901497326086400*x^4 - 
+    33422110590781370771040*x^3 + 75660740308047380104801*x^2 - 
+    74645840996866831992482*x + 27109122414483564412321
+RICHELOT_COUNT qq_1 1
+RICHELOT_TYPE qq_1 richelot_1 JacHyp
+RICHELOT qq_1 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_1 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_1 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_1 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_1 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+SOURCE qq_2 family qq param -3 t -1553/833 torsion [ 2, 20 ]
+order 40 exponent 20 factor_type 2+2
+SOURCE_CURVE -32348191095706429440000*x^5 + 355243291888681172793600*x^4 - 
+    1070038486794496857835680*x^3 + 1379721912932263683336001*x^2 - 
+    864403389637872113004962*x + 231824862707130544151041
+RICHELOT_COUNT qq_2 1
+RICHELOT_TYPE qq_2 richelot_1 JacHyp
+RICHELOT qq_2 richelot_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+1+2
+TWOPOWER_COUNT qq_2 jacobians 3 products 0 weil_restrictions 0
+TWOPOWER qq_2 twopower_1 torsion [ 2, 2, 10 ]
+order 40 exponent 10 factor_type 1+1+1+2
+TWOPOWER qq_2 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 1+2+2
+TWOPOWER qq_2 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10 factor_type 2+2+2
+DONE
+checked_linear 2 checked_qq 2 tested_linear 2 tested_qq 2 unique_t 4
+best_order 40 best_exponent 20
+best_records [
+    <"linear_1", "source", [ 2, 20 ], 40, 20>,
+    <"linear_2", "source", [ 2, 20 ], 40, 20>,
+    <"qq_1", "source", [ 2, 20 ], 40, 20>,
+    <"qq_1", "richelot_1", [ 2, 2, 10 ], 40, 10>,
+    <"qq_1", "twopower_1", [ 2, 2, 10 ], 40, 10>,
+    <"qq_2", "source", [ 2, 20 ], 40, 20>,
+    <"qq_2", "richelot_1", [ 2, 2, 10 ], 40, 10>,
+    <"qq_2", "twopower_1", [ 2, 2, 10 ], 40, 10>
+]
+interesting_count 0

@@ -1,0 +1,27 @@
+CONTACT6_M612_TB_CORE (s,v)-SLICE SMOKE
+
+Script:
+  code/contact6_m612_tb_core_sv_slice.m
+
+Fixing (s,v), the full fiber product is represented by four equations in
+(r,K,M,U).  Before saturation the ideal has dimension 2 from boundary
+components.  Saturating by r*K*M*D*(U^2-4v^2)*(N+(b+2)D) leaves a
+zero-dimensional ideal.
+
+Equation sizes on the tested slices:
+
+  TB: total degree 5, 12--14 terms
+  F1: total degree 4, 19 terms
+  F2: total degree 8, 86--96 terms
+  F3: total degree 5, 26--30 terms
+
+slice          raw dim   saturated dim   Q-points   CPU seconds
+(1,-1)            2           0              0          0.11
+(1,-2)            2           0              0          0.49
+(2,-1)            2           0              0          0.52
+(1/2,-1)          2           0              0          0.35
+(1,1/2)           2           0              0          0.50
+
+Conclusion: fixing (s,v) is a viable discovery-oriented algebraic slicing.
+It removes any height bound on r, in contrast to the faster fixed-(s,r)
+candidate verifier.

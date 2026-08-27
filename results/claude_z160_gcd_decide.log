@@ -1,0 +1,8 @@
+Loading "code/claude_z96_family_setup.m"
+EQ_A degree in rho: 6, EQ_B degree: 8
+GCD degree in rho: 0
+no horizontal solutions: computing Res_rho for the finite candidate set...
+resultant u-degree: 752
+rational u-candidates: [ 6120 ]
+u=6120 DEGENERATE
+ALL_DONE

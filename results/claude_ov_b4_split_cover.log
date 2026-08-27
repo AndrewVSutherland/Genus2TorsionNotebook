@@ -1,0 +1,12 @@
+K genus = 1
+RESOLVENT ROOTS IN K: 1
+A = z0 - p computed.  A eq 0? false
+DIV(A): 6 places, degrees=[ 1, 1, 2, 3, 1, 1 ], mults=[ -4, 1, 1, 2, -4, -1 ]
+ODD-MULTIPLICITY PLACES: 3  (total degree 4)
+IS A A SQUARE IN K? false
+
+In file "claude_ov_b4_split_cover.m", line 82, column 19:
+>>             CD := ProjectiveModel(Curve(L));
+                     ^
+User error: Identifier 'ProjectiveModel' has not been declared or assigned
+SPLITCOVER_DONE

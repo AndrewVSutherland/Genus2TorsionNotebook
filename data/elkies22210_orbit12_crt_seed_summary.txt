@@ -1,0 +1,12 @@
+ELKIES22210 ORBIT12 EXPLICIT CRT SEED
+moduli = (1331,361,529)
+product = 254179739
+marked pair = (1,2)
+centered residue = (1,-1964314,-56831410,71155269,-12359546)
+linear sum = 0
+cubic sum = 174814059637033484814630
+cubic quotient by product = 687757648681170
+radicands mod 1331 = (484,1089,1089,1197)
+radicands mod 361 = (23,137,137,175)
+radicands mod 529 = (285,331,400,262)
+status = compatible lattice coset, not an exact CK point

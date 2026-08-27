@@ -1,0 +1,757 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+RICHELOT 3.24_8100.e4 class-size 1 (0.010 s)
+RICHDONE 3.24_8100.e4
+RICHELOT 2.48_18900.e2 class-size 1 (0.010 s)
+RICHDONE 2.48_18900.e2
+RICHELOT 4.16_50400.dj1 class-size 1 (0.000 s)
+RICHDONE 4.16_50400.dj1
+RICHELOT 48_1764.a1 class-size 1 (0.000 s)
+RICHDONE 48_1764.a1
+RICHELOT 60_13500.r4 class-size 1 (0.000 s)
+RICHDONE 60_13500.r4
+RICHELOT 2.2.16_69300.bu1 class-size 4 (0.030 s)
+CAND rich|2.2.16_69300.bu1|2 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.16_69300.bu1|2 invs=[ 2, 2, 8 ]
+CAND rich|2.2.16_69300.bu1|3 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.16_69300.bu1|3 invs=[ 2, 2, 8 ]
+CAND rich|2.2.16_69300.bu1|4 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.16_69300.bu1|4 invs=[ 2, 2, 8 ]
+RICHDONE 2.2.16_69300.bu1
+RICHELOT 5.10_85500.cj1 class-size 1 (0.000 s)
+RICHDONE 5.10_85500.cj1
+RICHELOT 35_7436.a2 class-size 1 (0.000 s)
+RICHDONE 35_7436.a2
+RICHELOT 36_4860.f1 class-size 1 (0.000 s)
+RICHDONE 36_4860.f1
+RICHELOT 2.6.6_132300.eo2 class-size 4 (0.030 s)
+CAND rich|2.6.6_132300.eo2|2 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|2.6.6_132300.eo2|2 invs=[ 6, 6 ]
+CAND rich|2.6.6_132300.eo2|3 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|2.6.6_132300.eo2|3 invs=[ 6, 6 ]
+CAND rich|2.6.6_132300.eo2|4 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|2.6.6_132300.eo2|4 invs=[ 6, 6 ]
+RICHDONE 2.6.6_132300.eo2
+RICHELOT 2.2.2.8_4410.d2 class-size 14 (0.060 s)
+CAND rich|2.2.2.8_4410.d2|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|2 invs=[ 4, 8 ]
+CAND rich|2.2.2.8_4410.d2|3 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|3 invs=[ 2, 2, 4 ]
+CAND rich|2.2.2.8_4410.d2|4 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|4 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|5 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|5 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|6 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|6 invs=[ 2, 2, 4 ]
+CAND rich|2.2.2.8_4410.d2|7 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|7 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|8 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|8 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|9 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|9 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|10 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|10 invs=[ 4, 8 ]
+CAND rich|2.2.2.8_4410.d2|11 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|11 invs=[ 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|12 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|12 invs=[ 4, 8 ]
+CAND rich|2.2.2.8_4410.d2|13 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|13 invs=[ 2, 2, 8 ]
+CAND rich|2.2.2.8_4410.d2|14 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.2.2.8_4410.d2|14 invs=[ 4, 8 ]
+RICHDONE 2.2.2.8_4410.d2
+RICHELOT 40_3168.i1 class-size 1 (0.000 s)
+RICHDONE 40_3168.i1
+RICHELOT 2.30_13068.f2 class-size 6 (0.040 s)
+RICHDONE 2.30_13068.f2
+RICHELOT 2.24_1440.c2 class-size 1 (0.000 s)
+RICHDONE 2.24_1440.c2
+RICHELOT 6.6_196.a1 class-size 4 (0.030 s)
+RICHDONE 6.6_196.a1
+RICHELOT 30_4356.j1 class-size 4 (0.030 s)
+RICHDONE 30_4356.j1
+RICHELOT 2.2.12_1350.d1 class-size 6 (0.030 s)
+CAND rich|2.2.12_1350.d1|2 unknown=[
+[ 32 ],
+[ 96 ]
+]
+EXACTKNOWN rich|2.2.12_1350.d1|2 invs=[ 2, 12 ]
+CAND rich|2.2.12_1350.d1|3 unknown=[
+[ 32 ],
+[ 96 ]
+]
+EXACTKNOWN rich|2.2.12_1350.d1|3 invs=[ 2, 12 ]
+CAND rich|2.2.12_1350.d1|4 unknown=[
+[ 32 ],
+[ 96 ]
+]
+EXACTKNOWN rich|2.2.12_1350.d1|4 invs=[ 12 ]
+CAND rich|2.2.12_1350.d1|5 unknown=[
+[ 32 ],
+[ 96 ]
+]
+EXACTKNOWN rich|2.2.12_1350.d1|5 invs=[ 12 ]
+CAND rich|2.2.12_1350.d1|6 unknown=[
+[ 4, 24 ],
+[ 32 ],
+[ 96 ]
+]
+EXACTKNOWN rich|2.2.12_1350.d1|6 invs=[ 2, 12 ]
+RICHDONE 2.2.12_1350.d1
+RICHELOT 3.12_2700.c1 class-size 10 (0.090 s)
+CAND rich|3.12_2700.c1|2 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|2 invs=[ 6, 6 ]
+CAND rich|3.12_2700.c1|3 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|3 invs=[ 6, 6 ]
+CAND rich|3.12_2700.c1|4 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|4 invs=[ 3, 12 ]
+CAND rich|3.12_2700.c1|5 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|5 invs=[ 3, 6 ]
+CAND rich|3.12_2700.c1|6 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|6 invs=[ 3, 6 ]
+CAND rich|3.12_2700.c1|7 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|7 invs=[ 3, 6 ]
+CAND rich|3.12_2700.c1|8 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|8 invs=[ 3, 6 ]
+CAND rich|3.12_2700.c1|9 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|9 invs=[ 6, 6 ]
+CAND rich|3.12_2700.c1|10 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|3.12_2700.c1|10 invs=[ 6, 6 ]
+RICHDONE 3.12_2700.c1
+RICHELOT 24_300.a1 class-size 1 (0.010 s)
+RICHDONE 24_300.a1
+RICHELOT 28_4732.c1 class-size 1 (0.000 s)
+RICHDONE 28_4732.c1
+RICHELOT 27_7776.e2 class-size 1 (0.000 s)
+RICHDONE 27_7776.e2
+RICHELOT 21_324.a1 class-size 1 (0.000 s)
+RICHDONE 21_324.a1
+RICHELOT 16_2700.d1 class-size 1 (0.000 s)
+RICHDONE 16_2700.d1
+RICHELOT 2.16_4608.h5 class-size 6 (0.020 s)
+CAND rich|2.16_4608.h5|2 unknown=[
+[ 32 ]
+]
+EXACTKNOWN rich|2.16_4608.h5|2 invs=[ 2, 2, 8 ]
+CAND rich|2.16_4608.h5|3 unknown=[
+[ 32 ]
+]
+EXACTKNOWN rich|2.16_4608.h5|3 invs=[ 16 ]
+CAND rich|2.16_4608.h5|4 unknown=[
+[ 32 ]
+]
+EXACTKNOWN rich|2.16_4608.h5|4 invs=[ 16 ]
+CAND rich|2.16_4608.h5|5 unknown=[
+[ 32 ]
+]
+EXACTKNOWN rich|2.16_4608.h5|5 invs=[ 2, 8 ]
+CAND rich|2.16_4608.h5|6 unknown=[
+[ 32 ]
+]
+EXACTKNOWN rich|2.16_4608.h5|6 invs=[ 2, 8 ]
+RICHDONE 2.16_4608.h5
+RICHELOT 5.5_121.a1 class-size 1 (0.010 s)
+RICHDONE 5.5_121.a1
+RICHELOT 4.12_8100.j1 class-size 10 (0.110 s)
+CAND rich|4.12_8100.j1|2 unknown=[
+[ 2, 6, 12 ],
+[ 2, 2, 18 ],
+[ 2, 2, 6, 6 ],
+[ 2, 2, 36 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 3, 48 ],
+[ 6, 12 ],
+[ 144 ],
+[ 2, 2, 2, 18 ],
+[ 2, 72 ],
+[ 6, 24 ],
+[ 72 ],
+[ 2, 36 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|2 invs=[ 2, 2, 2, 6 ]
+CAND rich|4.12_8100.j1|3 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|3 invs=[ 2, 12 ]
+CAND rich|4.12_8100.j1|4 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|4 invs=[ 2, 6 ]
+CAND rich|4.12_8100.j1|5 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|5 invs=[ 2, 6 ]
+CAND rich|4.12_8100.j1|6 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|6 invs=[ 2, 6 ]
+CAND rich|4.12_8100.j1|7 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|7 invs=[ 2, 6 ]
+CAND rich|4.12_8100.j1|8 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|8 invs=[ 2, 12 ]
+CAND rich|4.12_8100.j1|9 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|9 invs=[ 2, 6 ]
+CAND rich|4.12_8100.j1|10 unknown=[
+[ 6, 24 ],
+[ 72 ],
+[ 144 ],
+[ 12, 12 ],
+[ 4, 36 ],
+[ 2, 72 ],
+[ 3, 48 ],
+[ 2, 36 ],
+[ 6, 12 ]
+]
+EXACTKNOWN rich|4.12_8100.j1|10 invs=[ 2, 6 ]
+RICHDONE 4.12_8100.j1
+RICHELOT 4.8_225.a2 class-size 1 (0.000 s)
+RICHDONE 4.8_225.a2
+RICHELOT 2.4.8_573300.ir1 class-size 20 (0.570 s)
+CAND rich|2.4.8_573300.ir1|2 unknown=[
+[ 128 ],
+[ 2, 4, 16 ],
+[ 2, 2, 2, 16 ],
+[ 64 ],
+[ 8, 8 ],
+[ 2, 2, 32 ],
+[ 2, 64 ],
+[ 8, 16 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 32 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|2 invs=[ 2, 2, 2, 4 ]
+CAND rich|2.4.8_573300.ir1|3 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|3 invs=[ 2, 4, 4 ]
+CAND rich|2.4.8_573300.ir1|4 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|4 invs=[ 2, 2, 2 ]
+CAND rich|2.4.8_573300.ir1|5 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|5 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|6 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|6 invs=[ 2, 2, 2 ]
+CAND rich|2.4.8_573300.ir1|7 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|7 invs=[ 2, 4 ]
+CAND rich|2.4.8_573300.ir1|8 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|8 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|9 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|9 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|10 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|10 invs=[ 2, 2, 8 ]
+CAND rich|2.4.8_573300.ir1|11 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|11 invs=[ 2, 4 ]
+CAND rich|2.4.8_573300.ir1|12 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|12 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|13 unknown=[
+[ 128 ],
+[ 8, 16 ],
+[ 2, 4, 16 ],
+[ 2, 32 ],
+[ 64 ],
+[ 2, 2, 32 ],
+[ 4, 32 ],
+[ 8, 8 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|13 invs=[ 2, 2, 4 ]
+CAND rich|2.4.8_573300.ir1|14 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|14 invs=[ 4, 4 ]
+CAND rich|2.4.8_573300.ir1|15 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|15 invs=[ 2, 4 ]
+CAND rich|2.4.8_573300.ir1|16 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|16 invs=[ 2, 4 ]
+CAND rich|2.4.8_573300.ir1|17 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|17 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|18 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|18 invs=[ 2, 8 ]
+CAND rich|2.4.8_573300.ir1|19 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|19 invs=[ 4, 4 ]
+CAND rich|2.4.8_573300.ir1|20 unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN rich|2.4.8_573300.ir1|20 invs=[ 4, 4 ]
+RICHDONE 2.4.8_573300.ir1
+RICHELOT 2.20_30492.q2 class-size 4 (0.000 s)
+RICHDONE 2.20_30492.q2
+RICHELOT 2.2.10_30492.q1 class-size 4 (0.010 s)
+RICHDONE 2.2.10_30492.q1
+RICHELOT 2.18_64980.bo1 class-size 2 (0.000 s)
+RICHDONE 2.18_64980.bo1
+RICHELOT 2.14_86436.z3 class-size 1 (0.000 s)
+RICHDONE 2.14_86436.z3
+RICHELOT 25_42336.dw1 class-size 1 (0.000 s)
+RICHDONE 25_42336.dw1
+RICHELOT 19_169.a1 class-size 1 (0.000 s)
+RICHDONE 19_169.a1
+RICHELOT 2.10_256.a1 class-size 1 (0.000 s)
+RICHDONE 2.10_256.a1
+RICHELOT 6.12_HLP class-size 1 (0.010 s)
+RICHDONE 6.12_HLP
+RICHELOT 4.16_palin class-size 1 (0.000 s)
+RICHDONE 4.16_palin
+RICHELOT 63_lane8 class-size 1 (0.000 s)
+RICHDONE 63_lane8
+RICHELOT 7.7_lane8 class-size 1 (0.010 s)
+RICHDONE 7.7_lane8
+RICHELOT 45_lane8 class-size 1 (0.000 s)
+RICHDONE 45_lane8
+RICHELOT 70_lane8 class-size 1 (0.000 s)
+RICHDONE 70_lane8
+RICHELOT 2.24_lane8 class-size 1 (0.000 s)
+RICHDONE 2.24_lane8
+SEARCH_DONE richelot

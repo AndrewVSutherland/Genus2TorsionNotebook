@@ -1,0 +1,453 @@
+M612_HLP_DIRECTION_EXACT_STAGED_FINAL records=1000
+# infinity is separate; score uses p=7,11,13,17,19,23
+RANK 1 G=(2, 1, -1, 1, 1, 1, 1) score=(3, 4, 0.3863636363636364, -4)
+ MASK p=5 allowed=() bad=(0, 1) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 6, 8) bad=(2, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (6, (144, 2, 3, 12)), (8, (144, 2, 4, 12)))
+ MASK p=13 allowed=(0, 8) bad=(11,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (8, (144, 2, 4, 12)))
+ MASK p=17 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 8) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (8, (576, 2, 4, 12)))
+RANK 2 G=(2, -1, -1, -1, 1, -1, 1) score=(3, 4, 0.3863636363636364, -4)
+ MASK p=5 allowed=() bad=(0, 1) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 6, 8) bad=(2, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (6, (144, 2, 3, 12)), (8, (144, 2, 4, 12)))
+ MASK p=13 allowed=(0, 8) bad=(11,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (8, (144, 2, 4, 12)))
+ MASK p=17 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 8) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (8, (576, 2, 4, 12)))
+RANK 3 G=(2, 1, 1, -2, -1, -2, 0) score=(2, 2, 0.31666666666666665, -8)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0, 4) bad=(1, 6) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)), (4, (72, 2, 2, 4)))
+ MASK p=11 allowed=(0,) bad=(1, 2, 9) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0,) bad=(2,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0, 5) bad=(11,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (5, (216, 2, 2, 4)))
+ MASK p=19 allowed=(0,) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 4 G=(2, -1, 1, 2, -1, 2, 0) score=(2, 2, 0.31666666666666665, -8)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0, 4) bad=(1, 6) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)), (4, (72, 2, 2, 4)))
+ MASK p=11 allowed=(0,) bad=(1, 2, 9) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0,) bad=(2,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0, 5) bad=(11,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (5, (216, 2, 2, 4)))
+ MASK p=19 allowed=(0,) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 5 G=(1, 2, 1, -1, -1, 1, -1) score=(2, 2, 0.2095238095238095, -7)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 4) bad=(2, 5, 7) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (4, (144, 2, 4, 12)))
+ MASK p=13 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0,) bad=(13,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 1) bad=(3, 10, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (1, (360, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 6 G=(2, 1, -2, 1, 1, 2, 0) score=(2, 2, 0.2, -2)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 7) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (7, (144, 2, 4, 12)))
+ MASK p=13 allowed=(0, 6) bad=(8, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (6, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 7 G=(2, -1, -2, -1, 1, -2, 0) score=(2, 2, 0.2, -2)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 7) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (7, (144, 2, 4, 12)))
+ MASK p=13 allowed=(0, 6) bad=(8, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (6, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 8 G=(2, 1, -2, 0, 0, -2, -1) score=(2, 2, 0.17777777777777776, -6)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 10) bad=(1, 8, 11) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (10, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0, 5) bad=(15,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (5, (288, 2, 4, 4)))
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=(6, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 9 G=(2, -1, -2, 0, 0, 2, -1) score=(2, 2, 0.17777777777777776, -6)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 10) bad=(1, 8, 11) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (10, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0, 5) bad=(15,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (5, (288, 2, 4, 4)))
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=(6, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 10 G=(1, 2, 0, 0, 2, -1, -2) score=(2, 2, 0.17777777777777776, -6)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(2, 5, 12) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0, 12) bad=(2,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (12, (288, 2, 4, 4)))
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=(7, 17) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 11 G=(2, 1, 0, 2, -1, -2, -1) score=(2, 2, 0.1588235294117647, -4)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(6, 9) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 13) bad=(14,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (13, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 12 G=(2, -1, 0, -2, -1, 2, -1) score=(2, 2, 0.1588235294117647, -4)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(6, 9) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 13) bad=(14,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (13, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 13 G=(1, 2, 1, -2, 0, -1, -2) score=(2, 2, 0.1588235294117647, -4)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(6,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 10) bad=(4, 7) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (10, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 6) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (6, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 14 G=(2, 2, 1, 0, -2, -1, 2) score=(2, 2, 0.1588235294117647, -8)
+ MASK p=5 allowed=() bad=(0, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(9, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (144, 2, 3, 12)))
+ MASK p=17 allowed=(0,) bad=(3, 8) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 11) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (11, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(7, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 15 G=(2, 1, -2, 0, 1, -2, 2) score=(2, 2, 0.1588235294117647, -8)
+ MASK p=5 allowed=() bad=(0, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(9, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (144, 2, 3, 12)))
+ MASK p=17 allowed=(0,) bad=(3, 8) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 11) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (11, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(7, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 16 G=(2, -1, -2, 0, 1, 2, 2) score=(2, 2, 0.1588235294117647, -8)
+ MASK p=5 allowed=() bad=(0, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(9, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (144, 2, 3, 12)))
+ MASK p=17 allowed=(0,) bad=(3, 8) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 11) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (11, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(7, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 17 G=(2, -2, 1, 0, -2, 1, 2) score=(2, 2, 0.1588235294117647, -8)
+ MASK p=5 allowed=() bad=(0, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(9, 10) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (144, 2, 3, 12)))
+ MASK p=17 allowed=(0,) bad=(3, 8) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 11) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (11, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(7, 16) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 18 G=(2, 1, 2, -2, 1, 2, 2) score=(2, 2, 0.1575757575757576, -3)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(12,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0, 16) bad=(13,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (16, (288, 2, 2, 12)))
+ MASK p=19 allowed=(0,) bad=(16,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 19 G=(2, -1, 2, 2, 1, -2, 2) score=(2, 2, 0.1575757575757576, -3)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 5) bad=(12,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (5, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0, 16) bad=(13,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)), (16, (288, 2, 2, 12)))
+ MASK p=19 allowed=(0,) bad=(16,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 20 G=(1, 2, 2, -1, -1, -1, -1) score=(2, 2, 0.1497326203208556, -5)
+ MASK p=5 allowed=() bad=(0, 2) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(5, 8) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(10,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (144, 3, 4, 8)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 14) bad=(17,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (14, (504, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(6,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 21 G=(2, 1, 2, 1, 1, 1, -1) score=(2, 2, 0.14545454545454545, -1)
+ MASK p=5 allowed=() bad=(0, 2) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 8) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (8, (216, 2, 2, 4)))
+ MASK p=13 allowed=(0,) bad=(10,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 22) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (22, (792, 2, 4, 4)))
+RANK 22 G=(2, -1, 2, -1, 1, -1, -1) score=(2, 2, 0.14545454545454545, -1)
+ MASK p=5 allowed=() bad=(0, 2) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0, 8) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (8, (216, 2, 2, 4)))
+ MASK p=13 allowed=(0,) bad=(10,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 22) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (22, (792, 2, 4, 4)))
+RANK 23 G=(1, 2, 1, 1, -2, -1, 1) score=(2, 2, 0.14215686274509803, -3)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 2) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (2, (144, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=(6,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 13) bad=(16,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (13, (288, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(21,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 24 G=(1, 2, 2, 1, 0, 2, 1) score=(2, 2, 0.14090909090909093, -5)
+ MASK p=5 allowed=() bad=(0, 2) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(4, 5) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 1) bad=(5,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (1, (144, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 12) bad=(7, 17) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (12, (576, 3, 2, 8)))
+RANK 25 G=(2, 1, 2, -1, -1, 1, -1) score=(2, 2, 0.1388888888888889, -4)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 4) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (4, (144, 3, 4, 8)))
+ MASK p=17 allowed=(0,) bad=(12,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 9) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (9, (288, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(9, 11, 13) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 26 G=(2, -1, 2, 1, -1, -1, -1) score=(2, 2, 0.1388888888888889, -4)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 4) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (4, (144, 3, 4, 8)))
+ MASK p=17 allowed=(0,) bad=(12,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 9) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (9, (288, 2, 4, 4)))
+ MASK p=23 allowed=(0,) bad=(9, 11, 13) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+RANK 27 G=(2, 2, -1, 2, -1, 0, 0) score=(2, 2, 0.13852813852813853, -5)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 15) bad=(13,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (15, (576, 2, 2, 4)))
+RANK 28 G=(2, -2, -1, -2, -1, 0, 0) score=(2, 2, 0.13852813852813853, -5)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=(7,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (216, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=(1,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 15) bad=(13,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (15, (576, 2, 2, 4)))
+RANK 29 G=(1, 2, 1, 1, -1, -1, 0) score=(2, 2, 0.13095238095238093, -2)
+ MASK p=5 allowed=() bad=(0,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=(10,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0, 3) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)), (3, (144, 2, 4, 4)))
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)),)
+ MASK p=23 allowed=(0, 14) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (14, (432, 3, 2, 8)))
+RANK 30 G=(2, 2, -2, 1, 0, 1, -1) score=(2, 2, 0.10644257703081232, -2)
+ MASK p=5 allowed=() bad=(0, 1, 2, 3, 4) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ()
+ MASK p=7 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 3, 12)),)
+ MASK p=11 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=13 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (144, 2, 4, 12)),)
+ MASK p=17 allowed=(0,) bad=() unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 4, 4, 48)),)
+ MASK p=19 allowed=(0, 14) bad=(9,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (14, (432, 2, 4, 4)))
+ MASK p=23 allowed=(0, 12) bad=(21,) unresolved=() infinity=SEPARATE
+  ALLOWED_RECORDS ((0, (576, 3, 4, 24)), (12, (576, 3, 2, 8)))
+M612_HLP_DIRECTION_EXACT_STAGED_DONE

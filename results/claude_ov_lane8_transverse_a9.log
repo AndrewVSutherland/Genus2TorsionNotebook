@@ -1,0 +1,27 @@
+############ anchor 9 : f70 Z/35
+  f0 = 3168*x^5 + 697*x^4 - 23220*x^3 + 37620*x^2 - 23328*x + 5184
+  N = 35   rank-2 primes = []   even/bielliptic model = 0   deg f0 = 5
+  STAGE1 anchor passes the compatibility test at all 58 good p < 300 : 1
+    PROGRESS p=5  lines 0/7  flat 0/9  rand 0/18
+    PROGRESS p=7  lines 1/24  flat 1/23  rand 3/43
+    PROGRESS p=47  lines 25/822  flat 32/824  rand 38/1151
+    PROGRESS p=53  lines 31/973  flat 35/978  rand 48/1355
+    PROGRESS p=97  lines 106/2949  flat 130/2962  rand 136/4027
+    PROGRESS p=101  lines 113/3246  flat 142/3261  rand 145/4429
+    PROGRESS p=191  lines 389/10563  flat 403/10589  rand 529/14264
+    PROGRESS p=193  lines 407/11136  flat 426/11164  rand 562/15030
+    PROGRESS p=239  lines 583/16359  flat 631/16389  rand 791/22025
+    PROGRESS p=241  lines 603/17076  flat 654/17108  rand 824/22987
+    PROGRESS p=283  lines 829/23473  flat 885/23519  rand 1144/31566
+  STAGE2 TRANSVERSE lines f0+t*x^{1,3,5} : 870/24345 = 0.03574
+  STAGE2 IN-LOCUS   lines f0+t*x^{0,2,4} : 909/24390 = 0.03727
+  STAGE2 BASELINE   random sextics       : 1179/32736 = 0.03602
+  STAGE2 first killing residue (p,t) for f0+t*x^1 : [5, 3]
+  STAGE2 first killing residue (p,t) for f0+t*x^3 : [5, 1]
+  STAGE2 first killing residue (p,t) for f0+t*x^5 : [5, 3]
+  STAGE2 first killing residue (p,t) for f0+t*x^0 : [5, 1]
+  STAGE2 first killing residue (p,t) for f0+t*x^2 : [5, 2]
+  STAGE2 first killing residue (p,t) for f0+t*x^4 : [5, 1]
+  STAGE3R random directions, coeffs in [-20,20]^6 : 5000 transverse, 5000 KILLED, 0 survivors
+  STAGE3R hardest (p,t) needed = [7, 3]
+SEARCH_DONE anchor 9 f70 Z/35

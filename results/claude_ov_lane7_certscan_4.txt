@@ -1,0 +1,6 @@
+SCAN known (-15/8, -15/19, -1/2) PMAX=1500 goodprimes=229 irreducible=171 rootpower_strict=159 strict_with_sqrt2=13
+  strict primes (first 40): [ 17, 29, 41, 53, 61, 71, 79, 101, 107, 109, 127, 131, 137, 157, 181, 193, 227, 263, 269, 277, 293, 307, 313, 331, 337, 347, 349, 353, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 439 ]
+BESTPAIR (-15/8, -15/19, -1/2) p0=17 q0=29  disjoint_pairs_among_first_15_strict = 88 of 105
+  chi_p0 = x^4 - 4*x^3 + 6*x^2 - 68*x + 289
+  chi_q0 = x^4 - 6*x^3 + 10*x^2 - 174*x + 841
+

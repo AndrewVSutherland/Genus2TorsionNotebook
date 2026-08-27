@@ -1,0 +1,155 @@
+TARGET_22412_SECOND_J2_HALVING
+CONFIG mode all finite_prime_max 19 max_rows 0 max_exact 50 write_log true log_file results/target_22412_second_j2_halving.log
+TARGET_22412_RECORD_AUDIT_START
+RECORD_ROOTS [ -75593/145, -519, -39, -299/12, 59, 123109/1740 ]
+RECORD_TORSION [ 2, 2, 2, 12 ]
+order 96
+RECORD_J2_CLASS 1 pair <1, 2> roots [ -75593/145, -519 ]
+u x^2 + 150848/145*x + 39232767/145
+radicands [ -7123008541544/87, -213719697296413/2610, -427730999929849/5220, -652047902028709630477/7956911250 ]
+criterion false magma false
+RECORD_J2_CLASS 2 pair <1, 3> roots [ -75593/145, -39 ]
+u x^2 + 81248/145*x + 2948127/145
+radicands [ 7123008541544/87, -29441050093/2610, -350487437209/5220, -586444579772320477/7956911250 ]
+criterion false magma false
+RECORD_J2_CLASS 3 pair <1, 4> roots [ -75593/145, -299/12 ]
+u x^2 + 950471/1740*x + 22602307/1740
+radicands [ 213719697296413/2610, 29441050093/2610, -291605337023/5220, -27593881024030464/442050625 ]
+criterion false magma false
+RECORD_J2_CLASS 4 pair <1, 5> roots [ -75593/145, 59 ]
+u x^2 + 67038/145*x - 4459987/145
+radicands [ 427730999929849/5220, 350487437209/5220, 291605337023/5220, -104384396283353329/15913822500 ]
+criterion false magma false
+RECORD_J2_CLASS 5 pair <1, 6> roots [ -75593/145, 123109/1740 ]
+u x^2 + 784007/1740*x - 9306178637/252300
+radicands [ 652047902028709630477/7956911250, 586444579772320477/7956911250, 27593881024030464/442050625, 104384396283353329/15913822500 ]
+criterion false magma false
+RECORD_J2_CLASS 6 pair <2, 3> roots [ -519, -39 ]
+u x^2 + 558*x + 20241
+radicands [ 61486729996502041/756900, 8470131301801/756900, 50382895844281/756900, 55300476272041/756900 ]
+criterion true magma true
+RECORD_J2_HALF pair <2, 3> half_order 4 check true square_roots [ 247965179/870, 2910349/870, 7098091/870, 7436429/870 ]
+RECORD_J2_CLASS 7 pair <2, 4> roots [ -519, -299/12 ]
+u x^2 + 6527/12*x + 51727/4
+radicands [ 1024637664420004/12615, -8470131301801/756900, 698546075708/12615, 260168583168/4205 ]
+criterion false magma false
+RECORD_J2_CLASS 8 pair <2, 5> roots [ -519, 59 ]
+u x^2 + 460*x - 30621
+radicands [ 1023939118344296/12615, -50382895844281/756900, -698546075708/12615, 81959673796/12615 ]
+criterion false magma false
+RECORD_J2_CLASS 9 pair <2, 6> roots [ -519, 123109/1740 ]
+u x^2 + 779951/1740*x - 21297857/580
+radicands [ 243485650100/3, -55300476272041/756900, -260168583168/4205, -81959673796/12615 ]
+criterion false magma false
+RECORD_J2_CLASS 10 pair <3, 4> roots [ -39, -299/12 ]
+u x^2 + 767/12*x + 3887/4
+radicands [ -32330508584164/12615, -1940097774064681/756900, -26898963702908/12615, -9127452837888/4205 ]
+criterion false magma false
+RECORD_J2_CLASS 11 pair <3, 5> roots [ -39, 59 ]
+u x^2 - 20*x - 2301
+radicands [ -5431544881256/12615, -326159951890201/756900, 26898963702908/12615, -483394810756/12615 ]
+criterion false magma false
+RECORD_J2_CLASS 12 pair <3, 6> roots [ -39, 123109/1740 ]
+u x^2 - 55249/1740*x - 1600417/580
+radicands [ -1176730100/3, -297156263244841/756900, 9127452837888/4205, 483394810756/12615 ]
+criterion false magma false
+RECORD_J2_CLASS 13 pair <4, 5> roots [ -299/12, 59 ]
+u x^2 - 409/12*x - 17641/12
+radicands [ 24367433862772/63075, 24384057678578/63075, 145043730080018/63075, 17698392449426689/435974400 ]
+criterion false magma false
+RECORD_J2_CLASS 14 pair <4, 6> roots [ -299/12, 123109/1740 ]
+u x^2 - 39877/870*x - 36809591/20880
+radicands [ 7169051624735/20736, 150844214224904447/435974400, 984843869863657727/435974400, -17698392449426689/435974400 ]
+criterion false magma false
+RECORD_J2_CLASS 15 pair <5, 6> roots [ 59, 123109/1740 ]
+u x^2 - 225769/1740*x + 7263431/1740
+radicands [ -101318202335/36, -1065192863814779/378450, -1169160122764619/378450, -66120601016064/21025 ]
+criterion false magma false
+RECORD_DIVISIBLE_PAIRS [ <2, 3> ]
+LEVEL2_STABILIZER_ORBITS known <2, 3> cross_nonisotropic_count 8 cross [ <1, 2>, <1, 3>, <2, 4>, <2, 5>, <2, 6>, <3, 4>, <3, 5>, <3, 6> ]
+disjoint_isotropic_count 6 disjoint [ <1, 4>, <1, 5>, <1, 6>, <4, 5>, <4, 6>, <5, 6> ]
+RECORD_STANDARD_ODD_SQUARES [ 61486729996502041/756900, 8470131301801/756900, 50382895844281/756900, 55300476272041/756900 ]
+RECORD_STANDARD_ODD_SQUARE_ROOTS [ 247965179/870, 2910349/870, 7098091/870, 7436429/870 ]
+RECORD_STANDARD_ODD_NORMALIZED_ROOTS [ 1, 169/14399, 91/3179, 5681/189431 ]
+RECORD_STANDARD_ODD_POLYNOMIAL x^5 + 15400220874980041/189225*x^4 + 1170434498833216241606572672081/95482935000*x^3 + 56594445914922793670345587510495841488788121/108406550252250000*x^2 + 1451053873861775512796128962217004316300625002955785440161/328211671543712100000000*x
+RECORD_SECOND_HALF_PARTITION [ 1, 2, 3, 4 ]
+radicands [ -715268652883317365225961568/159138225, 1719410219950908601288480/261, 60579914264838940827648/17682025, -145626015191394017280/29 ]
+all_squares false
+RECORD_SECOND_HALF_PARTITION [ 1, 3, 2, 4 ]
+radicands [ 715756619503204412093662832/159138225, 1720583226470691816445520/261, -57252608496503599747568/159138225, -137627616939330998480/261 ]
+all_squares false
+RECORD_SECOND_HALF_PARTITION [ 1, 4, 2, 3 ]
+radicands [ 88859509804240361718964224/17682025, 1049166586728577526625621697184/159138225, 7107777402805592088576/17682025, 83921716126462339777267616/159138225 ]
+all_squares false
+RECORD_SECOND_HALF_PARTITIONS []
+GLOBAL_SECOND_HALF_COVER_RADICANDS [
+AA*BB - AA*CC - BB*CC + CC^2,
+AA^2 - AA*CC - AA*DDs + CC*DDs,
+BB^2 - BB*CC - BB*DDs + CC*DDs,
+AA*BB - AA*DDs - BB*DDs + DDs^2
+]
+GLOBAL_SECOND_HALF_PRODUCT_RELATION product = ((C-A)(C-B)(D-A)(D-B))^2
+GLOBAL_SECOND_HALF_SAMPLE [ 1, 4, 9, 16 ]
+[ 40, 120, 60, 180 ]
+squareclass_rank 3 generic_degree 8
+GLOBAL_A22212_COUPLING h^2-q^3=x*(x+A)*(x+B)*(x+C)*(x+D), A=a^2,B=b^2,C=c^2,D=d^2, plus the four radicand squares
+TARGET_22412_RECORD_AUDIT_DONE
+TARGET_22412_FINITE_ANALYSIS_START
+FINITE_PRIME 5 projective 156 open_total 0 cover_total 100 cover_boundary 100 open_cover 0 open_cover_with_3 0 validated 0 validated_positive 0 validated_negative 0
+FINITE_OPEN_COVER_SAMPLES 5 []
+FINITE_OPEN_COVER_3_SAMPLES 5 []
+FINITE_BOUNDARY_SIGNATURES 5 [ <"zeros_0_collisions_2", 24>, <"zeros_0_collisions_3", 32>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 4>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+FINITE_PRIME 7 projective 400 open_total 0 cover_total 208 cover_boundary 208 open_cover 0 open_cover_with_3 0 validated 0 validated_positive 0 validated_negative 0
+FINITE_OPEN_COVER_SAMPLES 7 []
+FINITE_OPEN_COVER_3_SAMPLES 7 []
+FINITE_BOUNDARY_SIGNATURES 7 [ <"zeros_0_collisions_2", 48>, <"zeros_0_collisions_3", 64>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_1", 48>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 8>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+FINITE_PRIME 11 projective 1464 open_total 192 cover_total 536 cover_boundary 536 open_cover 0 open_cover_with_3 0 validated 4 validated_positive 0 validated_negative 4
+FINITE_OPEN_COVER_SAMPLES 11 []
+FINITE_OPEN_COVER_3_SAMPLES 11 []
+FINITE_BOUNDARY_SIGNATURES 11 [ <"zeros_0_collisions_1", 128>, <"zeros_0_collisions_2", 96>, <"zeros_0_collisions_3", 128>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_0", 32>, <"zeros_1_collisions_1", 96>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 16>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+FINITE_PRIME 13 projective 2380 open_total 480 cover_total 708 cover_boundary 676 open_cover 32 open_cover_with_3 0 validated 4 validated_positive 1 validated_negative 3
+FINITE_OPEN_COVER_SAMPLES 13 [
+[ 1, 2, 3, 5 ],
+[ 1, 2, 3, 8 ],
+[ 1, 2, 5, 3 ]
+]
+FINITE_OPEN_COVER_3_SAMPLES 13 []
+FINITE_BOUNDARY_SIGNATURES 13 [ <"zeros_0_collisions_1", 192>, <"zeros_0_collisions_2", 120>, <"zeros_0_collisions_3", 160>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_0", 32>, <"zeros_1_collisions_1", 96>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 36>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+FINITE_PRIME 17 projective 5220 open_total 1680 cover_total 1316 cover_boundary 1204 open_cover 112 open_cover_with_3 16 validated 5 validated_positive 1 validated_negative 4
+FINITE_OPEN_COVER_SAMPLES 17 [
+[ 1, 3, 2, 7 ],
+[ 1, 3, 2, 10 ],
+[ 1, 3, 7, 2 ]
+]
+FINITE_OPEN_COVER_3_SAMPLES 17 [
+[ 1, 4, 2, 8 ],
+[ 1, 4, 2, 9 ],
+[ 1, 4, 8, 2 ]
+]
+FINITE_BOUNDARY_SIGNATURES 17 [ <"zeros_0_collisions_1", 480>, <"zeros_0_collisions_2", 168>, <"zeros_0_collisions_3", 224>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_0", 96>, <"zeros_1_collisions_1", 144>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 52>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+FINITE_PRIME 19 projective 7240 open_total 2688 cover_total 1800 cover_boundary 1672 open_cover 128 open_cover_with_3 64 validated 5 validated_positive 1 validated_negative 4
+FINITE_OPEN_COVER_SAMPLES 19 [
+[ 1, 3, 2, 7 ],
+[ 1, 3, 2, 12 ],
+[ 1, 3, 5, 8 ]
+]
+FINITE_OPEN_COVER_3_SAMPLES 19 [
+[ 1, 4, 3, 7 ],
+[ 1, 4, 3, 12 ],
+[ 1, 4, 5, 6 ]
+]
+FINITE_BOUNDARY_SIGNATURES 19 [ <"zeros_0_collisions_1", 768>, <"zeros_0_collisions_2", 192>, <"zeros_0_collisions_3", 256>, <"zeros_0_collisions_6", 8>, <"zeros_1_collisions_0", 192>, <"zeros_1_collisions_1", 192>, <"zeros_1_collisions_3", 16>, <"zeros_2_collisions_1", 32>, <"zeros_2_collisions_2", 12>, <"zeros_3_collisions_3", 4> ]
+TARGET_22412_FINITE_ANALYSIS_DONE
+TARGET_22412_BANK_SEARCH_START
+BANK_CONFIG input paper/scripts_and_data/tor2244.txt rows 26653 primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+max_exact 50
+BANK_PROGRESS 5000 cover_verified 4999 reduction_survivors 0 exact 0 target_hits 0
+BANK_PROGRESS 10000 cover_verified 9999 reduction_survivors 0 exact 0 target_hits 0
+BANK_PROGRESS 15000 cover_verified 14999 reduction_survivors 0 exact 0 target_hits 0
+BANK_PROGRESS 20000 cover_verified 19999 reduction_survivors 0 exact 0 target_hits 0
+BANK_PROGRESS 25000 cover_verified 24999 reduction_survivors 0 exact 0 target_hits 0
+TARGET_22412_BANK_SEARCH_DONE checked 26653 cover_verified 26653 no_cover 0 reduction_survivors 0 exact 0 target_hits 0
+BANK_FIRST_KILL_COUNTS [ <5, 0>, <7, 0>, <11, 0>, <13, 2795>, <17, 3598>, <19, 1941>, <23, 2328>, <29, 3435>, <31, 2737>, <37, 3925>, <41, 1422>, <43, 2036>, <47, 1513>, <53, 353>, <59, 245>, <61, 152>, <67, 95>, <71, 32>, <73, 28>, <79, 17>, <83, 1>, <89, 0>, <97, 0> ]
+BANK_BOUNDARY_COMPONENT_MARGINALS_P11 good 0 [ <"E12+", 6160>, <"E12-", 6744>, <"E13+", 4902>, <"E13-", 5106>, <"E14+", 5156>, <"E14-", 5416>, <"E23+", 4083>, <"E23-", 5544>, <"E24+", 4865>, <"E24-", 4908>, <"E34+", 6204>, <"E34-", 7462>, <"Z1", 4368>, <"Z2", 4568>, <"Z3", 4958>, <"Z4", 4777> ]
+BANK_BOUNDARY_COMPONENT_MARGINALS_P13 good 2795 [ <"E12+", 4445>, <"E12-", 5105>, <"E13+", 4824>, <"E13-", 4841>, <"E14+", 5210>, <"E14-", 5146>, <"E23+", 4069>, <"E23-", 5354>, <"E24+", 5296>, <"E24-", 5355>, <"E34+", 4409>, <"E34-", 6131>, <"Z1", 5309>, <"Z2", 5561>, <"Z3", 5581>, <"Z4", 6018> ]
+TARGET_22412_SECOND_J2_HALVING_DONE

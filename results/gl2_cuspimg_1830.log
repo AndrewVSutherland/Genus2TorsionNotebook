@@ -1,0 +1,23 @@
+LEVEL 1830 TARGET 31
+PIECE 17 dim=4
+PERIOD_SPACE_DIM 4 LATTICE_GENS 730
+N_CUSPS 16
+CUSP 0 image_order=1
+CUSP 1/2 image_order=1
+CUSP 1/3 image_order=1
+CUSP 1/5 image_order=1
+CUSP 1/6 image_order=1
+CUSP 1/10 image_order=1
+CUSP 1/15 image_order=1
+CUSP 1/30 image_order=1
+CUSP 1/61 image_order=1
+CUSP 1/122 image_order=1
+CUSP 1/183 image_order=1
+CUSP 1/305 image_order=1
+CUSP 1/366 image_order=1
+CUSP 1/610 image_order=1
+CUSP 1/915 image_order=1
+CUSP_IMAGE_ORDERS [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SUBGROUP_ORDER_LCM_LOWER 1
+CUSP_IMAGES_INSUFFICIENT lcm=1
+GL2_CUSPIMG_DONE level=1830

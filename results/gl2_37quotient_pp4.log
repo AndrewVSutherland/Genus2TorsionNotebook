@@ -1,0 +1,170 @@
+PIECE 22
+EIS_KERNEL_DIM 2
+STAR_EIGVECS plus=( 1 15 13 14) minus=( 1  5  5 33)
+PERIOD_TERMS 80457
+PERIODS ok
+E1 [ 0, 0, 2, 1, 0, 0, 1, 1, -2, -1, 0, 0, -1, -1, 0, 0 ]
+E2 [ 0, -3, 0, -2, 3, 0, 2, 4, 0, -2, 0, 3, 2, -4, -3, 0 ]
+Bplus LATTICE_INDEX 1/37
+Bplus AB_BASIS [ 37, 0 ] [ 0, 37 ] (dd2=37)
+Bplus N_POSFORMS 14 types [ 74, 111, 407 ]
+Bplus_d74_a-259_b111_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bplus_d74_a-259_b111_n1 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bplus_d74_a-185_b37_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bplus_d74_a-185_b37_n2 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bplus_d74_a-111_b37_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bplus_d74_a-111_b37_n3 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bplus_d74_a111_b-37_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bplus_d74_a111_b-37_n4 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bplus_d74_a185_b-37_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bplus_d74_a185_b-37_n5 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bplus_d74_a259_b-111_n6 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bplus_d74_a259_b-111_n6 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bplus_d111_a-185_b74_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bplus_d111_a-185_b74_n7 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bplus_d111_a-148_b37_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bplus_d111_a-148_b37_n8 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bminus LATTICE_INDEX 1/37
+Bminus AB_BASIS [ 37, 0 ] [ 0, 37 ] (dd2=37)
+Bminus N_POSFORMS 14 types [ 74, 111, 407 ]
+Bminus_d74_a-259_b111_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bminus_d74_a-259_b111_n1 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bminus_d74_a-185_b37_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bminus_d74_a-185_b37_n2 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bminus_d74_a-111_b37_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bminus_d74_a-111_b37_n3 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bminus_d74_a111_b-37_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bminus_d74_a111_b-37_n4 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bminus_d74_a185_b-37_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bminus_d74_a185_b-37_n5 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bminus_d74_a259_b-111_n6 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bminus_d74_a259_b-111_n6 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bminus_d111_a-185_b74_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bminus_d111_a-185_b74_n7 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bminus_d111_a-148_b37_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bminus_d111_a-148_b37_n8 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bfull LATTICE_INDEX 1/1369
+Bfull AB_BASIS [ 111, -148 ] [ 259, 111 ] (dd2=1369)
+Bfull N_POSFORMS 16 types [ 26, 71, 107, 122, 299, 491, 543, 786 ]
+Bfull_d26_a481_b-185_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bfull_d26_a481_b-185_n1 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+Bfull_d26_a-481_b185_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+Bfull_d26_a-481_b185_n2 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+GL2_37Q_DONE

@@ -1,0 +1,28 @@
+# contact-9 independent order-3 cover at t=4 mod 7
+identity H^2-f=h3^2*q^3, q=x^2+u*x+v, deg(H)=3
+six coefficient equations in six fiber variables over the t-line
+special_f=x^5 + 6*x^4 + x^3 + 2*x + 5
+special_factorization=(x + 1)^2 * (x^3 + 4*x^2 + 6*x + 5)
+signed_solution_count=12
+signed_solutions=[(0, 6, 1, 1, 2, 2), (0, 6, 6, 6, 5, 5), (1, 4, 3, 2, 2, 5), (1, 4, 4, 5, 5, 2), (2, 3, 1, 4, 6, 5), (2, 3, 6, 3, 1, 2), (3, 2, 3, 1, 3, 5), (3, 2, 4, 6, 4, 2), (3, 3, 2, 5, 5, 1), (3, 3, 5, 2, 2, 6), (5, 4, 3, 4, 3, 2), (5, 4, 4, 3, 4, 5)]
+special_q_records
+ q=x^2 + 6 H=2*x^3 + 2*x^2 + x + 1 signed=2 q_at_node=0 fiber_rank=5 fiber_det=0 projection=None oriented_H=None line=None generalized_ratio=None independent=None
+ q=x^2 + x + 4 H=5*x^3 + 2*x^2 + 2*x + 3 signed=2 q_at_node=4 fiber_rank=6 fiber_det=6 projection=(6 : 4 : 1) oriented_H=5*x^3 + 2*x^2 + 2*x + 3 line=(3, 6) generalized_ratio=1 independent=False
+ q=x^2 + 2*x + 3 H=5*x^3 + 6*x^2 + 4*x + 1 signed=2 q_at_node=2 fiber_rank=6 fiber_det=6 projection=(6 : 3 : 1) oriented_H=2*x^3 + x^2 + 3*x + 6 line=(1, 4) generalized_ratio=4 independent=True
+ q=x^2 + 3*x + 2 H=5*x^3 + 3*x^2 + x + 3 signed=2 q_at_node=0 fiber_rank=5 fiber_det=0 projection=None oriented_H=None line=None generalized_ratio=None independent=None
+ q=x^2 + 3*x + 3 H=x^3 + 5*x^2 + 5*x + 2 signed=2 q_at_node=1 fiber_rank=6 fiber_det=5 projection=(6 : 4 : 1) oriented_H=x^3 + 5*x^2 + 5*x + 2 line=(0, 3) generalized_ratio=2 independent=True
+ q=x^2 + 5*x + 4 H=2*x^3 + 3*x^2 + 4*x + 3 signed=2 q_at_node=0 fiber_rank=5 fiber_det=0 projection=None oriented_H=None line=None generalized_ratio=None independent=None
+independent_branch_residues=[(2, 3, 1, 4, 6, 5), (3, 3, 2, 5, 5, 1)]
+height_bound=200
+precision=16
+modulus=33232930569601
+componentwise_reconstruction_height_bound=4076329
+t_count=6146
+first_t_values=[1/2, -3, -2/3, 4, -1/5, 5/3, -5/4, 6/5, -3/8, -8/5, 1/9, 9/4, 8/9, -10, -9/10, 11, 2/11, -5/11, -11/6, 11/8]
+t_equals_4_lift_samples
+ branch=0 residues_mod_33232930569601=(20324473793507, 2854709431248, 4124949205483, 16518864947442, 16836217255941, 5822652678330) reconstruction=(None, None, None, None, -267326/2532561, None) exact_residuals=None
+ branch=1 residues_mod_33232930569601=(26195064355400, 29258109968132, 14412187205509, 837842799827, 8959511648505, 25865499728531) reconstruction=(-3671744/2446435, 861769/3136954, -1137481/2880618, -2440996/3794699, 1501162/2963059, -2644731/2025746) exact_residuals=(-1434211503649612184601074448461837480622490130923/328485189247911015889168582436188729877692680000, 5611498108068007045966752499828054557333635778731/269974641808631031187455717034227668815019880000, -16770084903012625130151377314490568670036112280719954671679039938903/457004968519795454436972901680790851292987271632049197985107680000, 587741445013878035301811844991481726395829247901378923061859/16279880355848756589399227493021942031552763501642401232000, -30952903901035566774001890340958770415849996602688185002287/1283433670245783595998449231138692869263914253026300000000, 39799265603284445295885197/7436763478817535636371785)
+branch_reconstruction_counts={(0, 'complete_reconstruction'): 146, (0, 'incomplete_reconstruction'): 6000, (1, 'complete_reconstruction'): 120, (1, 'incomplete_reconstruction'): 6026}
+tested_lifts=12292
+exact_hit_count=0
+BOUNDED_RESULT=NO_RATIONAL_POINT_RECONSTRUCTED_ON_TWO_INDEPENDENT_BRANCHES

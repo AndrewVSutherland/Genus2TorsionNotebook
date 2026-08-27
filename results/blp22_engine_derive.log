@@ -1,0 +1,25 @@
+VALIDATE C1 ok=true t0_zero=true t1_zero=true
+VALIDATE C2 ok=true t0_zero=true t1_zero=true
+VALIDATE C3 ok=true t0_zero=true t1_zero=true
+VALIDATE C4 ok=true t0_zero=false t1_zero=false
+  NONVANISHING C4: t0=-6043839059305223740187313227512867887308800000000/29204915919972581730012500956659370597467 t1=-22333306286777976193838444764429546496000000000/1081663552591577101111574109505902614721
+VALIDATE C5 ok=true t0_zero=true t1_zero=true
+VALIDATE C6 ok=true t0_zero=true t1_zero=true
+VALIDATE C7 ok=true t0_zero=true t1_zero=true
+VALIDATE C8 ok=true t0_zero=true t1_zero=true
+VALIDATE C9 ok=true t0_zero=true t1_zero=true
+VALIDATE C10 ok=true t0_zero=true t1_zero=true
+VALIDATE tC1 ok=true t0_zero=true t1_zero=true
+VALIDATE tC2 ok=true t0_zero=true t1_zero=true
+VALIDATE tC3 ok=true t0_zero=true t1_zero=true
+VALIDATE tC4 ok=true t0_zero=true t1_zero=true
+VALIDATE tC5 ok=true t0_zero=true t1_zero=true
+VALIDATE tC7 ok=true t0_zero=true t1_zero=true
+VALIDATE tC8 ok=true t0_zero=true t1_zero=true
+VALIDATE tC9 ok=true t0_zero=true t1_zero=true
+VANISH_PASS 17 / 18 (C4 expected to fail if its printed b is a typo)
+NEGCTRL tC1p nonvanishing=true
+NEGCTRL C5p nonvanishing=true
+NEGCTRL rand nonvanishing=true
+BLP22_ENGINE_DERIVATION_VALIDATED
+C4_B_RECOVERY gcd_degree=1 roots=[ <-277/243, 1> ]

@@ -1,0 +1,77 @@
+TARGET_22224_OFFRECTANGLE_FIBERS_START MultipleBound 40 PointBound 500 LatticeBound 4
+FIBER_START F1 fixed [ 46, 292, 1679 ]
+d0 2 known_t 19
+QUOTIENT F1 <1, 2> quartic 1/3528*T^4 + 169/3528*T^2 + 1679/1764
+known_point_order 0 rank_bounds 4 4 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 91809*x - 9215775 over Rational Field
+MW_GROUP F1 <1, 2> invariants [ 2, 0, 0, 0, 0 ]
+basis_size 4
+QUOTIENT_GENERATORS F1 <1, 2> pointsearch 2 lattice_basis 4
+FULL_FIBER_POINT F1 <1, 2> t 1 primitive [ 2, 46, 292, 1679 ]
+in_bank true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+FULL_FIBER_POINT F1 <1, 2> t -19 primitive [ 46, 292, 722, 1679 ]
+in_bank true rectangle false three_survivor false gcd 128 used [ <17, 384, 384>, <31, 1024, 128> ]
+QUOTIENT F1 <1, 3> quartic 1/20172*x^4 + 575/13448*x^2 + 38617/40344
+known_point_order 0 rank_bounds 4 4 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 46829196*x + 5387547600 over Rational Field
+MW_GROUP F1 <1, 3> invariants [ 2, 0, 0, 0, 0 ]
+basis_size 4
+QUOTIENT_GENERATORS F1 <1, 3> pointsearch 2 lattice_basis 4
+QUOTIENT F1 <2, 3> quartic 2/247107*x^4 + 657/82369*x^2 + 245134/247107
+known_point_order 0 rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29304171*x - 54260869194 over Rational Field
+MW_GROUP F1 <2, 3> invariants [ 2, 0, 0, 0 ]
+basis_size 3
+QUOTIENT_GENERATORS F1 <2, 3> pointsearch 2 lattice_basis 3
+FIBER_DONE F1
+FIBER_START F2 fixed [ 71, 3650, 10366 ]
+d0 2116 known_t 37/23
+QUOTIENT F2 <1, 2> quartic 2238728/6305121*x^4 + 3936818/6305121*x^2 + 129575/6305121
+known_point_order 0 rank_bounds 4 4 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 22607521*x + 9966455521 over Rational Field
+MW_GROUP F2 <1, 2> invariants [ 2, 0, 0, 0, 0 ]
+basis_size 4
+QUOTIENT_GENERATORS F2 <1, 2> pointsearch 3 lattice_basis 4
+FULL_FIBER_POINT F2 <1, 2> t -1 primitive [ 71, 2116, 3650, 10366 ]
+in_bank true rectangle false three_survivor false gcd 128 used [ <17, 384, 384>, <19, 256, 128> ]
+FULL_FIBER_POINT F2 <1, 2> t 37/23 primitive [ 71, 3650, 5476, 10366 ]
+in_bank true rectangle false three_survivor false gcd 256 used [ <17, 256, 256> ]
+QUOTIENT F2 <1, 3> quartic 2238728/13649067*x^4 + 3680782/4549689*x^2 + 367993/13649067
+known_point_order 0 rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 1413153612*x + 13766064507216 over Rational Field
+MW_GROUP F2 <1, 3> invariants [ 2, 0, 0, 0 ]
+basis_size 3
+QUOTIENT_GENERATORS F2 <1, 3> pointsearch 2 lattice_basis 3
+QUOTIENT F2 <2, 3> quartic 1119364/17992803*x^4 + 2471488/5997601*x^2 + 9458975/17992803
+known_point_order 0 rank_bounds 4 4 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 121964823*x - 510552135072 over Rational Field
+MW_GROUP F2 <2, 3> invariants [ 2, 0, 0, 0, 0 ]
+basis_size 4
+QUOTIENT_GENERATORS F2 <2, 3> pointsearch 2 lattice_basis 4
+FIBER_DONE F2
+FIBER_START F3 fixed [ 276, 624, 828 ]
+d0 13 known_t 11
+QUOTIENT F3 <1, 2> quartic 13/14161*x^4 + 900/14161*x^2 + 13248/14161
+known_point_order 0 rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 59931*x - 5614650 over Rational Field
+MW_GROUP F3 <1, 2> invariants [ 2, 0, 0, 0 ]
+basis_size 3
+QUOTIENT_GENERATORS F3 <1, 2> pointsearch 2 lattice_basis 3
+FULL_FIBER_POINT F3 <1, 2> t -1 primitive [ 13, 276, 624, 828 ]
+in_bank true rectangle false three_survivor false gcd 448 used [ <19, 448, 448> ]
+FULL_FIBER_POINT F3 <1, 2> t 11 primitive [ 276, 624, 828, 1573 ]
+in_bank true rectangle false three_survivor false gcd 448 used [ <19, 448, 448> ]
+QUOTIENT F3 <1, 3> quartic 169/243049*x^4 + 14352/243049*x^2 + 228528/243049
+known_point_order 0 rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 13946556*x - 19673941664 over Rational Field
+MW_GROUP F3 <1, 3> invariants [ 2, 0, 0, 0 ]
+basis_size 3
+QUOTIENT_GENERATORS F3 <1, 3> pointsearch 2 lattice_basis 3
+QUOTIENT F3 <2, 3> quartic 13/41209*x^4 + 1452/41209*x^2 + 39744/41209
+known_point_order 0 rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 173091*x - 27715534 over Rational Field
+MW_GROUP F3 <2, 3> invariants [ 2, 0, 0 ]
+basis_size 2
+QUOTIENT_GENERATORS F3 <2, 3> pointsearch 2 lattice_basis 2
+FIBER_DONE F3
+TARGET_22224_OFFRECTANGLE_FIBERS_DONE quotients 9 positive_rank_known_point 9 searched_E_points 61138 full_points 6 new_offrectangle_full 0 three_survivors 0

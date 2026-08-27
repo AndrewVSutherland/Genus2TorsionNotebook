@@ -1,0 +1,13 @@
+REPEATED_RANK2_MWSIEVE_START F4 pair <1, 2> remaining 3 N 21 fixed [ -126, 28, 49 ]
+d0 -50 known_t 17/5 E Elliptic Curve defined by y^2 = x^3 - x^2 + 10911*x + 988065 over Rational Field
+rank_bounds 2 2 generators [ (-65 : 0 : 1), (33 : -1176 : 1), (311/25 : -132616/125 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE F4 p 13 orders 20 10 total 400 third_fail 120 open_no3 260 open_3 0 boundary 20 allowed 20 lattice_before 3698 lattice_after 181
+PRIORITY_CLASSES F4 p 13 boundary_count 20 open3_count 0 boundary [ <2, 12, 7>, <1, 8, 6>, <1, 0, 4>, <2, 2, 2>, <1, 10, 9>, <1, 18, 1>, <2, 4, 5>, <1, 4, 0>, <1, 12, 2>, <2, 0, 9>, <1, 6, 3>, <1, 2, 7>, <1, 14, 5>, <2, 6, 8>, <2, 10, 4>, <1, 16, 8>, <2, 16, 3>, <2, 18, 6>, <2, 8, 1>, <2, 14, 0> ]
+PRIME_PROFILE F4 p 17 orders 10 5 total 100 third_fail 30 open_no3 40 open_3 0 boundary 30 allowed 30 lattice_before 181 lattice_after 59
+PRIME_PROFILE F4 p 19 orders 8 8 total 128 third_fail 32 open_no3 32 open_3 0 boundary 64 allowed 64 lattice_before 59 lattice_after 59
+EXACT_FULL F4 m -2 n 1 ti 1 t 17/5 tuple [ 126, -28, -49, 578 ]
+three false gcd 256
+REPEATED_RANK2_MWSIEVE_DONE F4 N 21 used_primes [ 13, 17, 19 ]
+lattice_survivors 59 distinct_exact_t 59 exact_full 1 three_hits 0 output results/target_22224_F4_rank2_mwsieve_12_N21.tsv

@@ -1,0 +1,13 @@
+integral rhs: -192*x^6 + 1152*x^5 - 2880*x^4 + 16128*x^3 - 39744*x^2 + 38016*x - 319680
+rank bounds (integral model): 0..1
+torsion: []
+Jacobian points up to Kummer height 3000: 1
+infinite-order points found: 0
+== MordellWeilShaInformation ==
+
+In file "<scratchpad>/prymrank.m", line 20, column 32:
+>> MW := MordellWeilShaInformation(J);
+                                  ^
+Runtime error in 'MordellWeilShaInformation': Bad argument types
+Argument types given: JacHyp[FldRat]
+

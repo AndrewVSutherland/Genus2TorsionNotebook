@@ -1,0 +1,18 @@
+Loading "split_lab.m"
+== C1: y^2 = -2*Y^3 + 10*Y^2 + 18*Y - 90 ==
+C1 small points: 4
+C1: E = [ 0, 1, 0, -4, -4 ]
+C1: MW group invariants [ 2, 2 ]
+C1: enumerated 3 affine MW points
+== C3: y^2 = 2*Y^3 - 26*Y^2 + 78*Y - 54 ==
+C3 small points: 4
+C3: E = [ 0, 1, 0, -4, -4 ]
+C3: MW group invariants [ 2, 2 ]
+C3: enumerated 3 affine MW points
+== C2: y^2 = -Y^4 + 12*Y^3 - 14*Y^2 - 132*Y + 135 ==
+C2 small points: 4
+C2: E = [ 0, 1, 0, -4, -4 ]
+C2: MW group invariants [ 2, 2 ]
+C2: enumerated 4 affine MW points
+SURVIVORS total 0
+SEARCH_DONE 2266self survivors=0 curves=0 aborts=0 known=0 hits=0 fails=0

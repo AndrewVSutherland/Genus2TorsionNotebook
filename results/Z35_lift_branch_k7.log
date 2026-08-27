@@ -1,0 +1,444 @@
+Z35 liftable b=0,r=1 branch lift
+max_k 7 recon_height 80 max_store 2000000
+local equation convention: H(A,B,C0,C1,C2,R)=0 mod 3^k
+original coefficient equations then vanish mod 3^(k+1)
+variables [ A, B, C0, C1, C2, R ]
+FIRST_DIRECTION_PLANES
+center_t 1 directions 9 plane_basis
+  C2 + 2*R + 2 = 0
+  C0 + C1 + R + 2 = 0
+  B + 2*C1 + R + 2 = 0
+  A + C1 + 2*R + 2 = 0
+formula_check true
+formula B=2-A, R=C0-A, C1=C0+A+1, C2=C0+1-A over F3
+center_t 2 directions 9 plane_basis
+  C2 + R + 2 = 0
+  C0 + C1 + 2*R = 0
+  B + C1 + R = 0
+  A + 2*C1 + 2*R + 1 = 0
+formula_check true
+formula B=2-A, R=2-C0-A, C1=C0+2-A, C2=C0+A+2 over F3
+NAIVE_SMOOTH_MAX_TABLE
+columns: k modulus max_per_direction_if_unobstructed
+This is only a reference bound after the third-pass table, not a verdict.
+1 3 1
+2 9 27
+3 27 729
+4 81 19683
+5 243 531441
+6 729 14348907
+7 2187 387420489
+BRANCH_ANALYSIS
+columns include: branch_scales_for_H(dir+3*Y), mod3_solutions, rank_histogram, affine_basis
+CENTER 1 chart_scales [ 1, 1, 1, 1, 1 ]
+BRANCH t 1 idx 1 dir [ 0, 2, 0, 1, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 2 = 0
+   B1 + 2*C11 + R1 = 0
+   A1 + 2*C01 + R1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 0, 2, 0, 1, 13, 18 ]
+ sample_original_mod 81 [ 1, 6, 1, 4, 40, 55 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -54, -79, -54, -80, -68, -63 ]
+ reconstructed_original [ -161, -237, -161, -239, -203, -188 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 2 dir [ 0, 2, 1, 2, 2, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 = 0
+   B1 + 2*C11 + R1 + 1 = 0
+   A1 + 2*C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 3188646, [ <0, 59049>, <27, 118098> ], false>,
+<7, 2187, 0, [ <0, 3188646> ], false>
+]
+ stopped_reason store_limit_after_lookahead sample_depth 5
+ sample_local_mod 243 [ 0, 8, 1, 149, 50, 121 ]
+ sample_original_mod 729 [ 1, 24, 4, 448, 151, 364 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 45/2 sample_disc_v3 21 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 0, 8, 1, 55/2, 50, -1/2 ]
+ reconstructed_original [ 1, 24, 4, 167/2, 151, -1/2 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 3 dir [ 0, 2, 2, 0, 0, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 1 = 0
+   B1 + 2*C11 + R1 + 1 = 0
+   A1 + 2*C01 + R1 + 1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 0, 2, 2, 0, 21, 17 ]
+ sample_original_mod 81 [ 1, 6, 7, 1, 64, 52 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -54, -79, -79, -54, -60, -64 ]
+ reconstructed_original [ -161, -237, -236, -161, -179, -191 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 4 dir [ 1, 1, 0, 2, 0, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 1 = 0
+   B1 + 2*C11 + R1 + 1 = 0
+   A1 + 2*C01 + R1 + 1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 1, 1, 0, 20, 21, 8 ]
+ sample_original_mod 81 [ 4, 3, 1, 61, 64, 25 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -80, -80, -54, -61, -60, -73 ]
+ reconstructed_original [ -239, -240, -161, -182, -179, -218 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 5 dir [ 1, 1, 1, 0, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 2 = 0
+   B1 + 2*C11 + R1 + 2 = 0
+   A1 + 2*C01 + R1 + 1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 1594323, [ <0, 118098>, <27, 59049> ], true>,
+<7, 2187, 43046721, [ <27, 1594323> ], true>
+]
+ stopped_reason completed sample_depth 6
+ sample_local_mod 729 [ 1, 13, 1, 186, 190, 348 ]
+ sample_original_mod 2187 [ 4, 39, 4, 559, 571, 1045 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 81/2 sample_disc_v3 36 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 1, 13, 1, 15/4, 31/4, -33/2 ]
+ reconstructed_original [ 4, 39, 4, 49/4, 97/4, -97/2 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 6 dir [ 1, 1, 2, 1, 2, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 = 0
+   B1 + 2*C11 + R1 + 1 = 0
+   A1 + 2*C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 1, 1, 2, 25, 14, 4 ]
+ sample_original_mod 81 [ 4, 3, 7, 76, 43, 13 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -80, -80, -79, -56, -67, -77 ]
+ reconstructed_original [ -239, -240, -236, -167, -200, -230 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 7 dir [ 2, 0, 0, 0, 2, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 2 = 0
+   B1 + 2*C11 + R1 + 1 = 0
+   A1 + 2*C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 2, 0, 0, 6, 26, 22 ]
+ sample_original_mod 81 [ 7, 0, 1, 19, 79, 67 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -79, -54, -54, -75, -55, -59 ]
+ reconstructed_original [ -236, -162, -161, -224, -164, -176 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 8 dir [ 2, 0, 1, 1, 0, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 = 0
+   B1 + 2*C11 + R1 + 2 = 0
+   A1 + 2*C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 3188646, [ <0, 59049>, <27, 118098> ], false>,
+<7, 2187, 0, [ <0, 3188646> ], false>
+]
+ stopped_reason store_limit_after_lookahead sample_depth 5
+ sample_local_mod 243 [ 2, 6, 1, 70, 39, 32 ]
+ sample_original_mod 729 [ 7, 18, 4, 211, 118, 97 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 45/2 sample_disc_v3 20 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 2, 6, 1, 70, 39, 32 ]
+ reconstructed_original [ 7, 18, 4, 211, 118, 97 ]
+ reconstructed_exact_zero false
+BRANCH t 1 idx 9 dir [ 2, 0, 2, 2, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + 2*R1 + 1 = 0
+   B1 + 2*C11 + R1 = 0
+   A1 + 2*C01 + R1 + 1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 2, 0, 2, 26, 13, 15 ]
+ sample_original_mod 81 [ 7, 0, 7, 79, 40, 46 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -79, -54, -79, -55, -68, -66 ]
+ reconstructed_original [ -236, -162, -236, -164, -203, -197 ]
+ reconstructed_exact_zero false
+CENTER 2 chart_scales [ 1, 1, 1, 1, 1 ]
+BRANCH t 2 idx 1 dir [ 0, 2, 0, 2, 2, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 = 0
+   B1 + C11 + R1 + 2 = 0
+   A1 + C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 0, 2, 0, 20, 8, 5 ]
+ sample_original_mod 81 [ 1, 6, 2, 62, 26, 16 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -54, -79, -54, -61, -73, -76 ]
+ reconstructed_original [ -161, -237, -160, -181, -217, -227 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 2 dir [ 0, 2, 1, 0, 0, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 1 = 0
+   B1 + C11 + R1 + 2 = 0
+   A1 + C01 + R1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 3188646, [ <0, 59049>, <27, 118098> ], false>,
+<7, 2187, 0, [ <0, 3188646> ], false>
+]
+ stopped_reason store_limit_after_lookahead sample_depth 5
+ sample_local_mod 243 [ 0, 8, 1, 132, 15, 109 ]
+ sample_original_mod 729 [ 1, 24, 5, 398, 47, 328 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 45/2 sample_disc_v3 21 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 0, 8, 1, 21/2, 15, -25/2 ]
+ reconstructed_original [ 1, 24, 5, 67/2, 47, -73/2 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 3 dir [ 0, 2, 2, 1, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 2 = 0
+   B1 + C11 + R1 + 1 = 0
+   A1 + C01 + R1 + 1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 0, 2, 2, 1, 7, 6 ]
+ sample_original_mod 81 [ 1, 6, 8, 5, 23, 19 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -54, -79, -79, -80, -74, -75 ]
+ reconstructed_original [ -161, -237, -235, -238, -220, -224 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 4 dir [ 1, 1, 0, 1, 0, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 1 = 0
+   B1 + C11 + R1 + 2 = 0
+   A1 + C01 + R1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 1, 1, 0, 4, 6, 10 ]
+ sample_original_mod 81 [ 4, 3, 2, 14, 20, 31 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -80, -80, -54, -77, -75, -71 ]
+ reconstructed_original [ -239, -240, -160, -229, -223, -212 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 5 dir [ 1, 1, 1, 2, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 2 = 0
+   B1 + C11 + R1 = 0
+   A1 + C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 1594323, [ <0, 118098>, <27, 59049> ], true>,
+<7, 2187, 43046721, [ <27, 1594323> ], true>
+]
+ stopped_reason completed sample_depth 6
+ sample_local_mod 729 [ 1, 13, 1, 536, 541, 543 ]
+ sample_original_mod 2187 [ 4, 39, 5, 1610, 1625, 1630 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 81/2 sample_disc_v3 36 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 1, 13, 1, -43/4, -23/4, -15/4 ]
+ reconstructed_original [ 4, 39, 5, -121/4, -61/4, -41/4 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 6 dir [ 1, 1, 2, 0, 2, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 = 0
+   B1 + C11 + R1 + 2 = 0
+   A1 + C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 1, 1, 2, 18, 17, 14 ]
+ sample_original_mod 81 [ 4, 3, 8, 56, 53, 43 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -80, -80, -79, -63, -64, -67 ]
+ reconstructed_original [ -239, -240, -235, -187, -190, -200 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 7 dir [ 2, 0, 0, 0, 1, 0 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 = 0
+   B1 + C11 + R1 + 1 = 0
+   A1 + C01 + R1 + 2 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 2, 0, 0, 12, 25, 12 ]
+ sample_original_mod 81 [ 7, 0, 2, 38, 77, 37 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -79, -54, -54, -69, -56, -69 ]
+ reconstructed_original [ -236, -162, -160, -205, -166, -206 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 8 dir [ 2, 0, 1, 1, 2, 2 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 1 = 0
+   B1 + C11 + R1 = 0
+   A1 + C01 + R1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>,
+<5, 243, 177147, [ <27, 6561> ], true>,
+<6, 729, 3188646, [ <0, 59049>, <27, 118098> ], false>,
+<7, 2187, 0, [ <0, 3188646> ], false>
+]
+ stopped_reason store_limit_after_lookahead sample_depth 5
+ sample_local_mod 243 [ 2, 6, 1, 121, 197, 191 ]
+ sample_original_mod 729 [ 7, 18, 5, 365, 593, 574 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 45/2 sample_disc_v3 20 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ 2, 6, 1, -1/2, -46, -52 ]
+ reconstructed_original [ 7, 18, 5, 1/2, -136, -155 ]
+ reconstructed_exact_zero false
+BRANCH t 2 idx 9 dir [ 2, 0, 2, 2, 0, 1 ]
+ branch_scales [ 1, 1, 1, 1, 1 ]
+ mod3_solution_count 27 rank_histogram [ <3, 27> ]
+ next_digit_affine_basis
+   C21 + R1 + 2 = 0
+   B1 + C11 + R1 + 2 = 0
+   A1 + C01 + R1 = 0
+ exact_lift_rows [
+<2, 9, 27, [ <27, 1> ], true>,
+<3, 27, 729, [ <27, 27> ], true>,
+<4, 81, 0, [ <0, 729> ], true>
+]
+ stopped_reason no_lifts sample_depth 3
+ sample_local_mod 27 [ 2, 0, 2, 14, 3, 19 ]
+ sample_original_mod 81 [ 7, 0, 8, 44, 11, 58 ]
+ original_G_residues_mod_3^(sample_depth+1) [ 0, 0, 0, 0, 0 ]
+ sample_h1 9/2 sample_disc_v3 18 sample_disc_nonzero true
+ small_rational_reconstruction_local_height 80 ok true
+ reconstructed_local [ -79, -54, -79, -67, -78, -62 ]
+ reconstructed_original [ -236, -162, -235, -199, -232, -185 ]
+ reconstructed_exact_zero false
+SUMMARY
+stop_counts [ <"completed", 2>, <"no_lifts", 12>, <"store_limit_after_lookahead", 4> ]
+EXACT_TOTAL_LIFT_TABLE
+columns: k modulus total_lifts_all_18 nonzero_branches exact_branches
+1 3 18 18 18
+2 9 486 18 18
+3 27 13122 18 18
+4 81 39366 6 18
+5 243 1062882 6 18
+6 729 15943230 6 18
+7 2187 86093442 2 18
+lift_verdict some branches survive past mod 27; inspect exact branch rows and store-limit status
+contact5_verdict the five point-contact coefficient equations are the lifted equations; stored samples verify G_i=0 at their recorded precision
+rational_reconstruction_verdict small reconstruction probe is reported branch-by-branch and is only a heuristic, not a proof of nonexistence

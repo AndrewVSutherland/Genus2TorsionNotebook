@@ -1,0 +1,35 @@
+Direct and parametrized rho-sigma-tau searches for M(2,2,4,8)
+
+Direct box search:
+  Script: code/m2248_rst_direct_search.m
+  Formula:
+    A=rho^2, B=1
+    C=(sigma^2-A)/(sigma^2-1)
+    D=(tau^2-A)/(tau^2-1)
+  Requirement:
+    C,D rational squares, full-cover F1..F4 rational squares.
+
+Runs:
+  height 6:
+    checked 3908 cover_square 2 cd_square 0 exact_sources 0 full_sources 0 simple_hits 0 hits 0
+  height 12:
+    checked 79212 cover_square 16 cd_square 0 exact_sources 0 full_sources 0 simple_hits 0 hits 0
+  height 24:
+    checked 1734308 cover_square 34 cd_square 0 exact_sources 0 full_sources 0 simple_hits 0 hits 0
+  height 40:
+    checked 13953516 cover_square 68 cd_square 0 exact_sources 0 full_sources 0 simple_hits 0 hits 0
+
+Parametrized C,D-square search:
+  Script: code/m2248_rst_param_search.m
+  It parametrizes C=c^2 and D=d^2 automatically, then tests the full-cover square conditions F1..F4.
+
+Runs:
+  height 6:
+    checked 89424 valid_param 86352 cover_square 0 exact_sources 0 simple_hits 0 hits 0
+  height 10:
+    checked 1943424 valid_param 1919312 cover_square 0 exact_sources 0 simple_hits 0 hits 0
+  height 12:
+    checked 5910632 valid_param 5860440 cover_square 0 exact_sources 0 simple_hits 0 hits 0
+
+Conclusion:
+  The known HPL points live far out in these rho-sigma-tau coordinates. Small-height direct-coordinate searches do not find new simple or nonsimple full-cover points. The next algebraic bottleneck is to parametrize or otherwise search the four full-cover square conditions F1..F4, not to continue naive boxes in rho,sigma,tau.

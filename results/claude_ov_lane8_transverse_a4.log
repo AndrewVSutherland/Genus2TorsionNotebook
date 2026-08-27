@@ -1,0 +1,30 @@
+############ anchor 4 : Z/45    
+  f0 = 13981*x^6 + 29240200*x^4 + 49996210000*x^2 + 168300000000
+  N = 45   rank-2 primes = []   even/bielliptic model = 1   deg f0 = 6
+  bielliptic tangent (odd part): u1 = [99992420000, 116960800, 83886]  u2 = [1009800000000, 199984840000, 58480400]
+  NORMAL functional = [-9936013919920000, -5762888635768000000, 19878861099072800000000]
+  STAGE1 anchor passes the compatibility test at all 55 good p < 300 : 1
+    PROGRESS p=7  lines 0/16  flat 0/14  rand 0/24
+    PROGRESS p=47  lines 22/608  flat 69/596  rand 35/842
+    PROGRESS p=53  lines 26/760  flat 99/751  rand 40/1051
+    PROGRESS p=97  lines 100/2754  flat 392/2727  rand 119/3728
+    PROGRESS p=101  lines 108/3050  flat 440/3022  rand 137/4126
+    PROGRESS p=191  lines 376/10386  flat 1532/10330  rand 494/13976
+    PROGRESS p=193  lines 398/10960  flat 1618/10902  rand 520/14742
+    PROGRESS p=239  lines 622/16196  flat 2404/16119  rand 791/21739
+    PROGRESS p=241  lines 640/16912  flat 2488/16834  rand 810/22699
+    PROGRESS p=283  lines 870/23326  flat 3446/23230  rand 1122/31276
+  STAGE2 TRANSVERSE lines f0+t*x^{1,3,5} : 906/24194 = 0.03745
+  STAGE2 IN-LOCUS   lines f0+t*x^{0,2,4} : 3585/24102 = 0.14874
+  STAGE2 BASELINE   random sextics       : 1155/32443 = 0.03560
+  STAGE2 first killing residue (p,t) for f0+t*x^1 : [7, 1]
+  STAGE2 first killing residue (p,t) for f0+t*x^3 : [7, 2]
+  STAGE2 first killing residue (p,t) for f0+t*x^5 : [7, 1]
+  STAGE2 first killing residue (p,t) for f0+t*x^0 : [7, 3]
+  STAGE2 first killing residue (p,t) for f0+t*x^2 : [7, 1]
+  STAGE2 first killing residue (p,t) for f0+t*x^4 : [7, 2]
+  STAGE3 exhaustive odd box |ci|<=15 : 12385 transverse primitive directions, 12385 KILLED, 0 survivors
+  STAGE3 hardest (p,t) needed = [7, 3]
+  STAGE3R random directions, coeffs in [-20,20]^7 : 4998 transverse, 4998 KILLED, 0 survivors
+  STAGE3R hardest (p,t) needed = [13, 1]
+SEARCH_DONE anchor 4 Z/45    

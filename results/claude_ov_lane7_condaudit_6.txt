@@ -1,0 +1,5 @@
+CA 6 (-4/9, -4/25, 4/17) v_2(disc_min) = 30  bad_at_2 = true  magma_ogg_disclaimer_applies = true
+   magma N   = 677181093170400 = [ <2, 5>, <3, 2>, <5, 2>, <7, 2>, <13, 1>, <17, 2>, <23, 1>, <97, 1>, <229, 1> ]
+   pari  N   = 21161909161575
+   ratio magma/pari = 32 ; odd parts agree = true
+

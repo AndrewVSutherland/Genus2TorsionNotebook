@@ -1,0 +1,21 @@
+CTRL 295.a.295.2  Npub=295=[ <5, 1>, <59, 1> ]  Nmagma=295=[ <5, 1>, <59, 1> ]  v2(Npub)=0  v2(disc_min)=0  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 464.a.464.1  Npub=464=[ <2, 4>, <29, 1> ]  Nmagma=464=[ <2, 4>, <29, 1> ]  v2(Npub)=4  v2(disc_min)=4  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 464.a.29696.2  Npub=464=[ <2, 4>, <29, 1> ]  Nmagma=464=[ <2, 4>, <29, 1> ]  v2(Npub)=4  v2(disc_min)=10  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 1416.b.135936.1  Npub=1416=[ <2, 3>, <3, 1>, <59, 1> ]  Nmagma=1416=[ <2, 3>, <3, 1>, <59, 1> ]  v2(Npub)=3  v2(disc_min)=8  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 2600.a.338000.1  Npub=2600=[ <2, 3>, <5, 2>, <13, 1> ]  Nmagma=2600=[ <2, 3>, <5, 2>, <13, 1> ]  v2(Npub)=3  v2(disc_min)=4  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 1575.c.1  Npub=1575=[ <3, 2>, <5, 2>, <7, 1> ]  Nmagma=1575=[ <3, 2>, <5, 2>, <7, 1> ]  v2(Npub)=0  v2(disc_min)=0  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 3942.b.3  Npub=3942=[ <2, 1>, <3, 3>, <73, 1> ]  Nmagma=3942=[ <2, 1>, <3, 3>, <73, 1> ]  v2(Npub)=1  v2(disc_min)=4  ogg_guaranteed=true  MATCH=true  oddmatch=true
+CTRL 9450.b.2  Npub=9450=[ <2, 1>, <3, 3>, <5, 2>, <7, 1> ]  Nmagma=9450=[ <2, 1>, <3, 3>, <5, 2>, <7, 1> ]  v2(Npub)=1  v2(disc_min)=2  ogg_guaranteed=true  MATCH=true  oddmatch=true
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+CTRL 10512.n.1  Npub=10512=[ <2, 4>, <3, 2>, <73, 1> ]  Nmagma=10512=[ <2, 4>, <3, 2>, <73, 1> ]  v2(Npub)=4  v2(disc_min)=12  ogg_guaranteed=false  MATCH=true  oddmatch=true
+CTRL 12300.e.2  Npub=12300=[ <2, 2>, <3, 1>, <5, 2>, <41, 1> ]  Nmagma=12300=[ <2, 2>, <3, 1>, <5, 2>, <41, 1> ]  v2(Npub)=2  v2(disc_min)=6  ogg_guaranteed=true  MATCH=true  oddmatch=true
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+CTRL 19044.h.2  Npub=19044=[ <2, 2>, <3, 2>, <23, 2> ]  Nmagma=19044=[ <2, 2>, <3, 2>, <23, 2> ]  v2(Npub)=2  v2(disc_min)=12  ogg_guaranteed=false  MATCH=true  oddmatch=true
+CTRL 39600.dq.1  Npub=39600=[ <2, 4>, <3, 2>, <5, 2>, <11, 1> ]  Nmagma=39600=[ <2, 4>, <3, 2>, <5, 2>, <11, 1> ]  v2(Npub)=4  v2(disc_min)=10  ogg_guaranteed=true  MATCH=true  oddmatch=true
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+CTRL 8136.c.1  Npub=8136=[ <2, 3>, <3, 2>, <113, 1> ]  Nmagma=8136=[ <2, 3>, <3, 2>, <113, 1> ]  v2(Npub)=3  v2(disc_min)=12  ogg_guaranteed=false  MATCH=true  oddmatch=true
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+CTRL 28200.e.1  Npub=28200=[ <2, 3>, <3, 1>, <5, 2>, <47, 1> ]  Nmagma=28200=[ <2, 3>, <3, 1>, <5, 2>, <47, 1> ]  v2(Npub)=3  v2(disc_min)=16  ogg_guaranteed=false  MATCH=true  oddmatch=true
+CTRLSUMMARY  matched=14  mismatched=0  oddpart_matched=14  of 14
+ERRATUM_CONTROL_DONE

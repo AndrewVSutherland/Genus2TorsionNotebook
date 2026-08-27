@@ -1,0 +1,6 @@
+family=k3_section_P | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0
+family=k3_section_P_plus_T1 | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0
+family=k3_section_P_plus_T2 | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0
+family=k3_section_P_plus_T3 | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0
+family=filip_projective | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0
+TOTAL | A2244_orderings=0 | intermediate_signs=0 | full_signs=0 | reported=0

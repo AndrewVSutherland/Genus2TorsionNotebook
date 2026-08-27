@@ -1,0 +1,35 @@
+PIECE 22
+PERIOD_TERMS 48354
+PERIODS ok
+POSDEF a=3 b=-1 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=4 b=-1 edivs=[ 1, 1, 3, 3 ]
+POSDEF a=5 b=-2 edivs=[ 1, 1, 3, 3 ]
+POSDEF a=5 b=-1 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=6 b=-2 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=7 b=-3 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=7 b=-2 edivs=[ 1, 1, 11, 11 ]
+POSDEF a=8 b=-3 edivs=[ 1, 1, 11, 11 ]
+POSDEF a=8 b=-2 edivs=[ 1, 1, 3, 3 ]
+POSDEF a=9 b=-3 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=9 b=-2 edivs=[ 1, 1, 11, 11 ]
+POSDEF a=10 b=-4 edivs=[ 1, 1, 3, 3 ]
+POSDEF a=10 b=-3 edivs=[ 1, 1, 23, 23 ]
+POSDEF a=10 b=-2 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=11 b=-4 edivs=[ 1, 1, 23, 23 ]
+POSDEF a=11 b=-3 edivs=[ 1, 1, 26, 26 ]
+POSDEF a=11 b=-2 edivs=[ 1, 1, 3, 3 ]
+POSDEF a=12 b=-5 edivs=[ 1, 1, 11, 11 ]
+POSDEF a=12 b=-4 edivs=[ 1, 1, 2, 2 ]
+POSDEF a=12 b=-3 edivs=[ 1, 1, 3, 3 ]
+N_POSDEF 20
+TRY_FORM a=3 b=-1 type=(1,2)
+  isotropics: 3
+  PRINCIPAL_LATTICE found (index 2)
+  bigP valid (sgn=1 blk=1)
+
+In file "code/gl2_final_reconstruct.m", line 162, column 64:
+>>                 printf "RECONSTRUCTED over %o:\n%o\n", BaseRing(Crec), Crec
+                                                                  ^
+Runtime error in 'BaseRing': Bad argument types
+Argument types given: RngIntElt
+

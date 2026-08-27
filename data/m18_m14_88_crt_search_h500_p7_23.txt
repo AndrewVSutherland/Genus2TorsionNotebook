@@ -1,0 +1,50 @@
+CRT-guided reduced [8,8] exact search
+height 500 primes [ 7, 11, 13, 17, 19, 23 ]
+max_hits 10 max_candidates 0 progress_interval 250
+prime_profile 7 open_good 8 first_pairs 8 reduced_pairs 4
+prime_profile 11 open_good 28 first_pairs 20 reduced_pairs 12
+prime_profile 13 open_good 48 first_pairs 24 reduced_pairs 8
+prime_profile 17 open_good 120 first_pairs 56 reduced_pairs 28
+prime_profile 19 open_good 164 first_pairs 72 reduced_pairs 28
+prime_profile 23 open_good 288 first_pairs 144 reduced_pairs 44
+parameter_count 304463 strict_good_parameters 197219 denominator_bad_parameters 107244 s_residue_buckets 197219
+progress 250 open_good 249 first_bases 2 first_solutions 8 second_solutions 0 verified 0 hits 0
+progress 500 open_good 499 first_bases 6 first_solutions 24 second_solutions 0 verified 0 hits 0
+progress 750 open_good 749 first_bases 14 first_solutions 56 second_solutions 0 verified 0 hits 0
+progress 1000 open_good 999 first_bases 20 first_solutions 80 second_solutions 0 verified 0 hits 0
+progress 1250 open_good 1249 first_bases 24 first_solutions 96 second_solutions 0 verified 0 hits 0
+progress 1500 open_good 1499 first_bases 32 first_solutions 128 second_solutions 0 verified 0 hits 0
+progress 1750 open_good 1749 first_bases 34 first_solutions 136 second_solutions 0 verified 0 hits 0
+progress 2000 open_good 1999 first_bases 38 first_solutions 152 second_solutions 0 verified 0 hits 0
+progress 2250 open_good 2249 first_bases 42 first_solutions 168 second_solutions 0 verified 0 hits 0
+progress 2500 open_good 2499 first_bases 51 first_solutions 204 second_solutions 0 verified 0 hits 0
+progress 2750 open_good 2749 first_bases 58 first_solutions 232 second_solutions 0 verified 0 hits 0
+progress 3000 open_good 2999 first_bases 66 first_solutions 264 second_solutions 0 verified 0 hits 0
+progress 3250 open_good 3249 first_bases 72 first_solutions 288 second_solutions 0 verified 0 hits 0
+progress 3500 open_good 3499 first_bases 80 first_solutions 320 second_solutions 0 verified 0 hits 0
+progress 3750 open_good 3749 first_bases 90 first_solutions 360 second_solutions 0 verified 0 hits 0
+progress 4000 open_good 3999 first_bases 100 first_solutions 400 second_solutions 0 verified 0 hits 0
+progress 4250 open_good 4249 first_bases 109 first_solutions 436 second_solutions 0 verified 0 hits 0
+progress 4500 open_good 4499 first_bases 116 first_solutions 464 second_solutions 0 verified 0 hits 0
+progress 4750 open_good 4749 first_bases 126 first_solutions 504 second_solutions 0 verified 0 hits 0
+progress 5000 open_good 4999 first_bases 134 first_solutions 536 second_solutions 0 verified 0 hits 0
+progress 5250 open_good 5249 first_bases 144 first_solutions 576 second_solutions 0 verified 0 hits 0
+progress 5500 open_good 5499 first_bases 150 first_solutions 600 second_solutions 0 verified 0 hits 0
+progress 5750 open_good 5749 first_bases 158 first_solutions 632 second_solutions 0 verified 0 hits 0
+progress 6000 open_good 5999 first_bases 166 first_solutions 664 second_solutions 0 verified 0 hits 0
+progress 6250 open_good 6249 first_bases 173 first_solutions 692 second_solutions 0 verified 0 hits 0
+progress 6500 open_good 6499 first_bases 180 first_solutions 720 second_solutions 0 verified 0 hits 0
+progress 6750 open_good 6749 first_bases 188 first_solutions 752 second_solutions 0 verified 0 hits 0
+progress 7000 open_good 6999 first_bases 194 first_solutions 776 second_solutions 0 verified 0 hits 0
+progress 7250 open_good 7249 first_bases 204 first_solutions 816 second_solutions 0 verified 0 hits 0
+progress 7500 open_good 7499 first_bases 218 first_solutions 872 second_solutions 0 verified 0 hits 0
+progress 7750 open_good 7749 first_bases 224 first_solutions 896 second_solutions 0 verified 0 hits 0
+progress 8000 open_good 7999 first_bases 226 first_solutions 904 second_solutions 0 verified 0 hits 0
+progress 8250 open_good 8249 first_bases 234 first_solutions 936 second_solutions 0 verified 0 hits 0
+progress 8500 open_good 8499 first_bases 246 first_solutions 984 second_solutions 0 verified 0 hits 0
+progress 8750 open_good 8749 first_bases 248 first_solutions 992 second_solutions 0 verified 0 hits 0
+progress 9000 open_good 8999 first_bases 250 first_solutions 1000 second_solutions 0 verified 0 hits 0
+progress 9250 open_good 9249 first_bases 262 first_solutions 1048 second_solutions 0 verified 0 hits 0
+DONE height 500 primes [ 7, 11, 13, 17, 19, 23 ]
+pair_candidates 9336 open_good 9336 first_bases 264 first_solutions 1056 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

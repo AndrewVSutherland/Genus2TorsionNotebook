@@ -1,0 +1,32 @@
+ELKIES22210 ORBIT12 NORMALIZED BOUNDARY LIFTS AT P=11
+command: python3 code/elkies22210_orbit12_boundary_lifts.py --p 11 --max-k 3 --top 0
+
+level 1 modulus 11 states 129
+marked_status UN=30 UU=78 NU=18 NN=3
+ck_tangent_lift_counts 121:129
+base_strata 38
+
+level 2 modulus 121 states 3699
+per_parent_lift_counts 1:3 11:105 121:21
+resolved 0 deep 3699
+surviving_base_strata 38
+
+level 3 modulus 1331 states 182289
+per_parent_lift_counts 0:1590 11:165 21:3 66:990 121:951
+resolved 39960 deep 142329
+surviving_base_strata 38
+resolved_base_strata 19
+resolved_by_marked NN=3630 NU=7290 UN=7260 UU=21780
+deep_by_marked NN=7623 NU=12738 UN=61710 UU=60258
+
+certified Q_11 branch modulo 1331:
+r = (1,242,959,9,120), chart=1
+base stratum: marked=UN Z=(2) C=(15,34) zero-radicands-mod-11=(0,1,2)
+radicands = (484,1089,1089,1197)
+square roots = (22,33,33,322) modulo 1331
+valuation signature = (2,2,2,0)
+CK Jacobian rank modulo 11 = 2
+r_i^2 modulo 1331 = (1,0,1291,81,1090)
+pair differences = (1,41,1251,242,40,1250,241,1210,201,322)
+all coordinates and pair differences are nonzero in Q_11
+conclusion: genuine open Q_11 branch; p=11 is forced bad reduction, not a local obstruction

@@ -1,0 +1,45 @@
+M(2,12) EXTRA-3 LINE CRT SIEVE -- HEIGHT 100000
+
+Build and run:
+  cc -O3 -march=native code/m612_m212_line_height_sieve.c \
+    -o /tmp/m612_m212_line_height_sieve
+  /tmp/m612_m212_line_height_sieve 100000
+
+The exact finite cubic-contact masks use every prime 5 <= p <= 89.  Bad
+affine residues and the projective-infinity residue at every prime are kept
+conservatively, so the sieve has no false negatives caused by discarding a
+boundary chart.
+
+DONE H=100000
+CRT leaves 100216016
+bounded pairs 167729174
+primitive pairs 107194256
+survivors 3
+
+SURVIVOR r=0
+SURVIVOR r=1
+SURVIVOR r=-1
+
+All three surviving parameters are singular/degenerate members of the
+M(2,12) line.  Hence there is no smooth rational candidate with primitive
+r=n/d, |n|<=100000, 1<=d<=100000.
+
+First-kill totals after the four-prime CRT base mask:
+  p=89  89369835
+  p=59  14574910
+  p=83   2480489
+  p=71    556344
+  p=47    151335
+  p=29     42864
+  p=23     12402
+  p=61      3995
+  p=67      1352
+  p=79       479
+  p=13       161
+  p=73        53
+  p=7         11
+  p=43        13
+  p=37         5
+  p=31         3
+  p=17         0
+  p=19         2

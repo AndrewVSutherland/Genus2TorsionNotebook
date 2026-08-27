@@ -1,0 +1,165 @@
+{
+ "_comment": "Single machine-readable source for the non-database witnesses of paper/split_torsion_table.tex. Consumed by BOTH code/claude_gen_split_table.py (display equations derived from these coefficients) and code/claude_gen_split_table_check.py (verification rows), so the table and its verifier cannot drift. f, h are ascending coefficient lists of a minimal/integral model y^2 + h(x) y = f(x); alternatively quintic_roots r_i encode y^2 = x(x+r_1)...(x+r_4). Human-readable provenance: product/data/new_split_witnesses.txt.",
+ "witnesses": [
+  {
+   "invs": [
+    45
+   ],
+   "f": [
+    168300000000,
+    0,
+    49996210000,
+    0,
+    29240200,
+    0,
+    13981
+   ],
+   "h": [],
+   "tag": "lane8 anchor (HLP sec 3.6 family)"
+  },
+  {
+   "invs": [
+    63
+   ],
+   "f": [
+    -146398496,
+    0,
+    79136353,
+    0,
+    -197570,
+    0,
+    897
+   ],
+   "h": [],
+   "tag": "HLP eq (4) curve / lane8"
+  },
+  {
+   "invs": [
+    7,
+    7
+   ],
+   "f": [
+    869675859,
+    0,
+    3232987,
+    0,
+    3025,
+    0,
+    1
+   ],
+   "h": [],
+   "tag": "HLP sec 3.6 curve / lane8"
+  },
+  {
+   "invs": [
+    70
+   ],
+   "f": [
+    179,
+    425,
+    -51,
+    1
+   ],
+   "h": [
+    110,
+    -41,
+    -3,
+    2
+   ],
+   "tag": "Howe 2015 Thm 2.4"
+  },
+  {
+   "invs": [
+    8,
+    8
+   ],
+   "f": [
+    84285504,
+    -4535664,
+    -4045487,
+    1800118,
+    88597,
+    88596,
+    836
+   ],
+   "h": [],
+   "tag": "new: glue 82110.bs5 x 210.e6"
+  },
+  {
+   "invs": [
+    6,
+    12
+   ],
+   "f": [
+    88825,
+    81950,
+    75207,
+    -13354,
+    -6347,
+    396,
+    132
+   ],
+   "h": [],
+   "tag": "new: glue 30.a6 x cond-630"
+  },
+  {
+   "invs": [
+    2,
+    2,
+    24
+   ],
+   "f": [
+    0,
+    -158457693276225,
+    -25400003349776,
+    19670508870560,
+    -10404361990400,
+    4237596000000
+   ],
+   "h": [],
+   "tag": "new: HLP sec 3.7 cond (6) at (241/81,1/3), compact quintic model",
+   "display": "y^2 = x(52316x-156025)(2500x+3969)(32400x^{2}-34360x+255881)"
+  },
+  {
+   "invs": [
+    2,
+    2,
+    4,
+    8
+   ],
+   "f": [
+    0,
+    42938243694863192676456480983270400000000000000,
+    558098950720994323170545736900000000,
+    1821369625722709924500000,
+    2288161182841,
+    1
+   ],
+   "h": [],
+   "tag": "new: HLP sec 3.7 cond (5) at (1/6,4/17), square-branch model",
+   "display": "y^2 = x(x+336100^2)(x+835200^2)(x+841500^2)(x+877221^2)"
+  },
+  {
+   "invs": [
+    2,
+    2,
+    4,
+    4
+   ],
+   "tag": "new: 210.c5 x 2310.o4 gluing",
+   "f": [
+    4913,
+    867,
+    -5657,
+    -671,
+    1000,
+    60
+   ],
+   "h": [
+    0,
+    1,
+    1
+   ]
+  }
+ ]
+}

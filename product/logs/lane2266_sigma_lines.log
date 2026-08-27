@@ -1,0 +1,152 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+LINES sweep HSweep=2000 uvals=4866345 curves=48
+RESIDUAL 1 si=3 t(u)=u + 4 trivial=[ false, false, true ] degs=[ 2, 2, 0 ]
+CURVE_DONE 1 si=3 full=0 7.480 s
+RESIDUAL 2 si=3 t(u)=u - 4 trivial=[ true, false, false ] degs=[ 0, 2, 2 ]
+CURVE_DONE 2 si=3 full=0 15.110 s
+RESIDUAL 3 si=3 t(u)=u + 4 trivial=[ false, false, true ] degs=[ 2, 2, 0 ]
+CURVE_DONE 3 si=3 full=0 24.510 s
+RESIDUAL 4 si=3 t(u)=(6*u - 9)/u trivial=[ true, false, false ] degs=[ 0, 1, 2 ]
+CURVE_DONE 4 si=3 full=0 33.460 s
+RESIDUAL 5 si=3 t(u)=-9/(u - 6) trivial=[ false, false, true ] degs=[ 2, 1, 0 ]
+CURVE_DONE 5 si=3 full=0 42.280 s
+RESIDUAL 6 si=3 t(u)=-4*u + 15 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 6 si=3 full=0 52.590 s
+RESIDUAL 7 si=3 t(u)=-1/4*u + 15/4 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 7 si=3 full=0 62.390 s
+RESIDUAL 8 si=3 t(u)=-49/9*u + 58/3 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 8 si=3 full=0 75.020 s
+RESIDUAL 9 si=3 t(u)=-9/49*u + 174/49 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 9 si=3 full=0 87.070 s
+RESIDUAL 10 si=3 t(u)=-25/4*u + 87/4 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 10 si=3 full=0 99.350 s
+RESIDUAL 11 si=3 t(u)=-9/4*u + 39/4 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 11 si=3 full=0 111.230 s
+RESIDUAL 12 si=3 t(u)=-49/25*u + 222/25 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 12 si=3 full=0 124.220 s
+RESIDUAL 13 si=3 t(u)=-25/49*u + 222/49 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 13 si=3 full=0 136.630 s
+RESIDUAL 14 si=3 t(u)=-4/9*u + 13/3 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 14 si=3 full=0 147.310 s
+RESIDUAL 15 si=3 t(u)=-4/25*u + 87/25 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 15 si=3 full=0 158.230 s
+RESIDUAL 16 si=3 t(u)=-9*u + 30 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 16 si=3 full=0 170.100 s
+RESIDUAL 17 si=3 t(u)=-36*u + 111 trivial=[ false, true, false ] degs=[ 4, 0, 4 ]
+CURVE_DONE 17 si=3 full=0 182.120 s
+RESIDUAL 18 si=3 t(u)=2 trivial=[ false, false, false ] degs=[ 2, 1, 2 ]
+LINEFULL curve=18 si=3 t=2 u=4 ht_u=4
+SKIPISO t=2 u=4
+CURVE_DONE 18 si=3 full=1 188.160 s
+RESIDUAL 19 si=3 t(u)=4 trivial=[ false, false, false ] degs=[ 2, 1, 2 ]
+LINEFULL curve=19 si=3 t=4 u=2 ht_u=2
+SKIPISO t=4 u=2
+CURVE_DONE 19 si=3 full=1 194.260 s
+RESIDUAL 20 si=2 t(u)=7/15*u + 8/5 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+CURVE_DONE 20 si=2 full=0 203.760 s
+RESIDUAL 21 si=2 t(u)=15/7*u - 24/7 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+CURVE_DONE 21 si=2 full=0 213.030 s
+RESIDUAL 22 si=2 t(u)=19/3 trivial=[ false, false, false ] degs=[ 2, 2, 1 ]
+LINEFULL curve=22 si=2 t=19/3 u=4 ht_u=4
+SKIPISO t=19/3 u=4
+CURVE_DONE 22 si=2 full=1 219.060 s
+RESIDUAL 23 si=2 t(u)=17 trivial=[ false, false, false ] degs=[ 2, 2, 1 ]
+LINEFULL curve=23 si=2 t=17 u=2 ht_u=2
+SKIPISO t=17 u=2
+CURVE_DONE 23 si=2 full=1 225.140 s
+RESIDUAL 24 si=2 t(u)=13/24*u - 113/24 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+LINEFULL curve=24 si=2 t=7/3 u=13 ht_u=13
+SKIPISO t=7/3 u=13
+LINEFULL curve=24 si=2 t=-11/2 u=-19/13 ht_u=19
+SKIPISO t=-11/2 u=-19/13
+CURVE_DONE 24 si=2 full=2 234.510 s
+RESIDUAL 25 si=2 t(u)=24/13*u + 113/13 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+LINEFULL curve=25 si=2 t=13 u=7/3 ht_u=7
+SKIPISO t=13 u=7/3
+LINEFULL curve=25 si=2 t=-19/13 u=-11/2 ht_u=11
+SKIPISO t=-19/13 u=-11/2
+CURVE_DONE 25 si=2 full=2 244.370 s
+RESIDUAL 26 si=4 t(u)=7/15*u + 8/5 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+CURVE_DONE 26 si=4 full=0 254.460 s
+RESIDUAL 27 si=4 t(u)=15/7*u - 24/7 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+CURVE_DONE 27 si=4 full=0 264.970 s
+RESIDUAL 28 si=4 t(u)=-81/64*u - 235/64 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+LINEFULL curve=28 si=4 t=7/2 u=-17/3 ht_u=17
+SKIPISO t=7/2 u=-17/3
+LINEFULL curve=28 si=4 t=-17/2 u=103/27 ht_u=103
+SKIPISO t=-17/2 u=103/27
+CURVE_DONE 28 si=4 full=2 276.210 s
+RESIDUAL 29 si=4 t(u)=-64/81*u - 235/81 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+LINEFULL curve=29 si=4 t=-17/3 u=7/2 ht_u=7
+SKIPISO t=-17/3 u=7/2
+LINEFULL curve=29 si=4 t=103/27 u=-17/2 ht_u=17
+SKIPISO t=103/27 u=-17/2
+CURVE_DONE 29 si=4 full=2 286.070 s
+RESIDUAL 30 si=4 t(u)=-11 trivial=[ false, false, false ] degs=[ 1, 2, 2 ]
+LINEFULL curve=30 si=4 t=-11 u=4 ht_u=4
+SKIPISO t=-11 u=4
+CURVE_DONE 30 si=4 full=1 292.140 s
+RESIDUAL 31 si=4 t(u)=-1/3 trivial=[ false, false, false ] degs=[ 1, 2, 2 ]
+LINEFULL curve=31 si=4 t=-1/3 u=2 ht_u=2
+SKIPISO t=-1/3 u=2
+CURVE_DONE 31 si=4 full=1 298.250 s
+RESIDUAL 32 si=5 t(u)=(21/5*u - 9/5)/(u - 9/5) trivial=[ true, false, false ] degs=[ 0, 2, 1 ]
+CURVE_DONE 32 si=5 full=0 308.440 s
+RESIDUAL 33 si=5 t(u)=(21/5*u - 9/5)/(u - 9/5) trivial=[ true, false, false ] degs=[ 0, 2, 1 ]
+CURVE_DONE 33 si=5 full=0 318.500 s
+RESIDUAL 34 si=5 t(u)=-15/7*u + 66/7 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+CURVE_DONE 34 si=5 full=0 328.040 s
+RESIDUAL 35 si=5 t(u)=-7/15*u + 22/5 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+CURVE_DONE 35 si=5 full=0 337.360 s
+RESIDUAL 36 si=5 t(u)=-24/13*u + 257/13 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+LINEFULL curve=36 si=5 t=13 u=11/3 ht_u=11
+SKIPISO t=13 u=11/3
+LINEFULL curve=36 si=5 t=-19/13 u=23/2 ht_u=23
+SKIPISO t=-19/13 u=23/2
+CURVE_DONE 36 si=5 full=2 347.460 s
+RESIDUAL 37 si=5 t(u)=19/3 trivial=[ false, false, false ] degs=[ 2, 2, 1 ]
+LINEFULL curve=37 si=5 t=19/3 u=2 ht_u=2
+SKIPISO t=19/3 u=2
+CURVE_DONE 37 si=5 full=1 353.490 s
+RESIDUAL 38 si=5 t(u)=17 trivial=[ false, false, false ] degs=[ 2, 2, 1 ]
+LINEFULL curve=38 si=5 t=17 u=4 ht_u=4
+SKIPISO t=17 u=4
+CURVE_DONE 38 si=5 full=1 359.420 s
+RESIDUAL 39 si=5 t(u)=114/245*u + 1231/245 trivial=[ false, false, false ] degs=[ 4, 3, 3 ]
+LINEFULL curve=39 si=5 t=29/5 u=5/3 ht_u=5
+SKIPISO t=29/5 u=5/3
+LINEFULL curve=39 si=5 t=125/49 u=-101/19 ht_u=101
+SKIPISO t=125/49 u=-101/19
+CURVE_DONE 39 si=5 full=2 369.220 s
+RESIDUAL 40 si=6 t(u)=(5*u + 11)/(u - 1) trivial=[ false, false, true ] degs=[ 2, 2, 0 ]
+CURVE_DONE 40 si=6 full=0 379.690 s
+RESIDUAL 41 si=6 t(u)=(5*u + 11)/(u - 1) trivial=[ false, false, true ] degs=[ 2, 2, 0 ]
+CURVE_DONE 41 si=6 full=0 390.730 s
+RESIDUAL 42 si=6 t(u)=(5*u + 11)/(u - 1) trivial=[ false, false, true ] degs=[ 2, 2, 0 ]
+CURVE_DONE 42 si=6 full=0 401.940 s
+RESIDUAL 43 si=6 t(u)=-15/7*u + 66/7 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+CURVE_DONE 43 si=6 full=0 412.760 s
+RESIDUAL 44 si=6 t(u)=-7/15*u + 22/5 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+CURVE_DONE 44 si=6 full=0 423.130 s
+RESIDUAL 45 si=6 t(u)=-13/24*u + 257/24 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+LINEFULL curve=45 si=6 t=11/3 u=13 ht_u=13
+SKIPISO t=11/3 u=13
+LINEFULL curve=45 si=6 t=23/2 u=-19/13 ht_u=19
+SKIPISO t=23/2 u=-19/13
+CURVE_DONE 45 si=6 full=2 433.920 s
+RESIDUAL 46 si=6 t(u)=-11 trivial=[ false, false, false ] degs=[ 1, 2, 2 ]
+LINEFULL curve=46 si=6 t=-11 u=2 ht_u=2
+SKIPISO t=-11 u=2
+CURVE_DONE 46 si=6 full=1 439.950 s
+RESIDUAL 47 si=6 t(u)=-1/3 trivial=[ false, false, false ] degs=[ 1, 2, 2 ]
+LINEFULL curve=47 si=6 t=-1/3 u=4 ht_u=4
+SKIPISO t=-1/3 u=4
+CURVE_DONE 47 si=6 full=1 446.000 s
+RESIDUAL 48 si=6 t(u)=245/114*u - 1231/114 trivial=[ false, false, false ] degs=[ 3, 3, 4 ]
+LINEFULL curve=48 si=6 t=5/3 u=29/5 ht_u=29
+SKIPISO t=5/3 u=29/5
+LINEFULL curve=48 si=6 t=-101/19 u=125/49 ht_u=125
+SKIPISO t=-101/19 u=125/49
+CURVE_DONE 48 si=6 full=2 457.900 s
+SEARCH_DONE 2266lines HSweep=2000 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 457.900 s

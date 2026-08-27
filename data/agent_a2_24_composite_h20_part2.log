@@ -1,0 +1,19 @@
+COMPOSITE 8x3 SEARCH on A(8): H=20 Part=2/3 prefilter 3|#J at [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 ]
+PROGRESS tested=200000 smooth=199021 rank2=1 pre3=0 tors=0 hits224=0
+PROGRESS tested=400000 smooth=398571 rank2=3 pre3=0 tors=0 hits224=0
+PROGRESS tested=600000 smooth=597631 rank2=11 pre3=0 tors=0 hits224=0
+PROGRESS tested=800000 smooth=796653 rank2=20 pre3=0 tors=0 hits224=0
+PROGRESS tested=1000000 smooth=995635 rank2=27 pre3=0 tors=0 hits224=0
+PROGRESS tested=1200000 smooth=1195165 rank2=34 pre3=0 tors=0 hits224=0
+PROGRESS tested=1400000 smooth=1394217 rank2=43 pre3=0 tors=0 hits224=0
+
+Current total memory usage: 2795.2MB, failed memory request: 885.5MB
+System Error: User memory limit has been reached
+
+Current total memory usage: 2795.2MB, failed memory request: 885.5MB
+System Error: User memory limit has been reached
+
+In file "code/agent_a2_24_composite8x3.m", line 182, column 89:
+>> o tors=%o hits24=%o hits224=%o\n",
+                                    ^
+User error: bad syntax

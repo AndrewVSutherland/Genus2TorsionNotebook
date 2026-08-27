@@ -1,0 +1,17 @@
+Magma V2.29-4     Thu Jul  2 2026 21:49:55 on <host>  [Seed = 3523036562]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m18_m14_248_halve_split_root_finite.m"
+p 7 total 24 good 8 first 8 one_split 4 root_tests 8 root_halvable 0 base_halvable 0
+p 11 total 80 good 28 first 20 one_split 4 root_tests 8 root_halvable 0 base_halvable 0
+p 13 total 120 good 56 first 28 one_split 8 root_tests 16 root_halvable 8 base_halvable 4
+p 17 total 224 good 136 first 64 one_split 24 root_tests 48 root_halvable 24 base_halvable 12
+p 19 total 288 good 164 first 104 one_split 36 root_tests 72 root_halvable 0 base_halvable 0
+p 23 total 440 good 288 first 184 one_split 84 root_tests 168 root_halvable 0 base_halvable 0
+p 29 total 728 good 528 first 256 one_split 96 root_tests 192 root_halvable 104 base_halvable 52
+p 31 total 840 good 640 first 376 one_split 152 root_tests 304 root_halvable 0 base_halvable 0
+p 37 total 1224 good 968 first 516 one_split 200 root_tests 400 root_halvable 144 base_halvable 72
+p 41 total 1520 good 1240 first 644 one_split 280 root_tests 560 root_halvable 224 base_halvable 112
+p 43 total 1680 good 1372 first 792 one_split 340 root_tests 680 root_halvable 0 base_halvable 0
+
+Total time: 18.250 seconds, Total memory usage: 32.09MB

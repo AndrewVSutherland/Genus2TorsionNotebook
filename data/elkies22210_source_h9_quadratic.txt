@@ -1,0 +1,16 @@
+Elkies [2,2,2,10] Clebsch-Klein source/Richelot sweep
+height 9 max_sources 100 run_isogenies false max_twopower_sources 100
+SOURCE source_1 rs [ 1, -8, -7, 9, 5 ]
+squares [ 1, 25, 49, 64, 81 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_1 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_1 x^6 - 220*x^5 + 17358*x^4 - 578380*x^3 + 6911641*x^2 - 
+    6350400*x
+DONE
+triple_checked 6859 tuple_checked 3966 clebsch_points 120 unique_sources 1
+best_order 80 best_exponent 10
+best_records [
+    <"source_1", "source", [ 2, 2, 2, 10 ], 80, 10>
+]
+interesting_count 0

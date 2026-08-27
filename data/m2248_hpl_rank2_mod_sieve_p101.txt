@@ -1,0 +1,120 @@
+HPL fixed-rho rank-2 modular sieve
+prime_bound 101 max_report_classes 40 max_crt_classes 200000
+rho0 58466134224/53109477625
+qbar0 307598400/352612321
+P0_UV 94616775682560000/124335448921007041 
+-26673210075821574360384875313460224/93137477446813583540101689789995905
+P1_UV 185261445034489541/75208331264762500 
+2019033491444667568388406032021/950637494391639082835996875000
+SKIP_PRIME 2
+SKIP_PRIME 3
+SKIP_PRIME 5
+SKIP_PRIME 7
+PRIME 11 E_order 16 ordP0 4 ordP1 8 total_classes 128
+COUNTS 11 u_classes 40 u_branches 80 c_classes 16 c_branches 32 full_classes 0 
+full_branches 0
+FULL_SURVIVORS 11 []
+SKIP_CRT_HPL_BAD 11 known_hpl_class_not_full_nonzero
+SKIP_PRIME 13
+SKIP_PRIME 17
+PRIME 19 E_order 24 ordP0 6 ordP1 4 total_classes 96
+COUNTS 19 u_classes 36 u_branches 72 c_classes 20 c_branches 40 full_classes 16 
+full_branches 32
+FULL_SURVIVORS 19 [ <1, 0, 1>, <1, 0, 4>, <1, 2, 1>, <1, 2, 4>, <2, 0, 2>, <2, 
+0, 3>, <2, 2, 2>, <2, 2, 3>, <4, 0, 2>, <4, 0, 3>, <4, 2, 2>, <4, 2, 3>, <5, 0, 
+1>, <5, 0, 4>, <5, 2, 1>, <5, 2, 4> ]
+CRT_AFTER 19 mod_a 6 mod_b 4 survivors 16 truncated false
+CRT_SURVIVORS [ <1, 0, 1>, <1, 0, 4>, <1, 2, 1>, <1, 2, 4>, <2, 0, 2>, <2, 0, 
+3>, <2, 2, 2>, <2, 2, 3>, <4, 0, 2>, <4, 0, 3>, <4, 2, 2>, <4, 2, 3>, <5, 0, 1>,
+<5, 0, 4>, <5, 2, 1>, <5, 2, 4> ]
+SKIP_PRIME 23
+PRIME 29 E_order 32 ordP0 8 ordP1 4 total_classes 128
+COUNTS 29 u_classes 104 u_branches 208 c_classes 96 c_branches 192 full_classes 
+48 full_branches 96
+FULL_SURVIVORS 29 count 48
+CRT_AFTER 29 mod_a 24 mod_b 4 survivors 24 truncated false
+CRT_SURVIVORS [ <1, 0, 1>, <19, 0, 1>, <13, 0, 1>, <7, 0, 1>, <1, 2, 1>, <19, 2,
+1>, <13, 2, 1>, <7, 2, 1>, <2, 0, 3>, <14, 0, 3>, <2, 2, 3>, <14, 2, 3>, <10, 0,
+3>, <22, 0, 3>, <10, 2, 3>, <22, 2, 3>, <17, 0, 1>, <11, 0, 1>, <5, 0, 1>, <23, 
+0, 1>, <17, 2, 1>, <11, 2, 1>, <5, 2, 1>, <23, 2, 1> ]
+SKIP_PRIME 31
+SKIP_PRIME 37
+PRIME 41 E_order 32 ordP0 2 ordP1 2 total_classes 16
+COUNTS 41 u_classes 4 u_branches 8 c_classes 0 c_branches 0 full_classes 0 
+full_branches 0
+FULL_SURVIVORS 41 []
+SKIP_CRT_HPL_BAD 41 known_hpl_class_not_full_nonzero
+PRIME 43 E_order 48 ordP0 12 ordP1 6 total_classes 288
+COUNTS 43 u_classes 252 u_branches 504 c_classes 132 c_branches 264 full_classes
+48 full_branches 96
+FULL_SURVIVORS 43 count 48
+CRT_AFTER 43 mod_a 24 mod_b 12 survivors 32 truncated false
+CRT_SURVIVORS [ <1, 0, 1>, <1, 8, 1>, <19, 0, 1>, <19, 8, 1>, <13, 0, 1>, <13, 
+8, 1>, <7, 0, 1>, <7, 8, 1>, <1, 6, 1>, <1, 2, 1>, <19, 6, 1>, <19, 2, 1>, <13, 
+6, 1>, <13, 2, 1>, <7, 6, 1>, <7, 2, 1>, <17, 0, 1>, <17, 4, 1>, <11, 0, 1>, 
+<11, 4, 1>, <5, 0, 1>, <5, 4, 1>, <23, 0, 1>, <23, 4, 1>, <17, 6, 1>, <17, 10, 
+1>, <11, 6, 1>, <11, 10, 1>, <5, 6, 1>, <5, 10, 1>, <23, 6, 1>, <23, 10, 1> ]
+SKIP_PRIME 47
+SKIP_PRIME 53
+PRIME 59 E_order 72 ordP0 9 ordP1 18 total_classes 648
+COUNTS 59 u_classes 594 u_branches 1188 c_classes 270 c_branches 540 
+full_classes 180 full_branches 288
+FULL_SURVIVORS 59 count 180
+CRT_AFTER 59 mod_a 72 mod_b 36 survivors 192 truncated false
+PRIME 61 E_order 48 ordP0 6 ordP1 12 total_classes 288
+COUNTS 61 u_classes 108 u_branches 216 c_classes 24 c_branches 48 full_classes 0
+full_branches 0
+FULL_SURVIVORS 61 []
+SKIP_CRT_HPL_BAD 61 known_hpl_class_not_full_nonzero
+PRIME 67 E_order 72 ordP0 9 ordP1 3 total_classes 108
+COUNTS 67 u_classes 99 u_branches 198 c_classes 39 c_branches 78 full_classes 12
+full_branches 24
+FULL_SURVIVORS 67 [ <1, 0, 1>, <1, 2, 1>, <2, 1, 1>, <2, 2, 1>, <4, 0, 1>, <4, 
+1, 1>, <5, 0, 1>, <5, 2, 1>, <7, 1, 1>, <7, 2, 1>, <8, 0, 1>, <8, 1, 1> ]
+CRT_AFTER 67 mod_a 72 mod_b 36 survivors 128 truncated false
+PRIME 71 E_order 72 ordP0 18 ordP1 36 total_classes 2592
+COUNTS 71 u_classes 1188 u_branches 2376 c_classes 612 c_branches 1224 
+full_classes 144 full_branches 288
+FULL_SURVIVORS 71 count 144
+CRT_AFTER 71 mod_a 72 mod_b 36 survivors 64 truncated false
+PRIME 73 E_order 80 ordP0 10 ordP1 4 total_classes 160
+COUNTS 73 u_classes 68 u_branches 136 c_classes 64 c_branches 128 full_classes 
+16 full_branches 32
+FULL_SURVIVORS 73 [ <1, 0, 1>, <1, 0, 2>, <1, 2, 1>, <1, 2, 2>, <4, 0, 3>, <4, 
+0, 4>, <4, 2, 3>, <4, 2, 4>, <6, 0, 3>, <6, 0, 4>, <6, 2, 3>, <6, 2, 4>, <9, 0, 
+1>, <9, 0, 2>, <9, 2, 1>, <9, 2, 2> ]
+CRT_AFTER 73 mod_a 360 mod_b 36 survivors 128 truncated false
+PRIME 79 E_order 88 ordP0 22 ordP1 4 total_classes 352
+COUNTS 79 u_classes 164 u_branches 328 c_classes 88 c_branches 176 full_classes 
+16 full_branches 32
+FULL_SURVIVORS 79 [ <1, 0, 1>, <1, 0, 4>, <1, 2, 1>, <1, 2, 4>, <10, 0, 2>, <10,
+0, 3>, <10, 2, 2>, <10, 2, 3>, <12, 0, 2>, <12, 0, 3>, <12, 2, 2>, <12, 2, 3>, 
+<21, 0, 1>, <21, 0, 4>, <21, 2, 1>, <21, 2, 4> ]
+CRT_AFTER 79 mod_a 3960 mod_b 36 survivors 256 truncated false
+PRIME 83 E_order 72 ordP0 18 ordP1 18 total_classes 1296
+COUNTS 83 u_classes 1188 u_branches 2376 c_classes 648 c_branches 1296 
+full_classes 288 full_branches 432
+FULL_SURVIVORS 83 count 288
+CRT_AFTER 83 mod_a 3960 mod_b 36 survivors 128 truncated false
+PRIME 89 E_order 96 ordP0 24 ordP1 12 total_classes 1152
+COUNTS 89 u_classes 540 u_branches 1080 c_classes 240 c_branches 480 
+full_classes 96 full_branches 144
+FULL_SURVIVORS 89 count 96
+CRT_AFTER 89 mod_a 3960 mod_b 36 survivors 48 truncated false
+PRIME 97 E_order 80 ordP0 5 ordP1 4 total_classes 80
+COUNTS 97 u_classes 34 u_branches 68 c_classes 32 c_branches 64 full_classes 8 
+full_branches 16
+FULL_SURVIVORS 97 [ <1, 0, 1>, <1, 0, 2>, <1, 2, 1>, <1, 2, 2>, <4, 0, 1>, <4, 
+0, 2>, <4, 2, 1>, <4, 2, 2> ]
+CRT_AFTER 97 mod_a 3960 mod_b 36 survivors 48 truncated false
+PRIME 101 E_order 112 ordP0 28 ordP1 28 total_classes 3136
+COUNTS 101 u_classes 1484 u_branches 2968 c_classes 812 c_branches 1624 
+full_classes 224 full_branches 336
+FULL_SURVIVORS 101 count 224
+CRT_AFTER 101 mod_a 27720 mod_b 252 survivors 448 truncated false
+DONE
+used_primes [ 19, 29, 43, 59, 67, 71, 73, 79, 83, 89, 97, 101 ]
+final_mod_a 27720
+final_mod_b 252
+final_full_survivors 448
+final_truncated false

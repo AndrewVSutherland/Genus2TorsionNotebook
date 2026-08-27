@@ -1,0 +1,13 @@
+a_candidates=[-11/8, 22/3, -11/27, 11/30]
+b_candidates=[-11/9, 11/10, 22, -11/28, 11/29]
+k_candidates=[-8/9, 9/16, 17/7, 1/25, -25/2, 26/23]
+height_bound=30
+precision_bound=7
+base_count=120
+branch_counts= {11: 100, 19: 16}
+branch_pair_count=1600
+tested_branch_pairs=192000
+fully_reconstructed_at_final_precision=280
+exact_hit_count=0
+BOUNDED_RESULT=NO_EXACT_RATIONAL_FIBER_ON_ALL_SMOOTH_OPEN_BRANCH_PAIRS
+elapsed=0:47.87 maxrss_kb=230436

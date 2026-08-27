@@ -1,0 +1,29 @@
+# New in-family points on M_1(8,4) found by the [4,16] production funnel
+# (Claude prod session 2026-07-18, target #3; notes/claude_prod_03_416.md)
+#
+# Both found by the conic-stratum octic solve (pass 2, m-height 2000):
+# they satisfy the coset-1 conic  -2R(R^2-1)(w^2-1) in Q^2  AND the family
+# membership condition (rational tangent, infam=1, confirmed INFAMILY by
+# code/m18_m14_416_exact.m).  Both are new family height records beyond the
+# previous frontier (height 5093, note claude_top10_03_416.md); both killed
+# for exponent 16 by audited all-twist kill residues (sound), exact torsion
+# [4,8], divPR=false divPRHx=false.  Geometric simplicity certified at
+# MULTIPLE primes (charpoly irreducible of degree 4 AND 12th-power transform
+# irreducible).
+#
+# format: R w height torsion kill_prime cert_primes
+-32/65 1816/4489 4489 [4,8] 17 53,83
+-72/85 5886/7459 7459 [4,8] 19 31,43,53
+#
+# integral models (y^2 = f(x), quintic, from code/m18_m14_416_exact.m recipe):
+# R=-32/65 w=1816/4489:
+#   y^2 = 3787747398285581250*x^5 + 162539016808801*x^4 + 826118235002362112*x^3
+#         + 26061875962986496*x^2 + 36413294436679680*x
+# R=-72/85 w=5886/7459:
+#   y^2 = 59740824049554106250*x^5 - 55866098517689980319*x^4
+#         + 78904708505681347152*x^3 - 30562494424621424064*x^2
+#         + 19151588113657528320*x
+# simplicity certificate charpolys:
+# R=-32/65: p=53 chi=x^4-8x^3+54x^2-424x+2809 ; p=83 chi=x^4-4x^3+38x^2-332x+6889
+# R=-72/85: p=31 chi=x^4+4x^3-2x^2+124x+961 ; p=43 chi=x^4-4x^3+22x^2-172x+1849 ;
+#           p=53 chi=x^4-4x^3+30x^2-212x+2809

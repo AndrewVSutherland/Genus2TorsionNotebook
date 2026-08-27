@@ -1,0 +1,19 @@
+M_1(8,4) plus 5 prime diagnostic
+height 50 params 3095 primes [ 3, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+checked 9566648
+cover 15322
+smooth 922
+pass_all 0
+PRIME 3 good 0 bad_or_boundary 922 pass5 0 kill5 0 first_kill 0
+PRIME 7 good 220 bad_or_boundary 702 pass5 0 kill5 220 first_kill 220
+PRIME 11 good 338 bad_or_boundary 584 pass5 0 kill5 338 first_kill 252
+PRIME 13 good 398 bad_or_boundary 524 pass5 142 kill5 256 first_kill 128
+PRIME 17 good 482 bad_or_boundary 440 pass5 10 kill5 472 first_kill 172
+PRIME 19 good 550 bad_or_boundary 372 pass5 2 kill5 548 first_kill 98
+PRIME 23 good 652 bad_or_boundary 270 pass5 130 kill5 522 first_kill 28
+PRIME 29 good 688 bad_or_boundary 234 pass5 196 kill5 492 first_kill 12
+PRIME 31 good 780 bad_or_boundary 142 pass5 330 kill5 450 first_kill 10
+PRIME 37 good 730 bad_or_boundary 192 pass5 108 kill5 622 first_kill 2
+PRIME 41 good 762 bad_or_boundary 160 pass5 90 kill5 672 first_kill 0
+PRIME 43 good 786 bad_or_boundary 136 pass5 162 kill5 624 first_kill 0
+DONE

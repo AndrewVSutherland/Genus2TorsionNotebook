@@ -1,0 +1,9 @@
+P31_BOUNDARY_CRT_RANDOM trials 500000000 height 30000 seed 22224 generated 468350289 normalized 400001643 toric 68348646 generation_fail 31649711 seven_prime_survivors 130408 exact_double_square 11 exact_nontrivial 0
+MASK p 29 reject 287300992 boundary 156064076 target 24985221
+MASK p 37 reject 129450984 boundary 45576639 target 6021674
+MASK p 41 reject 33023238 boundary 14355379 target 4219696
+MASK p 43 reject 12533462 boundary 4656724 target 1384889
+MASK p 47 reject 3978159 boundary 1432503 target 630951
+MASK p 53 reject 1552182 boundary 442640 target 68632
+MASK p 59 reject 380864 boundary 96491 target 33917
+OUTPUT results/target_22224_p31_boundary_crt_candidates_h30000.tsv

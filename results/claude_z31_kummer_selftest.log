@@ -1,0 +1,96 @@
+# claude_z31_kummer_sieve validation log — 2026-07-30
+# Task B2: chart U' universal Kummer-ladder 31-torsion sieve
+# Formula source: https://people.maths.ox.ac.uk/flynn/genus2/kummer/
+#   (archived: data/claude_z31_flynn_*.txt, sha256 in data/claude_z31_flynn_sha256.txt)
+# Transcription chain: claude_z31_flynn_parse.py (exact int-poly parser, structural+symmetry checks)
+#   -> flynn_polys.json -> claude_z31_gen_tables.py -> claude_z31_kummer_tables.h (mechanical)
+
+== [1] Python layer: parser structural checks ==
+delta1: 65 terms, fdeg max 3
+delta2: 81 terms, fdeg max 3
+delta3: 65 terms, fdeg max 3
+delta4: 128 terms, fdeg max 4
+kummeqn: 32 terms
+symmetry checks done, errs = 0
+wrote flynn_polys.json; TOTAL terms: 1974
+
+== [2] Python layer: parsed polys vs B1 Magma vectors (kummer.tsv + full chartU.tsv) ==
+  row 15: den=0, comparing k2,k3 only? skip
+kummer: rows=49 kappaD_fail=0 kappa31D_fail=0
+  UNKNOWN (den=0): p=101 row 85
+  UNKNOWN (den=0): p=101 row 326
+  UNKNOWN (den=0): p=211 row 397
+  UNKNOWN (den=0): p=211 row 614
+  UNKNOWN (den=0): p=1009 row 858
+chartU: rows=1586 unknown=5 eqfail=0 ordfail=0 d31fail=0 sieve31_pass=0
+TOTAL FAILURES: 0
+
+== [3] Python layer: parsed delta / full 4x4 BBB / kummeqn vs independent Magma
+==     Jacobian arithmetic (60 random curves+divisors, aws-spot-11,
+==     results/claude_z31_kummer_probe.log) ==
+probe vectors: 60  kummeqn fails: 0  duplication fails: 0  biquadratic fails: 0
+
+== [4] C transcription: polytest (420 random tuples, C vs Python evaluator) — local box ==
+POLYTEST rows=420 fails=0 PASS
+
+== [5] C selftest vs B1 vectors — local box (AMD Ryzen AI Max+ 395) ==
+SELFTEST kummer: rows=49 den0_unknown=1 kappaD_fail=0 kappa31D_fail=0
+  PASS-UNKNOWN (den=0) row 85 p=101
+  PASS-UNKNOWN (den=0) row 326 p=101
+  PASS-UNKNOWN (den=0) row 397 p=211
+  PASS-UNKNOWN (den=0) row 614 p=211
+  PASS-UNKNOWN (den=0) row 858 p=1009
+SELFTEST chartU: rows=1586 pass_unknown=5 eqfail=0 ordfail=0 d31fail=0 div31_agree=1581/1581 sieve31_pass=0
+SELFTEST_DONE FAILURES=0 PASS
+
+== [6] End-to-end: RM witness slice fibers, local box, 32 threads ==
+# slice (u1,u0,v1,v0,w4,w3,w2) = (-21/20, 9/20, 101/200, 51/200, -3356, 39201/5, -860459/100)
+# expected RM (w1,w0) mod P (from B1): 1009->(649,858) 2003->(1908,1647) 4001->(276,3459) 4003->(3184,407)
+HITF 1009 649 858 P
+FIBER_DONE p=1009 hits=1 unknown=0 cand=1018081 secs=1.00 rate=1013338/s threads=32 rate_per_core=31667/s
+HITF 2003 1908 1647 P
+FIBER_DONE p=2003 hits=1 unknown=0 cand=4012009 secs=3.99 rate=1004479/s threads=32 rate_per_core=31390/s
+HITF 4001 276 3459 P
+HITF 4001 1100 1436 P
+HITF 4001 692 3535 P
+FIBER_DONE p=4001 hits=3 unknown=0 cand=16008001 secs=15.15 rate=1056663/s threads=32 rate_per_core=33021/s
+HITF 4003 2252 1933 P
+HITF 4003 3184 407 P
+FIBER_DONE p=4003 hits=2 unknown=0 cand=16024009 secs=14.71 rate=1089515/s threads=32 rate_per_core=34047/s
+
+== [7] End-to-end: 4-prime CRT + rational reconstruction (local box) ==
+# expected exact output: w1=9278181/2000 w0=-2240289/2000 (RM curve)
+SWEEP H=1 #rats=3 nprimes=4 shard[0,1)x1 recbound=10000000 vary=(-1,-1)
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-825401/2644278 w0=633931/2680557
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-8606939/1285800 w0=3696278/2497587
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=2995533/1302698 w0=6483385/640297
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=3301325/2423879 w0=9972597/2894516
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-257387/2219946 w0=-8468321/1766223
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=9278181/2000 w0=-2240289/2000
+PROGRESS ia=1/1 slices=1 cands=6 35.8 s
+SWEEP_DONE shard[0,1) slices=1 skipped=0 candidates=6 35.8 s
+
+== [8] aws-spot-11 (c7a.48xlarge, 192-core Zen4 EPYC 9R14): build + validation + throughput ==
+# polytest: rows=420 fails=0 PASS
+# selftest: SELFTEST_DONE FAILURES=0 PASS (same counts as [5])
+# fiber P=2003 RM slice (warm run):
+#   HITF 2003 1908 1647 P
+#   FIBER_DONE p=2003 hits=1 unknown=0 cand=4012009 secs=0.83 rate=4808549/s threads=192 rate_per_core=25045/s
+# fiber P=4001 RM slice:
+#   HITF 4001 1100 1436 P / HITF 4001 692 3535 P / HITF 4001 276 3459 P
+#   FIBER_DONE p=4001 hits=3 unknown=0 cand=16008001 secs=2.96 rate=5414388/s threads=192 rate_per_core=28200/s
+# sweep validation on spot-11 (end-to-end + multi-slice smoke):
+SWEEP H=1 #rats=3 nprimes=4 shard[0,1)x1 recbound=10000000 vary=(-1,-1)
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-257387/2219946 w0=-8468321/1766223
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=3301325/2423879 w0=9972597/2894516
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=9278181/2000 w0=-2240289/2000
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-8606939/1285800 w0=3696278/2497587
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=-825401/2644278 w0=633931/2680557
+CAND u1=-21/20 u0=9/20 v1=101/200 v0=51/200 w4=-3356/1 w3=39201/5 w2=-860459/100 w1=2995533/1302698 w0=6483385/640297
+PROGRESS ia=1/1 slices=1 cands=6 6.7 s
+SWEEP_DONE shard[0,1) slices=1 skipped=0 candidates=6 6.7 s
+SWEEP H=2 #rats=7 nprimes=3 shard[0,3)x1 recbound=2000000 vary=(3,-1)
+PROGRESS ia=1/3 slices=1 cands=0 4.1 s
+PROGRESS ia=2/3 slices=2 cands=0 5.1 s
+PROGRESS ia=3/3 slices=3 cands=0 6.0 s
+SWEEP_DONE shard[0,3) slices=3 skipped=0 candidates=0 6.0 s

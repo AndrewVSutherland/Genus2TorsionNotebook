@@ -1,0 +1,8 @@
+# rational fibers on contact5/contact6 order30 core
+# height=500 checked_u=304460 hits=5
+# columns: u s
+125 5415
+125 2715
+1/8 21/32
+1/125 831/3125
+1/125 -69/3125

@@ -1,0 +1,34 @@
+Reduced [4,16] data
+t = (-1/4*$.1*$.2^2 + 1/2*$.1^2 - 1/2*$.2^2 + 1/4*$.1)/($.2^2 - 1)
+c4 = (2*$.1^2 - 2)/($.2^2 - 1)
+square relation: ss^2 + c4*R = 0
+open exclusions include bb*ss*c4*R*(w^2-1) != 0
+
+FIRST_COVER count 4
+FIRST_COVER eq 0 degree 10 terms 21
+FIRST_COVER eq 1 degree 8 terms 24
+FIRST_COVER eq 2 degree 6 terms 21
+FIRST_COVER eq 3 degree -1 terms 0
+
+CASE eta 1
+SECOND_REDUCED_416 count 3
+SECOND_REDUCED_416 eq 0 degree 4 terms 4
+SECOND_REDUCED_416 eq 1 degree 22 terms 375
+SECOND_REDUCED_416 eq 2 degree 15 terms 135
+
+SOLVED_COEFFICIENTS_416 count 3
+SOLVED_COEFFICIENTS_416 eq 0 degree 6 terms 4
+SOLVED_COEFFICIENTS_416 eq 1 degree -1 terms 0
+SOLVED_COEFFICIENTS_416 eq 2 degree -1 terms 0
+
+CASE eta -1
+SECOND_REDUCED_416 count 3
+SECOND_REDUCED_416 eq 0 degree 4 terms 4
+SECOND_REDUCED_416 eq 1 degree 22 terms 375
+SECOND_REDUCED_416 eq 2 degree 15 terms 135
+
+SOLVED_COEFFICIENTS_416 count 3
+SOLVED_COEFFICIENTS_416 eq 0 degree 6 terms 4
+SOLVED_COEFFICIENTS_416 eq 1 degree -1 terms 0
+SOLVED_COEFFICIENTS_416 eq 2 degree -1 terms 0
+

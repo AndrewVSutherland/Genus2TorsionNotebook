@@ -1,0 +1,5 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+SWEEP 2266 H=200 values=48921
+MATCHES 2266 pairs=17711
+SEARCH_DONE 2266 H=200 pairs=17711 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 2.060 s

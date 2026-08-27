@@ -1,0 +1,5 @@
+SPLITCHECK total=12825 bc_square=12825 b_square=12825 a_square=266 shapes={*
+[ 1, 1, 1, 1, 2 ]^^269,
+[ 1, 1, 2, 2 ]^^12556
+*}
+SPLIT_DONE

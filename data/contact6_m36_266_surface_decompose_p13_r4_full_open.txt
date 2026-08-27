@@ -1,0 +1,26 @@
+Contact-6 eps=+1 [2,6,6] surface decomposition diagnostic
+prime 13 decompose False full_open True count False count_only False fixed_r 4
+fixed_equation_summaries [(7, 12), (8, 47), (6, 24)]
+IDEAL fixed_raw dimension 2
+IDEAL fixed_raw groebner_length 34
+IDEAL fixed_raw groebner_summary [(10, 161), (9, 243), (9, 199), (9, 169), (9, 207), (9, 157), (9, 136), (9, 129), (9, 129), (9, 82), (9, 129), (8, 181), (8, 119), (8, 142), (8, 141), (8, 142), (8, 91), (8, 162), (8, 72), (8, 139), (8, 105), (8, 57), (8, 100), (8, 89), (8, 33), (8, 95), (8, 29), (7, 58), (7, 55), (7, 100), (7, 12), (7, 12), (6, 24), (6, 46)]
+IDEAL fixed_raw hilbert_polynomial 7*t^2 + 124*t - 1076 affine_degree 14
+SATURATION fixed_structural exponent 1
+IDEAL fixed_structural dimension 1
+IDEAL fixed_structural groebner_length 41
+IDEAL fixed_structural groebner_summary [(10, 237), (10, 209), (9, 170), (9, 163), (8, 204), (8, 205), (8, 214), (8, 138), (8, 164), (8, 164), (8, 180), (8, 172), (8, 109), (8, 165), (8, 179), (8, 180), (8, 66), (8, 126), (8, 152), (8, 121), (8, 133), (8, 77), (8, 124), (8, 62), (8, 124), (8, 125), (7, 149), (7, 58), (7, 55), (7, 132), (7, 141), (7, 55), (7, 110), (7, 86), (7, 33), (7, 12), (7, 23), (7, 12), (7, 84), (6, 24), (6, 46)]
+IDEAL fixed_structural hilbert_polynomial 95*t - 355 affine_degree 95
+COMPARE fixed_raw_equals_structural False
+SATURATION fixed_smooth_curve exponent 0
+SATURATION fixed_coprime_q_f exponent 0
+IDEAL fixed_full_open dimension 1
+IDEAL fixed_full_open groebner_length 41
+IDEAL fixed_full_open groebner_summary [(10, 237), (10, 209), (9, 170), (9, 163), (8, 204), (8, 205), (8, 214), (8, 138), (8, 164), (8, 164), (8, 180), (8, 172), (8, 109), (8, 165), (8, 179), (8, 180), (8, 66), (8, 126), (8, 152), (8, 121), (8, 133), (8, 77), (8, 124), (8, 62), (8, 124), (8, 125), (7, 149), (7, 58), (7, 55), (7, 132), (7, 141), (7, 55), (7, 110), (7, 86), (7, 33), (7, 12), (7, 23), (7, 12), (7, 84), (6, 24), (6, 46)]
+IDEAL fixed_full_open hilbert_polynomial 95*t - 355 affine_degree 95
+SATURATION fixed_away_auto_A exponent 0
+SATURATION fixed_away_auto_B exponent 0
+IDEAL fixed_nonautomorphic_open dimension 1
+IDEAL fixed_nonautomorphic_open groebner_length 41
+IDEAL fixed_nonautomorphic_open groebner_summary [(10, 237), (10, 209), (9, 170), (9, 163), (8, 204), (8, 205), (8, 214), (8, 138), (8, 164), (8, 164), (8, 180), (8, 172), (8, 109), (8, 165), (8, 179), (8, 180), (8, 66), (8, 126), (8, 152), (8, 121), (8, 133), (8, 77), (8, 124), (8, 62), (8, 124), (8, 125), (7, 149), (7, 58), (7, 55), (7, 132), (7, 141), (7, 55), (7, 110), (7, 86), (7, 33), (7, 12), (7, 23), (7, 12), (7, 84), (6, 24), (6, 46)]
+IDEAL fixed_nonautomorphic_open hilbert_polynomial 95*t - 355 affine_degree 95
+COMPARE fixed_open_equals_nonautomorphic True

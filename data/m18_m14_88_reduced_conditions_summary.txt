@@ -1,0 +1,46 @@
+Magma V2.29-4     Mon Jun 29 2026 14:48:43 on <host>  [Seed = 86850748]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m18_m14_88_reduced_conditions.m"
+
+CASE delta 1 eps 1 eta 1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+FIRST_REDUCED eq 1 degree 11 terms 24
+FIRST_REDUCED eq 2 degree 10 terms 21
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+
+CASE delta -1 eps -1 eta 1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+FIRST_REDUCED eq 1 degree 11 terms 24
+FIRST_REDUCED eq 2 degree 10 terms 21
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+
+CASE delta 1 eps 1 eta -1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+FIRST_REDUCED eq 1 degree 11 terms 24
+FIRST_REDUCED eq 2 degree 10 terms 21
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+
+CASE delta -1 eps -1 eta -1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+FIRST_REDUCED eq 1 degree 11 terms 24
+FIRST_REDUCED eq 2 degree 10 terms 21
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+
+Total time: 0.000 seconds, Total memory usage: 32.09MB

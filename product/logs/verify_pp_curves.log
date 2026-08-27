@@ -1,0 +1,16 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+== f36 : g = 9*x^6 + 18*x^5 - 3*x^4 + 36*x^3 + 84*x^2 + 32*x + 64 ==
+EXACT TORSION = [ 36 ]
+L-poly reducible at 44/44 good primes < 200
+G2-invariant match in DB split [36]/[48] rows: 4860.f1
+== f48_1 : g = x^6 - 14*x^4 + 37*x^2 + 12 ==
+EXACT TORSION = [ 48 ]
+L-poly reducible at 44/44 good primes < 200
+G2-invariant match in DB split [36]/[48] rows: 1764.a1
+FACTORS: cond 21 tors [ 8 ]  x  cond 84 tors [ 6 ]
+== f48_2 : g = x^6 + 4*x^5 + 26*x^4 + 33*x^2 - 36*x + 36 ==
+EXACT TORSION = [ 48 ]
+L-poly reducible at 44/44 good primes < 200
+G2-invariant match in DB split [36]/[48] rows: 5292.c2
+FACTORS: cond 126 tors [ 6 ]  x  cond 42 tors [ 8 ]
+DONE

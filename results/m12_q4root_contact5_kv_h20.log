@@ -1,0 +1,19 @@
+CONTACT_SELF_TEST_PASS u 0 gcd_degree 1
+Q4ROOT_SELF_TEST_PASS k 2 v 1 a -18 r 10 factor_degrees [ 2, 3 ]
+D12_square 12100
+M12 Q4-root exact point-contact5 search
+mode search height 20 prime_bound 17 primes [ 17, 13, 11, 7 ]
+generic odd factor type [2,3]; exact cyclic [60] is permitted
+CONTACT_MASK 17 good_pairs 151 allowed_pairs 1 contact_points 1 bad_boundary 138 samples [ <15, 5, 14> ]
+CONTACT_MASK 13 good_pairs 76 allowed_pairs 3 contact_points 3 bad_boundary 93 samples [ <3, 1, 2>, <3, 9, 3>, <12, 8, 7> ]
+CONTACT_MASK 11 good_pairs 45 allowed_pairs 1 contact_points 1 bad_boundary 76 samples [ <9, 9, 5> ]
+CONTACT_MASK 7 good_pairs 11 allowed_pairs 1 contact_points 1 bad_boundary 38 samples [ <5, 4, 2> ]
+PROGRESS 100000 mask 15909 smooth 15842 cover 0 order60 0
+PROGRESS 200000 mask 35934 smooth 35845 cover 0 order60 0
+DONE M12 Q4-root exact point-contact5 search
+parameters 511 checked_pairs 261121 mask_survivors 47845 smooth_survivors 47753 exact_cover_points 0 order60_hits 0 cyclic60_hits 0 order60_containing_hits 0 simple_hits 0
+kill_counts
+7 11459
+11 31569
+13 57620
+17 110587

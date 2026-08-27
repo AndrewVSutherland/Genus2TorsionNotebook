@@ -1,0 +1,15 @@
+M(2,2,2,4)+3 integer tuple search
+height 20 prime_bound 31 filter_primes [ 11, 17, 19, 23, 29, 31 ]
+point_prime_bound 43 point_primes [ 37, 41, 43 ]
+boundary13_only true boundary13_live_only true max_exact 5
+prime 11 contact_keys 3775 raw_contact_param 8840
+prime 17 contact_keys 23382 raw_contact_param 54960
+prime 19 contact_keys 40104 raw_contact_param 98658
+prime 23 contact_keys 91278 raw_contact_param 222838
+prime 29 contact_keys 227920 raw_contact_param 554512
+prime 31 contact_keys 311010 raw_contact_param 781380
+prime 37 point_keys 3060 allowed_3div 1107
+prime 41 point_keys 4845 allowed_3div 1925
+prime 43 point_keys 5985 allowed_3div 1890
+SUMMARY checked 4619 boundary13 2624 contact_survivors 74 point_survivors 1 
+no3_bound 1 survived_bound 0 exact 0 hits 0

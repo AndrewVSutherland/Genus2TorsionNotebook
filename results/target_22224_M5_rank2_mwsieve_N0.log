@@ -1,0 +1,33 @@
+P8_RANK2_MWSIEVE_START family M5 quotient <1, 2> N 0 primes [ 13, 41, 67, 71, 73, 19, 37, 43, 47, 53, 59, 79, 83, 89, 97 ]
+E Elliptic Curve defined by y^2 = x^3 + x^2 - 6656176*x - 6555416176 over Rational Field
+rank_bounds 2 2 generators [ (-1601 : 0 : 1), (-1376 : 300 : 1), (-1405 : 4998 : 1) ]
+known_t 29
+P8_PRIME_PROFILE p 13 orders 8 4 total 64 third_fail 48 open_no3 0 open_3 0 boundary 16 allowed 16
+P8_PRIORITY_CLASSES p 13 boundary [ <2, 5, 0>, <1, 7, 1>, <1, 0, 0>, <1, 4, 2>, <2, 3, 1>, <1, 3, 3>, <2, 0, 2>, <2, 4, 0>, <1, 2, 3>, <2, 6, 3>, <2, 1, 2>, <2, 2, 1>, <2, 7, 3>, <1, 5, 2>, <1, 1, 0>, <1, 6, 1> ]
+open_3 []
+P8_PRIME_PROFILE p 41 orders 8 16 total 256 third_fail 64 open_no3 160 open_3 0 boundary 32 allowed 32
+P8_PRIORITY_CLASSES p 41 boundary [ <1, 7, 6>, <1, 4, 9>, <1, 1, 11>, <1, 6, 12>, <1, 6, 13>, <1, 2, 4>, <2, 0, 8>, <1, 0, 0>, <1, 5, 2>, <2, 4, 0>, <2, 5, 10>, <2, 2, 13>, <2, 1, 2>, <2, 1, 3>, <2, 7, 15>, <1, 0, 1>, <1, 7, 7>, <2, 7, 14>, <1, 2, 5>, <2, 3, 7>, <1, 3, 15>, <1, 5, 3>, <1, 3, 14>, <2, 2, 12>, <1, 1, 10>, <2, 3, 6>, <1, 4, 8>, <2, 4, 1>, <2, 5, 11>, <2, 6, 5>, <2, 6, 4>, <2, 0, 9> ]
+open_3 []
+P8_PRIME_PROFILE p 67 orders 14 7 total 196 third_fail 56 open_no3 112 open_3 0 boundary 28 allowed 28
+P8_PRIORITY_CLASSES p 67 boundary [ <1, 10, 3>, <2, 6, 6>, <1, 13, 6>, <2, 13, 6>, <1, 3, 3>, <1, 6, 6>, <2, 4, 4>, <2, 1, 1>, <1, 1, 1>, <2, 0, 0>, <2, 8, 1>, <2, 12, 5>, <1, 12, 5>, <1, 5, 5>, <1, 11, 4>, <1, 9, 2>, <2, 5, 5>, <1, 2, 2>, <2, 10, 3>, <1, 8, 1>, <1, 7, 0>, <1, 4, 4>, <1, 0, 0>, <2, 9, 2>, <2, 3, 3>, <2, 2, 2>, <2, 7, 0>, <2, 11, 4> ]
+open_3 []
+P8_PRIME_PROFILE p 71 orders 6 18 total 216 third_fail 78 open_no3 90 open_3 24 boundary 24 allowed 48
+P8_PRIME_PROFILE p 73 orders 38 19 total 1444 third_fail 760 open_no3 380 open_3 152 boundary 152 allowed 304
+P8_PRIME_PROFILE p 19 orders 6 3 total 36 third_fail 12 open_no3 0 open_3 18 boundary 6 allowed 24
+P8_PRIME_PROFILE p 37 orders 16 8 total 256 third_fail 48 open_no3 128 open_3 48 boundary 32 allowed 80
+P8_PRIME_PROFILE p 43 orders 26 13 total 676 third_fail 130 open_no3 208 open_3 286 boundary 52 allowed 338
+P8_PRIME_PROFILE p 47 orders 28 14 total 784 third_fail 336 open_no3 224 open_3 168 boundary 56 allowed 224
+P8_PRIME_PROFILE p 53 orders 22 22 total 968 third_fail 176 open_no3 176 open_3 440 boundary 176 allowed 616
+P8_PRIME_PROFILE p 59 orders 32 8 total 512 third_fail 256 open_no3 48 open_3 176 boundary 32 allowed 208
+P8_PRIME_PROFILE p 79 orders 4 6 total 48 third_fail 12 open_no3 16 open_3 12 boundary 8 allowed 20
+P8_PRIME_PROFILE p 83 orders 10 20 total 400 third_fail 240 open_no3 30 open_3 70 boundary 60 allowed 130
+P8_PRIME_PROFILE p 89 orders 40 5 total 400 third_fail 230 open_no3 40 open_3 110 boundary 20 allowed 130
+P8_PRIME_PROFILE p 97 orders 25 50 total 2500 third_fail 850 open_no3 950 open_3 400 boundary 300 allowed 700
+P8_CRT_STEP p 13 classes 16
+P8_CRT_STEP p 41 classes 8
+P8_CRT_STEP p 67 classes 56
+P8_CRT_CLASSES count 56
+[ <1, 24, 56, 80, 112>, <1, 48, 56, 48, 112>, <1, 40, 56, 96, 112>, <1, 16, 56, 16, 112>, <1, 8, 56, 64, 112>, <1, 32, 56, 32, 112>, <1, 0, 56, 0, 112>, <1, 27, 56, 111, 112>, <1, 3, 56, 31, 112>, <1, 43, 56, 15, 112>, <1, 19, 56, 47, 112>, <1, 11, 56, 95, 112>, <1, 51, 56, 79, 112>, <1, 35, 56, 63, 112>, <1, 13, 56, 34, 112>, <1, 45, 56, 66, 112>, <1, 29, 56, 50, 112>, <1, 5, 56, 82, 112>, <1, 53, 56, 18, 112>, <1, 37, 56, 2, 112>, <1, 21, 56, 98, 112>, <1, 38, 56, 45, 112>, <1, 6, 56, 13, 112>, <1, 54, 56, 61, 112>, <1, 30, 56, 93, 112>, <1, 22, 56, 29, 112>, <1, 46, 56, 109, 112>, <1, 14, 56, 77, 112>, <2, 20, 56, 48, 112>, <2, 4, 56, 32, 112>, <2, 28, 56, 0, 112>, <2, 36, 56, 64, 112>, <2, 12, 56, 96, 112>, <2, 52, 56, 80, 112>, <2, 44, 56, 16, 112>, <2, 41, 56, 34, 112>, <2, 1, 56, 50, 112>, <2, 33, 56, 82, 112>, <2, 9, 56, 2, 112>, <2, 17, 56, 66, 112>, <2, 49, 56, 98, 112>, <2, 25, 56, 18, 112>, <2, 34, 56, 13, 112>, <2, 18, 56, 109, 112>, <2, 42, 56, 77, 112>, <2, 50, 56, 29, 112>, <2, 26, 56, 61, 112>, <2, 10, 56, 45, 112>, <2, 2, 56, 93, 112>, <2, 55, 56, 111, 112>, <2, 15, 56, 15, 112>, <2, 47, 56, 47, 112>, <2, 23, 56, 79, 112>, <2, 31, 56, 31, 112>, <2, 7, 56, 63, 112>, <2, 39, 56, 95, 112> ]
+P8_EXACT_CLASS m 0 n 0 ti 1 t 1 tuple [ 99, 244, 4026, 6 ]
+three false gcd 128
+P8_RANK2_MWSIEVE_DONE box_total 2 periodic_enumerated 1 modular_survivors 1 deferred_large_index 0 exact_full 1 height_skip 0 three_hits 0 crt_file results/target_22224_M5_rank2_periodic_lattice.tsv modular_file results/target_22224_M5_rank2_modular_N0.tsv

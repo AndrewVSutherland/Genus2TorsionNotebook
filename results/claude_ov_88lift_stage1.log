@@ -1,0 +1,58 @@
+MEMBER (m,n,v)=(2,1,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 722734831220895712046938596734883 ] d=[ -120574960026060135391, 1, 116831 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 722734831220895712046938596734883 ] d=[ -120574960026060135391, 1, 116831 ] compat=false wit=0
+MEMBER (m,n,v)=(2,1,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(2,1,-1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 6702486107503980216400294601960976015512436321209198697 ] d=[ 29827970619097965841, 1, 116831 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 6702486107503980216400294601960976015512436321209198697 ] d=[ 29827970619097965841, 1, 116831 ] compat=false wit=0
+MEMBER (m,n,v)=(2,1,-1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(2,1,2) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 1372337798217093130747355294791579278728128057994982507316623 ] d=[ 11394035686650404689, 1, 116831 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 1372337798217093130747355294791579278728128057994982507316623 ] d=[ 11394035686650404689, 1, 116831 ] compat=false wit=0
+MEMBER (m,n,v)=(2,1,2) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(2,3,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 442273006762107304041115810251 ] d=[ -665006836608654340245279, 1, -1785 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 442273006762107304041115810251 ] d=[ -665006836608654340245279, 1, -1785 ] compat=false wit=0
+MEMBER (m,n,v)=(2,3,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,1,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 329071998761685921941025402601516269669872325432983832423113 ] d=[ -51231420414241301, 1, 16031 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 329071998761685921941025402601516269669872325432983832423113 ] d=[ -51231420414241301, 1, 16031 ] compat=false wit=0
+MEMBER (m,n,v)=(3,1,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,2,-1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 109175152436703319226 ] d=[ -3435536562689, 1, 455 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 109175152436703319226 ] d=[ -3435536562689, 1, 455 ] compat=false wit=0
+MEMBER (m,n,v)=(3,2,-1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(1/2,2,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 44104361089216242951330873722707565102782989916112758959147719302795164823 ] d=[ -245846568873490977056214391, 1, -11977 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 44104361089216242951330873722707565102782989916112758959147719302795164823 ] d=[ -245846568873490977056214391, 1, -11977 ] compat=false wit=0
+MEMBER (m,n,v)=(1/2,2,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(2/3,1,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 328064431879113975985270945926538048944171904226460354995985648421437169550872009978771428427526567493570335 ] d=[ -63376177288701576421089918903778250879, 1, -105853921 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 328064431879113975985270945926538048944171904226460354995985648421437169550872009978771428427526567493570335 ] d=[ -63376177288701576421089918903778250879, 1, -105853921 ] compat=false wit=0
+MEMBER (m,n,v)=(2/3,1,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(2,5,1/2) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+  ORD4 1 2D=2*P[1] normpat=001 lam=[ 0, 0, 293482860972579667374505680608128255465056243 ] d=[ -8823792736649570828086648652159, 1, -36243361 ] compat=false wit=0
+  ORD4 2 2D=2*P[1] normpat=001 lam=[ 0, 0, 293482860972579667374505680608128255465056243 ] d=[ -8823792736649570828086648652159, 1, -36243361 ] compat=false wit=0
+MEMBER (m,n,v)=(2,5,1/2) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,1/3,1) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+MEMBER (m,n,v)=(3,1/3,1) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,1/3,-729/17500) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+MEMBER (m,n,v)=(3,1/3,-729/17500) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,1/3,26244/7975) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+MEMBER (m,n,v)=(3,1/3,26244/7975) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+MEMBER (m,n,v)=(3,1/3,729/38425) factorshape=[ 1, 1, 2, 2 ] J1tors=[ 4, 4 ]
+MEMBER (m,n,v)=(3,1/3,729/38425) ERROR Runtime error in 'NumberField': Argument 1 is not irreducible
+
+LIST_DONE

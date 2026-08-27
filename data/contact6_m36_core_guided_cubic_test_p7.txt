@@ -1,0 +1,9 @@
+Contact-6 core guided affine cubic test
+p 7 tangent_directions 8
+anchor same_simple_alt guided_cubics 0 samples []
+anchor nonsimple_1a guided_cubics 0 samples []
+anchor nonsimple_1b guided_cubics 0 samples []
+anchor nonsimple_2a guided_cubics 0 samples []
+anchor nonsimple_2b guided_cubics 0 samples []
+anchor nonsimple_3a guided_cubics 0 samples []
+anchor nonsimple_3b guided_cubics 0 samples []

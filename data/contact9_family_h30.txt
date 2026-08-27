@@ -1,0 +1,10 @@
+CONTACT9 direct family search
+height 30 params 1111 max_exact 2000
+FAMILY_HIT a -7/4 torsion [ 18 ]
+order 18 simple true pcert 17
+  f = 65536*x^5 - 389120*x^4 + 3864576*x^3 - 4488960*x^2 + 2515968*x - 551936
+DONE contact9 family
+checked 1111 smooth 1110 marked9 1110 exact_tests 1110 hits_ge18 1
+TORSION_COUNTS
+  [ 18 ] 1
+  [ 9 ] 1109

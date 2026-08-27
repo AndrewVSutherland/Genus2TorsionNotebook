@@ -1,0 +1,29 @@
+Magma V2.29-4     Wed Jul  1 2026 16:57:33 on <host>  [Seed = 1833046275]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact6_m36_halveD_symbolic.m"
+Contact-6 marked-class halving equations
+h6 = t^3 + A*t^2 + (A + C - 2)*t + C
+f = 2*A*t^5 + (A^2 + 2*A + 2*C - 4)*t^4 + (2*A^2 + 2*A*C - 4*A + 2*C)*t^3 + (A^2 + 4*A*C - 4*A + C^2 - 4*C + 4)*t^2 + (2*A*C + 2*C^2 - 4*C)*t + C^2
+u = t^2 + p*t + q
+ell = r*t^2 + s*t - C
+
+Equations H1..H4:
+H1 = -2*A*C + 2*A*q^2 - 2*C^2 - 2*C*s + 4*C
+H2 = -A^2 - 4*A*C + 4*A*p*q + 4*A - C^2 - 2*C*r + 4*C + s^2 - 4
+H3 = -2*A^2 - 2*A*C + 2*A*p^2 + 4*A*q + 4*A - 2*C + 2*r*s
+H4 = -A^2 + 4*A*p - 2*A - 2*C + r^2 + 4
+
+Open-chart substitutions:
+p = (1/4*$.1^2 + 1/2*$.1 + 1/2*$.2 - 1/4*$.5^2 - 1)/$.1
+s = (-$.1*$.2 + $.1*$.4^2 - $.2^2 + 2*$.2)/$.2
+
+Remaining equations after eliminating p,s:
+K2 = A^2*C^2*q - 2*A^2*C*q^2 + A^2*q^4 - 2*A*C^3 - 2*A*C^2*q^2 + 2*A*C^2*q + 4*A*C*q^2 + 2*C^3*q - 2*C^3*r - C^2*q*r^2 - 4*C^2*q
+K3 = 1/8*A^4*C - 3/2*A^3*C - 3/2*A^2*C^2 + 4*A^2*C*q - 1/4*A^2*C*r^2 - 2*A^2*C*r + 7/2*A^2*C + 2*A^2*q^2*r - 2*A*C^2*r - A*C^2 - 1/2*A*C*r^2 + 4*A*C*r - 2*A*C + 1/2*C^3 - 1/2*C^2*r^2 - 2*C^2 + 1/8*C*r^4 + C*r^2 + 2*C
+
+Nonboundary conditions:
+A*C*q != 0, discriminant(f) != 0, gcd(u,f)=1
+Wrote data/contact6_m36_halveD_symbolic.txt
+
+Total time: 0.000 seconds, Total memory usage: 32.09MB

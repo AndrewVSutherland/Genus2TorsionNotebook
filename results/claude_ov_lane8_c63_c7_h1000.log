@@ -1,0 +1,32 @@
+p=11 admissible (a,b): 14/121
+p=13 admissible (a,b): 16/169
+p=17 admissible (a,b): 29/289
+p=19 admissible (a,b): 44/361
+p=23 admissible (a,b): 73/529
+p=29 admissible (a,b): 120/841
+p=31 admissible (a,b): 116/961
+p=37 admissible (a,b): 178/1369
+p=41 admissible (a,b): 225/1681
+p=43 admissible (a,b): 245/1849
+p=47 admissible (a,b): 319/2209
+p=53 admissible (a,b): 369/2809
+p=59 admissible (a,b): 498/3481
+p=61 admissible (a,b): 467/3721
+p=67 admissible (a,b): 557/4489
+p=71 admissible (a,b): 736/5041
+pairs: 1216767
+PROGRESS c7 i=0/1216767 checked=1216767 surv=0
+PROGRESS c7 i=98304/1216767 checked=4985094399 surv=0
+PROGRESS c7 i=196608/1216767 checked=9968972031 surv=0
+PROGRESS c7 i=294912/1216767 checked=14952849663 surv=0
+PROGRESS c7 i=393216/1216767 checked=19936727295 surv=0
+PROGRESS c7 i=491520/1216767 checked=24920604927 surv=0
+PROGRESS c7 i=589824/1216767 checked=29904482559 surv=0
+PROGRESS c7 i=688128/1216767 checked=34888360191 surv=0
+PROGRESS c7 i=786432/1216767 checked=39872237823 surv=0
+PROGRESS c7 i=884736/1216767 checked=44856115455 surv=0
+SURVIVOR c7 a = 628/779  b = 994/671
+PROGRESS c7 i=983040/1216767 checked=49839993087 surv=0
+PROGRESS c7 i=1081344/1216767 checked=54823870719 surv=0
+PROGRESS c7 i=1179648/1216767 checked=59807748351 surv=0
+SEARCH_DONE c7 HN=1000 HD=1000 nprimes=16 pairs=1216767 checked=1480521932289 survivors=1

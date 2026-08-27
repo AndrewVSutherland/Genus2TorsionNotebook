@@ -1,0 +1,34 @@
+samples=181 time=232.620
+distinct (s,t) samples=181
+d=2 monomials=6 kernel_dim=0
+d=3 monomials=10 kernel_dim=0
+d=4 monomials=15 kernel_dim=0
+d=5 monomials=21 kernel_dim=0
+d=6 monomials=28 kernel_dim=0
+d=7 monomials=36 kernel_dim=0
+d=8 monomials=45 kernel_dim=0
+d=9 monomials=55 kernel_dim=0
+d=10 monomials=66 kernel_dim=1
+G(s,t) deg=10 terms=34:
+3389*ss^10 + 2989*ss^9*tt + 7682*ss^8*tt^2 + 6774*ss^8*tt + 1621*ss^7*tt^3 + 8953*ss^7*tt^2 + 8498*ss^6*tt^4 + 343*ss^6*tt^3 + 1264*ss^6*tt^2 + 106*ss^5*tt^5 + 7440*ss^5*tt^4 + 9278*ss^5*tt^3 + 9838*ss^4*tt^6 + 1692*ss^4*tt^5 + 6720*ss^4*tt^4 + 7730*ss^4*tt^3 + 3894*ss^3*tt^7 + 7538*ss^3*tt^6 + 3674*ss^3*tt^5 + 4731*ss^3*tt^4 + 2011*ss^2*tt^8 + 5347*ss^2*tt^7 + 1254*ss^2*tt^6 + 2141*ss^2*tt^5 + 8689*ss^2*tt^4 + 3943*ss*tt^8 + 5684*ss*tt^7 + 7326*ss*tt^6 + 5945*ss*tt^5 + 8005*tt^9 + 2147*tt^8 + 3715*tt^7 + 376*tt^6 + tt^5
+K-fit d=1 kernel_dim=0
+K-fit d=2 kernel_dim=0
+K-fit d=3 kernel_dim=0
+K-fit d=4 kernel_dim=0
+K-fit d=5 kernel_dim=0
+K-fit d=6 kernel_dim=0
+h2-fit d=1 kernel_dim=0
+h2-fit d=2 kernel_dim=0
+h2-fit d=3 kernel_dim=0
+h2-fit d=4 kernel_dim=0
+h2-fit d=5 kernel_dim=0
+h2-fit d=6 kernel_dim=0
+v-samples=181
+v-fit d=1 kernel_dim=0
+v-fit d=2 kernel_dim=0
+v-fit d=3 kernel_dim=0
+v-fit d=4 kernel_dim=0
+v-fit d=5 kernel_dim=0
+v-fit d=6 kernel_dim=0
+v-fit d=7 kernel_dim=0
+v-fit d=8 kernel_dim=0

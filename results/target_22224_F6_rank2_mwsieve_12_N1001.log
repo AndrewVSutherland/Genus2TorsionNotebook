@@ -1,0 +1,44 @@
+REPEATED_RANK2_MWSIEVE_START F6 pair <1, 2> remaining 3 N 1001 fixed [ -50, 30, 45 ]
+d0 -48 known_t 2 E Elliptic Curve defined by y^2 = x^3 + 3300*x + 34000 over Rational Field
+rank_bounds 2 2 generators [ (-10 : 0 : 1), (80 : -900 : 1), (230 : -3600 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE F6 p 13 orders 5 20 total 200 third_fail 60 open_no3 110 open_3 0 boundary 30 finite_direct_boundary 0 infinity 30 allowed 30 lattice_before 8024018 lattice_after 1203802
+PRIORITY_CLASSES F6 p 13 boundary_count 30 open3_count 0 boundary [ <1, 0, 7>, <1, 1, 15>, <1, 3, 11>, <2, 4, 19>, <1, 2, 3>, <1, 0, 17>, <2, 0, 17>, <1, 4, 9>, <1, 3, 1>, <2, 2, 13>, <1, 1, 4>, <2, 1, 15>, <2, 3, 1>, <1, 0, 16>, <1, 4, 8>, <2, 4, 9>, <2, 3, 10>, <2, 1, 5>, <1, 4, 19>, <2, 0, 7>, <2, 4, 18>, <2, 1, 14>, <2, 2, 3>, <1, 2, 13>, <1, 2, 12>, <1, 3, 0>, <2, 0, 6>, <2, 2, 2>, <2, 3, 11>, <1, 1, 5> ]
+PRIME_PROFILE F6 p 11 orders 12 6 total 144 third_fail 48 open_no3 48 open_3 0 boundary 48 finite_direct_boundary 12 infinity 36 allowed 48 lattice_before 1203802 lattice_after 401268
+PRIORITY_CLASSES F6 p 11 boundary_count 48 open3_count 0 boundary [ <2, 9, 1>, <1, 3, 4>, <2, 6, 1>, <1, 1, 3>, <2, 10, 3>, <2, 9, 4>, <1, 8, 5>, <1, 0, 1>, <1, 10, 0>, <1, 9, 4>, <2, 8, 5>, <2, 8, 2>, <1, 8, 2>, <2, 5, 2>, <2, 6, 4>, <1, 3, 1>, <1, 11, 5>, <1, 2, 5>, <1, 6, 1>, <2, 1, 0>, <2, 2, 2>, <2, 1, 3>, <1, 4, 3>, <1, 6, 4>, <1, 2, 2>, <1, 11, 2>, <1, 0, 4>, <2, 4, 3>, <2, 3, 4>, <2, 10, 0>, <2, 4, 0>, <2, 2, 5>, <1, 4, 0>, <1, 1, 0>, <2, 11, 5>, <1, 5, 2>, <2, 0, 4>, <1, 9, 1>, <2, 7, 3>, <1, 5, 5>, <2, 3, 1>, <1, 7, 3>, <2, 7, 0>, <2, 5, 5>, <1, 7, 0>, <2, 0, 1>, <2, 11, 2>, <1, 10, 3> ]
+PRIME_PROFILE F6 p 17 orders 10 5 total 100 third_fail 20 open_no3 20 open_3 15 boundary 45 finite_direct_boundary 30 infinity 15 allowed 60 lattice_before 401268 lattice_after 240736
+PRIME_PROFILE F6 p 19 orders 12 4 total 96 third_fail 48 open_no3 0 open_3 0 boundary 48 finite_direct_boundary 40 infinity 8 allowed 48 lattice_before 240736 lattice_after 120533
+PRIME_PROFILE F6 p 23 orders 16 16 total 512 third_fail 176 open_no3 192 open_3 0 boundary 144 finite_direct_boundary 96 infinity 48 allowed 144 lattice_before 120533 lattice_after 37657
+PRIME_PROFILE F6 p 29 orders 12 36 total 864 third_fail 288 open_no3 264 open_3 192 boundary 120 finite_direct_boundary 48 infinity 72 allowed 312 lattice_before 37657 lattice_after 15035
+PRIME_PROFILE F6 p 31 orders 16 8 total 256 third_fail 80 open_no3 56 open_3 32 boundary 88 finite_direct_boundary 64 infinity 24 allowed 120 lattice_before 15035 lattice_after 8329
+PRIME_PROFILE F6 p 37 orders 22 44 total 1936 third_fail 968 open_no3 352 open_3 308 boundary 308 finite_direct_boundary 176 infinity 132 allowed 616 lattice_before 8329 lattice_after 2297
+PRIME_PROFILE F6 p 41 orders 13 52 total 1352 third_fail 598 open_no3 312 open_3 312 boundary 130 finite_direct_boundary 52 infinity 78 allowed 442 lattice_before 2297 lattice_after 956
+PRIME_PROFILE F6 p 43 orders 8 24 total 384 third_fail 128 open_no3 64 open_3 128 boundary 64 finite_direct_boundary 16 infinity 48 allowed 192 lattice_before 956 lattice_after 842
+PRIME_PROFILE F6 p 47 orders 4 20 total 160 third_fail 32 open_no3 92 open_3 0 boundary 36 finite_direct_boundary 24 infinity 12 allowed 36 lattice_before 842 lattice_after 73
+PRIME_PROFILE F6 p 53 orders 8 16 total 256 third_fail 128 open_no3 24 open_3 64 boundary 40 finite_direct_boundary 16 infinity 24 allowed 104 lattice_before 73 lattice_after 67
+PRIME_PROFILE F6 p 59 orders 60 15 total 1800 third_fail 660 open_no3 480 open_3 450 boundary 210 finite_direct_boundary 120 infinity 90 allowed 660 lattice_before 67 lattice_after 43
+PRIME_PROFILE F6 p 61 orders 34 17 total 1156 third_fail 595 open_no3 408 open_3 0 boundary 153 finite_direct_boundary 102 infinity 51 allowed 153 lattice_before 43 lattice_after 5
+PRIME_PROFILE F6 p 67 orders 3 18 total 108 third_fail 18 open_no3 48 open_3 24 boundary 18 finite_direct_boundary 0 infinity 18 allowed 42 lattice_before 5 lattice_after 5
+PRIME_PROFILE F6 p 71 orders 36 12 total 864 third_fail 312 open_no3 96 open_3 192 boundary 264 finite_direct_boundary 192 infinity 72 allowed 456 lattice_before 5 lattice_after 5
+PRIME_PROFILE F6 p 73 orders 60 20 total 2400 third_fail 1160 open_no3 800 open_3 320 boundary 120 finite_direct_boundary 0 infinity 120 allowed 440 lattice_before 5 lattice_after 5
+PRIME_PROFILE F6 p 79 orders 32 16 total 1024 third_fail 464 open_no3 256 open_3 128 boundary 176 finite_direct_boundary 128 infinity 48 allowed 304 lattice_before 5 lattice_after 3
+PRIME_PROFILE F6 p 83 orders 48 16 total 1536 third_fail 528 open_no3 512 open_3 384 boundary 112 finite_direct_boundary 64 infinity 48 allowed 496 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 89 orders 23 92 total 4232 third_fail 1840 open_no3 1288 open_3 874 boundary 230 finite_direct_boundary 92 infinity 138 allowed 1104 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 97 orders 100 100 total 20000 third_fail 8600 open_no3 7200 open_3 3200 boundary 1000 finite_direct_boundary 400 infinity 600 allowed 4200 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 101 orders 116 116 total 26912 third_fail 15080 open_no3 3712 open_3 7424 boundary 696 finite_direct_boundary 0 infinity 696 allowed 8120 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 103 orders 36 54 total 3888 third_fail 2376 open_no3 720 open_3 684 boundary 108 finite_direct_boundary 0 infinity 108 allowed 792 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 107 orders 56 56 total 6272 third_fail 2408 open_no3 2240 open_3 1120 boundary 504 finite_direct_boundary 336 infinity 168 allowed 1624 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 109 orders 50 25 total 2500 third_fail 1100 open_no3 900 open_3 375 boundary 125 finite_direct_boundary 50 infinity 75 allowed 500 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 113 orders 54 54 total 5832 third_fail 2538 open_no3 864 open_3 1728 boundary 702 finite_direct_boundary 540 infinity 162 allowed 2430 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 127 orders 124 62 total 15376 third_fail 7688 open_no3 3844 open_3 3472 boundary 372 finite_direct_boundary 0 infinity 372 allowed 3844 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 131 orders 116 58 total 13456 third_fail 7772 open_no3 2320 open_3 2784 boundary 580 finite_direct_boundary 232 infinity 348 allowed 3364 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 137 orders 78 78 total 12168 third_fail 6474 open_no3 3120 open_3 1872 boundary 702 finite_direct_boundary 468 infinity 234 allowed 2574 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 139 orders 64 64 total 8192 third_fail 3328 open_no3 3840 open_3 704 boundary 320 finite_direct_boundary 128 infinity 192 allowed 1024 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 149 orders 156 156 total 48672 third_fail 24024 open_no3 17472 open_3 6240 boundary 936 finite_direct_boundary 0 infinity 936 allowed 7176 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 151 orders 38 38 total 2888 third_fail 1178 open_no3 456 open_3 912 boundary 342 finite_direct_boundary 228 infinity 114 allowed 1254 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 157 orders 74 148 total 21904 third_fail 9768 open_no3 8288 open_3 2960 boundary 888 finite_direct_boundary 444 infinity 444 allowed 3848 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 163 orders 84 84 total 14112 third_fail 7224 open_no3 2016 open_3 4032 boundary 840 finite_direct_boundary 336 infinity 504 allowed 4872 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 167 orders 88 88 total 15488 third_fail 6952 open_no3 4928 open_3 2816 boundary 792 finite_direct_boundary 528 infinity 264 allowed 3608 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 173 orders 48 48 total 4608 third_fail 2112 open_no3 912 open_3 1344 boundary 240 finite_direct_boundary 96 infinity 144 allowed 1584 lattice_before 3 lattice_after 3
+PRIME_PROFILE F6 p 179 orders 172 86 total 29584 third_fail 15308 open_no3 7568 open_3 5504 boundary 1204 finite_direct_boundary 688 infinity 516 allowed 6708 lattice_before 3 lattice_after 3

@@ -1,0 +1,4 @@
+N2_P13_PADIC_FILTER_START precision 120 input results/target_22224_N2_rank2_modular_N10000.tsv E Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+generators [ (-60 : 0 : 1), (-3170/81 : -1284400/729 : 1), (1630 : 67600 : 1) ]
+projective_finite [ 0, 1, 5, 8, 12 ]
+N2_P13_PADIC_FILTER_DONE tested 182 finite 181 infinity 1 unresolved 0 allowed 182 deep_p5 0 deep_bank 144 output results/target_22224_N2_rank2_modular_N10000_p13.tsv

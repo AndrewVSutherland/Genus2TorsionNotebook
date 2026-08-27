@@ -1,0 +1,7 @@
+Loading "code/claude_z96_family_setup.m"
+rational candidate u-values: [ 6120, 41820/7, 41310/7, 39780/7 ]
+u=6120: DEGENERATE (degree -1)
+u=41820/7: DEGENERATE (degree 4)
+u=41310/7: DEGENERATE (degree 4)
+u=39780/7: DEGENERATE (degree 4)
+ALL_DONE

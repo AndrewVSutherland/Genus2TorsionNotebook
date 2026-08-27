@@ -1,0 +1,56 @@
+Full A(2,2,2,8)+3 normalized 13-adic boundary analysis
+normalized_full_cover_bases_mod13 508
+contact_open_incidence_solutions_mod13 162
+jacobian_ranks {4: 2, 5: 24, 6: 48, 7: 88}
+p2_lift_summary {'has_p2_lift': 98, 'all_base_and_gcd_boundaries_can_move_first_order': 14, 'no_p2_lift': 64}
+
+Boundary/contact signatures:
+  ('Z4', 'E12+', 'E13+', 'E23+', 'R0=0'): mod13=16 lifts={'no_p2_lift': 16} example=None
+  ('Z1', 'E23+', 'E24+', 'E34+', 'R0=0', 'R1=0'): mod13=8 lifts={'no_p2_lift': 8} example=None
+  ('Z1', 'E24-', 'R0=0', 'R1=0', 'R2=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z1', 'E34-', 'R0=0', 'R1=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z2', 'E13+', 'E14+', 'E34+', 'R0=0', 'R2=0'): mod13=8 lifts={'no_p2_lift': 8} example=None
+  ('Z2', 'E14-', 'R0=0', 'R1=0', 'R2=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z2', 'E34-', 'R0=0', 'R2=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z3', 'E12+', 'E14+', 'E24+', 'R0=0', 'R3=0'): mod13=8 lifts={'no_p2_lift': 8} example=None
+  ('Z3', 'E14-', 'R0=0', 'R1=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z4', 'E13-', 'R0=0', 'R1=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z3', 'E24-', 'R0=0', 'R2=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z4', 'E23-', 'R0=0', 'R2=0', 'R3=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z4', 'E12-', 'R0=0', 'R1=0', 'R2=0'): mod13=8 lifts={'has_p2_lift': 8} example=None
+  ('Z1', 'Z2', 'Z4', 'E12+', 'E14+', 'E24+', 'R0=0', 'R1=0', 'R2=0'): mod13=4 lifts={'has_p2_lift': 4, 'all_base_and_gcd_boundaries_can_move_first_order': 4} example=(0, 0, 1, 0, 0, 0, 0, 1, 6, 12, 10)
+  ('Z1', 'Z3', 'Z4', 'E13+', 'E14+', 'E34+', 'R0=0', 'R1=0', 'R3=0'): mod13=4 lifts={'has_p2_lift': 4, 'all_base_and_gcd_boundaries_can_move_first_order': 4} example=(0, 1, 0, 0, 0, 0, 1, 0, 6, 12, 10)
+  ('Z1', 'E23-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=4 lifts={'has_p2_lift': 4} example=None
+  ('Z2', 'Z3', 'Z4', 'E23+', 'E24+', 'E34+', 'R0=0', 'R2=0', 'R3=0'): mod13=4 lifts={'has_p2_lift': 4, 'all_base_and_gcd_boundaries_can_move_first_order': 4} example=(1, 0, 0, 0, 0, 1, 0, 0, 6, 12, 10)
+  ('Z2', 'E13-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=4 lifts={'has_p2_lift': 4} example=None
+  ('Z3', 'E12-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=4 lifts={'has_p2_lift': 4} example=None
+  ('Z1', 'Z2', 'Z3', 'E12+', 'E13+', 'E23+', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'has_p2_lift': 2, 'all_base_and_gcd_boundaries_can_move_first_order': 2} example=(0, 0, 0, 1, 0, 0, 0, 0, 6, 12, 10)
+  ('Z1', 'E23+', 'E24-', 'E34-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z1', 'E23-', 'E24+', 'E34-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z1', 'E23-', 'E24-', 'E34+', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z2', 'E13+', 'E14-', 'E34-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z2', 'E13-', 'E14+', 'E34-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z2', 'E13-', 'E14-', 'E34+', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z3', 'E12+', 'E14-', 'E24-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z4', 'E12+', 'E13-', 'E23-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z3', 'E12-', 'E14+', 'E24-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z3', 'E12-', 'E14-', 'E24+', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z4', 'E12-', 'E13+', 'E23-', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+  ('Z4', 'E12-', 'E13-', 'E23+', 'R0=0', 'R1=0', 'R2=0', 'R3=0'): mod13=2 lifts={'no_p2_lift': 2} example=None
+
+Scope:
+  Full four-radicand A(2,2,2,8) cover; not the K3 sublocus.
+  Projective base normalized by its first nonzero coordinate.
+  Contact chart assumes L=1/m is a 13-adic unit.
+  Linear lift spaces solve all four cover equations, all three
+  eliminated contact equations, and the normalization through 13^2.
+
+supplied_bank_deep13_counts {'rows': 3675, 'unique_primitive': 619, 'mod13_contact_open_live': 4, 'deep_mod169_survivors': 4}
+bank_mod13_live_rows:
+  (902, (121, 1919, 3211, 4949), (1, 2, 0, 12), (2,), ((0, 3),))
+  (2041, (1369, 1711, 2349, 9971), (1, 2, 12, 0), (3,), ((0, 2),))
+  (2060, (121, 1919, 3211, 4949), (1, 2, 0, 12), (2,), ((0, 3),))
+  (3291, (121, 1919, 3211, 4949), (1, 2, 0, 12), (2,), ((0, 3),))
+fixed_base_contact_hensel_lifts:
+  base=(121, 1919, 3211, 4949) history=[(1, [(2, 4, 3), (11, 4, 3)]), (2, [(28, 134, 94), (141, 134, 94)]), (3, [(310, 1655, 94), (1887, 1655, 94)]), (4, [(8478, 25822, 13276), (20083, 25822, 13276)]), (5, [(65600, 111505, 70398), (305693, 111505, 70398)])]
+  base=(1369, 1711, 2349, 9971) history=[(1, [(2, 4, 3), (11, 4, 3)]), (2, [(28, 134, 94), (141, 134, 94)]), (3, [(28, 810, 1108), (2169, 810, 1108)]), (4, [(13154, 11795, 25275), (15407, 11795, 25275)]), (5, [(41715, 297405, 168080), (329578, 297405, 168080)])]

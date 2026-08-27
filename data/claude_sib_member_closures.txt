@@ -1,0 +1,24 @@
+# Lane B (2026-07-18): same-member MW-lattice enumeration certificates on the
+# T5 pencil of M(2,2,2,6).  For member rho' and cover cv (3: z^2=W3(u),
+# 4: z^2=W4(u), 5: z^2=G(u), G=(q rho'-2u+1)(q rho'-1), q=4u^2-6u+3), the
+# cover's full Mordell-Weil lattice (generators from small-cover-point harvest
+# + ReducedBasis + Saturation(<=11); full rank verified against 2-descent
+# RankBounds, GRH class bounds) was enumerated to the stated depth; every
+# lattice point was mapped to its u-coordinate and the remaining T5 hit
+# conditions were tested by exact IsSquare.  "closed to depth N" means: the
+# only u passing all four conditions in that lattice range are the degenerate
+# u=1 (m=0) and the known-curve representations (u=-97/48, u=3637/7105 on
+# rho'=-49/240; both = the 2026-07-18 hit curve by G2Invariants).
+# Heights covered: canonical height <= N^2*h(gens) => u-heights up to
+# exp(~N^2*h/2), astronomically beyond any box sweep.
+# Format: member | cover | Em (minimal model) | rank | gen heights | depth | result
+#
+# member -49/240 (HIT member):
+-49/240 | W3 | [1,0,0,40451165,172382285900] cond 512295 | 2 | 5.61,0.77 | box |n1|<=91, |n2|<=100 COMPLETE (time cap hit at row n1=-92; certificate covers ONLY the completed region; mapped=74368, FULL=2 both known) | only u=1, -97/48, 3637/7105
+-49/240 | W4 | [1,0,0,-32960745,72721667700] cond 940695 | 2 | (j2b log) | box |n1|,|n2|<=100 COMPLETE (j2b: mapped=80800, FULL=2 both known, 778.5 s) | only u=1, -97/48, 3637/7105
+-49/240 | G  | [1,-1,0,13379490,91734657300] cond 1619876790 | 3 | 4.41,13.66,4.79 | box |n_i|<=10 complete | only u=1, -97/48, 3637/7105
+#
+# member -1/143 (near member):
+-1/143 | W3 | [1,0,0,182754,6625476] cond 98670, tors Z/4 | 1 | 0.576 | chain |n|<=400 COMPLETE (u-heights to ~e^46000) | only u=1 degenerate; near-misses u=17, 13/4 recovered (W4 fails)
+#
+# (updated during session; final tallies at end of file)

@@ -1,0 +1,45 @@
+SEARCH contact-7 rational-root plus 3
+height 20 parameters 511 target 42 max_exact 1000 verify_all false
+filter_primes [ 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
+67, 71, 73, 79, 83, 89, 97 ]
+progress checked 50000 smooth 46929 verified7 46929 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 100000 smooth 96914 verified7 96914 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 150000 smooth 146913 verified7 146913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 200000 smooth 196913 verified7 196913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 250000 smooth 246913 verified7 246913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 300000 smooth 296913 verified7 296913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 350000 smooth 346913 verified7 346913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 400000 smooth 396913 verified7 396913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 450000 smooth 446913 verified7 446913 target_survivors 0 
+exact_tests 0 hits 0
+progress checked 500000 smooth 496913 verified7 496913 target_survivors 0 
+exact_tests 0 hits 0
+DONE contact-7 rational-root plus 3
+checked 522242 smooth 519156 verified7 519156 target_survivors 0 exact_tests 0 
+hits 0
+FIRST_KILL
+  5 114232
+  7 145274
+  11 100260
+  13 67782
+  17 42156
+  19 24434
+  23 14316
+  29 6138
+  31 2660
+  37 1186
+  41 402
+  43 226
+  47 62
+  53 20
+  59 4
+  61 4
+Torsion counts among exact survivors

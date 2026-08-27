@@ -1,0 +1,12 @@
+Loading "code/m2248_sieve.m"
+M2248 D-square + F0-square rational surface search
+height 10 parameters 127 max_hits 20
+HPL_param_heights d 72946054224 n 53109477625 q 352612321
+DONE
+checked 1926036
+valid_surface 15286
+c_square 30824
+cover_square 0
+exact_sources 0
+simple_hits 0
+hits 0

@@ -1,0 +1,74 @@
+Magma V2.29-4     Mon Jun 29 2026 09:05:52 on <host>  [Seed = 1041659063]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/richelot_2220_all_double_linear_seeds.m"
+All double-linear [2,2,20] seeds plus Richelot search
+auxiliary_curve x^6 + 2*x^5 - 3*x^4 - 12*x^3 - 12*x^2 + 4
+rank_bounds 1 1
+auxiliary_torsion [ 4 ]
+chabauty_generator (x^2 - 1/3*x, -14/9*x + 2, 2) order 0
+chabauty_points_count 9
+chabauty_points { (-2 : -2 : 1), (1 : 40 : 3), (1 : 1 : 0), (0 : 2 : 1), (1 : 
+-40 : 3), (-2 : 2 : 1), (1 : -1 : 0), (-1 : 0 : 1), (0 : -2 : 1) }
+POINT_AFFINE pt (-2 : -2 : 1) r -2 Y -2
+  skip boundary r=-2
+POINT_AFFINE pt (1 : 40 : 3) r 1/3 Y 40/27
+SEED seed_1 r 1/3 Y 40/27 z -1/7 w -7/9 t -8233/7225 torsion [ 2, 2, 20 ]
+order 80
+seed_1 curve -703288543446609926400000000*x^5 + 
+    165393746339277042108900000000*x^4 - 2525580452984074226862187500000*x^3 + 
+    11857835156537267139949462890625*x^2 - 16922053784955418071984863281250*x + 
+    7425108623606394726715087890625
+seed_1 seed_torsion [ 2, 2, 20 ]
+seed_order 80
+seed_1 seed_curve -703288543446609926400000000*x^5 + 
+    165393746339277042108900000000*x^4 - 2525580452984074226862187500000*x^3 + 
+    11857835156537267139949462890625*x^2 - 16922053784955418071984863281250*x + 
+    7425108623606394726715087890625
+seed_1 immediate_richelot_count 3
+seed_1_richelot_1 type JacHyp
+seed_1_richelot_1 torsion [ 2, 20 ]
+order 40
+seed_1_richelot_1 factor_degrees [ 2, 2, 2 ]
+seed_1_richelot_2 type JacHyp
+seed_1_richelot_2 torsion [ 2, 20 ]
+order 40
+seed_1_richelot_2 factor_degrees [ 2, 2, 2 ]
+seed_1_richelot_3 type JacHyp
+seed_1_richelot_3 torsion [ 2, 2, 10 ]
+order 40
+seed_1_richelot_3 factor_degrees [ 1, 1, 1, 1, 2 ]
+seed_1 twopower_jacobians 5 twopower_products 0 twopower_weil_restrictions 0
+seed_1_twopower_1 torsion [ 2, 20 ]
+order 40
+seed_1_twopower_1 factor_degrees [ 2, 2, 2 ]
+seed_1_twopower_2 torsion [ 2, 20 ]
+order 40
+seed_1_twopower_2 factor_degrees [ 2, 2, 2 ]
+seed_1_twopower_3 torsion [ 2, 2, 10 ]
+order 40
+seed_1_twopower_3 factor_degrees [ 1, 1, 1, 2 ]
+seed_1_twopower_4 torsion [ 2, 10 ]
+order 20
+seed_1_twopower_4 factor_degrees [ 1, 2, 2 ]
+seed_1_twopower_5 torsion [ 2, 10 ]
+order 20
+seed_1_twopower_5 factor_degrees [ 1, 1, 2, 2 ]
+seed_1 best_order_including_seed 80 best_labels [ seed_1_seed ]
+POINT_INFINITY (1 : 1 : 0)
+POINT_AFFINE pt (0 : 2 : 1) r 0 Y 2
+  skip degenerate t=-1 z 0 w -1
+POINT_AFFINE pt (1 : -40 : 3) r 1/3 Y -40/27
+  skip duplicate t -8233/7225
+POINT_AFFINE pt (-2 : 2 : 1) r -2 Y 2
+  skip boundary r=-2
+POINT_INFINITY (1 : -1 : 0)
+POINT_AFFINE pt (-1 : 0 : 1) r -1 Y 0
+  skip collision z=w z -1
+POINT_AFFINE pt (0 : -2 : 1) r 0 Y -2
+  skip degenerate t=-1 z -1 w 0
+double_linear_seed_count 1
+unique_t_count 1
+done
+
+Total time: 2.710 seconds, Total memory usage: 129.59MB

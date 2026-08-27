@@ -1,0 +1,75 @@
+ROW|1|2|inv=[ 2 ]|nr=2|theta=[]|verdict=NO|t=0.130
+ROW|2|3|inv=[ 3 ]|nr=3|theta=[]|verdict=NO|t=0.010
+ROW|3|4|inv=[ 4 ]|nr=4|theta=[]|verdict=NO|t=0.010
+ROW|4|5|inv=[ 5 ]|nr=5|theta=[]|verdict=NO|t=0.030
+ROW|5|6|inv=[ 6 ]|nr=6|theta=[]|verdict=NO|t=0.010
+ROW|6|7|inv=[ 7 ]|nr=7|theta=[ 7 ]|verdict=YES|t=0.020
+ROW|7|8|inv=[ 8 ]|nr=8|theta=[ 4 ]|verdict=NO|t=0.020
+ROW|8|9|inv=[ 9 ]|nr=9|theta=[ 9 ]|verdict=YES|t=0.010
+ROW|9|10|inv=[ 10 ]|nr=10|theta=[ 5 ]|verdict=NO|t=0.020
+ROW|10|11|inv=[ 11 ]|nr=11|theta=[ 11 ]|verdict=YES|t=0.010
+ROW|11|12|inv=[ 12 ]|nr=12|theta=[ 4, 12 ]|verdict=YES|t=0.030
+ROW|12|13|inv=[ 13 ]|nr=13|theta=[ 13 ]|verdict=YES|t=0.010
+ROW|13|14|inv=[ 14 ]|nr=14|theta=[ 7 ]|verdict=NO|t=0.010
+ROW|14|15|inv=[ 15 ]|nr=15|theta=[ 15 ]|verdict=YES|t=0.020
+ROW|15|16|inv=[ 16 ]|nr=16|theta=[ 4, 8 ]|verdict=NO|t=0.010
+ROW|16|17|inv=[ 17 ]|nr=17|theta=[ 17 ]|verdict=YES|t=0.020
+ROW|17|18|inv=[ 18 ]|nr=18|theta=[ 9 ]|verdict=NO|t=0.020
+ROW|18|19|inv=[ 19 ]|nr=19|theta=[ 19 ]|verdict=YES|t=0.020
+ROW|19|20|inv=[ 20 ]|nr=20|theta=[ 5, 10 ]|verdict=NO|t=0.010
+ROW|20|21|inv=[ 21 ]|nr=21|theta=[ 3, 21 ]|verdict=YES|t=0.020
+ROW|21|22|inv=[ 22 ]|nr=22|theta=[ 11 ]|verdict=NO|t=0.010
+ROW|22|23|inv=[ 23 ]|nr=23|theta=[ 23 ]|verdict=YES|t=0.020
+ROW|23|24|inv=[ 24 ]|nr=24|theta=[ 24 ]|verdict=YES|t=0.030
+ROW|24|25|inv=[ 25 ]|nr=25|theta=[ 5, 25 ]|verdict=YES|t=0.020
+ROW|25|26|inv=[ 26 ]|nr=26|theta=[ 13 ]|verdict=NO|t=0.010
+ROW|26|27|inv=[ 27 ]|nr=27|theta=[ 27 ]|verdict=YES|t=0.020
+ROW|27|28|inv=[ 28 ]|nr=28|theta=[ 7, 14 ]|verdict=NO|t=0.020
+ROW|28|29|inv=[ 29 ]|nr=29|theta=[ 29 ]|verdict=YES|t=0.020
+ROW|29|30|inv=[ 30 ]|nr=30|theta=[ 5, 15 ]|verdict=NO|t=0.030
+ROW|30|31|inv=[ 31 ]|nr=31|theta=[]|verdict=NO|t=0.050
+ROW|31|32|inv=[ 32 ]|nr=32|theta=[ 8, 16 ]|verdict=NO|t=0.030
+ROW|32|33|inv=[ 33 ]|nr=33|theta=[ 11, 33 ]|verdict=YES|t=0.020
+ROW|33|34|inv=[ 34 ]|nr=34|theta=[ 17 ]|verdict=NO|t=0.030
+ROW|34|36|inv=[ 36 ]|nr=36|theta=[ 9, 18 ]|verdict=NO|t=0.040
+ROW|35|39|inv=[ 39 ]|nr=39|theta=[ 39 ]|verdict=YES|t=0.030
+ROW|36|40|inv=[ 40 ]|nr=40|theta=[ 5, 10, 20 ]|verdict=NO|t=0.030
+ROW|37|2,2|inv=[ 2, 2 ]|nr=2|theta=[]|verdict=NO|t=0.030
+ROW|38|2,4|inv=[ 2, 4 ]|nr=4|theta=[]|verdict=NO|t=0.010
+ROW|39|2,6|inv=[ 2, 6 ]|nr=6|theta=[ 3 ]|verdict=NO|t=0.020
+ROW|40|2,8|inv=[ 2, 8 ]|nr=8|theta=[ 4 ]|verdict=NO|t=0.010
+ROW|41|2,10|inv=[ 2, 10 ]|nr=10|theta=[ 5 ]|verdict=NO|t=0.020
+ROW|42|2,12|inv=[ 2, 12 ]|nr=12|theta=[ 6 ]|verdict=NO|t=0.020
+ROW|43|2,14|inv=[ 2, 14 ]|nr=14|theta=[ 7 ]|verdict=NO|t=0.010
+ROW|44|2,16|inv=[ 2, 16 ]|nr=16|theta=[ 4, 8 ]|verdict=NO|t=0.030
+ROW|45|2,18|inv=[ 2, 18 ]|nr=18|theta=[ 3, 9 ]|verdict=NO|t=0.020
+ROW|46|2,20|inv=[ 2, 20 ]|nr=20|theta=[ 5, 10 ]|verdict=NO|t=0.040
+ROW|47|2,22|inv=[ 2, 22 ]|nr=22|theta=[ 11 ]|verdict=NO|t=0.030
+ROW|48|2,26|inv=[ 2, 26 ]|nr=26|theta=[ 13 ]|verdict=NO|t=0.020
+ROW|49|2,28|inv=[ 2, 28 ]|nr=28|theta=[ 7, 14 ]|verdict=NO|t=0.030
+ROW|50|3,3|inv=[ 3, 3 ]|nr=3|theta=[ 3 ]|verdict=YES|t=0.040
+ROW|51|3,6|inv=[ 3, 6 ]|nr=6|theta=[]|verdict=NO|t=0.030
+ROW|52|3,9|inv=[ 3, 9 ]|nr=9|theta=[]|verdict=NO|t=0.040
+ROW|53|4,4|inv=[ 4, 4 ]|nr=4|theta=[]|verdict=NO|t=0.050
+ROW|54|4,8|inv=[ 4, 8 ]|nr=8|theta=[ 4 ]|verdict=NO|t=0.040
+ROW|55|6,6|inv=[ 6, 6 ]|nr=6|theta=[ 3 ]|verdict=NO|t=0.040
+ROW|56|2,2,2|inv=[ 2, 2, 2 ]|nr=2|theta=[]|verdict=NO|t=0.020
+ROW|57|2,2,4|inv=[ 2, 2, 4 ]|nr=4|theta=[]|verdict=NO|t=0.020
+ROW|58|2,2,6|inv=[ 2, 2, 6 ]|nr=6|theta=[ 3 ]|verdict=NO|t=0.020
+ROW|59|2,2,8|inv=[ 2, 2, 8 ]|nr=8|theta=[ 4 ]|verdict=NO|t=0.020
+ROW|60|2,2,10|inv=[ 2, 2, 10 ]|nr=10|theta=[ 5 ]|verdict=NO|t=0.010
+ROW|61|2,2,12|inv=[ 2, 2, 12 ]|nr=12|theta=[ 3, 6 ]|verdict=NO|t=0.040
+ROW|62|2,2,14|inv=[ 2, 2, 14 ]|nr=14|theta=[ 7 ]|verdict=NO|t=0.060
+ROW|63|2,2,20|inv=[ 2, 2, 20 ]|nr=20|theta=[ 5, 10 ]|verdict=NO|t=0.080
+ROW|64|2,4,4|inv=[ 2, 4, 4 ]|nr=4|theta=[]|verdict=NO|t=0.040
+ROW|65|2,4,8|inv=[ 2, 4, 8 ]|nr=8|theta=[ 4 ]|verdict=NO|t=0.050
+ROW|66|2,2,2,2|inv=[ 2, 2, 2, 2 ]|nr=2|theta=[]|verdict=NO|t=0.020
+ROW|67|2,2,2,4|inv=[ 2, 2, 2, 4 ]|nr=4|theta=[]|verdict=NO|t=0.030
+ROW|68|2,2,2,6|inv=[ 2, 2, 2, 6 ]|nr=6|theta=[ 3 ]|verdict=NO|t=0.030
+ROW|69|2,2,2,8|inv=[ 2, 2, 2, 8 ]|nr=8|theta=[]|verdict=NO|t=0.040
+ROW|70|2,2,2,10|inv=[ 2, 2, 2, 10 ]|nr=10|theta=[ 5 ]|verdict=NO|t=0.040
+ROW|71|2,2,2,12|inv=[ 2, 2, 2, 12 ]|nr=12|theta=[ 3 ]|verdict=NO|t=0.090
+ROW|72|2,2,4,4|inv=[ 2, 2, 4, 4 ]|nr=4|theta=[]|verdict=NO|t=0.050
+ROW|73|2,2,2,12#fiber1|inv=[ 2, 2, 2, 12 ]|nr=12|theta=[ 3 ]|verdict=NO|t=0.090
+ROW|74|2,2,2,12#fiber3|inv=[ 2, 2, 2, 12 ]|nr=12|theta=[ 3 ]|verdict=NO|t=0.100
+AUDIT_DONE

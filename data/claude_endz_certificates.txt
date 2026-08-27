@@ -1,0 +1,99 @@
+CURVE [2,2,14]  (s,t,u)=(-10,-10/7,-1/2)  N=2^2*3^2*5^2*7^2*13^2*19*23*37*317=38200383011700 [v_2(disc_min)=10<12, Ogg guaranteed]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 17 : chi = x^4 - 4*x^3 + 6*x^2 - 68*x + 289  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 31 : chi = x^4 - 2*x^3 - 2*x^2 - 62*x + 961  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,20]
+  torsion = [ 2, 2, 20 ] (order 80)
+  root-power prime p0 = 71 : chi = x^4 + 2*x^3 + 14*x^2 + 142*x + 5041  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 83 : chi = x^4 - 4*x^3 + 6*x^2 - 332*x + 6889  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 80 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,4,8]
+  torsion = [ 2, 4, 8 ] (order 64)
+  root-power prime p0 = 47 : chi = x^4 - 4*x^3 + 30*x^2 - 188*x + 2209  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 83 : chi = x^4 - 12*x^3 + 70*x^2 - 996*x + 6889  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 64 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [6,6]
+  torsion = [ 6, 6 ] (order 36)
+  root-power prime p0 = 37 : chi = x^4 - 10*x^3 + 54*x^2 - 370*x + 1369  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 59 : chi = x^4 + 12*x^3 + 82*x^2 + 708*x + 3481  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 36 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,4,4]
+  torsion = [ 2, 4, 4 ] (order 32)
+  root-power prime p0 = 97 : chi = x^4 + 8*x^3 + 46*x^2 + 776*x + 9409  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 113 : chi = x^4 - 12*x^3 + 182*x^2 - 1356*x + 12769  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 32 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,4,4]
+  torsion = [ 2, 2, 4, 4 ] (order 64)
+  root-power prime p0 = 37 : chi = x^4 - 4*x^3 - 2*x^2 - 148*x + 1369  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 61 : chi = x^4 + 4*x^3 - 2*x^2 + 244*x + 3721  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 64 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,2,8]
+  torsion = [ 2, 2, 2, 8 ] (order 64)
+  root-power prime p0 = 41 : chi = x^4 + 4*x^3 + 6*x^2 + 164*x + 1681  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 47 : chi = x^4 + 4*x^3 + 30*x^2 + 188*x + 2209  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 64 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,2,12]
+  torsion = [ 2, 2, 2, 12 ] (order 96)
+  root-power prime p0 = 71 : chi = x^4 - 8*x^3 + 46*x^2 - 568*x + 5041  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 103 : chi = x^4 - 4*x^3 - 18*x^2 - 412*x + 10609  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 96 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,2,10]
+  torsion = [ 2, 2, 2, 10 ] (order 80)
+  root-power prime p0 = 11 : chi = x^4 - 4*x^3 + 6*x^2 - 44*x + 121  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 71 : chi = x^4 + 8*x^3 + 62*x^2 + 568*x + 5041  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 80 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,14] #2 (s,t,u)=(-511/61,-511/625,-1/2)   N=2^3*1363558168459661985137828367867185325 [v_2(disc_min)=8<12, Ogg guaranteed]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 17 : chi = x^4 - 4*x^3 + 6*x^2 - 68*x + 289  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 79 : chi = x^4 - 4*x^3 - 42*x^2 - 316*x + 6241  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,14] #3 (s,t,u)=(-165/41,-33/16,-165/289) N=2^2*11352674691759169446159049425 [v_2(disc_min)=21, Ogg regime; f_2=2 cross-checked off RegularModel(.,2): m=20, 21+1-20=2]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 71 : chi = x^4 + 2*x^3 + 78*x^2 + 142*x + 5041  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 79 : chi = x^4 + 8*x^3 + 62*x^2 + 632*x + 6241  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,14] #4 (s,t,u)=(-164/297,-1/2,164/361)   N=2^2*10200972432773189299959691439475 [v_2(disc_min)=26, Ogg regime; f_2=2 cross-checked off RegularModel(.,2): m=25, 26+1-25=2]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 17 : chi = x^4 - 4*x^3 + 6*x^2 - 68*x + 289  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 29 : chi = x^4 - 6*x^3 + 10*x^2 - 174*x + 841  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,14] #5 (s,t,u)=(-17/50,-34/189,34/121)   N=2^4*3069529451653112094922275 [v_2(disc_min)=14, Ogg regime; f_2=4 cross-checked off RegularModel(.,2): m=11, 14+1-11=4]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 41 : chi = x^4 + 4*x^3 + 54*x^2 + 164*x + 1681  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 43 : chi = x^4 + 2*x^3 + 22*x^2 + 86*x + 1849  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+CURVE [2,2,14] #6 (s,t,u)=(-1/2,-13/49,13/50)       N=2^2*69195300331841508825 [v_2(disc_min)=14, Ogg regime; f_2=2 cross-checked off RegularModel(.,2): m=13, 14+1-13=2]
+  torsion = [ 2, 2, 14 ] (order 56)
+  root-power prime p0 = 17 : chi = x^4 + 4*x^3 + 30*x^2 + 68*x + 289  [irreducible, pi^n deg 4 for n<=12 => geometrically simple]
+  disjoint prime  q0 = 31 : chi = x^4 - 6*x^3 + 14*x^2 - 186*x + 961  [splitting field disjoint from p0 => center(End^0) = Q]
+  #tors = 56 > 18 => not QM [LSSV 2024]  : true
+  ==> End(Jac_Qbar) = Z : true
+
+

@@ -1,0 +1,13 @@
+Z49_STRUCTURAL_PADIC_COMPLEMENT
+prime 5 height 200 precision 8 modulus 390625 rational_r 40757 branches 4 lifted 32646 all_four_reconstructed 2 exact_open_hits 0
+prime 11 height 200 precision 5 modulus 161051 rational_r 44839 branches 10 lifted 40766 all_four_reconstructed 278 exact_open_hits 0
+total_exact_open_hits 0
+coverage p-integral listed smooth branches coordinate_height<= 200
+Z49_STRUCTURAL_PADIC_COMPLEMENT_DONE
+
+resource_log
+command /usr/bin/time -v python3 code/z49_structural_padic_complement.py --height 200 --primes 5,11
+elapsed_seconds 71.54
+user_seconds 71.51
+maximum_resident_kbytes 84492
+exit_status 0

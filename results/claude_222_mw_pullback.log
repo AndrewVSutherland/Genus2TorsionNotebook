@@ -1,0 +1,21 @@
+X1: quotient computed, genus 1
+X1: using base point (1/9 : 0 : 5/6 : 1) on quotient
+X1: quotient elliptic = [ 0, 0, 0, -1, 1 ], conductor 92
+X1: MW rank 1
+SPLIT FIBER X1 at n=-5: X-points [
+[ 1, 1, 1 ]
+]
+SPLIT FIBER X1 at n=-2: X-points [
+[ 0, 0, 1 ]
+]
+X1: split fibers among |n| <= 60: 2
+X2: quotient computed, genus 1
+X2: seeded quotient point via qm([ 58/3, 0, 1 ]) = [ 0, 2701057131399568776969807894940371075200/31145551177682349359417715592853614081, 52105657931536427387731825306557706318704112043716080/4182801622127316253955760194585877523193027747192257, 1 ]
+X2: using base point (0 : 2701057131399568776969807894940371075200/31145551177682349359417715592853614081 : 52105657931536427387731825306557706318704112043716080/4182801622127316253955760194585877523193027747192257 : 1) on quotient
+X2: quotient elliptic = [ 0, 0, 0, -1, 1 ], conductor 92
+X2: MW rank 1
+SPLIT FIBER X2 at n=3: X-points [
+[ 11, 1, 1 ]
+]
+X2: split fibers among |n| <= 60: 1
+MW_PULLBACK_DONE

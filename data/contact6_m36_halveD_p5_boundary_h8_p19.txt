@@ -1,0 +1,192 @@
+Contact-6/M(2,12)+extra3 p=5 boundary analysis
+height 8 prime_bound 19 max_exact 50
+Affine cleared sextic discriminant factorization over F_5:
+[
+<rr, 6>,
+<rr + 1, 21>,
+<zz, 2>,
+<zz + 1, 11>,
+<zz + 4, 11>,
+<zz^6*rr^4 + 4*zz^6*rr^3 + 4*zz^6*rr^2 + 3*zz^4*rr^4 + 3*zz^4*rr^3 + 4*zz^4*rr^2 + 4*zz^4*rr + zz^2*rr^4 + 3*zz^2*rr^3 + 2*zz^2*rr^2 + 4*zz^2*rr + zz^2 + 4*rr^2 + 3, 1>
+]
+
+P1xP1 residue classes over F_5
+  class z inf r inf sig Rinf+Zinf
+  class z inf r 0 sig R0+Zinf
+  class z inf r 1 sig Zinf
+  class z inf r 2 sig Zinf
+  class z inf r 3 sig Zinf
+  class z inf r 4 sig Rminus1+Zinf
+  class z 0 r inf sig Rinf+Z0
+  class z 0 r 0 sig R0+Z0
+  class z 0 r 1 sig Z0
+  class z 0 r 2 sig Z0
+  class z 0 r 3 sig Z0
+  class z 0 r 4 sig Rminus1+Z0
+  class z 1 r inf sig Rinf+Zplus
+  class z 1 r 0 sig R0+Zplus
+  class z 1 r 1 sig Zplus
+  class z 1 r 2 sig Zplus
+  class z 1 r 3 sig Zplus
+  class z 1 r 4 sig H+Rminus1+Zplus
+  class z 2 r inf sig Rinf
+  class z 2 r 0 sig R0
+  class z 2 r 1 sig open_good
+  class z 2 r 2 sig open_good
+  class z 2 r 3 sig open_good
+  class z 2 r 4 sig Rminus1
+  class z 3 r inf sig Rinf
+  class z 3 r 0 sig R0
+  class z 3 r 1 sig open_good
+  class z 3 r 2 sig open_good
+  class z 3 r 3 sig open_good
+  class z 3 r 4 sig Rminus1
+  class z 4 r inf sig Rinf+Zminus
+  class z 4 r 0 sig R0+Zminus
+  class z 4 r 1 sig Zminus
+  class z 4 r 2 sig Zminus
+  class z 4 r 3 sig Zminus
+  class z 4 r 4 sig H+Rminus1+Zminus
+signature class counts
+  H+Rminus1+Zminus 1
+  H+Rminus1+Zplus 1
+  R0 2
+  R0+Z0 1
+  R0+Zinf 1
+  R0+Zminus 1
+  R0+Zplus 1
+  Rinf 2
+  Rinf+Z0 1
+  Rinf+Zinf 1
+  Rinf+Zminus 1
+  Rinf+Zplus 1
+  Rminus1 2
+  Rminus1+Z0 1
+  Rminus1+Zinf 1
+  Z0 3
+  Zinf 3
+  Zminus 3
+  Zplus 3
+  open_good 6
+component class incidences
+  H 2
+  R0 6
+  Rinf 6
+  Rminus1 6
+  Z0 6
+  Zinf 6
+  Zminus 6
+  Zplus 6
+  open_good 6
+
+Building prime-to-5 residue tables [ 7, 11, 13, 17, 19 ]
+ prime 7 allowed_312 2 bad 31
+ prime 11 allowed_312 6 bad 51
+ prime 13 allowed_312 32 bad 59
+ prime 17 allowed_312 20 bad 91
+ prime 19 allowed_312 84 bad 101
+EXACT p5 z=4,r=0 sig R0+Zminus z -8/3 r 5 m -55/216 torsion [ 12 ]
+pcert 13
+EXACT p5 z=4,r=2 sig Zminus z -8/3 r 7/6 m -55/78 torsion [ 12 ]
+pcert 23
+SURVIVOR_NONSIMPLE_UNKNOWN p5 z=0,r=inf sig Rinf+Z0 z -5/3 r -3/5 m -10/9
+EXACT p5 z=3,r=0 sig R0 z -3/4 r -5/6 m 21/32 torsion [ 12 ]
+pcert 13
+EXACT p5 z=inf,r=3 sig Zinf z -4/5 r 7/4 m 9/275 torsion [ 12 ]
+pcert 13
+EXACT p5 z=inf,r=inf sig Rinf+Zinf z -2/5 r 8/5 m 21/260 torsion [ 12 ]
+pcert 19
+progress 5000 smooth 2380 residue_survivors 6 simple 5 exact 5 hits 0
+EXACT p5 z=3,r=inf sig Rinf z -7/6 r 6/5 m -65/1584 torsion [ 12 ]
+pcert 19
+EXACT p5 z=0,r=inf sig Rinf+Z0 z -5/6 r 7/5 m 55/1728 torsion [ 12 ]
+pcert 19
+EXACT p5 z=4,r=inf sig Rinf+Zminus z -1/6 r 8/5 m 175/1872 torsion [ 12 ]
+pcert 23
+EXACT p5 z=2,r=inf sig Rinf z -6/7 r 6/5 m 65/2156 torsion [ 12 ]
+pcert 23
+EXACT p5 z=3,r=inf sig Rinf z -4/7 r 8/5 m 165/2548 torsion [ 12 ]
+pcert 29
+EXACT p5 z=1,r=2 sig Zplus z -7/8 r 7/6 m 45/1664 torsion [ 12 ]
+pcert 29
+EXACT p5 z=0,r=4 sig Rminus1+Z0 z -5/8 r -2/7 m 273/1280 torsion [ 12 ]
+pcert 23
+
+DONE p=5 component boundary analysis
+checked 7569 smooth_unique_ar 3570 unique_ar 3570 open_killed_p5 602 residue_survivors 13 simple_survivors 12 exact_tests 12 hits 0
+boundary_smooth_by_sig
+  H+Rminus1+Zminus 84
+  H+Rminus1+Zplus 112
+  R0 196
+  R0+Z0 98
+  R0+Zinf 98
+  R0+Zminus 84
+  R0+Zplus 112
+  Rinf 196
+  Rinf+Z0 98
+  Rinf+Zinf 98
+  Rinf+Zminus 84
+  Rinf+Zplus 112
+  Rminus1 196
+  Rminus1+Z0 98
+  Rminus1+Zinf 98
+  Z0 301
+  Zinf 301
+  Zminus 258
+  Zplus 344
+residue_survivors_by_sig
+  R0 1
+  R0+Zminus 1
+  Rinf 3
+  Rinf+Z0 2
+  Rinf+Zinf 1
+  Rinf+Zminus 1
+  Rminus1+Z0 1
+  Zinf 1
+  Zminus 1
+  Zplus 1
+simple_by_sig
+  R0 1
+  R0+Zminus 1
+  Rinf 3
+  Rinf+Z0 1
+  Rinf+Zinf 1
+  Rinf+Zminus 1
+  Rminus1+Z0 1
+  Zinf 1
+  Zminus 1
+  Zplus 1
+exact_by_sig
+  R0 1
+  R0+Zminus 1
+  Rinf 3
+  Rinf+Z0 1
+  Rinf+Zinf 1
+  Rinf+Zminus 1
+  Rminus1+Z0 1
+  Zinf 1
+  Zminus 1
+  Zplus 1
+torsion_by_sig
+  R0 | [ 12 ] 1
+  R0+Zminus | [ 12 ] 1
+  Rinf | [ 12 ] 3
+  Rinf+Z0 | [ 12 ] 1
+  Rinf+Zinf | [ 12 ] 1
+  Rinf+Zminus | [ 12 ] 1
+  Rminus1+Z0 | [ 12 ] 1
+  Zinf | [ 12 ] 1
+  Zminus | [ 12 ] 1
+  Zplus | [ 12 ] 1
+class_survivors
+  z=0,r=4 | Rminus1+Z0 1
+  z=0,r=inf | Rinf+Z0 2
+  z=1,r=2 | Zplus 1
+  z=2,r=inf | Rinf 1
+  z=3,r=0 | R0 1
+  z=3,r=inf | Rinf 2
+  z=4,r=0 | R0+Zminus 1
+  z=4,r=2 | Zminus 1
+  z=4,r=inf | Rinf+Zminus 1
+  z=inf,r=3 | Zinf 1
+  z=inf,r=inf | Rinf+Zinf 1

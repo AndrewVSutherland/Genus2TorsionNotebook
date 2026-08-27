@@ -1,0 +1,95 @@
+=== contact-9 [3,18] boundary audit at p=7 ===
+effective parameter t=eps*s; the two signs give the same t-chart
+discriminant_factor (2048) * (t + 1)^-52 * (t + 1/2)^2 * t^18 * (t^3 + 3/4*t^2 - 1/4) * (t^3 + 9/2*t^2 + 15/4*t + 5/4)^2 * (t^3 + 29/16*t^2 + 5/4*t + 5/16)^9 * (t^9 + 8493/2048*t^8 + 57057/8192*t^7 + 187329/32768*t^6 + 32583/16384*t^5 + 1131/32768*t^4 + 105/512*t^3 + 14595/32768*t^2 + 3675/16384*t + 1225/32768)
+finite_special_fibres
+ t=0 factor=(x + 6)^2 * x^3
+ t=1 factor=(x + 6)^2 * x^3
+ t=2 factor=(x + 3) * (x^2 + 4*x + 6) * (x^2 + 6*x + 4)
+ t=3 factor=(x + 3) * (x + 1)^2 * (x^2 + 2*x + 5)
+ t=4 factor=(x + 1)^2 * (x^3 + 4*x^2 + 6*x + 5)
+ t=5 factor=(x + 3) * (x + 1)^2 * (x^2 + 2*x + 5)
+first_exceptional_discriminant_valuations
+ t0=0 directions_u=0..6 valuations=[+Infinity, 20, 20, 20, 20, 20, 20]
+ t0=1 directions_u=0..6 valuations=[12, 12, 12, 12, 12, 12, 12]
+ t0=3 directions_u=0..6 valuations=[2, 2, 2, 4, 2, 2, 2]
+ t0=4 directions_u=0..6 valuations=[2, 2, 2, 2, 4, 2, 2]
+ t0=5 directions_u=0..6 valuations=[1, 1, 2, 1, 1, 1, 1]
+ordinary_node_charts
+ t0=3 repeated_root=6 normalization=x^3 + 5*x^2 + 4*x + 1 E_invariants=(12,) E_order=12 split_node=True J0_order=72 J0_3valuation=2 thicknesses=[2, 2, 2, 4, 2, 2, 2] component_3_bound=0 gluing_class_order=3 gluing_class_3divisible=False target_3valuation=3 capacity_pass=False
+ t0=4 repeated_root=6 normalization=x^3 + 4*x^2 + 6*x + 5 E_invariants=(9,) E_order=9 split_node=True J0_order=54 J0_3valuation=3 thicknesses=[2, 2, 2, 2, 4, 2, 2] component_3_bound=0 gluing_class_order=3 gluing_class_3divisible=True target_3valuation=3 capacity_pass=True
+ t0=5 repeated_root=6 normalization=x^3 + 5*x^2 + 4*x + 1 E_invariants=(12,) E_order=12 split_node=True J0_order=72 J0_3valuation=2 thicknesses=[1, 1, 2, 1, 1, 1, 1] component_3_bound=0 gluing_class_order=3 gluing_class_3divisible=False target_3valuation=3 capacity_pass=False
+pole_chart_tminus1
+ integral_model=d^4*f(d*z) special_quartic=1/64*z^4 - 1/4 factor_mod7=(z + 2) * (z + 5) * (z^2 + 4) discriminant_mod7=3
+ normalization_order=8 split_node=True branch_collision_order=9 node_thickness=18 J0_3valuation=1 component_3valuation=2 target_3valuation=3 capacity_pass=True
+infinity_chart
+ coefficient_d_orders_after_d2_scaling=[1, 1, 1, 1, 0, 2]
+ special_polynomial=x^4
+ root_newton_slopes=-1/4 (four roots), 2 (one root); ramification_degree=4
+contact9_decision
+ no_go ordinary-node charts t=3 and t=5: 3-primary order at most 3^2
+ continue ordinary-node chart t=4: special Neron identity has 3-primary order 3^3
+ continue pole chart t=-1: split thickness-18 node supplies component 3^2
+ deeper_only t=0,t=1 and t=infinity: first special fibres are not ordinary-node charts
+
+=== contact-6 [6,12] rank-five boundary audit at p=5 ===
+rank_five_points=42
+ rank5_point_1 values=(0, 0, 1, 3, 1, 0, 2) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_2 values=(0, 0, 1, 3, 1, 1, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_3 values=(0, 0, 1, 3, 1, 2, 4) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_4 values=(0, 0, 2, 2, 4, 0, 2) signature=contact_q_double+half_q0+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_5 values=(0, 0, 2, 2, 4, 1, 0) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_6 values=(0, 0, 2, 2, 4, 2, 4) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_7 values=(0, 0, 3, 2, 4, 0, 2) signature=contact_q_double+half_q0+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_8 values=(0, 0, 3, 2, 4, 1, 0) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_9 values=(0, 0, 3, 2, 4, 2, 4) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_10 values=(0, 0, 4, 3, 1, 0, 2) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_11 values=(0, 0, 4, 3, 1, 1, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_12 values=(0, 0, 4, 3, 1, 2, 4) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_13 values=(1, 0, 1, 3, 1, 0, 2) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_14 values=(1, 0, 1, 3, 1, 1, 1) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_15 values=(1, 0, 1, 3, 1, 1, 3) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(21, 20, 1, 23, 1, 1, 3) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_16 values=(1, 0, 1, 3, 1, 2, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 0, 1, 23, 1, 2, 0) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_17 values=(1, 0, 1, 3, 1, 2, 2) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 5, 1, 23, 1, 2, 2) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_18 values=(1, 0, 1, 3, 1, 3, 4) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 0, 1, 23, 1, 13, 4) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_19 values=(1, 0, 4, 3, 1, 0, 2) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_20 values=(1, 0, 4, 3, 1, 1, 1) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_21 values=(1, 0, 4, 3, 1, 1, 3) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(21, 20, 24, 23, 1, 1, 3) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_22 values=(1, 0, 4, 3, 1, 2, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 0, 24, 23, 1, 2, 0) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_23 values=(1, 0, 4, 3, 1, 2, 2) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 5, 24, 23, 1, 2, 2) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_24 values=(1, 0, 4, 3, 1, 3, 4) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=20 smooth_sample_mod25=(6, 0, 24, 23, 1, 13, 4) second_order_full=0 second_order_sample_mod125=None
+ rank5_point_25 values=(2, 4, 1, 3, 1, 0, 3) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_26 values=(2, 4, 1, 3, 1, 1, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_27 values=(2, 4, 2, 4, 2, 0, 3) signature=contact_q_double+half_q0+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_28 values=(2, 4, 2, 4, 2, 1, 0) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_29 values=(2, 4, 3, 4, 2, 0, 3) signature=contact_q_double+half_q0+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_30 values=(2, 4, 3, 4, 2, 1, 0) signature=contact_q_double+singular_curve lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_31 values=(2, 4, 4, 3, 1, 0, 3) signature=contact_q_double+half_q0+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_32 values=(2, 4, 4, 3, 1, 1, 0) signature=contact_q_double+singular_curve+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_33 values=(3, 2, 1, 3, 1, 0, 0) signature=A0+contact_q_double+degree_drop+half_q0+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_34 values=(3, 2, 1, 3, 1, 1, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_35 values=(3, 2, 1, 3, 1, 2, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_36 values=(3, 2, 1, 3, 1, 3, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_37 values=(3, 2, 1, 3, 1, 4, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_38 values=(3, 2, 4, 3, 1, 0, 0) signature=A0+contact_q_double+degree_drop+half_q0+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_39 values=(3, 2, 4, 3, 1, 1, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_40 values=(3, 2, 4, 3, 1, 2, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_41 values=(3, 2, 4, 3, 1, 3, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+ rank5_point_42 values=(3, 2, 4, 3, 1, 4, 0) signature=A0+contact_q_double+degree_drop+v3eq1 lifts=25 full_transverse=0 smooth_curve_first_order=0 smooth_sample_mod25=None second_order_full=0 second_order_sample_mod125=None
+rank5_signature_summary
+ signature=A0+contact_q_double+degree_drop+half_q0+v3eq1 points=2 lifts=50 full_transverse=0 smooth_curve_first_order=0
+  exit_sets={(): 10, ('half_q0',): 40}
+ signature=A0+contact_q_double+degree_drop+v3eq1 points=8 lifts=200 full_transverse=0 smooth_curve_first_order=0
+  exit_sets={(): 200}
+ signature=contact_q_double+half_q0+singular_curve points=4 lifts=100 full_transverse=0 smooth_curve_first_order=0
+  exit_sets={('contact_q_double',): 18, ('contact_q_double', 'half_q0'): 72, (): 2, ('half_q0',): 8}
+ signature=contact_q_double+half_q0+singular_curve+v3eq1 points=6 lifts=150 full_transverse=0 smooth_curve_first_order=0
+  exit_sets={(): 30, ('half_q0',): 120}
+ signature=contact_q_double+singular_curve points=6 lifts=150 full_transverse=0 smooth_curve_first_order=0
+  exit_sets={('contact_q_double',): 140, (): 10}
+ signature=contact_q_double+singular_curve+v3eq1 points=16 lifts=400 full_transverse=0 smooth_curve_first_order=160
+  exit_sets={(): 240, ('singular_curve',): 160}
+  second_order_full=0 second_exit_sets={('singular_curve',): 4000}
+contact6_decision
+ signatures_with_full_transverse_lift=[]
+ first_order_trapped_signatures=['contact_q_double+singular_curve', 'contact_q_double+half_q0+singular_curve', 'contact_q_double+singular_curve+v3eq1', 'A0+contact_q_double+degree_drop+v3eq1', 'contact_q_double+half_q0+singular_curve+v3eq1', 'A0+contact_q_double+degree_drop+half_q0+v3eq1']
+ selected_minimal_signatures ['contact_q_double+singular_curve', 'contact_q_double+half_q0+singular_curve', 'contact_q_double+singular_curve+v3eq1', 'A0+contact_q_double+degree_drop+v3eq1', 'contact_q_double+half_q0+singular_curve+v3eq1']

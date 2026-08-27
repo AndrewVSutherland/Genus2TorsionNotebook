@@ -1,0 +1,43 @@
+PIECE 22
+TYPE [ 1, 1, 90354, 90354 ] dd=90354
+EIS_KERNEL_MOD37_DIM 2
+PRIME 2^1: 1 star-stable isotropics
+PRIME 3^1: 2 star-stable isotropics
+PRIME 11^1: 2 star-stable isotropics
+PRIME 37^2: 3 star-stable isotropics
+STAR_STABLE_COMBINATIONS 12
+PERIOD_TERMS 48354
+PERIODS ok (both frames prepared)
+FRAME 1 : 2 integral Riemann relations found
+  F=[ 0, 1, -1, -1, 2, 0 ] -> E_true=[ 0, 0, -2, -1, 0, 0, -1, -1, 2, 1, 0, 0, 1, 1, 0, 0 ] edivs=[ 1, 1, 1, 1 ]
+  F=[ -3, 4, -2, 2, 0, 3 ] -> E_true=[ 0, 3, 0, 2, -3, 0, -2, -4, 0, 2, 0, -3, -2, 4, 3, 0 ] edivs=[ 1, 1, 13, 13 ]
+FRAME 2 : 2 integral Riemann relations found
+  F=[ 0, 10, -2, 9, 0, 5 ] -> E_true=[ 0, 5, 0, 9, -5, 0, -2, -10, 0, 2, 0, 0, -9, 10, 0, 0 ] edivs=[ 1, 1, 18, 18 ]
+  F=[ -11, -3, 1, 14, -11, -5 ] -> E_true=[ 0, 5, -11, -14, -5, 0, -1, -3, 11, 1, 0, 11, 14, 3, -11, 0 ] edivs=[ 1, 1, 36, 36 ]
+E_DERIVATION_DONE
+COMBO [ 1, 1, 1, 1 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 1, 1 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 1, 2, 1 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 2, 1 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 1, 1, 2 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 1, 2 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 1, 2, 2 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 2, 2 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 1, 1, 3 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 1, 3 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 1, 2, 3 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+COMBO [ 1, 2, 2, 3 ] dnE=1
+  edivs=[ 1, 1, 1, 1 ]
+RECONSTRUCTED 12 principal candidates, 0 rational curves
+GL2_RECONSTRUCT_DONE

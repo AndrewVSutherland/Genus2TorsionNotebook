@@ -1,0 +1,100 @@
+
+CASE delta 1 eps 1 eta 1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+factorization [
+<R^6*s^8 + 2*R^5*s^8 - 3*R^4*s^8 + 8*R^3*s^8 - 4*R^4*s^6*U + 6*R^6*s^4 - 4*R^2*s^8 - s^8*N^2 - 12*R^5*s^4 - 8*R*s^8 + 4*R^2*s^6*U - 2*R^4*s^4 + 4*s^8 + 8*R^3*s^4 + 4*R^4*s^2*U - 3*R^6 + 2*s^4*N^2 + 2*R^5 - 4*R^2*s^2*U + R^4 - N^2, 1>
+]
+FIRST_REDUCED eq 1 degree 11 terms 24
+factorization [
+<R^3*s^8 + R^6*s^4 - R^4*s^6 + 2*R^2*s^8 - 1/2*s^8*M*N - 4*R*s^8 - 4*R^4*s^4 + R^2*s^6 + s^8 - 1/2*R^2*s^4*U^2 + 6*R^3*s^4 + R^6 + R^4*s^2 - 4*R^2*s^4 + 1/2*s^4*U^2 + s^4*M*N - 4*R^5 + 2*R^4 - R^2*s^2 + s^4 + 1/2*R^2*U^2 + R^3 - 1/2*U^2 - 1/2*M*N, 1>
+]
+FIRST_REDUCED eq 2 degree 10 terms 21
+factorization [
+<R^2*s^8 - s^8*M^2 + 2*R*s^8 - 3*s^8 + 8*R^3*s^4 - 4*R^2*s^4*U + 4*R^6 - 2*R^2*s^4 + 2*s^4*M^2 - 8*R^5 - 12*R*s^4 + 4*s^4*U - 4*R^4 + 6*s^4 + 8*R^3 + 4*R^2*U - 3*R^2 - M^2 + 2*R - 4*U + 1, 1>
+]
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+factorization [
+<R^2*s^6*tau - R*s^5*M*z*tau - R^4*s^2*z^2 - 1/2*R*s^5*U*tau - R*s^5*tau^2 + s^4*N*z*tau + R^3*s*z^2*tau + 1/2*s^4*U*tau^2 + R^2*s^2*z^2 - R^2*s^2*tau + R*s*M*z*tau - R*s*z^2*tau + 1/2*R*s*U*tau + R*s*tau^2 - N*z*tau - 1/2*U*tau^2, 1>
+]
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+factorization [
+<R^2*s^10 - s^8*M^2*z^2 - s^8*U*M*z - 2*R*s^9*tau - 1/4*s^8*U^2 + 2*s^8*N*z + 2*R^2*s^4*M*z^3 + s^8*U*tau - R^2*s^4*U*z^2 + 2*R^2*s^4*z^2*tau - 2*R^2*s^6 + 2*s^4*M^2*z^2 - 2*s^4*M*z^3 - R^4*z^4 + 2*s^4*U*M*z + s^4*U*z^2 + 4*R*s^5*tau - 2*s^4*z^2*tau + 1/2*s^4*U^2 - 4*s^4*N*z - 2*R^2*M*z^3 + 2*R^2*z^4 - 2*s^4*U*tau + R^2*U*z^2 - 2*R^2*z^2*tau + R^2*s^2 - M^2*z^2 + 2*M*z^3 - z^4 - U*M*z - U*z^2 - 2*R*s*tau + 2*z^2*tau - 1/4*U^2 + 2*N*z + U*tau, 1>
+]
+
+CASE delta -1 eps -1 eta 1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+factorization [
+<R^6*s^8 + 2*R^5*s^8 - 3*R^4*s^8 + 8*R^3*s^8 - 4*R^4*s^6*U + 6*R^6*s^4 - 4*R^2*s^8 - s^8*N^2 - 12*R^5*s^4 - 8*R*s^8 + 4*R^2*s^6*U - 2*R^4*s^4 + 4*s^8 + 8*R^3*s^4 + 4*R^4*s^2*U - 3*R^6 + 2*s^4*N^2 + 2*R^5 - 4*R^2*s^2*U + R^4 - N^2, 1>
+]
+FIRST_REDUCED eq 1 degree 11 terms 24
+factorization [
+<R^3*s^8 + R^6*s^4 - R^4*s^6 + 2*R^2*s^8 - 1/2*s^8*M*N - 4*R*s^8 - 4*R^4*s^4 + R^2*s^6 + s^8 - 1/2*R^2*s^4*U^2 + 6*R^3*s^4 + R^6 + R^4*s^2 - 4*R^2*s^4 + 1/2*s^4*U^2 + s^4*M*N - 4*R^5 + 2*R^4 - R^2*s^2 + s^4 + 1/2*R^2*U^2 + R^3 - 1/2*U^2 - 1/2*M*N, 1>
+]
+FIRST_REDUCED eq 2 degree 10 terms 21
+factorization [
+<R^2*s^8 - s^8*M^2 + 2*R*s^8 - 3*s^8 + 8*R^3*s^4 - 4*R^2*s^4*U + 4*R^6 - 2*R^2*s^4 + 2*s^4*M^2 - 8*R^5 - 12*R*s^4 + 4*s^4*U - 4*R^4 + 6*s^4 + 8*R^3 + 4*R^2*U - 3*R^2 - M^2 + 2*R - 4*U + 1, 1>
+]
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+factorization [
+<R^2*s^6*tau - R*s^5*M*z*tau - R^4*s^2*z^2 - 1/2*R*s^5*U*tau - R*s^5*tau^2 + s^4*N*z*tau + R^3*s*z^2*tau + 1/2*s^4*U*tau^2 + R^2*s^2*z^2 - R^2*s^2*tau + R*s*M*z*tau - R*s*z^2*tau + 1/2*R*s*U*tau + R*s*tau^2 - N*z*tau - 1/2*U*tau^2, 1>
+]
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+factorization [
+<R^2*s^10 - s^8*M^2*z^2 - s^8*U*M*z - 2*R*s^9*tau - 1/4*s^8*U^2 + 2*s^8*N*z + 2*R^2*s^4*M*z^3 + s^8*U*tau - R^2*s^4*U*z^2 + 2*R^2*s^4*z^2*tau - 2*R^2*s^6 + 2*s^4*M^2*z^2 - 2*s^4*M*z^3 - R^4*z^4 + 2*s^4*U*M*z + s^4*U*z^2 + 4*R*s^5*tau - 2*s^4*z^2*tau + 1/2*s^4*U^2 - 4*s^4*N*z - 2*R^2*M*z^3 + 2*R^2*z^4 - 2*s^4*U*tau + R^2*U*z^2 - 2*R^2*z^2*tau + R^2*s^2 - M^2*z^2 + 2*M*z^3 - z^4 - U*M*z - U*z^2 - 2*R*s*tau + 2*z^2*tau - 1/4*U^2 + 2*N*z + U*tau, 1>
+]
+
+CASE delta 1 eps 1 eta -1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+factorization [
+<R^6*s^8 + 2*R^5*s^8 - 3*R^4*s^8 + 8*R^3*s^8 - 4*R^4*s^6*U + 6*R^6*s^4 - 4*R^2*s^8 - s^8*N^2 - 12*R^5*s^4 - 8*R*s^8 + 4*R^2*s^6*U - 2*R^4*s^4 + 4*s^8 + 8*R^3*s^4 + 4*R^4*s^2*U - 3*R^6 + 2*s^4*N^2 + 2*R^5 - 4*R^2*s^2*U + R^4 - N^2, 1>
+]
+FIRST_REDUCED eq 1 degree 11 terms 24
+factorization [
+<R^3*s^8 + R^6*s^4 - R^4*s^6 + 2*R^2*s^8 - 1/2*s^8*M*N - 4*R*s^8 - 4*R^4*s^4 + R^2*s^6 + s^8 - 1/2*R^2*s^4*U^2 + 6*R^3*s^4 + R^6 + R^4*s^2 - 4*R^2*s^4 + 1/2*s^4*U^2 + s^4*M*N - 4*R^5 + 2*R^4 - R^2*s^2 + s^4 + 1/2*R^2*U^2 + R^3 - 1/2*U^2 - 1/2*M*N, 1>
+]
+FIRST_REDUCED eq 2 degree 10 terms 21
+factorization [
+<R^2*s^8 - s^8*M^2 + 2*R*s^8 - 3*s^8 + 8*R^3*s^4 - 4*R^2*s^4*U + 4*R^6 - 2*R^2*s^4 + 2*s^4*M^2 - 8*R^5 - 12*R*s^4 + 4*s^4*U - 4*R^4 + 6*s^4 + 8*R^3 + 4*R^2*U - 3*R^2 - M^2 + 2*R - 4*U + 1, 1>
+]
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+factorization [
+<R^2*s^6*tau + R*s^5*M*z*tau - R^4*s^2*z^2 + 1/2*R*s^5*U*tau + R*s^5*tau^2 + s^4*N*z*tau - R^3*s*z^2*tau + 1/2*s^4*U*tau^2 + R^2*s^2*z^2 - R^2*s^2*tau - R*s*M*z*tau + R*s*z^2*tau - 1/2*R*s*U*tau - R*s*tau^2 - N*z*tau - 1/2*U*tau^2, 1>
+]
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+factorization [
+<R^2*s^10 - s^8*M^2*z^2 - s^8*U*M*z + 2*R*s^9*tau - 1/4*s^8*U^2 + 2*s^8*N*z + 2*R^2*s^4*M*z^3 + s^8*U*tau - R^2*s^4*U*z^2 + 2*R^2*s^4*z^2*tau - 2*R^2*s^6 + 2*s^4*M^2*z^2 - 2*s^4*M*z^3 - R^4*z^4 + 2*s^4*U*M*z + s^4*U*z^2 - 4*R*s^5*tau - 2*s^4*z^2*tau + 1/2*s^4*U^2 - 4*s^4*N*z - 2*R^2*M*z^3 + 2*R^2*z^4 - 2*s^4*U*tau + R^2*U*z^2 - 2*R^2*z^2*tau + R^2*s^2 - M^2*z^2 + 2*M*z^3 - z^4 - U*M*z - U*z^2 + 2*R*s*tau + 2*z^2*tau - 1/4*U^2 + 2*N*z + U*tau, 1>
+]
+
+CASE delta -1 eps -1 eta -1 meaning w = delta*s^2, V = R^2*s^2
+FIRST_REDUCED count 4
+FIRST_REDUCED eq 0 degree 14 terms 21
+factorization [
+<R^6*s^8 + 2*R^5*s^8 - 3*R^4*s^8 + 8*R^3*s^8 - 4*R^4*s^6*U + 6*R^6*s^4 - 4*R^2*s^8 - s^8*N^2 - 12*R^5*s^4 - 8*R*s^8 + 4*R^2*s^6*U - 2*R^4*s^4 + 4*s^8 + 8*R^3*s^4 + 4*R^4*s^2*U - 3*R^6 + 2*s^4*N^2 + 2*R^5 - 4*R^2*s^2*U + R^4 - N^2, 1>
+]
+FIRST_REDUCED eq 1 degree 11 terms 24
+factorization [
+<R^3*s^8 + R^6*s^4 - R^4*s^6 + 2*R^2*s^8 - 1/2*s^8*M*N - 4*R*s^8 - 4*R^4*s^4 + R^2*s^6 + s^8 - 1/2*R^2*s^4*U^2 + 6*R^3*s^4 + R^6 + R^4*s^2 - 4*R^2*s^4 + 1/2*s^4*U^2 + s^4*M*N - 4*R^5 + 2*R^4 - R^2*s^2 + s^4 + 1/2*R^2*U^2 + R^3 - 1/2*U^2 - 1/2*M*N, 1>
+]
+FIRST_REDUCED eq 2 degree 10 terms 21
+factorization [
+<R^2*s^8 - s^8*M^2 + 2*R*s^8 - 3*s^8 + 8*R^3*s^4 - 4*R^2*s^4*U + 4*R^6 - 2*R^2*s^4 + 2*s^4*M^2 - 8*R^5 - 12*R*s^4 + 4*s^4*U - 4*R^4 + 6*s^4 + 8*R^3 + 4*R^2*U - 3*R^2 - M^2 + 2*R - 4*U + 1, 1>
+]
+FIRST_REDUCED eq 3 degree -1 terms 0
+SECOND_REDUCED_88 count 2
+SECOND_REDUCED_88 eq 0 degree 9 terms 16
+factorization [
+<R^2*s^6*tau + R*s^5*M*z*tau - R^4*s^2*z^2 + 1/2*R*s^5*U*tau + R*s^5*tau^2 + s^4*N*z*tau - R^3*s*z^2*tau + 1/2*s^4*U*tau^2 + R^2*s^2*z^2 - R^2*s^2*tau - R*s*M*z*tau + R*s*z^2*tau - 1/2*R*s*U*tau - R*s*tau^2 - N*z*tau - 1/2*U*tau^2, 1>
+]
+SECOND_REDUCED_88 eq 1 degree 12 terms 36
+factorization [
+<R^2*s^10 - s^8*M^2*z^2 - s^8*U*M*z + 2*R*s^9*tau - 1/4*s^8*U^2 + 2*s^8*N*z + 2*R^2*s^4*M*z^3 + s^8*U*tau - R^2*s^4*U*z^2 + 2*R^2*s^4*z^2*tau - 2*R^2*s^6 + 2*s^4*M^2*z^2 - 2*s^4*M*z^3 - R^4*z^4 + 2*s^4*U*M*z + s^4*U*z^2 - 4*R*s^5*tau - 2*s^4*z^2*tau + 1/2*s^4*U^2 - 4*s^4*N*z - 2*R^2*M*z^3 + 2*R^2*z^4 - 2*s^4*U*tau + R^2*U*z^2 - 2*R^2*z^2*tau + R^2*s^2 - M^2*z^2 + 2*M*z^3 - z^4 - U*M*z - U*z^2 + 2*R*s*tau + 2*z^2*tau - 1/4*U^2 + 2*N*z + U*tau, 1>
+]

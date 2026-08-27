@@ -1,0 +1,1 @@
+DIRECT_CONTACT_COHERENT_CRT p11 2178 p13 144 modulus 59797108943 bound 172911 counts {'pairs': 313632, 'ratrec7': 2403, 'exact_contact': 0, 'full_cover': 0, 'finite_masks': 0} output results/target_22224_direct_contact_deep13_coherent_crt.tsv

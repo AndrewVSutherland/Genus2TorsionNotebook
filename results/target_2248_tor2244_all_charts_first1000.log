@@ -1,0 +1,8 @@
+TARGET_2248_TOR2244_ALL_CHARTS_START
+CONFIG input_file paper/scripts_and_data/tor2244.txt rows_available 26653 first 1 last 1000 ordered_zero_infinity_charts 30
+PROGRESS rows_seen 250 current_row 250 chart_trials 7500 square_charts 1504 candidate_rows 0 full_charts 0 full_witnesses 0
+PROGRESS rows_seen 500 current_row 500 chart_trials 15000 square_charts 3004 candidate_rows 0 full_charts 0 full_witnesses 0
+PROGRESS rows_seen 750 current_row 750 chart_trials 22500 square_charts 4504 candidate_rows 0 full_charts 0 full_witnesses 0
+PROGRESS rows_seen 1000 current_row 1000 chart_trials 30000 square_charts 6004 candidate_rows 0 full_charts 0 full_witnesses 0
+SUMMARY rows_seen 1000 chart_trials 30000 square_charts 6004 candidate_rows 0 full_charts 0 full_witnesses 0
+TARGET_2248_TOR2244_ALL_CHARTS_DONE

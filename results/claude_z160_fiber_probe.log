@@ -1,0 +1,6 @@
+Loading "code/claude_z96_family_setup.m"
+p=101: fibers=91, contact-solvable=1, gate 5|#J=27
+  u0=41 sol (h2,h1,h0,rho)=<22, 61, 14, 7> f(rho)=16 h5(rho)^2=16
+  u0=41 sol (h2,h1,h0,rho)=<79, 40, 87, 7> f(rho)=16 h5(rho)^2=16
+p=211: fibers=197, contact-solvable=0, gate 5|#J=52
+ALL_DONE

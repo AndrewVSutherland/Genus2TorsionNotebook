@@ -1,0 +1,23 @@
+Loading "code/claude_z96_family_setup.m"
+family built; ftil coefficient u-degrees: [ <0, 44>, <1, 44>, <2, 44>, <3, 44>, <4, 44>, <5, 44> ]
+member u=2: torsion [ 32 ]
+member u=-3/2: torsion [ 32 ]
+numerator degrees (E,q1,q0): [ 4, 4, 2 ] [ 5, 5, 2 ] [ 6, 6, 3 ]
+Res_E(L1,L2) done [4293.180 s], degs (U,Q1,Q0) = [ 880, 20, 10 ]
+Res_E(L1,L3) done [10100.970 s], degs (U,Q1,Q0) = [ 1056, 24, 12 ]
+GCD done [401.100 s], degs (U,Q1,Q0) = [ 760, 4, 2 ]
+COMMON FACTOR (the shared locus) — factoring:
+GFACTOR 1 degs(U,Q1,Q0)=[ 0, 2, 1 ] mult=2 : Q1^2 - 4*Q0
+GFACTOR 2 degs(U,Q1,Q0)=[ 1, 0, 0 ] mult=409 : U - 6120
+GFACTOR 3 degs(U,Q1,Q0)=[ 1, 0, 0 ] mult=13 : U - 41820/7
+GFACTOR 4 degs(U,Q1,Q0)=[ 1, 0, 0 ] mult=45 : U - 41310/7
+GFACTOR 5 degs(U,Q1,Q0)=[ 1, 0, 0 ] mult=13 : U - 39780/7
+GFACTOR 6 degs(U,Q1,Q0)=[ 2, 0, 0 ] mult=15 : U^2 - 83232/7*U + 1732266000/49
+GFACTOR 7 degs(U,Q1,Q0)=[ 2, 0, 0 ] mult=15 : U^2 - 82620/7*U + 1707296400/49
+GFACTOR 8 degs(U,Q1,Q0)=[ 4, 0, 0 ] mult=55 : U^4 - 1814580/77*U^3 + 112260200400/539*U^2 - 440992412856000/539*U + 31834731407931360000/26411
+cofactor degs: A [ 120, 16, 8 ], B [ 296, 20, 10 ]
+Res_q0(cofactors) done [30329.900 s], degs (U,Q1) = [ 3568, 160 ]
+
+Current total memory usage: 18215.9MB, failed memory request: 9217.0MB
+System Error: User memory limit has been reached
+ALL_DONE

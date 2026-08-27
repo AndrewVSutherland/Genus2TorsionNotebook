@@ -1,0 +1,40 @@
+Magma V2.28-27    Fri Jul 10 2026 13:24:41 on <host> [Seed = 404969700]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact5_order20_plus3_s_v1.m"
+CONTACT_V1_SELF_TEST_PASS
+V1 equation_degrees [ 8, 10, 12 ]
+terms [ 34, 54, 83 ]
+raw_dimension 1 [ 1 ]
+Time: 0.020
+V1_SAT dimension 0 []
+basis_size 15 basis_degrees [ 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+basis_terms [ 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 ]
+Time: 0.020
+Time: 0.010
+V1_LEX dimension 0 []
+basis_size 3 variable_degrees [
+[ 1, 0, 23 ],
+[ 0, 1, 23 ],
+[ 0, 0, 24 ]
+]
+elim_generators 1
+V1_S_ELIM degree 24 terms 25 factors 2
+ S_FACTOR multiplicity 1 degree 11 terms 12 zS^11 - 61/3*zS^10 + 574/3*zS^9 - 1116*zS^8 + 13523/3*zS^7 - 39083/3*zS^6 + 26628*zS^5 - 111052/3*zS^4 + 97756/3*zS^3 - 15548*zS^2 + 6463/3*zS + 2033/3
+ S_FACTOR multiplicity 1 degree 13 terms 14 zS^13 - 80/3*zS^12 + 298*zS^11 - 1828*zS^10 + 20128/3*zS^9 - 14466*zS^8 + 13479*zS^7 + 17132*zS^6 - 78750*zS^5 + 130330*zS^4 - 377600/3*zS^3 + 74092*zS^2 - 24631*zS + 10576/3
+V1_RATIONAL_S_ROOTS []
+V1_RATIONAL_POINTS 0 []
+V1_DONE square_candidates 0 cyclic60_hits 0
+
+Total time: 0.100 seconds, Total memory usage: 32.09MB

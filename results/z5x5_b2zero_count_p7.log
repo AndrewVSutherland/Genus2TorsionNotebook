@@ -1,0 +1,71 @@
+# full b2-variable residual sizes
+  E0 degree=30 total_degree=30 terms=852
+  E1 degree=27 total_degree=27 terms=560
+  E2 degree=24 total_degree=24 terms=347
+  E3 degree=21 total_degree=21 terms=208
+  E4 degree=18 total_degree=18 terms=123
+# b2=0 residual sizes
+  E0 degree=10 total_degree=10 terms=51
+  E1 degree=9 total_degree=9 terms=41
+  E2 degree=8 total_degree=8 terms=32
+  E3 degree=7 total_degree=7 terms=24
+  E4 degree=6 total_degree=6 terms=18
+# b2=0 open factors
+  K degree=1 total_degree=1 terms=1 : kap
+  b1 degree=1 total_degree=1 terms=1 : b1
+  b0 degree=1 total_degree=1 terms=1 : b0
+  discU degree=2 total_degree=2 terms=2 : s^2 - 4*t
+  resBU degree=3 total_degree=3 terms=3 : -s*b0*b1 + t*b1^2 + b0^2
+  discF degree=9 total_degree=9 terms=7 : 16*h1^4*h2^3*kap^2 - 128*h1^2*h2^4*kap^2 + 108*h1^5*kap^3 + 256*h2^5*kap^2 - 900*h1^3*h2*kap^3 + 2000*h1*h2^2*kap^3 + 3125*kap^4
+  product degree=17 total_degree=17 terms=42
+
+# modular b2=0 reports
+
+# prime p=3 b2=0 modular saturation
+  brute_F_3 raw_residual_points=103 open_points=0
+  sample_count_printed=0
+  saturation_skipped pass -b do_saturation:=true to compute ideals
+
+# prime p=7 b2=0 modular saturation
+  brute_F_7 raw_residual_points=2521 open_points=12
+  sample_count_printed=3
+    sample_1 vals=<h1=1,h2=0,K=2,s=0,t=6,b0=3,b1=1> jacobian_rank=5 class=independent
+      f=5*x^5 + x^2 + 2*x + 1
+      U=x^2 + 6
+      V=3
+      A=x^5 + x^3 + 6*x^2 + 2*x + 6
+      B=x + 3
+      #J(F_7)=100 independent=true
+    sample_2 vals=<h1=1,h2=0,K=2,s=0,t=6,b0=4,b1=6> jacobian_rank=5 class=independent
+      f=5*x^5 + x^2 + 2*x + 1
+      U=x^2 + 6
+      V=4
+      A=x^5 + x^3 + 6*x^2 + 2*x + 6
+      B=6*x + 4
+      #J(F_7)=100 independent=true
+    sample_3 vals=<h1=2,h2=0,K=1,s=0,t=5,b0=1,b1=3> jacobian_rank=5 class=independent
+      f=6*x^5 + 4*x^2 + 4*x + 1
+      U=x^2 + 5
+      V=4
+      A=x^5 + 2*x^3 + 6*x^2 + x + 5
+      B=3*x + 1
+      #J(F_7)=100 independent=true
+  slice_chart h1=1 h2=0
+  slice_F_7 raw_residual_points=63 open_points=2
+  sample_count_printed=2
+    sample_1 vals=<h1=1,h2=0,K=2,s=0,t=6,b0=3,b1=1> jacobian_rank=5 class=independent
+      f=5*x^5 + x^2 + 2*x + 1
+      U=x^2 + 6
+      V=3
+      A=x^5 + x^3 + 6*x^2 + 2*x + 6
+      B=x + 3
+      #J(F_7)=100 independent=true
+    sample_2 vals=<h1=1,h2=0,K=2,s=0,t=6,b0=4,b1=6> jacobian_rank=5 class=independent
+      f=5*x^5 + x^2 + 2*x + 1
+      U=x^2 + 6
+      V=4
+      A=x^5 + x^3 + 6*x^2 + 2*x + 6
+      B=6*x + 4
+      #J(F_7)=100 independent=true
+  slice_saturation_skipped pass -b do_slice_saturation:=true
+  saturation_skipped pass -b do_saturation:=true to compute ideals

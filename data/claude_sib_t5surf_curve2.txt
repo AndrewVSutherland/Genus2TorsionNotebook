@@ -1,0 +1,73 @@
+# *** SECOND (2,2,2,12) CURVE — VERIFIED (2026-07-18, sibling lane A) ***
+# A second geometrically simple genus-2 Jacobian over Q with torsion EXACTLY
+# Z/2 x Z/2 x Z/2 x Z/12 (order 96), NOT isomorphic to the first realization
+# (G2Invariants differ; see dedupe section).
+#
+# Discovery route: Pythagorean (u,g)-chart sweep of the T5 hit-surface
+# S: z^2 = (q(u)rho'-1)(q(u)rho'-2u+1), q(u) = 4u^2-6u+3, of M(2,2,2,6)
+# (t5surf.c, lane scratchpad sib_A_t5surf; derivation surf_id.gp).  On S the
+# three independent conditions are (mod squares, all validated):
+#   W1 = (u-1)q[(u-1)g^2+2ug+(u-1)],  W2 = q[g^2+(6-8u)g+1],
+#   W4 = (2u-1)q[(2u-1)g^2+(6-4u)g+(2u-1)]   (W3 == W1*W2*W4 automatic on S),
+# with rho' = (2gu+(u-1)(g^2+1))/(2g q(u)).  Found in an 11-second calibration
+# box N=150 G=800 (both representations), q0-heights ~100, g-height 459/23.
+#
+# REPRESENTATION 1: (u, g) = (-23/75, 459/23), rho' = -9025/3519 = -95^2/3519
+#   (s,m,n) = (2208, -8303, -7200)  [chart (s,m,n) of M(2,2,2,6)]
+#   A = [1,1,1,2,2], B = [B1..B5] = [2s^2-sn, 2s^2+sm-2sn-mn, 2s^2+sm-sn-mn,
+#                                     -mn, 4s^2-4sn-mn]
+#     = [25648128, -36568896, -52466496, -59781600, 23309856]
+#   Curve: y^2 = prod_{i=1..5} (A_i + B_i x)
+# REPRESENTATION 2: (u, g) = (23/121, -459/23), rho' = 43681/10557 = 209^2/10557
+#   (s,m,n) = (3887, -16606, 20449)
+#   B = [-49267725, 146275584, 225760847, 339576094, 82070118]
+#   (G2Invariants identical to representation 1 — same curve; the pencil
+#   involution acts as (u,g) -> (u', -g).)
+# REPRESENTATION 3: (u, g) = (265/361, 459/23), rho' = -9025/3519 (same member
+#   as rep 1, second point at u-height 361 = 19^2; found by t5sweep --member)
+#   (s,m,n) = (-25970, 19875, -35378)
+#   B = [430115140, -301667520, 617099140, 703137750, -274165290]
+# REPRESENTATION 4: (u, g) = (553/722, -459/23), rho' = 43681/10557 (same
+#   member as rep 2, second point at u-height 722 = 2*19^2)
+#   (s,m,n) = (7742, -9559, 10108)
+#   B = [41620992, -14018550, 64237586, 96622372, 23352084]
+#   (Reps 3-4: torsion [2,2,2,12], certs p=71,103,127,137, same G2INV hash.)
+#
+# Magma verification (sibverify.m = hitverify.m + G2INV, both reps):
+#   TorsionSubgroup(Jacobian) invariants = [ 2, 2, 2, 12 ]  (exact, order 96)
+#   SIMPLICITY CERTIFICATES (chi irreducible deg 4 AND chi^12 irreducible):
+#     p = 71, 103, 127, 137  (multi-prime protocol, both representations)
+#
+# Reduced minimal Weierstrass model (ReducedMinimalWeierstrassModel):
+#   y^2 + (x^2 + x)y = 36x^6 + 36750x^5 - 462983772x^4 - 301623595823x^3
+#                      + 1518598238654317x^2 + 397058962729817115x
+#                      - 1282993930035013443975
+#   Torsion of the integral model y^2 = 4f+h^2: [2, 2, 2, 12] (re-verified).
+#   disc(min model) = 2^24 3^10 5^12 7^12 11^12 13^12 17^2 19^12 23^4 41^2
+#                     73^2 109^4 193^2 241^4 263^2 409^2
+#
+# G2Invariants (of min model = both reps):
+#   [ 22759303799837276937742517178148314785994436260173651931573582362140029\
+#     0567983409243148195138633459637028968621125485314369268401/80555305668714\
+#     7988212734532119787011653848813643660637772498997566952182208419459658485\
+#     60018846993868427264000000000000, ... ]  (full value in scratchpad
+#   sib_A_t5surf/reduce2b.log; md5 of G2INV block = abe993373ca94688572215cec6918e51,
+#   vs first curve d2e1e8c155d0cc181840a299502e16a3 — DISTINCT CURVES.)
+#
+# DEDUPE: the same sweep also produced representations 3 and 4 OF THE FIRST
+# curve (G2INV hash d2e1e8c1...): (u,g) = (133/121, 725/288), rho' = 187^2/34800,
+# (s,m,n) = (22477, 1844976, 20449),
+# B = [550798885, 3832778040, 4292410213, -37727914224, -37545580800];
+# and (u,g) = (169/48, -725/288), rho' = -13^2/34800,
+# (s,m,n) = (-586092, -28561, -166464),
+# B = [589444446240, 503866222860, 601429441548, -4754378304, 979008076800];
+# torsion [2,2,2,12], certs p=37,73,113,139.
+# First curve now has FOUR known pencil representations:
+# members -49/240, 289/240, 34969/34800, -169/34800.
+#
+# EMPIRICAL LAWS UPDATE (all 10 known representation-points of the 2 curves):
+#   * rho'-numerator = +-odd^2 HOLDS (49, 289, 9025=95^2, 43681=209^2,
+#     34969=187^2, 169=13^2).
+#   * "denominator 240" law DEAD: rd in {240, 3519, 10557, 34800}.
+#   * NEW g-RIGIDITY: every representation has |g| in {725/288, 459/23};
+#     each curve's reps pair up as (u, g) <-> (u', -g).

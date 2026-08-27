@@ -1,0 +1,6 @@
+F = a^3*b^2 + 5*a^3*b - 30/7*a^3 + a^2*b^3 + 12*a^2*b^2 + 215/7*a^2*b - 30*a^2 + 5*a*b^3 + 215/7*a*b^2 + 12*a*b - 36*a - 30/7*b^3 - 30*b^2 - 36*b
+geometric genus: 4
+rational points found (nondeg params): 2
+  PT (-6,6): torsion [ 2, 2, 10 ]
+  PT (6,-6): torsion [ 2, 2, 10 ]
+ROUND7B_DONE

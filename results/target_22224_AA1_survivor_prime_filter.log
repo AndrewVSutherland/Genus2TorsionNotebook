@@ -1,0 +1,8 @@
+SURVIVOR_PRIME_FILTER_START family AA1 rows [ <-431, -286, 2>, <1, 2, 2>, <97, 962, 2>, <529, -766, 2>, <961, -478, 2> ]
+bound 997
+CLASS_KILLED family AA1 row <-431, -286, 2> prime 101 t 1
+CLASS_KILLED family AA1 row <97, 962, 2> prime 101 t 31
+CLASS_KILLED family AA1 row <529, -766, 2> prime 101 t 96
+CLASS_KILLED family AA1 row <961, -478, 2> prime 101 t 95
+SURVIVOR_PRIME_FILTER_DONE family AA1 killed 4 survivors [ <1, 2, 2> ]
+EXACT_SURVIVOR family AA1 row <1, 2, 2> t 636151141061/155196346323 square_flags [ true, false, true ]

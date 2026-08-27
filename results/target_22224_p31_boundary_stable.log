@@ -1,0 +1,12 @@
+TARGET_22224_P31_BOUNDARY_STABLE_START p 31
+P31_BASE_COUNTS double_square 244 sheet_boundary 4 collision 192 one_node 192 multi_node 0
+P31_PRESENTATION_COUNTS presentations 2304 chart_fail 1260 complete_generalized_tests 144 complete_divisible 0 node_hit 900 other_unresolved 0
+P31_GENERALIZED_DETAIL split_tests 0 nonsplit_tests 144 ordinary_elliptic_halves 0 torus_compatible_halves 0
+P31_SIGNATURE_COUNTS [ <"1=2", 8>, <"1=3", 8>, <"1=4", 56>, <"2=3", 8>, <"2=4", 56>, <"3=4", 56> ]
+P31_REASON_COUNTS [ <"CRT_det", 1008>, <"CRT_line", 252>, <"complete_nonsplit_node", 144>, <"marked_hits_node", 900> ]
+P31_SIGNATURE_REASON_COUNTS [ <"1=2|complete_nonsplit_node", 48>, <"1=2|marked_hits_node", 48>, <"1=3|complete_nonsplit_node", 48>, <"1=3|marked_hits_node", 48>, <"1=4|CRT_det", 336>, <"1=4|CRT_line", 84>, <"1=4|marked_hits_node", 252>, <"2=3|complete_nonsplit_node", 48>, <"2=3|marked_hits_node", 48>, <"2=4|CRT_det", 336>, <"2=4|CRT_line", 84>, <"2=4|marked_hits_node", 252>, <"3=4|CRT_det", 336>, <"3=4|CRT_line", 84>, <"3=4|marked_hits_node", 252> ]
+P31_NORMALIZATION_ORDER_COUNTS [ <"12", 144> ]
+P31_DIRECT_D3D4_PROJECTION tests 144 ordinary_divisible 0 ordinary_killed 144 orders [ <"12", 144> ]
+reasons [ <"projection_complete", 144>, <"projection_divisor_hits_node", 2160> ]
+SCOPE complete_generalized_tests are exact Pic0 tests on one-node stable fibres; node_hit, sheet_boundary, and multi-node presentations require blow-up/valuation charts
+TARGET_22224_P31_BOUNDARY_STABLE_DONE

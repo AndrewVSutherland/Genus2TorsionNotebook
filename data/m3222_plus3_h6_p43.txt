@@ -1,0 +1,35 @@
+M_1(8,2,2) / [2,2,8] plus 3-torsion search
+height 6 prime_bound 43 max_exact 50
+Precomputing finite 3-residue filters
+ p 5 nonsingular 0 allowed3 0
+ p 7 nonsingular 12 allowed3 0
+ p 11 nonsingular 24 allowed3 0
+ p 13 nonsingular 48 allowed3 0
+ p 17 nonsingular 132 allowed3 60
+ p 19 nonsingular 168 allowed3 84
+ p 23 nonsingular 300 allowed3 108
+ p 29 nonsingular 528 allowed3 168
+ p 31 nonsingular 636 allowed3 276
+ p 37 nonsingular 960 allowed3 432
+ p 41 nonsingular 1236 allowed3 564
+ p 43 nonsingular 1368 allowed3 432
+SURVIVOR u -5/3 v -1/4 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 6
+SURVIVOR u -1/4 v -5/3 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 6
+DONE height 6
+checked 2209 curve_ok 1846 survivors 2 exact 2 hits 0
+Rejected first at
+  7 704
+  11 264
+  13 326
+  17 160
+  19 124
+  23 172
+  29 68
+  31 14
+  37 8
+  41 2
+  43 2
+Surviving gcd bounds
+  192 2

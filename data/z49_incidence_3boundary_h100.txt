@@ -1,0 +1,38 @@
+Z49_INCIDENCE_3BOUNDARY
+INTEGRAL_OPEN_CHARTS
+eps 1 jacobian_mod3 [[1, 0, 0, 0, 0], [1, 0, 1, 1, 0], [2, 0, 2, 1, 1], [1, 0, 2, 2, 1]]
+eps 1 tangent_db_1 [0, 1, 0, 0, 0]
+eps 1 exceptional_equations ['A + T**2 + T + 1', 'A + T**2 + U + V - 1', '-A + R - T**2 - U + V + 1', 'A + R + T**2 - T - U - V + 1']
+eps 1 exceptional_line A=-(T^2+T+1) U=eps*T V=-eps R=-1
+eps -1 jacobian_mod3 [[1, 0, 0, 0, 0], [1, 0, 2, 2, 0], [2, 0, 1, 2, 1], [1, 0, 1, 1, 1]]
+eps -1 tangent_db_1 [0, 1, 0, 0, 0]
+eps -1 exceptional_equations ['A + T**2 + T + 1', 'A + T**2 - U - V - 1', '-A + R - T**2 + U - V + 1', 'A + R + T**2 - T + U + V + 1']
+eps -1 exceptional_line A=-(T^2+T+1) U=eps*T V=-eps R=-1
+Q5_EXCEPTIONAL_LAYERS
+level 1 T=center+scale*W center 0 scale 1 depth 7 quotients [1, 0, 2] equation 1-1*W deeper_digit 1
+level 2 T=center+scale*W center 1 scale 3 depth 14 quotients [2, 1, 0] equation -1-1*W deeper_digit 2
+level 3 T=center+scale*W center 7 scale 9 depth 21 quotients [1, 0, 2] equation 1-1*W deeper_digit 1
+level 4 T=center+scale*W center 16 scale 27 depth 28 quotients [2, 1, 0] equation -1-1*W deeper_digit 2
+level 5 T=center+scale*W center 70 scale 81 depth 35 quotients [1, 0, 2] equation 1-1*W deeper_digit 1
+level 6 T=center+scale*W center 151 scale 243 depth 42 quotients [1, 0, 2] equation 1-1*W deeper_digit 1
+common_deeper_disc T= 394 mod 729
+LOCAL_T_SEARCH height 100 precision 18 coordinate_bound 5000
+rational_T 9103 branches 2 lifts 18206 thickness {7: 12176, 14: 4018, '>=18': 2012}
+all_four_reconstructed 0 exact_open_hits 0
+coverage T=(b-1)/3 3-integral local_height<= 100 other_coordinate_bound<= 5000
+BALANCED_FIRST_POLE_CHART
+stage1 substitutions a=A b=B/3 u=U v=V/3 r=R; B,V units
+stage1 [(-16, 'B**8*V**8 + B**4*V**12 + V**16'), (-14, 'B**6*V**8 - B**4*V**10 - B**2*V**12 + V**14'), (-12, '-B**6*V**6 + V**12'), (-10, '-B**2*V**8 + V**10')]
+stage2 delta 1 v=delta*B/3+W
+stage2 [(-14, 'B**16 - B**15*W + B**14*W**2'), (-12, '-B**14 + B**13*W - B**12*W**2'), (-9, 'B**12 + B**11*W - B**10*W**2 - B**9*W**3'), (-9, '-B**10 - B**9*W')]
+stage3 delta 1 v=delta*B/3-delta*B+3*X
+stage3 [(-12, 'B**14*X**2 + B**13*R*X - B**13*X + B**12*R**2 + B**12*R + B**12'), (-10, '-B**12*X**2 - B**11*R*X + B**11*X - B**10*R**2 - B**10*R - B**10'), (-7, 'A*B**8*X - A*B**7*R + A*B**7 - B**10*X**2 - B**9*R*X + B**9*X - B**8*R**2 - B**8*R + B**8*U*X - B**8 - B**7*R*U + B**7*U'), (-8, '-B**9*X + B**8*R - B**8')]
+stage3_reduced_relation 1*B*X-R+1=0 A,U,R remain free on this initial divisor
+stage2 delta -1 v=delta*B/3+W
+stage2 [(-14, 'B**16 + B**15*W + B**14*W**2'), (-12, '-B**14 - B**13*W - B**12*W**2'), (-9, 'B**12 - B**11*W - B**10*W**2 + B**9*W**3'), (-9, '-B**10 + B**9*W')]
+stage3 delta -1 v=delta*B/3-delta*B+3*X
+stage3 [(-12, 'B**14*X**2 - B**13*R*X + B**13*X + B**12*R**2 + B**12*R + B**12'), (-10, '-B**12*X**2 + B**11*R*X - B**11*X - B**10*R**2 - B**10*R - B**10'), (-7, '-A*B**8*X - A*B**7*R + A*B**7 - B**10*X**2 + B**9*R*X - B**9*X - B**8*R**2 - B**8*R + B**8*U*X - B**8 + B**7*R*U - B**7*U'), (-8, 'B**9*X + B**8*R - B**8')]
+stage3_reduced_relation -1*B*X-R+1=0 A,U,R remain free on this initial divisor
+pole_scope v3(b)=v3(v)=-1; v3(a),v3(u),v3(r)>=0 only
+pole_limitation chart remains nonreduced/not low-dimensional; no box search
+Z49_INCIDENCE_3BOUNDARY_DONE

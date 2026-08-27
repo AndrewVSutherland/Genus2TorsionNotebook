@@ -1,0 +1,34 @@
+CONTACT7_TWO_ROOT_BOUNDARY
+
+Signed-parameter convention:
+  h(1-s^2)=s^7, h(1-t^2)=t^7.
+
+Reduced parameter poles:
+  s=-1, t=-1, s=-t.
+
+Let
+  H = s^2*t^2 + 2*s^2*t + s^2 + 2*s*t^2 + 2*s*t
+      + 1/2*s + t^2 + 1/2*t,
+
+  R = s^4*t^2 + 2*s^4*t + s^4
+      + 2*s^3*t^3 + 7*s^3*t^2 + 8*s^3*t + 3*s^3
+      + 6*s^2*t^3 + 13*s^2*t^2 + 8*s^2*t + s^2
+      + 6*s*t^3 + 7*s*t^2 + 2*s*t + 2*t^3 + t^2.
+
+Then
+  h(1) = -s^2*t^2*H / ((s+1)^2*(t+1)^2*(s+t)).
+
+The exact full discriminant factorization is
+  Disc_x(f) =
+    8*s^14*t^14*(s-t)^2*H^7*R(s,t)^2*R(t,s)^2*K(s,t)
+    / ((s+1)^26*(t+1)^26*(s+t)^13),
+where K is irreducible, symmetric, and has bidegree (8,8).
+
+Finite singular support:
+  s=0, t=0, s=t, H=0, R(s,t)=0, R(t,s)=0, K(s,t)=0.
+
+The exact expanded K and every factorization assertion are produced by:
+  magma -b code/contact7_two_root_boundary.m
+
+Magma's raw factor normalization uses R(t,s)/2 and therefore prints raw
+scalar 32; the normalization above has scalar 8.

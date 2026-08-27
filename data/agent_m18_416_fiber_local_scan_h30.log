@@ -1,0 +1,75 @@
+collecting C1&C2 survivors at hR=30 hM=30 ...
+survivors=4172 distinct fibers=758 (scanning up to 60)
+FIBER R=-15: obstructed at [ 2, 3 ]
+FIBER R=-29/2: obstructed at [ 2 ]
+FIBER R=-14: obstructed at [ 3, 5, 7 ]
+FIBER R=-27/2: obstructed at [ 2, 3 ]
+FIBER R=-13: obstructed at [ 2, 7 ]
+FIBER R=-25/2: obstructed at [ 2, 3 ]
+FIBER R=-12: obstructed at [ 2, 3, 13 ]
+FIBER R=-23/2: obstructed at [ 2, 23 ]
+FIBER R=-11: obstructed at [ 2, 3, 5, 11 ]
+FIBER R=-21/2: obstructed at [ 2, 3, 7, 23 ]
+FIBER R=-10: obstructed at [ 2, 7, 11 ]
+FIBER R=-19/2: obstructed at [ 2, 3, 7, 19 ]
+FIBER R=-9: obstructed at [ 2, 5 ]
+FIBER R=-17/2: obstructed at [ 2, 5, 19 ]
+FIBER R=-8 (example m=-28): ELS up to p<=23  <== global candidate
+FIBER R=-15/2: obstructed at [ 2, 3, 17 ]
+FIBER R=-29/4: obstructed at [ 3, 11 ]
+FIBER R=-7: obstructed at [ 2, 7 ]
+FIBER R=-27/4: obstructed at [ 3 ]
+FIBER R=-20/3: obstructed at [ 2, 23 ]
+FIBER R=-13/2: obstructed at [ 2, 3, 5, 7 ]
+FIBER R=-25/4 (example m=-25/2): ELS up to p<=23  <== global candidate
+FIBER R=-6: obstructed at [ 3, 7 ]
+FIBER R=-23/4: obstructed at [ 3, 23 ]
+FIBER R=-11/2: obstructed at [ 2, 11, 13, 23 ]
+FIBER R=-21/4: obstructed at [ 3, 7 ]
+FIBER R=-5: obstructed at [ 2, 3 ]
+FIBER R=-29/6: obstructed at [ 2, 5, 7 ]
+FIBER R=-19/4: obstructed at [ 5, 7, 19, 23 ]
+FIBER R=-14/3: obstructed at [ 2, 7, 17 ]
+FIBER R=-9/2: obstructed at [ 2, 11 ]
+FIBER R=-13/3: obstructed at [ 2, 5 ]
+FIBER R=-17/4: obstructed at [ 3, 7 ]
+FIBER R=-25/6: obstructed at [ 2, 7 ]
+FIBER R=-4: obstructed at [ 5 ]
+FIBER R=-23/6: obstructed at [ 2, 23 ]
+FIBER R=-15/4: obstructed at [ 3, 19 ]
+FIBER R=-11/3: obstructed at [ 2, 7, 11 ]
+FIBER R=-29/8 (example m=-29/4): ELS up to p<=23  <== global candidate
+FIBER R=-7/2: obstructed at [ 2, 5, 7 ]
+FIBER R=-27/8: obstructed at [ 3, 5, 7 ]
+FIBER R=-10/3: obstructed at [ 13 ]
+FIBER R=-13/4: obstructed at [ 17 ]
+FIBER R=-16/5: obstructed at [ 3, 7, 23 ]
+FIBER R=-19/6: obstructed at [ 2, 19 ]
+FIBER R=-25/8: obstructed at [ 3, 11 ]
+FIBER R=-3: obstructed at [ 2, 3, 7 ]
+FIBER R=-29/10: obstructed at [ 2, 3, 13 ]
+FIBER R=-23/8: obstructed at [ 23 ]
+FIBER R=-17/6: obstructed at [ 2, 23 ]
+FIBER R=-14/5: obstructed at [ 7, 19 ]
+FIBER R=-11/4: obstructed at [ 3, 5, 11 ]
+FIBER R=-27/10: obstructed at [ 2, 3 ]
+FIBER R=-8/3: obstructed at [ 2, 5, 11 ]
+FIBER R=-21/8: obstructed at [ 3, 7, 23 ]
+FIBER R=-13/5: obstructed at [ 2 ]
+FIBER R=-5/2: obstructed at [ 2, 7 ]
+FIBER R=-29/12: obstructed at [ 7 ]
+FIBER R=-12/5: obstructed at [ 2, 3, 17 ]
+FIBER R=-19/8: obstructed at [ 3, 19 ]
+
+SUMMARY: fibers scanned=60 ELS=3 obstructed=57
+obstruction place histogram:
+  11 : 9
+  13 : 4
+  17 : 4
+  19 : 7
+  2 : 36
+  23 : 11
+  3 : 28
+  5 : 13
+  7 : 23
+DONE

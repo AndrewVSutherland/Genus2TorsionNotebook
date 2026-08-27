@@ -1,0 +1,354 @@
+\documentclass[11 pt]{amsart}
+\usepackage{amsfonts}
+\usepackage{amsmath,amscd}
+\usepackage{fullpage}
+\usepackage{amssymb}
+\usepackage{centernot} 
+\usepackage{enumerate} 
+%\usepackage{mathtools}
+%\usepackage{showlabels}
+\usepackage{parskip}
+\usepackage{pb-diagram} 
+\usepackage{mathrsfs}
+\usepackage[OT2,T1]{fontenc}
+\usepackage{seqsplit}
+%\usepackage[notref,notcite]{showkeys}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{longtable}
+
+
+%\renewcommand*\showkeyslabelformat[1]{%
+%\parbox[t]{0.6\marginparwidth}{\raggedright\normalfont\small\ttfamily\seqsplit{\(\{\)#1\(\}\)}}}
+
+%\usepackage[color]{showkeys}
+\usepackage{color}
+\usepackage{array}
+\usepackage{verbatim}
+\usepackage{url}
+
+%\usepackage[document]{ragged2e}
+
+\def\IZ{\text{\rm I$_0$}}
+\def\IZS{\text{\rm I$_0^*$}}
+\def\In#1{{\text{\rm I{}$_{#1}$}}}
+\def\InS#1{{\text{\rm I{}$_{#1}^*$}}}
+\def\II{\text{\rm II}}
+\def\IIS{\text{\rm II$^*$}}
+\def\III{\text{\rm III}}
+\def\IIIS{\text{\rm III$^*$}}
+\def\IV{\text{\rm IV}}
+\def\IVS{\text{\rm IV$^*$}}
+
+
+\DeclareSymbolFont{cyrletters}{OT2}{wncyr}{m}{n}
+\DeclareMathSymbol{\Sha}{\mathalpha}{cyrletters}{"58}
+
+%\definecolor{refkey}{rgb}{0.9451,0.2706,0.4941}
+%\definecolor{labelkey}{rgb}{0.9451,0.2706,0.4941}
+%\definecolor{ruri}{rgb}{0.0078,0.3922,0.6510}
+
+\definecolor{refkey}{rgb}{1,1,1}
+\definecolor{labelkey}{rgb}{1,1,1}
+\definecolor{cite}{rgb}{0.9451,0.2706,0.4941}
+\definecolor{ruri}{rgb}{0.0078,0.4022,0.8010}
+
+%\usepackage{hyperref}
+
+\usepackage[%
+bookmarks=true,bookmarksnumbered=true,%
+colorlinks=true,linkcolor=ruri,citecolor=red%
+ ]{hyperref}
+
+\makeindex \setcounter{tocdepth}{1}
+
+\def\F{{\rm \mathbb{F}}}
+\def\Z{{\rm \mathbb{Z}}}
+\def\N{{\rm \mathbb{N}}}
+\def\Q{{\rm \mathbb{Q}}}
+\def\QQ{{\rm \mathbb{Q}}}
+\def\G{{\rm \mathbb{G}}}
+\def\Qbar{{\rm \overline{\mathbb{Q}}}}
+\def\C{{\rm \mathbb{C}}}
+\def\cO{{\rm \mathcal{O}}}
+\def\U{{\rm \mathcal{U}}}
+\def\R{{\rm \mathbb{R}}}
+\def\T{{\rm \mathbb{T}}}
+\def\P{{\rm \mathbb{P}}}
+%\def\H{{\rm \mathfrak{H}}}
+\def\J{{\rm \mathcal{J}}}
+\def\p{{\rm \mathfrak{p}}}
+\def\m{{\rm \mathfrak{m}}}
+\def\n{{\rm \mathfrak{n}}}
+\def\q{{\rm \mathfrak{q}}}
+\def\a{{\rm \mathfrak{a}}}
+\def\b{{\rm \mathfrak{b}}}
+\def\c{{\rm \mathfrak{c}}}
+\def\f{{\rm \mathfrak{f}}}
+\def\O{{\rm \mathcal{O}}}
+\def\E{{\rm \mathcal{E}}}
+\def\A{{\rm \mathbb{A}}}
+\def\No{{\rm N}}
+\def\l{{\rm \lambda}}
+\def\r{{\rm \rangle}}
+
+\def\Nm{{\rm Nm}}
+\def\AJ{{\rm AJ}}
+\def\NS{{\rm NS}}
+\def\Fil{{\rm Fil}}
+\def\GRH{{\rm GRH}}
+\def\PGL{{\rm PGL}}
+%\def\Jbar{{\rm J_{\overline{\Q}}}}
+\def\lcm{{\rm lcm}}
+\def\sh{{\rm sh}}
+\def\irr{{\rm irr}}
+\def\minn{{\rm min}}
+\def\et{{\rm et}}
+\def\avg{{\rm avg}}
+\def\mx{{\rm max}}
+\def\sgn{{\rm sgn}}
+\def\inv{{\rm inv}}
+\def\Aut{{\rm Aut}}
+\def\la{{\rm \longrightarrow \,}}
+\def\ebar{{\rm \overline{e}}}
+\def\Tr{{\rm Tr}}
+\def\gl{{\rm \Gamma_\lambda}}
+\def\Br{{\rm Br}}
+\def\dual{{\rm \widehat\lambda}}
+\def\NS{{\rm NS}}
+\def\Pic{{\rm Pic}}
+\def\Cl{{\rm Cl}}
+\def\amp{{\rm amp}}
+\def\Disc{{\rm Disc}}
+\def\disc{{\rm disc}}
+\def\e{{\rm \epsilon}}
+\def\SL{{\rm SL}}
+\def\SO{{\rm SO}}
+\def\Vol{{\rm Vol}}
+\def\Res{{\rm Res}}
+\def\Sym{{\rm Sym}}
+\def\Ell{{\rm Ell}}
+\def\GO{{\rm GO}}
+\def\GL{{\rm GL}}
+\def\Gr{{\rm Gr}}
+\def\CH{{\rm CH}}
+\def\Gal{{\rm Gal}}
+\def\Ext{{\rm Ext}}
+\def\rk{{\rm rk}}
+\def\unob{{\rm unob}}
+\def\Div{{\rm Div}}
+\def\val{{\rm val}}
+\def\dimF{{\dim_{\F_3}}}
+\DeclareMathOperator*{\ord}{ord}
+
+\def\Hom{{\rm Hom}}
+\def\End{{\rm End}}
+\def\Sel{{\rm Sel}}
+\def\sm{{\rm sm}}
+\def\va{{\rm va}}
+\def\prim{{\rm prim}}
+\def\mprim{{\rm mp}}
+\def\maxx{{\rm max}}
+\def\Spec{{\rm Spec}}
+\def\ls{{\rm loc \, sol}}
+\def\Frac{{\rm Frac}}
+\def\sol{{\rm sol}}
+\def\id{{\rm id}}
+\def\map{{\rm \hspace{1mm} \rightarrow \hspace{1mm}}}
+\def\mod{{\rm mod \hspace{1 mm}}}
+\def\coker{{\rm coker \hspace{1mm}}}
+\def\char{{\rm char \hspace{1mm}}}
+\newcommand{\PP}{\mathbb{P}}
+
+%Command to write down curly letters for sheaves
+\newcommand{\sheaf}[1]{\mathscr{#1}}
+
+
+\numberwithin{equation}{section} 
+
+
+\newcommand{\ritem}[1]{\item[{\rm #1}]}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{question}{Question}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+%\newenvironment{definition}[1][Definition]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{assumption}[1][Assumption]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{notation}[1][Notation]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{example}[1][Example]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{remark}[1][Remark]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{exercise}[1][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{proof}{\noindent {\bf Proof: }}{$\Box$ \vspace{2 ex}}
+
+\newcommand{\lmfdbcv}[4]{\href{https://www.lmfdb.org/Genus2Curve/Q/#1/#2/#3/#4}{\texttt{#1.#2.#3.#4}}}
+\newcommand{\lmfdbnew}[3]{\href{https://alpha.lmfdb.org/Genus2Curve/Q/#1/#2/#3}{\texttt{#1.#2.#3}}}
+
+
+%Notes macros
+%\usepackage{marginnote,color}%,changepage}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\def\hidenotes{\def\inline##1##2##3{} \def\inlinewide##1##2##3{} \def\marg##1##2##3{}}
+
+\usepackage{tikz}
+
+
+%\def\shownotes{\def\inline##1##2##3{ \begin{adjustwidth}{3mm}{7mm}\mbox{}\par \noindent
+%{\color{##1}\hspace{-1.9cm}{\large ##2}\vspace{-\baselineskip}\\##3}
+%\newline\end{adjustwidth}} \def\inlinewide##1##2##3{ \begin{adjustwidth}{0mm}{0cm}\mbox{}\par \noindent
+%{\color{##1}\hspace{-1.6cm}{\large ##2}\vspace{-\baselineskip}\\##3}
+%\newline\end{adjustwidth}}  \def\marg##1##2##3{\marginnote{\color{##1}{\large ##2}\\{\small ##3}}[-.8cm]}}
+
+%\shownotes
+
+%Commands for this document
+
+\def\note#1{\inline{Green}{Note:}{#1}}
+\def\todo#1{\inline{BurntOrange}{To do:}{#1}}
+\DeclareMathOperator{\Mat}{Mat}
+\DeclareMathOperator{\Jac}{Jac}
+\newcommand{\define}[1]{{\fontfamily{cmss}\selectfont{#1}}}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\sep}{sep}
+\newcommand{\calO}{\mathcal{O}}
+\DeclareMathOperator{\HH}{H}
+\DeclareMathOperator{\Prym}{Prym}
+\DeclareMathOperator{\Isom}{Isom}
+
+
+%MSC tags:
+%11G10: Abelian varieties of dimension $> 1$
+%14G05  Rational points
+%14H40  Jacobians, Prym varieties
+%14H45  Special algebraic curves and curves of low genus
+%14K15  Arithmetic ground fields for abelian varieties
+\begin{document}
+\section*{The first double cover}
+
+Let
+\[
+A_t:\qquad y^2=x(x-t-1)\left(x-\frac{t+1}{t}\right),
+\]
+and
+\[
+C_t:\qquad (ab+(a+b)(t+1)+t)^2-4abt=0.
+\]
+
+Using the corrected inverse map from Lemma~6.2,
+\[
+(x,y)\longmapsto (a,b)
+=
+\left(
+\frac{-t(t+1)\bigl(tx^2-(t^2+t+1)x+2y+(t+1)^2\bigr)}{(tx-(t+1)^2)^2},
+\frac{-xt}{t+1}
+\right),
+\]
+the second double cover comes from \(b\), while the first comes from \(a\).
+
+Define the two Kummer coordinates
+\[
+X_b:=-\frac{t+1}{t}\,b=x,
+\qquad
+X_a:=-\frac{t+1}{t}\,a.
+\]
+Thus explicitly,
+\[
+\boxed{
+X_a=
+\frac{(t+1)^2\bigl(tx^2-(t^2+t+1)x+2y+(t+1)^2\bigr)}{(tx-(t+1)^2)^2}.
+}
+\]
+
+Now compute
+\[
+f_1=(a^2-1)(a^2-t^2).
+\]
+Since
+\[
+a=-\frac{t}{t+1}X_a,
+\]
+we obtain
+\[
+f_1
+=
+\left(\frac{t^2X_a^2}{(t+1)^2}-1\right)
+\left(\frac{t^2X_a^2}{(t+1)^2}-t^2\right)
+=
+-\frac{t^2}{(t+1)^4}
+(-X_a+t+1)(X_a+t+1)(tX_a-t-1)(tX_a+t+1).
+\]
+Therefore, up to a square in the function field of \(A_t\),
+\[
+\boxed{
+\operatorname{sqrf}(f_1)
+=
+-(-X_a+t+1)(X_a+t+1)(tX_a-t-1)(tX_a+t+1).
+}
+\]
+
+Compare this with the corresponding computation for
+\[
+f_2=(b^2-1)(b^2-t^2):
+\]
+\[
+\operatorname{sqrf}(f_2)
+=
+-(-x+t+1)(x+t+1)(tx-t-1)(tx+t+1).
+\]
+Thus the squarefree part of \(f_1\) is exactly the same quartic as for \(f_2\), but with \(x\) replaced by \(X_a\).
+
+It follows that the first double cover
+\[
+D_a\to A_t,\qquad s_a^2=(a^2-1)(a^2-t^2),
+\]
+is the pullback of the same genus-one quartic as the second cover, but now along the map \(X_a:A_t\to \mathbf P^1\).
+
+After the same quartic-to-cubic change of variables used for the second cover, this becomes the pullback of the elliptic curve
+\[
+E_t':\qquad t(t+1)u^2=X(X-1)(X-t^2)
+\]
+along \(X_a\). In other words,
+\[
+\boxed{
+D_a \cong A_t\times_{\mathbf P^1_{X_a}} E_t',
+\qquad
+E_t':\ t(t+1)u^2=X(X-1)(X-t^2).
+}
+\]
+
+So the situation is:
+\begin{itemize}
+    \item the second cover is pulled back along \(X_b=x\);
+    \item the first cover is pulled back along
+    \[
+    \boxed{
+    X_a=
+    \frac{(t+1)^2\bigl(tx^2-(t^2+t+1)x+2y+(t+1)^2\bigr)}{(tx-(t+1)^2)^2};
+    }
+    \]
+    \item the two covers are abstractly isomorphic, but they live over different degree-\(2\) maps \(A_t\to \mathbf P^1\).
+\end{itemize}
+
+Consequently, the full Klein four cover is best described as the normalization of
+\[
+\boxed{
+A_t
+\times_{\mathbf P^1_x} E_t'
+\times_{\mathbf P^1_{X_a}} E_t'.
+}
+\]
+That is, both auxiliary elliptic curves are the same \(E_t'\), but one is pulled back along \(x\), while the other is pulled back along \(X_a\).
+
+\end{document}

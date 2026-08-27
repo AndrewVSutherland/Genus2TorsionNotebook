@@ -1,0 +1,25 @@
+# Sum/difference variables: s=A+e, q=A-e
+
+F2sd = u^6*q - u^3*s^2*q^2 + 6*u^4*s*q - 15*u^5 + u^4*s - 2*u^4*q + 30*u^3*s*q - 90*u^4 + 6*u^2*s*q - 231*u^3 - 2*u^2*s + u^2*q - 90*u^2 - 15*u + s
+F3sd = -u^3*s*q^2 + u^4 + 15*u^3*q + u*s^2*q + 20*u^3 - 6*u^2*s + 6*u^2*q - 15*u*s - 20*u - 1
+F2 factors:
+  exponent 1: u^6*q - u^3*s^2*q^2 + 6*u^4*s*q - 15*u^5 + u^4*s - 2*u^4*q + 30*u^3*s*q - 90*u^4 + 6*u^2*s*q - 231*u^3 - 2*u^2*s + u^2*q - 90*u^2 - 15*u + s
+F3 factors:
+  exponent 1: u^3*s*q^2 - u^4 - 15*u^3*q - u*s^2*q - 20*u^3 + 6*u^2*s - 6*u^2*q + 15*u*s + 20*u + 1
+gcd = 1
+
+Resultant eliminating q: degree 20 total_degree 20 terms 55
+factorization:
+  exponent 1 degree 1 total_degree 1 terms 1: s
+  exponent 5 degree 1 total_degree 1 terms 1: u
+  exponent 2 degree 1 total_degree 1 terms 2: u - 1
+  exponent 2 degree 1 total_degree 1 terms 2: u + 1
+  exponent 1 degree 10 total_degree 10 terms 31: u^10 + 20*u^9 + 6*u^8*s + 223*u^8 + 30*u^7*s - 21*u^6*s^2 - 2*u^5*s^3 + 1380*u^7 - 438*u^6*s - 60*u^5*s^2 + 34*u^4*s^3 - 6*u^3*s^4 + 4005*u^6 - 3525*u^5*s + 1557*u^4*s^2 - 488*u^3*s^3 + 105*u^2*s^4 - 15*u*s^5 + s^6 + 2796*u^5 - 2256*u^4*s + 780*u^3*s^2 - 150*u^2*s^3 + 12*u*s^4 + 767*u^4 - 420*u^3*s + 75*u^2*s^2 - 4*u*s^3 + 70*u^3 - 12*u^2*s - u^2
+
+Resultant eliminating s: degree 22 total_degree 22 terms 55
+factorization:
+  exponent 1 degree 1 total_degree 1 terms 1: q
+  exponent 1 degree 1 total_degree 1 terms 1: u
+  exponent 2 degree 1 total_degree 1 terms 2: u - 1
+  exponent 2 degree 1 total_degree 1 terms 2: u + 1
+  exponent 1 degree 16 total_degree 16 terms 31: u^10*q^6 - 15*u^9*q^5 + 12*u^9*q^4 - 4*u^9*q^3 + 105*u^8*q^4 - 150*u^8*q^3 - 6*u^7*q^4 + 75*u^8*q^2 - 488*u^7*q^3 - 12*u^8*q + 780*u^7*q^2 + 34*u^6*q^3 - u^8 - 420*u^7*q + 1557*u^6*q^2 - 2*u^5*q^3 + 70*u^7 - 2256*u^6*q - 60*u^5*q^2 + 767*u^6 - 3525*u^5*q - 21*u^4*q^2 + 2796*u^5 - 438*u^4*q + 4005*u^4 + 30*u^3*q + 1380*u^3 + 6*u^2*q + 223*u^2 + 20*u + 1

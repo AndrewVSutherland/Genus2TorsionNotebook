@@ -1,0 +1,6 @@
+S1_GLOBAL13_P1_SCAN_START modulus 371293 bank_keys 144 finite_classes 371293 infinity_chart_classes 28561
+S1_GLOBAL13_P1_LEVEL exponent 1 modulus 13 bank_keys 3 projective_classes 14 hit_classes 4 hit_keys 1
+S1_GLOBAL13_P1_LEVEL exponent 2 modulus 169 bank_keys 5 projective_classes 182 hit_classes 0 hit_keys 0
+S1_GLOBAL13_P1_LEVEL exponent 3 modulus 2197 bank_keys 11 projective_classes 2366 hit_classes 0 hit_keys 0
+S1_GLOBAL13_P1_LEVEL exponent 4 modulus 28561 bank_keys 12 projective_classes 30758 hit_classes 0 hit_keys 0
+S1_GLOBAL13_P1_SCAN_DONE tested 399854 finite 371293 infinity 28561 unique_keys 86705 bank_hits 0 output results/target_22224_S1_global13_P1_scan.tsv

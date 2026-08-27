@@ -1,0 +1,114 @@
+CONTACT7_TWO_ROOT_PLUS3_SIEVE
+height 10000 mode u=1 branch
+prime 3 total 9 chart 0 good 0 pass 0 fail 0 unknown 9 base_anomaly 0 required 28
+prime 5 total 25 chart 4 good 4 pass 0 fail 4 unknown 21 base_anomaly 0 required 84
+prime 7 total 49 chart 16 good 16 pass 2 fail 14 unknown 33 base_anomaly 0 required 12
+prime 11 total 121 chart 60 good 52 pass 16 fail 36 unknown 69 base_anomaly 0 required 84
+prime 13 total 169 chart 94 good 70 pass 30 fail 40 unknown 99 base_anomaly 0 required 84
+prime 17 total 289 chart 178 good 170 pass 46 fail 124 unknown 119 base_anomaly 0 required 84
+prime 19 total 361 chart 240 good 226 pass 84 fail 142 unknown 135 base_anomaly 0 required 84
+prime 23 total 529 chart 388 good 350 pass 102 fail 248 unknown 179 base_anomaly 0 required 84
+prime 29 total 841 chart 660 good 612 pass 186 fail 426 unknown 229 base_anomaly 0 required 84
+prime 31 total 961 chart 756 good 678 pass 226 fail 452 unknown 283 base_anomaly 0 required 84
+prime 37 total 1369 chart 1126 good 1064 pass 366 fail 698 unknown 305 base_anomaly 0 required 84
+prime 41 total 1681 chart 1416 good 1360 pass 504 fail 856 unknown 321 base_anomaly 0 required 84
+prime 43 total 1849 chart 1552 good 1478 pass 414 fail 1064 unknown 371 base_anomaly 0 required 84
+prime 47 total 2209 chart 1888 good 1726 pass 648 fail 1078 unknown 483 base_anomaly 0 required 84
+prime 53 total 2809 chart 2446 good 2326 pass 892 fail 1434 unknown 483 base_anomaly 0 required 84
+prime 59 total 3481 chart 3096 good 2932 pass 1184 fail 1748 unknown 549 base_anomaly 0 required 84
+prime 61 total 3721 chart 3312 good 3166 pass 910 fail 2256 unknown 555 base_anomaly 0 required 84
+prime 67 total 4489 chart 4036 good 3836 pass 1296 fail 2540 unknown 653 base_anomaly 0 required 84
+prime 71 total 5041 chart 4548 good 4390 pass 1998 fail 2392 unknown 651 base_anomaly 0 required 84
+prime 73 total 5329 chart 4834 good 4704 pass 1900 fail 2804 unknown 625 base_anomaly 0 required 84
+prime 79 total 6241 chart 5712 good 5558 pass 1816 fail 3742 unknown 683 base_anomaly 0 required 84
+prime 83 total 6889 chart 6328 good 6108 pass 2576 fail 3532 unknown 781 base_anomaly 0 required 84
+filter_order 61 79 43 67 73 83 53 59 41 37 29 47 71 31 23 17 19 11 7 13 5
+SURVIVOR 1/1 3906/19
+SURVIVOR 1/1 805/86
+SURVIVOR 1/1 9805/158
+SURVIVOR 1/1 -1501/210
+SURVIVOR 1/1 5278/473
+SURVIVOR 1/1 -9639/566
+SURVIVOR 1/1 -267/748
+SURVIVOR 1/1 -1443/848
+SURVIVOR 1/1 8125/1068
+SURVIVOR 1/1 3045/1139
+SURVIVOR 1/1 5213/1188
+SURVIVOR 1/1 7931/1369
+SURVIVOR 1/1 -3939/1484
+SURVIVOR 1/1 -1590/1547
+SURVIVOR 1/1 -9734/1555
+SURVIVOR 1/1 -3887/1720
+SURVIVOR 1/1 -5382/1757
+SURVIVOR 1/1 2301/1769
+SURVIVOR 1/1 -92/1847
+SURVIVOR 1/1 -5254/2605
+SURVIVOR 1/1 3205/2639
+SURVIVOR 1/1 -4899/2666
+SURVIVOR 1/1 1767/2668
+SURVIVOR 1/1 9535/2906
+SURVIVOR 1/1 -8680/2981
+SURVIVOR 1/1 -2773/3207
+SURVIVOR 1/1 -5081/3599
+SURVIVOR 1/1 -8680/3617
+SURVIVOR 1/1 4158/3625
+SURVIVOR 1/1 4150/3627
+SURVIVOR 1/1 9399/3700
+SURVIVOR 1/1 -3551/3841
+SURVIVOR 1/1 -7802/3945
+SURVIVOR 1/1 2283/4010
+SURVIVOR 1/1 -7007/4198
+SURVIVOR 1/1 -5262/4237
+SURVIVOR 1/1 8759/4280
+SURVIVOR 1/1 -2623/4303
+SURVIVOR 1/1 -3903/4547
+SURVIVOR 1/1 -7777/4577
+SURVIVOR 1/1 7705/4949
+SURVIVOR 1/1 4914/4955
+SURVIVOR 1/1 -5891/4956
+SURVIVOR 1/1 -6441/5014
+SURVIVOR 1/1 1449/5200
+SURVIVOR 1/1 3817/5297
+SURVIVOR 1/1 -820/5487
+SURVIVOR 1/1 4540/5533
+SURVIVOR 1/1 5080/5539
+SURVIVOR 1/1 1991/5694
+SURVIVOR 1/1 3901/5756
+SURVIVOR 1/1 6293/5805
+SURVIVOR 1/1 529/5830
+SURVIVOR 1/1 7887/5915
+SURVIVOR 1/1 4408/5927
+SURVIVOR 1/1 -6366/6065
+SURVIVOR 1/1 -9345/6092
+SURVIVOR 1/1 741/6439
+SURVIVOR 1/1 4424/6439
+SURVIVOR 1/1 8245/6476
+SURVIVOR 1/1 -8584/6519
+SURVIVOR 1/1 -8659/6644
+SURVIVOR 1/1 -363/6790
+SURVIVOR 1/1 -959/6794
+SURVIVOR 1/1 7306/7235
+SURVIVOR 1/1 -7462/7613
+SURVIVOR 1/1 -4233/7705
+SURVIVOR 1/1 7831/7821
+SURVIVOR 1/1 -1691/7879
+SURVIVOR 1/1 5880/7937
+SURVIVOR 1/1 7813/8028
+SURVIVOR 1/1 4774/8189
+SURVIVOR 1/1 8904/8315
+SURVIVOR 1/1 8635/8372
+SURVIVOR 1/1 7426/8415
+SURVIVOR 1/1 7387/8738
+SURVIVOR 1/1 2683/8888
+SURVIVOR 1/1 3872/8947
+SURVIVOR 1/1 4810/8987
+SURVIVOR 1/1 3604/9045
+SURVIVOR 1/1 -1241/9154
+SURVIVOR 1/1 3425/9159
+SURVIVOR 1/1 6055/9217
+SURVIVOR 1/1 -3404/9501
+SURVIVOR 1/1 -415/9867
+SURVIVOR 1/1 8891/9889
+rational_parameters 121589943 branch_raw_parameters 121589943
+SUMMARY raw_pairs 121589943 exact_boundary 3 tested 121589940 survivors 86
+KILL_COUNTS 61:64719269 79:35545303 43:10666981 67:7050959 73:2144877 83:557885 53:586536 59:143453 41:87327 37:47988 29:23810 47:6579 71:4288 31:2620 23:833 17:547 19:181 11:134 7:149 13:94 5:41

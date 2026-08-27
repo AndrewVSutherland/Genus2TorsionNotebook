@@ -1,0 +1,38 @@
+PIECE 22
+N_BRANCHES 2 dims [ 2, 2 ]
+PERIOD_TERMS 80457
+PERIODS ok
+E1 [ 0, 0, 2, 1, 0, 0, 1, 1, -2, -1, 0, 0, -1, -1, 0, 0 ]
+E2 [ 0, -3, 0, -2, 3, 0, 2, 4, 0, -2, 0, 3, 2, -4, -3, 0 ]
+Bcontrol LATTICE_INDEX 1/1
+Bcontrol AB_BASIS [ 1, 0 ] [ 0, 1 ] (dd2=1)
+Bcontrol N_POSFORMS 14 types [ 2, 3, 11 ]
+Bcontrol_d11_a-8_b3_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-8_b3_n1 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a-8_b3_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-8_b3_n2 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a-7_b2_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...

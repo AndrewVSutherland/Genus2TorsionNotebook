@@ -1,0 +1,35 @@
+Magma V2.29-4     Sun Jun 28 2026 23:22:29 on <host>  [Seed = 621733549]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m3222_plus3_boundary_analysis.m"
+M_1(8,2,2)+3 boundary contact analysis p 7
+base_open 12 base_boundary 37
+contact_solutions 0 open_bases_with_contact 0 boundary_bases_with_contact 0
+open_nondeg_contact 0 boundary_nondeg_contact 0
+samples []
+base_signature_counts
+cover_signature_counts
+M_1(8,2,2)+3 boundary contact analysis p 11
+base_open 24 base_boundary 97
+contact_solutions 12 open_bases_with_contact 0 boundary_bases_with_contact 6
+open_nondeg_contact 0 boundary_nondeg_contact 0
+samples [ <5, 8, 2, 8, 9, "delta1=0", "gcd(q,f)">, <5, 8, 9, 8, 9, "delta1=0", "gcd(q,f)">, <6, 6, 5, 10, 4, "s^2-4p=0", "gcd(q,f)">, <6, 6, 6, 10, 4, "s^2-4p=0", "gcd(q,f)">, <6, 9, 5, 10, 4, "delta1=0", "gcd(q,f)">, <6, 9, 6, 10, 4, "delta1=0", "gcd(q,f)">, <8, 5, 2, 8, 9, "delta1=0", "gcd(q,f)">, <8, 5, 9, 8, 9, "delta1=0", "gcd(q,f)">, <8, 8, 2, 8, 9, "s^2-4p=0", "gcd(q,f)">, <8, 8, 9, 8, 9, "s^2-4p=0", "gcd(q,f)">, <9, 6, 5, 10, 4, "delta1=0", "gcd(q,f)">, <9, 6, 6, 10, 4, "delta1=0", "gcd(q,f)"> ]
+base_signature_counts
+  delta1=0 8
+  s^2-4p=0 4
+cover_signature_counts
+  delta1=0 | gcd(q,f) 8
+  s^2-4p=0 | gcd(q,f) 4
+M_1(8,2,2)+3 boundary contact analysis p 13
+base_open 48 base_boundary 121
+contact_solutions 12 open_bases_with_contact 0 boundary_bases_with_contact 6
+open_nondeg_contact 0 boundary_nondeg_contact 0
+samples [ <5, 8, 5, 0, 0, "s-p+1=0", "discq=0+gcd(q,f)+w=0">, <5, 8, 8, 0, 0, "s-p+1=0", "discq=0+gcd(q,f)+w=0">, <5, 12, 5, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <5, 12, 8, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <8, 5, 5, 0, 0, "s-p+1=0", "discq=0+gcd(q,f)+w=0">, <8, 5, 8, 0, 0, "s-p+1=0", "discq=0+gcd(q,f)+w=0">, <8, 12, 5, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <8, 12, 8, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <12, 5, 5, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <12, 5, 8, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <12, 8, 5, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0">, <12, 8, 8, 0, 0, "delta2=0", "discq=0+gcd(q,f)+w=0"> ]
+base_signature_counts
+  delta2=0 8
+  s-p+1=0 4
+cover_signature_counts
+  delta2=0 | discq=0+gcd(q,f)+w=0 8
+  s-p+1=0 | discq=0+gcd(q,f)+w=0 4
+
+Total time: 2.480 seconds, Total memory usage: 32.09MB

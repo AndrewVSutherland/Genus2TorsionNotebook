@@ -1,0 +1,8 @@
+SEARCH pH=12 zH=12 vH=12 Part=1/6  (r = (v^2-p^2)/p)
+PROGRESS tested=200000 funnelpass=0 halvable=0
+PROGRESS tested=400000 funnelpass=0 halvable=0
+PROGRESS tested=600000 funnelpass=0 halvable=0
+PROGRESS tested=800000 funnelpass=0 halvable=0
+PROGRESS tested=1000000 funnelpass=0 halvable=0
+SEARCH_DONE tested=1032486 funnelpass=0 halvable=0
+DONE

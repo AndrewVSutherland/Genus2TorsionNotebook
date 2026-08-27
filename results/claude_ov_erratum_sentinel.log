@@ -1,0 +1,14 @@
+SENT contact7 idx=1 (s,t,u)=(-10,-10/7,-1/2)  genus2red_N=9550095752925  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=2 (s,t,u)=(-5,-15/8,-15/22)  genus2red_N=17934836205825  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=3 (s,t,u)=(-3,-3/4,-3/5)  genus2red_N=38025  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=4 (s,t,u)=(-15/8,-15/19,-1/2)  genus2red_N=14439206077220925  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=5 (s,t,u)=(-5/18,-10/49,4/17)  genus2red_N=37247776656021702225  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=6 (s,t,u)=(-4/9,-4/25,4/17)  genus2red_N=21161909161575  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=7 (s,t,u)=(-511/61,-511/625,-1/2)  genus2red_N=1363558168459661985137828367867185325  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=8 (s,t,u)=(-165/41,-33/16,-165/289)  genus2red_N=11352674691759169446159049425  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=9 (s,t,u)=(-164/297,-1/2,164/361)  genus2red_N=10200972432773189299959691439475  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=10 (s,t,u)=(-17/50,-34/189,34/121)  genus2red_N=3069529451653112094922275  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT contact7 idx=11 (s,t,u)=(-1/2,-13/49,13/50)  genus2red_N=69195300331841508825  v2(genus2red_N)=0  sentinel[2,-1]=1
+SENT blpC4 [2,22]  genus2red_N=416025 = [3, 2; 5, 2; 43, 2]  is 645^2? 1  sentinel[2,-1]=1
+SENTSUMMARY  contact7 sentinel present in 11 of 11 ; blpC4 sentinel 1
+ERRATUM_SENTINEL_DONE

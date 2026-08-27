@@ -1,0 +1,37 @@
+function DeriveT(a, b, c, d)
+    K := Parent(a);
+    P := PolynomialRing(K); x := P.1;
+    R := x^3 - x^2 + a*x + b;
+    S := x^2 + d;
+    F := R^2 - 4*c^2*S^2;
+    if Degree(F) ne 6 then return K!0, K!0, false; end if;
+    fc := [Coefficient(F, i) : i in [0..6]];
+    s := [K| 1];
+    for k in [1..9] do
+        Ftk := k le 6 select fc[6-k+1] else K!0;
+        acc := Ftk;
+        for i in [1..k-1] do
+            acc -:= s[i+1]*s[k-i+1];
+        end for;
+        Append(~s, acc/2);
+    end for;
+    M := Matrix(K, 3, 3, [ [ s[3+m+1], s[4+m+1], s[5+m+1] ] : m in [1..3] ]);
+    rhs := Vector(K, [ -s[6+m+1] : m in [1..3] ]);
+    if Determinant(M) eq 0 then return K!0, K!0, false; end if;
+    u := Solution(Transpose(M), rhs);
+    U := x^3 + u[3]*x^2 + u[2]*x + u[1];
+    uco := [u[1], u[2], u[3], K!1];
+    V := P!0;
+    for n in [0..6] do
+        vn := K!0;
+        for i in [Max(0, n-3)..3] do
+            j := i + 3 - n;
+            if j ge 0 and j le 9 then vn +:= uco[i+1]*s[j+1]; end if;
+        end for;
+        V +:= vn*x^n;
+    end for;
+    G := F*U^2 - V^2;
+    if Degree(G) gt 5 then return K!0, K!0, false; end if;
+    t := Coefficient(G, 2);
+    return Coefficient(G, 0) - t*d, Coefficient(G, 1), true;
+end function;

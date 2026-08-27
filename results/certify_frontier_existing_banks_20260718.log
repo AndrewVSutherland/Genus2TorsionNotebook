@@ -1,0 +1,71 @@
+COMMAND
+magma -b max_bank_rows:=7 max_m244_curves:=5 witnesses_per_curve:=2 code/certify_frontier_existing_banks.m
+
+BANK_START [2,2,4,4] paper/scripts_and_data/tor2244.txt rows_available 26653 row_interval [ 1 .. 7 ]
+BANK_ROW [2,2,4,4] 1 [ 55944, 64800, 64935, 65160 ] exact [ 2, 2, 4, 4 ] order 64
+SUCCESS_GROUP [2,2,4,4]
+SOURCE paper/scripts_and_data/tor2244.txt row 1 tuple [ 55944, 64800, 64935, 65160 ]
+CURVE_Y2_EQUALS T^5 + 15791150961*T^4 + 93063465104931331200*T^3 + 242416649475931369876277760000*T^2 + 235275596525928286349936035430400000000*T
+EXACT_TORSION [ 2, 2, 4, 4 ]
+EXACT_TORSION_ORDER 64
+ROOT_POWER_WITNESS p 67 chi T^4 + 8*T^3 + 22*T^2 + 536*T + 4489 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+ROOT_POWER_WITNESS p 83 chi T^4 - 8*T^3 - 10*T^2 - 664*T + 6889 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+BANK_DONE [2,2,4,4] tested 1 exact_matches 1 success true
+
+BANK_START [2,2,2,8] paper/scripts_and_data/tor2228.txt rows_available 3675 row_interval [ 1 .. 7 ]
+BANK_ROW [2,2,2,8] 1 [ 8, 22, 32, 88 ] exact [ 2, 2, 2, 8 ] order 64
+BANK_ROW [2,2,2,8] 2 [ 12, 33, 48, 132 ] exact [ 2, 2, 2, 8 ] order 64
+BANK_ROW [2,2,2,8] 3 [ 1, 55, 99, 125 ] exact [ 2, 2, 2, 8 ] order 64
+SUCCESS_GROUP [2,2,2,8]
+SOURCE paper/scripts_and_data/tor2228.txt row 3 tuple [ 1, 55, 99, 125 ]
+CURVE_Y2_EQUALS T^5 + 28452*T^4 + 230082726*T^3 + 463480444900*T^2 + 463250390625*T
+EXACT_TORSION [ 2, 2, 2, 8 ]
+EXACT_TORSION_ORDER 64
+ROOT_POWER_WITNESS p 41 chi T^4 + 4*T^3 + 6*T^2 + 164*T + 1681 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+ROOT_POWER_WITNESS p 47 chi T^4 + 4*T^3 + 30*T^2 + 188*T + 2209 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+BANK_DONE [2,2,2,8] tested 3 exact_matches 3 success true
+
+M244_START height 4 point_bound 80 curve_limit 5
+M244_CURVE 1 s -4 t -3 u -4 v -644/799 exact [ 2, 4, 4 ] order 32
+SUCCESS_GROUP [2,4,4]
+SOURCE M(2,4,4) pilot s=-4 t=-3 u=-4 v=-644/799
+CURVE_Y2_EQUALS 407555836801*T^5 + 7193217102753*T^4 + 17542840688944*T^3 + 112806866289408*T^2 + 67780576546816*T
+EXACT_TORSION [ 2, 4, 4 ]
+EXACT_TORSION_ORDER 32
+ROOT_POWER_WITNESS p 97 chi T^4 + 8*T^3 + 46*T^2 + 776*T + 9409 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+ROOT_POWER_WITNESS p 103 chi T^4 - 4*T^3 + 46*T^2 - 412*T + 10609 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+M244_AUTOMORPHISM_GROUP_ORDER 2
+M244_RATIONAL_DEGREE2_SUBCOVERS 0
+AUTOMORPHISM_NOTE root-power witness rules out geometric elliptic splitting for this curve
+M244_DONE tested 1 exact_matches 1 success true
+
+SUMMARY success_2244 true success_2228 true success_244 true
+
+COMPACT [2,2,4,4] COMMAND
+magma -b target:=2244 start_bank_row:=26629 max_bank_rows:=1 witnesses_per_curve:=2 code/certify_frontier_existing_banks.m
+
+BANK_START [2,2,4,4] paper/scripts_and_data/tor2244.txt rows_available 26653 row_interval [ 26629 ]
+BANK_ROW [2,2,4,4] 26629 [ 36, 57, 64, 132 ] exact [ 2, 2, 4, 4 ] order 64
+SUCCESS_GROUP [2,2,4,4]
+SOURCE paper/scripts_and_data/tor2244.txt row 26629 tuple [ 36, 57, 64, 132 ]
+CURVE_Y2_EQUALS T^5 + 26065*T^4 + 173387808*T^3 + 414985109760*T^2 + 300512487407616*T
+EXACT_TORSION [ 2, 2, 4, 4 ]
+EXACT_TORSION_ORDER 64
+ROOT_POWER_WITNESS p 37 chi T^4 - 4*T^3 - 2*T^2 - 148*T + 1369 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+ROOT_POWER_WITNESS p 47 chi T^4 + 8*T^3 + 30*T^2 + 376*T + 2209 degrees_n2_to_12 [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+BANK_DONE [2,2,4,4] tested 26629 exact_matches 1 success true
+
+SMALLEST [2,2,2,8] DIAGNOSTICS
+Primitive tuples smaller than height 125 were tested with diagnose_failures:=true.
+
+row 1: primitive [4,11,16,44], exact [2,2,2,8], no root-power witness,
+       automorphism-group order 4, rational degree-2 subcovers 2
+row 5: primitive [2,4,23,46], exact [2,2,2,8], no root-power witness,
+       automorphism-group order 4, rational degree-2 subcovers 2
+row 6: primitive [11,33,39,117], exact [2,2,2,8], no root-power witness,
+       automorphism-group order 4, rational degree-2 subcovers 2
+row 14: primitive [9,21,51,119], exact [2,2,2,8], no root-power witness,
+        automorphism-group order 4, rational degree-2 subcovers 2
+
+The next primitive tuple is row 3 [1,55,99,125], whose two successful
+root-power witnesses are recorded in the main run above.

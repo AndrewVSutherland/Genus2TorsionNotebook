@@ -1,0 +1,27 @@
+# (2,6,6) production 2026-07-18: new SPLIT (bielliptic) models banked from the H=300
+# extra-root census (deep_h300.log, scratchpad prod10_266) and the C2-conic probe.
+# All GeomAut-certified order >= 4; none simple.  Chart: f = h6^2-(x-1)^6, h6=1+ax+bx^2+x^3.
+#
+# [2,6,6] split, NEW Qbar-class D (first seen H=300, r=25/24):
+#   (a,b) = (-13673/16275, -251/217), eps=+1
+#   y^2 = 244125000*x^5 - 1015952475*x^4 + 1585513050*x^3 - 1099734299*x^2 + 286049400*x
+#   torsion [2,6,6]; 144 | #J(F_p) all good p <= 149; GeomAut C2xC2; on cubic C3
+#
+# [2,6,6] split, class B, new parametrization (eps=-1, r=-256/17):
+#   (a,b) = (-835/289, 265/8)
+#   y^2 = 386201104*x^5 + 5754193745*x^4 - 905578032*x^3 + 318571280*x^2 + 1183744*x
+#   torsion [2,6,6]; GeomAut C2xC2; on conic C2
+#
+# [6,6] SPLIT on conic C2 (new; compare the SIMPLE (6,6) at a=133/39,b=-7/13 off B):
+#   (a,b) = (3/2, -19/9)  (t = 9/4 on C2: a=2t-3, b=2/t-3); swap (-19/9,3/2) same class
+#   y^2 = 186624*x^5 - 791856*x^4 + 1644624*x^3 - 1781676*x^2 + 944784*x
+#   torsion [6,6]; G2 = [722267302368457/1860043500000, -171935303177/1488034800, -204566777/1312200]
+#   rational cubic contact at (b,v) = (3/2, +-2/3) found by the slice sweep
+#
+# [6,6] SPLIT on conic Q2 (GeomAut order 12 = D6; found by the (b,v) production sweep):
+#   (a,b) = (11/7, -19/7) (swap (-19/7,11/7) same class), contacts at v = +-2 (swap +-1/2)
+#   torsion [6,6]; Q2: a^2+ab-3a+b^2-3b-9 = 0 holds
+#
+# Full H=300 extra-root census (26 parametrizations, 5 Qbar-classes K,A,B,C,D, all
+# torsion [2,6,6], all pass 144-filter, zero simplicity certificates):
+# see scratchpad prod10_266/deep_h300.log

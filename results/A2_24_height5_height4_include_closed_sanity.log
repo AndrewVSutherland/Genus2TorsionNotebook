@@ -1,0 +1,59 @@
+A2_24_HEIGHT5_LOWBRANCH_SCAN_START
+parameters Height=4 LowDegree=4 SkipClosedBest=false PStart=1 PStop=0 MaxRows=0 MaxFibers=0 MaxChecked=0 Progress=0 VerboseRows=false DirectSearchHeight=0
+height_values_count=23 nonzero_p_count=22 active_p_index_range=[1,22]
+FIBER source=height_scan p=-1/2 z=-4 r=-4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=-3/2 r=-3/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=-4/3 r=2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=-4/3 r=4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=-1 r=-1/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=-1/2 r=2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=1/2 r=2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=1 r=-1/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=4/3 r=2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=4/3 r=4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=3/2 r=-3/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/2 z=4 r=-4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=-1/3 z=-1 r=4/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+ROW_SUMMARY row=50 source=height_scan p=-1/3 z=-1 r=4/3 two_label=extra two_index=2 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=50 source=height_scan p=-1/3 z=-1 r=4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+ROW_SUMMARY row=52 source=height_scan p=-1/3 z=-1 r=4/3 two_label=extra two_index=4 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=52 source=height_scan p=-1/3 z=-1 r=4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+FIBER source=height_scan p=-1/3 z=1 r=4/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+ROW_SUMMARY row=54 source=height_scan p=-1/3 z=1 r=4/3 two_label=extra two_index=2 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=54 source=height_scan p=-1/3 z=1 r=4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+ROW_SUMMARY row=56 source=height_scan p=-1/3 z=1 r=4/3 two_label=extra two_index=4 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=56 source=height_scan p=-1/3 z=1 r=4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+FIBER source=height_scan p=1/3 z=-1 r=-4/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+ROW_SUMMARY row=58 source=height_scan p=1/3 z=-1 r=-4/3 two_label=extra two_index=2 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=58 source=height_scan p=1/3 z=-1 r=-4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+ROW_SUMMARY row=60 source=height_scan p=1/3 z=-1 r=-4/3 two_label=extra two_index=4 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=60 source=height_scan p=1/3 z=-1 r=-4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+FIBER source=height_scan p=1/3 z=1 r=-4/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+ROW_SUMMARY row=62 source=height_scan p=1/3 z=1 r=-4/3 two_label=extra two_index=2 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=62 source=height_scan p=1/3 z=1 r=-4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+ROW_SUMMARY row=64 source=height_scan p=1/3 z=1 r=-4/3 two_label=extra two_index=4 two_count=4 F_factor_degrees=[ <2, 1>, <2, 1> ] s4_factor_degrees=[ <2, 1> ] raw_degree_M=32 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[] gcd_E_degree=0
+LOW_BRANCH row=64 source=height_scan p=1/3 z=1 r=-4/3 two_label=extra affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ] min_affine_factor_degree=4 rational_M_roots=[]
+FIBER source=height_scan p=1/2 z=-4 r=4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=-3/2 r=3/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=-4/3 r=-4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=-4/3 r=-2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=-1 r=1/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=-1/2 r=-2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=1/2 r=-2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=1 r=1/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=4/3 r=-4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=4/3 r=-2/3 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=3/2 r=3/4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+FIBER source=height_scan p=1/2 z=4 r=4 F_factor_degrees=[ <2, 1>, <2, 1> ] quadratic_subfactors=2 two_count=4
+AFFINE_DEGREE_DISTRIBUTION_START
+AFFINE_DEGREE_DISTRIBUTION degrees=[ 16 ] count=72
+AFFINE_DEGREE_DISTRIBUTION degrees=[ 8, 8 ] count=32
+AFFINE_DEGREE_DISTRIBUTION degrees=[ 4, 4, 8 ] count=8
+AFFINE_DEGREE_DISTRIBUTION_END
+MIN_AFFINE_DEGREE_DISTRIBUTION_START
+MIN_AFFINE_DEGREE_DISTRIBUTION min_degree=16 count=72
+MIN_AFFINE_DEGREE_DISTRIBUTION min_degree=8 count=32
+MIN_AFFINE_DEGREE_DISTRIBUTION min_degree=4 count=8
+MIN_AFFINE_DEGREE_DISTRIBUTION_END
+KNOWN_CLOSED_BEST_SKIPPED closed_fibers=0 known_degree4_translated_rows_if_full_four=0 known_quartic_branches_if_full_four=0
+A2_24_HEIGHT5_LOWBRANCH_SCAN_DONE checked=11132 split_fibers=28 order12_split_fibers=28 translated_order12_rows=112 low_rows_le_4=8 degree4_or_less_rows=8 rational_M_root_rows=0 rational_M_root_factors=0 rational_point_rows=0 exact_divisible_rows=0 torsion_cert_rows=0 positive_dim_rows=0 errors=0 closed_best_skipped=0 stopped_early=false cputime=11.660

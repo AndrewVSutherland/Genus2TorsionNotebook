@@ -1,0 +1,6 @@
+Halve split-root 2-torsion in the [2,4,8] one-split family
+height 50 params 3095 pairs 9579025 max_hits 20 progress_interval 5000000 require_exact_one_split true
+progress 5000000 cover 11477 smooth 671 one_split 24 first_tangent 8 root_tests 16 root_candidates 0 exact_verified 0 hits 0
+DONE height 50
+checked 9566648 cover 15322 smooth 922 one_split 28 first_tangent 8 root_tests 16 root_candidates 0 exact_verified 0 hits 0
+TORSION_COUNTS

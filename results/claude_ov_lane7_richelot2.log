@@ -1,0 +1,5 @@
+
+In file "code/claude_ov_lane7_richelot2.m", line 96, column 9:
+>>   printf "%o", Read(outfile(i));
+           ^
+User error: bad syntax

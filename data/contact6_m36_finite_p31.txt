@@ -1,0 +1,26 @@
+Contact-6 M(6) finite residue data for [3,6] and [6,6]
+prime_bound 31 primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31 ]
+p 5 good 10 allowed36 1 allowed66 1
+ rank_counts Associative Array with index universe String structure
+ allowed36_residues [ 18 ]
+ allowed66_residues [ 18 ]
+p 7 good 24 allowed36 3 allowed66 3
+ rank_counts Associative Array with index universe String structure
+ allowed36_residues [ 0, 10, 22 ]
+ allowed66_residues [ 0, 10, 22 ]
+p 11 good 76 allowed36 14 allowed66 14
+ rank_counts Associative Array with index universe String structure
+ allowed36_residues [ 2, 3, 10, 12, 22, 24, 33, 36, 51, 65, 72, 81, 110, 115 ]
+ allowed66_residues [ 2, 3, 10, 12, 22, 24, 33, 36, 51, 65, 72, 81, 110, 115 ]
+p 13 good 114 allowed36 33 allowed66 33
+ rank_counts Associative Array with index universe String structure
+p 17 good 214 allowed36 23 allowed66 23
+ rank_counts Associative Array with index universe String structure
+p 19 good 276 allowed36 69 allowed66 69
+ rank_counts Associative Array with index universe String structure
+p 23 good 424 allowed36 52 allowed66 52
+ rank_counts Associative Array with index universe String structure
+p 29 good 706 allowed36 81 allowed66 81
+ rank_counts Associative Array with index universe String structure
+p 31 good 816 allowed36 246 allowed66 246
+ rank_counts Associative Array with index universe String structure

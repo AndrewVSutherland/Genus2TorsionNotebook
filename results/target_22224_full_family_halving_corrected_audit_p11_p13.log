@@ -1,0 +1,8 @@
+TARGET_22224_FULL_FAMILY_HALVING_START mode finite PrimeList [ 11, 13 ]
+FULL_FAMILY_FINITE p 11 contact_keys 4385 raw_contact_parameters 9400 projective_bases 1464 cover_bases 68 open_cover_bases 24 open_curvekeys 4 target_bases 0 target_curvekeys 0 incidence_rank_hist_0_to_7 [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+mask_file results/target_22224_full_family_halving_corrected_complete_p11.tsv
+FULL_FAMILY_FINITE_SAMPLES 11 []
+FULL_FAMILY_FINITE p 13 contact_keys 7869 raw_contact_parameters 19608 projective_bases 2380 cover_bases 104 open_cover_bases 48 open_curvekeys 6 target_bases 0 target_curvekeys 0 incidence_rank_hist_0_to_7 [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+mask_file results/target_22224_full_family_halving_corrected_complete_p13.tsv
+FULL_FAMILY_FINITE_SAMPLES 13 []
+TARGET_22224_FULL_FAMILY_HALVING_DONE

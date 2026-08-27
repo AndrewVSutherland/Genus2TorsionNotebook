@@ -1,0 +1,40 @@
+M_1(8,4) torsion-structure scan
+height 50 parameters 3095 max_tests 3000 progress_interval 1000000
+progress 1000000 cover 7384 smooth 224 tangent_points 87 exact 87 targets 0 max_order 32 max_exponent 8
+NONSTANDARD R 16/9 w -4/3 t 4/9 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 1569052980450*U^5 + 17480455510401*U^4 + 53939339809344*U^3 + 65460742603776*U^2 + 27862813900800*U
+NONSTANDARD R 16/9 w 4/3 t 4/9 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 1569052980450*U^5 + 17480455510401*U^4 + 53939339809344*U^3 + 65460742603776*U^2 + 27862813900800*U
+progress 2000000 cover 8456 smooth 362 tangent_points 142 exact 142 targets 0 max_order 64 max_exponent 8
+NONSTANDARD R -16/11 w -14/11 t 42/55 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 7061463847622250*U^5 + 104632219276049025*U^4 + 135735215960638800*U^3 + 188573481843278400*U^2 + 51200550567936000*U
+NONSTANDARD R -16/11 w 14/11 t 42/55 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 7061463847622250*U^5 + 104632219276049025*U^4 + 135735215960638800*U^3 + 188573481843278400*U^2 + 51200550567936000*U
+NONSTANDARD R -11/16 w -11/14 t 231/640 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 484884627849216000*U^5 + 1785847643268710400*U^4 + 1285453358353612800*U^3 + 990898616165990400*U^2 + 66874188496896000*U
+NONSTANDARD R -11/16 w 11/14 t 231/640 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 484884627849216000*U^5 + 1785847643268710400*U^4 + 1285453358353612800*U^3 + 990898616165990400*U^2 + 66874188496896000*U
+progress 3000000 cover 9550 smooth 478 tangent_points 156 exact 156 targets 0 max_order 64 max_exponent 8
+NONSTANDARD R 9/16 w -3/4 t 9/64 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 879609302220800*U^5 + 2066549284274176*U^4 + 1702826757586944*U^3 + 551845600690176*U^2 + 49533891379200*U
+NONSTANDARD R 9/16 w 3/4 t 9/64 half_order 4 torsion [ 2, 4, 8 ]
+order 64 exponent 8
+  f = 879609302220800*U^5 + 2066549284274176*U^4 + 1702826757586944*U^3 + 551845600690176*U^2 + 49533891379200*U
+progress 4000000 cover 10549 smooth 571 tangent_points 167 exact 167 targets 0 max_order 64 max_exponent 8
+progress 5000000 cover 11477 smooth 671 tangent_points 173 exact 173 targets 0 max_order 64 max_exponent 8
+progress 6000000 cover 12393 smooth 747 tangent_points 175 exact 175 targets 0 max_order 64 max_exponent 8
+progress 7000000 cover 13237 smooth 799 tangent_points 177 exact 177 targets 0 max_order 64 max_exponent 8
+progress 8000000 cover 14047 smooth 841 tangent_points 178 exact 178 targets 0 max_order 64 max_exponent 8
+progress 9000000 cover 14873 smooth 893 tangent_points 178 exact 178 targets 0 max_order 64 max_exponent 8
+DONE height 50
+checked 9566648 cover 15322 smooth 922 tangent_points 178 verified 178 exact_tests 178 targets 0 max_order 64 max_exponent 8
+TORSION_COUNTS
+  [ 2, 4, 8 ] 8
+  [ 4, 8 ] 170

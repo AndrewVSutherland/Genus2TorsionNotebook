@@ -1,0 +1,33 @@
+P8_RANK2_MWSIEVE_START family O8_23 quotient <2, 3> N 0 primes [ 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109 ]
+E Elliptic Curve defined by y^2 = x^3 - x^2 - 82433*x + 9136737 over Rational Field
+rank_bounds 2 2 generators [ (167 : 0 : 1), (157 : -200 : 1), (8093/49 : -1800/343 : 1) ]
+known_t 5/7
+P8_PRIME_PROFILE p 13 orders 8 4 total 64 third_fail 48 open_no3 0 open_3 0 boundary 16 allowed 16
+P8_PRIME_PROFILE p 17 orders 8 8 total 128 third_fail 32 open_no3 0 open_3 48 boundary 48 allowed 96
+P8_PRIME_PROFILE p 19 orders 12 3 total 72 third_fail 18 open_no3 42 open_3 0 boundary 12 allowed 12
+P8_PRIME_PROFILE p 23 orders 16 4 total 128 third_fail 0 open_no3 0 open_3 0 boundary 128 allowed 128
+P8_PRIME_PROFILE p 29 orders 8 8 total 128 third_fail 44 open_no3 44 open_3 0 boundary 40 allowed 40
+P8_PRIME_PROFILE p 31 orders 12 36 total 864 third_fail 0 open_no3 0 open_3 0 boundary 864 allowed 864
+P8_PRIME_PROFILE p 37 orders 10 20 total 400 third_fail 220 open_no3 140 open_3 0 boundary 40 allowed 40
+P8_PRIME_PROFILE p 41 orders 9 18 total 324 third_fail 72 open_no3 0 open_3 126 boundary 126 allowed 252
+P8_PRIME_PROFILE p 43 orders 14 14 total 392 third_fail 196 open_no3 98 open_3 42 boundary 56 allowed 98
+P8_PRIME_PROFILE p 47 orders 6 24 total 288 third_fail 84 open_no3 84 open_3 96 boundary 24 allowed 120
+P8_PRIME_PROFILE p 53 orders 26 26 total 1352 third_fail 572 open_no3 208 open_3 364 boundary 208 allowed 572
+P8_PRIME_PROFILE p 59 orders 32 8 total 512 third_fail 240 open_no3 48 open_3 192 boundary 32 allowed 224
+P8_PRIME_PROFILE p 61 orders 76 76 total 11552 third_fail 5168 open_no3 3496 open_3 1672 boundary 1216 allowed 2888
+P8_PRIME_PROFILE p 67 orders 76 76 total 11552 third_fail 5624 open_no3 2432 open_3 1824 boundary 1672 allowed 3496
+P8_PRIME_PROFILE p 71 orders 40 40 total 3200 third_fail 1520 open_no3 1240 open_3 280 boundary 160 allowed 440
+P8_PRIME_PROFILE p 73 orders 44 44 total 3872 third_fail 2112 open_no3 968 open_3 704 boundary 88 allowed 792
+P8_PRIME_PROFILE p 79 orders 64 64 total 8192 third_fail 3072 open_no3 2304 open_3 1536 boundary 1280 allowed 2816
+P8_PRIME_PROFILE p 83 orders 84 84 total 14112 third_fail 7728 open_no3 1344 open_3 3696 boundary 1344 allowed 5040
+P8_PRIME_PROFILE p 89 orders 21 42 total 1764 third_fail 1092 open_no3 294 open_3 294 boundary 84 allowed 378
+P8_PRIME_PROFILE p 97 orders 100 100 total 20000 third_fail 10000 open_no3 5400 open_3 3800 boundary 800 allowed 4600
+P8_PRIME_PROFILE p 101 orders 104 104 total 21632 third_fail 8736 open_no3 6448 open_3 5616 boundary 832 allowed 6448
+P8_PRIME_PROFILE p 103 orders 27 27 total 1458 third_fail 513 open_no3 621 open_3 108 boundary 216 allowed 324
+P8_PRIME_PROFILE p 107 orders 64 64 total 8192 third_fail 3072 open_no3 896 open_3 3456 boundary 768 allowed 4224
+P8_PRIME_PROFILE p 109 orders 20 12 total 480 third_fail 172 open_no3 128 open_3 156 boundary 24 allowed 180
+P8_CRT_CLASSES count 2
+[ <1, 0, 1, 0, 1>, <2, 0, 1, 0, 1> ]
+P8_EXACT_CLASS m 0 n 0 ti 1 t 1 tuple [ 550, -1375, -1750, 1372 ]
+three false gcd 128
+P8_RANK2_MWSIEVE_DONE box_total 2 periodic_enumerated 2 modular_survivors 1 deferred_large_index 0 exact_full 1 height_skip 0 three_hits 0 crt_file results/target_22224_O8_23_profile_dummy_crt.tsv modular_file results/target_22224_O8_23_profile_dummy_modular.tsv

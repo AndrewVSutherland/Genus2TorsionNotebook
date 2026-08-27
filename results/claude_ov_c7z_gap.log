@@ -1,0 +1,30 @@
+Cab_2 : 2*aa^2*bb - 3*aa*bb^2 - 8*aa*bb + 3*aa + 10*bb^2 - 2 = 0 ; degree 3 ; genus 0
+
+---- singular points of the projective model ----
+dim(Sing) = 0 ; degree = 1
+rational singular points: {@ (2 : 1 : 1) @}
+  P = (2 : 1 : 1)
+    places above P: 2 ; residue degrees [ 1, 1 ]
+    (a,b) = (2,1)
+    d1 = 0 (square true) ; d2 = 0 (square true)
+    *** would be an ORDER-112 point -- check degeneracy!
+    quartic = w^4 - 4*w^3 + 6*w^2 - 4*w + 1 ; roots [ <1, 4> ]
+
+---- the parametrization and which rational points it reaches ----
+a(T) = (-22/9*$.1^2 + 80/3*$.1 - 40)/($.1^2 + 4*$.1 - 12)
+b(T) = (7/27*$.1^2 + 10/9*$.1 - 8/3)/($.1^2 - 2*$.1)
+poles of a(T): [ -6, 2 ]
+poles of b(T): [ 0, 2 ]
+zeros of b(T): [ -6, 12/7 ]
+
+---- the T=3 fibre of X (where X -> H is undefined) ----
+G1*G2 = (X-3)^2 * GH ? true
+G1/(X-3) at X=3 = -81 (square false) ; G2/(X-3) at X=3 = 729 (square true)
+  -> the two places of X over T=3 have residue field Q(sqrt(-81)) : rational = false
+GH(3) = -59049 (square false) -> H has no rational point over X=3
+  (so the affine singular point (T,u,v)=(3,0,0) is the ONLY rational point of the
+   affine model X that does not map to a rational point of H, and it was tested.)
+
+---- independent recount: all T of height <= 3000 with G1,G2 both squares ----
+T with BOTH G1,G2 squares, |p|,q <= 3000 : [ -6, 0, 2, 3, 12/7 ]
+GAP_DONE

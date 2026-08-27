@@ -1,0 +1,49 @@
+# (2,6,6) production 2026-07-18: INFINITE RATIONAL FAMILIES of exact-[2,6,6] curves
+# (all split/bielliptic, on the conic C2: (a+3)(b+3)=4 of the contact-6 chart).
+# Chart: y^2 = f = h6^2-(x-1)^6, h6 = 1+ax+bx^2+x^3.
+#
+# BASE FAMILY (one free parameter v): a = 2v^2-3, b = 2/v^2-3.
+#   Then (a+3)(b+3)=4 (on C2), the bielliptic involution is sigma(x) = v^2/x, and the
+#   curve admits a rational CUBIC CONTACT with contact quadratic q = x^2+Ux+v^2
+#   (q(0) = v^2 = involution constant: the roots of q form a sigma-orbit; the 3-class
+#   is pulled back from the elliptic quotient). Verified for generic v via the slice
+#   solver (`c2family.m`, samples v = 1/3, 3/7, 7/2, -5/9): generic torsion >= [6,6].
+#
+# CLOSED FORM (symbolic, `c2sym.m`/`c2sym2.m`): the contact system over Q(v) is
+# 0-dimensional; its unique rational branch is
+#     U(v) = (2v^4 - v^3 - 4v^2 - v + 2)/v,
+#     M(v) = ((v-2)(v-1/2)(v+1))^2   -- a perfect square IDENTICALLY,
+# (the other contacts form an irreducible cubic over Q(v)); hence a rational cubic
+# contact q = x^2 + U(v)x + v^2 with multiplier L(v) = (v-2)(v-1/2)(v+1) exists for
+# EVERY v outside the degenerate set. This proves the family statement, not just
+# samples. (Denominator identity used: 8*D(v) = 4(v+1)^4(2v-1)(v-2) via the
+# palindromic substitution w = v+1/v.)
+#
+# EXTRA-ROOT DISCRIMINANTS ON THE FAMILY (exact factorizations):
+#   disc(q1) = a^2-6a-8b-15 = 4(v^2-1)^2(v^2-4)/v^2
+#   disc(q2) = b^2-6b-8a-15 = -4(v^2-1)^2(4v^2-1)/v^4
+# so extra 2-torsion (factor type [1,1,1,2]) is a CONIC condition each:
+#
+# BRANCH A:  v = k + 1/k          (v^2-4 = square)   => exact torsion [2,6,6]
+# BRANCH B:  v = (1-k^2)/(2(1+k^2))  (1-4v^2 = square)  => exact torsion [2,6,6]
+#
+# Verified exact TorsionSubgroup = [2,6,6] at:
+#   A: k=2 (a=19/2, b=-67/25) = K3;  k=3 = N1a;  k=5 (a=1277/25, b=-989/338) NEW;
+#      k=7/2 (a=2515/98, b=-8035/2809) NEW
+#   B: k=2 = N1a-swap; k=3 = K3-swap; k=1/5 = N3; k=3/5 = N5; k=4/7
+#      (a=-24261/8450, b=30533/1089) NEW
+#
+# NOTE: C2-generic (t = (a+3)/2 NOT a square) has torsion [2,6] (bellcheck2.m); the
+# [6,6]-and-up points of C2 are exactly the t = v^2 base subfamily.
+#
+# CONSEQUENCES:
+# 1. The C2-side of the [2,6,6] census (K3, N1a, N3, N5 and swaps) is EXACTLY the
+#    small-height part of branches A u B: the "locus keeps acquiring rational points"
+#    phenomenon on the C2 side is an infinite rational family, not sporadic accidents.
+# 2. [2,6,6] is realized by infinitely many pairwise non-isomorphic (distinct G2)
+#    NONSIMPLE Jacobians in one explicit 1-parameter family (mass production of the
+#    split census; cf. HLP positive-rank machinery).
+# 3. The confinement conjecture sharpens: the C2-branch of the [2,6,6] locus IS
+#    B0-internal by construction; the open question reduces to the C3-branch
+#    (m-values -1/2, -4/3, -27/19, -16/11, -25/17 for K1, K2, N1b, N2, N4; pattern
+#    not yet identified) and to genuinely off-B0 points (none known; jackpot channel).

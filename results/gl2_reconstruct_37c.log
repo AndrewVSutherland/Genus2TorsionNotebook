@@ -1,0 +1,15 @@
+PIECE 22
+TYPE [ 1, 1, 90354, 90354 ] dd=90354
+EIS_KERNEL_MOD37_DIM 2
+PRIME 2^1: 1 star-stable isotropics
+PRIME 3^1: 2 star-stable isotropics
+PRIME 11^1: 2 star-stable isotropics
+PRIME 37^2: 3 star-stable isotropics
+STAR_STABLE_COMBINATIONS 12
+PERIOD_TERMS 56280
+
+In file "~/.claude/jobs/a1db5dd4/tmp/endomorphisms/endomorphisms/magma/heuristic/Relative.m", line 312, column 15:
+>>   K0, hKK0 := Polredabs(K);
+                 ^
+Runtime error: Undefined reference 'Polredabs' in package "~/.claude/jobs/a1db5dd4/tmp/endomorphisms/endomorphisms/magma/heuristic/Relative.m"
+

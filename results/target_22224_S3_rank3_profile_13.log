@@ -1,0 +1,15 @@
+RANK3_MWSIEVE_START family S3 pair <1, 3> remaining 2 N 0 E Elliptic Curve defined by y^2 = x^3 - x^2 + 67007092*x + 1181772362562 over Rational Field
+rank_bounds 3 3 generators [ (-8493 : 0 : 1), (4247 : 1242150 : 1), (314353/16 : -203211679/64 : 1), (-59537/9 : 18091450/27 : 1) ]
+known_t 5/11 primes [ 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 ]
+PRIME_PROFILE p 11 orders 8 2 4 total 128 local_fail 8 open_no3 0 open3 0 boundary 120 allowed 120
+PRIME_SKIP 13 E_bad_reduction
+PRIME_PROFILE p 17 orders 12 6 6 total 864 local_fail 0 open_no3 0 open3 0 boundary 864 allowed 864
+PRIME_PROFILE p 19 orders 12 12 4 total 1152 local_fail 480 open_no3 192 open3 192 boundary 288 allowed 480
+PRIME_PROFILE p 23 orders 6 4 12 total 576 local_fail 144 open_no3 96 open3 96 boundary 240 allowed 336
+PRIME_PROFILE p 29 orders 7 7 14 total 1372 local_fail 196 open_no3 686 open3 392 boundary 98 allowed 490
+PRIME_PROFILE p 31 orders 20 10 10 total 4000 local_fail 0 open_no3 0 open3 0 boundary 4000 allowed 4000
+PRIME_SKIP 37 E_bad_reduction
+PRIME_PROFILE p 41 orders 16 24 12 total 9216 local_fail 4800 open_no3 2304 open3 1536 boundary 576 allowed 2112
+PRIME_PROFILE p 43 orders 28 2 14 total 1568 local_fail 644 open_no3 448 open3 336 boundary 140 allowed 476
+PRIME_PROFILE p 47 orders 5 10 5 total 500 local_fail 100 open_no3 150 open3 200 boundary 50 allowed 250
+RANK3_MWSIEVE_DONE family S3 pair <1, 3> tested 2 modular 0 distinct_exact_t 0 exact_full 0 three_hits 0 modular_file results/target_22224_S3_rank3_profile_13_modular.tsv

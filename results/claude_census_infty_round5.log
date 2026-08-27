@@ -1,0 +1,10 @@
+A) [2,20]-family partners
+FIBER z=2 source torsion [ 2, 20 ]
+FIBER z=3 source torsion [ 2, 20 ]
+FIBER z=4 source torsion [ 2, 20 ]
+B) partners of the [2,8]-partner family
+FIBER gen2 t=2 source torsion [ 2, 8 ]
+  partner 1: [ 2, 2, 2, 8 ]
+FIBER gen2 t=3 source torsion [ 2, 8 ]
+  partner 1: [ 2, 2, 2, 8 ]
+ROUND5_DONE

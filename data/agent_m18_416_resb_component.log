@@ -1,0 +1,68 @@
+E1core deg 19 terms 483 | E0core deg 26 terms 1350
+deg_b E1core=3 deg_b E0core=4
+Q: Res_b degree 106 terms 36154 (7.2 s)
+Q: factorization completed in 1.0 s
+Q Res_b factor profile:
+  <deg 1, terms 2, mult 3>  w_ - 1
+  <deg 1, terms 2, mult 3>  w_ + 1
+  <deg 1, terms 2, mult 8>  R_ + 1
+  <deg 5, terms 15, mult 8>  R_^5 + 1/4*R_*w_^4 - R_^4 + 3/2*R_^2*w_^2 + 3/4*w_^4 - R_*w_^2*a_ - 2*R_^3 + R_*w_^2 - w_^2*a_ + 1/2*R_^2 - 3/2*w_^2 + R_*a_ - 1/4*R_ + a_ - 1/4
+  <deg 52, terms 4253, mult 1>
+Q: repeated low-degree factors count 4
+Q_REPEATED_FACTOR deg 1 terms 2
+w_ - 1
+Q_REPEATED_FACTOR deg 1 terms 2
+w_ + 1
+Q_REPEATED_FACTOR deg 1 terms 2
+R_ + 1
+Q_REPEATED_FACTOR deg 5 terms 15
+R_^5 + 1/4*R_*w_^4 - R_^4 + 3/2*R_^2*w_^2 + 3/4*w_^4 - R_*w_^2*a_ - 2*R_^3 + R_*w_^2 - w_^2*a_ + 1/2*R_^2 - 3/2*w_^2 + R_*a_ - 1/4*R_ + a_ - 1/4
+Q: after stripping (w-1),(w+1),(R+1): degree 92 terms 26546
+Q stripped core factor profile:
+  <deg 5, terms 15, mult 8>  R_^5 + 1/4*R_*w_^4 - R_^4 + 3/2*R_^2*w_^2 + 3/4*w_^4 - R_*w_^2*a_ - 2*R_^3 + R_*w_^2 - w_^2*a_ + 1/2*R_^2 - 3/2*w_^2 + R_*a_ - 1/4*R_ + a_ - 1/4
+  <deg 52, terms 4253, mult 1>
+p=101: Res_b degree 106 terms 35812 (3.1 s)
+p=101: factorization completed in 0.7 s
+p=101 Res_b factor profile:
+  <deg 1, terms 2, mult 3>  wp + 1
+  <deg 1, terms 2, mult 3>  wp + 100
+  <deg 1, terms 2, mult 8>  Rp + 1
+  <deg 5, terms 15, mult 8>  Rp^5 + 76*Rp*wp^4 + 100*Rp^4 + 52*Rp^2*wp^2 + 26*wp^4 + 100*Rp*wp^2*ap + 99*Rp^3 + Rp*wp^2 + 100*wp^2*ap + 51*Rp^2 + 49*wp^2 + Rp*ap + 25*Rp + ap + 25
+  <deg 52, terms 4220, mult 1>
+p=101: repeated degree-5 factors 1
+P101_DEG5_MULT8 terms 15
+Rp^5 + 76*Rp*wp^4 + 100*Rp^4 + 52*Rp^2*wp^2 + 26*wp^4 + 100*Rp*wp^2*ap + 99*Rp^3 + Rp*wp^2 + 100*wp^2*ap + 51*Rp^2 + 49*wp^2 + Rp*ap + 25*Rp + ap + 25
+p=103: Res_b degree 106 terms 35801 (3.1 s)
+p=103: factorization completed in 0.6 s
+p=103 Res_b factor profile:
+  <deg 1, terms 2, mult 3>  wp + 1
+  <deg 1, terms 2, mult 3>  wp + 102
+  <deg 1, terms 2, mult 8>  Rp + 1
+  <deg 5, terms 15, mult 8>  Rp^5 + 26*Rp*wp^4 + 102*Rp^4 + 53*Rp^2*wp^2 + 78*wp^4 + 102*Rp*wp^2*ap + 101*Rp^3 + Rp*wp^2 + 102*wp^2*ap + 52*Rp^2 + 50*wp^2 + Rp*ap + 77*Rp + ap + 77
+  <deg 52, terms 4209, mult 1>
+p=103: repeated degree-5 factors 1
+P103_DEG5_MULT8 terms 15
+Rp^5 + 26*Rp*wp^4 + 102*Rp^4 + 53*Rp^2*wp^2 + 78*wp^4 + 102*Rp*wp^2*ap + 101*Rp^3 + Rp*wp^2 + 102*wp^2*ap + 52*Rp^2 + 50*wp^2 + Rp*ap + 77*Rp + ap + 77
+p=107: Res_b degree 106 terms 35828 (3.1 s)
+p=107: factorization completed in 0.6 s
+p=107 Res_b factor profile:
+  <deg 1, terms 2, mult 3>  wp + 1
+  <deg 1, terms 2, mult 3>  wp + 106
+  <deg 1, terms 2, mult 8>  Rp + 1
+  <deg 5, terms 15, mult 8>  Rp^5 + 27*Rp*wp^4 + 106*Rp^4 + 55*Rp^2*wp^2 + 81*wp^4 + 106*Rp*wp^2*ap + 105*Rp^3 + Rp*wp^2 + 106*wp^2*ap + 54*Rp^2 + 52*wp^2 + Rp*ap + 80*Rp + ap + 80
+  <deg 52, terms 4224, mult 1>
+p=107: repeated degree-5 factors 1
+P107_DEG5_MULT8 terms 15
+Rp^5 + 27*Rp*wp^4 + 106*Rp^4 + 55*Rp^2*wp^2 + 81*wp^4 + 106*Rp*wp^2*ap + 105*Rp^3 + Rp*wp^2 + 106*wp^2*ap + 54*Rp^2 + 52*wp^2 + Rp*ap + 80*Rp + ap + 80
+p=109: Res_b degree 106 terms 35823 (3.1 s)
+p=109: factorization completed in 0.6 s
+p=109 Res_b factor profile:
+  <deg 1, terms 2, mult 3>  wp + 1
+  <deg 1, terms 2, mult 3>  wp + 108
+  <deg 1, terms 2, mult 8>  Rp + 1
+  <deg 5, terms 15, mult 8>  Rp^5 + 82*Rp*wp^4 + 108*Rp^4 + 56*Rp^2*wp^2 + 28*wp^4 + 108*Rp*wp^2*ap + 107*Rp^3 + Rp*wp^2 + 108*wp^2*ap + 55*Rp^2 + 53*wp^2 + Rp*ap + 27*Rp + ap + 27
+  <deg 52, terms 4214, mult 1>
+p=109: repeated degree-5 factors 1
+P109_DEG5_MULT8 terms 15
+Rp^5 + 82*Rp*wp^4 + 108*Rp^4 + 56*Rp^2*wp^2 + 28*wp^4 + 108*Rp*wp^2*ap + 107*Rp^3 + Rp*wp^2 + 108*wp^2*ap + 55*Rp^2 + 53*wp^2 + Rp*ap + 27*Rp + ap + 27
+DONE

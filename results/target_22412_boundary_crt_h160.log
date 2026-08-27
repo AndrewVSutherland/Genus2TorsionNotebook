@@ -1,0 +1,252 @@
+TARGET_22412_BOUNDARY_CRT_START
+CONFIG height=160 boundary_prime=11 finite_primes=5,7,11,13,17,19,23,29,31,37,41,43,47,53 search_primes=11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97
+P2_BOUNDARY_CLASSIFIER
+prime 11
+projective_bases 1464
+ambient_open_bases 192
+modp_cover_bases 536
+modp_cover_open_bases 0
+modp_cover_boundary_bases 536
+normalized_p2_lifts 713416
+p2_lift_status killed=449432 deep=23364 resolved=240620
+p2_compatible_lifts 263984
+modp_base_outcomes all_killed=72 deep_only=276 resolved_only=180 resolved_and_deep=8
+P2_COMPONENT_MATRIX
+E12+ bases=93 lifts(killed=51840 deep=3542 resolved=68401) base_outcomes(all_killed=0 deep_only=38 resolved_only=51 resolved_and_deep=4)
+E12- bases=93 lifts(killed=51840 deep=3542 resolved=68401) base_outcomes(all_killed=0 deep_only=38 resolved_only=51 resolved_and_deep=4)
+E13+ bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E13- bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E14+ bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E14- bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E23+ bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E23- bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E24+ bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E24- bases=77 lifts(killed=96489 deep=5478 resolved=520) base_outcomes(all_killed=19 deep_only=54 resolved_only=0 resolved_and_deep=4)
+E34+ bases=93 lifts(killed=51840 deep=3542 resolved=68401) base_outcomes(all_killed=0 deep_only=38 resolved_only=51 resolved_and_deep=4)
+E34- bases=93 lifts(killed=51840 deep=3542 resolved=68401) base_outcomes(all_killed=0 deep_only=38 resolved_only=51 resolved_and_deep=4)
+Z1 bases=53 lifts(killed=29964 deep=5973 resolved=34606) base_outcomes(all_killed=4 deep_only=23 resolved_only=26 resolved_and_deep=0)
+Z2 bases=53 lifts(killed=29964 deep=5973 resolved=34606) base_outcomes(all_killed=4 deep_only=23 resolved_only=26 resolved_and_deep=0)
+Z3 bases=53 lifts(killed=29964 deep=5973 resolved=34606) base_outcomes(all_killed=4 deep_only=23 resolved_only=26 resolved_and_deep=0)
+Z4 bases=53 lifts(killed=29964 deep=5973 resolved=34606) base_outcomes(all_killed=4 deep_only=23 resolved_only=26 resolved_and_deep=0)
+P2_SIGNATURE_OUTCOMES
+E12+ bases=16 all_killed=0 deep_only=0 resolved_only=16 resolved_and_deep=0
+E12++E13++E14++E23++E24++E34+ bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12++E13++E14-+E23++E24-+E34- bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12++E13++E23+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12++E13-+E14++E23-+E24++E34- bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12++E13-+E14-+E23-+E24-+E34+ bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12++E13-+E23- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12++E14++E24+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12++E14-+E24- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12++E34+ bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+E12++E34- bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+E12- bases=16 all_killed=0 deep_only=0 resolved_only=16 resolved_and_deep=0
+E12-+E13++E14++E23-+E24-+E34+ bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12-+E13++E14-+E23-+E24++E34- bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12-+E13++E23- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12-+E13-+E14++E23++E24-+E34- bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12-+E13-+E14-+E23++E24++E34+ bases=1 all_killed=0 deep_only=0 resolved_only=0 resolved_and_deep=1
+E12-+E13-+E23+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12-+E14++E24- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12-+E14-+E24+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E12-+E34+ bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+E12-+E34- bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+E13+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13++E14++E34+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13++E14-+E34- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13++E24+ bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E13++E24- bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E13- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13-+E14++E34- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13-+E14-+E34+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E13-+E24+ bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E13-+E24- bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E14+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E14++E23+ bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E14++E23- bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E14- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E14-+E23+ bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E14-+E23- bases=8 all_killed=8 deep_only=0 resolved_only=0 resolved_and_deep=0
+E23+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E23++E24++E34+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E23++E24-+E34- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E23- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E23-+E24++E34- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E23-+E24-+E34+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E24+ bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E24- bases=8 all_killed=0 deep_only=8 resolved_only=0 resolved_and_deep=0
+E34+ bases=16 all_killed=0 deep_only=0 resolved_only=16 resolved_and_deep=0
+E34- bases=16 all_killed=0 deep_only=0 resolved_only=16 resolved_and_deep=0
+Z1 bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z1+E23+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z1+E23++E24++E34+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+E23++E24-+E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+E23- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z1+E23-+E24++E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+E23-+E24-+E34+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+E24+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z1+E24- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z1+E34+ bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z1+E34- bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z1+Z2+E12++E12- bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z1+Z2+E12++E12-+E34+ bases=1 all_killed=0 deep_only=0 resolved_only=1 resolved_and_deep=0
+Z1+Z2+E12++E12-+E34- bases=1 all_killed=0 deep_only=0 resolved_only=1 resolved_and_deep=0
+Z1+Z2+Z3+E12++E12-+E13++E13-+E23++E23- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+Z2+Z4+E12++E12-+E14++E14-+E24++E24- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+Z3+E13++E13-+E24+ bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z1+Z3+E13++E13-+E24- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z1+Z3+Z4+E13++E13-+E14++E14-+E34++E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z1+Z4+E14++E14-+E23+ bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z1+Z4+E14++E14-+E23- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z2 bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z2+E13+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z2+E13++E14++E34+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z2+E13++E14-+E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z2+E13- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z2+E13-+E14++E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z2+E13-+E14-+E34+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z2+E14+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z2+E14- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z2+E34+ bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z2+E34- bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z2+Z3+E14++E23++E23- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z2+Z3+E14-+E23++E23- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z2+Z3+Z4+E23++E23-+E24++E24-+E34++E34- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z2+Z4+E13++E24++E24- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z2+Z4+E13-+E24++E24- bases=1 all_killed=1 deep_only=0 resolved_only=0 resolved_and_deep=0
+Z3 bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z3+E12+ bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z3+E12++E14++E24+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z3+E12++E14-+E24- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z3+E12- bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z3+E12-+E14++E24- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z3+E12-+E14-+E24+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z3+E14+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z3+E14- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z3+E24+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z3+E24- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z3+Z4+E12++E34++E34- bases=1 all_killed=0 deep_only=0 resolved_only=1 resolved_and_deep=0
+Z3+Z4+E12-+E34++E34- bases=1 all_killed=0 deep_only=0 resolved_only=1 resolved_and_deep=0
+Z3+Z4+E34++E34- bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z4 bases=8 all_killed=0 deep_only=0 resolved_only=8 resolved_and_deep=0
+Z4+E12+ bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z4+E12++E13++E23+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z4+E12++E13-+E23- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z4+E12- bases=4 all_killed=0 deep_only=0 resolved_only=4 resolved_and_deep=0
+Z4+E12-+E13++E23- bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z4+E12-+E13-+E23+ bases=1 all_killed=0 deep_only=1 resolved_only=0 resolved_and_deep=0
+Z4+E13+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z4+E13- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z4+E23+ bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+Z4+E23- bases=4 all_killed=0 deep_only=4 resolved_only=0 resolved_and_deep=0
+P2_TOP_SQUARECLASS_PATTERNS
+119790 ((0, 1), (0, 1), (0, 1), (0, 1))
+119790 ((0, -1), (0, -1), (0, -1), (0, -1))
+9680 ((0, 1), (0, 1), (1, -1), (0, 1))
+9680 ((0, 1), (0, 1), (1, 1), (0, 1))
+9680 ((0, 1), (0, 1), (0, 1), (1, -1))
+9680 ((0, 1), (0, 1), (0, 1), (1, 1))
+9680 ((1, -1), (0, 1), (0, 1), (0, 1))
+9680 ((1, 1), (0, 1), (0, 1), (0, 1))
+9680 ((0, 1), (1, -1), (0, 1), (0, 1))
+9680 ((0, 1), (1, 1), (0, 1), (0, 1))
+9680 ((0, -1), (1, -1), (0, -1), (0, -1))
+9680 ((0, -1), (1, 1), (0, -1), (0, -1))
+9680 ((1, -1), (0, -1), (0, -1), (0, -1))
+9680 ((1, 1), (0, -1), (0, -1), (0, -1))
+9680 ((0, -1), (0, -1), (0, -1), (1, -1))
+9680 ((0, -1), (0, -1), (0, -1), (1, 1))
+9680 ((0, -1), (0, -1), (1, -1), (0, -1))
+9680 ((0, -1), (0, -1), (1, 1), (0, -1))
+5500 ((0, 1), (0, 1), (1, -1), (1, -1))
+5500 ((0, 1), (0, 1), (1, -1), (1, 1))
+P2_BOUNDARY_SECONDS 3.789
+QSQUARE_FINITE_INTERSECTION
+QSQUARE_FINITE p=5 slice_open=12 rho_boundary=4 sigma_boundary=4 branch_smooth=0 branch_boundary=12 cover_any=12 cover_smooth=0 cover_boundary=12 cover_partition_hits=36
+QSQUARE_FINITE_PARTITIONS p=5 {'12|34': 12, '13|24': 12, '14|23': 12}
+QSQUARE_FINITE_COVER_SIGNATURES p=5 {'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=5 []
+QSQUARE_FINITE p=7 slice_open=24 rho_boundary=4 sigma_boundary=4 branch_smooth=0 branch_boundary=24 cover_any=0 cover_smooth=0 cover_boundary=0 cover_partition_hits=0
+QSQUARE_FINITE_PARTITIONS p=7 {}
+QSQUARE_FINITE_COVER_SIGNATURES p=7 {}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=7 []
+QSQUARE_FINITE p=11 slice_open=48 rho_boundary=4 sigma_boundary=4 branch_smooth=0 branch_boundary=48 cover_any=24 cover_smooth=0 cover_boundary=24 cover_partition_hits=48
+QSQUARE_FINITE_PARTITIONS p=11 {'12|34': 16, '13|24': 16, '14|23': 16}
+QSQUARE_FINITE_COVER_SIGNATURES p=11 {'E14': 8, 'E24': 8, 'E34': 8}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=11 []
+QSQUARE_FINITE p=13 slice_open=60 rho_boundary=4 sigma_boundary=4 branch_smooth=0 branch_boundary=60 cover_any=60 cover_smooth=0 cover_boundary=60 cover_partition_hits=132
+QSQUARE_FINITE_PARTITIONS p=13 {'12|34': 44, '13|24': 44, '14|23': 44}
+QSQUARE_FINITE_COVER_SIGNATURES p=13 {'E14': 16, 'E24': 16, 'E34': 16, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=13 []
+QSQUARE_FINITE p=17 slice_open=84 rho_boundary=4 sigma_boundary=4 branch_smooth=0 branch_boundary=84 cover_any=84 cover_smooth=0 cover_boundary=84 cover_partition_hits=156
+QSQUARE_FINITE_PARTITIONS p=17 {'12|34': 52, '13|24': 52, '14|23': 52}
+QSQUARE_FINITE_COVER_SIGNATURES p=17 {'E14': 24, 'E24': 24, 'E34': 24, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=17 []
+QSQUARE_FINITE p=19 slice_open=120 rho_boundary=16 sigma_boundary=16 branch_smooth=0 branch_boundary=120 cover_any=48 cover_smooth=0 cover_boundary=48 cover_partition_hits=96
+QSQUARE_FINITE_PARTITIONS p=19 {'12|34': 32, '13|24': 32, '14|23': 32}
+QSQUARE_FINITE_COVER_SIGNATURES p=19 {'E14': 16, 'E24': 16, 'E34': 16}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=19 []
+QSQUARE_FINITE p=23 slice_open=144 rho_boundary=28 sigma_boundary=28 branch_smooth=0 branch_boundary=144 cover_any=72 cover_smooth=0 cover_boundary=72 cover_partition_hits=144
+QSQUARE_FINITE_PARTITIONS p=23 {'12|34': 48, '13|24': 48, '14|23': 48}
+QSQUARE_FINITE_COVER_SIGNATURES p=23 {'E14': 16, 'E24': 16, 'E34': 16, 'E12': 8, 'E13': 8, 'E23': 8}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=23 []
+QSQUARE_FINITE p=29 slice_open=276 rho_boundary=4 sigma_boundary=4 branch_smooth=96 branch_boundary=180 cover_any=156 cover_smooth=0 cover_boundary=156 cover_partition_hits=324
+QSQUARE_FINITE_PARTITIONS p=29 {'12|34': 108, '13|24': 108, '14|23': 108}
+QSQUARE_FINITE_COVER_SIGNATURES p=29 {'E14': 48, 'E24': 48, 'E34': 48, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=29 []
+QSQUARE_FINITE p=31 slice_open=240 rho_boundary=4 sigma_boundary=4 branch_smooth=48 branch_boundary=192 cover_any=96 cover_smooth=0 cover_boundary=96 cover_partition_hits=168
+QSQUARE_FINITE_PARTITIONS p=31 {'12|34': 56, '13|24': 56, '14|23': 56}
+QSQUARE_FINITE_COVER_SIGNATURES p=31 {'E14': 24, 'E24': 24, 'E34': 24, 'E23': 8, 'E13': 8, 'E12': 8}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=31 []
+QSQUARE_FINITE p=37 slice_open=404 rho_boundary=4 sigma_boundary=4 branch_smooth=192 branch_boundary=212 cover_any=212 cover_smooth=0 cover_boundary=212 cover_partition_hits=444
+QSQUARE_FINITE_PARTITIONS p=37 {'12|34': 148, '13|24': 148, '14|23': 148}
+QSQUARE_FINITE_COVER_SIGNATURES p=37 {'E14': 64, 'E24': 64, 'E34': 64, 'E12+E13+E23': 8, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=37 []
+QSQUARE_FINITE p=41 slice_open=468 rho_boundary=28 sigma_boundary=28 branch_smooth=192 branch_boundary=276 cover_any=228 cover_smooth=0 cover_boundary=228 cover_partition_hits=444
+QSQUARE_FINITE_PARTITIONS p=41 {'12|34': 148, '13|24': 148, '14|23': 148}
+QSQUARE_FINITE_COVER_SIGNATURES p=41 {'E14': 72, 'E24': 72, 'E34': 72, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=41 []
+QSQUARE_FINITE p=43 slice_open=480 rho_boundary=16 sigma_boundary=16 branch_smooth=192 branch_boundary=288 cover_any=192 cover_smooth=48 cover_boundary=144 cover_partition_hits=312
+QSQUARE_FINITE_PARTITIONS p=43 {'12|34': 104, '13|24': 104, '14|23': 104}
+QSQUARE_FINITE_COVER_SIGNATURES p=43 {'smooth': 48, 'E14': 40, 'E24': 40, 'E34': 40, 'E12': 8, 'E13': 8, 'E23': 8}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=43 [(2, 3, 36, 15, ('14|23',)), (2, 7, 40, 15, ('14|23',)), (2, 36, 3, 15, ('14|23',)), (2, 40, 7, 15, ('14|23',)), (3, 2, 36, 15, ('13|24',))]
+QSQUARE_FINITE p=47 slice_open=600 rho_boundary=28 sigma_boundary=28 branch_smooth=288 branch_boundary=312 cover_any=360 cover_smooth=192 cover_boundary=168 cover_partition_hits=504
+QSQUARE_FINITE_PARTITIONS p=47 {'12|34': 168, '13|24': 168, '14|23': 168}
+QSQUARE_FINITE_COVER_SIGNATURES p=47 {'smooth': 192, 'E14': 40, 'E24': 40, 'E34': 40, 'E12': 16, 'E13': 16, 'E23': 16}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=47 [(2, 17, 18, 37, ('12|34',)), (2, 18, 17, 37, ('13|24',)), (2, 29, 30, 37, ('13|24',)), (2, 30, 29, 37, ('12|34',)), (3, 12, 17, 42, ('13|24',))]
+QSQUARE_FINITE p=53 slice_open=804 rho_boundary=28 sigma_boundary=28 branch_smooth=432 branch_boundary=372 cover_any=468 cover_smooth=144 cover_boundary=324 cover_partition_hits=780
+QSQUARE_FINITE_PARTITIONS p=53 {'12|34': 260, '13|24': 260, '14|23': 260}
+QSQUARE_FINITE_COVER_SIGNATURES p=53 {'smooth': 144, 'E14': 96, 'E24': 96, 'E34': 96, 'E23': 8, 'E13': 8, 'E12': 8, 'E14+E23': 4, 'E13+E24': 4, 'E12+E34': 4}
+QSQUARE_FINITE_SMOOTH_SAMPLES p=53 [(2, 8, 10, 36, ('14|23',)), (2, 10, 8, 36, ('14|23',)), (2, 11, 41, 37, ('12|34',)), (2, 12, 42, 37, ('13|24',)), (2, 41, 11, 37, ('13|24',))]
+QSQUARE_CRT_SEARCH_START height=160 positive_values=15611
+QSQUARE_MASK_ORDER [79, 59, 31, 71, 83, 61, 43, 97, 73, 89, 67, 41, 37, 53, 47, 29, 19, 23, 11, 17, 13]
+QSQUARE_MASK p=79 size=604 ambient=6084 square_equation_kill=4496 cover_kill=984 rho_boundary_retained=52 sigma_boundary_retained=48 cover_retained=552
+QSQUARE_MASK p=59 size=364 ambient=3364 square_equation_kill=2376 cover_kill=624 rho_boundary_retained=28 sigma_boundary_retained=0 cover_retained=336
+QSQUARE_MASK p=31 size=100 ambient=900 square_equation_kill=656 cover_kill=144 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=96
+QSQUARE_MASK p=71 size=556 ambient=4900 square_equation_kill=3504 cover_kill=840 rho_boundary_retained=28 sigma_boundary_retained=24 cover_retained=528
+QSQUARE_MASK p=83 size=796 ambient=6724 square_equation_kill=4824 cover_kill=1104 rho_boundary_retained=52 sigma_boundary_retained=48 cover_retained=744
+QSQUARE_MASK p=61 size=432 ambient=3600 square_equation_kill=2472 cover_kill=696 rho_boundary_retained=28 sigma_boundary_retained=0 cover_retained=404
+QSQUARE_MASK p=43 size=220 ambient=1764 square_equation_kill=1256 cover_kill=288 rho_boundary_retained=16 sigma_boundary_retained=12 cover_retained=204
+QSQUARE_MASK p=97 size=1192 ambient=9216 square_equation_kill=6560 cover_kill=1464 rho_boundary_retained=40 sigma_boundary_retained=12 cover_retained=1152
+QSQUARE_MASK p=73 size=688 ambient=5184 square_equation_kill=3776 cover_kill=720 rho_boundary_retained=16 sigma_boundary_retained=12 cover_retained=672
+QSQUARE_MASK p=89 size=1096 ambient=7744 square_equation_kill=5616 cover_kill=1032 rho_boundary_retained=52 sigma_boundary_retained=24 cover_retained=1044
+QSQUARE_MASK p=67 size=652 ambient=4356 square_equation_kill=3032 cover_kill=672 rho_boundary_retained=40 sigma_boundary_retained=36 cover_retained=612
+QSQUARE_MASK p=41 size=256 ambient=1600 square_equation_kill=1080 cover_kill=264 rho_boundary_retained=28 sigma_boundary_retained=0 cover_retained=228
+QSQUARE_MASK p=37 size=216 ambient=1296 square_equation_kill=888 cover_kill=192 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=212
+QSQUARE_MASK p=53 size=496 ambient=2704 square_equation_kill=1848 cover_kill=360 rho_boundary_retained=28 sigma_boundary_retained=0 cover_retained=468
+QSQUARE_MASK p=47 size=412 ambient=2116 square_equation_kill=1464 cover_kill=240 rho_boundary_retained=28 sigma_boundary_retained=24 cover_retained=384
+QSQUARE_MASK p=29 size=160 ambient=784 square_equation_kill=504 cover_kill=120 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=156
+QSQUARE_MASK p=19 size=76 ambient=324 square_equation_kill=176 cover_kill=72 rho_boundary_retained=16 sigma_boundary_retained=12 cover_retained=60
+QSQUARE_MASK p=23 size=124 ambient=484 square_equation_kill=288 cover_kill=72 rho_boundary_retained=28 sigma_boundary_retained=24 cover_retained=96
+QSQUARE_MASK p=11 size=28 ambient=100 square_equation_kill=48 cover_kill=24 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=24
+QSQUARE_MASK p=17 size=88 ambient=256 square_equation_kill=168 cover_kill=0 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=84
+QSQUARE_MASK p=13 size=64 ambient=144 square_equation_kill=80 cover_kill=0 rho_boundary_retained=4 sigma_boundary_retained=0 cover_retained=60
+QSQUARE_CRT_COUNTS ordered_pairs=50744445 mask_survivors=32 exact_double_square_fail=1 exact_double_square=31 smooth_double_square=0 collision_double_square=31 exact_second_half_fail=31 exact_second_half=0 singular_second_half=0 smooth_candidates=0
+QSQUARE_FIRST_KILL {79: 43021314, 59: 6544221, 31: 942206, 71: 203125, 83: 28295, 61: 4333, 43: 697, 97: 93, 73: 15, 89: 0, 67: 53, 41: 0, 37: 0, 53: 0, 47: 29, 29: 0, 19: 14, 23: 16, 11: 2, 17: 0, 13: 0}
+QSQUARE_BOUNDARY_BYPASS {79: 3037790, 59: 406433, 31: 121174, 71: 9022, 83: 1186, 61: 175, 43: 32, 97: 12, 73: 2, 89: 4, 67: 4, 41: 4, 37: 1, 53: 4, 47: 5, 29: 3, 19: 7, 23: 1, 11: 11, 17: 5, 13: 8}
+QSQUARE_MASK_SURVIVOR_SAMPLES [('11/103', '1/1'), ('17/144', '1/1'), ('15/112', '1/1'), ('13/84', '1/1'), ('24/143', '1/1'), ('11/60', '1/1'), ('20/99', '1/1'), ('9/40', '1/1'), ('16/63', '1/1'), ('7/24', '1/1'), ('12/35', '1/1'), ('51/140', '1/1'), ('44/117', '1/1'), ('5/12', '1/1'), ('36/77', '1/1'), ('39/80', '1/1'), ('8/15', '1/1'), ('33/56', '1/1'), ('28/45', '1/1'), ('85/132', '1/1')]
+QSQUARE_EXACT_COLLISION_SIGNATURES {'E24': 31}
+QSQUARE_EXACT_DOUBLE_SAMPLES [('11/103', '1/1', '103/11', ('E24',)), ('17/144', '1/1', '144/17', ('E24',)), ('15/112', '1/1', '112/15', ('E24',)), ('13/84', '1/1', '84/13', ('E24',)), ('24/143', '1/1', '143/24', ('E24',)), ('11/60', '1/1', '60/11', ('E24',)), ('20/99', '1/1', '99/20', ('E24',)), ('9/40', '1/1', '40/9', ('E24',)), ('16/63', '1/1', '63/16', ('E24',)), ('7/24', '1/1', '24/7', ('E24',)), ('12/35', '1/1', '35/12', ('E24',)), ('51/140', '1/1', '140/51', ('E24',)), ('44/117', '1/1', '117/44', ('E24',)), ('5/12', '1/1', '12/5', ('E24',)), ('36/77', '1/1', '77/36', ('E24',)), ('39/80', '1/1', '80/39', ('E24',)), ('8/15', '1/1', '15/8', ('E24',)), ('33/56', '1/1', '56/33', ('E24',)), ('28/45', '1/1', '45/28', ('E24',)), ('85/132', '1/1', '132/85', ('E24',)), ('60/91', '1/1', '91/60', ('E24',)), ('104/153', '1/1', '153/104', ('E24',)), ('3/4', '1/1', '4/3', ('E24',)), ('115/151', '1/1', '151/115', ('E24',)), ('88/105', '1/1', '105/88', ('E24',)), ('133/156', '1/1', '156/133', ('E24',)), ('48/55', '1/1', '55/48', ('E24',)), ('65/72', '1/1', '72/65', ('E24',)), ('20/21', '1/1', '21/20', ('E24',)), ('88/89', '1/1', '89/88', ('E24',)), ('119/120', '1/1', '120/119', ('E24',))]
+QSQUARE_CANDIDATE_FILE results/target_22412_boundary_crt_candidates_h160.txt
+QSQUARE_CRT_SECONDS 25.269
+TARGET_22412_BOUNDARY_CRT_DONE

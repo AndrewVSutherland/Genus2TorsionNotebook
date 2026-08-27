@@ -1,0 +1,18 @@
+p=11 projected_contact_square_multisets=65
+P8: finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True; finite0=((4, 0, 7, 0), 1)
+F1: finite=[1, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+F2: finite=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth1_z=[1, 2, 4, 7, 9, 10]; infinity_depth>=2=True; inf1_z1=((6, 9, 3, 8), 2) inf2=((0, 0, 0, 8), 2)
+F3: finite=[0, 1, 2, 4, 7, 9, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+F4: finite=[0, 1, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+F5: finite=[0, 1, 2, 4, 7, 9, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+F6: finite=[2, 9]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+F7: finite=[0, 1, 3, 5, 6, 8, 10]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; infinity_depth>=2=True
+p=13 projected_contact_square_multisets=87
+P8: finite=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F1: finite=[1, 5, 8, 12]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F2: finite=[0]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F3: finite=[]; infinity_depth1_z=[]; infinity_depth>=2=True; inf1_z1=((12, 8, 3, 11), 2) inf2=((0, 0, 0, 11), 2)
+F4: finite=[]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F5: finite=[]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F6: finite=[0]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True
+F7: finite=[]; infinity_depth1_z=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; infinity_depth>=2=True

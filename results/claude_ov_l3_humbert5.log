@@ -1,0 +1,28 @@
+degA=2 degB=6
+H5 resultant: #terms=16  totaldeg=8
+factors:
+  mult=1  #terms=16  deg=8
+  factor 1 weighted degrees { 24 }
+  -> factor with 16 terms VANISHES on the parametrization
+H5 chosen: #terms=16 weighted degrees { 24 }
+
+==== VALIDATION ====
+paper RM5 curve IC = [ 32000, 16000000, 192000000000, 2621440000000000 ]
+  scaling u=4000 : u^2*1=16000000 vs I4=16000000 ; u^3*3=192000000000 vs I6=192000000000 ; u^5*8/3125=2621440000000000 vs I10=2621440000000000
+  H5(paper curve) = 0
+  disc census (p<=200, 44 primes) = [ 5 ]
+19044.h.2 : H5=0  census=[ 5 ]
+BLP-C4corr : H5=0  census=[ 5 ]
+
+-- forward test: random (g,h) on the parametrization --
+
+DiscCensus(
+f: 1/4651880825029428889639751009341672858642414212226867675781...,
+B: 120
+)
+In file "code/claude_ov_l3_humbert5.m", line 83, column 20:
+>>     fI := Px ! [ Z ! (Coefficient(f,i)*m^(6-i)) : i in [0..Degree(f)] ];
+                      ^
+Runtime error in '!': Illegal coercion
+LHS: RngInt
+RHS: FldQuadElt

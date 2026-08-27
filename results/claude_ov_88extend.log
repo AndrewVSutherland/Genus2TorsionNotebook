@@ -1,0 +1,844 @@
+EXTEND_LOADED 398 children=8 PSB=600 NV=4
+BASE (1/3,8/9) degenerate
+BASE (1/3,10/9) s=89/45 t=5/3 gens=2
+BASE (1/3,10/9) zvals=4
+VERIFY 89/45|5/3|-225/169 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 89/45|5/3|3600/7921 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 89/45|5/3|114075/609917 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 89/45|5/3|-675/1232 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/3,10/9)
+BASE (1/2,5/8) s=181/320 t=5/4 gens=0
+BASEDONE (1/2,5/8) nogens
+BASE (1/2,5/4) s=481/640 t=5/4 gens=0
+BASEDONE (1/2,5/4) nogens
+BASE (1/2,7/4) s=865/896 t=5/4 gens=0
+BASEDONE (1/2,7/4) nogens
+BASE (1/2,9/10) s=801/1280 t=5/4 gens=0
+BASEDONE (1/2,9/10) nogens
+BASE (1/3,13/3) s=1777/702 t=5/3 gens=0
+BASEDONE (1/3,13/3) nogens
+BASE (1/3,11/6) s=2113/1188 t=5/3 gens=0
+BASEDONE (1/3,11/6) nogens
+BASE (1/2,1/5) s=2281/2560 t=5/4 gens=0
+BASEDONE (1/2,1/5) nogens
+BASE (1/3,5/2) s=3049/1620 t=5/3 gens=0
+BASEDONE (1/3,5/2) nogens
+BASE (1/5,6) s=3603/625 t=13/5 gens=0
+BASEDONE (1/5,6) nogens
+BASE (1/3,1/12) s=4105/216 t=5/3 gens=0
+BASEDONE (1/3,1/12) nogens
+BASE (2/3,5/9) s=1405/4608 t=13/12 gens=0
+BASEDONE (2/3,5/9) nogens
+BASE (2/3,1/8) s=949/5184 t=13/12 gens=0
+BASEDONE (2/3,1/8) nogens
+BASE (1/3,13/12) s=5617/2808 t=5/3 gens=0
+BASEDONE (1/3,13/12) nogens
+BASE (1/4,9/8) s=6201/1024 t=17/8 gens=0
+BASEDONE (1/4,9/8) nogens
+BASE (1/3,12/13) s=6866/3159 t=5/3 gens=0
+BASEDONE (1/3,12/13) nogens
+BASE (1/2,5/3) s=7129/7680 t=5/4 gens=0
+BASEDONE (1/2,5/3) nogens
+BASE (1/5,3) s=8787/1250 t=13/5 gens=0
+BASEDONE (1/5,3) nogens
+BASE (1/3,11) s=10057/1782 t=5/3 gens=0
+BASEDONE (1/3,11) nogens
+BASE (1/3,7/5) s=10369/5670 t=5/3 gens=0
+BASEDONE (1/3,7/5) nogens
+BASE (1/2,6/11) s=6339/11264 t=5/4 gens=0
+BASEDONE (1/2,6/11) nogens
+BASE (1/3,10/13) s=12841/5265 t=5/3 gens=0
+BASEDONE (1/3,10/13) nogens
+BASE (1/3,11/4) s=13897/7128 t=5/3 gens=0
+BASEDONE (1/3,11/4) nogens
+BASE (1/3,5/7) s=14569/5670 t=5/3 gens=0
+BASEDONE (1/3,5/7) nogens
+BASE (1/3,11/5) s=16201/8910 t=5/3 gens=0
+BASEDONE (1/3,11/5) nogens
+BASE (1/2,8/3) s=17113/12288 t=5/4 gens=0
+BASEDONE (1/2,8/3) nogens
+BASE (1/3,9/7) s=19105/10206 t=5/3 gens=0
+BASEDONE (1/3,9/7) nogens
+BASE (1/5,10) s=20809/3125 t=13/5 gens=0
+BASEDONE (1/5,10) nogens
+BASE (1/2,12/11) s=15555/22528 t=5/4 gens=0
+BASEDONE (1/2,12/11) nogens
+BASE (3/7,4/9) s=24802/21609 t=29/21 gens=0
+BASEDONE (3/7,4/9) nogens
+BASE (1/2,10/3) s=26329/15360 t=5/4 gens=0
+BASEDONE (1/2,10/3) nogens
+BASE (3/7,4/7) s=27938/27783 t=29/21 gens=0
+BASEDONE (3/7,4/7) nogens
+BASE (1/3,13/8) s=30073/16848 t=5/3 gens=0
+BASEDONE (1/3,13/8) nogens
+BASE (1/2,11/3) s=31705/16896 t=5/4 gens=0
+BASEDONE (1/2,11/3) nogens
+BASE (1/7,6) s=34851/2401 t=25/7 gens=0
+BASEDONE (1/7,6) nogens
+BASE (1/2,8/9) s=22945/36864 t=5/4 gens=0
+BASEDONE (1/2,8/9) nogens
+BASE (3/5,14/9) s=31649/39375 t=17/15 gens=0
+BASEDONE (3/5,14/9) nogens
+BASE (1/3,1/13) s=43345/2106 t=5/3 gens=0
+BASEDONE (1/3,1/13) nogens
+BASE (2/3,13/12) s=24961/44928 t=13/12 gens=0
+BASEDONE (2/3,13/12) nogens
+BASE (1/7,4) s=46274/2401 t=25/7 gens=0
+BASEDONE (1/7,4) nogens
+BASE (1/3,1/14) s=50257/2268 t=5/3 gens=0
+BASEDONE (1/3,1/14) nogens
+BASE (1/5,7) s=51361/8750 t=13/5 gens=0
+BASEDONE (1/5,7) nogens
+BASE (2/3,4/3) s=37489/55296 t=13/12 gens=0
+BASEDONE (2/3,4/3) nogens
+BASE (1/4,11/8) s=58369/11264 t=17/8 gens=0
+BASEDONE (1/4,11/8) nogens
+BASE (1/5,10/3) s=62281/9375 t=13/5 gens=0
+BASEDONE (1/5,10/3) nogens
+BASE (1/4,6) s=66027/16384 t=17/8 gens=0
+BASEDONE (1/4,6) nogens
+BASE (2/5,7/5) s=72583/64000 t=29/20 gens=0
+BASEDONE (2/5,7/5) nogens
+BASE (1/2,14/11) s=59977/78848 t=5/4 gens=0
+BASEDONE (1/2,14/11) nogens
+BASE (1/5,1/2) s=83569/2500 t=13/5 gens=0
+BASEDONE (1/5,1/2) nogens
+CHILD_DONE 0
+BASE (1/3,4/9) s=34/9 t=5/3 gens=10
+BASE (1/3,4/9) zvals=4
+BASEDONE (1/3,4/9)
+BASE (1/3,14/9) s=113/63 t=5/3 gens=0
+BASEDONE (1/3,14/9) nogens
+BASE (1/3,8) FATAL Runtime error in '!': Point does not lie in scheme
+BASE (1/3,7/3) s=697/378 t=5/3 gens=0
+BASEDONE (1/3,7/3) nogens
+BASE (1/3,4/5) s=962/405 t=5/3 gens=0
+BASEDONE (1/3,4/5) nogens
+BASE (1/3,11/3) s=1345/594 t=5/3 gens=0
+BASEDONE (1/3,11/3) nogens
+BASE (1/2,3/14) s=1515/1792 t=5/4 gens=0
+BASEDONE (1/2,3/14) nogens
+BASE (1/3,12/5) s=2258/1215 t=5/3 gens=0
+BASEDONE (1/3,12/5) nogens
+BASE (1/2,3/5) s=1443/2560 t=5/4 gens=0
+BASEDONE (1/2,3/5) nogens
+BASE (1/2,6) s=3099/1024 t=5/4 gens=0
+BASEDONE (1/2,6) nogens
+BASE (1/5,8) s=3796/625 t=13/5 gens=0
+BASEDONE (1/5,8) nogens
+BASE (1/3,1/4) s=4177/648 t=5/3 gens=0
+BASEDONE (1/3,1/4) nogens
+BASE (1/5,12) s=4614/625 t=13/5 gens=0
+BASEDONE (1/5,12) nogens
+BASE (2/3,5/8) s=1745/5184 t=13/12 gens=0
+BASEDONE (2/3,5/8) nogens
+BASE (3/5,2/9) s=1649/5625 t=17/15 gens=0
+BASEDONE (3/5,2/9) nogens
+BASE (1/5,14/5) s=6409/875 t=13/5 gens=0
+BASEDONE (1/5,14/5) nogens
+BASE (2/3,1/6) s=1201/6912 t=13/12 gens=0
+BASEDONE (2/3,1/6) nogens
+BASE (1/3,2/11) s=7825/891 t=5/3 gens=0
+BASEDONE (1/3,2/11) nogens
+BASE (1/2,5/14) s=5569/8960 t=5/4 gens=0
+BASEDONE (1/2,5/14) nogens
+BASE (1/2,1/11) s=10057/5632 t=5/4 gens=0
+BASEDONE (1/2,1/11) nogens
+BASE (1/4,5/8) s=10445/1024 t=17/8 gens=0
+BASEDONE (1/4,5/8) nogens
+BASE (1/4,5/4) s=11405/2048 t=17/8 gens=0
+BASEDONE (1/4,5/4) nogens
+BASE (1/3,9/5) s=12961/7290 t=5/3 gens=0
+BASEDONE (1/3,9/5) nogens
+BASE (1/3,13) s=13945/2106 t=5/3 gens=0
+BASEDONE (1/3,13) nogens
+BASE (1/3,13/2) s=14713/4212 t=5/3 gens=0
+BASEDONE (1/3,13/2) nogens
+BASE (1/3,1/8) s=16465/1296 t=5/3 gens=0
+BASEDONE (1/3,1/8) nogens
+BASE (1/4,3/4) s=17643/2048 t=17/8 gens=0
+BASEDONE (1/4,3/4) nogens
+BASE (1/2,11/14) s=11713/19712 t=5/4 gens=0
+BASEDONE (1/2,11/14) nogens
+BASE (1/7,8/7) s=20932/343 t=25/7 gens=0
+BASEDONE (1/7,8/7) nogens
+BASE (3/5,8/3) s=22756/16875 t=17/15 gens=0
+BASEDONE (3/5,8/3) nogens
+BASE (1/5,13/5) s=24961/3250 t=13/5 gens=0
+BASEDONE (1/5,13/5) nogens
+BASE (1/2,4/13) s=17785/26624 t=5/4 gens=0
+BASEDONE (1/2,4/13) nogens
+BASE (3/5,10/9) s=16649/28125 t=17/15 gens=0
+BASEDONE (3/5,10/9) nogens
+BASE (1/7,8) s=30340/2401 t=25/7 gens=0
+BASEDONE (1/7,8) nogens
+BASE (1/3,9/10) s=32161/14580 t=5/3 gens=0
+BASEDONE (1/3,9/10) nogens
+BASE (1/3,7/11) s=34945/12474 t=5/3 gens=0
+BASEDONE (1/3,7/11) nogens
+BASE (2/3,8/9) s=17009/36864 t=13/12 gens=0
+BASEDONE (2/3,8/9) nogens
+BASE (1/2,7/11) s=22345/39424 t=5/4 gens=0
+BASEDONE (1/2,7/11) nogens
+BASE (1/2,13) s=43345/6656 t=5/4 gens=0
+BASEDONE (1/2,13) nogens
+BASE (1/2,8/11) s=26185/45056 t=5/4 gens=0
+BASEDONE (1/2,8/11) nogens
+BASE (1/2,7/13) s=26233/46592 t=5/4 gens=0
+BASEDONE (1/2,7/13) nogens
+BASE (1/2,14) s=50257/7168 t=5/4 gens=0
+BASEDONE (1/2,14) nogens
+BASE (3/5,2) s=51649/50625 t=17/15 gens=0
+BASEDONE (3/5,2) nogens
+BASE (3/4,1/12) s=4705/55296 t=25/24 gens=0
+BASEDONE (3/4,1/12) nogens
+BASE (1/7,9) s=58473/4802 t=25/7 gens=0
+BASEDONE (1/7,9) nogens
+BASE (1/4,7/4) s=63169/14336 t=17/8 gens=0
+BASEDONE (1/4,7/4) nogens
+BASE (1/2,10/13) s=39289/66560 t=5/4 gens=0
+BASEDONE (1/2,10/13) nogens
+BASE (1/2,11/13) s=44665/73216 t=5/4 gens=0
+BASEDONE (1/2,11/13) nogens
+BASE (2/5,9/5) s=79209/64000 t=29/20 gens=0
+BASEDONE (2/5,9/5) nogens
+BASE (2/5,3/5) s=84027/64000 t=29/20 gens=0
+BASEDONE (2/5,3/5) nogens
+CHILD_DONE 1
+BASE (1/3,4/3) s=50/27 t=5/3 gens=14
+BASE (1/3,4/3) zvals=4
+BASEDONE (1/3,4/3)
+BASE (1/2,9/4) s=153/128 t=5/4 gens=2
+BASE (1/2,9/4) zvals=4
+BASEDONE (1/2,9/4)
+BASE (1/3,11/9) s=377/198 t=5/3 gens=2
+BASE (1/3,11/9) zvals=4
+VERIFY 377/198|5/3|640332/4004117 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 377/198|5/3|13068/34307 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 377/198|5/3|-13068/9947 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 377/198|5/3|-13068/23693 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/3,11/9)
+BASE (1/2,11/8) s=565/704 t=5/4 gens=0
+BASEDONE (1/2,11/8) nogens
+BASE (1/3,3) s=985/486 t=5/3 gens=0
+BASEDONE (1/3,3) nogens
+BASE (1/5,8/5) s=1396/125 t=13/5 gens=0
+BASEDONE (1/5,8/5) nogens
+BASE (1/2,9/14) s=1017/1792 t=5/4 gens=0
+BASEDONE (1/2,9/14) nogens
+BASE (1/3,8/11) s=2260/891 t=5/3 gens=0
+BASEDONE (1/3,8/11) nogens
+BASE (1/2,9/5) s=2529/2560 t=5/4 gens=0
+BASEDONE (1/2,9/5) nogens
+BASE (1/3,2/7) s=3217/567 t=5/3 gens=0
+BASEDONE (1/3,2/7) nogens
+BASE (1/2,5/6) s=2329/3840 t=5/4 gens=0
+BASEDONE (1/2,5/6) nogens
+BASE (1/2,11/12) s=2665/4224 t=5/4 gens=0
+BASEDONE (1/2,11/12) nogens
+BASE (1/3,3/4) s=4825/1944 t=5/3 gens=0
+BASEDONE (1/3,3/4) nogens
+BASE (1/3,11/12) s=5185/2376 t=5/3 gens=0
+BASEDONE (1/3,11/12) nogens
+BASE (3/5,4/9) s=1762/5625 t=17/15 gens=0
+BASEDONE (3/5,4/9) nogens
+BASE (1/3,1/5) s=6481/810 t=5/3 gens=0
+BASEDONE (1/3,1/5) nogens
+BASE (2/3,5/6) s=3005/6912 t=13/12 gens=0
+BASEDONE (2/3,5/6) nogens
+BASE (1/2,11/2) s=7825/2816 t=5/4 gens=0
+BASEDONE (1/2,11/2) nogens
+BASE (1/2,7/10) s=5161/8960 t=5/4 gens=0
+BASEDONE (1/2,7/10) nogens
+BASE (3/5,2/5) s=3049/10125 t=17/15 gens=0
+BASEDONE (3/5,2/5) nogens
+BASE (1/3,9/4) s=10657/5832 t=5/3 gens=0
+BASEDONE (1/3,9/4) nogens
+BASE (1/3,6/13) s=11545/3159 t=5/3 gens=0
+BASEDONE (1/3,6/13) nogens
+BASE (1/2,12/5) s=12963/10240 t=5/4 gens=0
+BASEDONE (1/2,12/5) nogens
+BASE (1/2,1/13) s=13945/6656 t=5/4 gens=0
+BASEDONE (1/2,1/13) nogens
+BASE (1/2,2/13) s=14713/13312 t=5/4 gens=0
+BASEDONE (1/2,2/13) nogens
+BASE (1/2,8) s=16465/4096 t=5/4 gens=0
+BASEDONE (1/2,8) nogens
+BASE (1/3,13/4) s=17785/8424 t=5/3 gens=0
+BASEDONE (1/3,13/4) nogens
+BASE (1/4,3/2) s=19947/4096 t=17/8 gens=0
+BASEDONE (1/4,3/2) nogens
+BASE (1/5,1) s=21361/1250 t=13/5 gens=0
+BASEDONE (1/5,1) nogens
+BASE (1/3,9/8) s=22945/11664 t=5/3 gens=0
+BASEDONE (1/3,9/8) nogens
+BASE (1/3,1/10) s=25681/1620 t=5/3 gens=0
+BASEDONE (1/3,1/10) nogens
+BASE (1/2,12/13) s=16851/26624 t=5/4 gens=0
+BASEDONE (1/2,12/13) nogens
+BASE (1/2,5/11) s=16201/28160 t=5/4 gens=0
+BASEDONE (1/2,5/11) nogens
+BASE (3/5,6/5) s=19249/30375 t=17/15 gens=0
+BASEDONE (3/5,6/5) nogens
+BASE (1/2,7/9) s=19105/32256 t=5/4 gens=0
+BASEDONE (1/2,7/9) nogens
+BASE (1/3,11/10) s=35401/17820 t=5/3 gens=0
+BASEDONE (1/3,11/10) nogens
+BASE (3/5,12/5) s=36962/30375 t=17/15 gens=0
+BASEDONE (3/5,12/5) nogens
+BASE (1/2,11/7) s=34945/39424 t=5/4 gens=0
+BASEDONE (1/2,11/7) nogens
+BASE (3/7,2/7) s=43969/27783 t=29/21 gens=0
+BASEDONE (3/7,2/7) nogens
+BASE (2/5,7/8) s=45283/40000 t=29/20 gens=0
+BASEDONE (2/5,7/8) nogens
+BASE (2/3,9/8) s=26869/46656 t=13/12 gens=0
+BASEDONE (2/3,9/8) nogens
+BASE (1/2,11/9) s=37537/50688 t=5/4 gens=0
+BASEDONE (1/2,11/9) nogens
+BASE (1/3,5/14) s=52201/11340 t=5/3 gens=0
+BASEDONE (1/3,5/14) nogens
+BASE (3/4,7/12) s=16471/55296 t=25/24 gens=0
+BASEDONE (3/4,7/12) nogens
+BASE (1/2,13/9) s=49825/59904 t=5/4 gens=0
+BASEDONE (1/2,13/9) nogens
+BASE (1/3,13/14) s=63865/29484 t=5/3 gens=0
+BASEDONE (1/3,13/14) nogens
+BASE (1/4,2) s=67009/16384 t=17/8 gens=0
+BASEDONE (1/4,2) nogens
+BASE (1/2,13/11) s=53065/73216 t=5/4 gens=0
+BASEDONE (1/2,13/11) nogens
+BASE (1/4,11/4) s=81601/22528 t=17/8 gens=0
+BASEDONE (1/4,11/4) nogens
+BASE (1/7,10/7) s=84169/1715 t=25/7 gens=0
+BASEDONE (1/7,10/7) nogens
+CHILD_DONE 2
+BASE (1/3,8/3) s=52/27 t=5/3 gens=12
+BASE (1/3,8/3) zvals=4
+VERIFY 52/27|5/3|81/169 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 52/27|5/3|-729/400 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 52/27|5/3|18225/151424 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 52/27|5/3|-6561/14336 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/3,8/3)
+BASE (1/3,4) s=194/81 t=5/3 gens=0
+BASEDONE (1/3,4) nogens
+BASE (1/3,13/9) s=425/234 t=5/3 gens=4
+BASE (1/3,13/9) zvals=4
+VERIFY 425/234|5/3|-18252/42875 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 425/234|5/3|18252/252875 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 425/234|5/3|-6084/2375 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 425/234|5/3|298116/686375 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/3,13/9)
+BASE (1/3,8/5) s=724/405 t=5/3 gens=0
+BASEDONE (1/3,8/5) nogens
+BASE (1/5,12/5) s=1014/125 t=13/5 gens=8
+BASE (1/5,12/5) zvals=4
+BASEDONE (1/5,12/5)
+BASE (1/3,7/6) s=1465/756 t=5/3 gens=0
+BASEDONE (1/3,7/6) nogens
+BASE (1/5,6/5) s=1803/125 t=13/5 gens=0
+BASEDONE (1/5,6/5) nogens
+BASE (1/3,5) s=2281/810 t=5/3 gens=0
+BASEDONE (1/3,5) nogens
+BASE (1/5,4/5) s=2642/125 t=13/5 gens=0
+BASEDONE (1/5,4/5) nogens
+BASE (1/2,7/2) s=3217/1792 t=5/4 gens=0
+BASEDONE (1/2,7/2) nogens
+BASE (1/5,4) s=3842/625 t=13/5 gens=0
+BASEDONE (1/5,4) nogens
+BASE (1/3,7) s=4225/1134 t=5/3 gens=0
+BASEDONE (1/3,7) nogens
+BASE (1/2,13/12) s=3433/4992 t=5/4 gens=0
+BASEDONE (1/2,13/12) nogens
+BASE (1/5,2/5) s=5209/125 t=13/5 gens=0
+BASEDONE (1/5,2/5) nogens
+BASE (3/5,8/9) s=2756/5625 t=17/15 gens=0
+BASEDONE (3/5,8/9) nogens
+BASE (1/2,5) s=6481/2560 t=5/4 gens=0
+BASEDONE (1/2,5) nogens
+BASE (1/5,3/5) s=6987/250 t=13/5 gens=0
+BASEDONE (1/5,3/5) nogens
+BASE (1/5,9) s=7929/1250 t=13/5 gens=0
+BASEDONE (1/5,9) nogens
+BASE (1/2,2/9) s=7585/9216 t=5/4 gens=0
+BASEDONE (1/2,2/9) nogens
+BASE (3/5,4/5) s=4562/10125 t=17/15 gens=0
+BASEDONE (3/5,4/5) nogens
+BASE (1/3,11/2) s=10825/3564 t=5/3 gens=0
+BASEDONE (1/3,11/2) nogens
+BASE (1/2,13/6) s=11545/9984 t=5/4 gens=0
+BASEDONE (1/2,13/6) nogens
+BASE (1/3,3/7) s=13273/3402 t=5/3 gens=0
+BASEDONE (1/3,3/7) nogens
+BASE (1/2,11/10) s=9769/14080 t=5/4 gens=0
+BASEDONE (1/2,11/10) nogens
+BASE (1/3,14/13) s=14785/7371 t=5/3 gens=0
+BASEDONE (1/3,14/13) nogens
+BASE (1/2,13/10) s=12841/16640 t=5/4 gens=0
+BASEDONE (1/2,13/10) nogens
+BASE (1/2,5/7) s=10369/17920 t=5/4 gens=0
+BASEDONE (1/2,5/7) nogens
+BASE (1/3,13/5) s=20089/10530 t=5/3 gens=0
+BASEDONE (1/3,13/5) nogens
+BASE (3/7,8/9) s=19604/21609 t=29/21 gens=0
+BASEDONE (3/7,8/9) nogens
+BASE (1/2,5/9) s=12961/23040 t=5/4 gens=0
+BASEDONE (1/2,5/9) nogens
+BASE (1/2,10) s=25681/5120 t=5/4 gens=0
+BASEDONE (1/2,10) nogens
+BASE (2/3,2/3) s=9841/27648 t=13/12 gens=0
+BASEDONE (2/3,2/3) nogens
+BASE (1/7,12) s=28230/2401 t=25/7 gens=0
+BASEDONE (1/7,12) nogens
+BASE (1/4,5) s=30605/8192 t=17/8 gens=0
+BASEDONE (1/4,5) nogens
+BASE (2/3,7/9) s=13169/32256 t=13/12 gens=0
+BASEDONE (2/3,7/9) nogens
+BASE (1/5,14) s=35809/4375 t=13/5 gens=0
+BASEDONE (1/5,14) nogens
+BASE (1/7,9/7) s=37305/686 t=25/7 gens=0
+BASEDONE (1/7,9/7) nogens
+BASE (3/5,1/10) s=18409/40500 t=17/15 gens=0
+BASEDONE (3/5,1/10) nogens
+BASE (1/3,3/13) s=43993/6318 t=5/3 gens=0
+BASEDONE (1/3,3/13) nogens
+BASE (1/3,5/13) s=45289/10530 t=5/3 gens=0
+BASEDONE (1/3,5/13) nogens
+BASE (1/3,7/13) s=47233/14742 t=5/3 gens=0
+BASEDONE (1/3,7/13) nogens
+BASE (2/3,11/9) s=31601/50688 t=13/12 gens=0
+BASEDONE (2/3,11/9) nogens
+BASE (1/2,14/5) s=52201/35840 t=5/4 gens=0
+BASEDONE (1/2,14/5) nogens
+BASE (3/7,5/7) s=51845/55566 t=29/21 gens=0
+BASEDONE (3/7,5/7) nogens
+BASE (2/3,13/9) s=43889/59904 t=13/12 gens=0
+BASEDONE (2/3,13/9) nogens
+BASE (1/2,14/9) s=56737/64512 t=5/4 gens=0
+BASEDONE (1/2,14/9) nogens
+BASE (2/3,13/8) s=55381/67392 t=13/12 gens=0
+BASEDONE (2/3,13/8) nogens
+BASE (3/4,1/9) s=6497/73728 t=25/24 gens=0
+BASEDONE (3/4,1/9) nogens
+BASE (3/4,1/8) s=7585/82944 t=25/24 gens=0
+BASEDONE (3/4,1/8) nogens
+BASE (1/5,7/10) s=84169/3500 t=13/5 gens=0
+BASEDONE (1/5,7/10) nogens
+CHILD_DONE 3
+BASE (1/2,3/8) s=39/64 t=5/4 gens=6
+BASE (1/2,3/8) zvals=4
+VERIFY 39/64|5/4|-4096/225 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 39/64|5/4|102400/351351 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 39/64|5/4|-65536/18711 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 39/64|5/4|256/169 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/2,3/8)
+BASE (1/3,1/9) s=257/18 t=5/3 gens=0
+BASEDONE (1/3,1/9) nogens
+BASE (1/2,7/8) s=277/448 t=5/4 gens=0
+BASEDONE (1/2,7/8) nogens
+BASE (1/2,1/12) s=745/384 t=5/4 gens=0
+BASEDONE (1/2,1/12) nogens
+BASE (1/3,1/6) s=1033/108 t=5/3 gens=0
+BASEDONE (1/3,1/6) nogens
+BASE (1/3,12) s=1490/243 t=5/3 gens=0
+BASEDONE (1/3,12) nogens
+BASE (1/2,5/12) s=1129/1920 t=5/4 gens=0
+BASEDONE (1/2,5/12) nogens
+BASE (1/2,9) s=2313/512 t=5/4 gens=0
+BASEDONE (1/2,9) nogens
+BASE (1/2,7/12) s=1513/2688 t=5/4 gens=0
+BASEDONE (1/2,7/12) nogens
+BASE (2/3,1/12) s=769/3456 t=13/12 gens=0
+BASEDONE (2/3,1/12) nogens
+BASE (1/3,6/7) s=3865/1701 t=5/3 gens=0
+BASEDONE (1/3,6/7) nogens
+BASE (1/2,1/7) s=4225/3584 t=5/4 gens=0
+BASEDONE (1/2,1/7) nogens
+BASE (1/3,7/2) s=4993/2268 t=5/3 gens=0
+BASEDONE (1/3,7/2) nogens
+BASE (1/3,12/11) s=5330/2673 t=5/3 gens=0
+BASEDONE (1/3,12/11) nogens
+BASE (1/2,3/11) s=4035/5632 t=5/4 gens=2
+BASE (1/2,3/11) zvals=4
+BASEDONE (1/2,3/11)
+BASE (1/2,3/13) s=5331/6656 t=5/4 gens=0
+BASEDONE (1/2,3/13) nogens
+BASE (1/3,3/5) s=7129/2430 t=5/3 gens=0
+BASEDONE (1/3,3/5) nogens
+BASE (1/4,9/4) s=7929/2048 t=17/8 gens=0
+BASEDONE (1/4,9/4) nogens
+BASE (2/3,2/9) s=1649/9216 t=13/12 gens=0
+BASEDONE (2/3,2/9) nogens
+BASE (3/5,8/5) s=8356/10125 t=17/15 gens=0
+BASEDONE (3/5,8/5) nogens
+BASE (1/3,2/13) s=10897/1053 t=5/3 gens=0
+BASEDONE (1/3,2/13) nogens
+BASE (1/3,14/11) s=11713/6237 t=5/3 gens=0
+BASEDONE (1/3,14/11) nogens
+BASE (1/2,7/3) s=13273/10752 t=5/4 gens=0
+BASEDONE (1/2,7/3) nogens
+BASE (1/7,12/7) s=14118/343 t=25/7 gens=0
+BASEDONE (1/7,12/7) nogens
+BASE (1/5,9/2) s=14841/2500 t=13/5 gens=0
+BASEDONE (1/5,9/2) nogens
+BASE (3/5,2/3) s=6649/16875 t=17/15 gens=0
+BASEDONE (3/5,2/3) nogens
+BASE (1/2,7/5) s=14569/17920 t=5/4 gens=0
+BASEDONE (1/2,7/5) nogens
+BASE (3/5,1/5) s=6121/20250 t=17/15 gens=0
+BASEDONE (3/5,1/5) nogens
+BASE (3/7,10/9) s=20005/21609 t=29/21 gens=0
+BASEDONE (3/7,10/9) nogens
+BASE (1/2,13/14) s=14785/23296 t=5/4 gens=0
+BASEDONE (1/2,13/14) nogens
+BASE (2/3,5/2) s=26045/20736 t=13/12 gens=0
+BASEDONE (2/3,5/2) nogens
+BASE (1/5,3/10) s=27723/500 t=13/5 gens=0
+BASEDONE (1/5,3/10) nogens
+BASE (1/2,8/7) s=20353/28672 t=5/4 gens=0
+BASEDONE (1/2,8/7) nogens
+BASE (1/3,1/11) s=31057/1782 t=5/3 gens=0
+BASEDONE (1/3,1/11) nogens
+BASE (1/3,5/11) s=33001/8910 t=5/3 gens=0
+BASEDONE (1/3,5/11) nogens
+BASE (1/2,10/7) s=29569/35840 t=5/4 gens=0
+BASEDONE (1/2,10/7) nogens
+BASE (1/3,9/11) s=37537/16038 t=5/3 gens=0
+BASEDONE (1/3,9/11) nogens
+BASE (1/7,4/7) s=41570/343 t=25/7 gens=0
+BASEDONE (1/7,4/7) nogens
+BASE (1/2,13/3) s=43993/19968 t=5/4 gens=0
+BASEDONE (1/2,13/3) nogens
+BASE (1/2,13/5) s=45289/33280 t=5/4 gens=0
+BASEDONE (1/2,13/5) nogens
+BASE (1/2,13/7) s=47233/46592 t=5/4 gens=0
+BASEDONE (1/2,13/7) nogens
+BASE (1/4,1/8) s=50689/1024 t=17/8 gens=0
+BASEDONE (1/4,1/8) nogens
+BASE (1/3,11/13) s=53065/23166 t=5/3 gens=0
+BASEDONE (1/3,11/13) nogens
+BASE (3/5,5/9) s=19721/56250 t=17/15 gens=0
+BASEDONE (3/5,5/9) nogens
+BASE (1/3,11/14) s=59977/24948 t=5/3 gens=0
+BASEDONE (1/3,11/14) nogens
+BASE (2/3,14/9) s=50801/64512 t=13/12 gens=0
+BASEDONE (2/3,14/9) nogens
+BASE (3/5,1/6) s=22009/67500 t=17/15 gens=0
+BASEDONE (3/5,1/6) nogens
+BASE (3/4,7/9) s=29015/73728 t=25/24 gens=0
+BASEDONE (3/4,7/9) nogens
+BASE (3/4,7/8) s=36631/82944 t=25/24 gens=0
+BASEDONE (3/4,7/8) nogens
+BASE (1/7,2) s=85345/2401 t=25/7 gens=0
+BASEDONE (1/7,2) nogens
+CHILD_DONE 4
+BASE (1/2,9/8) s=45/64 t=5/4 gens=18
+BASE (1/2,9/8) zvals=4
+BASEDONE (1/2,9/8)
+BASE (1/3,5/9) s=281/90 t=5/3 gens=0
+BASEDONE (1/3,5/9) nogens
+BASE (1/3,5/3) s=481/270 t=5/3 gens=0
+BASEDONE (1/3,5/3) nogens
+BASE (1/3,6) s=793/243 t=5/3 gens=0
+BASEDONE (1/3,6) nogens
+BASE (1/3,8/7) s=1108/567 t=5/3 gens=0
+BASEDONE (1/3,8/7) nogens
+BASE (1/3,2/5) s=1681/405 t=5/3 gens=0
+BASEDONE (1/3,2/5) nogens
+BASE (1/2,11/4) s=2017/1408 t=5/4 gens=0
+BASEDONE (1/2,11/4) nogens
+BASE (1/3,6/5) s=2329/1215 t=5/3 gens=0
+BASEDONE (1/3,6/5) nogens
+BASE (1/2,13/4) s=2785/1664 t=5/4 gens=0
+BASEDONE (1/2,13/4) nogens
+BASE (2/3,5/12) s=845/3456 t=13/12 gens=4
+BASE (2/3,5/12) zvals=4
+BASEDONE (2/3,5/12)
+BASE (1/3,14) s=4033/567 t=5/3 gens=0
+BASEDONE (1/3,14) nogens
+BASE (1/3,5/12) s=4321/1080 t=5/3 gens=0
+BASEDONE (1/3,5/12) nogens
+BASE (1/2,2/5) s=3049/5120 t=5/4 gens=0
+BASEDONE (1/2,2/5) nogens
+BASE (1/2,7/6) s=3865/5376 t=5/4 gens=0
+BASEDONE (1/2,7/6) nogens
+BASE (1/2,9/11) s=3393/5632 t=5/4 gens=0
+BASEDONE (1/2,9/11) nogens
+BASE (1/2,9/13) s=3825/6656 t=5/4 gens=0
+BASEDONE (1/2,9/13) nogens
+BASE (1/2,2/7) s=4993/7168 t=5/4 gens=0
+BASEDONE (1/2,2/7) nogens
+BASE (1/3,7/4) s=8065/4536 t=5/3 gens=0
+BASEDONE (1/3,7/4) nogens
+BASE (2/3,10/9) s=5245/9216 t=13/12 gens=0
+BASEDONE (2/3,10/9) nogens
+BASE (1/2,4/5) s=6121/10240 t=5/4 gens=0
+BASEDONE (1/2,4/5) nogens
+BASE (1/2,13/2) s=10897/3328 t=5/4 gens=0
+BASEDONE (1/2,13/2) nogens
+BASE (1/2,12) s=12315/2048 t=5/4 gens=0
+BASEDONE (1/2,12) nogens
+BASE (1/2,6/13) s=7635/13312 t=5/4 gens=0
+BASEDONE (1/2,6/13) nogens
+BASE (1/5,8/3) s=14164/1875 t=13/5 gens=0
+BASEDONE (1/5,8/3) nogens
+BASE (1/4,9/2) s=14841/4096 t=17/8 gens=0
+BASEDONE (1/4,9/2) nogens
+BASE (3/5,4/3) s=11762/16875 t=17/15 gens=0
+BASEDONE (3/5,4/3) nogens
+BASE (1/3,5/8) s=18409/6480 t=5/3 gens=0
+BASEDONE (1/3,5/8) nogens
+BASE (1/3,7/8) s=20353/9072 t=5/3 gens=0
+BASEDONE (1/3,7/8) nogens
+BASE (1/5,7/5) s=21961/1750 t=13/5 gens=0
+BASEDONE (1/5,7/5) nogens
+BASE (1/5,11/5) s=23761/2750 t=13/5 gens=0
+BASEDONE (1/5,11/5) nogens
+BASE (1/3,11/8) s=26185/14256 t=5/3 gens=0
+BASEDONE (1/3,11/8) nogens
+BASE (3/7,8/7) s=25876/27783 t=29/21 gens=0
+BASEDONE (3/7,8/7) nogens
+BASE (1/4,3) s=29163/8192 t=17/8 gens=0
+BASEDONE (1/4,3) nogens
+BASE (1/2,11) s=31057/5632 t=5/4 gens=0
+BASEDONE (1/2,11) nogens
+BASE (1/2,11/5) s=33001/28160 t=5/4 gens=0
+BASEDONE (1/2,11/5) nogens
+BASE (2/5,9/10) s=36009/32000 t=29/20 gens=0
+BASEDONE (2/5,9/10) nogens
+BASE (2/3,11/12) s=18049/38016 t=13/12 gens=0
+BASEDONE (2/3,11/12) nogens
+BASE (3/7,2/9) s=42401/21609 t=29/21 gens=0
+BASEDONE (3/7,2/9) nogens
+BASE (3/7,5/9) s=44005/43218 t=29/21 gens=0
+BASEDONE (3/7,5/9) nogens
+BASE (1/2,10/9) s=32161/46080 t=5/4 gens=0
+BASEDONE (1/2,10/9) nogens
+BASE (1/5,2/3) s=47281/1875 t=13/5 gens=0
+BASEDONE (1/5,2/3) nogens
+BASE (1/4,1/4) s=50881/2048 t=17/8 gens=0
+BASEDONE (1/4,1/4) nogens
+BASE (1/2,8/13) s=30073/53248 t=5/4 gens=0
+BASEDONE (1/2,8/13) nogens
+BASE (1/2,10/11) s=35401/56320 t=5/4 gens=0
+BASEDONE (1/2,10/11) nogens
+BASE (3/5,3/5) s=22321/60750 t=17/15 gens=0
+BASEDONE (3/5,3/5) nogens
+BASE (3/7,2/3) s=61609/64827 t=29/21 gens=0
+BASEDONE (3/7,2/3) nogens
+BASE (2/5,3/10) s=69627/32000 t=29/20 gens=0
+BASEDONE (2/5,3/10) nogens
+BASE (2/3,11/6) s=70321/76032 t=13/12 gens=0
+BASEDONE (2/3,11/6) nogens
+BASE (1/5,1/10) s=82969/500 t=13/5 gens=0
+BASEDONE (1/5,1/10) nogens
+BASE (1/5,11/10) s=85969/5500 t=13/5 gens=0
+BASEDONE (1/5,11/10) nogens
+CHILD_DONE 5
+BASE (1/3,2/9) s=65/9 t=5/3 gens=8
+BASE (1/3,2/9) zvals=4
+BASEDONE (1/3,2/9)
+BASE (1/3,10/3) s=289/135 t=5/3 gens=2
+BASE (1/3,10/3) zvals=4
+VERIFY 289/135|5/3|472410225/541132559 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 289/135|5/3|32400/83521 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 289/135|5/3|-164025/103664 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+VERIFY 289/135|5/3|-18225/25921 deg=6 shape=[ 1, 1, 2, 2 ] tors=[ 4, 4 ] order4=12 normfail=0 degu=0 gate_pass=0 truth_pass=0 disagree=0
+BASEDONE (1/3,10/3)
+BASE (1/3,14/3) s=505/189 t=5/3 gens=0
+BASEDONE (1/3,14/3) nogens
+BASE (1/2,1/6) s=793/768 t=5/4 gens=0
+BASEDONE (1/2,1/6) nogens
+BASE (1/3,5/6) s=1249/540 t=5/3 gens=0
+BASEDONE (1/3,5/6) nogens
+BASE (1/2,5/2) s=1681/1280 t=5/4 gens=0
+BASEDONE (1/2,5/2) nogens
+BASE (1/3,10) s=2089/405 t=5/3 gens=0
+BASEDONE (1/3,10) nogens
+BASE (1/5,9/5) s=2529/250 t=13/5 gens=0
+BASEDONE (1/5,9/5) nogens
+BASE (1/3,12/7) s=3026/1701 t=5/3 gens=0
+BASEDONE (1/3,12/7) nogens
+BASE (1/2,3/7) s=2091/3584 t=5/4 gens=0
+BASEDONE (1/2,3/7) nogens
+BASE (1/2,1/14) s=4033/1792 t=5/4 gens=0
+BASEDONE (1/2,1/14) nogens
+BASE (1/3,7/12) s=4537/1512 t=5/3 gens=0
+BASEDONE (1/3,7/12) nogens
+BASE (1/2,6/5) s=3747/5120 t=5/4 gens=0
+BASEDONE (1/2,6/5) nogens
+BASE (1/3,14/5) s=5569/2835 t=5/3 gens=0
+BASEDONE (1/3,14/5) nogens
+BASE (1/5,2) s=5809/625 t=13/5 gens=0
+BASEDONE (1/5,2) nogens
+BASE (1/3,9) s=6817/1458 t=5/3 gens=0
+BASEDONE (1/3,9) nogens
+BASE (1/2,6/7) s=4395/7168 t=5/4 gens=0
+BASEDONE (1/2,6/7) nogens
+BASE (1/3,6/11) s=8473/2673 t=5/3 gens=0
+BASEDONE (1/3,6/11) nogens
+BASE (1/5,9/10) s=9441/500 t=13/5 gens=0
+BASEDONE (1/5,9/10) nogens
+BASE (2/3,1/4) s=1921/10368 t=13/12 gens=0
+BASEDONE (2/3,1/4) nogens
+BASE (3/5,1/9) s=4721/11250 t=17/15 gens=0
+BASEDONE (3/5,1/9) nogens
+BASE (1/3,1/7) s=12625/1134 t=5/3 gens=0
+BASEDONE (1/3,1/7) nogens
+BASE (2/3,1/3) s=2929/13824 t=13/12 gens=0
+BASEDONE (2/3,1/3) nogens
+BASE (1/2,4/7) s=8065/14336 t=5/4 gens=0
+BASEDONE (1/2,4/7) nogens
+BASE (1/4,5/2) s=15245/4096 t=17/8 gens=0
+BASEDONE (1/4,5/2) nogens
+BASE (1/4,3/8) s=17067/1024 t=17/8 gens=0
+BASEDONE (1/4,3/8) nogens
+BASE (1/2,4/9) s=10657/18432 t=5/4 gens=0
+BASEDONE (1/2,4/9) nogens
+BASE (1/2,8/5) s=18409/20480 t=5/4 gens=0
+BASEDONE (1/2,8/5) nogens
+BASE (1/3,11/7) s=22345/12474 t=5/3 gens=0
+BASEDONE (1/3,11/7) nogens
+BASE (2/3,7/12) s=7681/24192 t=13/12 gens=0
+BASEDONE (2/3,7/12) nogens
+BASE (1/3,13/7) s=26233/14742 t=5/3 gens=0
+BASEDONE (1/3,13/7) nogens
+BASE (1/7,6/7) s=27795/343 t=25/7 gens=0
+BASEDONE (1/7,6/7) nogens
+BASE (1/5,3/2) s=29523/2500 t=13/5 gens=0
+BASEDONE (1/5,3/2) nogens
+BASE (2/3,3/4) s=12289/31104 t=13/12 gens=0
+BASEDONE (2/3,3/4) nogens
+BASE (1/2,5/13) s=20089/33280 t=5/4 gens=0
+BASEDONE (1/2,5/13) nogens
+BASE (2/3,7/8) s=16501/36288 t=13/12 gens=0
+BASEDONE (2/3,7/8) nogens
+BASE (2/5,7/10) s=38983/32000 t=29/20 gens=0
+BASEDONE (2/5,7/10) nogens
+BASE (1/5,9/4) s=42489/5000 t=13/5 gens=0
+BASEDONE (1/5,9/4) nogens
+BASE (2/5,9/8) s=44109/40000 t=29/20 gens=0
+BASEDONE (2/5,9/8) nogens
+BASE (1/5,12/7) s=46086/4375 t=13/5 gens=0
+BASEDONE (1/5,12/7) nogens
+BASE (2/3,7/6) s=28849/48384 t=13/12 gens=0
+BASEDONE (2/3,7/6) nogens
+BASE (1/3,3/14) s=50905/6804 t=5/3 gens=0
+BASEDONE (1/3,3/14) nogens
+BASE (1/4,7/8) s=53761/7168 t=17/8 gens=0
+BASEDONE (1/4,7/8) nogens
+BASE (1/3,9/14) s=56737/20412 t=5/3 gens=0
+BASEDONE (1/3,9/14) nogens
+BASE (1/4,13/8) s=61441/13312 t=17/8 gens=0
+BASEDONE (1/4,13/8) nogens
+BASE (3/7,4/3) s=63218/64827 t=29/21 gens=0
+BASEDONE (3/7,4/3) nogens
+BASE (2/5,3/8) s=72327/40000 t=29/20 gens=0
+BASEDONE (2/5,3/8) nogens
+BASE (1/5,14/3) s=77281/13125 t=13/5 gens=0
+BASEDONE (1/5,14/3) nogens
+BASE (1/7,2/7) s=82993/343 t=25/7 gens=0
+BASEDONE (1/7,2/7) nogens
+CHILD_DONE 6
+BASE (1/2,1/8) s=85/64 t=5/4 gens=4
+BASE (1/2,1/8) zvals=4
+BASEDONE (1/2,1/8)
+BASE (1/3,7/9) s=305/126 t=5/3 gens=0
+BASEDONE (1/3,7/9) nogens
+BASE (1/2,9/2) s=585/256 t=5/4 gens=6
+BASE (1/2,9/2) zvals=4
+BASEDONE (1/2,9/2)
+BASE (1/2,13/8) s=757/832 t=5/4 gens=0
+BASEDONE (1/2,13/8) nogens
+BASE (1/2,3/10) s=867/1280 t=5/4 gens=0
+BASEDONE (1/2,3/10) nogens
+BASE (1/3,4/7) s=1730/567 t=5/3 gens=0
+BASEDONE (1/3,4/7) nogens
+BASE (1/2,1/10) s=2089/1280 t=5/4 gens=0
+BASEDONE (1/2,1/10) nogens
+BASE (1/3,13/6) s=2545/1404 t=5/3 gens=0
+BASEDONE (1/3,13/6) nogens
+BASE (1/3,8/13) s=3028/1053 t=5/3 gens=0
+BASEDONE (1/3,8/13) nogens
+BASE (1/2,9/7) s=2745/3584 t=5/4 gens=0
+BASEDONE (1/2,9/7) nogens
+BASE (1/3,4/11) s=4034/891 t=5/3 gens=0
+BASEDONE (1/3,4/11) nogens
+BASE (2/3,1/9) s=881/4608 t=13/12 gens=0
+BASEDONE (2/3,1/9) nogens
+BASE (1/3,10/7) s=5161/2835 t=5/3 gens=0
+BASEDONE (1/3,10/7) nogens
+BASE (1/3,4/13) s=5570/1053 t=5/3 gens=0
+BASEDONE (1/3,4/13) nogens
+BASE (1/3,5/4) s=6121/3240 t=5/3 gens=0
+BASEDONE (1/3,5/4) nogens
+BASE (1/2,1/9) s=6817/4608 t=5/4 gens=0
+BASEDONE (1/2,1/9) nogens
+BASE (1/3,9/2) s=7585/2916 t=5/3 gens=0
+BASEDONE (1/3,9/2) nogens
+BASE (1/2,11/6) s=8473/8448 t=5/4 gens=0
+BASEDONE (1/2,11/6) nogens
+BASE (1/3,10/11) s=9769/4455 t=5/3 gens=0
+BASEDONE (1/3,10/11) nogens
+BASE (2/3,5/4) s=6605/10368 t=13/12 gens=0
+BASEDONE (2/3,5/4) nogens
+BASE (1/2,2/11) s=10825/11264 t=5/4 gens=0
+BASEDONE (1/2,2/11) nogens
+BASE (1/2,7) s=12625/3584 t=5/4 gens=0
+BASEDONE (1/2,7) nogens
+BASE (2/3,5/3) s=11645/13824 t=13/12 gens=0
+BASEDONE (2/3,5/3) nogens
+BASE (1/2,12/7) s=13611/14336 t=5/4 gens=0
+BASEDONE (1/2,12/7) nogens
+BASE (2/3,3/8) s=3541/15552 t=13/12 gens=0
+BASEDONE (2/3,3/8) nogens
+BASE (1/3,3/8) s=17113/3888 t=5/3 gens=0
+BASEDONE (1/3,3/8) nogens
+BASE (2/3,4/9) s=4721/18432 t=13/12 gens=0
+BASEDONE (2/3,4/9) nogens
+BASE (1/5,1/5) s=20761/250 t=13/5 gens=0
+BASEDONE (1/5,1/5) nogens
+BASE (1/2,4/11) s=13897/22528 t=5/4 gens=0
+BASEDONE (1/2,4/11) nogens
+BASE (1/5,4/3) s=24578/1875 t=13/5 gens=0
+BASEDONE (1/5,4/3) nogens
+BASE (1/3,3/10) s=26329/4860 t=5/3 gens=0
+BASEDONE (1/3,3/10) nogens
+BASE (3/7,10/7) s=27845/27783 t=29/21 gens=0
+BASEDONE (3/7,10/7) nogens
+BASE (1/3,7/10) s=29569/11340 t=5/3 gens=0
+BASEDONE (1/3,7/10) nogens
+BASE (1/3,3/11) s=31705/5346 t=5/3 gens=0
+BASEDONE (1/3,3/11) nogens
+BASE (3/5,1/3) s=9721/33750 t=17/15 gens=0
+BASEDONE (3/5,1/3) nogens
+BASE (1/5,5) s=36361/6250 t=13/5 gens=0
+BASEDONE (1/5,5) nogens
+BASE (1/3,13/10) s=39289/21060 t=5/3 gens=0
+BASEDONE (1/3,13/10) nogens
+BASE (1/4,9) s=42489/8192 t=17/8 gens=0
+BASEDONE (1/4,9) nogens
+BASE (1/3,13/11) s=44665/23166 t=5/3 gens=0
+BASEDONE (1/3,13/11) nogens
+BASE (2/3,10/3) s=46205/27648 t=13/12 gens=0
+BASEDONE (2/3,10/3) nogens
+BASE (1/3,9/13) s=49825/18954 t=5/3 gens=0
+BASEDONE (1/3,9/13) nogens
+BASE (1/2,14/3) s=50905/21504 t=5/4 gens=0
+BASEDONE (1/2,14/3) nogens
+BASE (1/4,1) s=54721/8192 t=17/8 gens=0
+BASEDONE (1/4,1) nogens
+BASE (2/3,11/8) s=39829/57024 t=13/12 gens=0
+BASEDONE (2/3,11/8) nogens
+BASE (2/3,3/2) s=47281/62208 t=13/12 gens=0
+BASEDONE (2/3,3/2) nogens
+BASE (1/5,8/7) s=66004/4375 t=13/5 gens=0
+BASEDONE (1/5,8/7) nogens
+BASE (2/3,7/4) s=64129/72576 t=13/12 gens=0
+BASEDONE (2/3,7/4) nogens
+BASE (3/5,7/9) s=34721/78750 t=17/15 gens=0
+BASEDONE (3/5,7/9) nogens
+BASE (3/7,6/7) s=75721/83349 t=29/21 gens=0
+BASEDONE (3/7,6/7) nogens
+CHILD_DONE 7
+EXTEND_DONE bases=398 lines=842

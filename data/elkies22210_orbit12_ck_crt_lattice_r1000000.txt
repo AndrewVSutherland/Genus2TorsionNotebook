@@ -1,0 +1,23 @@
+ELKIES22210_ORBIT12_CK_CRT_LATTICE
+moduli (1331, 361, 529)
+modulus_product 254179739
+chart_permutation_zero_based (0, 1, 2, 4, 3)
+local_seed 1331 (1, 242, 959, 9, 120) t 837 m 1202
+local_seed 361 (1, 248, 98, 3, 11) t 273 m 347
+local_seed 529 (1, 392, 118, 8, 10) t 248 m 511
+chart_congruence_t 49651130
+chart_congruence_m 195384016
+t_gauss_basis ((11517, 7766), (11032, -14631))
+m_gauss_basis ((-11435, 2957), (4827, 20980))
+radius 1000000
+t_short_vectors 3152
+m_short_vectors 3138
+t_shortest [(-11032, 14631), (485, 22397), (-22549, 6865), (12002, 30163), (34066, 901)]
+m_shortest [(-11435, 2957), (4827, 20980), (16262, 18023), (-6608, 23937), (27697, 15066)]
+parameter_pairs 9890976
+smooth_ck_points 9890976
+sign_feasible_points 1799807
+exact_square_mask_counts 0:9890976
+exact_cover_hits 0
+selected_disk_only True
+DONE

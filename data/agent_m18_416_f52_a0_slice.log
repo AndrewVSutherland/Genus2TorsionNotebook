@@ -1,0 +1,25 @@
+p=101 Res_b factor profile:
+  <deg 1, degR 0, degw 1, dega 0, mult 3>  wp + 1
+  <deg 1, degR 0, degw 1, dega 0, mult 3>  wp + 100
+  <deg 1, degR 1, degw 0, dega 0, mult 8>  Rp + 1
+  <deg 5, degR 5, degw 4, dega 1, mult 8>
+  <deg 52, degR 42, degw 28, dega 16, mult 1>
+p=7 Res_b factor profile:
+  <deg 1, degR 0, degw 1, dega 0, mult 3>  wp + 1
+  <deg 1, degR 0, degw 1, dega 0, mult 3>  wp + 6
+  <deg 1, degR 1, degw 0, dega 0, mult 8>  Rp + 1
+  <deg 5, degR 5, degw 4, dega 1, mult 8>
+  <deg 52, degR 42, degw 28, dega 16, mult 1>
+computing exact a=0 slice resultant over Q ...
+Res_b on a=0 slice: total degree 106, terms 2324 (0.230 s)
+after stripping boundary/F5 factors: degree 52, terms 443
+factorization of the a=0 slice core (F52(R,w,0) up to strips):
+  <deg 52, degR 42, degw 28, terms 443, mult 1> origin=true
+component deg 52: genus skipped (too big)
+DONE_SYMBOLIC
+
+HUNT on a=0 slice, height=20
+
+SUMMARY swept_R=508 slice_points=0 certified16=0 hits416=0
+TORSION_COUNTS
+DONE

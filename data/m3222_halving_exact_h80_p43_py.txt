@@ -1,0 +1,4 @@
+Exact M_1(8,2,2) halving candidate-file test
+candidate_file data/m3222_halving_candidates_h80_p43_py.txt max_exact 1000000
+
+[Interrupted]

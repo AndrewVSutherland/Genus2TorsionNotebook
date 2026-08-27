@@ -1,0 +1,13 @@
+A) quartic coefficients (deg in b):
+  x^0: -1
+  x^1: -2*aa - 1
+  x^2: -aa^2 - 2*aa - 2*bb - 1
+  x^3: -aa^2 - 2*aa*bb - 2*aa - 2*bb - 1
+  x^4: -aa^2 - 2*aa*bb - 2*aa - bb^2 - 2*bb - 1
+A) resolvent degrees in (a,b): [ 4, 3, 3, 2, 2, 1, 0, 0 ]
+B) disc numerator (in t): 27/8*x^2 - 171/16*x + 9
+B) disc denominator: x
+B) squarefree core: T^3 - 19/6*T^2 + 8/3*T (degree 3)
+B) => genus 1; curve y^2 = T^3 - 19/6*T^2 + 8/3*T
+C) [2,2,10] probe
+ROUND3B_DONE

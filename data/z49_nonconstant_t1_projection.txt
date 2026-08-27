@@ -1,0 +1,18 @@
+Z49_NONCONSTANT_T1_PROJECTION
+q -1 T 1 sign 1 r 2*t^2-1
+normalized_profiles [(4,4,2,28,39),(4,4,2,30,62),(4,4,2,32,90),(2,2,1,16,19)]
+after_w_elimination_core_profiles [(4,4,23),(4,4,25),(4,4,27)]
+stripped_open_boundary_factors t^18*(t-1)^5
+a_resultant_01 degree_b 12 degree_t 136 terms 1209
+a_resultant_01_factors [(0,1,18),(0,1,10),(0,2,8),(2,14,1),(10,78,1)]
+a_resultant_02 degree_b 12 degree_t 144 terms 1336
+a_resultant_02_factors [(0,1,16),(0,1,10),(0,2,8),(12,102,1)]
+small_b2_b12_projection degree 288 terms 249 factors [(1,40),(248,1)]
+only_linear_factor t; excluded_by_open_condition t!=0
+CONCLUSION small_regular_component_open_Q_points 0
+UNRESOLVED large_b10_b12_component and exceptional_w_denominator_chart
+first_resultant_elapsed_seconds 111.40 max_rss_kb 79908
+second_resultant_elapsed_seconds 62.96 max_rss_kb 83272
+small_projection_elapsed_seconds 172.09 max_rss_kb 105876
+large_projection_aborted_at_memory_cap max_rss_kb 294432
+Z49_NONCONSTANT_T1_PROJECTION_DONE

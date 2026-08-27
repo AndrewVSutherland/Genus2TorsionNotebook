@@ -1,0 +1,6 @@
+VALIDATION t=-36 factor_degrees={* 1, 2, 3 *} torsion=[ 22 ]
+VALIDATION_PASS
+PROGRESS tested=100000 cands=0
+PROGRESS tested=200000 cands=0
+PROGRESS tested=300000 cands=0
+SEARCH_DONE H=500 tested=304462 cands=0

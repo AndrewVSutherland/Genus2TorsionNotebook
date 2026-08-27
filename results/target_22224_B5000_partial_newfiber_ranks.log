@@ -1,0 +1,262 @@
+B5000_PARTIAL_NEWFIBER_RANKS_START fibers 26
+FIBER_START N1 fixed [ -3, 10, 18 ]
+d0 -48/5 t1 2/5 member0 [ -3, 10, 18, -48/5 ]
+member1 [ -3, 10, 18, -192/125 ]
+QUOTIENT N1 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 4571700*x + 5421458000 over Rational Field
+QUOTIENT N1 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+QUOTIENT N1 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 75133*x + 7889363 over Rational Field
+FIBER_DONE N1
+FIBER_START N2 fixed [ -25, -1, 40 ]
+d0 4205/98 t1 49/29 member0 [ -25, -1, 40, 4205/98 ]
+member1 [ -25, -1, 40, 245/2 ]
+QUOTIENT N2 <1, 2> rank_bounds 2 2 torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 13745*x + 123057 over Rational Field
+QUOTIENT N2 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+QUOTIENT N2 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 52778700*x + 507414726000 over Rational Field
+FIBER_DONE N2
+FIBER_START N3 fixed [ -23, -4, 50 ]
+d0 578/23 t1 37/17 member0 [ -23, -4, 50, 578/23 ]
+member1 [ -23, -4, 50, 2738/23 ]
+QUOTIENT N3 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 2908971*x + 1697077494 over Rational Field
+QUOTIENT N3 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 82974708*x + 221436090576 over Rational Field
+QUOTIENT N3 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 50079*x + 386205345 over Rational Field
+FIBER_DONE N3
+FIBER_START N4 fixed [ -36, -3, 52 ]
+d0 768/13 t1 5/2 member0 [ -36, -3, 52, 768/13 ]
+member1 [ -36, -3, 52, 4800/13 ]
+QUOTIENT N4 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 158691*x + 15023086 over Rational Field
+QUOTIENT N4 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 78191*x + 2778335 over Rational Field
+QUOTIENT N4 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 268203*x + 1726108202 over Rational Field
+FIBER_DONE N4
+FIBER_START N5 fixed [ -31, -2, 64 ]
+d0 1250/31 t1 41/25 member0 [ -31, -2, 64, 1250/31 ]
+member1 [ -31, -2, 64, 3362/31 ]
+QUOTIENT N5 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 2557716876*x + 23930032580784 over Rational Field
+QUOTIENT N5 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 7925364117*x + 189767984747418 over Rational Field
+QUOTIENT N5 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 739329*x + 1156631553 over Rational Field
+FIBER_DONE N5
+FIBER_START N6 fixed [ -3, -2, 18 ]
+d0 588/169 t1 13/7 member0 [ -3, -2, 18, 588/169 ]
+member1 [ -3, -2, 18, 12 ]
+QUOTIENT N6 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+QUOTIENT N6 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+QUOTIENT N6 <2, 3> rank_bounds 1 1 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 4*x + 30 over Rational Field
+FIBER_DONE N6
+FIBER_START N7 fixed [ -15, 16, 24 ]
+d0 -72/5 t1 3/5 member0 [ -15, 16, 24, -72/5 ]
+member1 [ -15, 16, 24, -648/125 ]
+QUOTIENT N7 <1, 2> rank_bounds 2 2 torsion [ 4 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 215925*x + 2160250 over Rational Field
+QUOTIENT N7 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+QUOTIENT N7 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+FIBER_DONE N7
+FIBER_START N8 fixed [ -14, -11, 35 ]
+d0 1375/98 t1 7/5 member0 [ -14, -11, 35, 1375/98 ]
+member1 [ -14, -11, 35, 55/2 ]
+QUOTIENT N8 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 82433*x + 9136737 over Rational Field
+QUOTIENT N8 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 7897428*x + 8086112496 over Rational Field
+QUOTIENT N8 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 3033*x + 86616 over Rational Field
+FIBER_DONE N8
+FIBER_START N9 fixed [ -46, 47, 49 ]
+d0 -1081/50 t1 5/7 member0 [ -46, 47, 49, -1081/50 ]
+member1 [ -46, 47, 49, -1081/98 ]
+QUOTIENT N9 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 34591*x + 34593 over Rational Field
+QUOTIENT N9 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 716749812*x + 404426300112 over Rational Field
+QUOTIENT N9 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 14621031*x + 21518653536 over Rational Field
+FIBER_DONE N9
+FIBER_START N10 fixed [ -45, -12, 50 ]
+d0 3630/49 t1 49/11 member0 [ -45, -12, 50, 3630/49 ]
+member1 [ -45, -12, 50, 1470 ]
+QUOTIENT N10 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29268075*x + 58611869750 over Rational Field
+QUOTIENT N10 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 35967*x + 252063 over Rational Field
+QUOTIENT N10 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 6233748*x + 12012468496 over Rational Field
+FIBER_DONE N10
+FIBER_START N11 fixed [ -64, 120, 169 ]
+d0 -1352/15 t1 1/13 member0 [ -64, 120, 169, -1352/15 ]
+member1 [ -64, 120, 169, -8/15 ]
+QUOTIENT N11 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 20447700*x + 20979938000 over Rational Field
+QUOTIENT N11 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 + x*y + y = x^3 - x^2 + 27279295*x + 56323031797 over Rational Field
+QUOTIENT N11 <2, 3> rank_bounds 2 2 torsion [ 4 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+FIBER_DONE N11
+FIBER_START N12 fixed [ -28, 50, 55 ]
+d0 -3610/77 t1 1/19 member0 [ -28, 50, 55, -3610/77 ]
+member1 [ -28, 50, 55, -10/77 ]
+QUOTIENT N12 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 32245855*x + 37845914625 over Rational Field
+QUOTIENT N12 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 7893425925*x + 173090264019750 over Rational Field
+QUOTIENT N12 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 3132290700*x + 67474664334000 over Rational Field
+FIBER_DONE N12
+FIBER_START O1 fixed [ -1, 4, 6 ]
+d0 -98/27 t1 3/7 member0 [ -1, 4, 6, -98/27 ]
+member1 [ -1, 4, 6, -2/3 ]
+QUOTIENT O1 <1, 2> rank_bounds 1 1 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 117*x + 918 over Rational Field
+QUOTIENT O1 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+QUOTIENT O1 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+FIBER_DONE O1
+FIBER_START O2 fixed [ -1, 6, 9 ]
+d0 -507/98 t1 7/13 member0 [ -1, 6, 9, -507/98 ]
+member1 [ -1, 6, 9, -3/2 ]
+QUOTIENT O2 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+QUOTIENT O2 <1, 3> rank_bounds 1 1 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 4*x + 30 over Rational Field
+QUOTIENT O2 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+FIBER_DONE O2
+FIBER_START O3 fixed [ -3, -2, 12 ]
+d0 162/49 t1 7/3 member0 [ -3, -2, 12, 162/49 ]
+member1 [ -3, -2, 12, 18 ]
+QUOTIENT O3 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+QUOTIENT O3 <1, 3> rank_bounds 1 1 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 117*x + 918 over Rational Field
+QUOTIENT O3 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+FIBER_DONE O3
+FIBER_START O4 fixed [ -9, 10, 15 ]
+d0 -75/8 t1 1/2 member0 [ -9, 10, 15, -75/8 ]
+member1 [ -9, 10, 15, -75/32 ]
+QUOTIENT O4 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 35967*x + 252063 over Rational Field
+QUOTIENT O4 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 3300*x + 34000 over Rational Field
+QUOTIENT O4 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+FIBER_DONE O4
+FIBER_START O5 fixed [ -15, -10, 16 ]
+d0 50/3 t1 5/3 member0 [ -15, -10, 16, 50/3 ]
+member1 [ -15, -10, 16, 1250/27 ]
+QUOTIENT O5 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 29100*x + 1910000 over Rational Field
+QUOTIENT O5 <1, 3> rank_bounds 2 2 torsion [ 4 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 215925*x + 2160250 over Rational Field
+QUOTIENT O5 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+FIBER_DONE O5
+FIBER_START O6 fixed [ -15, -1, 25 ]
+d0 605/27 t1 21/11 member0 [ -15, -1, 25, 605/27 ]
+member1 [ -15, -1, 25, 245/3 ]
+QUOTIENT O6 <1, 2> rank_bounds 2 2 torsion [ 4 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 32700*x + 1136000 over Rational Field
+QUOTIENT O6 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 3300*x + 34000 over Rational Field
+QUOTIENT O6 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 207*x + 8856 over Rational Field
+FIBER_DONE O6
+FIBER_START O7 fixed [ -9, -5, 30 ]
+d0 75/8 t1 5/2 member0 [ -9, -5, 30, 75/8 ]
+member1 [ -9, -5, 30, 1875/32 ]
+QUOTIENT O7 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 75133*x + 7889363 over Rational Field
+QUOTIENT O7 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 4571700*x + 5421458000 over Rational Field
+QUOTIENT O7 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+FIBER_DONE O7
+FIBER_START O8 fixed [ -22, 55, 70 ]
+d0 -1372/25 t1 5/7 member0 [ -22, 55, 70, -1372/25 ]
+member1 [ -22, 55, 70, -28 ]
+QUOTIENT O8 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 7897428*x + 8086112496 over Rational Field
+QUOTIENT O8 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 3033*x + 86616 over Rational Field
+QUOTIENT O8 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 82433*x + 9136737 over Rational Field
+FIBER_DONE O8
+FIBER_START O9 fixed [ 1, 55, 99 ]
+d0 5/9 t1 15 member0 [ 1, 55, 99, 5/9 ]
+member1 [ 1, 55, 99, 125 ]
+QUOTIENT O9 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 15500*x + 200430 over Rational Field
+QUOTIENT O9 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 93233*x + 5990337 over Rational Field
+QUOTIENT O9 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 363645*x - 84151395 over Rational Field
+FIBER_DONE O9
+FIBER_START M1 fixed [ -16, -5, 30 ]
+d0 50/3 t1 11/3 member0 [ -16, -5, 30, 50/3 ]
+member1 [ -16, -5, 30, 6050/27 ]
+QUOTIENT M1 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 5148675*x + 4392029250 over Rational Field
+QUOTIENT M1 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 20447700*x + 20979938000 over Rational Field
+QUOTIENT M1 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+FIBER_DONE M1
+FIBER_START M2 fixed [ -1, 25, 40 ]
+d0 -605/32 t1 17/22 member0 [ -1, 25, 40, -605/32 ]
+member1 [ -1, 25, 40, -1445/128 ]
+QUOTIENT M2 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 207*x + 8856 over Rational Field
+QUOTIENT M2 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 52778700*x + 507414726000 over Rational Field
+QUOTIENT M2 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 3656033*x + 2690183937 over Rational Field
+FIBER_DONE M2
+FIBER_START M3 fixed [ -25, -1, 65 ]
+d0 405/13 t1 37/27 member0 [ -25, -1, 65, 405/13 ]
+member1 [ -25, -1, 65, 6845/117 ]
+QUOTIENT M3 <1, 2> rank_bounds 2 2 torsion [ 2, 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 13745*x + 123057 over Rational Field
+QUOTIENT M3 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 252092*x + 48819562 over Rational Field
+QUOTIENT M3 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 4670033*x + 8380751937 over Rational Field
+FIBER_DONE M3
+FIBER_START M4 fixed [ -49, -2, 100 ]
+d0 3362/49 t1 61/41 member0 [ -49, -2, 100, 3362/49 ]
+member1 [ -49, -2, 100, 7442/49 ]
+QUOTIENT M4 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 13098636*x + 3716350416 over Rational Field
+QUOTIENT M4 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 48724533*x + 89702055126 over Rational Field
+QUOTIENT M4 <2, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 2401*x + 122785 over Rational Field
+FIBER_DONE M4
+FIBER_START M5 fixed [ 99, 244, 4026 ]
+d0 6 t1 29 member0 [ 99, 244, 4026, 6 ]
+member1 [ 99, 244, 4026, 5046 ]
+QUOTIENT M5 <1, 2> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 - 6656176*x - 6555416176 over Rational Field
+QUOTIENT M5 <1, 3> rank_bounds 4 4 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 726617100*x + 814904750000 over Rational Field
+QUOTIENT M5 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 110327277900*x - 6272735695310000 over Rational Field
+FIBER_DONE M5
+B5000_PARTIAL_NEWFIBER_RANKS_DONE

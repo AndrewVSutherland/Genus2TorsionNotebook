@@ -1,0 +1,18 @@
+COEFFICIENT_BASE <0, 0> allowed 1021
+COEFFICIENT_BASE <0, 1> allowed 28561
+COEFFICIENT_BASE <0, 2> allowed 28561
+COEFFICIENT_BASE <0, 3> allowed 1021
+COEFFICIENT_BASE <1, 0> allowed 1021
+COEFFICIENT_BASE <1, 1> allowed 1021
+COEFFICIENT_BASE <1, 2> allowed 28561
+COEFFICIENT_BASE <1, 3> allowed 28561
+COEFFICIENT_BASE <2, 0> allowed 28561
+COEFFICIENT_BASE <2, 1> allowed 1021
+COEFFICIENT_BASE <2, 2> allowed 1021
+COEFFICIENT_BASE <2, 3> allowed 28561
+COEFFICIENT_BASE <3, 0> allowed 28561
+COEFFICIENT_BASE <3, 1> allowed 28561
+COEFFICIENT_BASE <3, 2> allowed 1021
+COEFFICIENT_BASE <3, 3> allowed 1021
+V1_P13_COEFFICIENT_MASK_DONE period 28561 cformal 10123 total 456976 finite 456976 infinity 0 unresolved 0 allowed 236656 counts Associative Array with index universe String structure
+output results/target_22224_V1_p13_coefficient_mask.tsv

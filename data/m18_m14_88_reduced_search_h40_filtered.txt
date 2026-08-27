@@ -1,0 +1,12 @@
+Reduced [8,8] exact search
+height 40 params 1959 pairs 3837681 max_hits 10 progress_interval 500000 use_filter true
+progress 500000 residue_filtered 499283 open_good 716 first_bases 10 first_solutions 40 second_solutions 0 verified 0 hits 0
+progress 1000000 residue_filtered 996327 open_good 3672 first_bases 30 first_solutions 120 second_solutions 0 verified 0 hits 0
+progress 1500000 residue_filtered 1489523 open_good 10476 first_bases 64 first_solutions 256 second_solutions 0 verified 0 hits 0
+progress 2000000 residue_filtered 1988169 open_good 11830 first_bases 74 first_solutions 296 second_solutions 0 verified 0 hits 0
+progress 2500000 residue_filtered 2484751 open_good 15248 first_bases 88 first_solutions 352 second_solutions 0 verified 0 hits 0
+progress 3000000 residue_filtered 2982713 open_good 17286 first_bases 106 first_solutions 424 second_solutions 0 verified 0 hits 0
+progress 3500000 residue_filtered 3478951 open_good 21048 first_bases 132 first_solutions 528 second_solutions 0 verified 0 hits 0
+DONE height 40
+checked 3837681 residue_filtered 3813949 open_good 23732 first_bases 150 first_solutions 600 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

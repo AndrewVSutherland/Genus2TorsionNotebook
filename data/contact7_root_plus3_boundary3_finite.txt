@@ -1,0 +1,27 @@
+FINITE p=3 boundary summary for contact-7 rational-root plus 3
+finite root-chart branch s=0, r=1
+  b 0 h1 0 disc 0 factor [
+    <X, 1>,
+    <X + 2, 4>
+]
+  b 1 h1 0 disc 0 factor [
+    <X + 2, 2>,
+    <X^3 + 2*X^2 + 1, 1>
+]
+  b 2 h1 0 disc 0 factor [
+    <X + 2, 2>,
+    <X^3 + 2*X^2 + 2*X + 2, 1>
+]
+r=0 cancellation limit: eps*s == 1, a -> 1
+  b 0 h1 0 disc 0 factor [
+<X, 1>,
+<X + 2, 4>
+]
+  b 1 h1 1 disc 0 factor [
+<X, 2>,
+<X^3 + 2*X + 1, 1>
+]
+  b 2 h1 2 disc 2 factor [
+<X, 1>,
+<X^4 + X^2 + 2, 1>
+] #J 14 L 9*x^4 + 4*x^2 + 1

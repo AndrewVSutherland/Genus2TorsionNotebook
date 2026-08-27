@@ -1,0 +1,61 @@
+contact-7 cyclic-49 repeated-root boundary search
+date: 2026-07-18
+
+command:
+  magma -b mode:="all" height:=6 prime_bound:=43 pole_depth:=1 \
+    point_pole_depth:=1 max_record:=12 \
+    code/contact7_to49_repeated_boundary3.m
+
+configuration:
+  3-integral chart parameters: 35
+  point abscissas: 57 (integral plus first pole layer)
+  contact/Q5 depth: 7
+  exact point masks: p=5,11,13,17,19,23,29,31,37,41,43
+
+local point-mask sizes (curves with P / points):
+  5: 1/2
+  11: 10/24
+  13: 9/30
+  17: 16/42
+  19: 29/90
+  23: 22/52
+  29: 50/124
+  31: 56/138
+  37: 73/216
+  41: 72/172
+  43: 72/174
+
+ordinary residue (0,1):
+  curves 770, smooth 770, x checks 43890, rational points 1632
+  point-mask survivors 0, exact hits 0
+  first kills: p5 488, p11 1074, p13 66, p17 4
+
+ordinary residue (2,2):
+  curves 770, smooth 770, x checks 43890, rational points 1542
+  point-mask survivors 0, exact hits 0
+  first kills: p5 442, p11 1024, p13 70, p17 6
+
+Q5-only residue (1,1), v3(Q5)=7:
+  curves 258, smooth 258, x checks 14706, rational points 534
+  point-mask survivors 0, exact hits 0
+  first kills: p5 190, p11 286, p13 46, p17 10, p19 2
+
+intersection residue (1,0), contact-depth slice v3(h(1))=7:
+  curves 770, smooth 770, x checks 43890, rational points 1596
+  point-mask survivors 0, exact hits 0
+  first kills: p5 468, p11 1040, p13 88
+
+common parameter pole e=1:
+  curves 1056, smooth 1054, x checks 60078, rational points 2352
+  point-mask survivors 0, exact hits 0
+  first kills: p5 856, p11 1270, p13 190, p17 36
+
+totals:
+  curves 3624, smooth 3622
+  x checks 206454
+  rational points 7656
+  point-mask survivors 0
+  cyclic-49 hits 0
+  elapsed 6.84 s
+  maximum RSS 24576 KB
+  exit status 0

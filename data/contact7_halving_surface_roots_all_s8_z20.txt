@@ -1,0 +1,9 @@
+# contact7 halving surface root candidates
+# s_height=8 z_height=20 u_height=0
+# boundary_prime=5 require_boundary=False
+# checked=85848 quartics=85848 root_t=8 square_t=2 hits=4 boundary_hits=0
+# columns: s u z eps a b r v w p_boundary
+-1/2 -4 -3/16 1 11/2 -7/2 3/4 7/2 -1 open
+-1/2 4 -3/16 1 11/2 -7/2 3/4 7/2 1 open
+1/2 -4 -3/16 -1 11/2 -7/2 3/4 7/2 -1 open
+1/2 4 -3/16 -1 11/2 -7/2 3/4 7/2 1 open

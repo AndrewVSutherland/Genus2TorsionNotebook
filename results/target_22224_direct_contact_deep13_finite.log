@@ -1,0 +1,5 @@
+TARGET_22224_DIRECT_CONTACT_FINITE_START [ 37, 41, 43 ]
+DIRECT_CONTACT_FINITE p 37 triples 50653 tzero 1369 repeatedq 2664 singular_or_gcd 3512 split_negative_squares 45 cover_signs 192 jac_tests 192 D3_order3 192 D4_order4 192 D4_divisible 192 target_triples 23 target_curves 23 bad_identity 0 file results/target_22224_direct_contact_deep13_p37.tsv
+DIRECT_CONTACT_FINITE p 41 triples 68921 tzero 1681 repeatedq 3280 singular_or_gcd 4380 split_negative_squares 105 cover_signs 570 jac_tests 570 D3_order3 570 D4_order4 570 D4_divisible 570 target_triples 54 target_curves 51 bad_identity 0 file results/target_22224_direct_contact_deep13_p41.tsv
+DIRECT_CONTACT_FINITE p 43 triples 79507 tzero 1849 repeatedq 3612 singular_or_gcd 4850 split_negative_squares 106 cover_signs 720 jac_tests 720 D3_order3 720 D4_order4 720 D4_divisible 720 target_triples 76 target_curves 74 bad_identity 0 file results/target_22224_direct_contact_deep13_p43.tsv
+TARGET_22224_DIRECT_CONTACT_FINITE_DONE

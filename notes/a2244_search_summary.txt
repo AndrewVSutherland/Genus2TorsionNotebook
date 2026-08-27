@@ -1,0 +1,406 @@
+A(2,2,4,4) / M(2,2,4,8) Search Summary
+================================================
+
+Workspace: torsion_jac
+Summary file: notes/a2244_search_summary.txt
+Main running notes: notes/a2244_local_obstructions.md
+
+Goal
+----
+We investigated the route from the K3 surface model for M(2,2,2,8) / M(2,2,4,8)
+toward examples whose Jacobians have larger torsion, especially through a possible
+A(2,2,4,4) stage and then an extra halving to M(2,2,4,8).
+
+The central question became: are the repeated failures caused by blind height-search
+limitations, or by local obstructions on the relevant K3 boundary strata?
+
+Main Code Added or Changed
+--------------------------
+1. code/enumerate_surface_tuples.cpp
+   - C++ enumerator for primitive positive sorted curve tuples on the K3 surface.
+   - Added boundary component filtering: zero components and pair-collision strata.
+   - Added grouped boundary specs:
+       D = {Ead,Ebd,Ecd}
+       N = {Za,Zb,Zc,Zd,Eab,Eac,Ebc}
+       any = all boundary components
+   - Added optional REAL_LOCAL_DEPTH filter. For sorted positive tuples, this checks
+     the real-compatible partition 12|34 locally at the required primes to a chosen
+     p-adic depth.
+   - Added an early mod-p common A(2,2,4,4) partition prefilter. This shrinks the
+     residue table before the expensive integer enumeration starts.
+
+2. code/m2248_sieve.m
+   - Existing exact Magma sieve was used repeatedly.
+   - It checks A(2,2,4,4) square conditions across all permutations, then tests the
+     intermediate and full M(2,2,4,8) halving equations.
+
+3. code/analyze_a2244_boundary_strata.py
+   - Diagnostic for exact signed Q_p squareclasses of A(2,2,4,4) partitions on
+     generated tuple files.
+   - Important correction: the p-adic unit sign must be retained. Using abs(n) is
+     wrong at p=11 and p=23 because -1 is nonsquare.
+
+4. code/analyze_a2244_padic_residues.py
+   - Finite p-adic residue-class analyzer on the K3 surface.
+   - Refines mod-p A(2,2,4,4)-ambiguous boundary classes to p^2.
+
+5. code/analyze_a2244_padic_deep_charts.py
+   - Samples p^3 behavior of normalized p^2-deep boundary charts.
+   - This is a diagnostic chart sampler, not a full p^3 enumeration of every p^2 class.
+
+6. code/a2244_padic_signature_sieve.py
+   - Candidate-level signed finite-depth local sieve.
+   - Computes oriented A(2,2,4,4) cross-difference squareclasses at 11^k and 23^k.
+   - Tracks common partitions, real-compatible partitions, and exact signed Q_p status.
+
+7. code/run_surface_tuple_chunks.py
+   - Resumable chunk driver for long height searches.
+   - Runs the C++ enumerator on ax-ranges, writes chunks atomically, and merges completed chunks.
+
+Good-Reduction Obstruction
+--------------------------
+Finite-field checks at p=11 and p=23 showed that no good-reduction K3 point gives an
+A(2,2,4,4) lift. Therefore any rational candidate must have bad reduction at both
+11 and 23:
+
+    p | abcd * product_{i<j}(a_i^2 - a_j^2)
+
+This was the first major pruning principle. It moved the search away from blind height
+enumeration and toward boundary strata at 11 and 23.
+
+Height Searches Before Boundary Refinement
+------------------------------------------
+Forced-bad-reduction searches produced no M(2,2,4,8) witnesses:
+
+    B=2000, required bad at 11 and 23:
+      38 tuples
+      exact all-permutation M(2,2,4,8) sieve: 0 intermediate, 0 full
+
+    B=5000, required bad at 11 and 23:
+      72 tuples
+      exact all-permutation M(2,2,4,8) sieve: 0 intermediate, 0 full
+
+Boundary-Stratum Searches at B=10000
+------------------------------------
+The boundary search was split into computationally tractable strata.
+
+1. d-collision family:
+
+    11 in {Ead,Ebd,Ecd}, 23 in {Ead,Ebd,Ecd}
+
+    Result:
+      114 tuples
+      exact all-permutation M(2,2,4,8) sieve: 0 intermediate, 0 full
+
+2. non-d/zero family:
+
+    11 in {Za,Zb,Zc,Zd,Eab,Eac,Ebc},
+    23 in {Za,Zb,Zc,Zd,Eab,Eac,Ebc}
+
+    Result:
+      118 tuples
+      exact all-permutation M(2,2,4,8) sieve: 0 intermediate, 0 full
+
+3. mixed D/N family:
+
+    11 in D, 23 in N, and 11 in N, 23 in D
+
+    Result:
+      118 tuples
+      byte-identical to the non-d/zero output
+      no new tuples
+
+Conclusion from B=10000 boundary search:
+  The tractable boundary decompositions stabilize to the same 118-tuple forced-boundary set.
+  None pass the exact M(2,2,4,8) sieve.
+
+Corrected Signed Boundary Squareclass Diagnostics
+-------------------------------------------------
+After fixing the sign convention for Q_p squareclasses, the corrected B=10000 boundary
+summary is:
+
+    Q11 local possible: 18 / 118
+    Q23 local possible: 44 / 118
+    same ordering locally possible at Q11 and Q23: 1 / 118
+    same ordering locally possible at Q11, Q23, and R: 0 / 118
+
+The unique exact signed finite-local survivor is:
+
+    [605,845,2925,6877]
+
+It has common finite partition 13|24 at 11 and 23, but it is not real-compatible and is
+also obstructed at many auxiliary finite primes.
+
+Important correction:
+  Earlier unsigned/absolute-value diagnostics were misleading. The oriented sign of
+  each cross-difference matters over Q_11 and Q_23.
+
+Boundary Strata Do Not Alone Force Failure
+------------------------------------------
+A simple boundary label such as Eij or Zi is too coarse to force A(2,2,4,4) failure.
+For a fixed 2+2 partition, only the four cross-differences matter:
+
+    a_i^2 - a_k^2, a_i^2 - a_l^2, a_j^2 - a_k^2, a_j^2 - a_l^2
+
+They must have the same Q_p^*/Q_p^{*2} squareclass. A collision inside one side of the
+partition may be harmless, while a cross-collision can force an odd valuation or a deep
+ambiguity.
+
+Conclusion:
+  Boundary component labels alone do not prove impossibility. The obstruction is finer:
+  partition compatibility, squareclass signs, p-adic depth, real signs, and finally the
+  full M(2,2,4,8) equations.
+
+p^2 Residue-Class Refinement
+----------------------------
+The p-adic residue analyzer works directly on the K3 equation modulo p and p^2, excluding
+the all-zero projective residue class.
+
+At p=11:
+    F_p roots: 1470
+    boundary roots: 1230
+    good-reduction roots: 240
+    singular roots: 70
+    good-reduction roots with any surviving A(2,2,4,4) partition: 0
+    per partition: killed 1120, ambiguous 310, resolved_ok 40
+
+At p=23:
+    F_p roots: 12166
+    boundary roots: 6886
+    good-reduction roots: 5280
+    singular roots: 154
+    good-reduction roots with any surviving A(2,2,4,4) partition: 0
+    per partition: killed 10120, ambiguous 1210, resolved_ok 836
+
+The p^2 refinement did not kill the ambiguous boundary classes uniformly:
+
+    p=11, per partition:
+      all_lifts_killed = 0
+      deep_only = 280
+      resolved_and_deep = 30
+      has_resolved_ok_lift = 30
+      has_deep_lift = 310
+
+    p=23, per partition:
+      all_lifts_killed = 0
+      deep_only = 1144
+      resolved_and_deep = 66
+      has_resolved_ok_lift = 66
+      has_deep_lift = 1210
+
+Conclusion:
+  p^2 confirms that good reduction is impossible, but it does not prove the boundary
+  itself impossible. Every mod-p ambiguous root-partition has some deep p^2 lift.
+
+Sampled p^3 Deep-Chart Analysis
+--------------------------------
+The p^2-deep population was compressed into normalized broad chart keys and sampled at p^3.
+
+Compression:
+
+    p=11:
+      broad p^2 chart keys: 273
+      sampled p^2 representatives: 618
+      p^2 deep root-partitions represented: 2,518,230
+
+    p=23:
+      broad p^2 chart keys: 273
+      sampled p^2 representatives: 666
+      p^2 deep root-partitions represented: 102,542,418
+
+The sampled p^3 behavior is mixed, not uniformly obstructed.
+
+At p=23 sampled p^3 lift statuses:
+
+    12|34: killed=7,670,454  deep=3,682,898  resolved_ok=983,986
+    13|24: killed=7,925,961  deep=3,682,898  resolved_ok=728,479
+    14|23: killed=7,901,627  deep=3,682,898  resolved_ok=752,813
+
+At p=11 sampled p^3 lift statuses:
+
+    12|34: killed=192,720  deep=188,276  resolved_ok=63,558
+    13|24: killed=208,692  deep=188,276  resolved_ok=47,586
+    14|23: killed=210,023  deep=188,276  resolved_ok=46,255
+
+Conclusion:
+  A p^2 deep mask can contain subcharts that do not lift, subcharts killed by squareclass
+  mismatch, subcharts that resolve to local A(2,2,4,4), and subcharts that remain deep.
+  Thus the local obstruction is not captured by a coarse boundary mask.
+
+Candidate-Level Signed Finite-Depth Sieve
+-----------------------------------------
+The signed finite-depth sieve was run on the 118 height-10000 boundary tuples.
+
+Counts by depth:
+
+    k=1: finite common at 11 and 23 = 28, real-compatible = 9
+    k=2: finite common at 11 and 23 = 21, real-compatible = 5
+    k=3: finite common at 11 and 23 = 14, real-compatible = 4
+    k=4: finite common at 11 and 23 = 1,  real-compatible = 0
+    k=5: finite common at 11 and 23 = 1,  real-compatible = 0
+    k=6: finite common at 11 and 23 = 1,  real-compatible = 0
+
+The one finite-local survivor at depths 4 through 6 is again:
+
+    [605,845,2925,6877]
+
+It is not real-compatible.
+
+The 14 p^3 survivors were fed to the exact all-permutation M(2,2,4,8) sieve:
+
+    intermediate witnesses: 0
+    full witnesses: 0
+
+Conclusion:
+  At height 10000, signed depth 4 plus real compatibility kills all candidates before
+  the exact M(2,2,4,8) stage. The p^3 sieve is already useful, reducing 118 tuples to 14,
+  but depth 4 is the effective terminal filter on this dataset.
+
+Integrated Higher-Height Filtering
+----------------------------------
+The C++ enumerator now supports:
+
+    REAL_LOCAL_DEPTH
+
+When this is positive, the enumerator applies the real-compatible local depth filter to
+positive sorted tuples. For sorted positive tuples, the real-compatible partition is 12|34.
+
+A chunked driver was added:
+
+    code/run_surface_tuple_chunks.py
+
+This is needed because higher-height searches should be resumable and split by ax-range.
+
+B=20000 Pilot Before Early Prefilter
+------------------------------------
+A first B=20000 pilot used:
+
+    boundary = 11:N,23:N
+    REAL_LOCAL_DEPTH = 4
+    ax = 1..10
+
+Result:
+
+    elapsed: 115.957s
+    tuples: 0
+
+This showed that the depth-4 final filter keeps output tiny, but most runtime is spent
+before tuples are formed.
+
+Improved Early Common-Partition Prefilter
+-----------------------------------------
+The filter was improved by moving a necessary mod-p A(2,2,4,4) condition into the residue
+prefilter. Now the residue table for signed (a,b,c) mod 11*23 also requires that some
+compatible d mod p allows a common raw A(2,2,4,4) partition at both obstruction primes.
+
+For boundary 11:N,23:N, the residue-table reduction is:
+
+    without early common-partition prefilter:
+      allowed signed residue triples modulo 253: 3,133,151 / 16,194,277
+      allowed positive c residue entries:        6,266,302 / 32,388,554
+
+    with early common-partition prefilter:
+      allowed signed residue triples modulo 253:   964,463 / 16,194,277
+      allowed positive c residue entries:        1,928,926 / 32,388,554
+
+This is about a 3.25x reduction before the expensive integer enumeration begins.
+
+B=20000 Pilot After Early Prefilter
+-----------------------------------
+Same pilot:
+
+    B=20000
+    boundary = 11:N,23:N
+    REAL_LOCAL_DEPTH = 4
+    ax = 1..10
+
+Result:
+
+    elapsed: 35.660s
+    tuples: 0
+
+Conclusion:
+  The early common-partition prefilter makes a full chunked B=20000 search substantially
+  more realistic, although it is still not instant.
+
+Important Caution About Signed Surface Representatives
+------------------------------------------------------
+The generated tuple files contain positive sorted curve tuples. They are obtained after
+sign choices, clearing denominators, taking absolute values, sorting, and primitive
+normalization. Therefore the positive tuple need not itself satisfy the symmetric K3
+equation with all positive signs.
+
+Consequence:
+  K3 next-lift flags are diagnostic only for positive sorted tuple files. They should not
+  be used as killers unless a signed surface representative is retained.
+
+Current Overall Conclusions
+---------------------------
+1. Good reduction is impossible at p=11 and p=23 for A(2,2,4,4) points coming from this
+   K3 surface. Candidates must lie on bad-reduction boundary strata at both primes.
+
+2. The boundary strata alone do not force failure. Coarse boundary labels are too weak.
+   The obstruction uses oriented squareclasses, partition compatibility, p-adic depth,
+   real signs, and the full M(2,2,4,8) conditions.
+
+3. Correct signed p-adic squareclasses are essential. Ignoring the sign of the unit gives
+   wrong local conclusions at 11 and 23.
+
+4. At height 10000, the tractable forced-boundary search gives 118 tuples. None produce
+   an intermediate or full M(2,2,4,8) witness.
+
+5. At height 10000, signed finite-depth filtering gives:
+      p^3: 14 finite-local candidates, 4 real-compatible
+      p^4: 1 finite-local candidate, 0 real-compatible
+   Hence depth 4 plus real sign kills all height-10000 candidates.
+
+6. The unique exact signed finite-local survivor is [605,845,2925,6877], with partition
+   13|24. It is not real-compatible and is also bad at many auxiliary primes.
+
+7. The most useful computational path forward is not blind height extension. It is a
+   chunked higher-height search using:
+      - forced bad reduction at 11 and 23,
+      - boundary strata such as 11:N,23:N,
+      - early common mod-p A(2,2,4,4) partition prefilter,
+      - final signed depth-4 real-compatible 12|34 filter,
+      - exact all-permutation M(2,2,4,8) sieve only on survivors.
+
+8. The current B=20000 pilot with the improved filter produced no candidates for ax=1..10
+   and ran in 35.660 seconds, versus 115.957 seconds before the early partition prefilter.
+
+Most Relevant Output Files
+--------------------------
+Boundary tuple files:
+  data/surface_tuples_B10000_strata_dcollisions_11_23.txt
+  data/surface_tuples_B10000_strata_non_d_zero_11_23.txt
+  data/surface_tuples_B10000_strata_mixed_pairs_11_23.txt
+
+Exact M(2,2,4,8) outputs:
+  data/m2248_surface_intermediate_B10000_strata_dcollisions_11_23_exact.txt
+  data/m2248_surface_full_B10000_strata_dcollisions_11_23_exact.txt
+  data/m2248_surface_intermediate_B10000_strata_non_d_zero_11_23_exact.txt
+  data/m2248_surface_full_B10000_strata_non_d_zero_11_23_exact.txt
+  data/m2248_p3_signature_survivors_intermediate_B10000.txt
+  data/m2248_p3_signature_survivors_full_B10000.txt
+
+Local diagnostics:
+  data/a2244_boundary_strata_diagnostics_B10000.txt
+  data/a2244_padic_residue_report.txt
+  data/a2244_padic_deep_chart_p3_report.txt
+  data/a2244_padic_signature_sieve_B10000.txt
+  data/a2244_padic_signature_sieve_B10000_depth6.txt
+
+Higher-height pilot:
+  data/surface_tuples_B20000_N_depth4_real_11_23_ax1_50.txt
+  data/surface_tuples_B20000_N_depth4_real_earlypart_11_23_ax1_10.txt
+  data/surface_tuples_B20000_N_depth4_real_earlypart_11_23_ax1_10.txt.log
+
+Recommended Next Step
+---------------------
+Run a resumable B=20000 sweep in chunks with the improved enumerator. A reasonable command
+shape is:
+
+    python3 code/run_surface_tuple_chunks.py       --B 20000       --output data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt       --boundary '11:N,23:N'       --local-depth 4       --chunk-size 10       --start 1       --end 20000       --resume
+
+Because the ax=1..10 chunk took 35.660s under current conditions, this should be treated
+as a long resumable or distributed computation, not an interactive one-shot run.

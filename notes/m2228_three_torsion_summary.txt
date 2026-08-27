@@ -1,0 +1,204 @@
+Summary: M(2,2,2,8) plus rational 3-torsion
+================================================
+
+Goal
+----
+
+We tried to find strictly simple genus 2 Jacobians with large torsion by
+starting from the M(2,2,2,8) K3 surface and adding rational 3-torsion.
+This would be a more promising route than further 2-primary halving, since
+the previous Z/12 x Z/4 and M(2,2,4,8) attempts were repeatedly forced onto
+local boundary strata.
+
+The base model is
+
+    C: y^2 = f(x) = x(x+a^2)(x+b^2)(x+c^2)(x+d^2),
+
+with
+
+    s2(a,b,c,d)^2 = 4abcd.
+
+
+Algebraic 3-torsion condition
+-----------------------------
+
+For an odd-degree genus 2 model, a nonzero rational 3-torsion class can be
+represented by a degree-2 Mumford divisor.  Writing
+
+    q = x^2 + Ux + V,
+    h = m x^3 + N x^2 + R x + S,
+
+the condition is that the cubic y=h(x) have triple contact with C:
+
+    h(x)^2 - f(x) = m^2 q(x)^3.
+
+Equating coefficients gives six equations.  Since
+
+    S^2 = m^2 V^3,
+
+we set
+
+    V = v^2, S = m v^3, L = 1/m.
+
+Eliminating N,R,S leaves three equations in L,U,v over the K3 parameters.
+The full pulled-back equations for the named section families were written to
+
+    data/m2228_three_torsion_section_equations.txt
+
+with scripts
+
+    code/m2228_three_torsion_search.m
+    code/m2228_three_torsion_equations.m
+
+
+Named section-family results
+----------------------------
+
+The named rational curves and first section multiples were tested first.
+
+Necessary point-count filter:
+
+    magma -b height:=25 mode:="named" code/m2228_three_torsion_search.m
+
+gave
+
+    total 3995
+    usable 3974
+    candidates 0
+
+and
+
+    magma -b height:=20 max_multiple:=4 mode:="multiples" code/m2228_three_torsion_search.m
+
+gave
+
+    total 7665
+    usable 7618
+    candidates 0
+
+The pulled-back triple-contact equations over finite fields showed a boundary
+pattern on these named curves.  For example, on k3_section_P, the good
+triple-contact residues are empty at p=13,19,23,29,31.
+
+Conclusion: the named rational curves are not a promising place to find the
+3-torsion examples.  Any rational point on those curves would have to reduce
+to bad/boundary residues at several primes.
+
+
+Full K3 finite-field sieve
+--------------------------
+
+I then left the named curves and tested the full M(2,2,2,8) K3 surface.
+The script is
+
+    code/m2228_three_torsion_surface_sieve.m
+
+In finite mode it precomputes all coefficient tuples satisfying the
+triple-contact equations over F_p, then scans all good affine K3 points.
+
+The run
+
+    magma -b mode:="finite" code/m2228_three_torsion_surface_sieve.m
+
+gave:
+
+    p=11: good_k3_points 240,   contact_points 240
+    p=13: good_k3_points 288,   contact_points 0
+    p=17: good_k3_points 1920,  contact_points 768
+    p=19: good_k3_points 1728,  contact_points 432
+    p=23: good_k3_points 5280,  contact_points 528
+    p=29: good_k3_points 12768, contact_points 2016
+    p=31: good_k3_points 16560, contact_points 6480
+    p=37: good_k3_points 31104, contact_points 8640
+
+Conclusion: the full K3 route is not locally empty in general.  However,
+p=13 is a genuine good-reduction obstruction: every rational example must
+reduce to the boundary modulo 13.
+
+
+Exact checks on existing rational tuple files
+---------------------------------------------
+
+The same script has exact_file mode.  It reads primitive K3 tuple files,
+keeps only tuples with bad reduction at 13, applies good-prime point-count
+bounds for rational 3-torsion, and only then calls Magma's exact
+TorsionSubgroup.
+
+Existing tuple files gave:
+
+    data/surface_tuples_B2000.txt:
+      forced13 75, no3_bound 75, survived_bound 0, exact 0, hits 0
+
+    data/surface_tuples_B5000_bad11_23.txt:
+      forced13 53, no3_bound 53, survived_bound 0, exact 0, hits 0
+
+    data/surface_tuples_B10000_strata_non_d_zero_11_23.txt:
+      forced13 94, no3_bound 94, survived_bound 0, exact 0, hits 0
+
+    data/surface_tuples_B10000_strata_dcollisions_11_23.txt:
+      forced13 90, no3_bound 90, survived_bound 0, exact 0, hits 0
+
+Conclusion: all currently available rational K3 tuples that lie on the forced
+13-boundary are killed by good-prime point-count bounds before exact torsion
+is needed.
+
+
+Normalized 13-adic boundary analysis
+------------------------------------
+
+Since p=13 forces boundary reduction, I wrote a normalized 13-adic boundary
+analyzer:
+
+    code/m2228_three_torsion_padic13.py
+
+It allows bad cover reduction modulo 13: v may vanish, q may have repeated
+reduction, and q may meet f modulo 13.  The only normalization kept is that
+L=1/m is a 13-adic unit, which follows from the first contact equation.
+
+The report is
+
+    data/m2228_three_torsion_padic13_report.txt
+
+The run found
+
+    mod13_solutions 3264
+    has_p2_lift 3264
+    can_make_zero_coords_exact1 96
+    can_satisfy_all_first_order 96
+
+Structural result:
+
+    pure collision charts Eij: no mod-13 cover solutions
+    simple-zero charts Zi: lift to 13^2, but the zero coordinate remains 0 mod 13^2
+    mixed Zi+Ejk charts: also forced deeper
+    triple-zero/one-unit charts: the only first-order live charts
+
+Thus the only first-order live charts are:
+
+    a,b,c divisible by 13; d unit
+    a,b,d divisible by 13; c unit
+    a,c,d divisible by 13; b unit
+    b,c,d divisible by 13; a unit
+
+For example, in the first chart one should write
+
+    a = 13A, b = 13B, c = 13C, d unit,
+
+with first-order K3 condition
+
+    A + B + C = 0 mod 13.
+
+
+Overall conclusion
+------------------
+
+The M(2,2,2,8) plus 3-torsion route is more promising than the named section
+families and more promising than continuing blind 2-primary halving, because
+the full K3 surface has genuine triple-contact points modulo many primes.
+
+However, p=13 forces all rational examples onto boundary.  The normalized
+13-adic analysis reduces the realistic search to four triple-zero/one-unit
+charts.  A broad height search with condition "bad at 13" is too weak; the
+next useful computation should directly parameterize and search those four
+charts, using the first-order condition A+B+C=0 mod 13 and the analogous
+permutations.

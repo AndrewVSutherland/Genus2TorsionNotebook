@@ -1,0 +1,55 @@
+########## CONTROL A: universal curves have the advertised torsion ##########
+E_5^(1/26): torsion [ 5 ]   disc-core -26   Delta_N-core -26
+E_5^(93/10): torsion [ 5 ]   disc-core -930   Delta_N-core -930
+E_5^(3): torsion [ 5 ]   disc-core -3   Delta_N-core -3
+E_7^(-1): torsion [ 7 ]   disc-core -26   Delta_N-core -26
+E_7^(-16/3): torsion [ 7 ]   disc-core -741   Delta_N-core -741
+E_7^(7): torsion [ 7 ]   disc-core -546   Delta_N-core -546
+E_7^(-14/13): torsion [ 7 ]   disc-core -546   Delta_N-core -546
+E_9^(4): torsion [ 9 ]   disc-core -741   Delta_N-core -741
+E_9^(-5): torsion [ 9 ]   disc-core -930   Delta_N-core -930
+E_6^(2): torsion [ 6 ]   disc-core 57   Delta_N-core 57
+E_10^(2): torsion [ 10 ]   disc-core 33   Delta_N-core 33
+E_12^(3): torsion [ 12 ]   disc-core 481   Delta_N-core 481
+E_24^(2): torsion [ 2, 4 ]   disc-core 1   Delta_N-core 0
+E_26^(2): torsion [ 2, 6 ]   disc-core 1   Delta_N-core 0
+E_28^(2): torsion [ 2, 8 ]   disc-core 1   Delta_N-core 0
+
+########## CONTROL B: rebuild HLP's published Z/63 curve ##########
+published Z/63 G2Invariants: [ 1275622973999186561187700559463173332023112802190625/109088440895853914785379999772145736865470742528, -7415334447747926554091695150879908654480758875/4600558404852138781434716589581044908294144, 1021590225322496229867630123004633925/18532634573667637841873990213173248 ]
+
+############ CONTROL Z/63 = E_7^{-16/3} glued to E_9^{4} ############
+E = E_7^(-16/3)   f = zz^3 + 145393/324*zz^2 - 717440/243*zz + 5914624/729
+F = E_9^(4)   g = zz^3 - 287/4*zz^2 + 14664*zz + 97344
+disc f core -741 ; disc g core -741
+E: cond 42978 torsion [ 7 ] rank 1 ; F: cond 1482 torsion [ 9 ] rank 1
+Prop4 returned 1 rational sextics (ok)
+--------------------------------------------------
+CONTROL Z/63 = E_7^{-16/3} glued to E_9^{4} -- root labelling [ 1, 2, 3 ]
+MODEL  y^2 = 476702577*zz^6 - 1296256770*zz^4 + 6410044593*zz^2 - 146398496
+genus 2
+TORSION invariants: [ 63 ]
+order 63
+2-torsion: []
+G2Invariants: [ 1275622973999186561187700559463173332023112802190625/109088440895853914785379999772145736865470742528, -7415334447747926554091695150879908654480758875/4600558404852138781434716589581044908294144, 1021590225322496229867630123004633925/18532634573667637841873990213173248 ]
+good primes 3..200: 40  irreducible chi: 0  RM/split-screen cores: [ 0, 1 ]
+
+########## CONTROL C: rebuild HLP's published Z/7 x Z/7 curve ##########
+published [7,7] G2Invariants: [ 189058724640202566877858229103396357889920153125/127983541711177216798505385789443014656, 2190328392680325235597490832053495905479625/36012392588703096422498086114295808, 280844873092297136402204005615675/82817965374161539011969024 ]
+
+############ CONTROL [7,7] = E_7^{7} glued to E_7^{-14/13} ############
+E = E_7^(7)   f = x^3 + 505/4*x^2 + 6027*x + 21609
+F = E_7^(-14/13)   g = x^3 + 318865/114244*x^2 - 553014/371293*x + 7001316/4826809
+disc f core -546 ; disc g core -546
+E: cond 546 torsion [ 7 ] rank 0 ; F: cond 98826 torsion [ 7 ] rank 1
+Prop4 returned 1 rational sextics (ok)
+--------------------------------------------------
+CONTROL [7,7] = E_7^{7} glued to E_7^{-14/13} -- root labelling [ 2, 3, 1 ]
+MODEL  y^2 = 5146011*x^6 + 546374803*x^4 + 14601097225*x^2 + 137858491849
+genus 2
+TORSION invariants: [ 7, 7 ]
+order 49
+2-torsion: []
+G2Invariants: [ 189058724640202566877858229103396357889920153125/127983541711177216798505385789443014656, 2190328392680325235597490832053495905479625/36012392588703096422498086114295808, 280844873092297136402204005615675/82817965374161539011969024 ]
+good primes 3..200: 41  irreducible chi: 0  RM/split-screen cores: [ 0, 1 ]
+SEARCH_DONE stage 1

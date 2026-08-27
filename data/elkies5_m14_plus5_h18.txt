@@ -1,0 +1,4 @@
+SEARCH M_1(8,4) tangent cover plus 5
+height 18 five_filter_primes [ 3, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+DONE m14 height 18 checked 164024 cover 2016 smooth 152 five_survivors 0 
+verified 0 torsion_tests 0 hits 0

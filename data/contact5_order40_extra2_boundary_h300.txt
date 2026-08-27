@@ -1,0 +1,5 @@
+# contact5 order40+extra2 boundary-filtered search
+# height=300
+# boundary_s={7: [0, 1, 6], 11: [0, 10], 13: [0, 12]}
+# checked=109588 boundary_survivors=7896 fibers_with_roots=0 square_cover=0 extra2=0 factor_counts=[]
+# columns: r s Y D t residual_factor_type mult

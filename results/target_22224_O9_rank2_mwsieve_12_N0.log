@@ -1,0 +1,10 @@
+REPEATED_RANK2_MWSIEVE_START O9 pair <1, 2> remaining 3 N 0 fixed [ 1, 55, 99 ]
+d0 5/9 known_t 15 E Elliptic Curve defined by y^2 = x^3 + x^2 - 15500*x + 200430 over Rational Field
+rank_bounds 2 2 generators [ (-131 : 0 : 1), (193 : 2106 : 1), (13 : 36 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_SKIP 11 E_bad_reduction
+PRIME_PROFILE O9 p 13 orders 2 4 total 16 third_fail 0 open_no3 14 open_3 0 boundary 2 finite_direct_boundary 0 infinity 2 allowed 2 lattice_before 2 lattice_after 0
+PRIORITY_CLASSES O9 p 13 boundary_count 2 open3_count 0 boundary [ <1, 1, 3>, <1, 0, 1> ]
+REPEATED_RANK2_MWSIEVE_DONE O9 N 0 used_primes [ 13 ]
+lattice_survivors 0 distinct_exact_t 0 exact_full 0 three_hits 0 output results/target_22224_O9_rank2_mwsieve_12_N0.tsv

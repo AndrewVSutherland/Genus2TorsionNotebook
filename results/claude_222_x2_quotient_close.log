@@ -1,0 +1,17 @@
+raw model degree 4
+REDUCED MODEL:
+Genus one model of degree 4 defined over Rational Field given by 
+$.1*$.2 + $.1*$.3 - $.2*$.3
+$.1*$.3 + $.1*$.4 + $.2*$.3 - $.2*$.4 + $.4^2
+Jac(Y2) = [ 0, 0, 0, -1, 1 ], conductor 92
+rank bounds [1, 1], torsion []
+locally solvable at 2: true
+locally solvable at 3: true
+locally solvable at 5: true
+locally solvable at 7: true
+locally solvable at 23: true
+everywhere locally solvable (tested set): true
+points on reduced model to 1e7: 26
+POINTS FOUND: [ (-1 : 0 : 0 : 1), (1 : 0 : 0 : 0), (2 : -2 : 1 : 0), (3/5 : 6 : 2/3 : 1), (308/53 : -532/51 : 209/56 : 1) ]
+=> X2 may have rational points: pull back through the quotient!
+X2CLOSE_DONE

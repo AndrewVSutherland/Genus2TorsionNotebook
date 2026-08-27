@@ -1,0 +1,23 @@
+Z31REF Mode=smoke PP=101 NRand=400 NInfRand=300
+KUMMER_SAMPLE P=101 u1=89 u0=27 normK(DD)=[ 1, 12, 27, 69 ] normK(31DD)=[ 1, 30, 28, 25 ]
+KUMMER_SAMPLE P=101 u1=37 u0=72 normK(DD)=[ 1, 64, 72, 0 ] normK(31DD)=[ 1, 14, 67, 18 ]
+CHARTU_SUMMARY P=101 tried=32 raw=20 valid_rows=23 div31=5 skipdeg=0 makeDD[m1,m2,m3]=[31,0,0] makeDD_fails=0 kummer_rows=12 kummer_fails=0 conv_k23=12/12 conv_k4=12/12 time=0.190s
+K_ZERO_TEST K!(J!0) coords = [ 0, 0, 0, 1 ]
+K_EQUATION P=101 sample: 33*x1^4 + 17*x1^3*x2 + 74*x1^3*x3 + 51*x1^3*x4 + 5*x1^2*x2^2 + 74*x1^2*x2*x3 + 20*x1^2*x2*x4 + 97*x1^2*x3^2 + 31*x1^2*x3*x4 + 23*x1*x2^3 + 11*x1*x2^2*x3 + 77*x1*x2*x3^2 + 33*x1*x2*x3*x4 + 3*x1*x3^3 + 61*x1*x3^2*x4 + 97*x1*x3*x4^2 + 56*x2^4 + 36*x2^3*x3 + 38*x2^2*x3^2 + x2^2*x4^2 + 19*x2*x3^3 + 9*x2*x3^2*x4 + 60*x3^4 + 57*x3^3*x4
+TIMING P=1009 n=10 total=0.010s per_order=0.001s
+TIMING P=2003 n=10 total=0.020s per_order=0.002s
+TIMING P=4003 n=5 total=0.010s per_order=0.002s
+RM_CHARTU_TUPLE (u1,u0,v1,v0,w4,w3,w2,w1,w0) = [ -21/20, 9/20, 101/200, 51/200, -3356, 39201/5, -860459/100, 9278181/2000, -2240289/2000 ]
+RM_W_POLY w_RM = -3356*X^4 + 39201/5*X^3 - 860459/100*X^2 + 9278181/2000*X - 2240289/2000
+RM_DISC disc(F) = -21869479095091200000000000
+RM_DEN_LCM = 2000
+RMFIBER P=1009 tuple=[ 453, 959, 56, 308, 680, 979, 991, 649, 858 ] order=31 meth=1 PASS
+RMFIBER P=2003 tuple=[ 700, 1703, 331, 1833, 650, 1030, 469, 1908, 1647 ] order=31 meth=1 PASS
+RMFIBER P=4001 tuple=[ 199, 2201, 1981, 2981, 645, 3039, 1758, 276, 3459 ] order=31 meth=1 PASS
+RMFIBER P=4003 tuple=[ 1400, 3403, 661, 3663, 647, 2236, 1523, 3184, 407 ] order=31 meth=1 PASS
+RM_DONE
+CHARTI_KNOWN P=1009 f14 depressed_c=[6,4,9,4,4] jac_order=14 cf_order=14 expected=14 PASS
+CHARTI_KNOWN P=1009 f18 depressed_c=[682,497,222,934,589] jac_order=18 cf_order=18 expected=18 PASS
+CHARTI_KNOWN P=1009 f28guess depressed_c=[666,181,904,72,326] jac_order=7 cf_order=7 expected=7 PASS
+CHARTI_SUMMARY P=1009 knowns_pass=3/3 raw=10 rows=10 skip=0 small_order=0 cf_agree=10 cf_mismatch=0 time=0.030s
+ALLDONE

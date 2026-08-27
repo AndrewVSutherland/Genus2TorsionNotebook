@@ -1,0 +1,5 @@
+Loading "split_lab.m"
+CLASSPAIR cond=29370 class=42 T1=[ 10 ] T2=[ 10 ] prod=[ 10, 10 ]
+CLASSPAIR cond=30030 class=46 T1=[ 12 ] T2=[ 2, 6 ] prod=[ 2, 6, 12 ]
+CLASSPAIR cond=46410 class=66 T1=[ 8 ] T2=[ 2, 8 ] prod=[ 2, 8, 8 ]
+CLASSSWEEP_DONE

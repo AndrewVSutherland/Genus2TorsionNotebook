@@ -1,0 +1,10 @@
+[2,2,14]: torsion [ 2, 2, 14 ], root-power p0=17, disjoint q0=31, tors>18 true => End=Z true
+[2,2,20]: torsion [ 2, 2, 20 ], root-power p0=71, disjoint q0=83, tors>18 true => End=Z true
+[2,4,8]: torsion [ 2, 4, 8 ], root-power p0=47, disjoint q0=83, tors>18 true => End=Z true
+[6,6]: torsion [ 6, 6 ], root-power p0=37, disjoint q0=59, tors>18 true => End=Z true
+[2,4,4]: torsion [ 2, 4, 4 ], root-power p0=97, disjoint q0=113, tors>18 true => End=Z true
+[2,2,4,4]: torsion [ 2, 2, 4, 4 ], root-power p0=37, disjoint q0=61, tors>18 true => End=Z true
+[2,2,2,8]: torsion [ 2, 2, 2, 8 ], root-power p0=41, disjoint q0=47, tors>18 true => End=Z true
+[2,2,2,12]: torsion [ 2, 2, 2, 12 ], root-power p0=37, disjoint q0=139, tors>18 true => End=Z true
+[2,2,2,10]: torsion [ 2, 2, 2, 10 ], root-power p0=11, disjoint q0=71, tors>18 true => End=Z true
+ALL_DONE

@@ -1,0 +1,6563 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+FIBER LANE Sig=3 sg=[ 3, 2, 1 ] Org=1 Test=3 H=150 HU=40
+JOIN Sig=3 drop=3 matches=4740 fibers=4604
+SWEEP HU=40 fibers-with-points=75 pts=148 infsq-fibers=31 0.320 s
+FIBERS Sig=3 total=4612 multi=151
+MWRANK u=-1 r=1 gens=2
+FIBSURV Sig=3 t=7 u=-1
+SKIPISO t=7 u=-1
+MWRANK u=2 r=2 gens=2
+FIBSURV Sig=3 t=4 u=2
+SKIPISO t=4 u=2
+MWRANK u=-1/3 r=2 gens=2
+FIBSURV Sig=3 t=19/3 u=-1/3
+SKIPISO t=19/3 u=-1/3
+MWRANK u=1/3 r=2 gens=2
+FIBSURV Sig=3 t=17/3 u=1/3
+SKIPISO t=17/3 u=1/3
+MWRANK u=-3/2 r=2 gens=2
+FIBSURV Sig=3 t=15/2 u=-3/2
+SKIPISO t=15/2 u=-3/2
+MWRANK u=-4 r=3 gens=2
+FIBSURV Sig=3 t=10 u=-4
+SKIPISO t=10 u=-4
+MWRANK u=-4/3 r=3 gens=2
+FIBSURV Sig=3 t=22/3 u=-4/3
+SKIPISO t=22/3 u=-4/3
+MWRANK u=-3/4 r=3 gens=2
+FIBSURV Sig=3 t=27/4 u=-3/4
+SKIPISO t=27/4 u=-3/4
+MWRANK u=-5 r=1 gens=2
+FIBSURV Sig=3 t=11 u=-5
+SKIPISO t=11 u=-5
+MWRANK u=5/3 r=2 gens=2
+FIBSURV Sig=3 t=13/3 u=5/3
+SKIPISO t=13/3 u=5/3
+MWRANK u=6/5 r=2 gens=2
+FIBSURV Sig=3 t=24/5 u=6/5
+SKIPISO t=24/5 u=6/5
+MWRANK u=6 r=1 gens=2
+FIBSURV Sig=3 t=0 u=6
+SKIPISO t=0 u=6
+MWRANK u=3/7 r=2 gens=2
+FIBSURV Sig=3 t=39/7 u=3/7
+SKIPISO t=39/7 u=3/7
+MWRANK u=7 r=1 gens=2
+FIBSURV Sig=3 t=-1 u=7
+SKIPISO t=-1 u=7
+MWRANK u=8/3 r=2 gens=2
+FIBSURV Sig=3 t=10/3 u=8/3
+SKIPISO t=10/3 u=8/3
+MWRANK u=-10 r=3 gens=2
+FIBSURV Sig=3 t=16 u=-10
+SKIPISO t=16 u=-10
+MWRANK u=9/10 r=2 gens=2
+FIBSURV Sig=3 t=51/10 u=9/10
+SKIPISO t=51/10 u=9/10
+MWRANK u=10 r=2 gens=2
+FIBSURV Sig=3 t=-4 u=10
+SKIPISO t=-4 u=10
+MWRANK u=11/4 r=2 gens=2
+FIBSURV Sig=3 t=13/4 u=11/4
+SKIPISO t=13/4 u=11/4
+MWRANK u=-11 r=2 gens=2
+FIBSURV Sig=3 t=17 u=-11
+SKIPISO t=17 u=-11
+MWRANK u=-1/12 r=3 gens=2
+FIBSURV Sig=3 t=73/12 u=-1/12
+SKIPISO t=73/12 u=-1/12
+MWRANK u=12 r=2 gens=2
+FIBSURV Sig=3 t=-6 u=12
+SKIPISO t=-6 u=12
+MWRANK u=-12 r=3 gens=2
+FIBSURV Sig=3 t=18 u=-12
+SKIPISO t=18 u=-12
+MWRANK u=-11/13 r=2 gens=2
+FIBSURV Sig=3 t=89/13 u=-11/13
+SKIPISO t=89/13 u=-11/13
+MWRANK u=12/13 r=3 gens=2
+FIBSURV Sig=3 t=66/13 u=12/13
+SKIPISO t=66/13 u=12/13
+MWRANK u=-3/13 r=3 gens=2
+FIBSURV Sig=3 t=81/13 u=-3/13
+SKIPISO t=81/13 u=-3/13
+MWRANK u=13 r=1 gens=2
+FIBSURV Sig=3 t=-7 u=13
+SKIPISO t=-7 u=13
+MWRANK u=-13/12 r=1 gens=2
+FIBSURV Sig=3 t=85/12 u=-13/12
+SKIPISO t=85/12 u=-13/12
+MWRANK u=15/2 r=2 gens=2
+FIBSURV Sig=3 t=-3/2 u=15/2
+SKIPISO t=-3/2 u=15/2
+MWRANK u=-15 r=1 gens=2
+FIBSURV Sig=3 t=21 u=-15
+SKIPISO t=21 u=-15
+MWRANK u=15 r=2 gens=2
+FIBSURV Sig=3 t=-9 u=15
+SKIPISO t=-9 u=15
+MWRANK u=15/7 r=2 gens=2
+FIBSURV Sig=3 t=27/7 u=15/7
+SKIPISO t=27/7 u=15/7
+MWRANK u=16 r=2 gens=2
+FIBSURV Sig=3 t=-10 u=16
+SKIPISO t=-10 u=16
+MWRANK u=-3/16 r=3 gens=2
+FIBSURV Sig=3 t=99/16 u=-3/16
+SKIPISO t=99/16 u=-3/16
+MWRANK u=9/16 r=3 gens=2
+FIBSURV Sig=3 t=87/16 u=9/16
+SKIPISO t=87/16 u=9/16
+MWRANK u=16/3 r=3 gens=2
+FIBSURV Sig=3 t=2/3 u=16/3
+SKIPISO t=2/3 u=16/3
+MWRANK u=-16/3 r=3 gens=2
+FIBSURV Sig=3 t=34/3 u=-16/3
+SKIPISO t=34/3 u=-16/3
+MWRANK u=-16 r=3 gens=2
+FIBSURV Sig=3 t=22 u=-16
+SKIPISO t=22 u=-16
+MWRANK u=17/3 r=2 gens=2
+FIBSURV Sig=3 t=1/3 u=17/3
+SKIPISO t=1/3 u=17/3
+MWRANK u=17 r=2 gens=2
+FIBSURV Sig=3 t=-11 u=17
+SKIPISO t=-11 u=17
+MWRANK u=17/12 r=4 gens=2
+FIBSURV Sig=3 t=55/12 u=17/12
+SKIPISO t=55/12 u=17/12
+MWRANK u=17/5 r=2 gens=2
+FIBSURV Sig=3 t=13/5 u=17/5
+SKIPISO t=13/5 u=17/5
+MWRANK u=-18 r=2 gens=2
+FIBSURV Sig=3 t=24 u=-18
+SKIPISO t=24 u=-18
+MWRANK u=15/19 r=2 gens=2
+FIBSURV Sig=3 t=99/19 u=15/19
+SKIPISO t=99/19 u=15/19
+MWRANK u=-19 r=2 gens=2
+FIBSURV Sig=3 t=25 u=-19
+SKIPISO t=25 u=-19
+MWRANK u=19/5 r=3 gens=2
+FIBSURV Sig=3 t=11/5 u=19/5
+SKIPISO t=11/5 u=19/5
+MWRANK u=21 r=1 gens=2
+FIBSURV Sig=3 t=-15 u=21
+SKIPISO t=-15 u=21
+MWRANK u=22 r=2 gens=2
+FIBSURV Sig=3 t=-16 u=22
+SKIPISO t=-16 u=22
+MWRANK u=-22 r=3 gens=2
+FIBSURV Sig=3 t=28 u=-22
+SKIPISO t=28 u=-22
+MWRANK u=-23 r=2 gens=2
+FIBSURV Sig=3 t=29 u=-23
+SKIPISO t=29 u=-23
+MWRANK u=23/2 r=3 gens=2
+FIBSURV Sig=3 t=-11/2 u=23/2
+SKIPISO t=-11/2 u=23/2
+MWRANK u=23/3 r=2 gens=2
+FIBSURV Sig=3 t=-5/3 u=23/3
+SKIPISO t=-5/3 u=23/3
+MWRANK u=-23/3 r=2 gens=2
+FIBSURV Sig=3 t=41/3 u=-23/3
+SKIPISO t=41/3 u=-23/3
+MWRANK u=23/16 r=2 gens=2
+FIBSURV Sig=3 t=73/16 u=23/16
+SKIPISO t=73/16 u=23/16
+MWRANK u=25 r=2 gens=2
+FIBSURV Sig=3 t=-19 u=25
+SKIPISO t=-19 u=25
+MWRANK u=25/4 r=3 gens=2
+FIBSURV Sig=3 t=-1/4 u=25/4
+SKIPISO t=-1/4 u=25/4
+MWRANK u=25/7 r=2 gens=2
+FIBSURV Sig=3 t=17/7 u=25/7
+SKIPISO t=17/7 u=25/7
+MWRANK u=-27 r=2 gens=2
+FIBSURV Sig=3 t=33 u=-27
+SKIPISO t=33 u=-27
+MWRANK u=-27/16 r=3 gens=2
+FIBSURV Sig=3 t=123/16 u=-27/16
+SKIPISO t=123/16 u=-27/16
+MWRANK u=27/25 r=2 gens=2
+FIBSURV Sig=3 t=123/25 u=27/25
+SKIPISO t=123/25 u=27/25
+MWRANK u=-27/5 r=2 gens=2
+FIBSURV Sig=3 t=57/5 u=-27/5
+SKIPISO t=57/5 u=-27/5
+MWRANK u=-27/4 r=3 gens=2
+FIBSURV Sig=3 t=51/4 u=-27/4
+SKIPISO t=51/4 u=-27/4
+MWRANK u=27/11 r=2 gens=2
+FIBSURV Sig=3 t=39/11 u=27/11
+SKIPISO t=39/11 u=27/11
+MWRANK u=27/7 r=2 gens=2
+FIBSURV Sig=3 t=15/7 u=27/7
+SKIPISO t=15/7 u=27/7
+MWRANK u=28 r=2 gens=2
+FIBSURV Sig=3 t=-22 u=28
+SKIPISO t=-22 u=28
+MWRANK u=31/5 r=3 gens=2
+FIBSURV Sig=3 t=-1/5 u=31/5
+SKIPISO t=-1/5 u=31/5
+MWRANK u=31/6 r=2 gens=2
+FIBSURV Sig=3 t=5/6 u=31/6
+SKIPISO t=5/6 u=31/6
+MWRANK u=31/7 r=2 gens=2
+FIBSURV Sig=3 t=11/7 u=31/7
+SKIPISO t=11/7 u=31/7
+MWRANK u=33/7 r=3 gens=2
+FIBSURV Sig=3 t=9/7 u=33/7
+SKIPISO t=9/7 u=33/7
+MWRANK u=33/5 r=2 gens=2
+FIBSURV Sig=3 t=-3/5 u=33/5
+SKIPISO t=-3/5 u=33/5
+MWRANK u=33/8 r=2 gens=2
+FIBSURV Sig=3 t=15/8 u=33/8
+SKIPISO t=15/8 u=33/8
+MWRANK u=33/25 r=2 gens=2
+FIBSURV Sig=3 t=117/25 u=33/25
+SKIPISO t=117/25 u=33/25
+MWRANK u=34 r=2 gens=2
+FIBSURV Sig=3 t=-28 u=34
+SKIPISO t=-28 u=34
+MWRANK u=-34 r=3 gens=2
+FIBSURV Sig=3 t=40 u=-34
+SKIPISO t=40 u=-34
+MWRANK u=35/8 r=3 gens=2
+FIBSURV Sig=3 t=13/8 u=35/8
+SKIPISO t=13/8 u=35/8
+MWRANK u=35 r=3 gens=2
+FIBSURV Sig=3 t=-29 u=35
+SKIPISO t=-29 u=35
+MWRANK u=-36 r=3 gens=2
+FIBSURV Sig=3 t=42 u=-36
+SKIPISO t=42 u=-36
+MWRANK u=37/4 r=2 gens=2
+FIBSURV Sig=3 t=-13/4 u=37/4
+SKIPISO t=-13/4 u=37/4
+MWRANK u=38/7 r=3 gens=2
+FIBSURV Sig=3 t=4/7 u=38/7
+SKIPISO t=4/7 u=38/7
+MWRANK u=39 r=2 gens=2
+FIBSURV Sig=3 t=-33 u=39
+SKIPISO t=-33 u=39
+MWRANK u=-40 r=3 gens=2
+FIBSURV Sig=3 t=46 u=-40
+SKIPISO t=46 u=-40
+MWRANK u=40/13 r=3 gens=2
+FIBSURV Sig=3 t=38/13 u=40/13
+SKIPISO t=38/13 u=40/13
+MWRANK u=41/13 r=2 gens=2
+FIBSURV Sig=3 t=37/13 u=41/13
+SKIPISO t=37/13 u=41/13
+MWRANK u=43/6 r=3 gens=2
+FIBSURV Sig=3 t=-7/6 u=43/6
+SKIPISO t=-7/6 u=43/6
+MWRANK u=43/11 r=2 gens=2
+FIBSURV Sig=3 t=23/11 u=43/11
+SKIPISO t=23/11 u=43/11
+MWRANK u=45/14 r=2 gens=2
+FIBSURV Sig=3 t=39/14 u=45/14
+SKIPISO t=39/14 u=45/14
+MWRANK u=45/8 r=2 gens=2
+FIBSURV Sig=3 t=3/8 u=45/8
+SKIPISO t=3/8 u=45/8
+MWRANK u=45/13 r=2 gens=2
+FIBSURV Sig=3 t=33/13 u=45/13
+SKIPISO t=33/13 u=45/13
+MWRANK u=47/8 r=2 gens=2
+FIBSURV Sig=3 t=1/8 u=47/8
+SKIPISO t=1/8 u=47/8
+MWRANK u=47/7 r=3 gens=2
+FIBSURV Sig=3 t=-5/7 u=47/7
+SKIPISO t=-5/7 u=47/7
+MWRANK u=-48 r=3 gens=2
+FIBSURV Sig=3 t=54 u=-48
+SKIPISO t=54 u=-48
+MWRANK u=51 r=2 gens=2
+FIBSURV Sig=3 t=-45 u=51
+SKIPISO t=-45 u=51
+MWRANK u=53/13 r=3 gens=2
+FIBSURV Sig=3 t=25/13 u=53/13
+SKIPISO t=25/13 u=53/13
+MWRANK u=53/27 r=4 gens=2
+FIBSURV Sig=3 t=109/27 u=53/27
+SKIPISO t=109/27 u=53/27
+MWRANK u=54/19 r=4 gens=2
+FIBSURV Sig=3 t=60/19 u=54/19
+SKIPISO t=60/19 u=54/19
+MWRANK u=55/17 r=3 gens=2
+FIBSURV Sig=3 t=47/17 u=55/17
+SKIPISO t=47/17 u=55/17
+MWRANK u=55/13 r=3 gens=2
+FIBSURV Sig=3 t=23/13 u=55/13
+SKIPISO t=23/13 u=55/13
+MWRANK u=-57/7 r=3 gens=2
+FIBSURV Sig=3 t=99/7 u=-57/7
+SKIPISO t=99/7 u=-57/7
+MWRANK u=59/7 r=2 gens=2
+FIBSURV Sig=3 t=-17/7 u=59/7
+SKIPISO t=-17/7 u=59/7
+MWRANK u=59/21 r=4 gens=2
+FIBSURV Sig=3 t=67/21 u=59/21
+SKIPISO t=67/21 u=59/21
+MWRANK u=59/20 r=2 gens=2
+FIBSURV Sig=3 t=61/20 u=59/20
+SKIPISO t=61/20 u=59/20
+MWRANK u=61/7 r=2 gens=2
+FIBSURV Sig=3 t=-19/7 u=61/7
+SKIPISO t=-19/7 u=61/7
+MWRANK u=61/4 r=2 gens=2
+FIBSURV Sig=3 t=-37/4 u=61/4
+SKIPISO t=-37/4 u=61/4
+MWRANK u=65/8 r=2 gens=2
+FIBSURV Sig=3 t=-17/8 u=65/8
+SKIPISO t=-17/8 u=65/8
+MWRANK u=66 r=4 gens=2
+FIBSURV Sig=3 t=-60 u=66
+SKIPISO t=-60 u=66
+MWRANK u=67/16 r=3 gens=2
+FIBSURV Sig=3 t=29/16 u=67/16
+SKIPISO t=29/16 u=67/16
+MWRANK u=69/17 r=2 gens=2
+FIBSURV Sig=3 t=33/17 u=69/17
+SKIPISO t=33/17 u=69/17
+MWRANK u=71/7 r=2 gens=2
+FIBSURV Sig=3 t=-29/7 u=71/7
+SKIPISO t=-29/7 u=71/7
+MWRANK u=71/9 r=2 gens=2
+FIBSURV Sig=3 t=-17/9 u=71/9
+SKIPISO t=-17/9 u=71/9
+MWRANK u=71/19 r=2 gens=2
+FIBSURV Sig=3 t=43/19 u=71/19
+SKIPISO t=43/19 u=71/19
+MWRANK u=-73/32 r=2 gens=2
+FIBSURV Sig=3 t=265/32 u=-73/32
+SKIPISO t=265/32 u=-73/32
+MWRANK u=75/13 r=3 gens=2
+FIBSURV Sig=3 t=3/13 u=75/13
+SKIPISO t=3/13 u=75/13
+MWRANK u=77/25 r=2 gens=2
+FIBSURV Sig=3 t=73/25 u=77/25
+SKIPISO t=73/25 u=77/25
+MWRANK u=79 r=4 gens=2
+FIBSURV Sig=3 t=-73 u=79
+SKIPISO t=-73 u=79
+MWRANK u=79/9 r=3 gens=2
+FIBSURV Sig=3 t=-25/9 u=79/9
+SKIPISO t=-25/9 u=79/9
+MWRANK u=81/13 r=2 gens=2
+FIBSURV Sig=3 t=-3/13 u=81/13
+SKIPISO t=-3/13 u=81/13
+MWRANK u=81 r=2 gens=2
+FIBSURV Sig=3 t=-75 u=81
+SKIPISO t=-75 u=81
+MWRANK u=83/27 r=2 gens=2
+FIBSURV Sig=3 t=79/27 u=83/27
+SKIPISO t=79/27 u=83/27
+MWRANK u=85/21 r=3 gens=2
+FIBSURV Sig=3 t=41/21 u=85/21
+SKIPISO t=41/21 u=85/21
+MWRANK u=89/13 r=2 gens=2
+FIBSURV Sig=3 t=-11/13 u=89/13
+SKIPISO t=-11/13 u=89/13
+MWRANK u=89/21 r=2 gens=2
+FIBSURV Sig=3 t=37/21 u=89/21
+SKIPISO t=37/21 u=89/21
+MWRANK u=-93/7 r=2 gens=2
+FIBSURV Sig=3 t=135/7 u=-93/7
+SKIPISO t=135/7 u=-93/7
+MWRANK u=97/33 r=2 gens=2
+FIBSURV Sig=3 t=101/33 u=97/33
+SKIPISO t=101/33 u=97/33
+MWRANK u=-97/8 r=2 gens=2
+FIBSURV Sig=3 t=145/8 u=-97/8
+SKIPISO t=145/8 u=-97/8
+MWRANK u=101/26 r=3 gens=2
+FIBSURV Sig=3 t=55/26 u=101/26
+SKIPISO t=55/26 u=101/26
+MWRANK u=101/17 r=2 gens=2
+FIBSURV Sig=3 t=1/17 u=101/17
+SKIPISO t=1/17 u=101/17
+MWRANK u=102/7 r=4 gens=2
+FIBSURV Sig=3 t=-60/7 u=102/7
+SKIPISO t=-60/7 u=102/7
+MWRANK u=103/29 r=3 gens=2
+FIBSURV Sig=3 t=71/29 u=103/29
+SKIPISO t=71/29 u=103/29
+MWRANK u=103/13 r=3 gens=2
+FIBSURV Sig=3 t=-25/13 u=103/13
+SKIPISO t=-25/13 u=103/13
+MWRANK u=105/29 r=2 gens=2
+FIBSURV Sig=3 t=69/29 u=105/29
+SKIPISO t=69/29 u=105/29
+MWRANK u=-23/105 r=2 gens=2
+MWRANK u=107/35 r=3 gens=2
+FIBSURV Sig=3 t=103/35 u=107/35
+SKIPISO t=103/35 u=107/35
+MWRANK u=108/31 r=3 gens=2
+FIBSURV Sig=3 t=78/31 u=108/31
+SKIPISO t=78/31 u=108/31
+MWRANK u=-108 r=3 gens=2
+FIBSURV Sig=3 t=114 u=-108
+SKIPISO t=114 u=-108
+MWRANK u=111/25 r=3 gens=2
+FIBSURV Sig=3 t=39/25 u=111/25
+SKIPISO t=39/25 u=111/25
+MWRANK u=113/13 r=2 gens=2
+FIBSURV Sig=3 t=-35/13 u=113/13
+SKIPISO t=-35/13 u=113/13
+MWRANK u=115/37 r=3 gens=2
+FIBSURV Sig=3 t=107/37 u=115/37
+SKIPISO t=107/37 u=115/37
+MWRANK u=115/17 r=3 gens=2
+FIBSURV Sig=3 t=-13/17 u=115/17
+SKIPISO t=-13/17 u=115/17
+MWRANK u=118/37 r=3 gens=2
+FIBSURV Sig=3 t=104/37 u=118/37
+SKIPISO t=104/37 u=118/37
+MWRANK u=121/25 r=2 gens=2
+FIBSURV Sig=3 t=29/25 u=121/25
+SKIPISO t=29/25 u=121/25
+MWRANK u=125/41 r=2 gens=2
+FIBSURV Sig=3 t=121/41 u=125/41
+SKIPISO t=121/41 u=125/41
+MWRANK u=125/21 r=3 gens=2
+FIBSURV Sig=3 t=1/21 u=125/21
+SKIPISO t=1/21 u=125/21
+MWRANK u=135/31 r=3 gens=2
+FIBSURV Sig=3 t=51/31 u=135/31
+SKIPISO t=51/31 u=135/31
+MWRANK u=135/37 r=3 gens=2
+FIBSURV Sig=3 t=87/37 u=135/37
+SKIPISO t=87/37 u=135/37
+MWRANK u=135/19 r=2 gens=2
+FIBSURV Sig=3 t=-21/19 u=135/19
+SKIPISO t=-21/19 u=135/19
+MWRANK u=137/37 r=2 gens=2
+FIBSURV Sig=3 t=85/37 u=137/37
+SKIPISO t=85/37 u=137/37
+MWRANK u=138/19 r=3 gens=2
+FIBSURV Sig=3 t=-24/19 u=138/19
+SKIPISO t=-24/19 u=138/19
+MWRANK u=139/25 r=3 gens=2
+FIBSURV Sig=3 t=11/25 u=139/25
+SKIPISO t=11/25 u=139/25
+MWRANK u=143/35 r=2 gens=2
+FIBSURV Sig=3 t=67/35 u=143/35
+SKIPISO t=67/35 u=143/35
+MWRANK u=143/48 r=2 gens=2
+FIBSURV Sig=3 t=145/48 u=143/48
+SKIPISO t=145/48 u=143/48
+MWRANK u=149/45 r=3 gens=2
+FIBSURV Sig=3 t=121/45 u=149/45
+SKIPISO t=121/45 u=149/45
+MWRANK u=1/2 r=1 gens=2
+FIBSURV Sig=3 t=11/2 u=1/2
+SKIPISO t=11/2 u=1/2
+MWRANK u=-2 r=1 gens=2
+FIBSURV Sig=3 t=8 u=-2
+SKIPISO t=8 u=-2
+MWRANK u=-1/2 r=2 gens=2
+FIBSURV Sig=3 t=13/2 u=-1/2
+SKIPISO t=13/2 u=-1/2
+MWRANK u=-2/3 r=1 gens=2
+FIBSURV Sig=3 t=20/3 u=-2/3
+SKIPISO t=20/3 u=-2/3
+MWRANK u=3/2 r=1 gens=2
+FIBSURV Sig=3 t=9/2 u=3/2
+SKIPISO t=9/2 u=3/2
+MWRANK u=2/3 r=1 gens=2
+FIBSURV Sig=3 t=16/3 u=2/3
+SKIPISO t=16/3 u=2/3
+MWRANK u=3/4 r=1 gens=2
+FIBSURV Sig=3 t=21/4 u=3/4
+SKIPISO t=21/4 u=3/4
+MWRANK u=4/3 r=2 gens=2
+FIBSURV Sig=3 t=14/3 u=4/3
+SKIPISO t=14/3 u=4/3
+MWRANK u=-1/4 r=1 gens=2
+FIBSURV Sig=3 t=25/4 u=-1/4
+SKIPISO t=25/4 u=-1/4
+MWRANK u=4 r=1 gens=2
+FIBSURV Sig=3 t=2 u=4
+SKIPISO t=2 u=4
+MWRANK u=1/4 r=1 gens=2
+FIBSURV Sig=3 t=23/4 u=1/4
+SKIPISO t=23/4 u=1/4
+MWRANK u=-5/3 r=1 gens=2
+FIBSURV Sig=3 t=23/3 u=-5/3
+SKIPISO t=23/3 u=-5/3
+MWRANK u=2/5 r=3 gens=2
+FIBSURV Sig=3 t=28/5 u=2/5
+SKIPISO t=28/5 u=2/5
+MWRANK u=5/2 r=1 gens=2
+FIBSURV Sig=3 t=7/2 u=5/2
+SKIPISO t=7/2 u=5/2
+MWRANK u=5/4 r=2 gens=2
+FIBSURV Sig=3 t=19/4 u=5/4
+SKIPISO t=19/4 u=5/4
+MWRANK u=3/5 r=1 gens=2
+FIBSURV Sig=3 t=27/5 u=3/5
+SKIPISO t=27/5 u=3/5
+MWRANK u=-5/2 r=2 gens=2
+FIBSURV Sig=3 t=17/2 u=-5/2
+SKIPISO t=17/2 u=-5/2
+MWRANK u=-1/5 r=1 gens=2
+FIBSURV Sig=3 t=31/5 u=-1/5
+SKIPISO t=31/5 u=-1/5
+MWRANK u=4/5 r=1 gens=2
+FIBSURV Sig=3 t=26/5 u=4/5
+SKIPISO t=26/5 u=4/5
+MWRANK u=-5/4 r=2 gens=2
+FIBSURV Sig=3 t=29/4 u=-5/4
+SKIPISO t=29/4 u=-5/4
+MWRANK u=-3/5 r=1 gens=2
+FIBSURV Sig=3 t=33/5 u=-3/5
+SKIPISO t=33/5 u=-3/5
+MWRANK u=-4/5 r=1 gens=2
+FIBSURV Sig=3 t=34/5 u=-4/5
+SKIPISO t=34/5 u=-4/5
+MWRANK u=1/5 r=2 gens=2
+FIBSURV Sig=3 t=29/5 u=1/5
+SKIPISO t=29/5 u=1/5
+MWRANK u=-2/5 r=1 gens=2
+FIBSURV Sig=3 t=32/5 u=-2/5
+SKIPISO t=32/5 u=-2/5
+MWRANK u=-6 r=1 gens=2
+FIBSURV Sig=3 t=12 u=-6
+SKIPISO t=12 u=-6
+MWRANK u=-6/5 r=1 gens=2
+FIBSURV Sig=3 t=36/5 u=-6/5
+SKIPISO t=36/5 u=-6/5
+MWRANK u=-5/6 r=1 gens=2
+FIBSURV Sig=3 t=41/6 u=-5/6
+SKIPISO t=41/6 u=-5/6
+MWRANK u=1/6 r=2 gens=2
+FIBSURV Sig=3 t=35/6 u=1/6
+SKIPISO t=35/6 u=1/6
+MWRANK u=5/6 r=2 gens=2
+FIBSURV Sig=3 t=31/6 u=5/6
+SKIPISO t=31/6 u=5/6
+MWRANK u=-1/6 r=2 gens=2
+FIBSURV Sig=3 t=37/6 u=-1/6
+SKIPISO t=37/6 u=-1/6
+MWRANK u=-7/5 r=2 gens=2
+FIBSURV Sig=3 t=37/5 u=-7/5
+SKIPISO t=37/5 u=-7/5
+MWRANK u=-7/3 r=1 gens=2
+FIBSURV Sig=3 t=25/3 u=-7/3
+SKIPISO t=25/3 u=-7/3
+MWRANK u=7/4 r=2 gens=2
+FIBSURV Sig=3 t=17/4 u=7/4
+SKIPISO t=17/4 u=7/4
+MWRANK u=4/7 r=1 gens=2
+FIBSURV Sig=3 t=38/7 u=4/7
+SKIPISO t=38/7 u=4/7
+MWRANK u=6/7 r=1 gens=2
+FIBSURV Sig=3 t=36/7 u=6/7
+SKIPISO t=36/7 u=6/7
+MWRANK u=-6/7 r=1 gens=2
+FIBSURV Sig=3 t=48/7 u=-6/7
+SKIPISO t=48/7 u=-6/7
+MWRANK u=-7/2 r=1 gens=2
+FIBSURV Sig=3 t=19/2 u=-7/2
+SKIPISO t=19/2 u=-7/2
+MWRANK u=-2/7 r=2 gens=2
+FIBSURV Sig=3 t=44/7 u=-2/7
+SKIPISO t=44/7 u=-2/7
+MWRANK u=-3/7 r=2 gens=2
+FIBSURV Sig=3 t=45/7 u=-3/7
+SKIPISO t=45/7 u=-3/7
+MWRANK u=7/2 r=2 gens=2
+FIBSURV Sig=3 t=5/2 u=7/2
+SKIPISO t=5/2 u=7/2
+MWRANK u=5/7 r=1 gens=2
+FIBSURV Sig=3 t=37/7 u=5/7
+SKIPISO t=37/7 u=5/7
+MWRANK u=7/6 r=1 gens=2
+FIBSURV Sig=3 t=29/6 u=7/6
+SKIPISO t=29/6 u=7/6
+MWRANK u=1/7 r=1 gens=2
+FIBSURV Sig=3 t=41/7 u=1/7
+SKIPISO t=41/7 u=1/7
+MWRANK u=7/3 r=1 gens=2
+FIBSURV Sig=3 t=11/3 u=7/3
+SKIPISO t=11/3 u=7/3
+MWRANK u=2/7 r=3 gens=2
+FIBSURV Sig=3 t=40/7 u=2/7
+SKIPISO t=40/7 u=2/7
+MWRANK u=-7/4 r=1 gens=2
+FIBSURV Sig=3 t=31/4 u=-7/4
+SKIPISO t=31/4 u=-7/4
+MWRANK u=-7 r=1 gens=2
+FIBSURV Sig=3 t=13 u=-7
+SKIPISO t=13 u=-7
+MWRANK u=-1/7 r=1 gens=2
+FIBSURV Sig=3 t=43/7 u=-1/7
+SKIPISO t=43/7 u=-1/7
+MWRANK u=7/5 r=1 gens=2
+FIBSURV Sig=3 t=23/5 u=7/5
+SKIPISO t=23/5 u=7/5
+MWRANK u=-7/6 r=2 gens=2
+FIBSURV Sig=3 t=43/6 u=-7/6
+SKIPISO t=43/6 u=-7/6
+MWRANK u=-4/7 r=1 gens=2
+FIBSURV Sig=3 t=46/7 u=-4/7
+SKIPISO t=46/7 u=-4/7
+MWRANK u=-5/7 r=2 gens=2
+FIBSURV Sig=3 t=47/7 u=-5/7
+SKIPISO t=47/7 u=-5/7
+MWRANK u=-5/8 r=1 gens=2
+FIBSURV Sig=3 t=53/8 u=-5/8
+SKIPISO t=53/8 u=-5/8
+MWRANK u=-8 r=2 gens=2
+FIBSURV Sig=3 t=14 u=-8
+SKIPISO t=14 u=-8
+MWRANK u=-1/8 r=2 gens=2
+FIBSURV Sig=3 t=49/8 u=-1/8
+SKIPISO t=49/8 u=-1/8
+MWRANK u=-8/7 r=1 gens=2
+FIBSURV Sig=3 t=50/7 u=-8/7
+SKIPISO t=50/7 u=-8/7
+MWRANK u=8/5 r=2 gens=2
+FIBSURV Sig=3 t=22/5 u=8/5
+SKIPISO t=22/5 u=8/5
+MWRANK u=3/8 r=1 gens=2
+FIBSURV Sig=3 t=45/8 u=3/8
+SKIPISO t=45/8 u=3/8
+MWRANK u=1/8 r=2 gens=2
+FIBSURV Sig=3 t=47/8 u=1/8
+SKIPISO t=47/8 u=1/8
+MWRANK u=5/8 r=2 gens=2
+FIBSURV Sig=3 t=43/8 u=5/8
+SKIPISO t=43/8 u=5/8
+MWRANK u=-7/8 r=2 gens=2
+FIBSURV Sig=3 t=55/8 u=-7/8
+SKIPISO t=55/8 u=-7/8
+MWRANK u=8/7 r=2 gens=2
+FIBSURV Sig=3 t=34/7 u=8/7
+SKIPISO t=34/7 u=8/7
+MWRANK u=-3/8 r=1 gens=2
+FIBSURV Sig=3 t=51/8 u=-3/8
+SKIPISO t=51/8 u=-3/8
+MWRANK u=7/8 r=2 gens=2
+FIBSURV Sig=3 t=41/8 u=7/8
+SKIPISO t=41/8 u=7/8
+MWRANK u=-8/5 r=1 gens=2
+FIBSURV Sig=3 t=38/5 u=-8/5
+SKIPISO t=38/5 u=-8/5
+MWRANK u=8 r=1 gens=2
+FIBSURV Sig=3 t=-2 u=8
+SKIPISO t=-2 u=8
+MWRANK u=-8/3 r=3 gens=2
+FIBSURV Sig=3 t=26/3 u=-8/3
+SKIPISO t=26/3 u=-8/3
+MWRANK u=-1/9 r=2 gens=2
+FIBSURV Sig=3 t=55/9 u=-1/9
+SKIPISO t=55/9 u=-1/9
+MWRANK u=-2/9 r=1 gens=2
+FIBSURV Sig=3 t=56/9 u=-2/9
+SKIPISO t=56/9 u=-2/9
+MWRANK u=-7/9 r=2 gens=2
+FIBSURV Sig=3 t=61/9 u=-7/9
+SKIPISO t=61/9 u=-7/9
+MWRANK u=9/7 r=2 gens=2
+FIBSURV Sig=3 t=33/7 u=9/7
+SKIPISO t=33/7 u=9/7
+MWRANK u=4/9 r=1 gens=2
+FIBSURV Sig=3 t=50/9 u=4/9
+SKIPISO t=50/9 u=4/9
+MWRANK u=-9/7 r=1 gens=2
+FIBSURV Sig=3 t=51/7 u=-9/7
+SKIPISO t=51/7 u=-9/7
+MWRANK u=5/9 r=1 gens=2
+FIBSURV Sig=3 t=49/9 u=5/9
+SKIPISO t=49/9 u=5/9
+MWRANK u=8/9 r=2 gens=2
+FIBSURV Sig=3 t=46/9 u=8/9
+SKIPISO t=46/9 u=8/9
+MWRANK u=9/4 r=1 gens=2
+FIBSURV Sig=3 t=15/4 u=9/4
+SKIPISO t=15/4 u=9/4
+MWRANK u=9/8 r=1 gens=2
+FIBSURV Sig=3 t=39/8 u=9/8
+SKIPISO t=39/8 u=9/8
+MWRANK u=-9/5 r=1 gens=2
+FIBSURV Sig=3 t=39/5 u=-9/5
+SKIPISO t=39/5 u=-9/5
+MWRANK u=-8/9 r=1 gens=2
+FIBSURV Sig=3 t=62/9 u=-8/9
+SKIPISO t=62/9 u=-8/9
+MWRANK u=9/5 r=1 gens=2
+FIBSURV Sig=3 t=21/5 u=9/5
+SKIPISO t=21/5 u=9/5
+MWRANK u=-9/8 r=2 gens=2
+FIBSURV Sig=3 t=57/8 u=-9/8
+SKIPISO t=57/8 u=-9/8
+MWRANK u=2/9 r=2 gens=2
+FIBSURV Sig=3 t=52/9 u=2/9
+SKIPISO t=52/9 u=2/9
+MWRANK u=1/9 r=1 gens=2
+FIBSURV Sig=3 t=53/9 u=1/9
+SKIPISO t=53/9 u=1/9
+MWRANK u=-4/9 r=2 gens=2
+FIBSURV Sig=3 t=58/9 u=-4/9
+SKIPISO t=58/9 u=-4/9
+MWRANK u=-9/2 r=2 gens=2
+FIBSURV Sig=3 t=21/2 u=-9/2
+SKIPISO t=21/2 u=-9/2
+MWRANK u=7/9 r=1 gens=2
+FIBSURV Sig=3 t=47/9 u=7/9
+SKIPISO t=47/9 u=7/9
+MWRANK u=-9 r=1 gens=2
+FIBSURV Sig=3 t=15 u=-9
+SKIPISO t=15 u=-9
+MWRANK u=9/2 r=1 gens=2
+FIBSURV Sig=3 t=3/2 u=9/2
+SKIPISO t=3/2 u=9/2
+MWRANK u=-9/4 r=1 gens=2
+FIBSURV Sig=3 t=33/4 u=-9/4
+SKIPISO t=33/4 u=-9/4
+MWRANK u=-5/9 r=1 gens=2
+FIBSURV Sig=3 t=59/9 u=-5/9
+SKIPISO t=59/9 u=-5/9
+MWRANK u=-10/9 r=2 gens=2
+FIBSURV Sig=3 t=64/9 u=-10/9
+SKIPISO t=64/9 u=-10/9
+MWRANK u=-3/10 r=1 gens=2
+FIBSURV Sig=3 t=63/10 u=-3/10
+SKIPISO t=63/10 u=-3/10
+MWRANK u=10/3 r=1 gens=2
+FIBSURV Sig=3 t=8/3 u=10/3
+SKIPISO t=8/3 u=10/3
+MWRANK u=-10/3 r=3 gens=2
+FIBSURV Sig=3 t=28/3 u=-10/3
+SKIPISO t=28/3 u=-10/3
+MWRANK u=-10/7 r=3 gens=2
+FIBSURV Sig=3 t=52/7 u=-10/7
+SKIPISO t=52/7 u=-10/7
+MWRANK u=-1/10 r=2 gens=2
+FIBSURV Sig=3 t=61/10 u=-1/10
+SKIPISO t=61/10 u=-1/10
+MWRANK u=10/7 r=2 gens=2
+FIBSURV Sig=3 t=32/7 u=10/7
+SKIPISO t=32/7 u=10/7
+MWRANK u=1/10 r=1 gens=2
+FIBSURV Sig=3 t=59/10 u=1/10
+SKIPISO t=59/10 u=1/10
+MWRANK u=7/10 r=2 gens=2
+FIBSURV Sig=3 t=53/10 u=7/10
+SKIPISO t=53/10 u=7/10
+MWRANK u=-9/10 r=2 gens=2
+FIBSURV Sig=3 t=69/10 u=-9/10
+SKIPISO t=69/10 u=-9/10
+MWRANK u=-7/10 r=2 gens=2
+FIBSURV Sig=3 t=67/10 u=-7/10
+SKIPISO t=67/10 u=-7/10
+MWRANK u=10/9 r=2 gens=2
+FIBSURV Sig=3 t=44/9 u=10/9
+SKIPISO t=44/9 u=10/9
+MWRANK u=3/10 r=2 gens=2
+FIBSURV Sig=3 t=57/10 u=3/10
+SKIPISO t=57/10 u=3/10
+MWRANK u=11/9 r=1 gens=2
+FIBSURV Sig=3 t=43/9 u=11/9
+SKIPISO t=43/9 u=11/9
+MWRANK u=-3/11 r=1 gens=2
+FIBSURV Sig=3 t=69/11 u=-3/11
+SKIPISO t=69/11 u=-3/11
+MWRANK u=-11/6 r=2 gens=2
+FIBSURV Sig=3 t=47/6 u=-11/6
+SKIPISO t=47/6 u=-11/6
+MWRANK u=11/6 r=2 gens=2
+FIBSURV Sig=3 t=25/6 u=11/6
+SKIPISO t=25/6 u=11/6
+MWRANK u=-7/11 r=1 gens=2
+FIBSURV Sig=3 t=73/11 u=-7/11
+SKIPISO t=73/11 u=-7/11
+MWRANK u=11/8 r=2 gens=2
+FIBSURV Sig=3 t=37/8 u=11/8
+SKIPISO t=37/8 u=11/8
+MWRANK u=-11/10 r=3 gens=2
+FIBSURV Sig=3 t=71/10 u=-11/10
+SKIPISO t=71/10 u=-11/10
+MWRANK u=-2/11 r=3 gens=2
+FIBSURV Sig=3 t=68/11 u=-2/11
+SKIPISO t=68/11 u=-2/11
+MWRANK u=5/11 r=1 gens=2
+FIBSURV Sig=3 t=61/11 u=5/11
+SKIPISO t=61/11 u=5/11
+MWRANK u=-10/11 r=3 gens=2
+FIBSURV Sig=3 t=76/11 u=-10/11
+SKIPISO t=76/11 u=-10/11
+MWRANK u=-11/5 r=3 gens=2
+FIBSURV Sig=3 t=41/5 u=-11/5
+SKIPISO t=41/5 u=-11/5
+MWRANK u=-11/4 r=3 gens=2
+FIBSURV Sig=3 t=35/4 u=-11/4
+SKIPISO t=35/4 u=-11/4
+MWRANK u=-1/11 r=2 gens=2
+FIBSURV Sig=3 t=67/11 u=-1/11
+SKIPISO t=67/11 u=-1/11
+MWRANK u=-4/11 r=3 gens=2
+FIBSURV Sig=3 t=70/11 u=-4/11
+SKIPISO t=70/11 u=-4/11
+MWRANK u=11 r=1 gens=2
+FIBSURV Sig=3 t=-5 u=11
+SKIPISO t=-5 u=11
+MWRANK u=-11/8 r=2 gens=2
+FIBSURV Sig=3 t=59/8 u=-11/8
+SKIPISO t=59/8 u=-11/8
+MWRANK u=11/7 r=1 gens=2
+FIBSURV Sig=3 t=31/7 u=11/7
+SKIPISO t=31/7 u=11/7
+MWRANK u=-11/2 r=2 gens=2
+FIBSURV Sig=3 t=23/2 u=-11/2
+SKIPISO t=23/2 u=-11/2
+MWSKIP u=-8/11 bounds=[1,3]
+FIBSURV Sig=3 t=74/11 u=-8/11
+SKIPISO t=74/11 u=-8/11
+MWRANK u=-11/7 r=2 gens=2
+FIBSURV Sig=3 t=53/7 u=-11/7
+SKIPISO t=53/7 u=-11/7
+MWRANK u=11/10 r=3 gens=2
+FIBSURV Sig=3 t=49/10 u=11/10
+SKIPISO t=49/10 u=11/10
+MWRANK u=-11/9 r=2 gens=2
+FIBSURV Sig=3 t=65/9 u=-11/9
+SKIPISO t=65/9 u=-11/9
+MWRANK u=11/5 r=2 gens=2
+FIBSURV Sig=3 t=19/5 u=11/5
+SKIPISO t=19/5 u=11/5
+MWRANK u=6/11 r=2 gens=2
+FIBSURV Sig=3 t=60/11 u=6/11
+SKIPISO t=60/11 u=6/11
+MWRANK u=7/11 r=2 gens=2
+FIBSURV Sig=3 t=59/11 u=7/11
+SKIPISO t=59/11 u=7/11
+MWRANK u=-9/11 r=2 gens=2
+FIBSURV Sig=3 t=75/11 u=-9/11
+SKIPISO t=75/11 u=-9/11
+MWRANK u=8/11 r=3 gens=2
+FIBSURV Sig=3 t=58/11 u=8/11
+SKIPISO t=58/11 u=8/11
+MWRANK u=11/3 r=1 gens=2
+FIBSURV Sig=3 t=7/3 u=11/3
+SKIPISO t=7/3 u=11/3
+MWRANK u=10/11 r=1 gens=2
+FIBSURV Sig=3 t=56/11 u=10/11
+SKIPISO t=56/11 u=10/11
+MWRANK u=1/11 r=2 gens=2
+FIBSURV Sig=3 t=65/11 u=1/11
+SKIPISO t=65/11 u=1/11
+MWRANK u=-11/3 r=1 gens=2
+FIBSURV Sig=3 t=29/3 u=-11/3
+SKIPISO t=29/3 u=-11/3
+MWRANK u=4/11 r=1 gens=2
+FIBSURV Sig=3 t=62/11 u=4/11
+SKIPISO t=62/11 u=4/11
+MWRANK u=3/11 r=2 gens=2
+FIBSURV Sig=3 t=63/11 u=3/11
+SKIPISO t=63/11 u=3/11
+MWRANK u=-6/11 r=3 gens=2
+FIBSURV Sig=3 t=72/11 u=-6/11
+SKIPISO t=72/11 u=-6/11
+MWRANK u=-5/11 r=3 gens=2
+FIBSURV Sig=3 t=71/11 u=-5/11
+SKIPISO t=71/11 u=-5/11
+MWRANK u=2/11 r=1 gens=2
+FIBSURV Sig=3 t=64/11 u=2/11
+SKIPISO t=64/11 u=2/11
+MWRANK u=9/11 r=1 gens=2
+FIBSURV Sig=3 t=57/11 u=9/11
+SKIPISO t=57/11 u=9/11
+MWRANK u=11/2 r=1 gens=2
+FIBSURV Sig=3 t=1/2 u=11/2
+SKIPISO t=1/2 u=11/2
+MWRANK u=-7/12 r=1 gens=2
+FIBSURV Sig=3 t=79/12 u=-7/12
+SKIPISO t=79/12 u=-7/12
+MWSKIP u=-12/11 bounds=[1,3]
+FIBSURV Sig=3 t=78/11 u=-12/11
+SKIPISO t=78/11 u=-12/11
+MWRANK u=12/7 r=2 gens=2
+FIBSURV Sig=3 t=30/7 u=12/7
+SKIPISO t=30/7 u=12/7
+MWRANK u=-12/7 r=1 gens=2
+FIBSURV Sig=3 t=54/7 u=-12/7
+SKIPISO t=54/7 u=-12/7
+MWRANK u=12/11 r=2 gens=2
+FIBSURV Sig=3 t=54/11 u=12/11
+SKIPISO t=54/11 u=12/11
+MWSKIP u=7/12 bounds=[1,3]
+FIBSURV Sig=3 t=65/12 u=7/12
+SKIPISO t=65/12 u=7/12
+MWRANK u=1/12 r=1 gens=2
+FIBSURV Sig=3 t=71/12 u=1/12
+SKIPISO t=71/12 u=1/12
+MWRANK u=-5/12 r=3 gens=2
+FIBSURV Sig=3 t=77/12 u=-5/12
+SKIPISO t=77/12 u=-5/12
+MWRANK u=12/5 r=2 gens=2
+FIBSURV Sig=3 t=18/5 u=12/5
+SKIPISO t=18/5 u=12/5
+MWRANK u=-12/5 r=2 gens=2
+FIBSURV Sig=3 t=42/5 u=-12/5
+SKIPISO t=42/5 u=-12/5
+MWRANK u=-11/12 r=1 gens=2
+FIBSURV Sig=3 t=83/12 u=-11/12
+SKIPISO t=83/12 u=-11/12
+MWRANK u=5/12 r=3 gens=2
+FIBSURV Sig=3 t=67/12 u=5/12
+SKIPISO t=67/12 u=5/12
+MWRANK u=11/12 r=1 gens=2
+FIBSURV Sig=3 t=61/12 u=11/12
+SKIPISO t=61/12 u=11/12
+MWRANK u=13/3 r=1 gens=2
+FIBSURV Sig=3 t=5/3 u=13/3
+SKIPISO t=5/3 u=13/3
+MWRANK u=-13/6 r=3 gens=2
+FIBSURV Sig=3 t=49/6 u=-13/6
+SKIPISO t=49/6 u=-13/6
+MWRANK u=8/13 r=3 gens=2
+FIBSURV Sig=3 t=70/13 u=8/13
+SKIPISO t=70/13 u=8/13
+MWRANK u=5/13 r=1 gens=2
+FIBSURV Sig=3 t=73/13 u=5/13
+SKIPISO t=73/13 u=5/13
+MWRANK u=11/13 r=1 gens=2
+FIBSURV Sig=3 t=67/13 u=11/13
+SKIPISO t=67/13 u=11/13
+MWRANK u=-7/13 r=2 gens=2
+FIBSURV Sig=3 t=85/13 u=-7/13
+SKIPISO t=85/13 u=-7/13
+MWRANK u=9/13 r=1 gens=2
+FIBSURV Sig=3 t=69/13 u=9/13
+SKIPISO t=69/13 u=9/13
+MWRANK u=-13/4 r=1 gens=2
+FIBSURV Sig=3 t=37/4 u=-13/4
+SKIPISO t=37/4 u=-13/4
+MWRANK u=-13/5 r=2 gens=2
+FIBSURV Sig=3 t=43/5 u=-13/5
+SKIPISO t=43/5 u=-13/5
+MWRANK u=-10/13 r=3 gens=2
+FIBSURV Sig=3 t=88/13 u=-10/13
+SKIPISO t=88/13 u=-10/13
+MWRANK u=10/13 r=1 gens=2
+FIBSURV Sig=3 t=68/13 u=10/13
+SKIPISO t=68/13 u=10/13
+MWRANK u=-13/7 r=2 gens=2
+FIBSURV Sig=3 t=55/7 u=-13/7
+SKIPISO t=55/7 u=-13/7
+MWRANK u=-5/13 r=3 gens=2
+FIBSURV Sig=3 t=83/13 u=-5/13
+SKIPISO t=83/13 u=-5/13
+MWRANK u=13/11 r=2 gens=2
+FIBSURV Sig=3 t=53/11 u=13/11
+SKIPISO t=53/11 u=13/11
+MWRANK u=13/12 r=2 gens=2
+FIBSURV Sig=3 t=59/12 u=13/12
+SKIPISO t=59/12 u=13/12
+MWRANK u=13/2 r=2 gens=2
+FIBSURV Sig=3 t=-1/2 u=13/2
+SKIPISO t=-1/2 u=13/2
+MWRANK u=-12/13 r=3 gens=2
+FIBSURV Sig=3 t=90/13 u=-12/13
+SKIPISO t=90/13 u=-12/13
+MWRANK u=-2/13 r=1 gens=2
+FIBSURV Sig=3 t=80/13 u=-2/13
+SKIPISO t=80/13 u=-2/13
+MWRANK u=7/13 r=2 gens=2
+FIBSURV Sig=3 t=71/13 u=7/13
+SKIPISO t=71/13 u=7/13
+MWRANK u=13/8 r=1 gens=2
+FIBSURV Sig=3 t=35/8 u=13/8
+SKIPISO t=35/8 u=13/8
+MWRANK u=13/7 r=1 gens=2
+FIBSURV Sig=3 t=29/7 u=13/7
+SKIPISO t=29/7 u=13/7
+MWRANK u=6/13 r=1 gens=2
+FIBSURV Sig=3 t=72/13 u=6/13
+SKIPISO t=72/13 u=6/13
+MWRANK u=13/9 r=1 gens=2
+FIBSURV Sig=3 t=41/9 u=13/9
+SKIPISO t=41/9 u=13/9
+MWRANK u=13/10 r=2 gens=2
+FIBSURV Sig=3 t=47/10 u=13/10
+SKIPISO t=47/10 u=13/10
+MWRANK u=-9/13 r=3 gens=2
+FIBSURV Sig=3 t=87/13 u=-9/13
+SKIPISO t=87/13 u=-9/13
+MWRANK u=-1/13 r=1 gens=2
+FIBSURV Sig=3 t=79/13 u=-1/13
+SKIPISO t=79/13 u=-1/13
+MWRANK u=-13/3 r=1 gens=2
+FIBSURV Sig=3 t=31/3 u=-13/3
+SKIPISO t=31/3 u=-13/3
+MWRANK u=-13/10 r=2 gens=2
+FIBSURV Sig=3 t=73/10 u=-13/10
+SKIPISO t=73/10 u=-13/10
+MWRANK u=13/6 r=1 gens=2
+FIBSURV Sig=3 t=23/6 u=13/6
+SKIPISO t=23/6 u=13/6
+MWRANK u=1/13 r=2 gens=2
+FIBSURV Sig=3 t=77/13 u=1/13
+SKIPISO t=77/13 u=1/13
+MWRANK u=-13/2 r=2 gens=2
+FIBSURV Sig=3 t=25/2 u=-13/2
+SKIPISO t=25/2 u=-13/2
+MWRANK u=-13/8 r=3 gens=2
+FIBSURV Sig=3 t=61/8 u=-13/8
+SKIPISO t=61/8 u=-13/8
+MWRANK u=13/5 r=1 gens=2
+FIBSURV Sig=3 t=17/5 u=13/5
+SKIPISO t=17/5 u=13/5
+MWRANK u=-13/9 r=1 gens=2
+FIBSURV Sig=3 t=67/9 u=-13/9
+SKIPISO t=67/9 u=-13/9
+MWRANK u=-4/13 r=3 gens=2
+FIBSURV Sig=3 t=82/13 u=-4/13
+SKIPISO t=82/13 u=-4/13
+MWRANK u=-13 r=1 gens=2
+FIBSURV Sig=3 t=19 u=-13
+SKIPISO t=19 u=-13
+MWRANK u=3/13 r=1 gens=2
+FIBSURV Sig=3 t=75/13 u=3/13
+SKIPISO t=75/13 u=3/13
+MWRANK u=4/13 r=2 gens=2
+FIBSURV Sig=3 t=74/13 u=4/13
+SKIPISO t=74/13 u=4/13
+MWRANK u=-6/13 r=1 gens=2
+FIBSURV Sig=3 t=84/13 u=-6/13
+SKIPISO t=84/13 u=-6/13
+MWRANK u=2/13 r=1 gens=2
+FIBSURV Sig=3 t=76/13 u=2/13
+SKIPISO t=76/13 u=2/13
+MWRANK u=-8/13 r=1 gens=2
+FIBSURV Sig=3 t=86/13 u=-8/13
+SKIPISO t=86/13 u=-8/13
+MWRANK u=13/4 r=1 gens=2
+FIBSURV Sig=3 t=11/4 u=13/4
+SKIPISO t=11/4 u=13/4
+MWRANK u=-13/11 r=1 gens=2
+FIBSURV Sig=3 t=79/11 u=-13/11
+SKIPISO t=79/11 u=-13/11
+MWRANK u=-14/3 r=1 gens=2
+FIBSURV Sig=3 t=32/3 u=-14/3
+SKIPISO t=32/3 u=-14/3
+MWRANK u=-5/14 r=2 gens=2
+FIBSURV Sig=3 t=89/14 u=-5/14
+SKIPISO t=89/14 u=-5/14
+MWRANK u=-9/14 r=2 gens=2
+FIBSURV Sig=3 t=93/14 u=-9/14
+SKIPISO t=93/14 u=-9/14
+MWRANK u=11/14 r=2 gens=2
+FIBSURV Sig=3 t=73/14 u=11/14
+SKIPISO t=73/14 u=11/14
+MWRANK u=-1/14 r=1 gens=2
+FIBSURV Sig=3 t=85/14 u=-1/14
+SKIPISO t=85/14 u=-1/14
+MWRANK u=14/11 r=2 gens=2
+FIBSURV Sig=3 t=52/11 u=14/11
+SKIPISO t=52/11 u=14/11
+MWRANK u=14 r=2 gens=2
+FIBSURV Sig=3 t=-8 u=14
+SKIPISO t=-8 u=14
+MWRANK u=-14 r=1 gens=2
+FIBSURV Sig=3 t=20 u=-14
+SKIPISO t=20 u=-14
+MWRANK u=-14/13 r=1 gens=2
+FIBSURV Sig=3 t=92/13 u=-14/13
+SKIPISO t=92/13 u=-14/13
+MWRANK u=-14/11 r=1 gens=2
+FIBSURV Sig=3 t=80/11 u=-14/11
+SKIPISO t=80/11 u=-14/11
+MWRANK u=13/14 r=2 gens=2
+FIBSURV Sig=3 t=71/14 u=13/14
+SKIPISO t=71/14 u=13/14
+MWRANK u=-14/5 r=1 gens=2
+FIBSURV Sig=3 t=44/5 u=-14/5
+SKIPISO t=44/5 u=-14/5
+MWRANK u=3/14 r=2 gens=2
+FIBSURV Sig=3 t=81/14 u=3/14
+SKIPISO t=81/14 u=3/14
+MWRANK u=14/9 r=1 gens=2
+FIBSURV Sig=3 t=40/9 u=14/9
+SKIPISO t=40/9 u=14/9
+MWRANK u=-14/9 r=1 gens=2
+FIBSURV Sig=3 t=68/9 u=-14/9
+SKIPISO t=68/9 u=-14/9
+MWRANK u=1/14 r=2 gens=2
+FIBSURV Sig=3 t=83/14 u=1/14
+SKIPISO t=83/14 u=1/14
+MWRANK u=14/13 r=2 gens=2
+FIBSURV Sig=3 t=64/13 u=14/13
+SKIPISO t=64/13 u=14/13
+MWRANK u=14/3 r=1 gens=2
+FIBSURV Sig=3 t=4/3 u=14/3
+SKIPISO t=4/3 u=14/3
+MWRANK u=-13/14 r=2 gens=2
+FIBSURV Sig=3 t=97/14 u=-13/14
+SKIPISO t=97/14 u=-13/14
+MWSKIP u=-11/14 bounds=[1,2]
+FIBSURV Sig=3 t=95/14 u=-11/14
+SKIPISO t=95/14 u=-11/14
+MWRANK u=-3/14 r=2 gens=2
+FIBSURV Sig=3 t=87/14 u=-3/14
+SKIPISO t=87/14 u=-3/14
+MWRANK u=9/14 r=2 gens=2
+FIBSURV Sig=3 t=75/14 u=9/14
+SKIPISO t=75/14 u=9/14
+MWRANK u=14/5 r=1 gens=2
+FIBSURV Sig=3 t=16/5 u=14/5
+SKIPISO t=16/5 u=14/5
+MWRANK u=5/14 r=2 gens=2
+FIBSURV Sig=3 t=79/14 u=5/14
+SKIPISO t=79/14 u=5/14
+MWRANK u=-15/7 r=3 gens=2
+FIBSURV Sig=3 t=57/7 u=-15/7
+SKIPISO t=57/7 u=-15/7
+MWRANK u=-13/15 r=2 gens=2
+FIBSURV Sig=3 t=103/15 u=-13/15
+SKIPISO t=103/15 u=-13/15
+MWRANK u=-15/8 r=2 gens=2
+FIBSURV Sig=3 t=63/8 u=-15/8
+SKIPISO t=63/8 u=-15/8
+MWRANK u=15/11 r=1 gens=2
+FIBSURV Sig=3 t=51/11 u=15/11
+SKIPISO t=51/11 u=15/11
+MWSKIP u=-2/15 bounds=[1,3]
+FIBSURV Sig=3 t=92/15 u=-2/15
+SKIPISO t=92/15 u=-2/15
+MWRANK u=11/15 r=2 gens=2
+FIBSURV Sig=3 t=79/15 u=11/15
+SKIPISO t=79/15 u=11/15
+MWRANK u=-8/15 r=1 gens=2
+FIBSURV Sig=3 t=98/15 u=-8/15
+SKIPISO t=98/15 u=-8/15
+MWRANK u=-4/15 r=3 gens=2
+FIBSURV Sig=3 t=94/15 u=-4/15
+SKIPISO t=94/15 u=-4/15
+MWRANK u=-14/15 r=3 gens=2
+FIBSURV Sig=3 t=104/15 u=-14/15
+SKIPISO t=104/15 u=-14/15
+MWRANK u=15/14 r=1 gens=2
+FIBSURV Sig=3 t=69/14 u=15/14
+SKIPISO t=69/14 u=15/14
+MWRANK u=-15/4 r=3 gens=2
+FIBSURV Sig=3 t=39/4 u=-15/4
+SKIPISO t=39/4 u=-15/4
+MWRANK u=-7/15 r=3 gens=2
+FIBSURV Sig=3 t=97/15 u=-7/15
+SKIPISO t=97/15 u=-7/15
+MWRANK u=1/15 r=1 gens=2
+FIBSURV Sig=3 t=89/15 u=1/15
+SKIPISO t=89/15 u=1/15
+MWRANK u=-15/11 r=3 gens=2
+FIBSURV Sig=3 t=81/11 u=-15/11
+SKIPISO t=81/11 u=-15/11
+MWRANK u=-15/13 r=1 gens=2
+FIBSURV Sig=3 t=93/13 u=-15/13
+SKIPISO t=93/13 u=-15/13
+MWRANK u=15/8 r=1 gens=2
+FIBSURV Sig=3 t=33/8 u=15/8
+SKIPISO t=33/8 u=15/8
+MWRANK u=14/15 r=1 gens=2
+FIBSURV Sig=3 t=76/15 u=14/15
+SKIPISO t=76/15 u=14/15
+MWRANK u=2/15 r=3 gens=2
+FIBSURV Sig=3 t=88/15 u=2/15
+SKIPISO t=88/15 u=2/15
+MWRANK u=8/15 r=3 gens=2
+FIBSURV Sig=3 t=82/15 u=8/15
+SKIPISO t=82/15 u=8/15
+MWRANK u=-15/14 r=2 gens=2
+FIBSURV Sig=3 t=99/14 u=-15/14
+SKIPISO t=99/14 u=-15/14
+MWRANK u=-15/2 r=1 gens=2
+FIBSURV Sig=3 t=27/2 u=-15/2
+SKIPISO t=27/2 u=-15/2
+MWRANK u=13/15 r=2 gens=2
+FIBSURV Sig=3 t=77/15 u=13/15
+SKIPISO t=77/15 u=13/15
+MWRANK u=4/15 r=1 gens=2
+FIBSURV Sig=3 t=86/15 u=4/15
+SKIPISO t=86/15 u=4/15
+MWRANK u=15/13 r=3 gens=2
+FIBSURV Sig=3 t=63/13 u=15/13
+SKIPISO t=63/13 u=15/13
+MWRANK u=-1/15 r=1 gens=2
+FIBSURV Sig=3 t=91/15 u=-1/15
+SKIPISO t=91/15 u=-1/15
+MWRANK u=15/4 r=1 gens=2
+FIBSURV Sig=3 t=9/4 u=15/4
+SKIPISO t=9/4 u=15/4
+MWRANK u=-11/15 r=3 gens=2
+FIBSURV Sig=3 t=101/15 u=-11/15
+SKIPISO t=101/15 u=-11/15
+MWRANK u=7/15 r=1 gens=2
+FIBSURV Sig=3 t=83/15 u=7/15
+SKIPISO t=83/15 u=7/15
+MWRANK u=-9/16 r=1 gens=2
+FIBSURV Sig=3 t=105/16 u=-9/16
+SKIPISO t=105/16 u=-9/16
+MWRANK u=16/15 r=2 gens=2
+FIBSURV Sig=3 t=74/15 u=16/15
+SKIPISO t=74/15 u=16/15
+MWRANK u=3/16 r=1 gens=2
+FIBSURV Sig=3 t=93/16 u=3/16
+SKIPISO t=93/16 u=3/16
+MWRANK u=7/16 r=2 gens=2
+FIBSURV Sig=3 t=89/16 u=7/16
+SKIPISO t=89/16 u=7/16
+MWRANK u=-7/16 r=1 gens=2
+FIBSURV Sig=3 t=103/16 u=-7/16
+SKIPISO t=103/16 u=-7/16
+MWRANK u=16/7 r=2 gens=2
+FIBSURV Sig=3 t=26/7 u=16/7
+SKIPISO t=26/7 u=16/7
+MWSKIP u=-5/16 bounds=[1,3]
+FIBSURV Sig=3 t=101/16 u=-5/16
+SKIPISO t=101/16 u=-5/16
+MWRANK u=-16/5 r=3 gens=2
+FIBSURV Sig=3 t=46/5 u=-16/5
+SKIPISO t=46/5 u=-16/5
+MWRANK u=-16/7 r=3 gens=2
+FIBSURV Sig=3 t=58/7 u=-16/7
+SKIPISO t=58/7 u=-16/7
+MWRANK u=11/16 r=3 gens=2
+FIBSURV Sig=3 t=85/16 u=11/16
+SKIPISO t=85/16 u=11/16
+MWRANK u=5/16 r=1 gens=2
+FIBSURV Sig=3 t=91/16 u=5/16
+SKIPISO t=91/16 u=5/16
+MWRANK u=-16/11 r=1 gens=2
+FIBSURV Sig=3 t=82/11 u=-16/11
+SKIPISO t=82/11 u=-16/11
+MWRANK u=-16/9 r=2 gens=2
+FIBSURV Sig=3 t=70/9 u=-16/9
+SKIPISO t=70/9 u=-16/9
+MWRANK u=-11/16 r=1 gens=2
+FIBSURV Sig=3 t=107/16 u=-11/16
+SKIPISO t=107/16 u=-11/16
+MWRANK u=16/9 r=2 gens=2
+FIBSURV Sig=3 t=38/9 u=16/9
+SKIPISO t=38/9 u=16/9
+MWRANK u=16/13 r=2 gens=2
+FIBSURV Sig=3 t=62/13 u=16/13
+SKIPISO t=62/13 u=16/13
+MWRANK u=1/16 r=3 gens=2
+FIBSURV Sig=3 t=95/16 u=1/16
+SKIPISO t=95/16 u=1/16
+MWRANK u=16/11 r=2 gens=2
+FIBSURV Sig=3 t=50/11 u=16/11
+SKIPISO t=50/11 u=16/11
+MWRANK u=-16/13 r=1 gens=2
+FIBSURV Sig=3 t=94/13 u=-16/13
+SKIPISO t=94/13 u=-16/13
+MWRANK u=16/5 r=1 gens=2
+FIBSURV Sig=3 t=14/5 u=16/5
+SKIPISO t=14/5 u=16/5
+MWRANK u=-1/16 r=3 gens=2
+FIBSURV Sig=3 t=97/16 u=-1/16
+SKIPISO t=97/16 u=-1/16
+MWRANK u=-15/16 r=1 gens=2
+FIBSURV Sig=3 t=111/16 u=-15/16
+SKIPISO t=111/16 u=-15/16
+MWRANK u=-13/16 r=1 gens=2
+FIBSURV Sig=3 t=109/16 u=-13/16
+SKIPISO t=109/16 u=-13/16
+MWRANK u=-16/15 r=3 gens=2
+FIBSURV Sig=3 t=106/15 u=-16/15
+SKIPISO t=106/15 u=-16/15
+MWRANK u=13/16 r=1 gens=2
+FIBSURV Sig=3 t=83/16 u=13/16
+SKIPISO t=83/16 u=13/16
+MWRANK u=15/16 r=1 gens=2
+FIBSURV Sig=3 t=81/16 u=15/16
+SKIPISO t=81/16 u=15/16
+MWRANK u=-13/17 r=1 gens=2
+FIBSURV Sig=3 t=115/17 u=-13/17
+SKIPISO t=115/17 u=-13/17
+MWRANK u=17/10 r=3 gens=2
+FIBSURV Sig=3 t=43/10 u=17/10
+SKIPISO t=43/10 u=17/10
+MWRANK u=17/14 r=1 gens=2
+FIBSURV Sig=3 t=67/14 u=17/14
+SKIPISO t=67/14 u=17/14
+MWRANK u=-17/7 r=1 gens=2
+FIBSURV Sig=3 t=59/7 u=-17/7
+SKIPISO t=59/7 u=-17/7
+MWRANK u=17/2 r=1 gens=2
+FIBSURV Sig=3 t=-5/2 u=17/2
+SKIPISO t=-5/2 u=17/2
+MWRANK u=3/17 r=1 gens=2
+FIBSURV Sig=3 t=99/17 u=3/17
+SKIPISO t=99/17 u=3/17
+MWRANK u=-17/8 r=2 gens=2
+FIBSURV Sig=3 t=65/8 u=-17/8
+SKIPISO t=65/8 u=-17/8
+MWRANK u=-11/17 r=2 gens=2
+FIBSURV Sig=3 t=113/17 u=-11/17
+SKIPISO t=113/17 u=-11/17
+MWRANK u=17/13 r=1 gens=2
+FIBSURV Sig=3 t=61/13 u=17/13
+SKIPISO t=61/13 u=17/13
+MWRANK u=-10/17 r=1 gens=2
+FIBSURV Sig=3 t=112/17 u=-10/17
+SKIPISO t=112/17 u=-10/17
+MWSKIP u=7/17 bounds=[1,3]
+FIBSURV Sig=3 t=95/17 u=7/17
+SKIPISO t=95/17 u=7/17
+MWRANK u=17/4 r=1 gens=2
+FIBSURV Sig=3 t=7/4 u=17/4
+SKIPISO t=7/4 u=17/4
+MWRANK u=-17/15 r=2 gens=2
+FIBSURV Sig=3 t=107/15 u=-17/15
+SKIPISO t=107/15 u=-17/15
+MWRANK u=17/11 r=2 gens=2
+FIBSURV Sig=3 t=49/11 u=17/11
+SKIPISO t=49/11 u=17/11
+MWRANK u=17/7 r=2 gens=2
+FIBSURV Sig=3 t=25/7 u=17/7
+SKIPISO t=25/7 u=17/7
+MWRANK u=-17/9 r=1 gens=2
+FIBSURV Sig=3 t=71/9 u=-17/9
+SKIPISO t=71/9 u=-17/9
+MWRANK u=17/9 r=1 gens=2
+FIBSURV Sig=3 t=37/9 u=17/9
+SKIPISO t=37/9 u=17/9
+MWRANK u=-17/12 r=3 gens=2
+FIBSURV Sig=3 t=89/12 u=-17/12
+SKIPISO t=89/12 u=-17/12
+MWSKIP u=8/17 bounds=[1,3]
+FIBSURV Sig=3 t=94/17 u=8/17
+SKIPISO t=94/17 u=8/17
+MWRANK u=-7/17 r=2 gens=2
+FIBSURV Sig=3 t=109/17 u=-7/17
+SKIPISO t=109/17 u=-7/17
+MWRANK u=-17/16 r=1 gens=2
+FIBSURV Sig=3 t=113/16 u=-17/16
+SKIPISO t=113/16 u=-17/16
+MWRANK u=-14/17 r=1 gens=2
+FIBSURV Sig=3 t=116/17 u=-14/17
+SKIPISO t=116/17 u=-14/17
+MWRANK u=12/17 r=3 gens=2
+FIBSURV Sig=3 t=90/17 u=12/17
+SKIPISO t=90/17 u=12/17
+MWRANK u=1/17 r=3 gens=2
+FIBSURV Sig=3 t=101/17 u=1/17
+SKIPISO t=101/17 u=1/17
+MWRANK u=14/17 r=1 gens=2
+FIBSURV Sig=3 t=88/17 u=14/17
+SKIPISO t=88/17 u=14/17
+MWRANK u=-5/17 r=2 gens=2
+FIBSURV Sig=3 t=107/17 u=-5/17
+SKIPISO t=107/17 u=-5/17
+MWRANK u=-9/17 r=1 gens=2
+FIBSURV Sig=3 t=111/17 u=-9/17
+SKIPISO t=111/17 u=-9/17
+MWRANK u=-17/11 r=2 gens=2
+FIBSURV Sig=3 t=83/11 u=-17/11
+SKIPISO t=83/11 u=-17/11
+MWRANK u=16/17 r=1 gens=2
+FIBSURV Sig=3 t=86/17 u=16/17
+SKIPISO t=86/17 u=16/17
+MWRANK u=6/17 r=1 gens=2
+FIBSURV Sig=3 t=96/17 u=6/17
+SKIPISO t=96/17 u=6/17
+MWRANK u=-17/6 r=2 gens=2
+FIBSURV Sig=3 t=53/6 u=-17/6
+SKIPISO t=53/6 u=-17/6
+MWRANK u=17/8 r=2 gens=2
+FIBSURV Sig=3 t=31/8 u=17/8
+SKIPISO t=31/8 u=17/8
+MWRANK u=17/6 r=1 gens=2
+FIBSURV Sig=3 t=19/6 u=17/6
+SKIPISO t=19/6 u=17/6
+MWRANK u=2/17 r=3 gens=2
+FIBSURV Sig=3 t=100/17 u=2/17
+SKIPISO t=100/17 u=2/17
+MWSKIP u=4/17 bounds=[1,3]
+FIBSURV Sig=3 t=98/17 u=4/17
+SKIPISO t=98/17 u=4/17
+MWRANK u=-8/17 r=1 gens=2
+FIBSURV Sig=3 t=110/17 u=-8/17
+SKIPISO t=110/17 u=-8/17
+MWRANK u=-17/2 r=2 gens=2
+FIBSURV Sig=3 t=29/2 u=-17/2
+SKIPISO t=29/2 u=-17/2
+MWRANK u=10/17 r=1 gens=2
+FIBSURV Sig=3 t=92/17 u=10/17
+SKIPISO t=92/17 u=10/17
+MWRANK u=-2/17 r=1 gens=2
+FIBSURV Sig=3 t=104/17 u=-2/17
+SKIPISO t=104/17 u=-2/17
+MWRANK u=-17/4 r=3 gens=2
+FIBSURV Sig=3 t=41/4 u=-17/4
+SKIPISO t=41/4 u=-17/4
+MWRANK u=-17/10 r=2 gens=2
+FIBSURV Sig=3 t=77/10 u=-17/10
+SKIPISO t=77/10 u=-17/10
+MWRANK u=17/15 r=2 gens=2
+FIBSURV Sig=3 t=73/15 u=17/15
+SKIPISO t=73/15 u=17/15
+MWRANK u=-17/3 r=2 gens=2
+FIBSURV Sig=3 t=35/3 u=-17/3
+SKIPISO t=35/3 u=-17/3
+MWRANK u=11/17 r=2 gens=2
+FIBSURV Sig=3 t=91/17 u=11/17
+SKIPISO t=91/17 u=11/17
+MWRANK u=-3/17 r=2 gens=2
+FIBSURV Sig=3 t=105/17 u=-3/17
+SKIPISO t=105/17 u=-3/17
+MWRANK u=9/17 r=1 gens=2
+FIBSURV Sig=3 t=93/17 u=9/17
+SKIPISO t=93/17 u=9/17
+MWRANK u=-17/13 r=2 gens=2
+FIBSURV Sig=3 t=95/13 u=-17/13
+SKIPISO t=95/13 u=-17/13
+MWRANK u=13/17 r=2 gens=2
+FIBSURV Sig=3 t=89/17 u=13/17
+SKIPISO t=89/17 u=13/17
+MWRANK u=15/17 r=1 gens=2
+FIBSURV Sig=3 t=87/17 u=15/17
+SKIPISO t=87/17 u=15/17
+MWRANK u=5/17 r=2 gens=2
+FIBSURV Sig=3 t=97/17 u=5/17
+SKIPISO t=97/17 u=5/17
+MWRANK u=-16/17 r=1 gens=2
+FIBSURV Sig=3 t=118/17 u=-16/17
+SKIPISO t=118/17 u=-16/17
+MWRANK u=17/16 r=2 gens=2
+FIBSURV Sig=3 t=79/16 u=17/16
+SKIPISO t=79/16 u=17/16
+MWRANK u=-17 r=1 gens=2
+FIBSURV Sig=3 t=23 u=-17
+SKIPISO t=23 u=-17
+MWRANK u=-17/14 r=3 gens=2
+FIBSURV Sig=3 t=101/14 u=-17/14
+SKIPISO t=101/14 u=-17/14
+MWRANK u=-17/5 r=2 gens=2
+FIBSURV Sig=3 t=47/5 u=-17/5
+SKIPISO t=47/5 u=-17/5
+MWRANK u=-12/17 r=1 gens=2
+FIBSURV Sig=3 t=114/17 u=-12/17
+SKIPISO t=114/17 u=-12/17
+MWRANK u=-15/17 r=1 gens=2
+FIBSURV Sig=3 t=117/17 u=-15/17
+SKIPISO t=117/17 u=-15/17
+MWRANK u=-4/17 r=3 gens=2
+FIBSURV Sig=3 t=106/17 u=-4/17
+SKIPISO t=106/17 u=-4/17
+MWRANK u=-1/17 r=2 gens=2
+FIBSURV Sig=3 t=103/17 u=-1/17
+SKIPISO t=103/17 u=-1/17
+MWRANK u=-6/17 r=1 gens=2
+FIBSURV Sig=3 t=108/17 u=-6/17
+SKIPISO t=108/17 u=-6/17
+MWSKIP u=-17/18 bounds=[1,3]
+FIBSURV Sig=3 t=125/18 u=-17/18
+SKIPISO t=125/18 u=-17/18
+MWRANK u=-18/17 r=3 gens=2
+FIBSURV Sig=3 t=120/17 u=-18/17
+SKIPISO t=120/17 u=-18/17
+MWSKIP u=7/18 bounds=[1,3]
+FIBSURV Sig=3 t=101/18 u=7/18
+SKIPISO t=101/18 u=7/18
+MWRANK u=18/13 r=2 gens=2
+FIBSURV Sig=3 t=60/13 u=18/13
+SKIPISO t=60/13 u=18/13
+MWRANK u=-11/18 r=1 gens=2
+FIBSURV Sig=3 t=119/18 u=-11/18
+SKIPISO t=119/18 u=-11/18
+MWRANK u=18/11 r=2 gens=2
+FIBSURV Sig=3 t=48/11 u=18/11
+SKIPISO t=48/11 u=18/11
+MWRANK u=-1/18 r=2 gens=2
+FIBSURV Sig=3 t=109/18 u=-1/18
+SKIPISO t=109/18 u=-1/18
+MWRANK u=18 r=2 gens=2
+FIBSURV Sig=3 t=-12 u=18
+SKIPISO t=-12 u=18
+MWRANK u=5/18 r=2 gens=2
+FIBSURV Sig=3 t=103/18 u=5/18
+SKIPISO t=103/18 u=5/18
+MWRANK u=-7/18 r=1 gens=2
+FIBSURV Sig=3 t=115/18 u=-7/18
+SKIPISO t=115/18 u=-7/18
+MWRANK u=1/18 r=2 gens=2
+FIBSURV Sig=3 t=107/18 u=1/18
+SKIPISO t=107/18 u=1/18
+MWRANK u=-18/11 r=1 gens=2
+FIBSURV Sig=3 t=84/11 u=-18/11
+SKIPISO t=84/11 u=-18/11
+MWRANK u=-18/13 r=1 gens=2
+FIBSURV Sig=3 t=96/13 u=-18/13
+SKIPISO t=96/13 u=-18/13
+MWSKIP u=-5/18 bounds=[1,3]
+FIBSURV Sig=3 t=113/18 u=-5/18
+SKIPISO t=113/18 u=-5/18
+MWRANK u=11/18 r=2 gens=2
+FIBSURV Sig=3 t=97/18 u=11/18
+SKIPISO t=97/18 u=11/18
+MWRANK u=18/17 r=3 gens=2
+FIBSURV Sig=3 t=84/17 u=18/17
+SKIPISO t=84/17 u=18/17
+MWRANK u=18/7 r=2 gens=2
+FIBSURV Sig=3 t=24/7 u=18/7
+SKIPISO t=24/7 u=18/7
+MWRANK u=18/5 r=1 gens=2
+FIBSURV Sig=3 t=12/5 u=18/5
+SKIPISO t=12/5 u=18/5
+MWRANK u=-18/7 r=1 gens=2
+FIBSURV Sig=3 t=60/7 u=-18/7
+SKIPISO t=60/7 u=-18/7
+MWRANK u=-18/5 r=3 gens=2
+FIBSURV Sig=3 t=48/5 u=-18/5
+SKIPISO t=48/5 u=-18/5
+MWRANK u=17/18 r=1 gens=2
+FIBSURV Sig=3 t=91/18 u=17/18
+SKIPISO t=91/18 u=17/18
+MWRANK u=-13/18 r=2 gens=2
+FIBSURV Sig=3 t=121/18 u=-13/18
+SKIPISO t=121/18 u=-13/18
+MWRANK u=13/18 r=1 gens=2
+FIBSURV Sig=3 t=95/18 u=13/18
+SKIPISO t=95/18 u=13/18
+MWRANK u=-19/17 r=2 gens=2
+FIBSURV Sig=3 t=121/17 u=-19/17
+SKIPISO t=121/17 u=-19/17
+MWRANK u=-18/19 r=2 gens=2
+FIBSURV Sig=3 t=132/19 u=-18/19
+SKIPISO t=132/19 u=-18/19
+MWRANK u=-19/4 r=1 gens=2
+FIBSURV Sig=3 t=43/4 u=-19/4
+SKIPISO t=43/4 u=-19/4
+MWRANK u=-19/6 r=2 gens=2
+FIBSURV Sig=3 t=55/6 u=-19/6
+SKIPISO t=55/6 u=-19/6
+MWRANK u=7/19 r=2 gens=2
+FIBSURV Sig=3 t=107/19 u=7/19
+SKIPISO t=107/19 u=7/19
+MWRANK u=-19/5 r=1 gens=2
+FIBSURV Sig=3 t=49/5 u=-19/5
+SKIPISO t=49/5 u=-19/5
+MWRANK u=-19/7 r=2 gens=2
+FIBSURV Sig=3 t=61/7 u=-19/7
+SKIPISO t=61/7 u=-19/7
+MWRANK u=19/2 r=3 gens=2
+FIBSURV Sig=3 t=-7/2 u=19/2
+SKIPISO t=-7/2 u=19/2
+MWRANK u=-5/19 r=1 gens=2
+FIBSURV Sig=3 t=119/19 u=-5/19
+SKIPISO t=119/19 u=-5/19
+MWRANK u=16/19 r=1 gens=2
+FIBSURV Sig=3 t=98/19 u=16/19
+SKIPISO t=98/19 u=16/19
+MWRANK u=-11/19 r=1 gens=2
+FIBSURV Sig=3 t=125/19 u=-11/19
+SKIPISO t=125/19 u=-11/19
+MWRANK u=19 r=1 gens=2
+FIBSURV Sig=3 t=-13 u=19
+SKIPISO t=-13 u=19
+MWRANK u=-13/19 r=2 gens=2
+FIBSURV Sig=3 t=127/19 u=-13/19
+SKIPISO t=127/19 u=-13/19
+MWRANK u=19/13 r=2 gens=2
+FIBSURV Sig=3 t=59/13 u=19/13
+SKIPISO t=59/13 u=19/13
+MWRANK u=-19/8 r=2 gens=2
+FIBSURV Sig=3 t=67/8 u=-19/8
+SKIPISO t=67/8 u=-19/8
+MWRANK u=19/10 r=1 gens=2
+FIBSURV Sig=3 t=41/10 u=19/10
+SKIPISO t=41/10 u=19/10
+MWRANK u=-14/19 r=1 gens=2
+FIBSURV Sig=3 t=128/19 u=-14/19
+SKIPISO t=128/19 u=-14/19
+MWRANK u=-17/19 r=1 gens=2
+FIBSURV Sig=3 t=131/19 u=-17/19
+SKIPISO t=131/19 u=-17/19
+MWRANK u=11/19 r=2 gens=2
+FIBSURV Sig=3 t=103/19 u=11/19
+SKIPISO t=103/19 u=11/19
+MWRANK u=-12/19 r=3 gens=2
+FIBSURV Sig=3 t=126/19 u=-12/19
+SKIPISO t=126/19 u=-12/19
+MWRANK u=18/19 r=1 gens=2
+FIBSURV Sig=3 t=96/19 u=18/19
+SKIPISO t=96/19 u=18/19
+MWRANK u=-19/9 r=1 gens=2
+FIBSURV Sig=3 t=73/9 u=-19/9
+SKIPISO t=73/9 u=-19/9
+MWRANK u=14/19 r=3 gens=2
+FIBSURV Sig=3 t=100/19 u=14/19
+SKIPISO t=100/19 u=14/19
+MWRANK u=10/19 r=2 gens=2
+FIBSURV Sig=3 t=104/19 u=10/19
+SKIPISO t=104/19 u=10/19
+MWRANK u=19/8 r=2 gens=2
+FIBSURV Sig=3 t=29/8 u=19/8
+SKIPISO t=29/8 u=19/8
+MWRANK u=-9/19 r=2 gens=2
+FIBSURV Sig=3 t=123/19 u=-9/19
+SKIPISO t=123/19 u=-9/19
+MWRANK u=-2/19 r=3 gens=2
+FIBSURV Sig=3 t=116/19 u=-2/19
+SKIPISO t=116/19 u=-2/19
+MWRANK u=4/19 r=3 gens=2
+FIBSURV Sig=3 t=110/19 u=4/19
+SKIPISO t=110/19 u=4/19
+MWRANK u=19/12 r=2 gens=2
+FIBSURV Sig=3 t=53/12 u=19/12
+SKIPISO t=53/12 u=19/12
+MWRANK u=-7/19 r=1 gens=2
+FIBSURV Sig=3 t=121/19 u=-7/19
+SKIPISO t=121/19 u=-7/19
+MWRANK u=1/19 r=2 gens=2
+FIBSURV Sig=3 t=113/19 u=1/19
+SKIPISO t=113/19 u=1/19
+MWRANK u=19/9 r=2 gens=2
+FIBSURV Sig=3 t=35/9 u=19/9
+SKIPISO t=35/9 u=19/9
+MWRANK u=6/19 r=1 gens=2
+FIBSURV Sig=3 t=108/19 u=6/19
+SKIPISO t=108/19 u=6/19
+MWRANK u=19/4 r=1 gens=2
+FIBSURV Sig=3 t=5/4 u=19/4
+SKIPISO t=5/4 u=19/4
+MWRANK u=-16/19 r=1 gens=2
+FIBSURV Sig=3 t=130/19 u=-16/19
+SKIPISO t=130/19 u=-16/19
+MWRANK u=19/11 r=2 gens=2
+FIBSURV Sig=3 t=47/11 u=19/11
+SKIPISO t=47/11 u=19/11
+MWRANK u=-10/19 r=1 gens=2
+FIBSURV Sig=3 t=124/19 u=-10/19
+SKIPISO t=124/19 u=-10/19
+MWRANK u=-19/2 r=2 gens=2
+FIBSURV Sig=3 t=31/2 u=-19/2
+SKIPISO t=31/2 u=-19/2
+MWRANK u=13/19 r=1 gens=2
+FIBSURV Sig=3 t=101/19 u=13/19
+SKIPISO t=101/19 u=13/19
+MWRANK u=19/7 r=1 gens=2
+FIBSURV Sig=3 t=23/7 u=19/7
+SKIPISO t=23/7 u=19/7
+MWRANK u=5/19 r=3 gens=2
+FIBSURV Sig=3 t=109/19 u=5/19
+SKIPISO t=109/19 u=5/19
+MWRANK u=2/19 r=1 gens=2
+FIBSURV Sig=3 t=112/19 u=2/19
+SKIPISO t=112/19 u=2/19
+MWSKIP u=-3/19 bounds=[1,3]
+FIBSURV Sig=3 t=117/19 u=-3/19
+SKIPISO t=117/19 u=-3/19
+MWRANK u=-19/3 r=1 gens=2
+FIBSURV Sig=3 t=37/3 u=-19/3
+SKIPISO t=37/3 u=-19/3
+MWRANK u=-19/11 r=3 gens=2
+FIBSURV Sig=3 t=85/11 u=-19/11
+SKIPISO t=85/11 u=-19/11
+MWRANK u=-19/10 r=1 gens=2
+FIBSURV Sig=3 t=79/10 u=-19/10
+SKIPISO t=79/10 u=-19/10
+MWRANK u=8/19 r=3 gens=2
+FIBSURV Sig=3 t=106/19 u=8/19
+SKIPISO t=106/19 u=8/19
+MWRANK u=19/6 r=1 gens=2
+FIBSURV Sig=3 t=17/6 u=19/6
+SKIPISO t=17/6 u=19/6
+MWRANK u=9/19 r=1 gens=2
+FIBSURV Sig=3 t=105/19 u=9/19
+SKIPISO t=105/19 u=9/19
+MWSKIP u=-19/16 bounds=[1,3]
+FIBSURV Sig=3 t=115/16 u=-19/16
+SKIPISO t=115/16 u=-19/16
+MWRANK u=-19/15 r=3 gens=2
+FIBSURV Sig=3 t=109/15 u=-19/15
+SKIPISO t=109/15 u=-19/15
+MWRANK u=19/14 r=1 gens=2
+FIBSURV Sig=3 t=65/14 u=19/14
+SKIPISO t=65/14 u=19/14
+MWRANK u=19/17 r=2 gens=2
+FIBSURV Sig=3 t=83/17 u=19/17
+SKIPISO t=83/17 u=19/17
+MWRANK u=19/18 r=2 gens=2
+FIBSURV Sig=3 t=89/18 u=19/18
+SKIPISO t=89/18 u=19/18
+MWRANK u=19/16 r=2 gens=2
+FIBSURV Sig=3 t=77/16 u=19/16
+SKIPISO t=77/16 u=19/16
+MWRANK u=-4/19 r=1 gens=2
+FIBSURV Sig=3 t=118/19 u=-4/19
+SKIPISO t=118/19 u=-4/19
+MWRANK u=-19/13 r=2 gens=2
+FIBSURV Sig=3 t=97/13 u=-19/13
+SKIPISO t=97/13 u=-19/13
+MWRANK u=3/19 r=2 gens=2
+FIBSURV Sig=3 t=111/19 u=3/19
+SKIPISO t=111/19 u=3/19
+MWRANK u=-19/12 r=3 gens=2
+FIBSURV Sig=3 t=91/12 u=-19/12
+SKIPISO t=91/12 u=-19/12
+MWRANK u=12/19 r=1 gens=2
+FIBSURV Sig=3 t=102/19 u=12/19
+SKIPISO t=102/19 u=12/19
+MWRANK u=-15/19 r=2 gens=2
+FIBSURV Sig=3 t=129/19 u=-15/19
+SKIPISO t=129/19 u=-15/19
+MWRANK u=-19/18 r=2 gens=2
+FIBSURV Sig=3 t=127/18 u=-19/18
+SKIPISO t=127/18 u=-19/18
+MWRANK u=19/3 r=1 gens=2
+FIBSURV Sig=3 t=-1/3 u=19/3
+SKIPISO t=-1/3 u=19/3
+MWRANK u=-1/19 r=2 gens=2
+FIBSURV Sig=3 t=115/19 u=-1/19
+SKIPISO t=115/19 u=-1/19
+MWRANK u=-8/19 r=1 gens=2
+FIBSURV Sig=3 t=122/19 u=-8/19
+SKIPISO t=122/19 u=-8/19
+MWRANK u=17/19 r=2 gens=2
+FIBSURV Sig=3 t=97/19 u=17/19
+SKIPISO t=97/19 u=17/19
+MWRANK u=-6/19 r=3 gens=2
+FIBSURV Sig=3 t=120/19 u=-6/19
+SKIPISO t=120/19 u=-6/19
+MWRANK u=-19/14 r=2 gens=2
+FIBSURV Sig=3 t=103/14 u=-19/14
+SKIPISO t=103/14 u=-19/14
+MWRANK u=19/15 r=1 gens=2
+FIBSURV Sig=3 t=71/15 u=19/15
+SKIPISO t=71/15 u=19/15
+MWRANK u=20/17 r=2 gens=2
+FIBSURV Sig=3 t=82/17 u=20/17
+SKIPISO t=82/17 u=20/17
+MWRANK u=-20 r=1 gens=2
+FIBSURV Sig=3 t=26 u=-20
+SKIPISO t=26 u=-20
+MWRANK u=20/19 r=2 gens=2
+FIBSURV Sig=3 t=94/19 u=20/19
+SKIPISO t=94/19 u=20/19
+MWRANK u=-20/11 r=3 gens=2
+FIBSURV Sig=3 t=86/11 u=-20/11
+SKIPISO t=86/11 u=-20/11
+MWRANK u=13/20 r=3 gens=2
+FIBSURV Sig=3 t=107/20 u=13/20
+SKIPISO t=107/20 u=13/20
+MWRANK u=20/13 r=2 gens=2
+FIBSURV Sig=3 t=58/13 u=20/13
+SKIPISO t=58/13 u=20/13
+MWRANK u=-19/20 r=1 gens=2
+FIBSURV Sig=3 t=139/20 u=-19/20
+SKIPISO t=139/20 u=-19/20
+MWSKIP u=-11/20 bounds=[1,3]
+FIBSURV Sig=3 t=131/20 u=-11/20
+SKIPISO t=131/20 u=-11/20
+MWRANK u=20 r=2 gens=2
+FIBSURV Sig=3 t=-14 u=20
+SKIPISO t=-14 u=20
+MWRANK u=3/20 r=1 gens=2
+FIBSURV Sig=3 t=117/20 u=3/20
+SKIPISO t=117/20 u=3/20
+MWSKIP u=-20/3 bounds=[1,3]
+FIBSURV Sig=3 t=38/3 u=-20/3
+SKIPISO t=38/3 u=-20/3
+MWRANK u=11/20 r=1 gens=2
+FIBSURV Sig=3 t=109/20 u=11/20
+SKIPISO t=109/20 u=11/20
+MWRANK u=7/20 r=3 gens=2
+FIBSURV Sig=3 t=113/20 u=7/20
+SKIPISO t=113/20 u=7/20
+MWRANK u=9/20 r=1 gens=2
+FIBSURV Sig=3 t=111/20 u=9/20
+SKIPISO t=111/20 u=9/20
+MWRANK u=-20/9 r=1 gens=2
+FIBSURV Sig=3 t=74/9 u=-20/9
+SKIPISO t=74/9 u=-20/9
+MWRANK u=1/20 r=1 gens=2
+FIBSURV Sig=3 t=119/20 u=1/20
+SKIPISO t=119/20 u=1/20
+MWSKIP u=-20/13 bounds=[1,3]
+FIBSURV Sig=3 t=98/13 u=-20/13
+SKIPISO t=98/13 u=-20/13
+MWRANK u=-20/19 r=1 gens=2
+FIBSURV Sig=3 t=134/19 u=-20/19
+SKIPISO t=134/19 u=-20/19
+MWRANK u=-13/20 r=3 gens=2
+FIBSURV Sig=3 t=133/20 u=-13/20
+SKIPISO t=133/20 u=-13/20
+MWRANK u=20/7 r=2 gens=2
+FIBSURV Sig=3 t=22/7 u=20/7
+SKIPISO t=22/7 u=20/7
+MWRANK u=-3/20 r=3 gens=2
+FIBSURV Sig=3 t=123/20 u=-3/20
+SKIPISO t=123/20 u=-3/20
+MWRANK u=19/20 r=1 gens=2
+FIBSURV Sig=3 t=101/20 u=19/20
+SKIPISO t=101/20 u=19/20
+MWRANK u=20/3 r=1 gens=2
+FIBSURV Sig=3 t=-2/3 u=20/3
+SKIPISO t=-2/3 u=20/3
+MWRANK u=-9/20 r=1 gens=2
+FIBSURV Sig=3 t=129/20 u=-9/20
+SKIPISO t=129/20 u=-9/20
+MWRANK u=-20/17 r=1 gens=2
+FIBSURV Sig=3 t=122/17 u=-20/17
+SKIPISO t=122/17 u=-20/17
+MWRANK u=-17/20 r=1 gens=2
+FIBSURV Sig=3 t=137/20 u=-17/20
+SKIPISO t=137/20 u=-17/20
+MWRANK u=-20/7 r=1 gens=2
+FIBSURV Sig=3 t=62/7 u=-20/7
+SKIPISO t=62/7 u=-20/7
+MWRANK u=-1/20 r=1 gens=2
+FIBSURV Sig=3 t=121/20 u=-1/20
+SKIPISO t=121/20 u=-1/20
+MWRANK u=20/11 r=1 gens=2
+FIBSURV Sig=3 t=46/11 u=20/11
+SKIPISO t=46/11 u=20/11
+MWRANK u=-7/20 r=1 gens=2
+FIBSURV Sig=3 t=127/20 u=-7/20
+SKIPISO t=127/20 u=-7/20
+MWRANK u=20/9 r=1 gens=2
+FIBSURV Sig=3 t=34/9 u=20/9
+SKIPISO t=34/9 u=20/9
+MWRANK u=17/20 r=1 gens=2
+FIBSURV Sig=3 t=103/20 u=17/20
+SKIPISO t=103/20 u=17/20
+MWRANK u=20/21 r=1 gens=2
+FIBSURV Sig=3 t=106/21 u=20/21
+SKIPISO t=106/21 u=20/21
+MWRANK u=-4/21 r=3 gens=2
+FIBSURV Sig=3 t=130/21 u=-4/21
+SKIPISO t=130/21 u=-4/21
+MWRANK u=11/21 r=3 gens=2
+FIBSURV Sig=3 t=115/21 u=11/21
+SKIPISO t=115/21 u=11/21
+MWRANK u=21/17 r=1 gens=2
+FIBSURV Sig=3 t=81/17 u=21/17
+SKIPISO t=81/17 u=21/17
+MWRANK u=-21/10 r=2 gens=2
+FIBSURV Sig=3 t=81/10 u=-21/10
+SKIPISO t=81/10 u=-21/10
+MWRANK u=21/20 r=2 gens=2
+FIBSURV Sig=3 t=99/20 u=21/20
+SKIPISO t=99/20 u=21/20
+MWRANK u=21/10 r=2 gens=2
+FIBSURV Sig=3 t=39/10 u=21/10
+SKIPISO t=39/10 u=21/10
+MWRANK u=21/11 r=2 gens=2
+FIBSURV Sig=3 t=45/11 u=21/11
+SKIPISO t=45/11 u=21/11
+MWRANK u=21/8 r=3 gens=2
+FIBSURV Sig=3 t=27/8 u=21/8
+SKIPISO t=27/8 u=21/8
+MWRANK u=-21/8 r=1 gens=2
+FIBSURV Sig=3 t=69/8 u=-21/8
+SKIPISO t=69/8 u=-21/8
+MWRANK u=-21/13 r=1 gens=2
+FIBSURV Sig=3 t=99/13 u=-21/13
+SKIPISO t=99/13 u=-21/13
+MWRANK u=-21/5 r=1 gens=2
+FIBSURV Sig=3 t=51/5 u=-21/5
+SKIPISO t=51/5 u=-21/5
+MWRANK u=-13/21 r=1 gens=2
+FIBSURV Sig=3 t=139/21 u=-13/21
+SKIPISO t=139/21 u=-13/21
+MWRANK u=-16/21 r=1 gens=2
+FIBSURV Sig=3 t=142/21 u=-16/21
+SKIPISO t=142/21 u=-16/21
+MWRANK u=-1/21 r=3 gens=2
+FIBSURV Sig=3 t=127/21 u=-1/21
+SKIPISO t=127/21 u=-1/21
+MWRANK u=-21/2 r=1 gens=2
+FIBSURV Sig=3 t=33/2 u=-21/2
+SKIPISO t=33/2 u=-21/2
+MWRANK u=-8/21 r=1 gens=2
+FIBSURV Sig=3 t=134/21 u=-8/21
+SKIPISO t=134/21 u=-8/21
+MWRANK u=-5/21 r=1 gens=2
+FIBSURV Sig=3 t=131/21 u=-5/21
+SKIPISO t=131/21 u=-5/21
+MWRANK u=4/21 r=3 gens=2
+FIBSURV Sig=3 t=122/21 u=4/21
+SKIPISO t=122/21 u=4/21
+MWRANK u=16/21 r=1 gens=2
+FIBSURV Sig=3 t=110/21 u=16/21
+SKIPISO t=110/21 u=16/21
+MWRANK u=21/5 r=1 gens=2
+FIBSURV Sig=3 t=9/5 u=21/5
+SKIPISO t=9/5 u=21/5
+MWRANK u=8/21 r=1 gens=2
+FIBSURV Sig=3 t=118/21 u=8/21
+SKIPISO t=118/21 u=8/21
+MWRANK u=-21/11 r=2 gens=2
+FIBSURV Sig=3 t=87/11 u=-21/11
+SKIPISO t=87/11 u=-21/11
+MWRANK u=-21/19 r=1 gens=2
+FIBSURV Sig=3 t=135/19 u=-21/19
+SKIPISO t=135/19 u=-21/19
+MWRANK u=21/2 r=1 gens=2
+FIBSURV Sig=3 t=-9/2 u=21/2
+SKIPISO t=-9/2 u=21/2
+MWRANK u=-21/16 r=3 gens=2
+FIBSURV Sig=3 t=117/16 u=-21/16
+SKIPISO t=117/16 u=-21/16
+MWRANK u=-11/21 r=2 gens=2
+FIBSURV Sig=3 t=137/21 u=-11/21
+SKIPISO t=137/21 u=-11/21
+MWRANK u=-21/20 r=3 gens=2
+FIBSURV Sig=3 t=141/20 u=-21/20
+SKIPISO t=141/20 u=-21/20
+MWRANK u=-2/21 r=1 gens=2
+FIBSURV Sig=3 t=128/21 u=-2/21
+SKIPISO t=128/21 u=-2/21
+MWRANK u=21/13 r=1 gens=2
+FIBSURV Sig=3 t=57/13 u=21/13
+SKIPISO t=57/13 u=21/13
+MWRANK u=-21/4 r=1 gens=2
+FIBSURV Sig=3 t=45/4 u=-21/4
+SKIPISO t=45/4 u=-21/4
+MWRANK u=-19/21 r=3 gens=2
+FIBSURV Sig=3 t=145/21 u=-19/21
+SKIPISO t=145/21 u=-19/21
+MWRANK u=-10/21 r=1 gens=2
+FIBSURV Sig=3 t=136/21 u=-10/21
+SKIPISO t=136/21 u=-10/21
+MWRANK u=13/21 r=1 gens=2
+FIBSURV Sig=3 t=113/21 u=13/21
+SKIPISO t=113/21 u=13/21
+MWRANK u=-17/21 r=1 gens=2
+FIBSURV Sig=3 t=143/21 u=-17/21
+SKIPISO t=143/21 u=-17/21
+MWRANK u=-21 r=2 gens=2
+FIBSURV Sig=3 t=27 u=-21
+SKIPISO t=27 u=-21
+MWRANK u=1/21 r=2 gens=2
+FIBSURV Sig=3 t=125/21 u=1/21
+SKIPISO t=125/21 u=1/21
+MWRANK u=10/21 r=1 gens=2
+FIBSURV Sig=3 t=116/21 u=10/21
+SKIPISO t=116/21 u=10/21
+MWRANK u=17/21 r=2 gens=2
+FIBSURV Sig=3 t=109/21 u=17/21
+SKIPISO t=109/21 u=17/21
+MWRANK u=2/21 r=1 gens=2
+FIBSURV Sig=3 t=124/21 u=2/21
+SKIPISO t=124/21 u=2/21
+MWSKIP u=-20/21 bounds=[1,3]
+FIBSURV Sig=3 t=146/21 u=-20/21
+SKIPISO t=146/21 u=-20/21
+MWRANK u=21/16 r=2 gens=2
+FIBSURV Sig=3 t=75/16 u=21/16
+SKIPISO t=75/16 u=21/16
+MWRANK u=19/21 r=3 gens=2
+FIBSURV Sig=3 t=107/21 u=19/21
+SKIPISO t=107/21 u=19/21
+MWRANK u=5/21 r=1 gens=2
+FIBSURV Sig=3 t=121/21 u=5/21
+SKIPISO t=121/21 u=5/21
+MWRANK u=21/19 r=2 gens=2
+FIBSURV Sig=3 t=93/19 u=21/19
+SKIPISO t=93/19 u=21/19
+MWRANK u=-21/17 r=1 gens=2
+FIBSURV Sig=3 t=123/17 u=-21/17
+SKIPISO t=123/17 u=-21/17
+MWRANK u=21/4 r=1 gens=2
+FIBSURV Sig=3 t=3/4 u=21/4
+SKIPISO t=3/4 u=21/4
+MWRANK u=-22/21 r=1 gens=2
+FIBSURV Sig=3 t=148/21 u=-22/21
+SKIPISO t=148/21 u=-22/21
+MWRANK u=-1/22 r=2 gens=2
+FIBSURV Sig=3 t=133/22 u=-1/22
+SKIPISO t=133/22 u=-1/22
+MWRANK u=-15/22 r=2 gens=2
+FIBSURV Sig=3 t=147/22 u=-15/22
+SKIPISO t=147/22 u=-15/22
+MWRANK u=-22/5 r=1 gens=2
+FIBSURV Sig=3 t=52/5 u=-22/5
+SKIPISO t=52/5 u=-22/5
+MWRANK u=15/22 r=2 gens=2
+FIBSURV Sig=3 t=117/22 u=15/22
+SKIPISO t=117/22 u=15/22
+MWRANK u=1/22 r=2 gens=2
+FIBSURV Sig=3 t=131/22 u=1/22
+SKIPISO t=131/22 u=1/22
+MWRANK u=22/15 r=2 gens=2
+FIBSURV Sig=3 t=68/15 u=22/15
+SKIPISO t=68/15 u=22/15
+MWRANK u=22/5 r=3 gens=2
+FIBSURV Sig=3 t=8/5 u=22/5
+SKIPISO t=8/5 u=22/5
+MWRANK u=-22/7 r=3 gens=2
+FIBSURV Sig=3 t=64/7 u=-22/7
+SKIPISO t=64/7 u=-22/7
+MWRANK u=-7/22 r=2 gens=2
+FIBSURV Sig=3 t=139/22 u=-7/22
+SKIPISO t=139/22 u=-7/22
+MWRANK u=22/21 r=2 gens=2
+FIBSURV Sig=3 t=104/21 u=22/21
+SKIPISO t=104/21 u=22/21
+MWRANK u=13/22 r=3 gens=2
+FIBSURV Sig=3 t=119/22 u=13/22
+SKIPISO t=119/22 u=13/22
+MWRANK u=7/22 r=2 gens=2
+FIBSURV Sig=3 t=125/22 u=7/22
+SKIPISO t=125/22 u=7/22
+MWRANK u=22/19 r=2 gens=2
+FIBSURV Sig=3 t=92/19 u=22/19
+SKIPISO t=92/19 u=22/19
+MWRANK u=22/9 r=2 gens=2
+FIBSURV Sig=3 t=32/9 u=22/9
+SKIPISO t=32/9 u=22/9
+MWRANK u=22/3 r=1 gens=2
+FIBSURV Sig=3 t=-4/3 u=22/3
+SKIPISO t=-4/3 u=22/3
+MWRANK u=-22/15 r=3 gens=2
+FIBSURV Sig=3 t=112/15 u=-22/15
+SKIPISO t=112/15 u=-22/15
+MWRANK u=3/22 r=1 gens=2
+FIBSURV Sig=3 t=129/22 u=3/22
+SKIPISO t=129/22 u=3/22
+MWRANK u=-22/9 r=2 gens=2
+FIBSURV Sig=3 t=76/9 u=-22/9
+SKIPISO t=76/9 u=-22/9
+MWRANK u=21/22 r=2 gens=2
+FIBSURV Sig=3 t=111/22 u=21/22
+SKIPISO t=111/22 u=21/22
+MWRANK u=-22/3 r=1 gens=2
+FIBSURV Sig=3 t=40/3 u=-22/3
+SKIPISO t=40/3 u=-22/3
+MWRANK u=-17/22 r=2 gens=2
+FIBSURV Sig=3 t=149/22 u=-17/22
+SKIPISO t=149/22 u=-17/22
+MWRANK u=22/13 r=2 gens=2
+FIBSURV Sig=3 t=56/13 u=22/13
+SKIPISO t=56/13 u=22/13
+MWRANK u=17/22 r=2 gens=2
+FIBSURV Sig=3 t=115/22 u=17/22
+SKIPISO t=115/22 u=17/22
+MWRANK u=-22/19 r=3 gens=2
+FIBSURV Sig=3 t=136/19 u=-22/19
+SKIPISO t=136/19 u=-22/19
+MWSKIP u=5/22 bounds=[2,4]
+FIBSURV Sig=3 t=127/22 u=5/22
+SKIPISO t=127/22 u=5/22
+MWRANK u=-13/22 r=3 gens=2
+FIBSURV Sig=3 t=145/22 u=-13/22
+SKIPISO t=145/22 u=-13/22
+MWRANK u=-22/17 r=3 gens=2
+FIBSURV Sig=3 t=124/17 u=-22/17
+SKIPISO t=124/17 u=-22/17
+MWRANK u=22/17 r=2 gens=2
+FIBSURV Sig=3 t=80/17 u=22/17
+SKIPISO t=80/17 u=22/17
+MWRANK u=-5/22 r=1 gens=2
+FIBSURV Sig=3 t=137/22 u=-5/22
+SKIPISO t=137/22 u=-5/22
+MWRANK u=-22/13 r=1 gens=2
+FIBSURV Sig=3 t=100/13 u=-22/13
+SKIPISO t=100/13 u=-22/13
+MWRANK u=-3/22 r=2 gens=2
+FIBSURV Sig=3 t=135/22 u=-3/22
+SKIPISO t=135/22 u=-3/22
+MWRANK u=-9/22 r=2 gens=2
+FIBSURV Sig=3 t=141/22 u=-9/22
+SKIPISO t=141/22 u=-9/22
+MWRANK u=19/22 r=1 gens=2
+FIBSURV Sig=3 t=113/22 u=19/22
+SKIPISO t=113/22 u=19/22
+MWRANK u=22/7 r=1 gens=2
+FIBSURV Sig=3 t=20/7 u=22/7
+SKIPISO t=20/7 u=22/7
+MWRANK u=9/22 r=1 gens=2
+FIBSURV Sig=3 t=123/22 u=9/22
+SKIPISO t=123/22 u=9/22
+MWRANK u=-2/23 r=1 gens=2
+FIBSURV Sig=3 t=140/23 u=-2/23
+SKIPISO t=140/23 u=-2/23
+MWRANK u=23/19 r=1 gens=2
+FIBSURV Sig=3 t=91/19 u=23/19
+SKIPISO t=91/19 u=23/19
+MWRANK u=23/9 r=1 gens=2
+FIBSURV Sig=3 t=31/9 u=23/9
+SKIPISO t=31/9 u=23/9
+MWRANK u=-23/8 r=2 gens=2
+FIBSURV Sig=3 t=71/8 u=-23/8
+SKIPISO t=71/8 u=-23/8
+MWRANK u=-23/2 r=1 gens=2
+FIBSURV Sig=3 t=35/2 u=-23/2
+SKIPISO t=35/2 u=-23/2
+MWRANK u=-23/18 r=2 gens=2
+FIBSURV Sig=3 t=131/18 u=-23/18
+SKIPISO t=131/18 u=-23/18
+MWRANK u=-23/10 r=2 gens=2
+FIBSURV Sig=3 t=83/10 u=-23/10
+SKIPISO t=83/10 u=-23/10
+MWRANK u=22/23 r=1 gens=2
+FIBSURV Sig=3 t=116/23 u=22/23
+SKIPISO t=116/23 u=22/23
+MWRANK u=23/10 r=1 gens=2
+FIBSURV Sig=3 t=37/10 u=23/10
+SKIPISO t=37/10 u=23/10
+MWRANK u=6/23 r=3 gens=2
+FIBSURV Sig=3 t=132/23 u=6/23
+SKIPISO t=132/23 u=6/23
+MWRANK u=23/4 r=3 gens=2
+FIBSURV Sig=3 t=1/4 u=23/4
+SKIPISO t=1/4 u=23/4
+MWRANK u=-8/23 r=1 gens=2
+FIBSURV Sig=3 t=146/23 u=-8/23
+SKIPISO t=146/23 u=-8/23
+MWRANK u=3/23 r=2 gens=2
+FIBSURV Sig=3 t=135/23 u=3/23
+SKIPISO t=135/23 u=3/23
+MWRANK u=-23/15 r=3 gens=2
+FIBSURV Sig=3 t=113/15 u=-23/15
+SKIPISO t=113/15 u=-23/15
+MWRANK u=1/23 r=1 gens=2
+FIBSURV Sig=3 t=137/23 u=1/23
+SKIPISO t=137/23 u=1/23
+MWRANK u=8/23 r=1 gens=2
+FIBSURV Sig=3 t=130/23 u=8/23
+SKIPISO t=130/23 u=8/23
+MWRANK u=20/23 r=1 gens=2
+FIBSURV Sig=3 t=118/23 u=20/23
+SKIPISO t=118/23 u=20/23
+MWSKIP u=16/23 bounds=[1,3]
+FIBSURV Sig=3 t=122/23 u=16/23
+SKIPISO t=122/23 u=16/23
+MWRANK u=23/5 r=2 gens=2
+FIBSURV Sig=3 t=7/5 u=23/5
+SKIPISO t=7/5 u=23/5
+MWRANK u=23 r=2 gens=2
+FIBSURV Sig=3 t=-17 u=23
+SKIPISO t=-17 u=23
+MWSKIP u=-23/12 bounds=[1,3]
+FIBSURV Sig=3 t=95/12 u=-23/12
+SKIPISO t=95/12 u=-23/12
+MWRANK u=23/20 r=2 gens=2
+FIBSURV Sig=3 t=97/20 u=23/20
+SKIPISO t=97/20 u=23/20
+MWRANK u=23/14 r=1 gens=2
+FIBSURV Sig=3 t=61/14 u=23/14
+SKIPISO t=61/14 u=23/14
+MWSKIP u=2/23 bounds=[1,3]
+FIBSURV Sig=3 t=136/23 u=2/23
+SKIPISO t=136/23 u=2/23
+MWRANK u=-9/23 r=1 gens=2
+FIBSURV Sig=3 t=147/23 u=-9/23
+SKIPISO t=147/23 u=-9/23
+MWRANK u=23/8 r=1 gens=2
+FIBSURV Sig=3 t=25/8 u=23/8
+SKIPISO t=25/8 u=23/8
+MWSKIP u=-6/23 bounds=[1,3]
+FIBSURV Sig=3 t=144/23 u=-6/23
+SKIPISO t=144/23 u=-6/23
+MWRANK u=-23/20 r=3 gens=2
+FIBSURV Sig=3 t=143/20 u=-23/20
+SKIPISO t=143/20 u=-23/20
+MWRANK u=14/23 r=3 gens=2
+FIBSURV Sig=3 t=124/23 u=14/23
+SKIPISO t=124/23 u=14/23
+MWRANK u=18/23 r=3 gens=2
+FIBSURV Sig=3 t=120/23 u=18/23
+SKIPISO t=120/23 u=18/23
+MWRANK u=-23/13 r=1 gens=2
+FIBSURV Sig=3 t=101/13 u=-23/13
+SKIPISO t=101/13 u=-23/13
+MWRANK u=-23/16 r=3 gens=2
+FIBSURV Sig=3 t=119/16 u=-23/16
+SKIPISO t=119/16 u=-23/16
+MWRANK u=-3/23 r=2 gens=2
+FIBSURV Sig=3 t=141/23 u=-3/23
+SKIPISO t=141/23 u=-3/23
+MWRANK u=-23/17 r=3 gens=2
+FIBSURV Sig=3 t=125/17 u=-23/17
+SKIPISO t=125/17 u=-23/17
+MWRANK u=9/23 r=3 gens=2
+FIBSURV Sig=3 t=129/23 u=9/23
+SKIPISO t=129/23 u=9/23
+MWRANK u=-23/4 r=1 gens=2
+FIBSURV Sig=3 t=47/4 u=-23/4
+SKIPISO t=47/4 u=-23/4
+MWRANK u=-11/23 r=1 gens=2
+FIBSURV Sig=3 t=149/23 u=-11/23
+SKIPISO t=149/23 u=-11/23
+MWSKIP u=10/23 bounds=[1,3]
+FIBSURV Sig=3 t=128/23 u=10/23
+SKIPISO t=128/23 u=10/23
+MWRANK u=17/23 r=1 gens=2
+FIBSURV Sig=3 t=121/23 u=17/23
+SKIPISO t=121/23 u=17/23
+MWRANK u=23/17 r=2 gens=2
+FIBSURV Sig=3 t=79/17 u=23/17
+SKIPISO t=79/17 u=23/17
+MWRANK u=-23/19 r=1 gens=2
+FIBSURV Sig=3 t=137/19 u=-23/19
+SKIPISO t=137/19 u=-23/19
+MWRANK u=-12/23 r=3 gens=2
+FIBSURV Sig=3 t=150/23 u=-12/23
+SKIPISO t=150/23 u=-12/23
+MWRANK u=-23/21 r=2 gens=2
+FIBSURV Sig=3 t=149/21 u=-23/21
+SKIPISO t=149/21 u=-23/21
+MWRANK u=21/23 r=3 gens=2
+FIBSURV Sig=3 t=117/23 u=21/23
+SKIPISO t=117/23 u=21/23
+MWRANK u=4/23 r=1 gens=2
+FIBSURV Sig=3 t=134/23 u=4/23
+SKIPISO t=134/23 u=4/23
+MWRANK u=23/22 r=3 gens=2
+FIBSURV Sig=3 t=109/22 u=23/22
+SKIPISO t=109/22 u=23/22
+MWRANK u=23/6 r=2 gens=2
+FIBSURV Sig=3 t=13/6 u=23/6
+SKIPISO t=13/6 u=23/6
+MWRANK u=11/23 r=2 gens=2
+FIBSURV Sig=3 t=127/23 u=11/23
+SKIPISO t=127/23 u=11/23
+MWRANK u=23/13 r=2 gens=2
+FIBSURV Sig=3 t=55/13 u=23/13
+SKIPISO t=55/13 u=23/13
+MWRANK u=19/23 r=2 gens=2
+FIBSURV Sig=3 t=119/23 u=19/23
+SKIPISO t=119/23 u=19/23
+MWRANK u=-23/5 r=2 gens=2
+FIBSURV Sig=3 t=53/5 u=-23/5
+SKIPISO t=53/5 u=-23/5
+MWRANK u=23/11 r=1 gens=2
+FIBSURV Sig=3 t=43/11 u=23/11
+SKIPISO t=43/11 u=23/11
+MWRANK u=23/15 r=2 gens=2
+FIBSURV Sig=3 t=67/15 u=23/15
+SKIPISO t=67/15 u=23/15
+MWRANK u=-23/11 r=2 gens=2
+FIBSURV Sig=3 t=89/11 u=-23/11
+SKIPISO t=89/11 u=-23/11
+MWRANK u=-23/9 r=1 gens=2
+FIBSURV Sig=3 t=77/9 u=-23/9
+SKIPISO t=77/9 u=-23/9
+MWRANK u=23/18 r=1 gens=2
+FIBSURV Sig=3 t=85/18 u=23/18
+SKIPISO t=85/18 u=23/18
+MWRANK u=-10/23 r=3 gens=2
+FIBSURV Sig=3 t=148/23 u=-10/23
+SKIPISO t=148/23 u=-10/23
+MWRANK u=12/23 r=3 gens=2
+FIBSURV Sig=3 t=126/23 u=12/23
+SKIPISO t=126/23 u=12/23
+MWRANK u=-1/23 r=1 gens=2
+FIBSURV Sig=3 t=139/23 u=-1/23
+SKIPISO t=139/23 u=-1/23
+MWRANK u=23/12 r=2 gens=2
+FIBSURV Sig=3 t=49/12 u=23/12
+SKIPISO t=49/12 u=23/12
+MWRANK u=-23/14 r=2 gens=2
+FIBSURV Sig=3 t=107/14 u=-23/14
+SKIPISO t=107/14 u=-23/14
+MWRANK u=-23/6 r=2 gens=2
+FIBSURV Sig=3 t=59/6 u=-23/6
+SKIPISO t=59/6 u=-23/6
+MWRANK u=-4/23 r=3 gens=2
+FIBSURV Sig=3 t=142/23 u=-4/23
+SKIPISO t=142/23 u=-4/23
+MWRANK u=23/7 r=1 gens=2
+FIBSURV Sig=3 t=19/7 u=23/7
+SKIPISO t=19/7 u=23/7
+MWRANK u=-7/23 r=1 gens=2
+FIBSURV Sig=3 t=145/23 u=-7/23
+SKIPISO t=145/23 u=-7/23
+MWRANK u=15/23 r=1 gens=2
+FIBSURV Sig=3 t=123/23 u=15/23
+SKIPISO t=123/23 u=15/23
+MWRANK u=-5/23 r=2 gens=2
+FIBSURV Sig=3 t=143/23 u=-5/23
+SKIPISO t=143/23 u=-5/23
+MWRANK u=5/23 r=2 gens=2
+FIBSURV Sig=3 t=133/23 u=5/23
+SKIPISO t=133/23 u=5/23
+MWRANK u=7/23 r=3 gens=2
+FIBSURV Sig=3 t=131/23 u=7/23
+SKIPISO t=131/23 u=7/23
+MWRANK u=-23/7 r=1 gens=2
+FIBSURV Sig=3 t=65/7 u=-23/7
+SKIPISO t=65/7 u=-23/7
+MWRANK u=23/21 r=2 gens=2
+FIBSURV Sig=3 t=103/21 u=23/21
+SKIPISO t=103/21 u=23/21
+MWRANK u=13/23 r=1 gens=2
+FIBSURV Sig=3 t=125/23 u=13/23
+SKIPISO t=125/23 u=13/23
+MWRANK u=11/24 r=2 gens=2
+FIBSURV Sig=3 t=133/24 u=11/24
+SKIPISO t=133/24 u=11/24
+MWRANK u=17/24 r=1 gens=2
+FIBSURV Sig=3 t=127/24 u=17/24
+SKIPISO t=127/24 u=17/24
+MWRANK u=19/24 r=2 gens=2
+FIBSURV Sig=3 t=125/24 u=19/24
+SKIPISO t=125/24 u=19/24
+MWRANK u=24/11 r=2 gens=2
+FIBSURV Sig=3 t=42/11 u=24/11
+SKIPISO t=42/11 u=24/11
+MWRANK u=-24/11 r=1 gens=2
+FIBSURV Sig=3 t=90/11 u=-24/11
+SKIPISO t=90/11 u=-24/11
+MWSKIP u=-24/17 bounds=[1,3]
+FIBSURV Sig=3 t=126/17 u=-24/17
+SKIPISO t=126/17 u=-24/17
+MWRANK u=24/19 r=2 gens=2
+FIBSURV Sig=3 t=90/19 u=24/19
+SKIPISO t=90/19 u=24/19
+MWRANK u=-24 r=1 gens=2
+FIBSURV Sig=3 t=30 u=-24
+SKIPISO t=30 u=-24
+MWRANK u=24/5 r=1 gens=2
+FIBSURV Sig=3 t=6/5 u=24/5
+SKIPISO t=6/5 u=24/5
+MWRANK u=-24/19 r=1 gens=2
+FIBSURV Sig=3 t=138/19 u=-24/19
+SKIPISO t=138/19 u=-24/19
+MWRANK u=24 r=2 gens=2
+FIBSURV Sig=3 t=-18 u=24
+SKIPISO t=-18 u=24
+MWRANK u=-5/24 r=2 gens=2
+FIBSURV Sig=3 t=149/24 u=-5/24
+SKIPISO t=149/24 u=-5/24
+MWRANK u=-1/24 r=2 gens=2
+FIBSURV Sig=3 t=145/24 u=-1/24
+SKIPISO t=145/24 u=-1/24
+MWRANK u=24/23 r=2 gens=2
+FIBSURV Sig=3 t=114/23 u=24/23
+SKIPISO t=114/23 u=24/23
+MWRANK u=24/7 r=1 gens=2
+FIBSURV Sig=3 t=18/7 u=24/7
+SKIPISO t=18/7 u=24/7
+MWRANK u=13/24 r=2 gens=2
+FIBSURV Sig=3 t=131/24 u=13/24
+SKIPISO t=131/24 u=13/24
+MWRANK u=-24/5 r=1 gens=2
+FIBSURV Sig=3 t=54/5 u=-24/5
+SKIPISO t=54/5 u=-24/5
+MWRANK u=-24/13 r=3 gens=2
+FIBSURV Sig=3 t=102/13 u=-24/13
+SKIPISO t=102/13 u=-24/13
+MWRANK u=7/24 r=2 gens=2
+FIBSURV Sig=3 t=137/24 u=7/24
+SKIPISO t=137/24 u=7/24
+MWRANK u=5/24 r=2 gens=2
+FIBSURV Sig=3 t=139/24 u=5/24
+SKIPISO t=139/24 u=5/24
+MWRANK u=24/13 r=2 gens=2
+FIBSURV Sig=3 t=54/13 u=24/13
+SKIPISO t=54/13 u=24/13
+MWRANK u=-24/7 r=3 gens=2
+FIBSURV Sig=3 t=66/7 u=-24/7
+SKIPISO t=66/7 u=-24/7
+MWRANK u=23/24 r=2 gens=2
+FIBSURV Sig=3 t=121/24 u=23/24
+SKIPISO t=121/24 u=23/24
+MWRANK u=24/17 r=3 gens=2
+FIBSURV Sig=3 t=78/17 u=24/17
+SKIPISO t=78/17 u=24/17
+MWRANK u=1/24 r=1 gens=2
+FIBSURV Sig=3 t=143/24 u=1/24
+SKIPISO t=143/24 u=1/24
+MWRANK u=16/25 r=2 gens=2
+FIBSURV Sig=3 t=134/25 u=16/25
+SKIPISO t=134/25 u=16/25
+MWRANK u=25/2 r=2 gens=2
+FIBSURV Sig=3 t=-13/2 u=25/2
+SKIPISO t=-13/2 u=25/2
+MWRANK u=25/12 r=2 gens=2
+FIBSURV Sig=3 t=47/12 u=25/12
+SKIPISO t=47/12 u=25/12
+MWRANK u=24/25 r=1 gens=2
+FIBSURV Sig=3 t=126/25 u=24/25
+SKIPISO t=126/25 u=24/25
+MWRANK u=-25/18 r=2 gens=2
+FIBSURV Sig=3 t=133/18 u=-25/18
+SKIPISO t=133/18 u=-25/18
+MWRANK u=3/25 r=3 gens=2
+FIBSURV Sig=3 t=147/25 u=3/25
+SKIPISO t=147/25 u=3/25
+MWRANK u=25/6 r=2 gens=2
+FIBSURV Sig=3 t=11/6 u=25/6
+SKIPISO t=11/6 u=25/6
+MWRANK u=-25/13 r=1 gens=2
+FIBSURV Sig=3 t=103/13 u=-25/13
+SKIPISO t=103/13 u=-25/13
+MWRANK u=4/25 r=3 gens=2
+FIBSURV Sig=3 t=146/25 u=4/25
+SKIPISO t=146/25 u=4/25
+MWRANK u=-25/12 r=3 gens=2
+FIBSURV Sig=3 t=97/12 u=-25/12
+SKIPISO t=97/12 u=-25/12
+MWRANK u=-25/11 r=2 gens=2
+FIBSURV Sig=3 t=91/11 u=-25/11
+SKIPISO t=91/11 u=-25/11
+MWRANK u=14/25 r=1 gens=2
+FIBSURV Sig=3 t=136/25 u=14/25
+SKIPISO t=136/25 u=14/25
+MWRANK u=-25/16 r=3 gens=2
+FIBSURV Sig=3 t=121/16 u=-25/16
+SKIPISO t=121/16 u=-25/16
+MWRANK u=25/23 r=2 gens=2
+FIBSURV Sig=3 t=113/23 u=25/23
+SKIPISO t=113/23 u=25/23
+MWRANK u=25/3 r=1 gens=2
+FIBSURV Sig=3 t=-7/3 u=25/3
+SKIPISO t=-7/3 u=25/3
+MWRANK u=-25/17 r=1 gens=2
+FIBSURV Sig=3 t=127/17 u=-25/17
+SKIPISO t=127/17 u=-25/17
+MWRANK u=9/25 r=1 gens=2
+FIBSURV Sig=3 t=141/25 u=9/25
+SKIPISO t=141/25 u=9/25
+MWRANK u=13/25 r=2 gens=2
+FIBSURV Sig=3 t=137/25 u=13/25
+SKIPISO t=137/25 u=13/25
+MWRANK u=-25/7 r=2 gens=2
+FIBSURV Sig=3 t=67/7 u=-25/7
+SKIPISO t=67/7 u=-25/7
+MWRANK u=8/25 r=1 gens=2
+FIBSURV Sig=3 t=142/25 u=8/25
+SKIPISO t=142/25 u=8/25
+MWRANK u=22/25 r=3 gens=2
+FIBSURV Sig=3 t=128/25 u=22/25
+SKIPISO t=128/25 u=22/25
+MWRANK u=-25/4 r=1 gens=2
+FIBSURV Sig=3 t=49/4 u=-25/4
+SKIPISO t=49/4 u=-25/4
+MWRANK u=25/24 r=2 gens=2
+FIBSURV Sig=3 t=119/24 u=25/24
+SKIPISO t=119/24 u=25/24
+MWRANK u=25/11 r=3 gens=2
+FIBSURV Sig=3 t=41/11 u=25/11
+SKIPISO t=41/11 u=25/11
+MWRANK u=-25/2 r=2 gens=2
+FIBSURV Sig=3 t=37/2 u=-25/2
+SKIPISO t=37/2 u=-25/2
+MWRANK u=-25 r=1 gens=2
+FIBSURV Sig=3 t=31 u=-25
+SKIPISO t=31 u=-25
+MWRANK u=21/25 r=1 gens=2
+FIBSURV Sig=3 t=129/25 u=21/25
+SKIPISO t=129/25 u=21/25
+MWRANK u=-25/14 r=3 gens=2
+FIBSURV Sig=3 t=109/14 u=-25/14
+SKIPISO t=109/14 u=-25/14
+MWRANK u=11/25 r=1 gens=2
+FIBSURV Sig=3 t=139/25 u=11/25
+SKIPISO t=139/25 u=11/25
+MWRANK u=-25/19 r=2 gens=2
+FIBSURV Sig=3 t=139/19 u=-25/19
+SKIPISO t=139/19 u=-25/19
+MWRANK u=25/18 r=1 gens=2
+FIBSURV Sig=3 t=83/18 u=25/18
+SKIPISO t=83/18 u=25/18
+MWRANK u=-25/6 r=2 gens=2
+FIBSURV Sig=3 t=61/6 u=-25/6
+SKIPISO t=61/6 u=-25/6
+MWRANK u=-25/9 r=2 gens=2
+FIBSURV Sig=3 t=79/9 u=-25/9
+SKIPISO t=79/9 u=-25/9
+MWRANK u=25/8 r=2 gens=2
+FIBSURV Sig=3 t=23/8 u=25/8
+SKIPISO t=23/8 u=25/8
+MWRANK u=18/25 r=1 gens=2
+FIBSURV Sig=3 t=132/25 u=18/25
+SKIPISO t=132/25 u=18/25
+MWRANK u=-25/3 r=2 gens=2
+FIBSURV Sig=3 t=43/3 u=-25/3
+SKIPISO t=43/3 u=-25/3
+MWRANK u=6/25 r=3 gens=2
+FIBSURV Sig=3 t=144/25 u=6/25
+SKIPISO t=144/25 u=6/25
+MWRANK u=23/25 r=1 gens=2
+FIBSURV Sig=3 t=127/25 u=23/25
+SKIPISO t=127/25 u=23/25
+MWRANK u=25/9 r=2 gens=2
+FIBSURV Sig=3 t=29/9 u=25/9
+SKIPISO t=29/9 u=25/9
+MWRANK u=25/13 r=1 gens=2
+FIBSURV Sig=3 t=53/13 u=25/13
+SKIPISO t=53/13 u=25/13
+MWRANK u=-3/25 r=2 gens=2
+MWRANK u=2/25 r=1 gens=2
+FIBSURV Sig=3 t=148/25 u=2/25
+SKIPISO t=148/25 u=2/25
+MWRANK u=-25/8 r=2 gens=2
+FIBSURV Sig=3 t=73/8 u=-25/8
+SKIPISO t=73/8 u=-25/8
+MWRANK u=25/22 r=3 gens=2
+FIBSURV Sig=3 t=107/22 u=25/22
+SKIPISO t=107/22 u=25/22
+MWRANK u=17/25 r=1 gens=2
+FIBSURV Sig=3 t=133/25 u=17/25
+SKIPISO t=133/25 u=17/25
+MWRANK u=25/21 r=1 gens=2
+FIBSURV Sig=3 t=101/21 u=25/21
+SKIPISO t=101/21 u=25/21
+MWSKIP u=25/14 bounds=[1,3]
+FIBSURV Sig=3 t=59/14 u=25/14
+SKIPISO t=59/14 u=25/14
+MWRANK u=12/25 r=1 gens=2
+FIBSURV Sig=3 t=138/25 u=12/25
+SKIPISO t=138/25 u=12/25
+MWRANK u=7/25 r=1 gens=2
+FIBSURV Sig=3 t=143/25 u=7/25
+SKIPISO t=143/25 u=7/25
+MWRANK u=19/25 r=2 gens=2
+FIBSURV Sig=3 t=131/25 u=19/25
+SKIPISO t=131/25 u=19/25
+MWRANK u=25/17 r=3 gens=2
+FIBSURV Sig=3 t=77/17 u=25/17
+SKIPISO t=77/17 u=25/17
+MWRANK u=1/25 r=2 gens=2
+FIBSURV Sig=3 t=149/25 u=1/25
+SKIPISO t=149/25 u=1/25
+MWRANK u=25/19 r=3 gens=2
+FIBSURV Sig=3 t=89/19 u=25/19
+SKIPISO t=89/19 u=25/19
+MWRANK u=-12/25 r=3 gens=2
+MWRANK u=25/16 r=2 gens=2
+FIBSURV Sig=3 t=71/16 u=25/16
+SKIPISO t=71/16 u=25/16
+MWRANK u=26/17 r=1 gens=2
+FIBSURV Sig=3 t=76/17 u=26/17
+SKIPISO t=76/17 u=26/17
+MWRANK u=26/3 r=1 gens=2
+FIBSURV Sig=3 t=-8/3 u=26/3
+SKIPISO t=-8/3 u=26/3
+MWRANK u=26/21 r=2 gens=2
+FIBSURV Sig=3 t=100/21 u=26/21
+SKIPISO t=100/21 u=26/21
+MWRANK u=26/19 r=2 gens=2
+FIBSURV Sig=3 t=88/19 u=26/19
+SKIPISO t=88/19 u=26/19
+MWRANK u=26/7 r=3 gens=2
+FIBSURV Sig=3 t=16/7 u=26/7
+SKIPISO t=16/7 u=26/7
+MWRANK u=9/26 r=2 gens=2
+FIBSURV Sig=3 t=147/26 u=9/26
+SKIPISO t=147/26 u=9/26
+MWRANK u=26 r=2 gens=2
+FIBSURV Sig=3 t=-20 u=26
+SKIPISO t=-20 u=26
+MWRANK u=26/25 r=2 gens=2
+FIBSURV Sig=3 t=124/25 u=26/25
+SKIPISO t=124/25 u=26/25
+MWRANK u=17/26 r=4 gens=2
+FIBSURV Sig=3 t=139/26 u=17/26
+SKIPISO t=139/26 u=17/26
+MWRANK u=-26/17 r=1 gens=2
+FIBSURV Sig=3 t=128/17 u=-26/17
+SKIPISO t=128/17 u=-26/17
+MWRANK u=11/26 r=2 gens=2
+FIBSURV Sig=3 t=145/26 u=11/26
+SKIPISO t=145/26 u=11/26
+MWRANK u=-26/19 r=1 gens=2
+FIBSURV Sig=3 t=140/19 u=-26/19
+SKIPISO t=140/19 u=-26/19
+MWRANK u=15/26 r=4 gens=2
+FIBSURV Sig=3 t=141/26 u=15/26
+SKIPISO t=141/26 u=15/26
+MWRANK u=26/23 r=2 gens=2
+FIBSURV Sig=3 t=112/23 u=26/23
+SKIPISO t=112/23 u=26/23
+MWRANK u=26/5 r=3 gens=2
+FIBSURV Sig=3 t=4/5 u=26/5
+SKIPISO t=4/5 u=26/5
+MWRANK u=-26/5 r=3 gens=2
+FIBSURV Sig=3 t=56/5 u=-26/5
+SKIPISO t=56/5 u=-26/5
+MWRANK u=25/26 r=2 gens=2
+FIBSURV Sig=3 t=131/26 u=25/26
+SKIPISO t=131/26 u=25/26
+MWRANK u=26/11 r=2 gens=2
+FIBSURV Sig=3 t=40/11 u=26/11
+SKIPISO t=40/11 u=26/11
+MWRANK u=-26/9 r=1 gens=2
+FIBSURV Sig=3 t=80/9 u=-26/9
+SKIPISO t=80/9 u=-26/9
+MWRANK u=26/9 r=3 gens=2
+FIBSURV Sig=3 t=28/9 u=26/9
+SKIPISO t=28/9 u=26/9
+MWRANK u=-26 r=1 gens=2
+FIBSURV Sig=3 t=32 u=-26
+SKIPISO t=32 u=-26
+MWRANK u=7/26 r=2 gens=2
+FIBSURV Sig=3 t=149/26 u=7/26
+SKIPISO t=149/26 u=7/26
+MWRANK u=-26/11 r=1 gens=2
+FIBSURV Sig=3 t=92/11 u=-26/11
+SKIPISO t=92/11 u=-26/11
+MWRANK u=-26/3 r=1 gens=2
+FIBSURV Sig=3 t=44/3 u=-26/3
+SKIPISO t=44/3 u=-26/3
+MWRANK u=19/26 r=2 gens=2
+FIBSURV Sig=3 t=137/26 u=19/26
+SKIPISO t=137/26 u=19/26
+MWRANK u=-26/15 r=1 gens=2
+FIBSURV Sig=3 t=116/15 u=-26/15
+SKIPISO t=116/15 u=-26/15
+MWRANK u=-26/7 r=1 gens=2
+FIBSURV Sig=3 t=68/7 u=-26/7
+SKIPISO t=68/7 u=-26/7
+MWRANK u=26/15 r=2 gens=2
+FIBSURV Sig=3 t=64/15 u=26/15
+SKIPISO t=64/15 u=26/15
+MWRANK u=21/26 r=1 gens=2
+FIBSURV Sig=3 t=135/26 u=21/26
+SKIPISO t=135/26 u=21/26
+MWRANK u=23/26 r=2 gens=2
+FIBSURV Sig=3 t=133/26 u=23/26
+SKIPISO t=133/26 u=23/26
+MWRANK u=27/19 r=2 gens=2
+FIBSURV Sig=3 t=87/19 u=27/19
+SKIPISO t=87/19 u=27/19
+MWRANK u=13/27 r=1 gens=2
+FIBSURV Sig=3 t=149/27 u=13/27
+SKIPISO t=149/27 u=13/27
+MWRANK u=-27/2 r=2 gens=2
+FIBSURV Sig=3 t=39/2 u=-27/2
+SKIPISO t=39/2 u=-27/2
+MWRANK u=27/8 r=1 gens=2
+FIBSURV Sig=3 t=21/8 u=27/8
+SKIPISO t=21/8 u=27/8
+MWRANK u=27/14 r=1 gens=2
+FIBSURV Sig=3 t=57/14 u=27/14
+SKIPISO t=57/14 u=27/14
+MWRANK u=27/22 r=2 gens=2
+FIBSURV Sig=3 t=105/22 u=27/22
+SKIPISO t=105/22 u=27/22
+MWRANK u=27/4 r=1 gens=2
+FIBSURV Sig=3 t=-3/4 u=27/4
+SKIPISO t=-3/4 u=27/4
+MWRANK u=27/5 r=1 gens=2
+FIBSURV Sig=3 t=3/5 u=27/5
+SKIPISO t=3/5 u=27/5
+MWRANK u=-27/7 r=1 gens=2
+FIBSURV Sig=3 t=69/7 u=-27/7
+SKIPISO t=69/7 u=-27/7
+MWRANK u=-27/13 r=1 gens=2
+FIBSURV Sig=3 t=105/13 u=-27/13
+SKIPISO t=105/13 u=-27/13
+MWRANK u=27/13 r=2 gens=2
+FIBSURV Sig=3 t=51/13 u=27/13
+SKIPISO t=51/13 u=27/13
+MWSKIP u=16/27 bounds=[1,3]
+FIBSURV Sig=3 t=146/27 u=16/27
+SKIPISO t=146/27 u=16/27
+MWRANK u=20/27 r=1 gens=2
+FIBSURV Sig=3 t=142/27 u=20/27
+SKIPISO t=142/27 u=20/27
+MWRANK u=17/27 r=1 gens=2
+FIBSURV Sig=3 t=145/27 u=17/27
+SKIPISO t=145/27 u=17/27
+MWRANK u=14/27 r=1 gens=2
+FIBSURV Sig=3 t=148/27 u=14/27
+SKIPISO t=148/27 u=14/27
+MWRANK u=26/27 r=1 gens=2
+FIBSURV Sig=3 t=136/27 u=26/27
+SKIPISO t=136/27 u=26/27
+MWRANK u=27/17 r=3 gens=2
+FIBSURV Sig=3 t=75/17 u=27/17
+SKIPISO t=75/17 u=27/17
+MWRANK u=27/10 r=3 gens=2
+FIBSURV Sig=3 t=33/10 u=27/10
+SKIPISO t=33/10 u=27/10
+MWRANK u=19/27 r=2 gens=2
+FIBSURV Sig=3 t=143/27 u=19/27
+SKIPISO t=143/27 u=19/27
+MWRANK u=27 r=1 gens=2
+FIBSURV Sig=3 t=-21 u=27
+SKIPISO t=-21 u=27
+MWRANK u=-27/25 r=2 gens=2
+FIBSURV Sig=3 t=177/25 u=-27/25
+SKIPISO t=177/25 u=-27/25
+MWRANK u=27/2 r=1 gens=2
+FIBSURV Sig=3 t=-15/2 u=27/2
+SKIPISO t=-15/2 u=27/2
+MWRANK u=-27/22 r=2 gens=2
+FIBSURV Sig=3 t=159/22 u=-27/22
+SKIPISO t=159/22 u=-27/22
+MWRANK u=27/23 r=1 gens=2
+FIBSURV Sig=3 t=111/23 u=27/23
+SKIPISO t=111/23 u=27/23
+MWRANK u=-27/14 r=2 gens=2
+FIBSURV Sig=3 t=111/14 u=-27/14
+SKIPISO t=111/14 u=-27/14
+MWRANK u=25/27 r=2 gens=2
+FIBSURV Sig=3 t=137/27 u=25/27
+SKIPISO t=137/27 u=25/27
+MWRANK u=22/27 r=1 gens=2
+FIBSURV Sig=3 t=140/27 u=22/27
+SKIPISO t=140/27 u=22/27
+MWRANK u=-27/8 r=2 gens=2
+FIBSURV Sig=3 t=75/8 u=-27/8
+SKIPISO t=75/8 u=-27/8
+MWRANK u=-27/11 r=3 gens=2
+FIBSURV Sig=3 t=93/11 u=-27/11
+SKIPISO t=93/11 u=-27/11
+MWRANK u=23/27 r=2 gens=2
+FIBSURV Sig=3 t=139/27 u=23/27
+SKIPISO t=139/27 u=23/27
+MWRANK u=27/26 r=1 gens=2
+FIBSURV Sig=3 t=129/26 u=27/26
+SKIPISO t=129/26 u=27/26
+MWRANK u=27/20 r=2 gens=2
+FIBSURV Sig=3 t=93/20 u=27/20
+SKIPISO t=93/20 u=27/20
+MWRANK u=27/16 r=2 gens=2
+FIBSURV Sig=3 t=69/16 u=27/16
+SKIPISO t=69/16 u=27/16
+MWRANK u=-27/17 r=2 gens=2
+FIBSURV Sig=3 t=129/17 u=-27/17
+SKIPISO t=129/17 u=-27/17
+MWRANK u=-27/19 r=1 gens=2
+FIBSURV Sig=3 t=141/19 u=-27/19
+SKIPISO t=141/19 u=-27/19
+MWRANK u=-27/10 r=1 gens=2
+FIBSURV Sig=3 t=87/10 u=-27/10
+SKIPISO t=87/10 u=-27/10
+MWSKIP u=-27/20 bounds=[1,3]
+FIBSURV Sig=3 t=147/20 u=-27/20
+SKIPISO t=147/20 u=-27/20
+MWRANK u=-28/5 r=3 gens=2
+FIBSURV Sig=3 t=58/5 u=-28/5
+SKIPISO t=58/5 u=-28/5
+MWRANK u=28/19 r=2 gens=2
+FIBSURV Sig=3 t=86/19 u=28/19
+SKIPISO t=86/19 u=28/19
+MWRANK u=25/28 r=1 gens=2
+FIBSURV Sig=3 t=143/28 u=25/28
+SKIPISO t=143/28 u=25/28
+MWRANK u=28/13 r=2 gens=2
+FIBSURV Sig=3 t=50/13 u=28/13
+SKIPISO t=50/13 u=28/13
+MWRANK u=28/11 r=2 gens=2
+FIBSURV Sig=3 t=38/11 u=28/11
+SKIPISO t=38/11 u=28/11
+MWRANK u=28/25 r=2 gens=2
+FIBSURV Sig=3 t=122/25 u=28/25
+SKIPISO t=122/25 u=28/25
+MWRANK u=9/28 r=2 gens=2
+FIBSURV Sig=3 t=159/28 u=9/28
+SKIPISO t=159/28 u=9/28
+MWRANK u=28/3 r=2 gens=2
+FIBSURV Sig=3 t=-10/3 u=28/3
+SKIPISO t=-10/3 u=28/3
+MWRANK u=27/28 r=1 gens=2
+FIBSURV Sig=3 t=141/28 u=27/28
+SKIPISO t=141/28 u=27/28
+MWRANK u=28/15 r=2 gens=2
+FIBSURV Sig=3 t=62/15 u=28/15
+SKIPISO t=62/15 u=28/15
+MWRANK u=28/5 r=1 gens=2
+FIBSURV Sig=3 t=2/5 u=28/5
+SKIPISO t=2/5 u=28/5
+MWRANK u=28/9 r=1 gens=2
+FIBSURV Sig=3 t=26/9 u=28/9
+SKIPISO t=26/9 u=28/9
+MWRANK u=-28 r=1 gens=2
+FIBSURV Sig=3 t=34 u=-28
+SKIPISO t=34 u=-28
+MWRANK u=19/28 r=2 gens=2
+FIBSURV Sig=3 t=149/28 u=19/28
+SKIPISO t=149/28 u=19/28
+MWRANK u=-28/9 r=2 gens=2
+FIBSURV Sig=3 t=82/9 u=-28/9
+SKIPISO t=82/9 u=-28/9
+MWRANK u=-28/3 r=1 gens=2
+FIBSURV Sig=3 t=46/3 u=-28/3
+SKIPISO t=46/3 u=-28/3
+MWRANK u=-28/17 r=2 gens=2
+FIBSURV Sig=3 t=130/17 u=-28/17
+SKIPISO t=130/17 u=-28/17
+MWRANK u=28/27 r=2 gens=2
+FIBSURV Sig=3 t=134/27 u=28/27
+SKIPISO t=134/27 u=28/27
+MWRANK u=-28/19 r=1 gens=2
+FIBSURV Sig=3 t=142/19 u=-28/19
+SKIPISO t=142/19 u=-28/19
+MWRANK u=-28/11 r=3 gens=2
+FIBSURV Sig=3 t=94/11 u=-28/11
+SKIPISO t=94/11 u=-28/11
+MWRANK u=28/23 r=2 gens=2
+FIBSURV Sig=3 t=110/23 u=28/23
+SKIPISO t=110/23 u=28/23
+MWRANK u=28/17 r=2 gens=2
+FIBSURV Sig=3 t=74/17 u=28/17
+SKIPISO t=74/17 u=28/17
+MWRANK u=-28/13 r=1 gens=2
+FIBSURV Sig=3 t=106/13 u=-28/13
+SKIPISO t=106/13 u=-28/13
+MWRANK u=-28/15 r=1 gens=2
+FIBSURV Sig=3 t=118/15 u=-28/15
+SKIPISO t=118/15 u=-28/15
+MWRANK u=23/28 r=1 gens=2
+FIBSURV Sig=3 t=145/28 u=23/28
+SKIPISO t=145/28 u=23/28
+MWRANK u=24/29 r=1 gens=2
+FIBSURV Sig=3 t=150/29 u=24/29
+SKIPISO t=150/29 u=24/29
+MWRANK u=-29/19 r=3 gens=2
+FIBSURV Sig=3 t=143/19 u=-29/19
+SKIPISO t=143/19 u=-29/19
+MWRANK u=29/20 r=1 gens=2
+FIBSURV Sig=3 t=91/20 u=29/20
+SKIPISO t=91/20 u=29/20
+MWRANK u=-29/14 r=2 gens=2
+FIBSURV Sig=3 t=113/14 u=-29/14
+SKIPISO t=113/14 u=-29/14
+MWRANK u=29/18 r=1 gens=2
+FIBSURV Sig=3 t=79/18 u=29/18
+SKIPISO t=79/18 u=29/18
+MWRANK u=-29/10 r=2 gens=2
+FIBSURV Sig=3 t=89/10 u=-29/10
+SKIPISO t=89/10 u=-29/10
+MWRANK u=29/24 r=1 gens=2
+FIBSURV Sig=3 t=115/24 u=29/24
+SKIPISO t=115/24 u=29/24
+MWRANK u=-29/11 r=2 gens=2
+FIBSURV Sig=3 t=95/11 u=-29/11
+SKIPISO t=95/11 u=-29/11
+MWRANK u=29/21 r=3 gens=2
+FIBSURV Sig=3 t=97/21 u=29/21
+SKIPISO t=97/21 u=29/21
+MWSKIP u=-29/18 bounds=[1,3]
+FIBSURV Sig=3 t=137/18 u=-29/18
+SKIPISO t=137/18 u=-29/18
+MWRANK u=29/17 r=1 gens=2
+FIBSURV Sig=3 t=73/17 u=29/17
+SKIPISO t=73/17 u=29/17
+MWRANK u=29/16 r=2 gens=2
+FIBSURV Sig=3 t=67/16 u=29/16
+SKIPISO t=67/16 u=29/16
+MWRANK u=29/19 r=2 gens=2
+FIBSURV Sig=3 t=85/19 u=29/19
+SKIPISO t=85/19 u=29/19
+MWRANK u=29/6 r=2 gens=2
+FIBSURV Sig=3 t=7/6 u=29/6
+SKIPISO t=7/6 u=29/6
+MWRANK u=29/22 r=3 gens=2
+FIBSURV Sig=3 t=103/22 u=29/22
+SKIPISO t=103/22 u=29/22
+MWRANK u=25/29 r=2 gens=2
+FIBSURV Sig=3 t=149/29 u=25/29
+SKIPISO t=149/29 u=25/29
+MWRANK u=26/29 r=1 gens=2
+FIBSURV Sig=3 t=148/29 u=26/29
+SKIPISO t=148/29 u=26/29
+MWRANK u=29/26 r=2 gens=2
+FIBSURV Sig=3 t=127/26 u=29/26
+SKIPISO t=127/26 u=29/26
+MWRANK u=29/28 r=2 gens=2
+FIBSURV Sig=3 t=139/28 u=29/28
+SKIPISO t=139/28 u=29/28
+MWRANK u=-29/17 r=1 gens=2
+FIBSURV Sig=3 t=131/17 u=-29/17
+SKIPISO t=131/17 u=-29/17
+MWRANK u=29/2 r=1 gens=2
+FIBSURV Sig=3 t=-17/2 u=29/2
+SKIPISO t=-17/2 u=29/2
+MWRANK u=-29/13 r=3 gens=2
+FIBSURV Sig=3 t=107/13 u=-29/13
+SKIPISO t=107/13 u=-29/13
+MWSKIP u=-29/6 bounds=[1,3]
+FIBSURV Sig=3 t=65/6 u=-29/6
+SKIPISO t=65/6 u=-29/6
+MWRANK u=29/7 r=1 gens=2
+FIBSURV Sig=3 t=13/7 u=29/7
+SKIPISO t=13/7 u=29/7
+MWRANK u=-29/8 r=1 gens=2
+FIBSURV Sig=3 t=77/8 u=-29/8
+SKIPISO t=77/8 u=-29/8
+MWRANK u=29/4 r=1 gens=2
+FIBSURV Sig=3 t=-5/4 u=29/4
+SKIPISO t=-5/4 u=29/4
+MWRANK u=29/8 r=2 gens=2
+FIBSURV Sig=3 t=19/8 u=29/8
+SKIPISO t=19/8 u=29/8
+MWRANK u=-29/7 r=1 gens=2
+FIBSURV Sig=3 t=71/7 u=-29/7
+SKIPISO t=71/7 u=-29/7
+MWRANK u=-29/20 r=1 gens=2
+FIBSURV Sig=3 t=149/20 u=-29/20
+SKIPISO t=149/20 u=-29/20
+MWRANK u=29/5 r=1 gens=2
+FIBSURV Sig=3 t=1/5 u=29/5
+SKIPISO t=1/5 u=29/5
+MWRANK u=-29/12 r=3 gens=2
+FIBSURV Sig=3 t=101/12 u=-29/12
+SKIPISO t=101/12 u=-29/12
+MWRANK u=28/29 r=1 gens=2
+FIBSURV Sig=3 t=146/29 u=28/29
+SKIPISO t=146/29 u=28/29
+MWSKIP u=29/23 bounds=[1,3]
+FIBSURV Sig=3 t=109/23 u=29/23
+SKIPISO t=109/23 u=29/23
+MWRANK u=29/12 r=2 gens=2
+FIBSURV Sig=3 t=43/12 u=29/12
+SKIPISO t=43/12 u=29/12
+MWRANK u=-29/16 r=1 gens=2
+FIBSURV Sig=3 t=125/16 u=-29/16
+SKIPISO t=125/16 u=-29/16
+MWRANK u=29/3 r=2 gens=2
+FIBSURV Sig=3 t=-11/3 u=29/3
+SKIPISO t=-11/3 u=29/3
+MWRANK u=29/15 r=2 gens=2
+FIBSURV Sig=3 t=61/15 u=29/15
+SKIPISO t=61/15 u=29/15
+MWRANK u=29 r=1 gens=2
+FIBSURV Sig=3 t=-23 u=29
+SKIPISO t=-23 u=29
+MWRANK u=29/11 r=2 gens=2
+FIBSURV Sig=3 t=37/11 u=29/11
+SKIPISO t=37/11 u=29/11
+MWRANK u=-29/15 r=2 gens=2
+FIBSURV Sig=3 t=119/15 u=-29/15
+SKIPISO t=119/15 u=-29/15
+MWRANK u=-29/5 r=3 gens=2
+FIBSURV Sig=3 t=59/5 u=-29/5
+SKIPISO t=59/5 u=-29/5
+MWRANK u=29/13 r=2 gens=2
+FIBSURV Sig=3 t=49/13 u=29/13
+SKIPISO t=49/13 u=29/13
+MWRANK u=29/14 r=3 gens=2
+FIBSURV Sig=3 t=55/14 u=29/14
+SKIPISO t=55/14 u=29/14
+MWRANK u=-29/9 r=2 gens=2
+FIBSURV Sig=3 t=83/9 u=-29/9
+SKIPISO t=83/9 u=-29/9
+MWRANK u=29/10 r=2 gens=2
+FIBSURV Sig=3 t=31/10 u=29/10
+SKIPISO t=31/10 u=29/10
+MWRANK u=-29/4 r=3 gens=2
+FIBSURV Sig=3 t=53/4 u=-29/4
+SKIPISO t=53/4 u=-29/4
+MWRANK u=29/9 r=1 gens=2
+FIBSURV Sig=3 t=25/9 u=29/9
+SKIPISO t=25/9 u=29/9
+MWRANK u=27/29 r=1 gens=2
+FIBSURV Sig=3 t=147/29 u=27/29
+SKIPISO t=147/29 u=27/29
+MWRANK u=-29 r=1 gens=2
+FIBSURV Sig=3 t=35 u=-29
+SKIPISO t=35 u=-29
+MWRANK u=29/25 r=1 gens=2
+FIBSURV Sig=3 t=121/25 u=29/25
+SKIPISO t=121/25 u=29/25
+MWRANK u=-29/2 r=2 gens=2
+FIBSURV Sig=3 t=41/2 u=-29/2
+SKIPISO t=41/2 u=-29/2
+MWRANK u=29/27 r=2 gens=2
+FIBSURV Sig=3 t=133/27 u=29/27
+SKIPISO t=133/27 u=29/27
+MWRANK u=-29/3 r=2 gens=2
+FIBSURV Sig=3 t=47/3 u=-29/3
+SKIPISO t=47/3 u=-29/3
+MWRANK u=-30/11 r=1 gens=2
+FIBSURV Sig=3 t=96/11 u=-30/11
+SKIPISO t=96/11 u=-30/11
+MWRANK u=-30/7 r=1 gens=2
+FIBSURV Sig=3 t=72/7 u=-30/7
+SKIPISO t=72/7 u=-30/7
+MWRANK u=30 r=1 gens=2
+FIBSURV Sig=3 t=-24 u=30
+SKIPISO t=-24 u=30
+MWRANK u=30/11 r=2 gens=2
+FIBSURV Sig=3 t=36/11 u=30/11
+SKIPISO t=36/11 u=30/11
+MWRANK u=-30/19 r=1 gens=2
+FIBSURV Sig=3 t=144/19 u=-30/19
+SKIPISO t=144/19 u=-30/19
+MWRANK u=-30/13 r=1 gens=2
+FIBSURV Sig=3 t=108/13 u=-30/13
+SKIPISO t=108/13 u=-30/13
+MWRANK u=30/7 r=1 gens=2
+FIBSURV Sig=3 t=12/7 u=30/7
+SKIPISO t=12/7 u=30/7
+MWRANK u=30/19 r=2 gens=2
+FIBSURV Sig=3 t=84/19 u=30/19
+SKIPISO t=84/19 u=30/19
+MWRANK u=30/29 r=2 gens=2
+FIBSURV Sig=3 t=144/29 u=30/29
+SKIPISO t=144/29 u=30/29
+MWRANK u=-19/30 r=2 gens=2
+MWRANK u=30/17 r=2 gens=2
+FIBSURV Sig=3 t=72/17 u=30/17
+SKIPISO t=72/17 u=30/17
+MWRANK u=-30 r=1 gens=2
+FIBSURV Sig=3 t=36 u=-30
+SKIPISO t=36 u=-30
+MWRANK u=30/23 r=2 gens=2
+FIBSURV Sig=3 t=108/23 u=30/23
+SKIPISO t=108/23 u=30/23
+MWRANK u=30/13 r=2 gens=2
+FIBSURV Sig=3 t=48/13 u=30/13
+SKIPISO t=48/13 u=30/13
+MWRANK u=-30/17 r=3 gens=2
+FIBSURV Sig=3 t=132/17 u=-30/17
+SKIPISO t=132/17 u=-30/17
+MWRANK u=-31/4 r=3 gens=2
+FIBSURV Sig=3 t=55/4 u=-31/4
+SKIPISO t=55/4 u=-31/4
+MWRANK u=-31/19 r=1 gens=2
+FIBSURV Sig=3 t=145/19 u=-31/19
+SKIPISO t=145/19 u=-31/19
+MWRANK u=31/3 r=1 gens=2
+FIBSURV Sig=3 t=-13/3 u=31/3
+SKIPISO t=-13/3 u=31/3
+MWRANK u=31/4 r=1 gens=2
+FIBSURV Sig=3 t=-7/4 u=31/4
+SKIPISO t=-7/4 u=31/4
+MWRANK u=31/11 r=1 gens=2
+FIBSURV Sig=3 t=35/11 u=31/11
+SKIPISO t=35/11 u=31/11
+MWRANK u=31/13 r=2 gens=2
+FIBSURV Sig=3 t=47/13 u=31/13
+SKIPISO t=47/13 u=31/13
+MWRANK u=31/12 r=2 gens=2
+FIBSURV Sig=3 t=41/12 u=31/12
+SKIPISO t=41/12 u=31/12
+MWRANK u=31/30 r=2 gens=2
+FIBSURV Sig=3 t=149/30 u=31/30
+SKIPISO t=149/30 u=31/30
+MWRANK u=31/28 r=2 gens=2
+FIBSURV Sig=3 t=137/28 u=31/28
+SKIPISO t=137/28 u=31/28
+MWRANK u=-31/11 r=1 gens=2
+FIBSURV Sig=3 t=97/11 u=-31/11
+SKIPISO t=97/11 u=-31/11
+MWRANK u=31/20 r=2 gens=2
+FIBSURV Sig=3 t=89/20 u=31/20
+SKIPISO t=89/20 u=31/20
+MWRANK u=31/24 r=3 gens=2
+FIBSURV Sig=3 t=113/24 u=31/24
+SKIPISO t=113/24 u=31/24
+MWRANK u=-31 r=1 gens=2
+FIBSURV Sig=3 t=37 u=-31
+SKIPISO t=37 u=-31
+MWRANK u=31/8 r=2 gens=2
+FIBSURV Sig=3 t=17/8 u=31/8
+SKIPISO t=17/8 u=31/8
+MWRANK u=31/25 r=2 gens=2
+FIBSURV Sig=3 t=119/25 u=31/25
+SKIPISO t=119/25 u=31/25
+MWRANK u=31 r=2 gens=2
+FIBSURV Sig=3 t=-25 u=31
+SKIPISO t=-25 u=31
+MWRANK u=-31/6 r=2 gens=2
+FIBSURV Sig=3 t=67/6 u=-31/6
+SKIPISO t=67/6 u=-31/6
+MWRANK u=31/17 r=2 gens=2
+FIBSURV Sig=3 t=71/17 u=31/17
+SKIPISO t=71/17 u=31/17
+MWRANK u=31/16 r=2 gens=2
+FIBSURV Sig=3 t=65/16 u=31/16
+SKIPISO t=65/16 u=31/16
+MWRANK u=-31/7 r=3 gens=2
+FIBSURV Sig=3 t=73/7 u=-31/7
+SKIPISO t=73/7 u=-31/7
+MWRANK u=31/9 r=1 gens=2
+FIBSURV Sig=3 t=23/9 u=31/9
+SKIPISO t=23/9 u=31/9
+MWRANK u=31/10 r=2 gens=2
+FIBSURV Sig=3 t=29/10 u=31/10
+SKIPISO t=29/10 u=31/10
+MWRANK u=-31/3 r=2 gens=2
+FIBSURV Sig=3 t=49/3 u=-31/3
+SKIPISO t=49/3 u=-31/3
+MWRANK u=-31/13 r=2 gens=2
+FIBSURV Sig=3 t=109/13 u=-31/13
+SKIPISO t=109/13 u=-31/13
+MWRANK u=31/14 r=2 gens=2
+FIBSURV Sig=3 t=53/14 u=31/14
+SKIPISO t=53/14 u=31/14
+MWRANK u=31/23 r=2 gens=2
+FIBSURV Sig=3 t=107/23 u=31/23
+SKIPISO t=107/23 u=31/23
+MWRANK u=-31/16 r=1 gens=2
+FIBSURV Sig=3 t=127/16 u=-31/16
+SKIPISO t=127/16 u=-31/16
+MWRANK u=-31/18 r=1 gens=2
+FIBSURV Sig=3 t=139/18 u=-31/18
+SKIPISO t=139/18 u=-31/18
+MWRANK u=31/18 r=4 gens=2
+FIBSURV Sig=3 t=77/18 u=31/18
+SKIPISO t=77/18 u=31/18
+MWRANK u=31/2 r=1 gens=2
+FIBSURV Sig=3 t=-19/2 u=31/2
+SKIPISO t=-19/2 u=31/2
+MWRANK u=31/21 r=1 gens=2
+FIBSURV Sig=3 t=95/21 u=31/21
+SKIPISO t=95/21 u=31/21
+MWRANK u=31/29 r=3 gens=2
+FIBSURV Sig=3 t=143/29 u=31/29
+SKIPISO t=143/29 u=31/29
+MWRANK u=-31/2 r=3 gens=2
+FIBSURV Sig=3 t=43/2 u=-31/2
+SKIPISO t=43/2 u=-31/2
+MWRANK u=31/22 r=3 gens=2
+FIBSURV Sig=3 t=101/22 u=31/22
+SKIPISO t=101/22 u=31/22
+MWRANK u=31/19 r=1 gens=2
+FIBSURV Sig=3 t=83/19 u=31/19
+SKIPISO t=83/19 u=31/19
+MWRANK u=-31/14 r=1 gens=2
+FIBSURV Sig=3 t=115/14 u=-31/14
+SKIPISO t=115/14 u=-31/14
+MWRANK u=-31/5 r=2 gens=2
+FIBSURV Sig=3 t=61/5 u=-31/5
+SKIPISO t=61/5 u=-31/5
+MWSKIP u=31/26 bounds=[1,3]
+FIBSURV Sig=3 t=125/26 u=31/26
+SKIPISO t=125/26 u=31/26
+MWRANK u=-31/12 r=1 gens=2
+FIBSURV Sig=3 t=103/12 u=-31/12
+SKIPISO t=103/12 u=-31/12
+MWRANK u=-31/15 r=1 gens=2
+FIBSURV Sig=3 t=121/15 u=-31/15
+SKIPISO t=121/15 u=-31/15
+MWRANK u=31/15 r=2 gens=2
+FIBSURV Sig=3 t=59/15 u=31/15
+SKIPISO t=59/15 u=31/15
+MWRANK u=-31/17 r=1 gens=2
+FIBSURV Sig=3 t=133/17 u=-31/17
+SKIPISO t=133/17 u=-31/17
+MWRANK u=-31/8 r=2 gens=2
+FIBSURV Sig=3 t=79/8 u=-31/8
+SKIPISO t=79/8 u=-31/8
+MWRANK u=-31/10 r=2 gens=2
+FIBSURV Sig=3 t=91/10 u=-31/10
+SKIPISO t=91/10 u=-31/10
+MWRANK u=31/27 r=1 gens=2
+FIBSURV Sig=3 t=131/27 u=31/27
+SKIPISO t=131/27 u=31/27
+MWRANK u=-31/9 r=2 gens=2
+FIBSURV Sig=3 t=85/9 u=-31/9
+SKIPISO t=85/9 u=-31/9
+MWRANK u=-32/3 r=1 gens=2
+FIBSURV Sig=3 t=50/3 u=-32/3
+SKIPISO t=50/3 u=-32/3
+MWRANK u=-32/17 r=1 gens=2
+FIBSURV Sig=3 t=134/17 u=-32/17
+SKIPISO t=134/17 u=-32/17
+MWRANK u=32/29 r=2 gens=2
+FIBSURV Sig=3 t=142/29 u=32/29
+SKIPISO t=142/29 u=32/29
+MWRANK u=32/17 r=2 gens=2
+FIBSURV Sig=3 t=70/17 u=32/17
+SKIPISO t=70/17 u=32/17
+MWRANK u=32/15 r=2 gens=2
+FIBSURV Sig=3 t=58/15 u=32/15
+SKIPISO t=58/15 u=32/15
+MWRANK u=32/5 r=1 gens=2
+FIBSURV Sig=3 t=-2/5 u=32/5
+SKIPISO t=-2/5 u=32/5
+MWRANK u=32/19 r=2 gens=2
+FIBSURV Sig=3 t=82/19 u=32/19
+SKIPISO t=82/19 u=32/19
+MWRANK u=32/13 r=2 gens=2
+FIBSURV Sig=3 t=46/13 u=32/13
+SKIPISO t=46/13 u=32/13
+MWRANK u=-32/19 r=3 gens=2
+FIBSURV Sig=3 t=146/19 u=-32/19
+SKIPISO t=146/19 u=-32/19
+MWRANK u=32/23 r=1 gens=2
+FIBSURV Sig=3 t=106/23 u=32/23
+SKIPISO t=106/23 u=32/23
+MWSKIP u=-32 bounds=[1,3]
+FIBSURV Sig=3 t=38 u=-32
+SKIPISO t=38 u=-32
+MWRANK u=32/7 r=1 gens=2
+FIBSURV Sig=3 t=10/7 u=32/7
+SKIPISO t=10/7 u=32/7
+MWRANK u=32/11 r=2 gens=2
+FIBSURV Sig=3 t=34/11 u=32/11
+SKIPISO t=34/11 u=32/11
+MWRANK u=-32/13 r=1 gens=2
+FIBSURV Sig=3 t=110/13 u=-32/13
+SKIPISO t=110/13 u=-32/13
+MWRANK u=-32/15 r=1 gens=2
+FIBSURV Sig=3 t=122/15 u=-32/15
+SKIPISO t=122/15 u=-32/15
+MWRANK u=-32/11 r=1 gens=2
+FIBSURV Sig=3 t=98/11 u=-32/11
+SKIPISO t=98/11 u=-32/11
+MWRANK u=32/3 r=2 gens=2
+FIBSURV Sig=3 t=-14/3 u=32/3
+SKIPISO t=-14/3 u=32/3
+MWRANK u=32/9 r=2 gens=2
+FIBSURV Sig=3 t=22/9 u=32/9
+SKIPISO t=22/9 u=32/9
+MWRANK u=-32/7 r=1 gens=2
+FIBSURV Sig=3 t=74/7 u=-32/7
+SKIPISO t=74/7 u=-32/7
+MWRANK u=-32/5 r=1 gens=2
+FIBSURV Sig=3 t=62/5 u=-32/5
+SKIPISO t=62/5 u=-32/5
+MWRANK u=32 r=2 gens=2
+FIBSURV Sig=3 t=-26 u=32
+SKIPISO t=-26 u=32
+MWRANK u=32/27 r=2 gens=2
+FIBSURV Sig=3 t=130/27 u=32/27
+SKIPISO t=130/27 u=32/27
+MWRANK u=32/25 r=2 gens=2
+FIBSURV Sig=3 t=118/25 u=32/25
+SKIPISO t=118/25 u=32/25
+MWSKIP u=-32/9 bounds=[1,3]
+FIBSURV Sig=3 t=86/9 u=-32/9
+SKIPISO t=86/9 u=-32/9
+MWRANK u=32/21 r=2 gens=2
+FIBSURV Sig=3 t=94/21 u=32/21
+SKIPISO t=94/21 u=32/21
+MWRANK u=33/23 r=2 gens=2
+FIBSURV Sig=3 t=105/23 u=33/23
+SKIPISO t=105/23 u=33/23
+MWRANK u=-33/17 r=3 gens=2
+FIBSURV Sig=3 t=135/17 u=-33/17
+SKIPISO t=135/17 u=-33/17
+MWRANK u=33/29 r=1 gens=2
+FIBSURV Sig=3 t=141/29 u=33/29
+SKIPISO t=141/29 u=33/29
+MWRANK u=33/28 r=4 gens=2
+FIBSURV Sig=3 t=135/28 u=33/28
+SKIPISO t=135/28 u=33/28
+MWRANK u=33/17 r=2 gens=2
+FIBSURV Sig=3 t=69/17 u=33/17
+SKIPISO t=69/17 u=33/17
+MWRANK u=-33/31 r=3 gens=2
+MWRANK u=-33/14 r=3 gens=2
+FIBSURV Sig=3 t=117/14 u=-33/14
+SKIPISO t=117/14 u=-33/14
+MWRANK u=-33/13 r=2 gens=2
+FIBSURV Sig=3 t=111/13 u=-33/13
+SKIPISO t=111/13 u=-33/13
+MWRANK u=33/14 r=1 gens=2
+FIBSURV Sig=3 t=51/14 u=33/14
+SKIPISO t=51/14 u=33/14
+MWRANK u=33/26 r=1 gens=2
+FIBSURV Sig=3 t=123/26 u=33/26
+SKIPISO t=123/26 u=33/26
+MWRANK u=33/32 r=3 gens=2
+MWRANK u=-33/8 r=2 gens=2
+FIBSURV Sig=3 t=81/8 u=-33/8
+SKIPISO t=81/8 u=-33/8
+MWRANK u=33/19 r=2 gens=2
+FIBSURV Sig=3 t=81/19 u=33/19
+SKIPISO t=81/19 u=33/19
+MWRANK u=-33/10 r=2 gens=2
+FIBSURV Sig=3 t=93/10 u=-33/10
+SKIPISO t=93/10 u=-33/10
+MWRANK u=-33/5 r=1 gens=2
+FIBSURV Sig=3 t=63/5 u=-33/5
+SKIPISO t=63/5 u=-33/5
+MWRANK u=-33/16 r=1 gens=2
+FIBSURV Sig=3 t=129/16 u=-33/16
+SKIPISO t=129/16 u=-33/16
+MWRANK u=33/2 r=2 gens=2
+FIBSURV Sig=3 t=-21/2 u=33/2
+SKIPISO t=-21/2 u=33/2
+MWRANK u=33/16 r=2 gens=2
+FIBSURV Sig=3 t=63/16 u=33/16
+SKIPISO t=63/16 u=33/16
+MWRANK u=-33 r=1 gens=2
+FIBSURV Sig=3 t=39 u=-33
+SKIPISO t=39 u=-33
+MWRANK u=33/4 r=1 gens=2
+FIBSURV Sig=3 t=-9/4 u=33/4
+SKIPISO t=-9/4 u=33/4
+MWRANK u=-33/2 r=2 gens=2
+FIBSURV Sig=3 t=45/2 u=-33/2
+SKIPISO t=45/2 u=-33/2
+MWRANK u=-33/19 r=2 gens=2
+FIBSURV Sig=3 t=147/19 u=-33/19
+SKIPISO t=147/19 u=-33/19
+MWRANK u=33/20 r=1 gens=2
+FIBSURV Sig=3 t=87/20 u=33/20
+SKIPISO t=87/20 u=33/20
+MWRANK u=33/10 r=2 gens=2
+FIBSURV Sig=3 t=27/10 u=33/10
+SKIPISO t=27/10 u=33/10
+MWRANK u=-33/4 r=1 gens=2
+FIBSURV Sig=3 t=57/4 u=-33/4
+SKIPISO t=57/4 u=-33/4
+MWRANK u=8/33 r=3 gens=2
+MWRANK u=33 r=1 gens=2
+FIBSURV Sig=3 t=-27 u=33
+SKIPISO t=-27 u=33
+MWRANK u=33/13 r=1 gens=2
+FIBSURV Sig=3 t=45/13 u=33/13
+SKIPISO t=45/13 u=33/13
+MWRANK u=1/33 r=3 gens=2
+MWRANK u=-33/7 r=1 gens=2
+FIBSURV Sig=3 t=75/7 u=-33/7
+SKIPISO t=75/7 u=-33/7
+MWSKIP u=34/5 bounds=[1,3]
+FIBSURV Sig=3 t=-4/5 u=34/5
+SKIPISO t=-4/5 u=34/5
+MWRANK u=34/29 r=2 gens=2
+FIBSURV Sig=3 t=140/29 u=34/29
+SKIPISO t=140/29 u=34/29
+MWRANK u=-34/11 r=4 gens=2
+FIBSURV Sig=3 t=100/11 u=-34/11
+SKIPISO t=100/11 u=-34/11
+MWRANK u=34/3 r=2 gens=2
+FIBSURV Sig=3 t=-16/3 u=34/3
+SKIPISO t=-16/3 u=34/3
+MWRANK u=34/25 r=2 gens=2
+FIBSURV Sig=3 t=116/25 u=34/25
+SKIPISO t=116/25 u=34/25
+MWRANK u=-34/15 r=1 gens=2
+FIBSURV Sig=3 t=124/15 u=-34/15
+SKIPISO t=124/15 u=-34/15
+MWRANK u=-34/13 r=1 gens=2
+FIBSURV Sig=3 t=112/13 u=-34/13
+SKIPISO t=112/13 u=-34/13
+MWRANK u=34/13 r=2 gens=2
+FIBSURV Sig=3 t=44/13 u=34/13
+SKIPISO t=44/13 u=34/13
+MWRANK u=34/9 r=1 gens=2
+FIBSURV Sig=3 t=20/9 u=34/9
+SKIPISO t=20/9 u=34/9
+MWRANK u=-34/7 r=3 gens=2
+FIBSURV Sig=3 t=76/7 u=-34/7
+SKIPISO t=76/7 u=-34/7
+MWRANK u=34/7 r=1 gens=2
+FIBSURV Sig=3 t=8/7 u=34/7
+SKIPISO t=8/7 u=34/7
+MWRANK u=-34/9 r=2 gens=2
+FIBSURV Sig=3 t=88/9 u=-34/9
+SKIPISO t=88/9 u=-34/9
+MWRANK u=34/21 r=2 gens=2
+FIBSURV Sig=3 t=92/21 u=34/21
+SKIPISO t=92/21 u=34/21
+MWRANK u=-34/19 r=1 gens=2
+FIBSURV Sig=3 t=148/19 u=-34/19
+SKIPISO t=148/19 u=-34/19
+MWRANK u=-34/5 r=3 gens=2
+FIBSURV Sig=3 t=64/5 u=-34/5
+SKIPISO t=64/5 u=-34/5
+MWRANK u=34/27 r=2 gens=2
+FIBSURV Sig=3 t=128/27 u=34/27
+SKIPISO t=128/27 u=34/27
+MWRANK u=-34/3 r=3 gens=2
+FIBSURV Sig=3 t=52/3 u=-34/3
+SKIPISO t=52/3 u=-34/3
+MWRANK u=34/19 r=2 gens=2
+FIBSURV Sig=3 t=80/19 u=34/19
+SKIPISO t=80/19 u=34/19
+MWRANK u=34/23 r=2 gens=2
+FIBSURV Sig=3 t=104/23 u=34/23
+SKIPISO t=104/23 u=34/23
+MWRANK u=34/15 r=2 gens=2
+FIBSURV Sig=3 t=56/15 u=34/15
+SKIPISO t=56/15 u=34/15
+MWRANK u=34/11 r=3 gens=2
+FIBSURV Sig=3 t=32/11 u=34/11
+SKIPISO t=32/11 u=34/11
+MWRANK u=35/9 r=1 gens=2
+FIBSURV Sig=3 t=19/9 u=35/9
+SKIPISO t=19/9 u=35/9
+MWRANK u=-35 r=1 gens=2
+FIBSURV Sig=3 t=41 u=-35
+SKIPISO t=41 u=-35
+MWRANK u=-35/13 r=3 gens=2
+FIBSURV Sig=3 t=113/13 u=-35/13
+SKIPISO t=113/13 u=-35/13
+MWRANK u=35/3 r=1 gens=2
+FIBSURV Sig=3 t=-17/3 u=35/3
+SKIPISO t=-17/3 u=35/3
+MWRANK u=35/4 r=3 gens=2
+FIBSURV Sig=3 t=-11/4 u=35/4
+SKIPISO t=-11/4 u=35/4
+MWRANK u=-35/19 r=1 gens=2
+FIBSURV Sig=3 t=149/19 u=-35/19
+SKIPISO t=149/19 u=-35/19
+MWRANK u=35/12 r=2 gens=2
+FIBSURV Sig=3 t=37/12 u=35/12
+SKIPISO t=37/12 u=35/12
+MWRANK u=35/11 r=1 gens=2
+FIBSURV Sig=3 t=31/11 u=35/11
+SKIPISO t=31/11 u=35/11
+MWRANK u=26/35 r=1 gens=2
+FIBSURV Sig=3 t=184/35 u=26/35
+SKIPISO t=184/35 u=26/35
+MWRANK u=-35/18 r=1 gens=2
+FIBSURV Sig=3 t=143/18 u=-35/18
+SKIPISO t=143/18 u=-35/18
+MWRANK u=-35/6 r=2 gens=2
+FIBSURV Sig=3 t=71/6 u=-35/6
+SKIPISO t=71/6 u=-35/6
+MWRANK u=35/6 r=1 gens=2
+FIBSURV Sig=3 t=1/6 u=35/6
+SKIPISO t=1/6 u=35/6
+MWRANK u=35/2 r=1 gens=2
+FIBSURV Sig=3 t=-23/2 u=35/2
+SKIPISO t=-23/2 u=35/2
+MWRANK u=27/35 r=1 gens=2
+FIBSURV Sig=3 t=183/35 u=27/35
+SKIPISO t=183/35 u=27/35
+MWRANK u=-35/9 r=2 gens=2
+FIBSURV Sig=3 t=89/9 u=-35/9
+SKIPISO t=89/9 u=-35/9
+MWRANK u=35/24 r=3 gens=2
+FIBSURV Sig=3 t=109/24 u=35/24
+SKIPISO t=109/24 u=35/24
+MWSKIP u=-35/12 bounds=[1,3]
+FIBSURV Sig=3 t=107/12 u=-35/12
+SKIPISO t=107/12 u=-35/12
+MWSKIP u=-35/16 bounds=[1,3]
+FIBSURV Sig=3 t=131/16 u=-35/16
+SKIPISO t=131/16 u=-35/16
+MWRANK u=-35/8 r=2 gens=2
+FIBSURV Sig=3 t=83/8 u=-35/8
+SKIPISO t=83/8 u=-35/8
+MWRANK u=35/16 r=2 gens=2
+FIBSURV Sig=3 t=61/16 u=35/16
+SKIPISO t=61/16 u=35/16
+MWRANK u=35/26 r=2 gens=2
+FIBSURV Sig=3 t=121/26 u=35/26
+SKIPISO t=121/26 u=35/26
+MWRANK u=-35/2 r=2 gens=2
+FIBSURV Sig=3 t=47/2 u=-35/2
+SKIPISO t=47/2 u=-35/2
+MWRANK u=-35/3 r=1 gens=2
+FIBSURV Sig=3 t=53/3 u=-35/3
+SKIPISO t=53/3 u=-35/3
+MWRANK u=35/19 r=2 gens=2
+FIBSURV Sig=3 t=79/19 u=35/19
+SKIPISO t=79/19 u=35/19
+MWRANK u=35/23 r=1 gens=2
+FIBSURV Sig=3 t=103/23 u=35/23
+SKIPISO t=103/23 u=35/23
+MWRANK u=35/13 r=2 gens=2
+FIBSURV Sig=3 t=43/13 u=35/13
+SKIPISO t=43/13 u=35/13
+MWRANK u=-35/17 r=2 gens=2
+FIBSURV Sig=3 t=137/17 u=-35/17
+SKIPISO t=137/17 u=-35/17
+MWRANK u=-35/4 r=1 gens=2
+FIBSURV Sig=3 t=59/4 u=-35/4
+SKIPISO t=59/4 u=-35/4
+MWRANK u=35/22 r=2 gens=2
+FIBSURV Sig=3 t=97/22 u=35/22
+SKIPISO t=97/22 u=35/22
+MWSKIP u=35/18 bounds=[1,3]
+FIBSURV Sig=3 t=73/18 u=35/18
+SKIPISO t=73/18 u=35/18
+MWRANK u=-35/11 r=1 gens=2
+FIBSURV Sig=3 t=101/11 u=-35/11
+SKIPISO t=101/11 u=-35/11
+MWRANK u=35/29 r=2 gens=2
+FIBSURV Sig=3 t=139/29 u=35/29
+SKIPISO t=139/29 u=35/29
+MWRANK u=35/27 r=2 gens=2
+FIBSURV Sig=3 t=127/27 u=35/27
+SKIPISO t=127/27 u=35/27
+MWRANK u=35/17 r=2 gens=2
+FIBSURV Sig=3 t=67/17 u=35/17
+SKIPISO t=67/17 u=35/17
+MWRANK u=36/13 r=2 gens=2
+FIBSURV Sig=3 t=42/13 u=36/13
+SKIPISO t=42/13 u=36/13
+MWRANK u=36/19 r=2 gens=2
+FIBSURV Sig=3 t=78/19 u=36/19
+SKIPISO t=78/19 u=36/19
+MWRANK u=36 r=2 gens=2
+FIBSURV Sig=3 t=-30 u=36
+SKIPISO t=-30 u=36
+MWRANK u=-36/17 r=1 gens=2
+FIBSURV Sig=3 t=138/17 u=-36/17
+SKIPISO t=138/17 u=-36/17
+MWRANK u=36/7 r=2 gens=2
+FIBSURV Sig=3 t=6/7 u=36/7
+SKIPISO t=6/7 u=36/7
+MWRANK u=36/5 r=1 gens=2
+FIBSURV Sig=3 t=-6/5 u=36/5
+SKIPISO t=-6/5 u=36/5
+MWRANK u=35/36 r=2 gens=2
+FIBSURV Sig=3 t=181/36 u=35/36
+SKIPISO t=181/36 u=35/36
+MWRANK u=36/11 r=1 gens=2
+FIBSURV Sig=3 t=30/11 u=36/11
+SKIPISO t=30/11 u=36/11
+MWRANK u=-36/7 r=1 gens=2
+FIBSURV Sig=3 t=78/7 u=-36/7
+SKIPISO t=78/7 u=-36/7
+MWRANK u=36/31 r=1 gens=2
+FIBSURV Sig=3 t=150/31 u=36/31
+SKIPISO t=150/31 u=36/31
+MWRANK u=-36/13 r=1 gens=2
+FIBSURV Sig=3 t=114/13 u=-36/13
+SKIPISO t=114/13 u=-36/13
+MWRANK u=36/25 r=1 gens=2
+FIBSURV Sig=3 t=114/25 u=36/25
+SKIPISO t=114/25 u=36/25
+MWRANK u=-36/5 r=1 gens=2
+FIBSURV Sig=3 t=66/5 u=-36/5
+SKIPISO t=66/5 u=-36/5
+MWRANK u=36/23 r=2 gens=2
+FIBSURV Sig=3 t=102/23 u=36/23
+SKIPISO t=102/23 u=36/23
+MWRANK u=-36/11 r=2 gens=2
+FIBSURV Sig=3 t=102/11 u=-36/11
+SKIPISO t=102/11 u=-36/11
+MWRANK u=-36/19 r=3 gens=2
+FIBSURV Sig=3 t=150/19 u=-36/19
+SKIPISO t=150/19 u=-36/19
+MWRANK u=36/17 r=2 gens=2
+FIBSURV Sig=3 t=66/17 u=36/17
+SKIPISO t=66/17 u=36/17
+MWRANK u=36/29 r=2 gens=2
+FIBSURV Sig=3 t=138/29 u=36/29
+SKIPISO t=138/29 u=36/29
+MWRANK u=-37/14 r=4 gens=2
+FIBSURV Sig=3 t=121/14 u=-37/14
+SKIPISO t=121/14 u=-37/14
+MWRANK u=-37/18 r=2 gens=2
+FIBSURV Sig=3 t=145/18 u=-37/18
+SKIPISO t=145/18 u=-37/18
+MWRANK u=-37/15 r=2 gens=2
+FIBSURV Sig=3 t=127/15 u=-37/15
+SKIPISO t=127/15 u=-37/15
+MWSKIP u=-37/16 bounds=[1,3]
+FIBSURV Sig=3 t=133/16 u=-37/16
+SKIPISO t=133/16 u=-37/16
+MWRANK u=37/7 r=1 gens=2
+FIBSURV Sig=3 t=5/7 u=37/7
+SKIPISO t=5/7 u=37/7
+MWRANK u=37/8 r=2 gens=2
+FIBSURV Sig=3 t=11/8 u=37/8
+SKIPISO t=11/8 u=37/8
+MWRANK u=37/23 r=3 gens=2
+FIBSURV Sig=3 t=101/23 u=37/23
+SKIPISO t=101/23 u=37/23
+MWRANK u=37/2 r=3 gens=2
+FIBSURV Sig=3 t=-25/2 u=37/2
+SKIPISO t=-25/2 u=37/2
+MWRANK u=-17/37 r=2 gens=2
+FIBSURV Sig=3 t=239/37 u=-17/37
+SKIPISO t=239/37 u=-17/37
+MWRANK u=-37/17 r=2 gens=2
+FIBSURV Sig=3 t=139/17 u=-37/17
+SKIPISO t=139/17 u=-37/17
+MWRANK u=37/5 r=2 gens=2
+FIBSURV Sig=3 t=-7/5 u=37/5
+SKIPISO t=-7/5 u=37/5
+MWRANK u=-37 r=2 gens=2
+FIBSURV Sig=3 t=43 u=-37
+SKIPISO t=43 u=-37
+MWRANK u=-37/4 r=3 gens=2
+FIBSURV Sig=3 t=61/4 u=-37/4
+SKIPISO t=61/4 u=-37/4
+MWSKIP u=37/30 bounds=[1,3]
+FIBSURV Sig=3 t=143/30 u=37/30
+SKIPISO t=143/30 u=37/30
+MWRANK u=37/3 r=2 gens=2
+FIBSURV Sig=3 t=-19/3 u=37/3
+SKIPISO t=-19/3 u=37/3
+MWRANK u=37/9 r=2 gens=2
+FIBSURV Sig=3 t=17/9 u=37/9
+SKIPISO t=17/9 u=37/9
+MWRANK u=-37/12 r=1 gens=2
+FIBSURV Sig=3 t=109/12 u=-37/12
+SKIPISO t=109/12 u=-37/12
+MWRANK u=37/22 r=3 gens=2
+FIBSURV Sig=3 t=95/22 u=37/22
+SKIPISO t=95/22 u=37/22
+MWRANK u=37/17 r=1 gens=2
+FIBSURV Sig=3 t=65/17 u=37/17
+SKIPISO t=65/17 u=37/17
+MWRANK u=-37/8 r=2 gens=2
+FIBSURV Sig=3 t=85/8 u=-37/8
+SKIPISO t=85/8 u=-37/8
+MWRANK u=37 r=1 gens=2
+FIBSURV Sig=3 t=-31 u=37
+SKIPISO t=-31 u=37
+MWRANK u=37/29 r=2 gens=2
+FIBSURV Sig=3 t=137/29 u=37/29
+SKIPISO t=137/29 u=37/29
+MWRANK u=-37/13 r=1 gens=2
+FIBSURV Sig=3 t=115/13 u=-37/13
+SKIPISO t=115/13 u=-37/13
+MWRANK u=-37/10 r=2 gens=2
+FIBSURV Sig=3 t=97/10 u=-37/10
+SKIPISO t=97/10 u=-37/10
+MWRANK u=-37/2 r=2 gens=2
+FIBSURV Sig=3 t=49/2 u=-37/2
+SKIPISO t=49/2 u=-37/2
+MWRANK u=37/14 r=3 gens=2
+FIBSURV Sig=3 t=47/14 u=37/14
+SKIPISO t=47/14 u=37/14
+MWRANK u=-37/9 r=2 gens=2
+FIBSURV Sig=3 t=91/9 u=-37/9
+SKIPISO t=91/9 u=-37/9
+MWRANK u=37/11 r=1 gens=2
+FIBSURV Sig=3 t=29/11 u=37/11
+SKIPISO t=29/11 u=37/11
+MWRANK u=-37/28 r=3 gens=2
+FIBSURV Sig=3 t=205/28 u=-37/28
+SKIPISO t=205/28 u=-37/28
+MWRANK u=37/10 r=1 gens=2
+FIBSURV Sig=3 t=23/10 u=37/10
+SKIPISO t=23/10 u=37/10
+MWRANK u=-37/6 r=1 gens=2
+FIBSURV Sig=3 t=73/6 u=-37/6
+SKIPISO t=73/6 u=-37/6
+MWRANK u=-37/11 r=3 gens=2
+FIBSURV Sig=3 t=103/11 u=-37/11
+SKIPISO t=103/11 u=-37/11
+MWRANK u=-37/7 r=2 gens=2
+FIBSURV Sig=3 t=79/7 u=-37/7
+SKIPISO t=79/7 u=-37/7
+MWRANK u=37/18 r=2 gens=2
+FIBSURV Sig=3 t=71/18 u=37/18
+SKIPISO t=71/18 u=37/18
+MWRANK u=37/12 r=1 gens=2
+FIBSURV Sig=3 t=35/12 u=37/12
+SKIPISO t=35/12 u=37/12
+MWRANK u=37/24 r=1 gens=2
+FIBSURV Sig=3 t=107/24 u=37/24
+SKIPISO t=107/24 u=37/24
+MWRANK u=37/21 r=2 gens=2
+FIBSURV Sig=3 t=89/21 u=37/21
+SKIPISO t=89/21 u=37/21
+MWRANK u=37/6 r=2 gens=2
+FIBSURV Sig=3 t=-1/6 u=37/6
+SKIPISO t=-1/6 u=37/6
+MWRANK u=37/27 r=2 gens=2
+FIBSURV Sig=3 t=125/27 u=37/27
+SKIPISO t=125/27 u=37/27
+MWRANK u=37/19 r=3 gens=2
+FIBSURV Sig=3 t=77/19 u=37/19
+SKIPISO t=77/19 u=37/19
+MWRANK u=37/26 r=2 gens=2
+FIBSURV Sig=3 t=119/26 u=37/26
+SKIPISO t=119/26 u=37/26
+MWRANK u=37/20 r=4 gens=2
+FIBSURV Sig=3 t=83/20 u=37/20
+SKIPISO t=83/20 u=37/20
+MWRANK u=37/15 r=1 gens=2
+FIBSURV Sig=3 t=53/15 u=37/15
+SKIPISO t=53/15 u=37/15
+MWRANK u=37/25 r=1 gens=2
+FIBSURV Sig=3 t=113/25 u=37/25
+SKIPISO t=113/25 u=37/25
+MWRANK u=-37/5 r=3 gens=2
+FIBSURV Sig=3 t=67/5 u=-37/5
+SKIPISO t=67/5 u=-37/5
+MWRANK u=-37/3 r=1 gens=2
+FIBSURV Sig=3 t=55/3 u=-37/3
+SKIPISO t=55/3 u=-37/3
+MWRANK u=37/31 r=2 gens=2
+FIBSURV Sig=3 t=149/31 u=37/31
+SKIPISO t=149/31 u=37/31
+MWRANK u=37/28 r=2 gens=2
+FIBSURV Sig=3 t=131/28 u=37/28
+SKIPISO t=131/28 u=37/28
+MWRANK u=37/16 r=2 gens=2
+FIBSURV Sig=3 t=59/16 u=37/16
+SKIPISO t=59/16 u=37/16
+MWRANK u=37/13 r=2 gens=2
+FIBSURV Sig=3 t=41/13 u=37/13
+SKIPISO t=41/13 u=37/13
+MWRANK u=38/29 r=1 gens=2
+FIBSURV Sig=3 t=136/29 u=38/29
+SKIPISO t=136/29 u=38/29
+MWRANK u=38/11 r=1 gens=2
+FIBSURV Sig=3 t=28/11 u=38/11
+SKIPISO t=28/11 u=38/11
+MWSKIP u=-38/15 bounds=[1,3]
+FIBSURV Sig=3 t=128/15 u=-38/15
+SKIPISO t=128/15 u=-38/15
+MWRANK u=38/31 r=2 gens=2
+FIBSURV Sig=3 t=148/31 u=38/31
+SKIPISO t=148/31 u=38/31
+MWRANK u=38/13 r=2 gens=2
+FIBSURV Sig=3 t=40/13 u=38/13
+SKIPISO t=40/13 u=38/13
+MWRANK u=38/15 r=2 gens=2
+FIBSURV Sig=3 t=52/15 u=38/15
+SKIPISO t=52/15 u=38/15
+MWRANK u=38/5 r=3 gens=2
+FIBSURV Sig=3 t=-8/5 u=38/5
+SKIPISO t=-8/5 u=38/5
+MWRANK u=38/17 r=2 gens=2
+FIBSURV Sig=3 t=64/17 u=38/17
+SKIPISO t=64/17 u=38/17
+MWRANK u=-38/9 r=1 gens=2
+FIBSURV Sig=3 t=92/9 u=-38/9
+SKIPISO t=92/9 u=-38/9
+MWSKIP u=-38/17 bounds=[1,3]
+FIBSURV Sig=3 t=140/17 u=-38/17
+SKIPISO t=140/17 u=-38/17
+MWRANK u=38/25 r=2 gens=2
+FIBSURV Sig=3 t=112/25 u=38/25
+SKIPISO t=112/25 u=38/25
+MWRANK u=38 r=2 gens=2
+FIBSURV Sig=3 t=-32 u=38
+SKIPISO t=-32 u=38
+MWRANK u=38/21 r=2 gens=2
+FIBSURV Sig=3 t=88/21 u=38/21
+SKIPISO t=88/21 u=38/21
+MWRANK u=-38/13 r=3 gens=2
+FIBSURV Sig=3 t=116/13 u=-38/13
+SKIPISO t=116/13 u=-38/13
+MWRANK u=38/9 r=2 gens=2
+FIBSURV Sig=3 t=16/9 u=38/9
+SKIPISO t=16/9 u=38/9
+MWRANK u=-38/7 r=1 gens=2
+FIBSURV Sig=3 t=80/7 u=-38/7
+SKIPISO t=80/7 u=-38/7
+MWRANK u=38/23 r=2 gens=2
+FIBSURV Sig=3 t=100/23 u=38/23
+SKIPISO t=100/23 u=38/23
+MWRANK u=-38/5 r=1 gens=2
+FIBSURV Sig=3 t=68/5 u=-38/5
+SKIPISO t=68/5 u=-38/5
+MWRANK u=-38/3 r=3 gens=2
+FIBSURV Sig=3 t=56/3 u=-38/3
+SKIPISO t=56/3 u=-38/3
+MWRANK u=-38/11 r=1 gens=2
+FIBSURV Sig=3 t=104/11 u=-38/11
+SKIPISO t=104/11 u=-38/11
+MWRANK u=-38 r=1 gens=2
+FIBSURV Sig=3 t=44 u=-38
+SKIPISO t=44 u=-38
+MWRANK u=38/27 r=2 gens=2
+FIBSURV Sig=3 t=124/27 u=38/27
+SKIPISO t=124/27 u=38/27
+MWRANK u=38/3 r=2 gens=2
+FIBSURV Sig=3 t=-20/3 u=38/3
+SKIPISO t=-20/3 u=38/3
+MWRANK u=-39/16 r=3 gens=2
+FIBSURV Sig=3 t=135/16 u=-39/16
+SKIPISO t=135/16 u=-39/16
+MWRANK u=-39/17 r=1 gens=2
+FIBSURV Sig=3 t=141/17 u=-39/17
+SKIPISO t=141/17 u=-39/17
+MWRANK u=-39/10 r=2 gens=2
+FIBSURV Sig=3 t=99/10 u=-39/10
+SKIPISO t=99/10 u=-39/10
+MWRANK u=39/10 r=2 gens=2
+FIBSURV Sig=3 t=21/10 u=39/10
+SKIPISO t=21/10 u=39/10
+MWRANK u=-39/14 r=2 gens=2
+FIBSURV Sig=3 t=123/14 u=-39/14
+SKIPISO t=123/14 u=-39/14
+MWRANK u=-39/7 r=3 gens=2
+FIBSURV Sig=3 t=81/7 u=-39/7
+SKIPISO t=81/7 u=-39/7
+MWRANK u=-39 r=1 gens=2
+FIBSURV Sig=3 t=45 u=-39
+SKIPISO t=45 u=-39
+MWRANK u=39/16 r=2 gens=2
+FIBSURV Sig=3 t=57/16 u=39/16
+SKIPISO t=57/16 u=39/16
+MWRANK u=-39/4 r=1 gens=2
+FIBSURV Sig=3 t=63/4 u=-39/4
+SKIPISO t=63/4 u=-39/4
+MWRANK u=39/28 r=2 gens=2
+FIBSURV Sig=3 t=129/28 u=39/28
+SKIPISO t=129/28 u=39/28
+MWRANK u=39/5 r=1 gens=2
+FIBSURV Sig=3 t=-9/5 u=39/5
+SKIPISO t=-9/5 u=39/5
+MWRANK u=39/2 r=3 gens=2
+FIBSURV Sig=3 t=-27/2 u=39/2
+SKIPISO t=-27/2 u=39/2
+MWRANK u=-39/2 r=1 gens=2
+FIBSURV Sig=3 t=51/2 u=-39/2
+SKIPISO t=51/2 u=-39/2
+MWRANK u=39/4 r=1 gens=2
+FIBSURV Sig=3 t=-15/4 u=39/4
+SKIPISO t=-15/4 u=39/4
+MWRANK u=39/7 r=1 gens=2
+FIBSURV Sig=3 t=3/7 u=39/7
+SKIPISO t=3/7 u=39/7
+MWRANK u=39/8 r=2 gens=2
+FIBSURV Sig=3 t=9/8 u=39/8
+SKIPISO t=9/8 u=39/8
+MWRANK u=39/29 r=2 gens=2
+FIBSURV Sig=3 t=135/29 u=39/29
+SKIPISO t=135/29 u=39/29
+MWRANK u=-39/8 r=2 gens=2
+FIBSURV Sig=3 t=87/8 u=-39/8
+SKIPISO t=87/8 u=-39/8
+MWRANK u=39/22 r=1 gens=2
+FIBSURV Sig=3 t=93/22 u=39/22
+SKIPISO t=93/22 u=39/22
+MWRANK u=39/20 r=2 gens=2
+FIBSURV Sig=3 t=81/20 u=39/20
+SKIPISO t=81/20 u=39/20
+MWRANK u=39/11 r=2 gens=2
+FIBSURV Sig=3 t=27/11 u=39/11
+SKIPISO t=27/11 u=39/11
+MWRANK u=39/25 r=2 gens=2
+FIBSURV Sig=3 t=111/25 u=39/25
+SKIPISO t=111/25 u=39/25
+MWRANK u=-39/11 r=2 gens=2
+FIBSURV Sig=3 t=105/11 u=-39/11
+SKIPISO t=105/11 u=-39/11
+MWRANK u=39/14 r=2 gens=2
+FIBSURV Sig=3 t=45/14 u=39/14
+SKIPISO t=45/14 u=39/14
+MWRANK u=-10/39 r=1 gens=2
+FIBSURV Sig=3 t=244/39 u=-10/39
+SKIPISO t=244/39 u=-10/39
+MWRANK u=-39/5 r=2 gens=2
+FIBSURV Sig=3 t=69/5 u=-39/5
+SKIPISO t=69/5 u=-39/5
+MWRANK u=39/17 r=2 gens=2
+FIBSURV Sig=3 t=63/17 u=39/17
+SKIPISO t=63/17 u=39/17
+MWRANK u=39/23 r=2 gens=2
+FIBSURV Sig=3 t=99/23 u=39/23
+SKIPISO t=99/23 u=39/23
+MWRANK u=39/31 r=1 gens=2
+FIBSURV Sig=3 t=147/31 u=39/31
+SKIPISO t=147/31 u=39/31
+MWRANK u=39/19 r=1 gens=2
+FIBSURV Sig=3 t=75/19 u=39/19
+SKIPISO t=75/19 u=39/19
+MWRANK u=40/31 r=2 gens=2
+FIBSURV Sig=3 t=146/31 u=40/31
+SKIPISO t=146/31 u=40/31
+MWRANK u=40/29 r=2 gens=2
+FIBSURV Sig=3 t=134/29 u=40/29
+SKIPISO t=134/29 u=40/29
+MWRANK u=40 r=2 gens=2
+FIBSURV Sig=3 t=-34 u=40
+SKIPISO t=-34 u=40
+MWRANK u=40/7 r=1 gens=2
+FIBSURV Sig=3 t=2/7 u=40/7
+SKIPISO t=2/7 u=40/7
+MWRANK u=40/21 r=2 gens=2
+FIBSURV Sig=3 t=86/21 u=40/21
+SKIPISO t=86/21 u=40/21
+MWRANK u=40/23 r=2 gens=2
+FIBSURV Sig=3 t=98/23 u=40/23
+SKIPISO t=98/23 u=40/23
+MWRANK u=40/19 r=2 gens=2
+FIBSURV Sig=3 t=74/19 u=40/19
+SKIPISO t=74/19 u=40/19
+MWRANK u=40/17 r=2 gens=2
+FIBSURV Sig=3 t=62/17 u=40/17
+SKIPISO t=62/17 u=40/17
+MWRANK u=-40/7 r=1 gens=2
+FIBSURV Sig=3 t=82/7 u=-40/7
+SKIPISO t=82/7 u=-40/7
+MWRANK u=40/9 r=1 gens=2
+FIBSURV Sig=3 t=14/9 u=40/9
+SKIPISO t=14/9 u=40/9
+MWRANK u=40/11 r=3 gens=2
+FIBSURV Sig=3 t=26/11 u=40/11
+SKIPISO t=26/11 u=40/11
+MWRANK u=-40/9 r=2 gens=2
+FIBSURV Sig=3 t=94/9 u=-40/9
+SKIPISO t=94/9 u=-40/9
+MWRANK u=-40/13 r=1 gens=2
+FIBSURV Sig=3 t=118/13 u=-40/13
+SKIPISO t=118/13 u=-40/13
+MWRANK u=40/27 r=2 gens=2
+FIBSURV Sig=3 t=122/27 u=40/27
+SKIPISO t=122/27 u=40/27
+MWRANK u=40/3 r=2 gens=2
+FIBSURV Sig=3 t=-22/3 u=40/3
+SKIPISO t=-22/3 u=40/3
+MWRANK u=-40/17 r=3 gens=2
+FIBSURV Sig=3 t=142/17 u=-40/17
+SKIPISO t=142/17 u=-40/17
+MWRANK u=-40/3 r=1 gens=2
+FIBSURV Sig=3 t=58/3 u=-40/3
+SKIPISO t=58/3 u=-40/3
+MWRANK u=-40/11 r=1 gens=2
+FIBSURV Sig=3 t=106/11 u=-40/11
+SKIPISO t=106/11 u=-40/11
+MWRANK u=41/7 r=1 gens=2
+FIBSURV Sig=3 t=1/7 u=41/7
+SKIPISO t=1/7 u=41/7
+MWRANK u=41 r=1 gens=2
+FIBSURV Sig=3 t=-35 u=41
+SKIPISO t=-35 u=41
+MWRANK u=41/8 r=2 gens=2
+FIBSURV Sig=3 t=7/8 u=41/8
+SKIPISO t=7/8 u=41/8
+MWRANK u=41/2 r=2 gens=2
+FIBSURV Sig=3 t=-29/2 u=41/2
+SKIPISO t=-29/2 u=41/2
+MWRANK u=41/30 r=1 gens=2
+FIBSURV Sig=3 t=139/30 u=41/30
+SKIPISO t=139/30 u=41/30
+MWRANK u=41/3 r=1 gens=2
+FIBSURV Sig=3 t=-23/3 u=41/3
+SKIPISO t=-23/3 u=41/3
+MWRANK u=-41/11 r=2 gens=2
+FIBSURV Sig=3 t=107/11 u=-41/11
+SKIPISO t=107/11 u=-41/11
+MWRANK u=41/11 r=2 gens=2
+FIBSURV Sig=3 t=25/11 u=41/11
+SKIPISO t=25/11 u=41/11
+MWRANK u=41/4 r=2 gens=2
+FIBSURV Sig=3 t=-17/4 u=41/4
+SKIPISO t=-17/4 u=41/4
+MWRANK u=41/18 r=2 gens=2
+FIBSURV Sig=3 t=67/18 u=41/18
+SKIPISO t=67/18 u=41/18
+MWRANK u=41/12 r=1 gens=2
+FIBSURV Sig=3 t=31/12 u=41/12
+SKIPISO t=31/12 u=41/12
+MWRANK u=41/14 r=3 gens=2
+FIBSURV Sig=3 t=43/14 u=41/14
+SKIPISO t=43/14 u=41/14
+MWRANK u=41/5 r=1 gens=2
+FIBSURV Sig=3 t=-11/5 u=41/5
+SKIPISO t=-11/5 u=41/5
+MWSKIP u=-41/14 bounds=[1,3]
+FIBSURV Sig=3 t=125/14 u=-41/14
+SKIPISO t=125/14 u=-41/14
+MWRANK u=41/16 r=2 gens=2
+FIBSURV Sig=3 t=55/16 u=41/16
+SKIPISO t=55/16 u=41/16
+MWRANK u=-41/10 r=2 gens=2
+FIBSURV Sig=3 t=101/10 u=-41/10
+SKIPISO t=101/10 u=-41/10
+MWRANK u=-41/15 r=1 gens=2
+FIBSURV Sig=3 t=131/15 u=-41/15
+SKIPISO t=131/15 u=-41/15
+MWRANK u=41/6 r=2 gens=2
+FIBSURV Sig=3 t=-5/6 u=41/6
+SKIPISO t=-5/6 u=41/6
+MWRANK u=41/17 r=2 gens=2
+FIBSURV Sig=3 t=61/17 u=41/17
+SKIPISO t=61/17 u=41/17
+MWRANK u=-41/8 r=2 gens=2
+FIBSURV Sig=3 t=89/8 u=-41/8
+SKIPISO t=89/8 u=-41/8
+MWRANK u=41/26 r=3 gens=2
+FIBSURV Sig=3 t=115/26 u=41/26
+SKIPISO t=115/26 u=41/26
+MWRANK u=41/31 r=2 gens=2
+FIBSURV Sig=3 t=145/31 u=41/31
+SKIPISO t=145/31 u=41/31
+MWRANK u=41/10 r=2 gens=2
+FIBSURV Sig=3 t=19/10 u=41/10
+SKIPISO t=19/10 u=41/10
+MWRANK u=41/25 r=2 gens=2
+FIBSURV Sig=3 t=109/25 u=41/25
+SKIPISO t=109/25 u=41/25
+MWRANK u=41/19 r=2 gens=2
+FIBSURV Sig=3 t=73/19 u=41/19
+SKIPISO t=73/19 u=41/19
+MWRANK u=41/9 r=1 gens=2
+FIBSURV Sig=3 t=13/9 u=41/9
+SKIPISO t=13/9 u=41/9
+MWRANK u=-41/13 r=3 gens=2
+FIBSURV Sig=3 t=119/13 u=-41/13
+SKIPISO t=119/13 u=-41/13
+MWRANK u=-41/9 r=1 gens=2
+FIBSURV Sig=3 t=95/9 u=-41/9
+SKIPISO t=95/9 u=-41/9
+MWRANK u=41/15 r=2 gens=2
+FIBSURV Sig=3 t=49/15 u=41/15
+SKIPISO t=49/15 u=41/15
+MWRANK u=-41/12 r=1 gens=2
+FIBSURV Sig=3 t=113/12 u=-41/12
+SKIPISO t=113/12 u=-41/12
+MWSKIP u=-41/2 bounds=[1,2]
+FIBSURV Sig=3 t=53/2 u=-41/2
+SKIPISO t=53/2 u=-41/2
+MWRANK u=41/20 r=2 gens=2
+FIBSURV Sig=3 t=79/20 u=41/20
+SKIPISO t=79/20 u=41/20
+MWRANK u=41/27 r=1 gens=2
+FIBSURV Sig=3 t=121/27 u=41/27
+SKIPISO t=121/27 u=41/27
+MWRANK u=-41/5 r=2 gens=2
+FIBSURV Sig=3 t=71/5 u=-41/5
+SKIPISO t=71/5 u=-41/5
+MWRANK u=41/28 r=2 gens=2
+FIBSURV Sig=3 t=127/28 u=41/28
+SKIPISO t=127/28 u=41/28
+MWSKIP u=-41/18 bounds=[1,3]
+FIBSURV Sig=3 t=149/18 u=-41/18
+SKIPISO t=149/18 u=-41/18
+MWRANK u=41/29 r=1 gens=2
+FIBSURV Sig=3 t=133/29 u=41/29
+SKIPISO t=133/29 u=41/29
+MWRANK u=-41/7 r=3 gens=2
+FIBSURV Sig=3 t=83/7 u=-41/7
+SKIPISO t=83/7 u=-41/7
+MWRANK u=41/24 r=2 gens=2
+FIBSURV Sig=3 t=103/24 u=41/24
+SKIPISO t=103/24 u=41/24
+MWRANK u=-41/16 r=1 gens=2
+FIBSURV Sig=3 t=137/16 u=-41/16
+SKIPISO t=137/16 u=-41/16
+MWSKIP u=-41/17 bounds=[1,3]
+FIBSURV Sig=3 t=143/17 u=-41/17
+SKIPISO t=143/17 u=-41/17
+MWRANK u=-41 r=1 gens=2
+FIBSURV Sig=3 t=47 u=-41
+SKIPISO t=47 u=-41
+MWRANK u=-41/4 r=1 gens=2
+FIBSURV Sig=3 t=65/4 u=-41/4
+SKIPISO t=65/4 u=-41/4
+MWRANK u=-41/3 r=2 gens=2
+FIBSURV Sig=3 t=59/3 u=-41/3
+SKIPISO t=59/3 u=-41/3
+MWRANK u=-41/6 r=2 gens=2
+FIBSURV Sig=3 t=77/6 u=-41/6
+SKIPISO t=77/6 u=-41/6
+MWRANK u=41/21 r=1 gens=2
+FIBSURV Sig=3 t=85/21 u=41/21
+SKIPISO t=85/21 u=41/21
+MWRANK u=41/23 r=2 gens=2
+FIBSURV Sig=3 t=97/23 u=41/23
+SKIPISO t=97/23 u=41/23
+MWRANK u=41/22 r=1 gens=2
+FIBSURV Sig=3 t=91/22 u=41/22
+SKIPISO t=91/22 u=41/22
+MWRANK u=-42 r=1 gens=2
+FIBSURV Sig=3 t=48 u=-42
+SKIPISO t=48 u=-42
+MWRANK u=42/11 r=1 gens=2
+FIBSURV Sig=3 t=24/11 u=42/11
+SKIPISO t=24/11 u=42/11
+MWRANK u=-42/17 r=1 gens=2
+FIBSURV Sig=3 t=144/17 u=-42/17
+SKIPISO t=144/17 u=-42/17
+MWRANK u=42 r=2 gens=2
+FIBSURV Sig=3 t=-36 u=42
+SKIPISO t=-36 u=42
+MWRANK u=-42/13 r=1 gens=2
+FIBSURV Sig=3 t=120/13 u=-42/13
+SKIPISO t=120/13 u=-42/13
+MWRANK u=42/5 r=1 gens=2
+FIBSURV Sig=3 t=-12/5 u=42/5
+SKIPISO t=-12/5 u=42/5
+MWRANK u=42/29 r=2 gens=2
+FIBSURV Sig=3 t=132/29 u=42/29
+SKIPISO t=132/29 u=42/29
+MWRANK u=-42/11 r=1 gens=2
+FIBSURV Sig=3 t=108/11 u=-42/11
+SKIPISO t=108/11 u=-42/11
+MWRANK u=42/13 r=1 gens=2
+FIBSURV Sig=3 t=36/13 u=42/13
+SKIPISO t=36/13 u=42/13
+MWRANK u=42/17 r=2 gens=2
+FIBSURV Sig=3 t=60/17 u=42/17
+SKIPISO t=60/17 u=42/17
+MWRANK u=42/23 r=3 gens=2
+FIBSURV Sig=3 t=96/23 u=42/23
+SKIPISO t=96/23 u=42/23
+MWRANK u=42/25 r=2 gens=2
+FIBSURV Sig=3 t=108/25 u=42/25
+SKIPISO t=108/25 u=42/25
+MWRANK u=42/19 r=2 gens=2
+FIBSURV Sig=3 t=72/19 u=42/19
+SKIPISO t=72/19 u=42/19
+MWRANK u=42/31 r=2 gens=2
+FIBSURV Sig=3 t=144/31 u=42/31
+SKIPISO t=144/31 u=42/31
+MWRANK u=-42/5 r=1 gens=2
+FIBSURV Sig=3 t=72/5 u=-42/5
+SKIPISO t=72/5 u=-42/5
+MWRANK u=43/14 r=2 gens=2
+FIBSURV Sig=3 t=41/14 u=43/14
+SKIPISO t=41/14 u=43/14
+MWRANK u=43/9 r=3 gens=2
+FIBSURV Sig=3 t=11/9 u=43/9
+SKIPISO t=11/9 u=43/9
+MWRANK u=43/23 r=1 gens=2
+FIBSURV Sig=3 t=95/23 u=43/23
+SKIPISO t=95/23 u=43/23
+MWRANK u=43/7 r=2 gens=2
+FIBSURV Sig=3 t=-1/7 u=43/7
+SKIPISO t=-1/7 u=43/7
+MWRANK u=43/8 r=1 gens=2
+FIBSURV Sig=3 t=5/8 u=43/8
+SKIPISO t=5/8 u=43/8
+MWRANK u=-43/17 r=2 gens=2
+FIBSURV Sig=3 t=145/17 u=-43/17
+SKIPISO t=145/17 u=-43/17
+MWRANK u=43/19 r=1 gens=2
+FIBSURV Sig=3 t=71/19 u=43/19
+SKIPISO t=71/19 u=43/19
+MWRANK u=43/20 r=2 gens=2
+FIBSURV Sig=3 t=77/20 u=43/20
+SKIPISO t=77/20 u=43/20
+MWRANK u=43/24 r=1 gens=2
+FIBSURV Sig=3 t=101/24 u=43/24
+SKIPISO t=101/24 u=43/24
+MWRANK u=-43/12 r=3 gens=2
+FIBSURV Sig=3 t=115/12 u=-43/12
+SKIPISO t=115/12 u=-43/12
+MWRANK u=-43/7 r=1 gens=2
+FIBSURV Sig=3 t=85/7 u=-43/7
+SKIPISO t=85/7 u=-43/7
+MWRANK u=-43/11 r=1 gens=2
+FIBSURV Sig=3 t=109/11 u=-43/11
+SKIPISO t=109/11 u=-43/11
+MWRANK u=43/18 r=2 gens=2
+FIBSURV Sig=3 t=65/18 u=43/18
+SKIPISO t=65/18 u=43/18
+MWRANK u=-43/16 r=3 gens=2
+FIBSURV Sig=3 t=139/16 u=-43/16
+SKIPISO t=139/16 u=-43/16
+MWRANK u=43/22 r=2 gens=2
+FIBSURV Sig=3 t=89/22 u=43/22
+SKIPISO t=89/22 u=43/22
+MWRANK u=43/15 r=1 gens=2
+FIBSURV Sig=3 t=47/15 u=43/15
+SKIPISO t=47/15 u=43/15
+MWRANK u=-43/13 r=2 gens=2
+FIBSURV Sig=3 t=121/13 u=-43/13
+SKIPISO t=121/13 u=-43/13
+MWRANK u=43/25 r=1 gens=2
+FIBSURV Sig=3 t=107/25 u=43/25
+SKIPISO t=107/25 u=43/25
+MWRANK u=-43/9 r=1 gens=2
+FIBSURV Sig=3 t=97/9 u=-43/9
+SKIPISO t=97/9 u=-43/9
+MWRANK u=-43/4 r=1 gens=2
+FIBSURV Sig=3 t=67/4 u=-43/4
+SKIPISO t=67/4 u=-43/4
+MWRANK u=43/28 r=2 gens=2
+FIBSURV Sig=3 t=125/28 u=43/28
+SKIPISO t=125/28 u=43/28
+MWRANK u=43/17 r=2 gens=2
+FIBSURV Sig=3 t=59/17 u=43/17
+SKIPISO t=59/17 u=43/17
+MWRANK u=-43/3 r=1 gens=2
+FIBSURV Sig=3 t=61/3 u=-43/3
+SKIPISO t=61/3 u=-43/3
+MWRANK u=43/3 r=2 gens=2
+FIBSURV Sig=3 t=-25/3 u=43/3
+SKIPISO t=-25/3 u=43/3
+MWRANK u=43/4 r=2 gens=2
+FIBSURV Sig=3 t=-19/4 u=43/4
+SKIPISO t=-19/4 u=43/4
+MWRANK u=43/5 r=1 gens=2
+FIBSURV Sig=3 t=-13/5 u=43/5
+SKIPISO t=-13/5 u=43/5
+MWRANK u=-43/8 r=2 gens=2
+FIBSURV Sig=3 t=91/8 u=-43/8
+SKIPISO t=91/8 u=-43/8
+MWRANK u=-43/6 r=2 gens=2
+FIBSURV Sig=3 t=79/6 u=-43/6
+SKIPISO t=79/6 u=-43/6
+MWRANK u=43/21 r=2 gens=2
+FIBSURV Sig=3 t=83/21 u=43/21
+SKIPISO t=83/21 u=43/21
+MWSKIP u=43/26 bounds=[1,3]
+FIBSURV Sig=3 t=113/26 u=43/26
+SKIPISO t=113/26 u=43/26
+MWRANK u=-43/15 r=2 gens=2
+FIBSURV Sig=3 t=133/15 u=-43/15
+SKIPISO t=133/15 u=-43/15
+MWRANK u=43/16 r=2 gens=2
+FIBSURV Sig=3 t=53/16 u=43/16
+SKIPISO t=53/16 u=43/16
+MWRANK u=43 r=3 gens=2
+FIBSURV Sig=3 t=-37 u=43
+SKIPISO t=-37 u=43
+MWRANK u=-43 r=2 gens=2
+FIBSURV Sig=3 t=49 u=-43
+SKIPISO t=49 u=-43
+MWRANK u=43/13 r=3 gens=2
+FIBSURV Sig=3 t=35/13 u=43/13
+SKIPISO t=35/13 u=43/13
+MWRANK u=43/2 r=1 gens=2
+FIBSURV Sig=3 t=-31/2 u=43/2
+SKIPISO t=-31/2 u=43/2
+MWRANK u=43/12 r=1 gens=2
+FIBSURV Sig=3 t=29/12 u=43/12
+SKIPISO t=29/12 u=43/12
+MWRANK u=43/10 r=2 gens=2
+FIBSURV Sig=3 t=17/10 u=43/10
+SKIPISO t=17/10 u=43/10
+MWRANK u=-43/14 r=2 gens=2
+FIBSURV Sig=3 t=127/14 u=-43/14
+SKIPISO t=127/14 u=-43/14
+MWRANK u=-43/10 r=1 gens=2
+FIBSURV Sig=3 t=103/10 u=-43/10
+SKIPISO t=103/10 u=-43/10
+MWRANK u=-43/2 r=1 gens=2
+FIBSURV Sig=3 t=55/2 u=-43/2
+SKIPISO t=55/2 u=-43/2
+MWRANK u=43/31 r=1 gens=2
+FIBSURV Sig=3 t=143/31 u=43/31
+SKIPISO t=143/31 u=43/31
+MWRANK u=-43/5 r=1 gens=2
+FIBSURV Sig=3 t=73/5 u=-43/5
+SKIPISO t=73/5 u=-43/5
+MWRANK u=43/29 r=4 gens=2
+FIBSURV Sig=3 t=131/29 u=43/29
+SKIPISO t=131/29 u=43/29
+MWRANK u=43/32 r=2 gens=2
+FIBSURV Sig=3 t=149/32 u=43/32
+SKIPISO t=149/32 u=43/32
+MWRANK u=43/30 r=1 gens=2
+FIBSURV Sig=3 t=137/30 u=43/30
+SKIPISO t=137/30 u=43/30
+MWRANK u=43/27 r=2 gens=2
+FIBSURV Sig=3 t=119/27 u=43/27
+SKIPISO t=119/27 u=43/27
+MWRANK u=44/25 r=2 gens=2
+FIBSURV Sig=3 t=106/25 u=44/25
+SKIPISO t=106/25 u=44/25
+MWRANK u=44/29 r=2 gens=2
+FIBSURV Sig=3 t=130/29 u=44/29
+SKIPISO t=130/29 u=44/29
+MWRANK u=44/7 r=1 gens=2
+FIBSURV Sig=3 t=-2/7 u=44/7
+SKIPISO t=-2/7 u=44/7
+MWRANK u=44/19 r=2 gens=2
+FIBSURV Sig=3 t=70/19 u=44/19
+SKIPISO t=70/19 u=44/19
+MWRANK u=44/3 r=2 gens=2
+FIBSURV Sig=3 t=-26/3 u=44/3
+SKIPISO t=-26/3 u=44/3
+MWRANK u=44 r=2 gens=2
+FIBSURV Sig=3 t=-38 u=44
+SKIPISO t=-38 u=44
+MWRANK u=44/23 r=2 gens=2
+FIBSURV Sig=3 t=94/23 u=44/23
+SKIPISO t=94/23 u=44/23
+MWSKIP u=-44/3 bounds=[1,3]
+FIBSURV Sig=3 t=62/3 u=-44/3
+SKIPISO t=62/3 u=-44/3
+MWRANK u=44/9 r=2 gens=2
+FIBSURV Sig=3 t=10/9 u=44/9
+SKIPISO t=10/9 u=44/9
+MWRANK u=44/31 r=2 gens=2
+FIBSURV Sig=3 t=142/31 u=44/31
+SKIPISO t=142/31 u=44/31
+MWRANK u=-44 r=1 gens=2
+FIBSURV Sig=3 t=50 u=-44
+SKIPISO t=50 u=-44
+MWRANK u=-44/7 r=3 gens=2
+FIBSURV Sig=3 t=86/7 u=-44/7
+SKIPISO t=86/7 u=-44/7
+MWRANK u=-44/17 r=3 gens=2
+FIBSURV Sig=3 t=146/17 u=-44/17
+SKIPISO t=146/17 u=-44/17
+MWRANK u=-44/13 r=3 gens=2
+FIBSURV Sig=3 t=122/13 u=-44/13
+SKIPISO t=122/13 u=-44/13
+MWRANK u=-44/15 r=1 gens=2
+FIBSURV Sig=3 t=134/15 u=-44/15
+SKIPISO t=134/15 u=-44/15
+MWRANK u=44/17 r=2 gens=2
+FIBSURV Sig=3 t=58/17 u=44/17
+SKIPISO t=58/17 u=44/17
+MWRANK u=-44/9 r=1 gens=2
+FIBSURV Sig=3 t=98/9 u=-44/9
+SKIPISO t=98/9 u=-44/9
+MWRANK u=44/21 r=2 gens=2
+FIBSURV Sig=3 t=82/21 u=44/21
+SKIPISO t=82/21 u=44/21
+MWRANK u=44/5 r=1 gens=2
+FIBSURV Sig=3 t=-14/5 u=44/5
+SKIPISO t=-14/5 u=44/5
+MWRANK u=44/27 r=2 gens=2
+FIBSURV Sig=3 t=118/27 u=44/27
+SKIPISO t=118/27 u=44/27
+MWRANK u=44/15 r=2 gens=2
+FIBSURV Sig=3 t=46/15 u=44/15
+SKIPISO t=46/15 u=44/15
+MWRANK u=-44/5 r=1 gens=2
+FIBSURV Sig=3 t=74/5 u=-44/5
+SKIPISO t=74/5 u=-44/5
+MWRANK u=44/13 r=1 gens=2
+FIBSURV Sig=3 t=34/13 u=44/13
+SKIPISO t=34/13 u=44/13
+MWRANK u=-45 r=1 gens=2
+FIBSURV Sig=3 t=51 u=-45
+SKIPISO t=51 u=-45
+MWRANK u=45/7 r=2 gens=2
+FIBSURV Sig=3 t=-3/7 u=45/7
+SKIPISO t=-3/7 u=45/7
+MWRANK u=45/31 r=2 gens=2
+FIBSURV Sig=3 t=141/31 u=45/31
+SKIPISO t=141/31 u=45/31
+MWRANK u=-45/8 r=1 gens=2
+FIBSURV Sig=3 t=93/8 u=-45/8
+SKIPISO t=93/8 u=-45/8
+MWRANK u=45/22 r=3 gens=2
+FIBSURV Sig=3 t=87/22 u=45/22
+SKIPISO t=87/22 u=45/22
+MWRANK u=45/32 r=3 gens=2
+FIBSURV Sig=3 t=147/32 u=45/32
+SKIPISO t=147/32 u=45/32
+MWRANK u=-45/13 r=1 gens=2
+FIBSURV Sig=3 t=123/13 u=-45/13
+SKIPISO t=123/13 u=-45/13
+MWRANK u=-45/14 r=2 gens=2
+FIBSURV Sig=3 t=129/14 u=-45/14
+SKIPISO t=129/14 u=-45/14
+MWRANK u=45/17 r=1 gens=2
+FIBSURV Sig=3 t=57/17 u=45/17
+SKIPISO t=57/17 u=45/17
+MWRANK u=45/11 r=2 gens=2
+FIBSURV Sig=3 t=21/11 u=45/11
+SKIPISO t=21/11 u=45/11
+MWRANK u=45/4 r=2 gens=2
+FIBSURV Sig=3 t=-21/4 u=45/4
+SKIPISO t=-21/4 u=45/4
+MWRANK u=45 r=1 gens=2
+FIBSURV Sig=3 t=-39 u=45
+SKIPISO t=-39 u=45
+MWRANK u=45/29 r=1 gens=2
+FIBSURV Sig=3 t=129/29 u=45/29
+SKIPISO t=129/29 u=45/29
+MWRANK u=44/45 r=3 gens=2
+MWRANK u=-45/4 r=1 gens=2
+FIBSURV Sig=3 t=69/4 u=-45/4
+SKIPISO t=69/4 u=-45/4
+MWRANK u=-45/7 r=1 gens=2
+FIBSURV Sig=3 t=87/7 u=-45/7
+SKIPISO t=87/7 u=-45/7
+MWRANK u=-45/16 r=2 gens=2
+FIBSURV Sig=3 t=141/16 u=-45/16
+SKIPISO t=141/16 u=-45/16
+MWRANK u=45/19 r=2 gens=2
+FIBSURV Sig=3 t=69/19 u=45/19
+SKIPISO t=69/19 u=45/19
+MWRANK u=45/23 r=1 gens=2
+FIBSURV Sig=3 t=93/23 u=45/23
+SKIPISO t=93/23 u=45/23
+MWRANK u=45/2 r=2 gens=2
+FIBSURV Sig=3 t=-33/2 u=45/2
+SKIPISO t=-33/2 u=45/2
+MWRANK u=45/16 r=2 gens=2
+FIBSURV Sig=3 t=51/16 u=45/16
+SKIPISO t=51/16 u=45/16
+MWRANK u=-45/17 r=2 gens=2
+FIBSURV Sig=3 t=147/17 u=-45/17
+SKIPISO t=147/17 u=-45/17
+MWRANK u=45/26 r=2 gens=2
+FIBSURV Sig=3 t=111/26 u=45/26
+SKIPISO t=111/26 u=45/26
+MWRANK u=-45/11 r=3 gens=2
+FIBSURV Sig=3 t=111/11 u=-45/11
+SKIPISO t=111/11 u=-45/11
+MWRANK u=-45/2 r=2 gens=2
+FIBSURV Sig=3 t=57/2 u=-45/2
+SKIPISO t=57/2 u=-45/2
+MWRANK u=45/28 r=2 gens=2
+FIBSURV Sig=3 t=123/28 u=45/28
+SKIPISO t=123/28 u=45/28
+MWRANK u=-46/17 r=3 gens=2
+FIBSURV Sig=3 t=148/17 u=-46/17
+SKIPISO t=148/17 u=-46/17
+MWRANK u=46/31 r=2 gens=2
+FIBSURV Sig=3 t=140/31 u=46/31
+SKIPISO t=140/31 u=46/31
+MWRANK u=46/17 r=2 gens=2
+FIBSURV Sig=3 t=56/17 u=46/17
+SKIPISO t=56/17 u=46/17
+MWRANK u=-46/9 r=2 gens=2
+FIBSURV Sig=3 t=100/9 u=-46/9
+SKIPISO t=100/9 u=-46/9
+MWRANK u=-46/7 r=1 gens=2
+FIBSURV Sig=3 t=88/7 u=-46/7
+SKIPISO t=88/7 u=-46/7
+MWRANK u=46/27 r=2 gens=2
+FIBSURV Sig=3 t=116/27 u=46/27
+SKIPISO t=116/27 u=46/27
+MWRANK u=46/9 r=3 gens=2
+FIBSURV Sig=3 t=8/9 u=46/9
+SKIPISO t=8/9 u=46/9
+MWRANK u=46/7 r=1 gens=2
+FIBSURV Sig=3 t=-4/7 u=46/7
+SKIPISO t=-4/7 u=46/7
+MWRANK u=-46/3 r=1 gens=2
+FIBSURV Sig=3 t=64/3 u=-46/3
+SKIPISO t=64/3 u=-46/3
+MWSKIP u=46/29 bounds=[2,4]
+FIBSURV Sig=3 t=128/29 u=46/29
+SKIPISO t=128/29 u=46/29
+MWRANK u=46/5 r=4 gens=2
+FIBSURV Sig=3 t=-16/5 u=46/5
+SKIPISO t=-16/5 u=46/5
+MWRANK u=-46/11 r=1 gens=2
+FIBSURV Sig=3 t=112/11 u=-46/11
+SKIPISO t=112/11 u=-46/11
+MWRANK u=-46/5 r=3 gens=2
+FIBSURV Sig=3 t=76/5 u=-46/5
+SKIPISO t=76/5 u=-46/5
+MWRANK u=-46/15 r=1 gens=2
+FIBSURV Sig=3 t=136/15 u=-46/15
+SKIPISO t=136/15 u=-46/15
+MWRANK u=46/25 r=2 gens=2
+FIBSURV Sig=3 t=104/25 u=46/25
+SKIPISO t=104/25 u=46/25
+MWRANK u=46 r=1 gens=2
+FIBSURV Sig=3 t=-40 u=46
+SKIPISO t=-40 u=46
+MWRANK u=46/19 r=2 gens=2
+FIBSURV Sig=3 t=68/19 u=46/19
+SKIPISO t=68/19 u=46/19
+MWRANK u=46/13 r=1 gens=2
+FIBSURV Sig=3 t=32/13 u=46/13
+SKIPISO t=32/13 u=46/13
+MWRANK u=-46 r=1 gens=2
+FIBSURV Sig=3 t=52 u=-46
+SKIPISO t=52 u=-46
+MWRANK u=46/3 r=2 gens=2
+FIBSURV Sig=3 t=-28/3 u=46/3
+SKIPISO t=-28/3 u=46/3
+MWRANK u=46/21 r=2 gens=2
+FIBSURV Sig=3 t=80/21 u=46/21
+SKIPISO t=80/21 u=46/21
+MWRANK u=46/11 r=3 gens=2
+FIBSURV Sig=3 t=20/11 u=46/11
+SKIPISO t=20/11 u=46/11
+MWRANK u=46/15 r=1 gens=2
+FIBSURV Sig=3 t=44/15 u=46/15
+SKIPISO t=44/15 u=46/15
+MWRANK u=-46/13 r=1 gens=2
+FIBSURV Sig=3 t=124/13 u=-46/13
+SKIPISO t=124/13 u=-46/13
+MWRANK u=-47/3 r=2 gens=2
+FIBSURV Sig=3 t=65/3 u=-47/3
+SKIPISO t=65/3 u=-47/3
+MWRANK u=47/19 r=3 gens=2
+FIBSURV Sig=3 t=67/19 u=47/19
+SKIPISO t=67/19 u=47/19
+MWRANK u=47/30 r=2 gens=2
+FIBSURV Sig=3 t=133/30 u=47/30
+SKIPISO t=133/30 u=47/30
+MWRANK u=47/27 r=1 gens=2
+FIBSURV Sig=3 t=115/27 u=47/27
+SKIPISO t=115/27 u=47/27
+MWSKIP u=-47/4 bounds=[1,3]
+FIBSURV Sig=3 t=71/4 u=-47/4
+SKIPISO t=71/4 u=-47/4
+MWRANK u=-47/9 r=2 gens=2
+FIBSURV Sig=3 t=101/9 u=-47/9
+SKIPISO t=101/9 u=-47/9
+MWRANK u=47/9 r=2 gens=2
+FIBSURV Sig=3 t=7/9 u=47/9
+SKIPISO t=7/9 u=47/9
+MWRANK u=47/18 r=3 gens=2
+FIBSURV Sig=3 t=61/18 u=47/18
+SKIPISO t=61/18 u=47/18
+MWSKIP u=47/28 bounds=[2,4]
+FIBSURV Sig=3 t=121/28 u=47/28
+SKIPISO t=121/28 u=47/28
+MWSKIP u=-47/6 bounds=[1,2]
+FIBSURV Sig=3 t=83/6 u=-47/6
+SKIPISO t=83/6 u=-47/6
+MWRANK u=47/20 r=4 gens=2
+FIBSURV Sig=3 t=73/20 u=47/20
+SKIPISO t=73/20 u=47/20
+MWRANK u=-47/10 r=2 gens=2
+FIBSURV Sig=3 t=107/10 u=-47/10
+SKIPISO t=107/10 u=-47/10
+MWRANK u=-47/7 r=3 gens=2
+FIBSURV Sig=3 t=89/7 u=-47/7
+SKIPISO t=89/7 u=-47/7
+MWRANK u=47/29 r=2 gens=2
+FIBSURV Sig=3 t=127/29 u=47/29
+SKIPISO t=127/29 u=47/29
+MWRANK u=47/4 r=2 gens=2
+FIBSURV Sig=3 t=-23/4 u=47/4
+SKIPISO t=-23/4 u=47/4
+MWRANK u=47/15 r=1 gens=2
+FIBSURV Sig=3 t=43/15 u=47/15
+SKIPISO t=43/15 u=47/15
+MWRANK u=47/14 r=1 gens=2
+FIBSURV Sig=3 t=37/14 u=47/14
+SKIPISO t=37/14 u=47/14
+MWRANK u=-47/5 r=2 gens=2
+FIBSURV Sig=3 t=77/5 u=-47/5
+SKIPISO t=77/5 u=-47/5
+MWRANK u=-47/15 r=3 gens=2
+FIBSURV Sig=3 t=137/15 u=-47/15
+SKIPISO t=137/15 u=-47/15
+MWRANK u=47/31 r=2 gens=2
+FIBSURV Sig=3 t=139/31 u=47/31
+SKIPISO t=139/31 u=47/31
+MWRANK u=47/17 r=2 gens=2
+FIBSURV Sig=3 t=55/17 u=47/17
+SKIPISO t=55/17 u=47/17
+MWRANK u=-47/8 r=2 gens=2
+FIBSURV Sig=3 t=95/8 u=-47/8
+SKIPISO t=95/8 u=-47/8
+MWRANK u=-47/11 r=1 gens=2
+FIBSURV Sig=3 t=113/11 u=-47/11
+SKIPISO t=113/11 u=-47/11
+MWRANK u=47/16 r=2 gens=2
+FIBSURV Sig=3 t=49/16 u=47/16
+SKIPISO t=49/16 u=47/16
+MWRANK u=47/25 r=2 gens=2
+FIBSURV Sig=3 t=103/25 u=47/25
+SKIPISO t=103/25 u=47/25
+MWRANK u=47 r=2 gens=2
+FIBSURV Sig=3 t=-41 u=47
+SKIPISO t=-41 u=47
+MWRANK u=47/2 r=1 gens=2
+FIBSURV Sig=3 t=-35/2 u=47/2
+SKIPISO t=-35/2 u=47/2
+MWSKIP u=-47/14 bounds=[1,2]
+FIBSURV Sig=3 t=131/14 u=-47/14
+SKIPISO t=131/14 u=-47/14
+MWRANK u=47/6 r=2 gens=2
+FIBSURV Sig=3 t=-11/6 u=47/6
+SKIPISO t=-11/6 u=47/6
+MWRANK u=-47/16 r=2 gens=2
+FIBSURV Sig=3 t=143/16 u=-47/16
+SKIPISO t=143/16 u=-47/16
+MWRANK u=47/26 r=3 gens=2
+FIBSURV Sig=3 t=109/26 u=47/26
+SKIPISO t=109/26 u=47/26
+MWRANK u=-47/17 r=1 gens=2
+FIBSURV Sig=3 t=149/17 u=-47/17
+SKIPISO t=149/17 u=-47/17
+MWRANK u=47/22 r=1 gens=2
+FIBSURV Sig=3 t=85/22 u=47/22
+SKIPISO t=85/22 u=47/22
+MWRANK u=47/3 r=1 gens=2
+FIBSURV Sig=3 t=-29/3 u=47/3
+SKIPISO t=-29/3 u=47/3
+MWRANK u=-47/12 r=1 gens=2
+FIBSURV Sig=3 t=119/12 u=-47/12
+SKIPISO t=119/12 u=-47/12
+MWRANK u=47/32 r=1 gens=2
+FIBSURV Sig=3 t=145/32 u=47/32
+SKIPISO t=145/32 u=47/32
+MWRANK u=-47/2 r=1 gens=2
+FIBSURV Sig=3 t=59/2 u=-47/2
+SKIPISO t=59/2 u=-47/2
+MWRANK u=47/21 r=2 gens=2
+FIBSURV Sig=3 t=79/21 u=47/21
+SKIPISO t=79/21 u=47/21
+MWRANK u=47/10 r=2 gens=2
+FIBSURV Sig=3 t=13/10 u=47/10
+SKIPISO t=13/10 u=47/10
+MWRANK u=-47/13 r=2 gens=2
+FIBSURV Sig=3 t=125/13 u=-47/13
+SKIPISO t=125/13 u=-47/13
+MWRANK u=47/23 r=2 gens=2
+FIBSURV Sig=3 t=91/23 u=47/23
+SKIPISO t=91/23 u=47/23
+MWRANK u=47/5 r=1 gens=2
+FIBSURV Sig=3 t=-17/5 u=47/5
+SKIPISO t=-17/5 u=47/5
+MWRANK u=-47 r=1 gens=2
+FIBSURV Sig=3 t=53 u=-47
+SKIPISO t=53 u=-47
+MWRANK u=47/11 r=1 gens=2
+FIBSURV Sig=3 t=19/11 u=47/11
+SKIPISO t=19/11 u=47/11
+MWRANK u=47/24 r=1 gens=2
+FIBSURV Sig=3 t=97/24 u=47/24
+SKIPISO t=97/24 u=47/24
+MWRANK u=47/13 r=2 gens=2
+FIBSURV Sig=3 t=31/13 u=47/13
+SKIPISO t=31/13 u=47/13
+MWRANK u=47/12 r=3 gens=2
+FIBSURV Sig=3 t=25/12 u=47/12
+SKIPISO t=25/12 u=47/12
+MWRANK u=48/23 r=2 gens=2
+FIBSURV Sig=3 t=90/23 u=48/23
+SKIPISO t=90/23 u=48/23
+MWRANK u=48/13 r=1 gens=2
+FIBSURV Sig=3 t=30/13 u=48/13
+SKIPISO t=30/13 u=48/13
+MWSKIP u=-48/13 bounds=[1,3]
+FIBSURV Sig=3 t=126/13 u=-48/13
+SKIPISO t=126/13 u=-48/13
+MWRANK u=-48/11 r=1 gens=2
+FIBSURV Sig=3 t=114/11 u=-48/11
+SKIPISO t=114/11 u=-48/11
+MWRANK u=48 r=2 gens=2
+FIBSURV Sig=3 t=-42 u=48
+SKIPISO t=-42 u=48
+MWRANK u=48/19 r=2 gens=2
+FIBSURV Sig=3 t=66/19 u=48/19
+SKIPISO t=66/19 u=48/19
+MWRANK u=-48/7 r=3 gens=2
+FIBSURV Sig=3 t=90/7 u=-48/7
+SKIPISO t=90/7 u=-48/7
+MWRANK u=48/17 r=2 gens=2
+FIBSURV Sig=3 t=54/17 u=48/17
+SKIPISO t=54/17 u=48/17
+MWRANK u=48/31 r=2 gens=2
+FIBSURV Sig=3 t=138/31 u=48/31
+SKIPISO t=138/31 u=48/31
+MWRANK u=48/11 r=3 gens=2
+FIBSURV Sig=3 t=18/11 u=48/11
+SKIPISO t=18/11 u=48/11
+MWRANK u=48/5 r=2 gens=2
+FIBSURV Sig=3 t=-18/5 u=48/5
+SKIPISO t=-18/5 u=48/5
+MWRANK u=48/7 r=2 gens=2
+FIBSURV Sig=3 t=-6/7 u=48/7
+SKIPISO t=-6/7 u=48/7
+MWSKIP u=-48/17 bounds=[1,3]
+FIBSURV Sig=3 t=150/17 u=-48/17
+SKIPISO t=150/17 u=-48/17
+MWRANK u=48/29 r=2 gens=2
+FIBSURV Sig=3 t=126/29 u=48/29
+SKIPISO t=126/29 u=48/29
+MWRANK u=-48/5 r=1 gens=2
+FIBSURV Sig=3 t=78/5 u=-48/5
+SKIPISO t=78/5 u=-48/5
+MWRANK u=48/25 r=2 gens=2
+FIBSURV Sig=3 t=102/25 u=48/25
+SKIPISO t=102/25 u=48/25
+MWRANK u=49/19 r=3 gens=2
+FIBSURV Sig=3 t=65/19 u=49/19
+SKIPISO t=65/19 u=49/19
+MWRANK u=49/22 r=3 gens=2
+FIBSURV Sig=3 t=83/22 u=49/22
+SKIPISO t=83/22 u=49/22
+MWRANK u=49/18 r=1 gens=2
+FIBSURV Sig=3 t=59/18 u=49/18
+SKIPISO t=59/18 u=49/18
+MWRANK u=-49/4 r=3 gens=2
+FIBSURV Sig=3 t=73/4 u=-49/4
+SKIPISO t=73/4 u=-49/4
+MWSKIP u=49/32 bounds=[1,3]
+FIBSURV Sig=3 t=143/32 u=49/32
+SKIPISO t=143/32 u=49/32
+MWRANK u=49/8 r=2 gens=2
+FIBSURV Sig=3 t=-1/8 u=49/8
+SKIPISO t=-1/8 u=49/8
+MWRANK u=49/6 r=2 gens=2
+FIBSURV Sig=3 t=-13/6 u=49/6
+SKIPISO t=-13/6 u=49/6
+MWRANK u=49/25 r=2 gens=2
+FIBSURV Sig=3 t=101/25 u=49/25
+SKIPISO t=101/25 u=49/25
+MWRANK u=49/17 r=3 gens=2
+FIBSURV Sig=3 t=53/17 u=49/17
+SKIPISO t=53/17 u=49/17
+MWRANK u=49/23 r=2 gens=2
+FIBSURV Sig=3 t=89/23 u=49/23
+SKIPISO t=89/23 u=49/23
+MWRANK u=-49 r=1 gens=2
+FIBSURV Sig=3 t=55 u=-49
+SKIPISO t=55 u=-49
+MWRANK u=49/10 r=2 gens=2
+FIBSURV Sig=3 t=11/10 u=49/10
+SKIPISO t=11/10 u=49/10
+MWRANK u=49/20 r=2 gens=2
+FIBSURV Sig=3 t=71/20 u=49/20
+SKIPISO t=71/20 u=49/20
+MWRANK u=49/33 r=2 gens=2
+FIBSURV Sig=3 t=149/33 u=49/33
+SKIPISO t=149/33 u=49/33
+MWRANK u=-49/10 r=2 gens=2
+FIBSURV Sig=3 t=109/10 u=-49/10
+SKIPISO t=109/10 u=-49/10
+MWSKIP u=49/30 bounds=[1,3]
+FIBSURV Sig=3 t=131/30 u=49/30
+SKIPISO t=131/30 u=49/30
+MWRANK u=49/11 r=1 gens=2
+FIBSURV Sig=3 t=17/11 u=49/11
+SKIPISO t=17/11 u=49/11
+MWRANK u=49 r=2 gens=2
+FIBSURV Sig=3 t=-43 u=49
+SKIPISO t=-43 u=49
+MWRANK u=-27/49 r=2 gens=2
+FIBSURV Sig=3 t=321/49 u=-27/49
+SKIPISO t=321/49 u=-27/49
+MWRANK u=-49/6 r=2 gens=2
+FIBSURV Sig=3 t=85/6 u=-49/6
+SKIPISO t=85/6 u=-49/6
+MWRANK u=49/5 r=1 gens=2
+FIBSURV Sig=3 t=-19/5 u=49/5
+SKIPISO t=-19/5 u=49/5
+MWRANK u=49/12 r=1 gens=2
+FIBSURV Sig=3 t=23/12 u=49/12
+SKIPISO t=23/12 u=49/12
+MWRANK u=49/9 r=2 gens=2
+FIBSURV Sig=3 t=5/9 u=49/9
+SKIPISO t=5/9 u=49/9
+MWRANK u=-49/2 r=2 gens=2
+FIBSURV Sig=3 t=61/2 u=-49/2
+SKIPISO t=61/2 u=-49/2
+MWRANK u=-49/9 r=2 gens=2
+FIBSURV Sig=3 t=103/9 u=-49/9
+SKIPISO t=103/9 u=-49/9
+MWRANK u=49/16 r=1 gens=2
+FIBSURV Sig=3 t=47/16 u=49/16
+SKIPISO t=47/16 u=49/16
+MWRANK u=-49/5 r=1 gens=2
+FIBSURV Sig=3 t=79/5 u=-49/5
+SKIPISO t=79/5 u=-49/5
+MWRANK u=-49/11 r=2 gens=2
+FIBSURV Sig=3 t=115/11 u=-49/11
+SKIPISO t=115/11 u=-49/11
+MWRANK u=49/15 r=1 gens=2
+FIBSURV Sig=3 t=41/15 u=49/15
+SKIPISO t=41/15 u=49/15
+MWRANK u=49/4 r=1 gens=2
+FIBSURV Sig=3 t=-25/4 u=49/4
+SKIPISO t=-25/4 u=49/4
+MWRANK u=49/27 r=3 gens=2
+FIBSURV Sig=3 t=113/27 u=49/27
+SKIPISO t=113/27 u=49/27
+MWRANK u=49/24 r=2 gens=2
+FIBSURV Sig=3 t=95/24 u=49/24
+SKIPISO t=95/24 u=49/24
+MWRANK u=-49/12 r=3 gens=2
+FIBSURV Sig=3 t=121/12 u=-49/12
+SKIPISO t=121/12 u=-49/12
+MWRANK u=49/29 r=1 gens=2
+FIBSURV Sig=3 t=125/29 u=49/29
+SKIPISO t=125/29 u=49/29
+MWRANK u=-49/3 r=2 gens=2
+FIBSURV Sig=3 t=67/3 u=-49/3
+SKIPISO t=67/3 u=-49/3
+MWRANK u=-49/16 r=3 gens=2
+FIBSURV Sig=3 t=145/16 u=-49/16
+SKIPISO t=145/16 u=-49/16
+MWRANK u=49/26 r=1 gens=2
+FIBSURV Sig=3 t=107/26 u=49/26
+SKIPISO t=107/26 u=49/26
+MWRANK u=49/2 r=2 gens=2
+FIBSURV Sig=3 t=-37/2 u=49/2
+SKIPISO t=-37/2 u=49/2
+MWRANK u=-49/13 r=2 gens=2
+FIBSURV Sig=3 t=127/13 u=-49/13
+SKIPISO t=127/13 u=-49/13
+MWRANK u=49/31 r=1 gens=2
+FIBSURV Sig=3 t=137/31 u=49/31
+SKIPISO t=137/31 u=49/31
+MWRANK u=-49/8 r=2 gens=2
+FIBSURV Sig=3 t=97/8 u=-49/8
+SKIPISO t=97/8 u=-49/8
+MWRANK u=-49/15 r=3 gens=2
+FIBSURV Sig=3 t=139/15 u=-49/15
+SKIPISO t=139/15 u=-49/15
+MWRANK u=49/13 r=2 gens=2
+FIBSURV Sig=3 t=29/13 u=49/13
+SKIPISO t=29/13 u=49/13
+MWRANK u=49/3 r=2 gens=2
+FIBSURV Sig=3 t=-31/3 u=49/3
+SKIPISO t=-31/3 u=49/3
+MWSKIP u=-50/13 bounds=[1,2]
+FIBSURV Sig=3 t=128/13 u=-50/13
+SKIPISO t=128/13 u=-50/13
+MWRANK u=50/9 r=2 gens=2
+FIBSURV Sig=3 t=4/9 u=50/9
+SKIPISO t=4/9 u=50/9
+MWRANK u=50/11 r=1 gens=2
+FIBSURV Sig=3 t=16/11 u=50/11
+SKIPISO t=16/11 u=50/11
+MWRANK u=50/17 r=4 gens=2
+FIBSURV Sig=3 t=52/17 u=50/17
+SKIPISO t=52/17 u=50/17
+MWRANK u=50/31 r=2 gens=2
+FIBSURV Sig=3 t=136/31 u=50/31
+SKIPISO t=136/31 u=50/31
+MWRANK u=50/21 r=2 gens=2
+FIBSURV Sig=3 t=76/21 u=50/21
+SKIPISO t=76/21 u=50/21
+MWRANK u=50/13 r=1 gens=2
+FIBSURV Sig=3 t=28/13 u=50/13
+SKIPISO t=28/13 u=50/13
+MWRANK u=-50/9 r=1 gens=2
+FIBSURV Sig=3 t=104/9 u=-50/9
+SKIPISO t=104/9 u=-50/9
+MWRANK u=50 r=2 gens=2
+FIBSURV Sig=3 t=-44 u=50
+SKIPISO t=-44 u=50
+MWRANK u=50/33 r=2 gens=2
+FIBSURV Sig=3 t=148/33 u=50/33
+SKIPISO t=148/33 u=50/33
+MWRANK u=50/23 r=2 gens=2
+FIBSURV Sig=3 t=88/23 u=50/23
+SKIPISO t=88/23 u=50/23
+MWRANK u=50/27 r=2 gens=2
+FIBSURV Sig=3 t=112/27 u=50/27
+SKIPISO t=112/27 u=50/27
+MWRANK u=50/19 r=2 gens=2
+FIBSURV Sig=3 t=64/19 u=50/19
+SKIPISO t=64/19 u=50/19
+MWRANK u=-50 r=1 gens=2
+FIBSURV Sig=3 t=56 u=-50
+SKIPISO t=56 u=-50
+MWRANK u=-50/11 r=1 gens=2
+FIBSURV Sig=3 t=116/11 u=-50/11
+SKIPISO t=116/11 u=-50/11
+MWRANK u=50/7 r=1 gens=2
+FIBSURV Sig=3 t=-8/7 u=50/7
+SKIPISO t=-8/7 u=50/7
+MWRANK u=50/29 r=2 gens=2
+FIBSURV Sig=3 t=124/29 u=50/29
+SKIPISO t=124/29 u=50/29
+MWRANK u=50/3 r=2 gens=2
+FIBSURV Sig=3 t=-32/3 u=50/3
+SKIPISO t=-32/3 u=50/3
+MWRANK u=-50/3 r=1 gens=2
+FIBSURV Sig=3 t=68/3 u=-50/3
+SKIPISO t=68/3 u=-50/3
+MWRANK u=-50/7 r=1 gens=2
+FIBSURV Sig=3 t=92/7 u=-50/7
+SKIPISO t=92/7 u=-50/7
+MWRANK u=-51/13 r=1 gens=2
+FIBSURV Sig=3 t=129/13 u=-51/13
+SKIPISO t=129/13 u=-51/13
+MWRANK u=-51/8 r=2 gens=2
+FIBSURV Sig=3 t=99/8 u=-51/8
+SKIPISO t=99/8 u=-51/8
+MWRANK u=51/11 r=1 gens=2
+FIBSURV Sig=3 t=15/11 u=51/11
+SKIPISO t=15/11 u=51/11
+MWRANK u=51/10 r=2 gens=2
+FIBSURV Sig=3 t=9/10 u=51/10
+SKIPISO t=9/10 u=51/10
+MWRANK u=-51/10 r=3 gens=2
+FIBSURV Sig=3 t=111/10 u=-51/10
+SKIPISO t=111/10 u=-51/10
+MWRANK u=51/31 r=3 gens=2
+FIBSURV Sig=3 t=135/31 u=51/31
+SKIPISO t=135/31 u=51/31
+MWRANK u=51/13 r=3 gens=2
+FIBSURV Sig=3 t=27/13 u=51/13
+SKIPISO t=27/13 u=51/13
+MWRANK u=51/14 r=2 gens=2
+FIBSURV Sig=3 t=33/14 u=51/14
+SKIPISO t=33/14 u=51/14
+MWRANK u=51/22 r=2 gens=2
+FIBSURV Sig=3 t=81/22 u=51/22
+SKIPISO t=81/22 u=51/22
+MWRANK u=51/19 r=1 gens=2
+FIBSURV Sig=3 t=63/19 u=51/19
+SKIPISO t=63/19 u=51/19
+MWRANK u=-51/11 r=1 gens=2
+FIBSURV Sig=3 t=117/11 u=-51/11
+SKIPISO t=117/11 u=-51/11
+MWRANK u=51/26 r=2 gens=2
+FIBSURV Sig=3 t=105/26 u=51/26
+SKIPISO t=105/26 u=51/26
+MWRANK u=51/32 r=2 gens=2
+FIBSURV Sig=3 t=141/32 u=51/32
+SKIPISO t=141/32 u=51/32
+MWRANK u=51/4 r=2 gens=2
+FIBSURV Sig=3 t=-27/4 u=51/4
+SKIPISO t=-27/4 u=51/4
+MWRANK u=51/8 r=1 gens=2
+FIBSURV Sig=3 t=-3/8 u=51/8
+SKIPISO t=-3/8 u=51/8
+MWRANK u=51/7 r=2 gens=2
+FIBSURV Sig=3 t=-9/7 u=51/7
+SKIPISO t=-9/7 u=51/7
+MWRANK u=51/25 r=1 gens=2
+FIBSURV Sig=3 t=99/25 u=51/25
+SKIPISO t=99/25 u=51/25
+MWRANK u=51/29 r=2 gens=2
+FIBSURV Sig=3 t=123/29 u=51/29
+SKIPISO t=123/29 u=51/29
+MWRANK u=51/16 r=1 gens=2
+FIBSURV Sig=3 t=45/16 u=51/16
+SKIPISO t=45/16 u=51/16
+MWRANK u=-51/7 r=2 gens=2
+FIBSURV Sig=3 t=93/7 u=-51/7
+SKIPISO t=93/7 u=-51/7
+MWRANK u=51/2 r=1 gens=2
+FIBSURV Sig=3 t=-39/2 u=51/2
+SKIPISO t=-39/2 u=51/2
+MWRANK u=-51/14 r=2 gens=2
+FIBSURV Sig=3 t=135/14 u=-51/14
+SKIPISO t=135/14 u=-51/14
+MWRANK u=-51 r=1 gens=2
+FIBSURV Sig=3 t=57 u=-51
+SKIPISO t=57 u=-51
+MWRANK u=51/5 r=2 gens=2
+FIBSURV Sig=3 t=-21/5 u=51/5
+SKIPISO t=-21/5 u=51/5
+MWRANK u=51/23 r=1 gens=2
+FIBSURV Sig=3 t=87/23 u=51/23
+SKIPISO t=87/23 u=51/23
+MWRANK u=-51/37 r=3 gens=2
+MWRANK u=51/20 r=2 gens=2
+FIBSURV Sig=3 t=69/20 u=51/20
+SKIPISO t=69/20 u=51/20
+MWRANK u=-51/4 r=1 gens=2
+FIBSURV Sig=3 t=75/4 u=-51/4
+SKIPISO t=75/4 u=-51/4
+MWRANK u=-51/16 r=1 gens=2
+FIBSURV Sig=3 t=147/16 u=-51/16
+SKIPISO t=147/16 u=-51/16
+MWRANK u=-51/5 r=2 gens=2
+FIBSURV Sig=3 t=81/5 u=-51/5
+SKIPISO t=81/5 u=-51/5
+MWRANK u=-51/2 r=2 gens=2
+FIBSURV Sig=3 t=63/2 u=-51/2
+SKIPISO t=63/2 u=-51/2
+MWRANK u=51/28 r=2 gens=2
+FIBSURV Sig=3 t=117/28 u=51/28
+SKIPISO t=117/28 u=51/28
+MWRANK u=52/19 r=2 gens=2
+FIBSURV Sig=3 t=62/19 u=52/19
+SKIPISO t=62/19 u=52/19
+MWRANK u=-52/11 r=1 gens=2
+FIBSURV Sig=3 t=118/11 u=-52/11
+SKIPISO t=118/11 u=-52/11
+MWRANK u=52/25 r=2 gens=2
+FIBSURV Sig=3 t=98/25 u=52/25
+SKIPISO t=98/25 u=52/25
+MWRANK u=52/21 r=2 gens=2
+FIBSURV Sig=3 t=74/21 u=52/21
+SKIPISO t=74/21 u=52/21
+MWRANK u=52/31 r=2 gens=2
+FIBSURV Sig=3 t=134/31 u=52/31
+SKIPISO t=134/31 u=52/31
+MWRANK u=-52 r=1 gens=2
+FIBSURV Sig=3 t=58 u=-52
+SKIPISO t=58 u=-52
+MWRANK u=52/3 r=2 gens=2
+FIBSURV Sig=3 t=-34/3 u=52/3
+SKIPISO t=-34/3 u=52/3
+MWRANK u=52/17 r=1 gens=2
+FIBSURV Sig=3 t=50/17 u=52/17
+SKIPISO t=50/17 u=52/17
+MWRANK u=-52/9 r=2 gens=2
+FIBSURV Sig=3 t=106/9 u=-52/9
+SKIPISO t=106/9 u=-52/9
+MWRANK u=52/29 r=2 gens=2
+FIBSURV Sig=3 t=122/29 u=52/29
+SKIPISO t=122/29 u=52/29
+MWRANK u=-52/3 r=3 gens=2
+FIBSURV Sig=3 t=70/3 u=-52/3
+SKIPISO t=70/3 u=-52/3
+MWRANK u=-52/15 r=1 gens=2
+FIBSURV Sig=3 t=142/15 u=-52/15
+SKIPISO t=142/15 u=-52/15
+MWRANK u=-52/5 r=3 gens=2
+FIBSURV Sig=3 t=82/5 u=-52/5
+SKIPISO t=82/5 u=-52/5
+MWRANK u=52/33 r=2 gens=2
+FIBSURV Sig=3 t=146/33 u=52/33
+SKIPISO t=146/33 u=52/33
+MWRANK u=52/5 r=2 gens=2
+FIBSURV Sig=3 t=-22/5 u=52/5
+SKIPISO t=-22/5 u=52/5
+MWRANK u=52 r=2 gens=2
+FIBSURV Sig=3 t=-46 u=52
+SKIPISO t=-46 u=52
+MWSKIP u=52/23 bounds=[2,4]
+FIBSURV Sig=3 t=86/23 u=52/23
+SKIPISO t=86/23 u=52/23
+MWRANK u=52/15 r=3 gens=2
+FIBSURV Sig=3 t=38/15 u=52/15
+SKIPISO t=38/15 u=52/15
+MWRANK u=52/9 r=1 gens=2
+FIBSURV Sig=3 t=2/9 u=52/9
+SKIPISO t=2/9 u=52/9
+MWSKIP u=-52/7 bounds=[1,3]
+FIBSURV Sig=3 t=94/7 u=-52/7
+SKIPISO t=94/7 u=-52/7
+MWRANK u=52/27 r=2 gens=2
+FIBSURV Sig=3 t=110/27 u=52/27
+SKIPISO t=110/27 u=52/27
+MWSKIP u=52/11 bounds=[1,3]
+FIBSURV Sig=3 t=14/11 u=52/11
+SKIPISO t=14/11 u=52/11
+MWRANK u=52/7 r=2 gens=2
+FIBSURV Sig=3 t=-10/7 u=52/7
+SKIPISO t=-10/7 u=52/7
+MWRANK u=53/16 r=1 gens=2
+FIBSURV Sig=3 t=43/16 u=53/16
+SKIPISO t=43/16 u=53/16
+MWRANK u=53/18 r=1 gens=2
+FIBSURV Sig=3 t=55/18 u=53/18
+SKIPISO t=55/18 u=53/18
+MWRANK u=53/20 r=2 gens=2
+FIBSURV Sig=3 t=67/20 u=53/20
+SKIPISO t=67/20 u=53/20
+MWRANK u=53 r=1 gens=2
+FIBSURV Sig=3 t=-47 u=53
+SKIPISO t=-47 u=53
+MWRANK u=53/7 r=1 gens=2
+FIBSURV Sig=3 t=-11/7 u=53/7
+SKIPISO t=-11/7 u=53/7
+MWRANK u=53/19 r=2 gens=2
+FIBSURV Sig=3 t=61/19 u=53/19
+SKIPISO t=61/19 u=53/19
+MWRANK u=53/9 r=1 gens=2
+FIBSURV Sig=3 t=1/9 u=53/9
+SKIPISO t=1/9 u=53/9
+MWRANK u=53/29 r=2 gens=2
+FIBSURV Sig=3 t=121/29 u=53/29
+SKIPISO t=121/29 u=53/29
+MWRANK u=-53/10 r=3 gens=2
+FIBSURV Sig=3 t=113/10 u=-53/10
+SKIPISO t=113/10 u=-53/10
+MWRANK u=-53/4 r=1 gens=2
+FIBSURV Sig=3 t=77/4 u=-53/4
+SKIPISO t=77/4 u=-53/4
+MWSKIP u=-53/16 bounds=[1,3]
+FIBSURV Sig=3 t=149/16 u=-53/16
+SKIPISO t=149/16 u=-53/16
+MWRANK u=53/15 r=1 gens=2
+FIBSURV Sig=3 t=37/15 u=53/15
+SKIPISO t=37/15 u=53/15
+MWRANK u=-53/6 r=1 gens=2
+FIBSURV Sig=3 t=89/6 u=-53/6
+SKIPISO t=89/6 u=-53/6
+MWRANK u=-53/9 r=1 gens=2
+FIBSURV Sig=3 t=107/9 u=-53/9
+SKIPISO t=107/9 u=-53/9
+MWRANK u=53/10 r=1 gens=2
+FIBSURV Sig=3 t=7/10 u=53/10
+SKIPISO t=7/10 u=53/10
+MWRANK u=53/12 r=1 gens=2
+FIBSURV Sig=3 t=19/12 u=53/12
+SKIPISO t=19/12 u=53/12
+MWRANK u=53/25 r=3 gens=2
+FIBSURV Sig=3 t=97/25 u=53/25
+SKIPISO t=97/25 u=53/25
+MWRANK u=-53/3 r=1 gens=2
+FIBSURV Sig=3 t=71/3 u=-53/3
+SKIPISO t=71/3 u=-53/3
+MWRANK u=53/2 r=1 gens=2
+FIBSURV Sig=3 t=-41/2 u=53/2
+SKIPISO t=-41/2 u=53/2
+MWRANK u=-53/8 r=1 gens=2
+FIBSURV Sig=3 t=101/8 u=-53/8
+SKIPISO t=101/8 u=-53/8
+MWRANK u=-53/5 r=3 gens=2
+FIBSURV Sig=3 t=83/5 u=-53/5
+SKIPISO t=83/5 u=-53/5
+MWRANK u=-53/7 r=2 gens=2
+FIBSURV Sig=3 t=95/7 u=-53/7
+SKIPISO t=95/7 u=-53/7
+MWRANK u=53/28 r=2 gens=2
+FIBSURV Sig=3 t=115/28 u=53/28
+SKIPISO t=115/28 u=53/28
+MWRANK u=53/11 r=3 gens=2
+FIBSURV Sig=3 t=13/11 u=53/11
+SKIPISO t=13/11 u=53/11
+MWRANK u=53/4 r=2 gens=2
+FIBSURV Sig=3 t=-29/4 u=53/4
+SKIPISO t=-29/4 u=53/4
+MWRANK u=-53 r=2 gens=2
+FIBSURV Sig=3 t=59 u=-53
+SKIPISO t=59 u=-53
+MWRANK u=53/14 r=4 gens=2
+FIBSURV Sig=3 t=31/14 u=53/14
+SKIPISO t=31/14 u=53/14
+MWRANK u=53/21 r=3 gens=2
+FIBSURV Sig=3 t=73/21 u=53/21
+SKIPISO t=73/21 u=53/21
+MWRANK u=53/26 r=2 gens=2
+FIBSURV Sig=3 t=103/26 u=53/26
+SKIPISO t=103/26 u=53/26
+MWRANK u=-53/11 r=1 gens=2
+FIBSURV Sig=3 t=119/11 u=-53/11
+SKIPISO t=119/11 u=-53/11
+MWRANK u=-53/15 r=2 gens=2
+FIBSURV Sig=3 t=143/15 u=-53/15
+SKIPISO t=143/15 u=-53/15
+MWRANK u=53/30 r=3 gens=2
+FIBSURV Sig=3 t=127/30 u=53/30
+SKIPISO t=127/30 u=53/30
+MWRANK u=53/8 r=2 gens=2
+FIBSURV Sig=3 t=-5/8 u=53/8
+SKIPISO t=-5/8 u=53/8
+MWRANK u=53/17 r=1 gens=2
+FIBSURV Sig=3 t=49/17 u=53/17
+SKIPISO t=49/17 u=53/17
+MWRANK u=53/6 r=2 gens=2
+FIBSURV Sig=3 t=-17/6 u=53/6
+SKIPISO t=-17/6 u=53/6
+MWRANK u=-53/12 r=1 gens=2
+FIBSURV Sig=3 t=125/12 u=-53/12
+SKIPISO t=125/12 u=-53/12
+MWRANK u=-53/2 r=4 gens=2
+FIBSURV Sig=3 t=65/2 u=-53/2
+SKIPISO t=65/2 u=-53/2
+MWRANK u=53/5 r=2 gens=2
+FIBSURV Sig=3 t=-23/5 u=53/5
+SKIPISO t=-23/5 u=53/5
+MWRANK u=53/32 r=3 gens=2
+FIBSURV Sig=3 t=139/32 u=53/32
+SKIPISO t=139/32 u=53/32
+MWRANK u=-53/13 r=3 gens=2
+FIBSURV Sig=3 t=131/13 u=-53/13
+SKIPISO t=131/13 u=-53/13
+MWRANK u=53/3 r=2 gens=2
+FIBSURV Sig=3 t=-35/3 u=53/3
+SKIPISO t=-35/3 u=53/3
+MWRANK u=53/23 r=2 gens=2
+FIBSURV Sig=3 t=85/23 u=53/23
+SKIPISO t=85/23 u=53/23
+MWRANK u=53/24 r=1 gens=2
+FIBSURV Sig=3 t=91/24 u=53/24
+SKIPISO t=91/24 u=53/24
+MWRANK u=-53/14 r=2 gens=2
+FIBSURV Sig=3 t=137/14 u=-53/14
+SKIPISO t=137/14 u=-53/14
+MWSKIP u=53/31 bounds=[1,3]
+FIBSURV Sig=3 t=133/31 u=53/31
+SKIPISO t=133/31 u=53/31
+MWSKIP u=53/22 bounds=[1,3]
+FIBSURV Sig=3 t=79/22 u=53/22
+SKIPISO t=79/22 u=53/22
+MWRANK u=53/33 r=1 gens=2
+FIBSURV Sig=3 t=145/33 u=53/33
+SKIPISO t=145/33 u=53/33
+MWRANK u=-54/13 r=1 gens=2
+FIBSURV Sig=3 t=132/13 u=-54/13
+SKIPISO t=132/13 u=-54/13
+MWRANK u=-54/7 r=3 gens=2
+FIBSURV Sig=3 t=96/7 u=-54/7
+SKIPISO t=96/7 u=-54/7
+MWRANK u=54/13 r=3 gens=2
+FIBSURV Sig=3 t=24/13 u=54/13
+SKIPISO t=24/13 u=54/13
+MWRANK u=-54/11 r=1 gens=2
+FIBSURV Sig=3 t=120/11 u=-54/11
+SKIPISO t=120/11 u=-54/11
+MWRANK u=-54/5 r=1 gens=2
+FIBSURV Sig=3 t=84/5 u=-54/5
+SKIPISO t=84/5 u=-54/5
+MWRANK u=-54 r=3 gens=2
+FIBSURV Sig=3 t=60 u=-54
+SKIPISO t=60 u=-54
+MWRANK u=54/25 r=2 gens=2
+FIBSURV Sig=3 t=96/25 u=54/25
+SKIPISO t=96/25 u=54/25
+MWRANK u=54/29 r=2 gens=2
+FIBSURV Sig=3 t=120/29 u=54/29
+SKIPISO t=120/29 u=54/29
+MWRANK u=54/17 r=1 gens=2
+FIBSURV Sig=3 t=48/17 u=54/17
+SKIPISO t=48/17 u=54/17
+MWRANK u=54/23 r=2 gens=2
+FIBSURV Sig=3 t=84/23 u=54/23
+SKIPISO t=84/23 u=54/23
+MWRANK u=54 r=2 gens=2
+FIBSURV Sig=3 t=-48 u=54
+SKIPISO t=-48 u=54
+MWRANK u=54/5 r=2 gens=2
+FIBSURV Sig=3 t=-24/5 u=54/5
+SKIPISO t=-24/5 u=54/5
+MWRANK u=54/31 r=2 gens=2
+FIBSURV Sig=3 t=132/31 u=54/31
+SKIPISO t=132/31 u=54/31
+MWRANK u=54/7 r=1 gens=2
+FIBSURV Sig=3 t=-12/7 u=54/7
+SKIPISO t=-12/7 u=54/7
+MWRANK u=54/11 r=1 gens=2
+FIBSURV Sig=3 t=12/11 u=54/11
+SKIPISO t=12/11 u=54/11
+MWRANK u=-55/12 r=3 gens=2
+FIBSURV Sig=3 t=127/12 u=-55/12
+SKIPISO t=127/12 u=-55/12
+MWRANK u=55/3 r=1 gens=2
+FIBSURV Sig=3 t=-37/3 u=55/3
+SKIPISO t=-37/3 u=55/3
+MWRANK u=55/12 r=1 gens=2
+FIBSURV Sig=3 t=17/12 u=55/12
+SKIPISO t=17/12 u=55/12
+MWRANK u=55/24 r=3 gens=2
+FIBSURV Sig=3 t=89/24 u=55/24
+SKIPISO t=89/24 u=55/24
+MWRANK u=55 r=2 gens=2
+FIBSURV Sig=3 t=-49 u=55
+SKIPISO t=-49 u=55
+MWRANK u=55/4 r=2 gens=2
+FIBSURV Sig=3 t=-31/4 u=55/4
+SKIPISO t=-31/4 u=55/4
+MWRANK u=55/14 r=3 gens=2
+FIBSURV Sig=3 t=29/14 u=55/14
+SKIPISO t=29/14 u=55/14
+MWRANK u=55/26 r=3 gens=2
+FIBSURV Sig=3 t=101/26 u=55/26
+SKIPISO t=101/26 u=55/26
+MWRANK u=-55/9 r=2 gens=2
+FIBSURV Sig=3 t=109/9 u=-55/9
+SKIPISO t=109/9 u=-55/9
+MWSKIP u=55/32 bounds=[1,3]
+FIBSURV Sig=3 t=137/32 u=55/32
+SKIPISO t=137/32 u=55/32
+MWRANK u=-55/8 r=2 gens=2
+FIBSURV Sig=3 t=103/8 u=-55/8
+SKIPISO t=103/8 u=-55/8
+MWRANK u=55/34 r=3 gens=2
+FIBSURV Sig=3 t=149/34 u=55/34
+SKIPISO t=149/34 u=55/34
+MWRANK u=55/31 r=1 gens=2
+FIBSURV Sig=3 t=131/31 u=55/31
+SKIPISO t=131/31 u=55/31
+MWRANK u=55/2 r=1 gens=2
+FIBSURV Sig=3 t=-43/2 u=55/2
+SKIPISO t=-43/2 u=55/2
+MWRANK u=-55 r=1 gens=2
+FIBSURV Sig=3 t=61 u=-55
+SKIPISO t=61 u=-55
+MWRANK u=-55/7 r=3 gens=2
+FIBSURV Sig=3 t=97/7 u=-55/7
+SKIPISO t=97/7 u=-55/7
+MWRANK u=55/9 r=1 gens=2
+FIBSURV Sig=3 t=-1/9 u=55/9
+SKIPISO t=-1/9 u=55/9
+MWRANK u=55/18 r=3 gens=2
+FIBSURV Sig=3 t=53/18 u=55/18
+SKIPISO t=53/18 u=55/18
+MWRANK u=-55/13 r=2 gens=2
+FIBSURV Sig=3 t=133/13 u=-55/13
+SKIPISO t=133/13 u=-55/13
+MWRANK u=-55/14 r=2 gens=2
+FIBSURV Sig=3 t=139/14 u=-55/14
+SKIPISO t=139/14 u=-55/14
+MWRANK u=55/7 r=1 gens=2
+FIBSURV Sig=3 t=-13/7 u=55/7
+SKIPISO t=-13/7 u=55/7
+MWRANK u=55/28 r=2 gens=2
+FIBSURV Sig=3 t=113/28 u=55/28
+SKIPISO t=113/28 u=55/28
+MWRANK u=55/6 r=1 gens=2
+FIBSURV Sig=3 t=-19/6 u=55/6
+SKIPISO t=-19/6 u=55/6
+MWRANK u=-55/4 r=3 gens=2
+FIBSURV Sig=3 t=79/4 u=-55/4
+SKIPISO t=79/4 u=-55/4
+MWRANK u=55/8 r=2 gens=2
+FIBSURV Sig=3 t=-7/8 u=55/8
+SKIPISO t=-7/8 u=55/8
+MWRANK u=55/29 r=3 gens=2
+FIBSURV Sig=3 t=119/29 u=55/29
+SKIPISO t=119/29 u=55/29
+MWRANK u=55/27 r=1 gens=2
+FIBSURV Sig=3 t=107/27 u=55/27
+SKIPISO t=107/27 u=55/27
+MWRANK u=55/19 r=1 gens=2
+FIBSURV Sig=3 t=59/19 u=55/19
+SKIPISO t=59/19 u=55/19
+MWRANK u=-55/3 r=1 gens=2
+FIBSURV Sig=3 t=73/3 u=-55/3
+SKIPISO t=73/3 u=-55/3
+MWRANK u=55/23 r=2 gens=2
+FIBSURV Sig=3 t=83/23 u=55/23
+SKIPISO t=83/23 u=55/23
+MWRANK u=55/16 r=1 gens=2
+FIBSURV Sig=3 t=41/16 u=55/16
+SKIPISO t=41/16 u=55/16
+MWRANK u=55/21 r=1 gens=2
+FIBSURV Sig=3 t=71/21 u=55/21
+SKIPISO t=71/21 u=55/21
+MWRANK u=-55/6 r=4 gens=2
+FIBSURV Sig=3 t=91/6 u=-55/6
+SKIPISO t=91/6 u=-55/6
+MWRANK u=-55/2 r=3 gens=2
+FIBSURV Sig=3 t=67/2 u=-55/2
+SKIPISO t=67/2 u=-55/2
+MWRANK u=56/9 r=2 gens=2
+FIBSURV Sig=3 t=-2/9 u=56/9
+SKIPISO t=-2/9 u=56/9
+MWRANK u=-56 r=1 gens=2
+FIBSURV Sig=3 t=62 u=-56
+SKIPISO t=62 u=-56
+MWRANK u=56/19 r=2 gens=2
+FIBSURV Sig=3 t=58/19 u=56/19
+SKIPISO t=58/19 u=56/19
+MWSKIP u=-56/13 bounds=[1,3]
+FIBSURV Sig=3 t=134/13 u=-56/13
+SKIPISO t=134/13 u=-56/13
+MWRANK u=56/11 r=1 gens=2
+FIBSURV Sig=3 t=10/11 u=56/11
+SKIPISO t=10/11 u=56/11
+MWRANK u=56/3 r=2 gens=2
+FIBSURV Sig=3 t=-38/3 u=56/3
+SKIPISO t=-38/3 u=56/3
+MWRANK u=-56/3 r=3 gens=2
+FIBSURV Sig=3 t=74/3 u=-56/3
+SKIPISO t=74/3 u=-56/3
+MWRANK u=56/25 r=2 gens=2
+FIBSURV Sig=3 t=94/25 u=56/25
+SKIPISO t=94/25 u=56/25
+MWRANK u=56/27 r=2 gens=2
+FIBSURV Sig=3 t=106/27 u=56/27
+SKIPISO t=106/27 u=56/27
+MWRANK u=56/29 r=2 gens=2
+FIBSURV Sig=3 t=118/29 u=56/29
+SKIPISO t=118/29 u=56/29
+MWSKIP u=-56/15 bounds=[1,3]
+FIBSURV Sig=3 t=146/15 u=-56/15
+SKIPISO t=146/15 u=-56/15
+MWRANK u=-56/5 r=1 gens=2
+FIBSURV Sig=3 t=86/5 u=-56/5
+SKIPISO t=86/5 u=-56/5
+MWRANK u=56/17 r=1 gens=2
+FIBSURV Sig=3 t=46/17 u=56/17
+SKIPISO t=46/17 u=56/17
+MWRANK u=56/23 r=2 gens=2
+FIBSURV Sig=3 t=82/23 u=56/23
+SKIPISO t=82/23 u=56/23
+MWRANK u=56/31 r=2 gens=2
+FIBSURV Sig=3 t=130/31 u=56/31
+SKIPISO t=130/31 u=56/31
+MWRANK u=56 r=2 gens=2
+FIBSURV Sig=3 t=-50 u=56
+SKIPISO t=-50 u=56
+MWRANK u=56/15 r=3 gens=2
+FIBSURV Sig=3 t=34/15 u=56/15
+SKIPISO t=34/15 u=56/15
+MWRANK u=56/5 r=2 gens=2
+FIBSURV Sig=3 t=-26/5 u=56/5
+SKIPISO t=-26/5 u=56/5
+MWRANK u=-56/9 r=1 gens=2
+FIBSURV Sig=3 t=110/9 u=-56/9
+SKIPISO t=110/9 u=-56/9
+MWSKIP u=56/33 bounds=[2,4]
+FIBSURV Sig=3 t=142/33 u=56/33
+SKIPISO t=142/33 u=56/33
+MWRANK u=-56/11 r=1 gens=2
+FIBSURV Sig=3 t=122/11 u=-56/11
+SKIPISO t=122/11 u=-56/11
+MWRANK u=56/13 r=1 gens=2
+FIBSURV Sig=3 t=22/13 u=56/13
+SKIPISO t=22/13 u=56/13
+MWRANK u=57/22 r=3 gens=2
+FIBSURV Sig=3 t=75/22 u=57/22
+SKIPISO t=75/22 u=57/22
+MWRANK u=57 r=2 gens=2
+FIBSURV Sig=3 t=-51 u=57
+SKIPISO t=-51 u=57
+MWRANK u=-57/13 r=2 gens=2
+FIBSURV Sig=3 t=135/13 u=-57/13
+SKIPISO t=135/13 u=-57/13
+MWRANK u=-57/14 r=3 gens=2
+FIBSURV Sig=3 t=141/14 u=-57/14
+SKIPISO t=141/14 u=-57/14
+MWRANK u=57/2 r=2 gens=2
+FIBSURV Sig=3 t=-45/2 u=57/2
+SKIPISO t=-45/2 u=57/2
+MWRANK u=57/10 r=1 gens=2
+FIBSURV Sig=3 t=3/10 u=57/10
+SKIPISO t=3/10 u=57/10
+MWRANK u=57/26 r=1 gens=2
+FIBSURV Sig=3 t=99/26 u=57/26
+SKIPISO t=99/26 u=57/26
+MWRANK u=57/16 r=1 gens=2
+FIBSURV Sig=3 t=39/16 u=57/16
+SKIPISO t=39/16 u=57/16
+MWRANK u=57/11 r=2 gens=2
+FIBSURV Sig=3 t=9/11 u=57/11
+SKIPISO t=9/11 u=57/11
+MWRANK u=57/14 r=2 gens=2
+FIBSURV Sig=3 t=27/14 u=57/14
+SKIPISO t=27/14 u=57/14
+MWRANK u=57/4 r=2 gens=2
+FIBSURV Sig=3 t=-33/4 u=57/4
+SKIPISO t=-33/4 u=57/4
+MWRANK u=-57/11 r=2 gens=2
+FIBSURV Sig=3 t=123/11 u=-57/11
+SKIPISO t=123/11 u=-57/11
+MWRANK u=57/34 r=2 gens=2
+FIBSURV Sig=3 t=147/34 u=57/34
+SKIPISO t=147/34 u=57/34
+MWRANK u=57/5 r=1 gens=2
+FIBSURV Sig=3 t=-27/5 u=57/5
+SKIPISO t=-27/5 u=57/5
+MWRANK u=57/13 r=2 gens=2
+FIBSURV Sig=3 t=21/13 u=57/13
+SKIPISO t=21/13 u=57/13
+MWRANK u=-57/10 r=2 gens=2
+FIBSURV Sig=3 t=117/10 u=-57/10
+SKIPISO t=117/10 u=-57/10
+MWRANK u=57/7 r=1 gens=2
+FIBSURV Sig=3 t=-15/7 u=57/7
+SKIPISO t=-15/7 u=57/7
+MWRANK u=57/17 r=1 gens=2
+FIBSURV Sig=3 t=45/17 u=57/17
+SKIPISO t=45/17 u=57/17
+MWRANK u=-57 r=1 gens=2
+FIBSURV Sig=3 t=63 u=-57
+SKIPISO t=63 u=-57
+MWRANK u=57/25 r=1 gens=2
+FIBSURV Sig=3 t=93/25 u=57/25
+SKIPISO t=93/25 u=57/25
+MWRANK u=57/31 r=2 gens=2
+FIBSURV Sig=3 t=129/31 u=57/31
+SKIPISO t=129/31 u=57/31
+MWRANK u=57/29 r=1 gens=2
+FIBSURV Sig=3 t=117/29 u=57/29
+SKIPISO t=117/29 u=57/29
+MWRANK u=57/28 r=2 gens=2
+FIBSURV Sig=3 t=111/28 u=57/28
+SKIPISO t=111/28 u=57/28
+MWRANK u=57/32 r=1 gens=2
+FIBSURV Sig=3 t=135/32 u=57/32
+SKIPISO t=135/32 u=57/32
+MWRANK u=57/23 r=2 gens=2
+FIBSURV Sig=3 t=81/23 u=57/23
+SKIPISO t=81/23 u=57/23
+MWRANK u=57/8 r=2 gens=2
+FIBSURV Sig=3 t=-9/8 u=57/8
+SKIPISO t=-9/8 u=57/8
+MWRANK u=-57/2 r=2 gens=2
+FIBSURV Sig=3 t=69/2 u=-57/2
+SKIPISO t=69/2 u=-57/2
+MWRANK u=-57/4 r=1 gens=2
+FIBSURV Sig=3 t=81/4 u=-57/4
+SKIPISO t=81/4 u=-57/4
+MWRANK u=-57/5 r=2 gens=2
+FIBSURV Sig=3 t=87/5 u=-57/5
+SKIPISO t=87/5 u=-57/5
+MWRANK u=-57/8 r=2 gens=2
+FIBSURV Sig=3 t=105/8 u=-57/8
+SKIPISO t=105/8 u=-57/8
+MWRANK u=57/20 r=2 gens=2
+FIBSURV Sig=3 t=63/20 u=57/20
+SKIPISO t=63/20 u=57/20
+MWRANK u=58/21 r=2 gens=2
+FIBSURV Sig=3 t=68/21 u=58/21
+SKIPISO t=68/21 u=58/21
+MWRANK u=58/19 r=1 gens=2
+FIBSURV Sig=3 t=56/19 u=58/19
+SKIPISO t=56/19 u=58/19
+MWRANK u=58/15 r=1 gens=2
+FIBSURV Sig=3 t=32/15 u=58/15
+SKIPISO t=32/15 u=58/15
+MWRANK u=58/3 r=2 gens=2
+FIBSURV Sig=3 t=-40/3 u=58/3
+SKIPISO t=-40/3 u=58/3
+MWRANK u=-58/7 r=1 gens=2
+FIBSURV Sig=3 t=100/7 u=-58/7
+SKIPISO t=100/7 u=-58/7
+MWRANK u=-58/13 r=3 gens=2
+FIBSURV Sig=3 t=136/13 u=-58/13
+SKIPISO t=136/13 u=-58/13
+MWRANK u=58/13 r=2 gens=2
+FIBSURV Sig=3 t=20/13 u=58/13
+SKIPISO t=20/13 u=58/13
+MWRANK u=58/27 r=2 gens=2
+FIBSURV Sig=3 t=104/27 u=58/27
+SKIPISO t=104/27 u=58/27
+MWSKIP u=-58/11 bounds=[1,3]
+FIBSURV Sig=3 t=124/11 u=-58/11
+SKIPISO t=124/11 u=-58/11
+MWRANK u=58/17 r=3 gens=2
+FIBSURV Sig=3 t=44/17 u=58/17
+SKIPISO t=44/17 u=58/17
+MWRANK u=58 r=2 gens=2
+FIBSURV Sig=3 t=-52 u=58
+SKIPISO t=-52 u=58
+MWSKIP u=-58/9 bounds=[1,2]
+FIBSURV Sig=3 t=112/9 u=-58/9
+SKIPISO t=112/9 u=-58/9
+MWRANK u=58/5 r=2 gens=2
+FIBSURV Sig=3 t=-28/5 u=58/5
+SKIPISO t=-28/5 u=58/5
+MWRANK u=58/11 r=1 gens=2
+FIBSURV Sig=3 t=8/11 u=58/11
+SKIPISO t=8/11 u=58/11
+MWRANK u=-58/3 r=1 gens=2
+FIBSURV Sig=3 t=76/3 u=-58/3
+SKIPISO t=76/3 u=-58/3
+MWRANK u=58/33 r=2 gens=2
+FIBSURV Sig=3 t=140/33 u=58/33
+SKIPISO t=140/33 u=58/33
+MWRANK u=58/23 r=2 gens=2
+FIBSURV Sig=3 t=80/23 u=58/23
+SKIPISO t=80/23 u=58/23
+MWRANK u=58/31 r=2 gens=2
+FIBSURV Sig=3 t=128/31 u=58/31
+SKIPISO t=128/31 u=58/31
+MWRANK u=58/9 r=3 gens=2
+FIBSURV Sig=3 t=-4/9 u=58/9
+SKIPISO t=-4/9 u=58/9
+MWRANK u=-58/15 r=1 gens=2
+FIBSURV Sig=3 t=148/15 u=-58/15
+SKIPISO t=148/15 u=-58/15
+MWRANK u=58/7 r=1 gens=2
+FIBSURV Sig=3 t=-16/7 u=58/7
+SKIPISO t=-16/7 u=58/7
+MWRANK u=58/25 r=2 gens=2
+FIBSURV Sig=3 t=92/25 u=58/25
+SKIPISO t=92/25 u=58/25
+MWRANK u=-58 r=1 gens=2
+FIBSURV Sig=3 t=64 u=-58
+SKIPISO t=64 u=-58
+MWRANK u=-58/5 r=3 gens=2
+FIBSURV Sig=3 t=88/5 u=-58/5
+SKIPISO t=88/5 u=-58/5
+MWRANK u=59/15 r=2 gens=2
+FIBSURV Sig=3 t=31/15 u=59/15
+SKIPISO t=31/15 u=59/15
+MWRANK u=-59/6 r=2 gens=2
+FIBSURV Sig=3 t=95/6 u=-59/6
+SKIPISO t=95/6 u=-59/6
+MWRANK u=59/18 r=2 gens=2
+FIBSURV Sig=3 t=49/18 u=59/18
+SKIPISO t=49/18 u=59/18
+MWRANK u=59/17 r=2 gens=2
+FIBSURV Sig=3 t=43/17 u=59/17
+SKIPISO t=43/17 u=59/17
+MWRANK u=59/14 r=2 gens=2
+FIBSURV Sig=3 t=25/14 u=59/14
+SKIPISO t=25/14 u=59/14
+MWRANK u=59/27 r=1 gens=2
+FIBSURV Sig=3 t=103/27 u=59/27
+SKIPISO t=103/27 u=59/27
+MWRANK u=59/30 r=3 gens=2
+FIBSURV Sig=3 t=121/30 u=59/30
+SKIPISO t=121/30 u=59/30
+MWRANK u=59/19 r=1 gens=2
+FIBSURV Sig=3 t=55/19 u=59/19
+SKIPISO t=55/19 u=59/19
+MWRANK u=59/3 r=1 gens=2
+FIBSURV Sig=3 t=-41/3 u=59/3
+SKIPISO t=-41/3 u=59/3
+MWRANK u=-59/5 r=1 gens=2
+FIBSURV Sig=3 t=89/5 u=-59/5
+SKIPISO t=89/5 u=-59/5
+MWRANK u=59 r=2 gens=2
+FIBSURV Sig=3 t=-53 u=59
+SKIPISO t=-53 u=59
+MWRANK u=59/16 r=1 gens=2
+FIBSURV Sig=3 t=37/16 u=59/16
+SKIPISO t=37/16 u=59/16
+MWRANK u=59/13 r=1 gens=2
+FIBSURV Sig=3 t=19/13 u=59/13
+SKIPISO t=19/13 u=59/13
+MWRANK u=59/29 r=2 gens=2
+FIBSURV Sig=3 t=115/29 u=59/29
+SKIPISO t=115/29 u=59/29
+MWRANK u=59/32 r=2 gens=2
+FIBSURV Sig=3 t=133/32 u=59/32
+SKIPISO t=133/32 u=59/32
+MWRANK u=59/9 r=1 gens=2
+FIBSURV Sig=3 t=-5/9 u=59/9
+SKIPISO t=-5/9 u=59/9
+MWRANK u=-59/8 r=2 gens=2
+FIBSURV Sig=3 t=107/8 u=-59/8
+SKIPISO t=107/8 u=-59/8
+MWRANK u=59/25 r=2 gens=2
+FIBSURV Sig=3 t=91/25 u=59/25
+SKIPISO t=91/25 u=59/25
+MWRANK u=59/28 r=4 gens=2
+FIBSURV Sig=3 t=109/28 u=59/28
+SKIPISO t=109/28 u=59/28
+MWRANK u=-59/9 r=2 gens=2
+FIBSURV Sig=3 t=113/9 u=-59/9
+SKIPISO t=113/9 u=-59/9
+MWRANK u=59/31 r=3 gens=2
+FIBSURV Sig=3 t=127/31 u=59/31
+SKIPISO t=127/31 u=59/31
+MWRANK u=-59 r=2 gens=2
+FIBSURV Sig=3 t=65 u=-59
+SKIPISO t=65 u=-59
+MWRANK u=59/12 r=3 gens=2
+FIBSURV Sig=3 t=13/12 u=59/12
+SKIPISO t=13/12 u=59/12
+MWRANK u=-59/4 r=2 gens=2
+FIBSURV Sig=3 t=83/4 u=-59/4
+SKIPISO t=83/4 u=-59/4
+MWRANK u=59/11 r=1 gens=2
+FIBSURV Sig=3 t=7/11 u=59/11
+SKIPISO t=7/11 u=59/11
+MWRANK u=59/8 r=1 gens=2
+FIBSURV Sig=3 t=-11/8 u=59/8
+SKIPISO t=-11/8 u=59/8
+MWRANK u=59/24 r=1 gens=2
+FIBSURV Sig=3 t=85/24 u=59/24
+SKIPISO t=85/24 u=59/24
+MWRANK u=59/10 r=2 gens=2
+FIBSURV Sig=3 t=1/10 u=59/10
+SKIPISO t=1/10 u=59/10
+MWRANK u=-59/7 r=3 gens=2
+FIBSURV Sig=3 t=101/7 u=-59/7
+SKIPISO t=101/7 u=-59/7
+MWRANK u=59/6 r=2 gens=2
+FIBSURV Sig=3 t=-23/6 u=59/6
+SKIPISO t=-23/6 u=59/6
+MWSKIP u=-59/10 bounds=[1,3]
+FIBSURV Sig=3 t=119/10 u=-59/10
+SKIPISO t=119/10 u=-59/10
+MWRANK u=59/34 r=3 gens=2
+FIBSURV Sig=3 t=145/34 u=59/34
+SKIPISO t=145/34 u=59/34
+MWRANK u=59/4 r=2 gens=2
+FIBSURV Sig=3 t=-35/4 u=59/4
+SKIPISO t=-35/4 u=59/4
+MWRANK u=-59/13 r=1 gens=2
+FIBSURV Sig=3 t=137/13 u=-59/13
+SKIPISO t=137/13 u=-59/13
+MWSKIP u=-59/14 bounds=[1,2]
+FIBSURV Sig=3 t=143/14 u=-59/14
+SKIPISO t=143/14 u=-59/14
+MWRANK u=-59/2 r=2 gens=2
+FIBSURV Sig=3 t=71/2 u=-59/2
+SKIPISO t=71/2 u=-59/2
+MWRANK u=59/22 r=2 gens=2
+FIBSURV Sig=3 t=73/22 u=59/22
+SKIPISO t=73/22 u=59/22
+MWRANK u=59/26 r=1 gens=2
+FIBSURV Sig=3 t=97/26 u=59/26
+SKIPISO t=97/26 u=59/26
+MWRANK u=59/23 r=2 gens=2
+FIBSURV Sig=3 t=79/23 u=59/23
+SKIPISO t=79/23 u=59/23
+MWRANK u=59/5 r=2 gens=2
+FIBSURV Sig=3 t=-29/5 u=59/5
+SKIPISO t=-29/5 u=59/5
+MWRANK u=-59/3 r=1 gens=2
+FIBSURV Sig=3 t=77/3 u=-59/3
+SKIPISO t=77/3 u=-59/3
+MWRANK u=-59/15 r=2 gens=2
+FIBSURV Sig=3 t=149/15 u=-59/15
+SKIPISO t=149/15 u=-59/15
+MWRANK u=59/33 r=1 gens=2
+FIBSURV Sig=3 t=139/33 u=59/33
+SKIPISO t=139/33 u=59/33
+MWRANK u=-59/12 r=3 gens=2
+FIBSURV Sig=3 t=131/12 u=-59/12
+SKIPISO t=131/12 u=-59/12
+MWRANK u=59/2 r=1 gens=2
+FIBSURV Sig=3 t=-47/2 u=59/2
+SKIPISO t=-47/2 u=59/2
+MWRANK u=-59/11 r=1 gens=2
+FIBSURV Sig=3 t=125/11 u=-59/11
+SKIPISO t=125/11 u=-59/11
+MWRANK u=60/23 r=2 gens=2
+FIBSURV Sig=3 t=78/23 u=60/23
+SKIPISO t=78/23 u=60/23
+MWRANK u=60/13 r=3 gens=2
+FIBSURV Sig=3 t=18/13 u=60/13
+SKIPISO t=18/13 u=60/13
+MWRANK u=60 r=2 gens=2
+FIBSURV Sig=3 t=-54 u=60
+SKIPISO t=-54 u=60
+MWRANK u=60/19 r=1 gens=2
+FIBSURV Sig=3 t=54/19 u=60/19
+SKIPISO t=54/19 u=60/19
+MWSKIP u=-60/11 bounds=[1,3]
+FIBSURV Sig=3 t=126/11 u=-60/11
+SKIPISO t=126/11 u=-60/11
+MWRANK u=-60/13 r=3 gens=2
+FIBSURV Sig=3 t=138/13 u=-60/13
+SKIPISO t=138/13 u=-60/13
+MWRANK u=-60/7 r=1 gens=2
+FIBSURV Sig=3 t=102/7 u=-60/7
+SKIPISO t=102/7 u=-60/7
+MWRANK u=60/31 r=2 gens=2
+FIBSURV Sig=3 t=126/31 u=60/31
+SKIPISO t=126/31 u=60/31
+MWRANK u=-60 r=3 gens=2
+FIBSURV Sig=3 t=66 u=-60
+SKIPISO t=66 u=-60
+MWRANK u=60/17 r=1 gens=2
+FIBSURV Sig=3 t=42/17 u=60/17
+SKIPISO t=42/17 u=60/17
+MWRANK u=60/7 r=1 gens=2
+FIBSURV Sig=3 t=-18/7 u=60/7
+SKIPISO t=-18/7 u=60/7
+MWRANK u=60/29 r=1 gens=2
+FIBSURV Sig=3 t=114/29 u=60/29
+SKIPISO t=114/29 u=60/29
+MWRANK u=60/11 r=1 gens=2
+FIBSURV Sig=3 t=6/11 u=60/11
+SKIPISO t=6/11 u=60/11
+MWRANK u=61/13 r=3 gens=2
+FIBSURV Sig=3 t=17/13 u=61/13
+SKIPISO t=17/13 u=61/13
+MWRANK u=61/16 r=2 gens=2
+FIBSURV Sig=3 t=35/16 u=61/16
+SKIPISO t=35/16 u=61/16
+MWRANK u=61/27 r=2 gens=2
+FIBSURV Sig=3 t=101/27 u=61/27
+SKIPISO t=101/27 u=61/27
+MWRANK u=61/6 r=1 gens=2
+FIBSURV Sig=3 t=-25/6 u=61/6
+SKIPISO t=-25/6 u=61/6
+MWRANK u=61/29 r=1 gens=2
+FIBSURV Sig=3 t=113/29 u=61/29
+SKIPISO t=113/29 u=61/29
+MWRANK u=61/18 r=1 gens=2
+FIBSURV Sig=3 t=47/18 u=61/18
+SKIPISO t=47/18 u=61/18
+MWRANK u=-61/6 r=1 gens=2
+FIBSURV Sig=3 t=97/6 u=-61/6
+SKIPISO t=97/6 u=-61/6
+MWRANK u=61/20 r=1 gens=2
+FIBSURV Sig=3 t=59/20 u=61/20
+SKIPISO t=59/20 u=61/20
+MWRANK u=-61/12 r=1 gens=2
+FIBSURV Sig=3 t=133/12 u=-61/12
+SKIPISO t=133/12 u=-61/12
+MWRANK u=-61/4 r=3 gens=2
+FIBSURV Sig=3 t=85/4 u=-61/4
+SKIPISO t=85/4 u=-61/4
+MWSKIP u=61/32 bounds=[1,3]
+FIBSURV Sig=3 t=131/32 u=61/32
+SKIPISO t=131/32 u=61/32
+MWRANK u=-61/7 r=2 gens=2
+FIBSURV Sig=3 t=103/7 u=-61/7
+SKIPISO t=103/7 u=-61/7
+MWRANK u=61/14 r=2 gens=2
+FIBSURV Sig=3 t=23/14 u=61/14
+SKIPISO t=23/14 u=61/14
+MWRANK u=61/10 r=1 gens=2
+FIBSURV Sig=3 t=-1/10 u=61/10
+SKIPISO t=-1/10 u=61/10
+MWRANK u=61/28 r=2 gens=2
+FIBSURV Sig=3 t=107/28 u=61/28
+SKIPISO t=107/28 u=61/28
+MWRANK u=61/9 r=2 gens=2
+FIBSURV Sig=3 t=-7/9 u=61/9
+SKIPISO t=-7/9 u=61/9
+MWRANK u=61/15 r=1 gens=2
+FIBSURV Sig=3 t=29/15 u=61/15
+SKIPISO t=29/15 u=61/15
+MWSKIP u=61/2 bounds=[1,3]
+FIBSURV Sig=3 t=-49/2 u=61/2
+SKIPISO t=-49/2 u=61/2
+MWRANK u=-61/2 r=2 gens=2
+FIBSURV Sig=3 t=73/2 u=-61/2
+SKIPISO t=73/2 u=-61/2
+MWRANK u=61/12 r=1 gens=2
+FIBSURV Sig=3 t=11/12 u=61/12
+SKIPISO t=11/12 u=61/12
+MWRANK u=-61/11 r=1 gens=2
+FIBSURV Sig=3 t=127/11 u=-61/11
+SKIPISO t=127/11 u=-61/11
+MWRANK u=61/8 r=2 gens=2
+FIBSURV Sig=3 t=-13/8 u=61/8
+SKIPISO t=-13/8 u=61/8
+MWRANK u=61/24 r=1 gens=2
+FIBSURV Sig=3 t=83/24 u=61/24
+SKIPISO t=83/24 u=61/24
+MWRANK u=-61/13 r=1 gens=2
+FIBSURV Sig=3 t=139/13 u=-61/13
+SKIPISO t=139/13 u=-61/13
+MWRANK u=61/35 r=2 gens=2
+FIBSURV Sig=3 t=149/35 u=61/35
+SKIPISO t=149/35 u=61/35
+MWRANK u=-61/5 r=1 gens=2
+FIBSURV Sig=3 t=91/5 u=-61/5
+SKIPISO t=91/5 u=-61/5
+MWRANK u=61/17 r=2 gens=2
+FIBSURV Sig=3 t=41/17 u=61/17
+SKIPISO t=41/17 u=61/17
+MWRANK u=-61/14 r=2 gens=2
+FIBSURV Sig=3 t=145/14 u=-61/14
+SKIPISO t=145/14 u=-61/14
+MWRANK u=-61/3 r=1 gens=2
+FIBSURV Sig=3 t=79/3 u=-61/3
+SKIPISO t=79/3 u=-61/3
+MWRANK u=61/33 r=3 gens=2
+FIBSURV Sig=3 t=137/33 u=61/33
+SKIPISO t=137/33 u=61/33
+MWRANK u=61/19 r=3 gens=2
+FIBSURV Sig=3 t=53/19 u=61/19
+SKIPISO t=53/19 u=61/19
+MWRANK u=-61 r=1 gens=2
+FIBSURV Sig=3 t=67 u=-61
+SKIPISO t=67 u=-61
+MWRANK u=61/11 r=1 gens=2
+FIBSURV Sig=3 t=5/11 u=61/11
+SKIPISO t=5/11 u=61/11
+MWRANK u=61/34 r=1 gens=2
+FIBSURV Sig=3 t=143/34 u=61/34
+SKIPISO t=143/34 u=61/34
+MWRANK u=61/5 r=2 gens=2
+FIBSURV Sig=3 t=-31/5 u=61/5
+SKIPISO t=-31/5 u=61/5
+MWRANK u=61/3 r=2 gens=2
+FIBSURV Sig=3 t=-43/3 u=61/3
+SKIPISO t=-43/3 u=61/3
+MWRANK u=61 r=1 gens=2
+FIBSURV Sig=3 t=-55 u=61
+SKIPISO t=-55 u=61
+MWRANK u=61/23 r=3 gens=2
+FIBSURV Sig=3 t=77/23 u=61/23
+SKIPISO t=77/23 u=61/23
+MWSKIP u=-61/9 bounds=[1,3]
+FIBSURV Sig=3 t=115/9 u=-61/9
+SKIPISO t=115/9 u=-61/9
+MWRANK u=61/25 r=1 gens=2
+FIBSURV Sig=3 t=89/25 u=61/25
+SKIPISO t=89/25 u=61/25
+MWRANK u=61/26 r=2 gens=2
+FIBSURV Sig=3 t=95/26 u=61/26
+SKIPISO t=95/26 u=61/26
+MWRANK u=-61/8 r=1 gens=2
+FIBSURV Sig=3 t=109/8 u=-61/8
+SKIPISO t=109/8 u=-61/8
+MWRANK u=-61/10 r=2 gens=2
+FIBSURV Sig=3 t=121/10 u=-61/10
+SKIPISO t=121/10 u=-61/10
+MWSKIP u=61/30 bounds=[1,3]
+FIBSURV Sig=3 t=119/30 u=61/30
+SKIPISO t=119/30 u=61/30
+MWRANK u=61/21 r=1 gens=2
+FIBSURV Sig=3 t=65/21 u=61/21
+SKIPISO t=65/21 u=61/21
+MWSKIP u=61/31 bounds=[1,3]
+FIBSURV Sig=3 t=125/31 u=61/31
+SKIPISO t=125/31 u=61/31
+MWRANK u=57/61 r=2 gens=2
+FIBSURV Sig=3 t=309/61 u=57/61
+SKIPISO t=309/61 u=57/61
+MWRANK u=61/22 r=3 gens=2
+FIBSURV Sig=3 t=71/22 u=61/22
+SKIPISO t=71/22 u=61/22
+MWRANK u=62/5 r=2 gens=2
+FIBSURV Sig=3 t=-32/5 u=62/5
+SKIPISO t=-32/5 u=62/5
+MWSKIP u=62 bounds=[1,2]
+FIBSURV Sig=3 t=-56 u=62
+SKIPISO t=-56 u=62
+MWRANK u=-62/5 r=3 gens=2
+FIBSURV Sig=3 t=92/5 u=-62/5
+SKIPISO t=92/5 u=-62/5
+MWRANK u=-62/13 r=1 gens=2
+FIBSURV Sig=3 t=140/13 u=-62/13
+SKIPISO t=140/13 u=-62/13
+MWRANK u=62/3 r=2 gens=2
+FIBSURV Sig=3 t=-44/3 u=62/3
+SKIPISO t=-44/3 u=62/3
+MWRANK u=62/13 r=3 gens=2
+FIBSURV Sig=3 t=16/13 u=62/13
+SKIPISO t=16/13 u=62/13
+MWRANK u=62/29 r=2 gens=2
+FIBSURV Sig=3 t=112/29 u=62/29
+SKIPISO t=112/29 u=62/29
+MWRANK u=-62/7 r=1 gens=2
+FIBSURV Sig=3 t=104/7 u=-62/7
+SKIPISO t=104/7 u=-62/7
+MWRANK u=62/21 r=2 gens=2
+FIBSURV Sig=3 t=64/21 u=62/21
+SKIPISO t=64/21 u=62/21
+MWRANK u=62/25 r=2 gens=2
+FIBSURV Sig=3 t=88/25 u=62/25
+SKIPISO t=88/25 u=62/25
+MWRANK u=-62/9 r=1 gens=2
+FIBSURV Sig=3 t=116/9 u=-62/9
+SKIPISO t=116/9 u=-62/9
+MWRANK u=62/17 r=3 gens=2
+FIBSURV Sig=3 t=40/17 u=62/17
+SKIPISO t=40/17 u=62/17
+MWRANK u=62/15 r=1 gens=2
+FIBSURV Sig=3 t=28/15 u=62/15
+SKIPISO t=28/15 u=62/15
+MWRANK u=62/7 r=1 gens=2
+FIBSURV Sig=3 t=-20/7 u=62/7
+SKIPISO t=-20/7 u=62/7
+MWRANK u=62/33 r=2 gens=2
+FIBSURV Sig=3 t=136/33 u=62/33
+SKIPISO t=136/33 u=62/33
+MWRANK u=-62 r=2 gens=2
+FIBSURV Sig=3 t=68 u=-62
+SKIPISO t=68 u=-62
+MWRANK u=62/19 r=1 gens=2
+FIBSURV Sig=3 t=52/19 u=62/19
+SKIPISO t=52/19 u=62/19
+MWRANK u=62/35 r=2 gens=2
+FIBSURV Sig=3 t=148/35 u=62/35
+SKIPISO t=148/35 u=62/35
+MWRANK u=62/27 r=2 gens=2
+FIBSURV Sig=3 t=100/27 u=62/27
+SKIPISO t=100/27 u=62/27
+MWRANK u=62/11 r=3 gens=2
+FIBSURV Sig=3 t=4/11 u=62/11
+SKIPISO t=4/11 u=62/11
+MWRANK u=62/9 r=2 gens=2
+FIBSURV Sig=3 t=-8/9 u=62/9
+SKIPISO t=-8/9 u=62/9
+MWRANK u=-62/11 r=1 gens=2
+FIBSURV Sig=3 t=128/11 u=-62/11
+SKIPISO t=128/11 u=-62/11
+MWSKIP u=-62/3 bounds=[1,3]
+FIBSURV Sig=3 t=80/3 u=-62/3
+SKIPISO t=80/3 u=-62/3
+MWRANK u=62/23 r=2 gens=2
+FIBSURV Sig=3 t=76/23 u=62/23
+SKIPISO t=76/23 u=62/23
+MWRANK u=-11/63 r=2 gens=2
+MWRANK u=63/20 r=3 gens=2
+FIBSURV Sig=3 t=57/20 u=63/20
+SKIPISO t=57/20 u=63/20
+MWRANK u=63/22 r=1 gens=2
+FIBSURV Sig=3 t=69/22 u=63/22
+SKIPISO t=69/22 u=63/22
+MWRANK u=-63/13 r=2 gens=2
+FIBSURV Sig=3 t=141/13 u=-63/13
+SKIPISO t=141/13 u=-63/13
+MWRANK u=63/25 r=2 gens=2
+FIBSURV Sig=3 t=87/25 u=63/25
+SKIPISO t=87/25 u=63/25
+MWRANK u=-63/10 r=2 gens=2
+FIBSURV Sig=3 t=123/10 u=-63/10
+SKIPISO t=123/10 u=-63/10
+MWRANK u=-63/4 r=1 gens=2
+FIBSURV Sig=3 t=87/4 u=-63/4
+SKIPISO t=87/4 u=-63/4
+MWRANK u=63/29 r=1 gens=2
+FIBSURV Sig=3 t=111/29 u=63/29
+SKIPISO t=111/29 u=63/29
+MWRANK u=63/16 r=1 gens=2
+FIBSURV Sig=3 t=33/16 u=63/16
+SKIPISO t=33/16 u=63/16
+MWRANK u=63/32 r=1 gens=2
+FIBSURV Sig=3 t=129/32 u=63/32
+SKIPISO t=129/32 u=63/32
+MWRANK u=63/10 r=1 gens=2
+FIBSURV Sig=3 t=-3/10 u=63/10
+SKIPISO t=-3/10 u=63/10
+MWRANK u=-63 r=1 gens=2
+FIBSURV Sig=3 t=69 u=-63
+SKIPISO t=69 u=-63
+MWRANK u=-63/2 r=1 gens=2
+FIBSURV Sig=3 t=75/2 u=-63/2
+SKIPISO t=75/2 u=-63/2
+MWRANK u=63/17 r=1 gens=2
+FIBSURV Sig=3 t=39/17 u=63/17
+SKIPISO t=39/17 u=63/17
+MWRANK u=-63/5 r=2 gens=2
+FIBSURV Sig=3 t=93/5 u=-63/5
+SKIPISO t=93/5 u=-63/5
+MWRANK u=63 r=1 gens=2
+FIBSURV Sig=3 t=-57 u=63
+SKIPISO t=-57 u=63
+MWRANK u=63/26 r=1 gens=2
+FIBSURV Sig=3 t=93/26 u=63/26
+SKIPISO t=93/26 u=63/26
+MWRANK u=63/8 r=2 gens=2
+FIBSURV Sig=3 t=-15/8 u=63/8
+SKIPISO t=-15/8 u=63/8
+MWRANK u=63/13 r=1 gens=2
+FIBSURV Sig=3 t=15/13 u=63/13
+SKIPISO t=15/13 u=63/13
+MWRANK u=63/2 r=3 gens=2
+FIBSURV Sig=3 t=-51/2 u=63/2
+SKIPISO t=-51/2 u=63/2
+MWRANK u=63/19 r=1 gens=2
+FIBSURV Sig=3 t=51/19 u=63/19
+SKIPISO t=51/19 u=63/19
+MWRANK u=-63/11 r=3 gens=2
+FIBSURV Sig=3 t=129/11 u=-63/11
+SKIPISO t=129/11 u=-63/11
+MWRANK u=63/34 r=2 gens=2
+FIBSURV Sig=3 t=141/34 u=63/34
+SKIPISO t=141/34 u=63/34
+MWRANK u=63/11 r=2 gens=2
+FIBSURV Sig=3 t=3/11 u=63/11
+SKIPISO t=3/11 u=63/11
+MWRANK u=63/4 r=2 gens=2
+FIBSURV Sig=3 t=-39/4 u=63/4
+SKIPISO t=-39/4 u=63/4
+MWRANK u=-63/8 r=1 gens=2
+FIBSURV Sig=3 t=111/8 u=-63/8
+SKIPISO t=111/8 u=-63/8
+MWRANK u=63/23 r=2 gens=2
+FIBSURV Sig=3 t=75/23 u=63/23
+SKIPISO t=75/23 u=63/23
+MWRANK u=63/31 r=2 gens=2
+FIBSURV Sig=3 t=123/31 u=63/31
+SKIPISO t=123/31 u=63/31
+MWRANK u=63/5 r=2 gens=2
+FIBSURV Sig=3 t=-33/5 u=63/5
+SKIPISO t=-33/5 u=63/5
+MWRANK u=-64/13 r=3 gens=2
+FIBSURV Sig=3 t=142/13 u=-64/13
+SKIPISO t=142/13 u=-64/13
+MWRANK u=64/33 r=2 gens=2
+FIBSURV Sig=3 t=134/33 u=64/33
+SKIPISO t=134/33 u=64/33
+MWRANK u=64/23 r=2 gens=2
+FIBSURV Sig=3 t=74/23 u=64/23
+SKIPISO t=74/23 u=64/23
+MWRANK u=64/19 r=2 gens=2
+FIBSURV Sig=3 t=50/19 u=64/19
+SKIPISO t=50/19 u=64/19
+MWRANK u=-64 r=1 gens=2
+FIBSURV Sig=3 t=70 u=-64
+SKIPISO t=70 u=-64
+MWRANK u=64/7 r=2 gens=2
+FIBSURV Sig=3 t=-22/7 u=64/7
+SKIPISO t=-22/7 u=64/7
+MWRANK u=64/35 r=2 gens=2
+FIBSURV Sig=3 t=146/35 u=64/35
+SKIPISO t=146/35 u=64/35
+MWRANK u=-64/7 r=1 gens=2
+FIBSURV Sig=3 t=106/7 u=-64/7
+SKIPISO t=106/7 u=-64/7
+MWRANK u=64/11 r=1 gens=2
+FIBSURV Sig=3 t=2/11 u=64/11
+SKIPISO t=2/11 u=64/11
+MWRANK u=64/21 r=1 gens=2
+FIBSURV Sig=3 t=62/21 u=64/21
+SKIPISO t=62/21 u=64/21
+MWRANK u=-27/64 r=3 gens=2
+MWRANK u=64 r=2 gens=2
+FIBSURV Sig=3 t=-58 u=64
+SKIPISO t=-58 u=64
+MWRANK u=64/25 r=2 gens=2
+FIBSURV Sig=3 t=86/25 u=64/25
+SKIPISO t=86/25 u=64/25
+MWRANK u=64/27 r=2 gens=2
+FIBSURV Sig=3 t=98/27 u=64/27
+SKIPISO t=98/27 u=64/27
+MWRANK u=-64/3 r=3 gens=2
+FIBSURV Sig=3 t=82/3 u=-64/3
+SKIPISO t=82/3 u=-64/3
+MWRANK u=-64/11 r=3 gens=2
+FIBSURV Sig=3 t=130/11 u=-64/11
+SKIPISO t=130/11 u=-64/11
+MWRANK u=64/13 r=1 gens=2
+FIBSURV Sig=3 t=14/13 u=64/13
+SKIPISO t=14/13 u=64/13
+MWRANK u=64/15 r=3 gens=2
+FIBSURV Sig=3 t=26/15 u=64/15
+SKIPISO t=26/15 u=64/15
+MWRANK u=64/3 r=2 gens=2
+FIBSURV Sig=3 t=-46/3 u=64/3
+SKIPISO t=-46/3 u=64/3
+MWRANK u=64/5 r=2 gens=2
+FIBSURV Sig=3 t=-34/5 u=64/5
+SKIPISO t=-34/5 u=64/5
+MWRANK u=-64/5 r=1 gens=2
+FIBSURV Sig=3 t=94/5 u=-64/5
+SKIPISO t=94/5 u=-64/5
+MWRANK u=-64/9 r=2 gens=2
+FIBSURV Sig=3 t=118/9 u=-64/9
+SKIPISO t=118/9 u=-64/9
+MWRANK u=64/9 r=3 gens=2
+FIBSURV Sig=3 t=-10/9 u=64/9
+SKIPISO t=-10/9 u=64/9
+MWRANK u=64/29 r=2 gens=2
+FIBSURV Sig=3 t=110/29 u=64/29
+SKIPISO t=110/29 u=64/29
+MWRANK u=64/31 r=2 gens=2
+FIBSURV Sig=3 t=122/31 u=64/31
+SKIPISO t=122/31 u=64/31
+MWSKIP u=64/17 bounds=[1,3]
+FIBSURV Sig=3 t=38/17 u=64/17
+SKIPISO t=38/17 u=64/17
+MWRANK u=65/3 r=1 gens=2
+FIBSURV Sig=3 t=-47/3 u=65/3
+SKIPISO t=-47/3 u=65/3
+MWRANK u=-65/6 r=2 gens=2
+FIBSURV Sig=3 t=101/6 u=-65/6
+SKIPISO t=101/6 u=-65/6
+MWRANK u=65/31 r=2 gens=2
+FIBSURV Sig=3 t=121/31 u=65/31
+SKIPISO t=121/31 u=65/31
+MWRANK u=65/22 r=1 gens=2
+FIBSURV Sig=3 t=67/22 u=65/22
+SKIPISO t=67/22 u=65/22
+MWRANK u=65/34 r=2 gens=2
+FIBSURV Sig=3 t=139/34 u=65/34
+SKIPISO t=139/34 u=65/34
+MWSKIP u=65/6 bounds=[1,3]
+FIBSURV Sig=3 t=-29/6 u=65/6
+SKIPISO t=-29/6 u=65/6
+MWRANK u=65/2 r=3 gens=2
+FIBSURV Sig=3 t=-53/2 u=65/2
+SKIPISO t=-53/2 u=65/2
+MWRANK u=-65/4 r=1 gens=2
+FIBSURV Sig=3 t=89/4 u=-65/4
+SKIPISO t=89/4 u=-65/4
+MWSKIP u=65/4 bounds=[1,2]
+FIBSURV Sig=3 t=-41/4 u=65/4
+SKIPISO t=-41/4 u=65/4
+MWRANK u=-65 r=1 gens=2
+FIBSURV Sig=3 t=71 u=-65
+SKIPISO t=71 u=-65
+MWRANK u=65/12 r=1 gens=2
+FIBSURV Sig=3 t=7/12 u=65/12
+SKIPISO t=7/12 u=65/12
+MWRANK u=65 r=2 gens=2
+FIBSURV Sig=3 t=-59 u=65
+SKIPISO t=-59 u=65
+MWRANK u=65/7 r=2 gens=2
+FIBSURV Sig=3 t=-23/7 u=65/7
+SKIPISO t=-23/7 u=65/7
+MWRANK u=65/27 r=2 gens=2
+FIBSURV Sig=3 t=97/27 u=65/27
+SKIPISO t=97/27 u=65/27
+MWRANK u=65/16 r=1 gens=2
+FIBSURV Sig=3 t=31/16 u=65/16
+SKIPISO t=31/16 u=65/16
+MWRANK u=65/14 r=2 gens=2
+FIBSURV Sig=3 t=19/14 u=65/14
+SKIPISO t=19/14 u=65/14
+MWRANK u=65/23 r=2 gens=2
+FIBSURV Sig=3 t=73/23 u=65/23
+SKIPISO t=73/23 u=65/23
+MWRANK u=65/17 r=1 gens=2
+FIBSURV Sig=3 t=37/17 u=65/17
+SKIPISO t=37/17 u=65/17
+MWRANK u=-65/11 r=2 gens=2
+FIBSURV Sig=3 t=131/11 u=-65/11
+SKIPISO t=131/11 u=-65/11
+MWRANK u=65/19 r=2 gens=2
+FIBSURV Sig=3 t=49/19 u=65/19
+SKIPISO t=49/19 u=65/19
+MWRANK u=65/18 r=1 gens=2
+FIBSURV Sig=3 t=43/18 u=65/18
+SKIPISO t=43/18 u=65/18
+MWRANK u=65/32 r=1 gens=2
+FIBSURV Sig=3 t=127/32 u=65/32
+SKIPISO t=127/32 u=65/32
+MWRANK u=65/29 r=2 gens=2
+FIBSURV Sig=3 t=109/29 u=65/29
+SKIPISO t=109/29 u=65/29
+MWRANK u=-65/8 r=4 gens=2
+FIBSURV Sig=3 t=113/8 u=-65/8
+SKIPISO t=113/8 u=-65/8
+MWRANK u=65/9 r=2 gens=2
+FIBSURV Sig=3 t=-11/9 u=65/9
+SKIPISO t=-11/9 u=65/9
+MWRANK u=-65/3 r=2 gens=2
+FIBSURV Sig=3 t=83/3 u=-65/3
+SKIPISO t=83/3 u=-65/3
+MWRANK u=-65/2 r=2 gens=2
+FIBSURV Sig=3 t=77/2 u=-65/2
+SKIPISO t=77/2 u=-65/2
+MWRANK u=65/11 r=2 gens=2
+FIBSURV Sig=3 t=1/11 u=65/11
+SKIPISO t=1/11 u=65/11
+MWSKIP u=-65/12 bounds=[1,3]
+FIBSURV Sig=3 t=137/12 u=-65/12
+SKIPISO t=137/12 u=-65/12
+MWRANK u=-65/7 r=1 gens=2
+FIBSURV Sig=3 t=107/7 u=-65/7
+SKIPISO t=107/7 u=-65/7
+MWRANK u=-65/9 r=1 gens=2
+FIBSURV Sig=3 t=119/9 u=-65/9
+SKIPISO t=119/9 u=-65/9
+MWRANK u=65/24 r=2 gens=2
+FIBSURV Sig=3 t=79/24 u=65/24
+SKIPISO t=79/24 u=65/24
+MWRANK u=65/28 r=2 gens=2
+FIBSURV Sig=3 t=103/28 u=65/28
+SKIPISO t=103/28 u=65/28
+MWRANK u=-65/14 r=1 gens=2
+FIBSURV Sig=3 t=149/14 u=-65/14
+SKIPISO t=149/14 u=-65/14
+MWRANK u=65/21 r=2 gens=2
+FIBSURV Sig=3 t=61/21 u=65/21
+SKIPISO t=61/21 u=65/21
+MWRANK u=65/33 r=1 gens=2
+FIBSURV Sig=3 t=133/33 u=65/33
+SKIPISO t=133/33 u=65/33
+MWRANK u=-66/13 r=3 gens=2
+FIBSURV Sig=3 t=144/13 u=-66/13
+SKIPISO t=144/13 u=-66/13
+MWRANK u=66/25 r=2 gens=2
+FIBSURV Sig=3 t=84/25 u=66/25
+SKIPISO t=84/25 u=66/25
+MWRANK u=66/29 r=2 gens=2
+FIBSURV Sig=3 t=108/29 u=66/29
+SKIPISO t=108/29 u=66/29
+MWRANK u=66/13 r=2 gens=2
+FIBSURV Sig=3 t=12/13 u=66/13
+SKIPISO t=12/13 u=66/13
+MWRANK u=66/31 r=2 gens=2
+FIBSURV Sig=3 t=120/31 u=66/31
+SKIPISO t=120/31 u=66/31
+MWRANK u=66/7 r=2 gens=2
+FIBSURV Sig=3 t=-24/7 u=66/7
+SKIPISO t=-24/7 u=66/7
+MWRANK u=66/23 r=2 gens=2
+FIBSURV Sig=3 t=72/23 u=66/23
+SKIPISO t=72/23 u=66/23
+MWRANK u=66/35 r=2 gens=2
+FIBSURV Sig=3 t=144/35 u=66/35
+SKIPISO t=144/35 u=66/35
+MWRANK u=-66 r=1 gens=2
+FIBSURV Sig=3 t=72 u=-66
+SKIPISO t=72 u=-66
+MWRANK u=66/5 r=2 gens=2
+FIBSURV Sig=3 t=-36/5 u=66/5
+SKIPISO t=-36/5 u=66/5
+MWRANK u=66/19 r=1 gens=2
+FIBSURV Sig=3 t=48/19 u=66/19
+SKIPISO t=48/19 u=66/19
+MWRANK u=-66/5 r=3 gens=2
+FIBSURV Sig=3 t=96/5 u=-66/5
+SKIPISO t=96/5 u=-66/5
+MWRANK u=66/17 r=3 gens=2
+FIBSURV Sig=3 t=36/17 u=66/17
+SKIPISO t=36/17 u=66/17
+MWRANK u=-66/7 r=1 gens=2
+FIBSURV Sig=3 t=108/7 u=-66/7
+SKIPISO t=108/7 u=-66/7
+MWRANK u=67/14 r=2 gens=2
+FIBSURV Sig=3 t=17/14 u=67/14
+SKIPISO t=17/14 u=67/14
+MWRANK u=-67/4 r=1 gens=2
+FIBSURV Sig=3 t=91/4 u=-67/4
+SKIPISO t=91/4 u=-67/4
+MWRANK u=67/20 r=1 gens=2
+FIBSURV Sig=3 t=53/20 u=67/20
+SKIPISO t=53/20 u=67/20
+MWRANK u=67/13 r=1 gens=2
+FIBSURV Sig=3 t=11/13 u=67/13
+SKIPISO t=11/13 u=67/13
+MWRANK u=67/2 r=3 gens=2
+FIBSURV Sig=3 t=-55/2 u=67/2
+SKIPISO t=-55/2 u=67/2
+MWRANK u=67/15 r=2 gens=2
+FIBSURV Sig=3 t=23/15 u=67/15
+SKIPISO t=23/15 u=67/15
+MWRANK u=67/7 r=1 gens=2
+FIBSURV Sig=3 t=-25/7 u=67/7
+SKIPISO t=-25/7 u=67/7
+MWRANK u=67/18 r=1 gens=2
+FIBSURV Sig=3 t=41/18 u=67/18
+SKIPISO t=41/18 u=67/18
+MWRANK u=67/27 r=2 gens=2
+FIBSURV Sig=3 t=95/27 u=67/27
+SKIPISO t=95/27 u=67/27
+MWRANK u=-67/12 r=1 gens=2
+FIBSURV Sig=3 t=139/12 u=-67/12
+SKIPISO t=139/12 u=-67/12
+MWRANK u=67/21 r=3 gens=2
+FIBSURV Sig=3 t=59/21 u=67/21
+SKIPISO t=59/21 u=67/21
+MWRANK u=67/3 r=2 gens=2
+FIBSURV Sig=3 t=-49/3 u=67/3
+SKIPISO t=-49/3 u=67/3
+MWRANK u=67/17 r=1 gens=2
+FIBSURV Sig=3 t=35/17 u=67/17
+SKIPISO t=35/17 u=67/17
+MWRANK u=67/4 r=2 gens=2
+FIBSURV Sig=3 t=-43/4 u=67/4
+SKIPISO t=-43/4 u=67/4
+MWRANK u=67/28 r=2 gens=2
+FIBSURV Sig=3 t=101/28 u=67/28
+SKIPISO t=101/28 u=67/28
+MWRANK u=-67/3 r=1 gens=2
+FIBSURV Sig=3 t=85/3 u=-67/3
+SKIPISO t=85/3 u=-67/3
+MWRANK u=67/29 r=2 gens=2
+FIBSURV Sig=3 t=107/29 u=67/29
+SKIPISO t=107/29 u=67/29
+MWRANK u=67/5 r=2 gens=2
+FIBSURV Sig=3 t=-37/5 u=67/5
+SKIPISO t=-37/5 u=67/5
+MWRANK u=67/30 r=1 gens=2
+FIBSURV Sig=3 t=113/30 u=67/30
+SKIPISO t=113/30 u=67/30
+MWRANK u=-67 r=2 gens=2
+FIBSURV Sig=3 t=73 u=-67
+SKIPISO t=73 u=-67
+MWRANK u=-67/9 r=1 gens=2
+FIBSURV Sig=3 t=121/9 u=-67/9
+SKIPISO t=121/9 u=-67/9
+MWRANK u=-67/7 r=2 gens=2
+FIBSURV Sig=3 t=109/7 u=-67/7
+SKIPISO t=109/7 u=-67/7
+MWRANK u=-67/2 r=2 gens=2
+FIBSURV Sig=3 t=79/2 u=-67/2
+SKIPISO t=79/2 u=-67/2
+MWRANK u=67/32 r=2 gens=2
+FIBSURV Sig=3 t=125/32 u=67/32
+SKIPISO t=125/32 u=67/32
+MWRANK u=-67/5 r=2 gens=2
+FIBSURV Sig=3 t=97/5 u=-67/5
+SKIPISO t=97/5 u=-67/5
+MWRANK u=67/22 r=2 gens=2
+FIBSURV Sig=3 t=65/22 u=67/22
+SKIPISO t=65/22 u=67/22
+MWRANK u=67 r=2 gens=2
+FIBSURV Sig=3 t=-61 u=67
+SKIPISO t=-61 u=67
+MWSKIP u=67/34 bounds=[1,3]
+FIBSURV Sig=3 t=137/34 u=67/34
+SKIPISO t=137/34 u=67/34
+MWRANK u=67/31 r=1 gens=2
+FIBSURV Sig=3 t=119/31 u=67/31
+SKIPISO t=119/31 u=67/31
+MWRANK u=67/8 r=1 gens=2
+FIBSURV Sig=3 t=-19/8 u=67/8
+SKIPISO t=-19/8 u=67/8
+MWRANK u=-67/11 r=1 gens=2
+FIBSURV Sig=3 t=133/11 u=-67/11
+SKIPISO t=133/11 u=-67/11
+MWRANK u=67/11 r=1 gens=2
+FIBSURV Sig=3 t=-1/11 u=67/11
+SKIPISO t=-1/11 u=67/11
+MWRANK u=67/12 r=1 gens=2
+FIBSURV Sig=3 t=5/12 u=67/12
+SKIPISO t=5/12 u=67/12
+MWRANK u=67/10 r=2 gens=2
+FIBSURV Sig=3 t=-7/10 u=67/10
+SKIPISO t=-7/10 u=67/10
+MWRANK u=-67/8 r=2 gens=2
+FIBSURV Sig=3 t=115/8 u=-67/8
+SKIPISO t=115/8 u=-67/8
+MWRANK u=67/19 r=1 gens=2
+FIBSURV Sig=3 t=47/19 u=67/19
+SKIPISO t=47/19 u=67/19
+MWRANK u=67/9 r=2 gens=2
+FIBSURV Sig=3 t=-13/9 u=67/9
+SKIPISO t=-13/9 u=67/9
+MWSKIP u=67/26 bounds=[1,3]
+FIBSURV Sig=3 t=89/26 u=67/26
+SKIPISO t=89/26 u=67/26
+MWRANK u=-67/6 r=2 gens=2
+FIBSURV Sig=3 t=103/6 u=-67/6
+SKIPISO t=103/6 u=-67/6
+MWRANK u=67/6 r=2 gens=2
+FIBSURV Sig=3 t=-31/6 u=67/6
+SKIPISO t=-31/6 u=67/6
+MWRANK u=67/35 r=3 gens=2
+FIBSURV Sig=3 t=143/35 u=67/35
+SKIPISO t=143/35 u=67/35
+MWSKIP u=67/36 bounds=[2,4]
+FIBSURV Sig=3 t=149/36 u=67/36
+SKIPISO t=149/36 u=67/36
+MWRANK u=67/25 r=2 gens=2
+FIBSURV Sig=3 t=83/25 u=67/25
+SKIPISO t=83/25 u=67/25
+MWRANK u=67/24 r=1 gens=2
+FIBSURV Sig=3 t=77/24 u=67/24
+SKIPISO t=77/24 u=67/24
+MWRANK u=-67/10 r=1 gens=2
+FIBSURV Sig=3 t=127/10 u=-67/10
+SKIPISO t=127/10 u=-67/10
+MWRANK u=-67/13 r=1 gens=2
+FIBSURV Sig=3 t=145/13 u=-67/13
+SKIPISO t=145/13 u=-67/13
+MWRANK u=67/23 r=1 gens=2
+FIBSURV Sig=3 t=71/23 u=67/23
+SKIPISO t=71/23 u=67/23
+MWRANK u=67/33 r=2 gens=2
+FIBSURV Sig=3 t=131/33 u=67/33
+SKIPISO t=131/33 u=67/33
+MWRANK u=68/29 r=2 gens=2
+FIBSURV Sig=3 t=106/29 u=68/29
+SKIPISO t=106/29 u=68/29
+MWRANK u=68/5 r=3 gens=2
+FIBSURV Sig=3 t=-38/5 u=68/5
+SKIPISO t=-38/5 u=68/5
+MWRANK u=-68/11 r=3 gens=2
+FIBSURV Sig=3 t=134/11 u=-68/11
+SKIPISO t=134/11 u=-68/11
+MWRANK u=-68/5 r=1 gens=2
+FIBSURV Sig=3 t=98/5 u=-68/5
+SKIPISO t=98/5 u=-68/5
+MWRANK u=68/3 r=2 gens=2
+FIBSURV Sig=3 t=-50/3 u=68/3
+SKIPISO t=-50/3 u=68/3
+MWRANK u=-68 r=3 gens=2
+FIBSURV Sig=3 t=74 u=-68
+SKIPISO t=74 u=-68
+MWRANK u=68/25 r=2 gens=2
+FIBSURV Sig=3 t=82/25 u=68/25
+SKIPISO t=82/25 u=68/25
+MWRANK u=68 r=2 gens=2
+FIBSURV Sig=3 t=-62 u=68
+SKIPISO t=-62 u=68
+MWRANK u=68/33 r=2 gens=2
+FIBSURV Sig=3 t=130/33 u=68/33
+SKIPISO t=130/33 u=68/33
+MWRANK u=68/7 r=2 gens=2
+FIBSURV Sig=3 t=-26/7 u=68/7
+SKIPISO t=-26/7 u=68/7
+MWRANK u=-68/13 r=2 gens=2
+FIBSURV Sig=3 t=146/13 u=-68/13
+SKIPISO t=146/13 u=-68/13
+MWRANK u=68/11 r=3 gens=2
+FIBSURV Sig=3 t=-2/11 u=68/11
+SKIPISO t=-2/11 u=68/11
+MWRANK u=68/27 r=2 gens=2
+FIBSURV Sig=3 t=94/27 u=68/27
+SKIPISO t=94/27 u=68/27
+MWSKIP u=-68/3 bounds=[1,3]
+FIBSURV Sig=3 t=86/3 u=-68/3
+SKIPISO t=86/3 u=-68/3
+MWRANK u=68/21 r=1 gens=2
+FIBSURV Sig=3 t=58/21 u=68/21
+SKIPISO t=58/21 u=68/21
+MWRANK u=68/35 r=4 gens=2
+FIBSURV Sig=3 t=142/35 u=68/35
+SKIPISO t=142/35 u=68/35
+MWRANK u=68/9 r=2 gens=2
+FIBSURV Sig=3 t=-14/9 u=68/9
+SKIPISO t=-14/9 u=68/9
+MWRANK u=68/19 r=1 gens=2
+FIBSURV Sig=3 t=46/19 u=68/19
+SKIPISO t=46/19 u=68/19
+MWRANK u=-68/9 r=1 gens=2
+FIBSURV Sig=3 t=122/9 u=-68/9
+SKIPISO t=122/9 u=-68/9
+MWSKIP u=68/15 bounds=[1,3]
+FIBSURV Sig=3 t=22/15 u=68/15
+SKIPISO t=22/15 u=68/15
+MWRANK u=68/23 r=2 gens=2
+FIBSURV Sig=3 t=70/23 u=68/23
+SKIPISO t=70/23 u=68/23
+MWRANK u=68/31 r=2 gens=2
+FIBSURV Sig=3 t=118/31 u=68/31
+SKIPISO t=118/31 u=68/31
+MWRANK u=68/13 r=1 gens=2
+FIBSURV Sig=3 t=10/13 u=68/13
+SKIPISO t=10/13 u=68/13
+MWRANK u=-68/7 r=1 gens=2
+FIBSURV Sig=3 t=110/7 u=-68/7
+SKIPISO t=110/7 u=-68/7
+MWRANK u=69/25 r=1 gens=2
+FIBSURV Sig=3 t=81/25 u=69/25
+SKIPISO t=81/25 u=69/25
+MWRANK u=69/32 r=2 gens=2
+FIBSURV Sig=3 t=123/32 u=69/32
+SKIPISO t=123/32 u=69/32
+MWRANK u=69/19 r=3 gens=2
+FIBSURV Sig=3 t=45/19 u=69/19
+SKIPISO t=45/19 u=69/19
+MWRANK u=69/34 r=1 gens=2
+FIBSURV Sig=3 t=135/34 u=69/34
+SKIPISO t=135/34 u=69/34
+MWRANK u=69/11 r=1 gens=2
+FIBSURV Sig=3 t=-3/11 u=69/11
+SKIPISO t=-3/11 u=69/11
+MWRANK u=69/20 r=1 gens=2
+FIBSURV Sig=3 t=51/20 u=69/20
+SKIPISO t=51/20 u=69/20
+MWRANK u=-69/5 r=3 gens=2
+FIBSURV Sig=3 t=99/5 u=-69/5
+SKIPISO t=99/5 u=-69/5
+MWRANK u=-69/10 r=2 gens=2
+FIBSURV Sig=3 t=129/10 u=-69/10
+SKIPISO t=129/10 u=-69/10
+MWRANK u=-69/4 r=1 gens=2
+FIBSURV Sig=3 t=93/4 u=-69/4
+SKIPISO t=93/4 u=-69/4
+MWRANK u=-69 r=1 gens=2
+FIBSURV Sig=3 t=75 u=-69
+SKIPISO t=75 u=-69
+MWRANK u=69/14 r=2 gens=2
+FIBSURV Sig=3 t=15/14 u=69/14
+SKIPISO t=15/14 u=69/14
+MWRANK u=-69/13 r=1 gens=2
+FIBSURV Sig=3 t=147/13 u=-69/13
+SKIPISO t=147/13 u=-69/13
+MWRANK u=69/4 r=2 gens=2
+FIBSURV Sig=3 t=-45/4 u=69/4
+SKIPISO t=-45/4 u=69/4
+MWRANK u=69/22 r=2 gens=2
+FIBSURV Sig=3 t=63/22 u=69/22
+SKIPISO t=63/22 u=69/22
+MWRANK u=69/35 r=2 gens=2
+FIBSURV Sig=3 t=141/35 u=69/35
+SKIPISO t=141/35 u=69/35
+MWRANK u=-69/2 r=2 gens=2
+FIBSURV Sig=3 t=81/2 u=-69/2
+SKIPISO t=81/2 u=-69/2
+MWRANK u=69/29 r=2 gens=2
+FIBSURV Sig=3 t=105/29 u=69/29
+SKIPISO t=105/29 u=69/29
+MWRANK u=-69/8 r=1 gens=2
+FIBSURV Sig=3 t=117/8 u=-69/8
+SKIPISO t=117/8 u=-69/8
+MWRANK u=69/16 r=1 gens=2
+FIBSURV Sig=3 t=27/16 u=69/16
+SKIPISO t=27/16 u=69/16
+MWRANK u=69/5 r=1 gens=2
+FIBSURV Sig=3 t=-39/5 u=69/5
+SKIPISO t=-39/5 u=69/5
+MWRANK u=69/8 r=2 gens=2
+FIBSURV Sig=3 t=-21/8 u=69/8
+SKIPISO t=-21/8 u=69/8
+MWRANK u=69/26 r=2 gens=2
+FIBSURV Sig=3 t=87/26 u=69/26
+SKIPISO t=87/26 u=69/26
+MWRANK u=69/13 r=3 gens=2
+FIBSURV Sig=3 t=9/13 u=69/13
+SKIPISO t=9/13 u=69/13
+MWRANK u=-69/11 r=1 gens=2
+FIBSURV Sig=3 t=135/11 u=-69/11
+SKIPISO t=135/11 u=-69/11
+MWRANK u=69/10 r=1 gens=2
+FIBSURV Sig=3 t=-9/10 u=69/10
+SKIPISO t=-9/10 u=69/10
+MWRANK u=69/2 r=1 gens=2
+FIBSURV Sig=3 t=-57/2 u=69/2
+SKIPISO t=-57/2 u=69/2
+MWRANK u=69/28 r=2 gens=2
+FIBSURV Sig=3 t=99/28 u=69/28
+SKIPISO t=99/28 u=69/28
+MWRANK u=69/31 r=3 gens=2
+FIBSURV Sig=3 t=117/31 u=69/31
+SKIPISO t=117/31 u=69/31
+MWRANK u=69/7 r=2 gens=2
+FIBSURV Sig=3 t=-27/7 u=69/7
+SKIPISO t=-27/7 u=69/7
+MWRANK u=69 r=1 gens=2
+FIBSURV Sig=3 t=-63 u=69
+SKIPISO t=-63 u=69
+MWRANK u=-69/7 r=2 gens=2
+FIBSURV Sig=3 t=111/7 u=-69/7
+SKIPISO t=111/7 u=-69/7
+MWRANK u=70/29 r=2 gens=2
+FIBSURV Sig=3 t=104/29 u=70/29
+SKIPISO t=104/29 u=70/29
+MWRANK u=-70/3 r=1 gens=2
+FIBSURV Sig=3 t=88/3 u=-70/3
+SKIPISO t=88/3 u=-70/3
+MWRANK u=70/31 r=2 gens=2
+FIBSURV Sig=3 t=116/31 u=70/31
+SKIPISO t=116/31 u=70/31
+MWRANK u=70 r=2 gens=2
+FIBSURV Sig=3 t=-64 u=70
+SKIPISO t=-64 u=70
+MWRANK u=70/9 r=1 gens=2
+FIBSURV Sig=3 t=-16/9 u=70/9
+SKIPISO t=-16/9 u=70/9
+MWRANK u=70/3 r=2 gens=2
+FIBSURV Sig=3 t=-52/3 u=70/3
+SKIPISO t=-52/3 u=70/3
+MWRANK u=70/33 r=2 gens=2
+FIBSURV Sig=3 t=128/33 u=70/33
+SKIPISO t=128/33 u=70/33
+MWRANK u=70/13 r=1 gens=2
+FIBSURV Sig=3 t=8/13 u=70/13
+SKIPISO t=8/13 u=70/13
+MWRANK u=70/11 r=1 gens=2
+FIBSURV Sig=3 t=-4/11 u=70/11
+SKIPISO t=-4/11 u=70/11
+MWRANK u=70/19 r=1 gens=2
+FIBSURV Sig=3 t=44/19 u=70/19
+SKIPISO t=44/19 u=70/19
+MWRANK u=70/17 r=3 gens=2
+FIBSURV Sig=3 t=32/17 u=70/17
+SKIPISO t=32/17 u=70/17
+MWRANK u=-70/11 r=1 gens=2
+FIBSURV Sig=3 t=136/11 u=-70/11
+SKIPISO t=136/11 u=-70/11
+MWRANK u=-70/9 r=2 gens=2
+FIBSURV Sig=3 t=124/9 u=-70/9
+SKIPISO t=124/9 u=-70/9
+MWRANK u=-70/13 r=1 gens=2
+FIBSURV Sig=3 t=148/13 u=-70/13
+SKIPISO t=148/13 u=-70/13
+MWRANK u=70/27 r=2 gens=2
+FIBSURV Sig=3 t=92/27 u=70/27
+SKIPISO t=92/27 u=70/27
+MWSKIP u=-70 bounds=[1,3]
+FIBSURV Sig=3 t=76 u=-70
+SKIPISO t=76 u=-70
+TIMECAP 7200 s at fiber 2194/4612
+SEARCH_DONE 2266sigfib Sig=3 Org=1 fibers=4612 proc=2193 mwskip=90 rank0=0 rankpos=2103 surv=2181 deck=2181 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 7234.820 s

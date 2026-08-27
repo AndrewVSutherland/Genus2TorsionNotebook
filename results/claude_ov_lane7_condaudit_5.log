@@ -1,0 +1,12 @@
+CA5 v_2(disc_min) = 30  ogg_disclaimer = true
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+
+Current total memory usage: 36005.6MB, failed memory request: 5559.2MB
+System Error: User memory limit has been reached
+
+In file "/tmp/claude-1000/-home-claude-torsion-jac/1c22f408-33bb-486e-870f-c5fca84bb522/scratchpad/ca5.m", line 15, column 35:
+>> printf "CA5 magma N = %o = %o\n", N, Factorization(N);
+                                     ^
+Runtime error: Variable 'N' has not been initialized
+

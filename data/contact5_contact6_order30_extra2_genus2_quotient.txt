@@ -1,0 +1,23 @@
+Magma V2.29-4     Thu Jul  2 2026 09:55:39 on <host>  [Seed = 2744118621]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact5_contact6_order30_extra2_genus2_quotient.m"
+genus2 quotient -9855*u^6 + 214308*u^5 - 1899180*u^4 + 8744832*u^3 - 21967488*u^2 + 28422144*u - 14773248
+factorization [
+<u - 14/3, 1>,
+<u - 4, 1>,
+<u - 2, 1>,
+<u^3 - 4044/365*u^2 + 14064/365*u - 14656/365, 1>
+]
+genus 2
+points bound 1000 {@ (2 : 0 : 1), (4 : 0 : 1), (14 : 0 : 3) @}
+rank_bounds 0 0
+torsion [ 2, 2 ]
+F(2) 0
+chabauty_zero failed Runtime error in 'Chabauty': ptJ must be a point of infinite order.
+
+chabauty_point failed Runtime error in 'Chabauty': Bad argument types
+Argument types given: PtHyp[FldRat]
+
+
+Total time: 0.310 seconds, Total memory usage: 85.16MB

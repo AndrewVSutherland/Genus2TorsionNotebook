@@ -1,0 +1,20 @@
+# Condensed transcript; exact run under ulimit -v 2800000, MemGB=2.
+# Command:
+# magma -b var:=c num:=1 den:=1 MemGB:=2 \
+#   code/m12_general5_b2zero_slice_probe.m
+SLICE_BEGIN c 1
+REMAINING_VARIABLES [ b, w, d, e ]
+EQUATION_SHAPES [ <7,38>, <9,95>, <10,57>, <15,350> ]
+SAT_END b cpu 8.860 len 161 unit false
+SAT_END w cpu 4.420 len 149 unit false
+SAT_END b-1 cpu 23.120 len 139 unit false
+SAT_END 2b-1 cpu 0.210 len 139 unit false
+SAT_END d cpu 2.940 len 266 unit false
+SAT_END e-2 cpu 0.140 len 266 unit false
+SAT_END e+2 cpu 0.090 len 266 unit false
+SAT_END ell3 cpu 0.070 len 266 unit false
+CHEAP_DIMENSION 0 COMPONENT_DEGREES []
+LEX_BASIS_END cpu 90.290 len 4 max_degree 242 max_terms 243
+LEX_UNIVARIATE variable_name e degree 242 terms 243
+LEX_UNIVARIATE_FACTOR_SHAPES [ <46,1>, <196,1> ]
+SLICE_DONE

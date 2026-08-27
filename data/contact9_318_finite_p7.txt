@@ -1,0 +1,21 @@
+Contact-9 rational-root finite subgroup scout for [3,18]
+prime_bound 7 target [3, 18]
+containment_test valuation ranks in full enumerated invariants
+p 3 required [2] total 6 good 0 pass_order 0 pass_embedding 0 false_order_positives 0
+ failures {'r_zero': 4, 'singular': 2}
+ invariant_counts {}
+ open_target []
+ boundary_records [(0, 2, 2, 1, 'singular'), (0, 1, 2, 1, 'singular'), (1, 2, None, 0, 'r_zero'), (1, 1, None, 0, 'r_zero'), (2, 2, None, 0, 'r_zero'), (2, 1, None, 0, 'r_zero')]
+ good_nontarget []
+p 5 required [3, 18] total 10 good 0 pass_order 0 pass_embedding 0 false_order_positives 0
+ failures {'r_zero': 4, 'singular': 6}
+ invariant_counts {}
+ open_target []
+ boundary_records [(0, 4, 0, 1, 'singular'), (0, 1, 0, 1, 'singular'), (1, 4, None, 0, 'r_zero'), (1, 1, None, 0, 'r_zero'), (2, 4, 2, 2, 'singular'), (2, 1, 1, 2, 'singular'), (3, 4, 1, 2, 'singular'), (3, 1, 2, 2, 'singular'), (4, 4, None, 0, 'r_zero'), (4, 1, None, 0, 'r_zero')]
+ good_nontarget []
+p 7 required [3, 18] total 14 good 2 pass_order 0 pass_embedding 0 false_order_positives 0
+ failures {'r_zero': 4, 'singular': 8}
+ invariant_counts {(2, 36): 2}
+ open_target []
+ boundary_records [(0, 6, 0, 1, 'singular'), (0, 1, 0, 1, 'singular'), (1, 6, None, 0, 'r_zero'), (1, 1, None, 0, 'r_zero'), (2, 6, 4, 4, 'singular'), (3, 6, 6, 6, 'singular'), (3, 1, 4, 6, 'singular'), (4, 6, 4, 6, 'singular'), (4, 1, 6, 6, 'singular'), (5, 1, 4, 4, 'singular'), (6, 6, None, 0, 'r_zero'), (6, 1, None, 0, 'r_zero')]
+ good_nontarget [(2, 1, 1, 4, [2, 36]), (5, 6, 1, 4, [2, 36])]

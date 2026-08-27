@@ -1,0 +1,46 @@
+G1 = X^4 - 27*X^3 + 108*X^2 - 108*X
+G2 = 259*X^4 - 1893*X^3 + 4752*X^2 - 4644*X + 1296
+GH = 259*X^6 - 7332*X^5 + 37512*X^4 - 74304*X^3 + 60912*X^2 - 15552*X
+H genus = 2 ; lc(GH)=259 square? false (=> no rational points at infinity)
+Jac(H) torsion = [ 2, 6 ]
+Jac(H) RankBounds = 0 .. 1
+
+---- rational points of H by naive search ----
+Points(Bound:=200000) : 8 points
+{@ (0 : 0 : 1), (2 : -16 : 1), (2 : 16 : 1), (-6 : -11664 : 1), (-6 : 11664 : 1), (6 : -3888 : 5), (6 : 3888 : 5), (12 : 0 : 7) @}
+
+---- build J(Q) ----
+56 divisor classes built from differences of the known points
+of infinite order: 40
+ReducedBasis of the subgroup generated: 1 element(s)
+   gen (x^2 - 2*x, 8*x, 2)   height 0.50118239204717836371111998436553
+==> rank(J(Q)) = 1  (RankBounds 0..1, found 1 independent)
+
+---- rank 1: saturate the generator, then Chabauty ----
+Saturation failed: Runtime error in 'Saturation': p must be a prime number.
+
+using generator P = (x^2 - 2*x, 8*x, 2)  height 0.50118239204717836371111998436553
+CHABAUTY returned 8 points, index-bound N = {}
+CHABAUTY H(Q) = {@ (0 : 0 : 1), (12 : 0 : 7), (-6 : -11664 : 1), (2 : -16 : 1), (6 : -3888 : 5), (6 : 3888 : 5), (-6 : 11664 : 1), (2 : 16 : 1) @}
+
+---- pull back to X ----
+T-coordinates of H(Q): [ -6, 0, 6/5, 12/7, 2 ]
+  T=-6       G1=11664          sq=true    G2=944784           sq=true
+  T=0        G1=0              sq=true    G2=1296             sq=true
+  T=6/5      G1=-11664/625     sq=false   G2=-104976/625      sq=false
+  T=12/7     G1=11664/2401     sq=true    G2=0                sq=true
+  T=2        G1=16             sq=true    G2=16               sq=true
+  T=3      G1=0 G2=0  -> the point (3,0,0) on X
+  T=oo     lc(G1)=1 (sq true), lc(G2)=259 (sq false)  -> NO rational point at infinity
+X(Q) T-COORDINATES = [ -6, 0, 12/7, 2, 3 ]
+
+---- are they degenerate?  (a(T), b(T) and the five z's) ----
+a(T) = (-22/9*$.1^2 + 80/3*$.1 - 40)/($.1^2 + 4*$.1 - 12)  (poles at [ -6, 2 ])
+b(T) = (7/27*$.1^2 + 10/9*$.1 - 8/3)/($.1^2 - 2*$.1)  (poles at [ 0, 2 ] ; zeros at [ -6, 12/7 ])
+  T=-6     : a or b is INFINITE (point at infinity of Cab) -> NOT a configuration
+  T=0      : a or b is INFINITE (point at infinity of Cab) -> NOT a configuration
+  T=12/7   : (a,b)=(2/3,0) -> some w_i = 0, contradicts E4=1 -> NOT a configuration
+  T=2      : a or b is INFINITE (point at infinity of Cab) -> NOT a configuration
+  T=3      : (a,b)=(2,1)  quartic=w^4 - 4*w^3 + 6*w^2 - 4*w + 1  roots [ 1 ] (mult [ 4 ])
+            five z = [ 2, 1, 1, 1, 1 ]  -> distinct: false
+CHABAUTY_DONE

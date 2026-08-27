@@ -1,0 +1,8 @@
+raw-model candidate factors (deg_R = 2): 0
+no deg_R=2 factor; trying hyperelliptic branch
+
+In file "lane_qglue.m", line 82, column 19:
+>>     mpi := Inverse(mph);
+                     ^
+Runtime error in 'Inverse': Map has no inverse
+

@@ -1,0 +1,12 @@
+Z31REF Mode=chartU PP=101 NRand=400 NInfRand=300
+KUMMER_SAMPLE P=101 u1=89 u0=27 normK(DD)=[ 1, 12, 27, 69 ] normK(31DD)=[ 1, 30, 28, 25 ]
+KUMMER_SAMPLE P=101 u1=37 u0=72 normK(DD)=[ 1, 64, 72, 0 ] normK(31DD)=[ 1, 14, 67, 18 ]
+PROGRESS chartU P=101 tried=50 valid=50 div31=5 t=0.200s
+PROGRESS chartU P=101 tried=101 valid=100 div31=6 t=0.270s
+PROGRESS chartU P=101 tried=152 valid=150 div31=8 t=0.350s
+PROGRESS chartU P=101 tried=202 valid=200 div31=9 t=0.420s
+PROGRESS chartU P=101 tried=254 valid=250 div31=11 t=0.510s
+PROGRESS chartU P=101 tried=306 valid=300 div31=16 t=0.580s
+PROGRESS chartU P=101 tried=356 valid=350 div31=18 t=0.660s
+CHARTU_SUMMARY P=101 tried=401 raw=400 valid_rows=394 div31=21 skipdeg=6 makeDD[m1,m2,m3]=[394,0,0] makeDD_fails=0 kummer_rows=12 kummer_fails=0 conv_k23=12/12 conv_k4=12/12 time=0.720s
+ALLDONE

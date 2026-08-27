@@ -1,0 +1,8 @@
+
+WARNING
+Class group unconditional proof is infeasible.
+Hint: to obtain class group proven under GRH, input
+> SetClassGroupBounds("GRH");
+before starting the current calculation.
+
+Killed

@@ -1,0 +1,26 @@
+AGENT_Z48_CUBIC_PRODUCTION_DRIVER
+Mode=search
+Z48_CUBIC_CONTACT_SEARCH
+RTHeight=5 ExcludeRTHeight=4 SearchBound=12 PrimeBound=43 MinGood=3 GateMode=48 SliceMod=4 SliceClass=0 MaxSlices=10 MaxA16Roots=30 MaxExact=10 ContactHeight=2 DoExact3=true UseFixedSlice=false FixedR=0 FixedT=0
+primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+PROGRESS runSlices=1 rawSlices=1 tested=0 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=2 rawSlices=5 tested=33489 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=3 rawSlices=9 tested=66978 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=4 rawSlices=13 tested=100467 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=5 rawSlices=17 tested=133956 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=6 rawSlices=21 tested=167445 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=7 rawSlices=25 tested=200934 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=8 rawSlices=29 tested=234423 roots=0 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=9 rawSlices=33 tested=267912 roots=1 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=10 rawSlices=37 tested=301401 roots=1 nonsingular=0 gatePass=0 threePass=0 exact=0 certified=0 z48=0
+SEARCH_DONE rawSlices=1406 completedSkipped=462 eligibleSlices=944 partitionSkipped=708 maxSliceSkipped=226 runSlices=10 sliceBuildFail=0 tested=334890 commonRootPairs=1 rationalRoots=1 rootCapSkipped=0 singular=1 nonsingular=0 pointGateReject=0 pointGatePass=0 threeChecked=0 threeReject=0 threePass=0 contactHits=0 exactTried=0 squareReject=0 d8Reject=0 d16Reject=0 certified=0 z48Hits=0
+SLICE_CATEGORIES_RUN
+  Rnew : 6
+  bothnew : 4
+ROOT_CATEGORIES
+  Rnew : 1
+NONSINGULAR_CATEGORIES
+FIRST_POINT_GATE_KILLS
+FIRST_POINT_GATE_KILLS_BY_CATEGORY
+EXACT3_TORSION_HISTOGRAM
+DONE

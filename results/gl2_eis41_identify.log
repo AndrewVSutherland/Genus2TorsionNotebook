@@ -1,0 +1,9 @@
+DIM_S 4906 t=1.380
+DIM_NEW 546 t=589.330
+
+In file "code/gl2_eis41_identify.m", line 24, column 12:
+>>     W := W meet Kernel(ALq - tq[2]);
+              ^
+Runtime error in 'meet': Bad argument types
+Argument types given: ModSym, ModTupFld[FldRat]
+

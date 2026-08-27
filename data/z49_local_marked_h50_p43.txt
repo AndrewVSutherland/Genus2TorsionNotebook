@@ -1,0 +1,59 @@
+Z49 MARKED-DIVISION LOW-MEMORY SIEVE
+height 50 prime_bound 43 primes [ 3, 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+criterion D7_bar lies in 7*J(F_p) at every good p != 7
+LOCAL p=3 total=9 good=5 boundary=4 order49=0 exponent49=0 marked_div7=0 exponent_not_marked=0
+LOCAL p=5 total=25 good=18 boundary=7 order49=1 exponent49=1 marked_div7=1 exponent_not_marked=0
+LOCAL p=11 total=121 good=103 boundary=18 order49=18 exponent49=12 marked_div7=12 exponent_not_marked=0
+LOCAL p=13 total=169 good=148 boundary=21 order49=22 exponent49=15 marked_div7=15 exponent_not_marked=0
+LOCAL p=17 total=289 good=257 boundary=32 order49=35 exponent49=31 marked_div7=31 exponent_not_marked=0
+LOCAL p=19 total=361 good=327 boundary=34 order49=55 exponent49=50 marked_div7=50 exponent_not_marked=0
+LOCAL p=23 total=529 good=485 boundary=44 order49=74 exponent49=59 marked_div7=59 exponent_not_marked=0
+LOCAL p=29 total=841 good=790 boundary=51 order49=224 exponent49=107 marked_div7=99 exponent_not_marked=8
+LOCAL p=31 total=961 good=903 boundary=58 order49=156 exponent49=131 marked_div7=131 exponent_not_marked=0
+LOCAL p=37 total=1369 good=1297 boundary=72 order49=228 exponent49=201 marked_div7=196 exponent_not_marked=5
+LOCAL p=41 total=1681 good=1606 boundary=75 order49=267 exponent49=234 marked_div7=234 exponent_not_marked=0
+LOCAL p=43 total=1849 good=1768 boundary=81 order49=463 exponent49=240 marked_div7=218 exponent_not_marked=22
+PROGRESS checked=250000 mask_survivors=51 smooth_survivors=0
+PROGRESS checked=500000 mask_survivors=101 smooth_survivors=0
+PROGRESS checked=750000 mask_survivors=154 smooth_survivors=0
+PROGRESS checked=1000000 mask_survivors=204 smooth_survivors=0
+PROGRESS checked=1250000 mask_survivors=254 smooth_survivors=0
+PROGRESS checked=1500000 mask_survivors=302 smooth_survivors=0
+PROGRESS checked=1750000 mask_survivors=352 smooth_survivors=0
+PROGRESS checked=2000000 mask_survivors=411 smooth_survivors=0
+PROGRESS checked=2250000 mask_survivors=455 smooth_survivors=0
+PROGRESS checked=2500000 mask_survivors=480 smooth_survivors=0
+PROGRESS checked=2750000 mask_survivors=561 smooth_survivors=0
+PROGRESS checked=3000000 mask_survivors=588 smooth_survivors=0
+PROGRESS checked=3250000 mask_survivors=612 smooth_survivors=0
+PROGRESS checked=3500000 mask_survivors=678 smooth_survivors=0
+PROGRESS checked=3750000 mask_survivors=697 smooth_survivors=0
+PROGRESS checked=4000000 mask_survivors=725 smooth_survivors=0
+PROGRESS checked=4250000 mask_survivors=782 smooth_survivors=0
+PROGRESS checked=4500000 mask_survivors=794 smooth_survivors=0
+PROGRESS checked=4750000 mask_survivors=813 smooth_survivors=0
+PROGRESS checked=5000000 mask_survivors=860 smooth_survivors=0
+PROGRESS checked=5250000 mask_survivors=864 smooth_survivors=0
+PROGRESS checked=5500000 mask_survivors=876 smooth_survivors=0
+PROGRESS checked=5750000 mask_survivors=897 smooth_survivors=0
+PROGRESS checked=6000000 mask_survivors=897 smooth_survivors=0
+PROGRESS checked=6250000 mask_survivors=907 smooth_survivors=0
+PROGRESS checked=6500000 mask_survivors=926 smooth_survivors=0
+PROGRESS checked=6750000 mask_survivors=939 smooth_survivors=0
+PROGRESS checked=7000000 mask_survivors=943 smooth_survivors=0
+PROGRESS checked=7250000 mask_survivors=952 smooth_survivors=0
+PROGRESS checked=7500000 mask_survivors=970 smooth_survivors=0
+PROGRESS checked=7750000 mask_survivors=970 smooth_survivors=0
+PROGRESS checked=8000000 mask_survivors=977 smooth_survivors=0
+PROGRESS checked=8250000 mask_survivors=983 smooth_survivors=0
+PROGRESS checked=8500000 mask_survivors=983 smooth_survivors=0
+PROGRESS checked=8750000 mask_survivors=990 smooth_survivors=0
+PROGRESS checked=9000000 mask_survivors=1000 smooth_survivors=0
+PROGRESS checked=9250000 mask_survivors=1000 smooth_survivors=0
+PROGRESS checked=9500000 mask_survivors=1000 smooth_survivors=0
+FIRST_KILL_COUNTS [ <3, 3021985>, <5, 3062110>, <11, 2288031>, <13, 857441>, <17, 259352>, <19, 65557>, <23, 18419>, <29, 4129>, <31, 789>, <37, 161>, <41, 34>, <43, 7> ]
+DENOMINATOR_UNRESOLVED_VISITS [ <3, 4108104>, <5, 2051812>, <11, 445731>, <13, 113678>, <17, 16666>, <19, 3828>, <23, 923>, <29, 130>, <31, 36>, <37, 2>, <41, 1>, <43, 0> ]
+DONE parameters=3095 checked=9579025 mask_survivors=1010 smooth_survivors=0 marked_failures=0
+SINGULAR total=1010 h_component=1006 q5_component=3 both=1 unclassified=0
+SMOOTH_RECORDS []
+UNCLASSIFIED_SINGULAR_RECORDS []

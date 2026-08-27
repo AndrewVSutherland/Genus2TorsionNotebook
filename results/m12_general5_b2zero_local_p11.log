@@ -1,0 +1,10 @@
+LOCAL_SAMPLE [ 7, 1, 10, 7, 1, 1 ]
+jac_rank 5 q xx^2 + 10*xx + 7
+v 8
+D5_order 5
+LOCAL_SAMPLE [ 7, 1, 10, 7, 10, 10 ]
+jac_rank 5 q xx^2 + 10*xx + 7
+v 3
+D5_order 5
+LOCAL_COUNT p 11 raw 1351 open 2 smooth_open 2 samples 2
+M12_GENERAL5_B2ZERO_LOCAL_DONE

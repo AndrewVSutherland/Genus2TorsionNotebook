@@ -1,0 +1,10 @@
+Loading "code/blp22_locus_rm_test2.m0"
+BASE p=499 r=439 s=418 deg(Rd)=1529 MASS: -2:333 -1:4 0:4 5:18 9:1
+BASE p=499 r=344 s=430 deg(Rd)=1529 MASS: -2:323 -1:4 0:3 5:26 9:1 11:3
+BASE p=499 r=498 s=383 deg(Rd)=1529 MASS: -2:189 -1:7 5:15 11:3
+BASE p=499 r=492 s=223 deg(Rd)=1529 MASS: -2:325 -1:5 0:3 5:23 9:2
+BASE p=503 r=278 s=61 deg(Rd)=1529 MASS: -2:325 -1:4 0:4 5:22 11:4
+BASE p=503 r=325 s=48 deg(Rd)=1529 MASS: -2:332 -1:4 0:1 5:17 11:6
+BASE p=503 r=266 s=32 deg(Rd)=1529 MASS: -2:318 -1:4 0:6 5:22 9:8 11:2
+BASE p=503 r=246 s=297 deg(Rd)=1529 MASS: -2:316 -1:5 0:1 5:30 9:2 11:6
+GEOM_STEP1_DONE

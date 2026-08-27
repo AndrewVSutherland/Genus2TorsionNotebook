@@ -1,0 +1,4 @@
+Contact-6 core polynomial conic test through known simple [6,6] point
+ansatz X(t)=P+d*t+e*t^2
+p 7 tangent_directions 8 polynomial_conics 0 samples []
+p 11 tangent_directions 12 polynomial_conics 0 samples []

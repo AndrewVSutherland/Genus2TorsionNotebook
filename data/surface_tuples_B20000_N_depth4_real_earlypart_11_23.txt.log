@@ -1,0 +1,60 @@
+run B=20000 start=21 end=50 chunk_size=10 primes=11,23 boundary=11:N,23:N local_depth=4
+start ax=21..30
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_21_30.txt.tmp with required bad primes 11 23 ax_range 21..30 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=21..30 return=0 elapsed=53.814s rows=0
+start ax=31..40
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_31_40.txt.tmp with required bad primes 11 23 ax_range 31..40 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=31..40 return=0 elapsed=47.082s rows=0
+start ax=41..50
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_41_50.txt.tmp with required bad primes 11 23 ax_range 41..50 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=41..50 return=0 elapsed=52.196s rows=0
+merged_chunks=5 unique_rows=0 elapsed_total=153.093s output=data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt
+run B=20000 start=51 end=100 chunk_size=10 primes=11,23 boundary=11:N,23:N local_depth=4
+start ax=51..60
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_51_60.txt.tmp with required bad primes 11 23 ax_range 51..60 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=51..60 return=0 elapsed=46.508s rows=0
+start ax=61..70
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_61_70.txt.tmp with required bad primes 11 23 ax_range 61..70 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=61..70 return=0 elapsed=57.020s rows=0
+start ax=71..80
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_71_80.txt.tmp with required bad primes 11 23 ax_range 71..80 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=71..80 return=0 elapsed=44.866s rows=0
+start ax=81..90
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_81_90.txt.tmp with required bad primes 11 23 ax_range 81..90 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=81..90 return=0 elapsed=43.962s rows=0
+start ax=91..100
+boundary requirements: 11:N,23:N
+allowed signed residue triples modulo 253: 964463/16194277
+allowed positive c residue entries: 1928926/32388554
+early common A2244 partition mod p prefilter: enabled
+wrote 0 tuples to data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt.chunks/ax_91_100.txt.tmp with required bad primes 11 23 ax_range 91..100 boundary_spec 11:N,23:N real_local_depth 4
+finish ax=91..100 return=0 elapsed=57.169s rows=0
+merged_chunks=10 unique_rows=0 elapsed_total=249.528s output=data/surface_tuples_B20000_N_depth4_real_earlypart_11_23.txt

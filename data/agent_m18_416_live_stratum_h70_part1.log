@@ -1,0 +1,34 @@
+computing mod-49 survivor gate (level-1 blowup) ...
+mod-49 survivor gate: 449 residues
+M_1(8,4) [4,16] live-stratum (mod-49 gated) search
+height=70 aux_primes=[ 11, 13 ] Part=1/6
+aux_prime 11: open target416 residues 4
+aux_prime 13: open target416 residues 4
+parameters=5975  mod49-gated pair budget=5109378
+progress cand=20000 smooth=19759 firstposs=4 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=40000 smooth=39440 firstposs=4 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=60000 smooth=59120 firstposs=4 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=80000 smooth=78909 firstposs=4 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=100000 smooth=98909 firstposs=6 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=120000 smooth=118909 firstposs=6 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=140000 smooth=138909 firstposs=10 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=160000 smooth=158909 firstposs=10 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=180000 smooth=178786 firstposs=10 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=200000 smooth=198730 firstposs=10 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+progress cand=220000 smooth=218589 firstposs=13 tangent=1 exact=1 firstver=1 prhalf=0 hits=0
+progress cand=240000 smooth=238589 firstposs=13 tangent=1 exact=1 firstver=1 prhalf=0 hits=0
+progress cand=260000 smooth=258552 firstposs=13 tangent=1 exact=1 firstver=1 prhalf=0 hits=0
+progress cand=280000 smooth=278552 firstposs=15 tangent=3 exact=3 firstver=3 prhalf=0 hits=0
+progress cand=300000 smooth=298516 firstposs=15 tangent=3 exact=3 firstver=3 prhalf=0 hits=0
+progress cand=320000 smooth=318479 firstposs=15 tangent=3 exact=3 firstver=3 prhalf=0 hits=0
+progress cand=340000 smooth=338479 firstposs=15 tangent=3 exact=3 firstver=3 prhalf=0 hits=0
+progress cand=360000 smooth=358479 firstposs=16 tangent=3 exact=3 firstver=3 prhalf=0 hits=0
+progress cand=380000 smooth=378372 firstposs=17 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=400000 smooth=398372 firstposs=17 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=420000 smooth=418372 firstposs=17 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=440000 smooth=438308 firstposs=24 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=460000 smooth=458264 firstposs=24 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=480000 smooth=478240 firstposs=24 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+progress cand=500000 smooth=498161 firstposs=27 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+DONE cand=518119 auxkill=339589 smooth=516067 firstposs=27 tangent=4 exact=4 firstver=4 prhalf=0 hits=0
+TORSION_COUNTS

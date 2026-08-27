@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ten most promising avenues — geometrically simple genus-2 torsion, 2026-07-25</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.55 Georgia, 'Times New Roman', serif; max-width: 62rem;
+         margin: 2rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.7rem; line-height: 1.25; }
+  h2 { font-size: 1.25rem; margin-top: 2.4rem; border-bottom: 1px solid #8884; padding-bottom: .25rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.6rem; }
+  code, pre { font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace; font-size: .84em; }
+  pre { overflow-x: auto; padding: .7rem .9rem; background: #8881; border-radius: 6px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .93em; }
+  th, td { border: 1px solid #8886; padding: .4rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #8881; }
+  .tag { display: inline-block; padding: .05rem .5rem; border-radius: 1rem; font-size: .78em;
+         background: #2a7a2a22; border: 1px solid #2a7a2a66; white-space: nowrap; }
+  .new  { background: #1f6feb22; border-color: #1f6feb66; }
+  .warn { background: #b0700022; border-color: #b0700066; }
+  .muted { opacity: .75; }
+  li { margin: .3rem 0; }
+  ol.rank > li { margin: 1.3rem 0; }
+  ol.rank > li > b { font-size: 1.03em; }
+</style>
+</head>
+<body>
+
+<h1>Ten most promising avenues for realizing an as-yet-unrealized torsion subgroup<br>
+<span class="muted" style="font-size:.65em">geometrically simple genus-2 Jacobians over <b>Q</b> &middot; independent review, 2026-07-25</span></h1>
+
+<p class="muted">Basis: a 15-agent parallel audit of the entire repository (every note, all 1,309
+result logs, 792 code files, 668 data banks, the paper sources, the skills, and all four prior
+ranked lists), plus original computation done during the review. Prior ranked lists were read as
+evidence, not conclusions. Full write-up:
+<code>notes/claude_top10_2026_07_25.md</code>.</p>
+
+<h2>Where the frontier is</h2>
+
+<p><code>paper/torsion_realizations.tex</code> records <b>71</b> groups realized as the full
+rational torsion of a geometrically simple genus-2 Jacobian over <b>Q</b>. Exactly one row is
+non-generic: <code>[2,22]</code>, flagged <sup>RM</sup>. (<code>[2,2,14]</code> was the second
+until 2026-07-23; it now has five certified <code>End=Z</code> witnesses — any note calling them
+"the two RM-only groups" is stale.) Anything above order 96 would be a new record.</p>
+
+<div class="scroll">
+<table>
+<tr><th>order</th><th>gap</th><th>best existence evidence</th></tr>
+<tr><td>25</td><td><code>[5,5]</code></td><td>HLP split; lane reduced to one square-condition curve</td></tr>
+<tr><td>35 / 36</td><td><code>[35]</code>, <code>[3,12]</code></td><td>HLP split; <b>Howe's <code>f70</code> has ord(D<sub>∞</sub>) = 35</b>; <code>[3,12]</code> is the smallest open group</td></tr>
+<tr><td>44</td><td><code>[2,22]</code> generic</td><td>two RM witnesses; DB 11-slice exhaustively counted</td></tr>
+<tr><td>45</td><td><code>[45]</code></td><td>HLP split — <b>no note, no code, no log anywhere in the repo</b></td></tr>
+<tr><td>48</td><td><code>[2,24]</code>, <code>[48]</code>, <code>[4,12]</code></td><td>HLP split; Howe rank-2 family for <code>[48]</code></td></tr>
+<tr><td>49 / 50</td><td><code>[7,7]</code>, <code>[5,10]</code></td><td>HLP split — untouched; an explicit split <code>[5,10]</code> anchor was found in-repo and discarded</td></tr>
+<tr><td>60 / 63</td><td><code>[60]</code>, <code>[63]</code></td><td><b>HLP give a single curve with torsion <i>exactly</i> Z/63</b> — strongest evidence in the split ledger, and untouched</td></tr>
+<tr><td>64</td><td><code>[8,8]</code>, <code>[4,16]</code>, <code>[2,2,16]</code></td><td>split realizations known</td></tr>
+<tr><td>72</td><td><code>[6,12]</code>, <code>[2,6,6]</code>, <code>[2,2,18]</code></td><td>HLP split for the first two; <code>[2,2,18]</code> is an unrecognized gap</td></tr>
+<tr><td>96</td><td><code>[2,2,24]</code></td><td>ten exact split HLP examples</td></tr>
+<tr><td><b>112</b></td><td><code>[2,2,2,14]</code>, <code>[2,2,28]</code></td><td>none — but see avenue 1 <span class="tag new">record</span></td></tr>
+<tr><td>128</td><td><code>[2,2,4,8]</code></td><td>HLP split; would tie the all-time genus-2 record</td></tr>
+<tr><td>192</td><td><code>[2,2,2,24]</code>, <code>[2,2,4,12]</code></td><td>none</td></tr>
+</table>
+</div>
+
+<h2>The ranked ten</h2>
+
+<ol class="rank">
+
+<li><b>Contact-7 SPLITALL → <code>[2,2,2,14]</code>, order 112, a new record</b>
+<span class="tag new">new this review</span>
+<p>The contact-7 chart's whole rational-root structure is governed by three universal linear
+relations. With <code>h = 1 − (7/2)x + a x² + b x³</code> and
+<code>f = (h² + (x−1)⁷)/x²</code>, a rational root <code>r</code> forces <code>r = 1 − v²</code>,
+and the five <code>v<sub>i</sub></code> are the roots of</p>
+<pre>Q(v) = (v+1)² (c₄v² + c₀) + v⁵ − v³ − v²/2 ,   c₄ = b+2,  c₀ = 5/2 − (a+b)</pre>
+<p>so, identically in <code>(a,b)</code>:
+<code>e₂ + 2e₁ + 1 = 0</code>, <code>e₄ + 2e₅ = 0</code> (i.e. <code>Σ1/v<sub>i</sub> = −2</code>),
+<code>2e₃ − 2e₁ − 2e₅ − 1 = 0</code>. The ladder is then explicit — and it is the same ladder that
+gave Elkies his order-80 record on contact-5:</p>
+<div class="scroll"><table>
+<tr><th>rational v<sub>i</sub></th><th>factor type</th><th>2-rank</th><th>torsion</th><th>status</th></tr>
+<tr><td>1</td><td>[1,4]</td><td>1</td><td><code>[14]</code></td><td>realized</td></tr>
+<tr><td>2</td><td>[1,1,3]</td><td>2</td><td><code>[2,14]</code></td><td>realized (rational surface)</td></tr>
+<tr><td>3</td><td>[1,1,1,2]</td><td>3</td><td><code>[2,2,14]</code></td><td>realized 2026-07-23, five End=Z curves</td></tr>
+<tr><td>5</td><td>[1,1,1,1,1]</td><td>4</td><td><b><code>[2,2,2,14]</code>, order 112</b></td><td>never derived, never searched</td></tr>
+</table></div>
+<p>Four rational roots force the fifth, so the order-112 locus is the double cover of the
+three-root surface given by "the residual quadratic splits". The repo names this only as a
+one-line "bonus watch".</p>
+<p><b>Done today.</b> A two-tier C harvester (<code>code/claude_c7_harvest.c</code>) reproduces the
+project's 16 recorded three-root hits at <code>H = 40</code> <b>in 0.85 s</b> (their sweep was
+<code>H ≤ 32</code> in gp), and at <code>H = 600</code> has already produced <b>11 distinct
+triples, 5 of them new</b>. All five verify in Magma with factor type [1,1,1,2], marked class of
+order exactly 7, <code>TorsionSubgroup</code> exactly <code>[2,2,14]</code>, and a
+<i>scattering</i> real-subfield-disc signature (the End=Z signature) — against the control
+<code>(−3,−3/4,−3/5)</code>, which returns the constant <code>{2}</code> of the known RM(√2)
+curve:</p>
+<pre>(-511/61, -511/625, -1/2)     (-165/41, -33/16, -165/289)
+(-164/297, -1/2, 164/361)     (-17/50, -34/189, 34/121)
+(-1/2, -13/49, 13/50)</pre>
+<p>Split-all: zero so far, as expected — a square condition cuts a measure-zero subset, so brute
+force is the wrong instrument. No local obstruction: split-all configurations exist mod
+17, 23, 29, 31, 37, 41, 43, 47, 53, 59, with counts matching the naive <code>p²/120</code>
+heuristic.</p>
+<p><b>Next moves.</b> (i) Fit low-degree rational curves through the growing point set on
+<code>R(s,t,u)=0</code> — every triple found, old and new, has the common-numerator form
+<code>v<sub>i</sub> = c/k<sub>i</sub></code> (11/11), so a rational curve is very likely, and one
+turns five sporadic curves into an <b>infinite generic <code>[2,2,14]</code> family</b>.
+(ii) Restrict the split-all square condition to each such curve: a needle-in-a-surface search
+becomes a genus-0/1 problem decided in minutes. (iii) Same surface, other rungs: halve a rational
+Weierstrass class (<code>[2,2,28]</code>, also order 112) and add an independent cubic 3-contact
+(order 168).</p>
+</li>
+
+<li><b>Generic <code>[2,22]</code>: route B2′ on a directly parametrized [1,1,2,2] ansatz, and route B4 (Galois-stable Richelot)</b>
+<p>The last <sup>RM</sup> flag. The 07-23/24 work closed the obvious doors properly (every
+parametrized order-11 family is 2-upgrade-locked; the DB 11-slice was counted exhaustively).
+Two live routes, plus one never run.</p>
+<p><b>B2′.</b> BLP's ansatz is <code>y² = R(x)² − 4c²S(x)²</code>,
+<code>R = x³−x²+ax+b</code>, <code>S = x²+d</code>, i.e. a product of two cubics. The
+<code>[1,1,2,2]</code> shape (the shape <i>both</i> known <code>[2,22]</code> curves have) is
+"each cubic acquires a rational root" — and that condition is <b>linear</b>: given
+<code>(c,d,r₁,r₂)</code>, the two root equations solve for <code>(a,b)</code>. So the 2-structure
+is free, and only <code>ord(D<sub>∞</sub>) = 11</code> has to be imposed — testable in
+microseconds by the polynomial-continued-fraction machinery the repo already has and has
+validated. Two rational anchors are in hand (BLP's corrected row C4 with
+<code>r₁ = 9, r₂ = −21</code>; and <code>19044.h.2</code>). <b>No code has ever been written.</b>
+This is the concrete form of the project's recorded winning pattern: build the 2-structure in from
+the start.</p>
+<p><b>B4, and a recorded blocker that is wrong.</b> <span class="tag new">new this review</span>
+Commit <code>34cfb59</code> blocks Richelot walks because "<code>[22]</code>/<code>[14]</code>
+seeds are 2-rank 1, so they have no rational (2,2)-kernels". A Richelot kernel need only be
+<b>Galois-stable</b>, not pointwise rational. Verified in Magma: a curve with
+<code>TwoTorsionSubgroup = [2]</code> can have a Richelot isogeny over <b>Q</b>
+(<code>y² = (x²+x+1)(x⁴−4x²+2)</code>). Measured on a 121-curve sample of 2-rank-1 curves whose
+quartic cofactor has Galois group in <code>D₄</code>: <b>88 neighbours, 1 with higher 2-rank</b>
+— about one in ninety raises the 2-rank. Flynn's (6,2) component supplies infinitely many
+[2,4]-type members (its double cover is the rank-1 conductor-92 curve
+<code>y² = x³+3x²+2x+1</code>), and a (2,2)-isogeny preserves <code>End⁰</code> and the odd part,
+so genericity and the 11 both survive. First computation: the genus/rank of the resolvent-cubic
+cover over that component.</p>
+<p><span class="tag warn">correction</span> Richelot-walking the <i>RM</i> anchors cannot produce a
+generic witness — <code>End⁰</code> is an isogeny invariant, so every neighbour is again RM(√5).
+<span class="tag warn">process</span> The two Magma jobs constituting route B1
+(<code>claude_v7_cfbackward.m</code>, <code>claude_v7_stratum2b.m</code>) have been <b>hung for
+34 hours</b> at ~99% CPU with no output, both with <code>SetMemoryLimit(24e9)</code> against the
+lab's 3 GB convention, occupying 2 of the 3 permitted Magma slots. Kill them by PID (and sweep for
+detached <code>magma.exe</code> children); replace the symbolic approach with the mod-<i>p</i>
+interpolation that Addendum 6 already designs.</p>
+</li>
+
+<li><b><code>[6,12]</code>, order 72 — finish Prym–Chabauty</b>
+<p>The most <i>decidable</i> target: it either produces the curve or closes the lane, and both are
+publishable. <code>rank J(E8) = 4 = genus</code> so classical Chabauty fails by exactly one, but
+<code>rank(Prym) = 1 &lt; 2</code> is confirmed by a committed self-contained verifier, and
+elliptic Chabauty is <i>proved</i> unavailable. What blocks it is mechanical: the committed
+Coleman sweep covers <b>15 of 42 residue disks</b>, has no <code>TOTAL ZEROS</code> line, and is
+numerically unsound (<code>O(37⁴)</code> annihilator coefficients coerced into a precision-20
+parent; hard-coded <code>37^mv</code>; Tuitman's <code>inf</code> flag discarded, so zeros in
+infinity disks are tested on the wrong fiber) — the bundle is formally withdrawn. And the
+Abel–Prym Mordell–Weil sieve <b>has no code at all</b>.</p>
+</li>
+
+<li><b>Run the database queries that were never run</b> — cheapest decisive item on the board
+<p>The extended-database group list is <b>inherited, not measured</b>: the 2026-07-22 census only
+refined witnesses for groups already on the collaborators' hand-curated Table 1
+(<code>torsion_subgroup IN (…)</code>). No torsion histogram over the 6.2M-curve
+Booker–Sutherland collection exists, so "absent from the DB" is an assumption for every open
+target except the 11-slice.</p>
+<pre>SELECT torsion_subgroup, count(*) FROM g2c_curves_new WHERE is_simple_geom GROUP BY 1;
+SELECT torsion_subgroup, torsion_order, label, cond, geom_end_alg FROM g2c_curves_new
+  WHERE is_simple_geom ORDER BY torsion_order DESC LIMIT 50;
+SELECT geom_end_alg, torsion_subgroup, count(*) FROM g2c_curves_new
+  WHERE is_simple_geom AND geom_end_alg &lt;&gt; 'Q' GROUP BY 1,2;
+SELECT class, array_agg(DISTINCT torsion_subgroup), max(torsion_order) FROM g2c_curves_new
+  GROUP BY class HAVING count(DISTINCT torsion_subgroup) &gt; 1;</pre>
+<p>Two supporting facts: a "DB says RM-only" verdict was overturned within a week for
+<code>[2,2,14]</code> (small conductor is populated by factories that <i>force</i> RM — both RM
+witnesses have square conductor, 138² and 390²); and conductor is an isogeny invariant, so if the
+DB is conductor-complete then no 2-power isogeny walk from a DB seed can produce a group absent
+from the histogram — which retro-explains all eleven zero-hit Richelot campaigns.</p>
+</li>
+
+<li><b>The split-realized targets nobody has ever touched: <code>[63]</code>, <code>[45]</code>, <code>[7,7]</code>, <code>[5,10]</code> — and Howe's <code>f70</code> for <code>[35]</code></b>
+<p>HLP 2000 Table 1 lists twenty groups realized on split Jacobians, i.e. their moduli have honest
+rational points and only simplicity is missing. Four have <b>literally no note, no code, no log</b>.
+<code>Z/63</code> is the only unrealized target with an <i>exact</i> split realization (a single
+curve), and a simple <code>Z/63</code> would be a new <b>cyclic</b> record (currently Elkies'
+<code>[40]</code>); recovering its equation from HLP Proposition 4 is step one, and the
+<code>[6,12]</code> note is the worked template.</p>
+<p>A five-minute experiment with a large payoff: the literature intake already holds, CF-verified,
+<b>Howe's sextic <code>f70</code> with ord(D<sub>∞</sub>) = 35</b> — an explicit genus-2 curve with
+a rational class of exact order 35, while <code>Z/35</code> is under active attack. Nobody has run
+<code>TorsionSubgroup</code> and a simplicity certificate on it.</p>
+<p>Never attempted anywhere: simultaneous <b>contact-6 × contact-7</b> for <code>[42]</code> and
+<b>contact-7 × contact-9</b> for <code>[63]</code>. Only 5×6 (successful), 5×5 (proved empty),
+7+5 and 9+5 have ever been formulated, and the 5×6 derivation is a complete template.</p>
+</li>
+
+<li><b><code>[8,8]</code>, order 64 — write the symbolic conic lift layer</b>
+<p>The most-named unexecuted computation in the repo, and the healthiest local picture of any open
+target (containment 6/98 at q=7, 39/589 at q=11, 106/1097 at q=13, no obstruction through p=43).
+The genus gate is passed. Scanning is explicitly the wrong move: 775 bases, 1,020 members, 32
+gate-passes, <b>all exactly [4,4]</b>. The route is mapped and never written — Kummer coordinates
+of <code>D<sub>i</sub></code> over <code>Q(s,t,v)</code> via Nicholls §5.9.2, then the even-degree
+<code>x−T</code> presieve <code>Res(l<sub>j</sub>, u<sub>D<sub>i</sub></sub>)</code> square plus
+common-λ compatibility, then the conic's Hasse obstruction primes.</p>
+</li>
+
+<li><b><code>[2,2,16]</code> — the seven twisted norm surfaces (and the unrecognized <code>[2,2,18]</code> gap)</b>
+<p>The seven twisted norm surfaces <code>Y<sub>t</sub></code> on <code>M₁(8,2,2)</code> have
+<b>never been enumerated</b>, and that chart is the <i>only</i> configuration that can give
+<b>exact</b> <code>[2,2,16]</code> (chart 2 can only overshoot to <code>[2,2,2,16]</code>); the
+note says the sweep takes minutes. Separately, the symbolic parity audit of the uniform 1/5 delta
+ceiling on chart 2 could kill an entire chart in one stroke.</p>
+<p><code>[2,2,18]</code> (order 72) is a genuine gap on no ranked list and in no note.
+<span class="tag new">new this review</span> The obvious route is dead: on the contact-9 chart the
+two-rational-root locus <code>{ψ(v₁) = ψ(v₂)}</code>, with
+<code>ψ(v) = (v⁵+4v⁴+10v³+(215/16)v²+(35/4)v+35/16)/(v+1)⁴</code>, is an irreducible curve of
+<b>genus 6</b> (Magma). So contact-9 gives no <code>[2,18]</code> family, a fortiori no
+<code>[2,2,18]</code>; that target needs a different order-9 source.</p>
+</li>
+
+<li><b><code>[3,12]</code>, order 36 — the smallest open group</b>
+<p>Essential correction on record: rational points of the carrier <code>S12</code> do <i>not</i>
+give <code>[3,12]</code> — the extra 3-class is rational iff <code>M</code> is additionally a
+square, so the true carrier is the étale double cover <code>m² = M</code>, and <code>M</code> is
+not constant along the degree-3 fibers. Two named, never-run computations: the Mordell–Weil sieve
+on both genus-2 quotients (MW proved <code>Z/2 × Z × Z</code> with explicit generators; needed
+because rank = genus = 2 blocks Chabauty), and prove-or-refute the <code>M</code> square-class
+dichotomy {1, −3}. Two stale claims to avoid: BFS-√3 is <i>closed</i> for <code>[3,12]</code> by
+the same μ₃ argument that closed <code>[2,6,6]</code>, and "both order-12 charts are dead at 5 and
+7" is wrong (p = 7 is alive on M(12)).</p>
+</li>
+
+<li><b>Beyond order 96: <code>[2,2,2,24]</code>/<code>[2,2,4,12]</code> (192), <code>[2,2,4,8]</code> (128), and the multigrade infinitude question</b>
+<p>That component of <code>M(2,2,2,12)</code> <i>is</i> the classical multigrade variety
+<code>ΣX<sub>i</sub>² = ΣB<sub>j</sub>²</code>, <code>ΣX<sub>i</sub>⁴ = ΣB<sub>j</sub>⁴</code>
+(three terms vs two), on which both square conditions hold identically. Exactly three curves are
+known; the census is complete to X₁,X₂ ≤ 250,000, X₃ ≤ 10⁷. The <b>literature dig on classical
+parametric multigrade families</b> (Gloden; Choudhry) has never been done, and one nondegenerate
+family gives infinitely many order-96 curves — which is what every order-192 route needs (three
+lottery tickets is not a program). The ten pair-type components are unexplored. For
+<code>[2,2,2,24]</code>, eleven locally-viable families survive
+(F1 F6 N3 N4 N11 O4 O9 R3 R7 S3 W2), none given the component-complete treatment that closed the
+others.</p>
+<p><span class="tag warn">correction</span> The <code>[2,2,2,12]</code> quintic-chart enumerator's
+"unconditional kill for all gcd-1 tuples a&lt;b&lt;c&lt;d ≤ 2000" is <b>vacuous</b>: each known
+curve's admissible normalizations into that chart have max entry 4.4×10⁷ … 4.5×10¹¹, so the box is
+~2×10⁴ times too small even for the smallest known solution. The enumerator was never validated on
+a positive control and its source (<code>code/tor22212.c</code>) does not exist in the repo despite
+four notes calling it "ready, never run at scale".</p>
+</li>
+
+<li><b><code>[2,24]</code>, order 48 — decide it, and touch the route nobody has touched</b>
+<p>The conspicuous gap between <code>[2,22]</code> and <code>[2,26]</code>, attacked by six
+independent programs, all negative, locally alive on every chart tested. The <b>HLP
+<code>[2,24]</code> split family</b> (Forum Math. 12 §3.4) has never been touched — nothing in
+notes/, code/, data/ or results/ refers to it; deforming it off the split locus is the standard
+play. And the commit-<code>6f7c60c</code> "wall" is <i>not</i> a theorem — the note itself heads
+that section "Conjecture (theorem-shaped, next to prove)": 6,420-point census, 40 points probed for
+norm/signature, only <b>12</b> for the actual mechanism, and the probe scripts already do the right
+thing — only their loop bounds stop them from covering all 389 both-square points. Do <i>not</i>
+restart the "25 unfitted off-main halving points" line: it was overturned the day after it was
+proposed.</p>
+</li>
+
+</ol>
+
+<h2>Honourable mentions</h2>
+<ul>
+<li><b><code>[4,16]</code></b> is now a closure story: the per-R elliptic funnel is complete over
+all 6,086 fibers to w-height 10⁶ with zero exponent-16 points, 627 unconditional non-existence
+theorems are in hand, and there is <b>no</b> local obstruction. One named computation remains — the
+rank of the 2-dimensional Prym of the genus-3 plane quartic <code>C<sub>A</sub><sup>X</sup></code>
+on the last open ELS fiber R = −8.</li>
+<li><b><code>[2,6,6]</code></b>: restrict the 3-contact cover to the rational curves C2, C3 and
+compute the cover curve's genus/rank — spec'd as "highest value, cheap", never run.</li>
+<li><b>(3,3)-isogeny descent</b> (Bruin–Flynn–Testa) is not implemented anywhere and is the one
+isogeny direction that could add something: the 3-part of the three order-96 curves is provably
+untouched by the 2-power Richelot graph.</li>
+<li><b>The CF/Pell exact-order screen</b> costs microseconds per curve and has been pointed at only
+three lanes. Cheap decisive experiment: test whether "every witness carries its odd class at
+infinity" (verified only for CF orders 11 and 7) extends across the whole <code>[2,2n]</code>
+chain.</li>
+<li><b>The multigrade phenomenon has never been sought for any other target</b>, though
+<code>[2,2,2,10]</code> is governed by the Clebsch–Klein cubic and the <code>[2,2,4,4]</code>
+witness <code>x(x+36²)(x+57²)(x+64²)(x+132²)</code> has a conspicuous pattern
+(64²−57² = 7·11², 64²−36² = 7·20², 132²−57² = 7·45², 132²−36² = 7·48²).</li>
+</ul>
+
+<h2>Corrections that can cost a resumed session</h2>
+<ol>
+<li>Two Magma jobs hung for 34 hours; they are the designated rehearsal for the primary
+<code>[2,22]</code> route and occupy 2 of 3 slots. The plan note calls them "still computing".</li>
+<li>The <code>[2,2,2,12]</code> "unconditional kill to d ≤ 2000" is vacuous; the enumerator does
+not exist in the repo.</li>
+<li>"2-rank-1 seeds have no rational (2,2)-kernels" is false in general — verified today.</li>
+<li>The <code>[2,24]</code> wall is a conjecture confined to one locus of one component of one
+chart.</li>
+<li>The extended-DB group list is inherited, not measured.</li>
+<li>Items #3–#10 of the newest ranked list (2026-07-19) had <b>zero</b> follow-up; #1 and #2 got
+follow-up but not in the recommended form.</li>
+<li><code>notes/infinite_families_inventory.md</code> is materially stale and its simplicity
+standard is obsolete.</li>
+<li>The <code>pell-cf-order</code> skill actively discourages the project's current best
+<code>[2,22]</code> lane (its recorded dead end was order 24 — 21 CF steps, no anchor,
+point-reconstruction; order 11 is 8 steps with two anchors and ideal-reconstruction).</li>
+<li>The <code>g2-torsion-lab</code> skill's "state of play" is three generations old, and
+<code>target-playbook</code> still points at the 2026-07-02 priority list.</li>
+<li>V1 is closed for <code>[2,2,2,24]</code> (killed at p = 73), though two notes still say
+"concentrate on V1".</li>
+<li>BFS-√3 is closed for <code>[3,12]</code> by the μ₃ argument proved on the
+<code>[2,6,6]</code> lane.</li>
+<li>Reproducibility gaps: the M(12) <code>[2,24]</code> pipeline, the <code>[3,12]</code>
+pipeline, the foundational S12/S27 splitting note, <code>m24_fibersieve.c</code>,
+<code>m24_gentab.gp</code>, <code>m18_m14_416_exact.m</code> and the HLP <code>[2,2,24]</code>
+anchor bank exist only as citations. <code>code/torsion_cover_lab_utils.m</code> is dead code
+(loaded by zero of 639 Magma scripts) while three skills advertise it.</li>
+</ol>
+
+<h2>Artifacts from this review</h2>
+<pre>notes/claude_top10_2026_07_25.md      the full write-up
+code/claude_c7_relations.gp           derivation + verification of (R1),(R2),(R3)
+code/claude_c7_harvest.c              two-tier contact-7 three-root / SPLITALL harvester
+code/claude_c7_newhits_verify.m       Magma verification of the five new [2,2,14] curves
+code/claude_c9_tworoot_genus.m        contact-9 two-root curve: genus 6 (kills that ladder)
+code/claude_richelot_rank1.m          Galois-stable Richelot from 2-rank-1 seeds (1/88)
+results/claude_c7_*.log  results/claude_c9_tworoot_genus.log  results/claude_richelot_rank1.log</pre>
+
+</body>
+</html>

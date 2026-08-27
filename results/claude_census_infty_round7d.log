@@ -1,0 +1,8 @@
+fibers tau = 2, 5, 7, 1/2, 4:
+  tau=2: rational W-roots 4, torsion [ 2, 2, 10 ], strict p=37
+  tau=5: rational W-roots 4, torsion [ 2, 2, 10 ], strict p=13
+  tau=7: rational W-roots 4, torsion [ 2, 2, 10 ], strict p=73
+  tau=1/2: rational W-roots 4, torsion [ 2, 2, 10 ], strict p=59
+  tau=4: rational W-roots 4, torsion [ 2, 2, 10 ], strict p=47
+distinct G2: 5 of 5; exact+strict: 5
+ROUND7D_DONE

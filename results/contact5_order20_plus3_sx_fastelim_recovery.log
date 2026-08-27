@@ -1,0 +1,27 @@
+CONTACT5 ORDER20+3 NORMALIZED FAST ELIMINATION
+V_DEGREES <2, 2, 3>
+V_LINEAR_RECOVERY den_degree 6 den_terms 14 num_degree 10 num_terms 50
+SUBSTITUTED_EQUATIONS <22, 394, 9> <20, 305, 8> <30, 946, 12>
+RESULTANTS_U_BEGIN
+Time: 1.650
+Time: 1.080
+RESULTANTS_U_DONE <318, 15287> <288, 12143>
+PAIRWISE_RESULTANT_GCD degree 288 terms 12143
+STRIPPED M=0 56
+STRIPPED s=1 16
+OPEN_RESULTANT degree 216 terms 10735
+DENOMINATOR_BRANCH_RESULTANT_BEGIN
+Time: 0.000
+DENOMINATOR_BRANCH_RESULTANT degree 28 terms 111 open_overlap_degree 20
+OPEN_FACTORIZATION_BEGIN
+Time: 0.700
+OPEN_FACTORIZATION_DONE factors 2
+SM_FACTOR 1 multiplicity 6 degree 20 degree_s 12 degree_m 8 terms 96 denV_numV_boundary true
+ss^12*mm^8 - 12*ss^11*mm^8 - 81/295*ss^12*mm^6 + 66*ss^10*mm^8 - 899/2950*ss^12*mm^5 + 1701/590*ss^11*mm^6 - 220*ss^9*mm^8 - 146/7375*ss^12*mm^4 + 35061/11800*ss^11*mm^5 - 3888/295*ss^10*mm^6 + 495*ss^8*mm^8 - 1/1475*ss^12*mm^3 + 1314/7375*ss^11*mm^4 - 22475/1888*ss^10*mm^5 + 20007/590*ss^9*mm^6 - 792*ss^7*mm^8 - 1/118000*ss^12*mm^2 + 33/5900*ss^11*mm^3 - 594463/944000*ss^10*mm^4 + 108779/4720*ss^9*mm^5 - 3078/59*ss^8*mm^6 + 924*ss^6*mm^8 + 3/47200*ss^11*mm^2 - 391/23600*ss^10*mm^3 + 227613/236000*ss^9*mm^4 - 108779/9440*ss^8*mm^5 + 13041/295*ss^7*mm^6 - 792*ss^5*mm^8 - 29/188800*ss^10*mm^2 + 25/1888*ss^9*mm^3 + 12031/472000*ss^8*mm^4 - 281387/5900*ss^7*mm^5 - 2268/295*ss^6*mm^6 + 495*ss^4*mm^8 + 1/3776000*ss^10*mm + 1/75520*ss^9*mm^2 + 9/236*ss^8*mm^3 - 1191/472*ss^7*mm^4 + 3044913/23600*ss^6*mm^5 - 7857/295*ss^5*mm^6 - 220*ss^3*mm^8 - 39/15104000*ss^9*mm + 1689/3020800*ss^8*mm^2 - 101/944*ss^7*mm^3 + 392701/94400*ss^6*mm^4 - 383873/2360*ss^5*mm^5 + 9639/295*ss^4*mm^6 + 66*ss^2*mm^8 + 561/60416000*ss^8*mm - 173/188800*ss^7*mm^2 + 11/118*ss^6*mm^3 - 4166/1475*ss^5*mm^4 + 567269/4720*ss^4*mm^5 - 2187/118*ss^3*mm^6 - 12*ss*mm^8 + 3/96665600*ss^8 - 13/1208320*ss^7*mm + 259/755200*ss^6*mm^2 + 5/472*ss^5*mm^3 - 79/1888*ss^4*mm^4 - 119567/2360*ss^3*mm^5 + 324/59*ss^2*mm^6 + mm^8 - 7/48332800*ss^7 - 219/12083200*ss^6*mm + 13/37760*ss^5*mm^2 - 9/118*ss^4*mm^3 + 95/59*ss^3*mm^4 + 17081/1888*ss^2*mm^5 - 81/118*ss*mm^6 + 3/48332800*ss^6 + 99/1510400*ss^5*mm - 33/302080*ss^4*mm^2 + 45/944*ss^3*mm^3 - 50403/37760*ss^2*mm^4 + 899/944*ss*mm^5 + 33/48332800*ss^5 - 143/2416640*ss^4*mm - 17/37760*ss^3*mm^2 - 5/944*ss^2*mm^3 + 987/1888*ss*mm^4 - 899/1888*mm^5 - 97/96665600*ss^4 - 13/1208320*ss^3*mm + 15/30208*ss^2*mm^2 - 5/1888*ss*mm^3 - 329/3776*mm^4 - 7/9666560*ss^3 + 111/2416640*ss^2*mm - 3/15104*ss*mm^2 + 9/4833280*ss^2 - 1/60416*ss*mm + 1/120832*mm^2 + 1/9666560*ss - 1/241664*mm - 1/966656
+ SQUARE_PULLBACK degree 28 factors 1
+  SQ_FACTOR multiplicity 1 degree 28 degree_s 12 degree_L 16 terms 96
+SM_FACTOR 2 multiplicity 1 degree 96 degree_s 56 degree_m 40 terms 2107 denV_numV_boundary false
+ SQUARE_PULLBACK degree 136 factors 1
+  SQ_FACTOR multiplicity 1 degree 136 degree_s 56 degree_L 80 terms 2107
+GENERIC_RECOVERY_AUDIT_BEGIN factors 1
+ RECOVERY_FACTOR 1 degree_m 40 irreducible_over_Qs true

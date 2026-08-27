@@ -1,0 +1,43 @@
+# Bounded finite-field output from code/agent_z5x5_degree2_contact_probe.sage
+# Identity: H^2 - f*R^2 = q^5
+
+## p=11
+tested=4 smooth=4 count_25=1 absolute_simple=1
+a=0 b=0 k=4
+f=7*x^5 + 1
+q=x^2 + x + 7
+w=x + 3
+H=x^5 + 2*x^4 + 4*x^3 + 4*x^2 + x + 2
+R=5*x^2 + 7
+contact_sign=D
+marked=(x, y + 10)
+second=(x^2 + x + 7, y + 10*x + 8)
+relation=None
+frobenius=x^4 + x^3 - 9*x^2 + 11*x + 121
+jacobian_order=125
+power_polynomial=w^4 + 1070281*w^3 + 5218230029401*w^2 + 3359000261465328601*w + 9849732675807611094711841
+absolute_simple_certificate=True
+full_rank=10 tangent_dimension=3 fiber_rank=10 fiber_det=10
+q_discriminant=6 q_irreducible=True gcd_q_f=1 gcd_q_R=1
+identity_check=0
+
+## p=19
+tested=412 smooth=389 count_25=85 absolute_simple=41
+a=1 b=3 k=16
+f=3*x^5 + 9*x^4 + 6*x^3 + 7*x^2 + 2*x + 1
+q=x^2 + x + 3
+w=4*x + 13
+H=x^5 + 4*x^4 + 9*x^3 + 10*x^2 + 11*x + 18
+R=x^2 + 9
+contact_sign=-D
+marked=(x, y + 18)
+second=(x^2 + x + 3, y + 15*x + 6)
+relation=None
+frobenius=x^4 + 5*x^3 + 13*x^2 + 95*x + 361
+jacobian_order=475
+power_polynomial=w^4 + 45824401*w^3 + 4839046775571241*w^2 + 101423830390570307194561*w + 4898762930960846817716295277921
+absolute_simple_certificate=True
+full_rank=10 tangent_dimension=3 fiber_rank=10 fiber_det=11
+q_discriminant=8 q_irreducible=True gcd_q_f=1 gcd_q_R=1
+identity_check=0
+

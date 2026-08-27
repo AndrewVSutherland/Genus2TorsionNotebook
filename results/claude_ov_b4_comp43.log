@@ -1,0 +1,16 @@
+RESULTANT factorization: [ <4, 3, 1>, <6, 2, 1> ]
+C62 divides R: true
+C43 divides R: true
+
+=== COMPONENT (6,2) ===
+  irreducible: true  arith/geom genus: 1
+  PointSearch(500): 12 points, e.g. [ (-1 : 1 : 0), (2 : 9 : 1), (-2 : 1 : 1), (-4 : 196/81 : 1) ]
+  ELLIPTIC MODEL: [ 0, 0, 0, -1, 1 ]  cond=92
+  RANK BOUNDS: [ 1 ]
+  TORSION: []
+  GENERATORS: [ (1 : -1 : 1) ]
+
+=== COMPONENT (4,3) ===
+  irreducible: true  arith/geom genus: 0
+  GENUS 0: rational or a conic; PointSearch: 28 points
+COMP43_DONE

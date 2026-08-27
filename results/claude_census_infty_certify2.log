@@ -1,0 +1,51 @@
+FAMILY 1 [2]
+  t=2 torsion [2]
+  t=3 torsion []
+CERT [2] exact_fiber=2 strict_fiber=2 strict_prime=17 distinct_invs=2
+FAMILY 2 [3]
+  t=2 torsion [3]
+  t=3 torsion [3]
+CERT [3] exact_fiber=2 strict_fiber=2 strict_prime=13 distinct_invs=2
+FAMILY 3 [2,2]
+  t=2 torsion [2]
+  t=3 torsion [2]
+  t=5 torsion [2]
+  t=7 torsion [2]
+  t=-3 torsion [2]
+  t=1/2 torsion [2]
+  t=-1/3 torsion [2]
+  t=11 torsion [2]
+  t=2/5 torsion [2]
+CERT [2,2] exact_fiber=0 strict_fiber=0 strict_prime=0 distinct_invs=9
+FAMILY 4 [2,2,2]
+  t=2 torsion [2,2,2]
+  t=3 torsion [2,2]
+  t=5 torsion [2,2]
+  t=7 torsion [2,2]
+  t=-3 torsion [2,2]
+  t=1/2 torsion [2,2]
+  t=-1/3 torsion [2,2]
+  t=11 torsion [2,2]
+  t=2/5 torsion [2,2]
+CERT [2,2,2] exact_fiber=2 strict_fiber=0 strict_prime=0 distinct_invs=9
+FAMILY 5 [2,2,2,2]
+  t=5 torsion [2,2,2,2]
+  t=7 torsion [2,2,2,2]
+CERT [2,2,2,2] exact_fiber=5 strict_fiber=5 strict_prime=11 distinct_invs=2
+FAMILY 6 [2,2,2,4]
+  t=5 torsion [2,2,2,4]
+  t=7 torsion [2,2,2,4]
+CERT [2,2,2,4] exact_fiber=5 strict_fiber=5 strict_prime=59 distinct_invs=2
+FAMILY 7 [2,2,4,4]
+  t=3 torsion [2,2,4,4]
+  t=5 torsion [2,2,4,4]
+CERT [2,2,4,4] exact_fiber=3 strict_fiber=3 strict_prime=37 distinct_invs=2
+FAMILY 8 [2,2,2,8]
+  t=2 torsion [2,2,2,8]
+  t=3 torsion [2,2,2,8]
+CERT [2,2,2,8] exact_fiber=2 strict_fiber=2 strict_prime=31 distinct_invs=2
+FAMILY 9 [8]
+  t=2 torsion [8]
+  t=3 torsion [8]
+CERT [8] exact_fiber=2 strict_fiber=2 strict_prime=13 distinct_invs=2
+INFTY_CERTIFY_DONE

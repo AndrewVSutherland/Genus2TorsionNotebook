@@ -1,0 +1,28 @@
+AGENT M2248 q^2=1 projective local lift check
+conditions H1=-8*(D^2-T^2)*(D-N+T)*(D+N-T), H4=8*G_h
+primes [3] depth 6
+PRIME_START 3
+DEPTH p=3 k=1 mod=3 total=23 resolved_nonzero=0 unit=0 T=1:7/0/0 D=1:8/0/0 N=1:8/0/0
+DEPTH p=3 k=2 mod=9 total=147 resolved_nonzero=0 unit=0 T=1:51/0/0 D=1:48/0/0 N=1:48/0/0
+DEPTH p=3 k=3 mod=27 total=873 resolved_nonzero=198 unit=0 T=1:297/54/0 D=1:288/72/0 N=1:288/72/0
+DEPTH p=3 k=4 mod=81 total=4509 resolved_nonzero=1782 unit=0 T=1:1485/486/0 D=1:1512/648/0 N=1:1512/648/0
+DEPTH p=3 k=5 mod=243 total=32319 resolved_nonzero=22032 unit=0 T=1:10287/6480/0 D=1:11016/7776/0 N=1:11016/7776/0
+DEPTH p=3 k=6 mod=729 total=235467 resolved_nonzero=198288 unit=0 T=1:72171/58320/0 D=1:81648/69984/0 N=1:81648/69984/0
+NO_OBSTRUCTION_TO_DEPTH p=3 depth=6
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,1,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,244,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,487,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(243,1,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(243,244,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,244); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,487); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,243,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,243,244); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,0); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,243); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,486); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(243,1,0); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(243,1,243); H1=0; H4=0
+PRIME_DONE 3
+DONE

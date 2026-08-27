@@ -1,0 +1,13 @@
+loaded mp4Q, degree 4
+plane model: total degree 8, terms 13
+plane model genus = 2
+IsHyperelliptic: Hyperelliptic Curve defined by y^2 = 1/4*x^6 - 9/2*x^5 + 81/2*x^4 - 243*x^3 - 729*x^2 + 8748*x + 26244 over Rational Field
+simplified: Hyperelliptic Curve defined by y^2 = 1/4*x^6 - 9/2*x^5 + 81/2*x^4 - 243*x^3 - 729*x^2 + 8748*x + 26244 over Rational Field
+f = 1/4*$.1^6 - 9/2*$.1^5 + 81/2*$.1^4 - 243*$.1^3 - 729*$.1^2 + 8748*$.1 + 26244
+RANK BOUNDS: 3 <= rank <= 3  (1.5s)
+
+In file "code/contact6_m612_relative3_E4_rank.m", line 90, column 30:
+>>     T, mpT := TorsionSubgroup(J);
+                                ^
+Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+

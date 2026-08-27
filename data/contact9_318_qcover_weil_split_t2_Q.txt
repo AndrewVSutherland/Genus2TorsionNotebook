@@ -1,0 +1,16 @@
+BEGIN base=Q at t=2
+raw_dimension=1
+boundary_quotient_iteration=1 dimension=1
+boundary_quotient_iteration=2 dimension=0
+total_degree=40
+pairing_remainder_degrees=(7,6)
+pairing_norm_degree=5 terms=40
+pairing_norm_at_marked=0
+orthogonal_degree=13
+nonorthogonal_degree=27
+orthogonal_without_marked_degree=12
+orbit_intersection_reconstructs=True
+orbit_ideals_comaximal=True
+marked_intersection_reconstructs=True
+marked_ideals_comaximal=True
+END base=Q at t=2

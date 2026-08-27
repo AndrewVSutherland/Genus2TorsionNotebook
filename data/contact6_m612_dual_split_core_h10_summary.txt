@@ -1,0 +1,56 @@
+CONTACT6_M612_DUAL_SPLIT_CORE_SEARCH
+
+Necessary discriminant covers for the three distinguished dual-kernel
+classes:
+
+  R1 halved => DB*DC is a rational square,
+  R2 halved => DC is a rational square,
+  R3 halved => DB is a rational square,
+
+where
+
+  DB=(a-3)^2-8*(b+3),
+  DC=(b-3)^2-8*(a+3).
+
+The search solves every fixed (b,v) cubic-contact core fiber, retains
+M=L^2, applies the union of the three square covers, and then verifies that
+the contact class is independent of the built-in order-3 direction before
+constructing and exact-testing Richelot neighbors.
+
+An audit found that the first raw run counted the degree-drop fiber `b=-3`,
+classified empty ideals as exceptional, omitted the special branch `v=1`,
+and applied the cover filter before exact core verification.  The corrected
+driver skips `b=-3`, handles `v=1` separately, and verifies smoothness,
+contact order, and independence before interpreting a cover survivor.
+
+Corrected height 6
+------------------
+checked                  2116
+exceptional                 0
+formal_lifts                7
+formal_split_cover          3
+verified_independent_core   2
+verified_split_cover        0
+hits                        0
+
+Corrected height 10
+-------------------
+checked                 15876
+exceptional                 0
+formal_lifts               16
+formal_split_cover          8
+verified_independent_core   6
+verified_split_cover        0
+hits                        0
+
+The six height-10 verified presentations are the two presentations on each
+of the three known `DeltaR=0` sources.  None has `DB`, `DC`, or `DB*DC`
+square.  Thus no smooth independent `[3,3]` source reaches the Richelot
+stage, and there is no open `[6,12]` hit through this bound.
+
+Full diagnostic and positive controls:
+  notes/contact6_m612_core_audit_2026_07_10.md
+  code/contact6_m612_dual_split_core_audit.m
+
+Driver:
+  code/contact6_m612_dual_split_core_search.m

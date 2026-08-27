@@ -1,0 +1,6 @@
+COMPOSITE 8x3 SEARCH on A(8): H=6 Part=0/3 prefilter 3|#J at [ 7, 11, 13 ]
+SEARCH_DONE tested=29610 smooth=25923 pre3=4653 tors=4653 hits24=0 hits224=0
+TORSION_HISTOGRAM
+  [ 2, 8 ] : 9
+  [ 8 ] : 4644
+DONE

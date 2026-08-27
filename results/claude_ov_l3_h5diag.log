@@ -1,0 +1,181 @@
+H5 loaded: #terms=16
+
+==== (A) per-prime census detail ====
+
+CURVE 21168.b3  H5zero=true  deg=6
+  discs = [ 0, 1, 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ]
+  p= 11 a1=0 a2=-2 n=96 core=6 prank=1 Lfact=[ <4, 1> ]
+  p= 13 a1=0 a2=10 n=64 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 23 a1=0 a2=30 n=64 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 29 a1=0 a2=-42 n=400 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 31 a1=0 a2=-2 n=256 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 43 a1=-12 a2=122 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 53 a1=0 a2=-50 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p= 61 a1=0 a2=-122 n=976 core=61 prank=0 Lfact=[ <2, 2> ]
+  p= 71 a1=0 a2=-42 n=736 core=46 prank=1 Lfact=[ <4, 1> ]
+  p= 73 a1=0 a2=-30 n=704 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 97 a1=0 a2=-30 n=896 core=14 prank=1 Lfact=[ <4, 1> ]
+  p=103 a1=0 a2=30 n=704 core=11 prank=1 Lfact=[ <4, 1> ]
+  p=107 a1=0 a2=150 n=256 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p=113 a1=0 a2=70 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p=137 a1=0 a2=-90 n=1456 core=91 prank=1 Lfact=[ <4, 1> ]
+  p=157 a1=0 a2=70 n=976 core=61 prank=1 Lfact=[ <4, 1> ]
+  p=179 a1=0 a2=198 n=640 core=10 prank=1 Lfact=[ <4, 1> ]
+  p=181 a1=0 a2=138 n=896 core=14 prank=1 Lfact=[ <4, 1> ]
+  p=191 a1=0 a2=198 n=736 core=46 prank=1 Lfact=[ <4, 1> ]
+  p=197 a1=0 a2=-290 n=2736 core=19 prank=1 Lfact=[ <4, 1> ]
+  SUMMARY 21168.b3 : primes=43 core5=23 other=20  (nonordinary among 'other': 19)
+
+CURVE 21168.b8  H5zero=true  deg=6
+  discs = [ 0, 1, 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ]
+  p= 11 a1=0 a2=-2 n=96 core=6 prank=1 Lfact=[ <4, 1> ]
+  p= 13 a1=0 a2=10 n=64 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 23 a1=0 a2=30 n=64 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 29 a1=0 a2=-42 n=400 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 31 a1=0 a2=-2 n=256 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 43 a1=-12 a2=122 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 53 a1=0 a2=-50 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p= 61 a1=0 a2=-122 n=976 core=61 prank=0 Lfact=[ <2, 2> ]
+  p= 71 a1=0 a2=-42 n=736 core=46 prank=1 Lfact=[ <4, 1> ]
+  p= 73 a1=0 a2=-30 n=704 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 97 a1=0 a2=-30 n=896 core=14 prank=1 Lfact=[ <4, 1> ]
+  p=103 a1=0 a2=30 n=704 core=11 prank=1 Lfact=[ <4, 1> ]
+  p=107 a1=0 a2=150 n=256 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p=113 a1=0 a2=70 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p=137 a1=0 a2=-90 n=1456 core=91 prank=1 Lfact=[ <4, 1> ]
+  p=157 a1=0 a2=70 n=976 core=61 prank=1 Lfact=[ <4, 1> ]
+  p=179 a1=0 a2=198 n=640 core=10 prank=1 Lfact=[ <4, 1> ]
+  p=181 a1=0 a2=138 n=896 core=14 prank=1 Lfact=[ <4, 1> ]
+  p=191 a1=0 a2=198 n=736 core=46 prank=1 Lfact=[ <4, 1> ]
+  p=197 a1=0 a2=-290 n=2736 core=19 prank=1 Lfact=[ <4, 1> ]
+  SUMMARY 21168.b8 : primes=43 core5=23 other=20  (nonordinary among 'other': 19)
+
+CURVE 960400.hk2  H5zero=true  deg=6
+  discs = [ 0, 1, 2, 5, 13, 17, 22, 23, 31, 39, 41, 53, 69, 83, 133, 143, 157, 183, 391, 489 ]
+  p=  3 a1=0 a2=5 n=4 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 13 a1=0 a2=3 n=92 core=23 prank=1 Lfact=[ <4, 1> ]
+  p= 17 a1=0 a2=-5 n=156 core=39 prank=1 Lfact=[ <4, 1> ]
+  p= 23 a1=0 a2=14 n=128 core=2 prank=1 Lfact=[ <4, 1> ]
+  p= 37 a1=0 a2=-50 n=496 core=31 prank=1 Lfact=[ <4, 1> ]
+  p= 43 a1=0 a2=-2 n=352 core=22 prank=1 Lfact=[ <4, 1> ]
+  p= 47 a1=0 a2=-63 n=628 core=157 prank=1 Lfact=[ <4, 1> ]
+  p= 53 a1=0 a2=38 n=272 core=17 prank=1 Lfact=[ <4, 1> ]
+  p= 59 a1=4 a2=122 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 67 a1=0 a2=10 n=496 core=31 prank=1 Lfact=[ <4, 1> ]
+  p= 73 a1=0 a2=94 n=208 core=13 prank=1 Lfact=[ <4, 1> ]
+  p= 83 a1=0 a2=-110 n=1104 core=69 prank=1 Lfact=[ <4, 1> ]
+  p= 97 a1=0 a2=11 n=732 core=183 prank=1 Lfact=[ <4, 1> ]
+  p=103 a1=0 a2=89 n=468 core=13 prank=1 Lfact=[ <4, 1> ]
+  p=107 a1=0 a2=50 n=656 core=41 prank=1 Lfact=[ <4, 1> ]
+  p=113 a1=0 a2=70 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p=127 a1=0 a2=190 n=256 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p=137 a1=0 a2=-58 n=1328 core=83 prank=1 Lfact=[ <4, 1> ]
+  p=157 a1=0 a2=106 n=832 core=13 prank=1 Lfact=[ <4, 1> ]
+  p=163 a1=0 a2=-246 n=2288 core=143 prank=1 Lfact=[ <4, 1> ]
+  p=167 a1=0 a2=-155 n=1956 core=489 prank=1 Lfact=[ <4, 1> ]
+  p=173 a1=0 a2=-45 n=1564 core=391 prank=1 Lfact=[ <4, 1> ]
+  p=193 a1=0 a2=-146 n=2128 core=133 prank=1 Lfact=[ <4, 1> ]
+  p=197 a1=0 a2=182 n=848 core=53 prank=1 Lfact=[ <4, 1> ]
+  SUMMARY 960400.hk2 : primes=43 core5=19 other=24  (nonordinary among 'other': 23)
+
+CURVE 1012500.ee2  H5zero=true  deg=6
+  discs = [ 0, 5, 6, 11, 14, 19, 21, 26, 39, 41, 46, 94, 106, 114, 134, 166, 174, 186, 394, 466 ]
+  p=  7 a1=0 a2=-10 n=96 core=6 prank=1 Lfact=[ <4, 1> ]
+  p= 13 a1=0 a2=0 n=104 core=26 prank=0 Lfact=[ <4, 1> ]
+  p= 17 a1=0 a2=-10 n=176 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 23 a1=0 a2=0 n=184 core=46 prank=0 Lfact=[ <4, 1> ]
+  p= 37 a1=0 a2=50 n=96 core=6 prank=1 Lfact=[ <4, 1> ]
+  p= 43 a1=0 a2=-40 n=504 core=14 prank=1 Lfact=[ <4, 1> ]
+  p= 47 a1=0 a2=-70 n=656 core=41 prank=1 Lfact=[ <4, 1> ]
+  p= 53 a1=0 a2=-70 n=704 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 67 a1=0 a2=20 n=456 core=114 prank=1 Lfact=[ <4, 1> ]
+  p= 73 a1=0 a2=40 n=424 core=106 prank=1 Lfact=[ <4, 1> ]
+  p= 83 a1=0 a2=10 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p= 97 a1=0 a2=110 n=336 core=21 prank=1 Lfact=[ <4, 1> ]
+  p=103 a1=0 a2=-170 n=1504 core=94 prank=1 Lfact=[ <4, 1> ]
+  p=107 a1=0 a2=40 n=696 core=174 prank=1 Lfact=[ <4, 1> ]
+  p=113 a1=0 a2=10 n=864 core=6 prank=1 Lfact=[ <4, 1> ]
+  p=127 a1=0 a2=140 n=456 core=114 prank=1 Lfact=[ <4, 1> ]
+  p=131 a1=16 a2=326 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=137 a1=0 a2=140 n=536 core=134 prank=1 Lfact=[ <4, 1> ]
+  p=157 a1=0 a2=10 n=1216 core=19 prank=1 Lfact=[ <4, 1> ]
+  p=163 a1=0 a2=-140 n=1864 core=466 prank=1 Lfact=[ <4, 1> ]
+  p=167 a1=0 a2=110 n=896 core=14 prank=1 Lfact=[ <4, 1> ]
+  p=173 a1=0 a2=160 n=744 core=186 prank=1 Lfact=[ <4, 1> ]
+  p=193 a1=0 a2=220 n=664 core=166 prank=1 Lfact=[ <4, 1> ]
+  p=197 a1=0 a2=0 n=1576 core=394 prank=0 Lfact=[ <4, 1> ]
+  SUMMARY 1012500.ee2 : primes=43 core5=19 other=24  (nonordinary among 'other': 23)
+
+CURVE 162000.ff6  H5zero=true  deg=5
+  discs = [ 0, 1, 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ]
+  p=  7 a1=0 a2=10 n=16 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 11 a1=-4 a2=26 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 13 a1=0 a2=-10 n=144 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 17 a1=0 a2=-10 n=176 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 23 a1=0 a2=-30 n=304 core=19 prank=1 Lfact=[ <4, 1> ]
+  p= 37 a1=0 a2=-10 n=336 core=21 prank=1 Lfact=[ <4, 1> ]
+  p= 43 a1=0 a2=-30 n=464 core=29 prank=1 Lfact=[ <4, 1> ]
+  p= 47 a1=0 a2=50 n=176 core=11 prank=1 Lfact=[ <4, 1> ]
+  p= 53 a1=0 a2=70 n=144 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p= 67 a1=0 a2=50 n=336 core=21 prank=1 Lfact=[ <4, 1> ]
+  p= 73 a1=0 a2=-10 n=624 core=39 prank=1 Lfact=[ <4, 1> ]
+  p= 83 a1=0 a2=50 n=464 core=29 prank=1 Lfact=[ <4, 1> ]
+  p= 97 a1=0 a2=70 n=496 core=31 prank=1 Lfact=[ <4, 1> ]
+  p=101 a1=-4 a2=206 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=103 a1=0 a2=10 n=784 core=1 prank=1 Lfact=[ <2, 1>, <2, 1> ]
+  p=107 a1=0 a2=-150 n=1456 core=91 prank=1 Lfact=[ <4, 1> ]
+  p=109 a1=-20 a2=318 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=113 a1=0 a2=110 n=464 core=29 prank=1 Lfact=[ <4, 1> ]
+  p=127 a1=0 a2=10 n=976 core=61 prank=1 Lfact=[ <4, 1> ]
+  p=131 a1=-4 a2=266 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=137 a1=0 a2=70 n=816 core=51 prank=1 Lfact=[ <4, 1> ]
+  p=157 a1=0 a2=190 n=496 core=31 prank=1 Lfact=[ <4, 1> ]
+  p=163 a1=0 a2=-190 n=2064 core=129 prank=1 Lfact=[ <4, 1> ]
+  p=167 a1=0 a2=90 n=976 core=61 prank=1 Lfact=[ <4, 1> ]
+  p=173 a1=0 a2=-50 n=1584 core=11 prank=1 Lfact=[ <4, 1> ]
+  p=179 a1=0 a2=358 n=0 core=0 prank=0 Lfact=[ <2, 2> ]
+  p=193 a1=0 a2=-90 n=1904 core=119 prank=1 Lfact=[ <4, 1> ]
+  p=197 a1=0 a2=-370 n=3056 core=191 prank=1 Lfact=[ <4, 1> ]
+  SUMMARY 162000.ff6 : primes=43 core5=15 other=28  (nonordinary among 'other': 24)
+
+CURVE 155236.a2  H5zero=true  deg=6
+  discs = [ 0, 5 ]
+  p= 13 a1=6 a2=35 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  SUMMARY 155236.a2 : primes=43 core5=42 other=1  (nonordinary among 'other': 0)
+
+CURVE 824464.a1  H5zero=true  deg=6
+  discs = [ 0, 5 ]
+  p= 17 a1=-8 a2=50 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=149 a1=-8 a2=314 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=191 a1=24 a2=526 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=197 a1=16 a2=458 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  SUMMARY 824464.a1 : primes=45 core5=41 other=4  (nonordinary among 'other': 0)
+
+CURVE 152881.b1  H5zero=true  deg=6
+  discs = [ 0, 5 ]
+  p=  3 a1=2 a2=7 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 11 a1=-8 a2=38 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 13 a1=-2 a2=27 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 19 a1=4 a2=42 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p= 59 a1=8 a2=134 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=107 a1=20 a2=314 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=139 a1=-26 a2=447 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=163 a1=-42 a2=767 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  p=191 a1=-24 a2=526 n=0 core=0 prank=2 Lfact=[ <2, 2> ]
+  SUMMARY 152881.b1 : primes=43 core5=34 other=9  (nonordinary among 'other': 0)
+
+==== (B) negative control: random sextics ====
+RANDOM_SEXTICS tested=299  H5nonzero=299
+
+==== (C) forward control: random (g,h) on the EK parametrisation ====
+
+DiscCensusRat(
+f: -13800369627455324262374215111371885397/27675837762519849233...,
+B: 120
+)
+In file "code/claude_ov_l3_h5diag.m", line 111, column 20:
+>>     fI := Px ! [ Z ! c : c in Coefficients(fI) ];
+                      ^
+Runtime error in '!': Rational argument is not a whole integer
+LHS: RngInt
+RHS: FldRatElt

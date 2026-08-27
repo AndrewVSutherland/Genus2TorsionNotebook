@@ -1,0 +1,17 @@
+C6X266 q=5 tested=20 good=10 canary26=10 canary66=1 contains266=0
+C6X266 q=7 tested=42 good=24 canary26=24 canary66=3 contains266=0
+C6X266 q=11 tested=110 good=76 canary26=76 canary66=14 contains266=9
+C6HIT q=11 a=0 b=3 inv=[ 2, 2, 6, 6 ]
+C6HIT q=11 a=0 b=10 inv=[ 2, 2, 6, 6 ]
+C6HIT q=11 a=1 b=1 inv=[ 2, 2, 6, 6 ]
+C6HIT q=11 a=2 b=2 inv=[ 2, 2, 6, 6 ]
+C6HIT q=11 a=3 b=0 inv=[ 2, 2, 6, 6 ]
+C6HIT q=11 a=4 b=7 inv=[ 2, 2, 6, 6 ]
+C6X266 q=13 tested=156 good=114 canary26=114 canary66=33 contains266=21
+C6HIT q=13 a=0 b=4 inv=[ 2, 6, 12 ]
+C6HIT q=13 a=1 b=6 inv=[ 2, 2, 6, 6 ]
+C6HIT q=13 a=1 b=9 inv=[ 2, 2, 6, 6 ]
+C6HIT q=13 a=2 b=3 inv=[ 2, 6, 12 ]
+C6HIT q=13 a=3 b=2 inv=[ 2, 6, 12 ]
+C6HIT q=13 a=3 b=3 inv=[ 2, 2, 6, 6 ]
+PROBE_DONE

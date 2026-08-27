@@ -1,0 +1,43 @@
+=== claude_ov_m612ap_wfind : intrinsic Prym class search, H = 30 ===
+scanning 16680 rational x-values
+PROGRESS 500/16680  found 6
+PROGRESS 1000/16680  found 6
+PROGRESS 1500/16680  found 6
+PROGRESS 2000/16680  found 6
+PROGRESS 2500/16680  found 6
+PROGRESS 3000/16680  found 6
+PROGRESS 3500/16680  found 6
+PROGRESS 4000/16680  found 6
+PROGRESS 4500/16680  found 6
+PROGRESS 5000/16680  found 6
+PROGRESS 5500/16680  found 6
+PROGRESS 6000/16680  found 6
+PROGRESS 6500/16680  found 6
+PROGRESS 7000/16680  found 6
+PROGRESS 7500/16680  found 6
+PROGRESS 8000/16680  found 6
+PROGRESS 8500/16680  found 6
+PROGRESS 9000/16680  found 6
+PROGRESS 9500/16680  found 6
+PROGRESS 10000/16680  found 6
+PROGRESS 10500/16680  found 6
+PROGRESS 11000/16680  found 6
+PROGRESS 11500/16680  found 6
+PROGRESS 12000/16680  found 6
+PROGRESS 12500/16680  found 6
+PROGRESS 13000/16680  found 6
+PROGRESS 13500/16680  found 6
+PROGRESS 14000/16680  found 6
+PROGRESS 14500/16680  found 6
+PROGRESS 15000/16680  found 6
+PROGRESS 15500/16680  found 6
+PROGRESS 16000/16680  found 6
+PROGRESS 16500/16680  found 6
+non-even factors found: 6 (rational points: 0)
+CAND deg 3  x0 = -2/3  g = t^3 - 2*t^2 + 4/3*t + 8/3
+CAND deg 3  x0 = -2/3  g = t^3 + 2*t^2 + 4/3*t - 8/3
+CAND deg 3  x0 = -2/5  g = t^3 - 6/5*t^2 + 12/25*t - 152/125
+CAND deg 3  x0 = -2/5  g = t^3 + 6/5*t^2 + 12/25*t + 152/125
+CAND deg 3  x0 = 2/15  g = t^3 - 2/5*t^2 + 4/75*t - 88/375
+CAND deg 3  x0 = 2/15  g = t^3 + 2/5*t^2 + 4/75*t + 88/375
+WFIND_DONE

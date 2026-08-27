@@ -1,0 +1,7 @@
+V1_DEPTH5_TKEYS_START p=13 depth=5 modulus=371293
+STRICT_TRANSFORM_FIXED_T_JACOBIAN_RANK=3 for s=6,7 over T=+/-1,+/-5
+CONTACT_SCOPE complete first-blow-up formal graphs; independent of sampled bank
+COUNTS {1: 1021, 5: 28561, 8: 28561, 12: 1021} total=59164
+COMPACT +/-5 are complete residue cylinders; +/-1 are ramified cover keys
+output=results/target_22224_V1_depth5_Tkeys.tsv
+compact=results/target_22224_V1_depth5_Tkeys_compact.tsv

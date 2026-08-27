@@ -1,0 +1,494 @@
+Loading "split_lab.m"
+FAMILY N=8 verified
+FAMILY N=10 verified
+FAMILY N=12 verified
+== controls ==
+NEGCTRL N=12 (t,u)=(2/17,-3/7) V1=false V2=false
+NEGCTRL N=12 (t,u)=(1/6,-1/6) V1=false V2=false
+NEGCTRL N=12 (t,u)=(1/7,-2) V1=false V2=false
+NEGCTRL N=12 (t,u)=(-3,-3/5) V1=false V2=false
+CONTROLS PASS
+POOL N=8: 10909 curves
+POOL N=10: 13156 curves
+POOL N=12: 10963 curves
+DIAGSURV N=8 t=1/5 d=-7 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/5|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/5|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/10 d=7 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/10|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/10|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/17 d=161 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/17|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/17|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/26 d=119 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/26|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/26|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/37 d=1081 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/37|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/37|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/50 d=527 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/50|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/50|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/65 d=3713 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/65|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/65|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/82 d=31 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/82|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/82|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=1/101 d=9401 alsq=true aldsq=false
+CAND l1212diag|N=8|t=1/101|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=1/101|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=4/13 d=-119 alsq=true aldsq=false
+CAND l1212diag|N=8|t=4/13|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=4/13|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=4/29 d=41 alsq=true aldsq=false
+CAND l1212diag|N=8|t=4/29|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=4/29|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=4/53 d=1241 alsq=true aldsq=false
+CAND l1212diag|N=8|t=4/53|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=4/53|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=4/85 d=4633 alsq=true aldsq=false
+CAND l1212diag|N=8|t=4/85|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=4/85|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=9/25 d=-527 alsq=true aldsq=false
+CAND l1212diag|N=8|t=9/25|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=9/25|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=9/34 d=-161 alsq=true aldsq=false
+CAND l1212diag|N=8|t=9/34|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=9/34|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=9/58 d=-41 alsq=true aldsq=false
+CAND l1212diag|N=8|t=9/58|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=9/58|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=9/73 d=721 alsq=true aldsq=false
+CAND l1212diag|N=8|t=9/73|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=9/73|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=9/109 d=4681 alsq=true aldsq=false
+CAND l1212diag|N=8|t=9/109|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=9/109|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=16/41 d=-31 alsq=true aldsq=false
+CAND l1212diag|N=8|t=16/41|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=16/41|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=16/65 d=-2047 alsq=true aldsq=false
+CAND l1212diag|N=8|t=16/65|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=16/65|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=16/97 d=-959 alsq=true aldsq=false
+CAND l1212diag|N=8|t=16/97|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=16/97|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=25/61 d=-71 alsq=true aldsq=false
+CAND l1212diag|N=8|t=25/61|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=25/61|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=25/74 d=-1081 alsq=true aldsq=false
+CAND l1212diag|N=8|t=25/74|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=25/74|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=25/89 d=-4879 alsq=true aldsq=false
+CAND l1212diag|N=8|t=25/89|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=25/89|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=25/106 d=-1241 alsq=true aldsq=false
+CAND l1212diag|N=8|t=25/106|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=25/106|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=36/85 d=-6887 alsq=true aldsq=false
+CAND l1212diag|N=8|t=36/85|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=36/85|1 invs=[ 8, 8 ]
+DIAGSURV N=8 t=49/113 d=-12319 alsq=true aldsq=false
+CAND l1212diag|N=8|t=49/113|1 unknown=[
+[ 4, 64 ],
+[ 256 ],
+[ 128 ],
+[ 8, 32 ],
+[ 2, 128 ],
+[ 8, 16 ],
+[ 16, 16 ],
+[ 64 ],
+[ 2, 32 ],
+[ 4, 32 ],
+[ 32 ],
+[ 2, 64 ]
+]
+EXACTKNOWN l1212diag|N=8|t=49/113|1 invs=[ 8, 8 ]
+DIAG N=8 survivors=27
+DIAG N=10 survivors=0
+DIAG N=12 survivors=0
+NEGFUNNEL N=8 t=1/8 u=-1/16 d=2
+CAND l1212negctrl|t=1/8|u=-1/16|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=-1/16|1 invs=[ 4, 8 ]
+CAND l1212negctrl|t=1/8|u=-1/16|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=-1/16|2 invs=[ 4, 8 ]
+NEGFUNNEL N=8 t=1/8 u=1/24 d=2
+CAND l1212negctrl|t=1/8|u=1/24|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=1/24|1 invs=[ 4, 8 ]
+CAND l1212negctrl|t=1/8|u=1/24|2 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=1/24|2 invs=[ 4, 8 ]
+NEGFUNNEL N=8 t=1/8 u=-1/112 d=2
+CAND l1212negctrl|t=1/8|u=-1/112|1 unknown=[
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=-1/112|1 invs=[ 4, 8 ]
+CAND l1212negctrl|t=1/8|u=-1/112|2 unknown=[
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ]
+]
+EXACTKNOWN l1212negctrl|t=1/8|u=-1/112|2 invs=[ 4, 8 ]
+JOIN N=8 d-matched pairs=6298 survivors=0
+JOIN N=10 d-matched pairs=273 survivors=0
+JOIN N=12 d-matched pairs=38 survivors=0
+SEARCH_DONE 1212 H=120 funneled=30 curves=33 aborts=0 known=33 hits=0 fails=0 7.960 s

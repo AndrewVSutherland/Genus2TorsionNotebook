@@ -1,0 +1,7 @@
+LOCUS GEOMETRY PROBE  primes=[ 7, 11, 13 ]
+ell   N_o8       N_o8_r2    N_full     Nfull/ell    Nfull-ell   
+7     67         18         3          0.428571     -4          
+11    472        175        67         6.09091      56          
+13    914        376        92         7.07692      79          
+RESULTS [ <7, 67, 18, 3>, <11, 472, 175, 67>, <13, 914, 376, 92> ]
+DONE

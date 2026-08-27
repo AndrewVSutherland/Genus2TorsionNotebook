@@ -1,0 +1,42 @@
+Loading "split_lab.m"
+== (N,r)=(5,1): 201655 pairs ==
+PAIR N=5 15a1 27285b1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 15a4 27285b2 T1=[ 8 ] T2=[ 2 ] prod=[ 2, 8 ] order=16 known
+PAIR N=5 15a3 27285b2 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 21a1 525d2 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 21a3 525d1 T1=[ 8 ] T2=[ 2 ] prod=[ 2, 8 ] order=16 known
+PAIR N=5 102b2 387498n1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 102b1 387498n2 T1=[ 8 ] T2=[ 2 ] prod=[ 2, 8 ] order=16 known
+PAIR N=5 210e2 9030y1 T1=[ 2, 8 ] T2=[] prod=[ 2, 8 ] order=16 known
+PAIR N=5 210e2 46830bd1 T1=[ 2, 8 ] T2=[] prod=[ 2, 8 ] order=16 known
+PAIR N=5 210e2 90930s1 T1=[ 2, 8 ] T2=[] prod=[ 2, 8 ] order=16 known
+PAIR N=5 210e2 317730cn1 T1=[ 2, 8 ] T2=[] prod=[ 2, 8 ] order=16 known
+PAIR N=5 240d4 436560ce1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 240d5 436560ce2 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 336e4 8400by1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 546f1 2730z2 T1=[ 7 ] T2=[ 2, 2 ] prod=[ 2, 14 ] order=28 known
+PAIR N=5 690k2 25530bk1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 690k1 25530bk2 T1=[ 8 ] T2=[ 2 ] prod=[ 2, 8 ] order=16 known
+PAIR N=5 1155m2 19635x2 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 1482l1 37050ct1 T1=[ 9 ] T2=[ 2 ] prod=[ 18 ] order=18 known
+PAIR N=5 1482l1 54834ba2 T1=[ 9 ] T2=[ 2 ] prod=[ 18 ] order=18 known
+PAIR N=5 5520u4 204240bo2 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+PAIR N=5 18480cd4 314160cr1 T1=[ 2, 4 ] T2=[ 2 ] prod=[ 2, 2, 4 ] order=16 known
+== (5,1): 22 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(7,3): 13098 pairs ==
+== (7,3): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(8,7): 1559 pairs ==
+== (8,7): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(10,1): 926 pairs ==
+== (10,1): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(11,2): 283 pairs ==
+== (11,2): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(12,11): 66 pairs ==
+== (12,11): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(13,1): 107 pairs ==
+== (13,1): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(14,3): 66 pairs ==
+== (14,3): 0 pairs with torsion product >= 16 and coprime to N ==
+== (N,r)=(16,3): 25 pairs ==
+== (16,3): 0 pairs with torsion product >= 16 and coprime to N ==
+CONGTORS_DONE

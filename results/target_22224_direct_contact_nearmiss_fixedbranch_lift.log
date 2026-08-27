@@ -1,0 +1,4 @@
+NEARMISS_FIXED_BRANCH branches (50, 528, -726, -891) square_roots (130680, 128180, 148104, 396396)
+P11_COUNTS_BY_EXPONENT [1, 11, 121, 121, 1331] open_p5 1210 output results/target_22224_direct_contact_nearmiss_fixedbranch_p11.tsv
+P13_SCALE_CONTACT_RANKS [3] COUNTS_BY_EXPONENT [2, 26, 338, 338, 0] terminal 0
+SCOPE fixed exact projective branch ratios; transverse branch deformations are not excluded

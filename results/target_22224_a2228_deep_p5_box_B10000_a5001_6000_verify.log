@@ -1,0 +1,5 @@
+A2228_DEEP_P5_BOX_VERIFY_START results/target_22224_a2228_deep_p5_box_B10000_a5001_6000_allsigns.tsv
+EXACT_LOCAL_SURVIVOR tuple [ 5301, 5808, -5952, -7600 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 59 chi 3481*x^4 + 236*x^3 - 10*x^2 + 4*x + 1
+A2228_DEEP_P5_BOX_VERIFY_DONE rows 1 hits 0

@@ -1,0 +1,12 @@
+Z49_STRUCTURAL_V0_PROJECTION
+w_resultant_factors_0 [(2, 1, 1), (0, 1, 5), (8, 12, 1)]
+w_resultant_factors_2 [(2, 1, 1), (0, 1, 10), (10, 13, 1)]
+main_projection_degree 194 factor_degrees [(1, 20), (56, 1), (118, 1)]
+only_rational_linear_projection_root r=1 excluded_open true
+conic_backsub_factor_degrees [(2, 5), (15, 1)] [(2, 10), (25, 1)] P15_P25_gcd_degree 0
+conic_rational_quadratic b^2-3 irreducible true
+failed_denominator_degree 9 irreducible true
+CONCLUSION open_v0_Q_points 0
+Z49_STRUCTURAL_V0_PROJECTION_DONE
+elapsed_seconds 10.73
+max_rss_kb 111412

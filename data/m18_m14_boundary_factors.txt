@@ -1,0 +1,31 @@
+Magma V2.29-4     Mon Jun 29 2026 12:12:12 on <host>  [Seed = 1665890277]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m18_m14_boundary_factors.m"
+c4 num [
+<R - 1, 1>,
+<R + 1, 1>
+]
+c4 den [
+<w - 1, 1>,
+<w + 1, 1>
+]
+disc num [
+<w, 4>,
+<R, 8>,
+<R - 1, 14>,
+<R + 1, 2>,
+<R - w, 1>,
+<R + w, 1>,
+<R*w - 3*R + 3*w - 1, 1>,
+<R*w + 3*R + 3*w + 1, 1>,
+<R^2 - 1/2*R*w^2 + 1/2*R - w^2, 8>,
+<R^4 - 2*R^3 + R^2*w^2 - R^2 + 2*R*w^2 - w^2, 1>
+]
+disc den [
+<w - 1, 13>,
+<w + 1, 13>
+]
+disc total degree num 62
+
+Total time: 0.040 seconds, Total memory usage: 32.09MB

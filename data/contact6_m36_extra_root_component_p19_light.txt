@@ -1,0 +1,28 @@
+Magma V2.29-4     Fri Jul  3 2026 14:57:14 on <host>  [Seed = 2710338276]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact6_m36_extra_root_component_p19_light.m"
+p=19 light component diagnostic for eps=1, r=2
+saturated_dimension 1 component_degrees [ 4 ]
+degree unavailable Argument must be a homogenous ideal of a polynomial
+ ring over a field with variables of weight one.
+is_prime false
+known_red_in_Isat true tangent_dim 1
+known_irred_in_Isat true tangent_dim 1
+F19_points_on_Isat 41
+good 8 irred_L 4 red_L 4
+by_b <good,irred,red> Associative Array with index universe Integer Ring
+sample_irred [
+<<3, 8, 3, 14>, [ 2, 6, 30 ], 361*x^4 - 2*x^2 + 1>,
+<<3, 8, 16, 5>, [ 2, 6, 30 ], 361*x^4 - 2*x^2 + 1>,
+<<3, 11, 3, 14>, [ 2, 6, 30 ], 361*x^4 - 2*x^2 + 1>,
+<<3, 11, 16, 5>, [ 2, 6, 30 ], 361*x^4 - 2*x^2 + 1>
+]
+sample_red [
+<<13, 6, 0, 8>, [ 2, 6, 24 ], 361*x^4 - 76*x^3 + 6*x^2 - 4*x + 1>,
+<<13, 9, 16, 14>, [ 2, 6, 24 ], 361*x^4 - 76*x^3 + 6*x^2 - 4*x + 1>,
+<<13, 10, 16, 14>, [ 2, 6, 24 ], 361*x^4 - 76*x^3 + 6*x^2 - 4*x + 1>,
+<<13, 13, 0, 8>, [ 2, 6, 24 ], 361*x^4 - 76*x^3 + 6*x^2 - 4*x + 1>
+]
+
+Total time: 70.409 seconds, Total memory usage: 32.09MB

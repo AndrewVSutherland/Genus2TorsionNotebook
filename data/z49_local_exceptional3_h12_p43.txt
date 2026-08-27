@@ -1,0 +1,32 @@
+Z49 EXCEPTIONAL p=3 CHARTS
+mode all height 12 depth 7 pole_depth 3 primes [ 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+Q5 special fiber f=x^2*(x^3+2*x+1), split node x=0
+Q5 normalization E(F3)=Z/7, marked projection (1,1) has order 7
+Q5 necessary condition 7 divides node thickness v3(Q5); first depth=7
+intersection special fiber f=x*(x-1)^4; non-ordinary four-root cluster
+intersection local h h(1+z)=H/2+(H+b+3/2)z+(H/2+5/2+2b)z^2+bz^3
+infinity first scaled fiber 3^(2e)f -> x^2*(u+v*x)^2; highly degenerate
+MASK 5 good 18 marked_div7 1
+MASK 11 good 103 marked_div7 12
+MASK 13 good 148 marked_div7 15
+MASK 17 good 257 marked_div7 31
+MASK 19 good 327 marked_div7 50
+MASK 23 good 485 marked_div7 59
+MASK 29 good 790 marked_div7 99
+MASK 31 good 903 marked_div7 131
+MASK 37 good 1297 marked_div7 196
+MASK 41 good 1606 marked_div7 234
+MASK 43 good 1768 marked_div7 218
+three_integral_parameters 135
+Q5_CHART_SUMMARY height 12 brows 43 urows 135 checked 5805 vQ5_eq_depth 3878 smooth 3878 away_survivors 0 exact_tests 0 exact_hits 0
+Q5_FIRST_KILL [ <5, 1602>, <11, 1312>, <13, 721>, <17, 188>, <19, 43>, <23, 8>, <29, 4>, <31, 0>, <37, 0>, <41, 0>, <43, 0> ]
+Q5_SURVIVOR_RECORDS []
+INTERSECTION_CHART_SUMMARY height 12 urows 135 sunit_rows 86 checked 11610 smooth 11610 away_survivors 0 exact_tests 0 exact_hits 0
+INTERSECTION_Q5_VALUATIONS Associative Array with index universe String structure
+INTERSECTION_FIRST_KILL [ <5, 4478>, <11, 3667>, <13, 3065>, <17, 327>, <19, 54>, <23, 13>, <29, 4>, <31, 2>, <37, 0>, <41, 0>, <43, 0> ]
+INTERSECTION_SURVIVOR_RECORDS []
+INFINITY_CHART_SUMMARY height 12 pole_depth 3 checked 47472 smooth 47458 away_survivors 0 exact_tests 0 exact_hits 0
+INFINITY_LAYER_CHECKED [ 15824, 15824, 15824 ]
+INFINITY_LAYER_SURVIVORS [ 0, 0, 0 ]
+INFINITY_FIRST_KILL [ <5, 19752>, <11, 15867>, <13, 9183>, <17, 2065>, <19, 465>, <23, 98>, <29, 21>, <31, 7>, <37, 0>, <41, 0>, <43, 0> ]
+INFINITY_SURVIVOR_RECORDS []

@@ -1,0 +1,75 @@
+# THIRD geometrically simple [2,2,2,12] curve from the ABC surface
+# Found and verified 2026-07-20.
+#
+# Discovery was an exhaustive primitive projective ABC-height search through
+# H=20000 using code/search_22212_abc.cpp. No new orbit existed through
+# H=10000. The H=20000 run found exactly 3 nondegenerate surface orbits total.
+#
+# Smallest direct-search chart:
+#   (A,B,C) = (4165,19661,5364)
+#   D = A^2-B^2+C^2 = -340435200
+#   y = 6705977678400
+#   z = 2348407118400
+#   y^2 = (A^2-B^2)(B^2-C^2)D
+#   z^2 = y^2+D^3
+#   (s:m:n) = (254097487:-10481401502:555111200)
+#
+# Canonical surface orbit:
+#   [a,c,t] | [b,w] = [16660,21456,78793] | [27593,78644]
+#   R/(ac) = 320/21, S/(ac) = 21/320
+#
+# Symmetry chart used for the smaller curve parameters:
+#   (A,B,C) = (16660,78644,78793)
+#   D = 301013713
+#   y = 6458550226128
+#   z = 8305871382809
+#   (s,m,n) = (1500518600,253638081,138777800)
+#   B-vector =
+#     [4294873467724840000,
+#      4432024120889164800,
+#      4640262791056244800,
+#      -35199334877401800,
+#      8138070260238118200]
+#
+# The discovery model is y^2=prod_i(A_i+B_i*x), A_i=[1,1,1,2,2].
+#
+# Reduced minimal model:
+#   y^2 + (x^2+x)y =
+#       3703062294195264*x^6
+#     - 360079374491052216*x^5
+#     + 8901721379573296848*x^4
+#     - 5397945250386334945*x^3
+#     - 86737535708373850908*x^2
+#     + 36346694984390901540*x
+#     + 43035470132681030400
+#
+# Exact Magma torsion:
+#   invariants = [2,2,2,12]
+#   order = 96
+#
+# Strict geometric-simplicity witnesses (chi irreducible, and pi^e has
+# degree 4 for every 2<=e<=12):
+#   p=37:  x^4 - 4*x^3 + 30*x^2 - 148*x + 1369
+#   p=127: x^4 - 4*x^3 + 30*x^2 - 508*x + 16129
+#   p=131: x^4 - 16*x^3 + 118*x^2 - 2096*x + 17161
+#   p=179: x^4 - 16*x^3 + 214*x^2 - 2864*x + 32041
+#
+# All 12 symmetry charts have identical G2Invariants. These invariants differ
+# from both earlier [2,2,2,12] curves, so this is a third Q-isomorphism class.
+#
+# Reduced-minimal discriminant factorization:
+#   2^36 3^18 5^12 7^18 11^6 13^6 17^6 19^12 23^2 29^12 31^2
+#   41^4 53^2 109^2 139^2 149^6 673^4 733^2 1801^2 5897^2
+#   8191^2 19661^4
+#
+# Verification:
+#   magma -b code/verify_22212_abc_hit.m
+#
+# Search reproduction:
+#   g++ -O3 -march=native -std=c++17 -fopenmp \
+#       code/search_22212_abc.cpp -o /tmp/search_22212_abc
+#   /tmp/search_22212_abc 20000 --threads 16
+#
+# Peak memory:
+#   direct H=20000 search: 16 MB
+#   Magma exact verification: about 90 MB

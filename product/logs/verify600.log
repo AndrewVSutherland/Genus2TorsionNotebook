@@ -1,0 +1,9 @@
+Loading "split_lab.m"
+Loading "analytic_glue.m"
+prec=300 j1: height 276 digits, err 10^-269, VERIFIED=false
+prec=300 j2: height 275 digits, err 10^-270, VERIFIED=false
+prec=300 j3: height 274 digits, err 10^-270, VERIFIED=false
+prec=700 j1: height 676 digits, err 10^-669, VERIFIED=false
+prec=700 j2: height 674 digits, err 10^-670, VERIFIED=false
+prec=700 j3: height 674 digits, err 10^-670, VERIFIED=false
+VERIFY600_DONE

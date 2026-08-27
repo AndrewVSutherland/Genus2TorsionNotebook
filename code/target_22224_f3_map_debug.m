@@ -1,0 +1,14 @@
+Q:=Rationals();R<T>:=PolynomialRing(Q);fixed:=[Q!-612,Q!34,Q!289];d0:=Q!-338;
+Rx:=(fixed[1]+d0*T^2)/(fixed[1]+d0);Ry:=(fixed[2]+d0*T^2)/(fixed[2]+d0);
+C:=HyperellipticCurve(Rx*Ry);P0:=C![Q!1,Q!1,Q!1];Eraw,phi:=EllipticCurve(C,P0);Einv:=Inverse(phi);
+E,minmap:=MinimalModel(Eraw);minmapinv:=Inverse(minmap);
+print Eraw;print C;print "mininv",DefiningPolynomials(minmapinv);print "Einv",DefiningPolynomials(Einv);
+for p in [11,13] do F:=GF(p);print "p",p;
+ for tag in ["min","curve"] do polys:=tag eq "min" select DefiningPolynomials(minmapinv) else DefiningPolynomials(Einv);
+  print tag;
+  for h in polys do print h;print Coefficients(h);end for;
+ end for;
+ for h in DefiningPolynomials(minmapinv) do try print ChangeRing(h,F);catch e print "ERRMIN",e;end try;end for;
+ for h in DefiningPolynomials(Einv) do try print ChangeRing(h,F);catch e print "ERRINV",e;end try;end for;
+end for;
+quit;

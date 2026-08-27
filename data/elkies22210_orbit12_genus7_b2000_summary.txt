@@ -1,0 +1,61 @@
+ELKIES22210 orbit-12 genus-7 V4 quotient sieve
+date 2026-07-11
+
+curve
+  s = 59/49
+  v^2 = G(q)
+  z^2 = D(q) = Disc_U(U^3+(1+q)U^2+sU-(1+q)(q-s))
+
+certified elliptic Mordell-Weil group
+  E(Q) = Z^2 + Z/4
+  P1 = (864/1225,182088/42875)
+  P2 = (-944/441,-367688/64827)
+  T  = (0,12744/2401), order 4
+  known seed coordinates = (-1,1,0)
+
+fast command
+  c++ -O3 -std=c++17 code/elkies22210_orbit12_genus7_mw_sieve.cpp -o /tmp/elkies22210_g7_sieve
+  /tmp/elkies22210_g7_sieve 2000
+
+coefficient box
+  -2000 <= n1,n2 <= 2000, 0 <= k < 4
+  64,032,004 Mordell-Weil elements
+  65 good-prime discriminant-square tests, primes 11 through 349
+
+modular survivors = 5
+  (-1, 1,0)
+  ( 1,-1,0)
+  ( 0, 0,1)
+  ( 0, 0,2)
+  ( 0, 0,3)
+
+exact reconstruction
+  q = 8/7 from the two signs of the seed
+    complementary roots = -1/7,-5/7,-9/7
+    literal radicand mask = true,false,false,false
+  q = 59/49 from 2T
+    complementary roots = 0,-1,-59/49
+    CK boundary
+  T and 3T map to q=infinity, also boundary
+
+There are no discriminant-square points with an irreducible cyclic cubic,
+no second smooth split lift, and no full four-radicand hit in the box.
+
+independent checks
+  The Magma implementation agrees exactly at coefficient bound 100.
+  Eleven chunked Magma runs exhaust coefficient bound 500 (4,008,004
+  elements) and give the same five survivors.  Every survivor is then
+  reconstructed and checked exactly over Q by
+  code/elkies22210_orbit12_genus7_mw_sieve.m.
+
+quotient arithmetic
+  quotient genera = 1,2,4
+  rank E = 2
+  2 <= rank Jac(C_D) <= 3 (also certified unconditionally)
+  1 <= rank Jac(C_GD) <= 2 (upper bound currently GRH-dependent)
+  5 <= rank Jac(A) <= 7 (upper bound currently GRH-dependent)
+  fake 2-Selmer set of C_D has 5 classes; 3 contain the known x-values
+  infinity, 8/7, 59/49.
+
+The coefficient-box sieve is unconditional.  It is not a global rational-
+point proof; a new point must have max(|n1|,|n2|) > 2000 in this full basis.

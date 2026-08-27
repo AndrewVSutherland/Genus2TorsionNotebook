@@ -1,0 +1,4 @@
+CONTACT7 first-halving surface search
+s_height 8 #s 87 u_height 8 #u 87 z_height 20 #z 511 max_exact 300
+
+[Interrupted]

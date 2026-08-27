@@ -1,0 +1,157 @@
+Loading "code/claude_ov_2216_delta.m"
+claude_ov_2216_kobstruct  candidate_file=data/claude_ov_2216_all15_uv.txt
+# eps = squarefree((alpha+c)/2);  2-divisible <=> eps in {1, DK}
+
+POINT u=1681/385 v=-2809/216  DK_sqclass=2011089630617834  L=47825324190927360000
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=4233451695 eps-=12933161670  DK=2011089630617834  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=596681 eps-=3370460314  DK=2011089630617834  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2762559305 eps-=2202141370  DK=2011089630617834  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=6479457279 eps-=2793414  DK=2011089630617834  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=4233451695 eps-=12933161670  DK=2011089630617834  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=6479457279 eps-=2793414  DK=2011089630617834  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2762559305 eps-=2202141370  DK=2011089630617834  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=596681 eps-=3370460314  DK=2011089630617834  Ksq=false  divisible=false
+
+POINT u=25/24 v=-49/15  DK_sqclass=-481  L=207360000
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=481 eps-=-1  DK=-481  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=481 eps-=-1  DK=-481  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=481 eps-=-1  DK=-481  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=481 eps-=-1  DK=-481  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+
+POINT u=25/16 v=121/105  DK_sqclass=-83701839931  L=7965941760000
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=26665129 eps-=-3139  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1645051 eps-=-50881  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=10227081 eps-=-73659  DK=-83701839931  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=10227081 eps-=-73659  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1645051 eps-=-50881  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=26665129 eps-=-3139  DK=-83701839931  Ksq=false  divisible=false
+
+POINT u=-625/104 v=361/105  DK_sqclass=-429239216438161  L=14219703912960000
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=142826349 eps-=-27047901  DK=-429239216438161  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=111825281 eps-=-3838481  DK=-429239216438161  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=577352701 eps-=-743461  DK=-429239216438161  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=4068322521 eps-=-949569  DK=-429239216438161  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=142826349 eps-=-27047901  DK=-429239216438161  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=4068322521 eps-=-949569  DK=-429239216438161  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=577352701 eps-=-743461  DK=-429239216438161  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=111825281 eps-=-3838481  DK=-429239216438161  Ksq=false  divisible=false
+
+POINT u=-8/17 v=-72/217  DK_sqclass=-1937  L=185197287255841
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1 eps-=-1937  DK=-1937  Ksq=true  divisible=false
+  T=A_r1r3 ord=8  ratsq=(true,false,false) Nxi_sq=true eps+=221 eps-=-2533  DK=-1937  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=149 eps-=-13  DK=-1937  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=149 eps-=-13  DK=-1937  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(true,false,false) Nxi_sq=true eps+=221 eps-=-2533  DK=-1937  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1 eps-=-1937  DK=-1937  Ksq=true  divisible=false
+
+POINT u=-8/17 v=-72/2737  DK_sqclass=7989013  L=56117612986561
+  T=0      ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-3953 eps-=-2021  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=5762 eps-=5546  DK=7989013  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-4042 eps-=-7906  DK=7989013  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-4042 eps-=-7906  DK=7989013  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=5762 eps-=5546  DK=7989013  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-3953 eps-=-2021  DK=7989013  Ksq=false  divisible=false
+
+POINT u=-161/81 v=1288/1377  DK_sqclass=7989013  L=291219719955921
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-8213167865 eps-=-4199041805  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=134513890 eps-=129471370  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-359738 eps-=-703634  DK=7989013  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-8213167865 eps-=-4199041805  DK=7989013  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=-359738 eps-=-703634  DK=7989013  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=134513890 eps-=129471370  DK=7989013  Ksq=false  divisible=false
+
+POINT u=-17/8 v=153/217  DK_sqclass=-1937  L=9082363580416
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2550731 eps-=-222547  DK=-1937  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=17119 eps-=-33159503  DK=-1937  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(true,false,false) Nxi_sq=true eps+=221 eps-=-2533  DK=-1937  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2550731 eps-=-222547  DK=-1937  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(true,false,false) Nxi_sq=true eps+=221 eps-=-2533  DK=-1937  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=17119 eps-=-33159503  DK=-1937  Ksq=false  divisible=false
+
+POINT u=-17/8 v=9/161  DK_sqclass=7989013  L=2752095195136
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=113636891 eps-=58097687  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=179869 eps-=351817  DK=7989013  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=930563 eps-=895679  DK=7989013  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=113636891 eps-=58097687  DK=7989013  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=2773 eps-=2881  DK=7989013  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=930563 eps-=895679  DK=7989013  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=179869 eps-=351817  DK=7989013  Ksq=false  divisible=false
+
+POINT u=-217/72 v=217/153  DK_sqclass=-1937  L=2244531326976
+  T=0      ord=8  ratsq=(false,false,true) Nxi_sq=true eps+=30231355 eps-=-2637635  DK=-1937  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=11935 eps-=-23118095  DK=-1937  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=13 eps-=-149  DK=-1937  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,true) Nxi_sq=true eps+=30231355 eps-=-2637635  DK=-1937  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=32929 eps-=-17  DK=-1937  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=13 eps-=-149  DK=-1937  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=11935 eps-=-23118095  DK=-1937  Ksq=false  divisible=false
+
+POINT u=-15/49 v=-125/392  DK_sqclass=-481  L=23612624896
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=339105 eps-=-705  DK=-481  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=6105 eps-=-2145  DK=-481  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1551 eps-=-746031  DK=-481  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=339105 eps-=-705  DK=-481  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=1551 eps-=-746031  DK=-481  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=6105 eps-=-2145  DK=-481  Ksq=false  divisible=false
+
+POINT u=24/25 v=-392/125  DK_sqclass=-481  L=152587890625
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=67821 eps-=-141  DK=-481  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=429 eps-=-1221  DK=-481  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=746031 eps-=-1551  DK=-481  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=67821 eps-=-141  DK=-481  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=746031 eps-=-1551  DK=-481  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=429 eps-=-1221  DK=-481  Ksq=false  divisible=false
+
+POINT u=105/121 v=2625/1936  DK_sqclass=-83701839931  L=205680042096787456
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=5758311844635 eps-=-616273665  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=79218961185 eps-=-2695098315  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=7046458809 eps-=-50751051  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=5758311844635 eps-=-616273665  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=7046458809 eps-=-50751051  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=79218961185 eps-=-2695098315  DK=-83701839931  Ksq=false  divisible=false
+
+POINT u=16/25 v=1936/2625  DK_sqclass=-83701839931  L=29675445556640625
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2662478214 eps-=-369668069826  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=236413033714 eps-=-27830374  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=35057009 eps-=-1133440139  DK=-83701839931  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=2662478214 eps-=-369668069826  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=630939 eps-=-1193961  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=35057009 eps-=-1133440139  DK=-83701839931  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=236413033714 eps-=-27830374  DK=-83701839931  Ksq=false  divisible=false
+
+POINT u=40/49 v=125/147  DK_sqclass=-481  L=466948881
+  T=0      ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=555 eps-=-195  DK=-481  Ksq=false  divisible=false
+  T=A_r1r2 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=26455 eps-=-55  DK=-481  Ksq=false  divisible=false
+  T=A_r1r3 ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=11 eps-=-5291  DK=-481  Ksq=false  divisible=false
+  T=A_r2r3 ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=B_quad ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=555 eps-=-195  DK=-481  Ksq=false  divisible=false
+  T=C_r1   ord=8  ratsq=(true,true,true) Nxi_sq=true eps+=39 eps-=-111  DK=-481  Ksq=false  divisible=false
+  T=C_r2   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=11 eps-=-5291  DK=-481  Ksq=false  divisible=false
+  T=C_r3   ord=8  ratsq=(false,false,false) Nxi_sq=true eps+=26455 eps-=-55  DK=-481  Ksq=false  divisible=false
+
+points=15  (point,twist) pairs on a norm surface=30  2-divisible=0
+EPS_CLASSES_SEEN_ON_SURFACE [ 39, 2773, 32929, 630939, 142826349, 4233451695 ]
+SEARCH_DONE

@@ -1,0 +1,6 @@
+Loading "../data/claude_ov_b4_seeds.m"
+SEEDINFO idx=65 n=-36 sg=0 deg=6 coefheight=272
+SEEDINFO idx=65 seed2rank=1 factortype=[ 2, 4 ]
+SEEDINFO idx=65 11gate=[ 0, 0, 0, 0 ]
+NODE idx=65 depth=0 2rank=1 ftype=[ 2, 4 ]
+RSCOUNT idx=65 depth=0 nRS=1 nJac=1

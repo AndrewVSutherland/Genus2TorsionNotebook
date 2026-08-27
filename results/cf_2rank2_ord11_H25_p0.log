@@ -1,0 +1,9 @@
+SELFTEST_PASS
+CALIB ord=5 a=2 b=17 c=8 d=23
+CALIB ord=7 a=3 b=-22 c=9 d=6
+PROGRESS tested=200000 s2pass=11 exact=11
+PROGRESS tested=400000 s2pass=14 exact=14
+CALIBRATION_TABLE (H=25 part 0/2):
+  ORDER 5 : 1
+  ORDER 7 : 1
+SEARCH_DONE H=25 Part=0/2 tested=439901 s2pass=14 exact=14 nearmiss=12

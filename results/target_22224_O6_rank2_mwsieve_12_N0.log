@@ -1,0 +1,10 @@
+REPEATED_RANK2_MWSIEVE_START O6 pair <1, 2> remaining 3 N 0 fixed [ -15, -1, 25 ]
+d0 605/27 known_t 21/11 E Elliptic Curve defined by y^2 = x^3 - 32700*x + 1136000 over Rational Field
+rank_bounds 2 2 generators [ (370 : -6300 : 1), (-155 : -1575 : 1), (-80 : -1800 : 1) ]
+torsion [ 4 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE O6 p 43 orders 12 24 total 1152 third_fail 528 open_no3 168 open_3 288 boundary 168 finite_direct_boundary 96 infinity 72 allowed 456 lattice_before 4 lattice_after 1
+PRIME_PROFILE O6 p 47 orders 10 30 total 1200 third_fail 400 open_no3 480 open_3 160 boundary 160 finite_direct_boundary 100 infinity 60 allowed 320 lattice_before 1 lattice_after 0
+REPEATED_RANK2_MWSIEVE_DONE O6 N 0 used_primes [ 43, 47 ]
+lattice_survivors 0 distinct_exact_t 0 exact_full 0 three_hits 0 output results/target_22224_O6_rank2_mwsieve_12_N0.tsv
+tsv

@@ -1,0 +1,5 @@
+Contact-6 eps=+1 [2,6,6] surface decomposition diagnostic
+prime 13 decompose False full_open False count True count_only True fixed_r -1 rational False
+FINITE p 13 equation_points_open_loop 347 good 42 auto_A 4 auto_B 4 both 0 nonauto 34
+FINITE p 13 smooth_nonauto 34 square_M_nonauto 28 distinct_nonauto_bases 20
+FINITE p 13 nonauto_samples [((2, 1, 2, 3, 11), 2), ((2, 3, 4, 0, 5), 2), ((2, 3, 9, 0, 8), 2), ((2, 9, 2, 1, 11), 2), ((3, 9, 4, 2, 6), 2), ((3, 9, 9, 2, 7), 2), ((4, 3, 11, 1, 4), 2), ((4, 5, 1, 4, 6), 2)]

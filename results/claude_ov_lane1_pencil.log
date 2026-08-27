@@ -1,0 +1,51 @@
+=== which of the eleven known points lie on the u=-1/2 family (an S3 orbit) ===
+  P1  (family k=2)     [ -10, -10/7, -1/2 ]   contains a coordinate -1/2 : true
+  P2  OFF-family       [ -5, -15/8, -15/22 ]   contains a coordinate -1/2 : false
+  P3  OFF-family RM    [ -3, -3/4, -3/5 ]   contains a coordinate -1/2 : false
+  P4  (family k=3e1)   [ -15/8, -15/19, -1/2 ]   contains a coordinate -1/2 : true
+  P5  OFF-family       [ -5/18, -10/49, 4/17 ]   contains a coordinate -1/2 : false
+  P6  OFF-family       [ -4/9, -4/25, 4/17 ]   contains a coordinate -1/2 : false
+  P7  (family k=4e1)   [ -511/61, -511/625, -1/2 ]   contains a coordinate -1/2 : true
+  P8  OFF-family       [ -165/41, -33/16, -165/289 ]   contains a coordinate -1/2 : false
+  P9  (family k=4e0)   [ -164/297, -1/2, 164/361 ]   contains a coordinate -1/2 : true
+  P10 OFF-family       [ -17/50, -34/189, 34/121 ]   contains a coordinate -1/2 : false
+  P11 (family k=3e0)   [ -1/2, -13/49, 13/50 ]   contains a coordinate -1/2 : true
+  => 5 of 11 lie on the S3-orbit of the u = -1/2 curve; 6 do NOT.
+
+=== genus of the fibre C_c at every coordinate of the six OFF-family points ===
+  the 17 distinct fibre parameters are [ -5, -165/41, -3, -33/16, -15/8, -3/4, -15/22, -3/5, -165/289, -4/9, -17/50, -5/18, -10/49, -34/189, -4/25, 4/17, 34/121 ]
+  c = -5         genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -165/41    genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -3         genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -33/16     genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -15/8      genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -3/4       genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -15/22     genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -3/5       genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -165/289   genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -4/9       genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -17/50     genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -5/18      genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -10/49     genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -34/189    genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = -4/25      genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = 4/17       genus = 4 (>=2: FINITELY many rational points, Faltings)
+  c = 34/121     genus = 4 (>=2: FINITELY many rational points, Faltings)
+
+=== the four exceptional fibres ===
+  c = 1      genus = 3  ncomponents = 1
+  c = -1/2   genus = 1  ncomponents = 1
+  c = 0      genus = -2  ncomponents = 3   (CHART-DEGENERATE: v=0 is the marked root x=1; v=-1 blows up G7)
+  c = -1     genus = -2  ncomponents = 3   (CHART-DEGENERATE: v=0 is the marked root x=1; v=-1 blows up G7)
+
+=== exhaustive genus scan over 1957 rational c with |num|,den <= 40 ===
+  fibres of genus exactly 4 : 1955 of 1957
+  fibres with genus <> 4    : 2
+    LOWGENUS c=1 genus=3 ncomp=1
+    LOWGENUS c=-1/2 genus=1 ncomp=1
+
+CONCLUSION: within the u = const pencil the only rational parameter whose fibre
+has infinitely many rational points is c = -1/2.  Every other rational fibre has
+genus >= 3, so any SECOND infinite component of R(s,t,u)=0 would have to be a
+MULTISECTION of the pencil, not a fibre.
+LANE1_PENCIL_DONE

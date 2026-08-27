@@ -1,0 +1,9 @@
+contact9 [3,18] t=4 mod 7 Weil-orbit check
+marked x^2 + x + 4
+x^3 + 6*x^2 + 6*x + 2
+s 3
+branch_(2,3,2) lambda 1 marked_resultant 6 candidate_resultant 6 
+pairing_equation 0 orthogonal true
+branch_(3,3,1) lambda 5 marked_resultant 1 candidate_resultant 4 
+pairing_equation 0 orthogonal true
+DONE both independent branches lie on the degree-12 orthogonal orbit

@@ -1,0 +1,46 @@
+CONTACT6_M612_TB_CORE_SV_PROJECTIVE_MASKS
+
+The equations include K=m^2 and M=L^2.  For each fixed (s,v) fiber,
+`raw` is the projective closure of the cleared equations and `sat` is the
+projective closure after fiberwise saturation by
+
+  r*m*L*D*(U^2-4*v^2)*(N+(b+2)*D).
+
+Raw closure is nonempty in every fiber.  Consequently the SAT sets below
+are priority masks only: RAW\SAT is saturation-boundary-deferred and is not
+a rigorous exclusion.  Base parameter infinity (a denominator divisible by
+p) must also be retained.
+
+p 5 raw_allowed 25 sat_allowed 3 boundary_only 22 failures 0
+SAT [ <0,0>, <0,2>, <0,3> ]
+
+p 7 raw_allowed 49 sat_allowed 10 boundary_only 39 failures 0
+SAT [ <0,0>, <0,1>, <0,2>, <0,3>, <0,4>, <0,5>, <0,6>,
+      <2,3>, <2,5>, <2,6> ]
+
+p 11 raw_allowed 121 sat_allowed 25 boundary_only 96 failures 0
+SAT [ <0,0>, <0,1>, <0,2>, <0,3>, <0,4>, <0,5>, <0,6>, <0,7>,
+      <0,8>, <0,9>, <0,10>, <1,3>, <1,8>, <3,10>, <6,0>, <6,5>,
+      <6,9>, <6,10>, <7,2>, <7,5>, <7,8>, <8,10>, <9,4>, <9,5>,
+      <9,7> ]
+
+Applying the SAT masks at 5, 7, and 11, while automatically retaining a
+slice at a prime dividing either base denominator, gives:
+
+  height 4:       0 /   484 priority slices
+  height 6:       7 /  2116 priority slices
+  height 10:    311 / 15876 priority slices
+
+The seven height-6 priority slices are
+
+  (-5,-2), (-5,-1/2), (-5,1/5), (-5,3/4),
+  (-5,4/3), (-5,5), (-4/5,-1).
+
+Source:
+  code/contact6_m612_tb_core_sv_projective_masks.m
+
+The stronger generic-Q(s,v) saturation/projective-closure computation is
+prepared in
+  code/contact6_m612_tb_core_generic_projective_masks.m
+and must replace this priority mask before any rigorous bounded exclusion is
+claimed.

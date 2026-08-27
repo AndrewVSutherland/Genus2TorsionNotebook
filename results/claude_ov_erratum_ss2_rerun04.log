@@ -1,0 +1,138 @@
+SS2 blpC4 [2,22]
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 30*x^5 - 120*x^4 - 259*x^3 + 18*x^2 + 138*x + 36 over Rational Field
+SS2 v_2(disc_min) = 28  (Magma warns when >= 12: true)
+SS2 RegularModel + IntersectionMatrix in 0.290 s
+SS2 components of the special fibre at 2 : m = 27
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 dual graph: v = 27, e = 28, b_1 = e - v + 1 = 2
+SS2 f_2 (toric rank, NO Ogg) = 2 ; agrees with Ogg = true
+SS2 intersection matrix = [-3 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 -3 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 1 -2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 1 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 1 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 1 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 -2 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 -2 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -2 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -2 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 -2]
+SS2 component group = [ 2, 110 ]
+ERRATUM_SS2_DONE
+----
+SS2 contact7 idx=1 (s,t,u)=(-10, -10/7, -1/2)
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 9*x^6 - 1005*x^5 + 24243*x^4 + 304602*x^3 - 4244115*x^2 - 42264735*x - 37741275 over Rational Field
+SS2 v_2(disc_min) = 10  (Magma warns when >= 12: false)
+SS2 RegularModel + IntersectionMatrix in 0.110 s
+SS2 components of the special fibre at 2 : m = 9
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 dual graph: v = 9, e = 10, b_1 = e - v + 1 = 2
+SS2 f_2 (toric rank, NO Ogg) = 2 ; agrees with Ogg = true
+SS2 intersection matrix = [-3  0  0  1  1  1  0  0  0]
+[ 0 -3  1  0  1  1  0  0  0]
+[ 0  1 -2  0  0  0  1  0  0]
+[ 1  0  0 -2  0  0  0  1  0]
+[ 1  1  0  0 -2  0  0  0  0]
+[ 1  1  0  0  0 -2  0  0  0]
+[ 0  0  1  0  0  0 -2  0  1]
+[ 0  0  0  1  0  0  0 -2  1]
+[ 0  0  0  0  0  0  1  1 -2]
+SS2 component group = [ 2, 14 ]
+ERRATUM_SS2_DONE
+----
+SS2 contact7 idx=2 (s,t,u)=(-5, -15/8, -15/22)
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 900*x^6 + 6630*x^5 - 21900*x^4 - 167639*x^3 + 289767*x^2 + 1159725*x - 2056775 over Rational Field
+SS2 v_2(disc_min) = 14  (Magma warns when >= 12: true)
+SS2 RegularModel + IntersectionMatrix in 0.110 s
+SS2 components of the special fibre at 2 : m = 13
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 dual graph: v = 13, e = 14, b_1 = e - v + 1 = 2
+SS2 f_2 (toric rank, NO Ogg) = 2 ; agrees with Ogg = true
+SS2 intersection matrix = [-3  0  1  0  1  0  1  0  0  0  0  0  0]
+[ 0 -3  0  1  1  1  0  0  0  0  0  0  0]
+[ 1  0 -2  0  0  0  0  0  1  0  0  0  0]
+[ 0  1  0 -2  0  0  0  1  0  0  0  0  0]
+[ 1  1  0  0 -2  0  0  0  0  0  0  0  0]
+[ 0  1  0  0  0 -2  0  0  0  1  0  0  0]
+[ 1  0  0  0  0  0 -2  0  0  1  0  0  0]
+[ 0  0  0  1  0  0  0 -2  0  0  1  0  0]
+[ 0  0  1  0  0  0  0  0 -2  0  0  1  0]
+[ 0  0  0  0  0  1  1  0  0 -2  0  0  0]
+[ 0  0  0  0  0  0  0  1  0  0 -2  0  1]
+[ 0  0  0  0  0  0  0  0  1  0  0 -2  1]
+[ 0  0  0  0  0  0  0  0  0  0  1  1 -2]
+SS2 component group = [ 2, 28 ]
+ERRATUM_SS2_DONE
+----
+SS2 contact7 idx=3 (s,t,u)=(-3, -3/4, -3/5)
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 9*x^6 + 69*x^5 + 123*x^4 - 95*x^3 - 183*x^2 + 165*x - 35 over Rational Field
+SS2 v_2(disc_min) = 7  (Magma warns when >= 12: false)
+SS2 RegularModel + IntersectionMatrix in 0.090 s
+SS2 components of the special fibre at 2 : m = 6
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 dual graph: v = 6, e = 7, b_1 = e - v + 1 = 2
+SS2 f_2 (toric rank, NO Ogg) = 2 ; agrees with Ogg = true
+SS2 intersection matrix = [-3  1  1  0  1  0]
+[ 1 -3  0  1  1  0]
+[ 1  0 -2  0  0  1]
+[ 0  1  0 -2  0  1]
+[ 1  1  0  0 -2  0]
+[ 0  0  1  1  0 -2]
+SS2 component group = [ 14 ]
+ERRATUM_SS2_DONE
+----
+SS2 contact7 idx=4 (s,t,u)=(-15/8, -15/19, -1/2)
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 4*x^6 + 1770*x^5 + 209208*x^4 + 1087252*x^3 - 357136500*x^2 + 5573377890*x - 16704297900 over Rational Field
+SS2 v_2(disc_min) = 14  (Magma warns when >= 12: true)
+SS2 RegularModel + IntersectionMatrix in 0.150 s
+SS2 components of the special fibre at 2 : m = 13
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 dual graph: v = 13, e = 14, b_1 = e - v + 1 = 2
+SS2 f_2 (toric rank, NO Ogg) = 2 ; agrees with Ogg = true
+SS2 intersection matrix = [-3  0  1  0  1  1  0  0  0  0  0  0  0]
+[ 0 -3  0  1  1  0  1  0  0  0  0  0  0]
+[ 1  0 -2  0  0  0  0  1  0  0  0  0  0]
+[ 0  1  0 -2  0  0  0  0  1  0  0  0  0]
+[ 1  1  0  0 -2  0  0  0  0  0  0  0  0]
+[ 1  0  0  0  0 -2  0  0  0  1  0  0  0]
+[ 0  1  0  0  0  0 -2  0  0  1  0  0  0]
+[ 0  0  1  0  0  0  0 -2  0  0  1  0  0]
+[ 0  0  0  1  0  0  0  0 -2  0  0  1  0]
+[ 0  0  0  0  0  1  1  0  0 -2  0  0  0]
+[ 0  0  0  0  0  0  0  1  0  0 -2  0  1]
+[ 0  0  0  0  0  0  0  0  1  0  0 -2  1]
+[ 0  0  0  0  0  0  0  0  0  0  1  1 -2]
+SS2 component group = [ 2, 28 ]
+ERRATUM_SS2_DONE
+----

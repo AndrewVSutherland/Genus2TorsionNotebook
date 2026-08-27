@@ -1,0 +1,4 @@
+BENCH p=1009 target=31 niter=3000000 time=9.469s  3156.4 ns/cand  316818 cand/s/core  hits=7 sqfree=7 density=2.333e-06 c_impl=2.376
+BENCH p=2003 target=31 niter=3000000 time=9.176s  3058.5 ns/cand  326955 cand/s/core  hits=0 sqfree=0 density=0.000e+00 c_impl=0.000
+BENCH p=101 target=31 niter=3000000 time=8.866s  2955.4 ns/cand  338368 cand/s/core  hits=553 sqfree=548 density=1.827e-04 c_impl=1.863
+BENCH p=499 target=31 niter=3000000 time=9.284s  3094.8 ns/cand  323125 cand/s/core  hits=22 sqfree=22 density=7.333e-06 c_impl=1.826

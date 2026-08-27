@@ -1,0 +1,28 @@
+
+=== t = -1 ===
+  seed factor type [ 3, 3 ], 2-rank 0
+  seed TORSION = [ 11 ]
+  seed G2Invariants = [ -1804229351/529, -39370210/529, 3145584/529 ]
+  #RichelotIsogenousSurfaces = 1 types [ JacHyp ]
+  [1] codomain f = 21*x^6 + 54*x^5 + 117*x^4 + 66*x^3 + 18*x^2 - 108*x + 33
+      factor type [ 6 ]  2-RANK 0  TORSION [ 11 ]
+
+=== t = 65/4 ===
+  seed factor type [ 6 ], 2-rank 0
+  seed TORSION = [ 11 ]
+  seed G2Invariants = [ 33536962080514443323014486793/56803173449896250000, 1510122497241208519253149/436947488076125000, 109788734229544678671/13444538094650000 ]
+  #RichelotIsogenousSurfaces = 1 types [ JacHyp ]
+  [1] codomain f = 3489501184*x^6 + 132601044992*x^5 + 1547593775104*x^4 + 4449114009600*x^3 - 12071711252224*x^2 + 7116401477120*x - 921446406400
+      factor type [ 6 ]  2-RANK 0  TORSION [ 11 ]
+
+=== t = -74/9 ===
+  seed factor type [ 6 ], 2-rank 0
+  seed TORSION = [ 11 ]
+  seed G2Invariants = [ -2897492224538437888173452085499/11076400305629679208473216, -68474431520947918719412285/1847914632237183718464, 2493310117485924339889/2774646594950726304 ]
+  #RichelotIsogenousSurfaces = 1 types [ JacHyp ]
+  [1] codomain f = 4148739657849600*x^6 + 35033801555174400*x^5 - 27299731328812800*x^4 + 172573911364377600*x^3 - 160645573472947200*x^2 - 862482568760524800*x + 997245470129356800
+      factor type [ 6 ]  2-RANK 0  TORSION [ 11 ]
+
+=== t = 0 ===
+  SINGULAR -- skipped
+ORBIT6MEMBERS_DONE

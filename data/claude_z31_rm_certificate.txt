@@ -1,0 +1,44 @@
+# Dedicated certificate for the [31] row of paper/torsion_realizations.tex
+# (RM-flagged non-database curve; verified 2026-07-30 on aws-spot-11, Magma,
+#  with PARI cross-checks on claude-box; scripts: code/claude_z31_verify.m,
+#  session scratchpad verify31.gp; note: notes/claude_z31_rm_witness_2026_07_30.md)
+
+CURVE          y^2 + (-x^2 - x)*y = -839*x^6 + 2841*x^5 - 4587*x^4 + 4300*x^3 - 2466*x^2 + 816*x - 126
+NEWFORM        1830.2.a.q  (level 1830 = 2*3*5*61, weight 2, dim 2, Hecke field 2.2.8.1 = Q(sqrt2))
+SOURCE         github.com/edgarcosta/ModularAbelianSurfaces olddata/label_to_curve_QQ.txt line 2385 (commit 687c10d)
+SIMPLIFIED     y^2 = F,  F = -3356*x^6 + 11364*x^5 - 18347*x^4 + 17202*x^3 - 9863*x^2 + 3264*x - 504
+DISC           disc(F) = -2^23 * 3^15 * 5^11 * 61^2 ;  bad primes {2,3,5,61}
+JAC_CONDUCTOR  1830^2 = 3348900  (GL2-type; outside the cond < 2^20 databases)
+
+# --- exact torsion (Magma TorsionSubgroup on the simplified integral model) ---
+TORSION_INVARIANTS  [ 31 ]
+TORSION_GENERATOR   Mumford (x^2 - 21/20*x + 9/20, 101/200*x + 51/200, 2), order 31
+                    (disc(u) = -279/400 < 0: irrational conjugate support - invisible class)
+DIVISIBILITY        31 | #J(F_p) verified at ALL 164 good primes p <= 1000 (PARI hyperellcharpoly)
+
+# --- geometric simplicity (D4 / root-power certificate, lab standard) ---
+SIMPLE_WITNESS  p = 11
+CHI             x^4 - 8*x^3 + 36*x^2 - 88*x + 121   (irreducible over Q)
+POWER_TEST      deg MinimalPolynomial(pi^n) = 4 for all n in [2..12]  => geometrically simple
+
+# --- real multiplication identification (End(J_Qbar) = Z[sqrt2], NOT generic) ---
+RM_SCREEN       repaired screen (a1 != 0, n_p := a1^2 - 4(a2 - 2p) nonzero non-square):
+                squarefree core of n_p equals 2 at ALL 164 good primes p <= 1000, zero exceptions
+                (the sound "constant core => RM" direction of the screen)
+HECKE_MATCH     Frobenius trace of Jac = trace of a_p(1830.2.a.q) at every checked prime
+                (e.g. p=7: 0, p=11: 8, p=13: -2, p=17: 6, ...), consistent with J ~ A_f;
+                the newform is non-CM with Hecke field Q(sqrt2), whence RM by an order in Q(sqrt2)
+PP_COUNT        the isogeny class admits exactly ONE rational principal polarization
+                (narrow class number h+(Q(sqrt2)) = 1; verified computationally 2026-07-31,
+                z31_pp_control.log on aws-spot-11) - the displayed curve realizes it
+
+# Historical: the first EXPLICIT rational point of order 31 on an abelian
+# surface over Q, and the first order-31 realization on a genus-2 Jacobian
+# (previous explicit prime record 29, Leprevost 1995; Elkies 2001-02 exhibited
+# only a rational order-31 subgroup without rational generator). The EXISTENCE
+# of an order-31 point on some inexplicit member of this isogeny class already
+# follows from Alessandri-Coppola (arXiv 2602.21047v3, April 2026, Thm 4.2/4.3
+# with their level-1830 computation); the torsion order of the class was
+# tabulated (unnoticed) in the same repository's olddata/modav-torsion.out
+# since 2024. New here: the explicit curve, the exact group Z/31Z, and the
+# simplicity/RM certificates.

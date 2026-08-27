@@ -1,0 +1,14 @@
+f70 integral model : 3168*x^5 + 697*x^4 - 23220*x^3 + 37620*x^2 - 23328*x + 5184
+E1 = [1,0,0,-45,81]                   conductor 66  torsion [10]
+E2 = [1,0,0,-5774401,5346023177]      conductor 858  torsion [7]
+bad primes: [2, 3, 11, 13]   PMAX = 20000
+
+  PROGRESS p=5  tested 1  agree 1
+  PROGRESS p=7  tested 2  agree 2
+  PROGRESS p=17  tested 3  agree 3
+  PROGRESS p=19  tested 4  agree 4
+  PROGRESS p=5003  tested 666  agree 666
+  PROGRESS p=5009  tested 667  agree 667
+  PROGRESS p=5011  tested 668  agree 668
+  PROGRESS p=10007  tested 1226  agree 1226
+  PROGRESS p=10009  tested 1227  agree 1227

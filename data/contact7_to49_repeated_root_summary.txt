@@ -1,0 +1,47 @@
+contact-7 to cyclic-49: repeated-root U=(x-p)^2 search
+date: 2026-07-18
+
+compact symbolic system:
+  variables: 16
+  coefficient equations: 15
+  expected dimension: 1
+  safe elimination: E14..E10 solve b4..b0 with coefficient -2;
+                    E9..E7 solve a2..a0 on a7 != 0
+  residual chart: 7 equations in alpha,beta,p,a3..a7
+  symbolic max RSS: 19712 KB
+
+finite repeated-point masks:
+  p=3:  good curves 5, curves with P 0, points 0
+  p=5:  good curves 18, curves with P 1, points 2
+        only (alpha,beta,xP,yP)=(2,1,4,1),(2,1,4,4)
+  p=11: good curves 103, curves with P 10, points 24
+  p=13: good curves 148, curves with P 9, points 30
+  p=17: good curves 257, curves with P 16, points 42
+  p=19: good curves 327, curves with P 29, points 90
+  p=23: good curves 485, curves with P 22, points 52
+  p=29: good curves 790, curves with P 50, points 124
+  p=31: good curves 903, curves with P 56, points 138
+  p=37: good curves 1297, curves with P 73, points 216
+  p=41: good curves 1606, curves with P 72, points 172
+  p=43: good curves 1768, curves with P 72, points 174
+
+height 4, masks p=3,5,11,13,17,19,23,29 (independent rerun):
+  generic checked: 10626
+  x(P)=0 checked: 529
+  local survivors: 6
+  exact survivors: 0 (all 6 were singular)
+  hits49: 0
+  first kills: p3 1195, p5 6750, p11 2658, p13 464,
+               p17 74, p19 7, p23 1
+
+height 8, masks p=3,5,11,13,17,19,23,29,31,37,41,43:
+  rational parameters: 87
+  generic checked: 635970
+  x(P)=0 checked: 7569
+  local survivors: 19
+  exact survivors: 0 (all 19 were singular)
+  hits49: 0
+  first kills: p3 99283, p5 160370, p11 321415, p13 53331,
+               p17 7974, p19 1042, p23 92, p29 12, p31 1
+  max RSS: 22528 KB
+  elapsed: 10.65 s

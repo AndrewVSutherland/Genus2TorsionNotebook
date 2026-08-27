@@ -1,0 +1,8 @@
+family	n	d	parameter	status	jacobian_order
+4	0	1	0	boundary	0
+4	1	1	1	boundary	0
+4	4	1	4	boundary	0
+4	5	1	5	boundary	0
+4	6	1	6	boundary	0
+4	10	1	10	boundary	0
+4	1	0	infinity	boundary	0

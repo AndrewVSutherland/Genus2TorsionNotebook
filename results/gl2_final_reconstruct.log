@@ -1,0 +1,8 @@
+PIECE 22
+PERIOD_TERMS 48354
+PERIODS ok
+sgn=1 blk=1 IsBigPeriodMatrix=false
+sgn=1 blk=2 IsBigPeriodMatrix=false
+sgn=-1 blk=1 IsBigPeriodMatrix=false
+sgn=-1 blk=2 IsBigPeriodMatrix=false
+GL2_FINAL_DONE

@@ -1,0 +1,8 @@
+MW_COMPARE_START V1 E Elliptic Curve defined by y^2 = x^3 + x^2 + 35967*x + 252063 over Rational Field
+rank 2 torsion [ 2 ]
+MW_ROW V1 <-2, -1, 1> T 317596969778/493651296635 height 493651296635 local [ <13, "finite", 12, 0>, <11, "finite", 0, 1> ]
+cover_squares [ false, false, false ]
+MW_COMPARE_START V2 E Elliptic Curve defined by y^2 = x^3 + x^2 + 7692*x + 811638 over Rational Field
+rank 2 torsion [ 2 ]
+MW_ROW V2 <3, -1, 1> T -2063497452257/1698222432003 height 2063497452257 local [ <11, "finite", 5, 0>, <13, "finite", 1, 0> ]
+cover_squares [ true, false, true ]

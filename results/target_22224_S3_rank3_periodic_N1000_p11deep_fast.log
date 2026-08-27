@@ -1,0 +1,2 @@
+RANK3_DEEP_PADIC_FILTER_START family S3 pair <1, 3> p 11 precision 80 bank 968 input results/target_22224_S3_rank3_periodic_N1000.tsv
+RANK3_DEEP_PADIC_FILTER_DONE family S3 pair <1, 3> p 11 tested 40 finite 16 infinity 24 unresolved 0 deep_p5 0 output results/target_22224_S3_rank3_periodic_N1000_p11deep_fast.tsv

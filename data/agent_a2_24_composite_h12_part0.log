@@ -1,0 +1,27 @@
+COMPOSITE 8x3 SEARCH on A(8): H=12 Part=0/3 prefilter 3|#J at [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 ]
+PROGRESS tested=100000 smooth=98723 pre3=195 tors=195 hits24=0 hits224=0
+PROGRESS tested=200000 smooth=197386 pre3=404 tors=404 hits24=0 hits224=0
+PROGRESS tested=300000 smooth=296146 pre3=818 tors=818 hits24=0 hits224=0
+PROGRESS tested=400000 smooth=394912 pre3=1047 tors=1047 hits24=0 hits224=0
+PROGRESS tested=500000 smooth=493662 pre3=1353 tors=1353 hits24=0 hits224=0
+PROGRESS tested=600000 smooth=592423 pre3=1572 tors=1572 hits24=0 hits224=0
+PROGRESS tested=700000 smooth=691154 pre3=1894 tors=1894 hits24=0 hits224=0
+PROGRESS tested=800000 smooth=789815 pre3=2140 tors=2140 hits24=0 hits224=0
+PROGRESS tested=900000 smooth=888523 pre3=2378 tors=2378 hits24=0 hits224=0
+PROGRESS tested=1000000 smooth=987284 pre3=2650 tors=2650 hits24=0 hits224=0
+PROGRESS tested=1100000 smooth=1086015 pre3=2825 tors=2825 hits24=0 hits224=0
+PROGRESS tested=1200000 smooth=1184778 pre3=3048 tors=3048 hits24=0 hits224=0
+PROGRESS tested=1300000 smooth=1283523 pre3=3242 tors=3242 hits24=0 hits224=0
+PROGRESS tested=1400000 smooth=1382180 pre3=3401 tors=3401 hits24=0 hits224=0
+PROGRESS tested=1500000 smooth=1471519 pre3=3576 tors=3576 hits24=0 hits224=0
+
+Current total memory usage: 2192.2MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached
+
+Current total memory usage: 2192.2MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached
+
+In file "code/agent_a2_24_composite8x3.m", line 180, column 31:
+>>     tested, smooth, pre3, tors, hits24, hits224;
+                                 ^
+User error: bad syntax

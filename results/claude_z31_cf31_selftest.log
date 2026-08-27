@@ -1,0 +1,18 @@
+SELFTEST_VEC p=101 f14       raw=14 depressed=14 expect=14 PASS
+SELFTEST_VEC p=101 f18       raw=18 depressed=18 expect=18 PASS
+SELFTEST_VEC p=101 f28guess  raw=7 depressed=7 expect=7 PASS
+SELFTEST_VEC p=211 f14       raw=14 depressed=14 expect=14 PASS
+SELFTEST_VEC p=211 f18       raw=18 depressed=18 expect=18 PASS
+SELFTEST_VEC p=211 f28guess  raw=7 depressed=7 expect=7 PASS
+SELFTEST_VEC p=499 f14       raw=14 depressed=14 expect=14 PASS
+SELFTEST_VEC p=499 f18       raw=18 depressed=18 expect=18 PASS
+SELFTEST_VEC p=499 f28guess  raw=7 depressed=7 expect=7 PASS
+SELFTEST_VEC p=1009 f14       raw=14 depressed=14 expect=14 PASS
+SELFTEST_VEC p=1009 f18       raw=18 depressed=18 expect=18 PASS
+SELFTEST_VEC p=1009 f28guess  raw=7 depressed=7 expect=7 PASS
+SELFTEST_VEC p=2003 f14       raw=14 depressed=14 expect=14 PASS
+SELFTEST_VEC p=2003 f18       raw=18 depressed=18 expect=18 PASS
+SELFTEST_VEC p=2003 f28guess  raw=7 depressed=7 expect=7 PASS
+SELFTEST_TSV rows=626 pass=626 fail=0
+SELFTEST_VECTORS pass=15 fail=0 (15 = 3 vectors x 5 primes)
+SELFTEST_RESULT PASS

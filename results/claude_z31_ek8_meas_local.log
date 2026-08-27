@@ -1,0 +1,14 @@
+# local (Ryzen AI Max 395, 16 phys cores, 32 vCPU) clean measurements, optimized binary
+## deep config: 5 CRT {1019 1031 1039 1051 1063} + 7 verify, recbound 2e6, slices [0,4)
+SWEEP rows done: 48  mean_fiber=90.2 mean_degen=3.4  14.1 s
+SWEEP match stage: 4 usable slices, 28527 work items (depth2=1)
+SWEEP_DONE H=60 shard [0,4) slices=4 skipped=0 combos=17568486360 candidates=10  fiber_stage=14.1 s match_stage=61.0 s
+## pass-1 config: 4 CRT {1019 1031 1039 1051} + 8 verify, recbound 7e5, slices [0,12)
+SWEEP match stage: 12 usable slices, 88266 work items (depth2=1)
+CAND r=-60/1 s=4913/64 masks=1019:7 1031:7 1039:7 1051:7 
+CAND r=-60/1 s=-588/5 masks=1019:7 1031:7 1039:7 1051:7 
+CAND r=-60/1 s=-23120/243 masks=1019:7 1031:7 1039:7 1051:7 
+CAND r=-60/1 s=686/15 masks=1019:7 1031:7 1039:7 1051:7 
+CAND r=-59/1 s=-683873/314355 masks=1019:1 1031:3 1039:2 1051:1 
+CAND r=-58/1 s=298004/443435 masks=1019:2 1031:2 1039:2 1051:3 
+SWEEP_DONE H=60 shard [0,12) slices=12 skipped=0 combos=664026915 candidates=6  fiber_stage=50.7 s match_stage=3.8 s

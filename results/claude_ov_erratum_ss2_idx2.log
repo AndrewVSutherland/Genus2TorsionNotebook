@@ -1,0 +1,24 @@
+SS2 contact7 idx=2 (s,t,u)=(-5, -15/8, -15/22)
+SS2 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 900*x^6 + 6630*x^5 - 21900*x^4 - 167639*x^3 + 289767*x^2 + 1159725*x - 2056775 over Rational Field
+SS2 v_2(disc_min) = 14  (Magma warns when >= 12: true)
+SS2 RegularModel + IntersectionMatrix in 0.100 s
+SS2 components of the special fibre at 2 : m = 13
+SS2 multiplicities = [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+SS2 special fibre REDUCED = true
+SS2 => J semistable at 2 = true ; f_2 = 1 possible = true ; hence f_2 >= 2 proved = false
+SS2 Ogg value f_2 = v_2(disc_min) + 1 - m = 2
+SS2 intersection matrix = [-3  0  1  0  1  0  1  0  0  0  0  0  0]
+[ 0 -3  0  1  1  1  0  0  0  0  0  0  0]
+[ 1  0 -2  0  0  0  0  0  1  0  0  0  0]
+[ 0  1  0 -2  0  0  0  1  0  0  0  0  0]
+[ 1  1  0  0 -2  0  0  0  0  0  0  0  0]
+[ 0  1  0  0  0 -2  0  0  0  1  0  0  0]
+[ 1  0  0  0  0  0 -2  0  0  1  0  0  0]
+[ 0  0  0  1  0  0  0 -2  0  0  1  0  0]
+[ 0  0  1  0  0  0  0  0 -2  0  0  1  0]
+[ 0  0  0  0  0  1  1  0  0 -2  0  0  0]
+[ 0  0  0  0  0  0  0  1  0  0 -2  0  1]
+[ 0  0  0  0  0  0  0  0  1  0  0 -2  1]
+[ 0  0  0  0  0  0  0  0  0  0  1  1 -2]
+SS2 component group = [ 2, 28 ]
+ERRATUM_SS2_DONE

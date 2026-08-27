@@ -1,0 +1,17 @@
+SetColumns(0);SetSeed(8);Q:=Rationals();Z:=Integers();R<T>:=PolynomialRing(Q);
+fixed:=[Q!-960,Q!1800,Q!2535];d0:=Q!-1352;t0:=Q!1/13;
+Rx:=(fixed[2]+d0*T^2)/(fixed[2]+d0*t0^2);Ry:=(fixed[3]+d0*T^2)/(fixed[3]+d0*t0^2);
+C:=HyperellipticCurve(Rx*Ry);P0:=C![t0,Q!1,Q!1];Eraw,phi:=EllipticCurve(C,P0);Einv:=Inverse(phi);
+E,minmap:=MinimalModel(Eraw);minmapinv:=Inverse(minmap);gens:=Generators(E);
+free:=[g:g in gens|Order(g) eq 0];TG,tmap:=TorsionSubgroup(E);tors:=[tmap(g):g in TG];
+S:=[<0,-2,1>,<474,352,1>,<-6,112,1>,<0,0,1>,<0,1,2>,<0,1,4>];
+print "N11_SURVIVOR_PROBE_START",E,gens,Invariants(TG);
+for s in S do m:=s[1];n:=s[2];ti:=s[3];ep:=m*free[1]+n*free[2]+tors[ti];
+  try cp:=Einv(minmapinv(ep));catch e print "MAP_FAIL",s;continue;end try;
+  if cp[3] eq 0 then print "T_INFINITY",s;continue;end if;
+  tt:=Q!(cp[1]/cp[3]);dd:=d0*tt^2;conds:=[];
+  for z in fixed do ok,r:=IsSquare((z+dd)/(z+d0*t0^2));Append(~conds,ok);end for;
+  den:=Denominator(tt);vv:=0;while den mod 13 eq 0 do vv+:=1;den div:=13;end while;
+  print "SURVIVOR",s,"t",tt,"v13den",vv,"full",conds;
+end for;
+print "N11_SURVIVOR_PROBE_DONE";quit;

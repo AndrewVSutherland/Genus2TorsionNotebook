@@ -1,0 +1,33 @@
+P8_RANK2_MWSIEVE_START family N2 quotient <1, 3> N 10000 primes [ 23, 61, 67, 71, 73, 83, 89, 97, 11, 17, 19, 31, 43, 47, 53, 59, 79 ]
+E Elliptic Curve defined by y^2 = x^3 + 141300*x + 8694000 over Rational Field
+rank_bounds 2 2 generators [ (-60 : 0 : 1), (-3170/81 : -1284400/729 : 1), (1630 : 67600 : 1) ]
+known_t 49/29
+P8_PRIME_PROFILE p 23 orders 4 6 total 48 third_fail 24 open_no3 20 open_3 0 boundary 4 allowed 4
+P8_PRIORITY_CLASSES p 23 boundary [ <2, 1, 3>, <1, 0, 0>, <1, 3, 3>, <2, 2, 0> ]
+open_3 []
+P8_PRIME_PROFILE p 61 orders 52 52 total 5408 third_fail 2704 open_no3 2288 open_3 0 boundary 416 allowed 416
+P8_PRIORITY_CLASSES p 61 boundary_count 416 open_3_count 0 full_list_in results/target_22224_N2_rank2_residue_classes.tsv
+P8_PRIME_PROFILE p 67 orders 14 7 total 196 third_fail 42 open_no3 98 open_3 0 boundary 56 allowed 56
+P8_PRIORITY_CLASSES p 67 boundary [ <1, 8, 3>, <2, 0, 6>, <2, 6, 1>, <1, 7, 6>, <1, 8, 0>, <1, 12, 5>, <1, 12, 1>, <1, 10, 2>, <2, 13, 1>, <2, 4, 2>, <2, 8, 2>, <1, 2, 3>, <2, 5, 1>, <1, 3, 6>, <2, 12, 5>, <1, 3, 1>, <2, 9, 6>, <2, 3, 2>, <2, 6, 3>, <1, 6, 1>, <2, 9, 3>, <2, 1, 0>, <1, 4, 5>, <2, 1, 3>, <1, 13, 1>, <1, 6, 4>, <2, 10, 6>, <2, 12, 0>, <2, 3, 6>, <2, 7, 4>, <1, 11, 2>, <1, 11, 4>, <1, 9, 5>, <1, 0, 4>, <2, 10, 1>, <2, 2, 3>, <2, 2, 5>, <1, 1, 0>, <2, 11, 5>, <2, 13, 4>, <2, 0, 4>, <1, 5, 5>, <1, 4, 2>, <2, 8, 0>, <1, 5, 0>, <2, 4, 4>, <2, 7, 0>, <1, 1, 2>, <1, 13, 3>, <1, 9, 3>, <2, 5, 5>, <1, 0, 0>, <2, 11, 2>, <1, 7, 4>, <1, 10, 6>, <1, 2, 6> ]
+open_3 []
+P8_PRIME_PROFILE p 71 orders 17 17 total 578 third_fail 204 open_no3 187 open_3 51 boundary 136 allowed 187
+P8_PRIME_PROFILE p 73 orders 88 88 total 15488 third_fail 5456 open_no3 5456 open_3 3520 boundary 1056 allowed 4576
+P8_PRIME_PROFILE p 83 orders 6 12 total 144 third_fail 36 open_no3 48 open_3 36 boundary 24 allowed 60
+P8_PRIME_PROFILE p 89 orders 46 46 total 4232 third_fail 1104 open_no3 1748 open_3 644 boundary 736 allowed 1380
+P8_PRIME_PROFILE p 97 orders 96 96 total 18432 third_fail 6528 open_no3 6528 open_3 4608 boundary 768 allowed 5376
+P8_PRIME_PROFILE p 11 orders 8 8 total 128 third_fail 32 open_no3 0 open_3 0 boundary 96 allowed 96
+P8_PRIME_PROFILE p 17 orders 8 24 total 384 third_fail 192 open_no3 64 open_3 32 boundary 96 allowed 128
+P8_PRIME_PROFILE p 19 orders 2 12 total 48 third_fail 16 open_no3 8 open_3 8 boundary 16 allowed 24
+P8_PRIME_PROFILE p 31 orders 18 6 total 216 third_fail 84 open_no3 48 open_3 36 boundary 48 allowed 84
+P8_PRIME_PROFILE p 43 orders 3 3 total 18 third_fail 4 open_no3 7 open_3 4 boundary 3 allowed 7
+P8_PRIME_PROFILE p 47 orders 24 12 total 576 third_fail 228 open_no3 180 open_3 144 boundary 24 allowed 168
+P8_PRIME_PROFILE p 53 orders 14 14 total 392 third_fail 112 open_no3 0 open_3 168 boundary 112 allowed 280
+P8_PRIME_PROFILE p 59 orders 28 28 total 1568 third_fail 672 open_no3 336 open_3 168 boundary 392 allowed 560
+P8_PRIME_PROFILE p 79 orders 24 8 total 384 third_fail 128 open_no3 112 open_3 64 boundary 80 allowed 144
+P8_CRT_STEP p 23 classes 4
+P8_CRT_STEP p 61 classes 208
+P8_CRT_STEP p 67 classes 2912
+P8_CRT_CLASSES count 2912
+P8_EXACT_CLASS m 0 n 0 ti 1 t 1 tuple [ 2450, 98, -3920, -4205 ]
+three false gcd 64
+P8_RANK2_MWSIEVE_DONE box_total 800080002 periodic_enumerated 2930697 modular_survivors 182 deferred_large_index 179 exact_full 1 height_skip 0 three_hits 0 crt_file results/target_22224_N2_rank2_periodic_lattice.tsv modular_file results/target_22224_N2_rank2_modular_N10000.tsv

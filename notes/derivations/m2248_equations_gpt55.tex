@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\DeclareMathOperator{\Spec}{Spec}
+
+\begin{document}
+
+\title{Equations for the Cover $M(2,2,4,8)$ over $A(2,2,4,4)$}
+\author{}
+\date{}
+\maketitle
+
+Let the universal $A(2,2,4,4)$-family be given by
+\begin{align}
+    y_1^2&=(a^2-c^2)(a^2-d^2), \label{eq:A2244-y1}\\
+    y_2^2&=(b^2-c^2)(b^2-d^2), \label{eq:A2244-y2}\\
+    w^2&=(a^2-c^2)(b^2-c^2). \label{eq:A2244-w}
+\end{align}
+Introduce
+\[
+    t=\frac{y_1y_2}{w}.
+\]
+Then
+\[
+    t^2=(a^2-d^2)(b^2-d^2).
+\]
+Equivalently, one may work on the affine model with variables
+$a,b,c,d,y_1,y_2,w,t$ and equations
+\begin{align}
+    y_1^2&=(a^2-c^2)(a^2-d^2), \label{eq:model-y1}\\
+    y_2^2&=(b^2-c^2)(b^2-d^2), \label{eq:model-y2}\\
+    w^2&=(a^2-c^2)(b^2-c^2), \label{eq:model-w}\\
+    wt&=y_1y_2. \label{eq:model-t}
+\end{align}
+Equation~\eqref{eq:model-t} implies
+\[
+    t^2=(a^2-d^2)(b^2-d^2)
+\]
+on the open locus where \eqref{eq:model-y1}, \eqref{eq:model-y2}, and
+\eqref{eq:model-w} hold.
+
+Now define
+\[
+    \rho=\frac ab,
+    \qquad
+    \sigma=\frac{a^2-c^2}{w},
+    \qquad
+    \tau=\frac{a^2-d^2}{t}.
+\]
+Then
+\[
+    \sigma^2=\frac{a^2-c^2}{b^2-c^2},
+    \qquad
+    \tau^2=\frac{a^2-d^2}{b^2-d^2}.
+\]
+After the usual fractional linear transformation, the associated genus two
+curve is isomorphic to
+\[
+    Y^2=X(X+1)(X+\rho^2)(X+\sigma^2)(X+\tau^2).
+\]
+The chosen order $4$ point is the half of $P_0=(0,0)-\infty$ on this
+normalized model.
+
+\begin{proposition}
+The cover $M(2,2,4,8)\to A(2,2,4,4)$ obtained by dividing this chosen
+order $4$ point by $2$ is given, over the above open locus, by adjoining
+square roots $q_1,q_2,q_3,q_4$ satisfying
+\begin{align}
+    q_1^2&=(1+\rho)(1+\sigma)(1+\tau), \label{eq:q1-rational}\\
+    q_2^2&=\rho(1+\rho)(\rho+\sigma)(\rho+\tau), \label{eq:q2-rational}\\
+    q_3^2&=\sigma(1+\sigma)(\rho+\sigma)(\sigma+\tau), \label{eq:q3-rational}\\
+    q_4^2&=\tau(1+\tau)(\rho+\tau)(\sigma+\tau). \label{eq:q4-rational}
+\end{align}
+Equivalently,
+\[
+M(2,2,4,8)
+=
+\Spec_{A(2,2,4,4)}
+\mathcal O[q_1,q_2,q_3,q_4]/(q_1^2-F_1,\ldots,q_4^2-F_4),
+\]
+where
+\begin{align*}
+F_1&=(1+\rho)(1+\sigma)(1+\tau),\\
+F_2&=\rho(1+\rho)(\rho+\sigma)(\rho+\tau),\\
+F_3&=\sigma(1+\sigma)(\rho+\sigma)(\sigma+\tau),\\
+F_4&=\tau(1+\tau)(\rho+\tau)(\sigma+\tau).
+\end{align*}
+\end{proposition}
+
+\begin{proof}
+The halving criterion for the normalized curve
+\[
+    Y^2=X(X+1)(X+\rho^2)(X+\sigma^2)(X+\tau^2)
+\]
+is applied to the four square roots
+\[
+    1,\rho,\sigma,\tau.
+\]
+It says precisely that the half of the order $4$ point exists after adjoining
+square roots of the four quantities
+\begin{align*}
+    &(1+\rho)(1+\sigma)(1+\tau),\\
+    &\rho(1+\rho)(\rho+\sigma)(\rho+\tau),\\
+    &\sigma(1+\sigma)(\rho+\sigma)(\sigma+\tau),\\
+    &\tau(1+\tau)(\rho+\tau)(\sigma+\tau).
+\end{align*}
+This gives equations \eqref{eq:q1-rational}--\eqref{eq:q4-rational}.
+\end{proof}
+
+For a polynomial affine model, set
+\[
+    \alpha=a^2-c^2,
+    \qquad
+    \beta=a^2-d^2.
+\]
+Then
+\[
+    \sigma=\frac{\alpha}{w},
+    \qquad
+    \tau=\frac{\beta}{t}.
+\]
+Clearing denominators in \eqref{eq:q1-rational}--\eqref{eq:q4-rational}
+gives the following equations:
+\begin{align}
+    bwt\,q_1^2
+    &=(a+b)(w+\alpha)(t+\beta), \label{eq:q1-cleared}\\
+    b^4wt\,q_2^2
+    &=a(a+b)(aw+b\alpha)(at+b\beta), \label{eq:q2-cleared}\\
+    bw^4t\,q_3^2
+    &=\alpha(w+\alpha)(aw+b\alpha)(t\alpha+w\beta), \label{eq:q3-cleared}\\
+    bwt^4\,q_4^2
+    &=\beta(t+\beta)(at+b\beta)(t\alpha+w\beta). \label{eq:q4-cleared}
+\end{align}
+Thus an affine equation set for the desired cover is given by
+\eqref{eq:model-y1}--\eqref{eq:model-t} together with
+\eqref{eq:q1-cleared}--\eqref{eq:q4-cleared}.
+
+\begin{remark}
+The space $M(2,2,4,8)$ is not literally a closed subvariety of
+$A(2,2,4,4)$ in the ordinary sense. Rather, it is a finite cover of
+$A(2,2,4,4)$ obtained by adjoining the square roots $q_1,q_2,q_3,q_4$.
+Generically this is a $(\mathbb Z/2)^4$-cover.
+\end{remark}
+
+Multiplying the four square-root equations gives
+\[
+q_1^2q_2^2q_3^2q_4^2
+=
+\rho\sigma\tau
+\left(
+(1+\rho)(1+\sigma)(1+\tau)
+(\rho+\sigma)(\rho+\tau)(\sigma+\tau)
+\right)^2.
+\]
+Therefore the first natural intermediate double cover is
+\[
+    r^2=\rho\sigma\tau.
+\]
+In the original variables, this is equivalent, up to multiplication by a
+square, to
+\[
+    r^2=abwt=ab\,y_1y_2.
+\]
+Thus the necessary condition noticed from the product relation is
+\[
+    abwt\in \mathbb Q^{*2},
+\]
+or, since $wt=y_1y_2$,
+\[
+    ab\,y_1y_2\in \mathbb Q^{*2}.
+\]
+This intermediate double cover is the first visible step in the tower of
+double covers from $M(2,2,4,8)$ down to $A(2,2,4,4)$.
+
+\end{document}

@@ -1,0 +1,6 @@
+DIRECT_CONTACT_FRESH_LIFT p 11 incidences 106 incidence_live 106 incidence_dead 0
+ZERO_RADICAND_EQUATION_COUNTS {0: 6, 2: 30, 3: 30, 4: 40}
+BASE_TRIPLES 22 PROJECTED_P2_TRIPLES 12882
+PER_BASE [((0, 0, 0), 121), ((1, 0, 1), 1331), ((1, 0, 6), 121), ((1, 7, 5), 121), ((2, 9, 4), 11), ((3, 0, 6), 1331), ((3, 4, 9), 11), ((4, 0, 9), 11), ((4, 0, 10), 1331), ((4, 5, 10), 1331), ((4, 9, 10), 121), ((4, 10, 10), 11), ((5, 0, 4), 1331), ((5, 2, 4), 121), ((5, 9, 3), 1331), ((6, 0, 0), 121), ((6, 3, 1), 1331), ((7, 6, 0), 1), ((9, 0, 1), 1331), ((9, 7, 10), 11), ((10, 0, 6), 121), ((10, 5, 6), 1331)]
+SCOPE complete first-order lift of fresh coefficient identities plus necessary zero-radicand valuation parity
+OUTPUT results/target_22224_direct_contact_deep13_lift_p11.tsv

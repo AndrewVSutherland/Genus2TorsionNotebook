@@ -1,0 +1,50 @@
+# Elkies N=32 family: order-64 halving conditions
+
+For F(x)=sum F_i x^i and P=(0,1), D=P-infinity is divisible by 2 iff
+there are m,n and k=+/-1 such that, with
+  alpha = (F4 - m^2)/(2*F5),
+  beta  = (F3 - 2*m*n - F5*alpha^2)/(2*F5),
+the two equations
+  K2 = F2 - n^2 - 2*m*k - 2*F5*alpha*beta = 0,
+  K1 = F1 - 2*n*k - F5*beta^2 = 0
+hold.  Equivalently F(x)-(m*x^2+n*x+k)^2 = F5*x*(x^2+alpha*x+beta)^2.
+
+After the first N=32 rank condition and z=a/p:
+  a = z*p
+  c = (-z^4*p + 4*z^3*p - 8*z^2*p + 8*z^2 + 8*z*p - 16)/(4*z^2)
+  b = (-z^4*p + 8*z^3*p - 12*z^2*p + 4*z^2 + 8*z*p - 16)/(4*z^2)
+  F1=2*c, F2=c^2+2*b, F3=2*a+2*b*c, F4=b^2+2*a*c, F5=a*(2*b-a)
+
+Halving sign k=-1 after clearing denominators:
+  K2 numerator degrees in (z,p,m,n): [24, 6, 6, 2]; terms=241
+  K1 numerator degrees in (z,p,m,n): [32, 8, 8, 2]; terms=511
+Halving sign k=1 after clearing denominators:
+  K2 numerator degrees in (z,p,m,n): [24, 6, 6, 2]; terms=241
+  K1 numerator degrees in (z,p,m,n): [32, 8, 8, 2]; terms=511
+
+On the reconstructed N=32 component, (z,r) additionally satisfies
+  C32(z,r)=0, the bidegree (4,4) genus-0 equation in data/elkies32_reconstruct_conditions.txt,
+and p is the rational common-root formula recorded there.  Thus the order-64 cover is
+  C32(z,r)=0, p=4*Pnum(z,r)/Pden(z,r), K1(z,p,m,n)=K2(z,p,m,n)=0
+for one of the two signs k=+/-1, away from the boundary denominators z*p*F5*Pden=0.
+
+Affine finite-field sanity check on the derived cover:
+  q: #C32_affine  #usable_p_formula  #usable_with_halving
+  7:   4   1   0
+  11:  11   4   0
+  13:   6   4   1
+  17:  13  10   6
+  19:  16  13   2
+  23:  21  19   4
+  29:  24  21   2
+  31:  27  20   6
+  37:  31  29  10
+  41:  36  29  10
+  43:  40  37   8
+  47:  48  43  10
+  53:  46  42  12
+  59:  57  52  15
+  61:  54  47  11
+  67:  63  60  21
+  71:  69  64  10
+  73:  66  64  18

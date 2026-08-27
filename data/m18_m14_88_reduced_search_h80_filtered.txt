@@ -1,0 +1,17 @@
+Reduced [8,8] exact search
+height 80 params 7863 pairs 61826769 max_hits 10 progress_interval 5000000 use_filter true
+progress 5000000 residue_filtered 4985245 open_good 14754 first_bases 32 first_solutions 128 second_solutions 0 verified 0 hits 0
+progress 10000000 residue_filtered 9929507 open_good 70492 first_bases 94 first_solutions 376 second_solutions 0 verified 0 hits 0
+progress 15000000 residue_filtered 14889321 open_good 110678 first_bases 142 first_solutions 568 second_solutions 0 verified 0 hits 0
+progress 20000000 residue_filtered 19850269 open_good 149730 first_bases 192 first_solutions 768 second_solutions 0 verified 0 hits 0
+progress 25000000 residue_filtered 24822579 open_good 177420 first_bases 242 first_solutions 968 second_solutions 0 verified 0 hits 0
+progress 30000000 residue_filtered 29774941 open_good 225058 first_bases 300 first_solutions 1200 second_solutions 0 verified 0 hits 0
+progress 35000000 residue_filtered 34739337 open_good 260662 first_bases 352 first_solutions 1408 second_solutions 0 verified 0 hits 0
+progress 40000000 residue_filtered 39699946 open_good 300053 first_bases 408 first_solutions 1632 second_solutions 0 verified 0 hits 0
+progress 45000000 residue_filtered 44662817 open_good 337182 first_bases 458 first_solutions 1832 second_solutions 0 verified 0 hits 0
+progress 50000000 residue_filtered 49624535 open_good 375464 first_bases 512 first_solutions 2048 second_solutions 0 verified 0 hits 0
+progress 55000000 residue_filtered 54587197 open_good 412802 first_bases 566 first_solutions 2264 second_solutions 0 verified 0 hits 0
+progress 60000000 residue_filtered 59451609 open_good 548390 first_bases 648 first_solutions 2592 second_solutions 0 verified 0 hits 0
+DONE height 80
+checked 61826769 residue_filtered 61270575 open_good 556194 first_bases 664 first_solutions 2656 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

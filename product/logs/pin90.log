@@ -1,0 +1,13 @@
+Loading "split_lab.m"
+Loading "analytic_glue.m"
+connecting degree data: true Elliptic curve isogeny from: CrvEll: EA to CrvEll: EB
+taking (x : y : 1) to ((x^2 + 15*x + 576) / (x + 15) : (x^2*y + 30*x*y - 576*x - 351*y - 4608) / (x^2 + 30*x + 225) : 1)
+M=[ 0, 1, 1, 0 ] irrational (real) j1
+M=[ 0, 2, 3, 0 ] irrational (real) j1
+M=[ 0, 3, 2, 0 ] irrational (real) j1
+M=[ 0, 4, 4, 0 ] irrational (real) j1
+M=[ 1, 0, 0, 4 ] irrational (real) j1
+M=[ 2, 0, 0, 2 ] irrational (real) j1
+M=[ 3, 0, 0, 3 ] irrational (real) j1
+M=[ 4, 0, 0, 1 ] irrational (real) j1
+PIN90_DONE

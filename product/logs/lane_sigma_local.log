@@ -1,0 +1,87 @@
+LOCALSCAN HB=24 values=713 PMAX=50
+LOCAL si=2 p=0 SOLUBLE t=-1 u=-4
+LOCAL si=2 p=2 SOLUBLE t=-5 u=-5/3
+LOCAL si=2 p=3 SOLUBLE t=-1 u=2
+LOCAL si=2 p=5 SOLUBLE t=-1 u=1/2
+LOCAL si=2 p=7 SOLUBLE t=-1/2 u=-3/2
+LOCAL si=2 p=11 SOLUBLE t=-1 u=1/2
+LOCAL si=2 p=13 SOLUBLE t=-1 u=-1
+LOCAL si=2 p=17 SOLUBLE t=-1/2 u=-1/2
+LOCAL si=2 p=19 SOLUBLE t=2 u=-2
+LOCAL si=2 p=23 SOLUBLE t=1/2 u=-1/2
+LOCAL si=2 p=29 SOLUBLE t=-1/2 u=-1/2
+LOCAL si=2 p=31 SOLUBLE t=-1 u=-2
+LOCAL si=2 p=37 SOLUBLE t=-1 u=-1
+LOCAL si=2 p=41 SOLUBLE t=-1 u=-1
+LOCAL si=2 p=43 SOLUBLE t=2 u=-2
+LOCAL si=2 p=47 SOLUBLE t=1/2 u=2
+LOCALSUM si=2 sigma=[ 2, 1, 3 ] places=16 soluble=16 nowitness=[]
+LOCAL si=3 p=0 SOLUBLE t=2 u=4
+LOCAL si=3 p=2 SOLUBLE t=1/2 u=3/2
+LOCAL si=3 p=3 SOLUBLE t=-1/2 u=2
+LOCAL si=3 p=5 SOLUBLE t=1/2 u=1/2
+LOCAL si=3 p=7 SOLUBLE t=1/2 u=2
+LOCAL si=3 p=11 SOLUBLE t=-1 u=1/2
+LOCAL si=3 p=13 SOLUBLE t=-1 u=1/2
+LOCAL si=3 p=17 SOLUBLE t=-1 u=-1
+LOCAL si=3 p=19 SOLUBLE t=1/2 u=2
+LOCAL si=3 p=23 SOLUBLE t=-1 u=-1/2
+LOCAL si=3 p=29 SOLUBLE t=1/2 u=-1/2
+LOCAL si=3 p=31 SOLUBLE t=-1/2 u=3/2
+LOCAL si=3 p=37 SOLUBLE t=-1/2 u=-1/2
+LOCAL si=3 p=41 SOLUBLE t=1/2 u=1/2
+LOCAL si=3 p=43 SOLUBLE t=2 u=-2
+LOCAL si=3 p=47 SOLUBLE t=1/2 u=2
+LOCALSUM si=3 sigma=[ 3, 2, 1 ] places=16 soluble=16 nowitness=[]
+LOCAL si=4 p=0 SOLUBLE t=-1 u=2
+LOCAL si=4 p=2 SOLUBLE t=2 u=-1/3
+LOCAL si=4 p=3 SOLUBLE t=-1/2 u=-2
+LOCAL si=4 p=5 SOLUBLE t=-1 u=-1
+LOCAL si=4 p=7 SOLUBLE t=1/2 u=-1/2
+LOCAL si=4 p=11 SOLUBLE t=-1 u=1/2
+LOCAL si=4 p=13 SOLUBLE t=1/2 u=1/2
+LOCAL si=4 p=17 SOLUBLE t=1/2 u=1/2
+LOCAL si=4 p=19 SOLUBLE t=-1 u=2
+LOCAL si=4 p=23 SOLUBLE t=-1/2 u=2
+LOCAL si=4 p=29 SOLUBLE t=-1 u=-1
+LOCAL si=4 p=31 SOLUBLE t=1/2 u=-2
+LOCAL si=4 p=37 SOLUBLE t=-1 u=-1/2
+LOCAL si=4 p=41 SOLUBLE t=-1/2 u=-1/2
+LOCAL si=4 p=43 SOLUBLE t=-1 u=1/2
+LOCAL si=4 p=47 SOLUBLE t=1/2 u=2
+LOCALSUM si=4 sigma=[ 1, 3, 2 ] places=16 soluble=16 nowitness=[]
+LOCAL si=5 p=0 SOLUBLE t=4 u=-1
+LOCAL si=5 p=2 SOLUBLE t=-4/3 u=-1/3
+LOCAL si=5 p=3 SOLUBLE t=-1 u=-1/2
+LOCAL si=5 p=5 SOLUBLE t=-1 u=1/2
+LOCAL si=5 p=7 SOLUBLE t=-1 u=-1
+LOCAL si=5 p=11 SOLUBLE t=-1 u=-1
+LOCAL si=5 p=13 SOLUBLE t=-1 u=1/2
+LOCAL si=5 p=17 SOLUBLE t=-1 u=-1/2
+LOCAL si=5 p=19 SOLUBLE t=1/2 u=-1
+LOCAL si=5 p=23 SOLUBLE t=1/2 u=-1
+LOCAL si=5 p=29 SOLUBLE t=-1/2 u=1/2
+LOCAL si=5 p=31 SOLUBLE t=1/2 u=-1
+LOCAL si=5 p=37 SOLUBLE t=-1/2 u=-1
+LOCAL si=5 p=41 SOLUBLE t=-1/2 u=1/2
+LOCAL si=5 p=43 SOLUBLE t=2 u=2
+LOCAL si=5 p=47 SOLUBLE t=1/2 u=1/2
+LOCALSUM si=5 sigma=[ 2, 3, 1 ] places=16 soluble=16 nowitness=[]
+LOCAL si=6 p=0 SOLUBLE t=-1 u=4
+LOCAL si=6 p=2 SOLUBLE t=-1/3 u=-4/3
+LOCAL si=6 p=3 SOLUBLE t=-1/2 u=-1
+LOCAL si=6 p=5 SOLUBLE t=1/2 u=-1
+LOCAL si=6 p=7 SOLUBLE t=-1 u=-1
+LOCAL si=6 p=11 SOLUBLE t=-1 u=-1
+LOCAL si=6 p=13 SOLUBLE t=1/2 u=-1
+LOCAL si=6 p=17 SOLUBLE t=-1/2 u=-1
+LOCAL si=6 p=19 SOLUBLE t=-1 u=1/2
+LOCAL si=6 p=23 SOLUBLE t=-1 u=1/2
+LOCAL si=6 p=29 SOLUBLE t=1/2 u=-1/2
+LOCAL si=6 p=31 SOLUBLE t=-1 u=1/2
+LOCAL si=6 p=37 SOLUBLE t=-1 u=-1/2
+LOCAL si=6 p=41 SOLUBLE t=1/2 u=-1/2
+LOCAL si=6 p=43 SOLUBLE t=2 u=2
+LOCAL si=6 p=47 SOLUBLE t=1/2 u=1/2
+LOCALSUM si=6 sigma=[ 3, 1, 2 ] places=16 soluble=16 nowitness=[]
+LOCAL_DONE 0.010 s

@@ -1,0 +1,24 @@
+M_1(8,4) targeted [4,16] search
+height 50 parameters 3095 max_pr_tests 300 max_hits 20 progress_interval 1000000
+progress 1000000 square416 7780 cover 6219 smooth 5 tangent 1 tx_halves 1 pr_tests 1 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 2000000 square416 8784 cover 6245 smooth 7 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 3000000 square416 9260 cover 6251 smooth 9 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 4000000 square416 9552 cover 6258 smooth 10 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 5000000 square416 10180 cover 6270 smooth 10 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 6000000 square416 10382 cover 6270 smooth 10 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 7000000 square416 10554 cover 6279 smooth 11 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 8000000 square416 10632 cover 6279 smooth 11 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+progress 9000000 square416 10672 cover 6279 smooth 11 tangent 2 tx_halves 2 pr_tests 2 pr_halves 0 torsion_tests 0 hits 0 simple_hits 0
+DONE targeted [4,16] search
+height 50
+checked 9566648
+square416 10984
+cover 6296
+smooth 12
+tangent_points 2
+tx_halves 2
+pr_tests 2
+pr_halves 0
+torsion_tests 0
+hits 0
+simple_hits 0

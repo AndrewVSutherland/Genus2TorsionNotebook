@@ -1,0 +1,25 @@
+P1=known2 (A:B:C)=(143:218:120): (s:m:n)=(-2783:9016:40898) disc_ok=true
+P2 (A:B:C)=(143:241:120): (s:m:n)=(3887:-16606:20449) disc_ok=true
+P3 (A:B:C)=(133:109:60): (s:m:n)=(97831:-91598:141512) disc_ok=true
+P4 (A:B:C)=(266:241:120): (s:m:n)=(7742:-9559:10108) disc_ok=true
+P5 (A:B:C)=(266:218:143): (s:m:n)=(25970:-19875:35378) disc_ok=true
+P6 (A:B:C)=(266:241:143): (s:m:n)=(114437:-121728:141512) disc_ok=true
+P7=known1 (A:B:C)=(408:437:143): (s:m:n)=(-336396:689185:166464) disc_ok=true
+-- pairwise G2 comparison (which points give the same curve) --
+SAME CURVE: P1=known2 and P2
+SAME CURVE: P1=known2 and P3
+SAME CURVE: P1=known2 and P4
+SAME CURVE: P1=known2 and P5
+SAME CURVE: P1=known2 and P6
+SAME CURVE: P2 and P3
+SAME CURVE: P2 and P4
+SAME CURVE: P2 and P5
+SAME CURVE: P2 and P6
+SAME CURVE: P3 and P4
+SAME CURVE: P3 and P5
+SAME CURVE: P3 and P6
+SAME CURVE: P4 and P5
+SAME CURVE: P4 and P6
+SAME CURVE: P5 and P6
+distinct curves among the 7 points: 2 (reps [ P1=known2, P7=known1 ])
+ALL_DONE

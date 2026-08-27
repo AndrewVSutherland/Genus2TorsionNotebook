@@ -1,0 +1,6 @@
+V1_AUX_FILTER_START rows [ <4900, -1960, 1, "exceptional_plus1">, <0, 0, 1, "exceptional_plus1">, <-2, -1, 1, "exceptional_plus5"> ]
+V1_AUX_KILL <4900, -1960, 1, "exceptional_plus1"> p 103 Jorder 12416 T 25
+V1_AUX_KILL <0, 0, 1, "exceptional_plus1"> p 101 Jorder 10240 T 1
+V1_AUX_KILL <-2, -1, 1, "exceptional_plus5"> exact_third_nonsquare T -4574693/21848987
+V1_AUX_FILTER_DONE input_rows 3 survivors []
+output results/target_22224_V1_component_auxprime_filter.tsv

@@ -1,0 +1,202 @@
+S1_AUXPRIME 11 cover [ 1, 5, 6, 10 ]
+singular [ 1, 10 ]
+j3 []
+infinity_units [ 1, 7, 8, 3 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 17 cover [ 1, 5, 8, 9, 12, 16 ]
+singular [ 1, 5, 8, 9, 12, 16 ]
+j3 []
+infinity_units [ 2, 6, 1, 6 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 23 cover [ 1, 4, 7, 16, 19, 22 ]
+singular []
+j3 [ <4, 384>, <19, 384> ]
+infinity_units [ 1, 9, 7, 14 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 29 cover [ 1, 8, 12, 17, 21, 28 ]
+singular []
+j3 [ <8, 768>, <21, 768> ]
+infinity_units [ 6, 19, 12, 5 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 31 cover [ 1, 2, 10, 21, 29, 30 ]
+singular [ 1, 10, 21, 30 ]
+j3 []
+infinity_units [ 18, 19, 25, 20 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 37 cover [ 1, 14, 17, 20, 23, 36 ]
+singular []
+j3 [ <1, 1536>, <36, 1536> ]
+infinity_units [ 11, 19, 33, 17 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 41 cover [ 1, 4, 9, 32, 37, 40 ]
+singular [ 4, 37 ]
+j3 [ <1, 1536>, <9, 1536>, <32, 1536>, <40, 1536> ]
+infinity_units [ 16, 32, 15, 14 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 43 cover [ 0, 1, 10, 20, 23, 33, 42 ]
+singular [ 0, 10, 33 ]
+j3 [ <20, 1920>, <23, 1920> ]
+infinity_units [ 24, 2, 4, 12 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 47 cover [ 0, 1, 4, 12, 35, 43, 46 ]
+singular [ 0, 1, 46 ]
+j3 [ <4, 2304>, <12, 2304>, <35, 2304>, <43, 2304> ]
+infinity_units [ 42, 15, 14, 39 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 53 cover [ 0, 1, 8, 45, 52 ]
+singular [ 0 ]
+j3 []
+infinity_units [ 4, 51, 20, 11 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 59 cover [ 1, 19, 20, 39, 40, 58 ]
+singular []
+j3 [ <19, 3072>, <20, 3264>, <39, 3264>, <40, 3072> ]
+infinity_units [ 5, 33, 14, 46 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 61 cover [ 1, 7, 10, 27, 34, 51, 54, 60 ]
+singular [ 1, 60 ]
+j3 [ <27, 3456>, <34, 3456> ]
+infinity_units [ 52, 16, 7, 40 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 67 cover [ 1, 5, 17, 18, 23, 27, 40, 44, 49, 50, 62, 66 ]
+singular [ 23, 27, 40, 44 ]
+j3 []
+infinity_units [ 62, 10, 50, 18 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 71 cover [ 1, 4, 9, 20, 33, 34, 37, 38, 51, 62, 67, 70 ]
+singular []
+j3 []
+infinity_units [ 29, 35, 15, 47 ]
+infinity_full false complete_kill true
+S1_AUXPRIME 73 cover [ 0, 1, 13, 15, 32, 41, 58, 60, 72 ]
+singular [ 0 ]
+j3 []
+infinity_units [ 12, 22, 17, 27 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 79 cover [ 1, 3, 9, 14, 17, 25, 54, 62, 65, 70, 76, 78 ]
+singular []
+j3 [ <17, 6144>, <62, 6144> ]
+infinity_units [ 23, 14, 12, 50 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 83 cover [ 1, 4, 6, 21, 22, 33, 41, 42, 50, 61, 62, 77, 79, 82 ]
+singular []
+j3 [ <4, 7680>, <21, 9216>, <22, 8064>, <41, 5760>, <42, 5760>, <61, 8064>, <62, 9216>, <79, 7680> ]
+infinity_units [ 69, 24, 2, 7 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 89 cover [ 1, 6, 8, 9, 19, 20, 25, 64, 69, 70, 80, 81, 83, 88 ]
+singular []
+j3 [ <1, 7680>, <19, 7680>, <20, 9216>, <69, 9216>, <70, 7680>, <88, 7680> ]
+infinity_units [ 39, 88, 59, 14 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 97 cover [ 0, 1, 2, 8, 14, 23, 27, 31, 44, 53, 66, 70, 74, 83, 89, 95, 96 ]
+singular [ 0 ]
+j3 [ <2, 9216>, <31, 10752>, <44, 9216>, <53, 9216>, <66, 10752>, <95, 9216> ]
+infinity_units [ 1, 40, 59, 85 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 101 cover [ 1, 3, 10, 11, 14, 20, 44, 50, 51, 57, 81, 87, 90, 91, 98, 100 ]
+singular []
+j3 [ <3, 13440>, <11, 9984>, <90, 9984>, <98, 13440> ]
+infinity_units [ 77, 67, 39, 70 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 103 cover [ 1, 6, 15, 24, 31, 43, 48, 55, 60, 72, 79, 88, 97, 102 ]
+singular []
+j3 [ <1, 9792>, <6, 8448>, <24, 9216>, <48, 10560>, <55, 10560>, <79, 9216>, <97, 8448>, <102, 9792> ]
+infinity_units [ 92, 71, 5, 18 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 107 cover [ 1, 6, 20, 22, 29, 31, 34, 35, 50, 57, 72, 73, 76, 78, 85, 87, 101, 106 ]
+singular [ 22, 85 ]
+j3 [ <1, 11904>, <6, 11520>, <20, 10752>, <29, 11520>, <35, 11136>, <72, 11136>, <78, 11520>, <87, 10752>, <101, 11520>, <106, 11904> ]
+infinity_units [ 37, 105, 87, 10 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 109 cover [ 1, 14, 24, 30, 31, 35, 49, 52, 57, 60, 74, 78, 79, 85, 95, 108 ]
+singular [ 31, 78 ]
+j3 [ <1, 12288>, <14, 12288>, <24, 13824>, <30, 12288>, <79, 12288>, <85, 13824>, <95, 12288>, <108, 12288> ]
+infinity_units [ 100, 32, 1, 90 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 113 cover [ 1, 5, 28, 29, 30, 33, 37, 42, 45, 53, 60, 68, 71, 76, 80, 83, 84, 85, 108, 112 ]
+singular [ 30, 45, 68, 83 ]
+j3 [ <5, 11520>, <28, 12864>, <29, 14208>, <37, 11136>, <76, 11136>, <84, 14208>, <85, 12864>, <108, 11520> ]
+infinity_units [ 95, 29, 1, 55 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 127 cover [ 1, 8, 13, 17, 30, 46, 47, 59, 68, 80, 81, 97, 110, 114, 119, 126 ]
+singular []
+j3 [ <1, 13440>, <13, 13440>, <114, 13440>, <126, 13440> ]
+infinity_units [ 52, 105, 106, 17 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 131 cover [ 1, 17, 20, 22, 36, 41, 59, 72, 90, 95, 109, 111, 114, 130 ]
+singular [ 36, 95 ]
+j3 [ <20, 13440>, <41, 17280>, <59, 18816>, <72, 18816>, <90, 17280>, <111, 13440> ]
+infinity_units [ 59, 9, 117, 63 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 137 cover [ 1, 17, 20, 22, 27, 31, 33, 47, 64, 65, 72, 73, 90, 104, 106, 110, 115, 117, 120, 136 ]
+singular [ 17, 27, 110, 120 ]
+j3 [ <22, 18432>, <64, 17664>, <73, 17664>, <115, 18432> ]
+infinity_units [ 122, 8, 110, 80 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 139 cover [ 1, 7, 13, 15, 31, 41, 45, 47, 53, 63, 76, 86, 92, 94, 98, 108, 124, 126, 132, 138 ]
+singular []
+j3 [ <1, 17280>, <7, 20544>, <15, 21888>, <124, 21888>, <132, 20544>, <138, 17280> ]
+infinity_units [ 78, 53, 47, 27 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 149 cover [ 0, 1, 4, 11, 13, 30, 31, 41, 43, 46, 55, 68, 81, 94, 103, 106, 108, 118, 119, 136, 138, 145, 148 ]
+singular [ 0 ]
+j3 [ <11, 20736>, <68, 21504>, <81, 21504>, <138, 20736> ]
+infinity_units [ 73, 140, 49, 5 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 151 cover [ 1, 2, 6, 10, 15, 33, 56, 69, 72, 79, 82, 95, 118, 136, 141, 145, 149, 150 ]
+singular [ 6, 145 ]
+j3 [ <1, 20736>, <10, 27456>, <33, 23040>, <56, 23040>, <95, 23040>, <118, 23040>, <141, 27456>, <150, 20736> ]
+infinity_units [ 49, 18, 128, 4 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 157 cover [ 1, 10, 11, 40, 46, 64, 67, 74, 83, 90, 93, 111, 117, 146, 147, 156 ]
+singular [ 67, 90 ]
+j3 [ <11, 27456>, <40, 24000>, <46, 23616>, <111, 23616>, <117, 24000>, <146, 27456> ]
+infinity_units [ 44, 27, 7, 69 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 163 cover [ 1, 12, 22, 27, 36, 38, 39, 46, 53, 69, 71, 92, 94, 110, 117, 124, 125, 127, 136, 141, 151, 162 ]
+singular []
+j3 [ <1, 26496>, <22, 27840>, <39, 26112>, <69, 23040>, <71, 25344>, <92, 25344>, <94, 23040>, <124, 26112>, <141, 27840>, <162, 26496> ]
+infinity_units [ 151, 121, 101, 12 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 167 cover [ 0, 1, 5, 21, 25, 26, 45, 49, 64, 77, 78, 89, 90, 103, 118, 122, 141, 142, 146, 162, 166 ]
+singular [ 0, 21, 146 ]
+j3 [ <1, 28032>, <5, 25536>, <25, 29184>, <26, 33792>, <49, 28032>, <64, 26496>, <77, 27648>, <78, 30720>, <89, 30720>, <90, 27648>, <103, 26496>, <118, 28032>, <141, 33792>, <142, 29184>, <162, 25536>, <166, 28032> ]
+infinity_units [ 132, 45, 36, 123 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 173 cover [ 0, 1, 7, 17, 26, 32, 39, 43, 46, 55, 67, 71, 102, 106, 118, 127, 130, 134, 141, 147, 156, 166, 172 ]
+singular [ 0, 71, 102 ]
+j3 [ <1, 28800>, <26, 30720>, <39, 29760>, <55, 30720>, <118, 30720>, <134, 29760>, <147, 30720>, <172, 28800> ]
+infinity_units [ 160, 45, 86, 49 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 179 cover [ 1, 17, 22, 23, 30, 38, 66, 75, 76, 103, 104, 113, 141, 149, 156, 157, 162, 178 ]
+singular [ 17, 162 ]
+j3 [ <1, 32256>, <22, 36864>, <30, 36864>, <149, 36864>, <157, 36864>, <178, 32256> ]
+infinity_units [ 49, 70, 77, 22 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 181 cover [ 1, 4, 8, 15, 17, 30, 35, 48, 52, 56, 72, 109, 125, 129, 133, 146, 151, 164, 166, 173, 177, 180 ]
+singular [ 35, 146 ]
+j3 [ <4, 33792>, <8, 32832>, <17, 30720>, <72, 32064>, <109, 32064>, <164, 30720>, <173, 32832>, <177, 33792> ]
+infinity_units [ 25, 126, 163, 50 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 191 cover [ 0, 1, 16, 20, 25, 32, 34, 38, 52, 60, 70, 76, 80, 82, 91, 93, 98, 100, 109, 111, 115, 121, 131, 139, 153, 157, 159, 166, 171, 175, 190 ]
+singular [ 0, 32, 60, 131, 159 ]
+j3 [ <1, 36864>, <16, 36480>, <20, 38976>, <25, 38016>, <38, 36480>, <70, 36864>, <80, 36480>, <93, 33600>, <98, 33600>, <111, 36480>, <121, 36864>, <153, 36480>, <166, 38016>, <171, 38976>, <175, 36480>, <190, 36864> ]
+infinity_units [ 27, 13, 171, 99 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 193 cover [ 0, 1, 6, 13, 15, 22, 29, 37, 41, 44, 56, 59, 60, 64, 65, 71, 122, 128, 129, 133, 134, 137, 149, 152, 156, 164, 171, 178, 180, 187, 192 ]
+singular [ 0 ]
+j3 [ <13, 33024>, <22, 33024>, <29, 33024>, <41, 44928>, <44, 34944>, <56, 37248>, <64, 39744>, <129, 39744>, <137, 37248>, <149, 34944>, <152, 44928>, <164, 33024>, <171, 33024>, <180, 33024> ]
+infinity_units [ 128, 176, 178, 126 ]
+infinity_full false complete_kill false
+S1_AUXPRIME 197 cover [ 1, 2, 10, 13, 14, 40, 43, 45, 48, 52, 54, 67, 80, 87, 110, 117, 130, 143, 145, 149, 152, 154, 157, 183, 184, 187, 195, 196 ]
+singular []
+j3 [ <10, 33792>, <67, 39168>, <87, 41280>, <110, 41280>, <130, 39168>, <187, 33792> ]
+infinity_units [ 164, 6, 29, 43 ]
+infinity_full true complete_kill false
+S1_AUXPRIME 199 cover [ 1, 2, 26, 39, 42, 47, 48, 52, 69, 73, 84, 97, 102, 115, 126, 130, 147, 151, 152, 157, 160, 173, 197, 198 ]
+singular []
+j3 [ <2, 39360>, <47, 37440>, <73, 43200>, <97, 39936>, <102, 39936>, <126, 43200>, <152, 37440>, <197, 39360> ]
+infinity_units [ 79, 97, 195, 196 ]
+infinity_full false complete_kill false
+S1_AUXPRIME_SCAN_DONE bound 199 complete_kill_primes [ 71 ]
+output results/target_22224_S1_auxprime_scan.tsv

@@ -1,0 +1,9 @@
+V1_MW_STRICT_VERIFY_START rows=3 depth=12
+FIXED_T_JACOBIAN_RANK=3 (formal Hensel certificate)
+ROW m=4900 n=-1960 component=exceptional_plus1 s0=6 v13(L)=4 v13(resultant)=8 max_collision_v=2 genuine=True
+ROW m=4900 n=-1960 component=exceptional_plus1 s0=7 v13(L)=4 v13(resultant)=8 max_collision_v=2 genuine=True
+ROW m=0 n=0 component=exceptional_plus1 s0=6 v13(L)=4 v13(resultant)=8 max_collision_v=2 genuine=True
+ROW m=0 n=0 component=exceptional_plus1 s0=7 v13(L)=4 v13(resultant)=8 max_collision_v=2 genuine=True
+ROW m=-2 n=-1 component=exceptional_plus5 s0=6 v13(L)=2 v13(resultant)=4 max_collision_v=1 genuine=True
+ROW m=-2 n=-1 component=exceptional_plus5 s0=7 v13(L)=2 v13(resultant)=4 max_collision_v=1 genuine=True
+V1_MW_STRICT_VERIFY_DONE genuine_rows=6 output=results/target_22224_V1_MW_strict_verify.tsv

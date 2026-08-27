@@ -1,0 +1,19 @@
+QUAD_1_RAW basis 3 unit false
+QUAD_1_RAW dimension 2 [ 2, 3 ]
+degree -2 basis_degrees [ 9, 11, 14 ]
+basis_terms [ 9, 9, 10 ]
+QUAD 1 SATURATION_BEGIN
+Time: 0.060
+QUAD_1_OPEN basis 30 unit false
+QUAD_1_OPEN dimension 0 []
+degree -2 basis_degrees [ 8, 7, 6, 6, 6, 8, 7, 6, 6, 6, 6, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 6 ]
+basis_terms [ 33, 33, 33, 33, 33, 36, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 36, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 38 ]
+QUAD_1_OPEN Q_VARIETY []
+QUAD_-1_RAW basis 3 unit false
+QUAD_-1_RAW dimension 2 [ 2, 3 ]
+degree -2 basis_degrees [ 9, 11, 14 ]
+basis_terms [ 9, 9, 10 ]
+QUAD -1 SATURATION_BEGIN
+Time: 0.040
+QUAD_-1_OPEN basis 1 unit true
+FIXED_LOWFACTOR_QUADRATICS_DONE

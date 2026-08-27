@@ -1,0 +1,66 @@
+Magma V2.29-4     Sun Jun 28 2026 19:11:18 on <host>  [Seed = 3606958142]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact7_plus5_boundary3_components.m"
+CLASS <0, 1> f x^5 + x + 1
+factor [
+<x + 2, 2>,
+<x^3 + 2*x^2 + 1, 1>
+]
+ squarefree_factorization [
+<x^3 + 2*x^2 + 1, 1>,
+<x + 2, 2>
+]
+ double_root 1 residual x^3 + 2*x^2 + 1
+residual_factor [
+<x^3 + 2*x^2 + 1, 1>
+]
+g(root) 1
+ normalization_J_count 5 node_split true torus_order 2 generalized_order 10 mod5 0
+CLASS <1, 0> f x^5 + 2*x^4 + 2*x^2 + x
+factor [
+<x, 1>,
+<x + 2, 4>
+]
+ squarefree_factorization [
+<x, 1>,
+<x + 2, 4>
+]
+ double_root 1 residual x^3 + x^2 + x
+residual_factor [
+<x, 1>,
+<x + 2, 2>
+]
+g(root) 0
+CLASS <1, 1> f x^5 + 2*x^3 + x^2
+factor [
+<x, 2>,
+<x^3 + 2*x + 1, 1>
+]
+ squarefree_factorization [
+<x^3 + 2*x + 1, 1>,
+<x, 2>
+]
+ double_root 0 residual x^3 + 2*x + 1
+residual_factor [
+<x^3 + 2*x + 1, 1>
+]
+g(root) 1
+ normalization_J_count 7 node_split true torus_order 2 generalized_order 14 mod5 4
+CLASS <2, 2> f x^5 + 2*x^3 + x + 2
+factor [
+<x + 2, 2>,
+<x^3 + 2*x^2 + 2*x + 2, 1>
+]
+ squarefree_factorization [
+<x^3 + 2*x^2 + 2*x + 2, 1>,
+<x + 2, 2>
+]
+ double_root 1 residual x^3 + 2*x^2 + 2*x + 2
+residual_factor [
+<x^3 + 2*x^2 + 2*x + 2, 1>
+]
+g(root) 1
+ normalization_J_count 5 node_split true torus_order 2 generalized_order 10 mod5 0
+
+Total time: 0.010 seconds, Total memory usage: 32.09MB

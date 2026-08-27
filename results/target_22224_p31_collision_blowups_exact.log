@@ -1,0 +1,49 @@
+TARGET_22224_P31_COLLISION_BLOWUPS_EXACT_START
+G4_EVALUATIONS_FACTORED
+[
+<d, 1>,
+<c, 1>,
+<b, 1>,
+<a, 1>
+]
+[
+<a, 1>,
+<a + d, 1>,
+<a + c, 1>,
+<a + b, 1>
+]
+[
+<b, 1>,
+<b + d, 1>,
+<b + c, 1>,
+<a + b, 1>
+]
+[
+<c, 1>,
+<c + d, 1>,
+<b + c, 1>,
+<a + c, 1>
+]
+[
+<d, 1>,
+<c + d, 1>,
+<b + d, 1>,
+<a + d, 1>
+]
+RECORD_NORMALIZED_W [ 13/187, 77/13, 17/7, 1013/437 ]
+RECORD_KUMMER_PRODUCTS [ 9294620584320/3740639909699, 1604810880/656903, 172656000/717899, 718507479127680/3318693465451 ]
+RECORD_KUMMER_SQUARES [ false, false, false, false ]
+D_square false
+INTERNAL_QUARTIC Hyperelliptic Curve defined by y^2 = x^4 + 2*x^2 - 3 over Rational Field
+INTERNAL_ELLIPTIC_MODEL Elliptic Curve defined by y^2 = x^3 - 16*x^2 + 96*x - 192 over Rational Field
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + x over Rational Field
+INTERNAL_RANK_BOUNDS 0 0 torsion [ 4 ]
+INTERNAL_ALL_RATIONAL_POINTS [ (1 : 0 : 1), (1 : -1 : 0), (-1 : 0 : 1), (1 : 1 : 0) ]
+INTERNAL_AFFINE_R_VALUES [ 1, -1 ]
+EXTERNAL_QUARTIC Hyperelliptic Curve defined by y^2 = 4*x^4 + 1 over Rational Field
+EXTERNAL_ELLIPTIC_MODEL Elliptic Curve defined by y^2 = x^3 - 16*x over Rational Field
+minimal Elliptic Curve defined by y^2 = x^3 - x over Rational Field
+EXTERNAL_RANK_BOUNDS 0 0 torsion [ 2, 2 ]
+EXTERNAL_ALL_RATIONAL_POINTS [ (0 : 1 : 1), (1 : -2 : 0), (0 : -1 : 1), (1 : 2 : 0) ]
+EXTERNAL_AFFINE_T_VALUES [ 0, 0 ]
+TARGET_22224_P31_COLLISION_BLOWUPS_EXACT_DONE

@@ -1,0 +1,3 @@
+Contact-6 core projective conic coefficient solve
+p 11 tangent_directions 12
+summary p 11 tangent_directions 12 positive_dim_directions 0 zero_dim_solutions 0 samples []

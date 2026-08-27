@@ -1,0 +1,47 @@
+PIECE 22
+PERIOD_TERMS 80457
+PERIODS ok
+N_POSDEF 20
+LATTICE a=3 b=-1 type=(1,2) sgn=1 blk=1
+  G2_1 abs=108649.085710566 - 95384.1008782275*$.1
+  G2_1 UNRECOGNIZED (deg<=6)
+  G2_2 abs=8967.73436932600 - 10166.0890462791*$.1
+  G2_2 UNRECOGNIZED (deg<=6)
+  G2_3 abs=490.721188872441 - 975.453064059971*$.1
+  G2_3 UNRECOGNIZED (deg<=6)
+  G2_4 abs=-73623.7020192529 - 132394.351123611*$.1
+  G2_4 UNRECOGNIZED (deg<=6)
+  G2_5 abs=-43743.6077731427 + 60012.9379299779*$.1
+  G2_5 UNRECOGNIZED (deg<=6)
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+  FREEFIELD_CURVE over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field : Hyperelliptic Curve defined by y^2 = 1/70761*(304360*$.1^2 + 194256*$.1 - 5052516)*x^6 + 1/23587*(-413320*$.1^2 - 1162368*$.1 + 4982718)*x^5 + 1/94348*(315736*$.1^2 - 397440*$.1 - 17223893)*x^4 + 1/141522*(-1137241*$.1^2 + 801168*$.1 - 5469876)*x^3 + 1/94348*(786865*$.1^2 + 2043498*$.1 + 17488258)*x^2 + 1/23587*(-50136*$.1^2 - 165408*$.1 - 1491258)*x + 1/94348*(-12331*$.1^2 + 184258*$.1 + 411795) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+LATTICE a=4 b=-1 type=(1,3) sgn=1 blk=1
+  G2_1 abs=443832.969959757 + 425627.237071432*$.1
+  G2_1 UNRECOGNIZED (deg<=6)
+  G2_2 abs=14143.3548895251 + 5259.85073402310*$.1
+  G2_2 UNRECOGNIZED (deg<=6)
+  G2_3 abs=3074.91054798825 + 1006.01898927991*$.1
+  G2_3 UNRECOGNIZED (deg<=6)
+  G2_4 abs=2931.15041146277 - 1651.72872421244*$.1
+  G2_4 UNRECOGNIZED (deg<=6)
+  G2_5 abs=936101.235377209 + 48761.7546417897*$.1
+  G2_5 UNRECOGNIZED (deg<=6)
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+  FREEFIELD_CURVE over Number Field with defining polynomial $.1^4 - 36*$.1^2 - 282*$.1 - 108 over the Rational Field : Hyperelliptic Curve defined by y^2 = 1/1044523*(-38249867*$.1^3 + 16092346*$.1^2 + 1354458784*$.1 + 10415745162)*x^6 + 1/1044523*(-46415533*$.1^3 + 14269734*$.1^2 + 1635962256*$.1 + 13064166648)*x^5 + 1/12534276*(-690913172*$.1^3 + 220668552*$.1^2 + 24448195152*$.1 + 193092189417)*x^4 + 1/10445230*(-354580313*$.1^3 + 165432492*$.1^2 + 12524675850*$.1 + 96565503951)*x^3 + 1/20890460*(-408985824*$.1^3 + 287648556*$.1^2 + 14744286420*$.1 + 109620654143)*x^2 + 1/15667845*(-84430879*$.1^3 + 55331541*$.1^2 + 3129252165*$.1 + 22701390888)*x + 1/47003535*(-69415217*$.1^3 + 32969403*$.1^2 + 2542072275*$.1 + 18447136674) over Number Field with defining polynomial $.1^4 - 36*$.1^2 - 282*$.1 - 108 over the Rational Field
+GL2_IGUSA_DONE

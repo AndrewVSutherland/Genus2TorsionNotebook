@@ -1,0 +1,3 @@
+PADIC_LLL_START masks 484 52 pairs 25168 M 59797108943 coeffs 40
+PADIC_LLL_DONE pairs 25168 vectors 1006720 nonzeroD 1006720 unique 866880 passes [ <17, 59004, 51112>, <19, 3550, 3046>, <23, 189, 157>, <29, 10, 9>, <31, 0, 0>, <37, 0, 0>, <41, 0, 0>, <43, 0, 0> ]
+survivors 0 output results/target_22224_direct_contact_deep13_padic_lll.tsv

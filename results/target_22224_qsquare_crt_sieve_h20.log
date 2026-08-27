@@ -1,0 +1,7 @@
+RECORD_HEIGHT187_CONTROL exact_double_square 1 p29_boundary p31_smooth_no_target p37_smooth_no_target p41_target
+QSQUARE_BOUNDARY_SIEVE height 20 positive_values 255 ordered_pairs 13420 exact_collision_or_trivial 260 modular_survivors 7 exact_double_square_survivors 0 written 0
+PRIME_MASK 29 nonsquare_reject 8928 smooth_no_target_reject 847 boundary_pass 2527 target_pass 858
+PRIME_MASK 31 nonsquare_reject 2651 smooth_no_target_reject 201 boundary_pass 533 target_pass 0
+PRIME_MASK 37 nonsquare_reject 441 smooth_no_target_reject 52 boundary_pass 28 target_pass 12
+PRIME_MASK 41 nonsquare_reject 31 smooth_no_target_reject 2 boundary_pass 5 target_pass 2
+OUTPUT results/target_22224_qsquare_crt_sieve_h20_candidates.tsv

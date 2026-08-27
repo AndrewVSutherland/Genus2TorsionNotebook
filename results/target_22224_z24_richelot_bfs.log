@@ -1,0 +1,30 @@
+TARGET_22224_Z24_RICHELOT_BFS_START
+Z24_COMPONENT_START A
+Z24_NODE A 1 depth 0 torsion [ 24 ]
+Z24_EDGES A 1 0
+Z24_COMPONENT_DONE A nodes 1 edges 0
+Z24_COMPONENT_START B
+Z24_NODE B 1 depth 0 torsion [ 24 ]
+Z24_EDGES B 1 1
+Z24_NEW B 2 parent 1 edge 1
+Z24_NODE B 2 depth 1 torsion [ 2, 12 ]
+Z24_EDGES B 2 3
+Z24_NEW B 3 parent 2 edge 1
+Z24_NEW B 4 parent 2 edge 2
+Z24_OLD B 2 3 node 1
+Z24_NODE B 3 depth 2 torsion [ 2, 2, 6 ]
+Z24_EDGES B 3 3
+Z24_NEW B 5 parent 3 edge 1
+Z24_OLD B 3 2 node 2
+Z24_NEW B 6 parent 3 edge 3
+Z24_NODE B 4 depth 2 torsion [ 12 ]
+Z24_EDGES B 4 1
+Z24_OLD B 4 1 node 2
+Z24_NODE B 5 depth 3 torsion [ 2, 6 ]
+Z24_EDGES B 5 1
+Z24_OLD B 5 1 node 3
+Z24_NODE B 6 depth 3 torsion [ 2, 6 ]
+Z24_EDGES B 6 1
+Z24_OLD B 6 1 node 3
+Z24_COMPONENT_DONE B nodes 6 edges 10
+TARGET_22224_Z24_RICHELOT_BFS_DONE

@@ -1,0 +1,237 @@
+M_1(8,2,2) halving residue-survivor classifier
+height 30 prime_bound 43 primes [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+local p 7 open 12 Q_order8 12 allowed_open_halving_residues 0
+local p 11 open 24 Q_order8 24 allowed_open_halving_residues 0
+local p 13 open 48 Q_order8 48 allowed_open_halving_residues 6
+local p 17 open 132 Q_order8 132 allowed_open_halving_residues 6
+local p 19 open 168 Q_order8 168 allowed_open_halving_residues 18
+local p 23 open 300 Q_order8 300 allowed_open_halving_residues 24
+local p 29 open 528 Q_order8 528 allowed_open_halving_residues 42
+local p 31 open 636 Q_order8 636 allowed_open_halving_residues 66
+local p 37 open 960 Q_order8 960 allowed_open_halving_residues 96
+local p 41 open 1236 Q_order8 1236 allowed_open_halving_residues 96
+local p 43 open 1368 Q_order8 1368 allowed_open_halving_residues 102
+progress 200000 curve_ok 196417 survivors 26
+progress 400000 curve_ok 395132 survivors 60
+progress 600000 curve_ok 593935 survivors 118
+progress 800000 curve_ok 792878 survivors 168
+progress 1000000 curve_ok 991930 survivors 241
+progress 1200000 curve_ok 1191019 survivors 308
+DONE
+checked 1234321
+curve_ok 1225214
+survivors 318
+tag7_counts
+denom 70
+disc_or_other 34
+u+v+1 20
+u+v+2 18
+u0 20
+u0&u+v+1 6
+u0&u+v+2 7
+u0&v1 7
+u1 17
+u1&u+v+1 2
+u1&u+v+2 11
+u=v 22
+u=v&u+v+1 4
+u=v&u+v+2 10
+v0 20
+v0&u+v+1 6
+v0&u+v+2 7
+v0&u1 7
+v1 17
+v1&u+v+1 2
+v1&u+v+2 11
+tag11_counts
+denom 52
+disc_or_other 116
+u+v+1 22
+u+v+2 18
+u0 13
+u0&u+v+1 1
+u0&u+v+2 2
+u0&v1 3
+u1 13
+u1&u+v+1 5
+u1&u+v+2 3
+u=v 16
+u=v&u+v+1 6
+u=v&u+v+2 8
+v0 13
+v0&u+v+1 1
+v0&u+v+2 2
+v0&u1 3
+v1 13
+v1&u+v+1 5
+v1&u+v+2 3
+joint_tag_counts
+7:denom | 11:denom 6
+7:denom | 11:disc_or_other 28
+7:denom | 11:u+v+1 2
+7:denom | 11:u+v+2 4
+7:denom | 11:u0 3
+7:denom | 11:u0&u+v+1 1
+7:denom | 11:u0&u+v+2 1
+7:denom | 11:u0&v1 1
+7:denom | 11:u1 4
+7:denom | 11:u1&u+v+1 1
+7:denom | 11:u=v 4
+7:denom | 11:u=v&u+v+1 2
+7:denom | 11:u=v&u+v+2 2
+7:denom | 11:v0 3
+7:denom | 11:v0&u+v+1 1
+7:denom | 11:v0&u+v+2 1
+7:denom | 11:v0&u1 1
+7:denom | 11:v1 4
+7:denom | 11:v1&u+v+1 1
+7:disc_or_other | 11:denom 6
+7:disc_or_other | 11:disc_or_other 14
+7:disc_or_other | 11:u+v+1 2
+7:disc_or_other | 11:u+v+2 4
+7:disc_or_other | 11:u0 1
+7:disc_or_other | 11:u1&u+v+1 1
+7:disc_or_other | 11:u=v 2
+7:disc_or_other | 11:u=v&u+v+2 2
+7:disc_or_other | 11:v0 1
+7:disc_or_other | 11:v1&u+v+1 1
+7:u+v+1 | 11:denom 6
+7:u+v+1 | 11:u+v+1 2
+7:u+v+1 | 11:u0 2
+7:u+v+1 | 11:u0&v1 1
+7:u+v+1 | 11:u1 2
+7:u+v+1 | 11:u=v&u+v+1 2
+7:u+v+1 | 11:v0 2
+7:u+v+1 | 11:v0&u1 1
+7:u+v+1 | 11:v1 2
+7:u+v+2 | 11:denom 4
+7:u+v+2 | 11:disc_or_other 12
+7:u+v+2 | 11:u1 1
+7:u+v+2 | 11:v1 1
+7:u0 | 11:denom 2
+7:u0 | 11:disc_or_other 9
+7:u0 | 11:u+v+2 1
+7:u0 | 11:u=v&u+v+2 1
+7:u0 | 11:v0 3
+7:u0 | 11:v0&u+v+2 1
+7:u0 | 11:v1&u+v+1 2
+7:u0 | 11:v1&u+v+2 1
+7:u0&u+v+1 | 11:denom 2
+7:u0&u+v+1 | 11:disc_or_other 3
+7:u0&u+v+1 | 11:u+v+1 1
+7:u0&u+v+2 | 11:denom 3
+7:u0&u+v+2 | 11:disc_or_other 1
+7:u0&u+v+2 | 11:u=v 1
+7:u0&u+v+2 | 11:v1 1
+7:u0&u+v+2 | 11:v1&u+v+2 1
+7:u0&v1 | 11:denom 1
+7:u0&v1 | 11:disc_or_other 4
+7:u0&v1 | 11:u+v+2 1
+7:u0&v1 | 11:v0 1
+7:u1 | 11:denom 1
+7:u1 | 11:disc_or_other 8
+7:u1 | 11:u+v+1 4
+7:u1 | 11:u=v 2
+7:u1 | 11:u=v&u+v+2 1
+7:u1 | 11:v0 1
+7:u1&u+v+1 | 11:denom 1
+7:u1&u+v+1 | 11:u+v+1 1
+7:u1&u+v+2 | 11:denom 2
+7:u1&u+v+2 | 11:u+v+1 1
+7:u1&u+v+2 | 11:u+v+2 2
+7:u1&u+v+2 | 11:u0 1
+7:u1&u+v+2 | 11:u0&v1 1
+7:u1&u+v+2 | 11:u=v 2
+7:u1&u+v+2 | 11:u=v&u+v+1 1
+7:u1&u+v+2 | 11:v1&u+v+2 1
+7:u=v | 11:denom 4
+7:u=v | 11:disc_or_other 10
+7:u=v | 11:u+v+2 2
+7:u=v | 11:u1 3
+7:u=v | 11:v1 3
+7:u=v&u+v+1 | 11:disc_or_other 2
+7:u=v&u+v+1 | 11:u0 1
+7:u=v&u+v+1 | 11:v0 1
+7:u=v&u+v+2 | 11:denom 2
+7:u=v&u+v+2 | 11:u+v+1 2
+7:u=v&u+v+2 | 11:u1 2
+7:u=v&u+v+2 | 11:u1&u+v+1 1
+7:u=v&u+v+2 | 11:v1 2
+7:u=v&u+v+2 | 11:v1&u+v+1 1
+7:v0 | 11:denom 2
+7:v0 | 11:disc_or_other 9
+7:v0 | 11:u+v+2 1
+7:v0 | 11:u0 3
+7:v0 | 11:u0&u+v+2 1
+7:v0 | 11:u1&u+v+1 2
+7:v0 | 11:u1&u+v+2 1
+7:v0 | 11:u=v&u+v+2 1
+7:v0&u+v+1 | 11:denom 2
+7:v0&u+v+1 | 11:disc_or_other 3
+7:v0&u+v+1 | 11:u+v+1 1
+7:v0&u+v+2 | 11:denom 3
+7:v0&u+v+2 | 11:disc_or_other 1
+7:v0&u+v+2 | 11:u1 1
+7:v0&u+v+2 | 11:u1&u+v+2 1
+7:v0&u+v+2 | 11:u=v 1
+7:v0&u1 | 11:denom 1
+7:v0&u1 | 11:disc_or_other 4
+7:v0&u1 | 11:u+v+2 1
+7:v0&u1 | 11:u0 1
+7:v1 | 11:denom 1
+7:v1 | 11:disc_or_other 8
+7:v1 | 11:u+v+1 4
+7:v1 | 11:u0 1
+7:v1 | 11:u=v 2
+7:v1 | 11:u=v&u+v+2 1
+7:v1&u+v+1 | 11:denom 1
+7:v1&u+v+1 | 11:u+v+1 1
+7:v1&u+v+2 | 11:denom 2
+7:v1&u+v+2 | 11:u+v+1 1
+7:v1&u+v+2 | 11:u+v+2 2
+7:v1&u+v+2 | 11:u1&u+v+2 1
+7:v1&u+v+2 | 11:u=v 2
+7:v1&u+v+2 | 11:u=v&u+v+1 1
+7:v1&u+v+2 | 11:v0 1
+7:v1&u+v+2 | 11:v0&u1 1
+samples
+<-28, -11/27, "u0", "v0">
+<-28, -13/28, "denom", "disc_or_other">
+<-17, 19/6, "u+v+1", "u=v&u+v+1">
+<-13, -3/23, "u1", "disc_or_other">
+<-6, 29/30, "u1&u+v+2", "u=v&u+v+1">
+<22, 17/6, "u1&u+v+2", "u0&v1">
+<24, 26/19, "v1", "disc_or_other">
+<26, -11/21, "denom", "v0">
+<-29/2, -17/26, "disc_or_other", "disc_or_other">
+<-15/2, 29/5, "u=v&u+v+1", "disc_or_other">
+<-15/2, 7/10, "v0", "disc_or_other">
+<-11/2, -29/28, "denom", "u0">
+<27/2, 9/23, "v1", "disc_or_other">
+<-11/3, -21/17, "v0&u1", "u0">
+<10/3, 19/10, "u1&u+v+2", "u+v+1">
+<13/3, -17/21, "denom", "disc_or_other">
+<-29/4, -4/13, "disc_or_other", "u1&u+v+1">
+<-29/4, -20/17, "u=v", "u1">
+<-29/4, -7/17, "v0&u+v+2", "u1&u+v+2">
+<15/4, 29/9, "u+v+1", "u1">
+<21/4, 16/19, "u0&u+v+1", "u+v+1">
+<-21/5, -19/23, "u0&v1", "disc_or_other">
+<-21/5, 22/23, "u0", "v0&u+v+2">
+<-18/5, 2/23, "v1", "disc_or_other">
+<-16/5, 5/28, "denom", "u=v&u+v+2">
+<-13/5, -29/24, "u+v+2", "disc_or_other">
+<-6/5, -13/21, "denom", "u1">
+<-1/5, -19/13, "disc_or_other", "u+v+2">
+<22/5, -23/19, "v1", "u0">
+<29/5, -15/2, "u=v&u+v+1", "disc_or_other">
+<29/5, 7/10, "v0", "disc_or_other">
+<-23/6, 1/14, "denom", "disc_or_other">
+<-23/6, -17/25, "v1", "u=v">
+<17/6, 22, "v1&u+v+2", "v0&u1">
+<19/6, -17, "u+v+1", "u=v&u+v+1">
+<19/6, -29/9, "u+v+2", "disc_or_other">
+<19/6, -17/18, "v1", "disc_or_other">
+<29/6, -5/26, "u=v&u+v+2", "u+v+1">
+<-13/7, -9/8, "denom", "u+v+2">
+<-11/7, -14/29, "denom", "u0&u+v+2">

@@ -1,0 +1,6 @@
+TARGET_22224_A2228_CURVES_PLUS3_START height 10 parameters 127
+FAMILY_DONE 1 tested 125 usable 122 cover 122 reduction_survivors 0
+FAMILY_DONE 2 tested 126 usable 124 cover 124 reduction_survivors 0
+FAMILY_DONE 3 tested 124 usable 124 cover 124 reduction_survivors 0
+ELIMINATIONS [ <13, 84>, <11, 42>, <17, 47>, <19, 6>, <23, 8>, <29, 11>, <31, 2>, <37, 2> ]
+TARGET_22224_A2228_CURVES_PLUS3_DONE tested 375 usable 370 cover 370 unique 202 reduction_survivors 0 hits 0

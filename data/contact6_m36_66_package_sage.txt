@@ -1,0 +1,21 @@
+contact parameters: a = 133/39 b = -7/13 L = 29/16 U = -9/4 v = 5/2
+earlier square-scaled integral model: 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+PARI minimal and reduced model: 1872*x^5 - 3000*x^4 + 6969*x^3 - 1691*x^2 + 4875*x
+minimal model factorization: (1872) * x * (x^2 - 23/13*x + 125/39) * (x^2 + 1/6*x + 13/16)
+minimal model discriminant factorization: 2^8 * 3^5 * 5^12 * 13^4 * 17^3 * 19^6 * 29
+marked D: (x - 1, y - 95) order 6
+marked E: (x^2 - 9/4*x + 25/4, y - 25*x + 300) order 3
+rational T: (x, y) order 2
+second generator W = E + T: (x^2 - 7/12*x + 5/12, y - 55*x - 20) order 6
+number of distinct i*D+j*W, 0 <= i,j < 6: 36
+p = 7 Frobenius = x^4 - 4*x^3 + 18*x^2 - 28*x + 49 #J(F_p) = 36
+p = 11 Frobenius = x^4 + 22*x^2 + 121 #J(F_p) = 144
+gcd of reduction orders: 36
+therefore J(Q)_torsion invariants: [6, 6]
+Igusa-Clebsch invariants: (9204380256, 1398931521439924224, 5191057458710881596582395904, 10684093253623737233126430081024000000000000)
+absolute Igusa invariants (Kohel): (48319637234521597680866425966678/71090086565477277977783203125, 1045235081557355441167295591689682203/10236972465428728028800781250000, 187282107291334692423218536937985313/4549765540190545790578125000000)
+p = 37 Frobenius: x^4 - 10*x^3 + 54*x^2 - 370*x + 1369
+p = 37 12th-power transform: v^4 + 5679639644*v^3 + 16271908860833814246*v^2 + 37388795186918383904326279964*v + 43335257111193343900365036083324748961
+p = 37 12th-power transform irreducible: True
+geometric_endomorphism_algebra_is_field(B=100): True
+geometric_endomorphism_ring_is_ZZ(B=100): True

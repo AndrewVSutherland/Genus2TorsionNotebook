@@ -1,0 +1,82 @@
+Z21 3-primary lift residue search -- certified bounded summary
+Date: 2026-07-18
+
+Command:
+  /usr/bin/time -v magma -b mode:="search" height:=5000 \
+    prime_bound:=97 max_exact:=20 max_print:=20 \
+    progress_interval:=5000000 MemMB:=300 \
+    code/z21_extra3_residue_search.m
+
+Parameter range:
+  t=a/b in lowest terms,
+  |a| <= 5000, 1 <= b <= 5000,
+  t not in {0,-1}.
+
+Necessary finite-prime tests:
+  [3,21]: dim_F3 J_t(F_p)[3] >= 2 at every usable good p != 3.
+  [63]:   exponent of J_t(F_p)[3^infinity] is divisible by 9 at every
+          usable good p != 3.
+
+Primes used:
+  [5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,
+   73,79,83,89,97]
+
+FINAL SUMMARY
+  checked primitive smooth rational parameters: 30,401,829
+  rank-2 residue survivors:                 0
+  exponent-9 residue survivors:             0
+  exact TorsionSubgroup tests needed:        0
+  [3,21] hits:                              0
+  [63] hits:                                0
+
+KILL COUNTS FOR RANK >= 2 (first usable killing prime)
+  5  5066159
+  11 12668770
+  13 4525622
+  17 4070940
+  19 1831208
+  23 1400798
+  29 587852
+  31 149302
+  37 34600
+  41 49358
+  43 7900
+  47 8784
+  53 412
+  59 108
+  61 8
+  67 4
+  71 4
+
+KILL COUNTS FOR 3-PRIMARY EXPONENT >= 9 (first usable killing prime)
+  5  5066159
+  11 14780232
+  13 4525974
+  17 2344686
+  19 1289726
+  23 900208
+  29 947776
+  31 325090
+  37 82474
+  41 96512
+  43 25520
+  47 11002
+  53 4182
+  59 1246
+  61 680
+  67 246
+  71 90
+  73 16
+  79 6
+  83 2
+  89 2
+
+RESOURCE AUDIT
+  elapsed wall time: 3:08.20
+  user CPU time:     188.19 seconds
+  maximum RSS:       25,856 KB
+  Magma hard cap:    300 MB
+  exit status:       0
+
+This is a bounded negative result, not a proof that no specialization outside
+the searched height box can have either target torsion group.

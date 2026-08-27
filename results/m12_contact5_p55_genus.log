@@ -1,0 +1,33 @@
+P55_SELF_TEST_PASS E3 <23, 5, 12, 342> E4 <32, 7, 16, 876>
+P55_RESULTANT_W_BEGIN
+Time: 0.310
+P55_EXACT degree 55 degree_b 26 degree_u 29 terms 579 multiplicity 1
+P55_OPEN_DISCRIMINANT_FACTORS
+ DISC 6 2 3 b*w - w + 1
+ DISC 1 12 29 b^8*w^4 - 5*b^7*w^4 + 20*b^7*w^3 + 41/4*b^6*w^4 - 80*b^6*w^3 - 11*b^5*w^4 + 118*b^6*w^2 + 136*b^5*w^3 + 13/2*b^4*w^4 - 354*b^5*w^2 - 128*b^4*w^3 - 2*b^3*w^4 + 180*b^5*w + 789/2*b^4*w^2 + 283/4*b^3*w^3 + 1/4*b^2*w^4 - 360*b^4*w - 199*b^3*w^2 - 43/2*b^2*w^3 + 81*b^4 + 198*b^3*w + 42*b^2*w^2 + 11/4*b*w^3 - 81*b^3 - 18*b^2*w - 3/2*b*w^2 - 27/4*b^2 - 9/4*b*w - 1/4*w^2
+P55_CONTACT_BOUNDARY u+1 u + 1
+L(u) 2*b*u + b - u
+square_equation c^2=F(u) 4*b^4*w^2*u^4 + 4*b^4*w^2*u^3 - 4*b^3*w^2*u^4 + b^4*w^2*u^2 + 6*b^3*w^2*u^3 + 24*b^3*w*u^4 + b^2*w^2*u^4 + 8*b^3*w^2*u^2 + 56*b^3*w*u^3 - 8*b^2*w^2*u^3 - 24*b^2*w*u^4 - 8*b^2*u^5 + 2*b^3*w^2*u + 54*b^3*w*u^2 - 36*b^2*w*u^3 + 2*b*w^2*u^3 - 16*b^2*u^4 + 6*b*w*u^4 + 4*b*u^5 + 24*b^3*w*u + 4*b^2*w^2*u - 24*b^2*w*u^2 - 4*b*w^2*u^2 - 12*b^2*u^3 + 4*b*u^4 + 4*b^3*w + b^2*w^2 - 6*b^2*w*u - 2*b*w^2*u - 3*b^2*u^2 + w^2*u^2 + 2*b*u^3 + 2*w*u^3 + u^4
+P55_B_SPECIALIZATION 0 degree 20 factorization [
+<T, 20>
+]
+P55_B_SPECIALIZATION 1 degree 29 factorization [
+<T + 1, 20>,
+<T^3 + 3*T^2 + 3*T + 6/5, 1>,
+<T^6 + 6*T^5 + 15*T^4 + 18*T^3 + 9*T^2 - 4/5, 1>
+]
+P55_B_SPECIALIZATION 1/2 degree 0 factorization []
+P55_U_SPECIALIZATION 0 degree 26 factorization [
+<T, 16>,
+<T^2 - 1/3, 1>,
+<T^8 - 14/3*T^7 + 47/6*T^6 - 9/2*T^5 + 7/48*T^4 + 1/4*T^3 - 3/8*T^2 + 1/12*T - 1/48, 1>
+]
+P55_U_SPECIALIZATION -1 degree 16 factorization [
+<T - 1, 16>
+]
+P55_INFINITY_CHART degree 29 factorization [
+<Ti, 29>
+]
+vertical_point_value 0
+P55_GENUS_BEGIN
+P55_PROJECTIVE irreducible true degree 55 arithmetic_genus 1431

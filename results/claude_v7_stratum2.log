@@ -1,0 +1,8 @@
+step 0: deg a=3 deg Q=0
+step 1: deg a=1 deg Q=2
+deg Q_2 = 2
+E0: 581 terms, degrees (a,b,c,d) = (10,10,10,5)
+anchors on E0=0: 12 / 12
+deg_d E0 = 5
+E0 not linear in d; printing E0 for manual handling
+STRATUM2_DONE

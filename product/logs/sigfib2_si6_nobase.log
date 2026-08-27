@@ -1,0 +1,46 @@
+Loading "split_lab.m"
+Loading "../data/fib2_usets.m"
+VERIFY E26: 3/3
+FIB2 Sig=6 sg=[ 3, 1, 2 ] fibers=13 ufile=../data/fib2_usets_nobase.m
+JOIN fibers=3067
+GENS2 u=-34 rlo=3 cands=12 indep=3
+FIBSURV Sig=6 t=191/35 u=-34
+SKIPISO t=191/35 u=-34
+GENS2 u=39/2 rlo=3 cands=12 indep=3
+FIBSURV Sig=6 t=153/37 u=39/2
+SKIPISO t=153/37 u=39/2
+GENS2 u=-40 rlo=3 cands=12 indep=3
+FIBSURV Sig=6 t=221/41 u=-40
+SKIPISO t=221/41 u=-40
+GENS2 u=-25/2 rlo=2 cands=11 indep=2
+FIBSURV Sig=6 t=167/27 u=-25/2
+SKIPISO t=167/27 u=-25/2
+GENS2 u=-27/2 rlo=2 cands=12 indep=2
+FIBSURV Sig=6 t=177/29 u=-27/2
+SKIPISO t=177/29 u=-27/2
+GENS2 u=-29/2 rlo=2 cands=5 indep=2
+FIBSURV Sig=6 t=187/31 u=-29/2
+SKIPISO t=187/31 u=-29/2
+GENS2 u=-33/2 rlo=2 cands=11 indep=2
+FIBSURV Sig=6 t=207/35 u=-33/2
+SKIPISO t=207/35 u=-33/2
+GENS2 u=-35/2 rlo=2 cands=11 indep=2
+FIBSURV Sig=6 t=217/37 u=-35/2
+SKIPISO t=217/37 u=-35/2
+GENS2 u=-36 rlo=3 cands=12 indep=3
+FIBSURV Sig=6 t=201/37 u=-36
+SKIPISO t=201/37 u=-36
+GENS2 u=36 rlo=2 cands=12 indep=2
+FIBSURV Sig=6 t=159/35 u=36
+SKIPISO t=159/35 u=36
+GENS2 u=-37/2 rlo=2 cands=5 indep=2
+FIBSURV Sig=6 t=227/39 u=-37/2
+SKIPISO t=227/39 u=-37/2
+GENS2 u=38 rlo=2 cands=9 indep=2
+FIBSURV Sig=6 t=169/37 u=38
+SKIPISO t=169/37 u=38
+GENS2 u=40 rlo=2 cands=10 indep=2
+FIBSURV Sig=6 t=179/39 u=40
+SKIPISO t=179/39 u=40
+GENSHORT-LIST Sig=6: []
+SEARCH_DONE 2266sigfib2 Sig=6 fibers=13 proc=13 complete=13 genshort=0 nobase=0 mwskip=0 surv=13 deck=13 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 7.500 s

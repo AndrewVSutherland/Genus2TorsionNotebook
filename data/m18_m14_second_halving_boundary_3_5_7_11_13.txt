@@ -1,0 +1,176 @@
+BOUNDARY_SUMMARY for base bad locus of M_1(8,4) chart
+primes [ 3, 5, 7, 11, 13 ]
+p 3 open_good 0 open_target416 0 open_target88 0 boundary_total 9
+  factor_counts
+    Lminus 2
+    Lplus 2
+    Q 6
+    Quartic 5
+    R 3
+    R+1 3
+    R+w 3
+    R-1 3
+    R-w 3
+    w 3
+    w+1 3
+    w-1 3
+  exact_boundary_strata
+    Lminus&Q&Quartic&R+1&R+w&w-1 1 samples [ <2, 1> ]
+    Lminus&Q&Quartic&R+w&R-1&w+1 1 samples [ <1, 2> ]
+    Lplus&Q&Quartic&R+1&R-w&w+1 1 samples [ <2, 2> ]
+    Lplus&Q&Quartic&R-1&R-w&w-1 1 samples [ <1, 1> ]
+    Q&Quartic&R&R+w&R-w&w 1 samples [ <0, 0> ]
+    Q&R-1&w 1 samples [ <1, 0> ]
+    R&w+1 1 samples [ <0, 2> ]
+    R&w-1 1 samples [ <0, 1> ]
+    R+1&w 1 samples [ <2, 0> ]
+p 5 open_good 0 open_target416 0 open_target88 0 boundary_total 25
+  factor_counts
+    Lminus 4
+    Lplus 4
+    Q 6
+    Quartic 5
+    R 5
+    R+1 5
+    R+w 5
+    R-1 5
+    R-w 5
+    w 5
+    w+1 5
+    w-1 5
+  exact_boundary_strata
+    Lminus&Lplus&w 1 samples [ <3, 0> ]
+    Lminus&Q&Quartic&R+1&R+w&w-1 1 samples [ <4, 1> ]
+    Lminus&Q&Quartic&R+w&R-1&w+1 1 samples [ <1, 4> ]
+    Lminus&R 1 samples [ <0, 3> ]
+    Lplus&Q&Quartic&R+1&R-w&w+1 1 samples [ <4, 4> ]
+    Lplus&Q&Quartic&R-1&R-w&w-1 1 samples [ <1, 1> ]
+    Lplus&R 1 samples [ <0, 2> ]
+    Q&Quartic&R&R+w&R-w&w 1 samples [ <0, 0> ]
+    Q&w 1 samples [ <2, 0> ]
+    R&w+1 1 samples [ <0, 4> ]
+    R&w-1 1 samples [ <0, 1> ]
+    R+1 2 samples [ <4, 2>, <4, 3> ]
+    R+1&w 1 samples [ <4, 0> ]
+    R+w 2 samples [ <2, 3>, <3, 2> ]
+    R-1 2 samples [ <1, 2>, <1, 3> ]
+    R-1&w 1 samples [ <1, 0> ]
+    R-w 2 samples [ <2, 2>, <3, 3> ]
+    w+1 2 samples [ <2, 4>, <3, 4> ]
+    w-1 2 samples [ <2, 1>, <3, 1> ]
+p 7 open_good 8 open_target416 0 open_target88 4 boundary_total 41
+  factor_counts
+    Lminus 6
+    Lplus 6
+    Q 6
+    Quartic 7
+    R 7
+    R+1 7
+    R+w 7
+    R-1 7
+    R-w 7
+    w 7
+    w+1 7
+    w-1 7
+  exact_boundary_strata
+    Lminus&Lplus&w 1 samples [ <2, 0> ]
+    Lminus&Q&Quartic&R+1&R+w&w-1 1 samples [ <6, 1> ]
+    Lminus&Q&Quartic&R+w&R-1&w+1 1 samples [ <1, 6> ]
+    Lminus&R 1 samples [ <0, 2> ]
+    Lminus&R-w 2 samples [ <3, 3>, <5, 5> ]
+    Lplus&Q&Quartic&R+1&R-w&w+1 1 samples [ <6, 6> ]
+    Lplus&Q&Quartic&R-1&R-w&w-1 1 samples [ <1, 1> ]
+    Lplus&R 1 samples [ <0, 5> ]
+    Lplus&R+w 2 samples [ <3, 4>, <5, 2> ]
+    Q&Quartic&R&R+w&R-w&w 1 samples [ <0, 0> ]
+    Q&w 1 samples [ <3, 0> ]
+    Quartic&w 2 samples [ <4, 0>, <5, 0> ]
+    R 2 samples [ <0, 3>, <0, 4> ]
+    R&w+1 1 samples [ <0, 6> ]
+    R&w-1 1 samples [ <0, 1> ]
+    R+1 4 samples [ <6, 2>, <6, 3>, <6, 4>, <6, 5> ]
+    R+1&w 1 samples [ <6, 0> ]
+    R+w 2 samples [ <2, 5>, <4, 3> ]
+    R-1 4 samples [ <1, 2>, <1, 3>, <1, 4>, <1, 5> ]
+    R-1&w 1 samples [ <1, 0> ]
+    R-w 2 samples [ <2, 2>, <4, 4> ]
+    w+1 4 samples [ <2, 6>, <3, 6>, <4, 6>, <5, 6> ]
+    w-1 4 samples [ <2, 1>, <3, 1>, <4, 1>, <5, 1> ]
+p 11 open_good 28 open_target416 4 open_target88 12 boundary_total 93
+  factor_counts
+    Lminus 10
+    Lplus 10
+    Q 6
+    Quartic 13
+    R 11
+    R+1 11
+    R+w 11
+    R-1 11
+    R-w 11
+    w 11
+    w+1 11
+    w-1 11
+  exact_boundary_strata
+    Lminus 6 samples [ <2, 3>, <3, 2>, <4, 6>, <5, 9>, <6, 4>, <9, 5> ]
+    Lminus&Lplus&w 1 samples [ <7, 0> ]
+    Lminus&Q&Quartic&R+1&R+w&w-1 1 samples [ <10, 1> ]
+    Lminus&Q&Quartic&R+w&R-1&w+1 1 samples [ <1, 10> ]
+    Lminus&R 1 samples [ <0, 7> ]
+    Lplus 6 samples [ <2, 8>, <3, 9>, <4, 5>, <5, 2>, <6, 7>, <9, 6> ]
+    Lplus&Q&Quartic&R+1&R-w&w+1 1 samples [ <10, 10> ]
+    Lplus&Q&Quartic&R-1&R-w&w-1 1 samples [ <1, 1> ]
+    Lplus&R 1 samples [ <0, 4> ]
+    Q&Quartic&R&R+w&R-w&w 1 samples [ <0, 0> ]
+    Q&w 1 samples [ <5, 0> ]
+    Quartic 8 samples [ <3, 4>, <3, 7>, <4, 3>, <4, 8>, <7, 2>, <7, 9>, <8, 5>, <8, 6> ]
+    R 6 samples [ <0, 2>, <0, 3>, <0, 5>, <0, 6>, <0, 8>, <0, 9> ]
+    R&w+1 1 samples [ <0, 10> ]
+    R&w-1 1 samples [ <0, 1> ]
+    R+1 8 samples [ <10, 2>, <10, 3>, <10, 4>, <10, 5>, <10, 6>, <10, 7>, <10, 8>, <10, 9> ]
+    R+1&w 1 samples [ <10, 0> ]
+    R+w 8 samples [ <2, 9>, <3, 8>, <4, 7>, <5, 6>, <6, 5>, <7, 4>, <8, 3>, <9, 2> ]
+    R-1 8 samples [ <1, 2>, <1, 3>, <1, 4>, <1, 5>, <1, 6>, <1, 7>, <1, 8>, <1, 9> ]
+    R-1&w 1 samples [ <1, 0> ]
+    R-w 8 samples [ <2, 2>, <3, 3>, <4, 4>, <5, 5>, <6, 6>, <7, 7>, <8, 8>, <9, 9> ]
+    w 6 samples [ <2, 0>, <3, 0>, <4, 0>, <6, 0>, <8, 0>, <9, 0> ]
+    w+1 8 samples [ <2, 10>, <3, 10>, <4, 10>, <5, 10>, <6, 10>, <7, 10>, <8, 10>, <9, 10> ]
+    w-1 8 samples [ <2, 1>, <3, 1>, <4, 1>, <5, 1>, <6, 1>, <7, 1>, <8, 1>, <9, 1> ]
+p 13 open_good 56 open_target416 4 open_target88 8 boundary_total 113
+  factor_counts
+    Lminus 12
+    Lplus 12
+    Q 14
+    Quartic 5
+    R 13
+    R+1 13
+    R+w 13
+    R-1 13
+    R-w 13
+    w 13
+    w+1 13
+    w-1 13
+  exact_boundary_strata
+    Lminus 8 samples [ <2, 9>, <3, 7>, <5, 11>, <6, 8>, <7, 3>, <8, 6>, <9, 2>, <11, 5> ]
+    Lminus&Lplus&w 1 samples [ <4, 0> ]
+    Lminus&Q&Quartic&R+1&R+w&w-1 1 samples [ <12, 1> ]
+    Lminus&Q&Quartic&R+w&R-1&w+1 1 samples [ <1, 12> ]
+    Lminus&R 1 samples [ <0, 4> ]
+    Lplus 8 samples [ <2, 4>, <3, 6>, <5, 2>, <6, 5>, <7, 10>, <8, 7>, <9, 11>, <11, 8> ]
+    Lplus&Q&Quartic&R+1&R-w&w+1 1 samples [ <12, 12> ]
+    Lplus&Q&Quartic&R-1&R-w&w-1 1 samples [ <1, 1> ]
+    Lplus&R 1 samples [ <0, 9> ]
+    Q 8 samples [ <2, 3>, <2, 10>, <3, 5>, <3, 8>, <7, 4>, <7, 9>, <9, 5>, <9, 8> ]
+    Q&Quartic&R&R+w&R-w&w 1 samples [ <0, 0> ]
+    Q&w 1 samples [ <6, 0> ]
+    R 8 samples [ <0, 2>, <0, 3>, <0, 5>, <0, 6>, <0, 7>, <0, 8>, <0, 10>, <0, 11> ]
+    R&w+1 1 samples [ <0, 12> ]
+    R&w-1 1 samples [ <0, 1> ]
+    R+1 10 samples [ <12, 2>, <12, 3>, <12, 4>, <12, 5>, <12, 6>, <12, 7>, <12, 8>, <12, 9>, <12, 10>, <12, 11> ]
+    R+1&w 1 samples [ <12, 0> ]
+    R+w 10 samples [ <2, 11>, <3, 10>, <4, 9>, <5, 8>, <6, 7>, <7, 6>, <8, 5>, <9, 4>, <10, 3>, <11, 2> ]
+    R-1 10 samples [ <1, 2>, <1, 3>, <1, 4>, <1, 5>, <1, 6>, <1, 7>, <1, 8>, <1, 9>, <1, 10>, <1, 11> ]
+    R-1&w 1 samples [ <1, 0> ]
+    R-w 10 samples [ <2, 2>, <3, 3>, <4, 4>, <5, 5>, <6, 6>, <7, 7>, <8, 8>, <9, 9>, <10, 10>, <11, 11> ]
+    w 8 samples [ <2, 0>, <3, 0>, <5, 0>, <7, 0>, <8, 0>, <9, 0>, <10, 0>, <11, 0> ]
+    w+1 10 samples [ <2, 12>, <3, 12>, <4, 12>, <5, 12>, <6, 12>, <7, 12>, <8, 12>, <9, 12>, <10, 12>, <11, 12> ]
+    w-1 10 samples [ <2, 1>, <3, 1>, <4, 1>, <5, 1>, <6, 1>, <7, 1>, <8, 1>, <9, 1>, <10, 1>, <11, 1> ]

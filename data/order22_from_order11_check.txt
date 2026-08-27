@@ -1,0 +1,31 @@
+Magma V2.29-4     Thu Jul  2 2026 12:48:33 on <host>  [Seed = 2963056291]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/order22_from_order11_check.m"
+Flynn22 s=2 eps=-1 t=-36
+root 4 f(root) 0
+primitive x^6 + 2*x^5 - 69*x^4 + 2*x^3 + 1297*x^2 - 2664*x + 1296
+discriminant_zero false
+TorsionSubgroup [ 22 ]
+irreducible Lp 5 25*x^4 + 10*x^3 + 6*x^2 + 2*x + 1
+Flynn22 s=2 eps=1 t=-196/9
+root 4 f(root) 0
+primitive 81*x^6 + 162*x^5 - 3285*x^4 + 162*x^3 + 38497*x^2 - 80360*x + 38416
+discriminant_zero false
+TorsionSubgroup [ 22 ]
+irreducible Lp 5 25*x^4 - 5*x^3 + 2*x^2 - x + 1
+DaowsudSchmidt22 s=2 eps=-1 u=-9
+root 5 f(root) 0
+primitive x^6 - 4*x^5 - 64*x^4 + 278*x^3 + 872*x^2 - 4972*x + 5185
+discriminant_zero false
+TorsionSubgroup [ 22 ]
+irreducible Lp 5 25*x^4 + 10*x^3 + 6*x^2 + 2*x + 1
+DaowsudSchmidt22 s=2 eps=1 u=-49/9
+root 5 f(root) 0
+primitive 81*x^6 - 324*x^5 - 2880*x^4 + 13302*x^3 + 17896*x^2 - 143404*x + 
+    153745
+discriminant_zero false
+TorsionSubgroup [ 22 ]
+irreducible Lp 5 25*x^4 - 5*x^3 + 2*x^2 - x + 1
+
+Total time: 0.510 seconds, Total memory usage: 76.53MB

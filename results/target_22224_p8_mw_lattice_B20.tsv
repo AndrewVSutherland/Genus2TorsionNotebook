@@ -1,0 +1,5 @@
+pair	m	n	torsion_translate	t	a	b	c	d	primitive_a	primitive_b	primitive_c	primitive_d	three_survivor	gcd_bound
+1-2	0	0	0	1	528	-726	-891	50	528	-726	-891	50	0	64
+1-2	0	0	1	-1	528	-726	-891	50	528	-726	-891	50	0	64
+1-2	0	1	0	-19/5	528	-726	-891	722	528	-726	-891	722	0	256
+1-2	0	1	1	19/5	528	-726	-891	722	528	-726	-891	722	0	256

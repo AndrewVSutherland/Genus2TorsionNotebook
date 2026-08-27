@@ -1,0 +1,6 @@
+O4_SURVIVOR_RECONSTRUCT_START Elliptic Curve defined by y^2 = x^3 + x^2 + 
+35967*x + 252063 over Rational Field
+free [ (3603 : 216600 : 1), (93 : -2100 : 1) ]
+torsion_cosets [ (0 : 1 : 0), (-7 : 0 : 1) ]
+O4_SURVIVOR 0 0 1 t 1 full_square_flags [ true, true, true ]
+O4_SURVIVOR -2 1 2 t 166939/216527 full_square_flags [ true, true, false ]

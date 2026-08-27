@@ -1,0 +1,14 @@
+== deck components of j(t)=j(u) for E26 ==
+COMPONENT deg=(1,1) mult=1: t - u
+COMPONENT deg=(1,1) mult=1: t + u - 6
+COMPONENT deg=(1,1) mult=1: t*u - 5*t - 5*u + 9
+COMPONENT deg=(1,1) mult=1: t*u - 5*t - u + 21
+COMPONENT deg=(1,1) mult=1: t*u - t - 5*u + 21
+COMPONENT deg=(1,1) mult=1: t*u - t - u - 15
+COMPONENT deg=(3,3) mult=1: t^3*u - 3*t^3 - t^2*u^2 - 3*t^2*u + 18*t^2 + t*u^3 - 3*t*u^2 - 6*t*u + 18*t - 3*u^3 + 18*u^2 + 18*u - 183
+COMPONENT deg=(3,3) mult=1: t^3*u - 3*t^3 + t^2*u^2 - 15*t^2*u + 36*t^2 + t*u^3 - 15*t*u^2 + 66*t*u - 90*t - 3*u^3 + 36*u^2 - 90*u + 75
+COMPONENT deg=(3,3) mult=1: t^3*u^3 - 11*t^3*u^2 + 19*t^3*u - 9*t^3 - 11*t^2*u^3 + 137*t^2*u^2 - 369*t^2*u + 243*t^2 + 19*t*u^3 - 369*t*u^2 + 2217*t*u - 3915*t - 9*u^3 + 243*u^2 - 3915*u + 9825
+COMPONENT deg=(3,3) mult=1: t^3*u^3 - 11*t^3*u^2 + 19*t^3*u - 9*t^3 - 7*t^2*u^3 + 61*t^2*u^2 + 27*t^2*u - 81*t^2 - 5*t*u^3 + 87*t*u^2 - 159*t*u - 1971*t + 75*u^3 - 585*u^2 - 207*u + 6861
+COMPONENT deg=(3,3) mult=1: t^3*u^3 - 7*t^3*u^2 - 5*t^3*u + 75*t^3 - 11*t^2*u^3 + 61*t^2*u^2 + 87*t^2*u - 585*t^2 + 19*t*u^3 + 27*t*u^2 - 159*t*u - 207*t - 9*u^3 - 81*u^2 - 1971*u + 6861
+COMPONENT deg=(3,3) mult=1: t^3*u^3 - 7*t^3*u^2 - 5*t^3*u + 75*t^3 - 7*t^2*u^3 + 65*t^2*u^2 + 3*t^2*u - 765*t^2 - 5*t*u^3 + 3*t*u^2 + 345*t*u + 873*t + 75*u^3 - 765*u^2 + 873*u - 759
+DECK_DERIVE_DONE

@@ -1,0 +1,174 @@
+BASE (1/2,-1) s=-337/512 t=5/4 route=MW gens=2
+BASE (1/2,-1) zvals=6
+MEMBER (1/2,-1) v=-262144/30625 route=MW tors=[ 4, 4 ] D1=-1185366332559 a=116831 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ -557233043559, 897780741 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ -557233043559, 897780741 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 5170120566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 1933014666 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 9316262378441, 5129278779 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 9316262378441, 5129278779 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 1933014666 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 5170120566 ] compat=false
+MEMBER (1/2,-1) v=147456/113569 route=MW tors=[ 4, 4 ] D1=-1185366332559 a=116831 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ -557233043559, 897780741 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ -557233043559, 897780741 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 5170120566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 1933014666 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 9316262378441, 5129278779 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 9316262378441, 5129278779 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 1933014666 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 1811273874322316489, 3051699324656686 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -1185366332559, 116831 ] lam2ok=true def=[ 3853007452595635489, 5170120566 ] compat=false
+BASEDONE (1/2,-1)
+BASE (-1/3,-1) s=-337/162 t=-5/3 route=MW gens=1
+BASE (-1/3,-1) zvals=6
+MEMBER (-1/3,-1) v=46656/113569 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+MEMBER (-1/3,-1) v=-26244/30625 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+BASEDONE (-1/3,-1)
+BASE (-3,-1) s=-337/162 t=-5/3 route=MW gens=1
+BASE (-3,-1) zvals=6
+MEMBER (-3,-1) v=46656/113569 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+MEMBER (-3,-1) v=-26244/30625 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+BASEDONE (-3,-1)
+BASE (1/3,-1) s=-337/162 t=5/3 route=MW gens=1
+BASE (1/3,-1) zvals=6
+MEMBER (1/3,-1) v=46656/113569 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+MEMBER (1/3,-1) v=-26244/30625 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+BASEDONE (1/3,-1)
+BASE (3,-1) s=-337/162 t=5/3 route=MW gens=1
+BASE (3,-1) zvals=6
+MEMBER (3,-1) v=46656/113569 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+MEMBER (3,-1) v=-26244/30625 route=MW tors=[ 4, 4 ] D1=-843735643859 a=16031 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ -388810160609, 69557566 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 4961829997891, 1253954 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 1248355866 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 2617301334109561, 130901766 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -843735643859, 16031 ] lam2ok=true def=[ 12986604273104954542992935851, 1354135667469 ] compat=false
+BASEDONE (3,-1)
+BASE (-1/2,1/3) s=985/1536 t=-5/4 route=MW gens=1
+BASE (-1/2,1/3) zvals=6
+MEMBER (-1/2,1/3) v=1327104/970225 route=MW tors=[ 4, 4 ] D1=-39755934500079 a=44135 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ -19274023888279, 7979408255 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ -19274023888279, 7979408255 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 18346632962 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 1756305070 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 634378055768121, 1701104617 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 634378055768121, 1701104617 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 1756305070 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 18346632962 ] compat=false
+MEMBER (-1/2,1/3) v=-2359296/223729 route=MW tors=[ 4, 4 ] D1=-39755934500079 a=44135 order4=12 norm111=12 xTpass=0
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ -19274023888279, 7979408255 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ -19274023888279, 7979408255 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 18346632962 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 1756305070 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 634378055768121, 1701104617 ] compat=false
+  D4 above=T2 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 634378055768121, 1701104617 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 1756305070 ] compat=false
+  D4 above=T1 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 1504659535141782797369, 3316988206829906 ] compat=false
+  D4 above=T3 pat=111 d=[ 1, 1, -39755934500079, 44135 ] lam2ok=true def=[ 3103614806682557987169, 18346632962 ] compat=false
+BASEDONE (-1/2,1/3)

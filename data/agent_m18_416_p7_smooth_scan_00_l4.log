@@ -1,0 +1,10 @@
+M18_416_P7_SMOOTH_SCAN strata=[
+[ 0, 0 ]
+] maxlevel=4 nodecap=60000
+
+=== stratum <0,0>: aux solutions mod 7 = 2 ===
+branch 1: aux0=[ 0, 0, 1, 0, 0 ] rank(J_aux)=3
+  pivots: rows=[ 3, 4, 5 ] cols(aux)=[ 1, 4, 5 ] | resid rows=[ 1, 2 ] free aux=[ 2, 3 ]
+  level 1->2: nodes 1 -> children 2401 (died 0) rank0:1  (R,w)-proj=49
+  level 2->3: nodes 2401 -> children 823543 (died 2058) rank0:2401  (R,w)-proj=2401
+  (capped: subsampled to 58825 nodes; results beyond here are SAMPLED)

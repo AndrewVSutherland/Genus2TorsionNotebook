@@ -1,0 +1,27 @@
+=== contact-9 chart (1 parameter a) : 63 | #J(F_p) landscape ===
+p=  11  smooth=   9  9|#J:    9  63|#J:    3   good a: [0, 8, 9]
+p=  13  smooth=  11  9|#J:   11  63|#J:    2   good a: [4, 10]
+p=  17  smooth=  15  9|#J:   15  63|#J:    2   good a: [2, 3]
+p=  19  smooth=  16  9|#J:   16  63|#J:    3   good a: [0, 12, 13]
+p=  23  smooth=  20  9|#J:   20  63|#J:    3   good a: [4, 10, 22]
+p=  29  smooth=  24  9|#J:   24  63|#J:    7   good a: [0, 3, 11, 12, 17, 18, 19]
+p=  31  smooth=  28  9|#J:   28  63|#J:    4   good a: [14, 23, 25, 26]
+p=  37  smooth=  34  9|#J:   34  63|#J:    6   good a: [1, 9, 13, 14, 19, 33]
+p=  41  smooth=  38  9|#J:   38  63|#J:    2   good a: [14, 32]
+p=  43  smooth=  40  9|#J:   40  63|#J:    7   good a: [17, 30, 31, 35, 37, 38, 41]
+p=  47  smooth=  45  9|#J:   45  63|#J:    4   good a: [4, 13, 21, 29]
+p=  53  smooth=  50  9|#J:   50  63|#J:    6   good a: [2, 20, 29, 34, 35, 52]
+p=  59  smooth=  56  9|#J:   56  63|#J:    8   good a: [0, 16, 25, 26, 39, 42, 50, 56]
+p=  61  smooth=  58  9|#J:   58  63|#J:    9   good a: [9, 11, 14, 19, 35, 37, 42, 43, 59]
+p=  67  smooth=  64  9|#J:   64  63|#J:   10   good a: [4, 12, 21, 28, 38, 40, 41, 45, 61, 62]
+p=  71  smooth=  69  9|#J:   69  63|#J:    5   good a: [2, 9, 31, 38, 53]
+p=  73  smooth=  71  9|#J:   71  63|#J:   17   good a: 17 values
+p=  79  smooth=  77  9|#J:   77  63|#J:   10   good a: [2, 3, 7, 14, 41, 65, 70, 72, 74, 78]
+p=  83  smooth=  81  9|#J:   81  63|#J:   12   good a: [4, 8, 18, 19, 22, 39, 47, 49, 50, 51, 61, 72]
+p=  89  smooth=  86  9|#J:   86  63|#J:   15   good a: 15 values
+p=  97  smooth=  95  9|#J:   95  63|#J:   21   good a: 21 values
+p= 101  smooth=  98  9|#J:   98  63|#J:   14   good a: 14 values
+p= 103  smooth=  98  9|#J:   98  63|#J:   16   good a: 16 values
+p= 107  smooth= 104  9|#J:  104  63|#J:   18   good a: 18 values
+p= 109  smooth= 107  9|#J:  107  63|#J:   19   good a: 19 values
+p= 113  smooth= 110  9|#J:  110  63|#J:   15   good a: 15 values

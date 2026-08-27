@@ -1,0 +1,18 @@
+# THIRD geometrically simple (2,2,2,12) curve over Q — found 2026-07-20 via Ari's surface
+# Surface point (A:B:C) = (5364 : 19661 : 4165), conic-pencil parameter t = 320/21
+# Multigrade orbit: X = {16660, 21456, 78793}, B = {78644, 27593}
+#   (X1^2+X2^2+X3^2 = B1^2+B2^2 and X1^4+X2^4+X3^4 = B1^4+B2^4)
+# (s:m:n) = (436901823 : -11212618846 : 920719872) on M(2,2,2,6)
+#
+# Reduced minimal model:
+# y^2 + (x^2+x)y = 3703062294195264*x^6 - 360079374491052216*x^5
+#   + 8901721379573296848*x^4 - 5397945250386334945*x^3
+#   - 86737535708373850908*x^2 + 36346694984390901540*x + 43035470132681030400
+#
+# TorsionSubgroup EXACTLY [2,2,2,12] (order 96) — verified on simplified minimal model.
+# Geometric simplicity certificates: p = 37, 127, 131, 179
+#   (Frobenius charpoly irreducible quartic AND 12th-power transform irreducible quartic).
+# G2-invariants distinct from curves #1 and #2 (not isomorphic, not a twist).
+# Cross-checked from the independent orbit representation (21456, 27593, 16660).
+# Full log: results/claude_ari_new3_validate.log
+5364 19661 4165

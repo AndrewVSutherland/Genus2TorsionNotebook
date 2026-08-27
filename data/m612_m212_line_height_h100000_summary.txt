@@ -1,0 +1,39 @@
+M(2,12) line cubic-contact CRT sieve, H=100000
+
+Command:
+  cc -O3 -march=native code/m612_m212_line_height_sieve.c \
+      -o /private/tmp/m612_m212_line_height_sieve
+  /private/tmp/m612_m212_line_height_sieve 100000
+
+SURVIVOR n=0 d=1 r=0/1
+SURVIVOR n=1 d=1 r=1/1
+SURVIVOR n=-1 d=1 r=-1/1
+
+DONE H=100000 leaves=100216016 bounded=167729174 primitive=107194256 survivors=3
+kill p=89 count=89369835
+kill p=59 count=14574910
+kill p=83 count=2480489
+kill p=71 count=556344
+kill p=47 count=151335
+kill p=29 count=42864
+kill p=23 count=12402
+kill p=61 count=3995
+kill p=67 count=1352
+kill p=79 count=479
+kill p=13 count=161
+kill p=73 count=53
+kill p=7 count=11
+kill p=43 count=13
+kill p=37 count=5
+kill p=31 count=3
+kill p=17 count=0
+kill p=19 count=2
+
+The three survivors r=0,1,-1 are singular/degenerate parameters of the
+one-parameter family.  Thus there is no smooth residue-compatible rational
+parameter of naive height at most 100000.
+
+Bad finite residues and the projective-infinity residue at every sieve prime
+were retained conservatively.  Therefore this bounded exclusion does not
+discard candidates merely because a parameter denominator or the family
+discriminant is divisible by a sieve prime.

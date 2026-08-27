@@ -1,0 +1,6 @@
+# contact5 order40+3 boundary-filtered search
+# height=3000 prime_bound=101
+# obstruction_primes=[7, 11, 17]
+# boundary_s={7: [0, 1, 6], 11: [0, 10], 17: [0, 9, 12, 16]}
+# checked=10944748 boundary_survivors=911978 fibers_with_roots=2 square_cover=0 plus3_survivors=0 first_kill_counts=[]
+# columns: r s Y D t b good_checked bad_primes mult

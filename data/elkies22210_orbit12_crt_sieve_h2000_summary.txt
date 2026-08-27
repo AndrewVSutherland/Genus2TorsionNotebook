@@ -1,0 +1,21 @@
+ELKIES22210 ORBIT12 COMPATIBLE-PRIME CRT SIEVE
+command: code/elkies22210_source_halving_search 2000 200
+
+height 2000
+triples 5325336000
+disc_square 519165
+integral_roots 285794
+open_ck 23855
+primitive_ck 10290
+unique_curves 10290
+
+orbit12_crt_moduli 1331 361 529
+orbit12_crt_product 254179739
+orbit12_pairs_tested 102900
+orbit12_local11_pairs 2170 points 986
+orbit12_local11_19_pairs 51 points 36
+orbit12_local11_19_23_pairs 0 points 0
+
+exact orbit12 points 0 pairs 0
+conclusion: no primitive projective CK tuple of height <=2000 has a marked pair
+            surviving all three necessary square-residue conditions

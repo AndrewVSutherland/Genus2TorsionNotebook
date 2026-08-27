@@ -1,0 +1,2 @@
+RANK2_DEEP_PADIC_START O5 p 13 precision 60 bank 144 input results/target_22224_O5_rank2_modular_N10000.tsv
+RANK2_DEEP_PADIC_DONE O5 p 13 tested 68 finite 68 infinity 0 unresolved 0 deep_p5 0 output results/target_22224_O5_rank2_modular_N10000_p13deep.tsv

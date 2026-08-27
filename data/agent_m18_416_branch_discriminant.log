@@ -1,0 +1,41 @@
+E1core deg 19 terms 483 | E0core deg 26 terms 1350
+deg_b E1core = 3, deg_b E0core = 4
+b-coefficient vanishing orders at origin (E1core):
+  e1_0: deg 19, ord_origin 5, terms 241
+  e1_1: deg 15, ord_origin 2, terms 158
+  e1_2: deg 11, ord_origin 0, terms 72
+  e1_3: deg 7, ord_origin 0, terms 12
+b-coefficient vanishing orders at origin (E0core):
+  e0_0: deg 26, ord_origin 6, terms 561
+  e0_1: deg 22, ord_origin 4, terms 416
+  e0_2: deg 18, ord_origin 1, terms 257
+  e0_3: deg 14, ord_origin 1, terms 96
+  e0_4: deg 10, ord_origin 0, terms 20
+E1core: Delta deg 30 terms 1028
+E1core Delta factorization degrees/mults:
+  <deg 1, terms 2, mult 1>  R_ + 1
+  <deg 29, terms 957, mult 1>
+E1core Delta squarefree part: deg 30 terms 1028
+E0core: Delta deg 44 terms 2816
+E0core Delta factorization degrees/mults:
+  <deg 1, terms 2, mult 1>  w_ - 1
+  <deg 1, terms 2, mult 1>  w_ + 1
+  <deg 1, terms 2, mult 1>  R_ + 1
+  <deg 12, terms 68, mult 2>
+  <deg 17, terms 198, mult 1>
+E0core Delta squarefree part: deg 20 terms 269
+p=101: Res_b degree 106, terms 35812 (3.4 s)
+p=101: Res_b factor profile (0.7 s):
+  <deg 1, mult 3>  wp + 1
+  <deg 1, mult 3>  wp + 100
+  <deg 1, mult 8>  Rp + 1
+  <deg 5, mult 8>
+  <deg 52, mult 1>
+p=103: Res_b degree 106, terms 35801 (3.3 s)
+p=103: Res_b factor profile (0.7 s):
+  <deg 1, mult 3>  wp + 1
+  <deg 1, mult 3>  wp + 102
+  <deg 1, mult 8>  Rp + 1
+  <deg 5, mult 8>
+  <deg 52, mult 1>
+DONE

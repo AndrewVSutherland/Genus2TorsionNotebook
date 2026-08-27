@@ -1,0 +1,84 @@
+CK doubled-theta exact geometry certificate
+Date: 2026-07-14
+Magma: V2.29-4
+Command:
+  ulimit -v 4194304
+  timeout 300s magma code/agent_ck_doubled_theta_geometry.m
+
+CK_DOUBLED_THETA_GEOMETRY
+CHART_CORE A_T_plus_S12
+  factor_degrees_exponents [<1,2>,<1,2>,<2,2>,<2,2>,<2,2>,<16,1>]
+  bidegree <8,8> total_degree 16 irreducible true genus 13
+  points_height_1000 [(0:1:0),(1:0:0),(-1:1:1)]
+CHART_CORE B_2T_plus_S01
+  factor_degrees_exponents [<1,2>,<1,2>,<1,2>,<1,2>,<1,2>,
+                            <2,2>,<2,2>,<2,2>,<3,2>,<16,1>]
+  bidegree <8,8> total_degree 16 irreducible true genus 7
+  points_height_1000 [(0:1:0),(-1:0:1),(0:1:1),(1:0:0),(-1:1:1)]
+CHART_CORE C_2T_plus_S12
+  factor_degrees_exponents [<1,2>,<1,2>,<1,2>,<1,2>,<1,2>,
+                            <2,2>,<2,2>,<2,2>,<3,2>,<16,1>]
+  bidegree <8,8> total_degree 16 irreducible true genus 4
+  points_height_1000 [(0:1:0),(-1:0:1),(0:1:1),(1:0:0),(-1:1:1)]
+
+SYMMETRIC_A
+  U_A = (q-p)*(2+(p+q-2*s^2)*Y-s^2*(q-p)*Y^2)
+  disc(U_A) =
+    (q-p)^2*((p+q-2*s^2)^2+8*s^2*(q-p))
+
+SYMMETRIC_B
+  U_B = w*(w*Z^2+2*q*Z+2)
+  disc(U_B) = 4*w^2*(q^2-2*w)
+
+SYMMETRIC_C
+  U_C = p*(q-p)*(2+2*q*Y+p*(q-p)*Y^2)
+  disc(U_C) = 4*p^2*(q-p)^2*(q^2-2*p*(q-p))
+  odd core = q^2-2*p*(q-p) = (q-p)^2+p^2
+
+CASE_A_GENUS5
+  D12 =
+    8*k^12-80*k^11+256*k^10-640*k^9+1097*k^8-1568*k^7
+    +1702*k^6-1568*k^5+1097*k^4-640*k^3+256*k^2-80*k+8
+  v = -(k^2-k+1)/(k^2+1)
+  q = 1+2*v-v^2
+  u = 2*v^2
+  complementary cubic = z^3+z^2+q*z-u
+  disc(complementary cubic) = D12/(k^2+1)^6
+  irreducible true
+  genus 5
+
+CASE_A_GENUS2_QUOTIENT
+  F2 =
+    8*h^6-80*h^5+208*h^4-240*h^3+145*h^2-48*h+4
+  rank_bounds <0,1>
+  torsion []
+  infinite_divisor (x^2,-12*x+2,2)
+  chabauty_points {(0:-2:1),(0:2:1)}
+  conclusion:
+    only h=0, but h=k+1/k=0 requires k^2+1=0; no rational lift
+
+CASE_B_ELLIPTIC
+  minimal model:
+    y^2+x*y+y=x^3-82*x-92
+  rank_bounds <0,0>
+  torsion [3]
+  all rational points on quartic model, obtained from all torsion:
+    {(0:0:1),(-4:-316:17),(-4:316:17)}
+  q-values exactly {0,-4/17}
+  q=0 is boundary
+  q=-4/17 specialization:
+    289*z^4+289*z^3-68*z^2-68*z+8
+  irreducible true
+  conclusion:
+    no completely split open specialization
+
+CASE_C
+  core = (q-p)^2+p^2
+  conclusion:
+    only p=q=0 over Q/R, hence boundary
+
+FINAL
+  no smooth rational CK point on any of A, B, C
+
+Total time: 2.200 seconds
+Total memory usage reported by Magma: 129.59 MB

@@ -1,0 +1,67 @@
+# Elkies N=32 reconstruction conditions
+
+Contact model:
+  h = a*x^3 + b*x^2 + c*x + 1
+  f = h^2 - a^2*x^5*(x+1)
+  div(y-h) = 5*(0,1) + (-1,h(-1)) - 6*infinity
+
+Rank-drop matrix rows:
+  0..3: A+B*y vanishes to order 4 at (0,1)
+  4..7: A+B*y vanishes to order 4 at (-1,h(-1))
+  8:    A(r)=0 at W=(r,0)
+
+Common factor in all 8x8 minors: (a - b + c - 1) * a^3
+
+First non-boundary rank condition after p=a-b+c-1:
+  H(A,P,C) = -1073741824*A^6*P^2 + 4294967296*A^5*P^3 - 8589934592*A^4*P^4 + 8589934592*A^3*P^5 - 4294967296*A^4*P^3*C + 8589934592*A^4*P^3 - 17179869184*A^2*P^5
+  This is linear in C, with
+  C = (1073741824*A^4 - 4294967296*A^3*P + 8589934592*A^2*P^2 - 8589934592*A*P^3 - 8589934592*A^2*P + 17179869184*P^3)/(-4294967296*A^2*P)
+  and b = A + C - 1 - P.
+
+Printed Elkies member in this normalization:
+  h_unscaled = -2640*x^3 - 1323*x^2 - 112*x + 11
+  after y -> y/11:
+  A=a=-240, P=p=-1440/11, R=r=1/15
+  C from formula = -112/11
+  expected C=c=-112/11
+  f(R) numerator at printed point = 0
+  remaining minor numerators at printed point:
+    0, 0, 0, 0, 0, 0, 0, 0, 0
+
+After setting z=A/P:
+  deg_P f(R) numerator = 8
+  rank minors that still vanish on the printed point:
+    omit row 0, deg_P=14, omit row 1, deg_P=14, omit row 2, deg_P=14, omit row 3, deg_P=14, omit row 4, deg_P=14, omit row 5, deg_P=13, omit row 6, deg_P=11, omit row 7, deg_P=7
+
+Factors of f(R) numerator vanishing at printed point:
+  exponent 1, degrees (z,P,R)=(8,2,5):
+    -z^8*P^2*Rr^4 + 8*z^7*P^2*Rr^5 - 2*z^8*P^2*Rr^3 + 24*z^7*P^2*Rr^4 - 48*z^6*P^2*Rr^5 - z^8*P^2*Rr^2 + 24*z^7*P^2*Rr^3 - 120*z^6*P^2*Rr^4 + 96*z^5*P^2*Rr^5 + 8*z^7*P^2*Rr^2 - 104*z^6*P^2*Rr^3 + 8*z^6*P*Rr^4 + 272*z^5*P^2*Rr^4 - 32*z^5*P*Rr^5 - 64*z^4*P^2*Rr^5 - 32*z^6*P^2*Rr^2 + 24*z^6*P*Rr^3 + 256*z^5*P^2*Rr^3 - 128*z^5*P*Rr^4 - 336*z^4*P^2*Rr^4 + 24*z^6*P*Rr^2 + 80*z^5*P^2*Rr^2 - 192*z^5*P*Rr^3 - 384*z^4*P^2*Rr^3 + 64*z^4*P*Rr^4 + 192*z^3*P^2*Rr^4 + 128*z^3*P*Rr^5 + 8*z^6*P*Rr - 128*z^5*P*Rr^2 - 128*z^4*P^2*Rr^2 + 192*z^4*P*Rr^3 + 320*z^3*P^2*Rr^3 - 16*z^4*Rr^4 + 320*z^3*P*Rr^4 - 64*z^2*P^2*Rr^4 - 32*z^5*P*Rr + 192*z^4*P*Rr^2 + 128*z^3*P^2*Rr^2 - 64*z^4*Rr^3 + 192*z^3*P*Rr^3 - 128*z^2*P^2*Rr^3 - 384*z^2*P*Rr^4 + 64*z^4*P*Rr - 96*z^4*Rr^2 - 64*z^3*P*Rr^2 - 64*z^2*P^2*Rr^2 - 640*z^2*P*Rr^3 + 128*z^2*Rr^4 + 256*z*P*Rr^4 - 64*z^4*Rr - 64*z^3*P*Rr - 256*z^2*P*Rr^2 + 384*z^2*Rr^3 + 512*z*P*Rr^3 - 16*z^4 + 384*z^2*Rr^2 + 256*z*P*Rr^2 - 256*Rr^4 + 128*z^2*Rr - 512*Rr^3 - 256*Rr^2
+
+Using remaining rank minor omitting row 0.
+Factors of that minor vanishing at printed point:
+  exponent 1, degrees (z,P,R)=(7,2,4):
+    z^7*P^2*Rr^4 + 3*z^7*P^2*Rr^3 - 12*z^6*P^2*Rr^4 + 3*z^7*P^2*Rr^2 - 30*z^6*P^2*Rr^3 + 36*z^5*P^2*Rr^4 + z^7*P^2*Rr - 26*z^6*P^2*Rr^2 + 100*z^5*P^2*Rr^3 - 4*z^5*P*Rr^4 - 24*z^4*P^2*Rr^4 - 8*z^6*P^2*Rr + 92*z^5*P^2*Rr^2 - 16*z^5*P*Rr^3 - 144*z^4*P^2*Rr^3 + 28*z^5*P^2*Rr - 24*z^5*P*Rr^2 - 168*z^4*P^2*Rr^2 + 16*z^4*P*Rr^3 + 96*z^3*P^2*Rr^3 + 48*z^3*P*Rr^4 - 16*z^5*P*Rr - 56*z^4*P^2*Rr + 48*z^4*P*Rr^2 + 160*z^3*P^2*Rr^2 + 128*z^3*P*Rr^3 - 32*z^2*P^2*Rr^3 - 4*z^5*P + 48*z^4*P*Rr + 64*z^3*P^2*Rr + 96*z^3*P*Rr^2 - 64*z^2*P^2*Rr^2 - 192*z^2*P*Rr^3 + 16*z^4*P - 32*z^2*P^2*Rr - 320*z^2*P*Rr^2 + 32*z^2*Rr^3 + 128*z*P*Rr^3 - 16*z^3*P - 128*z^2*P*Rr + 96*z^2*Rr^2 + 256*z*P*Rr^2 + 96*z^2*Rr + 128*z*P*Rr - 128*Rr^3 + 32*z^2 - 256*Rr^2 - 128*Rr
+
+Component equations before eliminating P:
+  F(z,P,R) = -z^8*P^2*Rr^4 + 8*z^7*P^2*Rr^5 - 2*z^8*P^2*Rr^3 + 24*z^7*P^2*Rr^4 - 48*z^6*P^2*Rr^5 - z^8*P^2*Rr^2 + 24*z^7*P^2*Rr^3 - 120*z^6*P^2*Rr^4 + 96*z^5*P^2*Rr^5 + 8*z^7*P^2*Rr^2 - 104*z^6*P^2*Rr^3 + 8*z^6*P*Rr^4 + 272*z^5*P^2*Rr^4 - 32*z^5*P*Rr^5 - 64*z^4*P^2*Rr^5 - 32*z^6*P^2*Rr^2 + 24*z^6*P*Rr^3 + 256*z^5*P^2*Rr^3 - 128*z^5*P*Rr^4 - 336*z^4*P^2*Rr^4 + 24*z^6*P*Rr^2 + 80*z^5*P^2*Rr^2 - 192*z^5*P*Rr^3 - 384*z^4*P^2*Rr^3 + 64*z^4*P*Rr^4 + 192*z^3*P^2*Rr^4 + 128*z^3*P*Rr^5 + 8*z^6*P*Rr - 128*z^5*P*Rr^2 - 128*z^4*P^2*Rr^2 + 192*z^4*P*Rr^3 + 320*z^3*P^2*Rr^3 - 16*z^4*Rr^4 + 320*z^3*P*Rr^4 - 64*z^2*P^2*Rr^4 - 32*z^5*P*Rr + 192*z^4*P*Rr^2 + 128*z^3*P^2*Rr^2 - 64*z^4*Rr^3 + 192*z^3*P*Rr^3 - 128*z^2*P^2*Rr^3 - 384*z^2*P*Rr^4 + 64*z^4*P*Rr - 96*z^4*Rr^2 - 64*z^3*P*Rr^2 - 64*z^2*P^2*Rr^2 - 640*z^2*P*Rr^3 + 128*z^2*Rr^4 + 256*z*P*Rr^4 - 64*z^4*Rr - 64*z^3*P*Rr - 256*z^2*P*Rr^2 + 384*z^2*Rr^3 + 512*z*P*Rr^3 - 16*z^4 + 384*z^2*Rr^2 + 256*z*P*Rr^2 - 256*Rr^4 + 128*z^2*Rr - 512*Rr^3 - 256*Rr^2
+  G(z,P,R) = z^7*P^2*Rr^4 + 3*z^7*P^2*Rr^3 - 12*z^6*P^2*Rr^4 + 3*z^7*P^2*Rr^2 - 30*z^6*P^2*Rr^3 + 36*z^5*P^2*Rr^4 + z^7*P^2*Rr - 26*z^6*P^2*Rr^2 + 100*z^5*P^2*Rr^3 - 4*z^5*P*Rr^4 - 24*z^4*P^2*Rr^4 - 8*z^6*P^2*Rr + 92*z^5*P^2*Rr^2 - 16*z^5*P*Rr^3 - 144*z^4*P^2*Rr^3 + 28*z^5*P^2*Rr - 24*z^5*P*Rr^2 - 168*z^4*P^2*Rr^2 + 16*z^4*P*Rr^3 + 96*z^3*P^2*Rr^3 + 48*z^3*P*Rr^4 - 16*z^5*P*Rr - 56*z^4*P^2*Rr + 48*z^4*P*Rr^2 + 160*z^3*P^2*Rr^2 + 128*z^3*P*Rr^3 - 32*z^2*P^2*Rr^3 - 4*z^5*P + 48*z^4*P*Rr + 64*z^3*P^2*Rr + 96*z^3*P*Rr^2 - 64*z^2*P^2*Rr^2 - 192*z^2*P*Rr^3 + 16*z^4*P - 32*z^2*P^2*Rr - 320*z^2*P*Rr^2 + 32*z^2*Rr^3 + 128*z*P*Rr^3 - 16*z^3*P - 128*z^2*P*Rr + 96*z^2*Rr^2 + 256*z*P*Rr^2 + 96*z^2*Rr + 128*z*P*Rr - 128*Rr^3 + 32*z^2 - 256*Rr^2 - 128*Rr
+
+Common-root formula for the scale P=p:
+  If F=F2*P^2+F1*P+F0 and G=G2*P^2+G1*P+G0, then
+  P = (F2*G0 - G2*F0)/(G2*F1 - F2*G1) on the component.
+  numerator factorization: (z - 2)^1 * (Rr + 1)^2 * (z^2*Rr + z^2 - 4*Rr)^1 * (z^4*Rr^2 + 2*z^4*Rr - 10*z^3*Rr^2 + z^4 - 16*z^3*Rr + 28*z^2*Rr^2 - 6*z^3 + 44*z^2*Rr - 16*z*Rr^2 + 16*z^2 - 56*z*Rr + 16*Rr^2 - 24*z + 32*Rr + 16)^1
+  denominator factorization: (Rr)^1 * (z)^1 * (z^8*Rr^4 + 4*z^8*Rr^3 - 24*z^7*Rr^4 + 48*z^6*Rr^5 + 6*z^8*Rr^2 - 80*z^7*Rr^3 + 284*z^6*Rr^4 - 256*z^5*Rr^5 + 4*z^8*Rr - 100*z^7*Rr^2 + 632*z^6*Rr^3 - 1200*z^5*Rr^4 + 320*z^4*Rr^5 + z^8 - 56*z^7*Rr + 672*z^6*Rr^2 - 2432*z^5*Rr^3 + 2224*z^4*Rr^4 - 12*z^7 + 344*z^6*Rr - 2496*z^5*Rr^2 + 5312*z^4*Rr^3 - 2304*z^3*Rr^4 + 68*z^6 - 1248*z^5*Rr + 5808*z^4*Rr^2 - 7232*z^3*Rr^3 + 1664*z^2*Rr^4 - 240*z^5 + 2976*z^4*Rr - 8832*z^3*Rr^2 + 6272*z^2*Rr^3 - 768*z*Rr^4 + 576*z^4 - 4800*z^3*Rr + 8640*z^2*Rr^2 - 3328*z*Rr^3 + 256*Rr^4 - 960*z^3 + 5120*z^2*Rr - 5120*z*Rr^2 + 1024*Rr^3 + 1088*z^2 - 3328*z*Rr + 1536*Rr^2 - 768*z + 1024*Rr + 256)^1
+  P at printed point = -1440/11
+
+Resultant Res_P(F,G) factorization summary:
+  exponent 5, degrees (z,R)=(0,1), nonzero_at_printed:
+    Rr
+  exponent 6, degrees (z,R)=(0,1), nonzero_at_printed:
+    Rr + 1
+  exponent 12, degrees (z,R)=(1,0), nonzero_at_printed:
+    z
+  exponent 2, degrees (z,R)=(2,1), nonzero_at_printed:
+    z^2*Rr + z^2 - 4*Rr
+  exponent 1, degrees (z,R)=(4,4), PRINTED_COMPONENT:
+    3*z^4*Rr^4 + 9*z^4*Rr^3 - 16*z^3*Rr^4 + 10*z^4*Rr^2 - 56*z^3*Rr^3 + 32*z^2*Rr^4 + 5*z^4*Rr - 72*z^3*Rr^2 + 144*z^2*Rr^3 - 64*z*Rr^4 + z^4 - 40*z^3*Rr + 208*z^2*Rr^2 - 224*z*Rr^3 + 80*Rr^4 - 8*z^3 + 120*z^2*Rr - 288*z*Rr^2 + 160*Rr^3 + 24*z^2 - 160*z*Rr + 160*Rr^2 - 32*z + 80*Rr + 16
+

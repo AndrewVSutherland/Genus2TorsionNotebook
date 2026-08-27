@@ -1,0 +1,10 @@
+LOCAL_SAMPLE [ 9, 2, 12, 12, 6, 6 ]
+jac_rank 5 q xx^2 + 12*xx + 12
+v 12*xx + 8
+D5_order 5
+LOCAL_SAMPLE [ 9, 2, 12, 12, 7, 7 ]
+jac_rank 5 q xx^2 + 12*xx + 12
+v xx + 5
+D5_order 5
+LOCAL_COUNT p 13 raw 2215 open 2 smooth_open 2 samples 2
+M12_GENERAL5_B2ZERO_LOCAL_DONE

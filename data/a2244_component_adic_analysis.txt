@@ -1,0 +1,317 @@
+A2244 component-wise 11/23-adic boundary analysis
+surface=(ab+ac+ad+bc+bd+cd)^2-4abcd=0
+all_zero_mod_p_root=excluded
+p2=exhaustive lifts of mod-p ambiguous component/partition classes
+p3=smooth resolved witness search, not full p3 enumeration
+verdict priority: smooth_p3_resolved > modp_resolved > p2_resolved > deep_only > killed
+
+p=11
+elapsed_seconds=4.642
+Fp_roots=1470
+boundary_roots=1230
+smooth_boundary_roots=1160
+
+component totals
+  Z1 roots=120 smooth=90
+  Z2 roots=120 smooth=90
+  Z3 roots=120 smooth=90
+  Z4 roots=120 smooth=90
+  E12 roots=230 smooth=180
+  E13 roots=230 smooth=180
+  E14 roots=230 smooth=180
+  E23 roots=230 smooth=180
+  E24 roots=230 smooth=180
+  E34 roots=230 smooth=180
+
+component/partition matrix
+  component Z1
+    12|34 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(0, 1, 9, 9) p2=(0, 1, 9, 9) p3=(363, 1, 9, 9) boundary=Z1+E34
+    13|24 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(0, 1, 5, 1) p2=(0, 1, 5, 1) p3=(605, 1, 5, 1) boundary=Z1+E24
+    14|23 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(0, 1, 1, 5) p2=(0, 1, 1, 5) p3=(605, 1, 1, 5) boundary=Z1+E23
+  component Z2
+    12|34 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 0, 9, 9) p2=(1, 0, 9, 9) p3=(1, 363, 9, 9) boundary=Z2+E34
+    13|24 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 0, 1, 5) p2=(1, 0, 1, 5) p3=(1, 605, 1, 5) boundary=Z2+E13
+    14|23 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 0, 5, 1) p2=(1, 0, 5, 1) p3=(1, 605, 5, 1) boundary=Z2+E14
+  component Z3
+    12|34 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 1, 0, 5) p2=(1, 1, 0, 5) p3=(1, 1, 605, 5) boundary=Z3+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 9, 0, 9) p2=(1, 9, 0, 9) p3=(1, 9, 363, 9) boundary=Z3+E24
+    14|23 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 5, 0, 1) p2=(1, 5, 0, 1) p3=(1, 5, 605, 1) boundary=Z3+E14
+  component Z4
+    12|34 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 1, 5, 0) p2=(1, 1, 5, 0) p3=(1, 1, 5, 605) boundary=Z4+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 5, 1, 0) p2=(1, 5, 1, 0) p3=(1, 5, 1, 605) boundary=Z4+E13
+    14|23 verdict=smooth_p3_resolved modp(killed=80 deep=30 resolved_ok=10) p2_lifts(killed=0 deep=439230 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=30 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=30)
+      p3_example modp=(1, 9, 9, 0) p2=(1, 9, 9, 0) p3=(1, 9, 9, 363) boundary=Z4+E23
+  component E12
+    12|34 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(1, 1, 0, 5) p2=(1, 1, 0, 5) p3=(1, 1, 605, 5) boundary=Z3+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(243, 1, 243, 300) boundary=E12+E13+E23
+    14|23 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(364, 1, 1, 179) boundary=E12+E13+E23
+  component E13
+    12|34 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(364, 1, 122, 300) boundary=E12+E13+E23
+    13|24 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(1, 0, 1, 5) p2=(1, 0, 1, 5) p3=(1, 605, 1, 5) boundary=Z2+E13
+    14|23 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(364, 1, 1, 179) boundary=E12+E13+E23
+  component E14
+    12|34 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) p3=(1211, 1, 58, 364) boundary=E12+E14+E24
+    13|24 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) p3=(1090, 1, 58, 485) boundary=E12+E14+E24
+    14|23 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(1, 0, 5, 1) p2=(1, 0, 5, 1) p3=(1, 605, 5, 1) boundary=Z2+E14
+  component E23
+    12|34 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(364, 1, 122, 300) boundary=E12+E13+E23
+    13|24 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) p3=(243, 1, 243, 300) boundary=E12+E13+E23
+    14|23 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(0, 1, 1, 5) p2=(0, 1, 1, 5) p3=(605, 1, 1, 5) boundary=Z1+E23
+  component E24
+    12|34 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) p3=(1211, 1, 58, 364) boundary=E12+E14+E24
+    13|24 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(0, 1, 5, 1) p2=(0, 1, 5, 1) p3=(605, 1, 5, 1) boundary=Z1+E24
+    14|23 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) p3=(848, 1, 58, 727) boundary=E12+E14+E24
+  component E34
+    12|34 verdict=smooth_p3_resolved modp(killed=120 deep=90 resolved_ok=20) p2_lifts(killed=409200 deep=333190 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=60 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=90)
+      p3_example modp=(0, 1, 9, 9) p2=(0, 1, 9, 9) p3=(363, 1, 9, 9) boundary=Z1+E34
+    13|24 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 3, 1, 1) p2=(23, 3, 23, 23) p3=(1233, 3, 23, 386) boundary=E13+E14+E34
+    14|23 verdict=smooth_p3_resolved modp(killed=100 deep=130 resolved_ok=0) p2_lifts(killed=409200 deep=386430 resolved_ok=42900) p2_roots(all_lifts_killed=0 deep_only=100 resolved_only=0 resolved_and_deep=30 has_resolved_ok_lift=30 has_deep_lift=130)
+      p3_example modp=(1, 3, 1, 1) p2=(23, 3, 23, 23) p3=(870, 3, 23, 749) boundary=E13+E14+E34
+
+mod-p boundary signatures with non-killed partitions
+  E34 14|23 killed=80 deep=40 resolved_ok=0
+  E34 13|24 killed=80 deep=40 resolved_ok=0
+  E24 14|23 killed=80 deep=40 resolved_ok=0
+  E24 12|34 killed=80 deep=40 resolved_ok=0
+  E23 13|24 killed=80 deep=40 resolved_ok=0
+  E23 12|34 killed=80 deep=40 resolved_ok=0
+  E14 13|24 killed=80 deep=40 resolved_ok=0
+  E14 12|34 killed=80 deep=40 resolved_ok=0
+  E13 14|23 killed=80 deep=40 resolved_ok=0
+  E13 12|34 killed=80 deep=40 resolved_ok=0
+  E12 14|23 killed=80 deep=40 resolved_ok=0
+  E12 13|24 killed=80 deep=40 resolved_ok=0
+  E12+E13+E14+E23+E24+E34 14|23 killed=0 deep=30 resolved_ok=0
+  E12+E13+E14+E23+E24+E34 13|24 killed=0 deep=30 resolved_ok=0
+  E12+E13+E14+E23+E24+E34 12|34 killed=0 deep=30 resolved_ok=0
+  E23+E24+E34 14|23 killed=0 deep=20 resolved_ok=0
+  E23+E24+E34 13|24 killed=0 deep=20 resolved_ok=0
+  E23+E24+E34 12|34 killed=0 deep=20 resolved_ok=0
+  E13+E14+E34 14|23 killed=0 deep=20 resolved_ok=0
+  E13+E14+E34 13|24 killed=0 deep=20 resolved_ok=0
+  E13+E14+E34 12|34 killed=0 deep=20 resolved_ok=0
+  E12+E14+E24 14|23 killed=0 deep=20 resolved_ok=0
+  E12+E14+E24 13|24 killed=0 deep=20 resolved_ok=0
+  E12+E14+E24 12|34 killed=0 deep=20 resolved_ok=0
+  E12+E13+E23 14|23 killed=0 deep=20 resolved_ok=0
+  E12+E13+E23 13|24 killed=0 deep=20 resolved_ok=0
+  E12+E13+E23 12|34 killed=0 deep=20 resolved_ok=0
+  Z4+E23 14|23 killed=0 deep=0 resolved_ok=10
+  Z4+E13 13|24 killed=0 deep=0 resolved_ok=10
+  Z4+E12 12|34 killed=0 deep=0 resolved_ok=10
+
+p2 examples by boundary signature and partition
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=12|34 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E13+E23
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=13|24 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E12+E23
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=14|23 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E12+E13
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=12|34 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E14+E24
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=13|24 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E12+E14
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=14|23 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E12+E24
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=12|34 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E13+E14
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=13|24 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E14+E34
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=14|23 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E13+E34
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=12|34 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E23+E24
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=13|24 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E23+E34
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=14|23 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E24+E34
+  status=deep boundary=E12+E13+E23 partition=12|34 modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) deep=E13+E23
+  status=deep boundary=E12+E13+E23 partition=13|24 modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) deep=E12+E23
+  status=deep boundary=E12+E13+E23 partition=14|23 modp=(1, 1, 1, 3) p2=(1, 1, 1, 58) deep=E12+E13
+  status=deep boundary=E12+E14+E24 partition=12|34 modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) deep=E14+E24
+  status=deep boundary=E12+E14+E24 partition=13|24 modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) deep=E12+E14
+  status=deep boundary=E12+E14+E24 partition=14|23 modp=(1, 1, 3, 1) p2=(1, 1, 58, 1) deep=E12+E24
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=12|34 modp=(1, 1, 10, 10) p2=(1, 1, 10, 10) deep=
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=12|34 modp=(1, 1, 10, 10) p2=(1, 1, 10, 120) deep=E14+E24
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=13|24 modp=(1, 1, 10, 10) p2=(1, 1, 10, 76) deep=E12
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=13|24 modp=(1, 1, 10, 10) p2=(1, 12, 21, 87) deep=
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=14|23 modp=(1, 1, 10, 10) p2=(1, 1, 10, 76) deep=E12
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=14|23 modp=(1, 1, 10, 10) p2=(1, 12, 21, 32) deep=
+  status=deep boundary=E14 partition=12|34 modp=(1, 2, 5, 10) p2=(111, 2, 5, 10) deep=E14
+  status=deep boundary=E14 partition=13|24 modp=(1, 2, 5, 10) p2=(111, 2, 5, 10) deep=E14
+  status=deep boundary=E24 partition=12|34 modp=(1, 2, 7, 9) p2=(1, 112, 7, 9) deep=E24
+  status=deep boundary=E24 partition=14|23 modp=(1, 2, 7, 9) p2=(1, 112, 7, 9) deep=E24
+  status=deep boundary=E23 partition=12|34 modp=(1, 2, 9, 7) p2=(1, 112, 9, 7) deep=E23
+  status=deep boundary=E23 partition=13|24 modp=(1, 2, 9, 7) p2=(1, 112, 9, 7) deep=E23
+
+p=23
+elapsed_seconds=220.470
+Fp_roots=12166
+boundary_roots=6886
+smooth_boundary_roots=6732
+
+component totals
+  Z1 roots=528 smooth=462
+  Z2 roots=528 smooth=462
+  Z3 roots=528 smooth=462
+  Z4 roots=528 smooth=462
+  E12 roots=990 smooth=880
+  E13 roots=990 smooth=880
+  E14 roots=990 smooth=880
+  E23 roots=990 smooth=880
+  E24 roots=990 smooth=880
+  E34 roots=990 smooth=880
+
+component/partition matrix
+  component Z1
+    12|34 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(0, 1, 2, 7) p2=(0, 1, 2, 7) p3=(3703, 1, 2, 7) boundary=Z1
+    13|24 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(0, 1, 8, 17) p2=(0, 1, 8, 17) p3=(7406, 1, 8, 17) boundary=Z1
+    14|23 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(0, 1, 1, 11) p2=(0, 1, 1, 11) p3=(5819, 1, 1, 11) boundary=Z1+E23
+  component Z2
+    12|34 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 0, 2, 7) p2=(1, 0, 2, 7) p3=(1, 3703, 2, 7) boundary=Z2
+    13|24 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 0, 1, 11) p2=(1, 0, 1, 11) p3=(1, 5819, 1, 11) boundary=Z2+E13
+    14|23 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 0, 8, 17) p2=(1, 0, 8, 17) p3=(1, 7406, 8, 17) boundary=Z2
+  component Z3
+    12|34 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 1, 0, 11) p2=(1, 1, 0, 11) p3=(1, 1, 5819, 11) boundary=Z3+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 2, 0, 7) p2=(1, 2, 0, 7) p3=(1, 2, 3703, 7) boundary=Z3
+    14|23 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 8, 0, 17) p2=(1, 8, 0, 17) p3=(1, 8, 7406, 17) boundary=Z3
+  component Z4
+    12|34 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 1, 11, 0) p2=(1, 1, 11, 0) p3=(1, 1, 11, 5819) boundary=Z4+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 8, 17, 0) p2=(1, 8, 17, 0) p3=(1, 8, 17, 7406) boundary=Z4
+    14|23 verdict=smooth_p3_resolved modp(killed=308 deep=66 resolved_ok=154) p2_lifts(killed=0 deep=18469506 resolved_ok=0) p2_roots(all_lifts_killed=0 deep_only=66 resolved_only=0 resolved_and_deep=0 has_resolved_ok_lift=0 has_deep_lift=66)
+      p3_example modp=(1, 2, 7, 0) p2=(1, 2, 7, 0) p3=(1, 2, 7, 3703) boundary=Z4
+  component E12
+    12|34 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(1, 1, 0, 11) p2=(1, 1, 0, 11) p3=(1, 1, 5819, 11) boundary=Z3+E12
+    13|24 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 1, 7, 15) p2=(1, 1, 7, 314) p3=(8465, 1, 7, 1901) boundary=E12
+    14|23 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 1, 7, 15) p2=(1, 1, 7, 314) p3=(7407, 1, 7, 314) boundary=E12
+  component E13
+    12|34 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 7, 1, 15) p2=(1, 7, 1, 314) p3=(8465, 7, 1, 1901) boundary=E13
+    13|24 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(1, 0, 1, 11) p2=(1, 0, 1, 11) p3=(1, 5819, 1, 11) boundary=Z2+E13
+    14|23 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 5, 22, 9) p2=(507, 5, 22, 32) p3=(7384, 5, 22, 32) boundary=E13
+  component E14
+    12|34 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 7, 15, 1) p2=(254, 7, 15, 254) p3=(9776, 7, 15, 2899) boundary=E14
+    13|24 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 5, 9, 22) p2=(484, 5, 9, 45) p3=(2600, 5, 9, 45) boundary=E14
+    14|23 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(1, 0, 11, 1) p2=(1, 0, 11, 1) p3=(1, 5819, 11, 1) boundary=Z2+E14
+  component E23
+    12|34 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 7, 7, 2) p2=(93, 7, 7, 2) p3=(6970, 7, 2652, 2) boundary=E23
+    13|24 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 5, 18, 21) p2=(1, 511, 18, 21) p3=(1, 7917, 18, 21) boundary=E23
+    14|23 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(0, 1, 1, 11) p2=(0, 1, 1, 11) p3=(5819, 1, 1, 11) boundary=Z1+E23
+  component E24
+    12|34 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 7, 2, 7) p2=(93, 7, 2, 7) p3=(6970, 7, 2, 2652) boundary=E24
+    13|24 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(0, 1, 11, 1) p2=(0, 1, 11, 1) p3=(5819, 1, 11, 1) boundary=Z1+E24
+    14|23 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 5, 21, 18) p2=(1, 511, 21, 18) p3=(1, 7917, 21, 18) boundary=E24
+  component E34
+    12|34 verdict=smooth_p3_resolved modp(killed=704 deep=110 resolved_ok=176) p2_lifts(killed=15629328 deep=13116026 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=44 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=110)
+      p3_example modp=(0, 1, 21, 21) p2=(0, 1, 21, 21) p3=(3174, 1, 21, 21) boundary=Z1+E34
+    13|24 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 2, 7, 7) p2=(93, 2, 7, 7) p3=(6970, 2, 7, 2652) boundary=E34
+    14|23 verdict=smooth_p3_resolved modp(killed=616 deep=374 resolved_ok=0) p2_lifts(killed=16653472 deep=15303970 resolved_ok=2037156) p2_roots(all_lifts_killed=0 deep_only=308 resolved_only=0 resolved_and_deep=66 has_resolved_ok_lift=66 has_deep_lift=374)
+      p3_example modp=(1, 2, 7, 7) p2=(93, 2, 7, 7) p3=(9615, 2, 7, 536) boundary=E34
+
+mod-p boundary signatures with non-killed partitions
+  E34 14|23 killed=528 deep=264 resolved_ok=0
+  E34 13|24 killed=528 deep=264 resolved_ok=0
+  E24 14|23 killed=528 deep=264 resolved_ok=0
+  E24 12|34 killed=528 deep=264 resolved_ok=0
+  E23 13|24 killed=528 deep=264 resolved_ok=0
+  E23 12|34 killed=528 deep=264 resolved_ok=0
+  E14 13|24 killed=528 deep=264 resolved_ok=0
+  E14 12|34 killed=528 deep=264 resolved_ok=0
+  E13 14|23 killed=528 deep=264 resolved_ok=0
+  E13 12|34 killed=528 deep=264 resolved_ok=0
+  E12 14|23 killed=528 deep=264 resolved_ok=0
+  E12 13|24 killed=528 deep=264 resolved_ok=0
+  Z4 14|23 killed=264 deep=0 resolved_ok=132
+  Z4 13|24 killed=264 deep=0 resolved_ok=132
+  Z4 12|34 killed=264 deep=0 resolved_ok=132
+  Z3 14|23 killed=264 deep=0 resolved_ok=132
+  Z3 13|24 killed=264 deep=0 resolved_ok=132
+  Z3 12|34 killed=264 deep=0 resolved_ok=132
+  Z2 14|23 killed=264 deep=0 resolved_ok=132
+  Z2 13|24 killed=264 deep=0 resolved_ok=132
+  Z2 12|34 killed=264 deep=0 resolved_ok=132
+  Z1 14|23 killed=264 deep=0 resolved_ok=132
+  Z1 13|24 killed=264 deep=0 resolved_ok=132
+  Z1 12|34 killed=264 deep=0 resolved_ok=132
+  E34 12|34 killed=704 deep=0 resolved_ok=88
+  E24 13|24 killed=704 deep=0 resolved_ok=88
+  E23 14|23 killed=704 deep=0 resolved_ok=88
+  E14 14|23 killed=704 deep=0 resolved_ok=88
+  E13 13|24 killed=704 deep=0 resolved_ok=88
+  E12 12|34 killed=704 deep=0 resolved_ok=88
+
+p2 examples by boundary signature and partition
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=12|34 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E13+E23
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=13|24 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E12+E23
+  status=deep boundary=Z1+Z2+Z3+E12+E13+E23 partition=14|23 modp=(0, 0, 0, 1) p2=(0, 0, 0, 1) deep=E12+E13
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=12|34 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E14+E24
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=13|24 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E12+E14
+  status=deep boundary=Z1+Z2+Z4+E12+E14+E24 partition=14|23 modp=(0, 0, 1, 0) p2=(0, 0, 1, 0) deep=E12+E24
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=12|34 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E13+E14
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=13|24 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E14+E34
+  status=deep boundary=Z1+Z3+Z4+E13+E14+E34 partition=14|23 modp=(0, 1, 0, 0) p2=(0, 1, 0, 0) deep=E13+E34
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=12|34 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E23+E24
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=13|24 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E23+E34
+  status=deep boundary=Z2+Z3+Z4+E23+E24+E34 partition=14|23 modp=(1, 0, 0, 0) p2=(1, 0, 0, 0) deep=E24+E34
+  status=deep boundary=E12 partition=13|24 modp=(1, 1, 7, 15) p2=(1, 1, 7, 314) deep=E12
+  status=deep boundary=E12 partition=14|23 modp=(1, 1, 7, 15) p2=(1, 1, 7, 314) deep=E12
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=12|34 modp=(1, 1, 22, 22) p2=(1, 1, 22, 22) deep=
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=12|34 modp=(1, 1, 22, 22) p2=(1, 1, 22, 528) deep=E14+E24
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=13|24 modp=(1, 1, 22, 22) p2=(1, 1, 22, 252) deep=E12
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=13|24 modp=(1, 1, 22, 22) p2=(1, 24, 22, 252) deep=
+  status=deep boundary=E12+E13+E14+E23+E24+E34 partition=14|23 modp=(1, 1, 22, 22) p2=(1, 1, 22, 252) deep=E12
+  status=resolved_ok boundary=E12+E13+E14+E23+E24+E34 partition=14|23 modp=(1, 1, 22, 22) p2=(1, 24, 114, 160) deep=
+  status=deep boundary=E34 partition=13|24 modp=(1, 2, 7, 7) p2=(93, 2, 7, 7) deep=E34
+  status=deep boundary=E34 partition=14|23 modp=(1, 2, 7, 7) p2=(93, 2, 7, 7) deep=E34
+  status=deep boundary=E14 partition=12|34 modp=(1, 5, 9, 22) p2=(507, 5, 9, 22) deep=E14
+  status=deep boundary=E14 partition=13|24 modp=(1, 5, 9, 22) p2=(507, 5, 9, 22) deep=E14
+  status=deep boundary=E23 partition=12|34 modp=(1, 5, 18, 21) p2=(1, 511, 18, 21) deep=E23
+  status=deep boundary=E23 partition=13|24 modp=(1, 5, 18, 21) p2=(1, 511, 18, 21) deep=E23
+  status=deep boundary=E24 partition=12|34 modp=(1, 5, 21, 18) p2=(1, 511, 21, 18) deep=E24
+  status=deep boundary=E24 partition=14|23 modp=(1, 5, 21, 18) p2=(1, 511, 21, 18) deep=E24
+  status=deep boundary=E13 partition=12|34 modp=(1, 5, 22, 9) p2=(507, 5, 22, 9) deep=E13
+  status=deep boundary=E13 partition=14|23 modp=(1, 5, 22, 9) p2=(507, 5, 22, 9) deep=E13
+
+combined conclusion
+No raw component is eliminated component-wise by the finite local analysis.  Simple collision and zero components have surviving partitions, often with smooth p^3 resolved witnesses.  The obstruction seen in height searches must therefore use the same partition simultaneously at 11 and 23, real compatibility, and the full M(2,2,4,8) cover equations rather than a single boundary component label.

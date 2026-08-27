@@ -1,0 +1,54 @@
+# *** (2,2,2,12) REALIZATION — VERIFIED HIT (2026-07-18) ***
+# Geometrically simple genus-2 Jacobian over Q with torsion EXACTLY
+# Z/2 x Z/2 x Z/2 x Z/12 (order 96).
+#
+# Discovery route: T5-pencil sweep on M(2,2,2,6) (t5sweep.c, N=150 R=2000),
+# point u = s/n = -97/48 on the pencil member rho' = B4/B5 = -49/240;
+# all four class-T5 halving conditions V'1..V'4 are nonzero rational squares
+# (V'4 verified square both by the sweep X4 test and implicitly by torsion).
+#
+# (s,m,n) = (336396, -689185, -166464)   [chart (s,m,n) of M(2,2,2,6)]
+# A = [1,1,1,2,2]
+# B = [B1..B5] = [2s^2-sn, 2s^2+sm-2sn-mn, 2s^2+sm-sn-mn, -mn, 4s^2-4sn-mn]
+#   = [282322361376, -8243383980, -64241207724, -114724491840, 561915878400]
+# Curve:  C: y^2 = prod_{i=1..5} (A_i + B_i*x)
+#
+# Magma verification (hitverify.m, cls:=5 pp:=-97 qq:=48 rn:=-49 rd:=240):
+#   TorsionSubgroup(Jacobian(C)) invariants = [ 2, 2, 2, 12 ]
+#   contains (2,2,2,12): true  (equality of invariants: exactly [2,2,2,12])
+#   SIMPLICITY CERTIFICATES (irreducible deg-4 chi AND irreducible chi^12):
+#     p=37:  chi = x^4 - 4x^3 + 30x^2 - 148x + 1369
+#     p=73:  chi = x^4 + 8x^3 + 30x^2 + 584x + 5329
+#     p=113: chi = x^4 + 12x^3 + 70x^2 + 1356x + 12769
+#
+# Sweep controls: same run re-found ALL FIVE known T5 near-misses
+# ((-4,-169/1431),(10,-25/551),(17,-1/143),(13/4,-1/143),(41/25,-25/551)),
+# each passing exactly 3/4 conditions — pipeline validated end to end.
+#
+# SECOND REPRESENTATION OF THE SAME CURVE (targeted rn=+-a^2 sweep, --sq mode):
+#   u = 133/145, rho' = 289/240 = 17^2/240  ->  (s,m,n) = (134995,-263568,147175)
+#   B = [16579410925, -78219960, 19789669165, 38790620400, 32213664000]
+#   Magma: torsion invariants [2,2,2,12], same three simplicity certs.
+#   G2Invariants IDENTICAL to the first model => same curve up to isomorphism
+#   (the T5 pencil carries an involution swapping members -49/240 <-> 289/240,
+#   analogous to the proven w <-> 1/w symmetry of the T3 pencil).
+#   Both hit members have rho' denominator 240 and numerator +-(odd square)
+#   (pattern: ALL known T5 near/hit points have rn = +-odd^2:
+#    -1,-1,-25,-25,-169,+841,-49,+289).
+#
+# Reduced minimal Weierstrass model (Magma ReducedMinimalWeierstrassModel):
+#   y^2 + (x^2 + 1)*y = 756900*x^6 + 737595570*x^5 + 150572203590*x^4
+#     - 15854483576121*x^3 - 530648977741620*x^2 + 32014154874551031*x
+#     + 830742747091037849
+#
+# Post-hit scans: member -49/240 has NO second point with all/three conditions
+# up to u-height 4000 (--member scan); rn=+-a^2 targeted box a<=61, rd<=8000,
+# u-height 150: exactly the two representations above, nothing else.
+# Full generic box N=150/R=2000 (2341 s): exactly these 2 hits (1 curve),
+# 6 near-misses total.  Deep scan of ALL members rho'=+-odd^2/240 (a<=49)
+# to u-height 2000: only the same two representations.
+#
+# LMFDB context (queried 2026-07-18): g2c_curves has NO curve with
+# torsion_order >= 48 (largest torsion subgroups present: [24], [2,12],
+# [2,2,8], [39], ... all order <= 40).  Torsion (2,2,2,12), order 96, is
+# outside the database entirely.

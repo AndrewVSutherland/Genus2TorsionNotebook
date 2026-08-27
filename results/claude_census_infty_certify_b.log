@@ -1,0 +1,9 @@
+FAMILY [2,2]
+  t=3 torsion [2,2]
+  t=5 torsion [2,2]
+CERT [2,2] exact_fiber=3 strict_fiber=3 strict_prime=11 distinct_invs=2
+FAMILY [2,2,2]
+  t=3 torsion [2,2,2]
+  t=5 torsion [2,2,2]
+CERT [2,2,2] exact_fiber=3 strict_fiber=3 strict_prime=29 distinct_invs=2
+DONE_B

@@ -1,0 +1,13 @@
+### Usage: gp [options] [GP files]
+Available options:
+  [-f,--fast]		Fast start: do not read .gprc
+  [-q,--quiet]		Quiet mode: do not print banner and history numbers
+  [-s stacksize]	Start with the PARI stack of given size (in bytes)
+  [--default key=val]	Execute default(key,val) on startup
+  [--emacs]		Run as if in Emacs shell
+  [--help]		Print this message
+  [--test]		Test mode. No history, wrap long lines (bench only)
+  [--texmacs]		Run as if using TeXmacs frontend
+  [--version]		Output version info and exit
+  [--version-short]	Output version number and exit
+

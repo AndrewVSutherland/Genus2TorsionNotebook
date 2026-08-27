@@ -1,0 +1,9 @@
+A2_24_HEIGHT5_LOWBRANCH_SCAN_START
+parameters Height=4 LowDegree=4 SkipClosedBest=true PStart=1 PStop=0 MaxRows=0 MaxFibers=0 MaxChecked=200 Progress=0 VerboseRows=false DirectSearchHeight=0
+height_values_count=23 nonzero_p_count=22 active_p_index_range=[1,22]
+AFFINE_DEGREE_DISTRIBUTION_START
+AFFINE_DEGREE_DISTRIBUTION_END
+MIN_AFFINE_DEGREE_DISTRIBUTION_START
+MIN_AFFINE_DEGREE_DISTRIBUTION_END
+KNOWN_CLOSED_BEST_SKIPPED closed_fibers=0 known_degree4_translated_rows_if_full_four=0 known_quartic_branches_if_full_four=0
+A2_24_HEIGHT5_LOWBRANCH_SCAN_DONE checked=201 split_fibers=0 order12_split_fibers=0 translated_order12_rows=0 low_rows_le_4=0 degree4_or_less_rows=0 rational_M_root_rows=0 rational_M_root_factors=0 rational_point_rows=0 exact_divisible_rows=0 torsion_cert_rows=0 positive_dim_rows=0 errors=0 closed_best_skipped=0 stopped_early=true cputime=0.330

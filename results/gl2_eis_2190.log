@@ -1,0 +1,12 @@
+LEVEL 2190 P 37 STURM 888
+PIECE 22
+LATTICE_RANK 4
+PROGRESS ops=25 dimW=2
+PROGRESS ops=50 dimW=2
+PROGRESS ops=75 dimW=2
+PROGRESS ops=100 dimW=2
+PROGRESS ops=125 dimW=2
+PROGRESS ops=150 dimW=2
+FINAL_EISENSTEIN_KERNEL_DIM 2 (after 154 Hecke operators to Sturm=888)
+THEOREM: a_ell(f) == 1+ell mod a prime above 37 for all ell (Eisenstein congruence proven to Sturm bound); rhobar reducible; some abelian surface isogenous to A_f has a rational point of order 37
+GL2_EIS_DONE level=2190

@@ -1,0 +1,18 @@
+
+In file "code/agent_Z48_cubic_contact_route.m", line 174, column 8:
+>>     if FixedRDen eq 0 or FixedTDen eq 0 then
+          ^
+User error: Identifier 'FixedRDen' has not been declared or assigned
+
+In file "code/agent_Z48_cubic_contact_route.m", line 626, column 36:
+>>     rvals := UseFixedSlice select [FixedR] else HeightRationals(RTHeight);
+                                      ^
+User error: Identifier 'FixedR' has not been declared or assigned
+AGENT_Z48_CUBIC_CONTACT_ROUTE
+Mode=search
+
+In file "code/agent_Z48_cubic_contact_route.m", line 928, column 5:
+>>     RunSearch();
+       ^
+User error: Identifier 'RunSearch' has not been declared or assigned
+DONE

@@ -1,0 +1,9 @@
+CONTACT6_M612_TB_RECOVERY_HEIGHT_SIEVE H=100000 modulus=111469 masks=52
+SURVIVOR branch=-1 n=0 d=1
+SURVIVOR branch=-1 n=1 d=1
+SURVIVOR branch=-1 n=3 d=1
+BRANCH_DONE branch=-1 crt=178277260 interval=159969346 primitive=96433806 survivors=3
+SURVIVOR branch=1 n=0 d=1
+SURVIVOR branch=1 n=1 d=1
+SURVIVOR branch=1 n=3 d=1
+BRANCH_DONE branch=1 crt=178277260 interval=159969329 primitive=96434019 survivors=3

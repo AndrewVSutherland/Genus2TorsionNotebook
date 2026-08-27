@@ -1,0 +1,22 @@
+Quadratic splitting obstruction for the Flynn order-22 family:
+
+eps -1 Hyperelliptic Curve defined by y^2 = x^4 - 2*x^2 + 4*x - 3 over Rational Field
+points_bound20 {@ (1 : -1 : 0), (1 : 1 : 0), (1 : 0 : 1) @}
+elliptic Elliptic Curve defined by y^2 + 8*y = x^3 + 4*x^2 + 16*x over Rational Field
+rank_bounds 0 0 torsion [ 3 ]
+
+eps 1 Hyperelliptic Curve defined by y^2 = x^4 - 2*x^2 - 4*x - 3 over Rational Field
+points_bound20 {@ (1 : -1 : 0), (1 : 1 : 0), (-1 : 0 : 1) @}
+elliptic Elliptic Curve defined by y^2 - 8*y = x^3 + 4*x^2 + 16*x over Rational Field
+rank_bounds 0 0 torsion [ 3 ]
+
+Residual cubic geometry:
+cubic residual eps -1
+  projective genus 3
+  projective closure singular True
+cubic residual eps 1
+  projective genus 3
+  projective closure singular True
+
+Bounded residual-root search:
+B 500 hits [] count 0

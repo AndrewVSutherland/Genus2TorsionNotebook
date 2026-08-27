@@ -1,0 +1,2 @@
+RANK2_DEEP_PADIC_START R1 p 13 precision 60 bank 144 input results/target_22224_R1_rank2_mwsieve_12_N1000000_modular.tsv
+RANK2_DEEP_PADIC_DONE R1 p 13 tested 13 finite 12 infinity 1 unresolved 0 deep_p5 0 output results/target_22224_R1_rank1_N1000000_p13deep.tsv

@@ -1,0 +1,17 @@
+linear part  L1 = (2*c^3 + c^2)*p   (factored: [c, 2; 2*c + 1, 1; p, 1])
+quadratic part Q2 = (4*c^3 + 4*c^2 + c)*p^2 + (4*c^3 + 4*c^2 + 2*c + 1)*q*p
+cubic part     C3 = (2*c^3 + 4*c^2 + 2*c)*p^3 + (4*c^3 + 10*c^2 + 8*c + 2)*q*p^2 + (2*c^3 + 8*c^2 + 10*c + 4)*q^2*p + (2*c^2 + 4*c + 2)*q^3
+
+=> origin is a SINGULAR point of the fibre exactly when L1 == 0, i.e. c^2(2c+1)=0:
+   c = 0 (double)  and  c = -1/2 .
+   c=0 is degenerate for the chart (v=0 <=> root r=1 = the marked point).
+   c=-1/2 is the UNIQUE non-degenerate nodal fibre through the section.
+
+line p = k q meets the cubic where  c3 q^2 + c2 q + c1 = 0 with
+  c1 = 2*k*c^3 + k*c^2
+  c2 = (4*k^2 + 4*k)*c^3 + (4*k^2 + 4*k)*c^2 + (k^2 + 2*k)*c + k
+  c3 = (2*k^3 + 4*k^2 + 2*k)*c^3 + (4*k^3 + 10*k^2 + 8*k + 2)*c^2 + (2*k^3 + 8*k^2 + 10*k + 4)*c + (2*k^2 + 4*k + 2)
+
+residual quadratic discriminant in q:   D(k,c) = (-8*k^3 - 32*k^2 - 40*k - 16)*c^5 + (-8*k^3 - 48*k^2 - 80*k - 40)*c^4 + (-16*k^2 - 48*k - 32)*c^3 + (k^3 + 4*k^2 - 4*k - 8)*c^2 + (2*k^2 + 4*k)*c + k
+  deg_k = 3   deg_c = 5
+  factor over Q(c)[k]: [(k + 2)*c + 1, 1; (8*k^2 + 16*k + 8)*c^4 + (8*k^2 + 24*k + 16)*c^3 + (8*k + 8)*c^2 + (-k^2 - 2*k)*c - k, 1]

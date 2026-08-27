@@ -1,0 +1,25 @@
+D : y^2 = -3*x^6 + 24*x^3 - 75
+RankBounds = 1..1
+torsion invariants = []
+g0 = (x^2 + 2*x + 4, 5*x + 5)
+exp(NaiveHeight(g0)) = 72.9999999999999999999999999999
+  Bound = 72   : #points = 1    g0 found : false
+  Bound = 73   : #points = 3    g0 found : true
+HeightConstant (|h - hhat| <= c) : c = 6.91995094395631258201914511650
+hhat(g0) = 4.3676406516329449292918669160187
+h(g0)    = 4.29045944114839112909210885744
+n = 2 : hhat(G) <= 1.0919101629082362323229667290047, so h(G) <= 8.01186110686454881434211184550, search bound exp = 3016.52596911121240877192834454
+n = 3 : hhat(G) <= 0.48529340573699388103242965733541, so h(G) <= 7.40524434969330646305157477384, search bound exp = 1644.58664122585426336235958158
+n = 4 : hhat(G) <= 0.27297754072705905808074168225117, so h(G) <= 7.19292848468337164009988679875, search bound exp = 1329.99237043375466199773390663
+n = 5 : hhat(G) <= 0.17470562606531779717167467664075, so h(G) <= 7.09465657002163037919081979314, search bound exp = 1205.50828470715567197121532562
+n = 6 : hhat(G) <= 0.12132335143424847025810741433385, so h(G) <= 7.04127429539056105227725253083, search bound exp = 1142.84299869769876981960392526
+searching J(D)(Q) for ALL points of naive height <= 8.01186110686454881434211184550 (Bound := 3017)
+points found: 3
+of infinite order: 2
+smallest canonical height among them: 4.3676406516329449292918669160187
+attained at (x^2 + 2*x + 4, 5*x + 5)
+ratio hhat(g0)/min = 1.0000000000000000000000000000000
+CONCLUSION: no point of J(D)(Q) has canonical height below hhat(g0),
+  in particular none with hhat <= hhat(g0)/4, so g0 = n*G forces n = 1:
+  g0 GENERATES J(D)(Q) = Z.
+SATINDEX_DONE

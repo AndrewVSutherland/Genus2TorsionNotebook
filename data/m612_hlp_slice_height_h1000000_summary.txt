@@ -1,0 +1,35 @@
+HLP transverse projective CRT sieve
+height 1000000
+base [11,13,31,43]
+base_modulus 190619
+test order [71,83,89,59,53,79,73,41,37,47,67,23,29,19,17,5,7]
+
+SURVIVOR n=0 d=1 t=0/1
+
+DONE height 1000000
+leaves 12645732
+bounded 132995974
+primitive 82753525
+survivors 1
+
+kill p=71 count=80822104
+kill p=83 count=1877992
+kill p=89 count=51622
+kill p=59 count=1745
+kill p=53 count=59
+kill p=79 count=2
+kill p=73 count=0
+kill p=41 count=0
+kill p=37 count=0
+kill p=47 count=0
+kill p=67 count=0
+kill p=23 count=0
+kill p=29 count=0
+kill p=19 count=0
+kill p=17 count=0
+kill p=5 count=0
+kill p=7 count=0
+
+Every singular finite residue and every projective denominator/infinity class
+was retained conservatively.  The sole survivor t=0 is the original split
+HLP [6,12] seed; there is no nonzero candidate for exact solving.

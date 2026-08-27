@@ -1,0 +1,158 @@
+==================================================
+Z/63      HLP Forum Math 12 (2000) eq.(4)  [TRANSCRIBED, verified]
+MODEL  y^2 = 897*z^6 - 197570*z^4 + 79136353*z^2 - 146398496
+  genus            : 2
+  TORSION          : [ 63 ]   order 63
+  2-torsion        : []
+  factor type      : [ 6 ]  (leading unit 897)
+  disc(f) factored : [ <2, 63>, <3, 15>, <13, 3>, <19, 5>, <23, 22>, <29, 1> ]
+  G2Invariants     : [ 1275622973999186561187700559463173332023112802190625/109088440895853914785379999772145736865470742528, -7415334447747926554091695150879908654480758875/4600558404852138781434716589581044908294144, 1021590225322496229867630123004633925/18532634573667637841873990213173248 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = 897*x^6 - 197570*x^4 + 79136353*x^2 - 146398496 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, -197570, 0, 70985308641, -117793547468064 ]  cond 1482  torsion [ 9 ]  rank 1
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 79136353, 0, 28923950854720, 19224970109062628352 ]  cond 42978  torsion [ 7 ]  rank 1
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 89 good primes: true
+  good primes < 500 : 89   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/7xZ/7   HLP Forum Math 12 (2000) p.15    [TRANSCRIBED, verified]
+MODEL  y^2 = z^6 + 3025*z^4 + 3232987*z^2 + 869675859
+  genus            : 2
+  TORSION          : [ 7, 7 ]   order 49
+  2-torsion        : []
+  factor type      : [ 6 ]  (leading unit 1)
+  disc(f) factored : [ <2, 60>, <3, 21>, <7, 14>, <13, 5>, <181, 1> ]
+  G2Invariants     : [ 189058724640202566877858229103396357889920153125/127983541711177216798505385789443014656, 2190328392680325235597490832053495905479625/36012392588703096422498086114295808, 280844873092297136402204005615675/82817965374161539011969024 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = x^6 + 3025*x^4 + 3232987*x^2 + 869675859 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, 3025, 0, 3232987, 869675859 ]  cond 546  torsion [ 7 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 3232987, 0, 2630769473475, 756336099727387881 ]  cond 98826  torsion [ 7 ]  rank 1
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 90 good primes: true
+  good primes < 500 : 90   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/35      E_7^{-1} glued to E_5^{13/2}     [DERIVED here via Prop 4]
+MODEL  y^2 = 9295*z^6 + 2480*z^4 + 5040*z^2 + 640
+  genus            : 2
+  TORSION          : [ 35 ]   order 35
+  2-torsion        : []
+  factor type      : [ 6 ]  (leading unit 9295)
+  disc(f) factored : [ <2, 63>, <5, 22>, <11, 1>, <13, 4> ]
+  G2Invariants     : [ 32472890290637023539951/157085500000000000, 27505613606551396299/6041750000000000, 1306511335250001/1625000000000 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = 640*x^6 + 5040*x^4 + 2480*x^2 + 9295 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, 2480, 0, 46846800, 55294096000 ]  cond 286  torsion [ 5 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 5040, 0, 1587200, 3807232000 ]  cond 26  torsion [ 7 ]  rank 0
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 91 good primes: true
+  good primes < 500 : 91   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/45      E_9^{-5} glued to E_5^{93/10}    [DERIVED here via Prop 4]
+MODEL  y^2 = 13981*z^6 + 29240200*z^4 + 49996210000*z^2 + 168300000000
+  genus            : 2
+  TORSION          : [ 45 ]   order 45
+  2-torsion        : []
+  factor type      : [ 6 ]  (leading unit 13981)
+  disc(f) factored : [ <2, 64>, <3, 12>, <5, 42>, <11, 22>, <17, 1>, <31, 7>, <41, 1> ]
+  G2Invariants     : [ 9063874232082521949153897811992563494510713289751/31983936421465054359086831115687000000000000, -20768279236565407615960544099146292002940303/1146377649514876500325692871530000000000, 7198570201867975637870740316500847/58950939228278721418763100000000 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = 13981*x^6 + 29240200*x^4 + 49996210000*x^2 + 168300000000 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, 29240200, 0, 698997012010000, 32897325156300000000 ]  cond 38130  torsion [ 5 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 49996210000, 0, 4921125660000000000, 396010287090000000000000000 ]  cond 15810  torsion [ 9 ]  rank 1
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 88 good primes: true
+  good primes < 500 : 88   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/5xZ/10  E_10^{-1} glued to E_10^{4/5}    [DERIVED here via Prop 4]
+MODEL  y^2 = 45600*z^6 + 289161*z^4 + 35186670*z^2 - 705688215
+  genus            : 2
+  TORSION          : [ 5, 10 ]   order 50
+  2-torsion        : [ 2 ]
+  factor type      : [ 1, 1, 4 ]  (leading unit 45600)
+  disc(f) factored : [ <2, 47>, <3, 32>, <5, 5>, <19, 31> ]
+  G2Invariants     : [ 71228914465366641785999/82331271539195904, 636664218571529723911/38592783533998080, -7488309819263545/114254951251968 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = 45600*x^6 + 289161*x^4 + 35186670*x^2 - 705688215 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, 289161, 0, 1604512152000, -1467379846742400000 ]  cond 570  torsion [ 10 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 35186670, 0, -204057509937615, 22708611069618811860000 ]  cond 150  torsion [ 10 ]  rank 0
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 91 good primes: true
+  good primes < 500 : 91   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/2xZ/24  E_{2,6}^{-1} glued to E_{2,8}^{1/4} [DERIVED here via Prop 4]
+MODEL  y^2 = 840*z^6 + 409*z^4 + 46*z^2 + 1
+  genus            : 2
+  TORSION          : [ 2, 24 ]   order 48
+  2-torsion        : [ 2, 2 ]
+  factor type      : [ 2, 2, 2 ]  (leading unit 840)
+  disc(f) factored : [ <2, 29>, <3, 13>, <5, 5>, <7, 1> ]
+  G2Invariants     : [ 956018328866719195307/4464104400000, 73513983290267953/9300217500, 14920764957671/44286750 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = x^6 + 46*x^4 + 409*x^2 + 840 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, 409, 0, 38640, 705600 ]  cond 210  torsion [ 2, 8 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 46, 0, 409, 840 ]  cond 30  torsion [ 2, 6 ]  rank 0
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 91 good primes: true
+  good primes < 500 : 91   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/3xZ/12  E_12^{1/3} glued to E_6^{-1/4}   [DERIVED here via Prop 4]
+MODEL  y^2 = 1296*z^6 - 936*z^4 + 249*z^2 - 20
+  genus            : 2
+  TORSION          : [ 3, 12 ]   order 36
+  2-torsion        : [ 2 ]
+  factor type      : [ 2, 4 ]  (leading unit 1296)
+  disc(f) factored : [ <2, 44>, <3, 18>, <5, 3> ]
+  G2Invariants     : [ 197791818955790399/13824000, 11430375773281/19200, 2660653761/80 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = -20*x^6 + 249*x^4 - 936*x^2 + 1296 over Rational Field
+  SUBCOVER E1 (u = x^2) : [ 0, -936, 0, 322704, -33592320 ]  cond 30  torsion [ 6 ]  rank 0
+  SUBCOVER E2 (u = 1/x^2) : [ 0, 249, 0, 18720, 518400 ]  cond 90  torsion [ 12 ]  rank 0
+  SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p) at 92 good primes: true
+  good primes < 500 : 92   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+==================================================
+Z/70      Howe's f70 (integral model 144*f70), quintic [TRANSCRIBED, verified]
+MODEL  y^2 = 3168*z^5 + 697*z^4 - 23220*z^3 + 37620*z^2 - 23328*z + 5184
+  genus            : 2
+  TORSION          : [ 70 ]   order 70
+  2-torsion        : [ 2 ]
+  factor type      : [ 2, 3 ]  (leading unit 3168)
+  disc(f) factored : [ <2, 24>, <3, 30>, <11, 5>, <13, 1> ]
+  G2Invariants     : [ -27782231202000009368896484375/293063822324235502645248, 17110083929150941232421875/1480120314768866174976, 11683032545125261515625/7475355125095283712 ]
+  reduced model    : Hyperelliptic Curve defined by y^2 = 121*x^6 - 154*x^5 + 1237*x^4 - 2340*x^3 - 1260*x^2 + 7776*x + 5184 over Rational Field
+  good primes < 500 : 91   IRREDUCIBLE chi count: 0
+  chi factor-degree types seen : [
+[ 2 ],
+[ 2, 2 ]
+]
+  real-subfield squarefree cores (RM screen) : [ 0, 1 ]
+  VERDICT: NOT geometrically simple (chi reducible at every good prime tested) -- SPLIT, as expected
+SEARCH_DONE verify

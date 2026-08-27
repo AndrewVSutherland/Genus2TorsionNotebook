@@ -1,0 +1,38 @@
+TARGET_2248_FAMILY_RICHELOT_SIEVE
+CONFIG tuple_bound 4 max_bases 0 max_sources 10 reduction_prime_count 2 exact_all_full false include_controls true
+CONTROL_SOURCE 1 unique_control 1 factor_degrees [ 1, 1, 1, 2 ]
+torsion [ 2, 4, 8 ]
+order 64 root_power false p 0 chi 0
+degrees []
+f 1569052980450*T^5 + 17480455510401*T^4 + 53939339809344*T^3 + 65460742603776*T^2 + 27862813900800*T
+h 0
+absolute_G2 [ 67520988467665065993088718221825/140454982633459286016, 3324917931811289763142893643/169337122195046400, 214687119694246230648493/204158374560000 ]
+CONTROL_SOURCE 2 unique_control 2 factor_degrees [ 1, 1, 1, 2 ]
+torsion [ 2, 4, 8 ]
+order 64 root_power true p 47 chi T^4 - 4*T^3 + 30*T^2 - 188*T + 2209
+degrees [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+f 7061463847622250*T^5 + 104632219276049025*T^4 + 135735215960638800*T^3 + 188573481843278400*T^2 + 51200550567936000*T
+h 0
+absolute_G2 [ 7331656236901728479007029571641683005280785908693/218402225579549324976268605157225267200000, 8970178033873717670300913989709877336060471187/8190083459233099686610072693395947520000, -108565959147754679627592399205305764121721/7614747017882014171434984942206976000 ]
+CONTROL_SOURCE_ACCEPT 1 control 2
+CONTROL_DUPLICATE 3 existing_control 2
+CONTROL_DUPLICATE 4 existing_control 1
+CONTROL_SUMMARY input_polynomials 4 unique_Q_curves 2 accepted_simple_248 1
+BASE 1 tuple [ 1, 2, 3, 4 ]
+richelot_count 15
+GENERATION_SUMMARY tuples_checked 1 primitive_tuples 1 bases_used 1 base_duplicates 0 edges 15 jacobians 15 one_split 3 reduction_pass 0 candidate_duplicates 0 exact_tests 0 exact_248 0 simple_248 0 accepted_sources 1
+SOURCE_FORWARD 1 origin_tuple [ 0, 0, 0, 2 ]
+origin_edge 0 f 7061463847622250*x^5 + 104632219276049025*x^4 + 135735215960638800*x^3 + 188573481843278400*x^2 + 51200550567936000*x
+h 0
+cert_p 47 cert_chi x^4 - 4*x^3 + 30*x^2 - 188*x + 2209
+cert_degrees [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+SOURCE_FORWARD_RICHELOT_COUNT 1 3
+FORWARD_EDGE 1 1 type JacHyp factor_degrees [ 1, 1, 1, 1, 1, 1 ]
+full_weierstrass true global_neighbor_index 0
+FORWARD_FULL_GATE 1 1 pass false gcd 448 rows [ <19, 448, 6> ]
+FORWARD_EDGE 1 2 type JacHyp factor_degrees [ 1, 1, 1, 1, 2 ]
+full_weierstrass false global_neighbor_index 0
+FORWARD_EDGE 1 3 type JacHyp factor_degrees [ 1, 1, 1, 1, 2 ]
+full_weierstrass false global_neighbor_index 0
+FORWARD_SUMMARY sources 1 edges 3 jacobians 3 full_weierstrass 1 reduction_pass 0 exact_tests 0 neighbor_duplicates 0 unique_neighbors 3 target_hits 0
+TARGET_2248_FAMILY_RICHELOT_SIEVE_DONE

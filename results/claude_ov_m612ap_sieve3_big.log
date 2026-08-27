@@ -1,0 +1,24 @@
+=== claude_ov_m612ap_sieve3 : intrinsic Abel-Prym MW sieve on E8 ===
+generators verified over Q: 3 cubic place pairs
+memory limit per process: 14 GB, nfork = 6
+primes: [ 107, 109, 113, 127, 131, 137, 139, 149, 151 ]
+
+Current total memory usage: 13299.2MB, failed memory request: 124.8MB
+System Error: User memory limit has been reached
+workers finished
+AP3_SIEVE_DONE
+
+=== ORCHESTRATOR CLOSE-OUT, 2026-07-25 18:25 ===
+Parent hit its 14 GB cap ("failed memory request: 124.8MB") and printed
+AP3_SIEVE_DONE, but three processes outlived it: the parent at 254 min with
+ZERO CPU (blocked), and two children at 116 min each, 100% CPU, 0 bytes
+written and no file touched since 16:27 (~2 h).
+Band 105..151 therefore completed q = 107, 109, 113, 127, 131, 137 and did NOT
+complete q = 139, 149, 151. Per-prime outputs that DO exist are in results/ap3/
+(q = 11, 101, 103, 107, 109, 113, 127, 131, 137).
+Killed by verified PID. Marginal value was low: Lane 9's reported bound already
+uses 26 primes (q = 7..131), and additional primes tighten a congruence
+(11200 | d) rather than decide anything -- an MW sieve never yields d = 0.
+Resume, if wanted, one prime per invocation with a larger cap:
+  code/claude_magma_slot.sh -b qmin:=139 qmax:=139 nfork:=1 memgb:=40 \
+      wdir:=results/ap3 tag:=ap3 code/claude_ov_m612ap_sieve.m

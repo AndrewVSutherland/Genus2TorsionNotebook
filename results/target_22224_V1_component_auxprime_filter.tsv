@@ -1,0 +1,4 @@
+m	n	torsion_coset	component	status	prime	reason	T_mod_prime	J_order
+4900	-1960	1	exceptional_plus1	killed	103	J_order_not_div3	25	12416
+0	0	1	exceptional_plus1	killed	101	J_order_not_div3	1	10240
+-2	-1	1	exceptional_plus5	killed	0	exact_third_nonsquare	-1	-1

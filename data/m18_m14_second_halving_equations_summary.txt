@@ -1,0 +1,32 @@
+Magma V2.29-4     Mon Jun 29 2026 12:08:02 on <host>  [Seed = 1400588069]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m18_m14_second_halving_equations.m"
+Family data
+t = (-1/4*$.1*$.2^2 + 1/2*$.1^2 - 1/2*$.2^2 + 1/4*$.1)/($.2^2 - 1)
+Y_R = ($.1^4*$.2^2 - 2*$.1^5 + 3*$.1^4 - 3*$.1^2*$.2^2 + 2*$.1*$.2^2 - $.1^2)/($.2^2 - 1)
+f(-R)-Y_R^2 is zero true
+
+FIRST_COVER count 5
+FIRST_COVER eq 0 total_degree 8 terms 4
+FIRST_COVER eq 1 total_degree 10 terms 21
+FIRST_COVER eq 2 total_degree 8 terms 24
+FIRST_COVER eq 3 total_degree 6 terms 21
+FIRST_COVER eq 4 total_degree -1 terms 0
+
+TARGET_416 count 5
+TARGET_416 eq 0 total_degree 5 terms 4
+TARGET_416 eq 1 total_degree 8 terms 8
+TARGET_416 eq 2 total_degree 10 terms 32
+TARGET_416 eq 3 total_degree 8 terms 28
+TARGET_416 eq 4 total_degree 6 terms 20
+
+TARGET_88 count 6
+TARGET_88 eq 0 total_degree 5 terms 4
+TARGET_88 eq 1 total_degree 8 terms 20
+TARGET_88 eq 2 total_degree 10 terms 62
+TARGET_88 eq 3 total_degree 9 terms 52
+TARGET_88 eq 4 total_degree 8 terms 41
+TARGET_88 eq 5 total_degree 5 terms 8
+
+Total time: 0.000 seconds, Total memory usage: 32.09MB

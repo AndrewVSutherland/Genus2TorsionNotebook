@@ -1,0 +1,65 @@
+
+########## BANK Z35 : Delta_7(s) = Delta_5(t) mod squares ##########
+ANCHOR Z35  s=-15 t=-87/16 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 6334277440*zz^6 - 16227728108015*zz^4 + 10520566765682944*zz^2 - 151635967868928000
+ANCHOR Z35  s=-10 t=-32 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 156160*zz^6 - 1866295*zz^4 - 35589474*zz^2 + 436401625
+ANCHOR Z35  s=-10 t=-2/11 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 115*zz^6 - 2226400*zz^4 + 126653419959*zz^2 + 4818203029750
+ANCHOR Z35  s=-10 t=-1/10 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 31*zz^6 + 3186800*zz^4 + 156767310000*zz^2 - 17742230000000
+ANCHOR Z35  s=-10 t=11/2 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 115*zz^6 - 73600*zz^4 + 138409584*zz^2 + 174064000
+ANCHOR Z35  s=-10 t=10 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 31*zz^6 + 31868*zz^4 + 15676731*zz^2 - 17742230
+ANCHOR Z35  s=-4 t=-4/5 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 24064*zz^6 - 9551575*zz^4 + 1081205625*zz^2 - 7520000000
+ANCHOR Z35  s=-4 t=5/4 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 1504*zz^6 - 382063*zz^4 + 27678864*zz^2 - 123207680
+ANCHOR Z35  s=-1 t=-26 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = -57629*zz^6 + 102080*zz^4 - 2937*zz^2 + 22
+ANCHOR Z35  s=-1 t=-2/13 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 55*zz^6 + 620*zz^4 + 53235*zz^2 + 285610
+ANCHOR Z35  s=-1 t=1/26 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = -341*zz^6 + 408320*zz^4 - 7941648*zz^2 + 40213888
+ANCHOR Z35  s=-1 t=32/13 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 718336*zz^6 - 2181895*zz^4 + 2308878*zz^2 - 656903
+ANCHOR Z35  s=-1 t=13/2 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 9295*zz^6 + 2480*zz^4 + 5040*zz^2 + 640
+ANCHOR Z35  s=-1/2 t=-54 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 18247680*zz^6 + 20638720*zz^4 - 25040*zz^2 + 10
+ANCHOR Z35  s=-1/2 t=-29/24 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 3293356*zz^6 + 991881*zz^4 - 1104840*zz^2 + 384912
+ANCHOR Z35  s=-1/2 t=24/29 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 64159744*zz^6 + 28213504*zz^4 - 45884960*zz^2 + 23340273
+ANCHOR Z35  s=-1/6 t=-26/21 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 39865872384*zz^6 + 6563773440*zz^4 + 305291952*zz^2 + 4941258
+ANCHOR Z35  s=-1/6 t=21/26 perm=[ 2, 3, 1 ]  torsion=[ 35 ]  y^2 = 2686965696*zz^6 + 678144960*zz^4 + 48349548*zz^2 + 1199562
+ANCHOR Z35  s=1/5 t=-4/5 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 376000000*zz^6 - 238789375*zz^4 + 43248225*zz^2 - 481280
+ANCHOR Z35  s=1/5 t=5/4 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 367187500000*zz^6 - 149243359375*zz^4 + 17299290000*zz^2 - 123207680
+ANCHOR Z35  s=1/2 t=-26 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = -236048384*zz^6 + 26132480*zz^4 - 46992*zz^2 + 22
+ANCHOR Z35  s=1/2 t=-2/13 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 225280*zz^6 + 158720*zz^4 + 851760*zz^2 + 285610
+ANCHOR Z35  s=1/2 t=1/26 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = -21824*zz^6 + 1633280*zz^4 - 1985412*zz^2 + 628342
+ANCHOR Z35  s=1/2 t=32/13 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 2942304256*zz^6 - 558565120*zz^4 + 36942048*zz^2 - 656903
+ANCHOR Z35  s=1/2 t=13/2 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 594880*zz^6 + 9920*zz^4 + 1260*zz^2 + 10
+ANCHOR Z35  s=2/3 t=-54 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 2367569655*zz^6 + 528947820*zz^4 - 126765*zz^2 + 10
+ANCHOR Z35  s=2/3 t=-29/24 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 600214131*zz^6 + 35707716*zz^4 - 7856640*zz^2 + 540672
+ANCHOR Z35  s=2/3 t=24/29 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 8324491824*zz^6 + 723081249*zz^4 - 232292610*zz^2 + 23340273
+ANCHOR Z35  s=5/4 t=-4/5 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 1577058304*zz^6 - 2445203200*zz^4 + 1081205625*zz^2 - 29375000
+ANCHOR Z35  s=5/4 t=5/4 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = 6160384*zz^6 - 6113008*zz^4 + 1729929*zz^2 - 30080
+ANCHOR Z35  s=2 t=-26 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = -57629*zz^6 + 102080*zz^4 - 2937*zz^2 + 22
+ANCHOR Z35  s=2 t=-2/13 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 55*zz^6 + 620*zz^4 + 53235*zz^2 + 285610
+ANCHOR Z35  s=2 t=1/26 perm=[ 1, 2, 3 ]  torsion=[ 35 ]  y^2 = -341*zz^6 + 408320*zz^4 - 7941648*zz^2 + 40213888
+ANCHOR Z35  s=2 t=32/13 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 718336*zz^6 - 2181895*zz^4 + 2308878*zz^2 - 656903
+ANCHOR Z35  s=2 t=13/2 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 9295*zz^6 + 2480*zz^4 + 5040*zz^2 + 640
+ANCHOR Z35  s=3 t=-54 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 4455*zz^6 + 80620*zz^4 - 1565*zz^2 + 10
+ANCHOR Z35  s=3 t=-29/24 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 823339*zz^6 + 3967524*zz^4 - 70709760*zz^2 + 394149888
+ANCHOR Z35  s=3 t=24/29 perm=[ 1, 3, 2 ]  torsion=[ 35 ]  y^2 = 15664*zz^6 + 110209*zz^4 - 2867810*zz^2 + 23340273
+ANCHOR Z35  s=7 t=-26/21 perm=[ 2, 3, 1 ]  torsion=[ 35 ]  y^2 = 13351*zz^6 + 2848860*zz^4 + 171726723*zz^2 + 3602177082
+ANCHOR Z35  s=7 t=21/26 perm=[ 2, 3, 1 ]  torsion=[ 35 ]  y^2 = 79*zz^6 + 25840*zz^4 + 2387632*zz^2 + 76771968
+BANK Z35: 40 discriminant-matching (s,t) pairs, 40 rational sextics built
+
+########## BANK Z45 : Delta_9(s) = Delta_5(t) mod squares ##########
+ANCHOR Z45  s=-5 t=93/10 perm=[ 1, 3, 2 ]  torsion=[ 45 ]  y^2 = 13981*zz^6 + 29240200*zz^4 + 49996210000*zz^2 + 168300000000
+ANCHOR Z45  s=1/6 t=93/10 perm=[ 3, 1, 2 ]  torsion=[ 45 ]  y^2 = 616280275252224*zz^6 + 27625673116800*zz^4 + 1012423252500*zz^2 + 73046875
+ANCHOR Z45  s=6/5 t=93/10 perm=[ 3, 1, 2 ]  torsion=[ 45 ]  y^2 = 136533203125*zz^6 + 18275125000*zz^4 + 1999848400*zz^2 + 430848
+BANK Z45: 3 discriminant-matching (s,t) pairs, 3 rational sextics built
+
+########## BANK 77 : Delta_7(s) = Delta_7(t) mod squares ##########
+ANCHOR 77  s=-1/6 t=-14/13 perm=[ 1, 3, 2 ]  torsion=[ 7, 7 ]  y^2 = 11201745845661696*zz^6 + 917699861115648*zz^4 + 18923022003600*zz^2 + 137858491849
+ANCHOR 77  s=-1/6 t=27/14 perm=[ 2, 3, 1 ]  torsion=[ 7, 7 ]  y^2 = 462181408182819*zz^6 + 50929118124507*zz^4 + 1412520365025*zz^2 + 13841287201
+ANCHOR 77  s=6/7 t=-14/13 perm=[ 1, 3, 2 ]  torsion=[ 7, 7 ]  y^2 = 71227416190505211*zz^6 + 3149742010709203*zz^4 + 35057234437225*zz^2 + 137858491849
+ANCHOR 77  s=6/7 t=27/14 perm=[ 2, 3, 1 ]  torsion=[ 7, 7 ]  y^2 = 869675859*zz^6 + 51727792*zz^4 + 774400*zz^2 + 4096
+ANCHOR 77  s=7 t=-14/13 perm=[ 2, 3, 1 ]  torsion=[ 7, 7 ]  y^2 = 5146011*zz^6 + 546374803*zz^4 + 14601097225*zz^2 + 137858491849
+ANCHOR 77  s=7 t=27/14 perm=[ 2, 3, 1 ]  torsion=[ 7, 7 ]  y^2 = 869675859*zz^6 + 124198428592*zz^4 + 4464261894400*zz^2 + 56693912375296
+BANK 77: 669 discriminant-matching (s,t) pairs, 6 rational sextics built
+
+########## BANK Z63 : Delta_7(s) = Delta_9(t) mod squares ##########
+ANCHOR Z63  s=-16/3 t=-1/3 perm=[ 1, 2, 3 ]  torsion=[ 63 ]  y^2 = 897*zz^6 - 1778130*zz^4 + 6410044593*zz^2 - 106724503584
+ANCHOR Z63  s=-16/3 t=3/4 perm=[ 1, 2, 3 ]  torsion=[ 63 ]  y^2 = 476702577*zz^6 - 5309467729920*zz^4 + 107542702706393088*zz^2 - 10060428040057389056
+ANCHOR Z63  s=-16/3 t=4 perm=[ 1, 2, 3 ]  torsion=[ 63 ]  y^2 = 476702577*zz^6 - 1296256770*zz^4 + 6410044593*zz^2 - 146398496
+BANK Z63: 12 discriminant-matching (s,t) pairs, 3 rational sextics built
+SEARCH_DONE stage 4

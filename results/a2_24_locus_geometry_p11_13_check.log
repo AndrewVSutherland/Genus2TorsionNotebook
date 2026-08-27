@@ -1,0 +1,6 @@
+LOCUS GEOMETRY PROBE  primes=[ 11, 13 ]
+ell   N_o8       N_o8_r2    N_full     Nfull/ell    Nfull-ell   
+11    0          0          0          0.000000     -11         
+13    0          0          0          0.000000     -13         
+RESULTS [ <11, 0, 0, 0>, <13, 0, 0, 0> ]
+DONE

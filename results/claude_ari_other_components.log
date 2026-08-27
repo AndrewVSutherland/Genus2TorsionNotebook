@@ -1,0 +1,10 @@
+==== calibration on curve #2 (s,m,n)=(2208,-8303,-7200) ====
+crit 0: false 
+crit 1: false 
+crit 2: true +
+crit 3: false 
+crit 4: false 
+==== small scan over (s:m:n), height <= 60, all five criteria ====
+scan hits: 0
+==== verify each scan hit with DivisionPoints + TorsionSubgroup ====
+ALL_DONE

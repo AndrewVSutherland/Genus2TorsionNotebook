@@ -1,0 +1,186 @@
+CONTACT7 search rational
+height 8 parameters 87 max_exact 10000
+HIT a -5 b 7/2 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 3
+  f = 16*x^5 + 84*x^4 - 224*x^3 - 552*x^2 + 1232*x - 300
+  factorization = [
+    <x + 3, 1>,
+    <x^4 + 9/4*x^3 - 83/4*x^2 + 111/4*x - 25/4, 1>
+]
+HIT a 0 b 1/2 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 5
+  f = 16*x^5 - 108*x^4 + 336*x^3 - 616*x^2 + 576*x - 140
+  factorization = [
+    <x^2 - 2*x + 5, 1>,
+    <x^3 - 19/4*x^2 + 13/2*x - 7/4, 1>
+]
+HIT a 1 b 5/2 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 7
+  f = 16*x^5 - 12*x^4 + 416*x^3 - 824*x^2 + 528*x - 108
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 26*x^2 - 32*x + 9, 1>
+]
+HIT a 2 b 7/6 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 1296*x^5 - 7308*x^4 + 33264*x^3 - 50760*x^2 + 30240*x - 6156
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 - 44/9*x^3 + 22*x^2 - 68/3*x + 19/3, 1>
+]
+HIT a 3 b -1/6 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 1296*x^5 - 9036*x^4 + 25920*x^3 - 32184*x^2 + 17712*x - 3564
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 - 56/9*x^3 + 46/3*x^2 - 40/3*x + 11/3, 1>
+]
+HIT a 4 b -7/2 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 5
+  f = 16*x^5 + 84*x^4 - 112*x^3 + 88*x^2 - 12
+  factorization = [
+    <x^2 + 6*x - 3, 1>,
+    <x^3 - 3/4*x^2 + 1/2*x + 1/4, 1>
+]
+HIT a -7/2 b 4 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 16*x^5 + 144*x^4 - 112*x^3 - 812*x^2 + 1080*x - 252
+  factorization = [
+    <x + 3, 1>,
+    <x^4 + 6*x^3 - 25*x^2 + 97/4*x - 21/4, 1>
+]
+HIT a -7/2 b 3/2 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 5
+  f = 16*x^5 - 76*x^4 + 168*x^3 - 532*x^2 + 1000*x - 252
+  factorization = [
+    <x^2 + x + 7, 1>,
+    <x^3 - 23/4*x^2 + 37/4*x - 9/4, 1>
+]
+HIT a -5/2 b 5/6 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 7
+  f = 1296*x^5 - 8172*x^4 + 21816*x^3 - 44820*x^2 + 70200*x - 17820
+  factorization = [
+    <x - 11/36, 1>,
+    <x^4 - 6*x^3 + 15*x^2 - 30*x + 45, 1>
+]
+HIT a -1/2 b 5 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 3
+  f = 16*x^5 + 288*x^4 + 256*x^3 - 1116*x^2 + 776*x - 156
+  factorization = [
+    <x + 3, 1>,
+    <x^4 + 15*x^3 - 29*x^2 + 69/4*x - 13/4, 1>
+]
+HIT a 5/2 b 6 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 13
+  f = 16*x^5 + 464*x^4 + 816*x^3 - 1132*x^2 + 472*x - 60
+  factorization = [
+    <x + 3, 1>,
+    <x^4 + 26*x^3 - 27*x^2 + 41/4*x - 5/4, 1>
+]
+HIT a 5/2 b -1/2 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 5
+  f = 16*x^5 - 108*x^4 + 296*x^3 - 404*x^2 + 264*x - 60
+  factorization = [
+    <x^2 - 3*x + 3, 1>,
+    <x^3 - 15/4*x^2 + 17/4*x - 5/4, 1>
+]
+HIT a 5/2 b 1/2 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 3
+  f = 16*x^5 - 108*x^4 + 376*x^3 - 516*x^2 + 296*x - 60
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 - 6*x^3 + 19*x^2 - 18*x + 5, 1>
+]
+HIT a 5/2 b 2/3 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 1296*x^5 - 8496*x^4 + 31536*x^3 - 43308*x^2 + 24408*x - 4860
+  factorization = [
+    <x - 5/9, 1>,
+    <x^4 - 6*x^3 + 21*x^2 - 87/4*x + 27/4, 1>
+]
+HIT a 7/2 b -5/6 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 11
+  f = 1296*x^5 - 8172*x^4 + 19656*x^3 - 21924*x^2 + 11448*x - 2268
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 - 50/9*x^3 + 11*x^2 - 26/3*x + 7/3, 1>
+]
+HIT a 7/3 b -7/6 torsion [ 28 ]
+order 28 factor_type 2+3 simple false pcert 0
+  f = 1296*x^5 - 7308*x^4 + 20160*x^3 - 27720*x^2 + 21168*x - 5292
+  factorization = [
+    <x^2 - 7/4*x + 7/4, 1>,
+    <x^3 - 35/9*x^2 + 7*x - 7/3, 1>
+]
+HIT a -5/4 b 6 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 7
+  f = 256*x^5 + 7424*x^4 + 1536*x^3 - 19312*x^2 + 14272*x - 2880
+  factorization = [
+    <x^2 + 28*x - 20, 1>,
+    <x^3 + x^2 - 2*x + 9/16, 1>
+]
+HIT a 1/4 b 7/2 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 3
+  f = 256*x^5 + 1344*x^4 + 5824*x^3 - 15216*x^2 + 10304*x - 2112
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 6*x^3 + 109/4*x^2 - 39*x + 11, 1>
+]
+HIT a 7/4 b 3/2 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 256*x^5 - 1216*x^4 + 6720*x^3 - 10864*x^2 + 6592*x - 1344
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 - 4*x^3 + 93/4*x^2 - 25*x + 7, 1>
+]
+HIT a -7/8 b 5 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 3
+  f = 4096*x^5 + 73728*x^4 + 50176*x^3 - 283584*x^2 + 209408*x - 43008
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 75/4*x^3 + 421/16*x^2 - 99/2*x + 14, 1>
+]
+HIT a -3/8 b 6 torsion [ 14 ]
+order 14 factor_type 2+3 simple true pcert 7
+  f = 4096*x^5 + 118784*x^4 + 67584*x^3 - 314816*x^2 + 203264*x - 38912
+  factorization = [
+    <x^2 + 7/4*x - 19/16, 1>,
+    <x^3 + 109/4*x^2 - 30*x + 8, 1>
+]
+HIT a -1/8 b 4 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 4096*x^5 + 36864*x^4 + 81920*x^3 - 257984*x^2 + 179712*x - 36864
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 39/4*x^3 + 437/16*x^2 - 85/2*x + 12, 1>
+]
+HIT a -1/8 b -3/4 torsion [ 14 ]
+order 14 factor_type 2+3 simple false pcert 0
+  f = 4096*x^5 - 26368*x^4 + 86784*x^3 - 121792*x^2 + 140800*x - 36864
+  factorization = [
+    <x^2 - x + 9/4, 1>,
+    <x^3 - 87/16*x^2 + 27/2*x - 4, 1>
+]
+HIT a 5/8 b 3 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 5
+  f = 4096*x^5 + 8192*x^4 + 101376*x^3 - 227776*x^2 + 150016*x - 30720
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 11/4*x^3 + 429/16*x^2 - 71/2*x + 10, 1>
+]
+HIT a 7/8 b 8/3 torsion [ 14 ]
+order 14 factor_type 1+4 simple true pcert 13
+  f = 331776*x^5 + 36864*x^4 + 8515584*x^3 - 17551296*x^2 + 11349504*x - 2322432
+  factorization = [
+    <x - 3/4, 1>,
+    <x^4 + 31/36*x^3 + 421/16*x^2 - 199/6*x + 28/3, 1>
+]
+DONE contact7 rational
+checked 7569 smooth 7541 verified7 7541 reducible 25 exact_tests 25 hits 25
+Factor type counts
+  1+4 17
+  2+3 8
+  5 7516
+Torsion counts among exact reducible cases
+  [ 14 ] 24
+  [ 28 ] 1

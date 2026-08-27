@@ -1,0 +1,19 @@
+external gate_file supplied; skipping inline mod-49 survivor gate
+M_1(8,4) [4,16] live-stratum gated search
+height=100 aux_primes=[ 11, 13, 37, 41 ] Part=4/6 smooth_strata_only=false gate_mod=343
+gate_file=data/agent_m18_416_smooth_strata_mod343_gate.txt
+aux_prime 11: open target416 residues 4
+aux_prime 13: open target416 residues 4
+aux_prime 37: open target416 residues 64
+aux_prime 41: open target416 residues 112
+parameters=12175  gate_residues=5692  mod343-gated pair budget=5495485
+progress cand=50000 smooth=49733 firstposs=0 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+DONE cand=73353 auxkill=837063 smooth=72979 firstposs=2 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+TORSION_COUNTS
+P7_STRATUM_COUNTS
+  <3,3> gate_res=766 gate_budget=732080 work_res=132 work_budget=125640 auxkill=114836 cand=10804 smooth=10726 firstposs=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <3,4> gate_res=766 gate_budget=732080 work_res=123 work_budget=117406 auxkill=107535 cand=9871 smooth=9803 firstposs=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <4,0> gate_res=833 gate_budget=816416 work_res=137 work_budget=131610 auxkill=121289 cand=10163 smooth=10163 firstposs=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,0> gate_res=1715 gate_budget=1672837 work_res=287 work_budget=277463 auxkill=256486 cand=20761 smooth=20761 firstposs=1 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,2> gate_res=806 gate_budget=771036 work_res=126 work_budget=125249 auxkill=114649 cand=10600 smooth=10533 firstposs=1 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,5> gate_res=806 gate_budget=771036 work_res=144 work_budget=133422 auxkill=122268 cand=11154 smooth=10993 firstposs=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0

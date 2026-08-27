@@ -1,0 +1,78 @@
+
+==== (a) rank and saturation ====
+RankBounds = 0..1
+ReducedBasis: 1 gen(s); heights [ 0.50118239204717836371111998436553 ]
+P = (x^2 - 2*x, 8*x, 2)  hhat(P) = 0.50118239204717836371111998436553
+after saturation at all primes <= 50: gens [ (x^2 - 2*x, 8*x, 2) ] heights [ 0.50118239204717836371111998436553 ]
+index check: hhat(sat gen) = 0.50118239204717836371111998436553 vs hhat(P) = 0.50118239204717836371111998436553
+HeightConstant(J) = 22.2342101128697832838282821298  (naive - canonical bound)
+#Points(J,Bound:=400) = 1 ; smallest infinite-order canonical heights: []
+
+==== Chabauty re-run with the saturated generator ====
+Chabauty: #V = 8, second return = {} (type SetEnum)
+V = {@ (0 : 0 : 1), (12 : 0 : 7), (-6 : -11664 : 1), (2 : -16 : 1), (6 : -3888 : 5), (6 : 3888 : 5), (-6 : 11664 : 1), (2 : 16 : 1) @}
+matches naive Points(Bound:=200000)? true
+
+==== (c) the rational points of X ====
+#X(Q) (affine, T finite) = 13
+   (T,u,v) = (-6, 108, 972)
+   (T,u,v) = (-6, 108, -972)
+   (T,u,v) = (-6, -108, 972)
+   (T,u,v) = (-6, -108, -972)
+   (T,u,v) = (0, 0, 36)
+   (T,u,v) = (0, 0, -36)
+   (T,u,v) = (12/7, 108/49, 0)
+   (T,u,v) = (12/7, -108/49, 0)
+   (T,u,v) = (2, 4, 4)
+   (T,u,v) = (2, 4, -4)
+   (T,u,v) = (2, -4, 4)
+   (T,u,v) = (2, -4, -4)
+   (T,u,v) = (3, 0, 0)
+points at infinity of X: fibre over T=oo needs sqrt(lc G1)=sqrt(1) and sqrt(lc G2)=sqrt(259) -> field Q(sqrt 259), NOT rational
+
+==== (d) automorphisms and the isogeny type ====
+Aut(H) over Q: Permutation group AH acting on a set of cardinality 4
+Order = 4 = 2^2
+(1, 2)(3, 4)
+Id(AH)
+(1, 3)(2, 4) (order 4)
+GeometricAutomorphismGroup(H) = <4, 2>
+-- Frobenius L-polys of H at good primes (looking for a split) --
+   p=5 : L = [
+<5*x^2 + 1, 1>,
+<5*x^2 + 4*x + 1, 1>
+]  (reducible)
+   p=7 : L = [
+<7*x^2 + 1, 1>,
+<7*x^2 + 4*x + 1, 1>
+]  (reducible)
+   p=11 : L = [
+<11*x^2 + 1, 2>
+]  (reducible)
+   p=13 : L = [
+<13*x^2 - 2*x + 1, 1>,
+<13*x^2 + 6*x + 1, 1>
+]  (reducible)
+   p=17 : L = [
+<17*x^2 + 1, 1>,
+<17*x^2 + 8*x + 1, 1>
+]  (reducible)
+   p=19 : L = [
+<19*x^2 - 8*x + 1, 1>,
+<19*x^2 + 1, 1>
+]  (reducible)
+   p=23 : L = [
+<23*x^2 + 1, 2>
+]  (reducible)
+   p=29 : L = [
+<29*x^2 - 4*x + 1, 1>,
+<29*x^2 + 1, 1>
+]  (reducible)
+reducible L-polys among primes 5..200: 44
+
+-- genus-4 curve X : automorphisms of the function field --
+genus(X) = 4
+
+# Automorphisms(X/Q) on the genus-4 function field did not terminate within ~5 min; KILLED.
+# Aut(X) contains the (Z/2)^2 deck group of X -> P^1_T by construction; see claude_ov_c7z_aut.m.
+VERIFY_DONE (Aut(X) step killed)

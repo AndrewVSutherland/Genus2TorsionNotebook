@@ -1,0 +1,47 @@
+Loading "split_lab.m"
+POOL 26: 21658 curves
+POOL total 21658
+PROGRESS sieve 500/21658 rows, 0 cands, 35.850 s
+PROGRESS sieve 1000/21658 rows, 0 cands, 70.110 s
+PROGRESS sieve 1500/21658 rows, 0 cands, 103.210 s
+PROGRESS sieve 2000/21658 rows, 0 cands, 135.650 s
+PROGRESS sieve 2500/21658 rows, 0 cands, 162.700 s
+PROGRESS sieve 3000/21658 rows, 0 cands, 186.100 s
+PROGRESS sieve 3500/21658 rows, 0 cands, 207.740 s
+PROGRESS sieve 4000/21658 rows, 0 cands, 229.040 s
+PROGRESS sieve 4500/21658 rows, 0 cands, 250.670 s
+PROGRESS sieve 5000/21658 rows, 0 cands, 268.890 s
+PROGRESS sieve 5500/21658 rows, 0 cands, 285.070 s
+PROGRESS sieve 6000/21658 rows, 0 cands, 300.580 s
+PROGRESS sieve 6500/21658 rows, 0 cands, 315.560 s
+PROGRESS sieve 7000/21658 rows, 0 cands, 330.370 s
+PROGRESS sieve 7500/21658 rows, 0 cands, 343.950 s
+PROGRESS sieve 8000/21658 rows, 0 cands, 357.050 s
+PROGRESS sieve 8500/21658 rows, 0 cands, 369.530 s
+PROGRESS sieve 9000/21658 rows, 0 cands, 381.410 s
+PROGRESS sieve 9500/21658 rows, 0 cands, 392.840 s
+PROGRESS sieve 10000/21658 rows, 0 cands, 403.680 s
+PROGRESS sieve 10500/21658 rows, 0 cands, 413.950 s
+PROGRESS sieve 11000/21658 rows, 0 cands, 423.800 s
+PROGRESS sieve 11500/21658 rows, 0 cands, 433.110 s
+PROGRESS sieve 12000/21658 rows, 0 cands, 441.980 s
+PROGRESS sieve 12500/21658 rows, 0 cands, 450.410 s
+PROGRESS sieve 13000/21658 rows, 0 cands, 458.190 s
+PROGRESS sieve 13500/21658 rows, 0 cands, 465.420 s
+PROGRESS sieve 14000/21658 rows, 0 cands, 472.340 s
+PROGRESS sieve 14500/21658 rows, 0 cands, 478.890 s
+PROGRESS sieve 15000/21658 rows, 0 cands, 484.930 s
+PROGRESS sieve 15500/21658 rows, 0 cands, 490.630 s
+PROGRESS sieve 16000/21658 rows, 0 cands, 495.830 s
+PROGRESS sieve 16500/21658 rows, 0 cands, 500.580 s
+PROGRESS sieve 17000/21658 rows, 0 cands, 504.890 s
+PROGRESS sieve 17500/21658 rows, 0 cands, 508.750 s
+PROGRESS sieve 18000/21658 rows, 0 cands, 512.130 s
+PROGRESS sieve 18500/21658 rows, 0 cands, 515.150 s
+PROGRESS sieve 19000/21658 rows, 0 cands, 517.700 s
+PROGRESS sieve 19500/21658 rows, 0 cands, 519.810 s
+PROGRESS sieve 20000/21658 rows, 0 cands, 521.450 s
+PROGRESS sieve 20500/21658 rows, 0 cands, 522.670 s
+PROGRESS sieve 21000/21658 rows, 0 cands, 523.460 s
+PROGRESS sieve 21500/21658 rows, 0 cands, 523.800 s
+SIEVE_DONE cands=0 523.880 s

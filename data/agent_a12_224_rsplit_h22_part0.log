@@ -1,0 +1,11 @@
+RSPLIT SEARCH pH=22 zH=14 wH=22 Part=0/2 (r=(w^2-4p^2-1)/(4p))
+PROGRESS tested=100000 rsplit=99491 froot=0 halvable=0
+PROGRESS tested=200000 rsplit=198983 froot=0 halvable=0
+PROGRESS tested=300000 rsplit=298475 froot=0 halvable=0
+PROGRESS tested=400000 rsplit=397967 froot=0 halvable=0
+PROGRESS tested=500000 rsplit=497459 froot=0 halvable=0
+
+Current total memory usage: 2827.2MB, failed memory request: 885.5MB
+System Error: User memory limit has been reached
+SEARCH_DONE tested=578583 rsplit=575534 froot=0 halvable=0
+DONE

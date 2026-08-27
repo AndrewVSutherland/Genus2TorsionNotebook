@@ -1,0 +1,7 @@
+M18_416_SMOOTH_STRATA_MOD343_GATE kercap=3 output=data/agent_m18_416_smooth_strata_mod343_gate_50_test.txt
+strata=[
+[ 5, 0 ]
+] NParts=1 Part=0
+stratum <5,0>: aux7=6 survive=1715 capped=0 killed=686 total=2401
+DONE survive=1715 capped=0 killed=686
+Wrote data/agent_m18_416_smooth_strata_mod343_gate_50_test.txt

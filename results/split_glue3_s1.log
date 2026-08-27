@@ -1,0 +1,16 @@
+GRID 37 values, twists 10, shard 1/3
+PROGRESS ia=1/37 processed 1332 escalated 0
+PROGRESS ia=4/37 processed 2664 escalated 0
+PROGRESS ia=7/37 processed 3996 escalated 0
+PROGRESS ia=10/37 processed 5328 escalated 0
+G3HIT a=5 b=-8 c=0 t=-3 E1tors=6 E2tors=6 JTORSION [ 2, 6 ] order 12
+PROGRESS ia=13/37 processed 6660 escalated 1
+PROGRESS ia=16/37 processed 7992 escalated 1
+PROGRESS ia=19/37 processed 9324 escalated 1
+PROGRESS ia=22/37 processed 10656 escalated 1
+PROGRESS ia=25/37 processed 11988 escalated 1
+PROGRESS ia=28/37 processed 13320 escalated 1
+PROGRESS ia=31/37 processed 14652 escalated 1
+PROGRESS ia=34/37 processed 15984 escalated 1
+PROGRESS ia=37/37 processed 17316 escalated 1
+GLUE3_DONE shard 1/3

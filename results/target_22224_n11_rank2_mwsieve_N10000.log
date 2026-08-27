@@ -1,0 +1,29 @@
+N11_RANK2_MWSIEVE_START N 10000 primes [ 11, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+E Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+rank_bounds 2 2 generators [ (4310 : 176400 : 1), (26360 : -4013100 : 1), (28265/4 : 1466325/8 : 1) ]
+known_t 1/13
+N11_PRIME_PROFILE p 11 orders 16 16 total 1024 third_fail 576 open_no3 0 open_3 0 boundary 448 allowed 448
+N11_PRIORITY_CLASSES p 11 boundary_count 448 open_3_count 0 full_list_in results/target_22224_n11_rank2_residue_classes_116197.tsv
+N11_PRIME_PROFILE p 29 orders 16 16 total 1024 third_fail 320 open_no3 224 open_3 224 boundary 256 allowed 480
+N11_PRIME_PROFILE p 31 orders 32 32 total 4096 third_fail 1408 open_no3 1024 open_3 896 boundary 768 allowed 1664
+N11_PRIME_PROFILE p 37 orders 24 24 total 2304 third_fail 960 open_no3 144 open_3 528 boundary 672 allowed 1200
+N11_PRIME_PROFILE p 41 orders 13 26 total 1352 third_fail 442 open_no3 208 open_3 598 boundary 104 allowed 702
+N11_PRIME_PROFILE p 43 orders 40 8 total 1280 third_fail 384 open_no3 448 open_3 128 boundary 320 allowed 448
+N11_PRIME_PROFILE p 47 orders 56 56 total 12544 third_fail 5376 open_no3 1792 open_3 3360 boundary 2016 allowed 5376
+N11_PRIME_PROFILE p 53 orders 30 15 total 1800 third_fail 660 open_no3 570 open_3 330 boundary 240 allowed 570
+N11_PRIME_PROFILE p 59 orders 28 28 total 3136 third_fail 1120 open_no3 448 open_3 1120 boundary 448 allowed 1568
+N11_PRIME_PROFILE p 61 orders 52 52 total 10816 third_fail 5408 open_no3 4576 open_3 0 boundary 832 allowed 832
+N11_PRIORITY_CLASSES p 61 boundary_count 832 open_3_count 0 full_list_in results/target_22224_n11_rank2_residue_classes_116197.tsv
+N11_PRIME_PROFILE p 67 orders 72 72 total 20736 third_fail 9216 open_no3 7776 open_3 1152 boundary 2592 allowed 3744
+N11_PRIME_PROFILE p 71 orders 12 18 total 864 third_fail 312 open_no3 276 open_3 144 boundary 132 allowed 276
+N11_PRIME_PROFILE p 73 orders 34 17 total 2312 third_fail 850 open_no3 918 open_3 408 boundary 136 allowed 544
+N11_PRIME_PROFILE p 79 orders 11 11 total 484 third_fail 154 open_no3 198 open_3 44 boundary 88 allowed 132
+N11_PRIME_PROFILE p 83 orders 20 8 total 640 third_fail 352 open_no3 112 open_3 128 boundary 48 allowed 176
+N11_PRIME_PROFILE p 89 orders 25 50 total 5000 third_fail 2600 open_no3 1200 open_3 900 boundary 300 allowed 1200
+N11_PRIME_PROFILE p 97 orders 3 42 total 504 third_fail 234 open_no3 162 open_3 72 boundary 36 allowed 108
+N11_PRIORITY_CLASSES p 97 boundary_count 36 open_3_count 72 full_list_in results/target_22224_n11_rank2_residue_classes_116197.tsv
+N11_CRT_STEP p 11 classes 448
+N11_CRT_STEP p 61 classes 5824
+N11_CRT_STEP p 97 classes 89856
+N11_CRT_CLASSES count 89856
+N11_RANK2_MWSIEVE_DONE box_total 1600160004 periodic_enumerated 13186810 modular_survivors 103 deferred_large_index 97 exact_full 0 height_skip 0 three_hits 0 crt_file results/target_22224_n11_rank2_periodic_lattice_116197.tsv modular_file results/target_22224_n11_rank2_modular_N10000.tsv

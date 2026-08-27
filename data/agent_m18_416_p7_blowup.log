@@ -1,0 +1,29 @@
+M18_416_P7_BLOWUP p 7 Level 2
+E416 solvable residues: good_open=0 boundary=21 (good_open should be 0)
+FIRST_BLOWUP mod 49 : surviving (R,w) mod 49 per boundary residue
+(smooth = # mod-7 aux solutions with invertible aux-Jacobian => Hensel-liftable to Q_7)
+  residue <0,0>: surviving = 49 / 49   Hensel_smooth_aux = 0
+  residue <0,2>: surviving = 2 / 49   Hensel_smooth_aux = 0
+  residue <0,3>: surviving = 24 / 49   Hensel_smooth_aux = 0
+  residue <0,4>: surviving = 24 / 49   Hensel_smooth_aux = 0
+  residue <0,5>: surviving = 2 / 49   Hensel_smooth_aux = 0
+  residue <1,0>: surviving = 49 / 49   Hensel_smooth_aux = 0
+  residue <1,1>: surviving = 25 / 49   Hensel_smooth_aux = 0
+  residue <1,2>: surviving = 7 / 49   Hensel_smooth_aux = 0
+  residue <1,3>: surviving = 7 / 49   Hensel_smooth_aux = 0
+  residue <1,4>: surviving = 7 / 49   Hensel_smooth_aux = 0
+  residue <1,5>: surviving = 7 / 49   Hensel_smooth_aux = 0
+  residue <1,6>: surviving = 25 / 49   Hensel_smooth_aux = 0
+  residue <3,0>: surviving = 0 / 49   Hensel_smooth_aux = 0
+  residue <3,3>: surviving = 23 / 49   Hensel_smooth_aux = 0
+  residue <3,4>: surviving = 23 / 49   Hensel_smooth_aux = 0
+  residue <4,0>: surviving = 28 / 49   Hensel_smooth_aux = 0
+  residue <5,0>: surviving = 49 / 49   Hensel_smooth_aux = 0
+  residue <5,2>: surviving = 24 / 49   Hensel_smooth_aux = 0
+  residue <5,5>: surviving = 24 / 49   Hensel_smooth_aux = 0
+  residue <6,1>: surviving = 25 / 49   Hensel_smooth_aux = 0
+  residue <6,6>: surviving = 25 / 49   Hensel_smooth_aux = 0
+Hensel-smooth boundary residues (prime candidates): 0
+TOTAL surviving (R,w) mod 49 = 449  (was 21 residues mod 7, i.e. 1029 lifts before blowup)
+Live tangent strata exist; these mod-49 residues are the refined search targets.
+DONE

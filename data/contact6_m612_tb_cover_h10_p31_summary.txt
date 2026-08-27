@@ -1,0 +1,32 @@
+CONTACT6_M612_TB_COVER_SEARCH -- HEIGHT 10, PRIMES THROUGH 31
+
+Command:
+  magma -b height:=10 prime_bound:=31 max_exact:=100 \
+    diagnostic_halves:=true progress_interval:=10000 \
+    code/contact6_m612_tb_cover_search.m
+
+H_SHAPE <total degree 8, degree_s 4, degree_r 5, degree_K 3, 31 terms>
+
+checked 15876
+mask_survivors 200
+cubic_roots 224
+square_lifts 27
+smooth 7
+local_survivors 0
+simple_survivors 0
+exact_tests 0
+hits 0
+
+Every smooth candidate passed both the coefficient-square reconstruction and
+the exact Jacobian test 2*H4=TB, Order(H4)=4.  Their first killing data were:
+
+  (s,r,K)=(1,5/8,25/64):             p=11, [2,2,24]
+  (s,r,K)=(-4/3,-3/8,9/64):          p=13, [2,4,24]
+  (s,r,K)=(-7/4,9/8,225/64):         p=23, [2,360]
+  (s,r,K)=(3/4,3/2,9/4):             p=7,  [2,36]
+  (s,r,K)=(-3/5,9,36):               p=13, [2,96]
+  (s,r,K)=(5/6,9/4,9):               p=11, [2,72]
+  (s,r,K)=(7/6,1/4,1):               p=11, [2,36]
+
+The recovery-boundary tuple (s,r,K)=(-7/4,7/8,81/64) was retained and
+reported separately, not silently discarded by the residue masks.

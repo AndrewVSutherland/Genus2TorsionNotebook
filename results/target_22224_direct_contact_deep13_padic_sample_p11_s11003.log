@@ -1,0 +1,5 @@
+PADIC_LIFT p 11 exponent 5 modulus 161051 base (0, 5, 2, 8, 4, 9, 10) flags qrep+root0+rad0 jacobian_ranks [7]
+  vector (156211, 134832, 8813, 154844, 88367, 40588, 80321, 27698, 159467, 154047, 112347)
+  equations [0, 0, 0, 0, 0, 0, 0, 0]
+  open_values {'t': 40588, 'qdisc': 27643, 'rootprod': 93291, 'qroot0': 24347, 'y0': 27698, 'qroot1': 50722, 'y1': 159467, 'qroot2': 80007, 'y2': 154047, 'qroot3': 89666, 'y3': 112347, 'diff01': 2912, 'diff02': 30818, 'diff03': 37545, 'diff12': 27906, 'diff13': 34633, 'diff23': 6727, 'rect01_23': 97774, 'rect02_13': 104823, 'rect03_12': 46256}
+CERTIFICATES 1 OUTPUT results/target_22224_direct_contact_deep13_padic_sample_p11_s11003.tsv

@@ -1,0 +1,4 @@
+TARGET_22224_P31_BOUNDARY_FIBRATION_START AHeight 100 PointBound 300 MultipleBound 30
+P31_BOUNDARY_FIBRATION_SUMMARY fibres 374 singular 1 conversion_fail 0 pointsearch_fail 0 E_points 23044 inverse_fail 748 first_square_points 11819 second_square_points 379 nontrivial 0 written 0
+OUTPUT results/target_22224_p31_boundary_fibration_candidates.tsv
+TARGET_22224_P31_BOUNDARY_FIBRATION_DONE

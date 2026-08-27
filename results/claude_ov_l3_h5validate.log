@@ -1,0 +1,1000 @@
+ROW 28800.dz1 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 14, 22, 23, 34, 35, 46, 62, 77, 82, 85, 86, 102, 130, 474 ] nprimes=43
+ROW 16000.b4 H5zero=false ndisc=18 discs=[ 2, 7, 11, 14, 15, 21, 22, 30, 39, 58, 78, 102, 127, 130, 154, 322, 358, 382 ] nprimes=44
+ROW 712336.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=45
+ROW 451584.bdu7 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=42
+ROW 378225.e1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 155236.a2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 90000.m4 H5zero=false ndisc=20 discs=[ 2, 3, 5, 7, 11, 13, 17, 22, 26, 29, 33, 37, 42, 59, 82, 86, 107, 122, 129, 158 ] nprimes=43
+ROW 577600.ct2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 60025.m1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 11025.i4 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 557568.xv2 H5zero=false ndisc=16 discs=[ 2, 7, 11, 13, 14, 15, 17, 30, 35, 39, 46, 71, 78, 103, 105, 167 ] nprimes=43
+ROW 824464.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 152881.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 511225.l1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 1012500.ee2 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 21, 26, 39, 41, 46, 94, 106, 114, 134, 166, 174, 186, 394, 466 ] nprimes=43
+ROW 960400.hk2 H5zero=true ndisc=18 discs=[ 2, 5, 13, 17, 22, 23, 31, 39, 41, 53, 69, 83, 133, 143, 157, 183, 391, 489 ] nprimes=43
+ROW 968000.hw1 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 14, 17, 19, 22, 29, 39, 42, 46, 61, 78, 82, 106, 138, 334, 358, 406, 458 ] nprimes=43
+ROW 780125.e2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 14, 30, 38, 41, 61, 66, 70, 78, 94, 142, 238, 246, 278, 390 ] nprimes=43
+ROW 144500.t2 H5zero=false ndisc=18 discs=[ 2, 3, 7, 10, 13, 14, 15, 17, 19, 31, 39, 43, 65, 71, 179, 187, 227, 267 ] nprimes=43
+ROW 473344.br2 H5zero=false ndisc=1 discs=[ 21 ] nprimes=43
+ROW 992016.bn1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 451584.fb1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=43
+ROW 99225.a1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 36864.cf5 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 270000.ig2 H5zero=true ndisc=12 discs=[ 5, 6, 11, 14, 15, 21, 26, 30, 41, 69, 79, 101 ] nprimes=43
+ROW 937024.cy1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 540000.ld1 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 99856.b1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 691488.ds2 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 10, 29, 31, 51, 85, 89, 91, 94, 106, 109, 110, 114, 119, 149 ] nprimes=43
+ROW 75625.h3 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 104544.hh4 H5zero=false ndisc=12 discs=[ 3, 7, 10, 13, 21, 22, 33, 34, 39, 57, 69, 70 ] nprimes=43
+ROW 270000.ig9 H5zero=true ndisc=12 discs=[ 5, 6, 11, 14, 15, 21, 26, 30, 41, 69, 79, 101 ] nprimes=43
+ROW 21168.b8 H5zero=true ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 15488.r1 H5zero=false ndisc=20 discs=[ 2, 3, 6, 7, 10, 11, 13, 17, 29, 34, 35, 53, 61, 65, 67, 102, 114, 190, 446, 710 ] nprimes=44
+ROW 198025.m1 H5zero=true ndisc=20 discs=[ 5, 6, 14, 21, 26, 29, 31, 59, 66, 69, 79, 94, 109, 119, 181, 194, 209, 251, 319, 326 ] nprimes=43
+ROW 250000.e1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 490000.ch3 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 11, 14, 17, 19, 29, 33, 37, 38, 41, 59, 71, 78, 111, 119, 193, 293, 479 ] nprimes=43
+ROW 783225.g1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 640000.kg6 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 123904.di1 H5zero=false ndisc=16 discs=[ 2, 5, 6, 11, 13, 23, 31, 33, 53, 57, 61, 77, 101, 109, 165, 205 ] nprimes=44
+ROW 50176.y3 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 540000.bu2 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 13, 17, 19, 21, 26, 30, 33, 73 ] nprimes=43
+ROW 646416.f2 H5zero=false ndisc=15 discs=[ 5, 6, 10, 11, 15, 19, 39, 41, 61, 65, 69, 89, 146, 185, 409 ] nprimes=42
+ROW 230400.sv3 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 14, 22, 23, 34, 35, 46, 62, 77, 82, 85, 86, 102, 130, 474 ] nprimes=43
+ROW 403225.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 527076.w1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 275625.bg2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 99856.h1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 11, 14, 22, 39, 53, 66, 131, 155, 166, 179, 203, 227, 443, 678 ] nprimes=44
+ROW 21904.h2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 162000.ff6 H5zero=true ndisc=13 discs=[ 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ] nprimes=43
+ROW 432000.bhg2 H5zero=false ndisc=15 discs=[ 2, 17, 19, 43, 55, 70, 83, 89, 145, 157, 187, 202, 307, 390, 611 ] nprimes=43
+ROW 878004.h4 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 15, 19, 29, 41, 65, 66, 69, 79, 101, 109, 119, 321, 411, 469 ] nprimes=43
+ROW 173056.d2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 331776.jp3 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 50625.p3 H5zero=true ndisc=12 discs=[ 2, 5, 6, 7, 11, 26, 34, 38, 42, 83, 113, 218 ] nprimes=43
+ROW 342225.c2 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 14, 15, 21, 23, 26, 30, 55 ] nprimes=42
+ROW 327184.j2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 968832.ll1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 11, 19, 23, 47, 58, 91, 107, 113, 227, 235, 371, 595 ] nprimes=43
+ROW 562500.j1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 808083.b2 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 21, 26, 30, 35, 39, 46, 71, 89, 106, 119, 139, 146, 170, 314, 381, 489, 654 ] nprimes=42
+ROW 90000.bn2 H5zero=true ndisc=14 discs=[ 5, 11, 14, 19, 21, 29, 34, 39, 41, 46, 89, 94, 179, 371 ] nprimes=43
+ROW 292032.g2 H5zero=false ndisc=14 discs=[ 2, 3, 6, 7, 14, 22, 26, 33, 41, 57, 74, 82, 97, 105 ] nprimes=43
+ROW 172800.dm10 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 11, 17, 30, 38, 39, 43, 73, 91 ] nprimes=42
+ROW 123904.dd1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 7, 10, 19, 23, 26, 29, 33, 35, 51, 67, 83, 93, 101, 127, 587 ] nprimes=44
+ROW 82944.bq3 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 270000.ig12 H5zero=true ndisc=12 discs=[ 5, 6, 11, 14, 15, 21, 26, 30, 41, 69, 79, 101 ] nprimes=43
+ROW 717409.g1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 476100.dv1 H5zero=false ndisc=18 discs=[ 2, 3, 7, 11, 17, 22, 26, 33, 34, 38, 53, 79, 87, 118, 146, 158, 182, 214 ] nprimes=42
+ROW 541696.y4 H5zero=false ndisc=19 discs=[ 2, 6, 10, 11, 13, 14, 21, 26, 30, 33, 38, 78, 83, 86, 114, 262, 278, 410, 494 ] nprimes=44
+ROW 200000.bg2 H5zero=true ndisc=20 discs=[ 2, 3, 5, 6, 7, 11, 14, 17, 22, 26, 31, 33, 38, 58, 62, 109, 123, 134, 151, 238 ] nprimes=44
+ROW 584064.fr4 H5zero=false ndisc=14 discs=[ 2, 5, 7, 10, 13, 14, 21, 30, 33, 58, 62, 97, 102, 106 ] nprimes=43
+ROW 697225.a2 H5zero=true ndisc=20 discs=[ 2, 3, 5, 6, 7, 14, 34, 41, 57, 138, 187, 197, 201, 229, 258, 314, 317, 339, 386, 481 ] nprimes=43
+ROW 10368.n2 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 350464.t1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 17689.c1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 496125.bt2 H5zero=true ndisc=11 discs=[ 5, 6, 14, 26, 34, 46, 79, 106, 214, 334, 346 ] nprimes=42
+ROW 369664.do1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 11, 15, 17, 21, 41, 42, 53, 59, 61, 91, 95, 97, 483 ] nprimes=43
+ROW 236672.p2 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 7, 10, 14, 22, 29, 31, 74, 118, 122, 142, 154, 258, 406 ] nprimes=44
+ROW 451584.zq2 H5zero=false ndisc=22 discs=[ 2, 3, 6, 7, 14, 15, 33, 35, 38, 39, 41, 62, 70, 73, 91, 118, 190, 214, 254, 430, 470, 494 ] nprimes=43
+ROW 75625.i1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 611524.d1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 836352.bju3 H5zero=false ndisc=19 discs=[ 2, 3, 5, 6, 10, 14, 15, 21, 22, 41, 57, 69, 70, 74, 85, 134, 137, 154, 238 ] nprimes=43
+ROW 240100.o1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 717409.t5 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 707281.h1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 968000.hw2 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 14, 17, 19, 22, 29, 39, 42, 46, 61, 78, 82, 106, 138, 334, 358, 406, 458 ] nprimes=43
+ROW 404496.n1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 332928.bq1 H5zero=false ndisc=12 discs=[ 2, 3, 6, 10, 14, 17, 26, 33, 41, 58, 89, 154 ] nprimes=43
+ROW 722000.v1 H5zero=false ndisc=16 discs=[ 2, 3, 7, 10, 26, 30, 33, 79, 82, 91, 106, 122, 130, 194, 274, 386 ] nprimes=43
+ROW 149769.e1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 751689.h2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 168100.s2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 41616.bw5 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 15, 22, 23, 31, 35, 42, 67, 106 ] nprimes=42
+ROW 952576.bj1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 21025.c4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 202500.m1 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 26, 41, 59, 66, 69, 74, 79, 119, 149, 186, 219, 359, 366, 419 ] nprimes=43
+ROW 800000.cd2 H5zero=true ndisc=19 discs=[ 2, 5, 26, 34, 38, 42, 62, 86, 138, 146, 158, 166, 174, 194, 226, 238, 246, 266, 506 ] nprimes=44
+ROW 790272.bdy2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 19, 41, 51, 61, 67, 79, 95, 163 ] nprimes=43
+ROW 952576.br2 H5zero=false ndisc=24 discs=[ 2, 3, 5, 7, 13, 19, 22, 26, 31, 34, 35, 66, 69, 91, 107, 129, 130, 195, 214, 221, 293, 322, 454, 533 ] nprimes=44
+ROW 302500.bq1 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 7, 19, 29, 33, 34, 43, 59, 61, 70, 78, 86, 109, 115, 310, 371, 373 ] nprimes=43
+ROW 342225.cs3 H5zero=true ndisc=14 discs=[ 2, 3, 5, 6, 13, 19, 21, 23, 29, 31, 37, 57, 71, 118 ] nprimes=42
+ROW 902500.v1 H5zero=true ndisc=13 discs=[ 5, 6, 11, 26, 34, 46, 66, 89, 111, 114, 154, 166, 254 ] nprimes=43
+ROW 152100.ci2 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 15, 17, 22, 31, 39, 65, 129, 137 ] nprimes=42
+ROW 147968.bm6 H5zero=false ndisc=14 discs=[ 2, 3, 5, 11, 17, 21, 26, 29, 33, 37, 42, 74, 97, 114 ] nprimes=43
+ROW 270000.fv2 H5zero=false ndisc=10 discs=[ 2, 5, 6, 7, 10, 13, 14, 17, 33, 57 ] nprimes=43
+ROW 760500.ml2 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 19, 26, 41, 46, 66, 74, 79, 131, 134, 214, 246, 274, 286, 366 ] nprimes=42
+ROW 148176.cu1 H5zero=true ndisc=17 discs=[ 5, 11, 14, 17, 19, 35, 46, 51, 55, 70, 79, 89, 94, 201, 271, 370, 409 ] nprimes=43
+ROW 242000.cu1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 13, 17, 19, 23, 33, 37, 42, 58, 69, 91, 103, 109, 113 ] nprimes=43
+ROW 325125.e1 H5zero=true ndisc=18 discs=[ 2, 5, 6, 11, 22, 23, 26, 37, 57, 59, 82, 86, 94, 102, 142, 166, 262, 318 ] nprimes=42
+ROW 281961.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 48841.j1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 703125.a1 H5zero=true ndisc=19 discs=[ 2, 5, 7, 13, 17, 33, 34, 62, 66, 67, 69, 94, 103, 134, 166, 222, 402, 493, 518 ] nprimes=43
+ROW 36864.cf4 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 41472.db2 H5zero=false ndisc=19 discs=[ 2, 5, 6, 10, 13, 14, 30, 33, 46, 53, 65, 66, 70, 94, 110, 129, 170, 174, 286 ] nprimes=44
+ROW 714025.n6 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 137641.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 793881.u1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 529200.ri4 H5zero=false ndisc=11 discs=[ 2, 5, 6, 13, 14, 19, 39, 51, 53, 91, 165 ] nprimes=42
+ROW 202500.cm1 H5zero=true ndisc=15 discs=[ 5, 6, 14, 19, 26, 29, 59, 86, 94, 134, 161, 194, 214, 226, 266 ] nprimes=43
+ROW 1012500.w2 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 21, 29, 34, 39, 51, 66, 69, 154, 166, 214, 254, 326, 354, 426 ] nprimes=43
+ROW 378225.e2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 447561.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 80000.by2 H5zero=false ndisc=21 discs=[ 6, 10, 13, 14, 17, 19, 23, 26, 30, 34, 38, 57, 66, 109, 110, 130, 138, 174, 202, 458, 518 ] nprimes=44
+ROW 1012500.q1 H5zero=true ndisc=20 discs=[ 3, 5, 7, 13, 14, 17, 19, 23, 39, 57, 78, 157, 203, 209, 233, 246, 291, 303, 382, 498 ] nprimes=43
+ROW 715716.bp2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 490000.ej1 H5zero=false ndisc=22 discs=[ 2, 3, 5, 6, 7, 11, 14, 17, 19, 21, 23, 26, 33, 39, 47, 51, 58, 106, 146, 249, 401, 419 ] nprimes=43
+ROW 600625.c4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 7225.c1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 80000.v3 H5zero=false ndisc=21 discs=[ 6, 10, 13, 14, 17, 19, 23, 26, 30, 34, 38, 57, 66, 109, 110, 130, 138, 174, 202, 458, 518 ] nprimes=44
+ROW 16900.a1 H5zero=false ndisc=12 discs=[ 5, 6, 10, 14, 26, 29, 31, 39, 41, 61, 89, 101 ] nprimes=43
+ROW 802816.dj7 H5zero=true ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=43
+ROW 544500.ea3 H5zero=false ndisc=16 discs=[ 2, 3, 6, 7, 10, 11, 15, 19, 21, 22, 30, 34, 43, 46, 51, 181 ] nprimes=42
+ROW 946125.bb1 H5zero=false ndisc=12 discs=[ 2, 3, 5, 10, 33, 58, 66, 69, 97, 113, 129, 157 ] nprimes=42
+ROW 68121.k1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 714025.p3 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 541696.cw1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 225792.ri4 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=43
+ROW 12500.a2 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 19, 26, 39, 46, 61, 66, 71, 214, 246, 334, 454 ] nprimes=44
+ROW 112896.mr5 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=43
+ROW 1849.a1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 703125.e1 H5zero=true ndisc=17 discs=[ 5, 6, 11, 14, 19, 26, 29, 34, 39, 71, 154, 174, 194, 206, 334, 386, 574 ] nprimes=43
+ROW 802816.u2 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 17, 19, 23, 30, 51, 57, 139, 165 ] nprimes=44
+ROW 627264.sl4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 1024144.w1 H5zero=false ndisc=19 discs=[ 2, 3, 6, 10, 11, 19, 30, 35, 82, 93, 123, 133, 142, 145, 154, 174, 203, 317, 374 ] nprimes=42
+ROW 242000.dr4 H5zero=false ndisc=14 discs=[ 3, 5, 6, 7, 10, 13, 19, 22, 46, 61, 70, 79, 142, 214 ] nprimes=43
+ROW 220500.dq2 H5zero=false ndisc=12 discs=[ 5, 11, 19, 21, 29, 31, 39, 41, 59, 61, 69, 111 ] nprimes=42
+ROW 88209.k2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 387200.ik1 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 10, 15, 17, 19, 31, 34, 43, 47, 78, 79, 83, 115, 129, 163, 411, 491 ] nprimes=43
+ROW 99225.j3 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 44100.c7 H5zero=true ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 29, 43, 53, 57, 62, 91, 149 ] nprimes=42
+ROW 30625.g2 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 22, 23, 29, 85, 93, 110, 122, 149, 173, 202, 213, 318, 613, 662 ] nprimes=43
+ROW 705600.biq2 H5zero=false ndisc=14 discs=[ 2, 6, 7, 10, 11, 14, 15, 23, 31, 38, 87, 95, 102, 158 ] nprimes=42
+ROW 232324.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 257049.a1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 609961.a1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 630436.a1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 802816.f6 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=43
+ROW 253125.v1 H5zero=true ndisc=21 discs=[ 2, 5, 7, 11, 13, 14, 17, 26, 34, 37, 38, 41, 43, 82, 94, 118, 122, 127, 134, 358, 386 ] nprimes=43
+ROW 15625.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 583200.jg2 H5zero=false ndisc=20 discs=[ 2, 3, 7, 10, 14, 23, 33, 57, 73, 79, 82, 83, 91, 94, 122, 161, 201, 213, 362, 474 ] nprimes=43
+ROW 164836.z1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 210681.bb1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 680625.o1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 864900.cm2 H5zero=true ndisc=17 discs=[ 2, 5, 6, 10, 11, 14, 29, 61, 70, 89, 111, 149, 190, 259, 514, 589, 606 ] nprimes=42
+ROW 603729.bd1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 451584.fb6 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=42
+ROW 225792.ka1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 26, 33, 51, 61, 66, 82, 85, 138 ] nprimes=43
+ROW 810000.go1 H5zero=true ndisc=18 discs=[ 2, 5, 11, 13, 14, 21, 23, 26, 43, 47, 61, 82, 114, 119, 218, 238, 266, 298 ] nprimes=43
+ROW 15129.h2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 209088.na1 H5zero=true ndisc=14 discs=[ 2, 3, 5, 10, 11, 15, 17, 23, 31, 39, 61, 97, 101, 139 ] nprimes=43
+ROW 677376.uf1 H5zero=false ndisc=15 discs=[ 2, 3, 10, 29, 30, 37, 38, 58, 83, 107, 143, 149, 154, 218, 498 ] nprimes=43
+ROW 56448.c2 H5zero=false ndisc=16 discs=[ 3, 6, 7, 10, 13, 19, 21, 34, 39, 43, 55, 73, 78, 82, 94, 109 ] nprimes=43
+ROW 442368.c9 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=43
+ROW 705600.oi2 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 10, 13, 19, 21, 30, 43, 61, 91 ] nprimes=42
+ROW 802816.dj4 H5zero=true ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=44
+ROW 57600.dq1 H5zero=false ndisc=11 discs=[ 2, 7, 14, 15, 17, 33, 55, 57, 71, 105, 137 ] nprimes=43
+ROW 144000.da1 H5zero=false ndisc=15 discs=[ 2, 3, 7, 11, 15, 21, 23, 29, 30, 42, 43, 67, 71, 77, 109 ] nprimes=43
+ROW 893025.gc3 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 259200.uf1 H5zero=true ndisc=20 discs=[ 2, 3, 5, 7, 10, 22, 23, 30, 34, 46, 47, 51, 62, 66, 122, 130, 134, 158, 202, 382 ] nprimes=43
+ROW 741321.r1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 717409.t4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 21952.z2 H5zero=false ndisc=12 discs=[ 3, 6, 7, 10, 13, 21, 22, 46, 73, 246, 358, 430 ] nprimes=44
+ROW 24389.b2 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 13, 14, 22, 23, 35, 39, 43, 51, 67, 91, 123, 127, 131 ] nprimes=44
+ROW 94864.cb1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 10, 11, 13, 21, 22, 30, 33, 78, 105, 110, 134, 206, 574 ] nprimes=43
+ROW 193600.fr1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 693889.i2 H5zero=false ndisc=21 discs=[ 2, 3, 5, 13, 15, 31, 43, 46, 47, 62, 73, 77, 89, 109, 119, 127, 181, 391, 521, 641, 647 ] nprimes=43
+ROW 225792.fh2 H5zero=false ndisc=14 discs=[ 2, 3, 6, 7, 10, 31, 37, 42, 43, 66, 73, 82, 115, 133 ] nprimes=43
+ROW 529200.ri14 H5zero=true ndisc=11 discs=[ 2, 5, 6, 13, 14, 19, 39, 51, 53, 91, 165 ] nprimes=42
+ROW 30625.a1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 19881.h1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 435600.lw6 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 7, 13, 17, 19, 21, 26, 41, 46, 59, 67, 97, 107, 129, 146 ] nprimes=42
+ROW 680625.q1 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 26, 31, 34, 46, 74, 86, 94, 106, 154, 166, 214, 266, 334, 446, 554 ] nprimes=42
+ROW 774400.sx3 H5zero=false ndisc=1 discs=[ 33 ] nprimes=43
+ROW 56448.ei2 H5zero=false ndisc=12 discs=[ 2, 5, 6, 10, 11, 19, 29, 34, 39, 51, 55, 106 ] nprimes=43
+ROW 518400.bbl2 H5zero=true ndisc=18 discs=[ 3, 5, 7, 13, 22, 31, 46, 57, 66, 109, 133, 154, 163, 183, 201, 214, 246, 534 ] nprimes=43
+ROW 259200.ml1 H5zero=true ndisc=18 discs=[ 2, 5, 6, 7, 15, 17, 26, 46, 53, 77, 93, 94, 102, 105, 230, 370, 374, 462 ] nprimes=43
+ROW 320000.be4 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 366025.e4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 900000.cs1 H5zero=true ndisc=18 discs=[ 2, 5, 6, 10, 11, 15, 19, 94, 145, 209, 241, 286, 371, 391, 410, 449, 489, 514 ] nprimes=43
+ROW 225792.ka5 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 26, 33, 51, 61, 66, 82, 85, 138 ] nprimes=43
+ROW 169744.i1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 722500.bc1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 166464.dj1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 894348.if2 H5zero=false ndisc=11 discs=[ 2, 3, 6, 7, 15, 17, 33, 34, 38, 74, 110 ] nprimes=42
+ROW 722000.bo3 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 19, 34, 42, 58, 66, 67, 106, 130, 274, 298 ] nprimes=42
+ROW 984064.bx1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 477603.be2 H5zero=true ndisc=20 discs=[ 2, 3, 5, 11, 13, 38, 41, 65, 70, 77, 93, 95, 101, 158, 211, 257, 298, 319, 346, 590 ] nprimes=42
+ROW 914112.en1 H5zero=false ndisc=18 discs=[ 2, 7, 14, 30, 34, 46, 58, 66, 73, 82, 95, 119, 138, 142, 146, 158, 194, 478 ] nprimes=43
+ROW 7569.b4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 705600.vf4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 720000.es2 H5zero=false ndisc=20 discs=[ 2, 6, 11, 15, 17, 19, 21, 26, 34, 39, 58, 62, 71, 101, 111, 282, 313, 371, 501, 687 ] nprimes=43
+ROW 612500.a1 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 21, 26, 29, 31, 34, 46, 51, 74, 79, 101, 174, 246, 314, 646 ] nprimes=43
+ROW 332928.cj1 H5zero=true ndisc=20 discs=[ 2, 5, 7, 14, 15, 19, 29, 35, 42, 46, 55, 65, 82, 109, 138, 142, 174, 178, 202, 310 ] nprimes=43
+ROW 184041.r1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 454276.f1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 1036800.gh1 H5zero=false ndisc=20 discs=[ 2, 3, 6, 10, 14, 29, 30, 34, 47, 58, 65, 78, 87, 102, 114, 142, 163, 170, 278, 330 ] nprimes=43
+ROW 77841.d4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 47916.m1 H5zero=true ndisc=13 discs=[ 3, 5, 6, 10, 11, 19, 21, 30, 46, 74, 85, 101, 111 ] nprimes=43
+ROW 692224.eb1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 11, 13, 14, 21, 23, 38, 53, 65, 67, 70, 101, 123, 253, 389, 419 ] nprimes=44
+ROW 56448.bp1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 10, 15, 17, 33, 39, 47, 71, 79 ] nprimes=43
+ROW 300125.a1 H5zero=false ndisc=16 discs=[ 3, 5, 6, 7, 10, 15, 19, 31, 46, 55, 79, 91, 145, 157, 199, 231 ] nprimes=43
+ROW 864900.ee2 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 14, 19, 37, 47, 51, 57, 89 ] nprimes=42
+ROW 184041.s2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 270000.fv1 H5zero=false ndisc=10 discs=[ 2, 5, 6, 7, 10, 13, 14, 17, 33, 57 ] nprimes=43
+ROW 320000.be5 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 223729.e1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 148225.u4 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 10368.n3 H5zero=false ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 313600.eh4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 28224.dv3 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 11, 13, 21, 33, 66, 93 ] nprimes=43
+ROW 756900.eh2 H5zero=false ndisc=13 discs=[ 2, 3, 6, 7, 14, 15, 23, 30, 33, 41, 46, 57, 65 ] nprimes=42
+ROW 68121.b4 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 162000.ff2 H5zero=false ndisc=13 discs=[ 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ] nprimes=43
+ROW 480249.bw2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 613089.p1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 442368.c8 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 27889.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 372100.m1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 903168.uk2 H5zero=false ndisc=17 discs=[ 2, 3, 6, 10, 13, 22, 31, 33, 41, 51, 55, 58, 73, 122, 123, 246, 598 ] nprimes=43
+ROW 228528.bx2 H5zero=true ndisc=14 discs=[ 5, 6, 14, 29, 59, 119, 130, 134, 379, 386, 501, 534, 545, 649 ] nprimes=43
+ROW 409600.ik3 H5zero=false ndisc=1 discs=[ 5 ] nprimes=44
+ROW 751689.h5 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 96100.h1 H5zero=false ndisc=1 discs=[ 6 ] nprimes=43
+ROW 609408.iy2 H5zero=false ndisc=15 discs=[ 2, 3, 7, 19, 34, 37, 39, 42, 58, 82, 89, 93, 154, 166, 254 ] nprimes=43
+ROW 396900.p1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 29, 43, 53, 57, 62, 91, 149 ] nprimes=42
+ROW 338688.bau7 H5zero=false ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 585225.ca1 H5zero=false ndisc=16 discs=[ 2, 7, 14, 23, 31, 39, 47, 55, 62, 78, 79, 174, 258, 366, 382, 514 ] nprimes=42
+ROW 893025.q1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 1012500.bc2 H5zero=true ndisc=20 discs=[ 3, 5, 7, 13, 14, 17, 19, 23, 39, 57, 78, 157, 203, 209, 233, 246, 291, 303, 382, 498 ] nprimes=43
+ROW 138384.x1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 495616.cf2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 285156.d1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 30625.a6 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 111556.f1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 350464.bi2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=44
+ROW 83521.a1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=44
+ROW 303601.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 360000.n3 H5zero=true ndisc=20 discs=[ 2, 5, 13, 14, 17, 21, 23, 29, 38, 42, 58, 62, 86, 91, 122, 158, 194, 254, 382, 386 ] nprimes=43
+ROW 389376.kc3 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 94864.bn1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 10, 11, 13, 21, 22, 30, 33, 78, 105, 110, 134, 206, 574 ] nprimes=43
+ROW 802816.u4 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 17, 19, 23, 30, 51, 57, 139, 165 ] nprimes=44
+ROW 872356.h1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=45
+ROW 36125.b2 H5zero=true ndisc=19 discs=[ 2, 3, 5, 6, 21, 23, 42, 51, 58, 106, 122, 139, 178, 182, 186, 226, 262, 422, 502 ] nprimes=43
+ROW 139392.cx1 H5zero=false ndisc=19 discs=[ 2, 3, 7, 13, 15, 17, 21, 22, 30, 34, 39, 65, 82, 113, 159, 210, 226, 258, 402 ] nprimes=43
+ROW 32400.dd1 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 26, 29, 31, 46, 69, 71, 89, 101, 149, 174, 251, 286, 329, 431 ] nprimes=43
+ROW 419904.fc2 H5zero=false ndisc=1 discs=[ 33 ] nprimes=44
+ROW 790272.bdy5 H5zero=true ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 19, 41, 51, 61, 67, 79, 95, 163 ] nprimes=43
+ROW 60025.i7 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 720000.dn2 H5zero=true ndisc=20 discs=[ 5, 6, 10, 11, 14, 21, 26, 30, 34, 51, 66, 74, 95, 106, 111, 130, 210, 286, 314, 454 ] nprimes=43
+ROW 473344.cc1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 680625.v1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 26, 29, 34, 41, 46, 74, 94, 149, 206, 226, 254 ] nprimes=42
+ROW 720000.pr2 H5zero=false ndisc=16 discs=[ 2, 13, 14, 26, 33, 37, 46, 55, 82, 102, 106, 154, 166, 190, 282, 538 ] nprimes=43
+ROW 291600.jo2 H5zero=false ndisc=20 discs=[ 2, 5, 6, 7, 11, 14, 17, 19, 23, 29, 31, 33, 51, 53, 78, 101, 131, 173, 187, 421 ] nprimes=43
+ROW 241081.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 751689.h1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 200704.ex2 H5zero=false ndisc=19 discs=[ 2, 3, 7, 10, 11, 26, 35, 39, 41, 42, 47, 65, 74, 154, 178, 194, 226, 282, 314 ] nprimes=44
+ROW 90000.e1 H5zero=true ndisc=11 discs=[ 5, 6, 11, 14, 21, 34, 46, 66, 74, 86, 106 ] nprimes=43
+ROW 705600.vf2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 246016.ck2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=44
+ROW 97969.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 568516.q2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 840500.bb1 H5zero=false ndisc=16 discs=[ 2, 5, 6, 11, 17, 23, 30, 34, 42, 65, 86, 97, 106, 170, 206, 254 ] nprimes=43
+ROW 518400.bkm2 H5zero=false ndisc=17 discs=[ 2, 3, 6, 10, 19, 31, 34, 42, 58, 66, 69, 79, 93, 130, 138, 282, 394 ] nprimes=43
+ROW 7744.f1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 466489.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 28224.dv4 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 11, 13, 21, 33, 66, 93 ] nprimes=43
+ROW 245025.d4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 1012500.bh1 H5zero=true ndisc=16 discs=[ 5, 6, 14, 19, 21, 26, 29, 31, 66, 69, 86, 106, 174, 346, 394, 646 ] nprimes=43
+ROW 876096.sg4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 38025.c2 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 22, 31, 34, 39, 46, 65, 79, 113 ] nprimes=42
+ROW 760500.dt2 H5zero=true ndisc=20 discs=[ 2, 3, 5, 11, 14, 22, 23, 38, 42, 46, 58, 79, 82, 86, 142, 158, 238, 386, 438, 562 ] nprimes=42
+ROW 1000000.e1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 69696.fp1 H5zero=false ndisc=17 discs=[ 2, 5, 6, 13, 17, 22, 26, 37, 66, 69, 73, 106, 113, 134, 181, 185, 309 ] nprimes=43
+ROW 72000.bu6 H5zero=false ndisc=14 discs=[ 3, 5, 7, 11, 17, 23, 33, 37, 39, 57, 61, 87, 103, 119 ] nprimes=43
+ROW 648000.lb2 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 7, 22, 29, 46, 78, 82, 89, 114, 137, 138, 166, 174, 194, 454 ] nprimes=43
+ROW 790272.iq2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 19, 41, 51, 61, 67, 79, 95, 163 ] nprimes=43
+ROW 225792.ri5 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=42
+ROW 65025.g1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 170569.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 171396.bh1 H5zero=false ndisc=1 discs=[ 7 ] nprimes=43
+ROW 810000.ma1 H5zero=true ndisc=17 discs=[ 5, 6, 11, 14, 21, 26, 34, 39, 41, 46, 59, 109, 161, 179, 439, 506, 579 ] nprimes=43
+ROW 338688.bau2 H5zero=true ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 731025.ch2 H5zero=false ndisc=1 discs=[ 7 ] nprimes=42
+ROW 7569.b2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 549081.ba1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 900000.bj2 H5zero=true ndisc=16 discs=[ 5, 6, 10, 11, 31, 34, 61, 70, 89, 145, 154, 181, 190, 334, 365, 695 ] nprimes=43
+ROW 220500.dq5 H5zero=true ndisc=12 discs=[ 5, 11, 19, 21, 29, 31, 39, 41, 59, 61, 69, 111 ] nprimes=42
+ROW 288369.o1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 508032.xw2 H5zero=true ndisc=16 discs=[ 2, 3, 5, 6, 11, 14, 23, 26, 30, 42, 102, 110, 130, 158, 190, 278 ] nprimes=43
+ROW 1044484.h2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 242000.y1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 21, 26, 34, 46, 101, 131, 134, 146, 154, 186, 326, 334 ] nprimes=43
+ROW 100000.h2 H5zero=true ndisc=20 discs=[ 2, 5, 6, 7, 11, 14, 19, 26, 31, 46, 69, 74, 91, 101, 119, 151, 154, 386, 439, 489 ] nprimes=44
+ROW 128164.a2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 680625.bm2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 291600.bn2 H5zero=false ndisc=20 discs=[ 2, 5, 6, 7, 11, 14, 17, 19, 23, 29, 31, 33, 51, 53, 78, 101, 131, 173, 187, 421 ] nprimes=43
+ROW 28900.bd2 H5zero=false ndisc=18 discs=[ 2, 6, 7, 17, 22, 29, 33, 37, 41, 47, 57, 61, 79, 89, 134, 185, 310, 438 ] nprimes=43
+ROW 205209.c2 H5zero=true ndisc=16 discs=[ 2, 3, 5, 10, 11, 38, 47, 62, 74, 101, 137, 143, 155, 287, 299, 485 ] nprimes=43
+ROW 495616.ce3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 259308.dc3 H5zero=false ndisc=13 discs=[ 2, 7, 15, 22, 29, 37, 42, 57, 137, 141, 210, 226, 282 ] nprimes=43
+ROW 74529.r3 H5zero=false ndisc=1 discs=[ 2 ] nprimes=41
+ROW 172800.jx1 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 11, 17, 30, 38, 39, 43, 73, 91 ] nprimes=43
+ROW 103684.w1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 828100.bh2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=41
+ROW 62500.d2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 456976.l1 H5zero=true ndisc=20 discs=[ 2, 3, 5, 13, 21, 22, 23, 26, 30, 42, 43, 66, 86, 89, 93, 114, 122, 130, 310, 406 ] nprimes=44
+ROW 774400.hs1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 13, 17, 19, 21, 22, 26, 29, 39, 142, 187, 193, 229, 257 ] nprimes=43
+ROW 442368.du6 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 56448.ev3 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 10, 11, 13, 19, 26, 39, 43, 67, 74, 97, 107 ] nprimes=43
+ROW 40500.b1 H5zero=true ndisc=17 discs=[ 5, 6, 11, 21, 29, 34, 46, 51, 66, 74, 79, 101, 166, 186, 346, 554, 646 ] nprimes=43
+ROW 342225.dc2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 156800.u2 H5zero=false ndisc=15 discs=[ 2, 3, 6, 10, 13, 17, 21, 31, 33, 46, 57, 69, 86, 105, 119 ] nprimes=43
+ROW 1012500.bj2 H5zero=true ndisc=18 discs=[ 5, 11, 26, 29, 31, 34, 41, 46, 66, 74, 89, 91, 94, 114, 146, 246, 406, 734 ] nprimes=43
+ROW 5476.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 288000.li4 H5zero=true ndisc=13 discs=[ 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ] nprimes=43
+ROW 1036800.ca2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 11, 13, 15, 17, 19, 29, 33, 35, 39, 91, 141 ] nprimes=43
+ROW 68121.g2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 338688.bau1 H5zero=false ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 562500.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 1225.a7 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 290521.d2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 471969.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 808992.dl2 H5zero=true ndisc=20 discs=[ 2, 5, 10, 11, 14, 17, 19, 26, 33, 35, 38, 41, 42, 58, 65, 91, 222, 226, 237, 254 ] nprimes=43
+ROW 1040400.ho2 H5zero=true ndisc=19 discs=[ 2, 3, 5, 37, 42, 43, 46, 51, 53, 59, 74, 111, 173, 179, 238, 278, 326, 393, 422 ] nprimes=42
+ROW 703125.c1 H5zero=true ndisc=15 discs=[ 5, 6, 14, 19, 26, 34, 74, 79, 101, 166, 226, 354, 434, 554, 586 ] nprimes=43
+ROW 583200.jn2 H5zero=false ndisc=20 discs=[ 2, 3, 7, 10, 14, 23, 33, 57, 73, 79, 82, 83, 91, 94, 122, 161, 201, 213, 362, 474 ] nprimes=43
+ROW 451584.bdr1 H5zero=false ndisc=16 discs=[ 2, 6, 7, 14, 22, 23, 34, 39, 47, 58, 61, 66, 67, 79, 89, 154 ] nprimes=43
+ROW 202500.bm1 H5zero=true ndisc=20 discs=[ 5, 6, 14, 19, 21, 29, 34, 39, 61, 66, 86, 106, 149, 154, 159, 161, 246, 259, 599, 759 ] nprimes=43
+ROW 1036800.qn1 H5zero=false ndisc=20 discs=[ 2, 3, 6, 10, 14, 29, 30, 34, 47, 58, 65, 78, 87, 102, 114, 142, 163, 170, 278, 330 ] nprimes=43
+ROW 442368.du9 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=43
+ROW 103684.u2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 144000.hr3 H5zero=false ndisc=15 discs=[ 2, 3, 7, 11, 15, 21, 23, 29, 30, 42, 43, 67, 71, 77, 109 ] nprimes=43
+ROW 731025.cn4 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 21168.b7 H5zero=true ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 135424.dc2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 202500.dh2 H5zero=true ndisc=16 discs=[ 2, 3, 5, 6, 14, 21, 71, 77, 78, 83, 86, 114, 122, 278, 302, 678 ] nprimes=43
+ROW 308025.z1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 780125.c2 H5zero=false ndisc=20 discs=[ 2, 3, 6, 10, 35, 37, 43, 58, 94, 134, 138, 154, 218, 230, 266, 326, 374, 394, 458, 602 ] nprimes=43
+ROW 720000.es1 H5zero=false ndisc=20 discs=[ 2, 6, 11, 15, 17, 19, 21, 26, 34, 39, 58, 62, 71, 101, 111, 282, 313, 371, 501, 687 ] nprimes=43
+ROW 717409.o1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 640000.gc2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 11, 17, 21, 33, 37, 41, 53, 65, 73, 83, 91, 173, 229, 301, 309 ] nprimes=44
+ROW 373248.rn2 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 11, 15, 19, 35, 46, 47, 51, 59, 71, 107, 109, 137, 195, 267, 283, 547 ] nprimes=44
+ROW 62500.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 260100.eh1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 19, 21, 22, 33, 34, 41, 47, 51, 62, 69, 77, 83, 113, 129 ] nprimes=42
+ROW 451584.wz4 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 10, 11, 13, 19, 26, 39, 43, 67, 74, 97, 107 ] nprimes=43
+ROW 585225.be2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 451584.fb8 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=42
+ROW 736164.dy3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 577600.r2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 17, 22, 23, 29, 46, 51, 57, 77, 137, 159, 174, 181 ] nprimes=42
+ROW 44100.c5 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 29, 43, 53, 57, 62, 91, 149 ] nprimes=42
+ROW 28900.f1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 236672.p1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 7, 10, 14, 22, 29, 31, 74, 118, 122, 142, 154, 258, 406 ] nprimes=44
+ROW 1040400.m2 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 10, 11, 14, 19, 22, 23, 42, 122 ] nprimes=42
+ROW 313600.d2 H5zero=true ndisc=18 discs=[ 2, 5, 13, 17, 22, 23, 31, 39, 41, 53, 69, 83, 133, 143, 157, 183, 391, 489 ] nprimes=43
+ROW 363609.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 432000.ji2 H5zero=false ndisc=15 discs=[ 2, 17, 19, 43, 55, 70, 83, 89, 145, 157, 187, 202, 307, 390, 611 ] nprimes=43
+ROW 442368.fg6 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 815409.r2 H5zero=true ndisc=18 discs=[ 2, 5, 11, 14, 19, 23, 38, 53, 62, 95, 107, 146, 149, 161, 170, 191, 353, 614 ] nprimes=42
+ROW 25600.bu1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 332928.kd4 H5zero=true ndisc=16 discs=[ 3, 5, 7, 13, 15, 17, 29, 33, 37, 53, 55, 57, 65, 93, 95, 105 ] nprimes=43
+ROW 36125.b1 H5zero=true ndisc=19 discs=[ 2, 3, 5, 6, 21, 23, 42, 51, 58, 106, 122, 139, 178, 182, 186, 226, 262, 422, 502 ] nprimes=43
+ROW 906304.di1 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 21, 26, 57, 71, 106, 114 ] nprimes=43
+ROW 378225.bb1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 7, 10, 11, 13, 21, 26, 29, 31, 33, 37, 57, 70, 71 ] nprimes=42
+ROW 484416.k1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 540000.ld2 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 490000.gv1 H5zero=true ndisc=20 discs=[ 3, 5, 6, 7, 11, 13, 14, 31, 34, 37, 38, 62, 69, 73, 86, 149, 157, 201, 277, 569 ] nprimes=42
+ROW 389344.bc1 H5zero=true ndisc=20 discs=[ 5, 6, 10, 11, 19, 26, 39, 59, 79, 109, 129, 145, 154, 201, 274, 345, 374, 391, 415, 474 ] nprimes=44
+ROW 2601.b2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 902500.w2 H5zero=true ndisc=19 discs=[ 2, 3, 5, 6, 11, 14, 22, 23, 29, 34, 41, 86, 146, 254, 258, 262, 394, 458, 562 ] nprimes=43
+ROW 238144.m1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 90828.bm1 H5zero=true ndisc=16 discs=[ 3, 5, 6, 11, 14, 15, 26, 29, 31, 59, 79, 89, 91, 191, 249, 619 ] nprimes=43
+ROW 245025.c2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 442368.du1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 802816.li1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 17, 19, 23, 30, 51, 57, 139, 165 ] nprimes=44
+ROW 876096.ci1 H5zero=true ndisc=19 discs=[ 3, 5, 6, 10, 14, 15, 19, 34, 35, 39, 91, 101, 109, 114, 130, 139, 209, 554, 634 ] nprimes=43
+ROW 529200.ri16 H5zero=false ndisc=11 discs=[ 2, 5, 6, 13, 14, 19, 39, 51, 53, 91, 165 ] nprimes=42
+ROW 311904.ft1 H5zero=true ndisc=17 discs=[ 3, 5, 17, 31, 34, 38, 47, 58, 59, 61, 62, 77, 138, 151, 179, 190, 305 ] nprimes=43
+ROW 861184.dm1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 589824.ex3 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 23, 31, 34, 138 ] nprimes=44
+ROW 736164.dn1 H5zero=false ndisc=15 discs=[ 3, 5, 6, 11, 15, 21, 22, 33, 39, 41, 47, 53, 57, 78, 101 ] nprimes=42
+ROW 93312.de3 H5zero=false ndisc=16 discs=[ 3, 5, 6, 7, 10, 17, 22, 29, 33, 58, 70, 82, 94, 133, 178, 214 ] nprimes=44
+ROW 83521.b2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=44
+ROW 75625.i2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 451584.wz2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 10, 11, 13, 19, 26, 39, 43, 67, 74, 97, 107 ] nprimes=43
+ROW 600625.c5 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 540000.gv2 H5zero=true ndisc=13 discs=[ 2, 5, 6, 10, 19, 26, 31, 41, 70, 86, 101, 154, 166 ] nprimes=43
+ROW 387200.dg1 H5zero=false ndisc=12 discs=[ 2, 6, 7, 10, 17, 30, 33, 38, 58, 61, 62, 134 ] nprimes=42
+ROW 292032.g1 H5zero=false ndisc=14 discs=[ 2, 3, 6, 7, 14, 22, 26, 33, 41, 57, 74, 82, 97, 105 ] nprimes=43
+ROW 155952.dx3 H5zero=false ndisc=13 discs=[ 5, 6, 10, 11, 14, 19, 29, 34, 41, 51, 129, 335, 399 ] nprimes=43
+ROW 541696.dg1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=44
+ROW 80000.by3 H5zero=false ndisc=21 discs=[ 6, 10, 13, 14, 17, 19, 23, 26, 30, 34, 38, 57, 66, 109, 110, 130, 138, 174, 202, 458, 518 ] nprimes=44
+ROW 848241.d2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 876096.jf4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 202500.bx1 H5zero=true ndisc=15 discs=[ 5, 6, 14, 19, 26, 29, 59, 86, 94, 134, 161, 194, 214, 226, 266 ] nprimes=43
+ROW 65025.g2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 518400.qk1 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 26, 29, 31, 46, 69, 71, 89, 101, 149, 174, 251, 286, 329, 431 ] nprimes=43
+ROW 270000.cd2 H5zero=true ndisc=12 discs=[ 5, 6, 11, 14, 15, 21, 26, 30, 41, 69, 79, 101 ] nprimes=43
+ROW 14112.e2 H5zero=false ndisc=11 discs=[ 5, 6, 14, 15, 19, 21, 26, 30, 35, 79, 101 ] nprimes=43
+ROW 324900.gs2 H5zero=true ndisc=14 discs=[ 2, 3, 5, 6, 7, 13, 31, 33, 39, 53, 57, 59, 77, 139 ] nprimes=42
+ROW 242000.cu8 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 13, 17, 19, 23, 33, 37, 42, 58, 69, 91, 103, 109, 113 ] nprimes=42
+ROW 540000.kd4 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 34596.g3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 80000.by4 H5zero=false ndisc=21 discs=[ 6, 10, 13, 14, 17, 19, 23, 26, 30, 34, 38, 57, 66, 109, 110, 130, 138, 174, 202, 458, 518 ] nprimes=44
+ROW 525625.b2 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 19, 26, 41, 74, 79, 114, 206, 214, 374, 446, 574 ] nprimes=43
+ROW 627264.mq1 H5zero=false ndisc=17 discs=[ 3, 6, 7, 10, 13, 17, 21, 22, 26, 39, 46, 57, 82, 94, 111, 114, 178 ] nprimes=43
+ROW 540225.bq1 H5zero=true ndisc=20 discs=[ 2, 3, 5, 6, 7, 11, 13, 17, 23, 29, 42, 43, 57, 61, 86, 94, 307, 311, 318, 494 ] nprimes=42
+ROW 802816.kr1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 14, 22, 26, 37, 38, 62, 102, 173, 214, 230, 254, 382 ] nprimes=44
+ROW 585225.bs1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 124848.du3 H5zero=false ndisc=16 discs=[ 2, 5, 11, 14, 29, 30, 61, 79, 91, 101, 110, 129, 219, 269, 331, 431 ] nprimes=43
+ROW 72000.bu12 H5zero=true ndisc=14 discs=[ 3, 5, 7, 11, 17, 23, 33, 37, 39, 57, 61, 87, 103, 119 ] nprimes=43
+ROW 893025.en1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 753424.q1 H5zero=false ndisc=13 discs=[ 2, 3, 6, 10, 13, 17, 19, 22, 23, 31, 38, 86, 114 ] nprimes=42
+ROW 846400.fu1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 562500.h1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 557568.es2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 26, 29, 30, 38, 43, 55, 57, 62, 70, 73, 86, 366 ] nprimes=43
+ROW 720000.tz6 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 10, 13, 14, 15, 17, 19, 21, 29, 66, 105 ] nprimes=43
+ROW 70225.e2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 456976.s2 H5zero=true ndisc=16 discs=[ 2, 5, 6, 7, 35, 38, 42, 74, 91, 94, 95, 110, 138, 186, 238, 310 ] nprimes=44
+ROW 50176.y5 H5zero=false ndisc=1 discs=[ 5 ] nprimes=44
+ROW 808992.cg1 H5zero=false ndisc=16 discs=[ 5, 13, 17, 21, 53, 65, 67, 95, 113, 159, 161, 185, 285, 345, 373, 431 ] nprimes=43
+ROW 418176.bel1 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 13, 17, 33, 41, 65, 66, 82, 97, 145, 161 ] nprimes=43
+ROW 960400.bp2 H5zero=true ndisc=22 discs=[ 2, 5, 13, 19, 26, 29, 34, 39, 42, 43, 58, 119, 138, 159, 197, 219, 259, 326, 331, 393, 533, 587 ] nprimes=43
+ROW 703125.b1 H5zero=true ndisc=17 discs=[ 2, 3, 5, 14, 26, 29, 47, 77, 82, 91, 114, 262, 266, 278, 362, 562, 598 ] nprimes=43
+ROW 802816.d2 H5zero=false ndisc=18 discs=[ 2, 6, 7, 10, 13, 17, 19, 33, 42, 85, 94, 101, 130, 146, 194, 434, 482, 546 ] nprimes=44
+ROW 829472.ec1 H5zero=false ndisc=8 discs=[ 2, 3, 7, 10, 13, 22, 34, 82 ] nprimes=42
+ROW 508369.a2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 656100.dj2 H5zero=false ndisc=1 discs=[ 33 ] nprimes=43
+ROW 311904.ft2 H5zero=true ndisc=17 discs=[ 3, 5, 17, 31, 34, 38, 47, 58, 59, 61, 62, 77, 138, 151, 179, 190, 305 ] nprimes=43
+ROW 960400.cq2 H5zero=true ndisc=22 discs=[ 2, 5, 13, 19, 26, 29, 34, 39, 42, 43, 58, 119, 138, 159, 197, 219, 259, 326, 331, 393, 533, 587 ] nprimes=43
+ROW 700569.m1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 114921.e1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 81225.bo1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 484416.bi2 H5zero=false ndisc=1 discs=[ 41 ] nprimes=42
+ROW 496125.cr1 H5zero=true ndisc=19 discs=[ 2, 3, 5, 11, 21, 22, 23, 26, 29, 41, 46, 66, 83, 131, 174, 222, 258, 366, 506 ] nprimes=42
+ROW 253125.e1 H5zero=true ndisc=20 discs=[ 2, 5, 11, 13, 14, 26, 34, 39, 57, 58, 67, 83, 103, 133, 201, 226, 267, 318, 403, 433 ] nprimes=43
+ROW 123904.ds2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 7, 13, 15, 17, 21, 29, 31, 33, 35, 58, 66, 187, 269, 523, 677 ] nprimes=44
+ROW 508032.xw1 H5zero=true ndisc=16 discs=[ 2, 3, 5, 6, 11, 14, 23, 26, 30, 42, 102, 110, 130, 158, 190, 278 ] nprimes=43
+ROW 197136.s1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 138384.x2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 665856.do1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 731025.bg1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 270000.cn2 H5zero=false ndisc=10 discs=[ 2, 5, 6, 7, 10, 13, 14, 17, 33, 57 ] nprimes=43
+ROW 220500.w1 H5zero=true ndisc=17 discs=[ 5, 6, 14, 19, 26, 29, 34, 66, 74, 86, 166, 194, 246, 406, 494, 534, 606 ] nprimes=42
+ROW 311904.fq3 H5zero=false ndisc=17 discs=[ 2, 5, 6, 7, 11, 15, 17, 21, 23, 37, 43, 67, 73, 87, 105, 111, 115 ] nprimes=43
+ROW 148176.fy2 H5zero=true ndisc=17 discs=[ 5, 11, 14, 17, 19, 35, 46, 51, 55, 70, 79, 89, 94, 201, 271, 370, 409 ] nprimes=43
+ROW 435600.ds3 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 921600.bq1 H5zero=false ndisc=18 discs=[ 2, 3, 6, 7, 10, 11, 17, 21, 23, 31, 85, 86, 87, 89, 91, 95, 161, 181 ] nprimes=43
+ROW 774400.pa3 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 7, 13, 29, 37, 38, 47, 62, 94, 103, 109, 129, 227, 321, 417 ] nprimes=43
+ROW 99225.a2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 342225.eg1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 960400.gg2 H5zero=true ndisc=23 discs=[ 2, 5, 6, 7, 14, 17, 26, 47, 53, 69, 83, 93, 107, 114, 118, 131, 166, 177, 179, 181, 201, 223, 527 ] nprimes=43
+ROW 910116.h4 H5zero=false ndisc=13 discs=[ 3, 6, 14, 15, 21, 29, 30, 37, 57, 66, 138, 249, 273 ] nprimes=43
+ROW 836352.px6 H5zero=false ndisc=16 discs=[ 2, 3, 5, 10, 15, 17, 33, 34, 46, 62, 69, 86, 89, 93, 105, 106 ] nprimes=43
+ROW 490000.ch4 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 11, 14, 17, 19, 29, 33, 37, 38, 41, 59, 71, 78, 111, 119, 193, 293, 479 ] nprimes=43
+ROW 225792.qk5 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 14, 17, 21, 23, 41, 57, 83, 85, 91, 97, 141, 142 ] nprimes=42
+ROW 198025.c1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 720000.dm1 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 14, 22, 23, 34, 35, 46, 62, 77, 82, 85, 86, 102, 130, 474 ] nprimes=43
+ROW 624100.l2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 765625.g1 H5zero=true ndisc=14 discs=[ 2, 3, 5, 6, 11, 14, 31, 61, 109, 146, 209, 214, 386, 439 ] nprimes=43
+ROW 866761.a2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 67712.l3 H5zero=false ndisc=19 discs=[ 2, 6, 10, 11, 13, 14, 21, 26, 30, 33, 38, 78, 83, 86, 114, 262, 278, 410, 494 ] nprimes=44
+ROW 855625.s2 H5zero=true ndisc=20 discs=[ 2, 5, 6, 11, 17, 22, 26, 31, 33, 66, 69, 89, 113, 138, 142, 151, 179, 206, 214, 359 ] nprimes=42
+ROW 122500.bh4 H5zero=false ndisc=1 discs=[ 6 ] nprimes=43
+ROW 898704.q1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 813604.c1 H5zero=false ndisc=1 discs=[ 21 ] nprimes=43
+ROW 680625.f3 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 627200.ho1 H5zero=false ndisc=15 discs=[ 2, 3, 5, 11, 13, 15, 21, 30, 33, 35, 39, 42, 67, 69, 579 ] nprimes=43
+ROW 790272.iq6 H5zero=true ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 19, 41, 51, 61, 67, 79, 95, 163 ] nprimes=43
+ROW 209088.ja4 H5zero=false ndisc=17 discs=[ 3, 5, 6, 7, 10, 13, 21, 22, 34, 39, 46, 94, 106, 118, 174, 190, 454 ] nprimes=43
+ROW 508369.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 467856.ex2 H5zero=false ndisc=18 discs=[ 2, 5, 6, 7, 10, 11, 22, 26, 31, 34, 38, 39, 70, 82, 86, 127, 230, 658 ] nprimes=43
+ROW 28125.b4 H5zero=true ndisc=17 discs=[ 5, 6, 14, 19, 26, 29, 41, 46, 61, 86, 89, 106, 114, 129, 214, 239, 274 ] nprimes=43
+ROW 162000.ff7 H5zero=false ndisc=13 discs=[ 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ] nprimes=43
+ROW 246016.cd1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=44
+ROW 270000.cn3 H5zero=false ndisc=10 discs=[ 2, 5, 6, 7, 10, 13, 14, 17, 33, 57 ] nprimes=43
+ROW 270400.g4 H5zero=true ndisc=13 discs=[ 2, 3, 5, 6, 10, 14, 19, 23, 31, 39, 41, 57, 111 ] nprimes=43
+ROW 720000.rx1 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 10, 13, 14, 15, 17, 19, 21, 29, 66, 105 ] nprimes=43
+ROW 700928.cs1 H5zero=false ndisc=16 discs=[ 2, 3, 6, 10, 37, 58, 101, 103, 197, 221, 246, 251, 373, 390, 421, 597 ] nprimes=43
+ROW 836352.fb5 H5zero=false ndisc=16 discs=[ 2, 3, 5, 10, 15, 17, 33, 34, 46, 62, 69, 86, 89, 93, 105, 106 ] nprimes=43
+ROW 608400.nq1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 830304.ca1 H5zero=false ndisc=18 discs=[ 3, 10, 13, 14, 29, 51, 74, 82, 94, 95, 103, 118, 139, 217, 335, 373, 415, 510 ] nprimes=42
+ROW 21600.bl3 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 76176.cc1 H5zero=false ndisc=9 discs=[ 5, 6, 11, 29, 65, 89, 109, 141, 669 ] nprimes=42
+ROW 21600.bp3 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 112500.i2 H5zero=true ndisc=16 discs=[ 5, 6, 11, 14, 21, 26, 34, 39, 41, 66, 86, 94, 166, 214, 334, 506 ] nprimes=43
+ROW 974700.pn2 H5zero=false ndisc=14 discs=[ 2, 5, 6, 7, 10, 15, 23, 30, 47, 65, 89, 97, 105, 146 ] nprimes=42
+ROW 802816.dj5 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=43
+ROW 540000.ct1 H5zero=true ndisc=15 discs=[ 5, 6, 10, 11, 21, 31, 46, 61, 79, 109, 166, 190, 205, 406, 610 ] nprimes=43
+ROW 128000.i4 H5zero=false ndisc=18 discs=[ 2, 7, 11, 14, 15, 21, 22, 30, 39, 58, 78, 102, 127, 130, 154, 322, 358, 382 ] nprimes=44
+ROW 720000.dm2 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 14, 22, 23, 34, 35, 46, 62, 77, 82, 85, 86, 102, 130, 474 ] nprimes=43
+ROW 903168.kd2 H5zero=false ndisc=18 discs=[ 2, 3, 6, 7, 14, 15, 19, 30, 33, 34, 43, 65, 73, 78, 103, 210, 302, 514 ] nprimes=43
+ROW 547600.bx1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 259200.pv2 H5zero=false ndisc=17 discs=[ 3, 6, 7, 10, 22, 31, 33, 39, 46, 58, 67, 70, 73, 79, 93, 105, 114 ] nprimes=43
+ROW 82944.db2 H5zero=false ndisc=19 discs=[ 2, 5, 6, 10, 13, 14, 30, 33, 46, 53, 65, 66, 70, 94, 110, 129, 170, 174, 286 ] nprimes=44
+ROW 28800.dv2 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 10, 13, 14, 15, 17, 19, 21, 29, 66, 105 ] nprimes=43
+ROW 836352.co2 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 11, 15, 17, 23, 31, 39, 61, 97, 101, 139 ] nprimes=43
+ROW 24500.v1 H5zero=false ndisc=20 discs=[ 2, 3, 6, 29, 38, 51, 58, 62, 73, 79, 85, 86, 91, 102, 118, 146, 258, 354, 390, 466 ] nprimes=43
+ROW 24500.v2 H5zero=false ndisc=20 discs=[ 2, 3, 6, 29, 38, 51, 58, 62, 73, 79, 85, 86, 91, 102, 118, 146, 258, 354, 390, 466 ] nprimes=43
+ROW 491300.z1 H5zero=true ndisc=17 discs=[ 2, 5, 6, 7, 10, 15, 33, 38, 39, 58, 67, 86, 246, 354, 374, 406, 642 ] nprimes=43
+ROW 540225.l1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 144500.t1 H5zero=false ndisc=18 discs=[ 2, 3, 7, 10, 13, 14, 15, 17, 19, 31, 39, 43, 65, 71, 179, 187, 227, 267 ] nprimes=43
+ROW 407044.k1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 99225.j2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 1012500.dp1 H5zero=true ndisc=17 discs=[ 5, 6, 11, 19, 26, 46, 59, 61, 66, 94, 111, 146, 149, 154, 166, 214, 646 ] nprimes=43
+ROW 184900.e2 H5zero=true ndisc=20 discs=[ 5, 13, 14, 21, 23, 26, 38, 42, 74, 89, 111, 123, 129, 166, 197, 218, 254, 287, 313, 319 ] nprimes=43
+ROW 99225.h1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 332928.he2 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 10, 13, 14, 22, 30, 42, 58, 102, 174, 302, 310, 318, 362, 386, 430, 614 ] nprimes=43
+ROW 202612.i1 H5zero=true ndisc=20 discs=[ 2, 5, 6, 10, 11, 19, 29, 30, 41, 46, 70, 89, 109, 115, 145, 166, 194, 230, 274, 634 ] nprimes=44
+ROW 374544.fg3 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 15, 22, 23, 31, 35, 42, 67, 106 ] nprimes=43
+ROW 180625.q1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 202500.a3 H5zero=false ndisc=16 discs=[ 6, 10, 11, 14, 19, 21, 26, 39, 41, 66, 94, 129, 149, 286, 354, 706 ] nprimes=43
+ROW 612500.k1 H5zero=true ndisc=16 discs=[ 5, 6, 14, 19, 26, 29, 46, 114, 129, 134, 166, 214, 326, 334, 354, 446 ] nprimes=43
+ROW 223729.e2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 12500.a1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 19, 26, 39, 46, 61, 66, 71, 214, 246, 334, 454 ] nprimes=44
+ROW 225625.j1 H5zero=true ndisc=19 discs=[ 2, 3, 5, 6, 17, 21, 22, 26, 39, 51, 58, 69, 86, 91, 102, 109, 182, 254, 554 ] nprimes=43
+ROW 60025.i4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 603729.c2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=41
+ROW 172800.dm2 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 11, 17, 30, 38, 39, 43, 73, 91 ] nprimes=43
+ROW 90828.bm3 H5zero=true ndisc=16 discs=[ 3, 5, 6, 11, 14, 15, 26, 29, 31, 59, 79, 89, 91, 191, 249, 619 ] nprimes=43
+ROW 933156.ge1 H5zero=false ndisc=12 discs=[ 3, 5, 6, 7, 10, 13, 15, 19, 30, 57, 67, 78 ] nprimes=42
+ROW 480500.s1 H5zero=true ndisc=16 discs=[ 5, 6, 14, 26, 29, 39, 46, 59, 61, 74, 86, 94, 154, 166, 206, 386 ] nprimes=43
+ROW 36864.cf1 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 495616.cf4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 112500.e1 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 19, 21, 26, 29, 34, 46, 74, 86, 101, 134, 246, 266, 326, 466 ] nprimes=43
+ROW 200704.eq4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 893025.e1 H5zero=false ndisc=14 discs=[ 5, 6, 13, 15, 21, 22, 31, 34, 37, 47, 139, 159, 229, 519 ] nprimes=42
+ROW 417316.j2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 780300.gb2 H5zero=true ndisc=19 discs=[ 3, 5, 6, 14, 21, 39, 41, 51, 109, 114, 155, 191, 221, 259, 266, 359, 374, 410, 419 ] nprimes=42
+ROW 435600.ds2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 1012500.dq1 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 29, 41, 51, 61, 66, 74, 79, 106, 114, 274, 326, 334, 586, 626 ] nprimes=43
+ROW 202500.m2 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 26, 41, 59, 66, 69, 74, 79, 119, 149, 186, 219, 359, 366, 419 ] nprimes=43
+ROW 84375.d1 H5zero=true ndisc=17 discs=[ 3, 5, 6, 10, 14, 19, 26, 34, 41, 71, 79, 109, 139, 149, 151, 194, 379 ] nprimes=43
+ROW 320000.be3 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 719104.c2 H5zero=false ndisc=22 discs=[ 2, 3, 5, 6, 11, 13, 21, 22, 23, 38, 41, 43, 67, 69, 82, 89, 102, 113, 187, 210, 482, 547 ] nprimes=44
+ROW 135424.dc3 H5zero=false ndisc=2 discs=[ 5, 13 ] nprimes=43
+ROW 720000.ij1 H5zero=true ndisc=18 discs=[ 2, 5, 6, 14, 19, 26, 30, 31, 34, 70, 106, 110, 111, 154, 274, 286, 326, 370 ] nprimes=43
+ROW 78400.bw5 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 1000000.m1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 116281.a2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 215296.db1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 1012500.dr1 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 21, 26, 39, 41, 46, 94, 106, 114, 134, 166, 174, 186, 394, 466 ] nprimes=43
+ROW 22500.g2 H5zero=false ndisc=13 discs=[ 6, 10, 11, 14, 29, 31, 34, 39, 41, 46, 66, 141, 226 ] nprimes=43
+ROW 640000.kg8 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=43
+ROW 133956.a1 H5zero=true ndisc=20 discs=[ 2, 5, 6, 10, 11, 14, 19, 26, 29, 39, 46, 66, 134, 174, 255, 314, 331, 379, 401, 439 ] nprimes=43
+ROW 312500.e1 H5zero=true ndisc=17 discs=[ 5, 6, 14, 21, 26, 29, 34, 46, 66, 69, 86, 141, 174, 206, 214, 434, 466 ] nprimes=44
+ROW 85264.e1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 122500.c1 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 7, 13, 21, 22, 26, 29, 33, 37, 51, 53, 57, 71, 107, 139, 229, 291 ] nprimes=43
+ROW 289444.a1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=45
+ROW 609408.ew2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 7, 13, 14, 22, 30, 38, 78, 86, 118, 158, 326, 382 ] nprimes=43
+ROW 348100.o3 H5zero=true ndisc=19 discs=[ 2, 3, 5, 7, 11, 19, 42, 57, 58, 71, 82, 83, 87, 102, 146, 159, 197, 359, 437 ] nprimes=43
+ROW 714025.m2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 899756.bw1 H5zero=false ndisc=17 discs=[ 5, 10, 11, 15, 46, 51, 59, 65, 71, 91, 95, 129, 181, 199, 229, 349, 389 ] nprimes=43
+ROW 800000.z2 H5zero=true ndisc=20 discs=[ 2, 3, 5, 6, 7, 11, 14, 17, 22, 26, 31, 33, 38, 58, 62, 109, 123, 134, 151, 238 ] nprimes=44
+ROW 765625.f1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 1012500.c1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 21, 26, 34, 66, 86, 101, 114, 174, 254, 266, 274 ] nprimes=43
+ROW 540000.kd5 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 1225.a1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 450000.cc2 H5zero=true ndisc=18 discs=[ 5, 6, 11, 14, 26, 41, 46, 59, 61, 71, 89, 114, 134, 146, 151, 214, 231, 269 ] nprimes=43
+ROW 903125.d1 H5zero=true ndisc=19 discs=[ 2, 5, 6, 14, 22, 26, 38, 46, 53, 59, 66, 134, 154, 194, 278, 346, 374, 394, 574 ] nprimes=43
+ROW 387200.ik2 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 10, 15, 17, 19, 31, 34, 43, 47, 78, 79, 83, 115, 129, 163, 411, 491 ] nprimes=43
+ROW 13689.n4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 288000.kg11 H5zero=true ndisc=14 discs=[ 3, 5, 7, 11, 17, 23, 33, 37, 39, 57, 61, 87, 103, 119 ] nprimes=43
+ROW 495616.fr1 H5zero=false ndisc=16 discs=[ 2, 5, 6, 11, 13, 23, 31, 33, 53, 57, 61, 77, 101, 109, 165, 205 ] nprimes=44
+ROW 202500.bn3 H5zero=true ndisc=14 discs=[ 5, 6, 14, 19, 21, 31, 41, 46, 61, 79, 106, 109, 154, 409 ] nprimes=42
+ROW 79524.j1 H5zero=false ndisc=1 discs=[ 6 ] nprimes=43
+ROW 565504.bj2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 425104.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 946125.bl3 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 7, 13, 15, 19, 21, 22, 26, 30, 38, 46, 59, 139, 157 ] nprimes=42
+ROW 900000.r1 H5zero=true ndisc=18 discs=[ 5, 10, 11, 15, 30, 31, 34, 35, 51, 55, 61, 74, 109, 129, 145, 194, 246, 661 ] nprimes=43
+ROW 491300.bh2 H5zero=true ndisc=19 discs=[ 2, 5, 6, 13, 14, 29, 37, 46, 57, 62, 110, 122, 129, 146, 190, 210, 282, 466, 574 ] nprimes=43
+ROW 37044.p6 H5zero=true ndisc=14 discs=[ 5, 11, 15, 19, 21, 29, 31, 39, 61, 85, 105, 111, 141, 161 ] nprimes=43
+ROW 443556.n1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 1016064.ur7 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=42
+ROW 50625.s1 H5zero=true ndisc=12 discs=[ 2, 5, 6, 7, 11, 26, 34, 38, 42, 83, 113, 218 ] nprimes=43
+ROW 72000.bu5 H5zero=false ndisc=14 discs=[ 3, 5, 7, 11, 17, 23, 33, 37, 39, 57, 61, 87, 103, 119 ] nprimes=43
+ROW 568516.m1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 53361.y1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 495616.ce2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 33856.v1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 91204.b1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 620944.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 840500.p2 H5zero=true ndisc=14 discs=[ 2, 5, 6, 7, 13, 26, 38, 42, 46, 67, 86, 158, 254, 358 ] nprimes=43
+ROW 421875.h2 H5zero=true ndisc=11 discs=[ 3, 5, 6, 19, 21, 31, 34, 69, 181, 241, 334 ] nprimes=43
+ROW 714025.m1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 3025.a4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 753424.o1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 25600.bu5 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=44
+ROW 1028196.bn3 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 13, 14, 34, 37, 42, 55, 57, 62, 82, 94, 118, 346 ] nprimes=43
+ROW 1036800.buc2 H5zero=false ndisc=17 discs=[ 2, 5, 7, 10, 14, 17, 34, 39, 42, 71, 73, 127, 137, 145, 170, 226, 266 ] nprimes=43
+ROW 81225.bo2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 70756.i1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 509796.fr1 H5zero=false ndisc=1 discs=[ 33 ] nprimes=42
+ROW 640000.cr2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 11, 17, 21, 33, 37, 41, 53, 65, 73, 83, 91, 173, 229, 301, 309 ] nprimes=44
+ROW 112500.h1 H5zero=true ndisc=16 discs=[ 5, 6, 14, 19, 34, 51, 71, 74, 109, 114, 129, 186, 214, 274, 534, 606 ] nprimes=43
+ROW 846400.ga3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 557568.es1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 26, 29, 30, 38, 43, 55, 57, 62, 70, 73, 86, 366 ] nprimes=43
+ROW 297025.c2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 56448.ev2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 10, 11, 13, 19, 26, 39, 43, 67, 74, 97, 107 ] nprimes=43
+ROW 914112.jt1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 11, 23, 30, 34, 42, 85, 103, 145, 194, 266, 314, 330, 610 ] nprimes=43
+ROW 313600.or2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 152352.eg4 H5zero=false ndisc=14 discs=[ 3, 6, 7, 13, 21, 33, 34, 46, 51, 57, 70, 82, 102, 118 ] nprimes=43
+ROW 1013888.v3 H5zero=false ndisc=15 discs=[ 2, 3, 6, 7, 10, 13, 22, 26, 33, 34, 39, 91, 106, 114, 138 ] nprimes=43
+ROW 10816.o3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 1036800.ga1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 7, 11, 15, 17, 19, 22, 30, 38, 42, 47, 57, 141, 146, 278 ] nprimes=43
+ROW 589824.fh6 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 23, 31, 34, 138 ] nprimes=44
+ROW 518400.ja1 H5zero=false ndisc=11 discs=[ 2, 7, 14, 15, 17, 33, 55, 57, 71, 105, 137 ] nprimes=43
+ROW 385641.v1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 28125.a3 H5zero=true ndisc=17 discs=[ 5, 6, 14, 19, 26, 29, 41, 46, 61, 86, 89, 106, 114, 129, 214, 239, 274 ] nprimes=43
+ROW 810000.nr2 H5zero=true ndisc=18 discs=[ 2, 5, 11, 13, 14, 21, 23, 26, 43, 47, 61, 82, 114, 119, 218, 238, 266, 298 ] nprimes=43
+ROW 864900.ff3 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 13, 15, 19, 23, 33, 34, 38, 57, 86, 166 ] nprimes=42
+ROW 467856.ex1 H5zero=false ndisc=18 discs=[ 2, 5, 6, 7, 10, 11, 22, 26, 31, 34, 38, 39, 70, 82, 86, 127, 230, 658 ] nprimes=43
+ROW 10368.m6 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 351232.ho2 H5zero=true ndisc=16 discs=[ 5, 6, 11, 14, 15, 19, 29, 31, 46, 55, 59, 61, 70, 71, 85, 115 ] nprimes=44
+ROW 84100.i2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 206116.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 1040400.iz3 H5zero=true ndisc=20 discs=[ 2, 3, 5, 6, 11, 13, 21, 26, 37, 41, 114, 123, 133, 197, 229, 247, 253, 271, 353, 479 ] nprimes=42
+ROW 423801.b1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 79092.be2 H5zero=false ndisc=15 discs=[ 3, 5, 6, 10, 13, 14, 15, 19, 22, 30, 34, 39, 43, 46, 61 ] nprimes=43
+ROW 21168.v7 H5zero=true ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 23409.j5 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 802816.u3 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 17, 19, 23, 30, 51, 57, 139, 165 ] nprimes=44
+ROW 68121.g1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 190969.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 484128.bo3 H5zero=false ndisc=11 discs=[ 2, 3, 6, 10, 22, 30, 37, 66, 70, 106, 114 ] nprimes=43
+ROW 656100.cb2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 10368.m7 H5zero=false ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 200704.fs2 H5zero=false ndisc=20 discs=[ 2, 3, 6, 7, 14, 15, 19, 30, 38, 57, 62, 73, 86, 89, 91, 174, 246, 454, 526, 606 ] nprimes=44
+ROW 73984.ce1 H5zero=false ndisc=14 discs=[ 2, 6, 10, 14, 22, 29, 34, 58, 62, 66, 74, 230, 246, 518 ] nprimes=44
+ROW 640000.dd2 H5zero=true ndisc=16 discs=[ 5, 6, 10, 14, 26, 29, 46, 59, 70, 154, 190, 274, 310, 334, 430, 434 ] nprimes=44
+ROW 225625.j2 H5zero=true ndisc=19 discs=[ 2, 3, 5, 6, 17, 21, 22, 26, 39, 51, 58, 69, 86, 91, 102, 109, 182, 254, 554 ] nprimes=43
+ROW 627264.hq4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 790272.bdy6 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 19, 41, 51, 61, 67, 79, 95, 163 ] nprimes=43
+ROW 887364.m1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 808992.cz2 H5zero=false ndisc=16 discs=[ 5, 13, 17, 21, 53, 65, 67, 95, 113, 159, 161, 185, 285, 345, 373, 431 ] nprimes=43
+ROW 422500.bl2 H5zero=false ndisc=12 discs=[ 5, 6, 10, 14, 26, 29, 31, 39, 41, 61, 89, 101 ] nprimes=43
+ROW 703125.e2 H5zero=true ndisc=17 discs=[ 5, 6, 11, 14, 19, 26, 29, 34, 39, 71, 154, 174, 194, 206, 334, 386, 574 ] nprimes=43
+ROW 409600.ik1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 788544.by2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 184832.bo1 H5zero=false ndisc=17 discs=[ 2, 3, 7, 10, 11, 14, 15, 31, 35, 43, 69, 107, 114, 123, 134, 155, 219 ] nprimes=43
+ROW 374544.gi4 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 960400.bp1 H5zero=true ndisc=22 discs=[ 2, 5, 13, 19, 26, 29, 34, 39, 42, 43, 58, 119, 138, 159, 197, 219, 259, 326, 331, 393, 533, 587 ] nprimes=43
+ROW 682276.k1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 574592.r1 H5zero=true ndisc=21 discs=[ 3, 5, 10, 21, 23, 29, 38, 39, 46, 55, 58, 61, 66, 78, 102, 115, 186, 202, 323, 382, 501 ] nprimes=44
+ROW 518400.bkw3 H5zero=false ndisc=14 discs=[ 3, 6, 7, 10, 11, 15, 21, 31, 37, 38, 46, 67, 102, 202 ] nprimes=42
+ROW 535824.t3 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 320000.be7 H5zero=false ndisc=13 discs=[ 2, 3, 5, 11, 15, 17, 23, 33, 34, 73, 82, 89, 97 ] nprimes=43
+ROW 451584.bdu5 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=43
+ROW 13689.n3 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 202500.f4 H5zero=true ndisc=14 discs=[ 5, 6, 14, 19, 21, 31, 41, 46, 61, 79, 106, 109, 154, 409 ] nprimes=42
+ROW 656100.u2 H5zero=false ndisc=1 discs=[ 33 ] nprimes=43
+ROW 846400.ga1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 648000.lb1 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 7, 22, 29, 46, 78, 82, 89, 114, 137, 138, 166, 174, 194, 454 ] nprimes=43
+ROW 58564.g1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=44
+ROW 627264.hq2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 28125.b2 H5zero=true ndisc=17 discs=[ 5, 6, 14, 19, 26, 29, 41, 46, 61, 86, 89, 106, 114, 129, 214, 239, 274 ] nprimes=43
+ROW 369664.er1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 44100.c2 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 29, 43, 53, 57, 62, 91, 149 ] nprimes=42
+ROW 379456.ha1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 200704.gc2 H5zero=false ndisc=19 discs=[ 2, 3, 7, 10, 11, 26, 35, 39, 41, 42, 47, 65, 74, 154, 178, 194, 226, 282, 314 ] nprimes=44
+ROW 397953.w1 H5zero=true ndisc=17 discs=[ 2, 5, 7, 10, 13, 17, 22, 46, 55, 58, 94, 118, 154, 190, 274, 298, 346 ] nprimes=43
+ROW 450000.a1 H5zero=true ndisc=16 discs=[ 5, 6, 21, 34, 41, 46, 59, 69, 86, 91, 119, 134, 149, 174, 334, 354 ] nprimes=43
+ROW 260100.eh4 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 19, 21, 22, 33, 34, 41, 47, 51, 62, 69, 77, 83, 113, 129 ] nprimes=42
+ROW 1016064.baj2 H5zero=false ndisc=16 discs=[ 2, 6, 7, 14, 22, 23, 34, 39, 47, 58, 61, 66, 67, 79, 89, 154 ] nprimes=43
+ROW 876096.qc1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 17, 23, 29, 34, 37, 39, 41, 82, 87, 95, 161 ] nprimes=43
+ROW 119025.s2 H5zero=false ndisc=20 discs=[ 2, 3, 5, 13, 17, 23, 26, 29, 57, 67, 77, 83, 91, 94, 110, 149, 158, 182, 410, 523 ] nprimes=42
+ROW 648000.lb4 H5zero=true ndisc=18 discs=[ 2, 3, 5, 6, 7, 22, 29, 46, 78, 82, 89, 114, 137, 138, 166, 174, 194, 454 ] nprimes=43
+ROW 111556.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 960400.cw1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 42849.d4 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 152352.eg1 H5zero=false ndisc=14 discs=[ 3, 6, 7, 13, 21, 33, 34, 46, 51, 57, 70, 82, 102, 118 ] nprimes=43
+ROW 688900.j2 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 14, 19, 26, 37, 39, 47, 53, 57, 59, 213, 257, 281, 347 ] nprimes=43
+ROW 200000.u2 H5zero=true ndisc=19 discs=[ 2, 5, 26, 34, 38, 42, 62, 86, 138, 146, 158, 166, 174, 194, 226, 238, 246, 266, 506 ] nprimes=44
+ROW 324900.gs4 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 13, 31, 33, 39, 53, 57, 59, 77, 139 ] nprimes=42
+ROW 174724.t2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 960400.hf4 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 21, 22, 23, 37, 62, 139, 149, 161, 227, 241, 303, 397, 503, 517 ] nprimes=42
+ROW 115200.fm6 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 11, 13, 15, 17, 19, 29, 33, 35, 39, 91, 141 ] nprimes=43
+ROW 7225.c2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 420500.p1 H5zero=true ndisc=14 discs=[ 2, 3, 5, 7, 11, 17, 19, 22, 26, 34, 42, 66, 79, 137 ] nprimes=42
+ROW 75625.f2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 693889.e2 H5zero=false ndisc=21 discs=[ 2, 3, 5, 13, 15, 31, 43, 46, 47, 62, 73, 77, 89, 109, 119, 127, 181, 391, 521, 641, 647 ] nprimes=43
+ROW 338724.o1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 765625.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 225792.ri7 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 15, 19, 21, 23, 33, 93, 113 ] nprimes=42
+ROW 18496.r1 H5zero=false ndisc=1 discs=[ 5 ] nprimes=44
+ROW 139392.eu1 H5zero=false ndisc=20 discs=[ 2, 3, 5, 10, 11, 13, 15, 17, 23, 26, 31, 35, 41, 59, 69, 77, 83, 113, 186, 298 ] nprimes=43
+ROW 672400.ed1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 418176.vy2 H5zero=true ndisc=14 discs=[ 2, 3, 5, 7, 11, 15, 17, 35, 43, 59, 95, 111, 123, 137 ] nprimes=43
+ROW 108000.c3 H5zero=false ndisc=9 discs=[ 2, 3, 5, 7, 10, 19, 61, 79, 85 ] nprimes=43
+ROW 294849.a1 H5zero=true ndisc=17 discs=[ 3, 5, 6, 11, 13, 31, 34, 39, 46, 51, 61, 94, 106, 219, 259, 394, 634 ] nprimes=43
+ROW 390625.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 362404.k1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 591408.ci1 H5zero=false ndisc=15 discs=[ 2, 3, 10, 11, 26, 33, 34, 42, 74, 105, 106, 114, 138, 139, 210 ] nprimes=43
+ROW 35937.k2 H5zero=true ndisc=19 discs=[ 2, 5, 6, 10, 11, 14, 15, 26, 29, 34, 51, 69, 86, 106, 129, 139, 141, 269, 314 ] nprimes=43
+ROW 259200.cs1 H5zero=false ndisc=16 discs=[ 3, 10, 13, 14, 38, 51, 94, 95, 114, 118, 133, 134, 142, 218, 290, 506 ] nprimes=43
+ROW 589824.fh3 H5zero=false ndisc=13 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 23, 31, 34, 138 ] nprimes=44
+ROW 480249.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 731025.ch1 H5zero=false ndisc=1 discs=[ 7 ] nprimes=42
+ROW 225792.qk2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 14, 17, 21, 23, 41, 57, 83, 85, 91, 97, 141, 142 ] nprimes=43
+ROW 278784.be1 H5zero=false ndisc=17 discs=[ 2, 5, 6, 13, 17, 22, 26, 37, 66, 69, 73, 106, 113, 134, 181, 185, 309 ] nprimes=43
+ROW 544500.fz1 H5zero=false ndisc=14 discs=[ 3, 6, 7, 13, 23, 31, 34, 35, 37, 39, 71, 87, 102, 123 ] nprimes=42
+ROW 774400.hs2 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 13, 17, 19, 21, 22, 26, 29, 39, 142, 187, 193, 229, 257 ] nprimes=43
+ROW 876096.db2 H5zero=true ndisc=19 discs=[ 3, 5, 6, 10, 14, 15, 19, 34, 35, 39, 91, 101, 109, 114, 130, 139, 209, 554, 634 ] nprimes=43
+ROW 253125.c1 H5zero=true ndisc=20 discs=[ 2, 5, 11, 13, 14, 26, 34, 39, 57, 58, 67, 83, 103, 133, 201, 226, 267, 318, 403, 433 ] nprimes=43
+ROW 946125.x1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 10, 11, 13, 30, 35, 37, 62, 79, 91, 93, 114, 139, 159 ] nprimes=42
+ROW 1030225.a1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=41
+ROW 331776.lf1 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 99856.p1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 69696.fp4 H5zero=true ndisc=17 discs=[ 2, 5, 6, 13, 17, 22, 26, 37, 66, 69, 73, 106, 113, 134, 181, 185, 309 ] nprimes=43
+ROW 21609.c1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 245025.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 836352.bju4 H5zero=false ndisc=19 discs=[ 2, 3, 5, 6, 10, 14, 15, 21, 22, 41, 57, 69, 70, 74, 85, 134, 137, 154, 238 ] nprimes=43
+ROW 173056.co1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 921600.mz2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 7, 15, 30, 33, 39, 41, 66, 78, 79, 93, 138, 151 ] nprimes=43
+ROW 396900.p8 H5zero=true ndisc=13 discs=[ 2, 3, 5, 7, 11, 13, 29, 43, 53, 57, 62, 91, 149 ] nprimes=42
+ROW 30625.e2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 544500.gt4 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 11, 13, 22, 29, 33, 37, 41, 53, 107 ] nprimes=42
+ROW 90000.t3 H5zero=true ndisc=13 discs=[ 5, 6, 14, 19, 21, 29, 31, 69, 101, 109, 131, 219, 541 ] nprimes=43
+ROW 1016064.baj1 H5zero=false ndisc=16 discs=[ 2, 6, 7, 14, 22, 23, 34, 39, 47, 58, 61, 66, 67, 79, 89, 154 ] nprimes=43
+ROW 455625.ce3 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 817216.l1 H5zero=false ndisc=20 discs=[ 2, 3, 6, 14, 19, 22, 23, 33, 38, 39, 46, 55, 62, 70, 86, 89, 118, 134, 183, 230 ] nprimes=44
+ROW 115200.fm3 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 11, 13, 15, 17, 19, 29, 33, 35, 39, 91, 141 ] nprimes=43
+ROW 692224.fh1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 51529.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 774400.jp4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 714025.i1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 399424.f1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 408321.i1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 648000.xh2 H5zero=true ndisc=18 discs=[ 2, 5, 6, 7, 26, 42, 46, 51, 74, 77, 102, 118, 138, 214, 266, 302, 354, 402 ] nprimes=43
+ROW 624100.n2 H5zero=false ndisc=16 discs=[ 2, 5, 6, 7, 10, 11, 13, 14, 41, 58, 61, 74, 109, 134, 374, 618 ] nprimes=43
+ROW 119025.bj1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 302500.ce2 H5zero=true ndisc=15 discs=[ 5, 6, 19, 26, 31, 34, 46, 79, 86, 94, 114, 134, 206, 334, 446 ] nprimes=43
+ROW 123904.ds1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 7, 13, 15, 17, 21, 29, 31, 33, 35, 58, 66, 187, 269, 523, 677 ] nprimes=44
+ROW 379456.c1 H5zero=false ndisc=15 discs=[ 2, 3, 5, 10, 14, 19, 22, 31, 34, 58, 73, 114, 130, 138, 274 ] nprimes=43
+ROW 103041.e2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 131044.a1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=44
+ROW 312500.g1 H5zero=true ndisc=20 discs=[ 5, 6, 11, 14, 21, 29, 41, 46, 59, 61, 79, 89, 119, 146, 191, 274, 346, 431, 474, 494 ] nprimes=44
+ROW 16000.q3 H5zero=false ndisc=18 discs=[ 2, 7, 11, 14, 15, 21, 22, 30, 39, 58, 78, 102, 127, 130, 154, 322, 358, 382 ] nprimes=44
+ROW 226576.br1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 418176.we1 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 13, 17, 33, 41, 65, 66, 82, 97, 145, 161 ] nprimes=43
+ROW 295936.bc2 H5zero=false ndisc=14 discs=[ 2, 6, 10, 14, 22, 29, 34, 58, 62, 66, 74, 230, 246, 518 ] nprimes=44
+ROW 87808.de3 H5zero=false ndisc=16 discs=[ 2, 3, 5, 10, 11, 13, 14, 17, 22, 29, 31, 37, 118, 334, 542, 598 ] nprimes=44
+ROW 480249.c2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 1024144.w2 H5zero=false ndisc=19 discs=[ 2, 3, 6, 10, 11, 19, 30, 35, 82, 93, 123, 133, 142, 145, 154, 174, 203, 317, 374 ] nprimes=42
+ROW 404496.t1 H5zero=false ndisc=18 discs=[ 3, 6, 10, 13, 14, 21, 22, 31, 93, 97, 133, 177, 205, 310, 357, 358, 366, 397 ] nprimes=43
+ROW 148176.cu2 H5zero=true ndisc=17 discs=[ 5, 11, 14, 17, 19, 35, 46, 51, 55, 70, 79, 89, 94, 201, 271, 370, 409 ] nprimes=43
+ROW 77841.d5 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 585225.t1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 144400.bn3 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 164025.s2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 7225.b1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 409600.il2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=44
+ROW 396900.fy2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 10, 11, 15, 19, 21, 22, 29, 31, 33, 41, 89 ] nprimes=42
+ROW 77284.b1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 525625.c1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 147968.bm4 H5zero=false ndisc=14 discs=[ 2, 3, 5, 11, 17, 21, 26, 29, 33, 37, 42, 74, 97, 114 ] nprimes=43
+ROW 38025.j1 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 13, 19, 21, 23, 29, 31, 37, 57, 71, 118 ] nprimes=42
+ROW 64800.ft3 H5zero=false ndisc=11 discs=[ 2, 3, 5, 7, 10, 15, 22, 37, 46, 274, 298 ] nprimes=43
+ROW 746496.c1 H5zero=false ndisc=20 discs=[ 2, 3, 5, 6, 11, 15, 19, 35, 46, 47, 51, 59, 71, 107, 109, 137, 195, 267, 283, 547 ] nprimes=44
+ROW 451584.lg1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 14, 17, 21, 23, 41, 57, 83, 85, 91, 97, 141, 142 ] nprimes=43
+ROW 543169.b1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 21600.bl4 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 508032.lx2 H5zero=false ndisc=12 discs=[ 2, 5, 6, 10, 11, 19, 29, 34, 39, 51, 55, 106 ] nprimes=43
+ROW 213444.eu3 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 112500.h2 H5zero=true ndisc=16 discs=[ 5, 6, 14, 19, 34, 51, 71, 74, 109, 114, 129, 186, 214, 274, 534, 606 ] nprimes=43
+ROW 112500.a1 H5zero=true ndisc=16 discs=[ 5, 6, 14, 21, 26, 34, 59, 71, 74, 86, 101, 134, 146, 194, 246, 574 ] nprimes=43
+ROW 164025.s1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 108000.dg3 H5zero=false ndisc=9 discs=[ 2, 3, 5, 7, 10, 19, 61, 79, 85 ] nprimes=43
+ROW 656100.dj1 H5zero=false ndisc=1 discs=[ 33 ] nprimes=43
+ROW 774400.hs4 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 13, 17, 19, 21, 22, 26, 29, 39, 142, 187, 193, 229, 257 ] nprimes=43
+ROW 387200.dt4 H5zero=false ndisc=17 discs=[ 5, 7, 11, 15, 17, 19, 29, 34, 41, 42, 43, 73, 87, 95, 165, 367, 561 ] nprimes=42
+ROW 89401.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 12500.a3 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 19, 26, 39, 46, 61, 66, 71, 214, 246, 334, 454 ] nprimes=44
+ROW 270400.o1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 202500.ch1 H5zero=false ndisc=13 discs=[ 6, 10, 11, 14, 29, 31, 34, 39, 41, 46, 66, 141, 226 ] nprimes=43
+ROW 842724.a1 H5zero=false ndisc=1 discs=[ 7 ] nprimes=43
+ROW 108000.dg2 H5zero=false ndisc=9 discs=[ 2, 3, 5, 7, 10, 19, 61, 79, 85 ] nprimes=43
+ROW 174724.g1 H5zero=false ndisc=1 discs=[ 21 ] nprimes=43
+ROW 902500.br1 H5zero=true ndisc=21 discs=[ 2, 3, 5, 6, 14, 19, 22, 37, 42, 58, 62, 69, 79, 83, 114, 123, 127, 137, 314, 321, 399 ] nprimes=43
+ROW 332928.bq2 H5zero=false ndisc=12 discs=[ 2, 3, 6, 10, 14, 17, 26, 33, 41, 58, 89, 154 ] nprimes=43
+ROW 237169.a1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=45
+ROW 7744.f4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 703125.c2 H5zero=true ndisc=15 discs=[ 5, 6, 14, 19, 26, 34, 74, 79, 101, 166, 226, 354, 434, 554, 586 ] nprimes=43
+ROW 415872.cz1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 10, 11, 17, 31, 39, 42, 47, 51, 58, 138, 538, 682, 698 ] nprimes=43
+ROW 715716.bp1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 209088.na6 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 11, 15, 17, 23, 31, 39, 61, 97, 101, 139 ] nprimes=43
+ROW 931225.b1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 400000.by2 H5zero=true ndisc=17 discs=[ 2, 5, 6, 7, 10, 19, 31, 55, 85, 91, 146, 181, 205, 211, 299, 354, 355 ] nprimes=44
+ROW 123904.dh1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 7, 10, 19, 23, 26, 29, 33, 35, 51, 67, 83, 93, 101, 127, 587 ] nprimes=44
+ROW 22500.g3 H5zero=false ndisc=13 discs=[ 6, 10, 11, 14, 29, 31, 34, 39, 41, 46, 66, 141, 226 ] nprimes=43
+ROW 459684.k1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 518400.je2 H5zero=false ndisc=17 discs=[ 2, 3, 6, 10, 19, 31, 34, 42, 58, 66, 69, 79, 93, 130, 138, 282, 394 ] nprimes=43
+ROW 369664.do2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 11, 15, 17, 21, 41, 42, 53, 59, 61, 91, 95, 97, 483 ] nprimes=43
+ROW 230400.qr1 H5zero=false ndisc=11 discs=[ 2, 7, 14, 15, 17, 33, 55, 57, 71, 105, 137 ] nprimes=43
+ROW 108000.c2 H5zero=false ndisc=9 discs=[ 2, 3, 5, 7, 10, 19, 61, 79, 85 ] nprimes=43
+ROW 508032.li1 H5zero=false ndisc=15 discs=[ 2, 3, 6, 10, 14, 23, 30, 33, 39, 53, 87, 94, 178, 210, 670 ] nprimes=43
+ROW 32400.w2 H5zero=true ndisc=18 discs=[ 3, 5, 7, 13, 22, 31, 46, 57, 66, 109, 133, 154, 163, 183, 201, 214, 246, 534 ] nprimes=43
+ROW 500000.h2 H5zero=true ndisc=16 discs=[ 5, 6, 7, 14, 17, 21, 34, 46, 66, 89, 106, 139, 229, 266, 291, 386 ] nprimes=44
+ROW 237169.b1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=45
+ROW 7744.f3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 923521.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 100352.bj3 H5zero=false ndisc=16 discs=[ 2, 3, 6, 10, 11, 14, 17, 26, 34, 42, 43, 58, 73, 83, 97, 106 ] nprimes=43
+ROW 302500.cj3 H5zero=true ndisc=18 discs=[ 5, 6, 11, 19, 21, 26, 34, 59, 66, 69, 74, 79, 94, 166, 206, 394, 446, 454 ] nprimes=43
+ROW 259200.og1 H5zero=false ndisc=14 discs=[ 2, 3, 10, 11, 13, 22, 31, 34, 38, 43, 70, 94, 178, 322 ] nprimes=43
+ROW 802816.f7 H5zero=true ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=43
+ROW 810000.or5 H5zero=true ndisc=20 discs=[ 2, 3, 5, 7, 11, 13, 17, 22, 26, 29, 33, 37, 42, 59, 82, 86, 107, 122, 129, 158 ] nprimes=43
+ROW 763876.j1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 451584.bdu1 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=43
+ROW 90000.m5 H5zero=true ndisc=20 discs=[ 2, 3, 5, 7, 11, 13, 17, 22, 26, 29, 33, 37, 42, 59, 82, 86, 107, 122, 129, 158 ] nprimes=43
+ROW 35152.q1 H5zero=true ndisc=15 discs=[ 5, 6, 10, 11, 14, 29, 34, 70, 74, 106, 109, 114, 154, 190, 406 ] nprimes=44
+ROW 220500.w2 H5zero=true ndisc=17 discs=[ 5, 6, 14, 19, 26, 29, 34, 66, 74, 86, 166, 194, 246, 406, 494, 534, 606 ] nprimes=42
+ROW 27556.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 508032.vh2 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 7, 10, 15, 17, 33, 39, 47, 71, 79 ] nprimes=43
+ROW 366025.e1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 477603.q1 H5zero=false ndisc=13 discs=[ 2, 3, 6, 10, 13, 14, 15, 21, 61, 77, 82, 85, 178 ] nprimes=42
+ROW 99225.a5 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 1012500.cc2 H5zero=true ndisc=20 discs=[ 5, 14, 19, 21, 26, 31, 34, 39, 41, 61, 66, 79, 89, 101, 109, 131, 166, 241, 271, 534 ] nprimes=43
+ROW 2601.b4 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 342225.dl2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 1034289.o1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 112500.f1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 21, 26, 34, 66, 86, 101, 114, 174, 254, 266, 274 ] nprimes=43
+ROW 1028196.bn1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 13, 14, 34, 37, 42, 55, 57, 62, 82, 94, 118, 346 ] nprimes=43
+ROW 259200.og2 H5zero=false ndisc=14 discs=[ 2, 3, 10, 11, 13, 22, 31, 34, 38, 43, 70, 94, 178, 322 ] nprimes=43
+ROW 541696.v1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=44
+ROW 400000.by1 H5zero=true ndisc=17 discs=[ 2, 5, 6, 7, 10, 19, 31, 55, 85, 91, 146, 181, 205, 211, 299, 354, 355 ] nprimes=44
+ROW 90000.t1 H5zero=false ndisc=13 discs=[ 5, 6, 14, 19, 21, 29, 31, 69, 101, 109, 131, 219, 541 ] nprimes=43
+ROW 144500.o3 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 13, 14, 22, 34, 42, 61, 130, 586 ] nprimes=42
+ROW 810000.z4 H5zero=false ndisc=17 discs=[ 5, 6, 14, 19, 26, 31, 34, 39, 41, 51, 71, 79, 89, 91, 209, 211, 401 ] nprimes=43
+ROW 836352.co8 H5zero=true ndisc=14 discs=[ 2, 3, 5, 10, 11, 15, 17, 23, 31, 39, 61, 97, 101, 139 ] nprimes=43
+ROW 946729.a1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 527076.x1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 442368.fg8 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 624100.ba1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 360000.n2 H5zero=true ndisc=20 discs=[ 2, 5, 13, 14, 17, 21, 23, 29, 38, 42, 58, 62, 86, 91, 122, 158, 194, 254, 382, 386 ] nprimes=43
+ROW 767376.ei1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 12500.b2 H5zero=true ndisc=16 discs=[ 5, 6, 14, 21, 26, 31, 39, 41, 66, 69, 101, 146, 166, 254, 286, 334 ] nprimes=44
+ROW 330625.j2 H5zero=true ndisc=17 discs=[ 2, 3, 5, 6, 7, 34, 41, 42, 53, 103, 194, 206, 238, 278, 398, 434, 478 ] nprimes=43
+ROW 544500.gt1 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 11, 13, 22, 29, 33, 37, 41, 53, 107 ] nprimes=42
+ROW 431649.g3 H5zero=false ndisc=1 discs=[ 13 ] nprimes=42
+ROW 62001.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 311364.bk2 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 893025.bq2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 123904.dh2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 7, 10, 19, 23, 26, 29, 33, 35, 51, 67, 83, 93, 101, 127, 587 ] nprimes=44
+ROW 99225.bp2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 442368.c7 H5zero=true ndisc=17 discs=[ 2, 3, 5, 7, 11, 15, 19, 23, 33, 35, 37, 39, 43, 51, 67, 71, 137 ] nprimes=44
+ROW 43904.n1 H5zero=true ndisc=16 discs=[ 5, 6, 11, 14, 15, 19, 29, 31, 46, 55, 59, 61, 70, 71, 85, 115 ] nprimes=44
+ROW 2197.a2 H5zero=false ndisc=16 discs=[ 2, 21, 22, 23, 29, 35, 46, 58, 70, 85, 86, 134, 161, 226, 298, 410 ] nprimes=44
+ROW 41616.bw3 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 7, 10, 15, 22, 23, 31, 35, 42, 67, 106 ] nprimes=43
+ROW 288000.kg1 H5zero=false ndisc=14 discs=[ 3, 5, 7, 11, 17, 23, 33, 37, 39, 57, 61, 87, 103, 119 ] nprimes=43
+ROW 484128.bo1 H5zero=false ndisc=11 discs=[ 2, 3, 6, 10, 22, 30, 37, 66, 70, 106, 114 ] nprimes=43
+ROW 853776.q2 H5zero=false ndisc=14 discs=[ 2, 3, 7, 10, 14, 15, 17, 21, 33, 57, 113, 114, 129, 194 ] nprimes=42
+ROW 82944.bt2 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 10816.o1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=44
+ROW 78400.bw3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 495616.eq3 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 925444.j1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 540000.lz1 H5zero=true ndisc=13 discs=[ 2, 5, 6, 10, 19, 26, 31, 41, 70, 86, 101, 154, 166 ] nprimes=43
+ROW 230400.sv2 H5zero=false ndisc=19 discs=[ 2, 5, 7, 10, 11, 14, 22, 23, 34, 35, 46, 62, 77, 82, 85, 86, 102, 130, 474 ] nprimes=43
+ROW 680625.l1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=42
+ROW 430336.bq4 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 64800.ft2 H5zero=false ndisc=11 discs=[ 2, 3, 5, 7, 10, 15, 22, 37, 46, 274, 298 ] nprimes=43
+ROW 680625.f5 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 213444.eu2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 148996.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 83521.b1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=44
+ROW 490000.fu1 H5zero=true ndisc=18 discs=[ 2, 5, 11, 15, 21, 26, 31, 34, 46, 70, 74, 106, 170, 186, 210, 314, 394, 434 ] nprimes=43
+ROW 202500.ch4 H5zero=false ndisc=13 discs=[ 6, 10, 11, 14, 29, 31, 34, 39, 41, 46, 66, 141, 226 ] nprimes=43
+ROW 665856.oa1 H5zero=false ndisc=14 discs=[ 2, 3, 6, 7, 10, 13, 19, 33, 34, 46, 57, 61, 73, 93 ] nprimes=43
+ROW 10368.n4 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 62500.b2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 389376.kc5 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 327184.cc2 H5zero=false ndisc=1 discs=[ 21 ] nprimes=42
+ROW 281961.b2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 465125.b1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 7, 22, 23, 29, 31, 33, 65, 79, 87, 94, 118, 145, 302, 438 ] nprimes=43
+ROW 514089.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 71289.c1 H5zero=true ndisc=14 discs=[ 5, 6, 7, 10, 11, 19, 21, 31, 46, 106, 214, 334, 421, 499 ] nprimes=43
+ROW 127008.fk2 H5zero=false ndisc=11 discs=[ 5, 6, 14, 15, 19, 21, 26, 30, 35, 79, 101 ] nprimes=43
+ROW 864900.dz1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=42
+ROW 30625.c2 H5zero=false ndisc=1 discs=[ 5 ] nprimes=43
+ROW 684500.v2 H5zero=true ndisc=21 discs=[ 2, 5, 6, 7, 13, 14, 22, 37, 46, 58, 62, 78, 97, 106, 134, 138, 174, 218, 274, 362, 382 ] nprimes=43
+ROW 253125.z2 H5zero=true ndisc=18 discs=[ 2, 3, 5, 7, 13, 23, 33, 42, 43, 58, 78, 82, 102, 122, 178, 262, 282, 398 ] nprimes=43
+ROW 332928.cj2 H5zero=true ndisc=20 discs=[ 2, 5, 7, 14, 15, 19, 29, 35, 42, 46, 55, 65, 82, 109, 138, 142, 174, 178, 202, 310 ] nprimes=43
+ROW 128164.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 714025.d1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 451584.rn4 H5zero=false ndisc=17 discs=[ 2, 3, 5, 7, 10, 11, 13, 15, 17, 26, 33, 51, 61, 66, 82, 85, 138 ] nprimes=43
+ROW 68121.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 292032.fj2 H5zero=false ndisc=9 discs=[ 3, 7, 10, 13, 15, 21, 33, 94, 129 ] nprimes=43
+ROW 917764.b1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=45
+ROW 914112.nl1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 10, 13, 14, 19, 21, 23, 29, 35, 37, 41, 65, 94, 102, 143 ] nprimes=43
+ROW 102400.c2 H5zero=false ndisc=16 discs=[ 2, 3, 5, 6, 7, 11, 13, 15, 17, 30, 33, 73, 102, 118, 182, 406 ] nprimes=44
+ROW 308025.a1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 288000.li3 H5zero=false ndisc=13 discs=[ 5, 11, 19, 21, 29, 31, 39, 51, 61, 91, 119, 129, 191 ] nprimes=43
+ROW 142129.d2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 535824.t4 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 525625.f2 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 495616.gw1 H5zero=false ndisc=16 discs=[ 2, 5, 6, 11, 13, 23, 31, 33, 53, 57, 61, 77, 101, 109, 165, 205 ] nprimes=44
+ROW 490000.ej2 H5zero=false ndisc=22 discs=[ 2, 3, 5, 6, 7, 11, 14, 17, 19, 21, 23, 26, 33, 39, 47, 51, 58, 106, 146, 249, 401, 419 ] nprimes=43
+ROW 342225.c1 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 14, 15, 21, 23, 26, 30, 55 ] nprimes=42
+ROW 36864.cf3 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 496125.cr2 H5zero=true ndisc=19 discs=[ 2, 3, 5, 11, 21, 22, 23, 26, 29, 41, 46, 66, 83, 131, 174, 222, 258, 366, 506 ] nprimes=42
+ROW 802816.f1 H5zero=false ndisc=15 discs=[ 2, 3, 5, 6, 7, 10, 14, 21, 33, 34, 37, 47, 51, 87, 97 ] nprimes=44
+ROW 278784.oo2 H5zero=false ndisc=10 discs=[ 3, 5, 6, 10, 13, 15, 21, 22, 34, 93 ] nprimes=43
+ROW 1016064.bsm2 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 13, 14, 22, 26, 37, 39, 46, 59, 73, 87, 114, 290, 646 ] nprimes=43
+ROW 219961.a1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 508032.bag2 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 10, 13, 14, 15, 30, 34, 39, 46, 71, 85, 87, 157, 254 ] nprimes=43
+ROW 148225.u1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=42
+ROW 311364.bk1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 105625.e5 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 51200.cc2 H5zero=false ndisc=14 discs=[ 2, 5, 6, 7, 10, 14, 31, 42, 66, 82, 101, 102, 182, 246 ] nprimes=44
+ROW 50625.p2 H5zero=true ndisc=12 discs=[ 2, 5, 6, 7, 11, 26, 34, 38, 42, 83, 113, 218 ] nprimes=43
+ROW 209088.nd1 H5zero=false ndisc=17 discs=[ 3, 5, 6, 7, 10, 13, 21, 22, 34, 39, 46, 94, 106, 118, 174, 190, 454 ] nprimes=43
+ROW 338688.jf1 H5zero=false ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 302500.cj2 H5zero=true ndisc=18 discs=[ 5, 6, 11, 19, 21, 26, 34, 59, 66, 69, 74, 79, 94, 166, 206, 394, 446, 454 ] nprimes=43
+ROW 220500.dq1 H5zero=true ndisc=12 discs=[ 5, 11, 19, 21, 29, 31, 39, 41, 59, 61, 69, 111 ] nprimes=42
+ROW 332928.kd1 H5zero=false ndisc=16 discs=[ 3, 5, 7, 13, 15, 17, 29, 33, 37, 53, 55, 57, 65, 93, 95, 105 ] nprimes=43
+ROW 32400.dd2 H5zero=true ndisc=19 discs=[ 5, 6, 11, 14, 19, 26, 29, 31, 46, 69, 71, 89, 101, 149, 174, 251, 286, 329, 431 ] nprimes=43
+ROW 1012500.ei2 H5zero=true ndisc=16 discs=[ 5, 6, 11, 14, 19, 26, 29, 74, 141, 179, 211, 254, 271, 309, 319, 671 ] nprimes=43
+ROW 830304.ei2 H5zero=false ndisc=18 discs=[ 3, 10, 13, 14, 29, 51, 74, 82, 94, 95, 103, 118, 139, 217, 335, 373, 415, 510 ] nprimes=42
+ROW 480249.bw1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 527076.h2 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 130321.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 722000.bo2 H5zero=false ndisc=14 discs=[ 2, 3, 5, 10, 19, 34, 42, 58, 66, 67, 106, 130, 274, 298 ] nprimes=42
+ROW 903168.uk1 H5zero=false ndisc=17 discs=[ 2, 3, 6, 10, 13, 22, 31, 33, 41, 51, 55, 58, 73, 122, 123, 246, 598 ] nprimes=43
+ROW 112500.c1 H5zero=true ndisc=18 discs=[ 5, 14, 19, 26, 34, 46, 74, 86, 94, 106, 109, 134, 146, 166, 174, 186, 194, 654 ] nprimes=43
+ROW 960400.hk1 H5zero=true ndisc=18 discs=[ 2, 5, 13, 17, 22, 23, 31, 39, 41, 53, 69, 83, 133, 143, 157, 183, 391, 489 ] nprimes=43
+ROW 765625.d1 H5zero=true ndisc=14 discs=[ 2, 3, 5, 6, 11, 14, 31, 61, 109, 146, 209, 214, 386, 439 ] nprimes=43
+ROW 35344.e1 H5zero=false ndisc=17 discs=[ 2, 3, 5, 6, 7, 10, 14, 30, 42, 46, 53, 94, 137, 158, 286, 302, 382 ] nprimes=43
+ROW 1034289.j1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 680625.v3 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 26, 29, 34, 41, 46, 74, 94, 149, 206, 226, 254 ] nprimes=42
+ROW 802816.ba2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=44
+ROW 112500.b2 H5zero=true ndisc=17 discs=[ 5, 6, 11, 19, 26, 46, 59, 61, 66, 94, 111, 146, 149, 154, 166, 214, 646 ] nprimes=43
+ROW 202500.bx2 H5zero=true ndisc=15 discs=[ 5, 6, 14, 19, 26, 29, 59, 86, 94, 134, 161, 194, 214, 226, 266 ] nprimes=43
+ROW 585225.e1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=42
+ROW 902500.u1 H5zero=false ndisc=1 discs=[ 17 ] nprimes=43
+ROW 30625.e4 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 1013888.v2 H5zero=false ndisc=15 discs=[ 2, 3, 6, 7, 10, 13, 22, 26, 33, 34, 39, 91, 106, 114, 138 ] nprimes=43
+ROW 336400.o4 H5zero=true ndisc=17 discs=[ 2, 3, 5, 6, 13, 17, 22, 29, 37, 41, 61, 69, 86, 102, 138, 149, 178 ] nprimes=43
+ROW 810000.kq4 H5zero=true ndisc=16 discs=[ 5, 6, 14, 31, 41, 46, 59, 91, 106, 134, 166, 194, 214, 226, 586, 754 ] nprimes=43
+ROW 115200.fm2 H5zero=false ndisc=15 discs=[ 2, 3, 5, 7, 11, 13, 15, 17, 19, 29, 33, 35, 39, 91, 141 ] nprimes=43
+ROW 364500.du2 H5zero=false ndisc=18 discs=[ 2, 3, 5, 11, 13, 14, 21, 23, 31, 34, 35, 43, 55, 59, 70, 133, 251, 323 ] nprimes=43
+ROW 351232.cs2 H5zero=true ndisc=16 discs=[ 5, 6, 11, 14, 15, 19, 29, 31, 46, 55, 59, 61, 70, 71, 85, 115 ] nprimes=44
+ROW 831744.jk3 H5zero=false ndisc=1 discs=[ 33 ] nprimes=43
+ROW 10368.n8 H5zero=true ndisc=16 discs=[ 5, 6, 10, 15, 19, 46, 51, 55, 94, 141, 186, 214, 394, 474, 546, 634 ] nprimes=44
+ROW 270400.g1 H5zero=false ndisc=13 discs=[ 2, 3, 5, 6, 10, 14, 19, 23, 31, 39, 41, 57, 111 ] nprimes=43
+ROW 675684.j1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 876096.sa1 H5zero=false ndisc=14 discs=[ 2, 3, 6, 7, 10, 34, 38, 58, 65, 77, 138, 178, 438, 454 ] nprimes=43
+ROW 568516.q1 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 112500.a2 H5zero=true ndisc=16 discs=[ 5, 6, 14, 21, 26, 34, 59, 71, 74, 86, 101, 134, 146, 194, 246, 574 ] nprimes=43
+ROW 68121.b3 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 451584.bdu6 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=43
+ROW 122500.f1 H5zero=true ndisc=15 discs=[ 5, 6, 11, 14, 26, 34, 46, 66, 71, 79, 86, 94, 166, 526, 606 ] nprimes=43
+ROW 93312.de2 H5zero=false ndisc=16 discs=[ 3, 5, 6, 7, 10, 17, 22, 29, 33, 58, 70, 82, 94, 133, 178, 214 ] nprimes=44
+ROW 902500.d1 H5zero=false ndisc=19 discs=[ 2, 5, 6, 13, 14, 15, 21, 26, 29, 37, 59, 65, 87, 105, 119, 158, 170, 227, 345 ] nprimes=43
+ROW 21168.b3 H5zero=true ndisc=10 discs=[ 5, 6, 10, 11, 14, 19, 39, 46, 61, 91 ] nprimes=43
+ROW 75625.c3 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 417316.bc2 H5zero=false ndisc=1 discs=[ 3 ] nprimes=43
+ROW 540225.co10 H5zero=true ndisc=1 discs=[ 5 ] nprimes=41
+ROW 319225.d1 H5zero=true ndisc=22 discs=[ 2, 3, 5, 6, 17, 19, 21, 22, 23, 47, 67, 69, 114, 119, 123, 134, 241, 254, 286, 307, 381, 419 ] nprimes=43
+ROW 99225.h7 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 390625.c1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 914112.kq1 H5zero=false ndisc=18 discs=[ 2, 3, 5, 6, 10, 13, 14, 19, 21, 23, 29, 35, 37, 41, 65, 94, 102, 143 ] nprimes=43
+ROW 313600.nu1 H5zero=false ndisc=13 discs=[ 3, 5, 7, 13, 17, 31, 57, 62, 69, 79, 91, 131, 307 ] nprimes=43
+ROW 19881.a2 H5zero=false ndisc=20 discs=[ 2, 6, 7, 10, 11, 15, 23, 26, 34, 35, 38, 42, 58, 67, 83, 86, 102, 142, 251, 307 ] nprimes=43
+ROW 448900.n1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 429025.b1 H5zero=false ndisc=21 discs=[ 2, 3, 5, 6, 10, 13, 15, 30, 37, 38, 53, 58, 59, 66, 73, 78, 114, 134, 149, 226, 614 ] nprimes=43
+ROW 455625.i2 H5zero=false ndisc=1 discs=[ 13 ] nprimes=43
+ROW 408321.j1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=43
+ROW 36864.bv2 H5zero=false ndisc=19 discs=[ 2, 3, 5, 7, 10, 13, 23, 31, 33, 34, 39, 42, 43, 47, 65, 79, 85, 103, 114 ] nprimes=44
+ROW 234256.s1 H5zero=true ndisc=1 discs=[ 5 ] nprimes=44
+ROW 268324.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 199809.a1 H5zero=true ndisc=13 discs=[ 3, 5, 6, 7, 19, 21, 31, 61, 79, 91, 111, 139, 229 ] nprimes=43
+ROW 387200.dg2 H5zero=false ndisc=12 discs=[ 2, 6, 7, 10, 17, 30, 33, 38, 58, 61, 62, 134 ] nprimes=42
+ROW 304704.fp4 H5zero=false ndisc=1 discs=[ 5 ] nprimes=42
+ROW 1016064.ur8 H5zero=false ndisc=12 discs=[ 2, 3, 5, 6, 7, 10, 15, 21, 37, 43, 55, 91 ] nprimes=42
+ROW 28800.dv3 H5zero=false ndisc=14 discs=[ 2, 3, 5, 6, 10, 13, 14, 15, 17, 19, 21, 29, 66, 105 ] nprimes=43
+ROW 13689.n1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 128000.i3 H5zero=false ndisc=18 discs=[ 2, 7, 11, 14, 15, 21, 22, 30, 39, 58, 78, 102, 127, 130, 154, 322, 358, 382 ] nprimes=44
+ROW 252004.a1 H5zero=false ndisc=1 discs=[ 13 ] nprimes=44
+ROW 144400.d1 H5zero=false ndisc=1 discs=[ 2 ] nprimes=43
+ROW 540000.ld4 H5zero=false ndisc=15 discs=[ 3, 10, 13, 14, 17, 22, 23, 29, 38, 51, 53, 79, 87, 107, 134 ] nprimes=43
+ROW 453152.w1 H5zero=false ndisc=16 discs=[ 2, 3, 5, 7, 10, 11, 26, 35, 37, 41, 42, 53, 61, 73, 91, 107 ] nprimes=43
+ROW 400000.bi2 H5zero=true ndisc=16 discs=[ 2, 5, 6, 10, 19, 29, 46, 85, 101, 166, 190, 254, 259, 286, 314, 319 ] nprimes=44

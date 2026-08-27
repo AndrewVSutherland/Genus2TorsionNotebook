@@ -1,0 +1,425 @@
+=== verify_2220_family.m ===
+(1) generic orders over Q(t): [inf+ - (0,0)] = 5, [(-t-1,.) - (0,0)] = 20
+(2) at t = t(z) the quartic factors as (linear)(cubic) over Q(z)
+(3) the cover is a singular plane genus-2 curve with normalization Y (conductor 2528)
+(4) rank(Jac Y) = 1, torsion Z/4; Chabauty: Y(Q) has exactly 9 points
+(5) all rational points of the cover have z in {-1, 0, -1/7, -7/9, oo}; z = -1, 0, oo give t = -1, a degenerate fiber
+(6) z = -1/7: fiber isomorphic to Eq.(eq:2220), exact torsion [2,2,20]
+(6) z = -7/9: fiber isomorphic to Eq.(eq:2220), exact torsion [2,2,20]
+[2,2,20] FAMILY VERIFIED: Eq.(eq:2220) is the unique [2,2,20] member (1.4 s)
+=== verify_22212_surface.m ===
+(1) Sing(S) = 36 rational points, coordinates in {0,1,-1}
+(2) all 36 singular points are ordinary double points
+(3) Sing(S) = orbit of [1:0:0:1:0] (12) + orbit of [1:1:0:1:1] (24)
+(4) the displayed map sends S into Z (both equations lie in I_S)
+SURFACE GEOMETRY VERIFIED (4.0E-2 s)
+=== verify_22212_theorem.m ===
+point 1 = [ 120, 143, 266, 218, 241 ] lies on S^o
+point 1: torsion invariants [ 2, 2, 2, 12 ]
+point 1: geometrically simple, witness p=71, chi=x^4 - 8*x^3 + 46*x^2 - 568*x + 5041
+point 2 = [ 143, 408, 1015, 437, 1013 ] lies on S^o
+point 2: torsion invariants [ 2, 2, 2, 12 ]
+point 2: geometrically simple, witness p=37, chi=x^4 - 4*x^3 + 30*x^2 - 148*x + 1369
+point 3 = [ 16660, 78793, 21456, 78644, 27593 ] lies on S^o
+point 3: torsion invariants [ 2, 2, 2, 12 ]
+point 3: geometrically simple, witness p=37, chi=x^4 - 4*x^3 + 30*x^2 - 148*x + 1369
+the three curves are pairwise non-isomorphic
+THEOREM 3.2 VERIFIED: 3 curves, exact [2,2,2,12], simple, distinct (0.7 s)
+=== verify_moduli_identities.m ===
+(1) Lemma 2.3(b): 2 D_0 = [(0,0) - infty] generically
+(2) Lemma 2.3(d): the four displayed expressions are q(-a_i^2) exactly
+(3) Lemma 4.5: (x0,y0) -> ((x0-u)/(x0+u), 2(t+1)y0/(x0+u)^2) maps E_u to V_t
+(4) Prop 4.4: all displayed identities hold over Q(s); Lemma 2.3(c) conditions are identically squares
+    s = 3 fiber: torsion [ 2, 2, 4, 4 ] contains [2,2,4,4]
+(5) Cor 4.3: E_7 has Mordell-Weil rank exactly 1
+(6) t = 2 fiber on S: torsion [ 2, 2, 2, 8 ] contains [2,2,2,8]
+(6) t = 5 fiber on S: torsion [ 2, 2, 2, 8 ] contains [2,2,2,8]
+ALL MODULI IDENTITIES VERIFIED (0.4 s)
+=== verify_simple_certificates.m ===
+SIMPLE  [ 3 ]          p=3   chi=x^4 + 3*x^3 + 5*x^2 + 9*x + 9  (997.b.997.1)
+END=Z   [ 3 ]          GSp4 monodromy: q=3, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 11 ]         p=3   chi=x^4 + 2*x^3 + 4*x^2 + 6*x + 9  (353.a.353.1)
+END=Z   [ 11 ]         GSp4 monodromy: q=3, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 12 ]         p=7   chi=x^4 - x^3 + 6*x^2 - 7*x + 49  (762.a.3048.1)
+END=Z   [ 12 ]         GSp4 monodromy: q=7, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 14 ]         p=7   chi=x^4 + x^3 - 2*x^2 + 7*x + 49  (249.a.249.1)
+END=Z   [ 14 ]         GSp4 monodromy: q=11, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 15 ]         p=3   chi=x^4 + x^3 + x^2 + 3*x + 9  (277.a.277.1)
+END=Z   [ 15 ]         GSp4 monodromy: q=5, p=3 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 6 ]       p=23  chi=x^4 - 3*x^3 - 2*x^2 - 69*x + 529  (704.a.45056.1)
+END=Z   [ 2, 6 ]       GSp4 monodromy: q=5, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 4 ]          p=17  chi=x^4 + 4*x^3 + 6*x^2 + 68*x + 289  (1070.a.2140.1)
+END=Z   [ 4 ]          GSp4 monodromy: q=7, p=19 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 13 ]         p=3   chi=x^4 + x^3 - x^2 + 3*x + 9  (349.a.349.1)
+END=Z   [ 13 ]         GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 17 ]         p=3   chi=x^4 + x^3 + 3*x^2 + 3*x + 9  (1996.b.510976.1)
+END=Z   [ 17 ]         GSp4 monodromy: q=5, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 20 ]         p=7   chi=x^4 - x^3 - 2*x^2 - 7*x + 49  (394.a.3152.1)
+END=Z   [ 20 ]         GSp4 monodromy: q=7, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 22 ]         p=3   chi=x^4 + 2*x^3 + 4*x^2 + 6*x + 9  (1192.a.19072.1)
+END=Z   [ 22 ]         GSp4 monodromy: q=3, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 8 ]       p=3   chi=x^4 + x^3 + 2*x^2 + 3*x + 9  (464.a.29696.1)
+END=Z   [ 2, 8 ]       GSp4 monodromy: q=3, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 10 ]      p=7   chi=x^4 - x^3 - 2*x^2 - 7*x + 49  (555.a.8325.1)
+END=Z   [ 2, 10 ]      GSp4 monodromy: q=7, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 40 ]         p=17  chi=x^4 + x^3 + 12*x^2 + 17*x + 289  (1206.b.1 alpha)
+END=Z   [ 40 ]         GSp4 monodromy: q=11, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 3, 3 ]       p=19  chi=x^4 - 4*x^3 + 15*x^2 - 76*x + 361  (5100.a.1 alpha)
+END=Z   [ 3, 3 ]       GSp4 monodromy: q=7, p=19 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 8 ]          p=3   chi=x^4 + x^3 + 2*x^2 + 3*x + 9  (464.a.464.1)
+END=Z   [ 8 ]          GSp4 monodromy: q=3, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 9 ]          p=7   chi=x^4 + x^3 - 4*x^2 + 7*x + 49  (713.b.713.1)
+END=Z   [ 9 ]          GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 18 ]         p=7   chi=x^4 + x^3 - 4*x^2 + 7*x + 49  (1180.a.18880.1)
+END=Z   [ 18 ]         GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 21 ]         p=5   chi=x^4 + 2*x^3 + 4*x^2 + 10*x + 25  (388.a.776.1)
+END=Z   [ 21 ]         GSp4 monodromy: q=5, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 24 ]         p=17  chi=x^4 + x^3 - 20*x^2 + 17*x + 289  (1908.a.183168.1)
+END=Z   [ 24 ]         GSp4 monodromy: q=11, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 27 ]         p=3   chi=x^4 + 3*x^3 + 5*x^2 + 9*x + 9  (604.a.9664.2)
+END=Z   [ 27 ]         GSp4 monodromy: q=3, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 29 ]         p=3   chi=x^4 + 3*x^3 + 7*x^2 + 9*x + 9  (976.a.999424.1)
+END=Z   [ 29 ]         GSp4 monodromy: q=3, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 39 ]         p=5   chi=x^4 + 2*x^3 + x^2 + 10*x + 25  (1116.a.214272.1)
+END=Z   [ 39 ]         GSp4 monodromy: q=7, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 4 ]       p=3   chi=x^4 + x^3 + 2*x^2 + 3*x + 9  (997.a.997.1)
+END=Z   [ 2, 4 ]       GSp4 monodromy: q=3, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 14 ]      p=17  chi=x^4 - 4*x^3 + 6*x^2 - 68*x + 289  (1416.b.135936.1)
+END=Z   [ 2, 14 ]      GSp4 monodromy: q=17, p=19 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2 ]    p=11  chi=x^4 + 4*x^3 + 6*x^2 + 44*x + 121  (2600.a.338000.1)
+END=Z   [ 2, 2, 2 ]    GSp4 monodromy: q=11, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 4 ]    p=23  chi=x^4 - 2*x^3 + 30*x^2 - 46*x + 529  (3978.a.930852.1)
+END=Z   [ 2, 2, 4 ]    GSp4 monodromy: q=11, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 6 ]    p=29  chi=x^4 - 8*x^3 + 46*x^2 - 232*x + 841  (816.a.39168.1)
+END=Z   [ 2, 2, 6 ]    GSp4 monodromy: q=7, p=29 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 26 ]         p=11  chi=x^4 + 4*x^3 + 12*x^2 + 44*x + 121  (11016.g.1 alpha)
+END=Z   [ 26 ]         GSp4 monodromy: q=11, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 5 ]          p=3   chi=x^4 + x^3 + x^2 + 3*x + 9  (277.a.277.2)
+END=Z   [ 5 ]          GSp4 monodromy: q=5, p=3 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 7 ]          p=5   chi=x^4 - x^3 + x^2 - 5*x + 25  (461.a.461.1)
+END=Z   [ 7 ]          GSp4 monodromy: q=11, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 16 ]         p=3   chi=x^4 + x^3 + 2*x^2 + 3*x + 9  (830.a.6640.1)
+END=Z   [ 16 ]         GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 28 ]         p=7   chi=x^4 + x^3 - 2*x^2 + 7*x + 49  (249.a.6723.1)
+END=Z   [ 28 ]         GSp4 monodromy: q=11, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 12 ]      p=7   chi=x^4 - x^3 + 6*x^2 - 7*x + 49  (762.a.82296.1)
+END=Z   [ 2, 12 ]      GSp4 monodromy: q=7, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 19 ]         p=3   chi=x^4 + x^3 + 5*x^2 + 3*x + 9  (1468.b.1 alpha)
+END=Z   [ 19 ]         GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 23 ]         p=3   chi=x^4 + 2*x^3 + 5*x^2 + 6*x + 9  (1696.c.1 alpha)
+END=Z   [ 23 ]         GSp4 monodromy: q=3, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 16 ]      p=5   chi=x^4 + x^3 + 5*x + 25  (4392.a.1 alpha)
+END=Z   [ 2, 16 ]      GSp4 monodromy: q=7, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 18 ]      p=17  chi=x^4 + x^3 + 16*x^2 + 17*x + 289  (4428.a.2 alpha)
+END=Z   [ 2, 18 ]      GSp4 monodromy: q=5, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 8 ]    p=7   chi=x^4 + 2*x^3 - 2*x^2 + 14*x + 49  (3942.b.3 alpha)
+END=Z   [ 2, 2, 8 ]    GSp4 monodromy: q=11, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 10 ]         p=5   chi=x^4 - x^3 - 5*x + 25  (389.a.389.1)
+END=Z   [ 10 ]         GSp4 monodromy: q=13, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2 ]       p=3   chi=x^4 + x^3 + 2*x^2 + 3*x + 9  (464.a.29696.2)
+END=Z   [ 2, 2 ]       GSp4 monodromy: q=3, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 26 ]      p=23  chi=x^4 + 3*x^3 + 22*x^2 + 69*x + 529  (8136.c.1 alpha)
+END=Z   [ 2, 26 ]      GSp4 monodromy: q=17, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 10 ]   p=17  chi=x^4 + 2*x^3 - 6*x^2 + 34*x + 289  (10512.n.1 alpha)
+END=Z   [ 2, 2, 10 ]   GSp4 monodromy: q=11, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 12 ]   p=19  chi=x^4 + 2*x^3 - 18*x^2 + 38*x + 361  (12300.e.2 alpha)
+END=Z   [ 2, 2, 12 ]   GSp4 monodromy: q=11, p=19 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 2 ] p=31  chi=x^4 + 4*x^3 - 2*x^2 + 124*x + 961  (1575.c.1 alpha)
+END=Z   [ 2, 2, 2, 2 ] GSp4 monodromy: q=13, p=31 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 3, 6 ]       p=13  chi=x^4 + 2*x^3 + 26*x + 169  (3780.b.1 alpha)
+END=Z   [ 3, 6 ]       GSp4 monodromy: q=17, p=29 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 22 ]      p=5   chi=x^4 + 2*x^3 + 6*x^2 + 10*x + 25  (19044.h.2 alpha, RM)
+ENDBOUND [ 2, 22 ]     End^0 in {Q, Q(sqrt 5)}: center in unique real quadratic of Q(pi) at p=5,37 (non-isomorphic quartics, CLV); QM excluded by #tors=44>18
+RM      [ 2, 22 ]      Q(sqrt 5) at all 38 admissible p<200 (evidence; the lower bound End^0 <> Q is cited)
+SIMPLE  [ 25 ]         p=11  chi=x^4 - 5*x^3 + 13*x^2 - 55*x + 121  (168750.e.2 alpha)
+END=Z   [ 25 ]         GSp4 monodromy: q=11, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 33 ]         p=13  chi=x^4 - 2*x^3 - 10*x^2 - 26*x + 169  (13716.a.1 alpha)
+END=Z   [ 33 ]         GSp4 monodromy: q=7, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 34 ]         p=5   chi=x^4 + x^3 + 2*x^2 + 5*x + 25  (17856.m.1 alpha)
+END=Z   [ 34 ]         GSp4 monodromy: q=11, p=5 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 36 ]         p=11  chi=x^4 - 2*x^3 + 10*x^2 - 22*x + 121  (59040.r.3 alpha)
+END=Z   [ 36 ]         GSp4 monodromy: q=11, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 28 ]      p=7   chi=x^4 + x^3 - 2*x^2 + 7*x + 49  (28200.e.1 alpha)
+END=Z   [ 2, 28 ]      GSp4 monodromy: q=7, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 6 ]          p=17  chi=x^4 - 4*x^3 + 10*x^2 - 68*x + 289  (1038.a.1038.1)
+END=Z   [ 6 ]          GSp4 monodromy: q=19, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 6 ] p=23  chi=x^4 - 4*x^3 - 2*x^2 - 92*x + 529  (39600.dq.1 alpha)
+END=Z   [ 2, 2, 2, 6 ] GSp4 monodromy: q=19, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 30 ]         p=13  chi=x^4 - 2*x^3 + 8*x^2 - 26*x + 169  (8694.e.1 alpha)
+END=Z   [ 30 ]         GSp4 monodromy: q=11, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 32 ]         p=7   chi=x^4 + x^3 + 6*x^2 + 7*x + 49  (66852.b.1 alpha)
+END=Z   [ 32 ]         GSp4 monodromy: q=7, p=11 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 4 ] p=17  chi=x^4 - 4*x^3 + 6*x^2 - 68*x + 289  (9450.b.2 alpha)
+END=Z   [ 2, 2, 2, 4 ] GSp4 monodromy: q=13, p=43 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2 ]          p=7   chi=x^4 - x^3 - 7*x + 49  (295.a.295.2)
+END=Z   [ 2 ]          GSp4 monodromy: q=11, p=13 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 20 ]      p=17  chi=x^4 - 3*x^3 + 4*x^2 - 51*x + 289  (936600.b.1 alpha)
+END=Z   [ 2, 20 ]      GSp4 monodromy: q=11, p=17 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 4, 8 ]       p=53  chi=x^4 - 4*x^3 + 62*x^2 - 212*x + 2809  (913500.cf.3 alpha)
+END=Z   [ 4, 8 ]       GSp4 monodromy: q=17, p=53 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 4, 4 ]    p=37  chi=x^4 - 4*x^3 - 2*x^2 - 148*x + 1369  (172260.bj.3 alpha)
+END=Z   [ 2, 4, 4 ]    GSp4 monodromy: q=23, p=37 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 3, 9 ]       p=17  chi=x^4 - 3*x^3 + 7*x^2 - 51*x + 289  (8436.a.2 alpha)
+END=Z   [ 3, 9 ]       GSp4 monodromy: q=17, p=23 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 6, 6 ]       p=37  chi=x^4 - 10*x^3 + 54*x^2 - 370*x + 1369  (new (this paper))
+END=Z   [ 6, 6 ]       GSp4 monodromy: q=47, p=37 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 10 ] p=11  chi=x^4 - 4*x^3 + 6*x^2 - 44*x + 121  (Elkies 2024)
+END=Z   [ 2, 2, 2, 10 ] GSp4 monodromy: q=37, p=43 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 4, 8 ]    p=47  chi=x^4 - 4*x^3 + 30*x^2 - 188*x + 2209  (new (this paper))
+END=Z   [ 2, 4, 8 ]    GSp4 monodromy: q=17, p=47 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 31 ]         p=11  chi=x^4 - 8*x^3 + 36*x^2 - 88*x + 121  (new: 1830.2.a.q, RM)
+ENDBOUND [ 31 ]        End^0 in {Q, Q(sqrt 2)}: center in unique real quadratic of Q(pi) at p=11,13 (non-isomorphic quartics, CLV); QM excluded by #tors=31>18
+RM      [ 31 ]         Q(sqrt 2) at all 39 admissible p<200 (evidence; the lower bound End^0 <> Q is cited)
+SIMPLE  []             p=7   chi=x^4 - x^3 + 3*x^2 - 7*x + 49  (277.a.3 alpha)
+END=Z   []             GSp4 monodromy: q=5, p=7 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 4, 4 ]       p=31  chi=x^4 + 4*x^3 - 2*x^2 + 124*x + 961  (1575.c.14 alpha)
+END=Z   [ 4, 4 ]       GSp4 monodromy: q=13, p=31 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 8 ] p=41  chi=x^4 + 4*x^3 + 6*x^2 + 164*x + 1681  (new (this paper))
+END=Z   [ 2, 2, 2, 8 ] GSp4 monodromy: q=23, p=47 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 4, 4 ] p=37  chi=x^4 - 4*x^3 - 2*x^2 - 148*x + 1369  (new (this paper))
+END=Z   [ 2, 2, 4, 4 ] GSp4 monodromy: q=41, p=37 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 14 ]   p=17  chi=x^4 - 4*x^3 + 6*x^2 - 68*x + 289  (new (this paper))
+END=Z   [ 2, 2, 14 ]   GSp4 monodromy: q=17, p=31 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 20 ]   p=71  chi=x^4 + 2*x^3 + 14*x^2 + 142*x + 5041  (new (this paper))
+END=Z   [ 2, 2, 20 ]   GSp4 monodromy: q=23, p=71 ordinary, Phi free rank 3, [L(W_p):L]=8
+SIMPLE  [ 2, 2, 2, 12 ] p=71  chi=x^4 - 8*x^3 + 46*x^2 - 568*x + 5041  (new (this paper))
+END=Z   [ 2, 2, 2, 12 ] GSp4 monodromy: q=31, p=71 ordinary, Phi free rank 3, [L(W_p):L]=8
+PART A: all 73 census curves geometrically simple
+PART B: End(Jac_Qbar) = Z for all 71 non-RM curves
+PART C: End^0 in {Q, F} certified for the RM rows; the RM lower bound is cited, with Frobenius evidence
+[2,22] curve 1: exact torsion [2,22], P=(1 : -6 : 1) with [P-W_i] of order 22 for both W_i
+[2,22] curve 1: simple (p=5), RM-by-sqrt(5) evidence at 38 primes
+[2,22] curve 2: exact torsion [2,22], P=(-1 : -10 : 1) with [P-W_i] of order 22 for both W_i
+[2,22] curve 2: simple (p=7), RM-by-sqrt(5) evidence at 36 primes
+ALL CERTIFICATES VERIFIED (73 census curves + the 2 curves of the [2,22] subsection, 22.6 s)
+=== verify_simple_torsion_table.m ===
+checking [ 3 ]           (997.b.997.1)
+checking [ 11 ]          (353.a.353.1)
+checking [ 12 ]          (762.a.3048.1)
+checking [ 14 ]          (249.a.249.1)
+checking [ 15 ]          (277.a.277.1)
+checking [ 2, 6 ]        (704.a.45056.1)
+checking [ 4 ]           (1070.a.2140.1)
+checking [ 13 ]          (349.a.349.1)
+checking [ 17 ]          (1996.b.510976.1)
+checking [ 20 ]          (394.a.3152.1)
+checking [ 22 ]          (1192.a.19072.1)
+checking [ 2, 8 ]        (464.a.29696.1)
+checking [ 2, 10 ]       (555.a.8325.1)
+checking [ 40 ]          (1206.b.1 alpha)
+checking [ 3, 3 ]        (5100.a.1 alpha)
+checking [ 8 ]           (464.a.464.1)
+checking [ 9 ]           (713.b.713.1)
+checking [ 18 ]          (1180.a.18880.1)
+checking [ 21 ]          (388.a.776.1)
+checking [ 24 ]          (1908.a.183168.1)
+checking [ 27 ]          (604.a.9664.2)
+checking [ 29 ]          (976.a.999424.1)
+checking [ 39 ]          (1116.a.214272.1)
+checking [ 2, 4 ]        (997.a.997.1)
+checking [ 2, 14 ]       (1416.b.135936.1)
+checking [ 2, 2, 2 ]     (2600.a.338000.1)
+checking [ 2, 2, 4 ]     (3978.a.930852.1)
+checking [ 2, 2, 6 ]     (816.a.39168.1)
+checking [ 26 ]          (11016.g.1 alpha)
+checking [ 5 ]           (277.a.277.2)
+checking [ 7 ]           (461.a.461.1)
+checking [ 16 ]          (830.a.6640.1)
+checking [ 28 ]          (249.a.6723.1)
+checking [ 2, 12 ]       (762.a.82296.1)
+checking [ 19 ]          (1468.b.1 alpha)
+checking [ 23 ]          (1696.c.1 alpha)
+checking [ 2, 16 ]       (4392.a.1 alpha)
+checking [ 2, 18 ]       (4428.a.2 alpha)
+checking [ 2, 2, 8 ]     (3942.b.3 alpha)
+checking [ 10 ]          (389.a.389.1)
+checking [ 2, 2 ]        (464.a.29696.2)
+checking [ 2, 26 ]       (8136.c.1 alpha)
+checking [ 2, 2, 10 ]    (10512.n.1 alpha)
+checking [ 2, 2, 12 ]    (12300.e.2 alpha)
+checking [ 2, 2, 2, 2 ]  (1575.c.1 alpha)
+checking [ 3, 6 ]        (3780.b.1 alpha)
+checking [ 2, 22 ]       (19044.h.2 alpha, RM)
+checking [ 25 ]          (168750.e.2 alpha)
+checking [ 33 ]          (13716.a.1 alpha)
+checking [ 34 ]          (17856.m.1 alpha)
+checking [ 36 ]          (59040.r.3 alpha)
+checking [ 2, 28 ]       (28200.e.1 alpha)
+checking [ 6 ]           (1038.a.1038.1)
+checking [ 2, 2, 2, 6 ]  (39600.dq.1 alpha)
+checking [ 30 ]          (8694.e.1 alpha)
+checking [ 32 ]          (66852.b.1 alpha)
+checking [ 2, 2, 2, 4 ]  (9450.b.2 alpha)
+checking [ 2 ]           (295.a.295.2)
+checking [ 2, 20 ]       (936600.b.1 alpha)
+checking [ 4, 8 ]        (913500.cf.3 alpha)
+checking [ 2, 4, 4 ]     (172260.bj.3 alpha)
+checking [ 3, 9 ]        (8436.a.2 alpha)
+checking [ 6, 6 ]        (new (this paper))
+checking [ 2, 2, 2, 10 ]  (Elkies 2024)
+checking [ 2, 4, 8 ]     (new (this paper))
+checking [ 31 ]          (new: 1830.2.a.q, RM)
+checking []              (277.a.3 alpha)
+checking [ 4, 4 ]        (1575.c.14 alpha)
+checking [ 2, 2, 2, 8 ]  (new (this paper))
+checking [ 2, 2, 4, 4 ]  (new (this paper))
+checking [ 2, 2, 14 ]    (new (this paper))
+checking [ 2, 2, 20 ]    (new (this paper))
+checking [ 2, 2, 2, 12 ]  (new (this paper))
+ALL 73 CHECKS PASSED (2.0 s)
+=== verify_split_certificates.m ===
+SPLIT [ 12 ]         (2,2)-isogenous /Q to E x E', conductors 14, 21  (294.a.294.1)
+SPLIT [ 19 ]         degree-2 map to an elliptic curve over a degree-6 field  (169.a.169.1)
+SPLIT [ 2, 10 ]      (2,2)-route to a product over Q(sqrt 2)  (256.a.512.1)
+SPLIT [ 15 ]         (2,2)-isogenous /Q to E x E', conductors 11, 44  (484.a.1936.1)
+SPLIT [ 21 ]         degree-2 map to an elliptic curve over a degree-3 field  (324.a.648.1)
+SPLIT [ 14 ]         degree-3 map to elliptic curve 26b1 over Q  (1352.a1)
+SPLIT [ 2, 2, 6 ]    degree-3 map to elliptic curve 20a2 over Q  (600.a.18000.1)
+SPLIT [ 3, 9 ]       (2,2)-isogenous /Q to E x E', conductors 54, 54  (2916.e2)
+SPLIT [ 5, 5 ]       (2,2)-isogenous /Q to E x E', conductors 11, 11  (121.a1)
+SPLIT [ 9 ]          degree-3 map to elliptic curve 19a1 over Q  (722.a1)
+SPLIT [ 2, 2, 8 ]    (2,2)-isogenous /Q to E x E', conductors 24, 15  (360.a.6480.1)
+SPLIT [ 3, 24 ]      (2,2)-isogenous /Q to E x E', conductors 90, 90  (8100.e4)
+SPLIT [ 18 ]         degree-3 map to elliptic curve 35a1 over Q  (490.a1)
+SPLIT [ 20 ]         degree-3 map to elliptic curve 11a1 over Q  (363.a3)
+SPLIT [ 6, 6 ]       (2,2)-isogenous /Q to E x E', conductors 14, 14  (196.a.21952.1)
+SPLIT [ 7 ]          (2,2)-isogenous /Q to E x E', conductors 26, 26  (676.b3)
+SPLIT [ 3, 3 ]       (2,2)-isogenous /Q to E x E', conductors 19, 19  (361.a1)
+SPLIT [ 36 ]         degree-3 map to elliptic curve 90c3 over Q  (4860.f1)
+SPLIT [ 48 ]         (2,2)-isogenous /Q to E x E', conductors 21, 84  (1764.a1)
+SPLIT [ 28 ]         degree-3 map to elliptic curve 182a1 over Q  (4732.c1)
+SPLIT [ 30 ]         (2,2)-isogenous /Q to E x E', conductors 66, 66  (4356.j1)
+SPLIT [ 3, 12 ]      (2,2)-isogenous /Q to E x E', conductors 90, 30  (2700.c1)
+SPLIT [ 10 ]         degree-3 map to elliptic curve 33a2 over Q  (363.a.43923.1)
+SPLIT [ 25 ]         degree-5 map to an elliptic curve over a degree-2 field  (42336.dw1)
+SPLIT [ 2, 12 ]      (2,2)-isogenous /Q to E x E', conductors 15, 30  (450.a.36450.1)
+SPLIT [ 2, 24 ]      (2,2)-isogenous /Q to E x E', conductors 30, 48  (1440.c2)
+SPLIT [ 4, 8 ]       (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a2)
+SPLIT [ 8 ]          (2,2)-isogenous /Q to E x E', conductors 15, 20  (300.a2)
+SPLIT [ 2, 4 ]       (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a1)
+SPLIT [ 2, 16 ]      (2,2)-isogenous /Q to E x E', conductors 48, 96  (4608.h5)
+SPLIT [ 2, 2, 4 ]    (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a3)
+SPLIT [ 27 ]         degree-3 map to an elliptic curve over a degree-2 field  (7776.e2)
+SPLIT [ 2, 6 ]       (2,2)-isogenous /Q to E x E', conductors 14, 14  (196.a2)
+SPLIT [ 2, 14 ]      degree-3 map to elliptic curve 294b2 over Q  (86436.z3)
+SPLIT [ 60 ]         (2,2)-isogenous /Q to E x E', conductors 150, 90  (13500.r4)
+SPLIT [ 2, 2, 2, 4 ] (2,2)-isogenous /Q to E x E', conductors 42, 21  (882.a5)
+SPLIT [ 2, 30 ]      (2,2)-isogenous /Q to E x E', conductors 66, 198  (13068.f2)
+SPLIT [ 2, 20 ]      degree-3 map to elliptic curve 462f1 over Q  (30492.q2)
+SPLIT [ 2, 2, 2, 2 ] (2,2)-isogenous to E x E^sigma over X^2 - 63/25  (784.c1)
+SPLIT [ 2, 2, 2, 8 ] (2,2)-isogenous /Q to E x E', conductors 210, 21  (4410.d2)
+SPLIT [ 2, 2, 12 ]   (2,2)-isogenous /Q to E x E', conductors 15, 90  (1350.d1)
+SPLIT [ 3, 6 ]       (2,2)-isogenous /Q to E x E', conductors 14, 14  (196.a4)
+SPLIT [ 2, 2 ]       (2,2)-route to a product over Q(sqrt 2)  (256.a2)
+SPLIT [ 2, 2, 16 ]   (2,2)-isogenous /Q to E x E', conductors 210, 330  (69300.bu1)
+SPLIT [ 4, 12 ]      (2,2)-isogenous /Q to E x E', conductors 90, 90  (8100.j1)
+SPLIT [ 2, 18 ]      degree-3 map to elliptic curve 114a1 over Q  (64980.bo1)
+SPLIT [ 2, 2, 10 ]   degree-3 map to elliptic curve 66c1 over Q  (30492.q1)
+SPLIT [ 40 ]         (2,2)-isogenous /Q to E x E', conductors 66, 48  (3168.i1)
+SPLIT [ 2, 6, 6 ]    (2,2)-isogenous /Q to E x E', conductors 210, 630  (132300.eo2)
+SPLIT [ 2 ]          (2,2)-isogenous /Q to E x E', conductors 14, 24  (336.a.172032.1)
+SPLIT [ 6 ]          (2,2)-isogenous /Q to E x E', conductors 14, 14  (196.a3)
+SPLIT []             (2,2)-isogenous /Q to E x E', conductors 57, 19  (1083.b.390963.1)
+SPLIT [ 2, 2, 2, 6 ] (2,2)-isogenous /Q to E x E', conductors 30, 30  (900.b2)
+SPLIT [ 2, 48 ]      (2,2)-isogenous /Q to E x E', conductors 210, 90  (18900.e2)
+SPLIT [ 16 ]         (2,2)-isogenous /Q to E x E', conductors 15, 180  (2700.d1)
+SPLIT [ 5, 10 ]      (2,2)-isogenous /Q to E x E', conductors 150, 570  (85500.cj1)
+SPLIT [ 35 ]         (2,2)-isogenous /Q to E x E', conductors 286, 26  (7436.a2)
+SPLIT [ 2, 4, 4 ]    (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a5)
+SPLIT [ 4, 16 ]      (2,2)-isogenous /Q to E x E', conductors 210, 240  (50400.dj1)
+SPLIT [ 2, 2, 2 ]    (2,2)-isogenous /Q to E x E', conductors 15, 21  (315.a2)
+SPLIT [ 5 ]          (2,2)-isogenous /Q to E x E', conductors 11, 11  (121.a2)
+SPLIT [ 24 ]         (2,2)-isogenous /Q to E x E', conductors 15, 20  (300.a1)
+SPLIT [ 70 ]         degree-3 map to elliptic curve 858k1 over Q  (Howe 2015 Thm 2.4)
+SPLIT [ 4, 4 ]       (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a6)
+SPLIT [ 2, 8 ]       (2,2)-isogenous /Q to E x E', conductors 15, 15  (225.a8)
+SPLIT [ 3 ]          degree-2 map to an elliptic curve over a degree-3 field  (324.a2)
+SPLIT [ 2, 2, 4, 4 ] (2,2)-isogenous /Q to E x E', conductors 210, 2310  (new: 210.c5 x 2310.o4 gluing)
+SPLIT [ 4 ]          (2,2)-isogenous /Q to E x E', conductors 17, 17  (289.a2)
+SPLIT [ 2, 4, 8 ]    (2,2)-isogenous /Q to E x E', conductors 2730, 210  (573300.ir1)
+SPLIT [ 6, 12 ]      (2,2)-isogenous /Q to E x E', conductors 630, 30  (new: glue 30.a6 x cond-630)
+SPLIT [ 8, 8 ]       (2,2)-isogenous /Q to E x E', conductors 82110, 210  (new: glue 82110.bs5 x 210.e6)
+SPLIT [ 63 ]         (2,2)-isogenous /Q to E x E', conductors 42978, 1482  (HLP eq (4) curve / lane8)
+SPLIT [ 7, 7 ]       (2,2)-isogenous /Q to E x E', conductors 98826, 546  (HLP sec 3.6 curve / lane8)
+SPLIT [ 45 ]         (2,2)-isogenous /Q to E x E', conductors 15810, 38130  (lane8 anchor (HLP sec 3.6 family))
+SPLIT [ 2, 2, 24 ]   (2,2)-isogenous /Q to E x E', conductors 825330, 249690  (new: HLP sec 3.7 cond (6) at (241/81,1/3), compact quintic model)
+SPLIT [ 2, 2, 4, 8 ] (2,2)-isogenous /Q to E x E', conductors 19291662390, 82110  (new: HLP sec 3.7 cond (5) at (1/6,4/17), square-branch model)
+ALL 76 SPLITNESS CHECKS PASSED: 76 by explicit isogeny or cover, 0 signature+citation (0.4 s)
+=== verify_split_torsion_table.m ===
+checking [ 12 ]          (294.a.294.1)
+checking [ 19 ]          (169.a.169.1)
+checking [ 2, 10 ]       (256.a.512.1)
+checking [ 15 ]          (484.a.1936.1)
+checking [ 21 ]          (324.a.648.1)
+checking [ 14 ]          (1352.a1)
+checking [ 2, 2, 6 ]     (600.a.18000.1)
+checking [ 3, 9 ]        (2916.e2)
+checking [ 5, 5 ]        (121.a1)
+checking [ 9 ]           (722.a1)
+checking [ 2, 2, 8 ]     (360.a.6480.1)
+checking [ 3, 24 ]       (8100.e4)
+checking [ 18 ]          (490.a1)
+checking [ 20 ]          (363.a3)
+checking [ 6, 6 ]        (196.a.21952.1)
+checking [ 7 ]           (676.b3)
+checking [ 3, 3 ]        (361.a1)
+checking [ 36 ]          (4860.f1)
+checking [ 48 ]          (1764.a1)
+checking [ 28 ]          (4732.c1)
+checking [ 30 ]          (4356.j1)
+checking [ 3, 12 ]       (2700.c1)
+checking [ 10 ]          (363.a.43923.1)
+checking [ 25 ]          (42336.dw1)
+checking [ 2, 12 ]       (450.a.36450.1)
+checking [ 2, 24 ]       (1440.c2)
+checking [ 4, 8 ]        (225.a2)
+checking [ 8 ]           (300.a2)
+checking [ 2, 4 ]        (225.a1)
+checking [ 2, 16 ]       (4608.h5)
+checking [ 2, 2, 4 ]     (225.a3)
+checking [ 27 ]          (7776.e2)
+checking [ 2, 6 ]        (196.a2)
+checking [ 2, 14 ]       (86436.z3)
+checking [ 60 ]          (13500.r4)
+checking [ 2, 2, 2, 4 ]  (882.a5)
+checking [ 2, 30 ]       (13068.f2)
+checking [ 2, 20 ]       (30492.q2)
+checking [ 2, 2, 2, 2 ]  (784.c1)
+checking [ 2, 2, 2, 8 ]  (4410.d2)
+checking [ 2, 2, 12 ]    (1350.d1)
+checking [ 3, 6 ]        (196.a4)
+checking [ 2, 2 ]        (256.a2)
+checking [ 2, 2, 16 ]    (69300.bu1)
+checking [ 4, 12 ]       (8100.j1)
+checking [ 2, 18 ]       (64980.bo1)
+checking [ 2, 2, 10 ]    (30492.q1)
+checking [ 40 ]          (3168.i1)
+checking [ 2, 6, 6 ]     (132300.eo2)
+checking [ 2 ]           (336.a.172032.1)
+checking [ 6 ]           (196.a3)
+checking []              (1083.b.390963.1)
+checking [ 2, 2, 2, 6 ]  (900.b2)
+checking [ 2, 48 ]       (18900.e2)
+checking [ 16 ]          (2700.d1)
+checking [ 5, 10 ]       (85500.cj1)
+checking [ 35 ]          (7436.a2)
+checking [ 2, 4, 4 ]     (225.a5)
+checking [ 4, 16 ]       (50400.dj1)
+checking [ 2, 2, 2 ]     (315.a2)
+checking [ 5 ]           (121.a2)
+checking [ 24 ]          (300.a1)
+checking [ 70 ]          (Howe 2015 Thm 2.4)
+checking [ 4, 4 ]        (225.a6)
+checking [ 2, 8 ]        (225.a8)
+checking [ 3 ]           (324.a2)
+checking [ 2, 2, 4, 4 ]  (new: 210.c5 x 2310.o4 gluing)
+checking [ 4 ]           (289.a2)
+checking [ 2, 4, 8 ]     (573300.ir1)
+checking [ 6, 12 ]       (new: glue 30.a6 x cond-630)
+checking [ 8, 8 ]        (new: glue 82110.bs5 x 210.e6)
+checking [ 63 ]          (HLP eq (4) curve / lane8)
+checking [ 7, 7 ]        (HLP sec 3.6 curve / lane8)
+checking [ 45 ]          (lane8 anchor (HLP sec 3.6 family))
+checking [ 2, 2, 24 ]    (new: HLP sec 3.7 cond (6) at (241/81,1/3), compact quintic model)
+checking [ 2, 2, 4, 8 ]  (new: HLP sec 3.7 cond (5) at (1/6,4/17), square-branch model)
+ALL 76 CHECKS PASSED (3.2 s)

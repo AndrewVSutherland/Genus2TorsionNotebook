@@ -1,0 +1,9 @@
+SELFTEST_PASS (f14->14, f18->18, f28trap->7; over Q and mod 101,103)
+PROGRESS tested=100000 s2pass=1 exact=1
+PROGRESS tested=200000 s2pass=2 exact=2
+PROGRESS tested=300000 s2pass=2 exact=2
+PROGRESS tested=400000 s2pass=2 exact=2
+PROGRESS tested=500000 s2pass=2 exact=2
+PROGRESS tested=600000 s2pass=3 exact=3
+CALIBRATION_TABLE (exact D_inf orders 25..40 in box H=5 part 0/1):
+SEARCH_DONE H=5 Part=0/1 tested=644204 s2pass=3 exact=3 nearmiss=3

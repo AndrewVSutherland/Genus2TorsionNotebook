@@ -1,0 +1,47 @@
+M18_416_AUX_PRIME_SIEVE_SCAN
+height=30 base_primes=[ 11, 13 ] candidate_primes=[ 17, 19, 23, 29, 31, 37, 41 ] gate_mod=343 gate_file=data/agent_m18_416_smooth_strata_mod343_gate.txt
+AUX_PRIME_PROFILE p=11 good_open=28 first_Tx_half=20 PR_half=6 target416=4
+AUX_PRIME_PROFILE p=13 good_open=56 first_Tx_half=28 PR_half=6 target416=4
+AUX_PRIME_PROFILE p=17 good_open=136 first_Tx_half=64 PR_half=16 target416=12
+AUX_PRIME_PROFILE p=19 good_open=164 first_Tx_half=104 PR_half=22 target416=16
+AUX_PRIME_PROFILE p=23 good_open=288 first_Tx_half=184 PR_half=42 target416=32
+AUX_PRIME_PROFILE p=29 good_open=528 first_Tx_half=256 PR_half=60 target416=32
+AUX_PRIME_PROFILE p=31 good_open=640 first_Tx_half=376 PR_half=86 target416=56
+AUX_PRIME_PROFILE p=37 good_open=968 first_Tx_half=516 PR_half=104 target416=64
+AUX_PRIME_PROFILE p=41 good_open=1240 first_Tx_half=644 PR_half=172 target416=112
+GATE height=30 parameters=1111 residues=5692 budget=45789
+SCAN_BASE raw=45634 cand=29112 auxkill=16522 firstposs=244
+SCAN_STRATUM <3,3> gate_res=766 gate_budget=5861 base_cand=3865 base_firstposs=55
+SCAN_STRATUM <3,4> gate_res=766 gate_budget=5861 base_cand=3865 base_firstposs=62
+SCAN_STRATUM <4,0> gate_res=833 gate_budget=6934 base_cand=4240 base_firstposs=1
+SCAN_STRATUM <5,0> gate_res=1715 gate_budget=13973 base_cand=8550 base_firstposs=6
+SCAN_STRATUM <5,2> gate_res=806 gate_budget=6580 base_cand=4296 base_firstposs=64
+SCAN_STRATUM <5,5> gate_res=806 gate_budget=6580 base_cand=4296 base_firstposs=56
+SCAN_SINGLE p=17 cand=18040 killed=11072 unknown_pass=16902 target_pass=1138 firstposs=236
+SCAN_SINGLE p=19 cand=18438 killed=10674 unknown_pass=17348 target_pass=1090 firstposs=232
+SCAN_SINGLE p=23 cand=16186 killed=12926 unknown_pass=14648 target_pass=1538 firstposs=232
+SCAN_SINGLE p=29 cand=14168 killed=14944 unknown_pass=13330 target_pass=838 firstposs=224
+SCAN_SINGLE p=31 cand=9772 killed=19340 unknown_pass=8050 target_pass=1722 firstposs=224
+SCAN_SINGLE p=37 cand=8636 killed=20476 unknown_pass=7256 target_pass=1380 firstposs=229
+SCAN_SINGLE p=41 cand=8480 killed=20632 unknown_pass=6342 target_pass=2138 firstposs=225
+SCAN_PAIR p=17 q=19 cand=11072 firstposs=232
+SCAN_PAIR p=17 q=23 cand=9942 firstposs=228
+SCAN_PAIR p=17 q=29 cand=8482 firstposs=224
+SCAN_PAIR p=17 q=31 cand=5966 firstposs=224
+SCAN_PAIR p=17 q=37 cand=5386 firstposs=227
+SCAN_PAIR p=17 q=41 cand=5136 firstposs=225
+SCAN_PAIR p=19 q=23 cand=10150 firstposs=225
+SCAN_PAIR p=19 q=29 cand=8964 firstposs=224
+SCAN_PAIR p=19 q=31 cand=6026 firstposs=224
+SCAN_PAIR p=19 q=37 cand=5480 firstposs=226
+SCAN_PAIR p=19 q=41 cand=5334 firstposs=224
+SCAN_PAIR p=23 q=29 cand=7792 firstposs=222
+SCAN_PAIR p=23 q=31 cand=5440 firstposs=224
+SCAN_PAIR p=23 q=37 cand=4820 firstposs=224
+SCAN_PAIR p=23 q=41 cand=4584 firstposs=225
+SCAN_PAIR p=29 q=31 cand=4958 firstposs=222
+SCAN_PAIR p=29 q=37 cand=4112 firstposs=224
+SCAN_PAIR p=29 q=41 cand=4108 firstposs=222
+SCAN_PAIR p=31 q=37 cand=2958 firstposs=222
+SCAN_PAIR p=31 q=41 cand=2766 firstposs=224
+SCAN_PAIR p=37 q=41 cand=2600 firstposs=223

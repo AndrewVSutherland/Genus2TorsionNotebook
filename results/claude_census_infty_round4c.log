@@ -1,0 +1,28 @@
+A) [4,4] via partner 5 of the [2,2,4,4]-family
+  s=3 partner5 torsion [ 4, 4 ]  STRICT p=37(true)
+  s=5 partner5 torsion [ 4, 4 ]  STRICT p=73(true)
+  s=7 partner5 torsion [ 4, 4 ]  STRICT p=61(true)
+  s=9 partner5 torsion [ 4, 4 ]  STRICT p=67(true)
+  s=11 partner5 torsion [ 4, 4 ]  STRICT p=79(true)
+A) distinct invariants: 5
+B) [2,8] via partner 4 of the [2,2,2,8]-family
+  t=2 partner4 torsion [ 2, 8 ]  STRICT p=31(true)
+  t=3 partner4 torsion [ 2, 8 ]  STRICT p=73(true)
+  t=5 partner4 torsion [ 2, 8 ]  STRICT p=59(true)
+  t=7 partner4 torsion [ 2, 8 ]  STRICT p=83(true)
+
+PartnerCert(
+f: x^5 + 985/81*x^4 + 472/9*x^3 + 2480/27*x^2 + 4096/81*x,
+idx: 4,
+tag: t=-2,
+target: [ 2, 8 ],
+invs: { [ -5755020212422293738952113126211979406174255675452263499...
+)
+HyperellipticCurve(
+f: 6561*x^5 + 79785*x^4 + 344088*x^3 + 602640*x^2 + 331776*x
+)
+In file "/opt/magma-2.29-4/package/Geometry/CrvHyp/curve.m", line 328, column 31:
+>>     return _HyperellipticCurve(f, Parent(f)!0);
+                                 ^
+Runtime error in '_HyperellipticCurve': Curve has a finite singularity
+

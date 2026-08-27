@@ -1,0 +1,14 @@
+F3_P13_INFINITY_START depth=5
+mod13_witnesses=17 smooth_unit=[(0, 6, 12, 10), (0, 7, 12, 10)]
+singular_unit=[((0, 4, 0, 0), 1), ((0, 9, 0, 0), 1)]
+Lzero_count=13 Lzero=[((0, 0, 0, 0), 0), ((0, 0, 1, 7), 0), ((0, 0, 2, 1), 0), ((0, 0, 3, 8), 0), ((0, 0, 4, 2), 0), ((0, 0, 5, 9), 0), ((0, 0, 6, 3), 0), ((0, 0, 7, 10), 0), ((0, 0, 8, 4), 0), ((0, 0, 9, 11), 0), ((0, 0, 10, 5), 0), ((0, 0, 11, 12), 0), ((0, 0, 12, 6), 0)]
+level=1 modulus=13 nodes=2 zclasses=1 zvaluation_hist={1: 1}
+lift_to=2 source_rank_hist={3: 2}
+level=2 modulus=169 nodes=26 zclasses=13 zvaluation_hist={1: 12, 2: 1}
+lift_to=3 source_rank_hist={3: 26}
+level=3 modulus=2197 nodes=338 zclasses=169 zvaluation_hist={1: 156, 2: 12, 3: 1}
+lift_to=4 source_rank_hist={3: 338}
+level=4 modulus=28561 nodes=4394 zclasses=2197 zvaluation_hist={1: 2028, 2: 156, 3: 12, 4: 1}
+lift_to=5 source_rank_hist={3: 4394}
+level=5 modulus=371293 nodes=57122 zclasses=28561 zvaluation_hist={1: 26364, 2: 2028, 3: 156, 4: 12, 5: 1}
+output=results/target_22224_f3_p13_infinity_lift.tsv

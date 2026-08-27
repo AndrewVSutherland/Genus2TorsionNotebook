@@ -1,0 +1,7 @@
+K3a L1 VERTEX degs=[ 3, 3, 3 ]
+K3a L1 frontier 1 total 2
+K3a L2 frontier 0 total 2
+K3b L1 VERTEX degs=[ 3, 3, 3 ]
+K3b L1 frontier 1 total 2
+K3b L2 frontier 0 total 2
+RICHELOT_WALK_DONE

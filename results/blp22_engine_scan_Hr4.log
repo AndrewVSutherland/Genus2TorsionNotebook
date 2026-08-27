@@ -1,0 +1,40 @@
+PARAM_VALUES 23 (Hr=4)
+PROGRESS tested=500 syst=499 hits=0
+PROGRESS tested=1000 syst=999 hits=0
+CAND r=-1 s=2 d=0 q=16/9 cford=9 type={* 1^^2, 2^^2 *}
+PROGRESS tested=1500 syst=1499 hits=0
+PROGRESS tested=2000 syst=1999 hits=0
+CAND r=-1/2 s=-3/2 d=0 q=9/2 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=2500 syst=2499 hits=0
+CAND r=1/3 s=2/3 d=0 q=8/3 cford=11 type={* 1^^2, 2^^2 *}
+EXACT r=1/3 s=2/3 d=0 q=8/3 TORSION=[ 2, 22 ]
+HIT22 r=1/3 s=2/3 d=0 q=8/3 TORSION=[ 2, 22 ] f=X^6 - 2*X^5 + 37/9*X^4 - 20/3*X^3 + 628/81*X^2 - 352/81*X + 64/81
+PROGRESS tested=3000 syst=2999 hits=1
+CAND r=-1/3 s=-2/3 d=0 q=4/3 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=3500 syst=3499 hits=1
+PROGRESS tested=4000 syst=3999 hits=1
+PROGRESS tested=4500 syst=4499 hits=1
+CAND r=2 s=-1 d=0 q=-8/9 cford=9 type={* 1^^2, 2^^2 *}
+CAND r=2 s=-2/3 d=0 q=-2/9 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=5000 syst=4999 hits=1
+PROGRESS tested=5500 syst=5499 hits=1
+CAND r=2/3 s=1/3 d=0 q=4/3 cford=11 type={* 1^^2, 2^^2 *}
+EXACT r=2/3 s=1/3 d=0 q=4/3 TORSION=[ 2, 22 ]
+HIT22 r=2/3 s=1/3 d=0 q=4/3 TORSION=[ 2, 22 ] f=X^6 - 2*X^5 + 37/9*X^4 - 20/3*X^3 + 628/81*X^2 - 352/81*X + 64/81
+PROGRESS tested=6000 syst=5999 hits=2
+CAND r=-2/3 s=-1/3 d=0 q=2/3 cford=5 type={* 1^^4, 2 *}
+CAND r=-2/3 s=2 d=0 q=2/3 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=6500 syst=6499 hits=2
+CAND r=3 s=-3/2 d=0 q=-3/4 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=7000 syst=6999 hits=2
+PROGRESS tested=7500 syst=7499 hits=2
+PROGRESS tested=8000 syst=7999 hits=2
+CAND r=-3/2 s=-1/2 d=0 q=3/2 cford=5 type={* 1^^4, 2 *}
+CAND r=-3/2 s=3 d=0 q=3/2 cford=5 type={* 1^^4, 2 *}
+PROGRESS tested=8500 syst=8499 hits=2
+PROGRESS tested=9000 syst=8999 hits=2
+PROGRESS tested=9500 syst=9499 hits=2
+PROGRESS tested=10000 syst=9999 hits=2
+PROGRESS tested=10500 syst=10499 hits=2
+PROGRESS tested=11000 syst=10999 hits=2
+SEARCH_DONE Hr=4 Part=0/1 tested=11394 syst=11394 hits=2

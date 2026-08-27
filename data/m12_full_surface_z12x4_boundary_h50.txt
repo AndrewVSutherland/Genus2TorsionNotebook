@@ -1,0 +1,50 @@
+M(12) full extra-Weierstrass Z/12 x Z/4 boundary sieve
+height 50
+mod 7 affine (r,z) classification
+  r=-1 7 [ <6, 0>, <6, 1>, <6, 2>, <6, 3>, <6, 4>, <6, 5>, <6, 6> ]
+  z=+-1 12 [ <0, 1>, <0, 6>, <1, 1>, <1, 6>, <2, 1>, <2, 6>, <3, 1>, <3, 6>, <4,
+1>, <4, 6>, <5, 1>, <5, 6> ]
+  z=0 6 [ <0, 0>, <1, 0>, <2, 0>, <3, 0>, <4, 0>, <5, 0> ]
+  discW 8 [ <0, 2>, <0, 3>, <0, 4>, <0, 5>, <2, 2>, <2, 5>, <5, 2>, <5, 5> ]
+  good_no_qroot 12 [ <1, 2>, <1, 3>, <1, 4>, <1, 5>, <2, 3>, <2, 4>, <3, 2>, <3,
+5>, <4, 2>, <4, 5>, <5, 3>, <5, 4> ]
+  good_qroot_nohalve 4 [ <3, 3>, <3, 4>, <4, 3>, <4, 4> ]
+   details [
+    <3, 3, [ <2, 1, 6, false>, <2, 4, 4, false>, <3, 1, 3, false>, <3, 4, 1, 
+    false> ]>,
+    <3, 4, [ <2, 1, 6, false>, <2, 4, 4, false>, <3, 1, 3, false>, <3, 4, 1, 
+    false> ]>,
+    <4, 3, [ <2, 3, 1, false>, <6, 3, 2, false> ]>,
+    <4, 4, [ <2, 3, 1, false>, <6, 3, 2, false> ]>
+]
+p 7 allowed 33 boundary 25 bad 8 uinfty 0 good_div 0 excluded_noqroot 12 
+excluded_nodiv 4
+p 11 allowed 59 boundary 41 bad 18 uinfty 0 good_div 0 excluded_noqroot 36 
+excluded_nodiv 26
+p 13 allowed 87 boundary 49 bad 20 uinfty 0 good_div 18 excluded_noqroot 50 
+excluded_nodiv 32
+p 17 allowed 135 boundary 65 bad 38 uinfty 0 good_div 32 excluded_noqroot 94 
+excluded_nodiv 60
+p 19 allowed 115 boundary 73 bad 42 uinfty 0 good_div 0 excluded_noqroot 124 
+excluded_nodiv 122
+p 23 allowed 143 boundary 89 bad 54 uinfty 0 good_div 0 excluded_noqroot 172 
+excluded_nodiv 214
+p 29 allowed 349 boundary 113 bad 74 uinfty 0 good_div 162 excluded_noqroot 290 
+excluded_nodiv 202
+p 31 allowed 197 boundary 121 bad 76 uinfty 0 good_div 0 excluded_noqroot 308 
+excluded_nodiv 456
+p 37 allowed 553 boundary 145 bad 92 uinfty 0 good_div 316 excluded_noqroot 472 
+excluded_nodiv 344
+p 41 allowed 635 boundary 161 bad 106 uinfty 0 good_div 368 excluded_noqroot 568
+excluded_nodiv 478
+p 43 allowed 287 boundary 169 bad 118 uinfty 0 good_div 0 excluded_noqroot 636 
+excluded_nodiv 926
+DONE height 50 total 9579025 survivors 15591 exact 0 hits 0
+param_boundary 12377
+W_bad 3166
+T_bad 0
+Q4_no_root 48
+odd_bad 0
+order12_bad 0
+no_independent 0
+exact_tested 0

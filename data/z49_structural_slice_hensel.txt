@@ -1,0 +1,7 @@
+Z49_STRUCTURAL_SLICE_HENSEL
+slice v=0 p=11 seeds=2 precision=30 exact_hits=0
+slice r=0 p=5 seeds=2 precision=30 exact_hits=0
+slice u=0 open_points_p3_p5_p11=0 open_points_p13=2 precision=30 exact_hits=0
+Z49_STRUCTURAL_SLICE_HENSEL_DONE
+elapsed_seconds 5.14
+max_rss_kb 84632

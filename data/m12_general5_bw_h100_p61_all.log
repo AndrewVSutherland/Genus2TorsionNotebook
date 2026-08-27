@@ -1,0 +1,150 @@
+MASK p=3 good=0 allowed5=0 bad=9 killed=0
+MASK p=7 good=18 allowed5=4 bad=31 killed=14
+MASK p=11 good=70 allowed5=16 bad=51 killed=54
+MASK p=13 good=110 allowed5=16 bad=59 killed=94
+MASK p=17 good=198 allowed5=62 bad=91 killed=136
+MASK p=19 good=260 allowed5=72 bad=101 killed=188
+MASK p=23 good=404 allowed5=96 bad=125 killed=308
+MASK p=29 good=680 allowed5=156 bad=161 killed=524
+MASK p=31 good=790 allowed5=174 bad=171 killed=616
+MASK p=37 good=1166 allowed5=252 bad=203 killed=914
+MASK p=41 good=1450 allowed5=280 bad=231 killed=1170
+MASK p=43 good=1600 allowed5=326 bad=249 killed=1274
+MASK p=47 good=1940 allowed5=482 bad=269 killed=1458
+MASK p=53 good=2500 allowed5=596 bad=309 killed=1904
+MASK p=59 good=3142 allowed5=718 bad=339 killed=2424
+MASK p=61 good=3378 allowed5=628 bad=343 killed=2750
+PROGRESS b_index=0/12175 checked=12174 survivors=0
+PROGRESS b_index=1024/12175 checked=12440828 survivors=3
+PROGRESS b_index=2048/12175 checked=24906054 survivors=13
+PROGRESS b_index=3072/12175 checked=37371310 survivors=19
+PROGRESS b_index=4096/12175 checked=49836608 survivors=32
+PROGRESS b_index=5120/12175 checked=62301956 survivors=42
+PROGRESS b_index=6144/12175 checked=74767346 survivors=52
+PROGRESS b_index=7168/12175 checked=87232804 survivors=63
+PROGRESS b_index=8192/12175 checked=99698264 survivors=76
+PROGRESS b_index=9216/12175 checked=112163782 survivors=87
+PROGRESS b_index=10240/12175 checked=124629340 survivors=93
+SCAN H=100 parameters=12175 pairs=148230625 primes=16
+SURVIVOR b=78/1 w=9/47 good_masks=7
+SURVIVOR b=-91/4 w=-71/52 good_masks=10
+SURVIVOR b=64/7 w=41/47 good_masks=8
+SURVIVOR b=19/9 w=-52/99 good_masks=9
+SURVIVOR b=50/9 w=-34/73 good_masks=9
+SURVIVOR b=-38/11 w=47/91 good_masks=7
+SURVIVOR b=30/11 w=-13/58 good_masks=6
+SURVIVOR b=48/11 w=39/22 good_masks=9
+SURVIVOR b=52/11 w=17/21 good_masks=8
+SURVIVOR b=51/13 w=55/47 good_masks=8
+SURVIVOR b=64/13 w=-89/32 good_masks=9
+SURVIVOR b=95/13 w=43/63 good_masks=7
+SURVIVOR b=-99/17 w=82/77 good_masks=8
+SURVIVOR b=88/17 w=91/94 good_masks=9
+SURVIVOR b=-91/19 w=1/75 good_masks=9
+SURVIVOR b=-55/19 w=61/94 good_masks=6
+SURVIVOR b=41/23 w=-87/53 good_masks=9
+SURVIVOR b=-66/25 w=31/86 good_masks=8
+SURVIVOR b=-1/25 w=-46/75 good_masks=9
+SURVIVOR b=15/26 w=61/18 good_masks=10
+SURVIVOR b=43/28 w=-41/93 good_masks=6
+SURVIVOR b=61/28 w=40/29 good_masks=7
+SURVIVOR b=-89/29 w=49/12 good_masks=8
+SURVIVOR b=-70/29 w=23/74 good_masks=9
+SURVIVOR b=-63/29 w=65/96 good_masks=7
+SURVIVOR b=-14/29 w=-95/78 good_masks=8
+SURVIVOR b=9/29 w=-98/51 good_masks=9
+SURVIVOR b=82/29 w=99/37 good_masks=8
+SURVIVOR b=-46/31 w=-51/13 good_masks=7
+SURVIVOR b=-46/31 w=51/47 good_masks=5
+SURVIVOR b=65/31 w=-85/46 good_masks=8
+SURVIVOR b=-85/33 w=-8/83 good_masks=9
+SURVIVOR b=-59/34 w=61/77 good_masks=6
+SURVIVOR b=-55/36 w=82/93 good_masks=9
+SURVIVOR b=-1/37 w=53/69 good_masks=6
+SURVIVOR b=78/37 w=58/77 good_masks=6
+SURVIVOR b=-86/39 w=-55/91 good_masks=9
+SURVIVOR b=-85/39 w=-17/71 good_masks=6
+SURVIVOR b=-65/41 w=-37/84 good_masks=7
+SURVIVOR b=-51/41 w=-98/59 good_masks=8
+SURVIVOR b=-10/41 w=-95/77 good_masks=9
+SURVIVOR b=51/41 w=-13/28 good_masks=8
+SURVIVOR b=73/42 w=-25/37 good_masks=9
+SURVIVOR b=-61/43 w=15/76 good_masks=9
+SURVIVOR b=92/43 w=-61/38 good_masks=9
+SURVIVOR b=-65/44 w=-91/74 good_masks=8
+SURVIVOR b=53/46 w=99/61 good_masks=9
+SURVIVOR b=-91/47 w=31/51 good_masks=6
+SURVIVOR b=-44/47 w=-58/73 good_masks=8
+SURVIVOR b=77/48 w=37/59 good_masks=8
+SURVIVOR b=77/48 w=-65/76 good_masks=5
+SURVIVOR b=18/49 w=38/53 good_masks=8
+SURVIVOR b=-41/51 w=61/14 good_masks=7
+SURVIVOR b=65/51 w=57/44 good_masks=8
+SURVIVOR b=23/52 w=-19/74 good_masks=8
+SURVIVOR b=-74/55 w=-70/11 good_masks=7
+SURVIVOR b=-43/55 w=-47/36 good_masks=10
+SURVIVOR b=92/55 w=26/35 good_masks=8
+SURVIVOR b=-57/56 w=-87/31 good_masks=6
+SURVIVOR b=-59/57 w=31/26 good_masks=8
+SURVIVOR b=86/57 w=-28/39 good_masks=8
+SURVIVOR b=15/58 w=-88/21 good_masks=9
+SURVIVOR b=-63/59 w=-86/57 good_masks=8
+SURVIVOR b=1/59 w=-45/19 good_masks=8
+SURVIVOR b=31/60 w=-19/46 good_masks=7
+SURVIVOR b=-93/61 w=-41/59 good_masks=6
+SURVIVOR b=-77/61 w=-75/19 good_masks=8
+SURVIVOR b=-41/61 w=25/61 good_masks=9
+SURVIVOR b=17/61 w=-22/91 good_masks=8
+SURVIVOR b=47/61 w=-23/12 good_masks=8
+SURVIVOR b=95/62 w=91/2 good_masks=7
+SURVIVOR b=95/63 w=47/65 good_masks=10
+SURVIVOR b=-46/65 w=-73/51 good_masks=9
+SURVIVOR b=-27/65 w=-31/69 good_masks=7
+SURVIVOR b=14/65 w=-11/19 good_masks=8
+SURVIVOR b=53/67 w=-37/43 good_masks=6
+SURVIVOR b=-95/69 w=83/62 good_masks=8
+SURVIVOR b=-58/69 w=38/39 good_masks=8
+SURVIVOR b=-38/69 w=68/61 good_masks=10
+SURVIVOR b=-37/69 w=-31/3 good_masks=7
+SURVIVOR b=-13/69 w=52/83 good_masks=8
+SURVIVOR b=41/69 w=-33/61 good_masks=5
+SURVIVOR b=92/73 w=-22/53 good_masks=7
+SURVIVOR b=-87/74 w=-59/51 good_masks=6
+SURVIVOR b=-49/74 w=-59/65 good_masks=8
+SURVIVOR b=-92/75 w=-43/50 good_masks=10
+SURVIVOR b=58/75 w=74/77 good_masks=9
+SURVIVOR b=-15/76 w=85/86 good_masks=8
+SURVIVOR b=-54/77 w=-55/17 good_masks=8
+SURVIVOR b=65/77 w=-29/72 good_masks=10
+SURVIVOR b=-53/82 w=-35/78 good_masks=9
+SURVIVOR b=20/83 w=-70/99 good_masks=10
+SURVIVOR b=63/83 w=-49/22 good_masks=10
+SURVIVOR b=24/85 w=-31/43 good_masks=6
+SURVIVOR b=-55/86 w=13/88 good_masks=6
+SURVIVOR b=13/86 w=81/7 good_masks=10
+SURVIVOR b=5/87 w=-69/82 good_masks=8
+SURVIVOR b=65/87 w=23/93 good_masks=7
+SURVIVOR b=82/87 w=-69/5 good_masks=8
+SURVIVOR b=-17/88 w=-66/65 good_masks=9
+SURVIVOR b=-43/89 w=-52/19 good_masks=7
+SURVIVOR b=13/90 w=-38/3 good_masks=8
+SURVIVOR b=-57/91 w=-98/25 good_masks=7
+SURVIVOR b=-47/91 w=72/85PROGRESS b_index=11264/12175 checked=137094944 survivors=109
+ good_masks=6
+SURVIVOR b=30/91 w=-88/53 good_masks=7
+SURVIVOR b=-63/92 w=-98/59 good_masks=9
+SURVIVOR b=-63/92 w=26/81 good_masks=9
+SURVIVOR b=57/92 w=-41/58 good_masks=6
+SURVIVOR b=-80/93 w=-82/91 good_masks=6
+SURVIVOR b=37/93 w=-64/17 good_masks=9
+SURVIVOR b=94/93 w=-51/97 good_masks=8
+SURVIVOR b=-91/94 w=-57/11 good_masks=8
+SURVIVOR b=-78/95 w=61/85 good_masks=8
+SURVIVOR b=44/95 w=-65/46 good_masks=6
+SURVIVOR b=62/95 w=-61/67 good_masks=9
+SURVIVOR b=-53/97 w=-85/52 good_masks=7
+SURVIVOR b=11/98 w=23/31 good_masks=7
+SURVIVOR b=43/99 w=-53/23 good_masks=9
+SURVIVOR b=43/99 w=-41/72 good_masks=7
+SURVIVOR b=46/99 w=-96/1 good_masks=8
+DONE H=100 checked=148172800 survivors=120 printed_min_good_0=120

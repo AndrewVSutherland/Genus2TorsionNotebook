@@ -1,0 +1,6 @@
+Loading "split_lab.m"
+VERIFY E26: 3/3
+FIBER LANE Sig=2 sg=[ 2, 1, 3 ] Org=1 Test=3 H=60 HU=12
+JOIN Sig=2 drop=3 matches=687 fibers=645
+SWEEP HU=12 fibers-with-points=19 pts=54 infsq-fibers=2 0.090 s
+FIBERS Sig=2 total=645 multi=48

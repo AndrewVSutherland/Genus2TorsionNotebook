@@ -1,0 +1,10 @@
+assembling from primes [ 7, 11, 13, 17, 29, 31, 53, 59, 61, 67 ]
+CRT modulus ~ 10^14 ; max reconstructible height ~ 9887183
+mp4Q =
+zz^4 + (216*e^2 + 72*e - 24)/e^2*zz^2 + (-1296*e^3 - 1728*e^2 - 432*e + 64)/e^3*zz + (-3888*e^4 - 2592*e^3 + 432*e^2 + 288*e - 48)/e^4
+mp8Q =
+zz^8 + (216*e^2 + 72*e - 24)/e^2*zz^4 + (-1296*e^3 - 1728*e^2 - 432*e + 64)/e^3*zz^2 + (-3888*e^4 - 2592*e^3 + 432*e^2 + 288*e - 48)/e^4
+RESOLVENT CONSISTENCY: true
+EXACT E4 GENUS = 2
+EXACT E8 GENUS = 4
+E4_EXACT_CERTIFIED

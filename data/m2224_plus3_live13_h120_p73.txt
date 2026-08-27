@@ -1,0 +1,36 @@
+M(2,2,2,4)+3 integer tuple search
+height 120 prime_bound 37 filter_primes [ 11, 17, 19, 23, 29, 31, 37 ]
+point_prime_bound 73 point_primes [ 41, 43, 47, 53, 59, 61, 67, 71, 73 ]
+boundary13_only true boundary13_live_only true max_exact 20
+prime 11 contact_keys 3775 raw_contact_param 8840
+prime 17 contact_keys 23382 raw_contact_param 54960
+prime 19 contact_keys 40104 raw_contact_param 98658
+prime 23 contact_keys 91278 raw_contact_param 222838
+prime 29 contact_keys 227920 raw_contact_param 554512
+prime 31 contact_keys 311010 raw_contact_param 781380
+prime 37 contact_keys 622845 raw_contact_param 1549296
+prime 41 point_keys 4845 allowed_3div 1925
+prime 43 point_keys 5985 allowed_3div 1890
+prime 47 point_keys 8855 allowed_3div 2714
+prime 53 point_keys 14950 allowed_3div 5421
+prime 59 point_keys 23751 allowed_3div 9947
+prime 61 point_keys 27405 allowed_3div 9720
+prime 67 point_keys 40920 allowed_3div 12903
+prime 71 point_keys 52360 allowed_3div 20265
+prime 73 point_keys 58905 allowed_3div 19323
+progress 1000000 boundary13 663371 contact_survivors 29287 point_survivors 27 
+survived_bound 0 exact 0 hits 0
+progress 2000000 boundary13 1315646 contact_survivors 58647 point_survivors 57 
+survived_bound 0 exact 0 hits 0
+progress 3000000 boundary13 1955871 contact_survivors 86651 point_survivors 84 
+survived_bound 0 exact 0 hits 0
+progress 4000000 boundary13 2612087 contact_survivors 120434 point_survivors 108
+survived_bound 0 exact 0 hits 0
+progress 5000000 boundary13 3258888 contact_survivors 153034 point_survivors 145
+survived_bound 0 exact 0 hits 0
+progress 6000000 boundary13 3913185 contact_survivors 192338 point_survivors 177
+survived_bound 0 exact 0 hits 0
+progress 7000000 boundary13 4552753 contact_survivors 221652 point_survivors 217
+survived_bound 0 exact 0 hits 0
+SUMMARY checked 7627637 boundary13 4950148 contact_survivors 240851 
+point_survivors 239 no3_bound 239 survived_bound 0 exact 0 hits 0

@@ -1,0 +1,12 @@
+Cab genus = 0
+  hit (w1,w2)=(-1/9,-7/3) -> (a,b)=(-22/9,7/27)  on Cab: true   d1=400/81 (sq true)  d2=14800/567 (sq false)
+  hit (w1,w2)=(-8/7,19/4) -> (a,b)=(101/28,-38/7)  on Cab: true   d1=27225/784 (sq true)  d2=13275/14896 (sq false)
+  hit (w1,w2)=(-61/450,625/114) -> (a,b)=(22858/4275,-1525/2052)  on Cab: true   d1=576816289/18275625 (sq true)  d2=8022681604/1114813125 (sq false)
+  hit (w1,w2)=(297/133,361/525) -> (a,b)=(4162/1425,1881/1225)  on Cab: true   d1=237653056/99500625 (sq true)  d2=-32167616/22336875 (sq false)
+  hit (w1,w2)=(49/36,50/63) -> (a,b)=(181/84,175/162)  on Cab: true   d1=20449/63504 (sq true)  d2=-52559/176400 (sq false)
+
+In file "code/claude_ov_c7z_cab.m", line 28, column 23:
+>> E, mp := EllipticCurve(PC, P0);
+                         ^
+Runtime error in 'EllipticCurve': Curve must have genus 1
+

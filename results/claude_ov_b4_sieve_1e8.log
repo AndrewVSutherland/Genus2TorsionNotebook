@@ -1,0 +1,183 @@
+TABLES 427 primes, nloci=3, NMAX=100000000
+  A1 after p<=31 : survivors=20949171
+  A1 after p<=67 : survivors=544073
+  A1 after p<=103 : survivors=26854
+  A1 after p<=149 : survivors=313
+  A1 after p<=191 : survivors=5
+  A1 after p<=233 : survivors=5
+  A1 after p<=277 : survivors=5
+  A1 after p<=331 : survivors=5
+  A1 after p<=379 : survivors=5
+  A1 after p<=431 : survivors=5
+  A1 after p<=467 : survivors=5
+  A1 after p<=523 : survivors=5
+  A1 after p<=587 : survivors=5
+  A1 after p<=631 : survivors=5
+  A1 after p<=677 : survivors=5
+  A1 after p<=739 : survivors=5
+  A1 after p<=797 : survivors=5
+  A1 after p<=853 : survivors=5
+  A1 after p<=907 : survivors=5
+  A1 after p<=967 : survivors=5
+  A1 after p<=1019 : survivors=5
+  A1 after p<=1063 : survivors=5
+  A1 after p<=1117 : survivors=5
+  A1 after p<=1187 : survivors=5
+  A1 after p<=1237 : survivors=5
+  A1 after p<=1297 : survivors=5
+  A1 after p<=1367 : survivors=5
+  A1 after p<=1433 : survivors=5
+  A1 after p<=1483 : survivors=5
+  A1 after p<=1543 : survivors=5
+  A1 after p<=1597 : survivors=5
+  A1 after p<=1637 : survivors=5
+  A1 after p<=1709 : survivors=5
+  A1 after p<=1777 : survivors=5
+  A1 after p<=1847 : survivors=5
+  A1 after p<=1901 : survivors=5
+  A1 after p<=1979 : survivors=5
+  A1 after p<=2027 : survivors=5
+  A1 after p<=2087 : survivors=5
+  A1 after p<=2141 : survivors=5
+  A1 after p<=2221 : survivors=5
+  A1 after p<=2281 : survivors=5
+  A1 after p<=2341 : survivors=5
+  A1 after p<=2389 : survivors=5
+  A1 after p<=2447 : survivors=5
+  A1 after p<=2539 : survivors=5
+  A1 after p<=2609 : survivors=5
+  A1 after p<=2671 : survivors=5
+  A1 after p<=2711 : survivors=5
+  A1 after p<=2767 : survivors=5
+  A1 after p<=2833 : survivors=5
+  A1 after p<=2897 : survivors=5
+  A1 after p<=2963 : survivors=5
+  A1 after p<=2999 : survivors=5
+  SURVIVOR A1 n=-4
+  SURVIVOR A1 n=-2
+  SURVIVOR A1 n=1
+  SURVIVOR A1 n=2
+  SURVIVOR A1 n=4
+LOCUS A1 NMAX=100000000 primes=427 SURVIVORS=5
+  D1 after p<=31 : survivors=11911853
+  D1 after p<=67 : survivors=442248
+  D1 after p<=103 : survivors=11604
+  D1 after p<=149 : survivors=123
+  D1 after p<=191 : survivors=9
+  D1 after p<=233 : survivors=5
+  D1 after p<=277 : survivors=5
+  D1 after p<=331 : survivors=5
+  D1 after p<=379 : survivors=5
+  D1 after p<=431 : survivors=5
+  D1 after p<=467 : survivors=5
+  D1 after p<=523 : survivors=5
+  D1 after p<=587 : survivors=5
+  D1 after p<=631 : survivors=5
+  D1 after p<=677 : survivors=5
+  D1 after p<=739 : survivors=5
+  D1 after p<=797 : survivors=5
+  D1 after p<=853 : survivors=5
+  D1 after p<=907 : survivors=5
+  D1 after p<=967 : survivors=5
+  D1 after p<=1019 : survivors=5
+  D1 after p<=1063 : survivors=5
+  D1 after p<=1117 : survivors=5
+  D1 after p<=1187 : survivors=5
+  D1 after p<=1237 : survivors=5
+  D1 after p<=1297 : survivors=5
+  D1 after p<=1367 : survivors=5
+  D1 after p<=1433 : survivors=5
+  D1 after p<=1483 : survivors=5
+  D1 after p<=1543 : survivors=5
+  D1 after p<=1597 : survivors=5
+  D1 after p<=1637 : survivors=5
+  D1 after p<=1709 : survivors=5
+  D1 after p<=1777 : survivors=5
+  D1 after p<=1847 : survivors=5
+  D1 after p<=1901 : survivors=5
+  D1 after p<=1979 : survivors=5
+  D1 after p<=2027 : survivors=5
+  D1 after p<=2087 : survivors=5
+  D1 after p<=2141 : survivors=5
+  D1 after p<=2221 : survivors=5
+  D1 after p<=2281 : survivors=5
+  D1 after p<=2341 : survivors=5
+  D1 after p<=2389 : survivors=5
+  D1 after p<=2447 : survivors=5
+  D1 after p<=2539 : survivors=5
+  D1 after p<=2609 : survivors=5
+  D1 after p<=2671 : survivors=5
+  D1 after p<=2711 : survivors=5
+  D1 after p<=2767 : survivors=5
+  D1 after p<=2833 : survivors=5
+  D1 after p<=2897 : survivors=5
+  D1 after p<=2963 : survivors=5
+  D1 after p<=2999 : survivors=5
+  SURVIVOR D1 n=-4
+  SURVIVOR D1 n=1
+  SURVIVOR D1 n=3
+  SURVIVOR D1 n=4
+  SURVIVOR D1 n=6
+LOCUS D1 NMAX=100000000 primes=427 SURVIVORS=5
+  W after p<=31 : survivors=35114829
+  W after p<=67 : survivors=1630480
+  W after p<=103 : survivors=59272
+  W after p<=149 : survivors=743
+  W after p<=191 : survivors=21
+  W after p<=233 : survivors=6
+  W after p<=277 : survivors=6
+  W after p<=331 : survivors=6
+  W after p<=379 : survivors=6
+  W after p<=431 : survivors=6
+  W after p<=467 : survivors=6
+  W after p<=523 : survivors=6
+  W after p<=587 : survivors=6
+  W after p<=631 : survivors=6
+  W after p<=677 : survivors=6
+  W after p<=739 : survivors=6
+  W after p<=797 : survivors=6
+  W after p<=853 : survivors=6
+  W after p<=907 : survivors=6
+  W after p<=967 : survivors=6
+  W after p<=1019 : survivors=6
+  W after p<=1063 : survivors=6
+  W after p<=1117 : survivors=6
+  W after p<=1187 : survivors=6
+  W after p<=1237 : survivors=6
+  W after p<=1297 : survivors=6
+  W after p<=1367 : survivors=6
+  W after p<=1433 : survivors=6
+  W after p<=1483 : survivors=6
+  W after p<=1543 : survivors=6
+  W after p<=1597 : survivors=6
+  W after p<=1637 : survivors=6
+  W after p<=1709 : survivors=6
+  W after p<=1777 : survivors=6
+  W after p<=1847 : survivors=6
+  W after p<=1901 : survivors=6
+  W after p<=1979 : survivors=6
+  W after p<=2027 : survivors=6
+  W after p<=2087 : survivors=6
+  W after p<=2141 : survivors=6
+  W after p<=2221 : survivors=6
+  W after p<=2281 : survivors=6
+  W after p<=2341 : survivors=6
+  W after p<=2389 : survivors=6
+  W after p<=2447 : survivors=6
+  W after p<=2539 : survivors=6
+  W after p<=2609 : survivors=6
+  W after p<=2671 : survivors=6
+  W after p<=2711 : survivors=6
+  W after p<=2767 : survivors=6
+  W after p<=2833 : survivors=6
+  W after p<=2897 : survivors=6
+  W after p<=2963 : survivors=6
+  W after p<=2999 : survivors=6
+  SURVIVOR W n=-4
+  SURVIVOR W n=-2
+  SURVIVOR W n=1
+  SURVIVOR W n=2
+  SURVIVOR W n=3
+  SURVIVOR W n=4
+LOCUS W NMAX=100000000 primes=427 SURVIVORS=6
+SIEVE_DONE

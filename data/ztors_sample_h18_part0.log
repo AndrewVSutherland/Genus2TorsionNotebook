@@ -1,0 +1,22 @@
+ZTORS SAMPLE (harvest 3-torsion locus) H=18 Part=0/3
+PROGRESS tested=200000 pre3=776 tors=776 hits24=0 hits224=0
+
+
+Magma: Internal error
+
+Please report this issue with the entire run [*** WITH THE DETAILS BELOW ***] at:
+    https://github.com/Magma-Maths/Magma/issues
+or by email to:
+    magma-bugs@maths.usyd.edu.au
+
+You may check if the issue has been resolved by upgrading to the latest version of Magma or trying the online calculator: https://magma.maths.usyd.edu.au/calc/
+
+You can print the entire input by entering:
+%P
+
+Version: 2.29-7
+Machine type: intel64-osx
+Initial seed: 1265197254
+Time to this point: 412.04
+Memory usage: 635.88MB
+Segmentation fault

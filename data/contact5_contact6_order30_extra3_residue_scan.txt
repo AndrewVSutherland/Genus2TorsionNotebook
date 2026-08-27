@@ -1,0 +1,57 @@
+# extra independent 3-torsion residue diagnostic
+# necessary condition at good p != 3: 9 divides #J(F_p)
+
+p=7
+  eps=-1 good=0 bad=7 allowed9=0 allowed27=0 examples=[]
+  eps=1 good=0 bad=7 allowed9=0 allowed27=0 examples=[]
+p=11
+  eps=-1 good=3 bad=8 allowed9=0 allowed27=0 examples=[]
+  eps=1 good=3 bad=8 allowed9=0 allowed27=0 examples=[]
+p=13
+  eps=-1 good=4 bad=9 allowed9=0 allowed27=0 examples=[]
+  eps=1 good=4 bad=9 allowed9=0 allowed27=0 examples=[]
+p=17
+  eps=-1 good=9 bad=8 allowed9=2 allowed27=0 examples=[ <10, 360>, <16, 360> ]
+  eps=1 good=9 bad=8 allowed9=2 allowed27=0 examples=[ <0, 360>, <15, 360> ]
+p=19
+  eps=-1 good=7 bad=12 allowed9=5 allowed27=0 examples=[ <5, 360>, <6, 360>, <8, 360>, <12, 360>, <17, 360> ]
+  eps=1 good=7 bad=12 allowed9=5 allowed27=0 examples=[ <6, 360>, <8, 360>, <12, 360>, <13, 360>, <14, 360> ]
+p=23
+  eps=-1 good=15 bad=8 allowed9=6 allowed27=1 examples=[ <7, 360>, <13, 540>, <17, 720>, <18, 900>, <19, 360>, <20, 900> ]
+  eps=1 good=15 bad=8 allowed9=7 allowed27=1 examples=[ <0, 360>, <4, 900>, <6, 360>, <9, 540>, <14, 720>, <15, 900>, <16, 720> ]
+p=29
+  eps=-1 good=19 bad=10 allowed9=13 allowed27=0 examples=[ <0, 900>, <4, 720>, <5, 900>, <6, 720>, <7, 900>, <9, 900>, <15, 900>, <19, 720> ]
+  eps=1 good=19 bad=10 allowed9=13 allowed27=0 examples=[ <4, 900>, <5, 900>, <6, 900>, <7, 900>, <9, 900>, <15, 720>, <16, 720>, <20, 900> ]
+p=31
+  eps=-1 good=10 bad=21 allowed9=6 allowed27=2 examples=[ <0, 900>, <9, 900>, <13, 900>, <17, 1080>, <20, 900>, <30, 1080> ]
+  eps=1 good=10 bad=21 allowed9=6 allowed27=2 examples=[ <4, 900>, <10, 1080>, <21, 900>, <22, 900>, <24, 900>, <29, 1080> ]
+p=37
+  eps=-1 good=23 bad=14 allowed9=10 allowed27=2 examples=[ <6, 1620>, <8, 1440>, <16, 1620>, <17, 1440>, <19, 1800>, <21, 1440>, <25, 1440>, <26, 1440> ]
+  eps=1 good=23 bad=14 allowed9=9 allowed27=2 examples=[ <6, 1440>, <7, 1800>, <8, 1620>, <11, 1800>, <14, 1440>, <16, 1440>, <28, 1440>, <29, 1620> ]
+p=41
+  eps=-1 good=29 bad=12 allowed9=18 allowed27=2 examples=[ <0, 1800>, <4, 1800>, <5, 1800>, <7, 2160>, <9, 1800>, <10, 1800>, <12, 2160>, <14, 1800> ]
+  eps=1 good=29 bad=12 allowed9=18 allowed27=2 examples=[ <4, 1800>, <6, 1800>, <7, 1800>, <8, 1800>, <9, 2160>, <11, 1800>, <12, 1800>, <14, 1800> ]
+p=43
+  eps=-1 good=33 bad=10 allowed9=18 allowed27=8 examples=[ <4, 2160>, <6, 1800>, <8, 2160>, <15, 1800>, <17, 2160>, <18, 2160>, <21, 2160>, <22, 1710> ]
+  eps=1 good=33 bad=10 allowed9=17 allowed27=8 examples=[ <4, 2160>, <5, 1800>, <6, 2160>, <7, 2160>, <8, 2160>, <13, 1980>, <15, 2160>, <16, 1800> ]
+p=47
+  eps=-1 good=43 bad=4 allowed9=20 allowed27=4 examples=[ <0, 2520>, <5, 1800>, <6, 1980>, <9, 1980>, <12, 2070>, <14, 2880>, <16, 2340>, <17, 2340> ]
+  eps=1 good=43 bad=4 allowed9=19 allowed27=3 examples=[ <0, 2520>, <4, 2880>, <5, 2070>, <6, 2340>, <9, 2340>, <12, 1800>, <16, 1980>, <17, 1980> ]
+p=53
+  eps=-1 good=43 bad=10 allowed9=21 allowed27=0 examples=[ <0, 3600>, <7, 3600>, <10, 3600>, <12, 3600>, <15, 3600>, <18, 3060>, <19, 3060>, <25, 3060> ]
+  eps=1 good=43 bad=10 allowed9=22 allowed27=0 examples=[ <5, 3600>, <6, 3600>, <10, 2880>, <11, 3600>, <13, 3600>, <14, 3600>, <18, 3060>, <19, 3060> ]
+p=59
+  eps=-1 good=51 bad=8 allowed9=24 allowed27=10 examples=[ <0, 3330>, <5, 4320>, <6, 3510>, <9, 3600>, <14, 3240>, <16, 3240>, <18, 2700>, <20, 3600> ]
+  eps=1 good=51 bad=8 allowed9=23 allowed27=9 examples=[ <9, 2880>, <11, 3510>, <13, 3330>, <16, 3600>, <17, 3600>, <19, 4320>, <20, 3240>, <21, 3240> ]
+p=61
+  eps=-1 good=44 bad=17 allowed9=27 allowed27=9 examples=[ <0, 3420>, <4, 4320>, <8, 4320>, <10, 4140>, <13, 3420>, <15, 3600>, <16, 4050>, <20, 3600> ]
+  eps=1 good=45 bad=16 allowed9=28 allowed27=9 examples=[ <0, 3600>, <5, 2880>, <6, 3600>, <7, 3780>, <10, 4140>, <12, 3240>, <14, 2880>, <16, 4500> ]
+p=67
+  eps=-1 good=49 bad=18 allowed9=27 allowed27=5 examples=[ <4, 4140>, <6, 3600>, <8, 4140>, <14, 3960>, <15, 3600>, <17, 4320>, <18, 3960>, <21, 4140> ]
+  eps=1 good=49 bad=18 allowed9=27 allowed27=5 examples=[ <4, 4320>, <6, 4680>, <8, 3600>, <9, 3960>, <11, 4680>, <12, 3960>, <17, 4140>, <19, 3960> ]
+p=71
+  eps=-1 good=59 bad=12 allowed9=12 allowed27=8 examples=[ <7, 5400>, <20, 4860>, <21, 3600>, <24, 5040>, <25, 5040>, <43, 4860>, <46, 5400>, <51, 5400> ]
+  eps=1 good=59 bad=12 allowed9=12 allowed27=8 examples=[ <14, 5400>, <15, 5400>, <21, 5400>, <23, 5400>, <37, 4860>, <42, 5400>, <46, 3600>, <53, 5040> ]
+p=73
+  eps=-1 good=60 bad=13 allowed9=30 allowed27=10 examples=[ <0, 5760>, <6, 5400>, <8, 4680>, <9, 6840>, <10, 5400>, <11, 5040>, <13, 5400>, <15, 6840> ]
+  eps=1 good=59 bad=14 allowed9=30 allowed27=10 examples=[ <0, 4860>, <4, 6120>, <6, 5400>, <8, 4680>, <9, 4500>, <12, 5400>, <13, 5400>, <14, 3600> ]

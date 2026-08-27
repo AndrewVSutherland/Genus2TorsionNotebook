@@ -1,0 +1,63 @@
+# Adversarial validation log - 2026-07-30 (validator session)
+# All four Z31 sieve programs rebuilt from scratch locally (gcc -O3 -march=native -fopenmp) and re-validated.
+
+== B2 kummer_sieve: selftest (rebuilt binary, B1 vectors) ==
+  PASS-UNKNOWN (den=0) row 858 p=1009
+SELFTEST chartU: rows=1586 pass_unknown=5 eqfail=0 ordfail=0 d31fail=0 div31_agree=1581/1581 sieve31_pass=0
+SELFTEST_DONE FAILURES=0 PASS
+
+== B2: table chain regenerated from sha256-pinned archives: HEADER byte-identical; polytest 420/420 ==
+== B2: RM fiber P=1009 -> unique hit (649,858); 4-prime CRT e2e -> exact w1=9278181/2000 w0=-2240289/2000 (6 CANDs, RM among them) ==
+
+== B2: 24 FRESH validator tuples (Magma Order() truth on spot-11, seeds independent of builders) ==
+101	89	76	22	32	68	21	4	93	72	4450	0
+211	102	143	151	15	44	138	84	145	151	9325	0
+499	256	239	418	182	36	392	265	126	387	262541	0
+1009	302	971	368	201	231	413	723	286	250	1000882	0
+2003	141	1422	133	977	781	804	471	855	1984	587879	0
+101	50	86	90	62	68	84	56	5	97	8537	0
+211	88	25	179	31	32	69	62	66	90	23054	0
+499	299	250	62	94	139	1	181	307	324	250897	0
+1009	739	689	646	73	496	378	811	843	679	35162	0
+2003	1438	887	171	725	642	1490	941	791	1694	2057742	0
+101	42	28	74	79	67	51	5	97	77	12089	0
+211	200	155	205	176	68	71	100	197	51	12684	0
+499	429	203	256	204	115	307	491	379	454	263075	0
+1009	970	797	902	290	447	829	640	644	953	1014551	0
+2003	513	792	189	1529	285	1628	16	953	1302	2021395	0
+101	12	29	49	64	14	98	14	61	88	9815	0
+211	35	155	151	121	185	0	68	113	154	43799	0
+499	140	335	54	195	226	232	164	417	403	129658	0
+1009	197	806	711	325	284	441	237	897	957	260244	0
+2003	1574	2001	925	770	1244	1765	1719	616	1501	4146655	0
+499	248	130	115	306	32	56	300	161	168	251596	1
+211	205	86	145	73	209	28	119	82	131	775	1
+211	118	62	30	148	13	124	137	206	181	25699	1
+211	190	27	135	117	113	14	114	39	131	44330	1
+SELFTEST chartU: rows=20 pass_unknown=0 eqfail=0 ordfail=0 d31fail=0 div31_agree=20/20 sieve31_pass=0
+SELFTEST chartU: rows=4 pass_unknown=0 eqfail=0 ordfail=0 d31fail=0 div31_agree=4/4 sieve31_pass=0
+
+== B3 cf31_scan: selftest PASS (15/15 + 626/626); e2e int14 reproduced (2 CANDs conf=1); PARI cford=14 x3; Magma Order(inf+-inf-)=14 x2 ==
+== B3: fresh-seed SAMPLE p=499: c=2.1016 +-2.4% (claim 2.0398 +-0.2%) ==
+== B3: EXHAUSTIVE surface P=101 (validator run, fills empty builder log):
+SURFACE p=101 target=31 |Sigma(F_p)|=1967700 sing31=10300  P^3=1030301  c=|Sigma|/P^3=1.9098  density=1.872e-04  (1105.7 s, 9.51 Mcand/s total)
+== B3: fresh-seed fibstat p=1009 n=400: avg=1.985 empty=13.5% (claim 2.05/12.8%) ==
+
+== B4 ek8_sieve: selftest 8/8; ref 250+245+120+119 = 734/0/0 (rebuilt binary) ==
+== B4: independent Magma check (validator-transcribed EK igusa8.txt formulas):
+EK_IC -42108472/96721 815705343364/9354951841 -11220606099387738232/904820297013361 -21869479095091200000000000/8464550303319308288547601
+BADLOCUS_ZERO false
+MODEL_IC -673735552 208820567901184 -45959602583092175798272 -22931810911614350131200000000000
+IC_WEIGHTED_MATCH true lambda=1547536
+TORSION_INVARIANTS [ 31 ] ORDER 31
+REFROW p=103 r0=46 s0=8 chi={10524,10524} want={10524,10524} PASS
+REFROW p=103 r0=32 s0=102 chi={7567,14639} want={7567,14639} PASS
+REFROW p=103 r0=29 s0=61 chi={10771,10771} want={10771,10771} PASS
+REFROW p=1019 r0=486 s0=950 chi={1076722,1003282} want={1076722,1003282} PASS
+REFROW p=1019 r0=238 s0=889 chi={1030798,1047118} want={1047118,1030798} PASS
+REFROW p=1019 r0=543 s0=371 chi={1037706,1037706} want={1037706,1037706} PASS
+ALLDONE
+
+== B5 box31: selftest HGCD 153000/0, FASTDIRECT 16000/0; witness 7/7 SURVIVES; boxr unique SURV; PARI 160/160+24/24 (fresh curves) ==
+== B5: H=3 2-prime dedupe check reproduced: 940 dedupe vs 1872 nodedup, canon(nodedup)==dedupe exactly ==
+== B5: single-core H=40 task probe local: 2.196e6 tested/s (claim 1.86e6/s) ==

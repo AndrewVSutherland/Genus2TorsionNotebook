@@ -1,0 +1,52 @@
+M12_GENERAL5_B2ZERO_SELF_TEST_PASS
+F_degree 5 F_lc -8*b^2 + 4*b
+FORCED_A_COEFFICIENT_SIZES
+ EQ 0 degree 1 terms 1
+ EQ 1 degree 2 terms 2
+ EQ 2 degree 4 terms 4
+ EQ 3 degree 8 terms 16
+ EQ 4 degree 9 terms 38
+RESIDUAL_SIZES
+ EQ 0 degree 18 terms 380
+ EQ 1 degree 17 terms 257
+ EQ 2 degree 16 terms 158
+ EQ 3 degree 12 terms 111
+ EQ 4 degree 10 terms 78
+RESIDUAL_GCD 1
+E0 factor_count 1 shapes [ <18, 380, 1> ]
+E1 factor_count 1 shapes [ <17, 257, 1> ]
+E2 factor_count 1 shapes [ <16, 158, 1> ]
+E3 factor_count 1 shapes [ <12, 111, 1> ]
+E4 factor_count 1 shapes [ <10, 78, 1> ]
+BOUNDARY_FACTORS
+ BOUNDARY b degree 1 terms 1
+  POLY b
+ BOUNDARY w degree 1 terms 1
+  POLY w
+ BOUNDARY b-1 degree 1 terms 2
+  POLY b - 1
+ BOUNDARY 2b-1 degree 1 terms 2
+  POLY 2*b - 1
+ BOUNDARY b1 degree 1 terms 1
+  POLY b1
+ BOUNDARY discF degree 38 terms 148
+ BOUNDARY discq degree 2 terms 2
+  POLY U^2 - 4*V
+ BOUNDARY resBq degree 3 terms 3
+  POLY -U*b0*b1 + V*b1^2 + b0^2
+ BOUNDARY resqF degree 16 terms 333
+DISC_F factor_count 5 shapes [ <1, 1, 1>, <1, 1, 9>, <1, 2, 4>, <2, 3, 6>, <12, 29, 1> ]
+DISC_F FACTOR <w, 1>
+DISC_F FACTOR <b, 9>
+DISC_F FACTOR <b - 1, 4>
+DISC_F FACTOR <b*w - w + 1, 6>
+B0_NOT_INVERTED resBq_at_b0=0 V*b1^2
+SINGULAR_SIEVE_CONTROL <-2, 1/3> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <-1, 1/2> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <2, -1> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <3, -1/2> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <-1/2, 2/3> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <3/2, -2> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <1/3, 3/2> bw-w+1 0
+SINGULAR_SIEVE_CONTROL <2/3, 3> bw-w+1 0
+M12_GENERAL5_B2ZERO_SUMMARY_DONE

@@ -1,0 +1,56 @@
+Contact-6 [3,6] -> halve marked 6-class -> simple [3,12] search
+height 8 prime_bound 19 primes [ 5, 7, 11, 13, 17, 19 ]
+max_exact 20 max_hits 5
+prime 5 allowed_312 0 bad 19 rank_counts [ <1, 6> ]
+prime 7 allowed_312 2 bad 31 rank_counts [ <1, 16>, <2, 2> ]
+prime 11 allowed_312 6 bad 51 rank_counts [ <1, 64>, <2, 6> ]
+prime 13 allowed_312 32 bad 59 rank_counts [ <1, 78>, <2, 30>, <3, 2> ]
+prime 17 allowed_312 20 bad 91 rank_counts [ <1, 178>, <2, 20> ]
+prime 19 allowed_312 84 bad 101 rank_counts [ <1, 176>, <2, 82>, <3, 2> ]
+SURVIVOR_SIMPLE z -8/3 r 5 a -55/216 pcert 13 bad_primes [ 5, 7, 11 ]
+EXACT z -8/3 r 5 a -55/216 torsion [ 12 ]
+order 12 pcert 13
+SURVIVOR_SIMPLE z -8/3 r 7/6 a -55/78 pcert 23 bad_primes [ 5, 7, 11, 13 ]
+EXACT z -8/3 r 7/6 a -55/78 torsion [ 12 ]
+order 12 pcert 23
+SURVIVOR_NONSIMPLE_CERT_UNKNOWN z -5/3 r -3/5 a -10/9 bad_primes [ 5, 17 ]
+SURVIVOR_SIMPLE z -3/4 r -5/6 a 21/32 pcert 13 bad_primes [ 5, 7, 17 ]
+EXACT z -3/4 r -5/6 a 21/32 torsion [ 12 ]
+order 12 pcert 13
+SURVIVOR_SIMPLE z -4/5 r 7/4 a 9/275 pcert 13 bad_primes [ 5, 7, 11, 19 ]
+EXACT z -4/5 r 7/4 a 9/275 torsion [ 12 ]
+order 12 pcert 13
+SURVIVOR_SIMPLE z -2/5 r 8/5 a 21/260 pcert 19 bad_primes [ 5, 7, 13 ]
+EXACT z -2/5 r 8/5 a 21/260 torsion [ 12 ]
+order 12 pcert 19
+progress 5000 smooth 4628 residue_survivors 6 simple_survivors 5 exact 5 hits 0
+SURVIVOR_SIMPLE z -7/6 r 6/5 a -65/1584 pcert 19 bad_primes [ 5, 7, 11, 13 ]
+EXACT z -7/6 r 6/5 a -65/1584 torsion [ 12 ]
+order 12 pcert 19
+SURVIVOR_SIMPLE z -5/6 r 7/5 a 55/1728 pcert 19 bad_primes [ 5, 7, 11, 17 ]
+EXACT z -5/6 r 7/5 a 55/1728 torsion [ 12 ]
+order 12 pcert 19
+SURVIVOR_SIMPLE z -1/6 r 8/5 a 175/1872 pcert 23 bad_primes [ 5, 7, 13 ]
+EXACT z -1/6 r 8/5 a 175/1872 torsion [ 12 ]
+order 12 pcert 23
+SURVIVOR_SIMPLE z -6/7 r 6/5 a 65/2156 pcert 23 bad_primes [ 5, 7, 11, 13 ]
+EXACT z -6/7 r 6/5 a 65/2156 torsion [ 12 ]
+order 12 pcert 23
+SURVIVOR_SIMPLE z -4/7 r 8/5 a 165/2548 pcert 29 bad_primes [ 5, 7, 11, 13 ]
+EXACT z -4/7 r 8/5 a 165/2548 torsion [ 12 ]
+order 12 pcert 29
+SURVIVOR_SIMPLE z -7/8 r 7/6 a 45/1664 pcert 29 bad_primes [ 5, 7, 11, 13, 19 ]
+EXACT z -7/8 r 7/6 a 45/1664 torsion [ 12 ]
+order 12 pcert 29
+SURVIVOR_SIMPLE z -5/8 r -2/7 a 273/1280 pcert 23 bad_primes [ 5, 7, 13, 17, 19 ]
+EXACT z -5/8 r -2/7 a 273/1280 torsion [ 12 ]
+order 12 pcert 23
+DONE contact6 halveD [3,12] search
+checked 7569 smooth 7140 unique_ar 3570 residue_survivors 13 simple_survivors 12 exact_tests 12 hits 0
+kill_counts
+5 602
+7 720
+11 1647
+13 386
+17 182
+19 20

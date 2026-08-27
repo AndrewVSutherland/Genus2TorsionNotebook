@@ -1,0 +1,372 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+Loading "/home/claude/torsion_jac/product/data/seeds_magma.m"
+PROGRESS biell 66.c3 done, scanned 719, funneled 0, hits 0, 0.090 s
+PROGRESS biell 66.c4 done, scanned 1438, funneled 0, hits 0, 0.180 s
+PROGRESS biell 150.c1 done, scanned 2157, funneled 0, hits 0, 0.290 s
+PROGRESS biell 150.c3 done, scanned 2876, funneled 0, hits 0, 0.390 s
+PROGRESS biell 570.l3 done, scanned 3595, funneled 0, hits 0, 0.480 s
+PROGRESS biell 570.l4 done, scanned 4314, funneled 0, hits 0, 0.580 s
+PROGRESS biell 870.h3 done, scanned 5033, funneled 0, hits 0, 0.670 s
+PROGRESS biell 870.h4 done, scanned 5752, funneled 0, hits 0, 0.760 s
+PROGRESS biell 6270.r2 done, scanned 6471, funneled 0, hits 0, 0.860 s
+PROGRESS biell 6270.r4 done, scanned 7190, funneled 0, hits 0, 0.950 s
+PROGRESS biell 10230.bf3 done, scanned 7909, funneled 0, hits 0, 1.050 s
+PROGRESS biell 10230.bf4 done, scanned 8628, funneled 0, hits 0, 1.150 s
+PROGRESS biell 11550.cu1 done, scanned 9347, funneled 0, hits 0, 1.270 s
+PROGRESS biell 11550.cu2 done, scanned 10066, funneled 0, hits 0, 1.380 s
+PROGRESS biell 29370.bm3 done, scanned 10785, funneled 0, hits 0, 1.480 s
+PROGRESS biell 29370.bm4 done, scanned 11504, funneled 0, hits 0, 1.580 s
+PROGRESS biell 32718.l2 done, scanned 12223, funneled 0, hits 0, 1.680 s
+PROGRESS biell 32718.l3 done, scanned 12942, funneled 0, hits 0, 1.780 s
+PROGRESS biell 61770.be2 done, scanned 13661, funneled 0, hits 0, 1.870 s
+PROGRESS biell 61770.be3 done, scanned 14380, funneled 0, hits 0, 1.970 s
+PROGRESS biell 77610.bb3 done, scanned 15099, funneled 0, hits 0, 2.080 s
+PROGRESS biell 77610.bb4 done, scanned 15818, funneled 0, hits 0, 2.170 s
+PROGRESS biell 92442.n3 done, scanned 16537, funneled 0, hits 0, 2.270 s
+PROGRESS biell 92442.n4 done, scanned 17256, funneled 0, hits 0, 2.370 s
+PROGRESS biell 94710.cx3 done, scanned 17975, funneled 0, hits 0, 2.470 s
+PROGRESS biell 94710.cx4 done, scanned 18694, funneled 0, hits 0, 2.570 s
+PROGRESS biell 123690.by3 done, scanned 19413, funneled 0, hits 0, 2.670 s
+PROGRESS biell 123690.by4 done, scanned 20132, funneled 0, hits 0, 2.770 s
+PROGRESS biell 136290.ct3 done, scanned 20851, funneled 0, hits 0, 2.870 s
+PROGRESS biell 136290.ct4 done, scanned 21570, funneled 0, hits 0, 2.970 s
+PROGRESS biell 140910.dd3 done, scanned 22289, funneled 0, hits 0, 3.060 s
+PROGRESS biell 140910.dd4 done, scanned 23008, funneled 0, hits 0, 3.170 s
+PROGRESS biell 219450.hl1 done, scanned 23727, funneled 0, hits 0, 3.280 s
+PROGRESS biell 219450.hl2 done, scanned 24446, funneled 0, hits 0, 3.400 s
+PROGRESS biell 219450.hn1 done, scanned 25165, funneled 0, hits 0, 3.510 s
+PROGRESS biell 219450.hn3 done, scanned 25884, funneled 0, hits 0, 3.630 s
+PROGRESS biell 334950.gb1 done, scanned 26603, funneled 0, hits 0, 3.750 s
+PROGRESS biell 334950.gb4 done, scanned 27322, funneled 0, hits 0, 3.870 s
+PROGRESS biell 338910.cn2 done, scanned 28041, funneled 0, hits 0, 3.970 s
+PROGRESS biell 338910.cn4 done, scanned 28760, funneled 0, hits 0, 4.080 s
+PROGRESS biell 359310.bp2 done, scanned 29479, funneled 0, hits 0, 4.170 s
+PROGRESS biell 359310.bp3 done, scanned 30198, funneled 0, hits 0, 4.280 s
+PROGRESS biell 90.c7 done, scanned 30917, funneled 1, hits 0, 4.390 s
+PROGRESS biell 210.b8 done, scanned 31636, funneled 1, hits 0, 4.510 s
+PROGRESS biell 2730.bd7 done, scanned 32355, funneled 1, hits 0, 4.610 s
+PROGRESS biell 4290.bb5 done, scanned 33074, funneled 1, hits 0, 4.710 s
+PROGRESS biell 6630.v7 done, scanned 33793, funneled 1, hits 0, 4.810 s
+PROGRESS biell 8190.bx1 done, scanned 34512, funneled 1, hits 0, 4.910 s
+PROGRESS biell 30030.bt7 done, scanned 35231, funneled 1, hits 0, 5.000 s
+PROGRESS biell 62790.bu7 done, scanned 35950, funneled 1, hits 0, 5.100 s
+PROGRESS biell 99330.bg3 done, scanned 36669, funneled 1, hits 0, 5.210 s
+PROGRESS biell 117810.ei4 done, scanned 37388, funneled 1, hits 0, 5.310 s
+PROGRESS biell 125970.w7 done, scanned 38107, funneled 1, hits 0, 5.410 s
+PROGRESS biell 155610.fa1 done, scanned 38826, funneled 1, hits 0, 5.520 s
+PROGRESS biell 167790.bx5 done, scanned 39545, funneled 1, hits 0, 5.620 s
+PROGRESS biell 274170.ck7 done, scanned 40264, funneled 1, hits 0, 5.720 s
+PROGRESS biell 278070.s2 done, scanned 40983, funneled 1, hits 0, 5.830 s
+PROGRESS biell 335790.dy5 done, scanned 41702, funneled 1, hits 0, 5.960 s
+PROGRESS biell 434070.ds8 done, scanned 42421, funneled 1, hits 0, 6.100 s
+PROGRESS biell 15.a5 done, scanned 42604, funneled 1, hits 0, 6.130 s
+PROGRESS biell 15.a6 done, scanned 42787, funneled 1, hits 0, 6.150 s
+CAND biell|21.a5|t=12|Ep=[ 2, 4 ] unknown=[
+[ 8, 8 ],
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN biell|21.a5|t=12|Ep=[ 2, 4 ] invs=[ 4, 4 ]
+PROGRESS biell 21.a5 done, scanned 42969, funneled 2, hits 0, 6.340 s
+PROGRESS biell 24.a4 done, scanned 43152, funneled 2, hits 0, 6.360 s
+PROGRESS biell 42.a4 done, scanned 43335, funneled 2, hits 0, 6.380 s
+CAND biell|48.a3|t=-8|Ep=[ 2, 4 ] unknown=[
+[ 8, 8 ],
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN biell|48.a3|t=-8|Ep=[ 2, 4 ] invs=[ 4, 4 ]
+PROGRESS biell 48.a3 done, scanned 43518, funneled 3, hits 0, 6.480 s
+PROGRESS biell 102.c4 done, scanned 43701, funneled 3, hits 0, 6.500 s
+PROGRESS biell 120.b4 done, scanned 43883, funneled 3, hits 0, 6.520 s
+CAND biell|195.a4|t=-6|Ep=[ 2, 6 ] unknown=[
+[ 4, 24 ],
+[ 96 ]
+]
+EXACTKNOWN biell|195.a4|t=-6|Ep=[ 2, 6 ] invs=[ 2, 12 ]
+PROGRESS biell 195.a4 done, scanned 44066, funneled 4, hits 0, 6.640 s
+PROGRESS biell 195.a5 done, scanned 44249, funneled 4, hits 0, 6.660 s
+PROGRESS biell 210.c5 done, scanned 44432, funneled 4, hits 0, 6.680 s
+CAND biell|210.e5|t=3|Ep=[ 2, 4 ] unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN biell|210.e5|t=3|Ep=[ 2, 4 ] invs=[ 4, 4 ]
+PROGRESS biell 210.e5 done, scanned 44615, funneled 5, hits 0, 6.820 s
+PROGRESS biell 231.a3 done, scanned 44798, funneled 5, hits 0, 6.840 s
+PROGRESS biell 240.c2 done, scanned 44981, funneled 5, hits 0, 6.860 s
+CAND biell|240.d2|t=4|Ep=[ 2, 4 ] unknown=[
+[ 8, 8 ],
+[ 32 ],
+[ 64 ],
+[ 2, 32 ]
+]
+EXACTKNOWN biell|240.d2|t=4|Ep=[ 2, 4 ] invs=[ 4, 4 ]
+PROGRESS biell 240.d2 done, scanned 45164, funneled 6, hits 0, 7.020 s
+PROGRESS biell 240.d5 done, scanned 45347, funneled 6, hits 0, 7.040 s
+PROGRESS biell 330.d5 done, scanned 45530, funneled 6, hits 0, 7.050 s
+CAND biell|330.e4|t=-6|Ep=[ 2, 6 ] unknown=[
+[ 2, 2, 24 ],
+[ 96 ],
+[ 4, 24 ]
+]
+EXACTKNOWN biell|330.e4|t=-6|Ep=[ 2, 6 ] invs=[ 2, 2, 12 ]
+PROGRESS biell 330.e4 done, scanned 45713, funneled 7, hits 0, 7.160 s
+PROGRESS biell 336.a2 done, scanned 45896, funneled 7, hits 0, 7.180 s
+PROGRESS biell 336.d3 done, scanned 46079, funneled 7, hits 0, 7.200 s
+PROGRESS biell 390.f5 done, scanned 46262, funneled 7, hits 0, 7.230 s
+PROGRESS biell 429.b4 done, scanned 46445, funneled 7, hits 0, 7.250 s
+PROGRESS biell 510.e4 done, scanned 46628, funneled 7, hits 0, 7.270 s
+PROGRESS biell 510.e5 done, scanned 46811, funneled 7, hits 0, 7.290 s
+PROGRESS biell 609.a4 done, scanned 46994, funneled 7, hits 0, 7.320 s
+PROGRESS biell 663.a3 done, scanned 47177, funneled 7, hits 0, 7.340 s
+PROGRESS biell 690.k4 done, scanned 47360, funneled 7, hits 0, 7.360 s
+PROGRESS biell 714.f4 done, scanned 47543, funneled 7, hits 0, 7.380 s
+PROGRESS biell 759.b5 done, scanned 47726, funneled 7, hits 0, 7.410 s
+PROGRESS biell 816.b2 done, scanned 47909, funneled 7, hits 0, 7.420 s
+PROGRESS biell 840.d3 done, scanned 48092, funneled 7, hits 0, 7.450 s
+PROGRESS biell 840.f3 done, scanned 48275, funneled 7, hits 0, 7.470 s
+PROGRESS biell 840.j4 done, scanned 48458, funneled 7, hits 0, 7.500 s
+PROGRESS biell 930.o5 done, scanned 48641, funneled 7, hits 0, 7.520 s
+PROGRESS biell 966.g4 done, scanned 48824, funneled 7, hits 0, 7.540 s
+PROGRESS biell 1110.k4 done, scanned 49007, funneled 7, hits 0, 7.560 s
+PROGRESS biell 1122.e4 done, scanned 49190, funneled 7, hits 0, 7.580 s
+PROGRESS biell 1155.e3 done, scanned 49373, funneled 7, hits 0, 7.600 s
+PROGRESS biell 1155.f5 done, scanned 49556, funneled 7, hits 0, 7.620 s
+PROGRESS biell 1230.f4 done, scanned 49739, funneled 7, hits 0, 7.640 s
+CAND biell|30.a6|t=3|Ep=[ 2, 4 ] unknown=[
+[ 4, 24 ],
+[ 96 ]
+]
+EXACTKNOWN biell|30.a6|t=3|Ep=[ 2, 4 ] invs=[ 2, 12 ]
+PROGRESS biell 30.a6 done, scanned 50058, funneled 8, hits 0, 7.740 s
+PROGRESS biell 90.c3 done, scanned 50377, funneled 8, hits 0, 7.780 s
+CAND biell|210.b6|t=-14/9|Ep=[ 2, 4 ] unknown=[
+[ 4, 24 ],
+[ 96 ]
+]
+EXACTKNOWN biell|210.b6|t=-14/9|Ep=[ 2, 4 ] invs=[ 2, 12 ]
+PROGRESS biell 210.b6 done, scanned 50696, funneled 9, hits 0, 7.940 s
+PROGRESS biell 210.d5 done, scanned 51015, funneled 9, hits 0, 7.980 s
+PROGRESS biell 630.f3 done, scanned 51334, funneled 9, hits 0, 8.030 s
+PROGRESS biell 630.h2 done, scanned 51653, funneled 9, hits 0, 8.070 s
+PROGRESS biell 2310.h5 done, scanned 51972, funneled 9, hits 0, 8.120 s
+PROGRESS biell 2310.l5 done, scanned 52291, funneled 9, hits 0, 8.160 s
+PROGRESS biell 2310.u7 done, scanned 52610, funneled 9, hits 0, 8.210 s
+PROGRESS biell 2730.bd6 done, scanned 52929, funneled 9, hits 0, 8.250 s
+PROGRESS biell 2730.o6 done, scanned 53248, funneled 9, hits 0, 8.300 s
+PROGRESS biell 3570.w6 done, scanned 53567, funneled 9, hits 0, 8.340 s
+PROGRESS biell 4290.bb6 done, scanned 53886, funneled 9, hits 0, 8.390 s
+PROGRESS biell 4830.be6 done, scanned 54205, funneled 9, hits 0, 8.430 s
+PROGRESS biell 5610.q7 done, scanned 54524, funneled 9, hits 0, 8.470 s
+PROGRESS biell 6270.l5 done, scanned 54843, funneled 9, hits 0, 8.520 s
+PROGRESS biell 6630.v6 done, scanned 55162, funneled 9, hits 0, 8.560 s
+PROGRESS biell 6930.bl2 done, scanned 55481, funneled 9, hits 0, 8.610 s
+PROGRESS biell 6930.q3 done, scanned 55800, funneled 9, hits 0, 8.650 s
+PROGRESS biell 6930.z3 done, scanned 56119, funneled 9, hits 0, 8.690 s
+PROGRESS biell 8190.bx4 done, scanned 56438, funneled 9, hits 0, 8.740 s
+PROGRESS biell 8190.h2 done, scanned 56757, funneled 9, hits 0, 8.790 s
+PROGRESS biell 10710.n4 done, scanned 57076, funneled 9, hits 0, 8.830 s
+PROGRESS biell 12870.c2 done, scanned 57395, funneled 9, hits 0, 8.880 s
+PROGRESS biell 14490.z2 done, scanned 57714, funneled 9, hits 0, 8.920 s
+PROGRESS biell 16830.bk3 done, scanned 58033, funneled 9, hits 0, 8.970 s
+PROGRESS biell 18810.p3 done, scanned 58352, funneled 9, hits 0, 9.010 s
+PROGRESS biell 19890.n2 done, scanned 58671, funneled 9, hits 0, 9.060 s
+PROGRESS biell 30030.bt6 done, scanned 58990, funneled 9, hits 0, 9.100 s
+PROGRESS biell 30030.p5 done, scanned 59309, funneled 9, hits 0, 9.150 s
+PROGRESS biell 39270.bg5 done, scanned 59628, funneled 9, hits 0, 9.190 s
+PROGRESS biell 39270.br6 done, scanned 59947, funneled 9, hits 0, 9.240 s
+PROGRESS biell 39270.cp6 done, scanned 60266, funneled 9, hits 0, 9.280 s
+PROGRESS biell 43890.ct6 done, scanned 60585, funneled 9, hits 0, 9.320 s
+PROGRESS biell 46410.be6 done, scanned 60904, funneled 9, hits 0, 9.370 s
+PROGRESS biell 51870.bd6 done, scanned 61223, funneled 9, hits 0, 9.410 s
+PROGRESS biell 51870.y6 done, scanned 61542, funneled 9, hits 0, 9.460 s
+PROGRESS biell 53130.cs7 done, scanned 61861, funneled 9, hits 0, 9.510 s
+PROGRESS biell 62790.bu6 done, scanned 62180, funneled 9, hits 0, 9.550 s
+PROGRESS biell 62790.v6 done, scanned 62499, funneled 9, hits 0, 9.600 s
+PROGRESS biell 66990.bg6 done, scanned 62818, funneled 9, hits 0, 9.640 s
+PROGRESS biell 67830.bz6 done, scanned 63137, funneled 9, hits 0, 9.690 s
+PROGRESS biell 67830.s4 done, scanned 63456, funneled 9, hits 0, 9.740 s
+PROGRESS biell 71610.w6 done, scanned 63775, funneled 9, hits 0, 9.780 s
+PROGRESS biell 72930.cp6 done, scanned 64094, funneled 9, hits 0, 9.820 s
+PROGRESS biell 79170.bq6 done, scanned 64413, funneled 9, hits 0, 9.870 s
+PROGRESS biell 90090.ce4 done, scanned 64732, funneled 9, hits 0, 9.920 s
+PROGRESS biell 90090.dr2 done, scanned 65051, funneled 9, hits 0, 9.970 s
+PROGRESS biell 91770.be6 done, scanned 65370, funneled 9, hits 0, 10.010 s
+PROGRESS biell 98670.bv5 done, scanned 65689, funneled 9, hits 0, 10.050 s
+PROGRESS biell 99330.bg6 done, scanned 66008, funneled 9, hits 0, 10.100 s
+PROGRESS biell 110670.co4 done, scanned 66327, funneled 9, hits 0, 10.140 s
+PROGRESS biell 111930.x7 done, scanned 66646, funneled 9, hits 0, 10.180 s
+PROGRESS biell 115710.bl7 done, scanned 66965, funneled 9, hits 0, 10.220 s
+PROGRESS biell 117810.bu2 done, scanned 67284, funneled 9, hits 0, 10.270 s
+PROGRESS biell 117810.df4 done, scanned 67603, funneled 9, hits 0, 10.310 s
+PROGRESS biell 117810.ei3 done, scanned 67922, funneled 9, hits 0, 10.350 s
+PROGRESS biell 125970.w5 done, scanned 68241, funneled 9, hits 0, 10.390 s
+PROGRESS biell 131670.cj4 done, scanned 68560, funneled 9, hits 0, 10.440 s
+PROGRESS biell 139230.df3 done, scanned 68879, funneled 9, hits 0, 10.480 s
+CAND biell|210.e6|t=3|Ep=[ 2, 4 ] unknown=[
+[ 8, 8 ],
+[ 4, 32 ],
+[ 32 ],
+[ 64 ],
+[ 2, 64 ],
+[ 2, 32 ],
+[ 128 ],
+[ 8, 16 ]
+]
+EXACTKNOWN biell|210.e6|t=3|Ep=[ 2, 4 ] invs=[ 4, 8 ]
+PROGRESS biell 210.e6 done, scanned 70838, funneled 10, hits 0, 10.880 s
+PROGRESS biell 46410.ck6 done, scanned 72797, funneled 10, hits 0, 11.250 s
+PROGRESS biell 82110.bs5 done, scanned 74756, funneled 10, hits 0, 11.610 s
+PROGRESS biell 110670.cm5 done, scanned 76715, funneled 10, hits 0, 11.970 s
+PROGRESS biell 249690.cj6 done, scanned 78674, funneled 10, hits 0, 12.350 s
+PROGRESS biell 266910.ck5 done, scanned 80633, funneled 10, hits 0, 12.730 s
+PROGRESS biell 26.b2 done, scanned 80952, funneled 10, hits 0, 12.770 s
+PROGRESS biell 174.e2 done, scanned 81271, funneled 10, hits 0, 12.810 s
+PROGRESS biell 258.f2 done, scanned 81590, funneled 10, hits 0, 12.850 s
+PROGRESS biell 294.f1 done, scanned 81909, funneled 10, hits 0, 12.890 s
+PROGRESS biell 490.e2 done, scanned 82228, funneled 10, hits 0, 12.940 s
+PROGRESS biell 546.f2 done, scanned 82547, funneled 10, hits 0, 12.970 s
+PROGRESS biell 574.g2 done, scanned 82866, funneled 10, hits 0, 13.010 s
+PROGRESS biell 678.e2 done, scanned 83185, funneled 10, hits 0, 13.040 s
+PROGRESS biell 762.f2 done, scanned 83504, funneled 10, hits 0, 13.080 s
+PROGRESS biell 858.k1 done, scanned 83823, funneled 10, hits 0, 13.110 s
+PROGRESS biell 1230.k2 done, scanned 84142, funneled 10, hits 0, 13.140 s
+PROGRESS biell 2110.e1 done, scanned 84461, funneled 10, hits 0, 13.170 s
+PROGRESS biell 4730.d1 done, scanned 84780, funneled 10, hits 0, 13.210 s
+PROGRESS biell 5010.h2 done, scanned 85099, funneled 10, hits 0, 13.240 s
+PROGRESS biell 6378.d1 done, scanned 85418, funneled 10, hits 0, 13.280 s
+PROGRESS biell 6690.j2 done, scanned 85737, funneled 10, hits 0, 13.310 s
+PROGRESS biell 7530.l2 done, scanned 86056, funneled 10, hits 0, 13.340 s
+PROGRESS biell 10470.d1 done, scanned 86375, funneled 10, hits 0, 13.380 s
+PROGRESS biell 10766.e1 done, scanned 86694, funneled 10, hits 0, 13.410 s
+PROGRESS biell 15918.w2 done, scanned 87013, funneled 10, hits 0, 13.440 s
+PROGRESS biell 19110.cz1 done, scanned 87332, funneled 10, hits 0, 13.490 s
+PROGRESS biell 20510.c2 done, scanned 87651, funneled 10, hits 0, 13.520 s
+PROGRESS biell 20622.j2 done, scanned 87970, funneled 10, hits 0, 13.550 s
+PROGRESS biell 22386.y1 done, scanned 88289, funneled 10, hits 0, 13.590 s
+PROGRESS biell 24882.bi2 done, scanned 88608, funneled 10, hits 0, 13.620 s
+PROGRESS biell 25242.f2 done, scanned 88927, funneled 10, hits 0, 13.650 s
+PROGRESS biell 27690.bg2 done, scanned 89246, funneled 10, hits 0, 13.690 s
+PROGRESS biell 32370.bj2 done, scanned 89565, funneled 10, hits 0, 13.720 s
+PROGRESS biell 32370.bk2 done, scanned 89884, funneled 10, hits 0, 13.750 s
+PROGRESS biell 37830.bd2 done, scanned 90203, funneled 10, hits 0, 13.790 s
+PROGRESS biell 40310.p2 done, scanned 90522, funneled 10, hits 0, 13.820 s
+PROGRESS biell 42042.db1 done, scanned 90841, funneled 10, hits 0, 13.860 s
+PROGRESS biell 42630.dh1 done, scanned 91160, funneled 10, hits 0, 13.910 s
+PROGRESS biell 42978.u1 done, scanned 91479, funneled 10, hits 0, 13.940 s
+PROGRESS biell 43190.g2 done, scanned 91798, funneled 10, hits 0, 13.970 s
+PROGRESS biell 46090.g2 done, scanned 92117, funneled 10, hits 0, 14.000 s
+PROGRESS biell 52878.g2 done, scanned 92436, funneled 10, hits 0, 14.040 s
+PROGRESS biell 61446.cv1 done, scanned 92755, funneled 10, hits 0, 14.080 s
+PROGRESS biell 63870.o2 done, scanned 93074, funneled 10, hits 0, 14.120 s
+PROGRESS biell 64974.bw1 done, scanned 93393, funneled 10, hits 0, 14.160 s
+PROGRESS biell 68354.f2 done, scanned 93712, funneled 10, hits 0, 14.200 s
+PROGRESS biell 69366.u2 done, scanned 94031, funneled 10, hits 0, 14.230 s
+PROGRESS biell 71058.m2 done, scanned 94350, funneled 10, hits 0, 14.270 s
+PROGRESS biell 71630.v2 done, scanned 94669, funneled 10, hits 0, 14.310 s
+PROGRESS biell 88270.k2 done, scanned 94988, funneled 10, hits 0, 14.340 s
+PROGRESS biell 91358.d2 done, scanned 95307, funneled 10, hits 0, 14.380 s
+PROGRESS biell 98826.p2 done, scanned 95626, funneled 10, hits 0, 14.410 s
+PROGRESS biell 101478.k2 done, scanned 95945, funneled 10, hits 0, 14.450 s
+PROGRESS biell 105222.l2 done, scanned 96264, funneled 10, hits 0, 14.490 s
+PROGRESS biell 122010.dj2 done, scanned 96583, funneled 10, hits 0, 14.530 s
+PROGRESS biell 155298.bb1 done, scanned 96902, funneled 10, hits 0, 14.570 s
+PROGRESS biell 157146.j2 done, scanned 97221, funneled 10, hits 0, 14.610 s
+PROGRESS biell 157470.z1 done, scanned 97540, funneled 10, hits 0, 14.640 s
+PROGRESS biell 164346.cp2 done, scanned 97859, funneled 10, hits 0, 14.690 s
+PROGRESS biell 193830.cc2 done, scanned 98178, funneled 10, hits 0, 14.730 s
+PROGRESS biell 196098.ci2 done, scanned 98497, funneled 10, hits 0, 14.770 s
+PROGRESS biell 211582.r1 done, scanned 98816, funneled 10, hits 0, 14.820 s
+PROGRESS biell 226954.e2 done, scanned 99135, funneled 10, hits 0, 14.850 s
+PROGRESS biell 229242.h1 done, scanned 99454, funneled 10, hits 0, 14.890 s
+PROGRESS biell 237910.d2 done, scanned 99773, funneled 10, hits 0, 14.920 s
+PROGRESS biell 15.a8 done, scanned 100092, funneled 10, hits 0, 14.960 s
+PROGRESS biell 21.a3 done, scanned 100411, funneled 10, hits 0, 15.000 s
+PROGRESS biell 42.a5 done, scanned 100730, funneled 10, hits 0, 15.030 s
+PROGRESS biell 48.a6 done, scanned 101049, funneled 10, hits 0, 15.070 s
+PROGRESS biell 102.c5 done, scanned 101368, funneled 10, hits 0, 15.110 s
+PROGRESS biell 210.e4 done, scanned 101687, funneled 10, hits 0, 15.160 s
+PROGRESS biell 210.e7 done, scanned 102006, funneled 10, hits 0, 15.200 s
+PROGRESS biell 336.d2 done, scanned 102325, funneled 10, hits 0, 15.240 s
+PROGRESS biell 690.k5 done, scanned 102644, funneled 10, hits 0, 15.280 s
+PROGRESS biell 714.f5 done, scanned 102963, funneled 10, hits 0, 15.320 s
+PROGRESS biell 930.o4 done, scanned 103282, funneled 10, hits 0, 15.360 s
+PROGRESS biell 966.g2 done, scanned 103601, funneled 10, hits 0, 15.400 s
+PROGRESS biell 1230.f7 done, scanned 103920, funneled 10, hits 0, 15.440 s
+PROGRESS biell 1680.p1 done, scanned 104239, funneled 10, hits 0, 15.490 s
+PROGRESS biell 1680.q3 done, scanned 104558, funneled 10, hits 0, 15.530 s
+PROGRESS biell 1785.e5 done, scanned 104877, funneled 10, hits 0, 15.580 s
+PROGRESS biell 1974.h5 done, scanned 105196, funneled 10, hits 0, 15.620 s
+PROGRESS biell 2370.j6 done, scanned 105515, funneled 10, hits 0, 15.660 s
+PROGRESS biell 2730.w6 done, scanned 105834, funneled 10, hits 0, 15.700 s
+PROGRESS biell 4074.k6 done, scanned 106153, funneled 10, hits 0, 15.750 s
+PROGRESS biell 4080.ba1 done, scanned 106472, funneled 10, hits 0, 15.790 s
+PROGRESS biell 4305.f5 done, scanned 106791, funneled 10, hits 0, 15.830 s
+PROGRESS biell 4746.h4 done, scanned 107110, funneled 10, hits 0, 15.870 s
+PROGRESS biell 4794.c2 done, scanned 107429, funneled 10, hits 0, 15.910 s
+PROGRESS biell 4830.bj6 done, scanned 107748, funneled 10, hits 0, 15.950 s
+PROGRESS biell 5334.d4 done, scanned 108067, funneled 10, hits 0, 15.980 s
+PROGRESS biell 5712.o1 done, scanned 108386, funneled 10, hits 0, 16.030 s
+PROGRESS biell 6006.bb6 done, scanned 108705, funneled 10, hits 0, 16.070 s
+PROGRESS biell 6279.f2 done, scanned 109024, funneled 10, hits 0, 16.110 s
+PROGRESS biell 6510.bb5 done, scanned 109343, funneled 10, hits 0, 16.150 s
+PROGRESS biell 6510.r5 done, scanned 109662, funneled 10, hits 0, 16.200 s
+PROGRESS biell 7455.b4 done, scanned 109981, funneled 10, hits 0, 16.240 s
+PROGRESS biell 7755.e2 done, scanned 110300, funneled 10, hits 0, 16.290 s
+PROGRESS biell 7854.p5 done, scanned 110619, funneled 10, hits 0, 16.330 s
+PROGRESS biell 8778.q4 done, scanned 110938, funneled 10, hits 0, 16.380 s
+PROGRESS biell 8778.r5 done, scanned 111257, funneled 10, hits 0, 16.420 s
+PROGRESS biell 10416.ba3 done, scanned 111576, funneled 10, hits 0, 16.460 s
+PROGRESS biell 10626.p6 done, scanned 111895, funneled 10, hits 0, 16.500 s
+PROGRESS biell 13530.v4 done, scanned 112214, funneled 10, hits 0, 16.540 s
+PROGRESS biell 14790.bd5 done, scanned 112533, funneled 10, hits 0, 16.580 s
+PROGRESS biell 15330.bd4 done, scanned 112852, funneled 10, hits 0, 16.620 s
+PROGRESS biell 15834.s2 done, scanned 113171, funneled 10, hits 0, 16.660 s
+PROGRESS biell 16590.z2 done, scanned 113490, funneled 10, hits 0, 16.700 s
+PROGRESS biell 16863.a5 done, scanned 113809, funneled 10, hits 0, 16.740 s
+PROGRESS biell 18354.p6 done, scanned 114128, funneled 10, hits 0, 16.780 s
+PROGRESS biell 18480.bf1 done, scanned 114447, funneled 10, hits 0, 16.830 s
+PROGRESS biell 18480.cs6 done, scanned 114766, funneled 10, hits 0, 16.870 s
+PROGRESS biell 18480.cx3 done, scanned 115085, funneled 10, hits 0, 16.920 s
+PROGRESS biell 18690.l5 done, scanned 115404, funneled 10, hits 0, 16.960 s
+PROGRESS biell 19635.j7 done, scanned 115723, funneled 10, hits 0, 17.010 s
+PROGRESS biell 21840.cc6 done, scanned 116042, funneled 10, hits 0, 17.050 s
+PROGRESS biell 23430.i5 done, scanned 116361, funneled 10, hits 0, 17.090 s
+PROGRESS biell 28560.cc3 done, scanned 116680, funneled 10, hits 0, 17.140 s
+PROGRESS biell 28560.dq6 done, scanned 116999, funneled 10, hits 0, 17.190 s
+PROGRESS biell 28560.ds1 done, scanned 117318, funneled 10, hits 0, 17.230 s
+PROGRESS biell 28770.bu5 done, scanned 117637, funneled 10, hits 0, 17.270 s
+PROGRESS biell 29274.bj6 done, scanned 117956, funneled 10, hits 0, 17.310 s
+PROGRESS biell 32835.d4 done, scanned 118275, funneled 10, hits 0, 17.350 s
+PROGRESS biell 33915.e2 done, scanned 118594, funneled 10, hits 0, 17.390 s
+PROGRESS biell 34086.g6 done, scanned 118913, funneled 10, hits 0, 17.430 s
+PROGRESS biell 54.b2 done, scanned 119424, funneled 10, hits 0, 17.500 s
+PROGRESS biell 714.i3 done, scanned 119935, funneled 10, hits 0, 17.560 s
+PROGRESS biell 1482.j3 done, scanned 120446, funneled 10, hits 0, 17.630 s
+PROGRESS biell 1554.l2 done, scanned 120957, funneled 10, hits 0, 17.690 s
+PROGRESS biell 1890.x3 done, scanned 121468, funneled 10, hits 0, 17.770 s
+PROGRESS biell 6942.l2 done, scanned 121979, funneled 10, hits 0, 17.830 s
+PROGRESS biell 15810.u1 done, scanned 122490, funneled 10, hits 0, 17.900 s
+PROGRESS biell 17670.z3 done, scanned 123001, funneled 10, hits 0, 17.970 s
+PROGRESS biell 35910.by1 done, scanned 123512, funneled 10, hits 0, 18.050 s
+PROGRESS biell 60990.bh2 done, scanned 124023, funneled 10, hits 0, 18.120 s
+PROGRESS biell 83370.x2 done, scanned 124534, funneled 10, hits 0, 18.190 s
+PROGRESS biell 92910.bd2 done, scanned 125045, funneled 10, hits 0, 18.260 s
+PROGRESS biell 118698.f3 done, scanned 125556, funneled 10, hits 0, 18.320 s
+PROGRESS biell 122094.be2 done, scanned 126067, funneled 10, hits 0, 18.400 s
+PROGRESS biell 128226.s3 done, scanned 126578, funneled 10, hits 0, 18.480 s
+PROGRESS biell 129162.bf3 done, scanned 127089, funneled 10, hits 0, 18.550 s
+PROGRESS biell 143430.u2 done, scanned 127600, funneled 10, hits 0, 18.620 s
+PROGRESS biell 357378.l3 done, scanned 128111, funneled 10, hits 0, 18.690 s
+PROGRESS biell 402522.g1 done, scanned 128622, funneled 10, hits 0, 18.750 s
+PROGRESS biell 417690.cy3 done, scanned 129133, funneled 10, hits 0, 18.820 s
+SEARCH_DONE biell scanned 129133 funneled 10 hits 0 18.830 s

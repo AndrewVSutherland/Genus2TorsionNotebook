@@ -1,0 +1,21 @@
+LOCAL_SAMPLE p 7 b 3 w 1 r 2 c 4 ordE 10 ordD12 12 ordSum 60 Jorder 60
+LOCAL_COUNT p 7 raw 3 open 3 square_lifts 1 exact10 1 cyclic60_finite 1 samples 1
+M12_POINT10_COVARIANT_LOCAL_DONE
+LOCAL_SAMPLE p 11 b 9 w 1 r 6 c 3 ordE 10 ordD12 12 ordSum 60 Jorder 180
+LOCAL_SAMPLE p 11 b 10 w 10 r 9 c 1 ordE 10 ordD12 12 ordSum 60 Jorder 120
+LOCAL_COUNT p 11 raw 5 open 5 square_lifts 2 exact10 2 cyclic60_finite 2 samples 2
+M12_POINT10_COVARIANT_LOCAL_DONE
+LOCAL_SAMPLE p 13 b 11 w 4 r 6 c 9 ordE 10 ordD12 12 ordSum 60 Jorder 240
+LOCAL_COUNT p 13 raw 5 open 5 square_lifts 1 exact10 1 cyclic60_finite 1 samples 1
+M12_POINT10_COVARIANT_LOCAL_DONE
+LOCAL_SAMPLE p 17 b 4 w 8 r 9 c 8 ordE 10 ordD12 12 ordSum 60 Jorder 240
+LOCAL_SAMPLE p 17 b 10 w 7 r 11 c 4 ordE 10 ordD12 12 ordSum 60 Jorder 240
+LOCAL_SAMPLE p 17 b 13 w 6 r 13 c 5 ordE 10 ordD12 12 ordSum 60 Jorder 420
+LOCAL_COUNT p 17 raw 7 open 7 square_lifts 3 exact10 3 cyclic60_finite 3 samples 3
+M12_POINT10_COVARIANT_LOCAL_DONE
+LOCAL_SAMPLE p 19 b 2 w 8 r 9 c 5 ordE 10 ordD12 12 ordSum 60 Jorder 360
+LOCAL_SAMPLE p 19 b 4 w 9 r 15 c 1 ordE 10 ordD12 12 ordSum 60 Jorder 300
+LOCAL_SAMPLE p 19 b 8 w 12 r 4 c 17 ordE 10 ordD12 12 ordSum 60 Jorder 420
+LOCAL_SAMPLE p 19 b 9 w 9 r 3 c 6 ordE 10 ordD12 12 ordSum 60 Jorder 360
+LOCAL_COUNT p 19 raw 11 open 11 square_lifts 6 exact10 6 cyclic60_finite 6 samples 4
+M12_POINT10_COVARIANT_LOCAL_DONE

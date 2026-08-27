@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compact models for the torsion-realizations table</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #666; --line: #d8d8d8;
+    --accent: #0b5cad; --old-bg: #fff4f4; --new-bg: #f2fbf4; --code-bg: #f5f5f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --fg: #e4e4e4; --muted: #9a9a9a; --line: #3a3d42;
+      --accent: #6db3f2; --old-bg: #2a1d1d; --new-bg: #1b2a1e; --code-bg: #22252a;
+    }
+  }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.55 Georgia, 'Times New Roman', serif;
+         max-width: 62rem; margin: 2rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.6rem; line-height: 1.25; }
+  h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid var(--line); padding-bottom: .3rem; }
+  a { color: var(--accent); }
+  .sub { color: var(--muted); font-size: .95rem; }
+  code, .eq { font-family: 'SFMono-Regular', Consolas, Menlo, monospace; font-size: .84em;
+              background: var(--code-bg); padding: .08em .3em; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .93rem; }
+  th, td { border: 1px solid var(--line); padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: var(--code-bg); font-family: inherit; }
+  td.old { background: var(--old-bg); }
+  td.new { background: var(--new-bg); }
+  .eqcell { font-family: 'SFMono-Regular', Consolas, Menlo, monospace; font-size: .8rem;
+            word-break: break-word; background: none; padding: 0; }
+  .wrap { overflow-x: auto; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  .check { color: #2e7d32; font-weight: bold; }
+  @media (prefers-color-scheme: dark) { .check { color: #7bc97f; } }
+</style>
+</head>
+<body>
+<h1>Compact models for the torsion-realizations table</h1>
+<p class="sub">PR explainer &mdash; changes to <code>paper/torsion_realizations.tex</code>, 2026-07-23.
+Prompted by Ari Shnidman's suggestion for the [2,2,2,12] row, followed by a systematic audit of the
+remaining non-database rows.</p>
+
+<h2>1&nbsp;&middot;&nbsp;[2,2,2,12]: a new, nicer witness (different curve)</h2>
+<div class="wrap"><table>
+<tr><th></th><th>Equation</th></tr>
+<tr><td class="old">before</td><td class="old"><span class="eqcell">y&sup2;+(x&sup2;+1)y = 756900x&#8310;+737595570x&#8309;+150572203590x&#8308;&minus;15854483576121x&sup3;&minus;530648977741620x&sup2;+32014154874551031x+830742747091037849</span></td></tr>
+<tr><td class="new">after</td><td class="new"><span class="eqcell">y&sup2; = x(x&minus;120&sup2;)(x&minus;143&sup2;)(x&minus;266&sup2;)(x&minus;218&sup2;)(x&minus;241&sup2;)</span></td></tr>
+</table></div>
+<p>All six Weierstrass x-coordinates are perfect squares, so the full rational 2-torsion
+(Z/2)&#8308; &sub; J[2] is visible at a glance; among the square roots,
+218&sup2;&minus;120&sup2; = 182&sup2; and 241&sup2;&minus;120&sup2; = 209&sup2; (Pythagorean triples), and
+218&sup2;&minus;143&sup2; = 3&middot;95&sup2;, 266&sup2;&minus;241&sup2; = 3&middot;65&sup2; feed the 4- and 3-parts of the Z/12 factor.</p>
+<p><strong>This is not a remodel:</strong> the new curve has different G2 invariants (not a twist of the old
+witness) and its Euler factors differ at the good prime 37 (not <b>Q</b>-isogenous); it is absent from the
+old curve's Richelot-BFS tree. It was therefore verified from scratch:</p>
+<ul>
+<li><span class="check">&#10003;</span> exact torsion <code>[2, 2, 2, 12]</code>, order 96
+    (<code>TorsionSubgroup</code> on the reduced minimal model);</li>
+<li><span class="check">&#10003;</span> End(Jac<sub>Q&#772;</sub>) = <b>Z</b> certificate: root-power prime
+    p&#8320; = 71 (&chi; = x&#8308;&minus;8x&sup3;+46x&sup2;&minus;568x+5041, irreducible, all root powers
+    &pi;&#8319; of degree 4 for n &le; 12 &rArr; geometrically simple); disjoint prime q&#8320; = 103
+    &rArr; centre of End&#8304; is <b>Q</b> (no RM/CM); #tors = 96 &gt; 18 &rArr; no QM (LSSV 2024);</li>
+<li>recorded in <code>notes/ari_22212_split_model_2026_07_23.md</code>;
+    <code>data/claude_endz_certificates.txt</code> regenerated.</li>
+</ul>
+
+<h2>2&nbsp;&middot;&nbsp;Six rows rewritten &mdash; same curves, compact factored form</h2>
+<p>Two kinds of rewrite, all <em>exact identities verified in Magma</em>:
+(a)&nbsp;<em>re-typesetting</em> &mdash; the identical polynomial with its perfect-square roots displayed;
+(b)&nbsp;<em>completed square</em> &mdash; a row shown as y&sup2;+h(x)y = f&#8320; is re-displayed as the
+isomorphic model Y&sup2; = h&sup2;+4f&#8320; (Y = 2y+h), which factors compactly and makes the 2-rank
+visible from the factor type.</p>
+<div class="wrap"><table>
+<tr><th>Group</th><th>Before</th><th>After</th><th>Kind / what it shows</th></tr>
+<tr><td>[6,6]</td>
+    <td class="old"><span class="eqcell">y&sup2; = 1872x&#8309;&minus;3000x&#8308;+6969x&sup3;&minus;1691x&sup2;+4875x</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = x(39x&sup2;&minus;69x+125)(48x&sup2;+8x+39)</span></td>
+    <td>same-model factorization; [1,2,2] quintic type &rArr; 2-rank 2</td></tr>
+<tr><td>[2,2,14]</td>
+    <td class="old"><span class="eqcell">y&sup2;+(x&sup2;+x)y = 9x&#8310;&minus;1005x&#8309;+24243x&#8308;+304602x&sup3;&minus;4244115x&sup2;&minus;42264735x&minus;37741275</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = (x+1)(x+9)(2x&minus;115)(6x+55)(3x&sup2;&minus;220x+2652)</span></td>
+    <td>completed square; [1,1,1,1,2] type &rArr; 2-rank 3</td></tr>
+<tr><td>[2,2,20]</td>
+    <td class="old"><span class="eqcell">y&sup2;+(x&sup2;+x)y = &minus;391671x&#8310;+1894851x&#8309;+6846924x&#8308;&minus;15133525x&sup3;+3904068x&sup2;+2625336x+254016</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = &minus;(x&minus;1)(6x+1)(2x+7)(6217x+1008)(21x&sup2;&minus;161x+144)</span></td>
+    <td>completed square; [1,1,1,1,2] type &rArr; 2-rank 3</td></tr>
+<tr><td>[2,4,8]</td>
+    <td class="old"><span class="eqcell">y&sup2;+(x&sup2;+x)y = 60x&#8309;+3982x&#8308;+1100x&sup3;+130682x&sup2;&minus;239760x</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = x(3x&minus;5)(5x+333)(16x&sup2;+23x+576)</span></td>
+    <td>completed square; [1,1,1,2] quintic type &rArr; 2-rank 3</td></tr>
+<tr><td>[2,2,2,8]</td>
+    <td class="old"><span class="eqcell">y&sup2; = x(x+1)(x+3025)(x+9801)(x+15625)</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = x(x+1)(x+55&sup2;)(x+99&sup2;)(x+125&sup2;)</span></td>
+    <td>re-typeset (identical polynomial); 125&sup2; = 5&#8310;</td></tr>
+<tr><td>[2,2,4,4]</td>
+    <td class="old"><span class="eqcell">y&sup2; = x(x+1296)(x+3249)(x+4096)(x+17424)</span></td>
+    <td class="new"><span class="eqcell">y&sup2; = x(x+36&sup2;)(x+57&sup2;)(x+64&sup2;)(x+132&sup2;)</span></td>
+    <td>re-typeset (identical polynomial); differences 7&middot;square: 64&sup2;&minus;57&sup2; = 7&middot;11&sup2;, 64&sup2;&minus;36&sup2; = 7&middot;20&sup2;, 132&sup2;&minus;57&sup2; = 7&middot;45&sup2;, 132&sup2;&minus;36&sup2; = 7&middot;48&sup2;</td></tr>
+</table></div>
+<p>Left untouched: [2,4,4] (author decision), [2,2,2,10] (already Elkies's compact form), and every
+LMFDB-linked row &mdash; the paper's conventions paragraph declares those equations the stable identifiers.</p>
+
+<h2>3&nbsp;&middot;&nbsp;Verification chain</h2>
+<ul>
+<li>Every rewrite checked as an <em>exact polynomial identity</em> in Magma before editing.</li>
+<li>The certificate generator <code>code/claude_endz_certificates.m</code> was rewritten in the same factored
+forms and rerun: <code>data/claude_endz_certificates.txt</code> came out <strong>byte-identical</strong> &mdash;
+simultaneously confirming the identities, ruling out transcription typos, and showing no certificate is
+affected (the cross-term rows' certificates were already computed on their completed squares).</li>
+<li>PDF rebuilt cleanly (4 pages): <a href="../../paper/torsion_realizations.pdf">torsion_realizations.pdf</a>.</li>
+<li>Audit trail: <code>notes/ari_22212_split_model_2026_07_23.md</code>,
+<code>notes/claude_table_row_rewrites_2026_07_23.md</code>,
+<code>results/claude_endz_certificates_regen_20260723.log</code> / <code>&hellip;_20260723b.log</code>.</li>
+</ul>
+</body>
+</html>

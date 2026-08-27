@@ -1,0 +1,13 @@
+WSPLIT_CONTACT_P_RESULTANTS
+Delta 2
+slices FixU=free FixBeta=free FixTRatio=free
+variables: r,p,t,beta,U,M; p is eliminated by Resultant(W,residual,p)
+ wsplit sliced total_degree=9 terms=28 degree_p=2
+ residual_c2 sliced total_degree=17 terms=564 degree_p=4
+ residual_c1 sliced total_degree=21 terms=1381 degree_p=5
+ residual_c0 sliced total_degree=26 terms=2848 degree_p=6
+ resultant_residual_c2 total_degree=54 terms=50518
+ resultant_residual_c1 total_degree=67 terms=142293
+ resultant_residual_c0 total_degree=82 terms=343862
+ common_gcd total_degree=2 terms=1
+p_resultants_done

@@ -1,0 +1,5 @@
+Reduced [8,8] exact search
+height 5 params 39 pairs 1521 max_hits 3 progress_interval 0
+DONE height 5
+checked 1521 open_good 1288 first_bases 72 first_solutions 288 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

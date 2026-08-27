@@ -1,0 +1,17 @@
+p = 7 : residues x with a root in the fibre : 4/7
+p = 11 : residues x with a root in the fibre : 9/11
+p = 13 : residues x with a root in the fibre : 6/13
+p = 17 : residues x with a root in the fibre : 12/17
+p = 23 : residues x with a root in the fibre : 15/23
+p = 29 : residues x with a root in the fibre : 18/29
+p = 31 : residues x with a root in the fibre : 12/31
+p = 37 : residues x with a root in the fibre : 14/37
+p = 41 : residues x with a root in the fibre : 23/41
+p = 43 : residues x with a root in the fibre : 17/43
+p = 47 : residues x with a root in the fibre : 33/47
+p = 53 : residues x with a root in the fibre : 28/53
+HIT x0 = 0  y = [0]~
+scanned 121589943 coprime pairs with max(|a|,|b|) <= 10000
+survived the 12-prime prefilter: 136674
+x0 with a rational point in the fibre: 1
+PTSCAN_DONE

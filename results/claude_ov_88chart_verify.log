@@ -1,0 +1,11 @@
+=== TEST 1: chart identity  eta^2 = s^2 + (1-t^2)(t^2-beta^2), u = eta/(s*beta) ===
+TEST1 members=175 identity_ok=175
+=== TEST 2: the two stage-1 x-T criteria vs exact Magma torsion on J2 ===
+TEST2 members=235 agree_0a=235 agree_coo=235
+=== TEST 3: production chart (m,n,p,w) -> member, vs recorded double-stage-1 ===
+  (m,n,v)=(3,1/3,-729/17500): beta=124405/77043  t^2-beta^2=112360000/659513761 square=true  p^2=400/25281 p_rational=true  quartic(**)_square=true
+  (m,n,v)=(3,1/3,26244/7975): beta=124405/77043  t^2-beta^2=112360000/659513761 square=true  p^2=400/25281 p_rational=true  quartic(**)_square=true
+  (m,n,v)=(3,1/3,729/38425): beta=129/193  t^2-beta^2=781456/335241 square=true  p^2=289/676 p_rational=true  quartic(**)_square=true
+  (m,n,v)=(2,1,1): beta=409939282875/459975843076  t^2-beta^2=10158753730593031782400/13223611013342311071361 square=false
+  (m,n,v)=(2,1,-1): beta=5465857105/218227572  t^2-beta^2=-1862573907995852800/2976454573813449 square=false
+CHART_VERIFY_DONE

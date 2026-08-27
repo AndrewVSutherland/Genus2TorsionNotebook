@@ -1,0 +1,220 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\DeclareMathOperator{Jac}{Jac}
+
+\begin{document}
+
+\title{A Half of the Divisor $P_a+P_b-2\infty$ on a Genus Two Curve}
+\author{}
+\date{}
+\maketitle
+
+\section{Computation}This was done with GPT 5.5 Thinking.
+
+\begin{lemma}[Quoted form of Lemma~\textup{(b)}]\label{lem:2244b}
+Let
+\[
+X:\quad y^2=x(x+A)(x+B)(x+C)(x+D)
+\]
+be a genus two curve with $A=a^2$, $B=b^2$, $C=c^2$, and $D=d^2$ squares. Let $s_i$ denote the $i$-th elementary symmetric polynomial in $a,b,c,d$. Then
+\[
+P_0=(0,0)-\infty
+\]
+is divisible by $2$ in $\Jac(X)$, and one half is represented by
+\[
+\left[
+ x^2-s_2x+s_4,
+ (s_1s_2-s_3)x-s_1s_4
+\right].
+\]
+\end{lemma}
+
+\begin{proposition}\label{prop:half-Pa-Pb}
+Let
+\[
+C:\quad y^2=x(x+a^2)(x+b^2)(x+c^2)(x+d^2)
+\]
+be a nonsingular genus two curve. Suppose that
+\[
+\begin{aligned}
+u^2&=(a^2-c^2)(a^2-d^2),&
+ v^2&=(b^2-c^2)(b^2-d^2),\\
+w^2&=(a^2-c^2)(b^2-c^2),&
+ t^2&=(a^2-d^2)(b^2-d^2),
+\end{aligned}
+\]
+with $uv=wt$. Put
+\[
+A=a^2,\qquad B=b^2,\qquad C_0=c^2,\qquad D_0=d^2,
+\]
+and define
+\[
+p=\frac{a}{b},\qquad
+r=\frac{A-C_0}{w},\qquad
+s=\frac{A-D_0}{t}.
+\]
+Then
+\[
+r^2=\frac{A-C_0}{B-C_0},\qquad
+s^2=\frac{A-D_0}{B-D_0},\qquad
+rs=\frac{u}{v}.
+\]
+Let $\sigma_i$ denote the $i$-th elementary symmetric polynomial in
+\[
+1,\ p,\ r,\ s.
+\]
+Thus
+\[
+\begin{aligned}
+\sigma_1&=1+p+r+s,\\
+\sigma_2&=p+r+s+pr+ps+rs,\\
+\sigma_3&=pr+ps+rs+prs,\\
+\sigma_4&=prs=\frac{au}{bv}.
+\end{aligned}
+\]
+Set
+\[
+\Delta=1+\sigma_2+\sigma_4=(1+p)(1+r)(1+s).
+\]
+Let
+\[
+P_a=(-a^2,0),\qquad P_b=(-b^2,0),
+\]
+and
+\[
+D=P_a+P_b-2\infty.
+\]
+Then $D$ is divisible by $2$ in $J(\mathbb Q)$, where $J=\Jac(C)$.
+More precisely, one divisor class $D'$ satisfying
+\[
+2D'\sim D
+\]
+has Mumford representation
+\[
+D'=[U(x),V(x)],
+\]
+where
+\[
+U(x)=
+\frac{(x+A)^2+\sigma_2(x+A)(x+B)+\sigma_4(x+B)^2}{\Delta},
+\]
+and $V(x)$ is the remainder modulo $U(x)$ of the cubic polynomial
+\[
+\frac{bv}{(A-B)^2}(x+B)^2
+\left(
+-\bigl(\sigma_1\sigma_2-\sigma_3\bigr)(x+A)
+-\sigma_1\sigma_4(x+B)
+\right).
+\]
+Equivalently,
+\[
+V(x)\equiv
+\frac{bv}{(A-B)^2}(x+B)^2
+\left(
+-\bigl(\sigma_1\sigma_2-\sigma_3\bigr)(x+A)
+-\sigma_1\sigma_4(x+B)
+\right)
+\pmod{U(x)},
+\]
+with $\deg V<2$.
+\end{proposition}
+
+\begin{proof}
+Consider the change of variables
+\[
+X=-\frac{x+A}{x+B},\qquad
+Y=\frac{(A-B)^2}{bv(x+B)^3}y.
+\]
+A direct calculation gives
+\[
+Y^2=X(X+1)(X+p^2)(X+r^2)(X+s^2).
+\]
+Indeed,
+\[
+r^2=\frac{A-C_0}{B-C_0},\qquad
+s^2=\frac{A-D_0}{B-D_0},
+\]
+and the normalization of $Y$ uses
+\[
+v^2=(B-C_0)(B-D_0).
+\]
+Under this transformation, $P_a=(-A,0)$ maps to $(0,0)$, while
+$P_b=(-B,0)$ maps to infinity. Hence the class $P_a-P_b$ on $C$ maps to
+$P_0=(0,0)-\infty$ on the transformed curve. Since $2(P_b-\infty)=0$, we have
+\[
+P_a-P_b\sim P_a+P_b-2\infty.
+\]
+
+Applying Lemma~\ref{lem:2244b} to
+\[
+Y^2=X(X+1)(X+p^2)(X+r^2)(X+s^2),
+\]
+with square roots $1,p,r,s$, we find that one half of $P_0$ has Mumford representation
+\[
+[U_X(X),V_X(X)],
+\]
+where
+\[
+U_X(X)=X^2-\sigma_2X+\sigma_4
+\]
+and
+\[
+V_X(X)=(\sigma_1\sigma_2-\sigma_3)X-\sigma_1\sigma_4.
+\]
+
+We now pull this divisor back to the original $x$-coordinate. Since
+\[
+X=-\frac{x+A}{x+B},
+\]
+the equation $U_X(X)=0$ becomes
+\[
+0=U_X\!\left(-\frac{x+A}{x+B}\right)
+=\frac{(x+A)^2+\sigma_2(x+A)(x+B)+\sigma_4(x+B)^2}{(x+B)^2}.
+\]
+The numerator has leading coefficient
+\[
+1+\sigma_2+\sigma_4=\Delta,
+\]
+so the normalized monic polynomial is
+\[
+U(x)=
+\frac{(x+A)^2+\sigma_2(x+A)(x+B)+\sigma_4(x+B)^2}{\Delta}.
+\]
+
+Similarly, the relation $Y=V_X(X)$ gives
+\[
+\frac{(A-B)^2}{bv(x+B)^3}y
+=V_X\!\left(-\frac{x+A}{x+B}\right).
+\]
+Therefore
+\[
+y=
+\frac{bv(x+B)^3}{(A-B)^2}
+V_X\!\left(-\frac{x+A}{x+B}\right),
+\]
+and hence
+\[
+y=
+\frac{bv}{(A-B)^2}(x+B)^2
+\left(
+-\bigl(\sigma_1\sigma_2-\sigma_3\bigr)(x+A)
+-\sigma_1\sigma_4(x+B)
+\right).
+\]
+The Mumford representative requires the second coordinate to have degree less than
+$2$, so $V(x)$ is obtained by reducing this cubic polynomial modulo $U(x)$.
+Thus $[U(x),V(x)]$ is the pullback of a half of $P_0$, and consequently
+\[
+2[U,V]\sim P_a+P_b-2\infty.
+\]
+This proves the claim.
+\end{proof}
+
+\end{document}

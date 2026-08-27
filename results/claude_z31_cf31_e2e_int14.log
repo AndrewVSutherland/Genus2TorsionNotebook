@@ -1,0 +1,11 @@
+SWEEP target=14 H=9 int #slice-coords=19 shard=[0,19) slices=6859 nprimes=4 101 103 107 109 M=1.213e+08 recbound=100 chkP=113 threads=32
+PROGRESS slices=2000/6859 cand=0  1.9 s  (1067.60 slices/s)
+PROGRESS slices=4000/6859 cand=0  3.6 s  (1103.91 slices/s)
+CAND c4=6/1 c3=-4/1 c2=9/1 c1=-4/1 c0=4/1 conf=1
+CAND c4=6/1 c3=4/1 c2=9/1 c1=4/1 c0=4/1 conf=1
+PROGRESS slices=6000/6859 cand=0  5.4 s  (1104.36 slices/s)
+SWEEP_DONE H=9 shard=[0,19) slices=6859 skipped=0 tuples=8832 cand=2 conf=2 overflow=0  6.2 s  (0.029 s/slice avg)
+SWEEP_FIBSTAT p=101 fibers=6859 empty=2601 (37.9%) avg_size=0.988
+SWEEP_FIBSTAT p=103 fibers=4258 empty=1556 (36.5%) avg_size=1.037
+SWEEP_FIBSTAT p=107 fibers=2702 empty=921 (34.1%) avg_size=1.012
+SWEEP_FIBSTAT p=109 fibers=1781 empty=678 (38.1%) avg_size=0.970

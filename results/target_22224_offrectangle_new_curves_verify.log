@@ -1,0 +1,20 @@
+OFFRECTANGLE_NEW_CURVES_VERIFY_START rows 6 HeightCap 1000000000000000000
+EXACT_NEW_POINT P2 tuple [ 69780688487820, 1325833081268580, 2946719342448225, 3981345244907824 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation false simple true certificate_prime 89 chi 7921*t^4 + 356*t^3 - 90*t^2 + 4*t + 1
+EXACT_NEW_POINT P2 tuple [ 87225860609775, 117851829446096, 261930608217620, 4976681556134780 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation false simple true certificate_prime 89 chi 7921*t^4 + 356*t^3 - 90*t^2 + 4*t + 1
+EXACT_NEW_POINT P5 tuple [ 3795310132322, 4664593520206, 29610028432612, 3186162856084319 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation true simple true certificate_prime 97 chi 9409*t^4 + 776*t^3 + 46*t^2 + 8*t + 1
+EXACT_NEW_POINT P5 tuple [ 405616827844, 43646066521703, 277057639659506, 340515326975038 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation true simple true certificate_prime 97 chi 9409*t^4 + 776*t^3 + 46*t^2 + 8*t + 1
+EXACT_NEW_POINT P7 tuple [ 42539545655911, 150582462498800, 662625094557200, 74876635684963600 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation false simple true certificate_prime 67 chi 4489*t^4 - 804*t^3 + 102*t^2 - 12*t + 1
+EXACT_NEW_POINT P7 tuple [ 376456156247, 42539545655911, 187191589212409, 662625094557200 ]
+torsion [ 2, 2, 2, 8 ]
+positive_signed_presentation false simple true certificate_prime 67 chi 4489*t^4 - 804*t^3 + 102*t^2 - 12*t + 1
+OFFRECTANGLE_NEW_CURVES_VERIFY_DONE rows 6

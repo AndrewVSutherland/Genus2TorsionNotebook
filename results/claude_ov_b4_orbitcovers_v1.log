@@ -1,0 +1,34 @@
+=== (a) the (6,2) component E = 92.a1 -> t-line ===
+t on E92 has DEGREE 9 (as a map E92 -> P^1)
+  genus of E92 function field: 1
+t on the (4,3) component (w-line) has DEGREE 6
+
+=== (b) the two orbit covers of the t-line ===
+Gal = S3wrC2 of order 72
+orbit sizes [ 6, 9 ]
+orbit sizes on the 15 PAIRS (= incidence-variety components): [ 6, 9 ]
+
+ORBIT SIZE 9 : stabiliser order 8 (index 9), D4
+  partition: {
+{ 2, 6 },
+{ 1, 4 },
+{ 3, 5 }
+}
+  DEFINING POLYNOMIAL of the cover (degree 9):
+    Y^9 - 12*Y^8 + (2*u + 68)*Y^7 + (-16*u - 238)*Y^6 + (u^2 + 52*u + 564)*Y^5 + (-4*u^2 - 90*u - 932)*Y^4 + (92*u + 1065)*Y^3 + (-48*u - 804)*Y^2 + (-4*u + 360)*Y + 16*u - 72
+  irreducible over Q(t): true
+  GENUS of the cover = 1
+  constant field = Rational Field
+
+ORBIT SIZE 6 : stabiliser order 12 (index 6), D6
+  partition: {
+{ 2, 5 },
+{ 3, 4 },
+{ 1, 6 }
+}
+  DEFINING POLYNOMIAL of the cover (degree 6):
+    Y^6 + (-8*u - 8)*Y^5 + (24*u^2 + 16)*Y^4 + (-32*u^3 + 192*u^2 + 160*u + 24)*Y^3 + (16*u^4 - 512*u^3 - 256*u^2 - 224*u - 96)*Y^2 + (384*u^4 - 1408*u^3 - 416*u^2 - 384*u)*Y + 2304*u^4 + 1280*u^3 - 5504*u^2 + 2048*u
+  irreducible over Q(t): true
+  GENUS of the cover = 2
+  constant field = Rational Field
+ORBITCOVERS_DONE

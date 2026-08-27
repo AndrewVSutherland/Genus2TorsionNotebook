@@ -1,0 +1,9 @@
+QCover modular multiplication diagnostic p=5
+coefficient_field=Fraction Field of Univariate Polynomial Ring in t over Finite Field of size 5
+equation_summaries=[(4, 11), (5, 21), (6, 33)]
+raw_dimension=1
+boundary_quotient_iteration=1 dimension=1
+boundary_quotient_iteration=2 dimension=0
+grevlex_basis_count=14
+quotient_degree=40
+normal_basis_degree_profile=[0, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5]

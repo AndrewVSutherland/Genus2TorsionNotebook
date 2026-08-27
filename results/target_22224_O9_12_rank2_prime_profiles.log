@@ -1,0 +1,49 @@
+P8_RANK2_MWSIEVE_START family O9_12 quotient <1, 2> N 0 primes [ 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+E Elliptic Curve defined by y^2 = x^3 + x^2 - 15500*x + 200430 over Rational Field
+rank_bounds 2 2 generators [ (-131 : 0 : 1), (193 : 2106 : 1), (13 : 36 : 1) ]
+known_t 15
+P8_PRIME_PROFILE p 13 orders 2 4 total 16 third_fail 12 open_no3 0 open_3 0 boundary 4 allowed 4
+P8_PRIME_PROFILE p 17 orders 10 5 total 100 third_fail 0 open_no3 30 open_3 30 boundary 40 allowed 70
+P8_PRIME_PROFILE p 19 orders 4 6 total 48 third_fail 12 open_no3 0 open_3 28 boundary 8 allowed 36
+P8_PRIME_PROFILE p 23 orders 16 16 total 512 third_fail 128 open_no3 128 open_3 64 boundary 192 allowed 256
+P8_PRIME_PROFILE p 29 orders 9 9 total 162 third_fail 36 open_no3 90 open_3 0 boundary 36 allowed 36
+P8_PRIME_PROFILE p 31 orders 10 10 total 200 third_fail 40 open_no3 60 open_3 0 boundary 100 allowed 100
+P8_PRIME_PROFILE p 37 orders 20 4 total 160 third_fail 72 open_no3 24 open_3 32 boundary 32 allowed 64
+P8_PRIME_PROFILE p 41 orders 20 10 total 400 third_fail 160 open_no3 160 open_3 40 boundary 40 allowed 80
+P8_PRIME_PROFILE p 43 orders 13 26 total 676 third_fail 104 open_no3 208 open_3 156 boundary 208 allowed 364
+P8_PRIME_PROFILE p 47 orders 14 14 total 392 third_fail 224 open_no3 98 open_3 42 boundary 28 allowed 70
+P8_PRIME_PROFILE p 53 orders 34 17 total 1156 third_fail 544 open_no3 204 open_3 272 boundary 136 allowed 408
+P8_PRIME_PROFILE p 59 orders 7 28 total 392 third_fail 112 open_no3 210 open_3 42 boundary 28 allowed 70
+P8_PRIME_PROFILE p 61 orders 13 26 total 676 third_fail 208 open_no3 286 open_3 78 boundary 104 allowed 182
+P8_PRIME_PROFILE p 67 orders 8 16 total 256 third_fail 128 open_no3 24 open_3 56 boundary 48 allowed 104
+P8_PRIME_PROFILE p 71 orders 34 34 total 2312 third_fail 748 open_no3 816 open_3 204 boundary 544 allowed 748
+P8_PRIME_PROFILE p 73 orders 42 7 total 588 third_fail 266 open_no3 210 open_3 56 boundary 56 allowed 112
+P8_PRIME_PROFILE p 79 orders 18 12 total 432 third_fail 132 open_no3 132 open_3 96 boundary 72 allowed 168
+P8_PRIME_PROFILE p 83 orders 40 40 total 3200 third_fail 960 open_no3 640 open_3 1120 boundary 480 allowed 1600
+P8_PRIME_PROFILE p 89 orders 23 23 total 1058 third_fail 299 open_no3 529 open_3 92 boundary 138 allowed 230
+P8_PRIME_PROFILE p 97 orders 29 58 total 3364 third_fail 1160 open_no3 406 open_3 1334 boundary 464 allowed 1798
+P8_PRIME_PROFILE p 101 orders 26 13 total 676 third_fail 182 open_no3 104 open_3 286 boundary 104 allowed 390
+P8_PRIME_PROFILE p 103 orders 6 4 total 48 third_fail 14 open_no3 8 open_3 22 boundary 4 allowed 26
+P8_PRIME_PROFILE p 107 orders 28 28 total 1568 third_fail 280 open_no3 224 open_3 840 boundary 224 allowed 1064
+P8_PRIME_PROFILE p 109 orders 26 52 total 2704 third_fail 832 open_no3 1248 open_3 520 boundary 104 allowed 624
+P8_PRIME_PROFILE p 113 orders 27 18 total 972 third_fail 360 open_no3 342 open_3 126 boundary 144 allowed 270
+P8_PRIME_PROFILE p 127 orders 17 17 total 578 third_fail 153 open_no3 204 open_3 187 boundary 34 allowed 221
+P8_PRIME_PROFILE p 131 orders 72 36 total 5184 third_fail 2592 open_no3 1656 open_3 792 boundary 144 allowed 936
+P8_PRIME_PROFILE p 137 orders 37 74 total 5476 third_fail 2664 open_no3 1406 open_3 814 boundary 592 allowed 1406
+P8_PRIME_PROFILE p 139 orders 76 38 total 5776 third_fail 2432 open_no3 2052 open_3 1140 boundary 152 allowed 1292
+P8_PRIME_PROFILE p 149 orders 39 39 total 3042 third_fail 1053 open_no3 1092 open_3 741 boundary 156 allowed 897
+P8_PRIME_PROFILE p 151 orders 9 8 total 144 third_fail 78 open_no3 32 open_3 22 boundary 12 allowed 34
+P8_PRIME_PROFILE p 157 orders 37 74 total 5476 third_fail 3182 open_no3 1110 open_3 888 boundary 296 allowed 1184
+P8_PRIME_PROFILE p 163 orders 7 14 total 196 third_fail 56 open_no3 28 open_3 70 boundary 42 allowed 112
+P8_PRIME_PROFILE p 167 orders 39 78 total 6084 third_fail 2418 open_no3 2106 open_3 936 boundary 624 allowed 1560
+P8_PRIME_PROFILE p 173 orders 24 24 total 1152 third_fail 648 open_no3 192 open_3 168 boundary 144 allowed 312
+P8_PRIME_PROFILE p 179 orders 8 48 total 768 third_fail 496 open_no3 176 open_3 64 boundary 32 allowed 96
+P8_PRIME_PROFILE p 181 orders 42 42 total 3528 third_fail 1470 open_no3 1302 open_3 504 boundary 252 allowed 756
+P8_PRIME_PROFILE p 191 orders 98 98 total 19208 third_fail 10192 open_no3 3724 open_3 3724 boundary 1568 allowed 5292
+P8_PRIME_PROFILE p 193 orders 52 13 total 1352 third_fail 598 open_no3 416 open_3 182 boundary 156 allowed 338
+P8_PRIME_PROFILE p 197 orders 11 110 total 2420 third_fail 1144 open_no3 770 open_3 330 boundary 176 allowed 506
+P8_PRIME_PROFILE p 199 orders 3 6 total 36 third_fail 16 open_no3 6 open_3 8 boundary 6 allowed 14
+P8_CRT_CLASSES count 2
+[ <1, 0, 1, 0, 1>, <2, 0, 1, 0, 1> ]
+
+User error: syntax error at end of input

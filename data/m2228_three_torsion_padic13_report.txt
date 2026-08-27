@@ -1,0 +1,85 @@
+Normalized 13-adic boundary analysis for M(2,2,2,8) plus 3-torsion
+mod13_solutions 3264
+
+Base boundary signatures among mod-13 cover solutions:
+  ('Z1',): 720
+  ('Z2',): 720
+  ('Z3',): 720
+  ('Z4',): 720
+  ('Z1', 'Z2', 'Z3', 'E12', 'E13', 'E23'): 24
+  ('Z1', 'Z2', 'Z4', 'E12', 'E14', 'E24'): 24
+  ('Z1', 'Z3', 'Z4', 'E13', 'E14', 'E34'): 24
+  ('Z1', 'E23'): 24
+  ('Z1', 'E24'): 24
+  ('Z1', 'E34'): 24
+  ('Z2', 'Z3', 'Z4', 'E23', 'E24', 'E34'): 24
+  ('Z2', 'E13'): 24
+  ('Z2', 'E14'): 24
+  ('Z2', 'E34'): 24
+  ('Z3', 'E12'): 24
+  ('Z4', 'E12'): 24
+  ('Z3', 'E14'): 24
+  ('Z4', 'E13'): 24
+  ('Z3', 'E24'): 24
+  ('Z4', 'E23'): 24
+
+Cover boundary flags by base signature:
+  ('Z1',) | ('v=0', 'e4=0', 'gcd(q,f)'): 576
+  ('Z2',) | ('v=0', 'e4=0', 'gcd(q,f)'): 576
+  ('Z3',) | ('v=0', 'e4=0', 'gcd(q,f)'): 576
+  ('Z4',) | ('v=0', 'e4=0', 'gcd(q,f)'): 576
+  ('Z1',) | ('e4=0', 'gcd(q,f)'): 144
+  ('Z2',) | ('e4=0', 'gcd(q,f)'): 144
+  ('Z3',) | ('e4=0', 'gcd(q,f)'): 144
+  ('Z4',) | ('e4=0', 'gcd(q,f)'): 144
+  ('Z1', 'Z2', 'Z3', 'E12', 'E13', 'E23') | ('e4=0',): 24
+  ('Z1', 'Z2', 'Z4', 'E12', 'E14', 'E24') | ('e4=0',): 24
+  ('Z1', 'Z3', 'Z4', 'E13', 'E14', 'E34') | ('e4=0',): 24
+  ('Z1', 'E23') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z1', 'E24') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z1', 'E34') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z2', 'Z3', 'Z4', 'E23', 'E24', 'E34') | ('e4=0',): 24
+  ('Z2', 'E13') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z2', 'E14') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z2', 'E34') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z3', 'E12') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z4', 'E12') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z3', 'E14') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z4', 'E13') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z3', 'E24') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+  ('Z4', 'E23') | ('v=0', 'e4=0', 'gcd(q,f)'): 24
+
+p2_lift_summary {'has_p2_lift': 3264, 'can_make_zero_coords_exact1': 96, 'can_satisfy_all_first_order': 96, 'can_make_v_exact1': 2592}
+p2_lift_dimensions {4: 2688, 3: 576}
+
+First-order behavior by base signature:
+  ('Z1',): {'has_p2_lift': 720, 'can_make_v_exact1': 576} example=None
+  ('Z2',): {'has_p2_lift': 720, 'can_make_v_exact1': 576} example=None
+  ('Z3',): {'has_p2_lift': 720, 'can_make_v_exact1': 576} example=None
+  ('Z4',): {'has_p2_lift': 720, 'can_make_v_exact1': 576} example=None
+  ('Z1', 'E23'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z1', 'E24'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z1', 'E34'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z1', 'Z2', 'Z3', 'E12', 'E13', 'E23'): {'has_p2_lift': 24, 'can_make_zero_coords_exact1': 24, 'can_satisfy_all_first_order': 24} example=(0, 0, 0, 1, 6, 12, 10)
+  ('Z1', 'Z2', 'Z4', 'E12', 'E14', 'E24'): {'has_p2_lift': 24, 'can_make_zero_coords_exact1': 24, 'can_satisfy_all_first_order': 24} example=(0, 0, 1, 0, 6, 12, 10)
+  ('Z1', 'Z3', 'Z4', 'E13', 'E14', 'E34'): {'has_p2_lift': 24, 'can_make_zero_coords_exact1': 24, 'can_satisfy_all_first_order': 24} example=(0, 1, 0, 0, 6, 12, 10)
+  ('Z2', 'E13'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z2', 'E14'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z2', 'E34'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z2', 'Z3', 'Z4', 'E23', 'E24', 'E34'): {'has_p2_lift': 24, 'can_make_zero_coords_exact1': 24, 'can_satisfy_all_first_order': 24} example=(1, 0, 0, 0, 6, 12, 10)
+  ('Z3', 'E12'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z3', 'E14'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z3', 'E24'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z4', 'E12'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z4', 'E13'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+  ('Z4', 'E23'): {'has_p2_lift': 24, 'can_make_v_exact1': 24} example=None
+
+Interpretation:
+  Pure collision signatures Eij have no mod-13 cover solutions.
+  The cover only appears above zero-boundary signatures.
+  Simple-zero charts Zi and mixed Zi+Ejk charts lift to 13^2,
+  but their zero coordinate is forced to remain zero modulo 13^2.
+  The only first-order live charts are the four triple-zero/one-unit
+  charts: Z1Z2Z3, Z1Z2Z4, Z1Z3Z4, Z2Z3Z4.
+  These charts have representatives where all zero coordinates acquire
+  nonzero first coefficients modulo 13^2.

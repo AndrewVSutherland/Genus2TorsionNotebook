@@ -1,0 +1,32 @@
+CONTACT6_M612_TB_CORE_SEARCH -- HEIGHT 30 SUMMARY
+
+Command:
+  magma -b height:=30 prime_bound:=31 progress_interval:=100000 \
+    code/contact6_m612_tb_core_search.m
+
+The search fixes rational (s,r), solves the irreducible cubic H(s,r,K),
+requires K to be a rational square, recovers (a,b), and on every smooth
+T_B-halved curve solves the exact cubic-contact core in (M,U,v).
+
+checked 1232100
+mask_survivors 6315
+cubic_roots 1706
+square_lifts_K 146
+smooth_distinct_TB_curves 81
+fixed_core_solves 81
+fixed_core_ideals_dimension_zero 81
+core_rational_points 0
+core_square_M 0
+core_verified 0
+exact_tests 0
+hits_6_12 0
+CPU_seconds 17.94
+
+Every fixed-curve core solve completed in approximately 0.05--0.11 seconds.
+Thus the 81 smooth height-30 T_B-halved curves fail the independent rational
+3-torsion condition exactly, not merely by the previously applied local
+finite-group gates.
+
+Positive control (`code/contact6_m612_tb_core_verifier.m`): the known simple
+[6,6] seed a=133/39, b=-7/13 has exactly three rational core points, all with
+M square, reproducing the three known cubic-contact representations.

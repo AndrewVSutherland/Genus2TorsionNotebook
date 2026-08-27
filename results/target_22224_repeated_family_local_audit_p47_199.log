@@ -1,0 +1,10 @@
+REPEATED_FAMILY_LOCAL_AUDIT_START families 52 primes [ 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+FAMILY_NOT_KILLED F1 usable_primes 32 known_T 5
+FAMILY_DEAD F2 p 73 finite_cover 10 finite_smooth 10 infinity_full false
+FAMILY_NOT_KILLED F3 usable_primes 32 known_T 25/13
+FAMILY_DEAD F4 p 47 finite_cover 4 finite_smooth 4 infinity_full false
+FAMILY_NOT_KILLED F5 usable_primes 32 known_T 13/5
+FAMILY_NOT_KILLED F6 usable_primes 32 known_T 2
+
+[Interrupted]
+> quit;

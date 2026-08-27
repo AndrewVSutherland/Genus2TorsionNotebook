@@ -1,0 +1,11 @@
+height=80
+rational_s_count=7863
+smooth_marked9_count=15718
+excluded_count=8
+excluded=[('-1', 2), ('-1/2', 2), ('0', 2), ('1', 2)]
+chart_counts=[('denominator_divisible_7', 2000), ('t_mod7_0', 2000), ('t_mod7_1', 1944), ('t_mod7_2', 1958), ('t_mod7_3', 1956), ('t_mod7_4', 1958), ('t_mod7_5', 1958), ('t_mod7_6', 1944)]
+chart_meanings:
+  t_mod7_2 = only smooth displayed mod-7 chart; first-killed at p=7
+  t_mod7_4 = live ordinary-node q-cover chart
+  t_mod7_6 = t=-1 pole chart
+  denominator_divisible_7 = no direct reduction of the displayed t-chart

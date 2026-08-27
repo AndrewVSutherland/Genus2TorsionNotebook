@@ -1,0 +1,150 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Z/31 order-31 realization</title>
+<style>
+:root { --fg:#1a1a2e; --bg:#ffffff; --muted:#5a5a72; --accent:#7c3aed; --card:#f6f5fa; --line:#e3e1ec; --good:#0e7a4a; --bad:#b3261e; }
+@media (prefers-color-scheme: dark) { :root { --fg:#e8e6f0; --bg:#15141c; --muted:#a09cb4; --accent:#b79bff; --card:#201e2b; --line:#37344a; --good:#4cc38a; --bad:#ff8a80; } }
+:root[data-theme="dark"] { --fg:#e8e6f0; --bg:#15141c; --muted:#a09cb4; --accent:#b79bff; --card:#201e2b; --line:#37344a; --good:#4cc38a; --bad:#ff8a80; }
+:root[data-theme="light"] { --fg:#1a1a2e; --bg:#ffffff; --muted:#5a5a72; --accent:#7c3aed; --card:#f6f5fa; --line:#e3e1ec; --good:#0e7a4a; --bad:#b3261e; }
+body { font: 16px/1.65 Georgia, 'Times New Roman', serif; color:var(--fg); background:var(--bg); max-width:56rem; margin:2rem auto; padding:0 1.2rem; }
+h1 { font-size:1.7rem; line-height:1.25; } h2 { font-size:1.25rem; margin-top:2.2rem; border-bottom:1px solid var(--line); padding-bottom:.3rem;}
+h1,h2,h3 { font-family: 'Palatino Linotype', Palatino, Georgia, serif; }
+code, pre { font-family: ui-monospace, 'Cascadia Code', Menlo, monospace; font-size:.86em; }
+pre { background:var(--card); border:1px solid var(--line); border-radius:8px; padding: .8rem 1rem; overflow-x:auto; }
+table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.92em; }
+th,td { border:1px solid var(--line); padding:.35rem .6rem; text-align:left; vertical-align:top;}
+th { background:var(--card); }
+.tag { font-size:.78em; padding:.05rem .45rem; border-radius:99px; border:1px solid var(--line); white-space:nowrap;}
+.ok { color:var(--good); } .no { color:var(--bad); }
+.muted { color:var(--muted); }
+.lede { font-size:1.06em; }
+div.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:.9rem 1.1rem; margin:1rem 0;}
+</style>
+
+<h1>The order-31 realization (Z/31)</h1>
+<p class="lede">GPT&nbsp;5.6&nbsp;Sol noticed that a curve sitting in Edgar Costa's
+<code>ModularAbelianSurfaces/olddata</code> has a rational point of order 31 on its
+Jacobian. This PR contains the verification and everything that followed over three days:
+a new record, a corrected conjecture-landscape, a narrow-class obstruction theorem-shape,
+five exhaustive negative campaigns, seven newly reconstructed curves, and an infinitude
+census of all 72 realized torsion groups.</p>
+
+<h2>1 · The realization (new record)</h2>
+<div class="card">
+<p><b>Curve</b> (newform <code>1830.2.a.q</code>, level 1830 = 2·3·5·61, RM by ℚ(√2)):</p>
+<pre>y² + (−x² − x)·y = −839x⁶ + 2841x⁵ − 4587x⁴ + 4300x³ − 2466x² + 816x − 126</pre>
+<p><b>J(ℚ)<sub>tors</sub> = ℤ/31ℤ</b> exactly, generator with Mumford coordinates
+u = x² − (21/20)x + 9/20, v = (101/200)x + 51/200 — <i>invisible</i> support
+(conjugate quadratic points; the curve itself appears to have no rational points).
+Geometrically simple (D4 certificate at p = 11); RM core {2} at 164 primes;
+Hecke-trace match to the newform at every checked prime.</p>
+</div>
+<p>This is the <b>first explicit rational point of order 31 on an abelian surface over ℚ,
+and the first order-31 realization on a genus-2 Jacobian</b> (previous explicit prime
+record: 29, Leprévost 1995; Elkies 2001–02 had only a 31-<i>subgroup</i> without rational
+generator; Platonov's 2014 survey lists primes through 29 only). The <i>existence</i> of
+an order-31 point on some inexplicit member of this isogeny class already follows from
+Alessandrì–Coppola's Theorem 4.2/4.3 with their level-1830 computation; what is new here
+is the explicit curve, the exact group ℤ/31ℤ, and the certificates. It confirms entry 31
+of their Conjectures 4.5/4.6 (arXiv 2602.21047 <b>v3</b> — v1/v2 excluded 31; the campaign initially
+mis-read the version history and the correction is recorded). The torsion order had been
+sitting, unnoticed, in Costa's public <code>modav-torsion.out</code> since 2024.</p>
+
+<h2>2 · Why the lab missed it (post-mortem)</h2>
+<p>Structural, not accidental: the target-ranking criteria scored candidates by
+split-Jacobian existence evidence (impossible for prime torsion ≥ 11) and by
+toolkit-expressibility (contact/halving/composition cannot express any prime beyond 7).
+ℤ/31 was named open exactly once (2026-07-17), then silently dropped. Modularity/RM was
+used only as contamination to screen <i>out</i> — never as a source — and every lab
+construction forces <i>visible</i> torsion, while this class is invisible.
+The curve's Jacobian has conductor 1830² &gt; 2²⁰, structurally outside every database
+scan. Full diagnosis: <code>notes/claude_z31_postmortem_2026_07_30.md</code>.</p>
+
+<h2>3 · The Eisenstein engine (predictive, validated)</h2>
+<p>For dim-2 weight-2 newforms, M<sub>f</sub> = gcd<sub>p</sub> Norm(1+p−a<sub>p</sub>)
+bounds the torsion of the isogeny class; the observed mechanism is an Eisenstein
+congruence ℓ | q±1 at a level prime q (61+1 = 2·<b>31</b>), theorem-backed by Yoo
+(Trans. AMS 2019). It went <b>13-for-13</b> on the RM torsion tail and retro-finds
+1830.2.a.q deterministically. Swept over <b>all ~144k dim-2 CMFs</b> in the LMFDB
+(exact a<sub>p</sub> to level 10⁴; a rigorously validated trace-chain — 16,929/16,929
+against the exact tier — beyond it):</p>
+<table>
+<tr><th>Prediction</th><th>Level(s)</th><th>Outcome</th></tr>
+<tr><td>ℤ/37 record candidate</td><td>2190 = 2·3·5·73 (37 | 73+1)</td>
+<td class="no"><b>Obstructed as a Jacobian</b>: h⁺(ℚ(√3)) = 2 kills every rational
+principal polarization in the isogeny class (verified numerically: polarization degrees
+= {d : x²−3y² = −d solvable}; control 1830/ℚ(√2) gives exactly one pp = the known curve).
+Same for 1554.2.a.s (ℤ/19, ℚ(√6)). <b>New filter: Eisenstein Jacobian records need
+h⁺(Hecke field) = 1.</b></td></tr>
+<tr><td>Order-41 / new order-31 carriers</td><td>10626, 36882, 49968, 45318</td>
+<td class="no">All chance — exact eigenvalues give M<sub>odd</sub> = 1 (the
+Eisenstein-numerology heuristic predicted every verdict)</td></tr>
+<tr><td>Second ℤ/31 carrier</td><td>43920 = 2⁴·3²·5·61 (61 again!)</td>
+<td class="muted">Viable (ℚ(√2), h⁺=1); needs a dim-~9000 eigenvalue computation — open</td></tr>
+<tr><td>Seven Eisenstein-11 classes, RM(√5)</td><td>10178 … 26830</td>
+<td class="ok">All seven <b>reconstructed to explicit curves /ℚ</b> (period matrices →
+Mestre, certified L-matches at 40+ primes): six with exact torsion [11], one trivial
+(the 11|N flavor). <b>No new [2,22] point</b> — explaining the rarity of the two known
+ones: Eisenstein supplies the 11 freely; [2,22] needs an independent 2-torsion
+coincidence. By-product: six new simple RM(√5) surfaces with 11-torsion at conductor ~10⁸.</td></tr>
+</table>
+
+<h2>4 · The generic-[31] hunt: five fronts, all empty</h2>
+<p>Goal: End(J<sub>ℚ̄</sub>) = ℤ with a 31-point. All sieves validated against Magma
+reference vectors with the RM witness as planted control (the chart-U′ pipeline
+provably detects it and reconstructs its exact rationals). Verdicts:</p>
+<table>
+<tr><th>Front</th><th>Range</th><th>Verdict</th></tr>
+<tr><td>Chart I (CF, ord D<sub>∞</sub> = 31)</td><td>integer slices |c| ≤ 30; rationals h ≤ 5</td><td class="no">EMPTY</td></tr>
+<tr><td>Chart U′ (universal Mumford, Kummer ladder)</td><td>campaign U-a (v-slices h ≤ 6)</td><td class="no">EMPTY (all 3,148 CANDs triaged spurious; recbound erratum recorded)</td></tr>
+<tr><td>Elkies–Kumar Y₋(8), RM-√2 exhaustion</td><td>slice height ≤ 60</td><td class="no">EMPTY — the 1830 point is alone; 88% of tested moduli Mestre-obstructed</td></tr>
+<tr><td>Box scan (assumption-free, 6-prime filter)</td><td>|cᵢ| ≤ 43, ~1.8×10¹³ models</td><td class="no">EMPTY — all 548 survivors exact-checked, has31 = false</td></tr>
+<tr><td>Moduli theory</td><td>—</td><td class="muted">A<sup>lev</sup><sub>1,31</sub> not unirational (p<sub>g</sub> ≥ 1 for N ≥ 13); thin locus expected</td></tr>
+</table>
+<p><b>Emerging picture:</b> rational 31-torsion on abelian surfaces /ℚ may be exclusively
+an Eisenstein/GL₂-type phenomenon over h⁺ = 1 fields, with 1830.2.a.q possibly the unique
+genus-2 Jacobian instance at accessible height. Escalation routes recorded in
+<code>notes/claude_z31_generic_program_2026_07_30.md</code>.</p>
+
+<h2>5 · Infinitude census (all 72 realized groups)</h2>
+<p>Which groups have <i>provably</i> infinitely many realizations?
+(L1 = containing G; L2 = exactly G; L3 = exactly G with End = ℤ.)</p>
+<ul>
+<li><span class="tag ok">PROVEN L2+L3</span> — exactly one group: <b>[2,2,14]</b>
+(the lab's Theorem C/C+, commit <code>d36bb18</code>; verified end-to-end).</li>
+<li><span class="tag ok">PROVEN L1</span> — precisely the subgroups of [2,2,14]:
+[2], [2,2], [2,2,2], [7], [14], [2,14].</li>
+<li><span class="tag">PMS</span> (provable-modulo-standard; committed family + committed
+exact member; only the specialization-sandwich + Cadoret–Tamagawa assembly is unwritten)
+— ~30 groups incl. [3]–[14], [18], [20], [22], [23], [30], [32], [2,4], [2,8], [2,12],
+[2,14], [2,20], [3,3], [4,4], [2,2,4], [2,2,8], [2,2,2,2], [2,2,2,4], [2,2,2,10].</li>
+<li><span class="tag no">OPEN</span> — [17], [19], [21] (classical families fail
+simplicity scrutiny), [24]–[29], [31], [33]–[40], [2,16]–[2,28] range incl. [2,22],
+[3,6], [3,9], [4,8], and the lab's own sporadic project rows incl. [2,2,2,12].</li>
+</ul>
+<p>Every PROVEN claim adversarially re-verified (chart identities recomputed, commits and
+logs checked). Full table: <code>notes/claude_infinitude_census_2026_07_31.md</code>;
+the framework reference sheet makes each PMS row a bounded write-up.</p>
+
+<h2>6 · Also in this PR</h2>
+<ul>
+<li><b>Paper updates</b>: [31] rows in <code>torsion_realizations.tex</code> and
+<code>torsion_sources.tex</code> (CEHJMPV primary source, all seven authors;
+Alessandrì–Coppola contextualized; both PDFs recompiled).</li>
+<li><b>Three exhaustive censuses</b>, all negative for new groups: Costa olddata
+15,216 curves (full invariants — independently confirms [31] as the only new group;
+identifies 1290.2.a.t = the known second [2,22] witness "BLP C4corr");
+618,490 isogeny-completion models; 196,171 Bruin–Stoll curves.</li>
+<li><b>Validated sieve infrastructure</b> (<code>code/claude_z31_*</code>): Kummer-ladder
+chart-U′ sieve (Flynn biquadratics, 4-layer fidelity chain), CF-31 scanner, EK sieve,
+box scanner — all with reference vectors and selftest suites, reusable for any torsion
+target.</li>
+<li><b>Corrections recorded</b>: the A-C v3 version history; the 1290.2.a.t "third
+witness" erratum; the Kummer recbound erratum; the modav-torsion.out
+isogeny-class-vs-model distinction.</li>
+</ul>
+
+<h2>7 · Session ledger</h2>
+<p class="muted">17 commits (89cc8d5 … 8612809) on top of the previously unpushed
+campaign base (through a776594). Compute: aws-spot-11 (192 cores), ~40 h, stopped and
+released. All Magma runs on the spot box (Magma not installed on the local box — flagged separately).</p>

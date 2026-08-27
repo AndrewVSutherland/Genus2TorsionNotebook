@@ -1,0 +1,5 @@
+degree 40 gb 14
+matrix_ready
+matrix_converted Fraction Field of Univariate Polynomial Ring in t over Finite Field of size 5
+charpoly_ready 40
+squarefree True factors [(1, 1), (12, 1), (27, 1)]

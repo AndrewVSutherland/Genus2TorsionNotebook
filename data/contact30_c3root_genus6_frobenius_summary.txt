@@ -1,0 +1,44 @@
+contact30 C3-root genus-6 quotient: exact Frobenius summary
+date: 2026-07-11
+
+Convention: P_p(X)=det(X-Frob_p | H^1_et).
+
+p=13
+good normalized genus: 6
+#D(F_13): 16
+#J(F_13): 5716043
+P_13 = X^12 + 2*X^11 + 2*X^10 + 15*X^9 + 302*X^8
+       + 341*X^7 + 437*X^6 + 4433*X^5 + 51038*X^4
+       + 32955*X^3 + 57122*X^2 + 742586*X + 4826809
+factor degrees over Q: [12]
+ordinary: true
+Galois group: 12T293, order 46080 = 2^6*6!
+
+p=17
+good normalized genus: 6
+#D(F_17): 20
+#J(F_17): 25773047
+P_17 = X^12 + 2*X^11 - 14*X^10 - 18*X^9 + 200*X^8
+       + 31*X^7 - 5037*X^6 + 527*X^5 + 57800*X^4
+       - 88434*X^3 - 1169294*X^2 + 2839714*X + 24137569
+factor degrees over Q: [12]
+ordinary: true
+Galois group: 12T293, order 46080 = 2^6*6!
+
+gcd(#J(F_13),#J(F_17)) = 1
+therefore J(Q)_tors = 0.
+
+For each p=13,17, P_p over F_{p^n} is irreducible for n=2,...,12.
+The full-Weyl-group plus ordinarity argument proves this for every n>=1,
+so each reduction is absolutely simple.
+
+Exact subfield computation for Q(Frob_p): only degrees 6 and 12.
+The degree-6 maximal real subfield discriminants are
+  p=13: 117696160151333626425
+  p=17: 4659781303841945487531457
+and are unequal.  The degree-12 CM discriminants are unequal as well.
+Consequently End_{Qbar}(J) = Z.
+
+Branch-divisor discriminant factorization:
+  2^302 * 3^172 * 5^15 * 7 * 11 * 269^3.
+This is a branch-collision diagnostic, not a computed conductor.

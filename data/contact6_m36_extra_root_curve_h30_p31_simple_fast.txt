@@ -1,0 +1,15 @@
+Contact-6 extra-root direct curve search for [6,6]
+height 30 parameter_count 1111 prime_bound 31 max_exact 10000 require_113 false simple_only true
+precomputing finite filters
+ p 5 good 12 allowed66 0 target 0
+ p 7 good 36 allowed66 0 target 0
+ p 11 good 120 allowed66 36 target 36
+ p 13 good 192 allowed66 60 target 60
+ p 17 good 372 allowed66 24 target 24
+ p 19 good 492 allowed66 96 target 96
+ p 23 good 768 allowed66 84 target 84
+ p 29 good 1308 allowed66 132 target 132
+ p 31 good 1524 allowed66 420 target 420
+progress 200000 smooth 199704 survivors 341 exact 341 hits 0
+
+[Interrupted]

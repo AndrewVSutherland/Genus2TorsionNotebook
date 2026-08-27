@@ -1,0 +1,36 @@
+Reduced second-halving equations after solving the x^3 coefficient:
+  E2 = (P(z) + 4*D(z)*tau)/4
+  E1 = (2*mu-U)*tau^2 + B(z)*tau + mu^2*c*z^2
+  D(z) = -U - c*z**2 + 2*mu
+  P(z) = -4*M*c*z**3 + U**2 + c**2*z**4 - 4*mu**2 + z**2*(4*M**2 + 2*U*c) + z*(4*M*U - 8*N)
+  B(z) = -c*mu*z**2 - mu*(-U + 2*mu) + 2*z*(M*mu - N)
+UNIVERSAL_G total_degree 13 degree_by_var [5, 4, 2, 4, 5, 8] terms 64
+
+Modulo the first-cover relations, G is linear in M,N:
+  L_M total_degree 11 degree_by_var [4, 3, 4, 1, 1, 1, 7] terms 19
+  L_N total_degree 10 degree_by_var [3, 3, 3, 0, 1, 1, 7] terms 14
+  L_0 total_degree 13 degree_by_var [5, 4, 5, 1, 1, 2, 8] terms 34
+GENERIC_SIGN_ELIMINANT_H total_degree 26 degree_by_var [10, 8, 10, 2, 3, 4, 16] terms 278
+
+First-cover equation on w=s^2:
+  factor 1 exp 1 total_degree 1 degree_U 0 terms 2
+  factor 2 exp 1 total_degree 1 degree_U 0 terms 2
+  factor 3 exp 2 total_degree 1 degree_U 0 terms 2
+  factor 4 exp 1 total_degree 2 degree_U 0 terms 2
+  factor 5 exp 1 total_degree 9 degree_U 2 terms 24
+  factor 6 exp 1 total_degree 9 degree_U 2 terms 24
+
+Substituted sign-eliminated second-cover equations:
+  H_eta_+1 total_degree 52 degree_by_var [26, 42, 10, 16] terms 10634
+    irreducible_factor_count 1
+    factor_exp 1 total_degree 52 degree_U 10 degree_z 16 terms 10634
+  H_eta_-1 total_degree 52 degree_by_var [26, 42, 10, 16] terms 10634
+    irreducible_factor_count 1
+    factor_exp 1 total_degree 52 degree_U 10 degree_z 16 terms 10634
+
+U-resultant note:
+  Each nonboundary first-cover branch has degree_U 2.
+  H_eta has degree_U 10 and degree_z 16 after substitution.
+  A direct resultant Res_U(branch,H_eta) was tested and is too large
+  for routine interactive use; finite-prime diagnostics should use
+  the reduced E1/E2 formulas instead.

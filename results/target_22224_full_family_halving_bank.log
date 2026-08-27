@@ -1,0 +1,5 @@
+TARGET_22224_FULL_FAMILY_HALVING_START mode bank PrimeList [ 7, 11, 13, 17, 19, 23, 29, 31 ]
+FULL_FAMILY_BANK_START file paper/scripts_and_data/tor2228.txt rows 3675 stop 3675
+FULL_FAMILY_BANK_ELIMINATIONS [ <11, 974>, <13, 1654>, <17, 380>, <19, 266>, <23, 44>, <29, 205>, <31, 43>, <37, 76>, <53, 25>, <61, 7>, <67, 1> ]
+FULL_FAMILY_BANK_DONE rows 3675 cover_verified 3675 reduction_survivors 0 exact_tests 0 hits 0
+TARGET_22224_FULL_FAMILY_HALVING_DONE

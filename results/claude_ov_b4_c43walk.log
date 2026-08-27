@@ -1,0 +1,9 @@
+FULLCHECK box |a|,|b| <= 100  members=12173 singular-skipped=0
+  factor types seen: ["[1, 2, 3]"] -> [12173]
+  members with factor type != [1,2,3]      : 0
+  members with 2-rank != 1                 : 0
+  rational quadratic blocks total          : 12173
+  members with a GALOIS-STABLE (2,2)-KERNEL: 0
+  RAISE-CANDIDATE w=1/1  rho-cubic linear factors: [rho]
+RAISESEARCH box |a|,|b| <= 10000  w-values tested=121589942  hits=1  wall=377.35900000000000000000000000000000000s
+C43WALK_DONE

@@ -1,0 +1,62 @@
+exact identities V_A+ V_A- = d_A, V_B+ V_B- = d_B verified
+
+== cross-product components ==
+E+ (g-even part of V_A+V_B+/4):
+  num: [
+<R - 1, 2>,
+<R^3 - R + 1/2*m^2, 2>,
+<R^13 - R^12 - 4*R^11 + 2*R^10*m^2 + 2*R^10*m + 4*R^10 - 3/2*R^9*m^2 + 6*R^9 - 5*R^8*m^2 - 6*R^8*m - 6*R^8 + 3/2*R^7*m^4 + 3*R^7*m^3 + 3/2*R^7*m^2 - 4*R^7 - R^6*m^4 + 2*R^6*m^3 + 4*R^6*m^2 + 6*R^6*m + 4*R^6 - 2*R^5*m^4 - 2*R^5*m^3 + 3/2*R^5*m^2 + R^5 + 1/2*R^4*m^6 + 3/2*R^4*m^5 - R^4*m^4 - 2*R^4*m^3 - R^4*m^2 - 2*R^4*m - R^4 - 3/8*R^3*m^6 + R^3*m^5 - 1/2*R^3*m^4 - R^3*m^3 - 3/2*R^3*m^2 - 1/4*R^2*m^6 + 1/2*R^2*m^5 - R^2*m^4 + 1/16*R*m^8 + 1/4*R*m^7 - 3/8*R*m^6 - 1/16*m^8, 1>
+]
+  den: [
+<m, 6>,
+<R, 3>
+]
+E- (g-even part of V_A+V_B-/4):
+  num: [
+<R - 1, 2>,
+<R^3 - R + 1/2*m^2, 2>,
+<R^13 - R^12 - 4*R^11 + 2*R^10*m^2 - 2*R^10*m + 4*R^10 - 3/2*R^9*m^2 + 6*R^9 - 5*R^8*m^2 + 6*R^8*m - 6*R^8 + 3/2*R^7*m^4 - 3*R^7*m^3 + 3/2*R^7*m^2 - 4*R^7 - R^6*m^4 - 2*R^6*m^3 + 4*R^6*m^2 - 6*R^6*m + 4*R^6 - 2*R^5*m^4 + 2*R^5*m^3 + 3/2*R^5*m^2 + R^5 + 1/2*R^4*m^6 - 3/2*R^4*m^5 - R^4*m^4 + 2*R^4*m^3 - R^4*m^2 + 2*R^4*m - R^4 - 3/8*R^3*m^6 - R^3*m^5 - 1/2*R^3*m^4 + R^3*m^3 - 3/2*R^3*m^2 - 1/4*R^2*m^6 - 1/2*R^2*m^5 - R^2*m^4 + 1/16*R*m^8 - 1/4*R*m^7 - 3/8*R*m^6 - 1/16*m^8, 1>
+]
+  den: [
+<m, 6>,
+<R, 3>
+]
+Y+ (g-odd part of V_A+V_B+/4):
+  num: [
+<R - 1, 1>,
+<R^3 - R + 1/2*m^2, 3>,
+<R^10 - R^9 - 3*R^8 + 3/2*R^7*m^2 + 2*R^7*m + 3*R^7 - 3/2*R^6*m^2 + 3*R^6 - 3*R^5*m^2 - 4*R^5*m - 3*R^5 + 3/4*R^4*m^4 + 2*R^4*m^3 + R^4*m^2 - R^4 - 3/4*R^3*m^4 + R^3*m^3 + 3/2*R^3*m^2 + 2*R^3*m + R^3 - 3/4*R^2*m^4 + R^2*m^3 + 1/2*R^2*m^2 + 1/8*R*m^6 + 1/2*R*m^5 - 1/4*R*m^4 - 1/8*m^6, 1>
+]
+  den: [
+<m, 6>,
+<R, 3>,
+<R + 1, 1>
+]
+Y- (g-odd part of V_A+V_B-/4):
+  num: [
+<R - 1, 1>,
+<R^3 - R + 1/2*m^2, 3>,
+<R^10 - R^9 - 3*R^8 + 3/2*R^7*m^2 - 2*R^7*m + 3*R^7 - 3/2*R^6*m^2 + 3*R^6 - 3*R^5*m^2 + 4*R^5*m - 3*R^5 + 3/4*R^4*m^4 - 2*R^4*m^3 + R^4*m^2 - R^4 - 3/4*R^3*m^4 - R^3*m^3 + 3/2*R^3*m^2 - 2*R^3*m + R^3 - 3/4*R^2*m^4 - R^2*m^3 + 1/2*R^2*m^2 + 1/8*R*m^6 - 1/2*R*m^5 - 1/4*R*m^4 - 1/8*m^6, 1>
+]
+  den: [
+<m, 6>,
+<R, 3>,
+<R + 1, 1>
+]
+
+== norm classes (trivial <=> function-level identity possible) ==
+  d_A is a square in Q(R,m): false
+  d_B is a square in Q(R,m): false
+  d_A*d_B is a square in Q(R,m): false
+conclusion: if all false, NO base twist makes any V or V*V a
+function-field square: the second-stage wall is arithmetic
+(point-dependent), not a constant-class identity.
+
+== reduced 2-cover curves (per R-fiber, over the m-line) ==
+S_A-cover:  y^4 - 4*alpha_A(m)*y^2 + d_A(m) = 0
+S_B-cover:  y^4 - 4*alpha_B(m)*y^2 + d_B(m) = 0
+deg_m: alpha_A num 8 / den 4, d_A num 16 / den 8
+deg_m: alpha_B num 4 / den 2, d_B num 4 / den 2
+Full halving <=> a rational point on the fiber product of the two
+covers over E_R -- per-R Selmer/local analysis is the next tool.
+DONE

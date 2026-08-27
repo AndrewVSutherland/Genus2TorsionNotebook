@@ -1,0 +1,136 @@
+OFFRECTANGLE_ROWS 56
+
+[SHARED_TRIPLES] repeated=3
+  value=(276, 624, 828) rows=[3, 7] tuples=[(13, 276, 624, 828), (276, 624, 828, 1573)]
+  value=(46, 292, 1679) rows=[6, 8] tuples=[(2, 46, 292, 1679), (46, 292, 722, 1679)]
+  value=(71, 3650, 10366) rows=[43, 44] tuples=[(71, 2116, 3650, 10366), (71, 3650, 5476, 10366)]
+
+[SHARED_PAIRS] repeated=11
+  value=(225, 304) rows=[1, 15] tuples=[(20, 225, 304, 380), (180, 225, 304, 3420)]
+  value=(276, 624) rows=[3, 7] tuples=[(13, 276, 624, 828), (276, 624, 828, 1573)]
+  value=(276, 828) rows=[3, 7] tuples=[(13, 276, 624, 828), (276, 624, 828, 1573)]
+  value=(292, 1679) rows=[6, 8] tuples=[(2, 46, 292, 1679), (46, 292, 722, 1679)]
+  value=(3650, 10366) rows=[43, 44] tuples=[(71, 2116, 3650, 10366), (71, 3650, 5476, 10366)]
+  value=(46, 1679) rows=[6, 8] tuples=[(2, 46, 292, 1679), (46, 292, 722, 1679)]
+  value=(46, 292) rows=[6, 8] tuples=[(2, 46, 292, 1679), (46, 292, 722, 1679)]
+  value=(624, 828) rows=[3, 7] tuples=[(13, 276, 624, 828), (276, 624, 828, 1573)]
+  value=(71, 10366) rows=[43, 44] tuples=[(71, 2116, 3650, 10366), (71, 3650, 5476, 10366)]
+  value=(71, 3650) rows=[43, 44] tuples=[(71, 2116, 3650, 10366), (71, 3650, 5476, 10366)]
+  value=(99, 125) rows=[0, 46] tuples=[(1, 55, 99, 125), (99, 125, 225, 12375)]
+
+[PROJECTIVE_RATIO_3PLUS1] count=3
+  (3, 7, ((1573, 276, 624, 828), (Fraction(121, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)))) tuples=((13, 276, 624, 828),(276, 624, 828, 1573))
+  (6, 8, ((722, 46, 292, 1679), (Fraction(361, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)))) tuples=((2, 46, 292, 1679),(46, 292, 722, 1679))
+  (43, 44, ((71, 5476, 3650, 10366), (Fraction(1, 1), Fraction(1369, 529), Fraction(1, 1), Fraction(1, 1)))) tuples=((71, 2116, 3650, 10366),(71, 3650, 5476, 10366))
+
+[PROJECTIVE_RATIO_2PLUS2] count=7
+  (0, 46, ((99, 125, 225, 12375), (Fraction(99, 1), Fraction(25, 11), Fraction(25, 11), Fraction(99, 1)))) tuples=((1, 55, 99, 125),(99, 125, 225, 12375))
+  (1, 15, ((180, 225, 304, 3420), (Fraction(9, 1), Fraction(1, 1), Fraction(1, 1), Fraction(9, 1)))) tuples=((20, 225, 304, 380),(180, 225, 304, 3420))
+  (3, 13, ((52, 69, 156, 3312), (Fraction(4, 1), Fraction(1, 4), Fraction(1, 4), Fraction(4, 1)))) tuples=((13, 276, 624, 828),(52, 69, 156, 3312))
+  (4, 25, ((200, 328, 1025, 6400), (Fraction(200, 41), Fraction(41, 32), Fraction(41, 32), Fraction(200, 41)))) tuples=((41, 256, 800, 1312),(200, 328, 1025, 6400))
+  (6, 14, ((4, 23, 146, 3358), (Fraction(2, 1), Fraction(1, 2), Fraction(1, 2), Fraction(2, 1)))) tuples=((2, 46, 292, 1679),(4, 23, 146, 3358))
+  (9, 33, ((79, 196, 882, 7742), (Fraction(79, 18), Fraction(98, 79), Fraction(98, 79), Fraction(79, 18)))) tuples=((18, 158, 711, 1764),(79, 196, 882, 7742))
+  (23, 24, ((56, 113, 400, 6328), (Fraction(28, 25), Fraction(1, 7), Fraction(1, 7), Fraction(28, 25)))) tuples=((50, 791, 2800, 5650),(56, 113, 400, 6328))
+ROW 00 tuple=(1, 55, 99, 125) roots=(825, 840, 9240, 18480) partitions=(Fraction(4, 225), Fraction(81, 3125), Fraction(25, 891)) standard=(u=225/4,v=3125/81,w2=309375/4,w=None) canonical=None
+ROW 01 tuple=(20, 225, 304, 380) roots=(22800, 25200, 132825, 188784) partitions=(Fraction(405, 3724), Fraction(484, 3645), Fraction(529, 3600)) standard=(u=3724/405,v=3645/484,w2=30164400/64009,w=None) canonical=None
+ROW 02 tuple=(95, 125, 169, 931) roots=(43225, 75240, 92400, 120120) partitions=(Fraction(3125, 8281), Fraction(676, 1225), Fraction(38025, 45619)) standard=(u=8281/3125,v=1225/676,w2=1521/380,w=None) canonical=None
+ROW 03 tuple=(13, 276, 624, 828) roots=(43056, 44863, 281520, 720720) partitions=(Fraction(121, 3468), Fraction(208, 3381), Fraction(225, 3364)) standard=(u=3468/121,v=3381/208,w2=273916223/39325,w=None) canonical=None
+ROW 04 tuple=(41, 256, 800, 1312) roots=(104960, 117711, 354816, 1224960) partitions=(Fraction(16, 225), Fraction(1225, 6728), Fraction(41, 200)) standard=(u=225/16,v=6728/1225,w2=756900/2009,w=None) canonical=None
+ROW 05 tuple=(67, 80, 245, 1675) roots=(46900, 73164, 81900, 218400) partitions=(Fraction(2048, 12005), Fraction(441, 640), Fraction(1568, 1675)) standard=(u=12005/2048,v=640/441,w2=4802/603,w=None) canonical=None
+ROW 06 tuple=(2, 46, 292, 1679) roots=(6716, 6888, 35880, 239148) partitions=(Fraction(9, 1168), Fraction(50, 1127), Fraction(169, 3362)) standard=(u=1168/9,v=1127/50,w2=2212760816/38025,w=None) canonical=None
+ROW 07 tuple=(276, 624, 828, 1573) roots=(473616, 712080, 1338480, 1785168) partitions=(Fraction(9604, 27225), Fraction(897, 1936), Fraction(14641, 22188)) standard=(u=27225/9604,v=1936/897,w2=6656400/717899,w=None) canonical=None
+ROW 08 tuple=(46, 292, 722, 1679) roots=(127604, 143520, 444132, 1161888) partitions=(Fraction(4802, 61009), Fraction(3249, 18688), Fraction(3887, 18050)) standard=(u=61009/4802,v=18688/3249,w2=168659200/497007,w=None) canonical=None
+ROW 09 tuple=(18, 158, 711, 1764) roots=(59724, 64152, 215512, 1055835) partitions=(Fraction(25, 784), Fraction(961, 7938), Fraction(98, 711)) standard=(u=784/25,v=7938/961,w2=45151344/24025,w=None) canonical=None
+ROW 10 tuple=(31, 558, 900, 2178) roots=(184140, 193781, 1145016, 1939140) partitions=(Fraction(279, 6050), Fraction(400, 5929), Fraction(9801, 110450)) standard=(u=6050/279,v=5929/400,w2=327429025/90396,w=None) canonical=None
+ROW 11 tuple=(95, 121, 529, 2375) roots=(120175, 177840, 205920, 789360) partitions=(Fraction(14641, 119025), Fraction(2116, 3025), Fraction(59375, 64009)) standard=(u=119025/14641,v=3025/2116,w2=4761/380,w=None) canonical=None
+ROW 12 tuple=(256, 959, 1096, 2744) roots=(859264, 1123200, 2977695, 3419520) partitions=(Fraction(1024, 3969), Fraction(16928, 57967), Fraction(1568, 3425)) standard=(u=3969/1024,v=57967/16928,w2=16081494975/554696704,w=None) canonical=None
+ROW 13 tuple=(52, 69, 156, 3312) roots=(43056, 66352, 79695, 159120) partitions=(Fraction(289, 1452), Fraction(637, 1104), Fraction(841, 900)) standard=(u=1452/289,v=1104/637,w2=37448048/4602325,w=None) canonical=None
+ROW 14 tuple=(4, 23, 146, 3358) roots=(6716, 7380, 18837, 113880) partitions=(Fraction(16, 657), Fraction(98, 575), Fraction(338, 1681)) standard=(u=657/16,v=575/98,w2=635039775/529984,w=None) canonical=None
+ROW 15 tuple=(180, 225, 304, 3420) roots=(205200, 356400, 419175, 538384) partitions=(Fraction(245, 684), Fraction(324, 605), Fraction(400, 529)) standard=(u=684/245,v=605/324,w2=919600/233289,w=None) canonical=None
+ROW 16 tuple=(217, 1008, 1519, 3481) roots=(1075452, 1306340, 3742620, 5772200) partitions=(Fraction(28800, 170569), Fraction(974113, 4010112), Fraction(1256641, 3727584)) standard=(u=170569/28800,v=4010112/974113,w2=90830039328/1255909975,w=None) canonical=None
+ROW 17 tuple=(169, 1271, 2009, 3751) roots=(1272271, 1441440, 5490720, 9092160) partitions=(Fraction(676, 5929), Fraction(74529, 453871), Fraction(20449, 98441)) standard=(u=5929/676,v=453871/74529,w2=44679515111/173765124,w=None) canonical=None
+ROW 18 tuple=(41, 1808, 2809, 4633) roots=(982196, 1004910, 9970668, 16585290) partitions=(Fraction(119072, 5193841), Fraction(2809, 90400), Fraction(3321, 89888)) standard=(u=5193841/119072,v=90400/2809,w2=469523226400/12357441,w=None) canonical=None
+ROW 19 tuple=(121, 1919, 3211, 4949) roots=(1920919, 2042040, 11744280, 21162960) partitions=(Fraction(484, 8281), Fraction(20449, 242501), Fraction(53361, 542659)) standard=(u=8281/484,v=242501/20449,w2=131595350159/63776196,w=None) canonical=None
+ROW 20 tuple=(833, 2529, 4496, 4913) roots=(6821556, 9260342, 21083430, 39795220) partitions=(Fraction(4149369, 15545888), Fraction(5834528, 13860729), Fraction(6018425, 13676832)) standard=(u=15545888/4149369,v=13860729/5834528,w2=2082801430753056/102974901999025,w=None) canonical=None
+ROW 21 tuple=(99, 244, 4026, 5046) roots=(700524, 848925, 1374940, 25363800) partitions=(Fraction(1296, 41209), Fraction(17457, 42050), Fraction(2523, 5978)) standard=(u=41209/1296,v=42050/17457,w2=3079342525/16968204,w=None) canonical=None
+ROW 22 tuple=(17, 4208, 4471, 5329) roots=(1305532, 1312740, 38361180, 41312040) partitions=(Fraction(6272, 900601), Fraction(4913, 682112), Fraction(5329, 681696)) standard=(u=900601/6272,v=682112/4913,w2=613936099296/240737,w=None) canonical=None
+ROW 23 tuple=(50, 791, 2800, 5650) roots=(791000, 826500, 3922569, 15561000) partitions=(Fraction(169, 6728), Fraction(8, 113), Fraction(9, 112)) standard=(u=6728/169,v=113/8,w2=10643696/1521,w=None) canonical=None
+ROW 24 tuple=(56, 113, 400, 6328) roots=(126560, 165984, 251199, 793440) partitions=(Fraction(841, 8450), Fraction(50, 113), Fraction(63, 100)) standard=(u=8450/841,v=113/50,w2=1909700/52983,w=None) canonical=None
+ROW 25 tuple=(200, 328, 1025, 6400) roots=(656000, 924000, 1255584, 3551625) partitions=(Fraction(9, 64), Fraction(841, 1568), Fraction(32, 41)) standard=(u=64/9,v=1568/841,w2=128576/7569,w=None) canonical=None
+ROW 26 tuple=(64, 136, 225, 6664) roots=(114240, 157760, 258400, 402135) partitions=(Fraction(55112, 275625), Fraction(90000, 240737), Fraction(141512, 189225)) standard=(u=275625/55112,v=240737/90000,w2=45553458825/2546615296,w=None) canonical=None
+ROW 27 tuple=(121, 423, 729, 6768) roots=(502524, 620840, 1380672, 2313360) partitions=(Fraction(5929, 41472), Fraction(9801, 37600), Fraction(247808, 558009)) standard=(u=41472/5929,v=37600/9801,w2=5245284600/86806489,w=None) canonical=None
+ROW 28 tuple=(23, 544, 4352, 6624) roots=(600576, 615825, 3290112, 31987200) partitions=(Fraction(49, 5832), Fraction(256, 5625), Fraction(1863, 39304)) standard=(u=5832/49,v=5625/256,w2=248720625/4508,w=None) canonical=None
+ROW 29 tuple=(25, 264, 936, 6864) roots=(205920, 218705, 807840, 2901600) partitions=(Fraction(625, 22542), Fraction(2025, 21142), Fraction(2500, 20667)) standard=(u=22542/625,v=21142/2025,w2=273598336583/87890625,w=None) canonical=None
+ROW 30 tuple=(4, 3131, 6076, 6464) roots=(701344, 702240, 29447055, 65308320) partitions=(Fraction(1, 784), Fraction(49, 25856), Fraction(144, 74431)) standard=(u=784,v=25856/49,w2=1924487936/9,w=None) canonical=None
+ROW 31 tuple=(50, 2116, 3431, 6862) roots=(1578260, 1614240, 15107964, 26113341) partitions=(Fraction(26450, 1238591), Fraction(112225, 3682898), Fraction(46225, 1218816)) standard=(u=1238591/26450,v=3682898/112225,w2=5254968172859136/129690015625,w=None) canonical=None
+ROW 32 tuple=(18, 1351, 6174, 6948) roots=(1021356, 1030968, 10747205, 61440120) partitions=(Fraction(729, 134162), Fraction(49, 3088), Fraction(50, 3087)) standard=(u=134162/729,v=3088/49,w2=1450022896/2025,w=None) canonical=None
+ROW 33 tuple=(79, 196, 882, 7742) roots=(325164, 404085, 679140, 2807112) partitions=(Fraction(16, 225), Fraction(729, 1922), Fraction(79, 162)) standard=(u=225/16,v=1922/729,w2=24025/316,w=None) canonical=None
+ROW 34 tuple=(36, 439, 3042, 7902) roots=(616356, 646380, 2460595, 18886608) partitions=(Fraction(64, 4225), Fraction(338, 3951), Fraction(6962, 74529)) standard=(u=4225/64,v=3951/338,w2=7361601975/891136,w=None) canonical=None
+ROW 35 tuple=(1136, 2704, 6976, 7739) roots=(12877696, 17721600, 32398080, 89781120) partitions=(Fraction(1521, 6976), Fraction(13924, 28561), Fraction(8591, 16900)) standard=(u=6976/1521,v=28561/13924,w2=4981038400/269147439,w=None) canonical=None
+ROW 36 tuple=(21, 371, 3021, 8379) roots=(444087, 458640, 2077600, 18851040) partitions=(Fraction(25, 2793), Fraction(625, 10647), Fraction(84, 1325)) standard=(u=2793/25,v=10647/625,w2=75050703/2500,w=None) canonical=None
+ROW 37 tuple=(496, 562, 2738, 8711) roots=(2578456, 3952872, 4265580, 18290580) partitions=(Fraction(91592, 724201), Fraction(10952, 13769), Fraction(12321, 12400)) standard=(u=724201/91592,v=13769/10952,w2=89743712121/9085926400,w=None) canonical=None
+ROW 38 tuple=(18, 686, 4932, 8631) roots=(725004, 736560, 5027792, 43130340) partitions=(Fraction(49, 8768), Fraction(242, 8575), Fraction(2809, 94178)) standard=(u=8768/49,v=8575/242,w2=72253361600/339889,w=None) canonical=None
+ROW 39 tuple=(801, 1600, 2225, 9025) roots=(5073000, 7561974, 12495000, 17021250) partitions=(Fraction(259200, 866761), Fraction(20025, 46208), Fraction(29241, 36992)) standard=(u=866761/259200,v=46208/20025,w2=32063222912/3284600625,w=None) canonical=None
+ROW 40 tuple=(645, 1155, 3773, 9675) roots=(5214825, 7275600, 10533600, 33236896) partitions=(Fraction(1681, 11025), Fraction(17689, 33135), Fraction(2580, 3773)) standard=(u=11025/1681,v=33135/17689,w2=1875275325/104376652,w=None) canonical=None
+ROW 41 tuple=(1369, 1711, 2349, 9971) roots=(7406919, 13333320, 15809640, 20900880) partitions=(Fraction(5476, 13689), Fraction(998001, 1685099), Fraction(190269, 231361)) standard=(u=13689/5476,v=1685099/998001,w2=35624677959/10262905636,w=None) canonical=None
+ROW 42 tuple=(2, 448, 2914, 10199) roots=(163184, 163620, 2686320, 19354788) partitions=(Fraction(32, 36425), Fraction(169, 36288), Fraction(1681, 326432)) standard=(u=36425/32,v=36288/169,w2=13483583870400/284089,w=None) canonical=None
+ROW 43 tuple=(71, 2116, 3650, 10366) roots=(2384180, 2455677, 18249948, 33130320) partitions=(Fraction(33856, 1330425), Fraction(156025, 3936818), Fraction(68231, 1296050)) standard=(u=1330425/33856,v=3936818/156025,w2=128322206647425/6813274736,w=None) canonical=None
+ROW 44 tuple=(71, 3650, 5476, 10366) roots=(3835420, 3910893, 41680080, 66268332) partitions=(Fraction(198025, 10188098), Fraction(87616, 3374425), Fraction(107991, 3354050)) standard=(u=10188098/198025,v=3374425/87616,w2=842284828544425/13686347376,w=None) canonical=None
+ROW 45 tuple=(26, 2140, 5350, 10985) roots=(1808300, 1825824, 21346500, 59320800) partitions=(Fraction(2178, 305045), Fraction(625, 43264), Fraction(2197, 129470)) standard=(u=305045/2178,v=43264/625,w2=128550656/225,w=None) canonical=None
+ROW 46 tuple=(99, 125, 225, 12375) roots=(185625, 299376, 350000, 567000) partitions=(Fraction(1, 4), Fraction(5, 9), Fraction(9, 11)) standard=(u=4,v=9/5,w2=324/55,w=None) canonical=None
+ROW 47 tuple=(6, 219, 3358, 13248) roots=(241776, 245340, 1540665, 25903612) partitions=(Fraction(361, 165600), Fraction(4489, 161472), Fraction(4704, 161257)) standard=(u=165600/361,v=161472/4489,w2=44916395774400/79405921,w=None) canonical=None
+ROW 48 tuple=(1271, 2480, 10000, 13120) roots=(20336000, 27808209, 42556800, 180336000) partitions=(Fraction(8959, 60500), Fraction(625, 1156), Fraction(656, 1125)) standard=(u=60500/8959,v=1156/625,w2=27225/1271,w=None) canonical=None
+ROW 49 tuple=(333, 2450, 11328, 13098) roots=(11002320, 12047607, 38218180, 210845232) partitions=(Fraction(11025, 228448), Fraction(192, 1225), Fraction(764679, 4743200)) standard=(u=228448/11025,v=1225/192,w2=16930852400/20646333,w=None) canonical=None
+ROW 50 tuple=(1625, 3100, 7750, 13754) roots=(23172500, 33271875, 51754500, 130200000) partitions=(Fraction(1024, 4761), Fraction(2809, 5290), Fraction(529, 806)) standard=(u=4761/1024,v=5290/2809,w2=9593415/719104,w=None) canonical=None
+ROW 51 tuple=(529, 5191, 8381, 14499) roots=(18267129, 20128680, 89077560, 152277840) partitions=(Fraction(2116, 23409), Fraction(152881, 1174419), Fraction(385641, 2422109)) standard=(u=23409/2116,v=1174419/152881,w2=316063425519/592143556,w=None) canonical=None
+ROW 52 tuple=(46, 1682, 2692, 15479) roots=(1795564, 1838160, 14770512, 24203772) partitions=(Fraction(841, 43072), Fraction(34322, 1151329), Fraction(1863, 42050)) standard=(u=43072/841,v=1151329/34322,w2=1239751067200/31970943,w=None) canonical=None
+ROW 53 tuple=(484, 5795, 9500, 15616) roots=(20398400, 22102080, 109160415, 190881600) partitions=(Fraction(121, 1600), Fraction(27225, 249856), Fraction(7744, 59375)) standard=(u=1600/121,v=249856/27225,w2=14835200000/15944049,w=None) canonical=None
+ROW 54 tuple=(68, 882, 1854, 15759) roots=(1323756, 1401820, 6176520, 13104072) partitions=(Fraction(98, 2575), Fraction(3698, 47089), Fraction(272, 2401)) standard=(u=2575/98,v=47089/3698,w2=5941454575/2011712,w=None) canonical=None
+ROW 55 tuple=(306, 5476, 11575, 15742) roots=(17473620, 18366936, 107028124, 253092005) partitions=(Fraction(24642, 567175), Fraction(2387025, 32530178), Fraction(44217, 547600)) standard=(u=567175/24642,v=32530178/2387025,w2=147602429657200/37996950393,w=None) canonical=None
+
+FIRST_LEG_SQUARE 0 indices=[]
+
+[PARTITION_INVARIANTS] repeated=0
+
+[ADAM_u] repeated=0
+
+[ADAM_v] repeated=0
+
+[ADAM_w2] repeated=0
+
+[ADAM_uv] repeated=0
+
+[ADAM_u_plus_v] repeated=0
+
+[ADAM_u_minus_v] repeated=0
+
+[ADAM_u_over_v] repeated=0
+
+[ADAM_pair_uv] repeated=0
+
+[ADAM_pair_u_w2] repeated=0
+
+[ADAM_pair_v_w2] repeated=0
+
+BRANCH_INTERPOLATION degree=1 monomials=4 nullity=0
+
+BRANCH_INTERPOLATION degree=2 monomials=10 nullity=0
+
+BRANCH_INTERPOLATION degree=3 monomials=20 nullity=0
+
+SHARED_TRIPLE_FIBERS
+  fixed=(46, 292, 1679) variable=[2, 722] ratios=[Fraction(1, 1), Fraction(361, 1)] square_ratios=[Fraction(1, 1), Fraction(19, 1)]
+    genus5 fiber: d=d0*T^2 and Y_46^2=(46+d0*T^2)/(46+d0), Y_292^2=(292+d0*T^2)/(292+d0), Y_1679^2=(1679+d0*T^2)/(1679+d0)
+    elliptic quotient E_46_292: Z^2=(46+d0*T^2)*(292+d0*T^2)
+    elliptic quotient E_46_1679: Z^2=(46+d0*T^2)*(1679+d0*T^2)
+    elliptic quotient E_292_1679: Z^2=(292+d0*T^2)*(1679+d0*T^2)
+  fixed=(71, 3650, 10366) variable=[2116, 5476] ratios=[Fraction(1, 1), Fraction(1369, 529)] square_ratios=[Fraction(1, 1), Fraction(37, 23)]
+    genus5 fiber: d=d0*T^2 and Y_71^2=(71+d0*T^2)/(71+d0), Y_3650^2=(3650+d0*T^2)/(3650+d0), Y_10366^2=(10366+d0*T^2)/(10366+d0)
+    elliptic quotient E_71_3650: Z^2=(71+d0*T^2)*(3650+d0*T^2)
+    elliptic quotient E_71_10366: Z^2=(71+d0*T^2)*(10366+d0*T^2)
+    elliptic quotient E_3650_10366: Z^2=(3650+d0*T^2)*(10366+d0*T^2)
+  fixed=(276, 624, 828) variable=[13, 1573] ratios=[Fraction(1, 1), Fraction(121, 1)] square_ratios=[Fraction(1, 1), Fraction(11, 1)]
+    genus5 fiber: d=d0*T^2 and Y_276^2=(276+d0*T^2)/(276+d0), Y_624^2=(624+d0*T^2)/(624+d0), Y_828^2=(828+d0*T^2)/(828+d0)
+    elliptic quotient E_276_624: Z^2=(276+d0*T^2)*(624+d0*T^2)
+    elliptic quotient E_276_828: Z^2=(276+d0*T^2)*(828+d0*T^2)
+    elliptic quotient E_624_828: Z^2=(624+d0*T^2)*(828+d0*T^2)

@@ -1,0 +1,196 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{hyperref}
+
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\Gm}{\mathbb{G}_m}
+
+\title{Halving an Order Four Point in the Universal \texorpdfstring{$(2,2,4,4)$}{(2,2,4,4)} Family}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Setup}
+
+Let the universal \((2,2,4,4)\)-family be given by
+\begin{align*}
+    y_1^2 &= (x_1^2-c^2)(x_1^2-d^2),\\
+    y_2^2 &= (x_2^2-c^2)(x_2^2-d^2),\\
+    w^2 &= (x_1^2-c^2)(x_2^2-c^2).
+\end{align*}
+Put
+\[
+a=x_1,\qquad b=x_2,
+\]
+and define
+\[
+T=\frac{y_1y_2}{w}.
+\]
+Then
+\[
+T^2=(a^2-d^2)(b^2-d^2).
+\]
+Thus the universal \((2,2,4,4)\)-family may equivalently be written in the form
+\begin{align*}
+w^2&=(a^2-c^2)(b^2-c^2),\\
+T^2&=(a^2-d^2)(b^2-d^2).
+\end{align*}
+
+Define
+\[
+\rho=\frac{a}{b},\qquad
+\sigma=\frac{a^2-c^2}{w},\qquad
+\tau=\frac{a^2-d^2}{T}.
+\]
+Then
+\[
+\sigma^2=\frac{a^2-c^2}{b^2-c^2},
+\qquad
+\tau^2=\frac{a^2-d^2}{b^2-d^2}.
+\]
+After the usual fractional linear transformation, the associated genus two curve is isomorphic to
+\[
+Y^2=X(X+1)(X+\rho^2)(X+\sigma^2)(X+\tau^2).
+\]
+The given order four point is the half of
+\[
+P_0=(0,0)-\infty
+\]
+on this normalized model.
+
+\section*{Halving Criterion}
+
+\begin{proposition}
+With notation as above, the chosen order four point is divisible by two if and only if the following four quantities are squares:
+\[
+(1+\rho)(1+\sigma)(1+\tau),
+\]
+\[
+\rho(1+\rho)(\rho+\sigma)(\rho+\tau),
+\]
+\[
+\sigma(1+\sigma)(\rho+\sigma)(\sigma+\tau),
+\]
+and
+\[
+\tau(1+\tau)(\rho+\tau)(\sigma+\tau).
+\]
+Equivalently, there exist elements \(q_1,q_2,q_3,q_4\) such that
+\begin{align*}
+q_1^2&=(1+\rho)(1+\sigma)(1+\tau),\\
+q_2^2&=\rho(1+\rho)(\rho+\sigma)(\rho+\tau),\\
+q_3^2&=\sigma(1+\sigma)(\rho+\sigma)(\sigma+\tau),\\
+q_4^2&=\tau(1+\tau)(\rho+\tau)(\sigma+\tau).
+\end{align*}
+When these conditions hold, the corresponding Jacobian contains a subgroup of type
+\[
+(2,2,4,8).
+\]
+\end{proposition}
+
+\begin{proof}
+The normalized curve has the form
+\[
+Y^2=X(X+1)(X+\rho^2)(X+\sigma^2)(X+\tau^2).
+\]
+To divide the relevant order four point by two, one applies the usual halving criterion to the four square roots
+\[
+1,\rho,\sigma,\tau.
+\]
+This gives precisely the four square conditions displayed above.
+
+Multiplying the four square conditions gives
+\[
+q_1^2q_2^2q_3^2q_4^2
+=
+\rho\sigma\tau
+\left(
+(1+\rho)(1+\sigma)(1+\tau)
+(\rho+\sigma)(\rho+\tau)(\sigma+\tau)
+\right)^2.
+\]
+Therefore a necessary condition is
+\[
+\rho\sigma\tau\in \QQ^{*2}.
+\]
+In terms of the original coordinates,
+\[
+\rho\sigma\tau
+=
+\frac{a}{b}\cdot
+\frac{a^2-c^2}{w}\cdot
+\frac{a^2-d^2}{T}.
+\]
+Using
+\[
+w^2=(a^2-c^2)(b^2-c^2),
+\qquad
+T^2=(a^2-d^2)(b^2-d^2),
+\]
+this condition is equivalent, up to multiplication by a square, to
+\[
+abwT\in \QQ^{*2}.
+\]
+Since
+\[
+wT=y_1y_2,
+\]
+we may also write the necessary condition as
+\[
+ab y_1y_2\in \QQ^{*2}.
+\]
+Equivalently, if one writes
+\[
+t=wT=y_1y_2,
+\]
+then the condition is
+\[
+abt\in \QQ^{*2}.
+\]
+In a normalized parametrization where \(wT=cd\), this becomes
+\[
+abcd\in \QQ^{*2}.
+\]
+\end{proof}
+
+\section*{Geometric Meaning}
+
+\begin{remark}
+The condition
+\[
+\rho\sigma\tau\in \QQ^{*2}
+\]
+does not define a divisor inside the \((2,2,4,4)\)-threefold. Rather, it defines a double cover of that threefold. Namely, it is the cover obtained by adjoining a square root
+\[
+r^2=\rho\sigma\tau.
+\]
+Equivalently, in the original coordinates, this may be written as
+\[
+r^2=abwT=ab y_1y_2.
+\]
+Thus one obtains an intermediate double cover
+\[
+\widetilde A \longrightarrow A(2,2,4,4).
+\]
+After compactification, this cover is branched along the boundary components where the product \(\rho\sigma\tau\) vanishes or has poles, equivalently where one of the relevant branch points collides or one of the chosen square roots degenerates.
+
+In normalized coordinates, this intermediate cover takes the simple form
+\[
+r^2=abcd.
+\]
+Thus it is a double cover of the ambient threefold branched along the union of the four coordinate boundary components. In particular, it is a toric-type double cover with normal-crossing branch divisor.
+
+The full halving locus is obtained from this intermediate double cover by adjoining the remaining square roots \(q_1,q_2,q_3,q_4\), subject to the product relation above. Hence the universal \((2,2,4,8)\)-threefold is generically a finite \((\mathbb Z/2)^4\)-cover of \(A(2,2,4,4)\), with the displayed double cover as its first natural intermediate cover.
+\end{remark}
+
+\end{document}

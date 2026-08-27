@@ -1,0 +1,39 @@
+# (2,6,6) production 2026-07-18: the C3-branch is ALSO an infinite rational family.
+# Chart y^2 = h6^2-(x-1)^6; C3 = nodal cubic 3a^2b+9a^2+3ab^2+20ab+45a+b^3+6b^2+36b+53=0,
+# parametrized by m: s(m) = -(4m^2+16m+18)/(m^3+3m^2+3m), a = -11/3+s, b = 3+ms.
+# On C3 the extra 2-torsion is FREE (factor type [1,1,1,2] identically, generic [2,2,6]).
+#
+# FAMILY (discovered from the 5 known census m-values, then verified at new j):
+#     m(j) = -3j^2/(2j^2+1)      (equivalently: -m/(2m+3) is a square)
+# gives TWO rational sigma-stable cubic contacts (both with square multiplier),
+# with contact-data ratio v1/v2 = (j-1)/(j+1), and EXACT torsion [2,6,6].
+# CLOSED FORMS (fit all 11 verified members exactly):
+#   a(j) = (-j^6+3j^4+3j^2+2)/(j^6+j^4+j^2),  b(j) = -(j^4+5j^2+3)/(j^4+j^2+1),
+#   contact data v+-(j) = (j^2+1)/(j(j-+1))   [v1 at (j-1), v2 at (j+1)],
+#   multipliers L = sqrt(M): j=1/2: 28; 2: 7/2; 3: 221/108; 4: 105/64; 5: 1457/1000.
+# PROVEN over Q(j) (`c3symj4.m`, after substituting v(j); each branch is a
+# 0-dimensional system with a UNIQUE rational solution):
+#   branch v = (j^2+1)/(j(j-1)):  U(j) = -(2j^4+3j^2+j+2)/(j^4-j^3),
+#     M(j) = L(j)^2 with L(j) = (j^4 + j^3/2 + 3j^2/2 + j/2 + 1)/(j^4-j^3)
+#   branch v = (j^2+1)/(j(j+1)):  the j -> -j mirror:
+#     U(j) = -(2j^4+3j^2-j+2)/(j^4+j^3), L(j) = (j^4 - j^3/2 + 3j^2/2 - j/2 + 1)/(j^4+j^3)
+# Spot-check j=2: U=-6, L=7/2 -- matches the K2 fiber data exactly.
+# (The j<->1/j map sends family members to DIFFERENT Q-points of the SAME Qbar-class:
+#  j=3 <-> 1/3 both class A; j=1/2 <-> 2 both class K.)
+#
+# Known census points on it:  j = 1/2 (K1, m=-1/2), 2 (K2, m=-4/3), 3 (N1b, m=-27/19),
+#   4 (N2, m=-16/11), 5 (N4, m=-25/17), 1/3 (class-A point a=1727/91, b=-289/91, m=-3/11).
+# NEW verified members (exact TorsionSubgroup = [2,6,6], two contacts each, `c3family.m`):
+#   j=6   m=-108/73:  (a,b) = (-21329/23994, -1479/1333),   v = 37/42, 37/30
+#   j=7   m=-49/33:   (a,b) = (-110297/120099, -883/817),   v = 25/28, 25/21
+#   j=1/3 m=-3/11:    (a,b) = (1727/91, -289/91),           v = 5/2, -5
+#   j=2/5 m=-4/11:    (a,b) = (19943/1482, -797/247),       v = 29/14, -29/6
+#   j=8/3 m=-192/137: (a,b) = (-67271/152096, -7219/4753),  v = 73/88, 73/40
+# Controls m NOT of this form (1/2, 2, -2/3, 5/7, -9/7): NO rational contact (c3probe.m).
+#
+# CONSEQUENCE: together with the two C2-branches (data/claude_prod_10_266_c2_family.txt),
+# ALL known [2,6,6] points of the chart lie on three explicit rational 1-parameter
+# families (plus a<->b swaps), all inside the certified-split locus B0 = C2 u C3 u C3s.
+# The [2,6,6] census is infinite and fully structured; nothing simple anywhere in it.
+# Refined confinement conjecture: the [2,6,6] locus of the contact-6 chart is EXACTLY
+# these families (+ swaps); in particular no geometrically simple [2,6,6] on the chart.

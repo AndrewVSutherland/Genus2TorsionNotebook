@@ -1,0 +1,3 @@
+degree 40 gb 14
+qbase_size 40
+matrix_ready

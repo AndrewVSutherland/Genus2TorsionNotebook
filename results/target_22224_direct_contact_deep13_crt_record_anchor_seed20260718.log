@@ -1,0 +1,4 @@
+DIRECT_CONTACT_CRT seed 20260718 trials 1000000 anchor_record True modulus 8908737478232449 reconstruction_bound 66741057
+MASK_SIZES p11sq 1 p13sq 1 good [(17, 47, 46, 1), (19, 63, 61, 2), (23, 87, 83, 4), (29, 115, 112, 3), (31, 140, 132, 8), (37, 222, 199, 23), (41, 291, 237, 54), (43, 359, 283, 76)]
+RECONSTRUCTED 32627 UNIQUE 32627
+OUTPUT results/target_22224_direct_contact_deep13_crt_record_anchor_seed20260718.tsv

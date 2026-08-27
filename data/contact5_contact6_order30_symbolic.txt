@@ -1,0 +1,36 @@
+# Simultaneous contact-5/contact-6 equations
+
+h6 = x^3 + A*x^2 + B*x + C
+h5 = e*x^2 + d*x + c
+f = h6^2 - (x-1)^6
+
+E0 = C^2 - c^2 - 1
+E1 = 2*B*C - 2*d*c + 6
+E2 = B^2 + 2*A*C - d^2 - 2*e*c - 15
+E3 = 2*A*B - 2*e*d + 2*C + 20
+E4 = A^2 - e^2 + 2*B - 15
+E5 = 2*A + K + 6
+
+Top equation solves K = -2*A - 6
+
+Parametrized open chart C^2-c^2=1, c != 0:
+C = (u^2+1)/(2u)
+c = (u^2-1)/(2u)
+B = (e^2-A^2+15)/2
+d = (B*C+3)/c
+
+Remaining equations in (u,A,e):
+F2 = u^6*A1 - u^3*A1^4 - u^6*e1 + 2*u^3*A1^2*e1^2 - u^3*e1^4 + 6*u^4*A1^2 - 6*u^4*e1^2 - 15*u^5 - u^4*A1 + 30*u^3*A1^2 + 3*u^4*e1 - 30*u^3*e1^2 - 90*u^4 + 6*u^2*A1^2 - 6*u^2*e1^2 - 231*u^3 - u^2*A1 - 3*u^2*e1 - 90*u^2 - 15*u + A1 + e1
+F3 = -u^3*A1^3 + u^3*A1^2*e1 + u^3*A1*e1^2 - u^3*e1^3 + u^4 + 15*u^3*A1 + u*A1^3 - 15*u^3*e1 + u*A1^2*e1 - u*A1*e1^2 - u*e1^3 + 20*u^3 - 12*u^2*e1 - 15*u*A1 - 15*u*e1 - 20*u - 1
+F2 factorization:
+  exponent 1: u^6*A1 - u^3*A1^4 - u^6*e1 + 2*u^3*A1^2*e1^2 - u^3*e1^4 + 6*u^4*A1^2 - 6*u^4*e1^2 - 15*u^5 - u^4*A1 + 30*u^3*A1^2 + 3*u^4*e1 - 30*u^3*e1^2 - 90*u^4 + 6*u^2*A1^2 - 6*u^2*e1^2 - 231*u^3 - u^2*A1 - 3*u^2*e1 - 90*u^2 - 15*u + A1 + e1
+F3 factorization:
+  exponent 1: u^3*A1^3 - u^3*A1^2*e1 - u^3*A1*e1^2 + u^3*e1^3 - u^4 - 15*u^3*A1 - u*A1^3 + 15*u^3*e1 - u*A1^2*e1 + u*A1*e1^2 + u*e1^3 - 20*u^3 + 12*u^2*e1 + 15*u*A1 + 15*u*e1 + 20*u + 1
+gcd(F2,F3) = 1
+
+Resultant eliminating e: degree 31, total degree 31, terms 120
+factorization of Res_e(F2,F3):
+  exponent 3 degree 1 total_degree 1 terms 1: u
+  exponent 4 degree 1 total_degree 1 terms 2: u - 1
+  exponent 4 degree 1 total_degree 1 terms 2: u + 1
+  exponent 1 degree 20 total_degree 20 terms 72: u^20 + 20*u^19 + 12*u^18*A1 + 226*u^18 + 60*u^17*A1 - 84*u^16*A1^2 - 16*u^15*A1^3 + 1320*u^17 - 912*u^16*A1 - 240*u^15*A1^2 + 272*u^14*A1^3 - 96*u^13*A1^4 + 2865*u^16 - 6300*u^15*A1 + 6540*u^14*A1^2 - 3928*u^13*A1^3 + 1680*u^12*A1^4 - 480*u^11*A1^5 + 64*u^10*A1^6 - 1668*u^15 + 5688*u^14*A1 - 3480*u^13*A1^2 + 1440*u^12*A1^3 - 96*u^11*A1^4 + 4308*u^14 - 4908*u^13*A1 + 4548*u^12*A1^2 - 3608*u^11*A1^3 + 2160*u^10*A1^4 - 480*u^9*A1^5 - 4164*u^13 + 1680*u^12*A1 - 3000*u^11*A1^2 + 480*u^10*A1^3 - 96*u^9*A1^4 - 7122*u^12 + 4332*u^11*A1 - 1752*u^10*A1^2 - 3608*u^9*A1^3 + 1680*u^8*A1^4 + 1676*u^11 + 4536*u^10*A1 - 3000*u^9*A1^2 + 1440*u^8*A1^3 - 96*u^7*A1^4 + 5476*u^10 + 4332*u^9*A1 + 4548*u^8*A1^2 - 3928*u^7*A1^3 + 1676*u^9 + 1680*u^8*A1 - 3480*u^7*A1^2 + 272*u^6*A1^3 - 7122*u^8 - 4908*u^7*A1 + 6540*u^6*A1^2 - 16*u^5*A1^3 - 4164*u^7 + 5688*u^6*A1 - 240*u^5*A1^2 + 4308*u^6 - 6300*u^5*A1 - 84*u^4*A1^2 - 1668*u^5 - 912*u^4*A1 + 2865*u^4 + 60*u^3*A1 + 1320*u^3 + 12*u^2*A1 + 226*u^2 + 20*u + 1

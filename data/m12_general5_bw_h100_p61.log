@@ -1,0 +1,30 @@
+MASK p=3 good=0 allowed5=0 bad=9 killed=0
+MASK p=7 good=18 allowed5=4 bad=31 killed=14
+MASK p=11 good=70 allowed5=16 bad=51 killed=54
+MASK p=13 good=110 allowed5=16 bad=59 killed=94
+MASK p=17 good=198 allowed5=62 bad=91 killed=136
+MASK p=19 good=260 allowed5=72 bad=101 killed=188
+MASK p=23 good=404 allowed5=96 bad=125 killed=308
+MASK p=29 good=680 allowed5=156 bad=161 killed=524
+MASK p=31 good=790 allowed5=174 bad=171 killed=616
+MASK p=37 good=1166 allowed5=252 bad=203 killed=914
+MASK p=41 good=1450 allowed5=280 bad=231 killed=1170
+MASK p=43 good=1600 allowed5=326 bad=249 killed=1274
+MASK p=47 good=1940 allowed5=482 bad=269 killed=1458
+MASK p=53 good=2500 allowed5=596 bad=309 killed=1904
+MASK p=59 good=3142 allowed5=718 bad=339 killed=2424
+MASK p=61 good=3378 allowed5=628 bad=343 killed=2750
+PROGRESS b_index=0/12175 checked=12174 survivors=0
+PROGRESS b_index=1024/12175 checked=12440828 survivors=3
+PROGRESS b_index=2048/12175 checked=24906054 survivors=13
+PROGRESS b_index=3072/12175 checked=37371310 survivors=19
+PROGRESS b_index=4096/12175 checked=49836608 survivors=32
+PROGRESS b_index=5120/12175 checked=62301956 survivors=42
+PROGRESS b_index=6144/12175 checked=74767346 survivors=52
+PROGRESS b_index=7168/12175 checked=87232804 survivors=63
+PROGRESS b_index=8192/12175 checked=99698264 survivors=76
+PROGRESS b_index=9216/12175 checked=112163782 survivors=87
+PROGRESS b_index=10240/12175 checked=124629340 survivors=93
+PROGRESS b_index=11264/12175 checked=137094944 survivors=109
+SCAN H=100 parameters=12175 pairs=148230625 primes=16
+DONE H=100 checked=148172800 survivors=120 printed_min_good_12=0

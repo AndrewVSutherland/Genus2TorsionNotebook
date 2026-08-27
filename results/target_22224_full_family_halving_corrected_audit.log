@@ -1,0 +1,20 @@
+TARGET_22224_FULL_FAMILY_HALVING_START mode finite PrimeList [ 11, 13, 17 ]
+FULL_FAMILY_FINITE p 11 contact_keys 3685 raw_contact_parameters 7800 projective_bases 1464 cover_bases 68 open_cover_bases 24 open_curvekeys 4 target_bases 0 target_curvekeys 0 incidence_rank_hist_0_to_7 [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+mask_file results/target_22224_full_family_halving_corrected_p11.tsv
+FULL_FAMILY_FINITE_SAMPLES 11 []
+FULL_FAMILY_FINITE p 13 contact_keys 6828 raw_contact_parameters 16752 projective_bases 2380 cover_bases 104 open_cover_bases 48 open_curvekeys 6 target_bases 0 target_curvekeys 0 incidence_rank_hist_0_to_7 [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+mask_file results/target_22224_full_family_halving_corrected_p13.tsv
+FULL_FAMILY_FINITE_SAMPLES 13 []
+FULL_FAMILY_FINITE p 17 contact_keys 25492 raw_contact_parameters 55488 projective_bases 5220 cover_bases 267 open_cover_bases 168 open_curvekeys 18 target_bases 24 target_curvekeys 4 incidence_rank_hist_0_to_7 [ 0, 0, 0, 0, 0, 0, 0, 24 ]
+mask_file results/target_22224_full_family_halving_corrected_p17.tsv
+FULL_FAMILY_FINITE_SAMPLES 17 [
+<[ 1, 2, 3, 6 ], <16, 9, 15, 4>, <7, 11, 6>>,
+<[ 1, 2, 6, 3 ], <16, 9, 15, 4>, <7, 11, 6>>,
+<[ 1, 2, 6, 12 ], <15, 2, 1, 13>, <8, 5, 12>>,
+<[ 1, 2, 12, 6 ], <15, 2, 1, 13>, <8, 5, 12>>,
+<[ 1, 3, 2, 6 ], <16, 9, 15, 4>, <7, 11, 6>>,
+<[ 1, 3, 6, 2 ], <16, 9, 15, 4>, <7, 11, 6>>,
+<[ 1, 3, 6, 9 ], <8, 15, 4, 13>, <4, 14, 3>>,
+<[ 1, 3, 9, 6 ], <8, 15, 4, 13>, <4, 14, 3>>
+]
+TARGET_22224_FULL_FAMILY_HALVING_DONE

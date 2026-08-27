@@ -1,0 +1,16 @@
+GPCTRL 295.a.295.2  Npub=295  v2(Npub)=0  oddpart(Npub)=295  genus2red_N=295  EQUALS_ODDPART=1  sentinel[2,-1]=0
+GPCTRL 464.a.464.1  Npub=464  v2(Npub)=4  oddpart(Npub)=29  genus2red_N=29  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 464.a.29696.2  Npub=464  v2(Npub)=4  oddpart(Npub)=29  genus2red_N=29  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 1416.b.135936.1  Npub=1416  v2(Npub)=3  oddpart(Npub)=177  genus2red_N=177  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 2600.a.338000.1  Npub=2600  v2(Npub)=3  oddpart(Npub)=325  genus2red_N=325  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 1575.c.1  Npub=1575  v2(Npub)=0  oddpart(Npub)=1575  genus2red_N=1575  EQUALS_ODDPART=1  sentinel[2,-1]=0
+GPCTRL 3942.b.3  Npub=3942  v2(Npub)=1  oddpart(Npub)=1971  genus2red_N=1971  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 9450.b.2  Npub=9450  v2(Npub)=1  oddpart(Npub)=4725  genus2red_N=9450  EQUALS_ODDPART=0  sentinel[2,-1]=0
+GPCTRL 10512.n.1  Npub=10512  v2(Npub)=4  oddpart(Npub)=657  genus2red_N=657  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 12300.e.2  Npub=12300  v2(Npub)=2  oddpart(Npub)=3075  genus2red_N=3075  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 19044.h.2  Npub=19044  v2(Npub)=2  oddpart(Npub)=4761  genus2red_N=4761  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 39600.dq.1  Npub=39600  v2(Npub)=4  oddpart(Npub)=2475  genus2red_N=2475  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 8136.c.1  Npub=8136  v2(Npub)=3  oddpart(Npub)=1017  genus2red_N=1017  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRL 28200.e.1  Npub=28200  v2(Npub)=3  oddpart(Npub)=3525  genus2red_N=3525  EQUALS_ODDPART=1  sentinel[2,-1]=1
+GPCTRLSUMMARY  genus2red_N == oddpart(Npub) in 13 of 14 ; sentinel [2,-1] present in 11 of 14
+ERRATUM_GPCTRL_DONE

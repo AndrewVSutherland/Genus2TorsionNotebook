@@ -1,0 +1,158 @@
+==================================================
+HLP Z/63  (Forum Math 12 (2000), eq. (4))
+f = 897*z^6 - 197570*z^4 + 79136353*z^2 - 146398496
+degree 6 squarefree true
+leading unit 897
+factor degrees [ 6 ]
+genus 2
+disc factorization: [ <2, 63>, <3, 15>, <13, 3>, <19, 5>, <23, 22>, <29, 1> ]
+TORSION invariants: [ 63 ]
+ order 63  ( 0.140 s )
+2-torsion invariants: []
+  gen 1 order 63 -> (x^2 - 368/37*x + 475/37, 14938960/1369*x - 31037488/1369, 2)
+  SUBCOVER E1 (u=x^2): [ 0, -197570, 0, 70985308641, -117793547468064 ]
+ cond 1482  torsion [ 9 ]
+ rank 1 true
+  SUBCOVER E2 (u=1/x^2): [ 0, 79136353, 0, 28923950854720, 19224970109062628352 ]
+ cond 42978  torsion [ 7 ]
+ rank 1 true
+good primes tested 56  chi irreducible count 0
+real-subfield squarefree cores: [ 0, 1 ]
+sig detail: [
+<5, 1, false, [ 2, 2 ]>,
+<7, 1, false, [ 2, 2 ]>,
+<11, 1, false, [ 2, 2 ]>,
+<17, 1, false, [ 2, 2 ]>,
+<31, 1, false, [ 2, 2 ]>,
+<37, 1, false, [ 2, 2 ]>,
+<41, 1, false, [ 2, 2 ]>,
+<43, 1, false, [ 2, 2 ]>,
+<47, 1, false, [ 2, 2 ]>,
+<53, 1, false, [ 2, 2 ]>,
+<59, 0, false, [ 2 ]>,
+<61, 0, false, [ 2 ]>,
+<67, 1, false, [ 2, 2 ]>,
+<71, 1, false, [ 2, 2 ]>,
+<73, 1, false, [ 2, 2 ]>,
+<79, 1, false, [ 2, 2 ]>,
+<83, 1, false, [ 2, 2 ]>,
+<89, 1, false, [ 2, 2 ]>,
+<97, 1, false, [ 2, 2 ]>,
+<101, 1, false, [ 2, 2 ]>,
+<103, 1, false, [ 2, 2 ]>,
+<107, 1, false, [ 2, 2 ]>,
+<109, 1, false, [ 2, 2 ]>,
+<113, 1, false, [ 2, 2 ]>,
+<127, 1, false, [ 2, 2 ]>,
+<131, 1, false, [ 2, 2 ]>,
+<137, 1, false, [ 2, 2 ]>,
+<139, 1, false, [ 2, 2 ]>,
+<149, 1, false, [ 2, 2 ]>,
+<151, 1, false, [ 2, 2 ]>,
+<157, 1, false, [ 2, 2 ]>,
+<163, 1, false, [ 2, 2 ]>,
+<167, 1, false, [ 2, 2 ]>,
+<173, 1, false, [ 2, 2 ]>,
+<179, 1, false, [ 2, 2 ]>,
+<181, 1, false, [ 2, 2 ]>,
+<191, 1, false, [ 2, 2 ]>,
+<193, 1, false, [ 2, 2 ]>,
+<197, 1, false, [ 2, 2 ]>,
+<199, 1, false, [ 2, 2 ]>,
+<211, 1, false, [ 2, 2 ]>,
+<223, 1, false, [ 2, 2 ]>,
+<227, 1, false, [ 2, 2 ]>,
+<229, 1, false, [ 2, 2 ]>,
+<233, 0, false, [ 2 ]>,
+<239, 1, false, [ 2, 2 ]>,
+<241, 0, false, [ 2 ]>,
+<251, 1, false, [ 2, 2 ]>,
+<257, 0, false, [ 2 ]>,
+<263, 1, false, [ 2, 2 ]>,
+<269, 1, false, [ 2, 2 ]>,
+<271, 1, false, [ 2, 2 ]>,
+<277, 1, false, [ 2, 2 ]>,
+<281, 1, false, [ 2, 2 ]>,
+<283, 1, false, [ 2, 2 ]>,
+<293, 1, false, [ 2, 2 ]>
+]
+==================================================
+HLP Z/7 x Z/7 (Forum Math 12 (2000), p.15)
+f = x^6 + 3025*x^4 + 3232987*x^2 + 869675859
+degree 6 squarefree true
+leading unit 1
+factor degrees [ 6 ]
+genus 2
+disc factorization: [ <2, 60>, <3, 21>, <7, 14>, <13, 5>, <181, 1> ]
+TORSION invariants: [ 7, 7 ]
+ order 49  ( 0.050 s )
+2-torsion invariants: []
+  gen 1 order 7 -> (x^2 + 112/5*x + 1567, 4256/25*x + 93856/5, 2)
+  gen 2 order 7 -> (x^2 - 98*x - 351, 11172*x + 68796, 2)
+  SUBCOVER E1 (u=x^2): [ 0, 3025, 0, 3232987, 869675859 ]
+ cond 546  torsion [ 7 ]
+ rank 0 true
+  SUBCOVER E2 (u=1/x^2): [ 0, 3232987, 0, 2630769473475, 756336099727387881 ]
+ cond 98826  torsion [ 7 ]
+ rank 1 true
+good primes tested 57  chi irreducible count 0
+real-subfield squarefree cores: [ 0, 1 ]
+sig detail: [
+<5, 0, false, [ 2 ]>,
+<11, 0, false, [ 2 ]>,
+<17, 0, false, [ 2 ]>,
+<19, 0, false, [ 2 ]>,
+<23, 0, false, [ 2 ]>,
+<29, 1, false, [ 2, 2 ]>,
+<31, 0, false, [ 2 ]>,
+<37, 1, false, [ 2, 2 ]>,
+<41, 0, false, [ 2 ]>,
+<43, 0, false, [ 2 ]>,
+<47, 0, false, [ 2 ]>,
+<53, 0, false, [ 2 ]>,
+<59, 1, false, [ 2, 2 ]>,
+<61, 1, false, [ 2, 2 ]>,
+<67, 0, false, [ 2 ]>,
+<71, 0, false, [ 2 ]>,
+<73, 1, false, [ 2, 2 ]>,
+<79, 0, false, [ 2 ]>,
+<83, 1, false, [ 2, 2 ]>,
+<89, 1, false, [ 2, 2 ]>,
+<97, 1, false, [ 2, 2 ]>,
+<101, 1, false, [ 2, 2 ]>,
+<103, 1, false, [ 2, 2 ]>,
+<107, 1, false, [ 2, 2 ]>,
+<109, 0, false, [ 2 ]>,
+<113, 1, false, [ 2, 2 ]>,
+<127, 1, false, [ 2, 2 ]>,
+<131, 1, false, [ 2, 2 ]>,
+<137, 1, false, [ 2, 2 ]>,
+<139, 1, false, [ 2, 2 ]>,
+<149, 1, false, [ 2, 2 ]>,
+<151, 1, false, [ 2, 2 ]>,
+<157, 1, false, [ 2, 2 ]>,
+<163, 1, false, [ 2, 2 ]>,
+<167, 1, false, [ 2, 2 ]>,
+<173, 1, false, [ 2, 2 ]>,
+<179, 1, false, [ 2, 2 ]>,
+<191, 0, false, [ 2 ]>,
+<193, 1, false, [ 2, 2 ]>,
+<197, 1, false, [ 2, 2 ]>,
+<199, 1, false, [ 2, 2 ]>,
+<211, 1, false, [ 2, 2 ]>,
+<223, 0, false, [ 2 ]>,
+<227, 1, false, [ 2, 2 ]>,
+<229, 1, false, [ 2, 2 ]>,
+<233, 1, false, [ 2, 2 ]>,
+<239, 1, false, [ 2, 2 ]>,
+<241, 1, false, [ 2, 2 ]>,
+<251, 1, false, [ 2, 2 ]>,
+<257, 0, false, [ 2 ]>,
+<263, 1, false, [ 2, 2 ]>,
+<269, 1, false, [ 2, 2 ]>,
+<271, 1, false, [ 2, 2 ]>,
+<277, 1, false, [ 2, 2 ]>,
+<281, 0, false, [ 2 ]>,
+<283, 1, false, [ 2, 2 ]>,
+<293, 1, false, [ 2, 2 ]>
+]

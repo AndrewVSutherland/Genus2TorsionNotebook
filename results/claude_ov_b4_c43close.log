@@ -1,0 +1,47 @@
+=== LOCUS (i): the quadratic block splits ===
+E19 minimal model: [ 0, 1, 1, 1, 0 ]  conductor 19
+E19 rank bounds: [ 0 ]
+E19 torsion: [ 3 ]
+E19 MordellWeilGroup: [ 3 ]  proven: true true
+E19 rational points: [ (0 : 1 : 0), (0 : 0 : 1), (0 : -1 : 1) ]
+direct model y^2=-4w^3+4w^2-4w+1 : points to 10^6 = {@ (1 : 0 : 0), (0 : -1 : 1), (0 : 1 : 1) @}
+
+LINEAR FACTOR: X + (-w^2 + 2*w - 1)/w^2
+CUBIC FACTOR: X^3 + (-2*w^3 + 5*w^2 - 4*w + 2)/w^2*X^2 + (w^6 - 4*w^5 + 9*w^4 - 10*w^3 + 8*w^2 - 4*w + 1)/w^4*X + (-w^6 + 4*w^5 - 8*w^4 + 10*w^3 - 8*w^2 + 4*w - 1)/w^4
+
+=== LOCUS (ii): the cubic factor acquires a rational root ===
+C3 equation: W^6*Xv - W^6 - 2*W^5*Xv^2 - 4*W^5*Xv + 4*W^5 + W^4*Xv^3 + 5*W^4*Xv^2 + 9*W^4*Xv - 8*W^4 - 4*W^3*Xv^2 - 10*W^3*Xv + 10*W^3 + 2*W^2*Xv^2 + 8*W^2*Xv - 8*W^2 - 4*W*Xv + 4*W + Xv - 1
+C3 bidegree (w,x) = (6,3)
+C3 absolutely irreducible: true
+C3 GEOMETRIC GENUS = 3
+C3 PointSearch(2000): 5 points
+  C3PT (0 : 1 : 0)
+  C3PT (0 : 1 : 1)
+  C3PT (1 : 0 : 0)
+  C3PT (1 : 1 : 0)
+  C3PT (1 : 0 : 1)
+C3 hyperelliptic: false
+
+--- symmetric model  T(w) + T(z) = 0  (z = 1/(1-rho)) ---
+Dsym bidegree (3,3), absolutely irreducible: true
+Dsym GENUS = 3
+QUOTIENT genus-1 curve y^2 = q^4+4q^3-12q^2+8q, genus 1
+  MINIMAL MODEL [ 0, 0, 0, -1, 1 ]  conductor 92
+  rank bounds [ 1 ]  torsion []
+  MordellWeilGroup [ 0 ] proven true true  generators [ (1 : -1 : 1) ]
+  SAME CURVE as the (6,2) component's model (92.a1)? true
+
+=== MEMBERS: exact torsion of y^2 = F_{t(w)} for small w ===
+w=2 t=-9/16 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 44>, <3, 17>, <23, 1>, <83, 1> ]
+w=3 t=-196/81 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 20>, <7, 14>, <19, 1>, <23, 3>, <71, 1>, <83, 1> ]
+w=-1 t=-36 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 17>, <13, 1>, <521, 1> ]
+w=1/2 t=-9/4 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 19>, <37, 1> ]
+w=4 t=-1521/256 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 64>, <3, 17>, <13, 14>, <23, 2>, <29, 2>, <1093, 1> ]
+w=-2 t=-441/16 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 44>, <3, 18>, <7, 14>, <19, 1>, <659, 1> ]
+w=5 t=-7056/625 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 48>, <3, 19>, <5, 20>, <7, 14>, <13, 2>, <419, 1>, <471353, 1> ]
+w=3/2 t=-49/324 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 20>, <7, 14>, <19, 3>, <10709, 1> ]
+w=-3 t=-2704/81 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 48>, <3, 20>, <13, 14>, <19, 2>, <157, 1>, <1034491, 1> ]
+w=2/3 t=-49/144 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 44>, <3, 10>, <7, 14>, <13, 2>, <29, 1>, <3571, 1> ]
+w=7 t=-66564/2401 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 17>, <7, 20>, <43, 14>, <331, 2>, <401, 1>, <70061, 1> ]
+w=5/2 t=-3249/2500 factortype=[ 1, 2, 3 ] TORSION=[ 22 ] cond-disc=[ <2, 34>, <3, 17>, <5, 20>, <19, 14>, <31, 1>, <101, 2>, <95923, 1> ]
+C43CLOSE_DONE

@@ -1,0 +1,7 @@
+torsion_coset	m_residue	m_modulus	n_residue	n_modulus
+1	0	8	0	4
+1	4	8	0	4
+1	6	8	2	4
+2	6	8	1	4
+2	0	8	3	4
+2	2	8	1	4

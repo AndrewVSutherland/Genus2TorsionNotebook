@@ -1,0 +1,44 @@
+HERMITE5_ORDER60_REFINED_SUMMARY
+MASK p 7 good 82 allowed_order12 6 bad 261
+MASK p 11 good 560 allowed_order12 50 bad 771
+MASK p 13 good 1056 allowed_order12 108 bad 1141
+MASK p 17 good 2840 allowed_order12 400 bad 2073
+MASK p 19 good 4236 allowed_order12 500 bad 2623
+MASK p 23 good 8174 allowed_order12 1496 bad 3993
+MASK p 29 good 17868 allowed_order12 2714 bad 6521
+MASK p 31 good 22276 allowed_order12 3178 bad 7515
+MASK p 37 good 39594 allowed_order12 5406 bad 11059
+MASK p 41 good 55354 allowed_order12 8882 bad 13567
+
+INTEGER H 1000
+pairs 4000000
+crt_classes 1087146168
+candidate_lifts 2157158316
+conservative_survivors 2450907
+good_masks_ge_8 72
+good_masks_ge_9 0
+fresh_kills p43 58 p47 12 p53 2
+fresh_bad_at_p43 6
+fresh_survivors 0
+
+RATIONAL H 30
+parameters 1111
+checked 1365170136
+conservative_survivors 863703
+good_masks_ge_8 9
+good_masks_ge_9 0
+strong 10 -4 -27/13
+strong 21 -12/7 -4/3
+strong -2/7 -16/3 29/15
+strong 12/7 -21 -11/3
+strong -27/16 13/3 -7/27
+strong 15/22 -4/27 -12/13
+strong -9/23 4/23 -15/28
+strong 4/25 16/27 -14/15
+strong 4/27 11/25 11/10
+fresh_kills p43 6 p47 3
+fresh_bad_at_p43 1
+fresh_survivors 0
+
+PEAK_MEMORY_APPROX_MB 32
+CYCLIC_60_HITS 0

@@ -1,0 +1,357 @@
+
+########## p = 3 :  1296 curves enumerated, 50 distinct isogeny classes
+Weil range for #J(F_p) = [0.29, 55.71]
+  Z/35                           compatible classes:   1   curves:       12 (0.9259%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=3 can never certify
+        s1=  -4 s2=    9 #J=     35 curves=       12 irred=0 abs_simple=0
+  Z/45                           compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/7xZ/7                        compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/5xZ/10                       compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/63                           compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/70                           compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/2xZ/24                       compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/3xZ/12                       compatible classes:   1   curves:        1 (0.0772%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=3 can never certify
+        s1=  -4 s2=   10 #J=     36 curves=        1 irred=0 abs_simple=0
+  Z/40 CONTROL simple known      compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+  Z/30 CONTROL simple known      compatible classes:   0   curves:        0 (0.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> NO compatible isogeny class over F_3: every C/Q with this torsion has BAD REDUCTION at 3
+
+########## p = 5 :  30000 curves enumerated, 115 distinct isogeny classes
+Weil range for #J(F_p) = [2.33, 109.67]
+  Z/35                           compatible classes:   3   curves:      840 (2.8000%)   ABS-SIMPLE classes:  1, curves: 600
+        s1=  -5 s2=   14 #J=     70 curves=      120 irred=0 abs_simple=0
+        s1=  -1 s2=    3 #J=     35 curves=      600 irred=1 abs_simple=1
+        s1=   0 s2=    9 #J=     35 curves=      120 irred=0 abs_simple=0
+  Z/45                           compatible classes:   1   curves:      540 (1.8000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -2 s2=    7 #J=     45 curves=      540 irred=0 abs_simple=0
+  Z/7xZ/7                        compatible classes:   1   curves:       60 (0.2000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -2 s2=   11 #J=     49 curves=       60 irred=0 abs_simple=0
+  Z/5xZ/10                       compatible classes:   1   curves:      120 (0.4000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -3 s2=    6 #J=     50 curves=      120 irred=0 abs_simple=0
+  Z/63                           compatible classes:   1   curves:      180 (0.6000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -4 s2=   13 #J=     63 curves=      180 irred=0 abs_simple=0
+  Z/70                           compatible classes:   1   curves:      120 (0.4000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -5 s2=   14 #J=     70 curves=      120 irred=0 abs_simple=0
+  Z/2xZ/24                       compatible classes:   2   curves:      520 (1.7333%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -3 s2=    4 #J=     48 curves=      280 irred=1 abs_simple=0
+        s1=  -2 s2=   10 #J=     48 curves=      240 irred=0 abs_simple=0
+  Z/3xZ/12                       compatible classes:   1   curves:       50 (0.1667%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=   0 s2=   10 #J=     36 curves=       50 irred=0 abs_simple=0
+  Z/40 CONTROL simple known      compatible classes:   3   curves:      900 (3.0000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -6 s2=   18 #J=     80 curves=       60 irred=0 abs_simple=0
+        s1=  -2 s2=    2 #J=     40 curves=      480 irred=0 abs_simple=0
+        s1=  -1 s2=    8 #J=     40 curves=      360 irred=0 abs_simple=0
+  Z/30 CONTROL simple known      compatible classes:   3   curves:     1320 (4.4000%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=5 can never certify
+        s1=  -4 s2=   10 #J=     60 curves=      360 irred=0 abs_simple=0
+        s1=  -1 s2=   -2 #J=     30 curves=      240 irred=0 abs_simple=0
+        s1=   0 s2=    4 #J=     30 curves=      720 irred=1 abs_simple=0
+
+########## p = 7 :  230496 curves enumerated, 192 distinct isogeny classes
+Weil range for #J(F_p) = [7.34, 176.66]
+  Z/35                           compatible classes:   7   curves:     8064 (3.4985%)   ABS-SIMPLE classes:  5, curves: 6384
+        s1=  -5 s2=   15 #J=    105 curves=     1344 irred=1 abs_simple=1
+        s1=  -2 s2=    4 #J=     70 curves=     2016 irred=1 abs_simple=1
+        s1=  -1 s2=   12 #J=     70 curves=     1008 irred=0 abs_simple=0
+        s1=   1 s2=   -7 #J=     35 curves=      672 irred=1 abs_simple=1
+        s1=   2 s2=    1 #J=     35 curves=      672 irred=1 abs_simple=1
+        s1=   3 s2=    9 #J=     35 curves=     1680 irred=1 abs_simple=1
+        s1=   4 s2=   17 #J=     35 curves=      672 irred=0 abs_simple=0
+  Z/45                           compatible classes:   4   curves:     7560 (3.2799%)   ABS-SIMPLE classes:  1, curves: 2688
+        s1=  -4 s2=    8 #J=     90 curves=      840 irred=1 abs_simple=0
+        s1=   0 s2=   -5 #J=     45 curves=     2016 irred=1 abs_simple=0
+        s1=   1 s2=    3 #J=     45 curves=     2688 irred=1 abs_simple=1
+        s1=   2 s2=   11 #J=     45 curves=     2016 irred=0 abs_simple=0
+  Z/7xZ/7                        compatible classes:   4   curves:     4256 (1.8465%)   ABS-SIMPLE classes:  2, curves: 3360
+        s1=  -4 s2=   16 #J=     98 curves=     1344 irred=1 abs_simple=1
+        s1=   0 s2=   -1 #J=     49 curves=      672 irred=1 abs_simple=0
+        s1=   1 s2=    7 #J=     49 curves=     2016 irred=1 abs_simple=1
+        s1=   2 s2=   15 #J=     49 curves=      224 irred=0 abs_simple=0
+  Z/5xZ/10                       compatible classes:   2   curves:     1652 (0.7167%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=7 can never certify
+        s1=  -4 s2=   18 #J=    100 curves=      308 irred=0 abs_simple=0
+        s1=   1 s2=    8 #J=     50 curves=     1344 irred=0 abs_simple=0
+  Z/63                           compatible classes:   3   curves:     2464 (1.0690%)   ABS-SIMPLE classes:  1, curves: 1680
+        s1=  -2 s2=   -3 #J=     63 curves=      112 irred=1 abs_simple=0
+        s1=  -1 s2=    5 #J=     63 curves=     1680 irred=1 abs_simple=1
+        s1=   0 s2=   13 #J=     63 curves=      672 irred=0 abs_simple=0
+  Z/70                           compatible classes:   2   curves:     3024 (1.3120%)   ABS-SIMPLE classes:  1, curves: 2016
+        s1=  -2 s2=    4 #J=     70 curves=     2016 irred=1 abs_simple=1
+        s1=  -1 s2=   12 #J=     70 curves=     1008 irred=0 abs_simple=0
+  Z/2xZ/24                       compatible classes:   5   curves:     6412 (2.7818%)   ABS-SIMPLE classes:  1, curves: 2688
+        s1=  -8 s2=   30 #J=    144 curves=       28 irred=0 abs_simple=0
+        s1=  -4 s2=   14 #J=     96 curves=     1344 irred=0 abs_simple=0
+        s1=   0 s2=   -2 #J=     48 curves=     1680 irred=0 abs_simple=0
+        s1=   1 s2=    6 #J=     48 curves=     2688 irred=1 abs_simple=1
+        s1=   2 s2=   14 #J=     48 curves=      672 irred=0 abs_simple=0
+  Z/3xZ/12                       compatible classes:   8   curves:    10164 (4.4096%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=7 can never certify
+        s1=  -8 s2=   30 #J=    144 curves=       28 irred=0 abs_simple=0
+        s1=  -5 s2=   18 #J=    108 curves=     1008 irred=0 abs_simple=0
+        s1=  -2 s2=    6 #J=     72 curves=     4032 irred=0 abs_simple=0
+        s1=   0 s2=  -14 #J=     36 curves=       28 irred=0 abs_simple=0
+        s1=   1 s2=   -6 #J=     36 curves=      448 irred=0 abs_simple=0
+        s1=   2 s2=    2 #J=     36 curves=     2520 irred=1 abs_simple=0
+        s1=   3 s2=   10 #J=     36 curves=     1792 irred=0 abs_simple=0
+        s1=   4 s2=   18 #J=     36 curves=      308 irred=0 abs_simple=0
+  Z/40 CONTROL simple known      compatible classes:   7   curves:    12264 (5.3207%)   ABS-SIMPLE classes:  2, curves: 4704
+        s1=  -6 s2=   22 #J=    120 curves=      672 irred=0 abs_simple=0
+        s1=  -3 s2=    6 #J=     80 curves=     2016 irred=1 abs_simple=1
+        s1=  -2 s2=   14 #J=     80 curves=      672 irred=0 abs_simple=0
+        s1=   0 s2=  -10 #J=     40 curves=      840 irred=1 abs_simple=0
+        s1=   1 s2=   -2 #J=     40 curves=     2688 irred=1 abs_simple=1
+        s1=   2 s2=    6 #J=     40 curves=     4032 irred=0 abs_simple=0
+        s1=   3 s2=   14 #J=     40 curves=     1344 irred=0 abs_simple=0
+  Z/30 CONTROL simple known      compatible classes:   6   curves:     7896 (3.4257%)   ABS-SIMPLE classes:  1, curves: 1344
+        s1=  -6 s2=   22 #J=    120 curves=      672 irred=0 abs_simple=0
+        s1=  -4 s2=    8 #J=     90 curves=      840 irred=1 abs_simple=0
+        s1=  -1 s2=    2 #J=     60 curves=     1344 irred=0 abs_simple=0
+        s1=   0 s2=   10 #J=     60 curves=     3024 irred=0 abs_simple=0
+        s1=   3 s2=    4 #J=     30 curves=      672 irred=0 abs_simple=0
+        s1=   4 s2=   12 #J=     30 curves=     1344 irred=1 abs_simple=1
+
+########## p = 11 :  3513840 curves enumerated, 385 distinct isogeny classes
+Weil range for #J(F_p) = [28.80, 347.20]
+  Z/35                           compatible classes:  11   curves:   117480 (3.3434%)   ABS-SIMPLE classes:  6, curves: 64680
+        s1=  -4 s2=    5 #J=    175 curves=     5280 irred=1 abs_simple=0
+        s1=  -3 s2=   17 #J=    175 curves=    15840 irred=1 abs_simple=1
+        s1=  -2 s2=   -6 #J=    140 curves=     7920 irred=1 abs_simple=1
+        s1=  -1 s2=    6 #J=    140 curves=    10560 irred=1 abs_simple=1
+        s1=   0 s2=  -17 #J=    105 curves=     2640 irred=1 abs_simple=0
+        s1=   0 s2=   18 #J=    140 curves=    11880 irred=0 abs_simple=0
+        s1=   1 s2=   -5 #J=    105 curves=    11880 irred=1 abs_simple=1
+        s1=   2 s2=    7 #J=    105 curves=    27720 irred=0 abs_simple=0
+        s1=   3 s2=   19 #J=    105 curves=    13200 irred=1 abs_simple=1
+        s1=   6 s2=   20 #J=     70 curves=     5280 irred=1 abs_simple=1
+        s1=   7 s2=   32 #J=     70 curves=     5280 irred=0 abs_simple=0
+  Z/45                           compatible classes:   9   curves:    93500 (2.6609%)   ABS-SIMPLE classes:  3, curves: 23760
+        s1=  -9 s2=   40 #J=    270 curves=     2640 irred=0 abs_simple=0
+        s1=  -6 s2=   31 #J=    225 curves=     2420 irred=0 abs_simple=0
+        s1=  -4 s2=   10 #J=    180 curves=    18480 irred=0 abs_simple=0
+        s1=  -3 s2=   22 #J=    180 curves=    10560 irred=0 abs_simple=0
+        s1=  -1 s2=    1 #J=    135 curves=     7920 irred=1 abs_simple=1
+        s1=   0 s2=   13 #J=    135 curves=    25080 irred=0 abs_simple=0
+        s1=   2 s2=   -8 #J=     90 curves=     5280 irred=1 abs_simple=1
+        s1=   3 s2=    4 #J=     90 curves=    10560 irred=0 abs_simple=0
+        s1=   4 s2=   16 #J=     90 curves=    10560 irred=1 abs_simple=1
+  Z/7xZ/7                        compatible classes:   3   curves:    11550 (0.3287%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=11 can never certify
+        s1=  -4 s2=   26 #J=    196 curves=     2970 irred=0 abs_simple=0
+        s1=   3 s2=   12 #J=     98 curves=     7920 irred=0 abs_simple=0
+        s1=  10 s2=   47 #J=     49 curves=      660 irred=0 abs_simple=0
+  Z/5xZ/10                       compatible classes:   9   curves:    84810 (2.4136%)   ABS-SIMPLE classes:  2, curves: 29040
+        s1=  -8 s2=   32 #J=    250 curves=     3300 irred=1 abs_simple=0
+        s1=  -5 s2=   18 #J=    200 curves=    13200 irred=1 abs_simple=1
+        s1=  -2 s2=    4 #J=    150 curves=    15840 irred=1 abs_simple=1
+        s1=  -1 s2=   16 #J=    150 curves=    13200 irred=0 abs_simple=0
+        s1=   0 s2=  -22 #J=    100 curves=      220 irred=0 abs_simple=0
+        s1=   1 s2=  -10 #J=    100 curves=     3960 irred=1 abs_simple=0
+        s1=   2 s2=    2 #J=    100 curves=    19800 irred=1 abs_simple=0
+        s1=   3 s2=   14 #J=    100 curves=    12320 irred=1 abs_simple=0
+        s1=   4 s2=   26 #J=    100 curves=     2970 irred=0 abs_simple=0
+  Z/63                           compatible classes:   7   curves:    79200 (2.2539%)   ABS-SIMPLE classes:  2, curves: 14520
+        s1=  -8 s2=   34 #J=    252 curves=     7920 irred=0 abs_simple=0
+        s1=  -4 s2=   19 #J=    189 curves=    10560 irred=1 abs_simple=1
+        s1=  -1 s2=   -8 #J=    126 curves=     6600 irred=0 abs_simple=0
+        s1=   0 s2=    4 #J=    126 curves=    33000 irred=1 abs_simple=0
+        s1=   1 s2=   16 #J=    126 curves=    13200 irred=0 abs_simple=0
+        s1=   7 s2=   25 #J=     63 curves=     3960 irred=1 abs_simple=1
+        s1=   8 s2=   37 #J=     63 curves=     3960 irred=0 abs_simple=0
+  Z/70                           compatible classes:   5   curves:    40920 (1.1645%)   ABS-SIMPLE classes:  3, curves: 23760
+        s1=  -2 s2=   -6 #J=    140 curves=     7920 irred=1 abs_simple=1
+        s1=  -1 s2=    6 #J=    140 curves=    10560 irred=1 abs_simple=1
+        s1=   0 s2=   18 #J=    140 curves=    11880 irred=0 abs_simple=0
+        s1=   6 s2=   20 #J=     70 curves=     5280 irred=1 abs_simple=1
+        s1=   7 s2=   32 #J=     70 curves=     5280 irred=0 abs_simple=0
+  Z/2xZ/24                       compatible classes:  10   curves:   122100 (3.4748%)   ABS-SIMPLE classes:  2, curves: 31680
+        s1= -10 s2=   46 #J=    288 curves=     1320 irred=0 abs_simple=0
+        s1=  -4 s2=   22 #J=    192 curves=    15840 irred=0 abs_simple=0
+        s1=  -2 s2=   -2 #J=    144 curves=    17160 irred=0 abs_simple=0
+        s1=  -1 s2=   10 #J=    144 curves=    18480 irred=0 abs_simple=0
+        s1=   0 s2=   22 #J=    144 curves=     3300 irred=0 abs_simple=0
+        s1=   1 s2=  -14 #J=     96 curves=     5280 irred=1 abs_simple=1
+        s1=   2 s2=   -2 #J=     96 curves=    17160 irred=0 abs_simple=0
+        s1=   3 s2=   10 #J=     96 curves=    26400 irred=1 abs_simple=1
+        s1=   4 s2=   22 #J=     96 curves=    15840 irred=0 abs_simple=0
+        s1=  10 s2=   46 #J=     48 curves=     1320 irred=0 abs_simple=0
+  Z/3xZ/12                       compatible classes:   8   curves:    66110 (1.8814%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=11 can never certify
+        s1= -12 s2=   58 #J=    324 curves=       55 irred=0 abs_simple=0
+        s1=  -6 s2=   22 #J=    216 curves=    17160 irred=0 abs_simple=0
+        s1=  -3 s2=   22 #J=    180 curves=    10560 irred=0 abs_simple=0
+        s1=   0 s2=  -14 #J=    108 curves=     7260 irred=0 abs_simple=0
+        s1=   0 s2=   22 #J=    144 curves=     3300 irred=0 abs_simple=0
+        s1=   3 s2=   22 #J=    108 curves=    10560 irred=0 abs_simple=0
+        s1=   6 s2=   22 #J=     72 curves=    17160 irred=0 abs_simple=0
+        s1=  12 s2=   58 #J=     36 curves=       55 irred=0 abs_simple=0
+  Z/40 CONTROL simple known      compatible classes:  10   curves:   141504 (4.0270%)   ABS-SIMPLE classes:  5, curves: 59664
+        s1=  -5 s2=   18 #J=    200 curves=    13200 irred=1 abs_simple=1
+        s1=  -3 s2=    2 #J=    160 curves=    15840 irred=1 abs_simple=1
+        s1=  -2 s2=   14 #J=    160 curves=    23760 irred=0 abs_simple=0
+        s1=  -1 s2=  -14 #J=    120 curves=     5280 irred=1 abs_simple=1
+        s1=   0 s2=   -2 #J=    120 curves=    29040 irred=1 abs_simple=0
+        s1=   1 s2=   10 #J=    120 curves=    18480 irred=0 abs_simple=0
+        s1=   2 s2=   22 #J=    120 curves=     7920 irred=0 abs_simple=0
+        s1=   4 s2=    6 #J=     80 curves=    12144 irred=1 abs_simple=1
+        s1=   5 s2=   18 #J=     80 curves=    13200 irred=1 abs_simple=1
+        s1=   6 s2=   30 #J=     80 curves=     2640 irred=0 abs_simple=0
+  Z/30 CONTROL simple known      compatible classes:  13   curves:   155760 (4.4328%)   ABS-SIMPLE classes:  4, curves: 36960
+        s1=  -9 s2=   40 #J=    270 curves=     2640 irred=0 abs_simple=0
+        s1=  -4 s2=   10 #J=    180 curves=    18480 irred=0 abs_simple=0
+        s1=  -3 s2=   22 #J=    180 curves=    10560 irred=0 abs_simple=0
+        s1=  -2 s2=    4 #J=    150 curves=    15840 irred=1 abs_simple=1
+        s1=  -1 s2=  -14 #J=    120 curves=     5280 irred=1 abs_simple=1
+        s1=  -1 s2=   16 #J=    150 curves=    13200 irred=0 abs_simple=0
+        s1=   0 s2=   -2 #J=    120 curves=    29040 irred=1 abs_simple=0
+        s1=   1 s2=   10 #J=    120 curves=    18480 irred=0 abs_simple=0
+        s1=   2 s2=   -8 #J=     90 curves=     5280 irred=1 abs_simple=1
+        s1=   2 s2=   22 #J=    120 curves=     7920 irred=0 abs_simple=0
+        s1=   3 s2=    4 #J=     90 curves=    10560 irred=0 abs_simple=0
+        s1=   4 s2=   16 #J=     90 curves=    10560 irred=1 abs_simple=1
+        s1=   8 s2=   34 #J=     60 curves=     7920 irred=0 abs_simple=0
+
+########## p = 13 :  9596496 curves enumerated, 494 distinct isogeny classes
+Weil range for #J(F_p) = [46.09, 449.91]
+  Z/35                           compatible classes:  15   curves:   395304 (4.1193%)   ABS-SIMPLE classes:  7, curves: 238056
+        s1=  -8 s2=   33 #J=    315 curves=    10920 irred=0 abs_simple=0
+        s1=  -6 s2=   26 #J=    280 curves=    34944 irred=0 abs_simple=0
+        s1=  -4 s2=   19 #J=    245 curves=    13104 irred=1 abs_simple=1
+        s1=  -3 s2=   -2 #J=    210 curves=    10920 irred=0 abs_simple=0
+        s1=  -2 s2=   12 #J=    210 curves=    61152 irred=1 abs_simple=1
+        s1=  -1 s2=   -9 #J=    175 curves=    17472 irred=1 abs_simple=1
+        s1=   0 s2=    5 #J=    175 curves=    43680 irred=1 abs_simple=0
+        s1=   1 s2=  -16 #J=    140 curves=     6552 irred=0 abs_simple=0
+        s1=   1 s2=   19 #J=    175 curves=    24024 irred=1 abs_simple=1
+        s1=   2 s2=   -2 #J=    140 curves=    52416 irred=1 abs_simple=1
+        s1=   3 s2=   12 #J=    140 curves=    52416 irred=1 abs_simple=1
+        s1=   4 s2=   26 #J=    140 curves=    32760 irred=0 abs_simple=0
+        s1=   6 s2=   19 #J=    105 curves=    15288 irred=0 abs_simple=0
+        s1=   7 s2=   33 #J=    105 curves=    17472 irred=1 abs_simple=1
+        s1=  11 s2=   54 #J=     70 curves=     2184 irred=0 abs_simple=0
+  Z/45                           compatible classes:  12   curves:   318136 (3.3151%)   ABS-SIMPLE classes:  3, curves: 87360
+        s1= -10 s2=   50 #J=    360 curves=     5460 irred=0 abs_simple=0
+        s1=  -8 s2=   33 #J=    315 curves=    10920 irred=0 abs_simple=0
+        s1=  -5 s2=   30 #J=    270 curves=    13104 irred=0 abs_simple=0
+        s1=  -3 s2=   13 #J=    225 curves=    34944 irred=1 abs_simple=1
+        s1=  -2 s2=   27 #J=    225 curves=     6916 irred=0 abs_simple=0
+        s1=  -1 s2=   -4 #J=    180 curves=    26208 irred=0 abs_simple=0
+        s1=   0 s2=   10 #J=    180 curves=   105924 irred=0 abs_simple=0
+        s1=   1 s2=   24 #J=    180 curves=    21840 irred=0 abs_simple=0
+        s1=   2 s2=   -7 #J=    135 curves=    13104 irred=1 abs_simple=1
+        s1=   3 s2=    7 #J=    135 curves=    39312 irred=1 abs_simple=1
+        s1=   4 s2=   21 #J=    135 curves=    34944 irred=0 abs_simple=0
+        s1=   8 s2=   32 #J=     90 curves=     5460 irred=1 abs_simple=0
+  Z/7xZ/7                        compatible classes:   4   curves:    15470 (0.1612%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=13 can never certify
+        s1=  -7 s2=   26 #J=    294 curves=     4368 irred=0 abs_simple=0
+        s1=   0 s2=  -23 #J=    147 curves=      728 irred=0 abs_simple=0
+        s1=   0 s2=   26 #J=    196 curves=     6006 irred=0 abs_simple=0
+        s1=   7 s2=   26 #J=     98 curves=     4368 irred=0 abs_simple=0
+  Z/5xZ/10                       compatible classes:   5   curves:    82628 (0.8610%)   ABS-SIMPLE classes:  0, curves: 0
+      >>> compatible classes exist but NONE is absolutely simple: p=13 can never certify
+        s1= -12 s2=   62 #J=    400 curves=      546 irred=0 abs_simple=0
+        s1=  -7 s2=   32 #J=    300 curves=    13104 irred=0 abs_simple=0
+        s1=  -2 s2=    2 #J=    200 curves=    43680 irred=0 abs_simple=0
+        s1=   3 s2=   22 #J=    150 curves=    21840 irred=0 abs_simple=0
+        s1=   8 s2=   42 #J=    100 curves=     3458 irred=0 abs_simple=0
+  Z/63                           compatible classes:  11   curves:   194376 (2.0255%)   ABS-SIMPLE classes:  2, curves: 61152
+        s1= -11 s2=   54 #J=    378 curves=     2184 irred=0 abs_simple=0
+        s1=  -8 s2=   33 #J=    315 curves=    10920 irred=0 abs_simple=0
+        s1=  -5 s2=   12 #J=    252 curves=    20384 irred=0 abs_simple=0
+        s1=  -4 s2=   26 #J=    252 curves=    32760 irred=0 abs_simple=0
+        s1=  -2 s2=   -9 #J=    189 curves=     4368 irred=0 abs_simple=0
+        s1=  -1 s2=    5 #J=    189 curves=    26208 irred=1 abs_simple=1
+        s1=   0 s2=   19 #J=    189 curves=    32760 irred=1 abs_simple=0
+        s1=   3 s2=   -2 #J=    126 curves=    10920 irred=0 abs_simple=0
+        s1=   4 s2=   12 #J=    126 curves=    34944 irred=1 abs_simple=1
+        s1=   5 s2=   26 #J=    126 curves=    17472 irred=0 abs_simple=0
+        s1=  12 s2=   61 #J=     63 curves=     1456 irred=0 abs_simple=0
+  Z/70                           compatible classes:   8   curves:   253344 (2.6400%)   ABS-SIMPLE classes:  3, curves: 165984
+        s1=  -6 s2=   26 #J=    280 curves=    34944 irred=0 abs_simple=0
+        s1=  -3 s2=   -2 #J=    210 curves=    10920 irred=0 abs_simple=0
+        s1=  -2 s2=   12 #J=    210 curves=    61152 irred=1 abs_simple=1
+        s1=   1 s2=  -16 #J=    140 curves=     6552 irred=0 abs_simple=0
+        s1=   2 s2=   -2 #J=    140 curves=    52416 irred=1 abs_simple=1
+        s1=   3 s2=   12 #J=    140 curves=    52416 irred=1 abs_simple=1
+        s1=   4 s2=   26 #J=    140 curves=    32760 irred=0 abs_simple=0
+        s1=  11 s2=   54 #J=     70 curves=     2184 irred=0 abs_simple=0
+  Z/2xZ/24                       compatible classes:  12   curves:   279188 (2.9093%)   ABS-SIMPLE classes:  2, curves: 69888
+        s1=  -9 s2=   40 #J=    336 curves=     7280 irred=0 abs_simple=0
+        s1=  -6 s2=   34 #J=    288 curves=    10920 irred=0 abs_simple=0
+        s1=  -4 s2=   14 #J=    240 curves=    43680 irred=0 abs_simple=0
+        s1=  -2 s2=   -6 #J=    192 curves=    34944 irred=1 abs_simple=1
+        s1=  -1 s2=    8 #J=    192 curves=    34944 irred=1 abs_simple=1
+        s1=   0 s2=  -26 #J=    144 curves=      910 irred=0 abs_simple=0
+        s1=   0 s2=   22 #J=    192 curves=    29848 irred=0 abs_simple=0
+        s1=   1 s2=  -12 #J=    144 curves=    20384 irred=1 abs_simple=0
+        s1=   2 s2=    2 #J=    144 curves=    43680 irred=0 abs_simple=0
+        s1=   3 s2=   16 #J=    144 curves=    29120 irred=0 abs_simple=0
+        s1=   4 s2=   30 #J=    144 curves=     6006 irred=0 abs_simple=0
+        s1=   8 s2=   38 #J=     96 curves=    17472 irred=0 abs_simple=0
+  Z/3xZ/12                       compatible classes:  17   curves:   479934 (5.0011%)   ABS-SIMPLE classes:  2, curves: 78624
+        s1= -10 s2=   50 #J=    360 curves=     5460 irred=0 abs_simple=0
+        s1=  -8 s2=   42 #J=    324 curves=     3458 irred=0 abs_simple=0
+        s1=  -6 s2=   34 #J=    288 curves=    10920 irred=0 abs_simple=0
+        s1=  -5 s2=   12 #J=    252 curves=    20384 irred=0 abs_simple=0
+        s1=  -4 s2=   26 #J=    252 curves=    32760 irred=0 abs_simple=0
+        s1=  -3 s2=    4 #J=    216 curves=    39312 irred=1 abs_simple=1
+        s1=  -2 s2=   18 #J=    216 curves=    58968 irred=0 abs_simple=0
+        s1=  -1 s2=   -4 #J=    180 curves=    26208 irred=0 abs_simple=0
+        s1=   0 s2=  -26 #J=    144 curves=      910 irred=0 abs_simple=0
+        s1=   0 s2=   10 #J=    180 curves=   105924 irred=0 abs_simple=0
+        s1=   1 s2=  -12 #J=    144 curves=    20384 irred=1 abs_simple=0
+        s1=   1 s2=   24 #J=    180 curves=    21840 irred=0 abs_simple=0
+        s1=   2 s2=    2 #J=    144 curves=    43680 irred=0 abs_simple=0
+        s1=   3 s2=   16 #J=    144 curves=    29120 irred=0 abs_simple=0
+        s1=   4 s2=   30 #J=    144 curves=     6006 irred=0 abs_simple=0
+        s1=   6 s2=   22 #J=    108 curves=    39312 irred=1 abs_simple=1
+        s1=   7 s2=   36 #J=    108 curves=    15288 irred=0 abs_simple=0
+  Z/40 CONTROL simple known      compatible classes:  14   curves:   401310 (4.1818%)   ABS-SIMPLE classes:  3, curves: 100464
+        s1= -12 s2=   62 #J=    400 curves=      546 irred=0 abs_simple=0
+        s1= -10 s2=   50 #J=    360 curves=     5460 irred=0 abs_simple=0
+        s1=  -8 s2=   38 #J=    320 curves=    17472 irred=0 abs_simple=0
+        s1=  -6 s2=   26 #J=    280 curves=    34944 irred=0 abs_simple=0
+        s1=  -4 s2=   14 #J=    240 curves=    43680 irred=0 abs_simple=0
+        s1=  -2 s2=    2 #J=    200 curves=    43680 irred=0 abs_simple=0
+        s1=  -1 s2=   16 #J=    200 curves=    26208 irred=1 abs_simple=1
+        s1=   0 s2=  -10 #J=    160 curves=    53508 irred=0 abs_simple=0
+        s1=   1 s2=    4 #J=    160 curves=    43680 irred=1 abs_simple=1
+        s1=   2 s2=   18 #J=    160 curves=    58968 irred=0 abs_simple=0
+        s1=   4 s2=    6 #J=    120 curves=    30576 irred=1 abs_simple=1
+        s1=   5 s2=   20 #J=    120 curves=    26208 irred=0 abs_simple=0
+        s1=   6 s2=   34 #J=    120 curves=    10920 irred=0 abs_simple=0
+        s1=  10 s2=   50 #J=     80 curves=     5460 irred=0 abs_simple=0
+  Z/30 CONTROL simple known      compatible classes:  17   curves:   440076 (4.5858%)   ABS-SIMPLE classes:  4, curves: 126672
+        s1= -10 s2=   50 #J=    360 curves=     5460 irred=0 abs_simple=0
+        s1=  -7 s2=   32 #J=    300 curves=    13104 irred=0 abs_simple=0
+        s1=  -5 s2=   30 #J=    270 curves=    13104 irred=0 abs_simple=0
+        s1=  -4 s2=   14 #J=    240 curves=    43680 irred=0 abs_simple=0
+        s1=  -3 s2=   -2 #J=    210 curves=    10920 irred=0 abs_simple=0
+        s1=  -2 s2=   12 #J=    210 curves=    61152 irred=1 abs_simple=1
+        s1=  -1 s2=   -4 #J=    180 curves=    26208 irred=0 abs_simple=0
+        s1=   0 s2=  -20 #J=    150 curves=     8736 irred=1 abs_simple=0
+        s1=   0 s2=   10 #J=    180 curves=   105924 irred=0 abs_simple=0
+        s1=   1 s2=   -6 #J=    150 curves=    17472 irred=1 abs_simple=1
+        s1=   1 s2=   24 #J=    180 curves=    21840 irred=0 abs_simple=0
+        s1=   2 s2=    8 #J=    150 curves=    17472 irred=1 abs_simple=1
+        s1=   3 s2=   22 #J=    150 curves=    21840 irred=0 abs_simple=0
+        s1=   4 s2=    6 #J=    120 curves=    30576 irred=1 abs_simple=1
+        s1=   5 s2=   20 #J=    120 curves=    26208 irred=0 abs_simple=0
+        s1=   6 s2=   34 #J=    120 curves=    10920 irred=0 abs_simple=0
+        s1=   8 s2=   32 #J=     90 curves=     5460 irred=1 abs_simple=0

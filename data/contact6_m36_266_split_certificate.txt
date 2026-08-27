@@ -1,0 +1,142 @@
+Magma V2.29-4     Fri Jul  3 2026 14:59:09 on <host>  [Seed = 2578727273]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact6_m36_266_split_certificate.m"
+Exact split diagnostics for known [2,6,6] examples
+curve 1 eps=1, r=21 and r=-1/3, a=187/21, b=-23/7
+ factorization [
+<x - 21, 1>,
+<x, 1>,
+<x + 1/3, 1>,
+<x^2 - 22/7*x + 125/21, 1>
+]
+ automorphism_group Permutation group acting on a set of cardinality 4
+Order = 4 = 2^2
+(1, 2)(3, 4)
+(1, 3)(2, 4)
+Id($)
+Mapping from: GrpPerm: $, Degree 4, Order 2^2 to Set of all automorphisms of C
+<(1, 3)(2, 4), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1 - 21*$.3
+512*$.2
+-3*$.1 - $.3
+and inverse
+-$.1 + 21*$.3
+-512*$.2
+3*$.1 + $.3>
+<Id($), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1
+$.2
+$.3
+and inverse
+$.1
+$.2
+$.3>
+<(1, 4)(2, 3), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1 - 21*$.3
+-512*$.2
+-3*$.1 - $.3
+and inverse
+-$.1 + 21*$.3
+512*$.2
+3*$.1 + $.3>
+<(1, 2)(3, 4), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1
+-$.2
+$.3
+and inverse
+$.1
+-$.2
+$.3>
+Mapping from: Cartesian Product<C, GrpPerm: $, Degree 4, Order 2^2> to CrvHyp: C given by a rule [no inverse]
+ degree2_subcovers 2
+  subcover 1 Elliptic Curve defined by y^2 = x^3 + 32243712/49*x^2 - 27019639259136/49*x + 3693514644397228032/49 over Rational Field
+Mapping from: CrvHyp: C to Elliptic Curve defined by y^2 = x^3 + 32243712/49*x^2 - 27019639259136/49*x + 3693514644397228032/49 over Rational Field
+with equations : 
+19683*$.1^4 + 26244*$.1^3*$.3 - 266814*$.1^2*$.3^2 - 183708*$.1*$.3^3 + 964467*$.3^4
+8957952/49*$.1*$.2 - 2985984/7*$.2*$.3
+6561/65536*$.1^4 - 15309/16384*$.1^3*$.3 + 107163/32768*$.1^2*$.3^2 - 83349/16384*$.1*$.3^3 + 194481/65536*$.3^4
+  subcover 2 Elliptic Curve defined by y^2 = x^3 - 15269888/9*x^2 + 1408749273088/3*x + 165507286305865728 over Rational Field
+Mapping from: CrvHyp: C to Elliptic Curve defined by y^2 = x^3 - 15269888/9*x^2 + 1408749273088/3*x + 165507286305865728 over Rational Field
+with equations : 
+43218*$.1^4 + 57624*$.1^3*$.3 - 585844*$.1^2*$.3^2 - 403368*$.1*$.3^3 + 2117682*$.3^4
+2809856/9*$.1*$.2 + 2809856/3*$.2*$.3
+2401/65536*$.1^4 + 7203/16384*$.1^3*$.3 + 64827/32768*$.1^2*$.3^2 + 64827/16384*$.1*$.3^3 + 194481/65536*$.3^4
+curve 2 eps=1, r=4/3, a=-1/42, b=-13/7
+ factorization [
+<x - 4/3, 1>,
+<x - 21/16, 1>,
+<x, 1>,
+<x^2 - 17/7*x + 125/84, 1>
+]
+ automorphism_group Permutation group acting on a set of cardinality 4
+Order = 4 = 2^2
+(1, 2)(3, 4)
+Id($)
+(1, 3)(2, 4)
+Mapping from: GrpPerm: $, Degree 4, Order 2^2 to Set of all automorphisms of C
+<Id($), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1
+$.2
+$.3
+and inverse
+$.1
+$.2
+$.3>
+<(1, 3)(2, 4), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1 - 21/16*$.3
+1/512*$.2
+3/4*$.1 - $.3
+and inverse
+-$.1 + 21/16*$.3
+-1/512*$.2
+-3/4*$.1 + $.3>
+<(1, 2)(3, 4), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1
+-$.2
+$.3
+and inverse
+$.1
+-$.2
+$.3>
+<(1, 4)(2, 3), Mapping from: CrvHyp: C to CrvHyp: C
+with equations : 
+$.1 - 21/16*$.3
+-1/512*$.2
+3/4*$.1 - $.3
+and inverse
+-$.1 + 21/16*$.3
+1/512*$.2
+-3/4*$.1 + $.3>
+Mapping from: Cartesian Product<C, GrpPerm: $, Degree 4, Order 2^2> to CrvHyp: C given by a rule [no inverse]
+ degree2_subcovers 2
+  subcover 1 Elliptic Curve defined by y^2 = x^3 + 125952/49*x^2 - 412286976/49*x + 220150628352/49 over Rational Field
+Mapping from: CrvHyp: C to Elliptic Curve defined by y^2 = x^3 + 125952/49*x^2 - 412286976/49*x + 220150628352/49 over Rational Field
+with equations : 
+314928*$.1^4 - 1679616*$.1^3*$.3 + 3341736*$.1^2*$.3^2 - 2939328*$.1*$.3^3 + 964467*$.3^4
+279936/49*$.1*$.2 - 46656/7*$.2*$.3
+6561/16*$.1^4 - 15309/8*$.1^3*$.3 + 107163/32*$.1^2*$.3^2 - 83349/32*$.1*$.3^3 + 194481/256*$.3^4
+  subcover 2 Elliptic Curve defined by y^2 = x^3 - 59648/9*x^2 + 21495808/3*x + 9865003008 over Rational Field
+Mapping from: CrvHyp: C to Elliptic Curve defined by y^2 = x^3 - 59648/9*x^2 + 21495808/3*x + 9865003008 over Rational Field
+with equations : 
+691488*$.1^4 - 3687936*$.1^3*$.3 + 7337456*$.1^2*$.3^2 - 6453888*$.1*$.3^3 + 2117682*$.3^4
+-87808/9*$.1*$.2 + 43904/3*$.2*$.3
+2401/16*$.1^4 - 7203/8*$.1^3*$.3 + 64827/32*$.1^2*$.3^2 - 64827/32*$.1*$.3^3 + 194481/256*$.3^4
+ is_isomorphic_to_curve1 true Mapping from: CrvHyp: C1 to CrvHyp: C
+with equations : 
+-$.1 + 21*$.3
+32*$.2
+16*$.3
+and inverse
+16*$.1 - 21*$.3
+-128*$.2
+-$.3
+
+Total time: 0.090 seconds, Total memory usage: 32.09MB

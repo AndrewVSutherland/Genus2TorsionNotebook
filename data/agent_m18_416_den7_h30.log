@@ -1,0 +1,266 @@
+M_1(8,4) [4,16] denominator-aware p=7 boundary search
+height 30 aux_primes [ 11, 13, 17 ]
+max_exact 0 max_hits 20 progress_interval 500
+agent prefix agent_m18_416_den7
+
+P7_CHART_BEGIN Rinf_w
+  base Rinf_w:0 first_closure false target416_closure false
+  base Rinf_w:1 first_closure false target416_closure false
+  base Rinf_w:2 first_closure false target416_closure false
+  base Rinf_w:3 first_closure false target416_closure false
+  base Rinf_w:4 first_closure false target416_closure false
+  base Rinf_w:5 first_closure false target416_closure false
+  base Rinf_w:6 first_closure false target416_closure false
+P7_CHART_SUMMARY Rinf_w bases 7 first_closure 0 target416_closure 0
+P7_CHART_BEGIN r_Winf
+  base r_Winf:0 first_closure false target416_closure false
+  base r_Winf:1 first_closure true target416_closure true
+    sample_first <0, 0, 0, 0> sample_416 <0, 0, 0, 0, 0>
+  base r_Winf:2 first_closure false target416_closure false
+  base r_Winf:3 first_closure false target416_closure false
+  base r_Winf:4 first_closure false target416_closure false
+  base r_Winf:5 first_closure false target416_closure false
+  base r_Winf:6 first_closure false target416_closure false
+P7_CHART_SUMMARY r_Winf bases 7 first_closure 1 target416_closure 1
+P7_CHART_BEGIN Rinf_Winf
+  base Rinf_Winf first_closure false target416_closure false
+P7_CHART_SUMMARY Rinf_Winf bases 1 first_closure 0 target416_closure 0
+P7_LIVE_TARGET_KEYS [ r_Winf:1 ]
+
+AUX_PROFILE 11 boundary_or_bad 93 good_open 28 good_target416 4 good_killed 24
+AUX_PROFILE 13 boundary_or_bad 113 good_open 56 good_target416 4 good_killed 52
+AUX_PROFILE 17 boundary_or_bad 153 good_open 136 good_target416 12 good_killed 124
+
+PARAMETERS 1111
+PROGRESS exact_tests 500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 1000 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 1500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 2000 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 2500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 3000 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 3500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 4000 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 4500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 5000 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+PROGRESS exact_tests 5500 tx_halves 0 pr_halves 0 both_halves 0 hits 0
+
+DONE height 30
+total_pairs 1234321 den7_pairs 287592 p7_chart_pass 18906 p7_chart_filtered 268686 aux_pass 6052 aux_filtered 12854 smooth_tests 6052 smooth 5914 yr_fail 0 exact_tests 5914 Tx_halves 0 PR_halves 0 both_halves 0 torsion_tests 0 pr_divisibility_errors 0 hits 0
+CHART_COUNTS
+  Rinf_Winf seen 19044 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:0 seen 19182 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:1 seen 18906 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:2 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:3 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:4 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:5 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  Rinf_w:6 seen 18906 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:0 seen 19182 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:1 seen 18906 p7_pass 18906 exact 5914 Tx_half 0 PR_half 0 both 0
+    samples [ <-27, -30/7>, <-27, -29/7>, <-27, -27/7>, <-27, -26/7>, <-27, -25/7>, <-27, -24/7> ]
+  r_Winf:2 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:3 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:4 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:5 seen 19320 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+  r_Winf:6 seen 18906 p7_pass 0 exact 0 Tx_half 0 PR_half 0 both 0
+AUX_KILL_COUNTS
+  11:2,4 144
+  11:2,5 156
+  11:2,6 156
+  11:2,7 144
+  11:3,5 156
+  11:3,6 156
+  11:4,2 156
+  11:4,9 156
+  11:5,4 156
+  11:5,7 156
+  11:6,2 156
+  11:6,3 132
+  11:6,8 132
+  11:6,9 156
+  11:7,3 132
+  11:7,5 156
+  11:7,6 156
+  11:7,8 132
+  11:8,2 156
+  11:8,4 144
+  11:8,7 144
+  11:8,9 156
+  11:9,3 143
+  11:9,8 143
+  13:10,11 100
+  13:10,2 100
+  13:10,4 74
+  13:10,5 90
+  13:10,6 100
+  13:10,7 100
+  13:10,8 90
+  13:10,9 74
+  13:11,10 72
+  13:11,3 72
+  13:11,4 74
+  13:11,6 98
+  13:11,7 98
+  13:11,9 74
+  13:2,5 102
+  13:2,6 112
+  13:2,7 112
+  13:2,8 102
+  13:3,4 74
+  13:3,9 74
+  13:4,10 74
+  13:4,11 100
+  13:4,2 100
+  13:4,3 74
+  13:4,5 90
+  13:4,6 100
+  13:4,7 100
+  13:4,8 90
+  13:5,10 78
+  13:5,3 78
+  13:5,4 76
+  13:5,6 102
+  13:5,7 102
+  13:5,9 76
+  13:6,10 74
+  13:6,11 100
+  13:6,2 100
+  13:6,3 74
+  13:6,4 72
+  13:6,9 72
+  13:7,11 113
+  13:7,2 113
+  13:7,5 100
+  13:7,8 100
+  13:8,10 76
+  13:8,11 102
+  13:8,2 102
+  13:8,3 76
+  13:8,4 78
+  13:8,9 78
+  13:9,10 74
+  13:9,3 74
+  17:10,11 38
+  17:10,13 35
+  17:10,15 40
+  17:10,2 40
+  17:10,4 35
+  17:10,6 38
+  17:10,8 35
+  17:10,9 35
+  17:11,10 41
+  17:11,12 33
+  17:11,13 39
+  17:11,15 47
+  17:11,2 47
+  17:11,4 39
+  17:11,5 33
+  17:11,7 41
+  17:12,13 32
+  17:12,14 42
+  17:12,15 41
+  17:12,2 41
+  17:12,3 42
+  17:12,4 32
+  17:12,8 36
+  17:12,9 36
+  17:13,10 39
+  17:13,12 32
+  17:13,14 47
+  17:13,15 45
+  17:13,2 45
+  17:13,3 47
+  17:13,5 32
+  17:13,7 39
+  17:14,10 45
+  17:14,12 32
+  17:14,13 42
+  17:14,4 42
+  17:14,5 32
+  17:14,7 45
+  17:14,8 36
+  17:14,9 36
+  17:15,10 31
+  17:15,11 35
+  17:15,13 30
+  17:15,14 41
+  17:15,3 41
+  17:15,4 30
+  17:15,6 35
+  17:15,7 31
+  17:15,8 28
+  17:15,9 28
+  17:2,10 35
+  17:2,11 42
+  17:2,12 30
+  17:2,13 39
+  17:2,14 52
+  17:2,3 52
+  17:2,4 39
+  17:2,5 30
+  17:2,6 42
+  17:2,7 35
+  17:2,8 35
+  17:2,9 35
+  17:3,10 31
+  17:3,11 34
+  17:3,15 38
+  17:3,2 38
+  17:3,6 34
+  17:3,7 31
+  17:3,8 30
+  17:3,9 30
+  17:4,10 37
+  17:4,11 42
+  17:4,12 31
+  17:4,5 31
+  17:4,6 42
+  17:4,7 37
+  17:4,8 36
+  17:4,9 36
+  17:5,10 40
+  17:5,11 40
+  17:5,14 50
+  17:5,3 50
+  17:5,6 40
+  17:5,7 40
+  17:5,8 39
+  17:5,9 39
+  17:6,12 26
+  17:6,14 40
+  17:6,15 41
+  17:6,2 41
+  17:6,3 40
+  17:6,5 26
+  17:6,8 32
+  17:6,9 32
+  17:7,11 43
+  17:7,12 36
+  17:7,14 49
+  17:7,15 47
+  17:7,2 47
+  17:7,3 49
+  17:7,5 36
+  17:7,6 43
+  17:8,11 36
+  17:8,12 24
+  17:8,13 29
+  17:8,14 37
+  17:8,15 36
+  17:8,2 36
+  17:8,3 37
+  17:8,4 29
+  17:8,5 24
+  17:8,6 36
+  17:9,10 38
+  17:9,11 42
+  17:9,12 29
+  17:9,13 35
+  17:9,14 47
+  17:9,15 45
+  17:9,2 45
+  17:9,3 47
+  17:9,4 35
+  17:9,5 29
+  17:9,6 42
+  17:9,7 38

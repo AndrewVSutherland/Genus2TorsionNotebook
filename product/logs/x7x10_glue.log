@@ -1,0 +1,7 @@
+Loading "split_lab.m"
+pair x7(2/11) x x10(-1/2): torsions [ 7 ] [ 10 ]
+Genus2Elliptic3: 1 curves
+X7X10 RESULT 1 invs=[ 70 ] g=4*x^6 + 36*x^5 - 35*x^4 - 390*x^3 + 1237*x^2 - 924*x + 4356
+pair x7(2/11) x x10(1/3): torsions [ 7 ] [ 10 ]
+Genus2Elliptic3: 0 curves
+X7X10_DONE

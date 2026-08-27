@@ -1,0 +1,53 @@
+Z49 invariant sign quotient: finite point and projection diagnostics
+date 2026-07-18
+
+charts:
+  slope: w=u^2, s=v/u, variables (a,b,w,s,r)
+  root:  t=v^2, q=-u/v, variables (a,b,t,q,r)
+
+quotient equation degree lists (per variable):
+  slope:
+    E0 (4,8,8,16,8), E1 (3,6,7,14,7)
+    E2 (2,6,6,12,6), E3 (2,4,5,10,5)
+  root:
+    E0 (4,8,8,4,8), E1 (3,6,7,4,7)
+    E2 (2,6,6,4,6), E3 (2,4,5,3,5)
+
+complete open affine quotient counts:
+  p   total  root  constant-B  signed Fp lifts  distinct(q,t)  distinct(s,b)  distinct(s,r)
+  5       2     2       0              4              2              2              2
+  11      5     4       1             10              4              5              5
+  13      6     5       1             12              5              5              5
+  17      9     9       0             18              9              8              8
+  19     13    13       0             26             11             13             12
+  23     15    14       1             30             14             14             14
+
+For p=5,11,13,17 the signed counts reproduce the independently supplied
+open incidence counts 4,10,12,18.  At all six tested primes every quotient
+point had square t or w, so every point lifted to a sign pair over Fp.
+
+projection evaluation ranks at p=19:
+  projection  distinct points  rank degree<=1  rank degree<=2  rank degree<=3  rank degree<=4
+  (q,t)             11                3               6              10              11
+  (s,b)             13                3               6              10              13
+  (s,r)             12                3               6              10              12
+
+projection evaluation ranks at p=23:
+  projection  distinct points  rank degree<=1  rank degree<=2  rank degree<=3  rank degree<=4
+  (q,t)             14                3               6              10              14
+  (s,b)             14                3               6              10              14
+  (s,r)             14                3               6              10              14
+
+The monomial counts are 3,6,10,15.  Hence all three projections have full
+evaluation rank through total degree 3.  At p=23 the quartic nullity is one,
+but this is forced by 14 points versus 15 monomials and is not evidence for
+a rational quartic equation.
+
+At p=23 all three projections also have full rank for the rectangular
+supports of bidegree (2,2), (1,3), and (3,1), with respectively 9,8,8
+monomials.
+
+resources:
+  p=5,11,13,17 run: 9.50 s, 84780 KB maximum RSS
+  p=19,23 run:       22.93 s, 84800 KB maximum RSS
+  both under a 180 MB address-space cap

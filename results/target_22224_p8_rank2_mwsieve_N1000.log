@@ -1,0 +1,14 @@
+P8_RANK2_MWSIEVE_START N 1000 primes [ 47, 89, 31, 79, 41, 43, 23, 37, 53, 59, 61, 67, 71, 73, 83, 97 ]
+E Elliptic Curve defined by y^2 = x^3 + 1520244*x + 202972176 over Rational Field
+rank_bounds 2 2 generators [ (-132 : 0 : 1), (7810 : -698896 : 1), (4741/9 : 915607/27 : 1) ]
+known_t 19/5
+P8_PRIME_PROFILE p 47 orders 20 2 total 80 third_fail 22 open_no3 46 open_3 0 boundary 12 allowed 12
+P8_PRIORITY_CLASSES p 47 boundary [ <1, 0, 0>, <1, 6, 0>, <1, 6, 1>, <1, 8, 0>, <1, 16, 0>, <1, 16, 1>, <2, 6, 0>, <2, 6, 1>, <2, 10, 1>, <2, 16, 0>, <2, 16, 1>, <2, 18, 1> ]
+open_3 []
+P8_PRIME_PROFILE p 89 orders 21 3 total 126 third_fail 57 open_no3 57 open_3 0 boundary 12 allowed 12
+
+In file "code/target_22224_p8_rank2_mwsieve.m", line 160, column 11:
+>>     Append(~profiles,<ell,o1,o2,allowed,boundary,open3>);
+             ^
+Runtime error in 'Append': Cannot coerce element into the universe
+

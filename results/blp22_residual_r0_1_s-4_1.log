@@ -1,0 +1,12 @@
+RS r=0 s=-4
+Loading "code/blp22_locus_rm_test2.m0"
+GCD degq=4 degd=0
+RESIDUAL degq 32/30 degd 48/44
+RES_DEG_D 1525
+RATIONAL_D_ROOTS [ -25, -16, -8, 0, 7/2 ]
+D_ROOT d=-25 q_gcd_deg=4
+D_ROOT d=-8 q_gcd_deg=30
+D_ROOT d=0 q_gcd_deg=16
+D_ROOT d=7/2 q_gcd_deg=2
+CAND d=7/2 q=81/4 cford=5 type={* 1^^2, 2^^2 *}
+RESIDUAL_SOLVE_DONE r=0 s=-4

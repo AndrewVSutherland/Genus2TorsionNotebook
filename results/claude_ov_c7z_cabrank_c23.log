@@ -1,0 +1,19 @@
+CONTROL c=2 : e1=4 e4=1 A=2/3 B=0
+CONTROL c=2 : Delta = 4/9*aa^4 - 32/9*aa^3 + 100/9*aa^2 - 16*aa + 80/9
+CONTROL c=2 : Delta factorisation = [
+<aa - 2, 2>,
+<aa^2 - 4*aa + 5, 1>
+]  squarefree=false
+
+deciding 1 slices
+
+c=2/3        : Cab_c genus 1 -> E [ 0, 1, 0, 16, 180 ] cond 48  torsion [ 8 ]  rank 0..0
+   rank 0: #E(Q) = 8, naive search on C found 8 points -> complete = true
+  ==> RANK 0, 8 rational (a,b) tested, SLICE DECIDED (no order 112)
+
+==== SUMMARY ====
+slices DECIDED (rank 0 or empty): 1
+slices UNDECIDED               : 0
+order-112 candidates found     : 0
+undecided list: []
+CABRANK_DONE

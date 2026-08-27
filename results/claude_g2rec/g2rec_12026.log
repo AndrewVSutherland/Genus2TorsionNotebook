@@ -1,0 +1,84 @@
+[PC] 
+[PC] In file "<deps>/CHIMP/gists/sutherland/genus3.m", line 391, 
+[PC] column 1:
+[PC] >> intrinsic GHIsIsomorphic(q1::RngMPolElt, f1::RngMPolElt, q2::RngMPolElt,
+[PC] f2
+[PC]    ^
+[PC] User error: bad syntax
+
+Cannot attach file <deps>/CHIMP/gists/sutherland/genus3.m 
+referenced from spec file <deps>/CHIMP/gists/sutherland/sutherla\
+nd.spec
+G2REC 12026.2.a.d N=12026 prec=300 cutters=[
+<3, [ -1, -1, 1 ]>,
+<5, [ 5, -5, 1 ]>,
+<17, [ 4, -6, 1 ]>,
+<19, [ -5, 5, 1 ]>
+]
+MakeNewformModSym(12026, [<3, [ -1, -1, 1 ]>,<5, [ 5, -5, 1 ]>,<17, [ 4, -6, 1 ]>,<19, [ -5, 5, 1 ]>])...Time: 25.430
+MODSYM built: dim 4 (177.530 s)
+=== MaximalEnd = false ===
+RationalGenus2Curves <prec, Quotient, MaximalEnd> = <300, false, false>...
+IntegralHomology: Computing Lattice(AmbientSpace(f))...Time: 31.270
+IntegralHomology: Computing BoundaryMap...Time: 0.130
+IntegralHomology: Computing S: B -> Basis(CS)...Time: 2.120
+IntegralHomology: Rank(H) = 0, desired_rank = 3430
+IntegralHomology: H = 3434 x 0 matrix
+p = 3
+IntegralHomology: Rank(H) = 3422, desired_rank = 3430
+IntegralHomology: H = 3434 x 3434 matrix
+p = 5
+IntegralHomologySub: Rank(H) = 3430, desired_rank = 3430
+IntegralHomologySub: H = 3434 x 6868 matrix
+IntegralHomologySub: Computing Hsub inside the CuspidalSubspace: Kernel(H)...Time: 6.360
+IntegralHomologySub: H[If] in terms of Basis(f)...Time: 0.100
+IntegralHomologySub: Computing IntersectionPairing(f)...Time: 675.210
+Comuting the lattices...Time: 0.000
+Computing period map, prec:=150, for 
+Modular symbols space for Gamma_0(12026) of weight 2 and dimension 4 over Rational Field...
+GoodPeriodGenerators: ds found {* 9^^27, 11^^22, 13 *}
+target ncoeffs = 56879
+Computing PeriodMapping with n = 56879...Time: 1093.870
+Computing PeriodMapping with n = 56979...Time: 19.190
+Final error: 1.0364216E-159
+Final ncoeffs: 56879
+Done with PeriodMappingMatrix
+RationalGenus2Curves: #PPSs = 1
+Comuting the lattices...Time: 0.000
+Computing period map, prec:=300, for 
+Modular symbols space for Gamma_0(12026) of weight 2 and dimension 4 over Rational Field...
+GoodPeriodGenerators: ds found {* 9^^23, 11^^27 *}
+target ncoeffs = 111204
+Computing PeriodMapping with n = 111204...Time: 2982.700
+Computing PeriodMapping with n = 111304...Time: 66.690
+Final error: 4.3738557E-310
+Final ncoeffs: 111204
+Done with PeriodMappingMatrix
+Trying polarization = 1
+RationalGenus2Curve...
+RationalGenus2Curve calling ReconstructGenus2Curve...
+ReconstructGenus2Curve([9150.1318 + 5810.2854*$.1 1670.8296 - 3366.5381*$.1 7379.8042 + 5402.9942*$.1 -1969.3235 - 2651.6500*$.1]
+[12591.289 - 5511.2026*$.1 5509.9786 + 1221.8737*$.1 8951.1359 - 4796.3144*$.1 99.497967 + 1529.4706*$.1], Rational Field)...
+Calculating theta derivatives...
+done calculating theta derivatives.
+newP = [9150.1318 + 5810.2854*$.1 1670.8296 - 3366.5381*$.1 7379.8042 + 5402.9942*$.1 -1969.3235 - 2651.6500*$.1]
+[12591.289 - 5511.2026*$.1 5509.9786 + 1221.8737*$.1 8951.1359 - 4796.3144*$.1 99.497967 + 1529.4706*$.1]
+Curve over  CC $.1^6 + (3.7721778 + 4.9975767E-298*$.1)*$.1^5 + (3.7836978 + 9.6280122E-298*$.1)*$.1^4 + (0.66996708 + 3.5177641E-298*$.1)*$.1^3 + (0.38599187 + 3.5611884E-298*$.1)*$.1^2 + (0.39770599 + 2.2181836E-298*$.1)*$.1 + 0.12482396 + 5.1400407E-299*$.1
+Identifying correct twist...
+done identifying correct twist.
+Twist = MatrixAlgebra(RationalField(), 4) ! Matrix(RationalField(), 4, 4, [ 3, 2, 2, 0, -5, 0, -4, 1, -7, -3, -5, 0, 5, 1, 4, -1 ])
+untwisted Curve over  CC (1.6935269E-6 - 6.2812837E-304*$.1)*$.1^6 + (6.3882848E-6 - 1.5230589E-303*$.1)*$.1^5 + (6.4077942E-6 - 7.4611817E-304*$.1)*$.1^4 + (1.1346073E-6 + 1.7491749E-304*$.1)*$.1^3 + (6.5368763E-7 + 3.6064440E-304*$.1)*$.1^2 + (6.7352580E-7 + 1.2584495E-304*$.1)*$.1 + 2.1139273E-7 + 8.6425049E-306*$.1
+Algebraizing...
+done.
+found Hyperelliptic Curve defined by y^2 = 6426700062641/3794861455276320000*x^6 + 24242655680767/3794861455276320000*x^5 + 19453353010133/3035889164221056000*x^4 + 574090327553/505981527370176000*x^3 + 661507730119/1011963054740352000*x^2 + 2555937086797/3794861455276320000*x + 802206135349/3794861455276320000 over Rational Field
+ReconstructGenus2Curve([9150.1318 + 5810.2854*$.1 1670.8296 - 3366.5381*$.1 7379.8042 + 5402.9942*$.1 -1969.3235 - 2651.6500*$.1]
+[12591.289 - 5511.2026*$.1 5509.9786 + 1221.8737*$.1 8951.1359 - 4796.3144*$.1 99.497967 + 1529.4706*$.1], Rational Field) done
+done calling ReconstructGenus2Curve
+RationalGenus2Curves: found curve!
+C = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 2*x^6 - 4*x^5 - 44*x^4 - 126*x^3 + 868*x^2 + 76*x + 872 over Rational Field
+#results = 1
+TRY 1 found=true
+CURVE 12026.2.a.d MaxEnd=false : Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 2*x^6 - 4*x^5 - 44*x^4 - 126*x^3 + 868*x^2 + 76*x + 872 over Rational Field
+CURVEEQ 12026.2.a.d fcoeffs=[ 872, 76, 868, -126, -44, -4, 2 ] hcoeffs=[ 0, 1, 1 ]
+MaxEnd=false done (5401.510 s)
+G2RECDONE 12026.2.a.d

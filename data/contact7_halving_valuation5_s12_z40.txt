@@ -1,0 +1,64 @@
+# contact7 first-halving 5-adic valuation scan
+# s_height=12 z_height=40 u_height=0
+# only_boundary=False
+# checked=705240 quartics=705240 root_t=8 zero_t=2 square_t=2 hits=4 boundary_hits=0
+# columns: s u z eps a b r v w boundary_reasons
+-1/2 -4 -3/16 1 11/2 -7/2 3/4 7/2 -1 open_integral
+-1/2 4 -3/16 1 11/2 -7/2 3/4 7/2 1 open_integral
+1/2 -4 -3/16 -1 11/2 -7/2 3/4 7/2 -1 open_integral
+1/2 4 -3/16 -1 11/2 -7/2 3/4 7/2 1 open_integral
+
+REASON_COUNTS
+open_integral 4
+
+CANDIDATE_SIGNATURE_COUNTS
+vs=0,vu=0,vz=0,va=0,vb=0,v_r=0,v_epss_plus1=0,sres=2,ures=1,zres=2,eps=1 1
+vs=0,vu=0,vz=0,va=0,vb=0,v_r=0,v_epss_plus1=0,sres=2,ures=4,zres=2,eps=1 1
+vs=0,vu=0,vz=0,va=0,vb=0,v_r=0,v_epss_plus1=0,sres=3,ures=1,zres=2,eps=-1 1
+vs=0,vu=0,vz=0,va=0,vb=0,v_r=0,v_epss_plus1=0,sres=3,ures=4,zres=2,eps=-1 1
+
+INPUT_SIGNATURES_WITH_SQUARE_ROOTS
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=2,eps=1 square_roots=1 roots=1 checked=10176
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=2,eps=-1 square_roots=1 roots=1 checked=10176
+
+TOP_INPUT_SIGNATURES
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=1,eps=-1 checked=10208 roots=2 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=1,eps=1 checked=10208 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=4,eps=-1 checked=10208 roots=1 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=4,eps=1 checked=10208 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=1,eps=-1 checked=10208 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=1,eps=1 checked=10208 roots=2 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=4,eps=-1 checked=10208 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=4,eps=1 checked=10208 roots=1 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=2,eps=-1 checked=10176 roots=1 square_roots=1
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=2,eps=1 checked=10176 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=3,eps=-1 checked=10176 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=3,zres=3,eps=1 checked=10176 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=2,eps=-1 checked=10176 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=2,eps=1 checked=10176 roots=1 square_roots=1
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=3,eps=-1 checked=10176 roots=0 square_roots=0
+vs=0,vz=0,v_r=0,v_epss_plus1=0,sres=2,zres=3,eps=1 checked=10176 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=1,eps=-1 checked=9570 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=1,eps=1 checked=9570 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=4,eps=-1 checked=9570 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=4,eps=1 checked=9570 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=1,eps=-1 checked=9570 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=1,eps=1 checked=9570 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=4,eps=-1 checked=9570 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=4,eps=1 checked=9570 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=2,eps=-1 checked=9540 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=2,eps=1 checked=9540 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=3,eps=-1 checked=9540 roots=0 square_roots=0
+vs=1,vz=0,v_r=0,v_epss_plus1=0,sres=0,zres=3,eps=1 checked=9540 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=2,eps=-1 checked=9540 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=2,eps=1 checked=9540 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=3,eps=-1 checked=9540 roots=0 square_roots=0
+vs=-1,vz=0,v_r=<=-2,v_epss_plus1=-1,sres=inf,zres=3,eps=1 checked=9540 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=0,sres=4,zres=1,eps=-1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=1,sres=4,zres=1,eps=1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=0,sres=4,zres=4,eps=-1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=1,sres=4,zres=4,eps=1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=1,sres=1,zres=1,eps=-1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=0,sres=1,zres=1,eps=1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=1,sres=1,zres=4,eps=-1 checked=8932 roots=0 square_roots=0
+vs=0,vz=0,v_r=1,v_epss_plus1=0,sres=1,zres=4,eps=1 checked=8932 roots=0 square_roots=0

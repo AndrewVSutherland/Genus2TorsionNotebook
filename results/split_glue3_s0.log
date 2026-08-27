@@ -1,0 +1,14 @@
+GRID 37 values, twists 10, shard 0/3
+PROGRESS ia=3/37 processed 1332 escalated 0
+PROGRESS ia=6/37 processed 2664 escalated 0
+PROGRESS ia=9/37 processed 3996 escalated 0
+PROGRESS ia=12/37 processed 5328 escalated 0
+PROGRESS ia=15/37 processed 6660 escalated 0
+PROGRESS ia=18/37 processed 7992 escalated 0
+PROGRESS ia=21/37 processed 9324 escalated 0
+PROGRESS ia=24/37 processed 10656 escalated 0
+PROGRESS ia=27/37 processed 11988 escalated 0
+PROGRESS ia=30/37 processed 13320 escalated 0
+PROGRESS ia=33/37 processed 14652 escalated 0
+PROGRESS ia=36/37 processed 15984 escalated 0
+GLUE3_DONE shard 0/3

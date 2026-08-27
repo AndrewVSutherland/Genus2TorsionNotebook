@@ -1,0 +1,20 @@
+Z49_STRUCTURAL_ROOT_PARAMETER_HENSEL
+parameter_height 50 parameters 3095 coordinate_bound 5000
+prime 5 branch_lifts 4092 full_reconstructions 0
+prime 11 branch_lifts 3132 full_reconstructions 0
+prime 13 branch_lifts 3592 full_reconstructions 60
+attempted_branch_lifts 10816 singular_matches 1044 all_five_reconstructed 60 exact_open_hits 0
+Z49_STRUCTURAL_ROOT_PARAMETER_HENSEL_DONE
+
+resource_log
+elapsed_seconds 53.67
+maximum_resident_kbytes 84252
+exit_status 0
+
+scope
+all reduced rational root parameters s of naive height at most 50;
+rational coordinate reconstruction bound 5000;
+all listed nonconstant open smooth incidence branches over F5, F11, F13.
+Ramified fixed-s intersections occurred only on four F11 branch/residue pairs;
+the F13 run supplies complementary transverse branches but this remains a
+bounded open-chart search, not a global rational-point exclusion.

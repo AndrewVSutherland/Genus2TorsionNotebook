@@ -1,0 +1,31 @@
+Z35 central b=0,r=1 deep lift
+max_k 8 direct_depth 4 max_store 100000 recon_height 200
+local convention: H=0 mod 3^k; original G_i=0 mod 3^(k+1)
+central directions [ 1, 1, 1, 0, 1, 0 ]
+[ 1, 1, 1, 2, 1, 0 ]
+CENTER 1 dir [ 1, 1, 1, 0, 1, 0 ]
+chart_scales [ 1, 1, 1, 1, 1 ]
+ jacobian_mod3_rank 3
+ left_obstruction_rows_on_scaled_residuals [
+[ 1, 0, 2, 1, 0 ],
+[ 0, 1, 2, 0, 1 ]
+]
+ homogeneous_correction_kernel_rows [
+[ 1, 0, 0, 2, 2, 2 ],
+[ 0, 1, 0, 1, 0, 0 ],
+[ 0, 0, 1, 1, 1, 1 ]
+]
+ correction_coset_formula every nonempty next-digit set is d0 + span(kernel_rows) over F3
+ initial_branch_next_digit_solution_count 27 rank_histogram [ <3, 27> ]
+ initial_next_digit_affine_basis
+   dC2 + 2*dR + 2 = 0
+   dB + 2*dC1 + dR + 2 = 0
+   dA + 2*dC0 + dR + 1 = 0
+ direct_lift_rows_to_depth 4
+<1, 3, 1, [ <27, 0> ], true>
+<2, 9, 27, [ <27, 1> ], true>
+<3, 27, 729, [ <27, 27> ], true>
+<4, 81, 6561, [ <0, 486>, <27, 243> ], true>
+ direct_stop completed stored_residues 6561
+
+[Interrupted]

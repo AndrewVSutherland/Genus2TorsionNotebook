@@ -1,0 +1,13 @@
+p=2 : E8 local point found = false   <-- CANDIDATE OBSTRUCTION
+p=3 : E8 local point found = true (disk u=1 k=-1)
+p=5 : E8 local point found = true (disk u=1 k=-5)
+p=7 : E8 local point found = true (disk u=1 k=-5)
+p=11 : E8 local point found = true (disk u=1 k=0)
+p=13 : E8 local point found = true (disk u=1 k=0)
+p=17 : E8 local point found = true (disk u=1 k=0)
+p=19 : E8 local point found = true (disk u=1 k=0)
+p=23 : E8 local point found = true (disk u=2 k=0)
+p=29 : E8 local point found = true (disk u=4 k=0)
+p=31 : E8 local point found = true (disk u=1 k=0)
+p=37 : E8 local point found = true (disk u=2 k=0)
+E8_LOCAL_SCAN_DONE

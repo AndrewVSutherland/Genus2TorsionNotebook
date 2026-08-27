@@ -1,0 +1,316 @@
+PIECE 22
+N_BRANCHES 2 dims [ 2, 2 ]
+PERIOD_TERMS 240970
+PERIODS ok
+E1 [ 0, 0, 2, 1, 0, 0, 1, 1, -2, -1, 0, 0, -1, -1, 0, 0 ]
+E2 [ 0, -3, 0, -2, 3, 0, 2, 4, 0, -2, 0, 3, 2, -4, -3, 0 ]
+BRANCH 1 starvecs plus=( 1 36  2 30) minus=( 1  6  0 15)
+BRANCH 2 starvecs plus=( 1 36  2  3) minus=( 1 29  0 22)
+Bcontrol LATTICE_INDEX 1/1
+Bcontrol AB_BASIS [ 1, 0 ] [ 0, 1 ] (dd2=1)
+Bcontrol N_POSFORMS 14 types [ 2, 3, 11 ]
+Bcontrol_d11_a-8_b3_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-8_b3_n1 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a-8_b3_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-8_b3_n2 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a-7_b2_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-7_b2_n3 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a-7_b2_n4 BIGP_OK sgn=1 blk=1
+
+Counter for period matrix reduction is high: 1000
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a-7_b2_n4 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a7_b-2_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a7_b-2_n5 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a7_b-2_n6 BIGP_OK sgn=1 blk=1
+
+Counter for period matrix reduction is high: 1000
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a7_b-2_n6 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a8_b-3_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a8_b-3_n7 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+Bcontrol_d11_a8_b-3_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+Bcontrol_d11_a8_b-3_n8 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B1plus LATTICE_INDEX 1/37
+B1plus AB_BASIS [ 1, -2 ] [ 15, 7 ] (dd2=37)
+B1plus N_POSFORMS 6 types [ 2, 3 ]
+B1minus LATTICE_INDEX 1/37
+B1minus AB_BASIS [ 1, -2 ] [ 15, 7 ] (dd2=37)
+B1minus N_POSFORMS 6 types [ 2, 3 ]
+B1full LATTICE_INDEX 1/1369
+B1full AB_BASIS [ 7, 23 ] [ 51, -28 ] (dd2=1369)
+B1full N_POSFORMS 26 types [ 2, 3, 11, 23, 26 ]
+B2plus LATTICE_INDEX 1/37
+B2plus AB_BASIS [ 4, -3 ] [ 3, 7 ] (dd2=37)
+B2plus N_POSFORMS 8 types [ 2, 3 ]
+B2plus_d2_a-27_b11_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d2_a-27_b11_n1 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d2_a-19_b5_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d2_a-19_b5_n2 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d2_a19_b-5_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d2_a19_b-5_n3 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d2_a27_b-11_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d2_a27_b-11_n4 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d3_a-34_b7_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d3_a-34_b7_n5 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d3_a-34_b7_n6 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d3_a-34_b7_n6 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d3_a-23_b8_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d3_a-23_b8_n7 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2plus_d3_a-23_b8_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2plus_d3_a-23_b8_n8 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2minus LATTICE_INDEX 1/37
+B2minus AB_BASIS [ 4, -3 ] [ 3, 7 ] (dd2=37)
+B2minus N_POSFORMS 8 types [ 2, 3 ]
+B2minus_d2_a-27_b11_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d2_a-27_b11_n1 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2minus_d2_a-19_b5_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d2_a-19_b5_n2 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2minus_d2_a19_b-5_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d2_a19_b-5_n3 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2minus_d2_a27_b-11_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d2_a27_b-11_n4 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2minus_d3_a-34_b7_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2minus_d3_a-34_b7_n5 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2minus_d3_a-34_b7_n6 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d3_a-34_b7_n6 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2minus_d3_a-23_b8_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+B2minus_d3_a-23_b8_n7 FREEFIELD_ERR Failed to find minimal polynomial using LLL. Try increasing the precision.
+B2minus_d3_a-23_b8_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+B2minus_d3_a-23_b8_n8 FREEFIELD_ERR No geometric homomorphism to original matrix found. Try increasing the precision.
+B2full LATTICE_INDEX 1/1369
+B2full AB_BASIS [ 18, 5 ] [ 11, -73 ] (dd2=1369)
+B2full N_POSFORMS 6 types [ 2, 3 ]
+B2full_d2_a-155_b33_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+B2full_d2_a-155_b33_n1 EXACT_CURVE over $.1^3 + $.1^2 - 51*$.1 + 129
+Hyperelliptic Curve defined by y^2 = 1/32290603*(-335435000*$.1^2 + 80692083000*$.1 + 158970747675)*x^6 + 1/32290603*(42168148875*$.1^2 + 401012860050*$.1 - 791704999080)*x^5 + 1/129162412*(440263989150*$.1^2 + 2591915733540*$.1 - 10829685561047)*x^4 + 1/129162412*(467848719745*$.1^2 + 2168097881366*$.1 - 12046224587951)*x^3 + 1/258324824*(520992706527*$.1^2 + 2194471480374*$.1 - 14221921344649)*x^2 + 1/32290603*(21320917470*$.1^2 + 93303066240*$.1 - 653191780845)*x + 1/258324824*(27628479999*$.1^2 + 127385817318*$.1 - 902028896991) over Number Field with defining polynomial $.1^3 + $.1^2 - 51*$.1 + 129 over the Rational Field
+B2full_d2_a-155_b33_n1 G2_DEGREES [ 3, 3, 3 ]
+B2full_d2_a-119_b43_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+B2full_d2_a-119_b43_n2 EXACT_CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/387487236*(101815716101*$.1^2 + 269803369026*$.1 + 3955554072279)*x^6 + 1/32290603*(-41026278787*$.1^2 - 20998223262*$.1 - 1107477253878)*x^5 + 1/129162412*(266035700691*$.1^2 - 74971427634*$.1 + 4248301476892)*x^4 + 1/64581206*(-87850621419*$.1^2 + 140722724106*$.1 - 489827607324)*x^3 + 1/129162412*(47174196850*$.1^2 - 195284256300*$.1 - 302196504479)*x^2 + 1/32290603*(-3556611370*$.1^2 + 6291606780*$.1 + 43162199688)*x + 1/193743618*(4487834159*$.1^2 - 3768185466*$.1 - 28716817791) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+B2full_d2_a-119_b43_n2 G2_DEGREES [ 3, 3, 3 ]
+B2full_d2_a119_b-43_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+B2full_d2_a119_b-43_n3 EXACT_CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/387487236*(101815716101*$.1^2 + 269803369026*$.1 + 3955554072279)*x^6 + 1/32290603*(-41026278787*$.1^2 - 20998223262*$.1 - 1107477253878)*x^5 + 1/129162412*(266035700691*$.1^2 - 74971427634*$.1 + 4248301476892)*x^4 + 1/64581206*(-87850621419*$.1^2 + 140722724106*$.1 - 489827607324)*x^3 + 1/129162412*(47174196850*$.1^2 - 195284256300*$.1 - 302196504479)*x^2 + 1/32290603*(-3556611370*$.1^2 + 6291606780*$.1 + 43162199688)*x + 1/193743618*(4487834159*$.1^2 - 3768185466*$.1 - 28716817791) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+B2full_d2_a119_b-43_n3 G2_DEGREES [ 3, 3, 3 ]
+B2full_d2_a155_b-33_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+B2full_d2_a155_b-33_n4 EXACT_CURVE over $.1^3 + $.1^2 - 51*$.1 + 129
+Hyperelliptic Curve defined by y^2 = 1/32290603*(-335435000*$.1^2 + 80692083000*$.1 + 158970747675)*x^6 + 1/32290603*(42168148875*$.1^2 + 401012860050*$.1 - 791704999080)*x^5 + 1/129162412*(440263989150*$.1^2 + 2591915733540*$.1 - 10829685561047)*x^4 + 1/129162412*(467848719745*$.1^2 + 2168097881366*$.1 - 12046224587951)*x^3 + 1/258324824*(520992706527*$.1^2 + 2194471480374*$.1 - 14221921344649)*x^2 + 1/32290603*(21320917470*$.1^2 + 93303066240*$.1 - 653191780845)*x + 1/258324824*(27628479999*$.1^2 + 127385817318*$.1 - 902028896991) over Number Field with defining polynomial $.1^3 + $.1^2 - 51*$.1 + 129 over the Rational Field
+B2full_d2_a155_b-33_n4 G2_DEGREES [ 3, 3, 3 ]
+B2full_d3_a-137_b38_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...

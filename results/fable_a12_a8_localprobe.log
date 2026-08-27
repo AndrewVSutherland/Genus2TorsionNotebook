@@ -1,0 +1,23 @@
+A12PLUS3 q=5 tested=12 good=4 canary12=4 contains312=0
+A12PLUS3 q=7 tested=80 good=24 canary12=24 contains312=0
+A12PLUS3 q=11 tested=576 good=316 canary12=316 contains312=32
+A12HIT q=11 p=1 z=2 r=1 inv=[ 12, 12 ]
+A12HIT q=11 p=1 z=4 r=2 inv=[ 3, 36 ]
+A12HIT q=11 p=1 z=4 r=9 inv=[ 3, 72 ]
+A12HIT q=11 p=1 z=7 r=2 inv=[ 3, 36 ]
+A8X88 q=7 tested=252 good=98 canary8=98 contains88=6
+A8HIT q=7 r=2 p=1 t=1 inv=[ 8, 8 ]
+A8HIT q=7 r=2 p=2 t=6 inv=[ 8, 8 ]
+A8HIT q=7 r=2 p=5 t=2 inv=[ 8, 8 ]
+A8HIT q=7 r=4 p=3 t=1 inv=[ 8, 8 ]
+A8X88 q=11 tested=1100 good=589 canary8=589 contains88=39
+A8HIT q=11 r=2 p=0 t=2 inv=[ 8, 16 ]
+A8HIT q=11 r=2 p=2 t=2 inv=[ 2, 8, 16 ]
+A8HIT q=11 r=2 p=2 t=3 inv=[ 8, 8 ]
+A8HIT q=11 r=2 p=2 t=4 inv=[ 16, 16 ]
+A8X88 q=13 tested=1872 good=1097 canary8=1097 contains88=106
+A8HIT q=13 r=2 p=2 t=2 inv=[ 2, 2, 8, 8 ]
+A8HIT q=13 r=2 p=2 t=4 inv=[ 2, 8, 16 ]
+A8HIT q=13 r=2 p=2 t=6 inv=[ 16, 16 ]
+A8HIT q=13 r=2 p=2 t=10 inv=[ 2, 8, 16 ]
+PROBE_DONE

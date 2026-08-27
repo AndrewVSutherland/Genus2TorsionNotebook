@@ -1,0 +1,44 @@
+V_COMPONENT_ANALYSIS_START depth=5
+SCOPE intrinsic equations and full cover; independent of sampled bank
+CASE family=V1 p=13 cover_T=[1, 5, 8, 12] infinity_units=(1, 2, 4, 5) infinity_square=(True, False, True, False)
+INFINITY_FULL_COVER=0 reason=normalized_unit_nonsquare
+FINITE T=1 radicands=(1, 3, 9, 0) zero_count=1 unit_contact=[(9, 2, 1, 2)] exceptional_contact=[(6, 2, 3), (7, 2, 3)]
+FINITE T=5 radicands=(12, 12, 1, 3) zero_count=0 unit_contact=[(9, 2, 1, 2)] exceptional_contact=[(6, 2, 3), (7, 2, 3)]
+FINITE T=8 radicands=(12, 12, 1, 3) zero_count=0 unit_contact=[(9, 2, 1, 2)] exceptional_contact=[(6, 2, 3), (7, 2, 3)]
+FINITE T=12 radicands=(1, 3, 9, 0) zero_count=1 unit_contact=[(9, 2, 1, 2)] exceptional_contact=[(6, 2, 3), (7, 2, 3)]
+P2 family=V1 p=13 mode=unit T0=1 data=(9, 2, 1) starts=8 rank_hist={6: 8} nodes=1352 Tclasses=1 off_exceptional=-1
+P5 family=V1 p=13 mode=unit T0=1 certificate=YES
+P2 family=V1 p=13 mode=unit T0=5 data=(9, 2, 1) starts=16 rank_hist={6: 16} nodes=2704 Tclasses=13 off_exceptional=-1
+P5 family=V1 p=13 mode=unit T0=5 certificate=YES
+P2 family=V1 p=13 mode=exceptional T0=1 data=(6, 2) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+P5 family=V1 p=13 mode=exceptional T0=1 certificate=NO
+P2 family=V1 p=13 mode=exceptional T0=1 data=(7, 2) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+P5 family=V1 p=13 mode=exceptional T0=1 certificate=NO
+P2 family=V1 p=13 mode=exceptional T0=5 data=(6, 2) starts=16 rank_hist={7: 16} nodes=208 Tclasses=13 off_exceptional=0
+P5 family=V1 p=13 mode=exceptional T0=5 certificate=YES
+P2 family=V1 p=13 mode=exceptional T0=5 data=(7, 2) starts=16 rank_hist={7: 16} nodes=208 Tclasses=13 off_exceptional=0
+P5 family=V1 p=13 mode=exceptional T0=5 certificate=YES
+CASE family=V2 p=11 cover_T=[1, 5, 6, 10] infinity_units=(4, 2, 5, 8) infinity_square=(True, False, True, False)
+INFINITY_FULL_COVER=0 reason=normalized_unit_nonsquare
+FINITE T=1 radicands=(4, 1, 4, 9) zero_count=0 unit_contact=[] exceptional_contact=[]
+FINITE T=5 radicands=(1, 5, 3, 3) zero_count=0 unit_contact=[] exceptional_contact=[]
+FINITE T=6 radicands=(1, 5, 3, 3) zero_count=0 unit_contact=[] exceptional_contact=[]
+FINITE T=10 radicands=(4, 1, 4, 9) zero_count=0 unit_contact=[] exceptional_contact=[]
+GENUINE_LOCAL_OBSTRUCTION V2 p=11: every cover-allowed finite T disk has neither a unit-L contact point nor a point on the strict transform above L=0; infinity is killed by cover units
+INDEPENDENT_FINITE_FIELD_CHECK all four finite disks have good reduction and #J(F_11)=128=2 mod 3; see target_22224_V_components_finitefield.log
+CASE family=V2 p=13 cover_T=[1, 4, 9, 12] infinity_units=(1, 7, 3, 6) infinity_square=(True, False, True, False)
+INFINITY_FULL_COVER=0 reason=normalized_unit_nonsquare
+FINITE T=1 radicands=(1, 12, 4, 0) zero_count=1 unit_contact=[(12, 11, 12, 2)] exceptional_contact=[(3, 11, 3), (10, 11, 3)]
+FINITE T=4 radicands=(3, 0, 10, 12) zero_count=1 unit_contact=[(4, 8, 4, 2)] exceptional_contact=[(4, 8, 3), (9, 8, 3)]
+FINITE T=9 radicands=(3, 0, 10, 12) zero_count=1 unit_contact=[(4, 8, 4, 2)] exceptional_contact=[(4, 8, 3), (9, 8, 3)]
+FINITE T=12 radicands=(1, 12, 4, 0) zero_count=1 unit_contact=[(12, 11, 12, 2)] exceptional_contact=[(3, 11, 3), (10, 11, 3)]
+P2 family=V2 p=13 mode=unit T0=1 data=(12, 11, 12) starts=8 rank_hist={6: 8} nodes=1352 Tclasses=1 off_exceptional=-1
+P2 family=V2 p=13 mode=unit T0=4 data=(4, 8, 4) starts=8 rank_hist={6: 8} nodes=1352 Tclasses=1 off_exceptional=-1
+P2 family=V2 p=13 mode=exceptional T0=1 data=(3, 11) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+P2 family=V2 p=13 mode=exceptional T0=1 data=(10, 11) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+P2 family=V2 p=13 mode=exceptional T0=4 data=(4, 8) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+P2 family=V2 p=13 mode=exceptional T0=4 data=(9, 8) starts=8 rank_hist={7: 8} nodes=104 Tclasses=1 off_exceptional=0
+CONCLUSION V2 is intrinsically excluded at p=11 (also independently by good reduction with #J(F_11)=128); this is not a sampled-bank conclusion
+CONCLUSION V1 remains locally viable at p=13 and receives explicit contact+cover certificates through 13^5
+p2_output=results/target_22224_V_components_p2_components.tsv
+certificate_output=results/target_22224_V_components_padic_certificates.tsv

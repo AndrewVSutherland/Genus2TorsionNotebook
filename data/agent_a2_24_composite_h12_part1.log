@@ -1,0 +1,28 @@
+COMPOSITE 8x3 SEARCH on A(8): H=12 Part=1/3 prefilter 3|#J at [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 ]
+PROGRESS tested=100000 smooth=98717 pre3=190 tors=190 hits24=0 hits224=0
+PROGRESS tested=200000 smooth=197463 pre3=414 tors=414 hits24=0 hits224=0
+PROGRESS tested=300000 smooth=296214 pre3=677 tors=677 hits24=0 hits224=0
+PROGRESS tested=400000 smooth=394890 pre3=895 tors=895 hits24=0 hits224=0
+PROGRESS tested=500000 smooth=493611 pre3=1185 tors=1185 hits24=0 hits224=0
+PROGRESS tested=600000 smooth=592213 pre3=1436 tors=1436 hits24=0 hits224=0
+PROGRESS tested=700000 smooth=690886 pre3=1636 tors=1636 hits24=0 hits224=0
+PROGRESS tested=800000 smooth=789629 pre3=1839 tors=1839 hits24=0 hits224=0
+PROGRESS tested=900000 smooth=888386 pre3=2086 tors=2086 hits24=0 hits224=0
+PROGRESS tested=1000000 smooth=987114 pre3=2303 tors=2303 hits24=0 hits224=0
+PROGRESS tested=1100000 smooth=1085879 pre3=2524 tors=2524 hits24=0 hits224=0
+PROGRESS tested=1200000 smooth=1184589 pre3=2703 tors=2703 hits24=0 hits224=0
+PROGRESS tested=1300000 smooth=1283235 pre3=2856 tors=2856 hits24=0 hits224=0
+PROGRESS tested=1400000 smooth=1381978 pre3=3039 tors=3039 hits24=0 hits224=0
+PROGRESS tested=1500000 smooth=1480704 pre3=3233 tors=3233 hits24=0 hits224=0
+PROGRESS tested=1600000 smooth=1579472 pre3=3402 tors=3402 hits24=0 hits224=0
+PROGRESS tested=1700000 smooth=1678209 pre3=3592 tors=3592 hits24=0 hits224=0
+PROGRESS tested=1800000 smooth=1776950 pre3=3772 tors=3772 hits24=0 hits224=0
+PROGRESS tested=1900000 smooth=1875599 pre3=3893 tors=3893 hits24=0 hits224=0
+HIT24 r=5 p=-5/2 t=-9/2 torsion=[ 24 ] 2rank=1 simple=true (q=17 chi=x^4 - 5*x^3 + 16*x^2 - 85*x + 289)
+  f = 701706240*x^6 - 2463436800*x^5 - 1709890560*x^4 - 58438195200*x^3 + 367508378880*x^2 - 494073043200*x - 6779350080
+PROGRESS tested=2000000 smooth=1974334 pre3=4067 tors=4067 hits24=1 hits224=0
+SEARCH_DONE tested=2020503 smooth=1994506 pre3=4109 tors=4109 hits24=1 hits224=0
+TORSION_HISTOGRAM
+  [ 24 ] : 1
+  [ 8 ] : 4108
+DONE

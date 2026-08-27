@@ -1,0 +1,176 @@
+=== claude_ov_m612ap_sieve2 : intrinsic Abel-Prym MW sieve on E8 ===
+generators verified over Q: 3 cubic place pairs
+primes: [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+
+Current total memory usage: 3721.5MB, failed memory request: 183.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 2435.6MB, failed memory request: 1675.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3813.7MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3719.4MB, failed memory request: 138.5MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3814.3MB, failed memory request: 40.6MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3812.4MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3808.8MB, failed memory request: 140.7MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3814.7MB, failed memory request: 0.1MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3780.9MB, failed memory request: 74.1MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3546.5MB, failed memory request: 292.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3814.3MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3805.4MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3814.7MB, failed memory request: 0.1MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3783.2MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3754.9MB, failed memory request: 122.4MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 2511.0MB, failed memory request: 1805.9MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3808.2MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 2894.8MB, failed memory request: 2351.8MB
+System Error: User memory limit has been reached
+workers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax
+
+Current total memory usage: 3791.7MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+
+Current total memory usage: 3791.7MB, failed memory request: 32.0MB
+Insufficient memory remaining for system to continueworkers finished
+
+In file "code/claude_ov_m612ap_sieve2.m", line 384, column 3:
+>>   gt := function(k) return IsDefined(D,k) select D[k] else "-"; end functio
+     ^
+User error: bad syntax

@@ -1,0 +1,53 @@
+Loading "code/claude_ov_2216_delta.m"
+claude_ov_2216_direct height=20  #rationals=511
+YPOINT class=1 u=-13/5 v=4/13 d=-10374
+YPOINT class=3 u=-17/8 v=-1 d=2
+YPOINT class=3 u=-17/8 v=17/8 d=2
+YPOINT class=0 u=-2 v=-3/5 d=6
+YPOINT class=0 u=-2 v=-8/19 d=6
+YPOINT class=0 u=-2 v=-6/19 d=6
+YPOINT class=0 u=-2 v=-1/5 d=6
+YPOINT class=0 u=-2 v=6/5 d=6
+YPOINT class=0 u=-2 v=8/5 d=6
+YPOINT class=2 u=-5/3 v=1/5 d=35
+YPOINT class=2 u=-5/3 v=7/15 d=35
+YPOINT class=2 u=-5/4 v=1/10 d=255
+YPOINT class=2 u=-5/4 v=3/20 d=255
+YPOINT class=2 u=-17/15 v=1/17 d=38114
+YPOINT class=3 u=-1 v=-17/8 d=2
+YPOINT class=3 u=-1 v=17/8 d=2
+YPOINT class=0 u=-3/5 v=-2 d=6
+YPOINT class=0 u=-3/5 v=8/5 d=6
+YPOINT class=0 u=-8/19 v=-2 d=6
+YPOINT class=0 u=-6/19 v=-2 d=6
+YPOINT class=0 u=-1/5 v=-2 d=6
+YPOINT class=0 u=-1/5 v=6/5 d=6
+YPOINT class=2 u=1/17 v=-17/15 d=38114
+YPOINT class=2 u=1/10 v=-5/4 d=255
+YPOINT class=2 u=1/10 v=3/20 d=255
+YPOINT class=2 u=3/20 v=-5/4 d=255
+YPOINT class=2 u=3/20 v=1/10 d=255
+YPOINT class=2 u=1/5 v=-5/3 d=35
+YPOINT class=2 u=1/5 v=7/15 d=35
+YPOINT class=1 u=4/13 v=-13/5 d=-10374
+YPOINT class=2 u=7/15 v=-5/3 d=35
+YPOINT class=2 u=7/15 v=1/5 d=35
+YPOINT class=1 u=9/13 v=13/5 d=-17329
+YPOINT class=1 u=4/5 v=5/3 d=-8710
+YPOINT class=1 u=9/10 v=5/4 d=-2905
+YPOINT class=1 u=16/17 v=17/15 d=-35326
+YPOINT class=1 u=17/15 v=16/17 d=-35326
+YPOINT class=0 u=6/5 v=-2 d=6
+YPOINT class=0 u=6/5 v=-1/5 d=6
+YPOINT class=1 u=5/4 v=9/10 d=-2905
+YPOINT class=0 u=8/5 v=-2 d=6
+YPOINT class=0 u=8/5 v=-3/5 d=6
+YPOINT class=1 u=5/3 v=4/5 d=-8710
+YPOINT class=3 u=17/8 v=-17/8 d=2
+YPOINT class=3 u=17/8 v=-1 d=2
+YPOINT class=1 u=13/5 v=9/13 d=-17329
+checked=261121 nondegenerate=256938 qt_irreducible=256694
+YPOINTS untwisted=16 T1=10 T2=14 T3=6
+FULL    untwisted=0 T1=0 T2=0 T3=0
+hits=0
+SEARCH_DONE

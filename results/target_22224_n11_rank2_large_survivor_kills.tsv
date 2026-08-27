@@ -1,0 +1,5 @@
+bound	m	n	torsion_coset	first_killing_prime	comment
+1000000	23520	900958	1	227	unique new p<=199 survivor
+10000000	1084080	-9140882	1	251	survived through 229
+10000000	-2538000	-6784850	1	239	survived through 229
+10000000	-1801800	-4396391	4	239	survived through 229

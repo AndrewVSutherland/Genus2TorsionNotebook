@@ -1,0 +1,7 @@
+SECTION deck id: t=u IS a section of sigma=[ 1, 2, 3 ] (si=1)
+SECTION deck t=6-u IS a section of sigma=[ 3, 2, 1 ] (si=3)
+SECTION deck t=(5u-9)/(u-5) IS a section of sigma=[ 1, 3, 2 ] (si=4)
+SECTION deck t=(u-21)/(u-5) IS a section of sigma=[ 2, 3, 1 ] (si=5)
+SECTION deck t=(5u-21)/(u-1) IS a section of sigma=[ 3, 1, 2 ] (si=6)
+SECTION deck t=(u+15)/(u-1) IS a section of sigma=[ 2, 1, 3 ] (si=2)
+DECK_SIGMA_MATCH_DONE

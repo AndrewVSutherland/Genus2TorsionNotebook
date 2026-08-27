@@ -1,0 +1,944 @@
+Elkies [2,2,2,10] Clebsch-Klein source/Richelot sweep
+height 30 max_sources 11 run_isogenies true max_twopower_sources 11
+SOURCE source_1 rs [ 1, -18, -17, 14, 20 ]
+squares [ 1, 196, 289, 324, 400 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_1 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_1 x^6 - 1210*x^5 + 538593*x^4 - 104403640*x^3 + 
+    7444928656*x^2 - 7341062400*x
+RICHELOT_COUNT source_1 15
+RICHELOT_TYPE source_1 richelot_1 JacHyp
+RICHELOT source_1 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_2 JacHyp
+RICHELOT source_1 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_3 JacHyp
+RICHELOT source_1 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_4 JacHyp
+RICHELOT source_1 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_5 JacHyp
+RICHELOT source_1 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_6 JacHyp
+RICHELOT source_1 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_7 JacHyp
+RICHELOT source_1 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_8 JacHyp
+RICHELOT source_1 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_9 JacHyp
+RICHELOT source_1 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_10 JacHyp
+RICHELOT source_1 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_11 JacHyp
+RICHELOT source_1 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_12 JacHyp
+RICHELOT source_1 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_13 JacHyp
+RICHELOT source_1 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_14 JacHyp
+RICHELOT source_1 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_1 richelot_15 JacHyp
+RICHELOT source_1 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_1 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_1 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_1 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_2 rs [ 1, -8, -7, 5, 9 ]
+squares [ 1, 25, 49, 64, 81 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_2 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_2 x^6 - 220*x^5 + 17358*x^4 - 578380*x^3 + 6911641*x^2 - 
+    6350400*x
+RICHELOT_COUNT source_2 15
+RICHELOT_TYPE source_2 richelot_1 JacHyp
+RICHELOT source_2 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_2 JacHyp
+RICHELOT source_2 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_3 JacHyp
+RICHELOT source_2 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_4 JacHyp
+RICHELOT source_2 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_5 JacHyp
+RICHELOT source_2 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_6 JacHyp
+RICHELOT source_2 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_7 JacHyp
+RICHELOT source_2 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_8 JacHyp
+RICHELOT source_2 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_9 JacHyp
+RICHELOT source_2 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_10 JacHyp
+RICHELOT source_2 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_11 JacHyp
+RICHELOT source_2 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_12 JacHyp
+RICHELOT source_2 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_13 JacHyp
+RICHELOT source_2 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_14 JacHyp
+RICHELOT source_2 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_2 richelot_15 JacHyp
+RICHELOT source_2 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_2 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_2 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_2 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_3 rs [ 2, -25, -23, 18, 28 ]
+squares [ 4, 324, 529, 625, 784 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_3 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_3 x^6 - 2266*x^5 + 1872321*x^4 - 666920056*x^3 + 
+    86621907856*x^2 - 335936160000*x
+RICHELOT_COUNT source_3 15
+RICHELOT_TYPE source_3 richelot_1 JacHyp
+RICHELOT source_3 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_2 JacHyp
+RICHELOT source_3 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_3 JacHyp
+RICHELOT source_3 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_4 JacHyp
+RICHELOT source_3 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_5 JacHyp
+RICHELOT source_3 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_6 JacHyp
+RICHELOT source_3 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_7 JacHyp
+RICHELOT source_3 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_8 JacHyp
+RICHELOT source_3 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_9 JacHyp
+RICHELOT source_3 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_10 JacHyp
+RICHELOT source_3 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_11 JacHyp
+RICHELOT source_3 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_12 JacHyp
+RICHELOT source_3 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_13 JacHyp
+RICHELOT source_3 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_14 JacHyp
+RICHELOT source_3 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_3 richelot_15 JacHyp
+RICHELOT source_3 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_3 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_3 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_3 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_4 rs [ 2, -9, -7, 4, 10 ]
+squares [ 4, 16, 49, 81, 100 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_4 3481*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_4 x^6 - 250*x^5 + 21633*x^4 - 751000*x^3 + 9024016*x^2 - 
+    25401600*x
+RICHELOT_COUNT source_4 15
+RICHELOT_TYPE source_4 richelot_1 JacHyp
+RICHELOT source_4 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_2 JacHyp
+RICHELOT source_4 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_3 JacHyp
+RICHELOT source_4 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_4 JacHyp
+RICHELOT source_4 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_5 JacHyp
+RICHELOT source_4 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_6 JacHyp
+RICHELOT source_4 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_7 JacHyp
+RICHELOT source_4 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_8 JacHyp
+RICHELOT source_4 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_9 JacHyp
+RICHELOT source_4 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_10 JacHyp
+RICHELOT source_4 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_11 JacHyp
+RICHELOT source_4 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_12 JacHyp
+RICHELOT source_4 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_13 JacHyp
+RICHELOT source_4 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_14 JacHyp
+RICHELOT source_4 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_4 richelot_15 JacHyp
+RICHELOT source_4 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_4 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_4 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_4 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_5 rs [ 4, -25, -14, 9, 26 ]
+squares [ 16, 81, 196, 625, 676 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_5 1681*x^4 + 164*x^3 - 10*x^2 + 4*x + 1
+SOURCE_CURVE source_5 x^6 - 1594*x^5 + 824001*x^4 - 150467224*x^3 + 
+    8910604816*x^2 - 107321760000*x
+RICHELOT_COUNT source_5 15
+RICHELOT_TYPE source_5 richelot_1 JacHyp
+RICHELOT source_5 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_2 JacHyp
+RICHELOT source_5 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_3 JacHyp
+RICHELOT source_5 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_4 JacHyp
+RICHELOT source_5 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_5 JacHyp
+RICHELOT source_5 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_6 JacHyp
+RICHELOT source_5 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_7 JacHyp
+RICHELOT source_5 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_8 JacHyp
+RICHELOT source_5 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_9 JacHyp
+RICHELOT source_5 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_10 JacHyp
+RICHELOT source_5 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_11 JacHyp
+RICHELOT source_5 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_12 JacHyp
+RICHELOT source_5 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_13 JacHyp
+RICHELOT source_5 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_14 JacHyp
+RICHELOT source_5 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_5 richelot_15 JacHyp
+RICHELOT source_5 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_5 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_5 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_5 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_6 rs [ 5, -26, -18, 11, 28 ]
+squares [ 25, 121, 324, 676, 784 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_6 1681*x^4 - 2*x^2 + 1
+SOURCE_CURVE source_6 x^6 - 1930*x^5 + 1266513*x^4 - 323552920*x^3 + 
+    28104510736*x^2 - 519437318400*x
+RICHELOT_COUNT source_6 15
+RICHELOT_TYPE source_6 richelot_1 JacHyp
+RICHELOT source_6 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_2 JacHyp
+RICHELOT source_6 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_3 JacHyp
+RICHELOT source_6 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_4 JacHyp
+RICHELOT source_6 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_5 JacHyp
+RICHELOT source_6 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_6 JacHyp
+RICHELOT source_6 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_7 JacHyp
+RICHELOT source_6 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_8 JacHyp
+RICHELOT source_6 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_9 JacHyp
+RICHELOT source_6 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_10 JacHyp
+RICHELOT source_6 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_11 JacHyp
+RICHELOT source_6 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_12 JacHyp
+RICHELOT source_6 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_13 JacHyp
+RICHELOT source_6 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_14 JacHyp
+RICHELOT source_6 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_6 richelot_15 JacHyp
+RICHELOT source_6 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_6 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_6 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_6 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_7 rs [ 5, -26, -14, 8, 27 ]
+squares [ 25, 64, 196, 676, 729 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_7 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_7 x^6 - 1690*x^5 + 912273*x^4 - 167519560*x^3 + 
+    9825567376*x^2 - 154543334400*x
+RICHELOT_COUNT source_7 15
+RICHELOT_TYPE source_7 richelot_1 JacHyp
+RICHELOT source_7 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_2 JacHyp
+RICHELOT source_7 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_3 JacHyp
+RICHELOT source_7 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_4 JacHyp
+RICHELOT source_7 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_5 JacHyp
+RICHELOT source_7 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_6 JacHyp
+RICHELOT source_7 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_7 JacHyp
+RICHELOT source_7 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_8 JacHyp
+RICHELOT source_7 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_9 JacHyp
+RICHELOT source_7 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_10 JacHyp
+RICHELOT source_7 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_11 JacHyp
+RICHELOT source_7 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_12 JacHyp
+RICHELOT source_7 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_13 JacHyp
+RICHELOT source_7 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_14 JacHyp
+RICHELOT source_7 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_7 richelot_15 JacHyp
+RICHELOT source_7 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_7 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_7 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_7 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_8 rs [ 5, -21, -12, 6, 22 ]
+squares [ 25, 36, 144, 441, 484 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_8 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_8 x^6 - 1130*x^5 + 412753*x^4 - 52843320*x^3 + 
+    2186871696*x^2 - 27662342400*x
+RICHELOT_COUNT source_8 15
+RICHELOT_TYPE source_8 richelot_1 JacHyp
+RICHELOT source_8 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_2 JacHyp
+RICHELOT source_8 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_3 JacHyp
+RICHELOT source_8 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_4 JacHyp
+RICHELOT source_8 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_5 JacHyp
+RICHELOT source_8 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_6 JacHyp
+RICHELOT source_8 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_7 JacHyp
+RICHELOT source_8 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_8 JacHyp
+RICHELOT source_8 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_9 JacHyp
+RICHELOT source_8 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_10 JacHyp
+RICHELOT source_8 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_11 JacHyp
+RICHELOT source_8 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_12 JacHyp
+RICHELOT source_8 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_13 JacHyp
+RICHELOT source_8 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_14 JacHyp
+RICHELOT source_8 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_8 richelot_15 JacHyp
+RICHELOT source_8 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_8 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_8 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_8 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_9 rs [ 7, -25, -17, 8, 27 ]
+squares [ 49, 64, 289, 625, 729 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_9 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_9 x^6 - 1756*x^5 + 1035726*x^4 - 232531276*x^3 + 
+    17535321241*x^2 - 412934760000*x
+RICHELOT_COUNT source_9 15
+RICHELOT_TYPE source_9 richelot_1 JacHyp
+RICHELOT source_9 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_2 JacHyp
+RICHELOT source_9 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_3 JacHyp
+RICHELOT source_9 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_4 JacHyp
+RICHELOT source_9 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_5 JacHyp
+RICHELOT source_9 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_6 JacHyp
+RICHELOT source_9 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_7 JacHyp
+RICHELOT source_9 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_8 JacHyp
+RICHELOT source_9 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_9 JacHyp
+RICHELOT source_9 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_10 JacHyp
+RICHELOT source_9 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_11 JacHyp
+RICHELOT source_9 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_12 JacHyp
+RICHELOT source_9 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_13 JacHyp
+RICHELOT source_9 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_14 JacHyp
+RICHELOT source_9 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_9 richelot_15 JacHyp
+RICHELOT source_9 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_9 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_9 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_9 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_10 rs [ 7, -22, -20, 9, 26 ]
+squares [ 49, 81, 400, 484, 676 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_10 1681*x^4 - 164*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_10 x^6 - 1690*x^5 + 997953*x^4 - 239919160*x^3 + 
+    20153777296*x^2 - 519437318400*x
+RICHELOT_COUNT source_10 15
+RICHELOT_TYPE source_10 richelot_1 JacHyp
+RICHELOT source_10 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_2 JacHyp
+RICHELOT source_10 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_3 JacHyp
+RICHELOT source_10 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_4 JacHyp
+RICHELOT source_10 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_5 JacHyp
+RICHELOT source_10 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_6 JacHyp
+RICHELOT source_10 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_7 JacHyp
+RICHELOT source_10 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_8 JacHyp
+RICHELOT source_10 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_9 JacHyp
+RICHELOT source_10 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_10 JacHyp
+RICHELOT source_10 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_11 JacHyp
+RICHELOT source_10 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_12 JacHyp
+RICHELOT source_10 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_13 JacHyp
+RICHELOT source_10 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_14 JacHyp
+RICHELOT source_10 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_10 richelot_15 JacHyp
+RICHELOT source_10 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_10 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_10 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_10 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE source_11 rs [ 7, -22, -18, 8, 25 ]
+squares [ 49, 64, 324, 484, 625 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_11 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_11 x^6 - 1546*x^5 + 826881*x^4 - 177289096*x^3 + 
+    13150584976*x^2 - 307359360000*x
+RICHELOT_COUNT source_11 15
+RICHELOT_TYPE source_11 richelot_1 JacHyp
+RICHELOT source_11 richelot_1 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_2 JacHyp
+RICHELOT source_11 richelot_2 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_3 JacHyp
+RICHELOT source_11 richelot_3 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_4 JacHyp
+RICHELOT source_11 richelot_4 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_5 JacHyp
+RICHELOT source_11 richelot_5 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_6 JacHyp
+RICHELOT source_11 richelot_6 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_7 JacHyp
+RICHELOT source_11 richelot_7 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_8 JacHyp
+RICHELOT source_11 richelot_8 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_9 JacHyp
+RICHELOT source_11 richelot_9 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_10 JacHyp
+RICHELOT source_11 richelot_10 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_11 JacHyp
+RICHELOT source_11 richelot_11 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_12 JacHyp
+RICHELOT source_11 richelot_12 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_13 JacHyp
+RICHELOT source_11 richelot_13 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_14 JacHyp
+RICHELOT source_11 richelot_14 torsion [ 2, 10 ]
+order 20 exponent 10
+RICHELOT_TYPE source_11 richelot_15 JacHyp
+RICHELOT source_11 richelot_15 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER_COUNT source_11 jacobians 15 products 0 weil_restrictions 0
+TWOPOWER source_11 twopower_1 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_2 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_3 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_4 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_5 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_6 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_7 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_8 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_9 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_10 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_11 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_12 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_13 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_14 torsion [ 2, 10 ]
+order 20 exponent 10
+TWOPOWER source_11 twopower_15 torsion [ 2, 10 ]
+order 20 exponent 10
+SOURCE_LIMIT_REACHED
+DONE_PARTIAL
+tuple_checked 5144909 clebsch_points 273 unique_sources 11
+best_order 80 best_exponent 10
+best_records [
+    <"source_1", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_2", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_3", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_4", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_5", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_6", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_7", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_8", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_9", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_10", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_11", "source", [ 2, 2, 2, 10 ], 80, 10>
+]
+interesting_count 0

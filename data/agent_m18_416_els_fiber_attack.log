@@ -1,0 +1,34 @@
+
+================ FIBER R = -8 ================
+Gamma(m) = 15876*mm^4 - 28957824*mm^2 + 16131032064
+disc = 141498714521644067599163327428588880894361600
+sweep height 400: tested=194710 C2 points=8 (second stage reported above if any)
+C2 m-values: [ -63, -36, -28, -16, 16, 28, 36, 63 ]
+elliptic fiber: [ 0, 0, 0, -1263, 17138 ]
+rank bounds: [1, 1]
+torsion: [ 2, 2 ]
+generators found: 3
+MW enumeration: 75 points tested through n=12
+
+================ FIBER R = -25/4 ================
+Gamma(m) = 370881/64*mm^4 - 5016165525/1024*mm^2 + 85970447600625/65536
+disc = 22517267181527409001253637728674112415524939117431640625/4503599627370496
+sweep height 400: tested=194710 C2 points=16 (second stage reported above if any)
+C2 m-values: [ -25/2, 25/2, -35/3, 35/3, -105/4, -45/4, 45/4, 105/4, -195/8, -145/8, 145/8, 195/8, -385/16, 385/16, -329/32, 329/32 ]
+elliptic fiber: [ 0, -1, 0, -468441, 122191641 ]
+rank bounds: [3, 3]
+torsion: [ 2, 2 ]
+generators found: 5
+MW enumeration: 75 points tested through n=12
+
+================ FIBER R = -29/8 ================
+Gamma(m) = 603729/1024*mm^4 - 11782978893/131072*mm^2 + 306535001275881/67108864
+disc = 1544702923038048974393360557757524659285377764725059675625/4951760157141521099596496896
+sweep height 400: tested=194710 C2 points=2 (second stage reported above if any)
+C2 m-values: [ -29/4, 29/4 ]
+elliptic fiber: [ 0, -1, 0, -158676796, 757007360596 ]
+rank bounds: [1, 1]
+torsion: [ 2, 2 ]
+generators found: 3
+MW enumeration: 75 points tested through n=12
+DONE

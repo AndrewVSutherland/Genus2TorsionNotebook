@@ -1,0 +1,13 @@
+COND5 (s,t,u)=(-5/18, -10/49, 4/17)  v_2(disc_min)=30  ogg_guaranteed=false
+COND5 minimal model = Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 16900*x^6 + 496470*x^5 - 2676360*x^4 - 102391553*x^3 + 295524693*x^2 + 3295748145*x - 6440348871 over Rational Field
+WARNING: Using Ogg's formula when v_2(D)>=12, no correctness guarantee
+WARNING: Using Ogg's formula when v_2(disc)>=12, no correctness guarantee
+
+Current total memory usage: 45764.9MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+
+In file "code/claude_ov_erratum_cond5.m", line 33, column 31:
+>> printf "COND5 N = %o = %o\n", N, Factorization(N);
+                                 ^
+Runtime error: Variable 'N' has not been initialized
+

@@ -1,0 +1,52 @@
+AGENT M2248 q^2=1 projective local lift check
+conditions H1=-8*(D^2-T^2)*(D-N+T)*(D+N-T), H4=8*G_h
+primes [3, 5, 13] depth 6
+PRIME_START 3
+DEPTH p=3 k=1 mod=3 total=23 T=1:7 D=1:8 N=1:8
+DEPTH p=3 k=2 mod=9 total=147 T=1:51 D=1:48 N=1:48
+DEPTH p=3 k=3 mod=27 total=873 T=1:297 D=1:288 N=1:288
+DEPTH p=3 k=4 mod=81 total=4509 T=1:1485 D=1:1512 N=1:1512
+DEPTH p=3 k=5 mod=243 total=32319 T=1:10287 D=1:11016 N=1:11016
+DEPTH p=3 k=6 mod=729 total=235467 T=1:72171 D=1:81648 N=1:81648
+NO_OBSTRUCTION_TO_DEPTH p=3 depth=6
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,1,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,244,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(0,487,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(243,1,1); H1=0; H4=0
+SURVIVOR p=3 chart=T=1 (D,N,T)=(243,244,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,244); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,0,487); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,243,1); H1=0; H4=0
+SURVIVOR p=3 chart=D=1 (D,N,T)=(1,243,244); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,0); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,243); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(0,1,486); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(243,1,0); H1=0; H4=0
+SURVIVOR p=3 chart=N=1 (D,N,T)=(243,1,243); H1=0; H4=0
+PRIME_DONE 3
+PRIME_START 5
+DEPTH p=5 k=1 mod=5 total=57 T=1:17 D=1:20 N=1:20
+DEPTH p=5 k=2 mod=25 total=545 T=1:185 D=1:180 N=1:180
+DEPTH p=5 k=3 mod=125 total=8825 T=1:3025 D=1:2900 N=1:2900
+DEPTH p=5 k=4 mod=625 total=118625 T=1:37625 D=1:40500 N=1:40500
+DEPTH p=5 k=5 mod=3125 total=2645625 T=1:820625 D=1:912500 N=1:912500
+DEPTH p=5 k=6 mod=15625 total=61590625 T=1:18765625 D=1:21412500 N=1:21412500
+NO_OBSTRUCTION_TO_DEPTH p=5 depth=6
+SURVIVOR p=5 chart=T=1 (D,N,T)=(0,1,1); H1=0; H4=0
+SURVIVOR p=5 chart=T=1 (D,N,T)=(0,3126,1); H1=0; H4=0
+SURVIVOR p=5 chart=T=1 (D,N,T)=(0,6251,1); H1=0; H4=0
+SURVIVOR p=5 chart=T=1 (D,N,T)=(0,9376,1); H1=0; H4=0
+SURVIVOR p=5 chart=T=1 (D,N,T)=(0,12501,1); H1=0; H4=0
+SURVIVOR p=5 chart=D=1 (D,N,T)=(1,0,1); H1=0; H4=0
+SURVIVOR p=5 chart=D=1 (D,N,T)=(1,0,3126); H1=0; H4=0
+SURVIVOR p=5 chart=D=1 (D,N,T)=(1,0,6251); H1=0; H4=0
+SURVIVOR p=5 chart=D=1 (D,N,T)=(1,0,9376); H1=0; H4=0
+SURVIVOR p=5 chart=D=1 (D,N,T)=(1,0,12501); H1=0; H4=0
+SURVIVOR p=5 chart=N=1 (D,N,T)=(0,1,0); H1=0; H4=0
+SURVIVOR p=5 chart=N=1 (D,N,T)=(0,1,3125); H1=0; H4=0
+SURVIVOR p=5 chart=N=1 (D,N,T)=(0,1,6250); H1=0; H4=0
+SURVIVOR p=5 chart=N=1 (D,N,T)=(0,1,9375); H1=0; H4=0
+SURVIVOR p=5 chart=N=1 (D,N,T)=(0,1,12500); H1=0; H4=0
+PRIME_DONE 5
+PRIME_START 13

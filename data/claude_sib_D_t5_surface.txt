@@ -1,0 +1,148 @@
+# Lane D (2026-07-18): T5 surface-scan (C_rho') results — sibling hunt around
+# the first (2,2,2,12) curve.  Scripts: scratchpad sib_D/surfS.gp, batchscan.sh,
+# memberjobs.sh; verifier prod_02_22212/hitverify.m; dedupe sib_D/g2dedupe.m.
+#
+# KEY CRITERION (exact, from the proven product identity
+# V'1V'2V'3V'4 == F(u,rho') mod squares, F = (q rho'-1)(q rho'-2u+1), q=4u^2-6u+3):
+#   a T5 hit on member rho' = rn/rd REQUIRES a rational point on the genus-1 curve
+#     C_rho' : y^2 = P(u) := (q(u) rn - rd)(q(u) rn - (2u-1) rd),
+#   and ON C_rho' the 4th condition is free: X1,X2,X3 squares => full hit.
+#   => enumerate C_rho' points by height (PARI hyperellratpoints, ~1ms/member
+#   at H=3000) and exact-test X1,X2,X3.  This reaches u-heights 20-1000x beyond
+#   the (u,rho') box sweeps at negligible cost.
+#
+# RESULT 1: TWO NEW REPRESENTATIONS OF THE KNOWN HIT CURVE (not new curves):
+#   (u,rho') = (3637/7105, -49/240) -> (s,m,n) = (-527365,174576,-1030225)
+#   (u,rho') = (6767/13872, 289/240) -> (s,m,n) = (81204,-981215,166464)
+#   Both: Magma TorsionSubgroup EXACTLY [2,2,2,12]; simplicity certs p=37,73,113
+#   (chi irred deg 4 AND chi^12 irred); G2Invariants IDENTICAL to the known hit
+#   ((s,m,n)=(336396,-689185,-166464)); minimal model = known model with x->-x.
+#   => the hit curve has (at least) FOUR (u,rho') representations: each hit
+#   member carries a second u-point (second involution in u on each member).
+#   Verify logs: sib_D/verify_cand1.log, verify_cand2.log, g2dedupe.log.
+#
+# RESULT 2: NEW NEAR-MISS POINTS (pair law) — deep --member scans N=20000
+#   (t5sweep) found second points on two more members:
+#   u=89/169  on rho'=-169/1431  (X4 nonsq; partner u=-4)
+#   u=633/841 on rho'=841/697   (X4 nonsq; partner u=43/52)
+#
+# RESULT 3: FAILING-CLASS CONSTANCY LAW (empirical, now 4 members x 2 points):
+#   at a 3-of-4 point the failing class = sqfree class of F(u,rho'); it is
+#   CONSTANT along each member's near-miss points:
+#     rho'=-1/143: 3,3   rho'=-25/551: 6,6   rho'=-169/1431: 10,10
+#     rho'=841/697: -1,-1   (hit members -49/240, 289/240: class 1 = on C)
+#   A hit member must have a kappa=1 point, i.e. a rational point on C_rho'
+#   with X1X2X3 square — exactly what the C-scan enumerates.
+#
+# RESULT 4: NEGATIVE SCANS (no new curve found):
+#   * C-scan H=100000 (u-height 1e5) of all six known members: only the known
+#     curve's 4 representations; near-miss members -1/143, -25/551, -169/1431,
+#     841/697 carry NO hit to u-height 1e5 on their C-curves.
+#   * t5sweep --member N=20000 on all 6 known members, N=60000 on the two hit
+#     members: no further points beyond the above.
+#   * batch C-scans (tallies in sib_D/batch_pass*.log): see notes file
+#     notes/claude_sib_D_orthogonal.md for final box sizes and counts.
+
+# ---------- raw verification records (magma) ----------
+# verify_cand1: (u,rho')=(3637/7105,-49/240)
+# (s,m,n) = (-527365,174576,-1030225)
+# B = [ 12923079325, -442594240440, 100710366685, 179852559600, -880910496000 ]
+# TORSION INVARIANTS = [ 2, 2, 2, 12 ]
+# contains (2,2,2,12): true
+# SIMPLICITY CERT p=37: chi=x^4 - 4*x^3 + 30*x^2 - 148*x + 1369 irred, chi12 irred
+# deg 4
+# SIMPLICITY CERT p=73: chi=x^4 + 8*x^3 + 30*x^2 + 584*x + 5329 irred, chi12 irred
+# deg 4
+# SIMPLICITY CERT p=113: chi=x^4 + 12*x^3 + 70*x^2 + 1356*x + 12769 irred, chi12 
+# irred deg 4
+# certificates found: 3 (need >=1, prefer several)
+# verify_cand2: (u,rho')=(6767/13872,289/240)
+# (s,m,n) = (81204,-981215,166464)
+# B = [ -329363424, 69811484820, 83329027476, 163336973760, 135643161600 ]
+# TORSION INVARIANTS = [ 2, 2, 2, 12 ]
+# contains (2,2,2,12): true
+# SIMPLICITY CERT p=37: chi=x^4 - 4*x^3 + 30*x^2 - 148*x + 1369 irred, chi12 irred
+# deg 4
+# SIMPLICITY CERT p=73: chi=x^4 + 8*x^3 + 30*x^2 + 584*x + 5329 irred, chi12 irred
+# deg 4
+# SIMPLICITY CERT p=113: chi=x^4 + 12*x^3 + 70*x^2 + 1356*x + 12769 irred, chi12 
+# irred deg 4
+# certificates found: 3 (need >=1, prefer several)
+# g2dedupe:
+# known hit G2 = [ 23200066753641271068500267660341305816145467149505372136987847\
+# 2731834678382751986724510877007952868097846028373649064089950539899/95598980385\
+# 3028335576575761997273271033220403790389050188846568210114614454998497466666058\
+# 4136275123787631200000000, 7797700122391418696803452895687726940235972242471488\
+# 5620171798730093763443841747445005670292997513404615315125059/13169777723817851\
+# 4402800596697202157584416799586028138871431886799820130730210633420755210493440\
+# 0000000, 1579122652965774751997727942048657359400026229740634387114329150166709\
+# 313741077956351721/438045311112543041253015802786558635772438645536937610883145\
+# 94179673661696000000 ]
+# rep2 same as rep1: true
+# cand1 G2 = [ 232000667536412710685002676603413058161454671495053721369878472731\
+# 834678382751986724510877007952868097846028373649064089950539899/955989803853028\
+# 3355765757619972732710332204037903890501888465682101146144549984974666660584136\
+# 275123787631200000000, 77977001223914186968034528956877269402359722424714885620\
+# 171798730093763443841747445005670292997513404615315125059/131697777238178514402\
+# 8005966972021575844167995860281388714318867998201307302106334207552104934400000\
+# 000, 15791226529657747519977279420486573594000262297406343871143291501667093137\
+# 41077956351721/4380453111125430412530158027865586357724386455369376108831459417\
+# 9673661696000000 ]
+# cand1 same as known hit: true
+# cand2 (s,m,n) = (81204,-981215,166464)
+# cand2 G2 = [ 232000667536412710685002676603413058161454671495053721369878472731\
+# 834678382751986724510877007952868097846028373649064089950539899/955989803853028\
+# 3355765757619972732710332204037903890501888465682101146144549984974666660584136\
+# 275123787631200000000, 77977001223914186968034528956877269402359722424714885620\
+# 171798730093763443841747445005670292997513404615315125059/131697777238178514402\
+# 8005966972021575844167995860281388714318867998201307302106334207552104934400000\
+# 000, 15791226529657747519977279420486573594000262297406343871143291501667093137\
+# 41077956351721/4380453111125430412530158027865586357724386455369376108831459417\
+# 9673661696000000 ]
+# cand2 same as cand1: true, same as known hit: true
+# minimal model: y^2 + (x^2 + 1)y = 756900*x^6 - 737595570*x^5 + 150572203590*x^4 
+# + 15854483576121*x^3 - 530648977741620*x^2 - 32014154874551031*x + 
+# 830742747091037849
+# minimal model: y^2 + (x^2 + 1)y = 756900*x^6 - 737595570*x^5 + 150572203590*x^4 
+# + 15854483576121*x^3 - 530648977741620*x^2 - 32014154874551031*x + 
+# 830742747091037849
+# involution (canonical height of 2nd rep rel. 1st, both members):
+# member -49/240: y1 ok true, y2 ok true
+#   h(Q1)=0.000000000000000000000000000000 h(Q2)=31.4433289756571336774315856985 
+# member 289/240: y1 ok true, y2 ok true
+#   h(Q1)=0.000000000000000000000000000000 h(Q2)=31.4433289756571336774315856985 
+#
+# ---------- hit-representation structure (exact, gp-checked) ----------
+# The four representations pair up under the cross-member involution as
+# (-97/48,-49/240) <-> (133/145,289/240) and (3637/7105,-49/240) <->
+# (6767/13872,289/240), with q(u)*q(u') an exact SQUARE for each pair
+# (q=4u^2-6u+3); non-paired cross products are nonsquare.  At EVERY
+# representation the C-factors A = q rho'-1 and B = q rho'-2u+1 lie in square
+# class +-15 (15 = 3*5, the automatically-bad primes), with numerators squares
+# of bad primes of the curve: A,B numerators = 1013^2, (19*23)^2, (17*1013)^2,
+# (17*19*23)^2; and 2u-1 has numerator +-11^2, +-13^2 (the forced-bad primes
+# 11, 13).  On each member the two representations have the same A/B ratio
+# class ((1013/437)^2 resp. its inverse).  Suggested use: on C_rho'(Q) the
+# map pt -> class(A) is a descent map constant on cosets; hits live in the
+# +-15 coset (empirical, 4/4) — a possible prune/target for future scans.
+#
+# ---------- MW-lattice probes of C_rho' (mwprobe.m) ----------
+# For near-miss members: MordellWeilGroup of E=Jac(C_rho') (all rank 3, tors Z/2),
+# enumerate c1 g1+c2 g2+c3 g3+t for |ci|<=BND, pull back to u on C_rho', exact
+# X1X2X3 test — probes u-heights ~exp(canonical height), far beyond any direct
+# enumeration.  Results appended as they complete (BND=3: 679 points/member).
+# member -25/551 BND=3: tested 679 MW points, best partial 2/3, done
+# member -1/143 BND=3: tested 679 MW points, best partial 2/3, no hit
+
+# FINAL BATCH-SCAN TALLIES (appended 2026-07-18 late, addressing Codex review on PR #4;
+# extracted from sib_D/batch_pass*.log; "fullhits" are ALL known-curve-1 representations,
+# verified by the HIT-CANDIDATE dedupe — no new curve in any pass):
+# pass A: COMPLETE.  all members |rn|,rd<=300, u-height 3000: members=109587, fullhits=4 (known reps)
+# pass B: PARTIAL, completed through a=183 (of 199), rn=+-a^2 odd, rd<=2400, u-height 10000:
+#         members=358200, fullhits=6 (known reps)
+# pass C: COMPLETE.  +-odd^2/240, a<=999, u-height 200000: members=532, fullhits=8 (known reps)
+# pass C2: COMPLETE (marker done_passC2). a in [1001,2999] rd=240, u-height 2e5: no new fullhits
+# pass D: PARTIAL, completed through rd=500 (of 2000), all |rn|,rd, u-height 1000:
+#         members=1217231, fullhits=4 (known reps)
+# Negative claims in notes/claude_sib_D_orthogonal.md should be read with the PARTIAL
+# ranges above (passes B and D were stopped at the stated frontiers by the session cap).

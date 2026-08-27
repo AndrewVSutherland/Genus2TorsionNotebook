@@ -1,0 +1,33 @@
+X1 irred true absirred true genus 3
+X2 irred true absirred true genus 3
+==== X1 L-polynomial factorization degrees ====
+p=11 failed
+p=13 failed
+p=17 failed
+p=19 failed
+p=23 failed
+p=29 failed
+p=31 failed
+p=37 failed
+p=41 failed
+p=43 failed
+p=47 failed
+p=53 failed
+p=59 failed
+X1: #automorphisms(FF) = 2
+==== X2 L-polynomial factorization degrees ====
+p=11 failed
+p=13 failed
+p=17 failed
+p=19 failed
+p=23 failed
+p=29 failed
+p=31 failed
+p=37 failed
+p=41 failed
+p=43 failed
+p=47 failed
+p=53 failed
+p=59 failed
+X2: #automorphisms(FF) = 2
+GENUS3_ANALYSIS_DONE

@@ -1,0 +1,12 @@
+TARGET_22224_FULL_FAMILY_HALVING_START mode deep PrimeList [ 7, 11, 13, 17, 19, 23, 29, 31 ]
+FULL_FAMILY_DEEP13_SEED_AUDIT_START count 2
+FULL_FAMILY_DEEP13_SEED tuple [ 121, 1919, 3211, 4949 ]
+three_bound_survives false gcd_bound 448 first_killing_prime 23 torsion [ 2, 2, 2, 8 ]
+order 64 strict_simple true certificate_prime 53 chi T^4 - 8*T^3 + 54*T^2 - 424*T + 2809
+degrees [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+FULL_FAMILY_DEEP13_SEED tuple [ 1369, 1711, 2349, 9971 ]
+three_bound_survives false gcd_bound 1024 first_killing_prime 31 torsion [ 2, 2, 2, 8 ]
+order 64 strict_simple true certificate_prime 71 chi T^4 - 12*T^3 + 110*T^2 - 852*T + 5041
+degrees [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+FULL_FAMILY_DEEP13_SEED_AUDIT_DONE
+TARGET_22224_FULL_FAMILY_HALVING_DONE

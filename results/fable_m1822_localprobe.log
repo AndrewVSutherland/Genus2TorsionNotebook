@@ -1,0 +1,22 @@
+M1822 q=5 tested=25 good=0 canary228=0 contains2224=0 contains2216=0
+M1822 q=7 tested=49 good=12 canary228=12 contains2224=0 contains2216=0
+M1822 q=11 tested=121 good=24 canary228=24 contains2224=0 contains2216=24
+M1822HIT16 q=11 u=2 v=9 inv=[ 2, 2, 2, 16 ]
+M1822HIT16 q=11 u=2 v=10 inv=[ 2, 2, 2, 16 ]
+M1822HIT16 q=11 u=3 v=8 inv=[ 2, 4, 16 ]
+M1822HIT16 q=11 u=3 v=10 inv=[ 2, 4, 16 ]
+M1822 q=13 tested=169 good=48 canary228=48 contains2224=0 contains2216=12
+M1822HIT16 q=13 u=2 v=11 inv=[ 2, 8, 16 ]
+M1822HIT16 q=13 u=2 v=12 inv=[ 2, 8, 16 ]
+M1822HIT16 q=13 u=6 v=7 inv=[ 2, 8, 16 ]
+M1822HIT16 q=13 u=6 v=12 inv=[ 2, 8, 16 ]
+M1822 q=17 tested=289 good=132 canary228=132 contains2224=60 contains2216=36
+M1822HIT24 q=17 u=2 v=4 inv=[ 2, 2, 72 ]
+M1822HIT24 q=17 u=2 v=5 inv=[ 2, 2, 72 ]
+M1822HIT24 q=17 u=2 v=9 inv=[ 2, 2, 72 ]
+M1822HIT24 q=17 u=2 v=10 inv=[ 2, 2, 72 ]
+M1822HIT16 q=17 u=2 v=15 inv=[ 4, 4, 16 ]
+M1822HIT16 q=17 u=2 v=16 inv=[ 4, 4, 16 ]
+M1822HIT16 q=17 u=3 v=14 inv=[ 2, 8, 16 ]
+M1822HIT16 q=17 u=3 v=16 inv=[ 2, 8, 16 ]
+PROBE_DONE

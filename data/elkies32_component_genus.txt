@@ -1,0 +1,14 @@
+# Elkies N=32 reconstructed component: genus check
+
+Projective plane closure degree: 8
+Irreducible: true
+Genus: 0
+Printed point: (11/6 : 1/15 : 1)
+Printed point multiplicity: 1
+Rational singular points: 3
+  (2 : 0 : 1) multiplicity 3
+  (0 : 1 : 0) multiplicity 4
+  (1 : 0 : 0) multiplicity 4
+Singular subscheme degree: 33
+Parametrization from printed point exists; coordinate degrees: [ 8, 8, 8 ]
+The full parametrization is intentionally not printed here; Magma's default one is large.

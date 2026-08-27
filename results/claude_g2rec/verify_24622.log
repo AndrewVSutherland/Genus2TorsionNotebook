@@ -1,0 +1,12 @@
+VERIFY 24622.2.a.c : y^2 + (0)y = 29*x^6 + 17*x^5 + 268*x^4 + 97*x^3 + 141*x^2 - 40*x - 48
+integral model: y^2 = 29*x^6 + 17*x^5 + 268*x^4 + 97*x^3 + 141*x^2 - 40*x - 48
+APDATA primes: [ 3, 5, 7, 11, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ] (n=44)
+TWIST d=1 matches at 44 good primes (of 44 APDATA primes)
+FINALCURVE 24622.2.a.c : y^2 = 116*x^6 + 68*x^5 + 1072*x^4 + 388*x^3 + 564*x^2 - 160*x - 192
+LMATCH_FINAL 24622.2.a.c : 44 good primes match (deg2-split 41, deg1-rational 3)
+TORSION_INVARIANTS 24622.2.a.c : [ 11 ] (0.230 s)
+TORSION_GEN 1: (x^2 + 7*x - 4, 592*x - 320, 2)  order 11
+SIMPLICITY 24622.2.a.c : true  witness prime 3  chi = x^4 - x^3 + 5*x^2 - 3*x + 9
+RMSCREEN 24622.2.a.c : distinct cores = [ 5 ] => RM
+BADPRIMES 24622.2.a.c : [ 2, 13, 947 ] (level primes [ <2, 1>, <13, 1>, <947, 1> ])
+VERIFYDONE 24622.2.a.c

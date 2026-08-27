@@ -1,0 +1,14 @@
+PROBE2 t=2/1 k=-117/64 : odd-val primes (norm,p,val)=[ <25, 5, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=2/1 k=-169/108 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <281, 281, 1>, <281, 281, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=2/1 k=3/4 : odd-val primes (norm,p,val)=[ <2, 2, -3>, <2, 2, -3>, <25, 5, 1> ] ; square at 2-adic places [ true, false, false ]
+PROBE2 t=2/1 k=4107/11570 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <229441, 479, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=2/1 k=729/832 : odd-val primes (norm,p,val)=[ <2, 2, -3>, <2, 2, -3>, <25, 5, 1>, <961, 31, 1> ] ; square at 2-adic places [ true, false, false ]
+PROBE2 t=2/1 k=837/18860 : odd-val primes (norm,p,val)=[ <4, 2, -3>, <5, 5, 1>, <5, 5, 1>, <51529, 227, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=-121/32 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <6241, 79, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=1312/6391 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <6241, 79, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=-14036/5795 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <529, 23, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=152/6815 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <233, 233, 1>, <233, 233, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=16093/12024 : odd-val primes (norm,p,val)=[ <25, 5, 1>, <529, 23, 1> ] ; square at 2-adic places [ true, false ]
+PROBE2 t=3/1 k=1/8 : odd-val primes (norm,p,val)=[ <25, 5, 1> ] ; square at 2-adic places [ true, false ]
+probed 12
+ALL_DONE

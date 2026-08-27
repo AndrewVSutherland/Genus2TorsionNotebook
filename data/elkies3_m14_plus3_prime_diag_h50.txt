@@ -1,0 +1,23 @@
+PRIME_DIAG M_1(8,4) tangent cover plus 3
+height 50 filter_primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 
+59, 61 ]
+checked 9566648
+cover 15322
+smooth 922
+pass_all 0
+PRIME 5 good 120 bad_or_boundary 802 pass3 0 kill3 120 first_kill 120
+PRIME 7 good 220 bad_or_boundary 702 pass3 6 kill3 214 first_kill 194
+PRIME 11 good 338 bad_or_boundary 584 pass3 14 kill3 324 first_kill 206
+PRIME 13 good 398 bad_or_boundary 524 pass3 12 kill3 386 first_kill 174
+PRIME 17 good 482 bad_or_boundary 440 pass3 268 kill3 214 first_kill 42
+PRIME 19 good 550 bad_or_boundary 372 pass3 276 kill3 274 first_kill 68
+PRIME 23 good 652 bad_or_boundary 270 pass3 240 kill3 412 first_kill 68
+PRIME 29 good 688 bad_or_boundary 234 pass3 212 kill3 476 first_kill 20
+PRIME 31 good 780 bad_or_boundary 142 pass3 302 kill3 478 first_kill 16
+PRIME 37 good 730 bad_or_boundary 192 pass3 304 kill3 426 first_kill 6
+PRIME 41 good 762 bad_or_boundary 160 pass3 382 kill3 380 first_kill 6
+PRIME 43 good 786 bad_or_boundary 136 pass3 312 kill3 474 first_kill 2
+PRIME 47 good 790 bad_or_boundary 132 pass3 256 kill3 534 first_kill 0
+PRIME 53 good 858 bad_or_boundary 64 pass3 332 kill3 526 first_kill 0
+PRIME 59 good 868 bad_or_boundary 54 pass3 408 kill3 460 first_kill 0
+PRIME 61 good 862 bad_or_boundary 60 pass3 256 kill3 606 first_kill 0

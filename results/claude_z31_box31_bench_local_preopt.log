@@ -1,0 +1,21 @@
+=== local single-thread, box H=5 ===
+BOX shard=0/1 npr=6 dedupe=1 t5=0 tasks=660 threads=1 ranges [-5,5] [-5,5] [-5,5] [-5,5] [-5,5] [-5,5] [-5,5]
+BOX_DONE shard=0/1 enum=8864460 skip=844 tested=8863616 nt0drop=91142 surv=0 wall=103.86s
+PRIME p=37 tested=8550206 passed=296220 rate=0.03464 (1/31=0.03226)
+PRIME p=41 tested=506502 passed=16844 rate=0.03326 (1/31=0.03226)
+PRIME p=43 tested=28166 passed=1048 rate=0.03721 (1/31=0.03226)
+PRIME p=47 tested=1685 passed=60 rate=0.03561 (1/31=0.03226)
+PRIME p=53 tested=85 passed=0 rate=0.00000 (1/31=0.03226)
+PRIME p=59 tested=2 passed=0 rate=0.00000 (1/31=0.03226)
+RATE tested_per_sec=8.534e+04 per_core=8.534e+04 (threads=1)
+
+=== local 32-thread, box H=8 ===
+BOX shard=0/1 npr=6 dedupe=1 t5=0 tasks=2448 threads=32 ranges [-8,8] [-8,8] [-8,8] [-8,8] [-8,8] [-8,8] [-8,8]
+BOX_DONE shard=0/1 enum=193139856 skip=32476 tested=193107380 nt0drop=829842 surv=6 wall=66.54s
+PRIME p=37 tested=187336396 passed=6522088 rate=0.03481 (1/31=0.03226)
+PRIME p=41 tested=11196964 passed=373070 rate=0.03332 (1/31=0.03226)
+PRIME p=43 tested=625158 passed=20371 rate=0.03259 (1/31=0.03226)
+PRIME p=47 tested=33862 passed=1106 rate=0.03266 (1/31=0.03226)
+PRIME p=53 tested=1752 passed=48 rate=0.02740 (1/31=0.03226)
+PRIME p=59 tested=89 passed=6 rate=0.06742 (1/31=0.03226)
+RATE tested_per_sec=2.902e+06 per_core=9.069e+04 (threads=32)

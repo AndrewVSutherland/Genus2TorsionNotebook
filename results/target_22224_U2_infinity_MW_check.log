@@ -1,0 +1,5 @@
+U2_INFINITY_MW_START input results/target_22224_U2_rank2_modular_N10000_fast.tsv precision 100 generators [ (1543/121 : 8819100/1331 : 1), (2008 : -105300 : 1) ]
+torsion [ (0 : 1 : 0), (-17 : 0 : 1) ]
+U2_INFINITY_MW_EXACT_RECOVERY t 664293/527543
+U2_INFINITY_MW_SPECIAL m -1 n 3 ti 1 padic_status division_error exact_status exact_finite_after_padic_loss PQ (531016/25 : -387597636/125 : 1)
+U2_INFINITY_MW_DONE tested 281 finite 281 nonintegral 0 exact_pole 0 unresolved 0 infinity_fullcover 0 output results/target_22224_U2_infinity_MW_check.tsv

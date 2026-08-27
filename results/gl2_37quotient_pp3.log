@@ -1,0 +1,124 @@
+PIECE 22
+EIS_KERNEL_DIM 2
+STAR_EIGVECS plus=( 1 15 13 14) minus=( 1  5  5 33)
+PERIOD_TERMS 80457
+PERIODS ok
+E1 [ 0, 0, 2, 1, 0, 0, 1, 1, -2, -1, 0, 0, -1, -1, 0, 0 ]
+E2 [ 0, -3, 0, -2, 3, 0, 2, 4, 0, -2, 0, 3, 2, -4, -3, 0 ]
+Bcontrol LATTICE_INDEX 1/1
+Bcontrol AB_BASIS [ 1, 0 ] [ 0, 1 ] (dd2=1)
+Bcontrol N_POSFORMS 14 types [ 2, 3, 11 ]
+Bcontrol_d2_a-7_b3_n1 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a-7_b3_n1 CURVE over $.1^3 - $.1^2 - 51*$.1 - 129
+Hyperelliptic Curve defined by y^2 = 1/188696*(-79338395*$.1^2 + 458748990*$.1 + 3265747859)*x^6 + 1/47174*(75123387*$.1^2 - 422011134*$.1 - 2913676335)*x^5 + 1/188696*(-461732739*$.1^2 + 2531262798*$.1 + 16983850529)*x^4 + 1/94348*(185430019*$.1^2 - 995756958*$.1 - 6499444593)*x^3 + 1/94348*(-82561695*$.1^2 + 436329990*$.1 + 2768085958)*x^2 + 1/23587*(4866660*$.1^2 - 25476120*$.1 - 156581085)*x + 1/94348*(-1921905*$.1^2 + 10041210*$.1 + 59563845) over Number Field with defining polynomial $.1^3 - $.1^2 - 51*$.1 - 129 over the Rational Field
+Bcontrol_d2_a-7_b3_n1 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d2_a-5_b1_n2 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a-5_b1_n2 CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/141522*(-1249625*$.1^2 + 4404150*$.1 + 16094025)*x^6 + 1/23587*(-1141390*$.1^2 - 148140*$.1 + 18790860)*x^5 + 1/94348*(-10197534*$.1^2 - 17892684*$.1 + 140338561)*x^4 + 1/47174*(-5452521*$.1^2 - 14912946*$.1 + 51156636)*x^3 + 1/94348*(-5551157*$.1^2 - 20798082*$.1 + 36632956)*x^2 + 1/23587*(-315025*$.1^2 - 1636650*$.1 + 1811490)*x + 1/283044*(-256331*$.1^2 - 2314206*$.1 + 1921287) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+Bcontrol_d2_a-5_b1_n2 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d2_a-3_b1_n3 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a-3_b1_n3 CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/70761*(304360*$.1^2 + 194256*$.1 - 5052516)*x^6 + 1/23587*(-413320*$.1^2 - 1162368*$.1 + 4982718)*x^5 + 1/94348*(315736*$.1^2 - 397440*$.1 - 17223893)*x^4 + 1/141522*(-1137241*$.1^2 + 801168*$.1 - 5469876)*x^3 + 1/94348*(786865*$.1^2 + 2043498*$.1 + 17488258)*x^2 + 1/23587*(-50136*$.1^2 - 165408*$.1 - 1491258)*x + 1/94348*(-12331*$.1^2 + 184258*$.1 + 411795) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+Bcontrol_d2_a-3_b1_n3 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d2_a3_b-1_n4 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a3_b-1_n4 CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/70761*(304360*$.1^2 + 194256*$.1 - 5052516)*x^6 + 1/23587*(-413320*$.1^2 - 1162368*$.1 + 4982718)*x^5 + 1/94348*(315736*$.1^2 - 397440*$.1 - 17223893)*x^4 + 1/141522*(-1137241*$.1^2 + 801168*$.1 - 5469876)*x^3 + 1/94348*(786865*$.1^2 + 2043498*$.1 + 17488258)*x^2 + 1/23587*(-50136*$.1^2 - 165408*$.1 - 1491258)*x + 1/94348*(-12331*$.1^2 + 184258*$.1 + 411795) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+Bcontrol_d2_a3_b-1_n4 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d2_a5_b-1_n5 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a5_b-1_n5 CURVE over $.1^3 + 3*$.1 - 54
+Hyperelliptic Curve defined by y^2 = 1/141522*(-1249625*$.1^2 + 4404150*$.1 + 16094025)*x^6 + 1/23587*(-1141390*$.1^2 - 148140*$.1 + 18790860)*x^5 + 1/94348*(-10197534*$.1^2 - 17892684*$.1 + 140338561)*x^4 + 1/47174*(-5452521*$.1^2 - 14912946*$.1 + 51156636)*x^3 + 1/94348*(-5551157*$.1^2 - 20798082*$.1 + 36632956)*x^2 + 1/23587*(-315025*$.1^2 - 1636650*$.1 + 1811490)*x + 1/283044*(-256331*$.1^2 - 2314206*$.1 + 1921287) over Number Field with defining polynomial $.1^3 + 3*$.1 - 54 over the Rational Field
+Bcontrol_d2_a5_b-1_n5 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d2_a7_b-3_n6 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d2_a7_b-3_n6 CURVE over $.1^3 - $.1^2 - 51*$.1 - 129
+Hyperelliptic Curve defined by y^2 = 1/188696*(-79338395*$.1^2 + 458748990*$.1 + 3265747859)*x^6 + 1/47174*(75123387*$.1^2 - 422011134*$.1 - 2913676335)*x^5 + 1/188696*(-461732739*$.1^2 + 2531262798*$.1 + 16983850529)*x^4 + 1/94348*(185430019*$.1^2 - 995756958*$.1 - 6499444593)*x^3 + 1/94348*(-82561695*$.1^2 + 436329990*$.1 + 2768085958)*x^2 + 1/23587*(4866660*$.1^2 - 25476120*$.1 - 156581085)*x + 1/94348*(-1921905*$.1^2 + 10041210*$.1 + 59563845) over Number Field with defining polynomial $.1^3 - $.1^2 - 51*$.1 - 129 over the Rational Field
+Bcontrol_d2_a7_b-3_n6 G2_DEGREES [ 3, 3, 3 ]
+Bcontrol_d3_a-5_b2_n7 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d3_a-5_b2_n7 CURVE over $.1^4 - 36*$.1^2 + 282*$.1 - 108
+Hyperelliptic Curve defined by y^2 = 1/890664690*(3772041887*$.1^3 + 22792575858*$.1^2 - 40926508800*$.1 + 505105564014)*x^6 + 1/296888230*(-2985081507*$.1^3 - 26291891658*$.1^2 + 12578144160*$.1 - 165506697954)*x^5 + 1/1781329380*(17915771938*$.1^3 + 206907993612*$.1^2 + 37627017840*$.1 - 410330499219)*x^4 + 1/296888230*(-1373736291*$.1^3 - 22228074364*$.1^2 - 28915365290*$.1 + 192922261263)*x^3 + 1/593776460*(381744118*$.1^3 + 16315268472*$.1^2 + 52334321220*$.1 - 265732882549)*x^2 + 1/296888230*(89156137*$.1^3 - 1715513112*$.1^2 - 10582685190*$.1 + 48911757984)*x + 1/8015982210*(-949041479*$.1^3 + 4051584504*$.1^2 + 51364823130*$.1 - 234455770428) over Number Field with defining polynomial $.1^4 - 36*$.1^2 + 282*$.1 - 108 over the Rational Field
+Bcontrol_d3_a-5_b2_n7 G2_DEGREES [ 4, 4, 4 ]
+Bcontrol_d3_a-4_b1_n8 BIGP_OK sgn=1 blk=1
+
+Calculating theta derivatives...
+done calculating theta derivatives.
+
+Identifying correct twist...
+done identifying correct twist.
+
+Algebraizing...
+done.
+Bcontrol_d3_a-4_b1_n8 CURVE over $.1^4 - 36*$.1^2 - 282*$.1 - 108
+Hyperelliptic Curve defined by y^2 = 1/1044523*(-38249867*$.1^3 + 16092346*$.1^2 + 1354458784*$.1 + 10415745162)*x^6 + 1/1044523*(-46415533*$.1^3 + 14269734*$.1^2 + 1635962256*$.1 + 13064166648)*x^5 + 1/12534276*(-690913172*$.1^3 + 220668552*$.1^2 + 24448195152*$.1 + 193092189417)*x^4 + 1/10445230*(-354580313*$.1^3 + 165432492*$.1^2 + 12524675850*$.1 + 96565503951)*x^3 + 1/20890460*(-408985824*$.1^3 + 287648556*$.1^2 + 14744286420*$.1 + 109620654143)*x^2 + 1/15667845*(-84430879*$.1^3 + 55331541*$.1^2 + 3129252165*$.1 + 22701390888)*x + 1/47003535*(-69415217*$.1^3 + 32969403*$.1^2 + 2542072275*$.1 + 18447136674) over Number Field with defining polynomial $.1^4 - 36*$.1^2 - 282*$.1 - 108 over the Rational Field
+Bcontrol_d3_a-4_b1_n8 G2_DEGREES [ 4, 4, 4 ]
+Bplus LATTICE_INDEX 1/37
+Bplus AB_BASIS [ 37, 0 ] [ 0, 37 ] (dd2=37)
+Bplus N_POSFORMS 14 types [ 74, 111, 407 ]
+Bminus LATTICE_INDEX 1/37
+Bminus AB_BASIS [ 37, 0 ] [ 0, 37 ] (dd2=37)
+Bminus N_POSFORMS 14 types [ 74, 111, 407 ]
+Bfull LATTICE_INDEX 1/1369
+Bfull AB_BASIS [ 111, -148 ] [ 259, 111 ] (dd2=1369)
+Bfull N_POSFORMS 16 types [ 26, 71, 107, 122, 299, 491, 543, 786 ]
+GL2_37Q_DONE

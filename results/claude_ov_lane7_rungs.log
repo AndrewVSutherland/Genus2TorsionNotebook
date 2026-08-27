@@ -1,0 +1,138 @@
+==== CONTROLS ====
+RUNGA CONTROL66 goodprimes=87
+   class{[ 0 ]} : 2-divisible at 11/87 primes (12%)  firstfail=[ 11, 23, 31, 37, 41, 43 ]
+RUNGB CONTROL66 : 3 | #J(F_p) at 87/87 good primes (100%)
+RUNGA CONTROL2228 goodprimes=88
+   class{[ -15625 ]} : 2-divisible at 5/88 primes (5%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801 ]} : 2-divisible at 3/88 primes (3%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801 ]} : 2-divisible at 18/88 primes (20%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -3025 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -3025 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -3025 ]} : 2-divisible at 6/88 primes (6%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -3025 ]} : 2-divisible at 4/88 primes (4%)  firstfail=[ 19, 23, 29, 37, 41, 43 ]
+   class{[ -1 ]} : 2-divisible at 4/88 primes (4%)  firstfail=[ 19, 23, 29, 37, 41, 43 ]
+   class{[ -15625, -1 ]} : 2-divisible at 6/88 primes (6%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -1 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -1 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -3025, -1 ]} : 2-divisible at 18/88 primes (20%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -3025, -1 ]} : 2-divisible at 3/88 primes (3%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -3025, -1 ]} : 2-divisible at 5/88 primes (5%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -3025, -1 ]} : 2-divisible at 88/88 primes (100%)  firstfail=[]
+   class{[ 0 ]} : 2-divisible at 88/88 primes (100%)  firstfail=[]
+   class{[ -15625, 0 ]} : 2-divisible at 5/88 primes (5%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, 0 ]} : 2-divisible at 3/88 primes (3%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, 0 ]} : 2-divisible at 18/88 primes (20%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -3025, 0 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -3025, 0 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -3025, 0 ]} : 2-divisible at 6/88 primes (6%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -3025, 0 ]} : 2-divisible at 4/88 primes (4%)  firstfail=[ 19, 23, 29, 37, 41, 43 ]
+   class{[ -1, 0 ]} : 2-divisible at 4/88 primes (4%)  firstfail=[ 19, 23, 29, 37, 41, 43 ]
+   class{[ -15625, -1, 0 ]} : 2-divisible at 6/88 primes (6%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -1, 0 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -1, 0 ]} : 2-divisible at 8/88 primes (9%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -3025, -1, 0 ]} : 2-divisible at 18/88 primes (20%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -3025, -1, 0 ]} : 2-divisible at 3/88 primes (3%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -9801, -3025, -1, 0 ]} : 2-divisible at 5/88 primes (5%)  firstfail=[ 17, 19, 23, 29, 37, 41 ]
+   class{[ -15625, -9801, -3025, -1, 0 ]} : 2-divisible at 88/88 primes (100%)  firstfail=[]
+RUNGB CONTROL2228 : 3 | #J(F_p) at 37/88 good primes (42%)
+==== THE ELEVEN THREE-ROOT POINTS ====
+RUNGA (-10,-10/7,-1/2) goodprimes=86
+   class{[ -99 ]} : 2-divisible at 5/86 primes (5%)  firstfail=[ 11, 17, 29, 31, 41, 43 ]
+   class{[ -51/49 ]} : 2-divisible at 10/86 primes (11%)  firstfail=[ 17, 29, 31, 41, 43, 53 ]
+   class{[ -99, -51/49 ]} : 2-divisible at 7/86 primes (8%)  firstfail=[ 11, 17, 29, 31, 41, 43 ]
+   class{[ 3/4 ]} : 2-divisible at 8/86 primes (9%)  firstfail=[ 11, 17, 29, 31, 41, 43 ]
+   class{[ -99, 3/4 ]} : 2-divisible at 9/86 primes (10%)  firstfail=[ 11, 17, 29, 31, 41, 43 ]
+   class{[ -51/49, 3/4 ]} : 2-divisible at 9/86 primes (10%)  firstfail=[ 11, 17, 29, 41, 47, 53 ]
+   class{[ -99, -51/49, 3/4 ]} : 2-divisible at 5/86 primes (5%)  firstfail=[ 11, 17, 29, 31, 41, 43 ]
+RUNGB (-10,-10/7,-1/2) : 3 | #J(F_p) at 36/86 good primes (41%)
+RUNGA (-5,-15/8,-15/22) goodprimes=86
+   class{[ -24 ]} : 2-divisible at 3/86 primes (3%)  firstfail=[ 13, 17, 23, 29, 31, 37 ]
+   class{[ -161/64 ]} : 2-divisible at 6/86 primes (6%)  firstfail=[ 13, 17, 23, 29, 31, 37 ]
+   class{[ -24, -161/64 ]} : 2-divisible at 18/86 primes (20%)  firstfail=[ 13, 17, 23, 29, 31, 37 ]
+   class{[ 259/484 ]} : 2-divisible at 7/86 primes (8%)  firstfail=[ 13, 17, 23, 29, 31, 37 ]
+   class{[ -24, 259/484 ]} : 2-divisible at 9/86 primes (10%)  firstfail=[ 17, 23, 29, 31, 37, 41 ]
+   class{[ -161/64, 259/484 ]} : 2-divisible at 7/86 primes (8%)  firstfail=[ 13, 17, 23, 29, 31, 37 ]
+   class{[ -24, -161/64, 259/484 ]} : 2-divisible at 9/86 primes (10%)  firstfail=[ 13, 17, 23, 29, 31, 41 ]
+RUNGB (-5,-15/8,-15/22) : 3 | #J(F_p) at 34/86 good primes (39%)
+RUNGA (-3,-3/4,-3/5) goodprimes=90
+   class{[ -8 ]} : 2-divisible at 8/90 primes (8%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ 7/16 ]} : 2-divisible at 6/90 primes (6%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ -8, 7/16 ]} : 2-divisible at 14/90 primes (15%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ 16/25 ]} : 2-divisible at 14/90 primes (15%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ -8, 16/25 ]} : 2-divisible at 6/90 primes (6%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ 7/16, 16/25 ]} : 2-divisible at 5/90 primes (5%)  firstfail=[ 11, 17, 19, 23, 29, 31 ]
+   class{[ -8, 7/16, 16/25 ]} : 2-divisible at 29/90 primes (32%)  firstfail=[ 17, 19, 23, 29, 31, 37 ]
+RUNGB (-3,-3/4,-3/5) : 3 | #J(F_p) at 6/90 good primes (6%)
+RUNGA (-15/8,-15/19,-1/2) goodprimes=85
+   class{[ -161/64 ]} : 2-divisible at 8/85 primes (9%)  firstfail=[ 17, 23, 37, 43, 47, 53 ]
+   class{[ 136/361 ]} : 2-divisible at 8/85 primes (9%)  firstfail=[ 17, 23, 29, 37, 41, 43 ]
+   class{[ -161/64, 136/361 ]} : 2-divisible at 9/85 primes (10%)  firstfail=[ 17, 23, 29, 37, 41, 43 ]
+   class{[ 3/4 ]} : 2-divisible at 8/85 primes (9%)  firstfail=[ 17, 23, 29, 37, 41, 43 ]
+   class{[ -161/64, 3/4 ]} : 2-divisible at 7/85 primes (8%)  firstfail=[ 17, 23, 29, 37, 41, 43 ]
+   class{[ 136/361, 3/4 ]} : 2-divisible at 5/85 primes (5%)  firstfail=[ 17, 23, 29, 37, 41, 47 ]
+   class{[ -161/64, 136/361, 3/4 ]} : 2-divisible at 11/85 primes (12%)  firstfail=[ 17, 23, 29, 37, 41, 43 ]
+RUNGB (-15/8,-15/19,-1/2) : 3 | #J(F_p) at 40/85 good primes (47%)
+RUNGA (-5/18,-10/49,4/17) goodprimes=84
+   class{[ 299/324 ]} : 2-divisible at 11/84 primes (13%)  firstfail=[ 11, 19, 23, 29, 41, 43 ]
+   class{[ 273/289 ]} : 2-divisible at 11/84 primes (13%)  firstfail=[ 11, 19, 23, 29, 41, 43 ]
+   class{[ 299/324, 273/289 ]} : 2-divisible at 3/84 primes (3%)  firstfail=[ 11, 19, 23, 29, 41, 43 ]
+   class{[ 2301/2401 ]} : 2-divisible at 8/84 primes (9%)  firstfail=[ 19, 23, 29, 41, 43, 47 ]
+   class{[ 299/324, 2301/2401 ]} : 2-divisible at 9/84 primes (10%)  firstfail=[ 11, 23, 29, 41, 43, 47 ]
+   class{[ 273/289, 2301/2401 ]} : 2-divisible at 8/84 primes (9%)  firstfail=[ 11, 19, 23, 29, 41, 43 ]
+   class{[ 299/324, 273/289, 2301/2401 ]} : 2-divisible at 7/84 primes (8%)  firstfail=[ 11, 19, 29, 41, 43, 53 ]
+RUNGB (-5/18,-10/49,4/17) : 3 | #J(F_p) at 29/84 good primes (34%)
+RUNGA (-4/9,-4/25,4/17) goodprimes=86
+   class{[ 65/81 ]} : 2-divisible at 7/86 primes (8%)  firstfail=[ 11, 29, 31, 37, 41, 43 ]
+   class{[ 273/289 ]} : 2-divisible at 5/86 primes (5%)  firstfail=[ 11, 19, 29, 31, 37, 41 ]
+   class{[ 65/81, 273/289 ]} : 2-divisible at 6/86 primes (6%)  firstfail=[ 11, 19, 29, 37, 41, 43 ]
+   class{[ 609/625 ]} : 2-divisible at 5/86 primes (5%)  firstfail=[ 11, 19, 29, 31, 37, 41 ]
+   class{[ 65/81, 609/625 ]} : 2-divisible at 11/86 primes (12%)  firstfail=[ 11, 19, 29, 31, 37, 41 ]
+   class{[ 273/289, 609/625 ]} : 2-divisible at 7/86 primes (8%)  firstfail=[ 11, 29, 31, 37, 41, 43 ]
+   class{[ 65/81, 273/289, 609/625 ]} : 2-divisible at 9/86 primes (10%)  firstfail=[ 29, 31, 37, 41, 43, 47 ]
+RUNGB (-4/9,-4/25,4/17) : 3 | #J(F_p) at 31/86 good primes (36%)
+RUNGA (-511/61,-511/625,-1/2) goodprimes=83
+   class{[ -257400/3721 ]} : 2-divisible at 8/83 primes (9%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+   class{[ 129504/390625 ]} : 2-divisible at 7/83 primes (8%)  firstfail=[ 13, 17, 29, 37, 41, 43 ]
+   class{[ -257400/3721, 129504/390625 ]} : 2-divisible at 5/83 primes (6%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+   class{[ 3/4 ]} : 2-divisible at 8/83 primes (9%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+   class{[ -257400/3721, 3/4 ]} : 2-divisible at 6/83 primes (7%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+   class{[ 129504/390625, 3/4 ]} : 2-divisible at 8/83 primes (9%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+   class{[ -257400/3721, 129504/390625, 3/4 ]} : 2-divisible at 5/83 primes (6%)  firstfail=[ 11, 13, 17, 29, 37, 41 ]
+RUNGB (-511/61,-511/625,-1/2) : 3 | #J(F_p) at 30/83 good primes (36%)
+RUNGA (-165/41,-33/16,-165/289) goodprimes=82
+   class{[ -25544/1681 ]} : 2-divisible at 6/82 primes (7%)  firstfail=[ 23, 29, 37, 47, 53, 59 ]
+   class{[ -833/256 ]} : 2-divisible at 11/82 primes (13%)  firstfail=[ 23, 29, 37, 47, 53, 59 ]
+   class{[ -25544/1681, -833/256 ]} : 2-divisible at 5/82 primes (6%)  firstfail=[ 23, 29, 37, 53, 59, 71 ]
+   class{[ 56296/83521 ]} : 2-divisible at 10/82 primes (12%)  firstfail=[ 29, 37, 47, 53, 59, 73 ]
+   class{[ -25544/1681, 56296/83521 ]} : 2-divisible at 10/82 primes (12%)  firstfail=[ 23, 29, 37, 47, 53, 59 ]
+   class{[ -833/256, 56296/83521 ]} : 2-divisible at 6/82 primes (7%)  firstfail=[ 23, 29, 37, 47, 53, 59 ]
+   class{[ -25544/1681, -833/256, 56296/83521 ]} : 2-divisible at 8/82 primes (9%)  firstfail=[ 23, 37, 47, 53, 59, 71 ]
+RUNGB (-165/41,-33/16,-165/289) : 3 | #J(F_p) at 30/82 good primes (36%)
+RUNGA (-164/297,-1/2,164/361) goodprimes=78
+   class{[ 61313/88209 ]} : 2-divisible at 6/78 primes (7%)  firstfail=[ 17, 29, 43, 59, 61, 67 ]
+   class{[ 3/4 ]} : 2-divisible at 5/78 primes (6%)  firstfail=[ 17, 29, 43, 59, 61, 67 ]
+   class{[ 61313/88209, 3/4 ]} : 2-divisible at 9/78 primes (11%)  firstfail=[ 17, 29, 43, 59, 67, 73 ]
+   class{[ 103425/130321 ]} : 2-divisible at 11/78 primes (14%)  firstfail=[ 17, 43, 59, 61, 73, 83 ]
+   class{[ 61313/88209, 103425/130321 ]} : 2-divisible at 6/78 primes (7%)  firstfail=[ 17, 29, 43, 61, 67, 73 ]
+   class{[ 3/4, 103425/130321 ]} : 2-divisible at 6/78 primes (7%)  firstfail=[ 17, 29, 59, 61, 67, 73 ]
+   class{[ 61313/88209, 3/4, 103425/130321 ]} : 2-divisible at 6/78 primes (7%)  firstfail=[ 17, 29, 43, 59, 61, 67 ]
+RUNGB (-164/297,-1/2,164/361) : 3 | #J(F_p) at 34/78 good primes (43%)
+RUNGA (-17/50,-34/189,34/121) goodprimes=84
+   class{[ 2211/2500 ]} : 2-divisible at 2/84 primes (2%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 13485/14641 ]} : 2-divisible at 7/84 primes (8%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 2211/2500, 13485/14641 ]} : 2-divisible at 8/84 primes (9%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 34565/35721 ]} : 2-divisible at 4/84 primes (4%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 2211/2500, 34565/35721 ]} : 2-divisible at 5/84 primes (5%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 13485/14641, 34565/35721 ]} : 2-divisible at 8/84 primes (9%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+   class{[ 2211/2500, 13485/14641, 34565/35721 ]} : 2-divisible at 5/84 primes (5%)  firstfail=[ 19, 29, 41, 43, 47, 53 ]
+RUNGB (-17/50,-34/189,34/121) : 3 | #J(F_p) at 35/84 good primes (41%)
+RUNGA (-1/2,-13/49,13/50) goodprimes=84
+   class{[ 3/4 ]} : 2-divisible at 6/84 primes (7%)  firstfail=[ 17, 29, 31, 37, 41, 47 ]
+   class{[ 2232/2401 ]} : 2-divisible at 6/84 primes (7%)  firstfail=[ 17, 29, 31, 37, 41, 43 ]
+   class{[ 3/4, 2232/2401 ]} : 2-divisible at 5/84 primes (5%)  firstfail=[ 17, 29, 31, 37, 41, 43 ]
+   class{[ 2331/2500 ]} : 2-divisible at 6/84 primes (7%)  firstfail=[ 17, 29, 31, 37, 41, 43 ]
+   class{[ 3/4, 2331/2500 ]} : 2-divisible at 4/84 primes (4%)  firstfail=[ 17, 29, 37, 41, 43, 47 ]
+   class{[ 2232/2401, 2331/2500 ]} : 2-divisible at 6/84 primes (7%)  firstfail=[ 17, 31, 37, 41, 53, 59 ]
+   class{[ 3/4, 2232/2401, 2331/2500 ]} : 2-divisible at 4/84 primes (4%)  firstfail=[ 17, 29, 31, 37, 41, 47 ]
+RUNGB (-1/2,-13/49,13/50) : 3 | #J(F_p) at 31/84 good primes (36%)
+LANE7_RUNGS_DONE

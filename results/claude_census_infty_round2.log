@@ -1,0 +1,22 @@
+PART A [2,4] family slice p=t, q=2, u=1: f = x(x^2+4tx+1)(x^2-(1-t^2)/3)
+  t=2 torsion [ 2, 2 ]
+  t=3 torsion [ 2, 2 ]
+  t=5 torsion [ 2, 2 ]
+  t=7 torsion [ 2, 2 ]
+  t=-2 torsion [ 2, 2 ]
+PART B [2,2,4] hits-first sweep
+  HIT224 L=4 a=-1 b=4
+PART C [4,4] condition search
+  C-cand be=2 q=4 u=1 torsion [ 2, 2 ]
+  C-cand be=2 q=4 u=2 torsion [ 2, 2 ]
+  C-cand be=2 q=4 u=3 torsion [ 2, 2 ]
+  C-cand be=5 q=2/5 u=1 torsion [ 2, 2 ]
+  C-cand be=5 q=2/5 u=2 torsion [ 2, 2 ]
+  C-cand be=5 q=2/5 u=3 torsion [ 2, 2 ]
+  C-cand be=3/2 q=3 u=1 torsion [ 2, 2 ]
+  C-cand be=3/2 q=3 u=2 torsion [ 2, 2 ]
+  C-cand be=3/2 q=3 u=3 torsion [ 2, 2 ]
+  C-cand be=5/2 q=5 u=1 torsion [ 2, 2 ]
+  C-cand be=5/2 q=5 u=2 torsion [ 2, 2 ]
+  C-cand be=5/2 q=5 u=3 torsion [ 2, 2 ]
+ROUND2_DONE

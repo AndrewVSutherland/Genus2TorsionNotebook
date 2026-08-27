@@ -1,0 +1,2 @@
+PADIC_TANGENT p 11 centers 8 exponent 5 ranks [7] nullities [4] states 117128 open 117128 off_rectangle 117128 projected_params 968 output results/target_22224_direct_contact_deep13_padic_tangent_p11.tsv
+PADIC_TANGENT p 13 centers 12 exponent 5 ranks [8] nullities [3] states 26364 open 26364 off_rectangle 26364 projected_params 144 output results/target_22224_direct_contact_deep13_padic_tangent_p13.tsv

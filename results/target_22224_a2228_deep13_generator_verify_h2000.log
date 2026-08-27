@@ -1,0 +1,23 @@
+A2228_DEEP13_VERIFY_START input results/target_22224_a2228_deep13_generator_candidates_h2000.tsv rows 493 prime_bound 499
+KILLED row 1 family 1 t -901 / 1 prime 79 Jorder 5888
+KILLED row 2 family 1 t -611 / 1 prime 73 Jorder 5248
+KILLED row 3 family 1 t -1643 / 11 prime 83 Jorder 6656
+KILLED row 4 family 3 t -1597 / 11 prime 73 Jorder 5120
+KILLED row 5 family 2 t -511 / 13 prime 79 Jorder 6272
+KILLED row 6 family 2 t 511 / 13 prime 79 Jorder 6272
+KILLED row 7 family 3 t -651 / 13 prime 73 Jorder 5120
+KILLED row 8 family 1 t -1235 / 14 prime 79 Jorder 5696
+KILLED row 9 family 2 t -1465 / 14 prime 73 Jorder 4096
+KILLED row 10 family 2 t 1465 / 14 prime 73 Jorder 4096
+KILLED row 11 family 1 t -1531 / 16 prime 79 Jorder 6592
+KILLED row 12 family 1 t -1771 / 17 prime 73 Jorder 5248
+KILLED row 13 family 1 t -1183 / 17 prime 73 Jorder 4288
+KILLED row 14 family 1 t -1505 / 18 prime 79 Jorder 6592
+KILLED row 15 family 3 t -1496 / 21 prime 79 Jorder 6400
+KILLED row 16 family 1 t -261 / 23 prime 73 Jorder 6656
+KILLED row 17 family 3 t -494 / 23 prime 113 Jorder 14336
+KILLED row 18 family 1 t -1672 / 29 prime 97 Jorder 7040
+KILLED row 19 family 2 t -770 / 29 prime 73 Jorder 4288
+KILLED row 20 family 2 t 770 / 29 prime 73 Jorder 4288
+ELIMINATIONS [ <73, 273>, <79, 123>, <83, 42>, <89, 21>, <97, 15>, <101, 5>, <103, 2>, <107, 3>, <109, 2>, <113, 2>, <127, 1>, <131, 2>, <137, 1>, <157, 1> ]
+A2228_DEEP13_VERIFY_DONE rows 493 reduction_survivors 0 exact_hits 0 hits_file results/target_22224_a2228_deep13_generator_hits_h2000.tsv

@@ -1,0 +1,49 @@
+contact-7 plus 5: p=3 boundary-focused search
+height 30 params 1111 only_tag finite:a=1,b=1,Q5=0
+filter_primes [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 
+71, 73, 79, 83, 89, 97 ]
+progress checked 100000 smooth 99939 boundary 7919 survivors 0 exact_tests 0 
+hits 0
+progress checked 200000 smooth 199893 boundary 12557 survivors 0 exact_tests 0 
+hits 0
+progress checked 300000 smooth 299836 boundary 19109 survivors 0 exact_tests 0 
+hits 0
+progress checked 400000 smooth 399781 boundary 23750 survivors 0 exact_tests 0 
+hits 0
+progress checked 500000 smooth 499740 boundary 29756 survivors 0 exact_tests 0 
+hits 0
+progress checked 600000 smooth 599703 boundary 37127 survivors 0 exact_tests 0 
+hits 0
+progress checked 700000 smooth 699689 boundary 43133 survivors 0 exact_tests 0 
+hits 0
+progress checked 800000 smooth 799674 boundary 49412 survivors 0 exact_tests 0 
+hits 0
+progress checked 900000 smooth 899660 boundary 54326 survivors 0 exact_tests 0 
+hits 0
+progress checked 1000000 smooth 999653 boundary 60635 survivors 0 exact_tests 0 
+hits 0
+progress checked 1100000 smooth 1099641 boundary 66884 survivors 0 exact_tests 0
+hits 0
+progress checked 1200000 smooth 1199641 boundary 73436 survivors 0 exact_tests 0
+hits 0
+DONE
+checked 1234321
+smooth 1233959
+boundary 74528
+survivors 0
+exact_tests 0
+hits 0
+TAG_COUNTS
+finite:a=1,b=1,Q5=0 74528
+TAG_FIRST_KILL
+finite:a=1,b=1,Q5=0 | 11 23652
+finite:a=1,b=1,Q5=0 | 13 9430
+finite:a=1,b=1,Q5=0 | 17 4467
+finite:a=1,b=1,Q5=0 | 19 1708
+finite:a=1,b=1,Q5=0 | 23 534
+finite:a=1,b=1,Q5=0 | 29 195
+finite:a=1,b=1,Q5=0 | 31 62
+finite:a=1,b=1,Q5=0 | 37 30
+finite:a=1,b=1,Q5=0 | 41 2
+finite:a=1,b=1,Q5=0 | 43 1
+finite:a=1,b=1,Q5=0 | 7 34447

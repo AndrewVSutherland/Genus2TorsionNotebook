@@ -1,0 +1,19 @@
+M2248 q^2=1 diagonal affine local residue check
+columns: p has_good_affine_residue witness
+3 False -
+5 False -
+7 True (2, 4, 2, 1)
+11 True (2, 2, 3, 9)
+13 False -
+17 True (2, 14, 2, 16)
+19 True (2, 2, 11, 5)
+23 True (2, 5, 2, 1)
+29 True (2, 4, 28, 5)
+31 True (2, 5, 2, 10)
+37 True (2, 4, 27, 16)
+41 True (2, 17, 4, 25)
+43 True (2, 12, 41, 1)
+47 True (2, 6, 28, 14)
+53 True (2, 10, 1, 47)
+59 True (2, 10, 21, 9)
+61 True (2, 13, 42, 14)

@@ -1,0 +1,16 @@
+REPEATED_FAMILY_LOCAL_AUDIT_START families 52 primes [ 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313 ]
+FAMILY_NOT_KILLED F1 usable_primes 19 known_T 5
+FAMILY_NOT_KILLED F6 usable_primes 19 known_T 2
+FAMILY_NOT_KILLED N3 usable_primes 19 known_T 37/17
+FAMILY_NOT_KILLED N4 usable_primes 19 known_T 5/2
+FAMILY_NOT_KILLED N11 usable_primes 19 known_T 1/13
+FAMILY_NOT_KILLED O4 usable_primes 19 known_T 1/2
+FAMILY_NOT_KILLED O9 usable_primes 19 known_T 15
+FAMILY_NOT_KILLED R3 usable_primes 19 known_T 53/13
+FAMILY_NOT_KILLED R7 usable_primes 19 known_T 65/37
+FAMILY_NOT_KILLED S3 usable_primes 19 known_T 5/11
+FAMILY_NOT_KILLED W2 usable_primes 19 known_T 13/47
+REPEATED_FAMILY_LOCAL_AUDIT_DONE dead 0 []
+not_killed 11 [ F1, F6, N11, N3, N4, O4, O9, R3, R7, S3, W2 ]
+skipped 0 []
+output results/target_22224_repeated_family_local_audit_live11_p211_313.tsv

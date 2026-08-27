@@ -1,0 +1,27 @@
+AGENT_Z48_NEXT_SCAN_PARTITIONED_A16_GATE
+RTHeight=4 ExcludeRTHeight=3 SearchBound=10 PrimeBound=43 MinGood=3 GateMode=48 SliceMod=4 SliceClass=3 MaxSlices=0 MaxExact=50
+primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+PROGRESS runSlices=10 rawSlices=71 tested=145161 roots=0 nonsingular=0 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=20 rawSlices=136 tested=306451 roots=0 nonsingular=0 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=30 rawSlices=214 tested=467741 roots=0 nonsingular=0 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=40 rawSlices=258 tested=629031 roots=2 nonsingular=2 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=50 rawSlices=340 tested=790321 roots=2 nonsingular=2 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=60 rawSlices=390 tested=951611 roots=5 nonsingular=3 gatePass=0 exact=0 certified=0 z48=0
+PROGRESS runSlices=70 rawSlices=462 tested=1112901 roots=5 nonsingular=3 gatePass=0 exact=0 certified=0 z48=0
+SEARCH_DONE rawSlices=462 completedSkipped=182 eligibleSlices=280 partitionSkipped=210 maxSliceSkipped=0 runSlices=70 sliceBuildFail=0 tested=1129030 commonRootPairs=5 rationalRoots=5 singular=2 nonsingular=3 pointGateReject=3 pointGatePass=0 exactTried=0 squareReject=0 d8Reject=0 d16Reject=0 certified=0 z48Hits=0
+SLICE_CATEGORIES_RUN
+  Rnew : 28
+  Tnew : 26
+  bothnew : 16
+ROOT_CATEGORIES
+  Rnew : 5
+NONSINGULAR_CATEGORIES
+  Rnew : 3
+FIRST_POINT_GATE_KILLS
+  5 : 1
+  7 : 2
+FIRST_POINT_GATE_KILLS_BY_CATEGORY
+  Rnew:5 : 1
+  Rnew:7 : 2
+CERTIFIED_TORSION_HISTOGRAM
+DONE

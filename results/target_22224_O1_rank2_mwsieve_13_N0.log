@@ -1,0 +1,9 @@
+REPEATED_RANK2_MWSIEVE_START O1 pair <1, 3> remaining 2 N 0 fixed [ -1, 4, 6 ]
+d0 -98/27 known_t 3/7 E Elliptic Curve defined by y^2 = x^3 + 14100*x + 2410000 over Rational Field
+rank_bounds 2 2 generators [ (-100 : 0 : 1), (-94 : -504 : 1), (320 : -6300 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE O1 p 11 orders 8 8 total 128 third_fail 32 open_no3 56 open_3 0 boundary 40 finite_direct_boundary 32 infinity 8 allowed 40 lattice_before 2 lattice_after 0
+PRIORITY_CLASSES O1 p 11 boundary_count 40 open3_count 0 boundary [ <1, 2, 7>, <1, 1, 0>, <2, 3, 7>, <2, 6, 7>, <2, 1, 1>, <1, 4, 1>, <2, 1, 0>, <2, 0, 1>, <1, 2, 3>, <2, 7, 3>, <1, 0, 1>, <1, 6, 3>, <1, 2, 0>, <2, 5, 0>, <1, 5, 0>, <2, 7, 6>, <2, 5, 5>, <1, 1, 4>, <2, 3, 6>, <2, 7, 2>, <1, 7, 2>, <2, 5, 4>, <2, 4, 1>, <2, 2, 7>, <2, 4, 5>, <1, 4, 5>, <1, 3, 6>, <2, 2, 3>, <1, 5, 4>, <2, 0, 5>, <2, 6, 3>, <1, 7, 6>, <1, 6, 4>, <1, 4, 6>, <2, 1, 4>, <1, 0, 2>, <1, 3, 2>, <2, 3, 2>, <1, 0, 5>, <1, 6, 7> ]
+REPEATED_RANK2_MWSIEVE_DONE O1 N 0 used_primes [ 11 ]
+lattice_survivors 0 distinct_exact_t 0 exact_full 0 three_hits 0 output results/target_22224_O1_rank2_mwsieve_13_N0.tsv

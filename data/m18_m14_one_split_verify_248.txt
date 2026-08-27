@@ -1,0 +1,68 @@
+Magma V2.29-4     Mon Jun 29 2026 11:18:53 on <host>  [Seed = 3270158609]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m18_m14_one_split_verify_248.m"
+torsion [ 2, 4, 8 ]
+p 47 L 2209*x^4 - 188*x^3 + 30*x^2 - 4*x + 1
+fac [
+<2209*x^4 - 188*x^3 + 30*x^2 - 4*x + 1, 1>
+]
+p 17 L 289*x^4 + 68*x^3 + 22*x^2 + 4*x + 1
+fac [
+<17*x^2 - 2*x + 1, 1>,
+<17*x^2 + 6*x + 1, 1>
+]
+p 19 L 361*x^4 + 76*x^3 + 6*x^2 + 4*x + 1
+fac [
+<19*x^2 - 4*x + 1, 1>,
+<19*x^2 + 8*x + 1, 1>
+]
+p 23 L 529*x^4 - 18*x^2 + 1
+fac [
+<23*x^2 - 8*x + 1, 1>,
+<23*x^2 + 8*x + 1, 1>
+]
+p 29 L 841*x^4 + 116*x^3 + 62*x^2 + 4*x + 1
+fac [
+<29*x^2 + 2*x + 1, 2>
+]
+p 31 L 961*x^4 + 62*x^2 + 1
+fac [
+<31*x^2 + 1, 2>
+]
+p 41 L 1681*x^4 + 492*x^3 + 118*x^2 + 12*x + 1
+fac [
+<41*x^2 + 6*x + 1, 2>
+]
+p 53 L 2809*x^4 + 70*x^2 + 1
+fac [
+<53*x^2 - 6*x + 1, 1>,
+<53*x^2 + 6*x + 1, 1>
+]
+p 59 L 3481*x^4 + 472*x^3 + 134*x^2 + 8*x + 1
+fac [
+<59*x^2 + 4*x + 1, 2>
+]
+p 61 L 3721*x^4 - 488*x^3 + 102*x^2 - 8*x + 1
+fac [
+<61*x^2 - 10*x + 1, 1>,
+<61*x^2 + 2*x + 1, 1>
+]
+p 67 L 4489*x^4 + 268*x^3 + 38*x^2 + 4*x + 1
+fac [
+<67*x^2 - 8*x + 1, 1>,
+<67*x^2 + 12*x + 1, 1>
+]
+p 71 L 5041*x^4 + 1136*x^3 + 206*x^2 + 16*x + 1
+fac [
+<71*x^2 + 8*x + 1, 2>
+]
+p 73 L 5329*x^4 - 1460*x^3 + 246*x^2 - 20*x + 1
+fac [
+<73*x^2 - 10*x + 1, 2>
+]
+ReducedMinimalWeierstrassModel Hyperelliptic Curve defined by y^2 + (x^2 + x)*y = 60*x^5 + 3982*x^4 + 1100*x^3 + 130682*x^2 - 239760*x over Rational Field
+MinimalWeierstrassModel Hyperelliptic Curve defined by y^2 + (-x^2 + x - 2)*y = 60*x^5 + 7282*x^4 + 248920*x^3 + 3856711*x^2 + 28628531*x + 82607139 over Rational Field
+SimplifiedModel Hyperelliptic Curve defined by y^2 = 7061463847622250*x^5 + 104632219276049025*x^4 + 135735215960638800*x^3 + 188573481843278400*x^2 + 51200550567936000*x over Rational Field
+
+Total time: 0.540 seconds, Total memory usage: 76.53MB

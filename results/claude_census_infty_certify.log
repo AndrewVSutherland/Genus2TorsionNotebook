@@ -1,0 +1,20 @@
+FAMILY 1 [2]
+  t=2 torsion [2]
+  t=3 torsion []
+CERT [2] exact_fiber=2 strict_fiber=2 strict_prime=17 distinct_invs=2
+FAMILY 2 [3]
+  t=2 torsion [3]
+  t=3 torsion [3]
+CERT [3] exact_fiber=2 strict_fiber=2 strict_prime=13 distinct_invs=2
+FAMILY 3 [2,2]
+  t=2 torsion [2]
+  t=3 torsion [2]
+  t=5 torsion [2]
+  t=7 torsion [2]
+  t=-3 torsion [2]
+
+In file "code/claude_census_infty_certify.m", line 85, column 29:
+>>         T := TorsionSubgroup(Jacobian(SimplifiedModel(C)));
+                               ^
+Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+

@@ -1,0 +1,8 @@
+Loading "code/claude_z96_family_setup.m"
+PROGRESS height=20 tested=511 passed=0 hits=0
+PROGRESS height=40 tested=1959 passed=0 hits=0
+PROGRESS height=60 tested=4407 passed=0 hits=0
+PROGRESS height=80 tested=7863 passed=0 hits=0
+PROGRESS height=100 tested=12175 passed=0 hits=0
+PROGRESS height=120 tested=17543 passed=0 hits=0
+SEARCH_DONE HB=120 tested=17543 gatepassed=0 hits=0

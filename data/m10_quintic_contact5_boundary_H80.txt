@@ -1,0 +1,22 @@
+Boundary-focused quintic-contact 5-torsion search
+height 80 parameters 7863
+boundary_primes [ 3, 5, 7, 13, 17 ]
+extra_split_primes [ 11, 19, 23, 29, 31, 37, 41, 43 ]
+
+Local residue summaries:
+p 3 total 9 smooth 3 bad_boundary 6 full_split_good 0
+p 5 total 25 smooth 15 bad_boundary 10 full_split_good 0
+p 7 total 49 smooth 32 bad_boundary 17 full_split_good 0
+p 13 total 169 smooth 134 bad_boundary 35 full_split_good 0
+p 17 total 289 smooth 242 bad_boundary 47 full_split_good 0
+p 11 total 121 smooth 96 bad_boundary 25 full_split_good 1
+p 19 total 361 smooth 312 bad_boundary 49 full_split_good 5
+p 23 total 529 smooth 464 bad_boundary 65 full_split_good 10
+p 29 total 841 smooth 762 bad_boundary 79 full_split_good 20
+p 31 total 961 smooth 876 bad_boundary 85 full_split_good 21
+p 37 total 1369 smooth 1262 bad_boundary 107 full_split_good 30
+p 41 total 1681 smooth 1566 bad_boundary 115 full_split_good 46
+p 43 total 1849 smooth 1724 bad_boundary 125 full_split_good 40
+
+DONE boundary height 80
+checked 61820872 boundary_survivors 958333 split_survivors 2327 smooth 0 full_split 0 torsion_tests 0 hits 0

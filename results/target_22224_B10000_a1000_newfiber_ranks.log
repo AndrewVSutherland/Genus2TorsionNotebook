@@ -1,0 +1,29 @@
+B10000_A1000_NEWFIBER_RANKS_START fibers 3
+FIBER_START S1 fixed [ -4, 9, 30 ]
+d0 -2166/245 t1 7/19
+QUOTIENT S1 <1, 2> rank_bounds 1 1 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + x^2 + 3392*x + 62288 over Rational Field
+QUOTIENT S1 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 9683700*x + 71345378000 over Rational Field
+QUOTIENT S1 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 26820300*x + 52038142000 over Rational Field
+FIBER_DONE S1
+FIBER_START S2 fixed [ -64, 120, 169 ]
+d0 -1352/15 t1 1/13
+QUOTIENT S2 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 20447700*x + 20979938000 over Rational Field
+QUOTIENT S2 <1, 3> rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 + x*y + y = x^3 - x^2 + 27279295*x + 56323031797 over Rational Field
+QUOTIENT S2 <2, 3> rank_bounds 2 2 torsion [ 4 ]
+minimal Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+FIBER_DONE S2
+FIBER_START S3 fixed [ -9, 35, 65 ]
+d0 -3025/91 t1 5/11
+QUOTIENT S3 <1, 2> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 53550467*x + 272467841437 over Rational Field
+QUOTIENT S3 <1, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 + 67007092*x + 1181772362562 over Rational Field
+QUOTIENT S3 <2, 3> rank_bounds 3 3 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 - x^2 - 102960433*x + 401380652737 over Rational Field
+FIBER_DONE S3
+B10000_A1000_NEWFIBER_RANKS_DONE

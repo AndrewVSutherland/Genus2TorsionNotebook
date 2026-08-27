@@ -1,0 +1,20 @@
+Dumping M_1(8,2,2) halving residue classes
+prime_bound 73 output_file data/m3222_halving_allowed_residues_p73.txt
+p 7 open 12 Q_order8 12 allowed_open_halving_residues 0
+p 11 open 24 Q_order8 24 allowed_open_halving_residues 0
+p 13 open 48 Q_order8 48 allowed_open_halving_residues 6
+p 17 open 132 Q_order8 132 allowed_open_halving_residues 6
+p 19 open 168 Q_order8 168 allowed_open_halving_residues 18
+p 23 open 300 Q_order8 300 allowed_open_halving_residues 24
+p 29 open 528 Q_order8 528 allowed_open_halving_residues 42
+p 31 open 636 Q_order8 636 allowed_open_halving_residues 66
+p 37 open 960 Q_order8 960 allowed_open_halving_residues 96
+p 41 open 1236 Q_order8 1236 allowed_open_halving_residues 96
+p 43 open 1368 Q_order8 1368 allowed_open_halving_residues 102
+p 47 open 1692 Q_order8 1692 allowed_open_halving_residues 90
+p 53 open 2208 Q_order8 2208 allowed_open_halving_residues 168
+p 59 open 2808 Q_order8 2808 allowed_open_halving_residues 216
+p 61 open 3024 Q_order8 3024 allowed_open_halving_residues 276
+p 67 open 3720 Q_order8 3720 allowed_open_halving_residues 306
+p 71 open 4236 Q_order8 4236 allowed_open_halving_residues 348
+p 73 open 4500 Q_order8 4500 allowed_open_halving_residues 444

@@ -1,0 +1,15 @@
+# Root-free irreducible quadratic-B M(12)+5 census.
+nonsplit p=7 open_matches=2 B_mask=2
+nonsplit p=11 open_matches=10 B_mask=9
+nonsplit p=13 open_matches=14 B_mask=14
+nonsplit p=17 open_matches=46 B_mask=40
+nonsplit p=19 open_matches=42 B_mask=38
+p7_split open_matches=1 ordered_root_matches=2
+p7_control_1 b=3 w=5 B=[4,1,1] Jorder=60 orders=[5,12,60]
+p7_control_2 b=5 w=6 B=[3,6,1] Jorder=60 orders=[5,12,60]
+box bound=100 checked=39228 primes=[7,11,13,17,19]
+box_all_discriminant_mask_sizes p7=3 p11=17 p13=20 p17=77 p19=89
+box_survivor r=-83 n=75 disc=6589 p23_open=0 p29_open=0
+box_survivor r=-15 n=73 disc=-67 p23_open=0 p29_open=0
+box_survivor r=78 n=19 disc=6008 p23_open=0 p29_open=0
+rational_examples_found_in_reported_bounded_search=0

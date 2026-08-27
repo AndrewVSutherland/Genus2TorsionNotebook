@@ -1,0 +1,80 @@
+MASK p=3 good=0 allowed5=0 bad=9 killed=0
+MASK p=7 good=18 allowed5=4 bad=31 killed=14
+MASK p=11 good=70 allowed5=16 bad=51 killed=54
+MASK p=13 good=110 allowed5=16 bad=59 killed=94
+MASK p=17 good=198 allowed5=62 bad=91 killed=136
+MASK p=19 good=260 allowed5=72 bad=101 killed=188
+MASK p=23 good=404 allowed5=96 bad=125 killed=308
+MASK p=29 good=680 allowed5=156 bad=161 killed=524
+MASK p=31 good=790 allowed5=174 bad=171 killed=616
+MASK p=37 good=1166 allowed5=252 bad=203 killed=914
+MASK p=41 good=1450 allowed5=280 bad=231 killed=1170
+MASK p=43 good=1600 allowed5=326 bad=249 killed=1274
+MASK p=47 good=1940 allowed5=482 bad=269 killed=1458
+MASK p=53 good=2500 allowed5=596 bad=309 killed=1904
+MASK p=59 good=3142 allowed5=718 bad=339 killed=2424
+MASK p=61 good=3378 allowed5=628 bad=343 killed=2750
+MASK p=67 good=4096 allowed5=878 bad=393 killed=3218
+MASK p=71 good=4632 allowed5=948 bad=409 killed=3684
+MASK p=73 good=4912 allowed5=1196 bad=417 killed=3716
+MASK p=79 good=5782 allowed5=1252 bad=459 killed=4530
+PROGRESS b_index=0/48927 checked=48926 survivors=0
+PROGRESS b_index=1024/48927 checked=50001356 survivors=0
+PROGRESS b_index=2048/48927 checked=100100572 survivors=0
+PROGRESS b_index=3072/48927 checked=150199808 survivors=0
+PROGRESS b_index=4096/48927 checked=200299046 survivors=0
+PROGRESS b_index=5120/48927 checked=250398290 survivors=0
+PROGRESS b_index=6144/48927 checked=300497550 survivors=1
+PROGRESS b_index=7168/48927 checked=350596820 survivors=1
+PROGRESS b_index=8192/48927 checked=400696094 survivors=1
+PROGRESS b_index=9216/48927 checked=450795400 survivors=1
+PROGRESS b_index=10240/48927 checked=500894692 survivors=1
+PROGRESS b_index=11264/48927 checked=550994000 survivors=2
+PROGRESS b_index=12288/48927 checked=601093324 survivors=2
+PROGRESS b_index=13312/48927 checked=651192690 survivors=2
+PROGRESS b_index=14336/48927 checked=701292036 survivors=2
+PROGRESS b_index=15360/48927 checked=751391378 survivors=2
+PROGRESS b_index=16384/48927 checked=801490744 survivors=2
+PROGRESS b_index=17408/48927 checked=851590114 survivors=4
+PROGRESS b_index=18432/48927 checked=901689490 survivors=5
+PROGRESS b_index=19456/48927 checked=951788890 survivors=5
+PROGRESS b_index=20480/48927 checked=1001888302 survivors=5
+PROGRESS b_index=21504/48927 checked=1051987718 survivors=5
+PROGRESS b_index=22528/48927 checked=1102087146 survivors=5
+PROGRESS b_index=23552/48927 checked=1152186652 survivors=5
+PROGRESS b_index=24576/48927 checked=1202286094 survivors=5
+PROGRESS b_index=25600/48927 checked=1252385524 survivors=5
+PROGRESS b_index=26624/48927 checked=1302485026 survivors=5
+PROGRESS b_index=27648/48927 checked=1352584498 survivors=5
+PROGRESS b_index=28672/48927 checked=1402683950 survivors=6
+PROGRESS b_index=29696/48927 checked=1452783476 survivors=6
+PROGRESS b_index=30720/48927 checked=1502882982 survivors=6
+PROGRESS b_index=31744/48927 checked=1552982504 survivors=6
+PROGRESS b_index=32768/48927 checked=1603082048 survivors=7
+PROGRESS b_index=33792/48927 checked=1653181622 survivors=7
+PROGRESS b_index=34816/48927 checked=1703281198 survivors=7
+PROGRESS b_index=35840/48927 checked=1753380748 survivors=7
+PROGRESS b_index=36864/48927 checked=1803480358 survivors=7
+PROGRESS b_index=37888/48927 checked=1853579906 survivors=7
+PROGRESS b_index=38912/48927 checked=1903679492 survivors=7
+PROGRESS b_index=39936/48927 checked=1953779104 survivors=7
+PROGRESS b_index=40960/48927 checked=2003878736 survivors=7
+PROGRESS b_index=41984/48927 checked=2053978372 survivors=7
+PROGRESS b_index=43008/48927 checked=2104078002 survivors=7
+PROGRESS b_index=44032/48927 checked=2154177688 survivors=8
+PROGRESS b_index=45056/48927 checked=2204277360 survivors=9
+PROGRESS b_index=46080/48927 checked=2254377054 survivors=9
+PROGRESS b_index=47104/48927 checked=2304476772 survivors=9
+PROGRESS b_index=48128/48927 checked=2354576444 survivors=9
+SCAN H=200 parameters=48927 pairs=2393851329 primes=20
+SURVIVOR b=-61/23 w=-87/187 good_masks=9
+SURVIVOR b=-154/43 w=-52/97 good_masks=12
+SURVIVOR b=183/67 w=-51/86 good_masks=8
+SURVIVOR b=141/70 w=187/150 good_masks=9
+SURVIVOR b=79/74 w=117/145 good_masks=11
+SURVIVOR b=91/114 w=-59/142 good_masks=9
+SURVIVOR b=115/134 w=-160/143 good_masks=12
+SURVIVOR b=124/177 w=-143/36 good_masks=9
+SURVIVOR b=-32/183 w=-76/141 good_masks=8
+SURVIVOR b=-193/198 w=-26/125 good_masks=11
+DONE H=200 checked=2393618932 survivors=10 printed_min_good_0=10

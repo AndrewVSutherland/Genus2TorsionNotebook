@@ -1,0 +1,55 @@
+ELKIES22210_SOURCE_HALVING_FINITE_SUMMARY
+exact_stoll_zarhin_radicands=true
+abelian_group_positive_and_negative_validation=true
+
+p open_ck marked_01 marked_12
+5 0 0 0
+7 0 0 0
+11 24 0 0
+13 0 0 0
+17 0 0 0
+19 120 0 0
+23 240 24 0
+29 480 0 24
+31 504 0 24
+37 720 48 60
+41 1104 72 120
+43 960 24 72
+47 1320 72 72
+53 1800 48 48
+59 2640 96 132
+61 2784 144 108
+67 3240 144 144
+71 3744 216 168
+73 3960 168 288
+79 5040 408 240
+83 5400 288 384
+89 6360 264 276
+97 7560 264 324
+101 8544 336 444
+
+forced_open_boundaries_orbit_01=11,19,29,31
+forced_open_boundaries_orbit_12=11,19,23
+
+H2000_EXACT_SEARCH
+triples=5325336000
+disc_nonnegative=3770214985
+disc_modpass=1331708313
+disc_square=519165
+integral_roots=285794
+open_ck=23855
+primitive_ck=10290
+unique_curves=10290
+orbit_01_points=0
+orbit_12_points=0
+boundary_11_19=6027
+boundary_orbit_01_11_19_29_31=1214
+boundary_orbit_12_11_19_23=3109
+hits=0
+
+ORBIT01_UNIT_CIRCLE_H50
+t_values=1546
+pairs=1193512
+pair_keys=1193512
+joins=0
+hits=0

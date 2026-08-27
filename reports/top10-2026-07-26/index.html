@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Top ten avenues, second edition &mdash; 2026-07-26</title><style>:root{color-scheme:light dark}body{font:16px/1.6 Georgia,'Times New Roman',serif;max-width:64rem;margin:2rem auto;padding:0 1.25rem}
+h1{font-size:1.7rem;line-height:1.25}h2{font-size:1.28rem;margin-top:2.4rem;border-bottom:1px solid #8884;padding-bottom:.25rem}
+h3{font-size:1.06rem;margin-top:1.8rem}code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.84em}
+pre{overflow-x:auto;padding:.7rem .9rem;background:#8881;border-radius:6px}.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.92em}th,td{border:1px solid #8886;padding:.45rem .6rem;text-align:left;vertical-align:top}
+th{background:#8881}hr{border:none;border-top:1px solid #8884;margin:2rem 0}p{margin:.6rem 0}</style></head><body>
+<h1>The ten most promising avenues, 2026-07-26 — second edition</h1>
+
+<p>Supersedes <code>notes/claude_top10_2026_07_25.md</code>.  That list was written from a</p>
+<p>15-agent audit of the repository as it then stood.  Since then a nine-lane</p>
+<p>campaign has run against it, and the frontier moved enough that a re-rank is</p>
+<p>not cosmetic: <b>five items on the old list are now closed</b>, one is closed on</p>
+<p>the only slice that could ever have mattered, and the target the collaborator</p>
+<p>cares about most — generic <code>[2,22]</code> — has been <i>reopened</i> by a result that</p>
+<p>contradicted the working hypothesis.</p>
+
+<p>Every claim below is backed by a committed log.  Lane notes:</p>
+<p><code>notes/claude_ov_{lane1,c7z,l3,b4,88,2216,lane7,lane8,m612ap}_2026_07_25.md</code>,</p>
+<p>plus <code>claude_ov_erratum_</code>, <code>claude_ov_b2p_result_</code> and <code>claude_ov_db_histogram_</code>.</p>
+
+<hr>
+
+<h2>0.  What changed</h2>
+
+<h3>Closed — remove from any future list</h3>
+
+<div class="scroll"><table><tr><th>target / route</th><th>verdict</th><th>evidence</th></tr>
+<tr><td><b><code>[8,8]</code></b> (was #6)</td><td><b>Closed, unconditional.</b> 564 distinct curves of the DS1 locus have torsion exactly <code>[4,4]</code> and <b>zero of their 6768 order-4 classes lie in <code>2J(Q)</code></b>. No GRH needed. Failure localised to the lambda-compatibility layer: 185/185 square-class records fail even the <i>everywhere-local relaxation</i>. No local obstruction at any <code>p &lt;= 79</code> — the emptiness is global thinness.</td><td><code>claude_ov_88_2026_07_25.md</code></td></tr>
+<tr><td><b><code>[2,22]</code> route B4</b> (Richelot)</td><td><b>Closed over Flynn's family, structurally.</b> THEOREM B: a Richelot codomain with 2-rank <code>&gt;= 2</code> forces <code>F_t</code> to have a rational quadratic factor. The Richelot-source locus has exactly two components — degree 9, genus 1 (the <code>(6,2)</code> stream) and degree 6, genus 2 (finite by Faltings) — and both are governed by the <i>same</i> rank-1 curve <code>92.a1</code>. Sieved to `\</td><td>n\</td><td>&lt;= 10^8`.</td><td><code>claude_ov_b4_2026_07_25.md</code></td></tr>
+<tr><td><b>Howe's <code>f70</code> -&gt; <code>Z/35</code></b></td><td><b>No.</b> <code>f70</code> is not geometrically simple: <code>J ~ E(66) x E(858)</code> by a <code>(3,3)</code>-gluing, so the <code>Z/35</code> inside <code>Z/70</code> sits on the same split Jacobian.</td><td><code>claude_ov_lane8_2026_07_25.md</code></td></tr>
+<tr><td><b>The "deform off the split locus" method</b> (was the engine of #5)</td><td><b>Structurally vacuous.</b> <code>J[N]</code> is finite étale in char 0, so the order-<code>N</code> section lifts <i>uniquely</i> over the completed local ring: first-order deformation theory says nothing, and the torsion locus is not a subvariety of <code>M_2</code> but the image of the rational points of a finite étale cover <code>W_N</code>. Empirically: 796,674 <code>Q(t)</code>-families killed, including 279,993 arcs <i>tangent</i> to the split locus that no line test could see; transverse-direction density equals the random-sextic baseline at every anchor.</td><td><code>claude_ov_lane8_2026_07_25.md</code></td></tr>
+<tr><td><b>The extended-DB question</b> (was #4)</td><td><b>Answered.</b> The histogram was finally run: nothing in <code>g2c_curves_new</code> is missing from the paper's table, so every open target is confirmed absent by a <i>measured</i> query. Byproduct: the <code>[2,4,4]</code> row was misattributed and is now fixed.</td><td><code>claude_ov_db_histogram_2026_07_25.md</code></td></tr>
+</table></div>
+
+<h3>Downgraded</h3>
+
+<p><b>Order 112 <code>[2,2,2,14]</code></b> (was <b>#1</b>).  Decided negative on the slice <code>z=2</code> —</p>
+<p>and <code>c=2</code> is <i>provably the unique rational slice</i> whose three-root fibre is not</p>
+<p>smooth of genus 4, hence by Faltings the unique slice that could have carried an</p>
+<p>infinite family.  A second slice <code>c=2/3</code> fell to a different argument</p>
+<p>(<code>Cab_{2/3}</code> is the rank-0 conductor-48 curve with torsion <code>Z/8</code>; all 8 points</p>
+<p>exhibited and tested).  Off <code>c=2</code> the order-112 fibre <code>X_c</code> has <b>genus 13</b>,</p>
+<p>which is why nothing else is tractable.  Also measured: order 112 here is</p>
+<p><b>thin, not locally obstructed</b> — 594 <code>(c,p)</code> point counts produced zero empty</p>
+<p>counts, so no congruence proof of impossibility exists.  The 1.895e13-pair sieve</p>
+<p>to height 2250 is superseded: it was searching a curve for points, and Chabauty</p>
+<p>answers that.</p>
+
+<h3>The reopening</h3>
+
+<p><b>Generic <code>[2,22]</code> is back on the table, at #1.</b>  The B2' note hypothesised</p>
+<p>that the 2-rank-2 sublocus might be Humbert-forced, which would have explained</p>
+<p>the RM-only pattern and closed the target.  It is false: `Sigma'' =</p>
+<p>{ord(D_inf)=11}<code> in the </code>[1,1,2,2]<code> chart is <b>not</b> contained in </code>H_5`.  About</p>
+<p><b>95% of <code>Sigma''</code> lies off <code>H_5</code></b> (measured at <code>p = 61,101,151,199,251</code> with</p>
+<p>a Krull dimension argument that rules out a vertical component), and</p>
+<p><code>Sigma'' ∩ H_5</code> is a <b>curve</b>, on which both known witnesses and all 17 tuples</p>
+<p>of the height-60 sweep lie.</p>
+
+<hr>
+
+<h2>1.  A tool correction that touches everything</h2>
+
+<p>The lab's RM prefilter — *"real-subfield-disc census constant = RM, scattering</p>
+<p>= End = Z"* — <b>is wrong in the second direction</b>.  At a prime inert in the</p>
+<p>field of definition of the RM, <code>a1 = Tr(a_p) = 0</code> exactly, so</p>
+<p><code>n_p = a1^2-4(a2-2p) = 8p-4a2</code> and its squarefree core is junk varying with <code>p</code>;</p>
+<p>such primes have density 1/2.  Consequently the screen scatters on **100% of</p>
+<p>geometrically-RM curves whose RM is not defined over <code>Q</code>**.</p>
+
+<p>Measured over all 4990 LMFDB <code>RM</code> curves: naive screen wrong on <b>3116/3116</b></p>
+<p>with <code>is_gl2_type = false</code>, right on 1864/1874 with <code>is_gl2_type = true</code>.</p>
+<p>Independently reproduced by the orchestrator on <code>12500.b.50000.1</code></p>
+<p>(<code>code/claude_rmscreen_verify.m</code>): 55% of primes have <code>a1 = 0</code>, the naive census</p>
+<p>returns 23 cores and the verdict "End = Z" — wrong — while the repair returns</p>
+<p>the single core <code>{5}</code> and correctly names RM(<code>sqrt5</code>).</p>
+
+<p><b>The repair is one line:</b> count only primes with <code>a1 != 0</code> and <code>n_p</code> neither</p>
+<p><code>0</code> nor a perfect square.  Right on 116/116 of the gold-standard set; 481/481</p>
+<p><code>End = Z</code> controls still scatter.</p>
+
+<p><b>Nothing is retracted.</b>  The direction used to <i>claim</i> RM (constant =&gt; RM) is</p>
+<p>sound, so "all 17 <code>[2,22]</code> tuples are RM(<code>sqrt5</code>)" stands.  Every <code>End = Z</code></p>
+<p>claim rests on the strict two-prime Frobenius certificate, which is a theorem</p>
+<p>and refuses an even <code>chi</code> rather than wrongly certifying it.  But any note</p>
+<p>saying "scattering =&gt; End = Z" must now be read as **"not yet certified either</p>
+<p>way"**, and the cost is that we may have discarded generic curves as RM.</p>
+
+<p>Separately: **every conductor computed with PARI <code>genus2red</code> was the odd part</p>
+<p>only** (it is documented for <code>p &gt; 2</code> and silently drops the 2-part when its</p>
+<p>factorisation matrix carries a <code>[2,-1]</code> sentinel).  Five artifacts were affected</p>
+<p>and all are corrected; the Magma replacement is validated 1113/1113 against</p>
+<p>LMFDB in exactly the regime Magma disclaims.  One inference died with it: the</p>
+<p><code>[2,2,14]</code> curves are <i>not</i> "odd non-squares, no GL2-type smell" — all six are</p>
+<p>even, and the RM one is <code>152100 = 390^2</code>, the GL2-type signature the note had</p>
+<p>declared absent.</p>
+
+<hr>
+
+<h2>2.  The ranked ten</h2>
+
+<h3>1. Generic <code>[2,22]</code> — decide <code>Sigma'' ∩ H_5</code>, then sweep past height 60</h3>
+
+<p><b>Why first.</b>  It is the collaborator's priority, it is the last <code>^RM</code> row in</p>
+<p>the paper, and it is the only target whose geometry got <i>better</i> this week.</p>
+<p>The Humbert hypothesis is refuted, so B2' is live; and we now know exactly where</p>
+<p>the known witnesses sit.</p>
+
+<p><b>The computation.</b>  <code>Sigma'' ∩ H_5</code> is a curve carrying both known <code>[2,22]</code></p>
+<p>witnesses and all 17 height-60 tuples.  Identify it and decide its rational</p>
+<p>points.  If it has finitely many and they are all accounted for, then **every</p>
+<p>further <code>[2,22]</code> curve must lie off <code>H_5</code>, i.e. be generic** — which converts</p>
+<p>the search from "find a generic one" into "find any new one at all".</p>
+
+<p><b>Second computation.</b>  Extend the rational sweep beyond height 60.  This is</p>
+<p>the one place where a 192-core box is genuinely justified: <code>H=60</code> cost 6.7 h on</p>
+<p>192 cores and <code>H=100</code> is 7.4x larger, i.e. ~300 h on claude-box's shared 32</p>
+<p>vCPUs.  The C sieve (<code>code/claude_ov_b2p_scan.c</code>) already shards.</p>
+
+<p><b>Loose ends worth chasing.</b>  The <code>core=3</code> residual (+7.8 points over the</p>
+<p>conditioned control at <code>p=61</code>) is not resolved — a full <code>H_12</code> component is</p>
+<p>refuted at <code>p=101</code> by &gt;20 sigma, but a component defined over a quadratic field</p>
+<p>would only be <code>F_p</code>-rational at half the primes, and two primes cannot exclude</p>
+<p>that.  And <code>core=0</code> runs 3.1% against a 0.6% control: <code>Sigma''</code> meets the</p>
+<p><code>J ~ E^2</code> locus five times more often than chance.</p>
+
+<hr>
+
+<h3>2. Finish the <code>[2,2,14]</code> family theorem — the seven 2-divisibility covers</h3>
+
+<p><b>Status.</b>  THEOREM C+: <b>7898 of 7920 congruence classes</b> (<code>k mod 3960</code>) of</p>
+<p><code>E(Q) = &lt;G&gt; x &lt;T&gt;</code> give members with <code>J(Q)_tors</code> <b>exactly</b> <code>[2,2,14]</code> and</p>
+<p><code>End(J_Qbar) = Z</code>; every genuine member with <code>|k| &lt;= 40</code> is certified.  Eight</p>
+<p>classes can <i>never</i> be settled by any reduction argument (the degenerate points</p>
+<p><code>k = 0, ±1, ±2 mod L</code>); enlarging the prime pool shrinks the excluded set but</p>
+<p>never empties it.</p>
+
+<p><b>What remains</b> is one named computation: the seven 2-divisibility covers.</p>
+<p>Writing <code>f = (x-r1)(x-r2)(x-r3)q(x)</code> with <code>r_i = 1-s^2, 1-t^2, 1-u^2</code> and</p>
+<p>deciding, over the function field, that no nontrivial 2-torsion class is</p>
+<p>divisible would upgrade "7898/7920 classes" to <b>"every nondegenerate member"</b></p>
+<p>— a clean theorem, and the first family theorem for any group containing</p>
+<p><code>(Z/2)^2 x Z/7</code>.</p>
+
+<p>Cheaper wins alongside: close the 12 prime-pool-limited classes with</p>
+<p><code>PMAX:=40000 LTARGET:=3960</code>, and split the two <code>k = 1980</code> classes at</p>
+<p><code>LTARGET:=7920</code>.</p>
+
+<hr>
+
+<h3>3. <code>[2,2,16]</code> — build the 2-cover <code>Z</code>, and sample along <code>Y_0(Q)</code></h3>
+
+<p><b>Why it moved up.</b>  The chart is now fully understood and the criterion is in</p>
+<p><b>closed form</b>: four explicit polynomial square conditions with no <code>x-T</code> module</p>
+<p>and no number field (<code>g12 = sq</code>, <code>g13 = sq</code>, <code>uv(u+v+1) = t^2</code>,</p>
+<p><code>lam0*(P ± 2st) = sq</code>, with <code>lam0 = (u-1)(v-1)(u+v+2)</code> identical across all four</p>
+<p>condition sets).  The "seven unswept surfaces" turned out to be <b>two</b></p>
+<p><code>S_3</code>-inequivalent ones, and both are now swept to <code>H = 2000</code></p>
+<p>(3.1e13 quadruples): 15 points, only <b>six distinct curves</b>, all with torsion</p>
+<p>exactly <code>[2,2,8]</code> and none of their 16 order-8 classes 2-divisible.</p>
+
+<p><b>Crucially: there is no local obstruction</b> — the full halving condition is</p>
+<p>soluble mod every prime <code>5 &lt;= p &lt;= 113</code> at exactly the predicted density 3/4.</p>
+<p>So no finite-prime argument can ever close chart 1; if it is empty the reason is</p>
+<p>global (Brauer–Manin / Sha on the 2-cover).</p>
+
+<p><b>The two moves.</b>  (a) Build the 2-cover <code>Z</code> as a variety and decompose it —</p>
+<p>the only thing that can end chart 1.  (b) Better than any box sweep: three</p>
+<p><code>d = -2</code> fibres of <code>Y_0</code> have rank 2, so **<code>Y_0(Q)</code> is infinite and explicitly</p>
+<p>parametrised** — sample <code>eps</code> along it rather than enumerating boxes.</p>
+
+<hr>
+
+<h3>4. <code>[6,12]</code> — decide <code>Pr(Q)_tors</code> and prove the saturation</h3>
+
+<p><b>Why it is cheap now.</b>  The Abel–Prym MW sieve was built and run over 26</p>
+<p>primes.  <code>Lambda</code> is <b>cyclic</b> over <code>Q</code> (<code>W1 = 0</code>, <code>W3 = W2</code>), so it is a</p>
+<p>genuine one-generator sieve; <code>g0</code> <b>provably generates</b> <code>J(D)(Q)</code>; and the</p>
+<p>inherited identification <code>Pr ~ J(D)</code> — on which <code>rank Pr(Q) = 1</code> rests, and</p>
+<p>which had never been checked — passes <code>L_{E8} = L_{E4}·L_D</code> at 19 of 19 primes.</p>
+<p><code>E8</code> has no rational point over <code>x = infinity</code> and none of <code>x</code>-height <code>&lt;= 10^4</code>.</p>
+
+<p><b>The bound</b> is <code>d ≡ 0 mod 11200</code> unconditionally, or <code>mod 3729600</code> if</p>
+<p><code>Pr(Q)_tors = 0</code>.  <code>Pr(Q)_tors</code> is proved to be a 3-group of exponent 3 and</p>
+<p>order dividing 9.  **Deciding it is one computation and the bound improves 333x</p>
+<p>with data already committed.**</p>
+
+<p>Be clear about what this can and cannot do: an MW sieve returns a congruence,</p>
+<p>never <code>d = 0</code>.  Closing <code>[6,12]</code> still needs the precision-safe Coleman driver</p>
+<p>(the committed bundle remains withdrawn: 15 of 42 disks, <code>O(37^4)</code> coefficients</p>
+<p>coerced into precision 20, a hard-coded <code>37^mv</code>, and a discarded infinity flag).</p>
+
+<hr>
+
+<h3>5. Order 112 off the <code>c=2</code> slice — MW sieve on <code>Cab_c</code></h3>
+
+<p>The record target is not dead, only harder than the old list implied.  <code>c=2</code> is</p>
+<p>decided and was the only slice that could carry an <i>infinite</i> family, but</p>
+<p>sporadic points elsewhere are not excluded, and the local evidence says thin</p>
+<p>rather than obstructed.</p>
+
+<p><b>The concrete move</b>, named by the lane: a Mordell–Weil sieve on <code>Cab_c</code>,</p>
+<p>slice by slice.  <code>Cab_c</code> is elliptic of rank 1–3 with computable generators, and</p>
+<p>"<code>d1(P)</code> and <code>d2(P)</code> both squares" is a quadratic condition on the MW lattice.</p>
+<p>The 12 unfinished slices of the rank census are listed in the lane note (their</p>
+<p><code>RankBounds</code> enters an unconditional class-group proof; use GRH bounds).</p>
+
+<p>Genus-4 Chabauty on the three-root fibre would be the frontal attack, but Magma</p>
+<p>has no support and it would need a hand-built descent to elliptic Chabauty over</p>
+<p>a number field.</p>
+
+<hr>
+
+<h3>6. <code>[3,12]</code> — the smallest open group, and untouched this round</h3>
+
+<p>Order 36; nothing in this campaign touched it, so its status is as the first</p>
+<p>edition left it, with one correction.  The true carrier is the **étale double</p>
+<p>cover <code>m^2 = M</code> of <code>S12</code>**, not <code>S12</code> itself (the extra 3-class is rational iff</p>
+<p><code>M</code> is additionally a square, and <code>M</code> is not constant along the degree-3 fibres).</p>
+
+<p>Two named, never-run computations: the **Mordell–Weil sieve on both genus-2</p>
+<p>quotients** (<code>z=-5/3</code>, <code>z=-5/4</code>), whose MW groups are proved <code>Z/2 x Z x Z</code> with</p>
+<p>explicit generators — needed because <code>rank = genus = 2</code> blocks Chabauty; and</p>
+<p><b>prove or refute the <code>M</code> square-class dichotomy <code>{1,-3}</code></b>.</p>
+
+<p>Avoid: the Bruin–Flynn–Shnidman <code>sqrt3</code> route is <i>closed</i> for <code>[3,12]</code> by the</p>
+<p>same <code>mu_3</code> argument that closed <code>[2,6,6]</code>, though the old note still lists it</p>
+<p>as live.</p>
+
+<hr>
+
+<h3>7. <code>[2,24]</code> — prove the wall or break it</h3>
+
+<p>Order 48, the conspicuous gap between <code>[2,22]</code> and <code>[2,26]</code>, six negative</p>
+<p>programs, and <b>locally alive on every chart tested</b>.  The commit-<code>6f7c60c</code></p>
+<p>"wall" is still not a theorem — the note heads it "Conjecture (theorem-shaped,</p>
+<p>next to prove)", and the evidence is a 6,420-point census with only <b>12</b> points</p>
+<p>probed for the actual 5-adic/2-adic mechanism, when the probe scripts already do</p>
+<p>the right thing and only their loop bounds stop them covering all 389.</p>
+
+<p>The HLP <code>[2,24]</code> split family remains untouched — but note the new caveat from</p>
+<p>Lane 8: "deform off the split locus" is structurally vacuous, so the attack must</p>
+<p>be posed on the finite étale cover <code>W_N</code>, not as a deformation.</p>
+
+<hr>
+
+<h3>8. <code>[5,5]</code> — the smallest open <i>order</i></h3>
+
+<p>Order 25, smaller than <code>[3,12]</code>'s 36, and the first edition under-weighted it.</p>
+<p>The lane is reduced to a single decisive object: build the C1 square-condition</p>
+<p>model by redoing the <code>K/h2/v</code> rational-function fits <b>modulo <code>G(s,t)</code></b>,</p>
+<p>parametrise the genus-0 degree-10 curve <code>G</code>, and obtain <code>w^2 = W(tau)</code> over <code>Q</code>.</p>
+<p>Its genus decides the whole C1 lane.</p>
+
+<p>Recorded correction worth keeping in view: the celebrated smooth <code>F_7</code>/<code>F_11</code></p>
+<p>slice points were <b>proved to be reductions of irrational points</b> (orbits of</p>
+<p>degrees 28 and 6), which is what overturned this target's rank-1 billing on the</p>
+<p>2026-07-17 list within a day.</p>
+
+<hr>
+
+<h3>9. Order 128 and 192 — <code>[2,2,4,8]</code>, <code>[2,2,2,24]</code>, <code>[2,2,4,12]</code></h3>
+
+<p>The only remaining routes above the order-96 record now that order 112 is</p>
+<p>decided on its best slice.</p>
+
+<p><code>[2,2,4,8]</code> is boxed on three sides by real theorems; the one credible route</p>
+<p>left is the positive-rank elliptic surface through the HLP point in the</p>
+<p><code>(rho,sigma,tau)</code> chart (<code>rho0 = 58466134224/53109477625</code>).</p>
+
+<p>For order 192, <code>[2,2,2,24]</code> retains <b>eleven locally-viable families</b></p>
+<p>(<code>F1 F6 N3 N4 N11 O4 O9 R3 R7 S3 W2</code>), none given the component-complete</p>
+<p>treatment that closed the others; and the prerequisite for any of it is the</p>
+<p><b>multigrade literature dig</b> (Gloden; Choudhry) — three known order-96 curves</p>
+<p>is not a program, and a single nondegenerate parametric family of the</p>
+<p>equal-sums-of-2nd-and-4th-powers system would give infinitely many.</p>
+
+<hr>
+
+<h3>10. Attack <code>W_N</code> directly for the untouched split targets</h3>
+
+<p>Lane 8's structural result is the most reusable thing the campaign produced, and</p>
+<p>it reframes a whole class of attacks.  Because <code>J[N]</code> is finite étale, a torsion</p>
+<p>locus is **the image of the rational points of a finite étale cover <code>W_N</code> of</p>
+<p><code>M_2</code>** — not a subvariety.  "Is there a transverse component?" is therefore not</p>
+<p>a deformation question at all; it is the arithmetic question *does <code>W_N(Q)</code> have</p>
+<p>a point off the split locus*.</p>
+
+<p>That is the right frame for the four split-realized targets nobody has cracked:</p>
+<p><code>Z/63</code> (a single HLP curve with torsion <b>exactly</b> <code>Z/63</code>; a geometrically</p>
+<p>simple one would be a new <b>cyclic record</b>, beating <code>Z/40</code>), <code>Z/45</code>, <code>[7,7]</code>,</p>
+<p><code>[5,10]</code>.  Current bounds: no <code>Z/63</code> on the contact-7 chart to height 2000</p>
+<p>(2.368e13 points) nor on contact-9 with <code>|n| &lt;= 3e5, d &lt;= 3e4</code>.  And the census</p>
+<p>question is settled in the target's favour — compatible <b>absolutely simple</b></p>
+<p>Weil classes exist at 53–60 of 61 primes <code>p &lt;= 293</code> for every target, with</p>
+<p><code>Z/40</code> and <code>Z/30</code> controls behaving identically, so there is **no local</p>
+<p>obstruction**.</p>
+
+<hr>
+
+<h2>3.  Method notes, updated</h2>
+
+<p><b>1.</b> <b>Instruction is not a mechanism.</b>  Nine lanes each told "at most one Magma</p>
+<p>   job" produced 38 concurrent processes at load 70.  <code>code/claude_magma_slot.sh</code></p>
+<p>   now enforces a global cap via <code>flock</code> on an inherited file descriptor, so the</p>
+<p>   slot frees even if the agent dies.</p>
+<p><b>2.</b> <b>Measure before waiting.</b>  The <code>[8,8]</code> conic run was stopped at 25% after</p>
+<p>   <code>/proc</code> showed the critical path was ~31 h, not the 12.5 h that aggregate</p>
+<p>   throughput suggested — <code>WaitForAllChildren</code> waits for the slowest child.  The</p>
+<p>   lane then reached an <i>unconditional</i> negative without it.</p>
+<p><b>3.</b> <b>A prefilter is not a certificate.</b>  The RM screen (§1) was doctrine for</p>
+<p>   weeks.  Only the strict two-prime Frobenius certificate ever justified an</p>
+<p>   <code>End = Z</code> claim.</p>
+<p><b>4.</b> <b>Local health is not global existence</b> — the campaign's most repeated</p>
+<p>   finding.  <code>[8,8]</code>, <code>[2,2,16]</code>, order-112 and the <code>W_N</code> targets <i>all</i> have no</p>
+<p>   local obstruction at any tested prime and <i>all</i> are empty or thin in the</p>
+<p>   searched range.  "Locally alive" should be treated as the absence of a cheap</p>
+<p>   kill, never as positive evidence.</p>
+<p><b>5.</b> <b>Scope a theorem to what was proved.</b>  The order-112 result covers one</p>
+<p>   slice; it was tempting to write "the contact-7 chart cannot produce order</p>
+<p>   112", and that would have been false.</p>
+
+</body></html>

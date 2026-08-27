@@ -1,0 +1,12 @@
+HLP_Z60_EXPLICIT_CONTROL
+f -46250000*x^6 + 1761500625*x^4 - 22332312000*x^2 + 94277468160
+factor [
+<x^2 - 1728/125, 1>,
+<x^4 - 1941/80*x^2 + 18432/125, 1>
+]
+reduced_model Hyperelliptic Curve defined by y^2 + x^2*y = -106560*x^6 + 704600*x^4 - 1550855*x^2 + 1136640 over Rational Field
+TORSION [ 60 ]
+order 60
+P60 (x^2 + 74/15*x + 128/25, -1081510/9*x - 1226624/3, 2) order 60
+GEOMETRICALLY_SPLIT true
+HLP_Z60_EXPLICIT_CONTROL_DONE

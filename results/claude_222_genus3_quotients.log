@@ -1,0 +1,13 @@
+==== X1 ====
+X1: #Aut = 2
+X1: quotient genus = 1
+  quotient points found: 21
+  ELLIPTIC QUOTIENT (minimal): [ 0, 0, 0, -1, 1 ]
+  conductor = 92
+  rank bounds = [1, 1]
+  torsion = []
+==== X2 ====
+X2: #Aut = 2
+X2: quotient genus = 1
+  quotient points found: 0
+QUOTIENTS_DONE

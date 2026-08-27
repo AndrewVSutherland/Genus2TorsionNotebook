@@ -1,0 +1,15 @@
+SRCCHK H1 model64=true
+FAN H1 codomains=15
+SRCCHK H2 model64=true
+FAN H2 codomains=15
+SRCCHK H3 model64=true
+FAN H3 codomains=15
+SRCCHK H4 model64=true
+FAN H4 codomains=15
+SRCCHK H5 model64=true
+FAN H5 codomains=15
+SRCCHK H6 model64=true
+FAN H6 codomains=15
+SRCCHK H7 model64=true
+FAN H7 codomains=15
+HIGHSEEDS_DONE gate=0 big=0

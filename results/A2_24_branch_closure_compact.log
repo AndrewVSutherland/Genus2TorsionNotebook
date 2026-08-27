@@ -1,0 +1,300 @@
+A2_24_BRANCH_CLOSURE_START
+parameters SearchHeight=8 PrintPolynomials=false BoundaryOverQuadratic=true
+
+FIBER index=1 p=-1/3 z=-1 r=4/3
+  R=1/5*x^2 + 1/5*x + 7/5
+  F=9/25*x^4 + 33/25*x^3 + 3*x^2 + 56/25*x + 16/25
+  f=9/125*x^6 + 42/125*x^5 + 171/125*x^4 + 362/125*x^3 + 597/125*x^2 + 408/125*x + 112/125
+  F_factorization=[
+<x^2 + x + 1/3, 1>,
+<x^2 + 8/3*x + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  P12_u=x^2 - 9*x + 2
+  P12_v=-29*x + 8
+  cyclic_two_torsion_TR_u=x^2 + x + 7 TR_v=0
+  rational_two_torsion_count=4
+  TRANSLATED_CLASS fiber=1 p=-1/3 z=-1 r=4/3 two_label=O two_index=1 two_count=4 D_label=O_or_TR_class
+    T_u=1
+    T_v=0
+    D_u=x^2 - 9*x + 2
+    D_v=-29*x + 8
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=1 p=-1/3 z=-1 r=4/3 two_label=O D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=O D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=1 p=-1/3 z=-1 r=4/3 two_label=T1_extra two_index=2 two_count=4 D_label=D_minus
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D_u=m^2 - 2/3*m - 4/3
+    D_v=-7/3*m - 8/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=1 p=-1/3 z=-1 r=4/3 two_label=T1_extra D_label=D_minus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T1_extra D_label=D_minus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T1_extra D_label=D_minus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T1_extra D_label=D_minus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=1 p=-1/3 z=-1 r=4/3 two_label=TR two_index=3 two_count=4 D_label=O_or_TR_class
+    T_u=m^2 + m + 7
+    T_v=0
+    D_u=m^2 + 6/11*m + 52/11
+    D_v=67/121*m - 160/121
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=1 p=-1/3 z=-1 r=4/3 two_label=TR D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=TR D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=1 p=-1/3 z=-1 r=4/3 two_label=T2_extra two_index=4 two_count=4 D_label=D_plus
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D_u=m^2 + 13/3*m + 26/3
+    D_v=5/3*m + 16/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=1 p=-1/3 z=-1 r=4/3 two_label=T2_extra D_label=D_plus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T2_extra D_label=D_plus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T2_extra D_label=D_plus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=1 p=-1/3 z=-1 r=4/3 two_label=T2_extra D_label=D_plus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+
+FIBER index=2 p=-1/3 z=1 r=4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  P12_u=m^2 + 6/11*m + 52/11
+  P12_v=67/121*m - 160/121
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TRANSLATED_CLASS fiber=2 p=-1/3 z=1 r=4/3 two_label=O two_index=1 two_count=4 D_label=O_or_TR_class
+    T_u=1
+    T_v=0
+    D_u=m^2 + 6/11*m + 52/11
+    D_v=67/121*m - 160/121
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=2 p=-1/3 z=1 r=4/3 two_label=O D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=O D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=2 p=-1/3 z=1 r=4/3 two_label=T1_extra two_index=2 two_count=4 D_label=D_plus
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D_u=m^2 + 13/3*m + 26/3
+    D_v=5/3*m + 16/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=2 p=-1/3 z=1 r=4/3 two_label=T1_extra D_label=D_plus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T1_extra D_label=D_plus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T1_extra D_label=D_plus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T1_extra D_label=D_plus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=2 p=-1/3 z=1 r=4/3 two_label=TR two_index=3 two_count=4 D_label=O_or_TR_class
+    T_u=m^2 + m + 7
+    T_v=0
+    D_u=m^2 - 9*m + 2
+    D_v=-29*m + 8
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=2 p=-1/3 z=1 r=4/3 two_label=TR D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=TR D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=2 p=-1/3 z=1 r=4/3 two_label=T2_extra two_index=4 two_count=4 D_label=D_minus
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D_u=m^2 - 2/3*m - 4/3
+    D_v=-7/3*m - 8/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=2 p=-1/3 z=1 r=4/3 two_label=T2_extra D_label=D_minus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T2_extra D_label=D_minus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T2_extra D_label=D_minus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=2 p=-1/3 z=1 r=4/3 two_label=T2_extra D_label=D_minus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+
+FIBER index=3 p=1/3 z=-1 r=-4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  P12_u=m^2 - 9*m + 2
+  P12_v=-29*m + 8
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TRANSLATED_CLASS fiber=3 p=1/3 z=-1 r=-4/3 two_label=O two_index=1 two_count=4 D_label=O_or_TR_class
+    T_u=1
+    T_v=0
+    D_u=m^2 - 9*m + 2
+    D_v=-29*m + 8
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=3 p=1/3 z=-1 r=-4/3 two_label=O D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=O D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=3 p=1/3 z=-1 r=-4/3 two_label=T1_extra two_index=2 two_count=4 D_label=D_minus
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D_u=m^2 - 2/3*m - 4/3
+    D_v=-7/3*m - 8/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=3 p=1/3 z=-1 r=-4/3 two_label=T1_extra D_label=D_minus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T1_extra D_label=D_minus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T1_extra D_label=D_minus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T1_extra D_label=D_minus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=3 p=1/3 z=-1 r=-4/3 two_label=TR two_index=3 two_count=4 D_label=O_or_TR_class
+    T_u=m^2 + m + 7
+    T_v=0
+    D_u=m^2 + 6/11*m + 52/11
+    D_v=67/121*m - 160/121
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=3 p=1/3 z=-1 r=-4/3 two_label=TR D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=TR D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=3 p=1/3 z=-1 r=-4/3 two_label=T2_extra two_index=4 two_count=4 D_label=D_plus
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D_u=m^2 + 13/3*m + 26/3
+    D_v=5/3*m + 16/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=3 p=1/3 z=-1 r=-4/3 two_label=T2_extra D_label=D_plus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T2_extra D_label=D_plus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T2_extra D_label=D_plus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=3 p=1/3 z=-1 r=-4/3 two_label=T2_extra D_label=D_plus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+
+FIBER index=4 p=1/3 z=1 r=-4/3
+  R=1/5*m^2 + 1/5*m + 7/5
+  F=9/25*m^4 + 33/25*m^3 + 3*m^2 + 56/25*m + 16/25
+  f=9/125*m^6 + 42/125*m^5 + 171/125*m^4 + 362/125*m^3 + 597/125*m^2 + 408/125*m + 112/125
+  F_factorization=[
+<m^2 + m + 1/3, 1>,
+<m^2 + 8/3*m + 16/3, 1>
+] F_factor_degrees=[ <2, 1>, <2, 1> ] f_factor_degrees=[ <2, 1>, <2, 1>, <2, 1> ]
+  P12_exact_order12=true
+  P12_u=m^2 + 6/11*m + 52/11
+  P12_v=67/121*m - 160/121
+  cyclic_two_torsion_TR_u=m^2 + m + 7 TR_v=0
+  rational_two_torsion_count=4
+  TRANSLATED_CLASS fiber=4 p=1/3 z=1 r=-4/3 two_label=O two_index=1 two_count=4 D_label=O_or_TR_class
+    T_u=1
+    T_v=0
+    D_u=m^2 + 6/11*m + 52/11
+    D_v=67/121*m - 160/121
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=4 p=1/3 z=1 r=-4/3 two_label=O D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=O D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=4 p=1/3 z=1 r=-4/3 two_label=T1_extra two_index=2 two_count=4 D_label=D_plus
+    T_u=m^2 + m + 1/3
+    T_v=0
+    D_u=m^2 + 13/3*m + 26/3
+    D_v=5/3*m + 16/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=4 p=1/3 z=1 r=-4/3 two_label=T1_extra D_label=D_plus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T1_extra D_label=D_plus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T1_extra D_label=D_plus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T1_extra D_label=D_plus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=4 p=1/3 z=1 r=-4/3 two_label=TR two_index=3 two_count=4 D_label=O_or_TR_class
+    T_u=m^2 + m + 7
+    T_v=0
+    D_u=m^2 - 9*m + 2
+    D_v=-29*m + 8
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <16, 1> ]
+    BOUNDARY_S4 fiber=4 p=1/3 z=1 r=-4/3 two_label=TR D_label=O_or_TR_class s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=TR D_label=O_or_TR_class factor=1 degree_M=16 mult=1 factorization_degrees_Q=[ <16, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+  TRANSLATED_CLASS fiber=4 p=1/3 z=1 r=-4/3 two_label=T2_extra two_index=4 two_count=4 D_label=D_minus
+    T_u=m^2 + 8/3*m + 16/3
+    T_v=0
+    D_u=m^2 - 2/3*m - 4/3
+    D_v=-7/3*m - 8/3
+    D_exact_order12=true
+    exact_integral_square_model_den=125 IsDivisibleBy_D_by_2=false
+    E_degrees E1=(total 6,M 6,N 3) E0=(total 8,M 8,N 4) gcd_E_degree=0
+    RESULTANT_SUMMARY raw_degree_M=32 boundary_degree=16 boundary_factor_degrees=[ <2, 8> ] saturated_degree=16 affine_factor_degrees=[ <4, 1>, <4, 1>, <8, 1> ]
+    BOUNDARY_S4 fiber=4 p=1/3 z=1 r=-4/3 two_label=T2_extra D_label=D_minus s4=M^2 - 9/125 s4_roots_Q=[] rational_boundary_points=[] legitimate_halving=false reason=no_rational_M_on_s4=0
+      boundary_over_Qsqrt5 gcd_N_degree=3 specialized_S_degree=3 classification=discarded_boundary_fake
+    direct_Q_search_height=8 saturated_points=0 points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T2_extra D_label=D_minus factor=1 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T2_extra D_label=D_minus factor=2 degree_M=4 mult=1 factorization_degrees_Q=[ <4, 1> ] rational_M_roots=[] rational_points=[]
+    AFFINE_FACTOR fiber=4 p=1/3 z=1 r=-4/3 two_label=T2_extra D_label=D_minus factor=3 degree_M=8 mult=1 factorization_degrees_Q=[ <8, 1> ] rational_M_roots=[] rational_points=[]
+    PROJECTION_OBSTRUCTION status=no_rational_M_in_any_saturated_factor
+
+A2_24_BRANCH_CLOSURE_DONE fibers=4 translated_classes=16 affine_classes=16 affine_factors=32 affine_factors_with_Q_root=0 rational_point_classes=0 boundary_rational_classes=0 exact_divisible_classes=0 cputime=1.340

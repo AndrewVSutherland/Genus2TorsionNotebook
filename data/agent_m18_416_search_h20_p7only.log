@@ -1,0 +1,53 @@
+M_1(8,4) [4,16] p=7-boundary CRT search
+height 20 aux_primes []
+max_exact_tests 20 max_candidates 0 max_hits 10
+p7_boundary_closure boundary 41 first_closure 24 target416_closure 19 allowed_pairs 19
+p7_allowed_pairs [ <0, 0>, <0, 2>, <0, 3>, <0, 4>, <0, 5>, <1, 0>, <1, 1>, <1, 2>, <1, 3>, <1, 4>, <1, 5>, <1, 6>, <3, 0>, <3, 3>, <3, 4>, <5, 2>, <5, 5>, <6, 1>, <6, 6> ]
+p7_allowed_strata
+  Lminus&Q&Quartic&R+1&R+w&w-1 [ <6, 1, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+  Lminus&Q&Quartic&R+w&R-1&w+1 [ <1, 6, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+  Lminus&R [ <0, 2, <5, 0, 1, 5>, <5, 0, 1, 5, 0>> ]
+  Lminus&R-w [ <3, 3, <2, 6, 3, 5>, <0, 3, 2, 2, 3>>, <5, 5, <2, 6, 3, 5>, <0, 5, 0, 1, 4>> ]
+  Lplus&Q&Quartic&R+1&R-w&w+1 [ <6, 6, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+  Lplus&Q&Quartic&R-1&R-w&w-1 [ <1, 1, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+  Lplus&R [ <0, 5, <5, 0, 1, 5>, <5, 0, 1, 5, 0>> ]
+  Lplus&R+w [ <3, 4, <2, 6, 3, 5>, <0, 3, 2, 2, 3>>, <5, 2, <2, 6, 3, 5>, <0, 5, 0, 1, 4>> ]
+  Q&Quartic&R&R+w&R-w&w [ <0, 0, <0, 0, 1, 0>, <0, 0, 1, 0, 0>> ]
+  Q&w [ <3, 0, <0, 0, 2, 2>, <3, 0, 1, 3, 0>> ]
+  R [ <0, 3, <2, 0, 3, 3>, <2, 0, 3, 3, 0>>, <0, 4, <2, 0, 3, 3>, <2, 0, 3, 3, 0>> ]
+  R-1 [ <1, 2, <0, 0, 0, 0>, <0, 0, 0, 0, 0>>, <1, 3, <0, 0, 0, 0>, <0, 0, 0, 0, 0>>, <1, 4, <0, 0, 0, 0>, <0, 0, 0, 0, 0>>, <1, 5, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+  R-1&w [ <1, 0, <0, 0, 0, 0>, <0, 0, 0, 0, 0>> ]
+parameter_count 511 p7_affine_parameters 457 p7_denominator_bad_parameters 54 p7_crt_pair_budget 78376
+NOTE denominator-divisible p=7 parameters are not enumerated in this affine CRT pass.
+progress candidates_after_aux 5000 smooth 4701 first_possible 6 tangent_bases 1 exact_tests 1 first_verified 1 pr_halved 0 hits 0
+progress candidates_after_aux 10000 smooth 9627 first_possible 8 tangent_bases 1 exact_tests 1 first_verified 1 pr_halved 0 hits 0
+progress candidates_after_aux 15000 smooth 14486 first_possible 14 tangent_bases 4 exact_tests 4 first_verified 4 pr_halved 0 hits 0
+progress candidates_after_aux 20000 smooth 19381 first_possible 16 tangent_bases 5 exact_tests 5 first_verified 5 pr_halved 0 hits 0
+progress candidates_after_aux 25000 smooth 24167 first_possible 25 tangent_bases 9 exact_tests 9 first_verified 9 pr_halved 0 hits 0
+progress candidates_after_aux 30000 smooth 29074 first_possible 27 tangent_bases 9 exact_tests 9 first_verified 9 pr_halved 0 hits 0
+progress candidates_after_aux 35000 smooth 33938 first_possible 27 tangent_bases 9 exact_tests 9 first_verified 9 pr_halved 0 hits 0
+progress candidates_after_aux 40000 smooth 38870 first_possible 28 tangent_bases 9 exact_tests 9 first_verified 9 pr_halved 0 hits 0
+progress candidates_after_aux 45000 smooth 43750 first_possible 28 tangent_bases 9 exact_tests 9 first_verified 9 pr_halved 0 hits 0
+progress candidates_after_aux 50000 smooth 48617 first_possible 40 tangent_bases 17 exact_tests 17 first_verified 17 pr_halved 0 hits 0
+progress candidates_after_aux 55000 smooth 53518 first_possible 43 tangent_bases 18 exact_tests 18 first_verified 18 pr_halved 0 hits 0
+progress candidates_after_aux 60000 smooth 58419 first_possible 54 tangent_bases 18 exact_tests 18 first_verified 18 pr_halved 0 hits 0
+progress candidates_after_aux 65000 smooth 63321 first_possible 67 tangent_bases 18 exact_tests 18 first_verified 18 pr_halved 0 hits 0
+progress candidates_after_aux 70000 smooth 68218 first_possible 68 tangent_bases 19 exact_tests 19 first_verified 19 pr_halved 0 hits 0
+DONE
+height 20 aux_primes []
+candidates_after_aux 70671 family_smooth 68803 first_possible 73 tangent_bases 20 exact_tests 20 first_verified 20 pr_halved 0 torsion_tests 0 hits 0
+AUX_KILL_COUNTS
+P7_STRATUM_CANDIDATE_COUNTS
+  Lminus&Q&Quartic&R+1&R+w&w-1 745
+  Lminus&Q&Quartic&R+w&R-1&w+1 4225
+  Lminus&R 3740
+  Lminus&R-w 9248
+  Lplus&Q&Quartic&R-1&R-w&w-1 4225
+  Lplus&R 3740
+  Lplus&R+w 9248
+  Q&Quartic&R&R+w&R-w&w 3025
+  Q&w 3740
+  R 7480
+  R-1 17680
+  R-1&w 3575
+TORSION_COUNTS

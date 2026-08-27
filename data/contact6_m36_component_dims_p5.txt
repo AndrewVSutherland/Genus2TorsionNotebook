@@ -1,0 +1,7 @@
+Finite saturated component decomposition
+p 5
+generic_branch
+ dimension 2 component_degrees [ 3, 4 ]
+ degree unavailable
+
+[Interrupted]

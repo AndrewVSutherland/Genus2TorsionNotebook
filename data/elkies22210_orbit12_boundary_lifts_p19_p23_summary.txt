@@ -1,0 +1,29 @@
+ELKIES22210 ORBIT12 NORMALIZED BOUNDARY LIFTS AT P=19,23
+
+p=19:
+level 1 modulus 19 states 234; base strata 41
+level 2 modulus 361 states 13410; resolved 2166; deep 11244
+per-parent lift counts 1:15 19:192 361:27
+resolved base strata 3
+seed r=(1,248,98,3,11), chart=1
+radicands=(23,137,137,175)
+roots=(97,55,55,135) modulo 361
+valuation=(0,0,0,0); CK rank modulo 19 = 2
+r_i^2=(1,134,218,9,121)
+pair differences=(228,144,353,241,277,125,13,209,97,249)
+genuine open Q_19 branch = true
+
+p=23:
+level 1 modulus 23 states 252; base strata 33
+level 2 modulus 529 states 19128; resolved 3174; deep 15954
+per-parent lift counts 1:15 23:210 529:27
+resolved base strata 1
+seed r=(1,392,118,8,10), chart=1
+radicands=(285,331,400,262)
+roots=(49,233,20,43) modulo 529
+valuation=(0,0,0,0); CK rank modulo 23 = 2
+r_i^2=(1,254,170,64,100)
+pair differences=(276,360,466,430,84,190,154,106,70,493)
+genuine open Q_23 branch = true
+
+conclusion: all forced orbit12 primes 11,19,23 have genuine open local branches

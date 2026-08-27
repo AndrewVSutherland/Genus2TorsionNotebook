@@ -1,0 +1,63 @@
+CONTACT9 rational-root search
+height 80 params 7863 target 72 max_exact 1000
+filter_primes [ 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
+67, 71, 73, 79, 83, 89, 97 ]
+progress checked 2000 smooth 1991 marked9 1991 target_survivors 0 exact_tests 0 
+hits 0
+ROOT_SURVIVOR_NOT_TARGET s -30/19 eps 1 a -96828235/4450864 r -539/361 torsion [
+18 ]
+used [ <13, 144>, <29, 1296>, <31, 864>, <37, 1296>, <43, 1584>, <47, 2016>, 
+<53, 3456>, <59, 3600>, <61, 3888>, <67, 3888>, <71, 4464>, <73, 5400>, <79, 
+7848>, <83, 5904>, <97, 10368> ]
+ROOT_SURVIVOR_NOT_TARGET s 30/19 eps -1 a -96828235/4450864 r -539/361 torsion [
+18 ]
+used [ <13, 144>, <29, 1296>, <31, 864>, <37, 1296>, <43, 1584>, <47, 2016>, 
+<53, 3456>, <59, 3600>, <61, 3888>, <67, 3888>, <71, 4464>, <73, 5400>, <79, 
+7848>, <83, 5904>, <97, 10368> ]
+progress checked 4000 smooth 3991 marked9 3991 target_survivors 2 exact_tests 2 
+hits 0
+progress checked 6000 smooth 5991 marked9 5991 target_survivors 2 exact_tests 2 
+hits 0
+progress checked 8000 smooth 7991 marked9 7991 target_survivors 2 exact_tests 2 
+hits 0
+progress checked 10000 smooth 9991 marked9 9991 target_survivors 2 exact_tests 2
+hits 0
+progress checked 12000 smooth 11991 marked9 11991 target_survivors 2 exact_tests
+2 hits 0
+progress checked 14000 smooth 13991 marked9 13991 target_survivors 2 exact_tests
+2 hits 0
+ROOT_SURVIVOR_NOT_TARGET s -23/76 eps -1 a 16175307067/7300529676 r 5247/5776 
+torsion [ 18 ]
+used [ <13, 144>, <17, 360>, <29, 936>, <31, 1296>, <37, 1440>, <41, 1296>, <47,
+2016>, <53, 2592>, <59, 3024>, <67, 4536>, <71, 6696>, <73, 5184>, <79, 7776>, 
+<83, 7776>, <89, 8136>, <97, 9360> ]
+ROOT_SURVIVOR_NOT_TARGET s 23/76 eps 1 a 16175307067/7300529676 r 5247/5776 
+torsion [ 18 ]
+used [ <13, 144>, <17, 360>, <29, 936>, <31, 1296>, <37, 1440>, <41, 1296>, <47,
+2016>, <53, 2592>, <59, 3024>, <67, 4536>, <71, 6696>, <73, 5184>, <79, 7776>, 
+<83, 7776>, <89, 8136>, <97, 9360> ]
+DONE contact9 root search
+checked 15726 smooth 15718 marked9 15718 target_survivors 4 exact_tests 4 hits 0
+FIRST_KILL
+  11 5212
+  13 1524
+  17 3062
+  19 2082
+  23 974
+  29 778
+  31 536
+  37 350
+  41 284
+  43 398
+  47 146
+  53 182
+  59 54
+  61 52
+  67 16
+  71 26
+  73 20
+  79 10
+  89 6
+  97 2
+TORSION_COUNTS
+  [ 18 ] 4

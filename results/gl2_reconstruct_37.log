@@ -1,0 +1,12 @@
+PIECE 22
+TYPE [ 1, 1, 90354, 90354 ] dd=90354
+EIS_KERNEL_MOD37_DIM 2
+PRIME 2^1: 1 star-stable isotropics
+PRIME 3^1: 2 star-stable isotropics
+PRIME 11^1: 2 star-stable isotropics
+PRIME 37^2: 3 star-stable isotropics
+STAR_STABLE_COMBINATIONS 12
+PERIOD_TERMS 40229
+PERIODS ok
+RECONSTRUCTED 12 principal candidates, 0 rational curves
+GL2_RECONSTRUCT_DONE

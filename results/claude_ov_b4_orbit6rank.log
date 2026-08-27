@@ -1,0 +1,17 @@
+H : y^2 = x^6 + 228*x^5 + 21636*x^4 + 1093832*x^3 + 31073760*x^2 + 470323328*x + 2963206912
+genus 2  disc [ <2, 42>, <19, 1>, <23, 3> ]
+REDUCED MODEL: Hyperelliptic Curve defined by y^2 = x^6 + 6*x^5 - 9*x^4 - 36*x^3 + 87*x^2 - 322*x + 529 over Rational Field
+REDUCED MINIMAL WEIERSTRASS MODEL: Hyperelliptic Curve defined by y^2 = x^6 + 6*x^5 + 9*x^4 + x^3 - 8*x + 4 over Rational Field
+  disc [ <2, 12>, <19, 1>, <23, 3> ]
+Points(bound 10^5) on the reduced model: 8 -> {@ (1 : -1 : 0), (1 : 1 : 0), (0 : -2 : 1), (0 : 2 : 1), (-1 : -23 : 2), (-1 : 23 : 2), (-3 : -1 : 1), (-3 : 1 : 1) @}
+TwoTorsionSubgroup invariants: []
+TorsionSubgroup: []
+RankBounds (default): [2, 2]
+RankBound: 2
+Points(J : Bound := 3000): 161
+points of infinite order: 160
+ReducedBasis size (= rank lower bound): 2
+  BASIS (x^2 + 1/2*x, -7/4*x + 2, 2)   height 0.12377784067335160043293038703302
+  BASIS (x^2 + 5/2*x - 2, -1/4*x - 1, 2)   height 0.14942519189419447992050728019154
+RANK >= 2 (= genus): classical Chabauty does NOT apply.
+ORBIT6RANK_DONE

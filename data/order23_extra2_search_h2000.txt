@@ -1,0 +1,9 @@
+Kuru-Sadek [23] extra-2 search
+height 2000
+allowed_t_sizes {7: 5, 11: 11, 13: 11, 17: 13, 19: 13, 23: 9, 29: 27, 31: 29, 37: 31, 41: 31, 43: 27, 47: 31, 53: 33, 59: 39, 61: 37, 67: 47, 71: 51, 73: 45, 79: 57, 83: 65, 89: 63, 97: 67}
+checked 4866348
+survivors 3704
+factored 3704
+singular 0
+hits 0
+DONE

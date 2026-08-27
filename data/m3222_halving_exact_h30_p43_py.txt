@@ -1,0 +1,9 @@
+Exact M_1(8,2,2) halving candidate-file test
+candidate_file data/m3222_halving_candidates_h30_p43_py.txt max_exact 1000000
+DONE
+rows 9425
+curve_ok 318
+exact 318
+order8 318
+divisible 0
+hits 0

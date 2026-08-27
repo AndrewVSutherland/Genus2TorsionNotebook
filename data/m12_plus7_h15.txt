@@ -1,0 +1,5 @@
+SEARCH M(12) plus 7
+height 15 filter_primes [ 3, 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 
+59, 61 ]
+DONE m12_plus7 height 15 checked 81510 smooth 80940 split_T 80940 
+seven_survivors 0 torsion_tests 0 hits 0

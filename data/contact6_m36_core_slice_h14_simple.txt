@@ -1,0 +1,39 @@
+Contact-6 core slice search
+height 14 parameter_count 255 simple_only true
+progress 2000 slice_solutions 4 verified 0 hits 0
+progress 4000 slice_solutions 504 verified 0 hits 0
+progress 6000 slice_solutions 506 verified 0 hits 0
+progress 8000 slice_solutions 506 verified 0 hits 0
+progress 10000 slice_solutions 514 verified 0 hits 0
+progress 12000 slice_solutions 514 verified 0 hits 0
+progress 14000 slice_solutions 518 verified 0 hits 0
+progress 16000 slice_solutions 518 verified 0 hits 0
+progress 18000 slice_solutions 518 verified 0 hits 0
+progress 20000 slice_solutions 518 verified 0 hits 0
+progress 22000 slice_solutions 518 verified 0 hits 0
+progress 24000 slice_solutions 518 verified 0 hits 0
+progress 26000 slice_solutions 518 verified 0 hits 0
+progress 28000 slice_solutions 522 verified 0 hits 0
+progress 30000 slice_solutions 526 verified 0 hits 0
+progress 32000 slice_solutions 526 verified 0 hits 0
+progress 34000 slice_solutions 530 verified 0 hits 0
+progress 36000 slice_solutions 534 verified 0 hits 0
+progress 38000 slice_solutions 538 verified 0 hits 0
+progress 40000 slice_solutions 538 verified 0 hits 0
+progress 42000 slice_solutions 542 verified 0 hits 0
+progress 44000 slice_solutions 542 verified 0 hits 0
+progress 46000 slice_solutions 542 verified 0 hits 0
+progress 48000 slice_solutions 542 verified 0 hits 0
+progress 50000 slice_solutions 542 verified 0 hits 0
+progress 52000 slice_solutions 542 verified 0 hits 0
+progress 54000 slice_solutions 542 verified 0 hits 0
+progress 56000 slice_solutions 542 verified 0 hits 0
+HIT66 a 133/39 b -7/13 L 29/16 U -9/4 v 5/2 invs [ 6, 6 ]
+simple true pcert 23
+ f 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+Done
+checked_slices 56456
+slice_solutions 544
+verified 1
+hits 1
+H <133/39, -7/13, 29/16, -9/4, 5/2, [ 6, 6 ], 6, 3, true, 23, 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x>

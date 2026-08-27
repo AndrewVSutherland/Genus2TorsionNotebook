@@ -1,0 +1,4 @@
+raw_dim 1
+q1_dim 1
+q2_dim 0
+degree 40 gb 18

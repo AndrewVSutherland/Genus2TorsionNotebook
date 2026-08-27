@@ -1,0 +1,53 @@
+M(2,12)+independent 3 residue-table search
+height 30 prime_bound 43 primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+max_exact 200
+prime 5 allowed_rank_ge2 0 bad 19 rank_counts [ <1, 6> ]
+prime 7 allowed_rank_ge2 2 bad 31 rank_counts [ <1, 16>, <2, 2> ]
+prime 11 allowed_rank_ge2 6 bad 51 rank_counts [ <1, 64>, <2, 6> ]
+prime 13 allowed_rank_ge2 32 bad 59 rank_counts [ <1, 78>, <2, 30>, <3, 2> ]
+prime 17 allowed_rank_ge2 20 bad 91 rank_counts [ <1, 178>, <2, 20> ]
+prime 19 allowed_rank_ge2 84 bad 101 rank_counts [ <1, 176>, <2, 82>, <3, 2> ]
+prime 23 allowed_rank_ge2 60 bad 125 rank_counts [ <1, 344>, <2, 60> ]
+prime 29 allowed_rank_ge2 80 bad 161 rank_counts [ <1, 600>, <2, 80> ]
+prime 31 allowed_rank_ge2 234 bad 171 rank_counts [ <1, 556>, <2, 212>, <3, 22> ]
+prime 37 allowed_rank_ge2 358 bad 203 rank_counts [ <1, 808>, <2, 320>, <3, 36>, <4, 2> ]
+prime 41 allowed_rank_ge2 188 bad 231 rank_counts [ <1, 1262>, <2, 188> ]
+prime 43 allowed_rank_ge2 502 bad 249 rank_counts [ <1, 1098>, <2, 476>, <3, 24>, <4, 2> ]
+SURVIVOR z -5/3 r -3/5 a -10/9 bad_primes [ 5, 17 ]
+EXACT z -5/3 r -3/5 a -10/9 torsion [ 3, 12 ]
+order 36 three_rank 2
+EXTRA3_HIT z -5/3 r -3/5 a -10/9 torsion [ 3, 12 ]
+W -882773437500*x^6 - 1281445312500*x^5 - 458757421875*x^4 - 156848906250*x^3 + 63662203125*x^2 - 19929037500*x + 11957422500
+SURVIVOR z -29/4 r 23/14 a -5775/1184 bad_primes [ 5, 7, 11, 23, 29, 37 ]
+EXACT z -29/4 r 23/14 a -5775/1184 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -23/5 r -17/6 a 756/275 bad_primes [ 5, 7, 11, 17, 23 ]
+EXACT z -23/5 r -17/6 a 756/275 torsion [ 12 ]
+order 12 three_rank 1
+progress 500000 smooth 495770 residue_survivors 3 exact 3 hits 1
+SURVIVOR z -17/14 r 19/11 a -341/7840 bad_primes [ 5, 7, 11, 17, 19, 29, 31 ]
+EXACT z -17/14 r 19/11 a -341/7840 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -26/15 r 13/18 a -451/1550 bad_primes [ 5, 7, 11, 13, 17, 31, 41 ]
+EXACT z -26/15 r 13/18 a -451/1550 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -11/17 r -12/25 a 1050/3757 bad_primes [ 5, 7, 11, 13, 17, 23 ]
+EXACT z -11/17 r -12/25 a 1050/3757 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -11/19 r 26/29 a 348/3971 bad_primes [ 5, 7, 11, 13, 19, 29 ]
+EXACT z -11/19 r 26/29 a 348/3971 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -1/21 r -1/30 a 1100/4263 bad_primes [ 5, 7, 11, 17, 29, 41 ]
+EXACT z -1/21 r -1/30 a 1100/4263 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -29/22 r 23/5 a -255/7744 bad_primes [ 5, 7, 11, 17, 19, 23, 29 ]
+EXACT z -29/22 r 23/5 a -255/7744 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -30/23 r -7/29 a -10759/46552 bad_primes [ 5, 7, 11, 23, 29 ]
+EXACT z -30/23 r -7/29 a -10759/46552 torsion [ 12 ]
+order 12 three_rank 1
+SURVIVOR z -6/23 r 10/11 a 5423/44436 bad_primes [ 5, 7, 11, 17, 23, 29, 31 ]
+EXACT z -6/23 r 10/11 a 5423/44436 torsion [ 12 ]
+order 12 three_rank 1
+
+[Interrupted]

@@ -1,0 +1,9 @@
+slice (t,2,3), fibers t = 5,7,9,11,13:
+  t=5 torsion [ 2, 10 ] strict p=37
+  t=7 torsion [ 2, 10 ] strict p=11
+  t=9 torsion [ 2, 10 ] strict p=29
+  t=11 torsion [ 2, 10 ] strict p=13
+  t=13 torsion [ 2, 10 ] strict p=17
+distinct G2-invariants among fibers: 5 of 5
+exact+strict fibers: 5
+ROUND6B_DONE

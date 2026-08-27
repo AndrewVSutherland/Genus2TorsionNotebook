@@ -1,0 +1,31 @@
+SEED 19044.h.2 [RM sqrt5]
+  rational roots: 1/2, 0
+  chart model: y^2 = c*x*(x-1)*q1*q2 with
+  c  = 1/16
+  q1 = x^2 - 3*x + 8
+  q2 = x^2 + 4*x + 27
+  chart torsion: [ 2, 22 ]
+  order-22 generator (Mumford, on y^2 = 16*x^6 + 352*x^4 - 1152*x^3 + 4240*x^2 - 3456*x):
+    u22 = x - 3
+    v22 = -4*x^3 - 84
+  order-11 class:
+    u11 = x^2 - 3*x
+    v11 = 64*x
+  checks: 22*g22 = 0: true, 11*g22 <> 0: true
+
+SEED BLP C4corr [RM sqrt5]
+  rational roots: 9, -21
+  chart model: y^2 = c*x*(x-1)*q1*q2 with
+  c  = 729000000
+  q1 = x^2 - 34/15*x + 32/45
+  q2 = x^2 + 31/15*x - 2/9
+  chart torsion: [ 2, 22 ]
+  order-22 generator (Mumford, on y^2 = 729000000*x^6 - 874800000*x^5 - 2912760000*x^4 + 4497120000*x^3 - 1553760000*x^2 + 115200000*x):
+    u22 = x^2 + 11/3*x - 2/9
+    v22 = 350400*x - 22400
+  order-11 class:
+    u11 = x^2 - 3/5*x + 2/15
+    v11 = -33600*x + 9600
+  checks: 22*g22 = 0: true, 11*g22 <> 0: true
+
+ALL_DONE

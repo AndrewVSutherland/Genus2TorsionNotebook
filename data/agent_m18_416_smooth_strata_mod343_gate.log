@@ -1,0 +1,17 @@
+M18_416_SMOOTH_STRATA_MOD343_GATE kercap=3 output=data/agent_m18_416_smooth_strata_mod343_gate.txt
+strata=[
+[ 3, 3 ],
+[ 3, 4 ],
+[ 4, 0 ],
+[ 5, 0 ],
+[ 5, 2 ],
+[ 5, 5 ]
+] NParts=1 Part=0
+stratum <3,3>: aux7=6 survive=766 capped=0 killed=1635 total=2401
+stratum <3,4>: aux7=6 survive=766 capped=0 killed=1635 total=2401
+stratum <4,0>: aux7=6 survive=833 capped=0 killed=1568 total=2401
+stratum <5,0>: aux7=6 survive=1715 capped=0 killed=686 total=2401
+stratum <5,2>: aux7=6 survive=806 capped=0 killed=1595 total=2401
+stratum <5,5>: aux7=6 survive=806 capped=0 killed=1595 total=2401
+DONE survive=5692 capped=0 killed=8714
+Wrote data/agent_m18_416_smooth_strata_mod343_gate.txt

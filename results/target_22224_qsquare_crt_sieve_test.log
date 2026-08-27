@@ -1,0 +1,10 @@
+TARGET_22224_QSQUARE_CRT_SIEVE_START
+CONFIG PrimeList [ 29 ]
+output_stem results/target_22224_qsquare_crt_sieve_test
+FINITE_EXHAUSTIVE 29 scope A*B*rho*sigma*disc*CRTdet*s4 != 0 torus_AB_pairs 784 double_square_AB_pairs 280 rho_zero_pairs 4 sigma_zero_pairs 4 sheet_boundary_AB_pairs 4 affine_slice_sheet_points 1104 collision_sheet_points 720 smooth_slice_sheet_points 384 open_marked_presentations 1152 CRT_chart_failures 0 contact_failures 0
+FINITE_ORDERS 29 tests 1152 order12 1152 other 0 unique_marked_classes 64
+FINITE_TARGETS 29 target_AB_pairs 12 target_slice_points 24 target_presentations 72 unique_target_marked 4 target_halves 720 unique_halves 40 verified_halves 720 relative_rank_counts [ 0, 0, 720 ]
+halving_boundary_points 0
+FINITE_FILES 29 results/target_22224_qsquare_crt_sieve_test_p29_points.tsv results/target_22224_qsquare_crt_sieve_test_p29_boundary.tsv results/target_22224_qsquare_crt_sieve_test_p29_masks.tsv
+FINITE_PROJECTIVE_SCOPE 29 A=0, B=0, A=infinity, B=infinity, rho=0, sigma=0, and s4=0 are boundary strata, not affine obstructions
+TARGET_22224_QSQUARE_CRT_SIEVE_DONE

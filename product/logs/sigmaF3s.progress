@@ -1,0 +1,8 @@
+sigF3s FIB 209/1162 u=-6/11 cert=0 openB=0 openM=0 0s
+sigF3s FIB 210/1162 u=-5/11 cert=1 openB=0 openM=0 5945s
+sigF3s FIB 211/1162 u=12/7 cert=2 openB=0 openM=0 5945s
+sigF3s FIB 212/1162 u=12/11 cert=3 openB=0 openM=0 5946s
+sigF3s FIB 213/1162 u=-5/12 cert=4 openB=0 openM=0 5946s
+sigF3s FIB 214/1162 u=12/5 cert=4 openB=1 openM=0 5949s
+sigF3s FIB 215/1162 u=-12/5 cert=5 openB=1 openM=0 5949s
+sigF3s FIB 216/1162 u=5/12 cert=6 openB=1 openM=0 5950s

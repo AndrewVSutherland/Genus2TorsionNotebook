@@ -1,0 +1,60 @@
+Loading "code/m2248_sieve.m"
+M2248 D+F0 simultaneous pair-fiber diagnostic
+dn_height 8 seed_height 6 slope_height 8 dn_params 87 seed_params 47 
+slope_params 87
+HPL_PAIR_FIBER F1 F2 degree 4 squarefree_degree 4 genus 1
+HPL_PAIR_FIBER F1 F4 degree 4 squarefree_degree 4 genus 1
+HPL_PAIR_FIBER F2 F4 degree 4 squarefree_degree 4 genus 1
+PAIR_START F1 F2
+PAIR_C_SQUARE F1 F2 d -3 n -4 q0 -1 slope -5 q 1 rho 7/3 sigma 7/2 tau 2/3 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3 n 6 q0 -1 slope 0 q 1 rho -31/11 sigma -31/4 tau 4/11 
+tuple_height 33 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3/2 n -5/2 q0 -1 slope 0 q 1 rho 1/6 sigma 1/8 tau 4/3 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3/2 n -5/6 q0 -1 slope 0 q 1 rho 19/14 sigma 19/8 tau 4/7
+tuple_height 21 3 genus 1
+PAIR_C_SQUARE F1 F2 d -5/3 n 6 q0 -1 slope 0 q 1 rho -25/17 sigma -5/2 tau 10/17
+tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -1/3 n 4/5 q0 -1 slope 0 q 1 rho 3/7 sigma 3/2 tau 2/7 
+tuple_height 9 3 genus 1
+PAIR_C_SQUARE F1 F2 d -1/3 n 6/5 q0 -1 slope 0 q 1 rho -11/31 sigma 11/4 tau 
+-4/31 tuple_height 33 3 genus 1
+PAIR_C_SQUARE F1 F2 d -3/5 n 6/5 q0 -1 slope 0 q 1 rho -17/25 sigma 17/10 tau 
+-2/5 tuple_height 25 1 genus 1
+PAIR_C_SQUARE F1 F2 d -3/7 n 5/7 q0 -1 slope 0 q 1 rho 11/21 sigma 11/7 tau 1/3 
+tuple_height 21 1 genus 1
+PAIR_DONE F1 F2
+dn_checked 7396
+valid_surface 6994
+seed_dns 202
+seeds 202
+DEGREE_COUNT F1 F2 3 2
+DEGREE_COUNT F1 F2 4 200
+GENUS_COUNT F1 F2 1 202
+pair_slope_points 42
+c_square_unique 9
+all_cover_square 0
+PAIR_START F1 F4
+PAIR_DONE F1 F4
+dn_checked 7396
+valid_surface 6994
+seed_dns 202
+seeds 202
+DEGREE_COUNT F1 F4 4 202
+GENUS_COUNT F1 F4 1 202
+pair_slope_points 42
+c_square_unique 0
+all_cover_square 0
+PAIR_START F2 F4
+PAIR_DONE F2 F4
+dn_checked 7396
+valid_surface 6994
+seed_dns 190
+seeds 190
+DEGREE_COUNT F2 F4 4 190
+GENUS_COUNT F2 F4 1 190
+pair_slope_points 26
+c_square_unique 0
+all_cover_square 0
+DONE

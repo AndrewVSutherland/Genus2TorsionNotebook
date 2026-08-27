@@ -1,0 +1,26 @@
+Time: 0.330
+SEED torsion=[ 2, 2, 2, 12 ] order=96
+DIV2 class 8 of 15 halves
+DIVAUDIT ord12=32 div=0 | ord2=15 div=1 | ord4=16 div=0
+VERTEX S depth=0 inv=[ 2, 2, 2, 12 ]
+VERTEX S.1 depth=1 inv=[ 2, 12 ]
+VERTEX S.2 depth=1 inv=[ 2, 2, 6 ]
+VERTEX S.3 depth=1 inv=[ 2, 12 ]
+VERTEX S.4 depth=1 inv=[ 2, 12 ]
+VERTEX S.5 depth=1 inv=[ 2, 12 ]
+VERTEX S.6 depth=1 inv=[ 2, 2, 6 ]
+VERTEX S.7 depth=1 inv=[ 2, 12 ]
+VERTEX S.8 depth=1 inv=[ 2, 12 ]
+VERTEX S.9 depth=1 inv=[ 2, 12 ]
+VERTEX S.10 depth=1 inv=[ 2, 2, 6 ]
+VERTEX S.11 depth=1 inv=[ 2, 12 ]
+VERTEX S.12 depth=1 inv=[ 2, 12 ]
+VERTEX S.13 depth=1 inv=[ 2, 12 ]
+VERTEX S.14 depth=1 inv=[ 2, 12 ]
+VERTEX S.15 depth=1 inv=[ 2, 12 ]
+VERTEX S.2.2 depth=2 inv=[ 2, 2, 6 ]
+VERTEX S.2.3 depth=2 inv=[ 2, 2, 6 ]
+COMPONENT_DONE vertices=18 depth=3 inventory:
+  1 x [ 2, 2, 2, 12 ]
+  5 x [ 2, 2, 6 ]
+  12 x [ 2, 12 ]

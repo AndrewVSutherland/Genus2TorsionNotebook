@@ -1,0 +1,10 @@
+Loading "split_lab.m"
+PROGRESS fiberB N=12 200 fibers 59 tested 0 surv 1.170 s
+PROGRESS fiberB N=12 400 fibers 71 tested 0 surv 2.320 s
+PROGRESS fiberB N=12 600 fibers 71 tested 0 surv 3.530 s
+FIBERJOIN2 N=12 fibers=796 beta-tested=71 survivors=0
+PROGRESS fiberB N=10 200 fibers 69 tested 0 surv 5.820 s
+PROGRESS fiberB N=10 400 fibers 84 tested 0 surv 6.860 s
+PROGRESS fiberB N=10 600 fibers 85 tested 0 surv 7.960 s
+FIBERJOIN2 N=10 fibers=796 beta-tested=85 survivors=0
+SEARCH_DONE 1212fiber2 curves=0 aborts=0 known=0 hits=0 fails=0 9.120 s

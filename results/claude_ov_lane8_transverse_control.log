@@ -1,0 +1,9 @@
+########## STAGE 0 : positive control -- charts that DO carry a marked class
+  p= 11  contact-7: 7|#J at 103/103 = 1.0000   contact-9: 9|#J at 9/9 = 1.0000
+  p= 13  contact-7: 7|#J at 148/148 = 1.0000   contact-9: 9|#J at 11/11 = 1.0000
+  p= 17  contact-7: 7|#J at 257/257 = 1.0000   contact-9: 9|#J at 15/15 = 1.0000
+  p= 19  contact-7: 7|#J at 327/327 = 1.0000   contact-9: 9|#J at 16/16 = 1.0000
+  p= 23  contact-7: 7|#J at 485/485 = 1.0000   contact-9: 9|#J at 20/20 = 1.0000
+  p= 29  contact-7: 7|#J at 790/790 = 1.0000   contact-9: 9|#J at 24/24 = 1.0000
+  => a line inside the torsion locus gives density EXACTLY 1; the test has power.
+

@@ -1,0 +1,29 @@
+REPEATED_RANK2_MWSIEVE_START X1 pair <1, 3> remaining 2 N 1001 fixed [ -49, -21, 81 ]
+d0 6069/121 known_t 143/17 E Elliptic Curve defined by y^2 = x^3 + x^2 + 3884*x + 43934 over Rational Field
+rank_bounds 2 2 generators [ (-11 : 0 : 1), (5 : 252 : 1), (665 : 17238 : 1) ]
+torsion [ 2 ]
+direct_boundary_masks 13 15
+PRIME_PROFILE X1 p 11 orders 8 8 total 128 third_fail 0 open_no3 0 open_3 0 boundary 128 finite_direct_boundary 16 infinity 112 allowed 128 lattice_before 8024018 lattice_after 8024018
+PRIORITY_CLASSES X1 p 11 boundary_count 128 open3_count 0 boundary []
+PRIME_SKIP 13 E_bad_reduction
+PRIME_PROFILE X1 p 17 orders 6 2 total 24 third_fail 0 open_no3 0 open_3 0 boundary 24 finite_direct_boundary 2 infinity 22 allowed 24 lattice_before 8024018 lattice_after 8024018
+PRIME_PROFILE X1 p 19 orders 3 4 total 24 third_fail 8 open_no3 14 open_3 0 boundary 2 finite_direct_boundary 0 infinity 2 allowed 2 lattice_before 8024018 lattice_after 668334
+PRIME_SKIP 23 map_reduction
+PRIME_PROFILE X1 p 29 orders 18 9 total 324 third_fail 126 open_no3 72 open_3 72 boundary 54 finite_direct_boundary 36 infinity 18 allowed 126 lattice_before 668334 lattice_after 259907
+PRIME_PROFILE X1 p 31 orders 3 9 total 54 third_fail 27 open_no3 12 open_3 12 boundary 3 finite_direct_boundary 0 infinity 3 allowed 15 lattice_before 259907 lattice_after 67987
+PRIME_PROFILE X1 p 37 orders 18 18 total 648 third_fail 72 open_no3 144 open_3 396 boundary 36 finite_direct_boundary 0 infinity 36 allowed 432 lattice_before 67987 lattice_after 6105
+PRIME_PROFILE X1 p 41 orders 10 10 total 200 third_fail 60 open_no3 0 open_3 70 boundary 70 finite_direct_boundary 60 infinity 10 allowed 140 lattice_before 6105 lattice_after 4884
+PRIME_PROFILE X1 p 43 orders 24 12 total 576 third_fail 168 open_no3 192 open_3 192 boundary 24 finite_direct_boundary 0 infinity 24 allowed 216 lattice_before 4884 lattice_after 3652
+PRIME_PROFILE X1 p 47 orders 7 4 total 56 third_fail 24 open_no3 8 open_3 22 boundary 2 finite_direct_boundary 0 infinity 2 allowed 24 lattice_before 3652 lattice_after 1540
+PRIME_PROFILE X1 p 53 orders 22 11 total 484 third_fail 264 open_no3 66 open_3 88 boundary 66 finite_direct_boundary 0 infinity 66 allowed 154 lattice_before 1540 lattice_after 560
+PRIME_PROFILE X1 p 59 orders 7 28 total 392 third_fail 168 open_no3 154 open_3 56 boundary 14 finite_direct_boundary 0 infinity 14 allowed 70 lattice_before 560 lattice_after 157
+PRIME_PROFILE X1 p 61 orders 19 38 total 1444 third_fail 570 open_no3 456 open_3 304 boundary 114 finite_direct_boundary 0 infinity 114 allowed 418 lattice_before 157 lattice_after 53
+PRIME_PROFILE X1 p 67 orders 6 14 total 168 third_fail 44 open_no3 64 open_3 48 boundary 12 finite_direct_boundary 8 infinity 4 allowed 60 lattice_before 53 lattice_after 32
+PRIME_PROFILE X1 p 71 orders 7 42 total 588 third_fail 266 open_no3 224 open_3 0 boundary 98 finite_direct_boundary 84 infinity 14 allowed 98 lattice_before 32 lattice_after 14
+PRIME_PROFILE X1 p 73 orders 20 20 total 800 third_fail 480 open_no3 220 open_3 80 boundary 20 finite_direct_boundary 0 infinity 20 allowed 100 lattice_before 14 lattice_after 2
+PRIME_PROFILE X1 p 79 orders 22 44 total 1936 third_fail 880 open_no3 352 open_3 660 boundary 44 finite_direct_boundary 0 infinity 44 allowed 704 lattice_before 2 lattice_after 1
+PRIME_PROFILE X1 p 83 orders 21 42 total 1764 third_fail 672 open_no3 504 open_3 462 boundary 126 finite_direct_boundary 84 infinity 42 allowed 588 lattice_before 1 lattice_after 1
+PRIME_PROFILE X1 p 89 orders 26 26 total 1352 third_fail 624 open_no3 208 open_3 312 boundary 208 finite_direct_boundary 182 infinity 26 allowed 520 lattice_before 1 lattice_after 1
+PRIME_PROFILE X1 p 97 orders 6 24 total 288 third_fail 138 open_no3 96 open_3 48 boundary 6 finite_direct_boundary 0 infinity 6 allowed 54 lattice_before 1 lattice_after 1
+REPEATED_RANK2_MWSIEVE_DONE X1 N 1001 used_primes [ 11, 17, 19, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+lattice_survivors 1 distinct_exact_t 1 deferred 0 exact_full 0 three_hits 0 output results/target_22224_X1_rank2_mwsieve_13_N1001.tsv modular_file results/target_22224_X1_rank2_mwsieve_13_N1001_modular.tsv

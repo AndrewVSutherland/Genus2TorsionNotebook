@@ -1,0 +1,38 @@
+ELKIES22210 ORBIT-12 KNOWN-SEED FIBER MW SIEVE
+date 2026-07-11
+command magma -b coefficient_bound:=500 code/elkies22210_orbit12_seed_fiber_mw_sieve.m
+
+s = 59/49
+rank_bounds = 2 2
+MW_invariants = 4 0 0
+fixed_basis_change_determinant = 1
+
+basis
+  P1 = (864/1225,182088/42875)
+  P2 = (-944/441,-367688/64827)
+  T  = (0,12744/2401), order 4
+known_seed_coordinates = (-1,1,0)
+
+coefficient_box = -500 <= n1,n2 <= 500, 0 <= k < 4
+MW_elements_covered = 4008004
+good_split-sieve_primes =
+  11 13 17 19 23 29 31 37 41 43 47 53 61 67 71 73 79 83
+  89 97 101 103 107 109 113 127 131 137 139 149 151 157 163
+  167 173 179 181 191 193 197 199
+
+modular_sieve_survivors = 6
+surviving_coefficient_tuples =
+  (-1,1,0) (1,-1,0) (0,0,0) (0,0,1) (0,0,2) (0,0,3)
+distinct_finite_exact_q = 2
+exact_cubics_split_completely = 2
+smooth_split_lifts = 1
+max_exact_square_mask_weight = 1
+full_hits = 0
+
+The finite split values are q=59/49 (boundary) and q=8/7 (the known
+smooth seed).  The seed has complementary roots -1/7,-5/7,-9/7 and
+literal square mask true,false,false,false.
+
+The sieve is necessary-only and retains indeterminate reductions, so it
+cannot discard a cubic split over Q.  The basis determinant certificate
+shows that the stated box is a box in a full Mordell--Weil basis.

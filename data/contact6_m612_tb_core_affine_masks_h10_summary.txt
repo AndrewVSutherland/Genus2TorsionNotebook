@@ -1,0 +1,51 @@
+CONTACT6_M612_TB_CORE_AFFINE_MASKS
+
+The finite enumeration imposes the exact TB-halving and cubic-contact
+equations with K=m^2 and M=L^2 on the good affine chart.  It requires all
+recovery/open factors to be nonzero.  Consequently these are exact affine
+priority masks, not projective exclusion masks: every failed residue remains
+boundary-deferred.
+
+Additional masks:
+
+  p=13: half records  72, allowed (s,v) 33 / 169
+  p=17: half records 154, allowed (s,v) 12 / 289
+  p=19: half records 204, allowed (s,v) 49 / 361
+  p=23: half records 320, allowed (s,v) 66 / 529
+
+Combining these with the fiberwise-saturated p=5,7,11 priority masks, while
+retaining every rational base parameter whose denominator is divisible by
+the current prime, gives the following progressive counts.
+
+Height 6 (2116 nonzero slices):
+
+  after p=5:  1040
+  after p=7:    98
+  after p=11:    7
+  after p=13:    2
+  after p=17:    0
+
+The seven p<=11 priority slices were also solved exactly over Q.  All seven
+slice ideals were zero-dimensional and none had a rational point:
+
+  checked 7, rational_points 0, both_squares 0, hits 0,
+  seconds 8.670.
+
+Height 10 (15876 nonzero slices):
+
+  after p=5:  7008
+  after p=7:  2471
+  after p=11:  311
+  after p=13:   59
+  after p=17:    4
+  after p=19:    0
+
+Thus no height-10 slice has good affine reduction in every displayed mask;
+there is no surviving open slice to send to the rational solver.  This does
+not exclude a rational target: all 15876 slices are still deferred to at
+least one denominator/infinity/saturation/bad-reduction chart until the
+relative projective closure is available.
+
+Reproducibility:
+  code/contact6_m612_tb_core_affine_masks.py
+  code/contact6_m612_tb_core_sv_search.m (use_projective_masks:=true)

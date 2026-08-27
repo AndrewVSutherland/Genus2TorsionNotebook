@@ -1,0 +1,51 @@
+
+== si=2 sigma=[ 2, 1, 3 ] deck section t=(u + 15)/(u - 1) ==
+base s0=2*u - 18 Y0=8*u^3 - 88*u^2 + 24*u + 1080
+section orders: P1 0, P2 0
+(a,b)=(0,1): DEGENERATE deck family t(u)=(u + 15)/(u - 1)
+(a,b)=(0,2): condition curve genus 7, deg 16, pts(1000)=8
+(a,b)=(1,2): condition curve genus 23, deg 48, pts(1000)=8
+(a,b)=(2,2): condition curve genus 47, deg 96, pts(1000)=8
+(a,b)=(3,2): condition curve genus 79, deg 160, pts(1000)=0
+(a,b)=(4,2): condition curve genus 119, deg 240, pts(1000)=8
+
+== si=3 sigma=[ 3, 2, 1 ] deck section t=-u + 6 ==
+base s0=2*u - 6 Y0=4*u^3 - 52*u^2 + 156*u - 108
+section orders: P1 0, P2 0
+(a,b)=(0,1): DEGENERATE deck family t(u)=-u + 6
+(a,b)=(0,2): condition curve genus 7, deg 16, pts(1000)=8
+(a,b)=(1,2): condition curve genus 23, deg 48, pts(1000)=8
+(a,b)=(2,2): condition curve genus 47, deg 96, pts(1000)=8
+(a,b)=(3,2): condition curve genus 79, deg 160, pts(1000)=12
+(a,b)=(4,2): condition curve genus 119, deg 240, pts(1000)=8
+
+== si=4 sigma=[ 1, 3, 2 ] deck section t=(5*u - 9)/(u - 5) ==
+base s0=2*u + 6 Y0=32*u^2 - 288
+section orders: P1 0, P2 0
+(a,b)=(0,1): DEGENERATE deck family t(u)=(5*u - 9)/(u - 5)
+(a,b)=(0,2): condition curve genus 7, deg 16, pts(1000)=8
+(a,b)=(1,2): condition curve genus 23, deg 48, pts(1000)=8
+(a,b)=(2,2): condition curve genus 47, deg 96, pts(1000)=8
+(a,b)=(3,2): condition curve genus 79, deg 160, pts(1000)=12
+(a,b)=(4,2): condition curve genus 119, deg 240, pts(1000)=8
+
+== si=5 sigma=[ 2, 3, 1 ] deck section t=(u - 21)/(u - 5) ==
+base s0=2*u + 6 Y0=8*u^3 - 56*u^2 - 168*u + 216
+section orders: P1 0, P2 0
+(a,b)=(0,1): DEGENERATE deck family t(u)=(u - 21)/(u - 5)
+(a,b)=(0,2): condition curve genus 7, deg 16, pts(1000)=8
+(a,b)=(1,2): condition curve genus 23, deg 48, pts(1000)=8
+(a,b)=(2,2): condition curve genus 47, deg 96, pts(1000)=8
+(a,b)=(3,2): condition curve genus 79, deg 160, pts(1000)=0
+(a,b)=(4,2): condition curve genus 119, deg 240, pts(1000)=8
+
+== si=6 sigma=[ 3, 1, 2 ] deck section t=(5*u - 21)/(u - 1) ==
+base s0=2*u - 18 Y0=32*u^2 - 384*u + 864
+section orders: P1 0, P2 0
+(a,b)=(0,1): DEGENERATE deck family t(u)=(5*u - 21)/(u - 1)
+(a,b)=(0,2): condition curve genus 7, deg 16, pts(1000)=8
+(a,b)=(1,2): condition curve genus 23, deg 48, pts(1000)=8
+(a,b)=(2,2): condition curve genus 47, deg 96, pts(1000)=8
+(a,b)=(3,2): condition curve genus 79, deg 160, pts(1000)=12
+(a,b)=(4,2): condition curve genus 119, deg 240, pts(1000)=8
+SIGMA_SECTIONS_DONE

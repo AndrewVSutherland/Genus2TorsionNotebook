@@ -1,0 +1,20 @@
+REPEATED_FAMILY_LOCAL_AUDIT_START families 52 primes [ 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+FAMILY_NOT_KILLED F1 usable_primes 32 known_T 5
+FAMILY_DEAD F4 p 47 finite_cover 4 finite_smooth 4 infinity_full false
+FAMILY_NOT_KILLED F6 usable_primes 32 known_T 2
+FAMILY_NOT_KILLED N3 usable_primes 32 known_T 37/17
+FAMILY_NOT_KILLED N4 usable_primes 32 known_T 5/2
+FAMILY_DEAD N10 p 73 finite_cover 8 finite_smooth 8 infinity_full false
+FAMILY_NOT_KILLED N11 usable_primes 32 known_T 1/13
+FAMILY_NOT_KILLED O4 usable_primes 32 known_T 1/2
+FAMILY_NOT_KILLED O9 usable_primes 32 known_T 15
+FAMILY_NOT_KILLED R3 usable_primes 32 known_T 53/13
+FAMILY_NOT_KILLED R7 usable_primes 31 known_T 65/37
+FAMILY_DEAD S1 p 71 finite_cover 12 finite_smooth 12 infinity_full false
+FAMILY_NOT_KILLED S3 usable_primes 32 known_T 5/11
+FAMILY_DEAD V1 p 73 finite_cover 8 finite_smooth 8 infinity_full false
+FAMILY_NOT_KILLED W2 usable_primes 31 known_T 13/47
+REPEATED_FAMILY_LOCAL_AUDIT_DONE dead 4 [ F4, N10, S1, V1 ]
+not_killed 11 [ F1, F6, N11, N3, N4, O4, O9, R3, R7, S3, W2 ]
+skipped 0 []
+output results/target_22224_repeated_family_local_audit_live15_p47_199.tsv

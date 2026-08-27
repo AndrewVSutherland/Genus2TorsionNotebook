@@ -1,0 +1,3 @@
+TARGET_22224_DIRECT_CONTACT_FINITE_START [ 13 ]
+DIRECT_CONTACT_FINITE p 13 triples 2197 tzero 169 repeatedq 312 singular_or_gcd 320 split_negative_squares 0 cover_signs 0 jac_tests 0 D3_order3 0 D4_order4 0 D4_divisible 0 target_triples 0 target_curves 0 bad_identity 0 file results/target_22224_direct_contact_deep13_test_p13.tsv
+TARGET_22224_DIRECT_CONTACT_FINITE_DONE

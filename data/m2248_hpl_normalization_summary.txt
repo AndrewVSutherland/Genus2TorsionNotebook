@@ -1,0 +1,41 @@
+HPL normalization check for M(2,2,4,8)
+
+Script:
+  magma code/m2248_hpl_normalization_check.m
+
+Candidates tested:
+  remark_1091 = [20615879288622173904,18727056172448817625,17984089341487641600,16336390342285800000]
+  meeting_294 = [124204233895590989520,88395624606340961712,70848937725658001712,64357770918797390375]
+
+Interpretations tested:
+  use_squares=true: branch roots 0,-a^2,-b^2,-c^2,-d^2,infinity
+  use_squares=false: branch roots 0,-a,-b,-c,-d,infinity
+
+Summary:
+  remark_1091 use_squares=true:
+    square_normalizations 6
+    intermediate_sources 4
+    intermediate_witnesses 64
+    full_sources 4
+    full_witnesses 32
+  remark_1091 use_squares=false:
+    square_normalizations 0
+    intermediate_sources 0
+    intermediate_witnesses 0
+    full_sources 0
+    full_witnesses 0
+  meeting_294 use_squares=true:
+    square_normalizations 6
+    intermediate_sources 4
+    intermediate_witnesses 64
+    full_sources 4
+    full_witnesses 32
+  meeting_294 use_squares=false:
+    square_normalizations 0
+    intermediate_sources 0
+    intermediate_witnesses 0
+    full_sources 0
+    full_witnesses 0
+
+Conclusion:
+  The HPL tuples are recognized by the current M(2,2,4,8) full-cover equations once two branch points are chosen and moved to 0 and infinity. Feeding the raw four-tuple directly to m2248_sieve.m gives zero witnesses only because it is not already in the normalized chart.

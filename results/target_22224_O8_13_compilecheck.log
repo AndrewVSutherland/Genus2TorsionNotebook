@@ -1,0 +1,13 @@
+P8_RANK2_MWSIEVE_START family O8_13 quotient <1, 3> N 0 primes [ 13 ]
+E Elliptic Curve defined by y^2 = x^3 + 3033*x + 86616 over Rational Field
+rank_bounds 2 2 generators [ (-24 : 0 : 1), (1516/25 : -87814/125 : 1), (-20 : -134 : 1) ]
+known_t 5/7
+P8_PRIME_PROFILE p 13 orders 8 4 total 64 third_fail 48 open_no3 0 open_3 0 boundary 16 allowed 16
+P8_PRIORITY_CLASSES p 13 boundary [ <2, 1, 1>, <1, 0, 0>, <1, 4, 2>, <2, 0, 2>, <2, 4, 0>, <2, 5, 3>, <1, 2, 1>, <2, 6, 1>, <1, 5, 1>, <2, 7, 0>, <1, 7, 2>, <1, 3, 0>, <2, 2, 3>, <1, 1, 3>, <1, 6, 3>, <2, 3, 2> ]
+open_3 []
+P8_CRT_STEP p 13 classes 16
+P8_CRT_CLASSES count 16
+[ <1, 0, 8, 0, 4>, <1, 4, 8, 2, 4>, <1, 2, 8, 1, 4>, <1, 5, 8, 1, 4>, <1, 7, 8, 2, 4>, <1, 3, 8, 0, 4>, <1, 1, 8, 3, 4>, <1, 6, 8, 3, 4>, <2, 1, 8, 1, 4>, <2, 0, 8, 2, 4>, <2, 4, 8, 0, 4>, <2, 5, 8, 3, 4>, <2, 6, 8, 1, 4>, <2, 7, 8, 0, 4>, <2, 2, 8, 3, 4>, <2, 3, 8, 2, 4> ]
+P8_EXACT_CLASS m 0 n 0 ti 1 t 1 tuple [ 550, -1375, -1750, 1372 ]
+three false gcd 128
+P8_RANK2_MWSIEVE_DONE box_total 2 periodic_enumerated 1 modular_survivors 1 deferred_large_index 0 exact_full 1 height_skip 0 three_hits 0 crt_file results/target_22224_O8_13_compilecheck_crt.tsv modular_file results/target_22224_O8_13_compilecheck_modular.tsv

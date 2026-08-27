@@ -1,0 +1,36 @@
+Contact-6 extra-root direct curve search for [6,6]
+height 30 parameter_count 1111 prime_bound 31 max_exact 500 require_113 false simple_only false
+precomputing finite filters
+ p 5 good 12 allowed66 0 target 0
+ p 7 good 36 allowed66 0 target 0
+ p 11 good 120 allowed66 36 target 36
+ p 13 good 192 allowed66 60 target 60
+ p 17 good 372 allowed66 24 target 24
+ p 19 good 492 allowed66 96 target 96
+ p 23 good 768 allowed66 84 target 84
+ p 29 good 1308 allowed66 132 target 132
+ p 31 good 1524 allowed66 420 target 420
+progress 50000 smooth 49916 survivors 59 exact 59 hits 0
+HIT66 eps 1 r 21 a 187/21 b -23/7 factor_degrees [ 1, 1, 1, 2 ]
+invs [ 2, 6, 6 ]
+simple false pcert 0
+ f -111132*x^5 + 2646000*x^4 - 7101864*x^3 + 11226096*x^2 + 4630500*x
+progress 100000 smooth 99852 survivors 149 exact 149 hits 1
+HIT66 eps 1 r -1/3 a 187/21 b -23/7 factor_degrees [ 1, 1, 1, 2 ]
+invs [ 2, 6, 6 ]
+simple false pcert 0
+ f -111132*x^5 + 2646000*x^4 - 7101864*x^3 + 11226096*x^2 + 4630500*x
+HIT66 eps 1 r 4/3 a -1/42 b -13/7 factor_degrees [ 1, 1, 1, 2 ]
+invs [ 2, 6, 6 ]
+simple false pcert 0
+ f 7112448*x^5 - 36091440*x^4 + 68732496*x^3 - 58231404*x^2 + 18522000*x
+Done
+checked 123565
+smooth 123377
+survivors 187
+exact 187
+hits 3
+kill Associative Array with index universe Integer Ring
+H <1, 21, 187/21, -23/7, [ 2, 6, 6 ], false, 0, -111132*x^5 + 2646000*x^4 - 7101864*x^3 + 11226096*x^2 + 4630500*x>
+H <1, -1/3, 187/21, -23/7, [ 2, 6, 6 ], false, 0, -111132*x^5 + 2646000*x^4 - 7101864*x^3 + 11226096*x^2 + 4630500*x>
+H <1, 4/3, -1/42, -13/7, [ 2, 6, 6 ], false, 0, 7112448*x^5 - 36091440*x^4 + 68732496*x^3 - 58231404*x^2 + 18522000*x>

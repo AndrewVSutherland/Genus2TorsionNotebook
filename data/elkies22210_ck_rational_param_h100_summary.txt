@@ -1,0 +1,40 @@
+ELKIES22210_CK_RATIONAL_PARAM_SEARCH
+
+chart
+-----
+R1 = 1+t*(t+2)*m
+R2 = t*m*(m-t-2)
+R3 = -1+m+t*(t+1)*m^2
+R4 = 1+t-m-t*m^2
+R5 = -(1+t)*(1+t*m^2)
+
+inverse_on_smooth_labelled_open
+--------------------------------
+t = (r3+r4)/(r1+r2)
+Y = (r1-r2)/(r1+r2)
+W = (r3-r4)/(r1+r2)
+m = (W+t+2)/(Y+1)
+
+run
+---
+parameter_height 100
+rational_values 12175
+parameter_pairs 148230625
+nonzero_tuples 148145150
+primitive_tuples 148145150
+smooth_tuples 148145150
+
+orbit01_hits 0
+
+orbit12_real_eligible_pairs 296290300
+orbit12_mod1331 11626790
+orbit12_mod361 543370
+orbit12_mod529 17209
+orbit12_exact_mask_counts 0:17209
+orbit12_hits 0
+hits 0
+
+The four-bit exact mask records which of G0,G3,G4,G5 are integer squares
+after a marked pair has survived all three compatible prime-power tests.
+Thus none of the 17,209 final CRT survivors has even one exact square
+radicand.

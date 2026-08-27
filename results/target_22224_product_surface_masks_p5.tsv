@@ -1,0 +1,7 @@
+fiber	n	d	status	jacobian_order
+t1_2	0	1	boundary	0
+t1_2	1	1	boundary	0
+t1_2	2	1	boundary	0
+t1_2	3	1	boundary	0
+t1_2	4	1	boundary	0
+t1_2	1	0	boundary	0

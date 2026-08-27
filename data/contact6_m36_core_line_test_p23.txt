@@ -1,0 +1,7 @@
+Contact-6 core line test through known simple [6,6] point
+p 5 line_directions 0 samples []
+p 7 line_directions 0 samples []
+p 11 line_directions 0 samples []
+p 17 line_directions 0 samples []
+p 19 line_directions 0 samples []
+p 23 line_directions 0 samples []

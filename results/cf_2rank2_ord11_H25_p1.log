@@ -1,0 +1,35 @@
+SELFTEST_PASS
+CALIB ord=5 a=0 b=1 c=2 d=-1
+CALIB ord=5 a=0 b=8 c=4 d=7
+CALIB ord=5 a=1 b=2 c=3 d=-2
+CALIB ord=5 a=2 b=3 c=4 d=-3
+CALIB ord=5 a=3 b=4 c=5 d=-4
+CALIB ord=5 a=4 b=-4 c=4 d=-1
+CALIB ord=5 a=4 b=5 c=6 d=-5
+CALIB ord=5 a=5 b=6 c=7 d=-6
+CALIB ord=5 a=6 b=7 c=8 d=-7
+PROGRESS tested=200000 s2pass=19 exact=19
+CALIB ord=5 a=7 b=8 c=9 d=-8
+CALIB ord=5 a=8 b=-8 c=12 d=23
+CALIB ord=5 a=8 b=9 c=10 d=-9
+CALIB ord=5 a=9 b=10 c=11 d=-10
+CALIB ord=5 a=10 b=11 c=12 d=-11
+CALIB ord=5 a=11 b=12 c=13 d=-12
+CALIB ord=5 a=12 b=-9 c=12 d=-4
+CALIB ord=5 a=12 b=13 c=14 d=-13
+CALIB ord=5 a=13 b=14 c=15 d=-14
+CALIB ord=5 a=14 b=15 c=16 d=-15
+CALIB ord=5 a=15 b=16 c=17 d=-16
+CALIB ord=5 a=16 b=17 c=18 d=-17
+CALIB ord=5 a=17 b=18 c=19 d=-18
+PROGRESS tested=400000 s2pass=34 exact=34
+CALIB ord=5 a=18 b=19 c=20 d=-19
+CALIB ord=5 a=19 b=20 c=21 d=-20
+CALIB ord=5 a=20 b=21 c=22 d=-21
+CALIB ord=5 a=21 b=22 c=23 d=-22
+CALIB ord=5 a=22 b=23 c=24 d=-23
+CALIB ord=5 a=23 b=24 c=25 d=-24
+CALIB ord=5 a=24 b=-16 c=24 d=-9
+CALIBRATION_TABLE (H=25 part 1/2):
+  ORDER 5 : 29
+SEARCH_DONE H=25 Part=1/2 tested=439900 s2pass=41 exact=41 nearmiss=12

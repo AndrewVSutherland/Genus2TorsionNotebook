@@ -1,0 +1,40 @@
+Magma V2.28-27    Fri Jul 10 2026 12:33:58 on <host> [Seed = 2661673844]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m12_q4root_vinfinity_contact5_elimination.m"
+VINF_IDENTITY_SELF_TEST_PASS degree 5
+CONTACT5_PLANTED_SELF_TEST_PASS
+VINF_SMOOTH_D12_SELF_TEST_PASS r 1 disc -23353884672 D12 (x, -8, 1)
+VINF_DISCRIMINANT [
+<Tfrob, 6>,
+<Tfrob + 1, 4>,
+<Tfrob + 2, 1>,
+<Tfrob^3 - 14*Tfrob^2 - 12*Tfrob - 4, 1>
+]
+CONTACT_COVARIANT_DEGREES E3_u 12 E3_r 10 1 E4_u 16 E4_r 13 1
+CONTACT_INFINITY_SUPPORT [
+<Tfrob, 3>
+]
+CONTACT_RESULTANT_BEGIN
+Time: 0.020
+CONTACT_RESULTANT_DONE degree 166 terms 104
+CONTACT_RESULTANT_OPEN degree 39 terms 40
+CONTACT_RESULTANT_FACTORIZATION_BEGIN
+Time: 0.000
+CONTACT_RESULTANT_FACTORIZATION_DONE count 1
+OPEN_FACTOR 1 degree 39 exponent 1 poly Tfrob^39 + 28*Tfrob^38 + 248*Tfrob^37 - 1852*Tfrob^36 - 623517/8*Tfrob^35 - 2235249/2*Tfrob^34 - 82749063/8*Tfrob^33 - 70301069199/1024*Tfrob^32 - 166539961647/512*Tfrob^31 - 120648811181/128*Tfrob^30 + 69678181803/512*Tfrob^29 + 164669602737589/8192*Tfrob^28 + 563435815010487/4096*Tfrob^27 + 4955845775681739/8192*Tfrob^26 + 2122268465013211189/1048576*Tfrob^25 + 715082426123076121/131072*Tfrob^24 + 3196130970553737531/262144*Tfrob^23 + 3013029581759724843/131072*Tfrob^22 + 19402931836853659167/524288*Tfrob^21 + 6728019799330967571/131072*Tfrob^20 + 16191272860525590003/262144*Tfrob^19 + 8497133321813731357/131072*Tfrob^18 + 62503352891281863541/1048576*Tfrob^17 + 1578399450434281163/32768*Tfrob^16 + 1123453209584108351/32768*Tfrob^15 + 176270298481044235/8192*Tfrob^14 + 48765380226844535/4096*Tfrob^13 + 5937426873721125/1024*Tfrob^12 + 317104346763515/128*Tfrob^11 + 59112540843645/64*Tfrob^10 + 38158080221853/128*Tfrob^9 + 658928800019/8*Tfrob^8 + 153418093439/8*Tfrob^7 + 7358639471/2*Tfrob^6 + 562604141*Tfrob^5 + 64941828*Tfrob^4 + 5097584*Tfrob^3 + 201984*Tfrob^2 - 3056*Tfrob - 512
+RATIONAL_OPEN_R []
+VINF_ELIMINATION_DONE rational_r 0 hits 0
+
+Total time: 0.070 seconds, Total memory usage: 32.09MB

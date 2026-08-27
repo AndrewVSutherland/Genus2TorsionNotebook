@@ -1,0 +1,40 @@
+RANK3_MWSIEVE_START family W1 pair <1, 3> remaining 2 N 0 E Elliptic Curve defined by y^2 = x^3 - x^2 + 34591*x + 34593 over Rational Field
+rank_bounds 3 3 generators [ (-1 : 0 : 1), (577 : -14552 : 1), (17249/49 : -2560104/343 : 1), (1873/49 : 407464/343 : 1) ]
+known_t 7/5 primes [ 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ]
+PRIME_PROFILE p 11 orders 8 4 8 total 512 local_fail 256 open_no3 0 open3 0 boundary 256 allowed 256
+PRIME_PROFILE p 13 orders 8 8 8 total 1024 local_fail 448 open_no3 0 open3 0 boundary 576 allowed 576
+PRIME_PROFILE p 17 orders 2 6 12 total 288 local_fail 96 open_no3 0 open3 168 boundary 24 allowed 192
+PRIME_PROFILE p 19 orders 12 6 12 total 1728 local_fail 864 open_no3 0 open3 0 boundary 864 allowed 864
+PRIME_SKIP 23 E_bad_reduction
+PRIME_PROFILE p 29 orders 8 8 4 total 512 local_fail 192 open_no3 128 open3 112 boundary 80 allowed 192
+PRIME_SKIP 31 E_bad_reduction
+PRIME_PROFILE p 37 orders 18 2 18 total 1296 local_fail 0 open_no3 0 open3 0 boundary 1296 allowed 1296
+PRIME_PROFILE p 41 orders 11 22 11 total 5324 local_fail 1936 open_no3 726 open3 1936 boundary 726 allowed 2662
+PRIME_PROFILE p 43 orders 14 28 14 total 10976 local_fail 3724 open_no3 4704 open3 784 boundary 1764 allowed 2548
+PRIME_SKIP 47 E_bad_reduction
+PRIME_PROFILE p 53 orders 10 10 2 total 400 local_fail 120 open_no3 0 open3 80 boundary 200 allowed 280
+PRIME_PROFILE p 59 orders 36 36 36 total 93312 local_fail 42768 open_no3 20736 open3 20736 boundary 9072 allowed 29808
+PRIME_PROFILE p 61 orders 30 30 30 total 54000 local_fail 23400 open_no3 17100 open3 0 boundary 13500 allowed 13500
+PRIME_PROFILE p 67 orders 6 36 18 total 7776 local_fail 3024 open_no3 3348 open3 432 boundary 972 allowed 1404
+PRIME_PROFILE p 71 orders 12 4 36 total 3456 local_fail 1056 open_no3 1152 open3 384 boundary 864 allowed 1248
+PRIME_PROFILE p 73 orders 15 30 30 total 27000 local_fail 7200 open_no3 9900 open3 3600 boundary 6300 allowed 9900
+PRIME_PROFILE p 79 orders 18 36 12 total 15552 local_fail 3456 open_no3 6912 open3 3456 boundary 1728 allowed 5184
+PRIME_PROFILE p 83 orders 92 92 92 total 1557376 local_fail 761760 open_no3 541696 open3 135424 boundary 118496 allowed 253920
+PRIME_PROFILE p 89 orders 11 22 4 total 1936 local_fail 1056 open_no3 484 open3 352 boundary 44 allowed 396
+PRIME_PROFILE p 97 orders 16 48 16 total 24576 local_fail 6144 open_no3 6144 open3 8192 boundary 4096 allowed 12288
+PRIME_PROFILE p 101 orders 88 88 88 total 1362944 local_fail 464640 open_no3 356224 open3 433664 boundary 108416 allowed 542080
+PRIME_PROFILE p 103 orders 12 10 5 total 1200 local_fail 500 open_no3 320 open3 320 boundary 60 allowed 380
+PRIME_PROFILE p 107 orders 2 16 6 total 384 local_fail 172 open_no3 128 open3 48 boundary 36 allowed 84
+PRIME_PROFILE p 109 orders 124 124 124 total 3813248 local_fail 1568352 open_no3 1230080 open3 738048 boundary 276768 allowed 1014816
+PRIME_PROFILE p 113 orders 33 11 33 total 23958 local_fail 8712 open_no3 9801 open3 2904 boundary 2541 allowed 5445
+PRIME_PROFILE p 127 orders 6 6 12 total 864 local_fail 372 open_no3 336 open3 96 boundary 60 allowed 156
+PRIME_PROFILE p 131 orders 60 60 12 total 86400 local_fail 42480 open_no3 17280 open3 20160 boundary 6480 allowed 26640
+PRIME_PROFILE p 137 orders 37 37 37 total 101306 local_fail 47915 open_no3 32856 open3 16428 boundary 4107 allowed 20535
+PRIME_PROFILE p 139 orders 140 140 140 total 5488000 local_fail 2312800 open_no3 1881600 open3 784000 boundary 509600 allowed 1293600
+PRIME_PROFILE p 149 orders 70 14 70 total 137200 local_fail 55860 open_no3 43120 open3 23520 boundary 14700 allowed 38220
+PRIME_PROFILE p 151 orders 34 17 34 total 39304 local_fail 13294 open_no3 16184 open3 6936 boundary 2890 allowed 9826
+PRIME_PROFILE p 157 orders 78 78 26 total 316368 local_fail 152100 open_no3 64896 open3 73008 boundary 26364 allowed 99372
+PRIME_PROFILE p 163 orders 176 176 176 total 10903552 local_fail 4956160 open_no3 3902976 open3 1486848 boundary 557568 allowed 2044416
+PRIME_PROFILE p 167 orders 44 44 44 total 170368 local_fail 54208 open_no3 44528 open3 38720 boundary 32912 allowed 71632
+
+[Interrupted]

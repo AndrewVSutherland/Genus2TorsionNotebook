@@ -1,0 +1,163 @@
+#########################################################################
+#           THE DUPLICATION LAW ON THE KUMMER SURFACE 
+#
+# (The following gives the equations in Appendix C of the paper:
+#               `The Group Law on the Jacobian of a Curve of Genus 2').
+#
+# This file is available at:
+#   http://www.maths.ox.ac.uk/~flynn/genus2/kummer/duplication
+#
+# The following is suitable for input to MAPLE, but only uses facilities
+# which are common to all symbolic algebra packages. A few global exchanges
+# on a few symbols such as #  and  : should be sufficient to make
+# the file suitable for input to any other such package. Comment lines 
+# in MAPLE begin with the # symbol. Expressions for input are terminated by 
+# the : symbol (when we do not wish the result to be displayed) and by
+# the ; symbol (when we do wish the result to be displayed).
+#
+# Let C be the curve: 
+# C: Y**2 = f6*X**6 + f5*X**5 + f4*X**4 + f3*X**3 + f2*X**2 + f1*X + f0.
+#
+# For any divisor represented by {(x,y),(u,v)},
+# let (k1,k2,k3,k4) be the embedding of the Kummer surface given by: 
+# k1 := 1:  k2 := x+u:  k3 := x*u:  k4 := (f0xu-2*y*v)/((x-u)**2):  
+# ## where f0xu is: 
+# f0xu := 2*f0+f1*(x+u)+2*f2*(x*u)+f3*(x+u)*(x*u) 
+#              +2*f4*(x*u)**2+f5*(x+u)*(x*u)**2+2*f6*(x*u)**3:
+#
+# Let (delta1,delta2,delta3,delta4) = 2*(k1,k2,k3,k4)
+# then delta1,delta2,delta3,delta4 are given by the following quartic
+# forms in k1,k2,k3,k4 with coefficients in Z[f0,..,f6].
+# The terms of each expression are arranged in blocks of increasing
+# degree in f0,..,f6.
+#########################################################################
+
+# The following command turns off the echoing as the file is read in.
+interface(quiet,quiet=true):
+# The following command supresses raised exponents in output expressions,
+#  and makes any output expressions suitable for future input.
+interface(prettyprint,prettyprint=false):
+
+delta1 :=
+4*k1*k4**3
++
+4*k4**2*(k1**2*f2-k2*k3*f5-3*k3**2*f6)
++
+4*k4*(-4*k1**3*f0*f4+k1**3*f1*f3-8*k1**2*k2*f0*f5-2*k1**2*k3*f1*f5-12*k1*k2**2*
+f0*f6-k1*k2**2*f1*f5-6*k1*k2*k3*f1*f6-2*k1*k2*k3*f2*f5-4*k1*k3**2*f2*f6-k1*k3**
+2*f3*f5-2*k2**3*f1*f6-4*k2**2*k3*f2*f6-6*k2*k3**2*f3*f6-8*k3**3*f4*f6+2*k3**3*
+f5**2)
++
+4*k3**4*f4*f5**2+4*k1**4*f1**2*f4+4*k1**4*f0*f3**2-16*k3**4*f2*f6**2+4*k2**4*f0
+*f5**2-16*k3**4*f4**2*f6-16*k2*k3**3*f3*f4*f6-16*k1**4*f0**2*f6-16*k1**4*f0*f2*
+f4-4*k1**2*k2*k3*f1*f3*f5+4*k2**3*k3*f1*f5**2+4*k2*k3**3*f3*f5**2+4*k2**2*k3**2
+*f2*f5**2-16*k1**3*k2*f0*f1*f6-32*k1**3*k2*f0*f2*f5+8*k1**3*k2*f1**2*f5+32*k1**
+3*k3*f0*f2*f6-16*k1**3*k3*f0*f3*f5-16*k1**3*k3*f1**2*f6-64*k1**2*k2**2*f0*f2*f6
+-8*k1**2*k2**2*f0*f3*f5+12*k1**2*k2**2*f1**2*f6-16*k1**2*k2*k3*f0*f4*f5-16*k1**
+2*k2*k3*f1*f2*f6-48*k1**2*k3**2*f0*f4*f6+16*k1**2*k3**2*f0*f5**2+24*k1**2*k3**2
+*f1*f3*f6-8*k1**2*k3**2*f1*f4*f5-16*k1**2*k3**2*f2**2*f6-32*k1*k2**3*f0*f3*f6-
+16*k1*k2**2*k3*f0*f5**2-24*k1*k2**2*k3*f1*f3*f6-16*k1*k2*k3**2*f0*f5*f6-8*k1*k2
+*k3**2*f1*f5**2-16*k1*k2*k3**2*f2*f3*f6+32*k1*k3**3*f0*f6**2-16*k1*k3**3*f1*f5*
+f6-8*k1*k3**3*f3**2*f6-16*k2**4*f0*f4*f6-16*k2**3*k3*f0*f5*f6-16*k2**3*k3*f1*f4
+*f6-48*k2**2*k3**2*f0*f6**2-8*k2**2*k3**2*f1*f5*f6-16*k2**2*k3**2*f2*f4*f6-32*
+k2*k3**3*f1*f6**2+8*k3**4*f3*f5*f6:
+
+delta2 :=
+4*k2*k4**3
++
+k4**2*(4*k1**2*f1+8*k1*k2*f2-8*k1*k3*f3+5*k2**2*f3+8*k2*k3*f4+4*k3**2*f5)
++
+2*k4*(2*k1**3*f0*f3+8*k1**2*k2*f0*f4+k1**2*k2*f1*f3-8*k1**2*k3*f0*f5+8*k1**2*k3
+*f1*f4-6*k1**2*k3*f2*f3+4*k1*k2**2*f0*f5+4*k1*k2**2*f1*f4-24*k1*k2*k3*f0*f6+8*
+k1*k2*k3*f1*f5+8*k1*k2*k3*f2*f4-5*k1*k2*k3*f3**2-8*k1*k3**2*f1*f6+8*k1*k3**2*f2
+*f5-6*k1*k3**2*f3*f4+2*k2**3*f1*f5+4*k2**2*k3*f1*f6+4*k2**2*k3*f2*f5+8*k2*k3**2
+*f2*f6+k2*k3**2*f3*f5+2*k3**3*f3*f6)
++
+k1**4*f1**2*f3+5*k1**2*k3**2*f3**3+16*k3**4*f1*f6**2+k3**4*f3*f5**2+16*k1**4*f0
+**2*f5-8*k1*k2**2*k3*f1*f3*f5+32*k1**2*k2*k3*f1**2*f6-20*k1*k2*k3**2*f1*f3*f6-4
+*k1**4*f0*f2*f3+32*k1**3*k2*f0**2*f6+16*k1**3*k2*f0*f1*f5-4*k1**3*k2*f0*f3**2-
+32*k1**3*k3*f0*f2*f5+16*k1**3*k3*f0*f3*f4+16*k1**3*k3*f1**2*f5-6*k1**3*k3*f1*f3
+**2+32*k1**2*k2**2*f0*f1*f6-4*k1**2*k2**2*f0*f3*f4+4*k1**2*k2**2*f1**2*f5-64*k1
+**2*k2*k3*f0*f2*f6-20*k1**2*k2*k3*f0*f3*f5+32*k1**2*k2*k3*f0*f4**2+16*k1**2*k2*
+k3*f1*f2*f5-12*k1**2*k2*k3*f1*f3*f4-20*k1**2*k3**2*f0*f3*f6-14*k1**2*k3**2*f1*
+f3*f5+16*k1**2*k3**2*f1*f4**2+16*k1**2*k3**2*f2**2*f5-20*k1**2*k3**2*f2*f3*f4-4
+*k1*k2**3*f0*f3*f5+8*k1*k2**3*f1**2*f6-56*k1*k2**2*k3*f0*f3*f6+32*k1*k2**2*k3*
+f0*f4*f5+32*k1*k2**2*k3*f1*f2*f6-64*k1*k2*k3**2*f0*f4*f6+32*k1*k2*k3**2*f0*f5**
+2+16*k1*k2*k3**2*f1*f4*f5+32*k1*k2*k3**2*f2**2*f6-12*k1*k2*k3**2*f2*f3*f5-32*k1
+*k3**3*f1*f4*f6+16*k1*k3**3*f1*f5**2+16*k1*k3**3*f2*f3*f6-6*k1*k3**3*f3**2*f5-4
+*k2**4*f0*f3*f6+8*k2**3*k3*f0*f5**2-4*k2**3*k3*f1*f3*f6+32*k2**2*k3**2*f0*f5*f6
++4*k2**2*k3**2*f1*f5**2-4*k2**2*k3**2*f2*f3*f6+32*k2*k3**3*f0*f6**2+16*k2*k3**3
+*f1*f5*f6-4*k2*k3**3*f3**2*f6-4*k3**4*f3*f4*f6:
+
+delta3 :=
+4*k3*k4**3
++
+4*k4**2*(-3*k1**2*f0-k1*k2*f1+k3**2*f4)
++
+4*k4*(-8*k1**3*f0*f2+2*k1**3*f1**2-6*k1**2*k2*f0*f3-4*k1**2*k3*f0*f4-k1**2*k3*
+f1*f3-4*k1*k2**2*f0*f4-6*k1*k2*k3*f0*f5-2*k1*k2*k3*f1*f4-2*k1*k3**2*f1*f5-2*k2
+**3*f0*f5-12*k2**2*k3*f0*f6-k2**2*k3*f1*f5-8*k2*k3**2*f1*f6-4*k3**3*f2*f6+k3**3
+*f3*f5)
++
+4*k2**4*f1**2*f6-16*k1**4*f0**2*f4-16*k1**4*f0*f2**2+4*k3**4*f2*f5**2+4*k1**4*
+f1**2*f2+4*k3**4*f3**2*f6-16*k3**4*f0*f6**2-8*k1**2*k3**2*f1*f2*f5+4*k1**3*k2*
+f1**2*f3+4*k1**2*k2**2*f1**2*f4+4*k1*k2**3*f1**2*f5+8*k1**4*f0*f1*f3-32*k1**3*
+k2*f0**2*f5-4*k1*k2*k3**2*f1*f3*f5-16*k1**3*k2*f0*f2*f3+32*k1**3*k3*f0**2*f6-16
+*k1**3*k3*f0*f1*f5-8*k1**3*k3*f0*f3**2-48*k1**2*k2**2*f0**2*f6-8*k1**2*k2**2*f0
+*f1*f5-16*k1**2*k2**2*f0*f2*f4-16*k1**2*k2*k3*f0*f1*f6-16*k1**2*k2*k3*f0*f3*f4-
+8*k1**2*k2*k3*f1**2*f5-48*k1**2*k3**2*f0*f2*f6+24*k1**2*k3**2*f0*f3*f5-16*k1**2
+*k3**2*f0*f4**2+16*k1**2*k3**2*f1**2*f6-16*k1*k2**3*f0*f1*f6-16*k1*k2**3*f0*f2*
+f5-24*k1*k2**2*k3*f0*f3*f5-16*k1*k2**2*k3*f1**2*f6-16*k1*k2*k3**2*f0*f4*f5-16*
+k1*k2*k3**2*f1*f2*f6+32*k1*k3**3*f0*f4*f6-16*k1*k3**3*f0*f5**2-16*k1*k3**3*f1*
+f3*f6-16*k2**4*f0*f2*f6-32*k2**3*k3*f0*f3*f6-64*k2**2*k3**2*f0*f4*f6+12*k2**2*
+k3**2*f0*f5**2-8*k2**2*k3**2*f1*f3*f6-16*k2*k3**3*f0*f5*f6-32*k2*k3**3*f1*f4*f6
++8*k2*k3**3*f1*f5**2-16*k3**4*f2*f4*f6:
+
+delta4 :=
+k4**4
++
+0
++
+2*k4**2*(4*k1**2*f0*f4-k1**2*f1*f3+4*k1*k2*f0*f5+8*k1*k3*f0*f6+4*k2**2*f0*f6+4*
+k2*k3*f1*f6+4*k3**2*f2*f6-k3**2*f3*f5)
++
+4*k4*(-2*k3**3*f3**2*f6-2*k1**3*f0*f3**2-2*k3**3*f2*f5**2+8*k1**2*k3*f0*f2*f6-2
+*k1**3*f1**2*f4+16*k1*k2**2*f0*f2*f6-4*k1*k2**2*f1**2*f6+k1*k2*k3*f1*f3*f5+8*k1
+**3*f0*f2*f4+12*k1**2*k2*f0*f2*f5-3*k1**2*k2*f1**2*f5+4*k1**2*k3*f0*f3*f5-2*k1
+**2*k3*f1**2*f6+2*k1*k2**2*f0*f3*f5+20*k1*k2*k3*f0*f3*f6+8*k1*k3**2*f0*f4*f6-2*
+k1*k3**2*f0*f5**2+4*k1*k3**2*f1*f3*f6+4*k2**3*f0*f3*f6+16*k2**2*k3*f0*f4*f6-4*
+k2**2*k3*f0*f5**2+2*k2**2*k3*f1*f3*f6+12*k2*k3**2*f1*f4*f6-3*k2*k3**2*f1*f5**2+
+8*k3**3*f2*f4*f6)
++
+16*k3**4*f2**2*f6**2+k3**4*f3**2*f5**2-2*k1**4*f1**3*f5+16*k2**4*f0**2*f6**2+k1
+**4*f1**2*f3**2+16*k1**4*f0**2*f4**2-4*k1**4*f0*f1**2*f6+16*k1**4*f0*f2**2*f4+
+16*k1**2*k2*k3*f0*f1*f5**2-16*k3**4*f1*f3*f6**2-8*k1*k2*k3**2*f0*f3*f5**2-2*k3
+**4*f1*f5**3+16*k3**4*f0*f4*f6**2+16*k1**4*f0**2*f2*f6+k2**4*f1**2*f5**2-16*k1
+**4*f0**2*f3*f5+8*k1**4*f0*f1*f2*f5-8*k1**4*f0*f1*f3*f4-4*k1**4*f0*f2*f3**2-4*
+k1**4*f1**2*f2*f4-32*k1**3*k2*f0**2*f3*f6+32*k1**3*k2*f0**2*f4*f5+32*k1**3*k2*
+f0*f1*f2*f6-16*k1**3*k2*f0*f1*f3*f5+32*k1**3*k2*f0*f2**2*f5-8*k1**3*k2*f1**3*f6
+-8*k1**3*k2*f1**2*f2*f5-64*k1**3*k3*f0**2*f4*f6+32*k1**3*k3*f0**2*f5**2+16*k1**
+3*k3*f0*f1*f3*f6+16*k1**3*k3*f0*f2*f3*f5-4*k1**3*k3*f1**2*f3*f5+32*k1**2*k2**2*
+f0**2*f4*f6+16*k1**2*k2**2*f0**2*f5**2-24*k1**2*k2**2*f0*f1*f3*f6+64*k1**2*k2**
+2*f0*f2**2*f6+8*k1**2*k2**2*f0*f2*f3*f5-16*k1**2*k2**2*f1**2*f2*f6-2*k1**2*k2**
+2*f1**2*f3*f5+64*k1**2*k2*k3*f0**2*f5*f6-32*k1**2*k2*k3*f0*f1*f4*f6+64*k1**2*k2
+*k3*f0*f2*f3*f6+8*k1**2*k2*k3*f0*f3**2*f5-8*k1**2*k2*k3*f1**2*f3*f6+64*k1**2*k3
+**2*f0**2*f6**2+96*k1**2*k3**2*f0*f2*f4*f6-32*k1**2*k3**2*f0*f2*f5**2-16*k1**2*
+k3**2*f0*f3**2*f6+8*k1**2*k3**2*f0*f3*f4*f5-32*k1**2*k3**2*f1**2*f4*f6+12*k1**2
+*k3**2*f1**2*f5**2+8*k1**2*k3**2*f1*f2*f3*f6+32*k1*k2**3*f0**2*f5*f6+32*k1*k2**
+3*f0*f2*f3*f6-8*k1*k2**3*f1**2*f3*f6+64*k1*k2**2*k3*f0**2*f6**2+32*k1*k2**2*k3*
+f0*f1*f5*f6+48*k1*k2**2*k3*f0*f3**2*f6+64*k1*k2*k3**2*f0*f1*f6**2-32*k1*k2*k3**
+2*f0*f2*f5*f6+64*k1*k2*k3**2*f0*f3*f4*f6+16*k1*k2*k3**2*f1**2*f5*f6+8*k1*k2*k3
+**2*f1*f3**2*f6-64*k1*k3**3*f0*f2*f6**2+16*k1*k3**3*f0*f3*f5*f6+32*k1*k3**3*f1
+**2*f6**2+16*k1*k3**3*f1*f3*f4*f6-4*k1*k3**3*f1*f3*f5**2+16*k2**4*f0*f2*f4*f6-4
+*k2**4*f0*f2*f5**2-4*k2**4*f1**2*f4*f6+32*k2**3*k3*f0*f1*f6**2+32*k2**3*k3*f0*
+f3*f4*f6-8*k2**3*k3*f0*f3*f5**2+32*k2**2*k3**2*f0*f2*f6**2-24*k2**2*k3**2*f0*f3
+*f5*f6+64*k2**2*k3**2*f0*f4**2*f6-16*k2**2*k3**2*f0*f4*f5**2+16*k2**2*k3**2*f1
+**2*f6**2+8*k2**2*k3**2*f1*f3*f4*f6-2*k2**2*k3**2*f1*f3*f5**2-32*k2*k3**3*f0*f3
+*f6**2+32*k2*k3**3*f0*f4*f5*f6-8*k2*k3**3*f0*f5**3+32*k2*k3**3*f1*f2*f6**2-16*
+k2*k3**3*f1*f3*f5*f6+32*k2*k3**3*f1*f4**2*f6-8*k2*k3**3*f1*f4*f5**2-4*k3**4*f0*
+f5**2*f6+8*k3**4*f1*f4*f5*f6-8*k3**4*f2*f3*f5*f6+16*k3**4*f2*f4**2*f6-4*k3**4*
+f2*f4*f5**2-4*k3**4*f3**2*f4*f6:
+
+# The following command returns the echoing facility.
+interface(quiet,quiet=false):

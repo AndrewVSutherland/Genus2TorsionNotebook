@@ -1,0 +1,21 @@
+external gate_file supplied; skipping inline mod-49 survivor gate
+M_1(8,4) [4,16] live-stratum gated search
+height=100 aux_primes=[ 11, 13, 37, 41 ] tangent_sieve_primes=[ 17, 23, 29, 47 ] Part=2/6 smooth_strata_only=false gate_mod=343
+gate_file=data/agent_m18_416_smooth_strata_mod343_gate.txt
+trace_file=data/agent_m18_416_tangent_sieve_h100_part2.txt
+aux_prime 11: open target416 residues 4
+aux_prime 13: open target416 residues 4
+aux_prime 37: open target416 residues 64
+aux_prime 41: open target416 residues 112
+parameters=12175  gate_residues=5692  mod343-gated pair budget=5495485
+FIRSTPOSS R=-48/89 w=2/39 t=-2834/293077 stratum=<3,4> mod343=<38,88> plus=true minus=false tangent=0 tansievekill=true kill_ell=29
+progress cand=50000 smooth=49785 firstposs=1 tansievekill=1 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+DONE cand=73489 auxkill=842101 smooth=73062 firstposs=1 tansievekill=1 tangent=0 exact=0 firstver=0 prhalf=0 hits=0
+TORSION_COUNTS
+P7_STRATUM_COUNTS
+  <3,3> gate_res=766 gate_budget=732080 work_res=139 work_budget=134176 auxkill=123004 cand=11172 smooth=11119 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <3,4> gate_res=766 gate_budget=732080 work_res=114 work_budget=107387 auxkill=98449 cand=8938 smooth=8727 firstposs=1 tansievekill=1 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <4,0> gate_res=833 gate_budget=816416 work_res=144 work_budget=139187 auxkill=128252 cand=10809 smooth=10809 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,0> gate_res=1715 gate_budget=1672837 work_res=285 work_budget=280835 auxkill=259216 cand=21532 smooth=21532 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,2> gate_res=806 gate_budget=771036 work_res=135 work_budget=128054 auxkill=117563 cand=10491 smooth=10398 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0
+  <5,5> gate_res=806 gate_budget=771036 work_res=132 work_budget=126164 auxkill=115617 cand=10547 smooth=10477 firstposs=0 tansievekill=0 tangent=0 exact=0 firstver=0 prfail=0 prhalf=0 hits=0

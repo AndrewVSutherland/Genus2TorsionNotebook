@@ -1,0 +1,27 @@
+Contact-6 targeted [3,6] cubic-contact search
+height 4 parameter_count 23 max_hits 20
+CONTACT a -3 b -3 L -1/4 U -3 v -1
+ f -12*x^4 + 40*x^3 - 12*x^2
+ q x^2 - 3*x + 1
+ h3modq 4*x - 2
+CONTACT a 3/2 b -3 L -1/4 U -3/2 v 1/2
+ f -3*x^4 + 13*x^3 - 75/4*x^2 + 9*x
+ q x^2 - 3/2*x + 1/4
+ h3modq x - 5/4
+CONTACT a -3 b -3 L 1/4 U -3 v -1
+ f -12*x^4 + 40*x^3 - 12*x^2
+ q x^2 - 3*x + 1
+ h3modq -4*x + 2
+CONTACT a 3/2 b -3 L 1/4 U -3/2 v 1/2
+ f -3*x^4 + 13*x^3 - 75/4*x^2 + 9*x
+ q x^2 - 3/2*x + 1/4
+ h3modq -x + 5/4
+Done
+checked 267674
+nonboundary 239844
+linear_roots 229218
+special_f1 22
+contact_hits 4
+exact_hits36 0
+exact_hits66 0
+hits 0

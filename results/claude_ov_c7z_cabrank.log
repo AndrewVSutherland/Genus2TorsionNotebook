@@ -1,0 +1,107 @@
+CONTROL c=2 : e1=4 e4=1 A=2/3 B=0
+CONTROL c=2 : Delta = 4/9*aa^4 - 32/9*aa^3 + 100/9*aa^2 - 16*aa + 80/9
+CONTROL c=2 : Delta factorisation = [
+<aa - 2, 2>,
+<aa^2 - 4*aa + 5, 1>
+]  squarefree=false
+
+deciding 83 slices
+
+c=-12        : Cab_c genus 1 -> E [ 0, 0, 0, -60430751148, 5717863153243568 ] cond 1334773440  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-11        : Cab_c genus 1 -> E [ 1, 0, 0, -385874615189, 92260328084531553 ] cond 5427803238  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-10        : Cab_c genus 1 -> E [ 0, 1, 0, -8900283008, 323181003683988 ] cond 162901200  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-9         : Cab_c genus 1 -> E [ 1, 0, 0, -591084210, 5531091479172 ] cond 86648430  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-8         : Cab_c genus 1 -> E [ 0, 1, 0, -56166480, 161994102228 ] cond 1259760  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-7         : Cab_c genus 1 -> E [ 1, 0, 0, -3754990786, 88558354273220 ] cond 30136470  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-6         : Cab_c genus 1 -> E [ 1, -1, 0, -3206763, 2210736969 ] cond 232218  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-5         : Cab_c genus 1 -> E [ 1, 0, 0, -142002088, 651041033792 ] cond 33019350  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-4         : Cab_c genus 1 -> E [ 0, 1, 0, -1110625, 449609375 ] cond 454080  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-3         : Cab_c genus 1 -> E [ 1, -1, 1, -1376582, 619416789 ] cond 566370  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-2         : Cab_c genus 1 -> E [ 0, 1, 0, -3016, 61460 ] cond 3120  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-1         : Cab_c genus 1 -> E [ 1, 0, 0, -339, 1953 ] cond 2706  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=2          : Delta deg 4 squarefree=false  -> Cab_c NOT genus 1 (special slice)
+c=3          : Cab_c genus 1 -> E [ 1, -1, 1, -1013, 3341 ] cond 2610  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=4          : Cab_c genus 1 -> E [ 0, 1, 0, -1569, -3393 ] cond 1344  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=5          : Cab_c genus 1 -> E [ 1, 0, 0, -165713, 11397417 ] cond 12450  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=6          : Cab_c genus 1 -> E [ 0, 0, 0, -1947, 9935786 ] cond 9360  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=7          : Cab_c genus 1 -> E [ 1, 0, 0, 4723795, 7523507025 ] cond 1827210  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=8          : Cab_c genus 1 -> E [ 1, 0, 0, 6909, 86436 ] cond 1365  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=9          : Cab_c genus 1 -> E [ 1, 1, 1, 924441, -196078563 ] cond 92442  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=10         : Cab_c genus 1 -> E [ 1, 0, 1, -130126, -107542852 ] cond 1650  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=11         : Cab_c genus 1 -> E [ 1, 0, 0, -1355185180, 18374925616400 ] cond 19489470  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=12         : Cab_c genus 1 -> E [ 0, 0, 0, -497322732, 4243522703056 ] cond 17455680  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-11/2      : Cab_c genus 1 -> E [ 1, 0, 0, -1446632369520, 669541471936250112 ] cond 65742795690  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-9/2       : Cab_c genus 1 -> E [ 1, 1, 1, -2665198646, 52922777476403 ] cond 608051730  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-7/2       : Cab_c genus 1 -> E [ 1, 0, 0, -21814267959, 1237456868174505 ] cond 1032638838  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-5/2       : Cab_c genus 1 -> E [ 1, 0, 0, -1202653438, 15912600839492 ] cond 126093450  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-3/2       : Cab_c genus 1 -> E [ 1, -1, 1, -22313237, 38372321261 ] cond 21021210  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-1/2       : Cab_c genus 1 -> E [ 1, 0, 0, -28315, 523217 ] cond 11310  torsion [ 4 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=3/2        : Cab_c genus 1 -> E [ 1, -1, 1, 49, 2967 ] cond 2574  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=5/2        : Cab_c genus 1 -> E [ 1, 0, 0, -423188, 77614992 ] cond 396150  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=7/2        : Cab_c genus 1 -> E [ 1, 0, 0, -24980985, -1594436103 ] cond 9412410  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=9/2        : Cab_c genus 1 -> E [ 1, 0, 0, -3806900, -54918000 ] cond 1291290  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=11/2       : Cab_c genus 1 -> E [ 1, 0, 0, -975831546, 29713380050916 ] cond 19235370  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-11/3      : Cab_c genus 1 -> E [ 1, 0, 0, -4292084267226, 3416618210234045796 ] cond 241770585210  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-10/3      : Cab_c genus 1 -> E [ 1, 0, 0, -7172484338, 233184931928292 ] cond 127399350  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-8/3       : Cab_c genus 1 -> E [ 1, 0, 1, -65367947, 202040436269 ] cond 7876869  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-7/3       : Cab_c genus 1 -> E [ 1, 0, 0, -88374631395, 9996339907396737 ] cond 14447408430  torsion [ 2 ]  rank 3..3  -> rank >= 3, UNDECIDED
+c=-5/3       : Cab_c genus 1 -> E [ 1, 0, 0, -6310657563, 185540511505617 ] cond 533430150  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-4/3       : Cab_c genus 1 -> E [ 0, 1, 0, -77847425, 243644969823 ] cond 41039040  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-2/3       : Cab_c genus 1 -> E [ 1, 0, 1, -63253, 3436748 ] cond 51870  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-1/3       : Cab_c genus 1 -> E [ 1, 0, 0, -612546, -27393084 ] cond 1000230  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=1/3        : Cab_c genus 1 -> E [ 1, 0, 0, -10425, -4743 ] cond 40470  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=2/3        : Cab_c genus 1 -> E [ 0, 1, 0, 16, 180 ] cond 48  torsion [ 8 ]  rank 0..0
+   rank 0: #E(Q) = 8, naive search on C found 8 points -> complete = true
+  ==> RANK 0, 6 rational (a,b) tested, SLICE DECIDED (no order 112)
+c=4/3        : Cab_c genus 1 -> E [ 0, 1, 0, 319, -321 ] cond 960  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=5/3        : Cab_c genus 1 -> E [ 1, 0, 0, -138438, 37659492 ] cond 395850  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=7/3        : Cab_c genus 1 -> E [ 1, 0, 0, -22449204, 36231008400 ] cond 4544358  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=8/3        : Cab_c genus 1 -> E [ 0, 1, 0, -488520, 73394100 ] cond 187440  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=10/3       : Cab_c genus 1 -> E [ 0, 1, 0, -116666408, 17749567188 ] cond 11734800  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=11/3       : Cab_c genus 1 -> E [ 1, 0, 0, -5396933055, -12451557643623 ] cond 187674630  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-11/4      : Cab_c genus 1 -> E [ 1, 0, 0, -10964149323025, 13890319900856275625 ] cond 345938277630  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-9/4       : Cab_c genus 1 -> E [ 1, 0, 0, -25617992749, 1557461187083345 ] cond 201778746  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-7/4       : Cab_c genus 1 -> E [ 1, 0, 0, -288027500300, 57559527025722000 ] cond 24749915190  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-5/4       : Cab_c genus 1 -> E [ 1, 0, 0, -25084150713, 1384070316567417 ] cond 1400749350  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-3/4       : Cab_c genus 1 -> E [ 1, -1, 1, -990303998, 7857320371341 ] cond 388073070  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=-1/4       : Cab_c genus 1 -> E [ 1, 0, 0, -6524170, -2696475100 ] cond 2352270  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=1/4        : Cab_c genus 1 -> E [ 1, 0, 0, -318854, 21582948 ] cond 411558  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=3/4        : Cab_c genus 1 -> E [ 1, -1, 1, 5998, -233071 ] cond 3870  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=5/4        : Cab_c genus 1 -> E [ 1, 0, 0, -150213, 22164417 ] cond 60450  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=7/4        : Cab_c genus 1 -> E [ 1, 0, 0, -11419696, 18317216000 ] cond 4543770  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=9/4        : Cab_c genus 1 -> E [ 1, 1, 1, -5428105, 4580140727 ] cond 1684830  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=11/4       : Cab_c genus 1 -> E [ 1, 0, 0, -5814805829, 81004553339073 ] cond 589771182  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=-1/9       : Cab_c genus 1 -> E [ 1, 0, 0, -9157485015, -287111158586775 ] cond 1633402830  torsion [ 2 ]  rank 3..3  -> rank >= 3, UNDECIDED
+c=-8/7       : Cab_c genus 1 -> E [ 1, 0, 0, -2747575600, 48640104156875 ] cond 354343605  torsion [ 2 ]  rank 3..3  -> rank >= 3, UNDECIDED
+c=22/7       : Cab_c genus 1 -> E [ 1, 0, 1, -95596892163, 1654411265488738 ] cond 2168463990  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=19/4       : Cab_c genus 1 -> E [ 1, 0, 0, -1952599950035, 145962559314648225 ] cond 1392272310  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=9/5        : Cab_c genus 1 -> E [ 1, 0, 0, -3318565, 2552857217 ] cond 1684770  torsion [ 2 ]  rank 1..1  -> rank >= 1, UNDECIDED
+c=17/21      : Cab_c genus 1 -> E [ 1, 0, 0, -19512243922290, 33147562116013172100 ] cond 42870991170  torsion [ 2 ]  rank 3..3  -> rank >= 3, UNDECIDED
+c=25/21      : Cab_c genus 1 -> E [ 1, 0, 0, -221933269331, 40239086908614561 ] cond 12325985490  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=18/13      : Cab_c genus 1 -> E [ 1, 0, 1, 22292367, 33006776056 ] cond 7129590  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+c=49/39      : Cab_c genus 1 -> E [ 1, 0, 0, -39484269341185, 93664912358532370697 ] cond 2362181751930  torsion [ 2 ]  rank 2..2  -> rank >= 2, UNDECIDED
+
+WARNING
+Class group unconditional proof is expensive.
+Hint: to obtain class group proven under GRH, input
+> SetClassGroupBounds("GRH");
+before starting the current calculation.
+
+
+# ---------------------------------------------------------------------------
+# RUN STOPPED 2026-07-25 13:40 by the agent after 38m55s on claude-box.
+# 71 of the 83 slices completed.  The 12 missing slices are the very-large-height
+# z-values taken from the recorded three-root hits
+#   -61/450, 625/114, -41/124, -16/17, 289/124, 297/133, 361/525, 50/33,
+#   189/155, 121/155, 49/36, 50/63
+# on which Magma's RankBounds enters an UNCONDITIONAL class-group proof for a
+# discriminant of ~11 digits (see the warning above) and does not return.
+# Resume, one slice at a time, with e.g.
+#   code/claude_magma_slot.sh -b MemGB:=6 ONLYN:=-61 ONLYD:=450 \
+#       code/claude_ov_c7z_cabrank.m > results/claude_ov_c7z_cabrank_cm61_450.log 2>&1 &
+# (add SetClassGroupBounds("GRH") to make those ranks conditional but fast).
+# RESULT OF THE 71 COMPLETED SLICES: exactly ONE has rank 0, namely c = 2/3
+# (conductor 48, torsion Z/8) -- see results/claude_ov_c7z_cabrank_c23.log for the
+# complete, gap-free enumeration of that slice.  c = 2 is the non-genus-1 control.
+# Every other completed slice has rank(Cab_c) >= 1.
+# ---------------------------------------------------------------------------

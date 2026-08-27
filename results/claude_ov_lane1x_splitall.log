@@ -1,0 +1,4 @@
+numeric check c4,c0 at (s,t)=(-13/49,13/50): 1219261/2381400  -28561/9525600
+residual quadratic at that point: v^2 + 13/1944*v + 169/1944
+  its discriminant: -1313975/3779136
+  D2 formula gives: -1313975/3779136

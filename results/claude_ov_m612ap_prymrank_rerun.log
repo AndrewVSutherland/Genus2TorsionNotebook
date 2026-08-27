@@ -1,0 +1,10 @@
+RankBounds(J(D)) = 1..1
+torsion invariants = []
+generator (Mumford): (x^2 + 2*x + 4, 5*x + 5)
+Cmin ~ Cpar isomorphism: [
+2*x + z,
+1/3*y,
+z
+]
+integral model ~ minimized: true
+PRYM_RANK_VERIFIED

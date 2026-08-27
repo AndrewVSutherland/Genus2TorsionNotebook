@@ -1,0 +1,8 @@
+RICH2 3 (-3, -3/4, -3/5) source torsion [2,2,14] : 3 rational (2,2)-neighbours
+NBR2 3.1 torsion = [ 2, 14 ]   order = 28
+     minmodel y^2 + (x^2 + x)*y = -231*x^6 - 357*x^5 + 159*x^4 - 1614*x^3 - 723*x^2 + 315*x + 525
+NBR2 3.2 torsion = [ 2, 14 ]   order = 28
+     minmodel y^2 + (x^2 + x)*y = 9*x^6 - 3*x^5 + 39*x^4 - 17*x^3 + 57*x^2 - 15*x + 25
+NBR2 3.3 torsion = [ 2, 2, 14 ]   order = 56
+     minmodel y^2 + (x^2 + x)*y = 9*x^6 - 69*x^5 + 123*x^4 + 94*x^3 - 183*x^2 - 165*x - 35
+

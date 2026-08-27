@@ -1,0 +1,29 @@
+P31_BOUNDARY_BASES total 196 signatures {'sheet': 4, 'x=w': 56, 'y=w': 56, 'y=z': 8, 'z=w': 56, 'x=z': 8, 'x=y': 8}
+P2 sheet p2_compatible 3844
+P2 sheet vR2_vS2 3844
+P2 x=w depth2 53816
+P2 x=w p2_compatible 53816
+P2 x=y depth1 7440
+P2 x=y depth2 248
+P2 x=y p2_compatible 7688
+P2 x=z depth1 7440
+P2 x=z depth2 248
+P2 x=z p2_compatible 7688
+P2 y=w depth2 53816
+P2 y=w p2_compatible 53816
+P2 y=z depth1 7440
+P2 y=z depth2 248
+P2 y=z p2_compatible 7688
+P2 z=w depth2 53816
+P2 z=w p2_compatible 53816
+P2_EXTERNAL_IDENTITY failures 0
+P3_INTERNAL_DEEP parents 744 children 714984
+P3 x=y depth2 230640
+P3 x=y depth3 7688
+P3 x=z depth2 230640
+P3 x=z depth3 7688
+P3 y=z depth2 230640
+P3 y=z depth3 7688
+P3_EXTERNAL_CANONICAL checks 161448 failures 0 depth_at_least_3_by_cubic_identity 1
+SCOPE p2 is exhaustive for every normalized finite p31 boundary base; p3 is exhaustive above internal depth>=2 classes and symbolic+canonical-check for external cubic-thick classes
+OUTPUT results/target_22224_p31_boundary_lifts_summary.tsv

@@ -1,0 +1,98 @@
+#########################################################################
+#          THE DEFINING EQUATION OF THE KUMMER SURFACE 
+#         AND ADDITION BY A RATIONAL DIVISOR OF ORDER 2.
+#
+# (The following gives the equations in Appendix A of the paper:
+#               `The Group Law on the Jacobian of a Curve of Genus 2').
+#
+# This file is available at:
+#   http://www.maths.ox.ac.uk/~flynn/genus2/kummer/defining.equations
+#
+# The following is suitable for input to MAPLE, but only uses facilities
+# which are common to all symbolic algebra packages. A few global exchanges
+# on a few symbols such as #  and  : should be sufficient to make
+# the file suitable for input to any other such package. Comment lines 
+# in MAPLE begin with the # symbol. Expressions for input are terminated by 
+# the : symbol (when we do not wish the result to be displayed) and by
+# the ; symbol (when we do wish the result to be displayed).
+#
+# Let C be the curve: 
+# C: Y**2 = f6*X**6 + f5*X**5 + f4*X**4 + f3*X**3 + f2*X**2 + f1*X + f0.
+#
+# For any divisor represented by {(x,y),(u,v)},
+# let (k1,k2,k3,k4) be the embedding of the Kummer surface given by: 
+# k1 := 1:  k2 := x+u:  k3 := x*u:  k4 := (f0xu-2*y*v)/((x-u)**2):  
+# ## where f0xu is: 
+# f0xu := 2*f0+f1*(x+u)+2*f2*(x*u)+f3*(x+u)*(x*u) 
+#              +2*f4*(x*u)**2+f5*(x+u)*(x*u)**2+2*f6*(x*u)**3:
+#
+# Then the defining equation of the Kummer surface is given by
+# the following homogeneous quartic: kummeqn.
+#########################################################################
+
+# The following command turns off the echoing as the file is read in.
+interface(quiet,quiet=true):
+# The following command supresses raised exponents in output expressions,
+#  and makes any output expressions suitable for future input.
+interface(prettyprint,prettyprint=false):
+
+kummeqn := R*k4**2+S*k4+T:
+
+# where R,S,T are as follows:
+
+R := k2**2-4*k1*k3:
+S := -4*k1**3*f0-2*k1**2*k2*f1-4*k1**2*k3*f2-2*k1*k2*k3*f3-4*k1*k3**2*f4-2*k2*
+k3**2*f5-4*k3**3*f6:
+T := -4*k1**4*f0*f2+k1**4*f1**2-4*k1**3*k2*f0*f3-2*k1**3*k3*f1*f3-4*k1**2*k2**2
+*f0*f4+4*k1**2*k2*k3*f0*f5-4*k1**2*k2*k3*f1*f4-4*k1**2*k3**2*f0*f6+2*k1**2*k3**
+2*f1*f5-4*k1**2*k3**2*f2*f4+k1**2*k3**2*f3**2-4*k1*k2**3*f0*f5+8*k1*k2**2*k3*f0
+*f6-4*k1*k2**2*k3*f1*f5+4*k1*k2*k3**2*f1*f6-4*k1*k2*k3**2*f2*f5-2*k1*k3**3*f3*
+f5-4*k2**4*f0*f6-4*k2**3*k3*f1*f6-4*k2**2*k3**2*f2*f6-4*k2*k3**3*f3*f6-4*k3**4*
+f4*f6+k3**4*f5**2:
+
+# The following command returns the echoing facility.
+interface(quiet,quiet=false):
+#########################################################################
+# Let us now suppose that our curve has the form:
+# C : Y**2 = g(X) * h(X)
+#          = (g2*X**2 + g1*X + g0) * (h4*X**4 + h3*X**3 + h2*X**2 + h1*X + h0):
+# so that there is a point on the Jacobian of order 2: bg,
+# which is defined over the ground field (corresponding to the roots of g(X)). 
+# Let Wg represent the linear map induced on the Kummer surface
+# by  k --> k + bg. Then Wg is given by the following 4 by 4 matrix.
+# We regard k as a column vector in k1,k2,k3,k4, so that the linear
+# map is given by Wg * k.
+# Note that Wg**2 (given by: multiply(Wg,Wg) in MAPLE) gives
+# the matrix: scalar*I , where scalar := resultant( g(X) , h(X) ):
+#########################################################################
+
+# The following command turns off the echoing as the file is read in.
+interface(quiet,quiet=true):
+# The following command loads MAPLE's linear algebra package.
+with(linalg):
+
+# The following command declares Wg as a 4 by 4 matrix.
+Wg := matrix(4,4):
+
+Wg[1,1] := g2^2*h0+g0*g2*h2-g0^2*h4:
+Wg[1,2] := g0*g2*h3-g0*g1*h4:
+Wg[1,3] := g1*g2*h3-g1^2*h4+2*g0*g2*h4:
+Wg[1,4] := g2:
+Wg[2,1] := -g0*g2*h1-g0*g1*h2+g0^2*h3:
+Wg[2,2] := g2^2*h0-g0*g2*h2+g0^2*h4:
+Wg[2,3] := g2^2*h1-g1*g2*h2-g0*g2*h3:
+Wg[2,4] := -g1:
+Wg[3,1] := -g1^2*h0+2*g0*g2*h0+g0*g1*h1:
+Wg[3,2] := -g1*g2*h0+g0*g2*h1:
+Wg[3,3] := -g2^2*h0+g0*g2*h2+g0^2*h4:
+Wg[3,4] := g0:
+Wg[4,1] := -g1*g2^2*h0*h1+g1^2*g2*h0*h2+g0*g2^2*h1^2-4*g0*g2^2*h0*h2-
+g0*g1*g2*h1*h2+g0*g1*g2*h0*h3-g0^2*g2*h1*h3:
+Wg[4,2] := g1^2*g2*h0*h3-g1^3*h0*h4-2*g0*g2^2*h0*h3-g0*g1*g2*h1*h3+
+4*g0*g1*g2*h0*h4+g0*g1^2*h1*h4-2*g0^2*g2*h1*h4:
+Wg[4,3] := -g0*g2^2*h1*h3-g0*g1*g2*h2*h3+g0*g1*g2*h1*h4+g0*g1^2*h2*h4+
+g0^2*g2*h3^2-4*g0^2*g2*h2*h4-g0^2*g1*h3*h4:
+Wg[4,4] := -g2^2*h0-g0*g2*h2-g0^2*h4:
+
+# The following command returns the echoing facility.
+interface(quiet,quiet=false):

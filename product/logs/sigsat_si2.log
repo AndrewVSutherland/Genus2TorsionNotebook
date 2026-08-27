@@ -1,0 +1,585 @@
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=2
+SATCERT2 u=2 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=3/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=3/2
+SATCERT2 u=3/2 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-1/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-1/3
+SATCERT2 u=-1/3 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=4 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=4
+SATCERT2 u=4 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-5
+SATCERT2 u=-5 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-3/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-3/5
+SATCERT2 u=-3/5 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-6 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-6
+SATCERT2 u=-6 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=-9/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-9/7
+SATCERT2 u=-9/7 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=-9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-9
+SATCERT2 u=-9 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=9/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=9/2
+SATCERT2 u=9/2 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-10 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-10
+SATCERT2 u=-10 r=2 m1lb=0.0200131841306320332102078205789 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-10/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-10/3
+SATCERT2 u=-10/3 r=2 m1lb=0.0202438506282487935179216496850 Bidx=179 (saturated to Bidx -> idx=1)
+SATFIX u=-11/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-11/5
+SATCERT2 u=-11/5 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=11/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=11/7
+SATCERT u=11/7 r=2 Rsub=5.09465842278562332740832645895 Teff=0.0258050990437534549475491030498 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=-11/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-11/3
+SATCERT2 u=-11/3 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=11 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=11
+SATCERT2 u=11 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-12 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-12
+SATCERT2 u=-12 r=2 m1lb=0.0200016473659333441254583137663 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=12 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=12
+SATCERT2 u=12 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=-13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-13
+SATCERT2 u=-13 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=14 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=14
+SATCERT2 u=14 r=2 m1lb=0.0213098796538893113769646941625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=15 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=15
+SATCERT2 u=15 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=15/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=15/8
+SATCERT2 u=15/8 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-16 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-16
+SATCERT2 u=-16 r=2 m1lb=0.0200016473659333441254583137663 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-16/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-16/5
+SATCERT2 u=-16/5 r=2 m1lb=0.0200003017430813193897005995730 Bidx=195 (saturated to Bidx -> idx=1)
+SATFIX u=18 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=18
+SATCERT2 u=18 r=2 m1lb=0.0200016473659333441254583137663 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-19/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-19/13
+SATCERT2 u=-19/13 r=3 m1lb=0.107730779659810091498672506841 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-19/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-19/9
+SATCERT2 u=-19/9 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=15/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=15/19
+SATCERT2 u=15/19 r=2 m1lb=0.0211837557538197564333622781091 Bidx=147 (saturated to Bidx -> idx=1)
+SATFIX u=-19/6 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-19/6
+SATCERT2 u=-19/6 r=2 m1lb=0.0205378336939190311935398980231 Bidx=190 (saturated to Bidx -> idx=1)
+SATFIX u=19/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=19/3
+SATCERT2 u=19/3 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=19
+SATCERT2 u=19 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=-22/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-22/3
+SATCERT2 u=-22/3 r=2 m1lb=0.0202438506282487935179216496850 Bidx=179 (saturated to Bidx -> idx=1)
+SATFIX u=-22 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-22
+SATCERT2 u=-22 r=2 m1lb=0.0200004550769732363234857909168 Bidx=258 (saturated to Bidx -> idx=1)
+SATFIX u=22 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=22
+SATCERT2 u=22 r=2 m1lb=0.0200016473659333441254583137663 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-23
+SATCERT2 u=-23 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-23/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-23/3
+SATCERT2 u=-23/3 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=15/23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=15/23
+SATCERT2 u=15/23 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=7/23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=7/23
+SATCERT2 u=7/23 r=2 m1lb=0.0272787669232251366020441978284 Bidx=124 (saturated to Bidx -> idx=1)
+SATFIX u=24/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=24/5
+SATCERT2 u=24/5 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-25/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-25/2
+SATCERT2 u=-25/2 r=2 m1lb=0.0200001910235377793189967070860 Bidx=223 (saturated to Bidx -> idx=1)
+SATFIX u=-25/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-25/3
+SATCERT2 u=-25/3 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-27/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-27/5
+SATCERT u=-27/5 r=2 Rsub=5.09465842278562332740832645895 Teff=0.0258050990437534549475491030498 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=28/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=28/3
+SATCERT2 u=28/3 r=2 m1lb=0.0202438506282487935179216496850 Bidx=179 (saturated to Bidx -> idx=1)
+SATFIX u=28 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=28
+SATCERT2 u=28 r=2 m1lb=0.0200004550769732363234857909168 Bidx=258 (saturated to Bidx -> idx=1)
+SATFIX u=29/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=29/5
+SATCERT2 u=29/5 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=29/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=29/3
+SATCERT2 u=29/3 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=29 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=29
+SATCERT2 u=29 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=31/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=31/7
+SATCERT u=31/7 r=2 Rsub=5.09465842278562332740832645895 Teff=0.0258050990437534549475491030498 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=32 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=32
+SATCERT2 u=32 r=2 m1lb=0.0226347607775804307147913891837 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-33/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-33/5
+SATCERT2 u=-33/5 r=2 m1lb=0.0200009906495651482799140814569 Bidx=175 (saturated to Bidx -> idx=1)
+SATFIX u=33/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/5
+SATCERT2 u=33/5 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=33/17 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/17
+SATCERT2 u=33/17 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=33/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=33/13
+SATCERT2 u=33/13 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-34 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-34
+SATOPENB u=-34 r=2 Rsub=31.5646203719382737734861789494 T=0.0642315318740365542484894488080 ub=18.7043498947109156915757921524 Bfull=135702359.251414614203269678595 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=-35 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-35
+SATCERT2 u=-35 r=2 m1lb=0.0206807268473553595160865250069 Bidx=239 (saturated to Bidx -> idx=1)
+SATFIX u=-36/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-36/5
+SATCERT2 u=-36/5 r=2 m1lb=0.0200003017430813193897005995730 Bidx=195 (saturated to Bidx -> idx=1)
+SATFIX u=-37/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-37/3
+SATCERT2 u=-37/3 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=37/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=37/2
+SATCERT2 u=37/2 r=2 m1lb=0.0200001910235377793189967070860 Bidx=223 (saturated to Bidx -> idx=1)
+SATFIX u=29/37 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=29/37
+SATCERT2 u=29/37 r=4 m1lb=0.272269466973069757978239630770 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=40/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=40/3
+SATCERT2 u=40/3 r=2 m1lb=0.0202438506282487935179216496850 Bidx=179 (saturated to Bidx -> idx=1)
+SATFIX u=41/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=41/3
+SATCERT2 u=41/3 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATFIX u=-23/41 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-23/41
+SATCERT2 u=-23/41 r=2 m1lb=0.0272787669232251366020441978284 Bidx=124 (saturated to Bidx -> idx=1)
+SATFIX u=43/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=43/3
+SATCERT2 u=43/3 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=43/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=43/19
+SATCERT u=43/19 r=2 Rsub=5.09465842278562332740832645895 Teff=0.0258050990437534549475491030498 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=-43/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-43/13
+SATCERT2 u=-43/13 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=45/41 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=45/41
+SATCERT2 u=45/41 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=45/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=45/13
+SATCERT2 u=45/13 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=46/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=46/5
+SATCERT2 u=46/5 r=2 m1lb=0.0200003017430813193897005995730 Bidx=195 (saturated to Bidx -> idx=1)
+SATFIX u=-47 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-47
+SATCERT2 u=-47 r=3 m1lb=0.105268790025451868460311244732 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-47/17 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-47/17
+SATCERT2 u=-47/17 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=47/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=47/3
+SATCERT2 u=47/3 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=51/23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=51/23
+SATCERT2 u=51/23 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=51/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=51/7
+SATCERT2 u=51/7 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=-53/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-53/5
+SATCERT2 u=-53/5 r=2 m1lb=0.0200009906495651482799140814569 Bidx=175 (saturated to Bidx -> idx=1)
+SATFIX u=-55/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-55/2
+SATOPENB u=-55/2 r=2 Rsub=15.0234160996494564901704524961 T=0.0443131213842020601933706503623 ub=16.7981508457917243504198268056 Bfull=20138638.5928315801424311673801 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=55/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=55/3
+SATCERT2 u=55/3 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-55/17 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-55/17
+SATCERT2 u=-55/17 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=55/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=55/7
+SATCERT2 u=55/7 r=2 m1lb=0.0201050598904591927844065935740 Bidx=199 (saturated to Bidx -> idx=1)
+SATFIX u=57/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=57/5
+SATCERT u=57/5 r=2 Rsub=5.09465842278562332740832645895 Teff=0.0258050990437534549475491030498 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=57 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=57
+SATCERT2 u=57 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=29/57 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=29/57
+SATCERT2 u=29/57 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-59/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-59/13
+SATCERT2 u=-59/13 r=2 m1lb=0.0200144541144421669840369500583 Bidx=241 (saturated to Bidx -> idx=1)
+SATFIX u=-59/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-59/3
+SATCERT2 u=-59/3 r=2 m1lb=0.0200004527945391944923066255623 Bidx=207 (saturated to Bidx -> idx=1)
+SATFIX u=-59/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-59/5
+SATCERT2 u=-59/5 r=3 m1lb=0.105268790025451868460311244732 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=45/61 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=45/61
+SATCERT2 u=45/61 r=4 m1lb=0.272269466973069757978239630770 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-61/15 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-61/15
+SATCERT2 u=-61/15 r=3 m1lb=0.107619193036173695693790234848 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=61/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=61/5
+SATCERT2 u=61/5 r=2 m1lb=0.0201899975833886858600708318394 Bidx=191 (saturated to Bidx -> idx=1)
+SATFIX u=-61/12 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-61/12
+SATCERT2 u=-61/12 r=2 m1lb=0.0205378336939190311935398980231 Bidx=190 (saturated to Bidx -> idx=1)
+SATFIX u=-63/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-63/2
+SATOPENB u=-63/2 r=2 Rsub=15.0234160996494564901704524961 T=0.0443131213842020601933706503623 ub=16.7981508457917243504198268056 Bfull=20138638.5928315801424311673801 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=63/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=63/5
+SATCERT2 u=63/5 r=2 m1lb=0.0200009906495651482799140814569 Bidx=175 (saturated to Bidx -> idx=1)
+SATFIX u=66/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=66/5
+SATCERT2 u=66/5 r=2 m1lb=0.0200003017430813193897005995730 Bidx=195 (saturated to Bidx -> idx=1)
+SATFIX u=-45/67 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-45/67
+SATCERT2 u=-45/67 r=4 m1lb=0.272269466973069757978239630770 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=67/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=67/19
+SATCERT2 u=67/19 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=67/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=67/2
+SATOPENB u=67/2 r=2 Rsub=15.0234160996494564901704524960 T=0.0443131213842020601933706503622 ub=16.7981508457917243504198268056 Bfull=20138638.5928315801424311673801 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=69/53 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=69/53
+SATCERT2 u=69/53 r=3 m1lb=0.107619193036173695693790234848 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=69/17 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=69/17
+SATCERT2 u=69/17 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-71/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-71/3
+SATCERT2 u=-71/3 r=2 m1lb=0.0200004527945391944923066255623 Bidx=207 (saturated to Bidx -> idx=1)
+SATFIX u=-71/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-71/7
+DRIVER: crash/kill at fiber 98 (rc=137), retrying once fresh
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=-71/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-71/7
+SATCERT2 u=-71/7 r=2 m1lb=0.0200000808762809298972949354584 Bidx=212 (saturated to Bidx -> idx=1)
+SATFIX u=71/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=71/19
+SATCERT u=71/19 r=2 Rsub=5.09465842278562332740832645897 Teff=0.0258050990437534549475491030499 ub=4.49536234276926280567427507277 B=92 Bidx=100 (idx=1)
+SATFIX u=73/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=73/9
+SATCERT2 u=73/9 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=75/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=75/2
+SATOPENB u=75/2 r=2 Rsub=15.0234160996494564901704524961 T=0.0443131213842020601933706503623 ub=16.7981508457917243504198268056 Bfull=20138638.5928315801424311673801 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=77/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=77/3
+SATCERT2 u=77/3 r=2 m1lb=0.0200004527945391944923066255623 Bidx=207 (saturated to Bidx -> idx=1)
+SATFIX u=-79/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-79/5
+SATCERT2 u=-79/5 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=79/31 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=79/31
+SATCERT2 u=79/31 r=3 m1lb=0.112147147302750223511726751192 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-53/83 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-53/83
+SATCERT2 u=-53/83 r=3 m1lb=0.111339470626421047758110113389 Bidx=293 (saturated to Bidx -> idx=1)
+SATFIX u=83/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=83/5
+SATCERT2 u=83/5 r=2 m1lb=0.0200009906495651482799140814569 Bidx=175 (saturated to Bidx -> idx=1)
+SATFIX u=-83/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-83/13
+SATCERT2 u=-83/13 r=3 m1lb=0.0798149219767845914638651045465 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-83/25 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-83/25
+SATCERT2 u=-83/25 r=3 m1lb=0.105268790025451868460311244732 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-85/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-85/19
+SATCERT2 u=-85/19 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=87/23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=87/23
+SATCERT2 u=87/23 r=3 m1lb=0.0808257394400461248901803557157 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-89/47 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-89/47
+SATCERT2 u=-89/47 r=3 m1lb=0.111339470626421047758110113389 Bidx=293 (saturated to Bidx -> idx=1)
+SATFIX u=89/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=89/3
+SATCERT2 u=89/3 r=2 m1lb=0.0200004527945391944923066255623 Bidx=207 (saturated to Bidx -> idx=1)
+SATFIX u=89/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=89/5
+SATCERT2 u=89/5 r=3 m1lb=0.105268790025451868460311244732 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-93/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-93/7
+SATCERT2 u=-93/7 r=2 m1lb=0.0258050990437534549475491030498 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-95 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-95
+SATCERT2 u=-95 r=2 m1lb=0.0200331708949733596533944681113 Bidx=203 (saturated to Bidx -> idx=1)
+SATFIX u=-99/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-99/5
+SATCERT2 u=-99/5 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-99/53 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-99/53
+SATCERT2 u=-99/53 r=4 m1lb=0.272269466973069757978239630770 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=99/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=99/19
+SATCERT2 u=99/19 r=2 m1lb=0.0211837557538197564333622781091 Bidx=147 (saturated to Bidx -> idx=1)
+SATFIX u=-99/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-99/7
+DRIVER: crash/kill at fiber 119 (rc=137), retrying once fresh
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=-99/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-99/7
+SATCERT2 u=-99/7 r=2 m1lb=0.0200000808762809298972949354584 Bidx=212 (saturated to Bidx -> idx=1)
+SATFIX u=99/92 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=99/92
+SATCERT2 u=99/92 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=101 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=101
+SATCERT2 u=101 r=2 m1lb=0.0200331708949733596533944681113 Bidx=203 (saturated to Bidx -> idx=1)
+SATFIX u=-103/25 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-103/25
+SATCERT2 u=-103/25 r=2 m1lb=0.0200021535984656088188180503850 Bidx=279 (saturated to Bidx -> idx=1)
+SATFIX u=-103/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-103/5
+SATCERT2 u=-103/5 r=3 m1lb=0.0798149219767845914638651045465 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=106/79 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=106/79
+SATCERT2 u=106/79 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=109/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=109/5
+SATCERT2 u=109/5 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-109/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-109/3
+SATCERT2 u=-109/3 r=3 m1lb=0.148980435168242760694632060514 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=111/47 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=111/47
+SATCERT2 u=111/47 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=113/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=113/7
+DRIVER: crash/kill at fiber 128 (rc=137), retrying once fresh
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=113/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=113/7
+SATCERT2 u=113/7 r=2 m1lb=0.0200000808762809298972949354584 Bidx=212 (saturated to Bidx -> idx=1)
+SATFIX u=-115/41 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-115/41
+SATCERT2 u=-115/41 r=2 m1lb=0.0211837557538197564333622781091 Bidx=147 (saturated to Bidx -> idx=1)
+SATFIX u=121/13 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=121/13
+SATCERT2 u=121/13 r=2 m1lb=0.0145224923297517790452060576516 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-121/15 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-121/15
+SATCERT2 u=-121/15 r=3 m1lb=0.107619193036173695693790234848 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-121/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-121/7
+SATCERT2 u=-121/7 r=2 m1lb=0.0200331708949733596533944681113 Bidx=203 (saturated to Bidx -> idx=1)
+SATFIX u=123/23 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=123/23
+SATCERT2 u=123/23 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=-123/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-123/5
+SATCERT2 u=-123/5 r=2 m1lb=0.0204214917712705584166868828479 Bidx=195 (saturated to Bidx -> idx=1)
+SATFIX u=-124 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-124
+SATCERT2 u=-124 r=2 m1lb=0.0200001910235377793189967070860 Bidx=223 (saturated to Bidx -> idx=1)
+TIMECAP 10800 s at fiber 136/1398
+SEARCH_DONE satcert Sig=2 fibers=1398 cert=0 certm=8 openB=0 openM=0 viol=0 skip=0 satfix=8 10819.620 s
+DRIVER: TimeCap at fiber 136, resuming
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=129/113 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=129/113
+SATOPENB u=129/113 r=3 Rsub=179.113787945652086281590185616 T=0.327470429102816553103847908116 ub=16.7454323018812674477301858130 Bfull=21941962.6616280416866371669870 (Teff<=0; plain saturation pushed to 20000: ok)
+SATFIX u=-129/19 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-129/19
+SATCERT2 u=-129/19 r=2 m1lb=0.0200229846146623771302415282027 Bidx=186 (saturated to Bidx -> idx=1)
+SATFIX u=-129/71 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-129/71
+SATCERT2 u=-129/71 r=2 m1lb=0.0184095040409501822531215536185 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=129/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=129/5
+SATCERT2 u=129/5 r=3 m1lb=0.0852113095084886817405517197625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=130 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=130
+SATCERT2 u=130 r=2 m1lb=0.0200001910235377793189967070860 Bidx=223 (saturated to Bidx -> idx=1)
+SATFIX u=133/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=133/5
+SATCERT2 u=133/5 r=3 m1lb=0.0798149219767845914638651045465 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=135/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=135/7
+SATCERT2 u=135/7 r=2 m1lb=0.0258050990437534549475491030498 Bidx=101 (saturated to Bidx -> idx=1)
+SATFIX u=9/137 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=9/137
+SATCERT2 u=9/137 r=3 m1lb=0.107730779659810091498672506841 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=141/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=141/7
+SATCERT2 u=141/7 r=2 m1lb=0.0200000808762809298972949354584 Bidx=212 (saturated to Bidx -> idx=1)
+TIMECAP 10800 s at fiber 145/1398
+SEARCH_DONE satcert Sig=2 fibers=1398 cert=0 certm=8 openB=1 openM=0 viol=0 skip=0 satfix=9 10834.990 s
+DRIVER: TimeCap at fiber 145, resuming
+Loading "split_lab.m"
+SATCERT LANE Sig=2 sg=[ 2, 1, 3 ] fibers=1398 PtsCap=2000000
+JOIN fibers=4113
+SATFIX u=149/17 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=149/17
+SATCERT2 u=149/17 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=-4/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-4/3
+SATCERT2 u=-4/3 r=3 m1lb=0.124387497757128511483763478204 Bidx=299 (saturated to Bidx -> idx=1)
+SATCERT2 u=4/3 r=2 m1lb=0.0259830001485266339437910147444 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=1/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=1/5
+SATCERT2 u=1/5 r=2 m1lb=0.0225371648590716766114559930042 Bidx=123 (saturated to Bidx -> idx=1)
+SATFIX u=-4/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-4/5
+SATCERT2 u=-4/5 r=2 m1lb=0.0316477199803684490164533846823 Bidx=287 (saturated to Bidx -> idx=1)
+SATFIX u=5/4 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=5/4
+SATCERT2 u=5/4 r=2 m1lb=0.0218885673281911933092986999924 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=5/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=5/2
+SATCERT2 u=5/2 r=2 m1lb=0.0200148146610113620812513561614 Bidx=275 (saturated to Bidx -> idx=1)
+SATFIX u=5/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=5/3
+SATCERT2 u=5/3 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=6/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=6/5
+SATCERT2 u=6/5 r=2 m1lb=0.0200168590242622601899278457290 Bidx=144 (saturated to Bidx -> idx=1)
+SATCERT2 u=-5/6 r=3 m1lb=0.251947951596329846842533730262 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-1/6 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-1/6
+SATCERT2 u=-1/6 r=3 m1lb=0.231007200118449508873656319097 Bidx=299 (saturated to Bidx -> idx=1)
+SATCERT2 u=7/6 r=2 m1lb=0.0361760920163123368930473373558 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=7/2 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=7/2
+SATCERT2 u=7/2 r=2 m1lb=0.0200148146610113620812513561614 Bidx=275 (saturated to Bidx -> idx=1)
+SATSKIP u=-7/6 not-complete-here (bounds=[3,3] gens=2)
+SATCERT2 u=-5/7 r=2 m1lb=0.0257089078881051354348451048325 Bidx=284 (saturated to Bidx -> idx=1)
+SATFIX u=-2/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-2/7
+SATCERT2 u=-2/7 r=3 m1lb=0.149916493110749888620470098742 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=7/4 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=7/4
+SATCERT2 u=7/4 r=2 m1lb=0.0200009906495651482799140814569 Bidx=175 (saturated to Bidx -> idx=1)
+SATFIX u=8/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=8/7
+SATCERT2 u=8/7 r=2 m1lb=0.0227142959110618998184584647028 Bidx=299 (saturated to Bidx -> idx=1)
+SATCERT2 u=8/5 r=2 m1lb=0.0488031372342264378809501706664 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=8/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=8/3
+SATCERT2 u=8/3 r=2 m1lb=0.0200034633656346561268319732606 Bidx=283 (saturated to Bidx -> idx=1)
+SATFIX u=-5/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-5/8
+SATCERT2 u=-5/8 r=2 m1lb=0.0381906821089466041861869186340 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=3/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=3/8
+SATCERT2 u=3/8 r=2 m1lb=0.0289775482476548701332521985949 Bidx=298 (saturated to Bidx -> idx=1)
+SATFIX u=-8/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-8/7
+SATCERT2 u=-8/7 r=3 m1lb=0.251230869790016493678321460719 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-3/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-3/8
+SATCERT2 u=-3/8 r=3 m1lb=0.119494640909186991170664772008 Bidx=299 (saturated to Bidx -> idx=1)
+SATCERT2 u=-1/8 r=2 m1lb=0.0441066935676867115965547271141 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=5/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=5/8
+SATCERT2 u=5/8 r=3 m1lb=0.171489282645656917528304065025 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-8
+SATCERT2 u=-8 r=2 m1lb=0.0213098796538893113769646941625 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=9/4 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=9/4
+SATCERT2 u=9/4 r=2 m1lb=0.0200293886991641109539565461490 Bidx=198 (saturated to Bidx -> idx=1)
+SATFIX u=9/8 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=9/8
+SATCERT2 u=9/8 r=2 m1lb=0.0200022110738967068823350209288 Bidx=182 (saturated to Bidx -> idx=1)
+SATFIX u=2/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=2/9
+SATCERT2 u=2/9 r=3 m1lb=0.295634855710705865134358678965 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=1/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=1/9
+SATCERT2 u=1/9 r=2 m1lb=0.0204739929268607526874766368731 Bidx=295 (saturated to Bidx -> idx=1)
+SATFIX u=-5/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-5/9
+SATCERT2 u=-5/9 r=3 m1lb=0.119494640909186991170664772008 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-7/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-7/9
+SATCERT2 u=-7/9 r=2 m1lb=0.0284517653525267878724223183062 Bidx=293 (saturated to Bidx -> idx=1)
+SATFIX u=10/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=10/7
+SATCERT2 u=10/7 r=2 m1lb=0.0280699909837337006993985914615 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-9/10 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-9/10
+SATCERT2 u=-9/10 r=3 m1lb=0.159363709391283479669876432943 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-10/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-10/7
+SATCERT2 u=-10/7 r=3 m1lb=0.292019461113484911072504258076 Bidx=299 (saturated to Bidx -> idx=1)
+SATCERT2 u=10/9 r=2 m1lb=0.0292537432466469314302402907720 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=-1/10 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-1/10
+SATCERT2 u=-1/10 r=3 m1lb=0.262358854580288057595008305187 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=10/3 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=10/3
+SATCERT2 u=10/3 r=2 m1lb=0.0200034633656346561268319732606 Bidx=283 (saturated to Bidx -> idx=1)
+SATFIX u=-5/11 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-5/11
+SATCERT2 u=-5/11 r=2 m1lb=0.0201190763878768826112326038175 Bidx=200 (saturated to Bidx -> idx=1)
+SATFIX u=-11/7 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-11/7
+SATCERT2 u=-11/7 r=2 m1lb=0.0289775482476548701332521985949 Bidx=298 (saturated to Bidx -> idx=1)
+SATFIX u=11/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=11/9
+SATCERT2 u=11/9 r=2 m1lb=0.0200034633656346561268319732606 Bidx=283 (saturated to Bidx -> idx=1)
+SATFIX u=-11/9 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=-11/9
+SATCERT2 u=-11/9 r=2 m1lb=0.0256801594246137600717966933583 Bidx=298 (saturated to Bidx -> idx=1)
+SATFIX u=11/5 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=11/5
+SATCERT2 u=11/5 r=2 m1lb=0.0200016473659333441254583137663 Bidx=144 (saturated to Bidx -> idx=1)
+SATCERT2 u=-11/2 r=2 m1lb=0.0262672355818700249638627921485 Bidx=299 (saturated to Bidx -> idx=1)
+SATFIX u=7/11 - saturation at <=100 ENLARGED the lattice (old boxes ran on a sublattice)
+SATFIXBOX u=7/11
+SATCERT2 u=7/11 r=2 m1lb=0.0309676069530276853273299516925 Bidx=295 (saturated to Bidx -> idx=1)

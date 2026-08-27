@@ -1,0 +1,51 @@
+# *** SECOND geometrically simple (2,2,2,12) genus-2 Jacobian /Q (2026-07-18) ***
+# Found by lane C (structure) via the LAW-TARGETED T5 sweep (lawsweep.c):
+# PROVEN LAW: on the T5 pencil, V'1*V'2 == rho'(rho'-1) mod squares, so any
+# point passing conditions V'1,V'2 has rn(rn-rd) = square, i.e. (up to the
+# involution sigma) rho' = -a^2/(c^2-a^2).  Sweeping ONLY such members
+# (coprime a<c<=301, u-height<=1000) found this curve in 71 seconds.
+#
+# Representative: (u, rho') = (-23/75, -9025/3519)   [(a,c) = (95,112)]
+# (s,m,n) = (2208, -8303, -7200)   [chart of M(2,2,2,6), A = [1,1,1,2,2]]
+# B = [25648128, -36568896, -52466496, -59781600, 23309856]
+# Curve:  y^2 = prod_{i=1..5} (A_i + B_i x)
+#
+# TORSION INVARIANTS = [2, 2, 2, 12]  (exact, Magma TorsionSubgroup, order 96)
+# SIMPLICITY CERTIFICATES (chi irred deg 4 AND chi^12 irred deg 4):
+#   p=71:  chi = x^4 - 8x^3 + 46x^2 - 568x + 5041
+#   p=103: chi = x^4 - 4x^3 - 18x^2 - 412x + 10609
+#   p=127: chi = x^4 - 8x^3 + 158x^2 - 1016x + 16129
+#
+# Reduced minimal Weierstrass model:
+#   y^2 + (x^2 + x)*y = 36*x^6 + 36750*x^5 - 462983772*x^4 - 301623595823*x^3
+#     + 1518598238654317*x^2 + 397058962729817115*x - 1282993930035013443975
+# disc(min model) = 2^24 3^10 5^12 7^12 11^12 13^12 17^2 19^12 23^4 41^2 73^2
+#                   109^4 193^2 241^4 263^2 409^2
+# Igusa invariants (min model):
+#   [ 46927972873876070937840881,
+#     87432473125940615223998113371388578672814296260000,
+#     205444159151134794843651681354448789744633203751685731037589530784000000000,
+#     499160142705601030139631422849167914733547312819677910511728524681203502316158683751032679100000000,
+#     80555305668714798821273453211978701165384881364366063777249899756695218220841945965848560018846993868427264000000000000 ]
+# G2Invariants distinct from curve #1 (claude_prod_02_22212_hit.txt) => NEW CURVE.
+#
+# ALL SIX known representations of THIS curve on the T5 pencil (u=p/q, rho'=rn/rd),
+# verified [2,2,2,12] + 3 certs each (batch5.m):
+#   (u, rho') = (-23/75,  -9025/3519)    (a,c)=(95,112)   tau-partner: (265/361, same member)
+#   (u, rho') = (265/169, -4225/3519)    (a,c)=(65,88)    tau-partner: (271/150, same member)
+#   (u, rho') = (-23/338, -33124/10557)  (a,c)=(182,209)  tau-partner: (271/392, same member)
+#   (plus sigma-images of the three members: rho' -> 1-rho' = c^2/(c^2-a^2),
+#    u -> (4u-3)/(4u-4))
+# NOTE (182,209): a EVEN — refutes the empirical "odd squares only" law.
+#
+# The curve-1 orbit (same sweep) also gained two NEW member-triples:
+#   (169/48, -169/34800) (a,c)=(13,187) and (169/290, -169/5760) (a,c)=(13,77)
+#   both G2-identical to the known hit (-97/48, -49/240) (a,c)=(7,17);
+#   plus tau-images (3637/7105, -49/240) and sigma-images verified.
+#   => hit members come in TRIPLES per curve: a third (not yet explicit)
+#   moduli identification exists beyond <sigma,tau>.
+#
+# INVOLUTIONS (proven; see notes/claude_sib_C_structure.md):
+#   tau:   (u,rho') -> ((4rho'u-3rho'-1)/(4rho'(u-1)), rho')  [relabeling (12); exact]
+#   sigma: (u,rho') -> ((4u-3)/(4u-4), 1-rho')                [relabeling (12)(5 inf)]
+#   <sigma,tau> = (Z/2)^2; sigma*tau = (u,rho')->((rho'u-1)/(rho'-1), 1-rho') = (5 inf)

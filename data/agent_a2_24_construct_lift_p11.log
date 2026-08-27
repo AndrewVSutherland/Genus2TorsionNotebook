@@ -1,0 +1,3 @@
+CONSTRUCT LIFT p=11 prec=40 sweep=+-1
+generic order-24 seeds: 92
+DONE tried=828 lifted=774 reconstructed=0 verified24=0

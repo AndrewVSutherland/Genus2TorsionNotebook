@@ -1,0 +1,52 @@
+SEED BLP_C1 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=5308416*x^6 - 10616832*x^5 - 18358272*x^4 + 8847360*x^3 + 38101248*x^2 + 28389888*x + 8342784
+DONE BLP_C1 neighbours=0
+SEED BLP_C2 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=1121144263281*x^6 - 2242288526562*x^5 + 5041335768903*x^4 - 33449104842300*x^3 + 10004276009007*x^2 - 84413195382978*x + 94665909373497
+DONE BLP_C2 neighbours=0
+SEED BLP_C3 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=13841287201*x^6 - 27682574402*x^5 + 8191782221*x^4 - 80222970716*x^3 + 56564227412*x^2 - 12359733344*x + 94156847680
+DONE BLP_C3 neighbours=0
+SEED BLP_C4corr type=[ 1, 1, 2, 2 ] 2rank=2 torsion=[ 2, 22 ] discsig={} f=387420489*x^6 - 774840978*x^5 - 19136658969*x^4 - 11970177084*x^3 + 50725393911*x^2 - 12638178738*x - 6592958631
+ERROR BLP_C4corr Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+SEED BLP_C5=X023 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=23298085122481*x^6 - 46596170244962*x^5 - 15578009578937*x^4 - 466597972412*x^3 - 2076034684945*x^2 + 311609135422*x - 101937379271
+ERROR BLP_C5=X023 Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+SEED BLP_C6 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=23298085122481*x^6 - 46596170244962*x^5 + 10615103872373*x^4 + 9904602414382*x^3 - 1310063537926*x^2 - 361933446056*x + 48427374697
+ERROR BLP_C6 Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+SEED BLP_C7 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=3831916411125625*x^6 - 7663832822251250*x^5 + 3636605436154125*x^4 + 460790881454500*x^3 - 1604363338450100*x^2 + 981613792724400*x + 495072224499600
+DONE BLP_C7 neighbours=0
+SEED BLP_C8 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=47192401215610641*x^6 - 94384802431221282*x^5 + 53506494111816909*x^4 + 3060990268140564*x^3 - 18581157677413116*x^2 + 6166740278731968*x + 3202805920386816
+DONE BLP_C8 neighbours=0
+SEED BLP_C9 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=20591228579666481*x^6 - 41182457159332962*x^5 + 31444640154256527*x^4 - 99155558008972476*x^3 + 76930881316100559*x^2 - 31805844086173410*x + 79891038689251185
+DONE BLP_C9 neighbours=0
+SEED BLP_C10 type=[ 3, 3 ] 2rank=0 torsion=[ 11 ] discsig={} f=976562500000000*x^6 - 1953125000000000*x^5 + 3735156250000000*x^4 - 6022500000000000*x^3 + 6752037656250000*x^2 - 4240338187500000*x + 1036255781250000
+DONE BLP_C10 neighbours=0
+SEED BLP_Ct1 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=x^6 - 2*x^5 - 69*x^4 + 124*x^3 + 787*x^2 - 354*x + 345
+DONE BLP_Ct1 neighbours=0
+SEED BLP_Ct2 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=19613162255625*x^6 - 39226324511250*x^5 - 20517143396625*x^4 + 1312924990500*x^3 + 571817229975*x^2 + 529855534350*x + 99038459025
+DONE BLP_Ct2 neighbours=0
+SEED BLP_Ct3 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=104976*x^6 - 209952*x^5 - 1213056*x^4 + 2636064*x^3 + 7679124*x^2 - 1794312*x - 7202844
+DONE BLP_Ct3 neighbours=0
+SEED BLP_Ct4 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=531441*x^6 - 1062882*x^5 - 113118201*x^4 - 48262716*x^3 + 9037318959*x^2 + 11713908798*x - 264804315399
+DONE BLP_Ct4 neighbours=0
+SEED BLP_Ct5 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=1121144263281*x^6 - 2242288526562*x^5 + 2600749617543*x^4 - 2767450368060*x^3 + 1457243691183*x^2 - 758725224642*x + 155150912889
+DONE BLP_Ct5 neighbours=0
+SEED BLP_Ct7 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=7535366532507121*x^6 - 15070733065014242*x^5 - 20043897045736179*x^4 + 58092766694957764*x^3 - 3849311878394444*x^2 - 55579472655204960*x + 28480356253952064
+DONE BLP_Ct7 neighbours=0
+SEED BLP_Ct8 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=3138428376721*x^6 - 6276856753442*x^5 + 5887795384427*x^4 - 7536000820436*x^3 + 2610676811699*x^2 - 1086409783250*x - 126445166375
+DONE BLP_Ct8 neighbours=0
+SEED BLP_Ct9 type=[ 1, 2, 3 ] 2rank=1 torsion=[ 22 ] discsig={} f=2213314919066161*x^6 - 4426629838132322*x^5 + 3623460158360391*x^4 - 2711867412134716*x^3 + 900247726114287*x^2 - 216965911720514*x + 16232005092025
+DONE BLP_Ct9 neighbours=0
+SEED DB_1192a type=[ 1, 1, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=x^6 + 2*x^4 + 4*x^3 - 7*x^2 - 4*x + 4
+DONE DB_1192a neighbours=0
+SEED Nicholls_22 type=[ 2, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=4*x^6 - 12*x^5 + 17*x^4 - 16*x^3 + 14*x^2 - 4*x + 1
+NB Nicholls_22 idx=1 type=[ 2, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=1456*x^6 + 336*x^5 - 1372*x^4 + 224*x^3 + 2744*x^2 - 2800*x + 1092
+DONE Nicholls_22 neighbours=1
+SEED Leprevost_f22 type=[ 2, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=4*x^6 - 8*x^5 + 8*x^4 - 12*x^3 + 17*x^2 - 12*x + 4
+ERROR Leprevost_f22 Runtime error in 'TorsionSubgroup': TorsionSubgroup needs a curve of the form  y^2 = f(x), where f has integral coefficients.
+SEED Petrunin_q22 type=[ 1, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=16*x^5 - 16*x^3 + x^2 + 2*x + 1
+DONE Petrunin_q22 neighbours=0
+SEED Flynn62_n1 type=[ 2, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=16*x^6 + 32*x^5 + 56*x^4 + 32*x^3 + 17*x^2 + 6*x + 1
+NB Flynn62_n1 idx=1 type=[ 2, 4 ] 2rank=1 torsion=[ 22 ] discsig={} f=4368*x^6 + 5600*x^5 + 2744*x^4 - 112*x^3 - 343*x^2 - 42*x + 91
+DONE Flynn62_n1 neighbours=1
+SEED CONTROL_rank1 type=[ 2, 4 ] 2rank=1 torsion=[ 2 ] discsig={} f=x^6 + x^5 - 3*x^4 - 4*x^3 - 2*x^2 + 2*x + 2
+NB CONTROL_rank1 idx=1 type=[ 1, 4 ] 2rank=1 torsion=[ 2 ] discsig={} f=-2*x^5 - 24*x^4 - 64*x^3 - 32*x^2 - 4*x
+DONE CONTROL_rank1 neighbours=1
+SPORADIC_DONE seeds=24

@@ -1,0 +1,28 @@
+Contact-6 core slice search: height-20 simple-only summary
+
+Command:
+  magma -b height:=20 max_hits:=20 progress_interval:=10000 \
+    simple_only:=true code/contact6_m36_core_slice_search.m
+
+Done
+checked_slices 260099
+slice_solutions 1102
+verified 6
+hits 6
+
+All six hits are the same geometrically simple curve
+
+  a = 133/39
+  b = -7/13
+  torsion = [6,6]
+  simplicity prime = 23
+  f = 11389248*x^5 - 18252000*x^4 + 42399396*x^3
+      - 10288044*x^2 + 29659500*x
+
+They arise from three cubic-contact representations and the sign of L:
+
+  L = +/-29/16, U = -9/4,  v = 5/2
+  L = +/-13/4,  U = -17/2, v = -5/4
+  L = +/-3/16,  U = 5/12,  v = 5/6
+
+No new curve occurs through height 20.

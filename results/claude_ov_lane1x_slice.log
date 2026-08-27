@@ -1,0 +1,29 @@
+== R in (p,q,c) ==
+deg_p=3 deg_q=3 deg_c=3
+Rpq = (2*c^3 + 4*c^2 + 2*c)*p^3 + ((4*c^3 + 10*c^2 + 8*c + 2)*q + (4*c^3 + 4*c^2 + c))*p^2 + ((2*c^3 + 8*c^2 + 10*c + 4)*q^2 + (4*c^3 + 4*c^2 + 2*c + 1)*q + (2*c^3 + c^2))*p + (2*c^2 + 4*c + 2)*q^3
+
+-- terms of Rpq grouped by total (p,q)-degree --
+  deg 1: (2*c^3 + c^2)*p
+  deg 2: (4*c^3 + 4*c^2 + c)*p^2 + (4*c^3 + 4*c^2 + 2*c + 1)*q*p
+  deg 3: (2*c^3 + 4*c^2 + 2*c)*p^3 + (4*c^3 + 10*c^2 + 8*c + 2)*q*p^2 + (2*c^3 + 8*c^2 + 10*c + 4)*q^2*p + (2*c^2 + 4*c + 2)*q^3
+
+== c = -1/2 plane cubic in (p,q) ==
+  -p^3 + (3*q^2 + 2*q)*p + 2*q^3  = 0
+  value at (0,0): 0
+  lowest-degree part at origin: 2*p*q  (nondegenerate quadratic => NODE)
+  after p = m*q, dividing by q^2: (-m^3 + 3*m + 2)*q + 2*m
+  => q(m) = 2*m/(m^3 - 3*m - 2) = Mat([m, 1]) / [m - 2, 1; m + 1, 2]
+  => p(m) = 2*m^2/(m^3 - 3*m - 2)
+  p^2-4q = (-4*m^4 + 24*m^2 + 16*m)/(m^6 - 6*m^4 - 4*m^3 + 9*m^2 + 12*m + 4)
+     numerator   = [m, 1; m + 2, 1; m^2 - 2*m - 2, 1]
+     denominator = [m - 2, 2; m + 1, 4]
+
+== the five known u=-1/2 points, in m ==
+  (s,t)=[-10, -10/7]  p=-80/7 q=100/7  m=-4/5  -m^4+6m^2+4m = 144/625  issquare: 1
+  (s,t)=[-15/8, -15/19]  p=-405/152 q=225/152  m=-9/5  -m^4+6m^2+4m = 1089/625  issquare: 1
+  (s,t)=[-511/61, -511/625]  p=-350546/38125 q=261121/38125  m=-98/73  -m^4+6m^2+4m = 62346816/28398241  issquare: 1
+  (s,t)=[-164/297, 164/361]  p=-10496/107217 q=-26896/107217  m=16/41  -m^4+6m^2+4m = 6927424/2825761  issquare: 1
+  (s,t)=[-13/49, 13/50]  p=-13/2450 q=-169/2450  m=1/13  -m^4+6m^2+4m = 9801/28561  issquare: 1
+
+== the elliptic quartic  w^2 = -m^4 + 6 m^2 + 4 m = -m(m+2)(m^2-2m-2) ==
+  check factorisation: [m, 1; m + 2, 1; m^2 - 2*m - 2, 1]

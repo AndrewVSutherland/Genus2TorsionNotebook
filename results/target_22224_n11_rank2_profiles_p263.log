@@ -1,0 +1,15 @@
+N11_RANK2_MWSIEVE_START N 1000 primes [ 239, 241, 251, 257, 263 ]
+E Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+rank_bounds 2 2 generators [ (4310 : 176400 : 1), (26360 : -4013100 : 1), (28265/4 : 1466325/8 : 1) ]
+known_t 1/13
+N11_PRIME_PROFILE p 239 orders 58 116 total 26912 third_fail 12412 open_no3 10092 open_3 3248 boundary 1160 allowed 4408
+N11_PRIORITY_CLASSES p 239 boundary_count 1160 open_3_count 3248 full_list_in results/target_22224_n11_rank2_profiles_p263.tsv
+N11_PRIME_PROFILE p 241 orders 60 20 total 4800 third_fail 2020 open_no3 1900 open_3 640 boundary 240 allowed 880
+N11_PRIORITY_CLASSES p 241 boundary_count 240 open_3_count 640 full_list_in results/target_22224_n11_rank2_profiles_p263.tsv
+N11_PRIME_PROFILE p 251 orders 124 31 total 15376 third_fail 6944 open_no3 4216 open_3 3472 boundary 744 allowed 4216
+N11_PRIORITY_CLASSES p 251 boundary_count 744 open_3_count 3472 full_list_in results/target_22224_n11_rank2_profiles_p263.tsv
+N11_PRIME_PROFILE p 257 orders 60 60 total 14400 third_fail 6300 open_no3 4260 open_3 3120 boundary 720 allowed 3840
+N11_PRIORITY_CLASSES p 257 boundary_count 720 open_3_count 3120 full_list_in results/target_22224_n11_rank2_profiles_p263.tsv
+N11_PRIME_PROFILE p 263 orders 72 144 total 41472 third_fail 15264 open_no3 11520 open_3 11232 boundary 3456 allowed 14688
+N11_PRIORITY_CLASSES p 263 boundary_count 3456 open_3_count 11232 full_list_in results/target_22224_n11_rank2_profiles_p263.tsv
+N11_PROFILE_ONLY_DONE results/target_22224_n11_rank2_profiles_p263.tsv

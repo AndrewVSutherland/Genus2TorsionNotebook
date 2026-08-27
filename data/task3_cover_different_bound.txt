@@ -1,0 +1,30 @@
+degree16_factor_degrees [(16, 1)]
+A_factor_degrees [(8, 1)]
+B_factor_degrees [(104, 1)]
+C_factorization (-4) * (t - 1) * (t + 1) * t^3 * (t^2 + 1) * (t^2 + t + 1)
+Phi_factor_degrees [(4, 1)]
+A_B_squarefree 0 0
+pairwise_gcd_degrees 0 0 0
+Phi_gcd_degrees 0 0 0
+C_distinct_geometric_roots 7
+binary_discriminant_support_exponents A^2 B C^2 / Phi^14
+geometric_boundary_points 124
+A_certificate 29 2
+A_horizontal_value_derivative 0 5
+A_other_support_values [26, 4, 2]
+A_h_integral True
+A_residual_factor_degrees [(4, 1), (4, 1), (4, 1), (4, 1)]
+A_residual_gcd_degree 0
+B_certificate 41 19
+B_horizontal_value_derivative 0 39
+B_other_support_values [6, 38, 6]
+B_h_integral True
+B_residual_factor_degrees [(2, 1), (2, 1), (6, 1), (6, 1)]
+B_residual_gcd_degree 0
+unramified_large_boundary_points 112
+remaining_boundary_points 12
+rigorous_total_different_upper_bound 180
+rigorous_genus_upper_bound 75
+exploratory_puiseux_genus_upper_bound 57
+puiseux_candidate_total_different 96
+puiseux_candidate_genus 33

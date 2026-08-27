@@ -1,0 +1,37 @@
+BOX shard=3/328 npr=8 minnt=6 dedupe=1 t5=0 tasks=810 threads=192 ranges [-40,40] [-40,40] [-40,40] [-40,40] [-40,40] [-40,40] [-40,40]
+SURV -38 31 -6 -29 -40 9 2 nt=7
+PROGRESS tasks=32/810 tested=1269894172 surv=0 133.6s eta=3248s
+PROGRESS tasks=64/810 tested=2647388419 surv=0 166.6s eta=1942s
+PROGRESS tasks=96/810 tested=4024882666 surv=0 176.3s eta=1311s
+PROGRESS tasks=128/810 tested=5402377243 surv=0 180.1s eta=960s
+PROGRESS tasks=160/810 tested=6779871655 surv=1 184.5s eta=750s
+PROGRESS tasks=192/810 tested=8135846482 surv=1 200.8s eta=646s
+PROGRESS tasks=224/810 tested=9491820894 surv=1 251.7s eta=658s
+PROGRESS tasks=256/810 tested=10783234816 surv=1 281.5s eta=609s
+PROGRESS tasks=288/810 tested=12160729393 surv=1 321.7s eta=583s
+PROGRESS tasks=320/810 tested=13538223640 surv=1 335.6s eta=514s
+PROGRESS tasks=352/810 tested=14915717722 surv=1 342.8s eta=446s
+PROGRESS tasks=384/810 tested=16293211969 surv=1 349.4s eta=388s
+PROGRESS tasks=416/810 tested=17649089170 surv=1 367.8s eta=348s
+PROGRESS tasks=448/810 tested=19004869351 surv=1 419.7s eta=339s
+PROGRESS tasks=480/810 tested=20338643359 surv=1 447.6s eta=308s
+PROGRESS tasks=512/810 tested=21715749304 surv=1 466.7s eta=272s
+PROGRESS tasks=544/810 tested=23070848746 surv=1 479.9s eta=235s
+PROGRESS tasks=576/810 tested=24426045814 surv=1 486.9s eta=198s
+PROGRESS tasks=608/810 tested=25802762962 surv=1 497.3s eta=165s
+PROGRESS tasks=640/810 tested=27179285629 surv=1 522.5s eta=139s
+PROGRESS tasks=672/810 tested=28513059472 surv=1 539.8s eta=111s
+PROGRESS tasks=704/810 tested=29868353395 surv=1 558.7s eta=84s
+PROGRESS tasks=736/810 tested=31244876062 surv=1 569.8s eta=57s
+PROGRESS tasks=768/810 tested=32621593210 surv=1 573.9s eta=31s
+PROGRESS tasks=800/810 tested=33997921231 surv=1 579.3s eta=7s
+BOX_DONE shard=3/328 enum=34437442410 skip=9248450 tested=34428193960 lowntdrop=6514804 surv=1 wall=583.87s
+PRIME p=37 tested=32639081922 passed=1134105806 rate=0.03475 (1/31=0.03226)
+PRIME p=41 tested=2847420856 passed=94841452 rate=0.03331 (1/31=0.03226)
+PRIME p=43 tested=160403627 passed=5187271 rate=0.03234 (1/31=0.03226)
+PRIME p=47 tested=8722371 passed=274864 rate=0.03151 (1/31=0.03226)
+PRIME p=53 tested=451347 passed=14613 rate=0.03238 (1/31=0.03226)
+PRIME p=59 tested=22635 passed=755 rate=0.03336 (1/31=0.03226)
+PRIME p=61 tested=1144 passed=35 rate=0.03059 (1/31=0.03226)
+PRIME p=67 tested=50 passed=1 rate=0.02000 (1/31=0.03226)
+RATE tested_per_sec=5.897e+07 per_core=3.071e+05 (threads=192)

@@ -1,0 +1,28 @@
+Loading "code/blp22_locus_rm_test2.m0"
+SELFTEST_PASS (mod-p order-11 points exist on slice 2: 9 found)
+PARAM_VALUES 87 (H=8)
+PROGRESS fibers=25 hits=0
+PROGRESS fibers=50 hits=0
+PROGRESS fibers=75 hits=0
+PROGRESS fibers=100 hits=0
+PROGRESS fibers=125 hits=0
+PROGRESS fibers=150 hits=0
+PROGRESS fibers=175 hits=0
+PROGRESS fibers=200 hits=0
+PROGRESS fibers=225 hits=0
+PROGRESS fibers=250 hits=0
+PROGRESS fibers=275 hits=0
+PROGRESS fibers=300 hits=0
+PROGRESS fibers=325 hits=0
+PROGRESS fibers=350 hits=0
+PROGRESS fibers=375 hits=0
+PROGRESS fibers=400 hits=0
+PROGRESS fibers=425 hits=0
+PROGRESS fibers=450 hits=0
+PROGRESS fibers=475 hits=0
+PROGRESS fibers=500 hits=0
+PROGRESS fibers=525 hits=0
+PROGRESS fibers=550 hits=0
+PROGRESS fibers=575 hits=0
+PROGRESS fibers=600 hits=0
+FAST_SWEEP_DONE H=8 Part=3/6 fibers=623 hits=0

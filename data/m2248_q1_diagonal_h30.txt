@@ -1,0 +1,11 @@
+M2248 q^2=1 diagonal search
+dn_height 30 params 1111
+identity sigma=rho/tau, F0=rho^2, C=rho^2/d^2, F2=rho^2*F1
+dn_checked 1232100
+valid_surface 1227002
+f1_square 916
+f4_square 1410
+both_square 0
+unique_full 0
+simple_certified 0
+DONE

@@ -1,0 +1,15 @@
+P8_LIGHT_START fixed [ 528, -726, -891 ]
+d0 50 known_t 19/5 explicit_conics [
+25*T^2 + 264,
+-50*T^2 + 726,
+-50*T^2 + 891
+]
+P8_LIGHT_QUOTIENT <1, 2> quartic -625/97682*T^4 + 2475/97682*T^2 + 47916/48841
+rank_bounds 2 2 torsion [ 2 ]
+minimal Elliptic Curve defined by y^2 = x^3 + 1520244*x + 202972176 over Rational Field
+known_point (130776392475/467546883076 : -2484751457025/3272828181532 : 1) known_order 0 inverse_map [
+$.2*$.3,
+2*$.1^3*$.3 - 18718180173/4770886562*$.1^2*$.3^2 - 194139/48841*$.1*$.2*$.3^2 - $.2^2*$.3^2,
+2*$.1*$.3 + $.2*$.3
+]
+P8_POINTSEARCH <1, 2> points 2 non_torsion_generators 2 best_pair_det 34.1824375284484873284624248745 second_point (0 : 0 : 1)

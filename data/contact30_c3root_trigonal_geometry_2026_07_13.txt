@@ -1,0 +1,66 @@
+contact30 C3-root trigonal geometry and bounded rational searches
+date=2026-07-13
+branch_sign=-1
+
+commands
+  magma -b mode:=summary eps:=-1 code/contact30_c3root_trigonal_bounded_audit.m
+  magma -b mode:=exactgenus eps:=-1 code/contact30_c3root_trigonal_bounded_audit.m
+  magma -b mode:=quotient eps:=-1 code/contact30_c3root_trigonal_quotient_search.m
+  magma -b mode:=search eps:=-1 height:=5000 code/contact30_c3root_trigonal_quotient_search.m
+  magma -b mode:=quotient-search eps:=-1 height:=5000 code/contact30_c3root_trigonal_quotient_search.m
+
+original_trigonal_cover
+  irreducible=true
+  bidegree_R_rho=(20,3)
+  genus=12
+  different_degree=28
+  branch=R=3:e2,R=7/3:e3,R=2:e2,Q4:e2,Q20:e2
+
+involution_and_quotient
+  sigma(R)=(5R-7)/(3R-5)
+  sigma^2=1
+  sigma fixes rho and the monic cubic
+  v=(3R^2-7)/(3R-5)
+  resultant=scalar*q(v,rho)^2
+  q_irreducible=true
+  q_bidegree_v_rho=(10,3)
+  q_terms=44
+  primitive_integral_scale=3125
+  quotient_genus=6
+  quotient_different_degree=16
+  quotient_branch=v=5:e2,v=14/3:e3,v=2:e2,Q2:e2,Q10:e2
+  lift_discriminant=9v^2-60v+84
+  candidate_tau=(106v-532)/(21v-106)
+  candidate_tau_preserves_Q2=false
+  candidate_tau_preserves_Q10=false
+
+R_height_5000_search
+  height_definition=R=a/b,1<=b<=5000,-5000<=a<=5000,gcd(|a|,b)=1
+  primes=7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83
+  tested=30401831
+  sieve_survivors=73971
+  rational_root_hits=(1,1),(2,-1),(2,0),(3,-1),(3,0),(7/3,1)
+  infinity_cubic_rational_roots=none
+  open_hits=0
+
+v_height_5000_search
+  height_definition=v=a/b,1<=b<=5000,-5000<=a<=5000,gcd(|a|,b)=1
+  primes=7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83
+  tested=30401831
+  sieve_survivors=76165
+  rational_root_hits=(2,1),(5,-1),(5,0),(14/3,1),(32/7,1)
+  lift_deltas=0,9,9,0,-108/49
+  open_lifts=0
+
+height_50_smoke_tests
+  R_tested=3095
+  R_survivors=8
+  R_hits=(1,1),(2,-1),(2,0),(3,-1),(3,0),(7/3,1)
+  v_tested=3095
+  v_survivors=15
+  v_hits=(2,1),(5,-1),(5,0),(14/3,1),(32/7,1)
+  open_lifts=0
+
+caveat
+  Exhaustive only in the stated rational-height boxes.
+  Does not determine all rational points of either curve.

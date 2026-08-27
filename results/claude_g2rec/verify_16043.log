@@ -1,0 +1,12 @@
+VERIFY 16043.2.a.a : y^2 + (x^3 + x^2 + 1)y = 96*x^6 - 309*x^5 + 581*x^4 - 1021*x^3 - 638*x^2 + 2014*x + 1132
+integral model: y^2 = 385*x^6 - 1234*x^5 + 2325*x^4 - 4082*x^3 - 2550*x^2 + 8056*x + 4529
+APDATA primes: [ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199 ] (n=45)
+TWIST d=1 matches at 43 good primes (of 45 APDATA primes)
+FINALCURVE 16043.2.a.a : y^2 = 1540*x^6 - 4936*x^5 + 9300*x^4 - 16328*x^3 - 10200*x^2 + 32224*x + 18116
+LMATCH_FINAL 16043.2.a.a : 43 good primes match (deg2-split 38, deg1-rational 5)
+TORSION_INVARIANTS 16043.2.a.a : [ 11 ] (0.210 s)
+TORSION_GEN 1: (x^2 - 14/9*x - 10/9, 2072/81*x - 2066/81, 2)  order 11
+SIMPLICITY 16043.2.a.a : true  witness prime 17  chi = x^4 - x^3 + 3*x^2 - 17*x + 289
+RMSCREEN 16043.2.a.a : distinct cores = [ 5 ] => RM
+BADPRIMES 16043.2.a.a : [ 2, 19, 61, 263 ] (level primes [ <61, 1>, <263, 1> ])
+VERIFYDONE 16043.2.a.a

@@ -1,0 +1,21 @@
+// Inspect and reduce the composed minimal-E -> quotient-C map.
+SetColumns(0); SetSeed(8);
+Q:=Rationals(); R<T>:=PolynomialRing(Q);
+fixed:=[Q!-18,Q!20,Q!75]; d0:=Q!-1470/121;
+Rx:=(fixed[1]+d0*T^2)/(fixed[1]+d0);
+Ry:=(fixed[2]+d0*T^2)/(fixed[2]+d0);
+C:=HyperellipticCurve(Rx*Ry); P0:=C![Q!1,Q!1,Q!1];
+Eraw,phi:=EllipticCurve(C,P0); Einv:=Inverse(phi);
+E,minmap:=MinimalModel(Eraw); minmapinv:=Inverse(minmap);
+raw:=DefiningPolynomials(minmapinv); curve:=DefiningPolynomials(Einv);
+print "RAW",raw; print "CURVE",curve;
+S<X,Y,Zc>:=PolynomialRing(Q,3);
+rawS:=[S!h:h in raw]; curveS:=[S!h:h in curve];
+comp:=[Evaluate(h,rawS):h in curveS];
+print "COMPOSED_DEGREES",[TotalDegree(h):h in comp];
+g:=GCD(GCD(comp[1],comp[2]),comp[3]);
+print "COMPOSED_GCD",Factorization(g);
+red:=[ExactQuotient(h,g):h in comp];
+print "REDUCED",red;
+print "REDUCED_DEGREES",[TotalDegree(h):h in red];
+quit;

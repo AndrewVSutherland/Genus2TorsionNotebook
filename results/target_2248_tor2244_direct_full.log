@@ -1,0 +1,36 @@
+TARGET_2248_TOR2244_DIRECT_FULL_START
+CONFIG input_file paper/scripts_and_data/tor2244.txt output_file results/target_2248_tor2244_direct_full.txt max_rows 0 all_permutations true full_check true
+Loading "code/m2248_sieve.m"
+Read 26653 tuples from paper/scripts_and_data/tor2244.txt
+Writing all-permutation candidates to results/target_2248_tor2244_direct_full.txt
+Full check: true
+Processed 1000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 2000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 3000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 4000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 5000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 6000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 7000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 8000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 9000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 10000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 11000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 12000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 13000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 14000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 15000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 16000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 17000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 18000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 19000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 20000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 21000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 22000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 23000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 24000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 25000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Processed 26000 of 26653 source tuples; candidate source tuples: 0 witnesses: 0
+Done.
+Candidate source tuples: 0
+Witnesses: 0
+TARGET_2248_TOR2244_DIRECT_FULL_DONE

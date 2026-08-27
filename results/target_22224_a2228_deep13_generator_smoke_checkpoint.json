@@ -1,0 +1,25 @@
+{
+  "last_denominator": 20,
+  "height": 20,
+  "profiles": "results/target_22224_a2228_deep13_generator_profiles.tsv",
+  "primes": [
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71
+  ]
+}

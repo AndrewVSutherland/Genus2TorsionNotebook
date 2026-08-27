@@ -1,0 +1,8 @@
+CasselsTatePairing signatures:
+
+In file "<scratchpad>/prymct2.m", line 3, column 15:
+>> ListSignatures(CasselsTatePairing);
+                 ^
+Runtime error in 'ListSignatures': Bad argument types
+Argument types given: Intrinsic
+

@@ -1,0 +1,120 @@
+H5 loaded: #terms=16
+GOLD_CURVES 116  PB=400
+ROW 102400.a.102400.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 5, 6, 7, 11, 13, 15, 17, 29, 30, 33, 53, 61, 65, 73, 77, 102, 118, 182, 206, 214, 238, 277, 358, 406, 614 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=38 nsq=5
+ROW 102400.f.102400.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 5, 6, 7, 11, 13, 15, 17, 29, 30, 33, 53, 61, 65, 73, 77, 102, 118, 182, 206, 214, 238, 277, 358, 406, 614 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=38 nsq=5
+ROW 103041.a.927369.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=2 nsq=0
+ROW 10609.a.10609.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=7 nsq=0
+ROW 111556.a.446224.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=3 nsq=0
+ROW 112500.a.450000.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 5, 6, 11, 14, 19, 26, 31, 39, 46, 59, 61, 66, 71, 86, 89, 94, 111, 146, 149, 154, 166, 214, 249, 354, 406, 614, 646, 654, 966, 1034 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=40 nsq=3
+ROW 11449.a.11449.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=2 nsq=0
+ROW 1225.a.6125.1 nf=2.2.17.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 17 ] OK | rep=[ 17 ] OK | np=75 na1z=1 nsq=0
+ROW 12500.a.12500.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 5, 6, 11, 14, 19, 26, 29, 34, 39, 46, 61, 66, 71, 114, 151, 201, 214, 246, 249, 266, 274, 334, 454, 606, 814, 1066 ] SCATTER | rep=[ 5 ] OK | np=76 na1z=37 nsq=6
+ROW 12500.b.50000.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 5, 6, 14, 21, 26, 31, 34, 39, 41, 66, 69, 71, 79, 86, 101, 109, 146, 166, 214, 254, 286, 334, 426, 574, 626, 694, 754, 866, 926, 1054 ] SCATTER | rep=[ 5 ] OK | np=76 na1z=38 nsq=5
+ROW 127449.a.892143.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=74 na1z=3 nsq=0
+ROW 128164.a.512656.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=2 nsq=0
+ROW 13225.b.330625.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=5 nsq=0
+ROW 140625.a.140625.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 141376.b.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=3 nsq=0
+ROW 141376.e.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 146689.a.146689.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=3 nsq=0
+ROW 15129.b.408483.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=3 nsq=0
+ROW 151321.a.151321.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=76 na1z=3 nsq=0
+ROW 1521.a.41067.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=7 nsq=0
+ROW 15625.a.15625.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=3 nsq=0
+ROW 16641.a.449307.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=9 nsq=0
+ROW 17689.c.17689.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 17689.d.866761.1 nf=2.2.13.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=75 na1z=2 nsq=0
+ROW 17689.e.866761.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=1 nsq=0
+ROW 180625.a.903125.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 2, 5, 13, 21, 22, 26, 34, 37, 51, 58, 59, 79, 86, 89, 93, 109, 114, 133, 134, 163, 197, 201, 213, 251, 254, 263, 293, 309, 377, 389, 433, 554, 582, 723 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=36 nsq=6
+ROW 18225.c.164025.1 nf=2.2.13.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=75 na1z=4 nsq=0
+ROW 18225.c.54675.1 nf=2.2.13.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=75 na1z=4 nsq=0
+ROW 208849.a.208849.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=4 nsq=0
+ROW 212521.a.212521.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=6 nsq=0
+ROW 21609.a.453789.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=10 nsq=0
+ROW 241081.a.241081.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=2 nsq=0
+ROW 249001.a.249001.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=4 nsq=0
+ROW 2601.a.70227.1 nf=2.2.17.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 17 ] OK | rep=[ 17 ] OK | np=75 na1z=1 nsq=0
+ROW 27225.a.81675.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=74 na1z=7 nsq=0
+ROW 273529.a.273529.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=7 nsq=0
+ROW 27889.a.27889.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=2 nsq=0
+ROW 284089.a.284089.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=3 nsq=0
+ROW 295936.c.295936.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 6, 10, 15, 17, 22, 26, 30, 34, 51, 58, 82, 106, 110, 122, 142, 158, 178, 182, 274, 322, 438, 470, 518, 566, 790, 822, 1190, 1234 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=45 nsq=1
+ROW 295936.c.295936.2 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 6, 10, 15, 17, 22, 26, 30, 34, 51, 58, 82, 106, 110, 122, 142, 158, 178, 182, 274, 322, 438, 470, 518, 566, 790, 822, 1190, 1234 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=45 nsq=1
+ROW 30976.a.495616.1 nf=2.2.17.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 17 ] OK | rep=[ 17 ] OK | np=76 na1z=1 nsq=0
+ROW 31329.a.31329.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=2 nsq=0
+ROW 331776.d.995328.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 5, 6, 10, 13, 17, 26, 29, 33, 34, 37, 41, 42, 61, 65, 73, 74, 82, 97, 106, 122, 161, 170, 202, 282 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=43 nsq=3
+ROW 331776.f.995328.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 5, 6, 10, 13, 17, 26, 29, 33, 34, 37, 41, 42, 61, 65, 73, 74, 82, 97, 106, 122, 161, 170, 202, 282 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=43 nsq=3
+ROW 35344.a.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 358801.a.358801.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=3 nsq=0
+ROW 36481.a.36481.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=6 nsq=0
+ROW 36864.a.36864.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 5, 7, 10, 13, 15, 23, 31, 33, 34, 39, 42, 43, 47, 61, 65, 79, 85, 91, 103, 105, 114, 119, 130, 157, 195, 202, 247, 287, 290 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=40 nsq=3
+ROW 36864.c.36864.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 5, 7, 10, 13, 15, 23, 31, 33, 34, 39, 42, 43, 47, 61, 65, 79, 85, 91, 103, 105, 114, 119, 130, 157, 195, 202, 247, 287, 290 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=40 nsq=3
+ROW 37249.a.37249.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=6 nsq=0
+ROW 378125.a.378125.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 5, 6, 11, 14, 19, 26, 29, 34, 46, 71, 79, 89, 91, 94, 106, 109, 111, 191, 219, 226, 366, 374, 409, 606, 734, 851, 854, 866, 926, 1034, 1309 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=41 nsq=3
+ROW 385641.a.385641.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=2 nsq=0
+ROW 385641.c.385641.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=1 nsq=0
+ROW 405769.a.405769.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=8 nsq=0
+ROW 409600.a.409600.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 409600.b.409600.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 418609.a.418609.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=4 nsq=0
+ROW 42025.a.42025.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=4 nsq=0
+ROW 4225.a.274625.1 nf=2.2.12.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 3 ] OK | rep=[ 3 ] OK | np=75 na1z=5 nsq=0
+ROW 42849.b.385641.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=8 nsq=0
+ROW 43681.a.829939.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=1 nsq=0
+ROW 440896.c.440896.1 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 7, 10, 11, 15, 17, 21, 23, 31, 33, 34, 37, 39, 41, 57, 61, 65, 73, 74, 82, 93, 95, 161, 309, 319, 341, 741, 877, 949 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=41 nsq=2
+ROW 440896.c.440896.2 nf=2.2.8.1 idx=1 gl2=false | H5zero=false pred=false OK | naive=[ 2, 3, 7, 10, 11, 15, 17, 21, 23, 31, 33, 34, 37, 39, 41, 57, 61, 65, 73, 74, 82, 93, 95, 161, 309, 319, 341, 741, 877, 949 ] SCATTER | rep=[ 2 ] OK | np=76 na1z=41 nsq=2
+ROW 44521.a.44521.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 4489.a.4489.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=1
+ROW 4489.c.4489.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 45369.a.45369.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=4 nsq=0
+ROW 458329.a.458329.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=5 nsq=0
+ROW 466489.a.466489.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=0 nsq=0
+ROW 474721.a.474721.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=2 nsq=0
+ROW 48841.a.48841.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=2 nsq=0
+ROW 49729.a.49729.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=76 na1z=3 nsq=0
+ROW 50000.b.800000.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 5, 6, 11, 19, 26, 31, 34, 39, 41, 46, 51, 59, 61, 94, 109, 174, 206, 229, 269, 271, 274, 286, 301, 449, 509, 649, 746, 754, 814, 934 ] SCATTER | rep=[ 5 ] OK | np=76 na1z=40 nsq=4
+ROW 51529.a.51529.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=1 nsq=0
+ROW 529.a.529.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 5329.a.5329.1 nf=2.2.13.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=76 na1z=2 nsq=0
+ROW 5329.b.5329.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 565504.a.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+ROW 565504.f.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=3 nsq=0
+ROW 565504.j.565504.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 5929.b.717409.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=7 nsq=0
+ROW 60025.a.420175.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=4 nsq=0
+ROW 613089.a.613089.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=1 nsq=0
+ROW 62500.a.1000000.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=2 nsq=0
+ROW 638401.a.638401.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=1
+ROW 654481.a.654481.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=3 nsq=0
+ROW 68121.c.613089.1 nf=2.2.5.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=7 nsq=0
+ROW 68121.c.613089.2 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=7 nsq=0
+ROW 700569.b.700569.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=2 nsq=0
+ROW 703125.a.703125.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 2, 3, 5, 6, 7, 11, 13, 14, 22, 29, 34, 38, 41, 82, 86, 89, 93, 113, 118, 134, 138, 154, 178, 182, 278, 314, 358, 362, 382, 394, 746, 866, 1034 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=41 nsq=1
+ROW 703125.b.703125.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 2, 5, 7, 13, 17, 33, 34, 38, 62, 66, 67, 69, 82, 87, 91, 94, 103, 107, 134, 166, 179, 222, 301, 402, 422, 451, 493, 502, 518, 559, 574, 589, 713, 751 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=36 nsq=5
+ROW 707281.a.707281.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=1 nsq=0
+ROW 714025.a.714025.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 7225.a.36125.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=6 nsq=0
+ROW 7225.b.614125.1 nf=2.2.12.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 3 ] OK | rep=[ 3 ] OK | np=75 na1z=8 nsq=0
+ROW 75625.a.75625.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 75625.b.75625.1 nf=2.2.13.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=75 na1z=4 nsq=0
+ROW 7569.a.613089.1 nf=2.2.5.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 7569.a.68121.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=3 nsq=0
+ROW 769129.a.769129.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=3 nsq=0
+ROW 7744.b.495616.1 nf=2.2.17.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 17 ] OK | rep=[ 17 ] OK | np=76 na1z=1 nsq=0
+ROW 786769.a.786769.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=3 nsq=0
+ROW 82369.a.82369.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=0 nsq=0
+ROW 83521.a.83521.1 nf=2.2.13.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 13 ] OK | rep=[ 13 ] OK | np=76 na1z=2 nsq=0
+ROW 841.a.841.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=76 na1z=4 nsq=0
+ROW 863041.a.863041.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=77 na1z=3 nsq=0
+ROW 8649.a.233523.1 nf=2.2.5.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=4 nsq=0
+ROW 8649.a.77841.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=4 nsq=0
+ROW 89401.a.89401.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=75 na1z=5 nsq=0
+ROW 903125.a.903125.1 nf=2.2.5.1 idx=1 gl2=false | H5zero=true pred=true OK | naive=[ 2, 3, 5, 6, 13, 14, 26, 31, 37, 38, 41, 57, 58, 59, 78, 86, 89, 134, 138, 206, 221, 266, 346, 542, 574, 622, 734, 926, 1042 ] SCATTER | rep=[ 5 ] OK | np=75 na1z=42 nsq=1
+ROW 91809.a.275427.1 nf=2.2.8.1 idx=1 gl2=true | H5zero=false pred=false OK | naive=[ 2 ] OK | rep=[ 2 ] OK | np=75 na1z=1 nsq=0
+ROW 961.a.923521.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 961.a.961.1 nf=2.2.5.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 961.a.961.2 nf=2.2.5.1 idx=2 gl2=true | H5zero=false pred=false OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 961.a.961.3 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=5 nsq=0
+ROW 97969.a.97969.1 nf=2.2.5.1 idx=1 gl2=true | H5zero=true pred=true OK | naive=[ 5 ] OK | rep=[ 5 ] OK | np=76 na1z=4 nsq=0
+GOLD_RESULT curves=116  H5 correct=116 mismatch=0 | naive census correct=97 (83.62%) | repaired census correct=116 (100.0%)
+GOLD_DONE

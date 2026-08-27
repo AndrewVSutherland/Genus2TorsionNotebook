@@ -1,0 +1,40 @@
+# Genus-2 curves /Q for the seven confirmed real-Eisenstein-11 dim-2 newforms
+# (RM by Q(sqrt5), Hecke field disc 5, h^+ = 1; exact M_odd = 11 deep-verified
+# via sign +1 ModularSymbols eigenvalues to p <= 199 for every label).
+# Reconstruction: Costa et al. ModularAbelianSurfaces pipeline (A_f^sub,
+# unique rational principal polarization in every case), prec 300 digits,
+# on aws-spot-11.  Every curve L-matched against the exact newform Euler
+# factors 1 - t_p T + (n_p+2p) T^2 - p t_p T^3 + p^2 T^4 at all good
+# p <= 199 (twist d=1 in every case); torsion = exact Magma TorsionSubgroup;
+# simplicity = D4/root-power Frobenius certificate; RM screen (repaired,
+# a1<>0 & disc nonsquare) core set = {5} for all seven.
+#
+# label : curve y^2 + h(x) y = f(x)  [f ascending coeffs | h ascending coeffs] : J(Q)_tors : Lmatch primes : simplicity witness p
+16043.2.a.a : f=[1132,2014,-638,-1021,581,-309,96]  h=[1,0,1,1]  : [11] : 43 : 17
+26830.2.a.b : f=[4369,7925,7603,-8288,-6755,505,1425] h=[0,1,1] : [11] : 43 : 13
+24622.2.a.c : f=[-48,-40,141,97,268,17,29]           h=[]      : [11] : 44 : 3
+19455.2.a.a : f=[56,-195,128,100,-48,-8,6]           h=[1,0,1,1]: [11] : 43 : 11
+12026.2.a.d : f=[872,76,868,-126,-44,-4,2]           h=[0,1,1] : [11] : 43 : 3
+10285.2.a.o : f=[40246,-96883,127212,-181880,129706,-80696,15969] h=[1,1,0,1] : [] TRIVIAL : 42 : 3
+10178.2.a.i : f=[457,1193,2025,1299,556,98,-92]      h=[0,1,1] : [11] : 44 : 5
+#
+# Human-readable equations:
+# 16043.2.a.a : y^2 + (x^3+x^2+1) y = 96x^6 - 309x^5 + 581x^4 - 1021x^3 - 638x^2 + 2014x + 1132
+# 26830.2.a.b : y^2 + (x^2+x) y    = 1425x^6 + 505x^5 - 6755x^4 - 8288x^3 + 7603x^2 + 7925x + 4369
+# 24622.2.a.c : y^2                = 29x^6 + 17x^5 + 268x^4 + 97x^3 + 141x^2 - 40x - 48
+# 19455.2.a.a : y^2 + (x^3+x^2+1) y = 6x^6 - 8x^5 - 48x^4 + 100x^3 + 128x^2 - 195x + 56
+# 12026.2.a.d : y^2 + (x^2+x) y    = 2x^6 - 4x^5 - 44x^4 - 126x^3 + 868x^2 + 76x + 872
+# 10285.2.a.o : y^2 + (x^3+x+1) y  = 15969x^6 - 80696x^5 + 129706x^4 - 181880x^3 + 127212x^2 - 96883x + 40246
+# 10178.2.a.i : y^2 + (x^2+x) y    = -92x^6 + 98x^5 + 556x^4 + 1299x^3 + 2025x^2 + 1193x + 457
+#
+# 10285.2.a.o note (level 5*11^2*17, the ell|N flavor): curve certainly correct
+# (42-prime exact L-match) but J(Q)_tors is TRIVIAL; a forced MaximalEnd:=true
+# rerun reproduced the SAME curve (A_f^sub already maximal), so the Eisenstein
+# 11-torsion is not realized on any principally polarized member reachable by
+# the sub/maximal-end pipeline (A_f^quo not computed - deemed too expensive in
+# the upstream pipeline).
+#
+# Torsion generators (Mumford coords on the y^2 = 4f+h^2 integral models given
+# in the verify logs):  see verify_<level>.log TORSION_GEN lines.
+# Reproduction: see code/claude_g2rec_{mdeep,run,verify}.m (local repo copies of
+# ~/z31/g2rec/{mdeep,g2rec,verify}.m on aws-spot-11) and the per-label logs here.

@@ -1,0 +1,5 @@
+TYPE [ 1, 1, 90354, 90354 ] dd=90354
+Loading "results/gl2_bigP_clean.m"
+LOADED 12 candidates
+ALL_ISO_COUNTS [ 3, 4, 12, 1407 ]
+Runtime error: no consistent selection/orientation found

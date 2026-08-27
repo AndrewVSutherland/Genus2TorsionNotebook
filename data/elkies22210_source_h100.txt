@@ -1,0 +1,761 @@
+Elkies [2,2,2,10] Clebsch-Klein source/Richelot sweep
+height 100 max_sources 100000 run_isogenies false max_twopower_sources 100000
+SOURCE source_1 rs [ 1, -78, -66, 80, 63 ]
+squares [ 1, 3969, 4356, 6084, 6400 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_1 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_1 x^6 - 20810*x^5 + 160176673*x^4 - 540151102440*x^3 + 
+    673730755592976*x^2 - 673190764646400*x
+SOURCE source_2 rs [ 1, -72, -71, 77, 65 ]
+squares [ 1, 4225, 5041, 5184, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_2 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_2 x^6 - 20380*x^5 + 155027598*x^4 - 521641364620*x^3 + 
+    655142366871001*x^2 - 654620880513600*x
+SOURCE source_3 rs [ 1, -50, -49, 54, 44 ]
+squares [ 1, 1936, 2401, 2500, 2916 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_3 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_3 x^6 - 9754*x^5 + 35437281*x^4 - 56827545304*x^3 + 
+    33943161557776*x^2 - 33886369440000*x
+SOURCE source_4 rs [ 1, -49, -36, 50, 34 ]
+squares [ 1, 1156, 1296, 2401, 2500 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 47
+SOURCE_LPOLY source_4 2209*x^4 - 188*x^3 - 18*x^2 - 4*x + 1
+SOURCE_CURVE source_4 x^6 - 7354*x^5 + 19525281*x^4 - 22080208504*x^3 + 
+    9014862130576*x^2 - 8992801440000*x
+SOURCE source_5 rs [ 1, -32, -31, 35, 27 ]
+squares [ 1, 729, 961, 1024, 1225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_5 1369*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_5 x^6 - 3940*x^5 + 5759718*x^4 - 3701271460*x^3 + 
+    882489269281*x^2 - 878793753600*x
+SOURCE source_6 rs [ 1, -18, -17, 20, 14 ]
+squares [ 1, 196, 289, 324, 400 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_6 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_6 x^6 - 1210*x^5 + 538593*x^4 - 104403640*x^3 + 
+    7444928656*x^2 - 7341062400*x
+SOURCE source_7 rs [ 1, -8, -7, 9, 5 ]
+squares [ 1, 25, 49, 64, 81 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_7 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_7 x^6 - 220*x^5 + 17358*x^4 - 578380*x^3 + 6911641*x^2 - 
+    6350400*x
+SOURCE source_8 rs [ 2, -81, -79, 88, 70 ]
+squares [ 4, 4900, 6241, 6561, 7744 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_8 1369*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_8 x^6 - 25450*x^5 + 240863073*x^4 - 1004479025800*x^3 + 
+    1557780174188176*x^2 - 6215064441062400*x
+SOURCE source_9 rs [ 2, -65, -54, 68, 49 ]
+squares [ 4, 2401, 2916, 4225, 4624 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_9 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_9 x^6 - 14170*x^5 + 73644513*x^4 - 166124035480*x^3 + 
+    137443828638736*x^2 - 547122039609600*x
+SOURCE source_10 rs [ 2, -49, -47, 54, 40 ]
+squares [ 4, 1600, 2209, 2401, 2916 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_10 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_10 x^6 - 9130*x^5 + 30824673*x^4 - 45583570120*x^3 + 
+    24927292940176*x^2 - 98981805081600*x
+SOURCE source_11 rs [ 2, -35, -22, 36, 19 ]
+squares [ 4, 361, 484, 1225, 1296 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_11 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_11 x^6 - 3370*x^5 + 3906033*x^4 - 1797571480*x^3 + 
+    284519827216*x^2 - 1109567289600*x
+SOURCE source_12 rs [ 2, -25, -23, 28, 18 ]
+squares [ 4, 324, 529, 625, 784 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_12 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_12 x^6 - 2266*x^5 + 1872321*x^4 - 666920056*x^3 + 
+    86621907856*x^2 - 335936160000*x
+SOURCE source_13 rs [ 2, -9, -7, 10, 4 ]
+squares [ 4, 16, 49, 81, 100 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_13 3481*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_13 x^6 - 250*x^5 + 21633*x^4 - 751000*x^3 + 9024016*x^2 - 
+    25401600*x
+SOURCE source_14 rs [ 3, -45, -39, 49, 32 ]
+squares [ 9, 1024, 1521, 2025, 2401 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 53
+SOURCE_LPOLY source_14 2809*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_14 x^6 - 6980*x^5 + 17746438*x^4 - 19426519620*x^3 + 
+    7746029682561*x^2 - 68153610470400*x
+SOURCE source_15 rs [ 3, -33, -24, 35, 19 ]
+squares [ 9, 361, 576, 1089, 1225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_15 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_15 x^6 - 3260*x^5 + 3739438*x^4 - 1764536940*x^3 + 
+    292972130361*x^2 - 2496526401600*x
+SOURCE source_16 rs [ 4, -90, -43, 91, 38 ]
+squares [ 16, 1444, 1849, 8100, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_16 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_16 x^6 - 19690*x^5 + 124003473*x^4 - 266597165560*x^3 + 
+    183324125996176*x^2 - 2865443770425600*x
+SOURCE source_17 rs [ 4, -72, -60, 77, 51 ]
+squares [ 16, 2601, 3600, 5184, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_17 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_17 x^6 - 17330*x^5 + 109288273*x^4 - 296395405920*x^3 + 
+    292513429944576*x^2 - 4604784165273600*x
+SOURCE source_18 rs [ 4, -39, -30, 42, 23 ]
+squares [ 16, 529, 900, 1521, 1764 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_18 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_18 x^6 - 4730*x^5 + 7928833*x^4 - 5523712920*x^3 + 
+    1363766182416*x^2 - 20438355974400*x
+SOURCE source_19 rs [ 4, -34, -18, 35, 13 ]
+squares [ 16, 169, 324, 1156, 1225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_19 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_19 x^6 - 2890*x^5 + 2690673*x^4 - 870826360*x^3 + 
+    90796152976*x^2 - 1240639545600*x
+SOURCE source_20 rs [ 4, -25, -14, 26, 9 ]
+squares [ 16, 81, 196, 625, 676 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_20 1681*x^4 + 164*x^3 - 10*x^2 + 4*x + 1
+SOURCE_CURVE source_20 x^6 - 1594*x^5 + 824001*x^4 - 150467224*x^3 + 
+    8910604816*x^2 - 107321760000*x
+SOURCE source_21 rs [ 5, -90, -40, 91, 34 ]
+squares [ 25, 1156, 1600, 8100, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_21 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_21 x^6 - 19162*x^5 + 114550161*x^4 - 218011822600*x^3 + 
+    129442955290000*x^2 - 3101598864000000*x
+SOURCE source_22 rs [ 5, -63, -29, 64, 23 ]
+squares [ 25, 529, 841, 3969, 4096 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_22 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_22 x^6 - 9460*x^5 + 27986838*x^4 - 26553926740*x^3 + 
+    7879074966961*x^2 - 180814278758400*x
+SOURCE source_23 rs [ 5, -56, -34, 58, 27 ]
+squares [ 25, 729, 1156, 3136, 3364 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 43
+SOURCE_LPOLY source_23 1849*x^4 - 172*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_23 x^6 - 8410*x^5 + 23854353*x^4 - 25954639240*x^3 + 
+    9524408234896*x^2 - 222258005222400*x
+SOURCE source_24 rs [ 5, -33, -32, 39, 21 ]
+squares [ 25, 441, 1024, 1089, 1521 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_24 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_24 x^6 - 4100*x^5 + 6033478*x^4 - 3753504900*x^3 + 
+    838120109121*x^2 - 18699743462400*x
+SOURCE source_25 rs [ 5, -26, -18, 28, 11 ]
+squares [ 25, 121, 324, 676, 784 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_25 1681*x^4 - 2*x^2 + 1
+SOURCE_CURVE source_25 x^6 - 1930*x^5 + 1266513*x^4 - 323552920*x^3 + 
+    28104510736*x^2 - 519437318400*x
+SOURCE source_26 rs [ 5, -26, -14, 27, 8 ]
+squares [ 25, 64, 196, 676, 729 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_26 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_26 x^6 - 1690*x^5 + 912273*x^4 - 167519560*x^3 + 
+    9825567376*x^2 - 154543334400*x
+SOURCE source_27 rs [ 5, -21, -12, 22, 6 ]
+squares [ 25, 36, 144, 441, 484 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_27 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_27 x^6 - 1130*x^5 + 412753*x^4 - 52843320*x^3 + 
+    2186871696*x^2 - 27662342400*x
+SOURCE source_28 rs [ 6, -56, -25, 57, 18 ]
+squares [ 36, 324, 625, 3136, 3249 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_28 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_28 x^6 - 7370*x^5 + 16714753*x^4 - 11554420680*x^3 + 
+    2457883959696*x^2 - 74276818560000*x
+SOURCE source_29 rs [ 6, -48, -22, 49, 15 ]
+squares [ 36, 225, 484, 2304, 2401 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_29 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_29 x^6 - 5450*x^5 + 9171553*x^4 - 4757653800*x^3 + 
+    762066145296*x^2 - 21687276441600*x
+SOURCE source_30 rs [ 6, -45, -42, 52, 29 ]
+squares [ 36, 841, 1764, 2025, 2704 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_30 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_30 x^6 - 7370*x^5 + 19542193*x^4 - 21973537080*x^3 + 
+    8889246842256*x^2 - 292434624518400*x
+SOURCE source_31 rs [ 6, -28, -26, 33, 15 ]
+squares [ 36, 225, 676, 784, 1089 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_31 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_31 x^6 - 2810*x^5 + 2793313*x^4 - 1151099640*x^3 + 
+    167808206736*x^2 - 4674935865600*x
+SOURCE source_32 rs [ 7, -95, -64, 99, 53 ]
+squares [ 49, 2809, 4096, 9025, 9801 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_32 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_32 x^6 - 25780*x^5 + 231214038*x^4 - 838648380820*x^3 + 
+    1058263944078961*x^2 - 49868392263782400*x
+SOURCE source_33 rs [ 7, -72, -39, 74, 30 ]
+squares [ 49, 900, 1521, 5184, 5476 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_33 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_33 x^6 - 13130*x^5 + 56205313*x^4 - 86041467720*x^3 + 
+    42942385665936*x^2 - 1904128423142400*x
+SOURCE source_34 rs [ 7, -64, -27, 65, 19 ]
+squares [ 49, 361, 729, 4096, 4225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_34 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_34 x^6 - 9460*x^5 + 27099798*x^4 - 22358227540*x^3 + 
+    5585891175601*x^2 - 223160574873600*x
+SOURCE source_35 rs [ 7, -55, -36, 58, 26 ]
+squares [ 49, 676, 1296, 3025, 3364 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_35 3481*x^4 + 236*x^3 - 42*x^2 + 4*x + 1
+SOURCE_CURVE source_35 x^6 - 8410*x^5 + 24060993*x^4 - 26823560440*x^3 + 
+    10172808186256*x^2 - 436846784774400*x
+SOURCE source_36 rs [ 7, -27, -25, 32, 13 ]
+squares [ 49, 169, 625, 729, 1024 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_36 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_36 x^6 - 2596*x^5 + 2368806*x^4 - 887834596*x^3 + 
+    116964684001*x^2 - 3863583360000*x
+SOURCE source_37 rs [ 7, -25, -17, 27, 8 ]
+squares [ 49, 64, 289, 625, 729 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_37 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_37 x^6 - 1756*x^5 + 1035726*x^4 - 232531276*x^3 + 
+    17535321241*x^2 - 412934760000*x
+SOURCE source_38 rs [ 7, -22, -20, 26, 9 ]
+squares [ 49, 81, 400, 484, 676 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_38 1681*x^4 - 164*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_38 x^6 - 1690*x^5 + 997953*x^4 - 239919160*x^3 + 
+    20153777296*x^2 - 519437318400*x
+SOURCE source_39 rs [ 7, -22, -18, 25, 8 ]
+squares [ 49, 64, 324, 484, 625 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_39 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_39 x^6 - 1546*x^5 + 826881*x^4 - 177289096*x^3 + 
+    13150584976*x^2 - 307359360000*x
+SOURCE source_40 rs [ 8, -81, -73, 91, 55 ]
+squares [ 64, 3025, 5329, 6561, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_40 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_40 x^6 - 23260*x^5 + 195926478*x^4 - 705587192140*x^3 + 
+    920199423674521*x^2 - 56053649762510400*x
+SOURCE source_41 rs [ 8, -74, -45, 77, 34 ]
+squares [ 64, 1156, 2025, 5476, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_41 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_41 x^6 - 14650*x^5 + 72020913*x^4 - 134525734600*x^3 + 
+    84320950830736*x^2 - 4864158581990400*x
+SOURCE source_42 rs [ 8, -65, -63, 76, 44 ]
+squares [ 64, 1936, 3969, 4225, 5776 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_42 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_42 x^6 - 15970*x^5 + 92161473*x^4 - 226783965280*x^3 + 
+    201657721989376*x^2 - 12001079804313600*x
+SOURCE source_43 rs [ 8, -54, -23, 55, 14 ]
+squares [ 64, 196, 529, 2916, 3025 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_43 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_43 x^6 - 6730*x^5 + 13658433*x^4 - 7857974920*x^3 + 
+    1363299100816*x^2 - 58533516518400*x
+SOURCE source_44 rs [ 8, -49, -41, 55, 27 ]
+squares [ 64, 729, 1681, 2401, 3025 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_44 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_44 x^6 - 7900*x^5 + 22066638*x^4 - 25533345100*x^3 + 
+    10446270020761*x^2 - 569629870286400*x
+SOURCE source_45 rs [ 9, -85, -77, 96, 57 ]
+squares [ 81, 3249, 5929, 7225, 9216 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_45 1369*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_45 x^6 - 25700*x^5 + 238819558*x^4 - 947007195300*x^3 + 
+    1357814089463841*x^2 - 103895442728985600*x
+SOURCE source_46 rs [ 9, -77, -64, 85, 47 ]
+squares [ 81, 2209, 4096, 5929, 7225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_46 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_46 x^6 - 19540*x^5 + 136397238*x^4 - 400026182260*x^3 + 
+    419109703564561*x^2 - 31394963645337600*x
+SOURCE source_47 rs [ 9, -65, -64, 77, 43 ]
+squares [ 81, 1849, 4096, 4225, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_47 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_47 x^6 - 16180*x^5 + 94293078*x^4 - 233355872020*x^3 + 
+    208008188955121*x^2 - 15367033627545600*x
+SOURCE source_48 rs [ 9, -55, -23, 56, 13 ]
+squares [ 81, 169, 529, 3025, 3136 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_48 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_48 x^6 - 6940*x^5 + 14431758*x^4 - 8296277260*x^3 + 
+    1429050494041*x^2 - 68695585358400*x
+SOURCE source_49 rs [ 9, -51, -39, 56, 25 ]
+squares [ 81, 625, 1521, 2601, 3136 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_49 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_49 x^6 - 7964*x^5 + 22057486*x^4 - 24693027084*x^3 + 
+    9613602537561*x^2 - 628073769960000*x
+SOURCE source_50 rs [ 9, -50, -41, 56, 26 ]
+squares [ 81, 676, 1681, 2500, 3136 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_50 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_50 x^6 - 8074*x^5 + 22907841*x^4 - 26686475464*x^3 + 
+    10924585015696*x^2 - 721631514240000*x
+SOURCE source_51 rs [ 9, -48, -42, 55, 26 ]
+squares [ 81, 676, 1764, 2304, 3025 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_51 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_51 x^6 - 7850*x^5 + 21794113*x^4 - 25074815400*x^3 + 
+    10203194731536*x^2 - 673190764646400*x
+SOURCE source_52 rs [ 9, -44, -25, 46, 14 ]
+squares [ 81, 196, 625, 1936, 2116 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 43
+SOURCE_LPOLY source_52 1849*x^4 - 172*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_52 x^6 - 4954*x^5 + 7940481*x^4 - 4470866104*x^3 + 
+    814462930576*x^2 - 40648275360000*x
+SOURCE source_53 rs [ 9, -32, -23, 35, 11 ]
+squares [ 81, 121, 529, 1024, 1225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_53 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_53 x^6 - 2980*x^5 + 3015078*x^4 - 1184517220*x^3 + 
+    157997505121*x^2 - 6503724057600*x
+SOURCE source_54 rs [ 10, -76, -29, 77, 18 ]
+squares [ 100, 324, 841, 5776, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_54 1681*x^4 - 2*x^2 + 1
+SOURCE_CURVE source_54 x^6 - 12970*x^5 + 49441713*x^4 - 47901374680*x^3 + 
+    13640051243536*x^2 - 933146090553600*x
+SOURCE source_55 rs [ 10, -70, -65, 81, 44 ]
+squares [ 100, 1936, 4225, 4900, 6561 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_55 1681*x^4 + 164*x^3 - 10*x^2 + 4*x + 1
+SOURCE_CURVE source_55 x^6 - 17722*x^5 + 112701921*x^4 - 302909740600*x^3 + 
+    292146719290000*x^2 - 26296514244000000*x
+SOURCE source_56 rs [ 10, -49, -31, 52, 18 ]
+squares [ 100, 324, 961, 2401, 2704 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_56 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_56 x^6 - 6490*x^5 + 14002593*x^4 - 11268483160*x^3 + 
+    3014682128656*x^2 - 202146974265600*x
+SOURCE source_57 rs [ 10, -28, -27, 34, 11 ]
+squares [ 100, 121, 729, 784, 1156 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 43
+SOURCE_LPOLY source_57 1849*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_57 x^6 - 2890*x^5 + 2922513*x^4 - 1205835160*x^3 + 
+    174092555536*x^2 - 7994416953600*x
+SOURCE source_58 rs [ 11, -91, -74, 100, 54 ]
+squares [ 121, 2916, 5476, 8281, 10000 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_58 1681*x^4 + 164*x^3 - 10*x^2 + 4*x + 1
+SOURCE_CURVE source_58 x^6 - 26794*x^5 + 255419601*x^4 - 1017368072824*x^3 + 
+    1441720596240016*x^2 - 159999680000160000*x
+SOURCE source_59 rs [ 11, -91, -50, 94, 36 ]
+squares [ 121, 1296, 2500, 8281, 8836 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_59 3481*x^4 + 236*x^3 - 42*x^2 + 4*x + 1
+SOURCE_CURVE source_59 x^6 - 21034*x^5 + 143917521*x^4 - 350323709944*x^3 + 
+    277392888973456*x^2 - 28685925908640000*x
+SOURCE source_60 rs [ 11, -63, -32, 65, 19 ]
+squares [ 121, 361, 1024, 3969, 4225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_60 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_60 x^6 - 9700*x^5 + 29646438*x^4 - 29701099300*x^3 + 
+    9375654156961*x^2 - 750067487769600*x
+SOURCE source_61 rs [ 11, -63, -25, 64, 13 ]
+squares [ 121, 169, 625, 3969, 4096 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_61 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_61 x^6 - 8980*x^5 + 23838198*x^4 - 16514660020*x^3 + 
+    3382101224401*x^2 - 207774927360000*x
+SOURCE source_62 rs [ 11, -50, -27, 52, 14 ]
+squares [ 121, 196, 729, 2500, 2704 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 53
+SOURCE_LPOLY source_62 2809*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_62 x^6 - 6250*x^5 + 12458193*x^4 - 8414275000*x^3 + 
+    1812480608656*x^2 - 116873396640000*x
+SOURCE source_63 rs [ 11, -45, -32, 49, 17 ]
+squares [ 121, 289, 1024, 2025, 2401 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_63 3481*x^4 - 236*x^3 + 38*x^2 - 4*x + 1
+SOURCE_CURVE source_63 x^6 - 5860*x^5 + 11663718*x^4 - 9020936740*x^3 + 
+    2369780069281*x^2 - 174100635878400*x
+SOURCE source_64 rs [ 12, -78, -77, 93, 50 ]
+squares [ 144, 2500, 5929, 6084, 8649 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_64 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_64 x^6 - 23306*x^5 + 194962801*x^4 - 689512577976*x^3 + 
+    875283822358416*x^2 - 112315334171040000*x
+SOURCE source_65 rs [ 12, -50, -42, 57, 23 ]
+squares [ 144, 529, 1764, 2500, 3249 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_65 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_65 x^6 - 8186*x^5 + 23396161*x^4 - 27191894616*x^3 + 
+    11034062923536*x^2 - 1091456583840000*x
+SOURCE source_66 rs [ 12, -46, -35, 51, 18 ]
+squares [ 144, 324, 1225, 2116, 2601 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_66 1681*x^4 - 2*x^2 + 1
+SOURCE_CURVE source_66 x^6 - 6410*x^5 + 14109553*x^4 - 12299277240*x^3 + 
+    3681655287696*x^2 - 314557182777600*x
+SOURCE source_67 rs [ 13, -98, -34, 99, 20 ]
+squares [ 169, 400, 1156, 9604, 9801 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_67 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_67 x^6 - 21130*x^5 + 128327793*x^4 - 176526020920*x^3 + 
+    69794061152656*x^2 - 7355751865862400*x
+SOURCE source_68 rs [ 13, -94, -60, 99, 42 ]
+squares [ 169, 1764, 3600, 8836, 9801 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_68 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_68 x^6 - 24170*x^5 + 196977073*x^4 - 615487213080*x^3 + 
+    648462354325776*x^2 - 92942399943993600*x
+SOURCE source_69 rs [ 13, -81, -49, 85, 32 ]
+squares [ 169, 1024, 2401, 6561, 7225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_69 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_69 x^6 - 17380*x^5 + 99987558*x^4 - 212656970020*x^3 + 
+    149713064161441*x^2 - 19696393425945600*x
+SOURCE source_70 rs [ 13, -76, -54, 82, 35 ]
+squares [ 169, 1225, 2916, 5776, 6724 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 43
+SOURCE_LPOLY source_70 1849*x^4 - 172*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_70 x^6 - 16810*x^5 + 96984753*x^4 - 221393818840*x^3 + 
+    173458487892496*x^2 - 23445807897657600*x
+SOURCE source_71 rs [ 13, -70, -34, 72, 19 ]
+squares [ 169, 361, 1156, 4900, 5184 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_71 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_71 x^6 - 11770*x^5 + 43076913*x^4 - 49691103880*x^3 + 
+    17823966760336*x^2 - 1791483503846400*x
+SOURCE source_72 rs [ 13, -55, -49, 64, 27 ]
+squares [ 169, 729, 2401, 3025, 4096 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_72 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_72 x^6 - 10420*x^5 + 38161878*x^4 - 57402623380*x^3 + 
+    30347858014321*x^2 - 3665149718630400*x
+SOURCE source_73 rs [ 13, -51, -40, 57, 21 ]
+squares [ 169, 441, 1600, 2601, 3249 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 31
+SOURCE_LPOLY source_73 961*x^4 - 124*x^3 + 46*x^2 - 4*x + 1
+SOURCE_CURVE source_73 x^6 - 8060*x^5 + 22429678*x^4 - 24940775340*x^3 + 
+    9575243283321*x^2 - 1007709470913600*x
+SOURCE source_74 rs [ 13, -48, -30, 51, 14 ]
+squares [ 169, 196, 900, 2304, 2601 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_74 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_74 x^6 - 6170*x^5 + 12559153*x^4 - 9384347880*x^3 + 
+    2313331489296*x^2 - 178652094566400*x
+SOURCE source_75 rs [ 13, -46, -45, 56, 22 ]
+squares [ 169, 484, 2025, 2116, 3136 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 53
+SOURCE_LPOLY source_75 2809*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_75 x^6 - 7930*x^5 + 22104753*x^4 - 25310688520*x^3 + 
+    10187357431696*x^2 - 1099129365734400*x
+SOURCE source_76 rs [ 14, -99, -34, 100, 19 ]
+squares [ 196, 361, 1156, 9801, 10000 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_76 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_76 x^6 - 21514*x^5 + 132643761*x^4 - 182123668984*x^3 + 
+    71662252206736*x^2 - 8016623667360000*x
+SOURCE source_77 rs [ 14, -95, -33, 96, 18 ]
+squares [ 196, 324, 1089, 9025, 9216 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_77 3481*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_77 x^6 - 19850*x^5 + 113153953*x^4 - 145384655400*x^3 + 
+    53643378298896*x^2 - 5751996829286400*x
+SOURCE source_78 rs [ 14, -82, -44, 85, 27 ]
+squares [ 196, 729, 1936, 6724, 7225 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_78 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_78 x^6 - 16810*x^5 + 90422673*x^4 - 166239536440*x^3 + 
+    97798729176976*x^2 - 13438614899001600*x
+SOURCE source_79 rs [ 14, -76, -50, 81, 31 ]
+squares [ 196, 961, 2500, 5776, 6561 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_79 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_79 x^6 - 15994*x^5 + 86093601*x^4 - 177066311224*x^3 + 
+    122562524073616*x^2 - 17845005659040000*x
+SOURCE source_80 rs [ 14, -68, -65, 81, 38 ]
+squares [ 196, 1444, 4225, 4624, 6561 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_80 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_80 x^6 - 17050*x^5 + 103150113*x^4 - 259795010200*x^3 + 
+    232173604715536*x^2 - 36277540952889600*x
+SOURCE source_81 rs [ 15, -91, -57, 96, 37 ]
+squares [ 225, 1369, 3249, 8281, 9216 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_81 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_81 x^6 - 22340*x^5 + 166542598*x^4 - 466612206660*x^3 + 
+    436260461148801*x^2 - 76376706750489600*x
+SOURCE source_82 rs [ 17, -81, -80, 98, 46 ]
+squares [ 289, 2116, 6400, 6561, 9604 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_82 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_82 x^6 - 24970*x^5 + 221348193*x^4 - 817430005480*x^3 + 
+    1071677384682256*x^2 - 246612831297638400*x
+SOURCE source_83 rs [ 17, -72, -47, 77, 25 ]
+squares [ 289, 625, 2209, 5184, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_83 1681*x^4 + 656*x^3 + 126*x^2 + 16*x + 1
+SOURCE_CURVE source_83 x^6 - 14236*x^5 + 67641486*x^4 - 120832050316*x^3 + 
+    72042426303961*x^2 - 12263657673960000*x
+SOURCE source_84 rs [ 17, -65, -54, 74, 28 ]
+squares [ 289, 784, 2916, 4225, 5476 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 59
+SOURCE_LPOLY source_84 3481*x^4 + 472*x^3 + 38*x^2 + 8*x + 1
+SOURCE_CURVE source_84 x^6 - 13690*x^5 + 65188833*x^4 - 125501760760*x^3 + 
+    84041296099216*x^2 - 15285919841337600*x
+SOURCE source_85 rs [ 17, -57, -45, 64, 21 ]
+squares [ 289, 441, 2025, 3249, 4096 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_85 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_85 x^6 - 10100*x^5 + 35149078*x^4 - 48715218900*x^3 + 
+    23264116777521*x^2 - 3434560090214400*x
+SOURCE source_86 rs [ 17, -52, -50, 63, 22 ]
+squares [ 289, 484, 2500, 2704, 3969 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_86 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_86 x^6 - 9946*x^5 + 34645281*x^4 - 49305067096*x^3 + 
+    24574585340176*x^2 - 3752934625440000*x
+SOURCE source_87 rs [ 18, -74, -40, 77, 19 ]
+squares [ 324, 361, 1600, 5476, 5929 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 61
+SOURCE_LPOLY source_87 3721*x^4 + 244*x^3 - 50*x^2 + 4*x + 1
+SOURCE_CURVE source_87 x^6 - 13690*x^5 + 59740593*x^4 - 88208557960*x^3 + 
+    41515908704656*x^2 - 6075990477849600*x
+SOURCE source_88 rs [ 19, -88, -45, 91, 23 ]
+squares [ 361, 529, 2025, 7744, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_88 1681*x^4 + 656*x^3 + 126*x^2 + 16*x + 1
+SOURCE_CURVE source_88 x^6 - 18940*x^5 + 112834158*x^4 - 219261353260*x^3 + 
+    134018339003641*x^2 - 24799106314382400*x
+SOURCE source_89 rs [ 19, -65, -49, 72, 23 ]
+squares [ 361, 529, 2401, 4225, 5184 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 29
+SOURCE_LPOLY source_89 841*x^4 + 38*x^2 + 1
+SOURCE_CURVE source_89 x^6 - 12700*x^5 + 55195278*x^4 - 94442140300*x^3 + 
+    55299881359321*x^2 - 10042613300865600*x
+SOURCE source_90 rs [ 20, -76, -72, 91, 37 ]
+squares [ 400, 1369, 5184, 5776, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 11
+SOURCE_LPOLY source_90 121*x^4 - 44*x^3 + 6*x^2 - 4*x + 1
+SOURCE_CURVE source_90 x^6 - 21010*x^5 + 155287473*x^4 - 472015366240*x^3 + 
+    504731220818176*x^2 - 135780812000870400*x
+SOURCE source_91 rs [ 24, -84, -68, 95, 33 ]
+squares [ 576, 1089, 4624, 7056, 9025 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 41
+SOURCE_LPOLY source_91 1681*x^4 + 164*x^3 - 10*x^2 + 4*x + 1
+SOURCE_CURVE source_91 x^6 - 22370*x^5 + 173140033*x^4 - 537280512480*x^3 + 
+    576859712553216*x^2 - 184703009295974400*x
+SOURCE source_92 rs [ 25, -91, -64, 99, 31 ]
+squares [ 625, 961, 4096, 8281, 9801 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 43
+SOURCE_LPOLY source_92 1849*x^4 - 344*x^3 + 22*x^2 - 8*x + 1
+SOURCE_CURVE source_92 x^6 - 23764*x^5 + 191000886*x^4 - 591948906484*x^3 + 
+    620482243689361*x^2 - 199671705192960000*x
+SOURCE source_93 rs [ 25, -81, -64, 91, 29 ]
+squares [ 625, 841, 4096, 6561, 8281 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_93 1369*x^4 + 148*x^3 - 2*x^2 + 4*x + 1
+SOURCE_CURVE source_93 x^6 - 20404*x^5 + 143413206*x^4 - 401269165204*x^3 + 
+    386759461772401*x^2 - 116973849807360000*x
+SOURCE source_94 rs [ 26, -77, -68, 90, 29 ]
+squares [ 676, 841, 4624, 5929, 8100 ]
+torsion [ 2, 2, 2, 10 ]
+order 80 exponent 10 factor_type 1+1+1+1+1+1 simple_cert true pcert 37
+SOURCE_LPOLY source_94 1369*x^4 - 10*x^2 + 1
+SOURCE_CURVE source_94 x^6 - 20170*x^5 + 141760113*x^4 - 403933375480*x^3 + 
+    401058459285136*x^2 - 126248720799801600*x
+DONE
+triple_checked 8120601 tuple_checked 514680 clebsch_points 11280 unique_sources 
+94
+best_order 80 best_exponent 10
+best_records [
+    <"source_1", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_2", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_3", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_4", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_5", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_6", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_7", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_8", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_9", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_10", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_11", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_12", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_13", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_14", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_15", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_16", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_17", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_18", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_19", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_20", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_21", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_22", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_23", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_24", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_25", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_26", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_27", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_28", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_29", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_30", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_31", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_32", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_33", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_34", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_35", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_36", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_37", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_38", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_39", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_40", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_41", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_42", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_43", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_44", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_45", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_46", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_47", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_48", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_49", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_50", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_51", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_52", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_53", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_54", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_55", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_56", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_57", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_58", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_59", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_60", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_61", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_62", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_63", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_64", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_65", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_66", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_67", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_68", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_69", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_70", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_71", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_72", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_73", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_74", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_75", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_76", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_77", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_78", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_79", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_80", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_81", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_82", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_83", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_84", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_85", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_86", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_87", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_88", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_89", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_90", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_91", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_92", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_93", "source", [ 2, 2, 2, 10 ], 80, 10>,
+    <"source_94", "source", [ 2, 2, 2, 10 ], 80, 10>
+]
+interesting_count 0

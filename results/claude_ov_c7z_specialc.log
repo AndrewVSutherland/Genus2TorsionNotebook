@@ -1,0 +1,12 @@
+deg_m disc_w(P) = 5
+double discriminant computed
+numerator degree 58
+SPECIALC factorisation of the double discriminant numerator:
+  factor deg 1 mult 15 : C - 2   rational roots: [ 2 ]
+  factor deg 1 mult 15 : C - 1   rational roots: [ 1 ]
+  factor deg 2 mult 2 : C^2 - 6*C + 4   rational roots: []
+  factor deg 3 mult 2 : C^3 - 12*C^2 + 20*C - 8   rational roots: []
+  factor deg 6 mult 3 : C^6 - 17*C^5 + 93*C^4 - 167*C^3 + 3622/27*C^2 - 1388/27*C + 8   rational roots: []
+SPECIALC rational roots (candidate special slices): [ 1, 2 ]
+SPECIALC leading/denominator info: den=C^38 - 10*C^37 + 95/2*C^36 - 285/2*C^35 + 4845/16*C^34 - 969/2*C^33 + 4845/8*C^32 - 4845/8*C^31 + 62985/128*C^30 - 20995/64*C^29 + 46189/256*C^28 - 20995/256*C^27 + 62985/2048*C^26 - 4845/512*C^25 + 4845/2048*C^24 - 969/2048*C^23 + 4845/65536*C^22 - 285/32768*C^21 + 95/131072*C^20 - 5/131072*C^19 + 1/1048576*C^18
+SPECIALC_DONE

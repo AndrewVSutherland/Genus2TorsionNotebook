@@ -1,0 +1,24 @@
+E416 aux-degree check passed (quadratic in a..e)
+building Qf lookup table (7^5 sigma) ...
+table done
+aux solutions mod 7 at (1,0): 49
+J_aux == 0 mod 7 verified at all aux solutions
+STAGE1 mod-49: survivor (rho1,omega1) pairs = 49 / 49, (pair,aux0) branches = 385
+  ... branch 25/385  live343=49 smooth=0
+  ... branch 50/385  live343=56 smooth=0
+  ... branch 75/385  live343=98 smooth=0
+  ... branch 100/385  live343=105 smooth=0
+  ... branch 125/385  live343=147 smooth=0
+  ... branch 150/385  live343=154 smooth=0
+  ... branch 175/385  live343=196 smooth=0
+  ... branch 200/385  live343=203 smooth=0
+  ... branch 225/385  live343=245 smooth=0
+  ... branch 250/385  live343=252 smooth=0
+  ... branch 275/385  live343=294 smooth=0
+  ... branch 300/385  live343=301 smooth=0
+  ... branch 325/385  live343=343 smooth=0
+  ... branch 350/385  live343=343 smooth=0
+  ... branch 375/385  live343=343 smooth=0
+STAGE2 mod-343: live (R,w) residues = 343 / 2401, depth-2 Hensel-smooth = 0
+live but no depth-2 smooth branch found; deeper analysis needed.
+DONE

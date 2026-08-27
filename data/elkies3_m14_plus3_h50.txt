@@ -1,0 +1,5 @@
+SEARCH M_1(8,4) tangent cover plus 3
+height 50 filter_primes [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 
+59, 61 ]
+DONE plus3 height 50 checked 9566648 cover 15322 smooth 922 three_survivors 0 
+verified 0 torsion_tests 0 hits 0

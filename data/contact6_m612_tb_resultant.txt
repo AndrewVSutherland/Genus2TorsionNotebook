@@ -1,0 +1,57 @@
+Magma V2.28-27    Fri Jul 10 2026 16:01:17 on <host> [Seed = 104670204]
+
++-------------------------------------------------------------------+
+|       This copy of Magma has been made available through a        |
+|                   generous initiative of the                      |
+|                                                                   |
+|                         Simons Foundation                         |
+|                                                                   |
+| covering U.S. Colleges, Universities, Nonprofit Research entities,|
+|               and their students, faculty, and staff              |
++-------------------------------------------------------------------+
+
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/contact6_m612_tb_resultant.m"
+Loading "../../halving_mumford_tools.m"
+CONTACT6_M612_TB_RESULTANT
+E1_SHAPE <9, 2, 6, 35>
+E0_SHAPE <12, 2, 8, 76>
+A2_FACTORIZATION [
+<M, 2>,
+<b + 3, 2>
+]
+B2_FACTORIZATION [
+<M, 2>,
+<b + 3, 2>,
+<a^2*M^4 - 6*a*M^4 - 8*b*M^4 - 15*M^4 + 4*a*M^2 - 12*M^2 + 4, 1>
+]
+D_SHAPE <18, 11, 57>
+NUM_SHAPE <19, 12, 91>
+CROSS_SHAPE <20, 13, 113>
+D_FACTORIZATION [ <1, 1, 1, 3>, <1, 0, 2, 3>, <6, 4, 5, 1>, <6, 4, 7, 1> ]
+NUM_FACTORIZATION [ <1, 1, 1, 2>, <1, 0, 2, 2>, <15, 10, 47, 1> ]
+RCORE_SHAPE <38, 10, 13, 24, 529>
+RESULTANT_SHAPE <38, 10, 13, 24, 529>
+RCORE_FACTORIZATION [ <1, 0, 0, 1, 1, 8>, <1, 0, 1, 0, 2, 4>, <26, 10, 9, 16, 276, 1> ]
+RESULTANT_FACTORIZATION [ <1, 0, 0, 1, 1, 8>, <1, 0, 1, 0, 2, 4>, <26, 10, 9, 16, 276, 1> ]
+RCORE_FACTOR <M, 8>
+RCORE_FACTOR <b + 3, 4>
+GENERIC_RECOVERY N=Nu/Du (use unnormalized pair)
+EXCEPTIONAL_BRANCH D=Num=0 must be solved in N separately
+OPEN_BOUNDARY M*(b+3)*Disc(f) != 0
+SEED_PROJECTION simple_h14 degree 24 factor_degrees [ <1, 8>, <16, 1> ]
+rational_linear_factors 1 exceptional_gcd_degree 2
+ SEED_LINEAR_EXCEPTIONAL simple_h14 M 0
+SEED_PROJECTION core_h6 degree 24 factor_degrees [ <1, 8>, <4, 1>, <4, 1>, <4, 1>, <4, 1> ]
+rational_linear_factors 1 exceptional_gcd_degree 2
+ SEED_LINEAR_EXCEPTIONAL core_h6 M 0
+SEED_PROJECTION core_h10_2 degree 24 factor_degrees [ <1, 8>, <4, 1>, <4, 1>, <4, 1>, <4, 1> ]
+rational_linear_factors 1 exceptional_gcd_degree 2
+ SEED_LINEAR_EXCEPTIONAL core_h10_2 M 0
+SEED_PROJECTION core_h10_3 degree 24 factor_degrees [ <1, 8>, <4, 1>, <4, 1>, <4, 1>, <4, 1> ]
+rational_linear_factors 1 exceptional_gcd_degree 2
+ SEED_LINEAR_EXCEPTIONAL core_h10_3 M 0
+CONTACT6_M612_TB_RESULTANT_DONE
+
+Total time: 0.039 seconds, Total memory usage: 32.09MB

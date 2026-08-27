@@ -1,0 +1,9 @@
+HIT famA- par=0 roots=[0]~
+famA-: tot=43772655 survivors=191 hits=1
+DONE1
+HIT famA+ par=0 roots=[0]~
+famA+: tot=43772655 survivors=191 hits=1
+DONE2
+HIT famB par=58/3 roots=[0]~
+famB: tot=43772655 survivors=212 hits=1
+DONE3

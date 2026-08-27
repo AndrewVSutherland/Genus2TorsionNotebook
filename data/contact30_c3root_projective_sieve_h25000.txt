@@ -1,0 +1,110 @@
+CONTACT30 C3-ROOT PROJECTIVE SIEVE
+run date: 2026-07-11
+
+command:
+  c++ -O3 -std=c++17 code/contact30_c3root_projective_sieve.cpp -o /tmp/contact30_c3root_projective_sieve
+  /tmp/contact30_c3root_projective_sieve 25000 quiet
+
+height definition:
+  R=a/b, b>0, gcd(a,b)=1, |a|<=25000, b<=25000
+
+primes (61):
+  7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,
+  79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,
+  157,163,167,173,179,181,191,193,197,199,211,223,227,229,
+  233,239,241,251,257,263,269,271,277,281,283,293,307,311
+
+summary:
+  primitive parameters:               759920359
+  signed branch tests:               1519840718
+  raw survivors eps=-1:                       4
+  raw survivors eps=+1:                       4
+  exact global-boundary survivors eps=-1:     4
+  exact global-boundary survivors eps=+1:     4
+  open survivors eps=-1:                      0
+  open survivors eps=+1:                      0
+
+raw survivors on either sign:
+  R=1, 2, 3, 7/3
+
+exact classification:
+  c=(u^2-1)/(2u)=0 at all four values.
+  t=+1 gives R=2,3; t=-1 gives R=1,7/3.
+  At R=1 and R=7/3 the q denominator is zero.
+  At R=2 and R=3, C3=x^2*(x+1), but the genus-2 source is degenerate.
+  Thus none is an open root-cover point.
+
+Most selective masks (the program orders masks by union density):
+
+  p    union/P1    eps=-1 root,boundary    eps=+1 root,boundary
+  71     56/72             34,12                   34,12
+  89     72/90             46,8                    46,8
+ 241    194/242           138,18                  138,18
+ 173    140/174           101,10                  101,10
+  41     34/42             18,12                   18,12
+ 113     94/114            65,10                   65,10
+ 137    114/138            82,4                    82,4
+  23     20/24             10,8                    10,8
+  97     82/98             52,12                   52,12
+  37     32/38             13,14                   13,14
+
+Boundary disks for the first masks (all were retained):
+
+  p=71, both signs:
+    1:c_zero, 2:c_zero, 3:c_zero, 6:singular,
+    17:parameter_pole, 26:c_zero, 27:u_zero, 33:singular,
+    40:singular, 47:singular, 48:u_zero, 54:parameter_pole
+
+  p=89, both signs:
+    1:c_zero, 2:c_zero, 3:c_zero, 16:u_zero,
+    19:parameter_pole, 32:c_zero, 70:parameter_pole, 77:u_zero
+
+  p=241, eps=-1:
+    1:c_zero, 2:c_zero, 3:c_zero, 72:c_zero, 87:singular,
+    103:parameter_pole, 110:c_zero, 111:q_pole, 119:u_zero,
+    126:u_zero, 138:parameter_pole, 141:singular, 163:c_zero,
+    170:c_zero, 173:c_zero, 200:singular, 205:singular, 224:q_pole
+
+  p=241, eps=+1:
+    1:c_zero, 2:c_zero, 3:c_zero, 72:c_zero, 87:singular,
+    103:parameter_pole, 110:c_zero, 119:u_zero, 126:u_zero,
+    138:parameter_pole, 141:singular, 163:c_zero, 167:q_pole,
+    170:c_zero, 173:c_zero, 193:q_pole, 200:singular, 205:singular
+
+The non-quiet program output enumerates every retained boundary disk at all
+61 primes.  No boundary disk is treated as a no-root residue.
+
+Independent Magma cross-check on affine good fibers:
+
+  p      eps=-1 C3-root parameters    eps=+1 C3-root parameters
+  11                 1                            2
+  13                 3                            3
+  17                 4                            3
+  23                 9                            9
+
+Adding the projective R=infinity fiber when it is a root gives exactly the
+C++ projective counts 2/2, 4/4, 4/4, and 10/10, respectively.
+
+Final filter-depth tail (number of rational parameters, not signed tests):
+  after 42 masks: 21 killed
+  after 43 masks: 71 killed
+  after 44 masks: 37 killed
+  after 45 masks: 37 killed
+  after 46 masks: 24 killed
+  after 47 masks: 24 killed
+  after 48 masks: 19 killed
+  after 49 masks: 13 killed
+  after 50 masks: 2 killed
+  after 51 masks: 10 killed
+  after 52 masks: 2 killed
+  after 54 masks: 2 killed
+  after 55 masks: 2 killed
+  after 57 masks: 2 killed
+  after 58 masks: 3 killed
+  after all 61 masks: 6 reached the end, of which four parameters survived;
+                      all four are the exact c=0 boundaries above.
+
+Conclusion:
+  No smooth specialization on either branch with parameter height <=25000
+  has a rational root of C3.  Therefore this box contains no distinguished
+  Richelot candidate for [2,60].

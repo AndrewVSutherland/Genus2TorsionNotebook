@@ -1,0 +1,5 @@
+REFVEC P=103 ok=247 degen=3 err=0 mism=0 (17.5 s)
+REFVEC P=211 ok=244 degen=1 err=0 mism=0 (34.4 s)
+REFVEC P=1019 ok=120 degen=0 err=0 mism=0 (83.5 s)
+REFVEC P=1031 ok=119 degen=0 err=0 mism=0 (83.6 s)
+REFVEC_DONE

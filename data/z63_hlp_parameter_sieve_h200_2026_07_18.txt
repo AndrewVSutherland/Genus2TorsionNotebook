@@ -1,0 +1,18 @@
+Z63_HLP_SQUARECLASS_SIEVE height=200
+parameters_each=48927
+squareclasses_7=24462 squareclasses_9=24463
+common_squareclasses=2 candidate_pairs=18
+known_pair_present=True
+squareclass_minus741_t=-16/3,19/16,3/19
+squareclass_minus741_u=4,-1/3,3/4
+squareclass_minus6_t=-2,3/2,1/3
+squareclass_minus6_u=-1,2,1/2
+known_block_field_discriminants=-2964,-2964 isomorphic=true
+false_block_field_discriminants=-1176,-216 isomorphic=false
+new_underlying_pairs=0
+sieve_wall_seconds=5.20
+sieve_peak_rss_kb=70692
+cubic_test_wall_seconds=0.04
+cubic_test_peak_rss_kb=26624
+address_space_cap_bytes=250000000
+Z63_HLP_PARAMETER_AUDIT_DONE

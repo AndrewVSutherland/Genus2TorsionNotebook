@@ -1,0 +1,27 @@
+PELL SEARCH H=4 UnitDeg=24 Part=0/3 filterprimes=[ 5, 7, 11, 13, 17, 19, 23, 29 ]
+UNIT_HIT coeffs=[ -2, -3, 4, 2, 2, 4 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -3, 4, 3, 1, 2 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, -2, -1, -2, -2 ] torsion=[ 2, 4 ] 2rank=2
+UNIT_HIT coeffs=[ -2, -1, -2, 2, 1, 1 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 2, -3, 4, 4 ] torsion=[ 16 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 2, 0, 1, 1 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 2, 2, -1, -1 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, -4, -2, 4 ] torsion=[ 2, 8 ] 2rank=2
+UNIT_HIT coeffs=[ -2, -1, 4, -3, -2, 3 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, -2, -2, 2 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, 1, -2, -1 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, 2, -2, -2 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, 3, -2, -3 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, -1, 4, 4, -2, -4 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, 3, -4, -2, -2, -4 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, 3, -2, -2, 3, -3 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, 3, -2, 0, 1, -1 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ -2, 3, -2, 3, -2, 2 ] torsion=[ 2, 4 ] 2rank=2
+UNIT_HIT coeffs=[ -2, 3, 0, -1, 2, -3 ] torsion=[ 2, 6 ] 2rank=2
+PROGRESS tested=100000 modpass=224 unitok=207 hits=0
+UNIT_HIT coeffs=[ 4, 2, -4, -1, -4, 2 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ 4, 2, -4, -1, -2, 2 ] torsion=[ 8 ] 2rank=1
+UNIT_HIT coeffs=[ 4, 2, -4, 1, 0, -4 ] torsion=[ 2, 6 ] 2rank=2
+UNIT_HIT coeffs=[ 4, 2, -4, 3, 4, -2 ] torsion=[ 8 ] 2rank=1
+SEARCH_DONE tested=157464 modpass=292 unitok=271 hits=0
+DONE

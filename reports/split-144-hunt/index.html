@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The order-144 split-torsion hunt</title>
+<style>
+:root { --fg:#1a1a20; --bg:#ffffff; --muted:#5a5a66; --line:#d8d8e0; --accent:#7c3aed; --hl:#f3eefc; --code:#f5f5f8; --ok:#0a7d38; --bad:#b3261e; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e8e8ee; --bg:#131318; --muted:#9a9aa8; --line:#33333f; --accent:#b08cf5; --hl:#231c33; --code:#1e1e26; --ok:#4cc47a; --bad:#f28b82; }
+}
+* { box-sizing:border-box; }
+body { margin:0; padding:2rem 1rem 4rem; background:var(--bg); color:var(--fg);
+  font:16px/1.55 Georgia, 'Times New Roman', serif; }
+main { max-width:60rem; margin:0 auto; }
+h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .3rem; }
+h2 { font-size:1.2rem; margin:2.2rem 0 .6rem; border-bottom:1px solid var(--line); padding-bottom:.25rem; }
+h3 { font-size:1.02rem; margin:1.4rem 0 .4rem; }
+.sub { color:var(--muted); margin:0 0 1.4rem; }
+p { margin:.6rem 0; }
+code, .mono { font:0.86em/1.5 ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+code { background:var(--code); padding:.1em .3em; border-radius:3px; }
+.eq { background:var(--code); border-radius:6px; padding:.6rem .8rem; margin:.5rem 0;
+  overflow-x:auto; white-space:nowrap; font:0.82em/1.6 ui-monospace, Menlo, Consolas, monospace; }
+.tblwrap { overflow-x:auto; margin:.8rem 0; }
+table { border-collapse:collapse; font-size:.88rem; min-width:34rem; }
+th, td { border:1px solid var(--line); padding:.28rem .55rem; text-align:left; vertical-align:top; }
+th { background:var(--hl); font-weight:600; }
+td.num { text-align:right; font-variant-numeric:tabular-nums; }
+.dead td { color:var(--muted); }
+.k { color:var(--accent); font-weight:600; }
+.ok { color:var(--ok); font-weight:600; }
+.bad { color:var(--bad); font-weight:600; }
+ul { margin:.4rem 0 .4rem 1.2rem; padding:0; }
+li { margin:.25rem 0; }
+.note { color:var(--muted); font-size:.92em; }
+</style>
+</head>
+<body><main>
+<h1>The order-144 split-torsion hunt: [2,2,6,6], [12,12], and what the gluing theory actually allows</h1>
+<p class="sub">Session of 2026-08-13 &middot; executing <code>notes/claude_split_2266_1212_plan_2026_08_13.md</code> &middot;
+working notes <code>notes/claude_split_2266_1212_session_2026_08_13.md</code> &middot;
+lanes in <code>product/code/</code>, logs in <code>product/logs/</code> &middot;
+sequel: <a href="sigma-surfaces.html">the 2026-08-14 sigma-surface session</a> (universal deck
+sections; the fibrations closed; the twisted-diagonal theorem made unconditional)</p>
+
+<p>Goal: beat the split-Jacobian torsion order record (128 = [2,2,4,8], realized 2026-08-12) by
+constructing genus-2 curves over <b>Q</b> with split Jacobian and torsion [2,2,6,6] or [12,12]
+(both order 144). The session built and validated two descent machineries, proved five
+impossibility results that close most of the planned routes, found one new infinite family,
+and ended by pivoting to an (N,N)-gluing pipeline that reduces the remaining distance
+to a single computational bottleneck (Mestre reconstruction at large invariant height).</p>
+
+<h2>1. Machinery built and validated (all anchors pass)</h2>
+<ul>
+<li><b>Class-(a) Prop-12 slot machinery</b> (<code>lane_2266_derive.m</code>): symbolic 2-descent images
+&iota;(T<sub>i</sub>) of the HLP universal curves E<sup>t</sup><sub>2,6</sub>, E<sup>u</sup><sub>2,8</sub> mod squares.
+The full two-gain system for a gluing with root-matching &sigma; &isin; S<sub>3</sub> collapses to
+<b>three unordered-pair class-matching conditions</b>
+<span class="mono">(t+3)(t&minus;5) | 2(t&minus;3) | &minus;(t&minus;1)(t&minus;9)</span> against the &sigma;-permuted partner classes.
+Anchors: &iota;(T<sub>1</sub>) = HLP's printed value; &sigma;=id reproduces HLP system (6); E28&times;E28 collapses
+to the single condition (5) (E28 has a trivial &iota;-row from its rational 4-torsion); the recorded
+[2,2,24]-witness satisfies exactly one full T<sub>1</sub>-subsystem.</li>
+<li><b>Class-(b) halving (&delta;-match) machinery</b> (<code>lane_1212.m</code>): for gluings of X<sub>1</sub>(N)-curves
+(N = 8, 10, 12) the entire order-gain condition collapses to
+<span class="mono">&beta;<sub>t</sub> &equiv; &beta;<sub>u</sub> or conj(&beta;<sub>u</sub>) in K*/(K*)&sup2;</span>,
+&beta; = x(g&#8321;)&minus;e<sub>conj</sub> over K = Q(&radic;disc). Validated by: internal checksums
+(&delta;(T<sub>rat</sub>) trivial for 4|N) on ~35k curves; the four exact-[6,12] pairs failing both variants;
+unmatched [8]&times;[8] class-(b) pairs funneling to exactly [4,8] (no-gain image); and 27/27 diagonal
+N=8 survivors funneling to exactly [8,8].</li>
+</ul>
+
+<h2>2. New positive results</h2>
+<h3>2.1 An infinite family of [8,8] split Jacobians</h3>
+<p>A class-(b) curve glued to <em>itself</em> along the conjugation anti-isometry is legitimate
+(Aut(E) = &plusmn;1 acts trivially on E[2]), and the halving condition becomes
+<span class="mono">&alpha; = x(g&#8321;)&minus;e<sub>rat</sub> &equiv; 1 or disc mod squares</span>. For N=8 the
+condition curve is the <em>conic</em> &alpha; &equiv; t(1&minus;t) mod squares, giving the family</p>
+<div class="eq">t = a&sup2;/(a&sup2;+b&sup2;)  on the Kubert X&#8321;(8) chart &nbsp;&rArr;&nbsp; J(Q)<sub>tors</sub> = [8,8]  (all 27 instances of height &le; 120 verified exactly)</div>
+<p>[8,8] previously had only isolated witnesses.</p>
+<h3>2.2 The congruence-gluing pipeline, validated end to end</h3>
+<p>A mod-L trace sieve over the high-torsion families (<code>lane_cong_sieve.m</code>) found the
+3-congruent non-isogenous pair x7(2/11) &times; x10(&minus;1/2) (44 agreeing primes); Frengley-style
+(3,3)-gluing via <code>Genus2Elliptic3</code> produced</p>
+<div class="eq">y&sup2; = 4x&#8310; + 36x&#8309; &minus; 35x&#8308; &minus; 390x&sup3; + 1237x&sup2; &minus; 924x + 4356,&nbsp;&nbsp; J(Q)<sub>tors</sub> = [70] = [7]&times;[10]</div>
+<p>exactly the product injection the theory predicts ([70] was already known &mdash; this is the
+<em>control</em>; the chain trace-sieve &rarr; congruence &rarr; gluing &rarr; product torsion is what got validated).</p>
+
+<h2>3. Impossibility results (five routes closed for good)</h2>
+<div class="tblwrap"><table>
+<tr><th>route</th><th>closed by</th></tr>
+<tr class="dead"><td>[2,2,2,24] from any (2,2)-gluing of a [2,6]-curve with a [2,8]-curve</td>
+<td>the two forced t-side conditions parametrize to rank-0 genus-1 quartics (Jacobian 24a, MW = Z/4); all rational points degenerate</td></tr>
+<tr class="dead"><td>[2,2,6,6] from self-gluings of E<sup>t</sup><sub>2,6</sub></td>
+<td>all three subcovers of the two-condition locus have Jacobian [0,1,0,&minus;4,&minus;4], MW = (Z/2)&sup2;, rank 0</td></tr>
+<tr class="dead"><td>[12,12] / [10,10] from conjugation self-gluings (untwisted)</td>
+<td>condition curves w&sup2; = t(1&minus;t)(3t&sup2;&minus;3t+1) resp. t(t&minus;1)(t&sup2;&minus;3t+1): Jacobians 24a / 20a, rank 0</td></tr>
+<tr class="dead"><td>same, twisted variants</td>
+<td>genus-3 curves with <b>RankBound(J) = 0</b>, originally under GRH bounds with a bounded point search;
+<b>made UNCONDITIONAL in the <a href="sigma-surfaces.html">sequel session</a></b> (rank 0 without GRH +
+a class-order sieve exhausting C(Q) &mdash; the known degenerate points are all of them)</td></tr>
+<tr class="dead"><td>free (N,N)-injection from LMFDB-range congruent pairs</td>
+<td>all 218k pairs in the nine anti-isometry-compatible (N,r) lists scanned: max coprime torsion product = order 28, all known groups</td></tr>
+</table></div>
+<p class="note">Bonus observations: the class-(a) loci of the X&#8321;(10)/X&#8321;(12) charts are rank-0
+(a chart-level re-proof that [2,10] and [2,12] torsion do not occur over Q), and the
+Kani degeneracy criterion in the form N(a&sup2;+mb&sup2;) = &square; shows (3,2)-gluings of 2-isogenous
+pairs are always degenerate while (5,6)-, (5,14)- and (7,10)-gluings never are (p-adic descents).</p>
+
+<h2>4. Negative sweeps (dry, not impossible)</h2>
+<ul>
+<li>[2,2,6,6] cross pairs: 3-condition hash-join to H=60 &mdash; only deck-transformation (isomorphic) pairs;
+the &sigma;=id fibration over HLP's (6)-surface (per-fiber Mordell&ndash;Weil and section-arithmetic versions)
+and the symbolic section-multiple condition curves (genus 7+, 21 combos) all give nothing nondegenerate.</li>
+<li>[12,12]/[10,10] cross pairs: &beta;-match sweeps to H=120 (0 survivors among 38/273 &Delta;-matched pairs),
+&Delta;-surface fibrations dry at section-arithmetic depth.</li>
+<li>One-sided &beta;-square carriers (for mixed [2,60]/[4,24] routes): 0 among ~27k class-(b) curves per family to H=150.</li>
+</ul>
+
+<h2>5. The pivot: isogeny classes carry the missing pairs</h2>
+<p>The trace sieve revealed that the high-torsion families pair up <em>inside isogeny classes</em>:
+every E<sup>t</sup><sub>2,6</sub>-curve has an X&#8321;(12)-partner, [2,8]-curves have [8]-partners, X&#8321;(10)-curves
+pair with each other. A Cremona-database sweep (conductor &le; 20000) found the minimal instances:</p>
+<div class="tblwrap"><table>
+<tr><th>class</th><th>pair</th><th>glued torsion contains</th><th>order</th><th>status</th></tr>
+<tr><td class="mono">66c</td><td>[10] &times; [10]</td><td class="k">[10,10]</td><td class="num">100</td><td>new group; (7,7)-gluing scanned: 12 Galois-equivariant anti-isometries</td></tr>
+<tr><td class="mono">90c</td><td>[12] &times; [2,6]</td><td class="k">[2,6,12]</td><td class="num">144</td><td><b>would beat the record</b>; (5,5)-gluing scanned: 8 anti-isometries</td></tr>
+<tr><td class="mono">210e</td><td>[8] &times; [2,8]</td><td class="k">[2,8,8]</td><td class="num">128</td><td>ties the record; (5,5)-gluing scanned: 8 anti-isometries</td></tr>
+</table></div>
+<p>The analytic gluing pipeline (<code>analytic_glue.m</code>: period lattices &rarr; Lagrangian graph
+enlargement &rarr; Frobenius symplectic basis &rarr; &tau; &rarr; Rosenhain &rarr; Igusa&ndash;Clebsch)
+finds, for each pair, exactly 8 (N=5) resp. 12 (N=7) anti-isometries whose glued surface has
+<em>real</em> invariants &mdash; a precision-stability test showed these detect definability over
+<b>R</b> (the M's commuting with complex conjugation on the period lattices), and most of them are
+genuinely irrational, i.e. not defined over Q.  This matches the representation theory: for
+classes with only 2-power/3-power isogenies, End<sub>Gal</sub>(E[N]) is scalars, so the only
+Q-rational anti-isometries are the isogeny-induced &psi; = c&middot;&phi;|E[N] &mdash; and by the Kani
+criterion in the form N(a&sup2;+mb&sup2;) = &square; those are degenerate for (N,m) = (7,6), (7,3),
+(5,4), (5,9), (5,11), but <b>never degenerate for (5,6), (5,14), (7,10)</b> (p-adic descents).
+The 90c pair ([12]&times;[2,6]) is 6-isogenous &mdash; the (5,6) window &mdash; so its two
+isogeny-induced gluings &psi; = &plusmn;2&phi;|E[5] should be nondegenerate Jacobians over Q with
+torsion &supe; [2,6,12]; the strict high-precision identification of these two among the 8
+real-invariant candidates was running at session close.</p>
+
+<h3>The remaining bottleneck</h3>
+<p>Two steps remain: pinning the Q-rational members of each real-invariant family (strict
+rationality at precision &ge; twice the invariant height), then Mestre reconstruction.  See the
+addendum for where this stood at session close.</p>
+
+<h2>6. Where this leaves the two plan targets</h2>
+<ul>
+<li><b>[2,2,6,6]</b>: needs a rational point on a genus-7-fibered system over the (6)-surface, or a
+5/7-congruent pair of [2,6]-curves (none in isogeny classes to conductor 2&middot;10&#8308;, none in the LMFDB
+lists). Thin but not excluded; the five &sigma;-surfaces all have rational 2-of-3-condition points, so
+further fibrations are possible.</li>
+<li><b>[12,12]</b>: the class-(b) &beta;-match theory stands (validated); the diagonal is provably empty
+and cross pairs are thin. A [12]&times;[12]-congruent pair (no isogeny class contains two [12]-curves
+at small conductor) remains the natural source.</li>
+<li>The <b>order-144 record</b> itself is closest via <span class="k">[2,6,12]</span> at class 90c &mdash;
+the surface is constructed and certified analytically; only the curve model is pending.</li>
+</ul>
+
+<h2>Addendum: how the isogeny-gluing route closed</h2>
+<p>A precision-stability test settled the recognition question: the "rational" invariants of the
+8/12 real-invariant anti-isometries <em>track the working precision</em> &mdash; they are real but
+irrational, i.e. those gluings are defined over <b>R</b>, not Q (the M's commute with complex
+conjugation on the period lattices; genuine Q-rationality additionally needs Galois equivariance).
+For classes whose members connect by 2-power isogenies, End<sub>Gal</sub>(E[5]) is scalars, so the
+only Q-rational anti-isometries would be isogeny-induced &mdash; and a degree sweep over all
+Cremona classes to conductor 3&middot;10&#8309; shows <b>every same-class pair with torsion product
+&ge; 96 connects by degree exactly 2</b>, which is never anti-isometry-compatible
+(2&middot;k&sup2; &ne; &plusmn;1 mod 5, &notin; {3,5,6} mod 7).  The golden windows (5,6), (5,24), (7,10)
+are provably nondegenerate but require a 3- or 5-isogeny step that destroys the torsion the
+product needs.  <b>Conclusion: the (N,N)-gluing route to order &ge; 96 split torsion is
+obstructed at every accessible instance</b> by the three-way tension between anti-isometry
+existence (c&sup2;m &equiv; &minus;1 mod N), Kani nondegeneracy (N(a&sup2;+mb&sup2;) = &square;
+insoluble), and torsion preservation along the connecting isogeny.  The classical
+(2,2)/(3,3)-machineries &mdash; whose complete condition-collapse theory this session derived and
+validated &mdash; remain the only constructors, and their frontier is exactly where [2,2,6,6] and
+[12,12] sit.</p>
+<p class="note">Everything is reproducible from <code>product/code/</code>:
+<code>lane_2266_derive.m</code> (anchored slot machinery),
+<code>lane_1212.m</code> (validated halving machinery + controls),
+<code>lane_2266_self.m</code>, <code>lane_1212_sym.m</code>, <code>lane_misc2.m</code> (impossibility proofs),
+<code>lane_cong_sieve.m</code>, <code>lane_congtors.m</code> (congruence searches),
+<code>x7x10_glue.m</code> (the [70] control curve),
+<code>analytic_glue.m</code> / <code>glue_window.m</code> (the analytic pipeline and its
+window-targeted form, ready for any future pair discovered in a compatible window).</p>
+
+</main></body>
+</html>

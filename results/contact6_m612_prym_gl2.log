@@ -1,0 +1,17 @@
+== GL2-type check: quartic L-factors over K = Q(zeta3) ==
+p=7 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 2/7*z, 1/7*(-2*z - 2) conjugate? true
+p=19 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 2/19*z, 1/19*(-2*z - 2) conjugate? true
+p=37 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 1/37*(7*z + 7), -7/37*z conjugate? true
+p=43 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 2/43*z, 1/43*(-2*z - 2) conjugate? true
+p=61 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 5/61*z, 1/61*(-5*z - 5) conjugate? true
+p=73 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 2/73*z, 1/73*(-2*z - 2) conjugate? true
+p=79 : over Z [ <4, 1> ] ; over K [ <2, 1>, <2, 1> ]  traces 1/79*(10*z + 10), -10/79*z conjugate? true
+== CM probe: inert primes p = 2 mod 3 ==
+p=11 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+p=17 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+p=23 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+p=29 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+p=41 : trace(=-c1) 0 ; L factors over Z: [ <2, 2> ]
+p=47 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+p=53 : trace(=-c1) 0 ; L factors over Z: [ <2, 1>, <2, 1> ]
+GL2CHECK_DONE

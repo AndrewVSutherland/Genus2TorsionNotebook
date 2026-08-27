@@ -1,0 +1,62 @@
+E = Elliptic Curve defined by y^2 = x^3 + 6*x^2 - 16 over Rational Field ; disc = [ <2, 12>, <3, 3> ] ; conductor 288 ; E(Q) = <G=(4,-12)> x <T=(-2,0)> = Z x Z/2
+PMAX = 5000 ; LTARGET = 3960
+
+=== globally degenerate members (no genus-2 curve) ===
+  (k,eps,x(P)) with |k|<=6 : [ <-2, 0, "2">, <-1, 0, "4">, <-1, 1, "-4">, <0, 0, "O">, <0, 1, "-2">, <1, 0, "4">, <1, 1, "-4">, <2, 0, "2"> ]
+  => the degenerate set is D = {O, +-G, +-G+T, +-2G, T}, i.e. k in {0,+-1,+-2}
+
+=== prime pool: good p <= 5000 with n_p = ord(Gbar_p) dividing L = 3960 ===
+  42 primes ; lcm of their n_p is L = 3960
+  (p, n_p) = [ <5, 5>, <7, 8>, <11, 6>, <13, 10>, <19, 10>, <23, 12>, <37, 20>, <43, 11>, <47, 8>, <59, 30>, <61, 12>, <71, 36>, <131, 66>, <179, 90>, <239, 30>, <263, 11>, <307, 11>, <313, 12>, <349, 60>, <359, 180>, <373, 60>, <397, 60>, <503, 36>, <571, 22>, <577, 24>, <613, 36>, <647, 36>, <673, 30>, <769, 60>, <1201, 24>, <1277, 55>, <1297, 36>, <1487, 24>, <1583, 132>, <1619, 90>, <1741, 60>, <1861, 60>, <1979, 198>, <2377, 110>, <2521, 18>, <2833, 120>, <4391, 18> ]
+  total Euler factors to tabulate = 2*sum n_p = 3874
+  tabulated in 604.950s ; 754 distinct strict chi cached
+
+=== sweep of all 7920 classes (k mod 3960, eps) ===
+  swept in 103.530s
+  CERTIFIED (exact [2,2,14] and End=Z) : 7898 of 7920 classes
+  no usable prime at all               : 10 classes  [ <0, 0>, <0, 1>, <1, 0>, <1, 1>, <2, 0>, <1980, 0>, <1980, 1>, <3958, 0>, <3959, 0>, <3959, 1> ]
+  gcd_p #J(F_p) > 56                   : 12 classes  [ <358, 0, 112>, <900, 0, 112>, <1080, 0, 112>, <1439, 1, 112>, <1979, 0, 112>, <1979, 1, 168>, <1981, 0, 112>, <1981, 1, 168>, <2521, 1, 112>, <2880, 0, 112>, <3060, 0, 112>, <3602, 0, 112> ]
+  gcd = 56 but no disjoint strict pair  : 0 classes  []
+  gcd histogram: [ <56, 7840>, <112, 68>, <168, 2> ]
+
+congruence classes of the 8 degenerate points, mod L=3960 : [ <0, 0>, <0, 1>, <1, 0>, <1, 1>, <2, 0>, <3958, 0>, <3959, 0>, <3959, 1> ]
+undecided classes = degenerate classes ? false
+undecided classes (k mod 3960, eps) : [ <0, 0>, <0, 1>, <1, 0>, <1, 1>, <2, 0>, <358, 0>, <900, 0>, <1080, 0>, <1439, 1>, <1979, 0>, <1979, 1>, <1980, 0>, <1980, 1>, <1981, 0>, <1981, 1>, <2521, 1>, <2880, 0>, <3060, 0>, <3602, 0>, <3958, 0>, <3959, 0>, <3959, 1> ]
+
+DENSITY: 22 of 7920 classes undecided = 0.00277778
+
+=== smallest genuine members not covered ===
+   NONE with |k| <= 40: EVERY genuine member in that range is certified
+
+=== representatives of the residual (undecided) classes ===
+   class (k = 0 mod 3960, eps = 0) : representatives [ -3960, 0, 3960 ]
+   class (k = 0 mod 3960, eps = 1) : representatives [ -3960, 0, 3960 ]
+   class (k = 1 mod 3960, eps = 0) : representatives [ -3959, 1, 3961 ]
+   class (k = 1 mod 3960, eps = 1) : representatives [ -3959, 1, 3961 ]
+   class (k = 2 mod 3960, eps = 0) : representatives [ -3958, 2, 3962 ]
+   class (k = 358 mod 3960, eps = 0) : representatives [ -3602, 358, 4318 ]
+   class (k = 900 mod 3960, eps = 0) : representatives [ -3060, 900, 4860 ]
+   class (k = 1080 mod 3960, eps = 0) : representatives [ -2880, 1080, 5040 ]
+   class (k = 1439 mod 3960, eps = 1) : representatives [ -2521, 1439, 5399 ]
+   class (k = 1979 mod 3960, eps = 0) : representatives [ -1981, 1979, 5939 ]
+   class (k = 1979 mod 3960, eps = 1) : representatives [ -1981, 1979, 5939 ]
+   class (k = 1980 mod 3960, eps = 0) : representatives [ -1980, 1980, 5940 ]
+   class (k = 1980 mod 3960, eps = 1) : representatives [ -1980, 1980, 5940 ]
+   class (k = 1981 mod 3960, eps = 0) : representatives [ -1979, 1981, 5941 ]
+   class (k = 1981 mod 3960, eps = 1) : representatives [ -1979, 1981, 5941 ]
+   class (k = 2521 mod 3960, eps = 1) : representatives [ -1439, 2521, 6481 ]
+   class (k = 2880 mod 3960, eps = 0) : representatives [ -1080, 2880, 6840 ]
+   class (k = 3060 mod 3960, eps = 0) : representatives [ -900, 3060, 7020 ]
+   class (k = 3602 mod 3960, eps = 0) : representatives [ -358, 3602, 7562 ]
+   class (k = 3958 mod 3960, eps = 0) : representatives [ -2, 3958, 7918 ]
+   class (k = 3959 mod 3960, eps = 0) : representatives [ -1, 3959, 7919 ]
+   class (k = 3959 mod 3960, eps = 1) : representatives [ -1, 3959, 7919 ]
+
+=== validation: f_P mod p really equals the curve built from Pbar ===
+  k=3    eps=0 : 34 usable primes, (#J(F_p),chi_p) from the CLASS TABLE match the actual curve : true ; gcd = 56
+  k=5    eps=1 : 35 usable primes, (#J(F_p),chi_p) from the CLASS TABLE match the actual curve : true ; gcd = 56
+  k=8    eps=0 : 31 usable primes, (#J(F_p),chi_p) from the CLASS TABLE match the actual curve : true ; gcd = 56
+  k=14   eps=1 : 34 usable primes, (#J(F_p),chi_p) from the CLASS TABLE match the actual curve : true ; gcd = 56
+  k=25   eps=0 : 30 usable primes, (#J(F_p),chi_p) from the CLASS TABLE match the actual curve : true ; gcd = 56
+
+LANE1_COVER_DONE

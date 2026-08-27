@@ -1,0 +1,21 @@
+W1_P13_COMPLETE_START fiber [ -2254, -2162, 2303, 4900 ]
+p 13
+FINITE_COMPONENT T 1 signed_vals [ 8, 9, 2, 12 ]
+radicands [ 12, 4, 9, 12 ]
+smooth true J_order 128 mod3 2 contact_count 0 samples []
+FINITE_COMPONENT T 4 signed_vals [ 8, 9, 2, 10 ]
+radicands [ 10, 1, 10, 1 ]
+smooth true J_order 128 mod3 2 contact_count 0 samples []
+FINITE_COMPONENT T 9 signed_vals [ 8, 9, 2, 10 ]
+radicands [ 10, 1, 10, 1 ]
+smooth true J_order 128 mod3 2 contact_count 0 samples []
+FINITE_COMPONENT T 12 signed_vals [ 8, 9, 2, 12 ]
+radicands [ 12, 4, 9, 12 ]
+smooth true J_order 128 mod3 2 contact_count 0 samples []
+INFINITY_COMPONENT units [ 12, 5, 7, 1 ]
+square_flags [ true, false, false, true ]
+full_cover false
+MW_CONGRUENCE_MASK modulus 13 allowed_classes EMPTY reason no finite or infinity full-cover/contact component output results/target_22224_W1_p13_coefficient_mask.tsv
+PERIODIC_BANK_AUDIT N 1000 raw_classes 16024012002 initial_periodic_rows 1697 through_p167_rows 1 p13_component_survivors 0 output results/target_22224_W1_rank3_periodic_N1000_p13complete.tsv
+W1_P13_COMPLETE_DONE finite_cover_residues [ 1, 4, 9, 12 ]
+smooth_cover 4 affine_contact_total 0 infinity_full_cover false global_W1_survivors 0 output results/target_22224_W1_p13_complete_obstruction.tsv

@@ -1,0 +1,44 @@
+A2228_DEEP_P5_BOX_VERIFY_START results/target_22224_a2228_deep_p5_box_B5000_allsigns.tsv
+EXACT_LOCAL_SURVIVOR tuple [ 5, 1083, -1875, -2205 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 61 chi 3721*x^4 + 732*x^3 + 78*x^2 + 12*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 8, 960, -1800, -2535 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 73 chi 5329*x^4 + 292*x^3 + 70*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 5, 1083, -1875, -2205 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 61 chi 3721*x^4 + 732*x^3 + 78*x^2 + 12*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 50, 528, -726, -891 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 41 chi 1681*x^4 + 164*x^3 + 6*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 64, 2048, -2176, -2873 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 71 chi 5041*x^4 + 568*x^3 + 78*x^2 + 8*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 50, 528, -726, -891 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 41 chi 1681*x^4 + 164*x^3 + 6*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 136, 392, -425, -4624 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 47 chi 2209*x^4 + 376*x^3 + 30*x^2 + 8*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 144, 697, -722, -1394 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 47 chi 2209*x^4 + 188*x^3 - 34*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 50, 528, -726, -891 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 41 chi 1681*x^4 + 164*x^3 + 6*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 153, 272, -441, -4761 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 53 chi 2809*x^4 + 212*x^3 - 18*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 50, 528, -726, -891 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 41 chi 1681*x^4 + 164*x^3 + 6*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 50, 528, -726, -891 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 41 chi 1681*x^4 + 164*x^3 + 6*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 144, 697, -722, -1394 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 47 chi 2209*x^4 + 188*x^3 - 34*x^2 + 4*x + 1
+EXACT_LOCAL_SURVIVOR tuple [ 144, 697, -722, -1394 ]
+torsion [ 2, 2, 2, 8 ]
+order 64 simple true certificate_prime 47 chi 2209*x^4 + 188*x^3 - 34*x^2 + 4*x + 1
+A2228_DEEP_P5_BOX_VERIFY_DONE rows 14 hits 0

@@ -1,0 +1,55 @@
+FINITE_OPEN second-halving covers on good affine M_1(8,4) chart
+primes [ 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+p=2 is omitted: characteristic 2 is outside the good 2-primary reduction setup.
+p 3 checked 9 base_boundary 9 good_open 0 first_Tx_half 0 PR_half 0 target416 0 Tx_fourdiv_target88 0 both 0
+  samples_first []
+  samples_416 []
+  samples_88 []
+p 5 checked 25 base_boundary 25 good_open 0 first_Tx_half 0 PR_half 0 target416 0 Tx_fourdiv_target88 0 both 0
+  samples_first []
+  samples_416 []
+  samples_88 []
+p 7 checked 49 base_boundary 41 good_open 8 first_Tx_half 8 PR_half 0 target416 0 Tx_fourdiv_target88 4 both 0
+  samples_first [ <2, 3>, <2, 4>, <3, 2>, <3, 5>, <4, 2>, <4, 5>, <5, 3>, <5, 4> ]
+  samples_416 []
+  samples_88 [ <3, 2>, <3, 5>, <5, 3>, <5, 4> ]
+p 11 checked 121 base_boundary 93 good_open 28 first_Tx_half 20 PR_half 6 target416 4 Tx_fourdiv_target88 12 both 4
+  samples_first [ <2, 4>, <2, 5>, <2, 6>, <2, 7>, <3, 5>, <3, 6>, <4, 2>, <4, 9>, <5, 3>, <5, 8>, <6, 2>, <6, 3> ]
+  samples_416 [ <5, 3>, <5, 8>, <9, 4>, <9, 7> ]
+  samples_88 [ <2, 4>, <2, 7>, <5, 3>, <5, 8>, <6, 3>, <6, 8>, <7, 5>, <7, 6>, <8, 2>, <8, 9>, <9, 4>, <9, 7> ]
+p 13 checked 169 base_boundary 113 good_open 56 first_Tx_half 28 PR_half 6 target416 4 Tx_fourdiv_target88 8 both 0
+  samples_first [ <2, 6>, <2, 7>, <3, 2>, <3, 4>, <3, 9>, <3, 11>, <4, 3>, <4, 5>, <4, 8>, <4, 10>, <5, 6>, <5, 7> ]
+  samples_416 [ <3, 2>, <3, 11>, <9, 6>, <9, 7> ]
+  samples_88 [ <3, 4>, <3, 9>, <6, 3>, <6, 10>, <9, 3>, <9, 10>, <11, 4>, <11, 9> ]
+p 17 checked 289 base_boundary 153 good_open 136 first_Tx_half 64 PR_half 16 target416 12 Tx_fourdiv_target88 28 both 8
+  samples_first [ <2, 3>, <2, 4>, <2, 6>, <2, 11>, <2, 13>, <2, 14>, <3, 5>, <3, 8>, <3, 9>, <3, 12>, <4, 5>, <4, 12> ]
+  samples_416 [ <3, 5>, <3, 12>, <5, 4>, <5, 13>, <6, 7>, <6, 10>, <7, 4>, <7, 13>, <11, 8>, <11, 9>, <14, 2>, <14, 15> ]
+  samples_88 [ <2, 4>, <2, 13>, <3, 8>, <3, 9>, <5, 4>, <5, 8>, <5, 9>, <5, 13>, <6, 2>, <6, 15>, <7, 2>, <7, 4> ]
+p 19 checked 361 base_boundary 197 good_open 164 first_Tx_half 104 PR_half 22 target416 16 Tx_fourdiv_target88 28 both 8
+  samples_first [ <2, 3>, <2, 4>, <2, 7>, <2, 12>, <2, 15>, <2, 16>, <3, 4>, <3, 5>, <3, 9>, <3, 10>, <3, 14>, <3, 15> ]
+  samples_416 [ <4, 3>, <4, 16>, <5, 6>, <5, 13>, <7, 3>, <7, 16>, <9, 5>, <9, 8>, <9, 11>, <9, 14>, <11, 6>, <11, 13> ]
+  samples_88 [ <2, 4>, <2, 15>, <4, 2>, <4, 3>, <4, 16>, <4, 17>, <5, 6>, <5, 9>, <5, 10>, <5, 13>, <6, 2>, <6, 17> ]
+p 23 checked 529 base_boundary 241 good_open 288 first_Tx_half 184 PR_half 42 target416 32 Tx_fourdiv_target88 44 both 4
+  samples_first [ <2, 3>, <2, 4>, <2, 5>, <2, 10>, <2, 13>, <2, 18>, <2, 19>, <2, 20>, <3, 4>, <3, 7>, <3, 9>, <3, 10> ]
+  samples_416 [ <2, 10>, <2, 13>, <3, 10>, <3, 13>, <7, 5>, <7, 18>, <8, 7>, <8, 16>, <9, 6>, <9, 17>, <10, 9>, <10, 14> ]
+  samples_88 [ <2, 4>, <2, 10>, <2, 13>, <2, 19>, <4, 10>, <4, 13>, <5, 11>, <5, 12>, <6, 7>, <6, 16>, <7, 3>, <7, 4> ]
+p 29 checked 841 base_boundary 313 good_open 528 first_Tx_half 256 PR_half 60 target416 32 Tx_fourdiv_target88 116 both 16
+  samples_first [ <2, 4>, <2, 6>, <2, 8>, <2, 11>, <2, 12>, <2, 17>, <2, 18>, <2, 21>, <2, 23>, <2, 25>, <3, 4>, <3, 9> ]
+  samples_416 [ <3, 4>, <3, 25>, <4, 11>, <4, 18>, <5, 3>, <5, 7>, <5, 22>, <5, 26>, <6, 4>, <6, 10>, <6, 19>, <6, 25> ]
+  samples_88 [ <2, 4>, <2, 6>, <2, 23>, <2, 25>, <3, 4>, <3, 9>, <3, 13>, <3, 16>, <3, 20>, <3, 25>, <4, 7>, <4, 22> ]
+p 31 checked 961 base_boundary 321 good_open 640 first_Tx_half 376 PR_half 86 target416 56 Tx_fourdiv_target88 132 both 40
+  samples_first [ <2, 3>, <2, 4>, <2, 12>, <2, 15>, <2, 16>, <2, 19>, <2, 27>, <2, 28>, <3, 4>, <3, 8>, <3, 9>, <3, 10> ]
+  samples_416 [ <2, 12>, <2, 19>, <3, 9>, <3, 22>, <4, 8>, <4, 23>, <5, 9>, <5, 22>, <7, 3>, <7, 14>, <7, 17>, <7, 28> ]
+  samples_88 [ <2, 4>, <2, 12>, <2, 19>, <2, 27>, <3, 4>, <3, 9>, <3, 22>, <3, 27>, <4, 11>, <4, 15>, <4, 16>, <4, 20> ]
+p 37 checked 1369 base_boundary 401 good_open 968 first_Tx_half 516 PR_half 104 target416 64 Tx_fourdiv_target88 228 both 32
+  samples_first [ <2, 4>, <2, 5>, <2, 9>, <2, 15>, <2, 16>, <2, 18>, <2, 19>, <2, 21>, <2, 22>, <2, 28>, <2, 32>, <2, 33> ]
+  samples_416 [ <3, 16>, <3, 21>, <5, 12>, <5, 17>, <5, 20>, <5, 25>, <6, 5>, <6, 32>, <7, 3>, <7, 9>, <7, 28>, <7, 34> ]
+  samples_88 [ <2, 4>, <2, 9>, <2, 16>, <2, 21>, <2, 28>, <2, 33>, <3, 10>, <3, 12>, <3, 16>, <3, 21>, <3, 25>, <3, 27> ]
+p 41 checked 1681 base_boundary 441 good_open 1240 first_Tx_half 644 PR_half 172 target416 112 Tx_fourdiv_target88 260 both 52
+  samples_first [ <2, 4>, <2, 5>, <2, 10>, <2, 11>, <2, 12>, <2, 14>, <2, 19>, <2, 22>, <2, 27>, <2, 29>, <2, 30>, <2, 31> ]
+  samples_416 [ <2, 4>, <2, 37>, <3, 4>, <3, 11>, <3, 30>, <3, 37>, <6, 3>, <6, 13>, <6, 28>, <6, 38>, <7, 14>, <7, 19> ]
+  samples_88 [ <2, 4>, <2, 5>, <2, 10>, <2, 31>, <2, 36>, <2, 37>, <3, 4>, <3, 5>, <3, 16>, <3, 20>, <3, 21>, <3, 25> ]
+p 43 checked 1849 base_boundary 477 good_open 1372 first_Tx_half 792 PR_half 170 target416 128 Tx_fourdiv_target88 244 both 44
+  samples_first [ <2, 4>, <2, 6>, <2, 11>, <2, 12>, <2, 13>, <2, 15>, <2, 18>, <2, 19>, <2, 21>, <2, 22>, <2, 24>, <2, 25> ]
+  samples_416 [ <2, 6>, <2, 12>, <2, 15>, <2, 28>, <2, 31>, <2, 37>, <3, 5>, <3, 38>, <4, 12>, <4, 16>, <4, 27>, <4, 31> ]
+  samples_88 [ <2, 4>, <2, 6>, <2, 37>, <2, 39>, <3, 9>, <3, 10>, <3, 17>, <3, 26>, <3, 33>, <3, 34>, <4, 15>, <4, 16> ]

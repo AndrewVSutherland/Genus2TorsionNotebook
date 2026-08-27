@@ -1,0 +1,74 @@
+# (2,2,2,12) production campaign 2026-07-18: structural results on the T3/T5
+# pencils of M(2,2,2,6) (curve y^2 = prod_i (A_i + B_i x), A=[1,1,1,2,2],
+# B1=2s^2-sn, B2=2s^2+sm-2sn-mn, B3=2s^2+sm-sn-mn, B4=-mn, B5=4s^2-4sn-mn).
+# T3 pencil member rho = B3/B5, parameterized (s,m,n)=(uD,-uN,D), D=u-1+rho,
+# N=(2-4rho)u-(1-4rho); q(u)=4u^2-6u+3.
+#
+# PROVEN IDENTITY (issquare in Q[rho,u]):  V1*V2*V4*V5*(1-2rho) = square.
+# => T3 hits impossible unless 1-2rho = w^2 in Q; on such members near-miss<=>hit.
+# Exact square-class normal forms (validated 117 random points):
+#   V1 == q(u)*(1-(4u-2)rho)
+#   V2 == (2u-1)*q(u)*((2u-1)-(4u-4)rho)
+#   V4 == (u-1)*q(u)*(rho+u-1)         (mod squares)
+# T5 pencil (rho' = B4/B5, (s,m,n)=(u(rho'-1), 4rho'u(u-1), rho'-1)):
+#   V'1*V'2*V'3*V'4 == (q(u)rho'-2u+1)(q(u)rho'-1)  (mod squares; NOT constant)
+#
+# Universal degenerate section of the T3 w-locus: u* = (1+2rho)/(4rho)
+#   = (w^2-2)/(2(w^2-1)):  B2(u*) == 0 identically (curve degenerates);
+#   u* is the rational 2-torsion point of E1(rho).
+#
+# The elliptic surface of the correlated block:  E1(rho) = E2(rho) = E4(rho)
+# (same minimal model on every member checked; the three condition covers are
+# isomorphic).  j(rho) = (32768rho^6+24576rho^5-6144rho^4-5632rho^3+768rho^2
+# +384rho-64)/(48rho^6-48rho^5+36rho^4-12rho^3+3rho^2);
+# j(w) = 64(w^2-2)^3(2w^2-1)^3/((w-1)^2(w+1)^2(w^4-w^2+1)^2), j(w)=j(1/w).
+# Delta ~ rho^2(4rho^2-2rho+1)^2: only rational singular fiber is rho=0 (deg).
+#
+# w-member table (w, rho=(1-w^2)/2, minimal model of E1=E2=E4, rank, torsion):
+# w=2,1/2    rho=-3/2,3/8     [0,1,0,5,14]          rank 1  Z/2
+# w=3,1/3    rho=-4,4/9       [0,-1,0,40,156]       rank 2  Z/2
+# w=3/2,2/3  rho=-5/8,5/18    [0,-1,0,5,100]        rank 2  Z/2
+# w=4,1/4    rho=-15/2,15/32  [0,1,0,145,1050]      rank 2  Z/2
+# w=3/4,4/3  rho=7/32,-7/18   [0,-1,0,-15,456]      rank 2  Z/2
+# w=5,1/5    rho=-12,12/25    [0,1,0,376,4032]      rank 2  Z/2
+# w=5/2,2/5  rho=-21/8,21/50  [0,1,0,261,3510]      rank 2  Z/2
+# w=5/3,3/5  rho=-8/9,8/25    [1,1,1,6,42]          rank 2  Z/2
+# w=5/4,4/5  rho=-9/32,9/50   [0,1,0,-79,1442]      rank 2  Z/2
+# w=6,1/6    rho=-35/2,35/72  [0,-1,0,805,11532]    rank 2  Z/2
+# w=5/6,6/5  rho=11/72,-11/50 [0,-1,0,-219,4020]    rank 2  Z/2
+# w=7        rho=-24          [1,0,0,95,476]        rank 2  Z/2
+# w=7/2,2/7  rho=-45/8,45/98  [0,1,0,1285,28638]    rank 2  Z/2
+# w=7/3,3/7  rho=-20/9,20/49  [0,-1,0,920,24700]    rank 2  Z/2
+# w=7/4,4/7  rho=-33/32,33/98 [0,1,0,465,20394]     rank 2  Z/2
+#
+# Non-w member rank checks (Task B):
+# T3 rho=-63/242: E1=E2=E4=[0,1,0,-4775,563754] cond 4407144 rank EXACTLY 3, Z/2;
+#   products E12=E14=E24=[0,1,0,-199934824,992407557956] cond 2230014864 rank 3 (2,2)
+# T5 rho'=-1/143:  EW3=[1,0,0,182754,6625476] cond 98670 rank [1,1] Z/4;
+#                  EW4=[0,0,0,-8588583,9687916548] cond 2882880 rank [2,2] Z/2
+# T5 rho'=-25/551: EW3=[1,0,0,260835262,970103665092] cond 188359350 rank [2,2] Z/2;
+#                  EW4=[0,0,0,-1734356412,27800692997184] cond 94419360 rank [2,2] Z/2
+# (T5 conic conditions W1,W2 always have rational points.)
+#
+# SEARCH RESULTS (all NEGATIVE for genuine hits):
+# t3sweep (exact integer square tests of V1,V2,V4 on w-members):
+#   N=1000 W=100 (7.3e9 pairs): 0 hits; N=4000 W=150 (T1-passes 51078): 0 hits.
+# MW lift (Magma, E1(Q) enumeration, section/2-torsion excluded):
+#   NMAX=12 x 21 members + NMAX=16 x (a,b<=8) members: 0 genuine hits
+#   (only the degenerate section u* appears, on every member).
+# tor22212 enumerator (chart M(2,2,2,4)+3, family y^2=x(x+a^2)..(x+d^2)):
+#   H=2000, -P127 sieve + postfilter (direct 96 | #J(F_p) for good p in [131,397]):
+#   d in [5,1000]:   1877 -P127 survivors, 0 pass postfilter
+#   d in [1001,1400]: 6396 survivors, 0 pass
+#   => NO (a,b,c,d) with gcd 1, a<b<c<d<=1400 has torsion >= (2,2,2,12)
+#      (local filters are necessary conditions: unconditional kill in range).
+#
+# GLOBAL (unrestricted) square-class products on M(2,2,2,6) (identity2.gp):
+# class T_i hits require prod_k V_{i,k} to be a square, and mod squares:
+#  T3: == -[(8n+8m)s^3+(-8n^2-12mn)s^2+(2mn^2-2m^2n)s+m^2n^2]
+#  T5: == 8*[(4n+4m)s^3+(-2n^2-2mn+2m^2)s^2+(-mn^2-3m^2n)s+m^2n^2]
+#  T1: == +[deg-7 form, see identity2.gp output]; T2: == -[deg-7 form];
+#  T4: == 8*[deg-8 form]  (stiff classes: no 3/4-near-misses observed).
+# The T3/T5 master obstruction surfaces t^2 = -C3(s,m,n), t^2 = 2*C5(s,m,n)
+# are double covers of P^2; the pencil identity is the restriction of the
+# first to the conic pencil (where -C3 == (1-2rho) mod squares).

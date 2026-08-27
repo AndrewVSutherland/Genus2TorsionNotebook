@@ -1,0 +1,30 @@
+CONTACT7_TWO_ROOT_PLUS3_SIEVE
+height 1000 mode u=1 branch
+prime 3 total 9 chart 0 good 0 pass 0 fail 0 unknown 9 base_anomaly 0 required 28
+prime 5 total 25 chart 4 good 4 pass 0 fail 4 unknown 21 base_anomaly 0 required 84
+prime 7 total 49 chart 16 good 16 pass 2 fail 14 unknown 33 base_anomaly 0 required 12
+prime 11 total 121 chart 60 good 52 pass 16 fail 36 unknown 69 base_anomaly 0 required 84
+prime 13 total 169 chart 94 good 70 pass 30 fail 40 unknown 99 base_anomaly 0 required 84
+prime 17 total 289 chart 178 good 170 pass 46 fail 124 unknown 119 base_anomaly 0 required 84
+prime 19 total 361 chart 240 good 226 pass 84 fail 142 unknown 135 base_anomaly 0 required 84
+prime 23 total 529 chart 388 good 350 pass 102 fail 248 unknown 179 base_anomaly 0 required 84
+prime 29 total 841 chart 660 good 612 pass 186 fail 426 unknown 229 base_anomaly 0 required 84
+prime 31 total 961 chart 756 good 678 pass 226 fail 452 unknown 283 base_anomaly 0 required 84
+prime 37 total 1369 chart 1126 good 1064 pass 366 fail 698 unknown 305 base_anomaly 0 required 84
+prime 41 total 1681 chart 1416 good 1360 pass 504 fail 856 unknown 321 base_anomaly 0 required 84
+prime 43 total 1849 chart 1552 good 1478 pass 414 fail 1064 unknown 371 base_anomaly 0 required 84
+prime 47 total 2209 chart 1888 good 1726 pass 648 fail 1078 unknown 483 base_anomaly 0 required 84
+prime 53 total 2809 chart 2446 good 2326 pass 892 fail 1434 unknown 483 base_anomaly 0 required 84
+prime 59 total 3481 chart 3096 good 2932 pass 1184 fail 1748 unknown 549 base_anomaly 0 required 84
+prime 61 total 3721 chart 3312 good 3166 pass 910 fail 2256 unknown 555 base_anomaly 0 required 84
+prime 67 total 4489 chart 4036 good 3836 pass 1296 fail 2540 unknown 653 base_anomaly 0 required 84
+prime 71 total 5041 chart 4548 good 4390 pass 1998 fail 2392 unknown 651 base_anomaly 0 required 84
+prime 73 total 5329 chart 4834 good 4704 pass 1900 fail 2804 unknown 625 base_anomaly 0 required 84
+prime 79 total 6241 chart 5712 good 5558 pass 1816 fail 3742 unknown 683 base_anomaly 0 required 84
+prime 83 total 6889 chart 6328 good 6108 pass 2576 fail 3532 unknown 781 base_anomaly 0 required 84
+filter_order 61 79 43 67 73 83 53 59 41 37 29 47 71 31 23 17 19 11 7 13 5
+SURVIVOR 1/1 805/86
+SURVIVOR 1/1 -267/748
+rational_parameters 1216767 branch_raw_parameters 1216767
+SUMMARY raw_pairs 1216767 exact_boundary 3 tested 1216764 survivors 2
+KILL_COUNTS 61:647911 79:356493 43:106155 67:70661 73:21185 83:5425 53:5853 59:1400 41:840 37:480 29:221 47:52 71:37 31:27 23:12 17:2 19:4 11:2 7:1 13:1

@@ -1,0 +1,46 @@
+=== (a) the (6,2) component E = 92.a1 -> t-line ===
+t on E92 has DEGREE 9 (as a map E92 -> P^1)
+  genus of E92 function field: 1
+t on the (4,3) component (w-line) has DEGREE 6
+
+=== (b) the two orbit covers of the t-line ===
+Gal = S3wrC2 of order 72
+orbit sizes [ 6, 9 ]
+orbit sizes on the 15 PAIRS (= incidence-variety components): [ 6, 9 ]
+
+ORBIT SIZE 9 : stabiliser order 8 (index 9), D4
+  partition: {
+{ 2, 6 },
+{ 1, 4 },
+{ 3, 5 }
+}
+  DEFINING POLYNOMIAL of the cover (degree 9):
+    Y^9 - 12*Y^8 + (2*u + 68)*Y^7 + (-16*u - 238)*Y^6 + (u^2 + 52*u + 564)*Y^5 + (-4*u^2 - 90*u - 932)*Y^4 + (92*u + 1065)*Y^3 + (-48*u - 804)*Y^2 + (-4*u + 360)*Y + 16*u - 72
+  irreducible over Q(t): true
+  GENUS of the cover = 1
+  constant field = Rational Field
+  PLANE MODEL (t,Y): Tv^2*Yv^5 - 4*Tv^2*Yv^4 + 2*Tv*Yv^7 - 16*Tv*Yv^6 + 52*Tv*Yv^5 - 90*Tv*Yv^4 + 92*Tv*Yv^3 - 48*Tv*Yv^2 - 4*Tv*Yv + 16*Tv + Yv^9 - 12*Yv^8 + 68*Yv^7 - 238*Yv^6 + 564*Yv^5 - 932*Yv^4 + 1065*Yv^3 - 804*Yv^2 + 360*Yv - 72
+  plane model genus 1, absolutely irreducible true
+  PointSearch(5000): 11 points: [ (9/2 : 0 : 1), (-1323/320 : 4 : 1), (0 : 2 : 1), (1 : 0 : 0), (7/16 : 5/4 : 1), (0 : 1 : 1), (1274/81 : -2/9 : 1), (-2450/81 : 6 : 1), (1/4 : 2 : 1), (-63/4 : 6 : 1), (4/3 : 1 : 1) ]
+
+ORBIT SIZE 6 : stabiliser order 12 (index 6), D6
+  partition: {
+{ 2, 5 },
+{ 3, 4 },
+{ 1, 6 }
+}
+  DEFINING POLYNOMIAL of the cover (degree 6):
+    Y^6 + (-8*u - 8)*Y^5 + (24*u^2 + 16)*Y^4 + (-32*u^3 + 192*u^2 + 160*u + 24)*Y^3 + (16*u^4 - 512*u^3 - 256*u^2 - 224*u - 96)*Y^2 + (384*u^4 - 1408*u^3 - 416*u^2 - 384*u)*Y + 2304*u^4 + 1280*u^3 - 5504*u^2 + 2048*u
+  irreducible over Q(t): true
+  GENUS of the cover = 2
+  constant field = Rational Field
+  PLANE MODEL (t,Y): 16*Tv^4*Yv^2 + 384*Tv^4*Yv + 2304*Tv^4 - 32*Tv^3*Yv^3 - 512*Tv^3*Yv^2 - 1408*Tv^3*Yv + 1280*Tv^3 + 24*Tv^2*Yv^4 + 192*Tv^2*Yv^3 - 256*Tv^2*Yv^2 - 416*Tv^2*Yv - 5504*Tv^2 - 8*Tv*Yv^5 + 160*Tv*Yv^3 - 224*Tv*Yv^2 - 384*Tv*Yv + 2048*Tv + Yv^6 - 8*Yv^5 + 16*Yv^4 + 24*Yv^3 - 96*Yv^2
+  plane model genus 2, absolutely irreducible true
+  PointSearch(5000): 8 points: [ (0 : 4 : 1), (1/2 : 1 : 0), (0 : 0 : 1), (0 : -2 : 1), (1 : 0 : 0), (65/4 : -19/2 : 1), (-1 : 2 : 1), (-74/9 : -18 : 1) ]
+  IsHyperelliptic: true
+  GENUS-2 MODEL: Hyperelliptic Curve defined by y^2 = 16*x^6 + 3648*x^5 + 346176*x^4 + 17501312*x^3 + 497180160*x^2 + 7525173248*x + 47411310592 over Rational Field
+  discriminant [ <2, 82>, <19, 1>, <23, 3> ]
+  Points(bound=10^5) on the genus-2 model: 8 -> {@ (1 : -4 : 0), (1 : 4 : 0), (-36 : -64 : 1), (-36 : 64 : 1), (-37 : -92 : 1), (-37 : 92 : 1), (-42 : -32 : 1), (-42 : 32 : 1) @}
+  JACOBIAN RANK BOUNDS: [0, 2]
+  TORSION of J: []
+ORBITCOVERS_DONE

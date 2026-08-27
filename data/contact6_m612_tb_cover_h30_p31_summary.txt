@@ -1,0 +1,35 @@
+CONTACT6_M612_TB_COVER_SEARCH -- HEIGHT 30, PRIMES THROUGH 31
+
+Command:
+  magma -b height:=30 prime_bound:=31 max_exact:=100 \
+    progress_interval:=250000 code/contact6_m612_tb_cover_search.m
+
+H_SHAPE <total degree 8, degree_s 4, degree_r 5, degree_K 3, 31 terms>
+
+checked 1232100
+mask_survivors 6315
+cubic_roots 1706
+square_lifts 146
+smooth 81
+local_survivors 0
+simple_survivors 0
+exact_tests 0
+hits 0
+
+Residue-mask first-kill counts on all checked (s,r) pairs:
+
+  p=5: 333233
+  p=7: 305499
+  p=11: 242841
+  p=13: 153722
+  p=17: 96298
+  p=19: 50054
+  p=23: 24861
+  p=29: 12539
+  p=31: 6738
+
+Recovery-boundary square lifts were explicitly reported at
+
+  (s,r,K)=(-7/4,7/8,81/64),
+  (s,r,K)=(3/4,27/8,441/64),
+  (s,r,K)=(-13/6,26/9,784/81).

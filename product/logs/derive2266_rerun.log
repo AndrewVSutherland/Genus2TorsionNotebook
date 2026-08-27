@@ -1,0 +1,91 @@
+== iota table E26 (classes mod squares, rows = T_i, cols = slots) ==
+  iota(T1) = [
+2*T^3 - 10*T^2 - 18*T + 90,
+T^2 - 2*T - 15,
+2*T - 6
+]
+  iota(T2) = [
+-T^2 + 2*T + 15,
+T^4 - 12*T^3 + 14*T^2 + 132*T - 135,
+-T^2 + 10*T - 9
+]
+  iota(T3) = [
+-2*T + 6,
+T^2 - 10*T + 9,
+-2*T^3 + 26*T^2 - 78*T + 54
+]
+== iota table E28 ==
+  iota(T1) = [
+1,
+1,
+1
+]
+  iota(T2) = [
+-1,
+-T^4 - T^3 + 1/8*T + 1/64,
+T^4 + T^3 - 1/8*T - 1/64
+]
+  iota(T3) = [
+-1,
+-T^4 - T^3 + 1/8*T + 1/64,
+T^4 + T^3 - 1/8*T - 1/64
+]
+ANCHOR1 iota(T1) E26 vs HLP printed: PASS
+ANCHOR2 E28 trivial iota rows: [ 1 ]
+== E26 x E26 sigma systems (condition: LA(t)*LB(u) square) ==
+sigma=[ 1, 2, 3 ]:
+   LA = T^2 - 2*T - 15   |   LB = T^2 - 2*T - 15
+   LA = 2*T - 6   |   LB = 2*T - 6
+   LA = -T^2 + 10*T - 9   |   LB = -T^2 + 10*T - 9
+sigma=[ 2, 1, 3 ]:
+   LA = T^2 - 2*T - 15   |   LB = -T^2 + 2*T + 15
+   LA = 2*T - 6   |   LB = -T^2 + 10*T - 9
+   LA = -T^2 + 10*T - 9   |   LB = 2*T - 6
+sigma=[ 3, 2, 1 ]:
+   LA = T^2 - 2*T - 15   |   LB = T^2 - 10*T + 9
+   LA = 2*T - 6   |   LB = -2*T + 6
+   LA = -T^2 + 10*T - 9   |   LB = -T^2 + 2*T + 15
+sigma=[ 1, 3, 2 ]:
+   LA = T^2 - 2*T - 15   |   LB = 2*T - 6
+   LA = 2*T - 6   |   LB = T^2 - 2*T - 15
+   LA = -T^2 + 10*T - 9   |   LB = T^2 - 10*T + 9
+sigma=[ 2, 3, 1 ]:
+   LA = T^2 - 2*T - 15   |   LB = -T^2 + 10*T - 9
+   LA = 2*T - 6   |   LB = -T^2 + 2*T + 15
+   LA = -T^2 + 10*T - 9   |   LB = -2*T + 6
+sigma=[ 3, 1, 2 ]:
+   LA = T^2 - 2*T - 15   |   LB = -2*T + 6
+   LA = 2*T - 6   |   LB = T^2 - 10*T + 9
+   LA = -T^2 + 10*T - 9   |   LB = T^2 - 2*T - 15
+ANCHOR3 sigma=id T1-system reproduces HLP (6): PASS
+ANCHOR4 E28xE28 sigma=id: 2 auto conditions, 1 = condition (5): PASS
+== E26 x E28 sigma systems at the [2,2,24] witness (t,u)=(241/81,1/3) ==
+sigma=[ 1, 2, 3 ] holds=[ false, false, false ]
+sigma=[ 2, 1, 3 ] holds=[ false, false, false ]
+sigma=[ 3, 2, 1 ] holds=[ false, true, false ]
+sigma=[ 1, 3, 2 ] holds=[ false, false, false ]
+sigma=[ 2, 3, 1 ] holds=[ true, true, false ]
+   -> full T1-subsystem HOLDS at witness (sigma=[ 2, 3, 1 ])
+sigma=[ 3, 1, 2 ] holds=[ false, false, false ]
+ANCHOR5 [2,2,24] witness satisfies a full T_i-subsystem: PASS
+== [2,2,2,24] t-side systems and quartics ==
+sigma=[ 1, 2, 3 ]: t-side: 1*(T^2 - 2*T - 15) and 1*(2*T - 6) both squares; u-cond: (-T^2 + 10*T - 9)(t) * (T^4 + T^3 - 1/8*T - 1/64)(u) square
+   quartic in m (need square): T^4 + 8*T^2 - 48
+   points (bound 3000): 4
+sigma=[ 2, 1, 3 ]: t-side: -1*(T^2 - 2*T - 15) and 1*(-T^2 + 10*T - 9) both squares; u-cond: (2*T - 6)(t) * (T^4 + T^3 - 1/8*T - 1/64)(u) square
+   quartic in m (need square): -3*T^4 + 2*T^2 + 1
+   points (bound 3000): 4
+sigma=[ 3, 2, 1 ]: t-side: -1*(2*T - 6) and -1*(-T^2 + 10*T - 9) both squares; u-cond: (T^2 - 2*T - 15)(t) * (-T^4 - T^3 + 1/8*T + 1/64)(u) square
+   quartic in m (need square): T^4 + 8*T^2 - 48
+   points (bound 3000): 4
+sigma=[ 1, 3, 2 ]: t-side: 1*(T^2 - 2*T - 15) and 1*(2*T - 6) both squares; u-cond: (-T^2 + 10*T - 9)(t) * (-T^4 - T^3 + 1/8*T + 1/64)(u) square
+   quartic in m (need square): T^4 + 8*T^2 - 48
+   points (bound 3000): 4
+sigma=[ 2, 3, 1 ]: t-side: -1*(2*T - 6) and -1*(-T^2 + 10*T - 9) both squares; u-cond: (T^2 - 2*T - 15)(t) * (T^4 + T^3 - 1/8*T - 1/64)(u) square
+   quartic in m (need square): T^4 + 8*T^2 - 48
+   points (bound 3000): 4
+sigma=[ 3, 1, 2 ]: t-side: -1*(T^2 - 2*T - 15) and 1*(-T^2 + 10*T - 9) both squares; u-cond: (2*T - 6)(t) * (-T^4 - T^3 + 1/8*T + 1/64)(u) square
+   quartic in m (need square): -3*T^4 + 2*T^2 + 1
+   points (bound 3000): 4
+TSTARS total 0
+DERIVE_DONE 2266

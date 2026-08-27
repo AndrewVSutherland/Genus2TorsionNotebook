@@ -1,0 +1,9 @@
+# Mechanism-B points (Q4 = product of two rational quadratics) on 17 rich fibers, u-height 20000:
+# 6 points, ALL TorsionSubgroup exactly [2,12]; none halvable.
+# Format: tn td 0 1 rn rd
+2 1 0 1 -16 25
+3 2 0 1 -144 169
+4 1 0 1 -64 289
+5 1 0 1 -25 169
+5 2 0 1 -400 841
+5 3 0 1 -225 289

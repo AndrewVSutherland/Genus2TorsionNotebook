@@ -1,0 +1,94 @@
+Contact-6 core family-slice analysis
+G2 degree 18 degrees [ 4, 10, 4, 10 ]
+terms 116 factor [ (deg 18, terms 116)^1 ]
+G3 degree 10 degrees [ 3, 6, 3, 6 ]
+terms 39 factor [ (deg 10, terms 39)^1 ]
+G2 known 0
+G3 known 0
+a recovered 133/39
+h6(1) numerator known 239685/128
+
+============================================================
+Slice fix v at known value v = 5/2
+slice variables [ b, L, U ]
+F degree 14 degrees [ 4, 10, 4 ]
+terms 55 factor [ (deg 14, terms 55)^1 ]
+G degree 9 degrees [ 3, 6, 3 ]
+terms 26 factor [ (deg 9, terms 26)^1 ]
+common removed degree 0 summary []
+known3 <-7/13, 29/16, -9/4>
+F(known) 0 G(known) 0
+ideal dimension 1 component_degrees [ 3 ]
+ideal dimension/degree unavailable Argument must be a homogenous ideal of a polynomial
+ ring over a field with variables of weight one.
+resultant eliminating 1 degree 42 terms 151 factor [ (deg 1, terms 1)^12, (deg 1, terms 2)^3, (deg 1, terms 2)^3, (deg 10, terms 25)^1, (deg 14, terms 40)^1 ]
+  factor through known projection 4 degree 10 terms 25 exponent 1
+resultant eliminating 2 degree 54 terms 1048 factor [ (deg 1, terms 2)^8, (deg 1, terms 2)^16, (deg 6, terms 21)^2, (deg 9, terms 43)^2 ]
+  factor through known projection 3 degree 6 terms 21 exponent 2
+  factor polynomial Y1^4*Y2 + 5/2*Y1^4 - 7/39*Y1^3*Y2^3 - 8206/4875*Y1^3*Y2^2 + 3493/975*Y1^3*Y2 + 308/39*Y1^3 + 64/63375*Y1^2*Y2^4 - 33469/21125*Y1^2*Y2^3 - 908678/63375*Y1^2*Y2^2 - 181439/21125*Y1^2*Y2 - 174769/12675*Y1^2 + 128/21125*Y1*Y2^4 - 98439/21125*Y1*Y2^3 - 858278/21125*Y1*Y2^2 - 901739/21125*Y1*Y2 - 150648/4225*Y1 + 192/21125*Y2^4 - 96471/21125*Y2^3 - 808902/21125*Y2^2 - 744082/21125*Y2 + 219017/8450
+  projective known value 0
+  plane factor genus 2
+  singular_points 2
+  singular_points_list {@ (0 : 1 : 0), (1 : 0 : 0) @}
+resultant eliminating 3 degree 42 terms 146 factor [ (deg 1, terms 1)^8, (deg 14, terms 33)^1, (deg 20, terms 50)^1 ]
+  factor through known projection 2 degree 14 terms 33 exponent 1
+
+============================================================
+Slice fix b at known value b = -7/13
+slice variables [ L, U, v ]
+F degree 14 degrees [ 10, 4, 10 ]
+terms 52 factor [ (deg 14, terms 52)^1 ]
+G degree 7 degrees [ 6, 3, 6 ]
+terms 21 factor [ (deg 7, terms 21)^1 ]
+common removed degree 0 summary []
+known3 <29/16, -9/4, 5/2>
+F(known) 0 G(known) 0
+ideal dimension 1 component_degrees [ 3 ]
+ideal dimension/degree unavailable Argument must be a homogenous ideal of a polynomial
+ ring over a field with variables of weight one.
+resultant eliminating 1 degree 86 terms 1968 factor [ (deg 1, terms 2)^8, (deg 2, terms 3)^8, (deg 1, terms 2)^8, (deg 9, terms 33)^2, (deg 18, terms 105)^2 ]
+  factor through known projection 4 degree 9 terms 33 exponent 2
+resultant eliminating 2 degree 54 terms 338 factor [ (deg 1, terms 2)^4, (deg 2, terms 3)^4, (deg 1, terms 1)^8, (deg 12, terms 28)^1, (deg 22, terms 90)^1 ]
+  factor through known projection 4 degree 12 terms 28 exponent 1
+resultant eliminating 3 degree 85 terms 934 factor [ (deg 1, terms 1)^8, (deg 4, terms 6)^2, (deg 8, terms 15)^2, (deg 17, terms 59)^1, (deg 36, terms 205)^1 ]
+  factor through known projection 4 degree 17 terms 59 exponent 1
+
+============================================================
+Slice fix U at known value U = -9/4
+slice variables [ b, L, v ]
+F degree 18 degrees [ 4, 10, 10 ]
+terms 80 factor [ (deg 18, terms 80)^1 ]
+G degree 10 degrees [ 3, 6, 6 ]
+terms 31 factor [ (deg 10, terms 31)^1 ]
+common removed degree 0 summary []
+known3 <-7/13, 29/16, 5/2>
+F(known) 0 G(known) 0
+ideal dimension 1 component_degrees [ 3 ]
+ideal dimension/degree unavailable Argument must be a homogenous ideal of a polynomial
+ ring over a field with variables of weight one.
+resultant eliminating 1 degree 67 terms 447 factor [ (deg 1, terms 2)^4, (deg 2, terms 3)^4, (deg 1, terms 1)^12, (deg 1, terms 2)^3, (deg 1, terms 2)^3, (deg 13, terms 30)^1, (deg 24, terms 72)^1 ]
+  factor through known projection 6 degree 13 terms 30 exponent 1
+resultant eliminating 2 degree 114 terms 3030 factor [ (deg 1, terms 2)^8, (deg 1, terms 2)^8, (deg 2, terms 3)^8, (deg 1, terms 2)^16, (deg 12, terms 42)^2, (deg 21, terms 118)^2 ]
+  factor through known projection 5 degree 12 terms 42 exponent 2
+resultant eliminating 3 degree 126 terms 1367 factor [ (deg 1, terms 1)^8, (deg 6, terms 7)^2, (deg 12, terms 19)^2, (deg 28, terms 96)^1, (deg 54, terms 301)^1 ]
+  factor through known projection 4 degree 28 terms 96 exponent 1
+
+============================================================
+Slice fix L at known value L = 29/16
+slice variables [ b, U, v ]
+F degree 10 degrees [ 4, 4, 10 ]
+terms 68 factor [ (deg 10, terms 68)^1 ]
+G degree 6 degrees [ 3, 3, 6 ]
+terms 27 factor [ (deg 6, terms 27)^1 ]
+common removed degree 0 summary []
+known3 <-7/13, -9/4, 5/2>
+F(known) 0 G(known) 0
+ideal dimension 1 component_degrees [ 3 ]
+ideal dimension/degree unavailable Argument must be a homogenous ideal of a polynomial
+ ring over a field with variables of weight one.
+resultant eliminating 1 degree 42 terms 426 factor [ (deg 1, terms 2)^4, (deg 2, terms 3)^4, (deg 12, terms 49)^1, (deg 18, terms 95)^1 ]
+  factor through known projection 3 degree 12 terms 49 exponent 1
+resultant eliminating 2 degree 42 terms 436 factor [ (deg 1, terms 2)^4, (deg 2, terms 3)^4, (deg 12, terms 56)^1, (deg 18, terms 96)^1 ]
+  factor through known projection 3 degree 12 terms 56 exponent 1
+resultant eliminating 3 degree 42 terms 943 factor [ (deg 2, terms 6)^2, (deg 4, terms 15)^2, (deg 12, terms 88)^1, (deg 18, terms 190)^1 ]
+  factor through known projection 3 degree 12 terms 88 exponent 1

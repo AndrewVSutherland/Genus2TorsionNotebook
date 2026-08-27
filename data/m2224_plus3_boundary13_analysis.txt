@@ -1,0 +1,407 @@
+Magma V2.29-4     Mon Jun 29 2026 10:30:50 on <host>  [Seed = 2653886]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "code/m2224_plus3_boundary13_analysis.m"
+M(2,2,2,4)+3 component-wise p=13 boundary analysis
+raw_contact_param 26364 contact_coefficient_keys 10245
+base_total 28561 open_base 5760 boundary_base 22801
+contact_solutions 43680 open_contact_solutions 13824 boundary_contact_solutions 29856 cover_open_solutions 3936
+open_bases_with_contact 4608 boundary_bases_with_contact 7536 open_bases_with_cover_open 0 boundary_bases_with_cover_open 1968
+
+component_summary
+E12+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E12- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E13+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E13- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E14+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E14- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E23+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E23- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E24+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E24- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E34+ base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+E34- base_points 2197 bases_with_contact 696 contact_solutions 2160 bases_with_cover_open 216 cover_open_solutions 432
+Z1 base_points 2197 bases_with_contact 1476 contact_solutions 6792 bases_with_cover_open 228 cover_open_solutions 456
+Z2 base_points 2197 bases_with_contact 1476 contact_solutions 6792 bases_with_cover_open 228 cover_open_solutions 456
+Z3 base_points 2197 bases_with_contact 1476 contact_solutions 6792 bases_with_cover_open 228 cover_open_solutions 456
+Z4 base_points 2197 bases_with_contact 1476 contact_solutions 6792 bases_with_cover_open 228 cover_open_solutions 456
+open base_points 5760 bases_with_contact 4608 contact_solutions 13824 bases_with_cover_open 0 cover_open_solutions 0
+
+cover_flag_counts
+cover_open 3936
+discq=0+gcd(q,f) 2112
+discq=0+gcd(q,f)+v=0 1536
+gcd(q,f) 19584
+gcd(q,f)+v=0 16512
+
+top_boundary_signature_contact_counts
+E12+ 192
+E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3 24
+E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4 24
+E12++E12-+Z1+Z2 288
+E12++E13++E23++Z4 96
+E12++E13-+E23-+Z4 96
+E12++E14++E24++Z3 96
+E12++E14-+E24-+Z3 96
+E12++E34+ 192
+E12++E34- 192
+E12++Z3 432
+E12++Z4 432
+E12- 192
+E12-+E13++E23-+Z4 96
+E12-+E13-+E23++Z4 96
+E12-+E14++E24-+Z3 96
+E12-+E14-+E24++Z3 96
+E12-+E34+ 192
+E12-+E34- 192
+E12-+Z3 432
+E12-+Z4 432
+E13+ 192
+E13++E13-+E14++E14-+E34++E34-+Z1+Z3+Z4 24
+E13++E13-+Z1+Z3 288
+E13++E14++E34++Z2 96
+E13++E14-+E34-+Z2 96
+E13++E24+ 192
+E13++E24- 192
+E13++Z2 432
+E13++Z4 432
+E13- 192
+E13-+E14++E34-+Z2 96
+E13-+E14-+E34++Z2 96
+E13-+E24+ 192
+E13-+E24- 192
+E13-+Z2 432
+E13-+Z4 432
+E14+ 192
+E14++E14-+Z1+Z4 288
+E14++E23+ 192
+E14++E23- 192
+E14++Z2 432
+E14++Z3 432
+E14- 192
+E14-+E23+ 192
+E14-+E23- 192
+E14-+Z2 432
+E14-+Z3 432
+E23+ 192
+E23++E23-+E24++E24-+E34++E34-+Z2+Z3+Z4 24
+E23++E23-+Z2+Z3 288
+E23++E24++E34++Z1 96
+E23++E24-+E34-+Z1 96
+E23++Z1 432
+E23++Z4 432
+E23- 192
+E23-+E24++E34-+Z1 96
+E23-+E24-+E34++Z1 96
+E23-+Z1 432
+E23-+Z4 432
+E24+ 192
+E24++E24-+Z2+Z4 288
+E24++Z1 432
+E24++Z3 432
+E24- 192
+E24-+Z1 432
+E24-+Z3 432
+E34+ 192
+E34++E34-+Z3+Z4 288
+E34++Z1 432
+E34++Z2 432
+E34- 192
+E34-+Z1 432
+E34-+Z2 432
+Z1 2880
+Z2 2880
+Z3 2880
+Z4 2880
+
+cover_signature_counts
+E12+ | cover_open 192
+E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3 | cover_open 24
+E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4 | cover_open 24
+E12++E12-+Z1+Z2 | discq=0+gcd(q,f) 96
+E12++E12-+Z1+Z2 | gcd(q,f)+v=0 192
+E12++E13++E23++Z4 | cover_open 24
+E12++E13++E23++Z4 | discq=0+gcd(q,f) 24
+E12++E13++E23++Z4 | discq=0+gcd(q,f)+v=0 24
+E12++E13++E23++Z4 | gcd(q,f)+v=0 24
+E12++E13-+E23-+Z4 | cover_open 24
+E12++E13-+E23-+Z4 | discq=0+gcd(q,f) 24
+E12++E13-+E23-+Z4 | discq=0+gcd(q,f)+v=0 24
+E12++E13-+E23-+Z4 | gcd(q,f)+v=0 24
+E12++E14++E24++Z3 | cover_open 24
+E12++E14++E24++Z3 | discq=0+gcd(q,f) 24
+E12++E14++E24++Z3 | discq=0+gcd(q,f)+v=0 24
+E12++E14++E24++Z3 | gcd(q,f)+v=0 24
+E12++E14-+E24-+Z3 | cover_open 24
+E12++E14-+E24-+Z3 | discq=0+gcd(q,f) 24
+E12++E14-+E24-+Z3 | discq=0+gcd(q,f)+v=0 24
+E12++E14-+E24-+Z3 | gcd(q,f)+v=0 24
+E12++E34+ | discq=0+gcd(q,f) 96
+E12++E34+ | gcd(q,f) 96
+E12++E34- | discq=0+gcd(q,f) 96
+E12++E34- | gcd(q,f) 96
+E12++Z3 | cover_open 48
+E12++Z3 | discq=0+gcd(q,f)+v=0 48
+E12++Z3 | gcd(q,f) 96
+E12++Z3 | gcd(q,f)+v=0 240
+E12++Z4 | cover_open 48
+E12++Z4 | discq=0+gcd(q,f)+v=0 48
+E12++Z4 | gcd(q,f) 96
+E12++Z4 | gcd(q,f)+v=0 240
+E12- | cover_open 192
+E12-+E13++E23-+Z4 | cover_open 24
+E12-+E13++E23-+Z4 | discq=0+gcd(q,f) 24
+E12-+E13++E23-+Z4 | discq=0+gcd(q,f)+v=0 24
+E12-+E13++E23-+Z4 | gcd(q,f)+v=0 24
+E12-+E13-+E23++Z4 | cover_open 24
+E12-+E13-+E23++Z4 | discq=0+gcd(q,f) 24
+E12-+E13-+E23++Z4 | discq=0+gcd(q,f)+v=0 24
+E12-+E13-+E23++Z4 | gcd(q,f)+v=0 24
+E12-+E14++E24-+Z3 | cover_open 24
+E12-+E14++E24-+Z3 | discq=0+gcd(q,f) 24
+E12-+E14++E24-+Z3 | discq=0+gcd(q,f)+v=0 24
+E12-+E14++E24-+Z3 | gcd(q,f)+v=0 24
+E12-+E14-+E24++Z3 | cover_open 24
+E12-+E14-+E24++Z3 | discq=0+gcd(q,f) 24
+E12-+E14-+E24++Z3 | discq=0+gcd(q,f)+v=0 24
+E12-+E14-+E24++Z3 | gcd(q,f)+v=0 24
+E12-+E34+ | discq=0+gcd(q,f) 96
+E12-+E34+ | gcd(q,f) 96
+E12-+E34- | discq=0+gcd(q,f) 96
+E12-+E34- | gcd(q,f) 96
+E12-+Z3 | cover_open 48
+E12-+Z3 | discq=0+gcd(q,f)+v=0 48
+E12-+Z3 | gcd(q,f) 96
+E12-+Z3 | gcd(q,f)+v=0 240
+E12-+Z4 | cover_open 48
+E12-+Z4 | discq=0+gcd(q,f)+v=0 48
+E12-+Z4 | gcd(q,f) 96
+E12-+Z4 | gcd(q,f)+v=0 240
+E13+ | cover_open 192
+E13++E13-+E14++E14-+E34++E34-+Z1+Z3+Z4 | cover_open 24
+E13++E13-+Z1+Z3 | discq=0+gcd(q,f) 96
+E13++E13-+Z1+Z3 | gcd(q,f)+v=0 192
+E13++E14++E34++Z2 | cover_open 24
+E13++E14++E34++Z2 | discq=0+gcd(q,f) 24
+E13++E14++E34++Z2 | discq=0+gcd(q,f)+v=0 24
+E13++E14++E34++Z2 | gcd(q,f)+v=0 24
+E13++E14-+E34-+Z2 | cover_open 24
+E13++E14-+E34-+Z2 | discq=0+gcd(q,f) 24
+E13++E14-+E34-+Z2 | discq=0+gcd(q,f)+v=0 24
+E13++E14-+E34-+Z2 | gcd(q,f)+v=0 24
+E13++E24+ | discq=0+gcd(q,f) 96
+E13++E24+ | gcd(q,f) 96
+E13++E24- | discq=0+gcd(q,f) 96
+E13++E24- | gcd(q,f) 96
+E13++Z2 | cover_open 48
+E13++Z2 | discq=0+gcd(q,f)+v=0 48
+E13++Z2 | gcd(q,f) 96
+E13++Z2 | gcd(q,f)+v=0 240
+E13++Z4 | cover_open 48
+E13++Z4 | discq=0+gcd(q,f)+v=0 48
+E13++Z4 | gcd(q,f) 96
+E13++Z4 | gcd(q,f)+v=0 240
+E13- | cover_open 192
+E13-+E14++E34-+Z2 | cover_open 24
+E13-+E14++E34-+Z2 | discq=0+gcd(q,f) 24
+E13-+E14++E34-+Z2 | discq=0+gcd(q,f)+v=0 24
+E13-+E14++E34-+Z2 | gcd(q,f)+v=0 24
+E13-+E14-+E34++Z2 | cover_open 24
+E13-+E14-+E34++Z2 | discq=0+gcd(q,f) 24
+E13-+E14-+E34++Z2 | discq=0+gcd(q,f)+v=0 24
+E13-+E14-+E34++Z2 | gcd(q,f)+v=0 24
+E13-+E24+ | discq=0+gcd(q,f) 96
+E13-+E24+ | gcd(q,f) 96
+E13-+E24- | discq=0+gcd(q,f) 96
+E13-+E24- | gcd(q,f) 96
+E13-+Z2 | cover_open 48
+E13-+Z2 | discq=0+gcd(q,f)+v=0 48
+E13-+Z2 | gcd(q,f) 96
+E13-+Z2 | gcd(q,f)+v=0 240
+E13-+Z4 | cover_open 48
+E13-+Z4 | discq=0+gcd(q,f)+v=0 48
+E13-+Z4 | gcd(q,f) 96
+E13-+Z4 | gcd(q,f)+v=0 240
+E14+ | cover_open 192
+E14++E14-+Z1+Z4 | discq=0+gcd(q,f) 96
+E14++E14-+Z1+Z4 | gcd(q,f)+v=0 192
+E14++E23+ | discq=0+gcd(q,f) 96
+E14++E23+ | gcd(q,f) 96
+E14++E23- | discq=0+gcd(q,f) 96
+E14++E23- | gcd(q,f) 96
+E14++Z2 | cover_open 48
+E14++Z2 | discq=0+gcd(q,f)+v=0 48
+E14++Z2 | gcd(q,f) 96
+E14++Z2 | gcd(q,f)+v=0 240
+E14++Z3 | cover_open 48
+E14++Z3 | discq=0+gcd(q,f)+v=0 48
+E14++Z3 | gcd(q,f) 96
+E14++Z3 | gcd(q,f)+v=0 240
+E14- | cover_open 192
+E14-+E23+ | discq=0+gcd(q,f) 96
+E14-+E23+ | gcd(q,f) 96
+E14-+E23- | discq=0+gcd(q,f) 96
+E14-+E23- | gcd(q,f) 96
+E14-+Z2 | cover_open 48
+E14-+Z2 | discq=0+gcd(q,f)+v=0 48
+E14-+Z2 | gcd(q,f) 96
+E14-+Z2 | gcd(q,f)+v=0 240
+E14-+Z3 | cover_open 48
+E14-+Z3 | discq=0+gcd(q,f)+v=0 48
+E14-+Z3 | gcd(q,f) 96
+E14-+Z3 | gcd(q,f)+v=0 240
+E23+ | cover_open 192
+E23++E23-+E24++E24-+E34++E34-+Z2+Z3+Z4 | cover_open 24
+E23++E23-+Z2+Z3 | discq=0+gcd(q,f) 96
+E23++E23-+Z2+Z3 | gcd(q,f)+v=0 192
+E23++E24++E34++Z1 | cover_open 24
+E23++E24++E34++Z1 | discq=0+gcd(q,f) 24
+E23++E24++E34++Z1 | discq=0+gcd(q,f)+v=0 24
+E23++E24++E34++Z1 | gcd(q,f)+v=0 24
+E23++E24-+E34-+Z1 | cover_open 24
+E23++E24-+E34-+Z1 | discq=0+gcd(q,f) 24
+E23++E24-+E34-+Z1 | discq=0+gcd(q,f)+v=0 24
+E23++E24-+E34-+Z1 | gcd(q,f)+v=0 24
+E23++Z1 | cover_open 48
+E23++Z1 | discq=0+gcd(q,f)+v=0 48
+E23++Z1 | gcd(q,f) 96
+E23++Z1 | gcd(q,f)+v=0 240
+E23++Z4 | cover_open 48
+E23++Z4 | discq=0+gcd(q,f)+v=0 48
+E23++Z4 | gcd(q,f) 96
+E23++Z4 | gcd(q,f)+v=0 240
+E23- | cover_open 192
+E23-+E24++E34-+Z1 | cover_open 24
+E23-+E24++E34-+Z1 | discq=0+gcd(q,f) 24
+E23-+E24++E34-+Z1 | discq=0+gcd(q,f)+v=0 24
+E23-+E24++E34-+Z1 | gcd(q,f)+v=0 24
+E23-+E24-+E34++Z1 | cover_open 24
+E23-+E24-+E34++Z1 | discq=0+gcd(q,f) 24
+E23-+E24-+E34++Z1 | discq=0+gcd(q,f)+v=0 24
+E23-+E24-+E34++Z1 | gcd(q,f)+v=0 24
+E23-+Z1 | cover_open 48
+E23-+Z1 | discq=0+gcd(q,f)+v=0 48
+E23-+Z1 | gcd(q,f) 96
+E23-+Z1 | gcd(q,f)+v=0 240
+E23-+Z4 | cover_open 48
+E23-+Z4 | discq=0+gcd(q,f)+v=0 48
+E23-+Z4 | gcd(q,f) 96
+E23-+Z4 | gcd(q,f)+v=0 240
+E24+ | cover_open 192
+E24++E24-+Z2+Z4 | discq=0+gcd(q,f) 96
+E24++E24-+Z2+Z4 | gcd(q,f)+v=0 192
+E24++Z1 | cover_open 48
+E24++Z1 | discq=0+gcd(q,f)+v=0 48
+E24++Z1 | gcd(q,f) 96
+E24++Z1 | gcd(q,f)+v=0 240
+E24++Z3 | cover_open 48
+E24++Z3 | discq=0+gcd(q,f)+v=0 48
+E24++Z3 | gcd(q,f) 96
+E24++Z3 | gcd(q,f)+v=0 240
+E24- | cover_open 192
+E24-+Z1 | cover_open 48
+E24-+Z1 | discq=0+gcd(q,f)+v=0 48
+E24-+Z1 | gcd(q,f) 96
+E24-+Z1 | gcd(q,f)+v=0 240
+E24-+Z3 | cover_open 48
+E24-+Z3 | discq=0+gcd(q,f)+v=0 48
+E24-+Z3 | gcd(q,f) 96
+E24-+Z3 | gcd(q,f)+v=0 240
+E34+ | cover_open 192
+E34++E34-+Z3+Z4 | discq=0+gcd(q,f) 96
+E34++E34-+Z3+Z4 | gcd(q,f)+v=0 192
+E34++Z1 | cover_open 48
+E34++Z1 | discq=0+gcd(q,f)+v=0 48
+E34++Z1 | gcd(q,f) 96
+E34++Z1 | gcd(q,f)+v=0 240
+E34++Z2 | cover_open 48
+E34++Z2 | discq=0+gcd(q,f)+v=0 48
+E34++Z2 | gcd(q,f) 96
+E34++Z2 | gcd(q,f)+v=0 240
+E34- | cover_open 192
+E34-+Z1 | cover_open 48
+E34-+Z1 | discq=0+gcd(q,f)+v=0 48
+E34-+Z1 | gcd(q,f) 96
+E34-+Z1 | gcd(q,f)+v=0 240
+E34-+Z2 | cover_open 48
+E34-+Z2 | discq=0+gcd(q,f)+v=0 48
+E34-+Z2 | gcd(q,f) 96
+E34-+Z2 | gcd(q,f)+v=0 240
+Z1 | gcd(q,f) 576
+Z1 | gcd(q,f)+v=0 2304
+Z2 | gcd(q,f) 576
+Z2 | gcd(q,f)+v=0 2304
+Z3 | gcd(q,f) 576
+Z3 | gcd(q,f)+v=0 2304
+Z4 | gcd(q,f) 576
+Z4 | gcd(q,f)+v=0 2304
+open | gcd(q,f) 13824
+
+samples
+[
+<[ 0, 0, 0, 1 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <6, 12, 10>, "cover_open">,
+<[ 0, 0, 0, 1 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <7, 12, 10>, "cover_open">,
+<[ 0, 0, 0, 2 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <1, 9, 1>, "cover_open">,
+<[ 0, 0, 0, 2 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <12, 9, 1>, "cover_open">,
+<[ 0, 0, 0, 3 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <5, 4, 12>, "cover_open">,
+<[ 0, 0, 0, 3 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <8, 4, 12>, "cover_open">,
+<[ 0, 0, 0, 4 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <2, 10, 4>, "cover_open">,
+<[ 0, 0, 0, 4 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <11, 10, 4>, "cover_open">,
+<[ 0, 0, 0, 5 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <4, 1, 3>, "cover_open">,
+<[ 0, 0, 0, 5 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <9, 1, 3>, "cover_open">,
+<[ 0, 0, 0, 6 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <3, 3, 9>, "cover_open">,
+<[ 0, 0, 0, 6 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <10, 3, 9>, "cover_open">,
+<[ 0, 0, 0, 7 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <3, 3, 9>, "cover_open">,
+<[ 0, 0, 0, 7 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <10, 3, 9>, "cover_open">,
+<[ 0, 0, 0, 8 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <4, 1, 3>, "cover_open">,
+<[ 0, 0, 0, 8 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <9, 1, 3>, "cover_open">,
+<[ 0, 0, 0, 9 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <2, 10, 4>, "cover_open">,
+<[ 0, 0, 0, 9 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <11, 10, 4>, "cover_open">,
+<[ 0, 0, 0, 10 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <5, 4, 12>, "cover_open">,
+<[ 0, 0, 0, 10 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <8, 4, 12>, "cover_open">,
+<[ 0, 0, 0, 11 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <1, 9, 1>, "cover_open">,
+<[ 0, 0, 0, 11 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <12, 9, 1>, "cover_open">,
+<[ 0, 0, 0, 12 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <6, 12, 10>, "cover_open">,
+<[ 0, 0, 0, 12 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <7, 12, 10>, "cover_open">,
+<[ 0, 0, 1, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <6, 12, 10>, "cover_open">,
+<[ 0, 0, 1, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <7, 12, 10>, "cover_open">,
+<[ 0, 0, 1, 2 ], "E12++E12-+Z1+Z2", <4, 1, 0>, "gcd(q,f)+v=0">,
+<[ 0, 0, 1, 2 ], "E12++E12-+Z1+Z2", <9, 1, 0>, "gcd(q,f)+v=0">,
+<[ 0, 0, 1, 3 ], "E12++E12-+Z1+Z2", <1, 2, 12>, "discq=0+gcd(q,f)">,
+<[ 0, 0, 1, 3 ], "E12++E12-+Z1+Z2", <4, 10, 0>, "gcd(q,f)+v=0">
+]
+cover_open_samples
+[
+<[ 0, 0, 0, 1 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <6, 12, 10>>,
+<[ 0, 0, 0, 1 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <7, 12, 10>>,
+<[ 0, 0, 0, 2 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <1, 9, 1>>,
+<[ 0, 0, 0, 2 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <12, 9, 1>>,
+<[ 0, 0, 0, 3 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <5, 4, 12>>,
+<[ 0, 0, 0, 3 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <8, 4, 12>>,
+<[ 0, 0, 0, 4 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <2, 10, 4>>,
+<[ 0, 0, 0, 4 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <11, 10, 4>>,
+<[ 0, 0, 0, 5 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <4, 1, 3>>,
+<[ 0, 0, 0, 5 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <9, 1, 3>>,
+<[ 0, 0, 0, 6 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <3, 3, 9>>,
+<[ 0, 0, 0, 6 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <10, 3, 9>>,
+<[ 0, 0, 0, 7 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <3, 3, 9>>,
+<[ 0, 0, 0, 7 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <10, 3, 9>>,
+<[ 0, 0, 0, 8 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <4, 1, 3>>,
+<[ 0, 0, 0, 8 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <9, 1, 3>>,
+<[ 0, 0, 0, 9 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <2, 10, 4>>,
+<[ 0, 0, 0, 9 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <11, 10, 4>>,
+<[ 0, 0, 0, 10 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <5, 4, 12>>,
+<[ 0, 0, 0, 10 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <8, 4, 12>>,
+<[ 0, 0, 0, 11 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <1, 9, 1>>,
+<[ 0, 0, 0, 11 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <12, 9, 1>>,
+<[ 0, 0, 0, 12 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <6, 12, 10>>,
+<[ 0, 0, 0, 12 ], "E12++E12-+E13++E13-+E23++E23-+Z1+Z2+Z3", <7, 12, 10>>,
+<[ 0, 0, 1, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <6, 12, 10>>,
+<[ 0, 0, 1, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <7, 12, 10>>,
+<[ 0, 0, 2, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <1, 9, 1>>,
+<[ 0, 0, 2, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <12, 9, 1>>,
+<[ 0, 0, 3, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <5, 4, 12>>,
+<[ 0, 0, 3, 0 ], "E12++E12-+E14++E14-+E24++E24-+Z1+Z2+Z4", <8, 4, 12>>
+]
+
+Total time: 1.179 seconds, Total memory usage: 32.09MB

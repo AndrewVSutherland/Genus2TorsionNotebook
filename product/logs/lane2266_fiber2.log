@@ -1,0 +1,6 @@
+Loading "split_lab.m"
+PROGRESS fiberA 200 fibers 670 pts 0 surv 1.370 s
+PROGRESS fiberA 400 fibers 1310 pts 0 surv 2.680 s
+PROGRESS fiberA 600 fibers 1900 pts 0 surv 4.030 s
+FIBER2_SCAN fibers=793 pts=2380 survivors=0 5.340 s
+SEARCH_DONE 2266fiber2 survivors=0 curves=0 aborts=0 known=0 hits=0 fails=0 5.340 s

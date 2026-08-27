@@ -1,0 +1,26 @@
+
+TwoSelmerGroup(
+J: Jacobian of Hyperelliptic Curve defined by y^2 = -192*x^6 + ...
+)
+TwoSelmerGroupData(
+J: Jacobian of Hyperelliptic Curve defined by y^2 = -3*x^6 + 18...
+)
+IsEven(
+J: Jacobian of Hyperelliptic Curve defined by y^2 = -3*x^6 + 18...
+)
+DeficientPlaces(
+C: Hyperelliptic Curve defined by y^2 = -3*x^6 + 18*x^5 - 45*x^...
+)
+IsDeficient(
+C: Hyperelliptic Curve defined by y^2 = -3*x^6 + 18*x^5 - 45*x^...,
+p: 3
+)
+IsDef1(
+f: -3*$.1^6 + 18*$.1^5 - 45*$.1^4 + 252*$.1^3 - 621*$.1^2 + 594...,
+p: 3
+)
+In file "(magma)/package/Geometry/CrvG2/selmer.m", line 667, column 47:
+>>                 P := PolynomialRing(Order(rext[1]));
+                                                 ^
+Runtime error in '[]': Bad argument types
+

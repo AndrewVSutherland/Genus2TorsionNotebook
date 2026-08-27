@@ -1,0 +1,191 @@
+Summary: M(2,2,2,6) computations
+=================================
+
+Goal
+----
+
+The M(2,2,2,6) family has six rational Weierstrass points and a rational
+class
+
+    g = P - infinity
+
+of order 6.  The goal was to see whether this family could be used to get
+larger torsion, especially by producing order 12 classes.  Several possible
+routes were tested.
+
+The common odd quintic model is obtained by moving the Weierstrass point
+x=0 to infinity:
+
+    Y^2 = L1 L2 L3 L4 L5,    P = (0,2).
+
+The five finite rational Weierstrass points are denoted W_i.
+
+
+Route 1: halve a rational 2-torsion point
+-----------------------------------------
+
+This route asks whether one of the rational 2-torsion classes
+
+    W_i - W_j
+
+is divisible by 2 in the Jacobian.
+
+The criterion used was the standard full-rational-2-torsion squareclass
+criterion.  After moving one branch point to infinity and one to zero, the
+remaining branch-point cross-ratios must be squares.
+
+Scripts:
+
+    code/m2226_order2_halving_search.m
+    code/m2226_order2_halving_local_sieve.m
+
+Results:
+
+    * The direct search first found apparent solutions, but they all lay on
+      singular boundary components of the original sextic.
+
+    * After imposing nonsingularity and branch distinctness, there were no
+      nondegenerate hits up to height 50.
+
+    * The finite-field good-reduction sieve modulo 7 checked all 15 rational
+      2-torsion classes.  There are 10 good parameter points in P^2(F_7), and
+      every one fails the halving squareclass condition for every class.
+
+Conclusion:
+
+    This route gives no nondegenerate examples away from the mod-7 boundary.
+    A complete proof would still require a p-adic boundary analysis at 7, but
+    computationally the route looks negative.
+
+
+Route 2: theta-doubling order-6 classes represented by points
+-------------------------------------------------------------
+
+This route looked at the other order-6 classes in the coset
+
+    g + J[2].
+
+The six classes of the form P plus a Weierstrass point are not useful for
+this test.  The other ten representatives are
+
+    g + (W_i + W_j - 2 infinity),    1 <= i < j <= 5.
+
+For each pair (i,j), a Mumford representative was computed using the conic
+through P,W_i,W_j.  The condition that the class be of the form 2Q for a
+rational point Q on the curve became
+
+    Disc_X(raw_U_ij) = 0.
+
+The pair (3,5) is exceptional: its class has order 3, not order 6, and is
+discarded.
+
+Scripts:
+
+    code/m2226_order6_doubling.m
+    code/m2226_search_doubling_curves.m
+    code/m2226_certify_doubling_curves.m
+
+Results:
+
+    * After removing boundary factors, the remaining nine plane curves are
+      genus-one curves.
+
+    * Magma maps each one to the rank-zero elliptic curve
+
+          y^2 = x^3 + 4x
+
+      with torsion Z/4Z.
+
+    * Pulling back all rational torsion points gives only points on the bad
+      locus of the original M(2,2,2,6) family.
+
+The bad locus factors as
+
+    n, m, s, s-n, s-n/2, s+m/2,
+    sm-sn-mn,
+    sm+sn-mn/2,
+    s^2-sn/2+mn/4,
+    s^2+sm/2-sn-mn/4.
+
+Conclusion:
+
+    None of the non-obvious order-6 classes in M(2,2,2,6) is 2Q for a
+    rational point Q on the curve, away from the singular/degenerate
+    boundary.
+
+
+Route 3: directly halve an order-6 class in the Jacobian
+--------------------------------------------------------
+
+This route was less restrictive than Route 2.  It did not require the half
+to be represented by a rational point on the curve.  Instead, it asked
+whether any order-6 class in
+
+    g + J[2]
+
+lies in 2J(Q).  Such a half would have order 12.
+
+The tested classes were
+
+    g,
+    g + (W_i - infinity),
+    g + (W_i + W_j - 2 infinity).
+
+The exceptional order-3 class was discarded by checking Order(D) eq 6.
+
+Scripts:
+
+    code/m2226_order6_halving_direct_search.m
+    code/m2226_order6_halving_finite_field_sieve.m
+
+Exact rational search:
+
+    magma -b height:=8 max_hits:=20 progress_interval:=500 \
+        code/m2226_order6_halving_direct_search.m
+
+gave
+
+    checked curves 1543
+    checked classes 24688
+    hits 0
+
+A larger height-12 run was stopped after more than 73,000 class checks, also
+with no hits.
+
+Finite-field sieve:
+
+    * p=3 and p=5 have no good points for this model.
+
+    * At p=7 there are 10 good parameter points in P^2(F_7).
+
+    * The script tested 150 order-6 classes over F_7.
+
+    * None was divisible by 2 in J(F_7).
+
+Conclusion:
+
+    There is no good-reduction example modulo 7.  As above, a complete global
+    proof would need boundary analysis at p=7, but both the rational search
+    and the finite-field test strongly indicate that this route does not
+    produce nondegenerate M(2,2,2,12) examples inside the split
+    M(2,2,2,6) family.
+
+
+Overall conclusion
+------------------
+
+All three tested M(2,2,2,6) routes were negative away from boundary:
+
+    1. Halving rational 2-torsion is obstructed modulo 7 on the good locus.
+
+    2. Requiring an order-6 class to be twice a rational point on the curve
+       reduces to rank-zero elliptic curves whose rational points pull back
+       only to boundary.
+
+    3. Directly halving order-6 classes in the Jacobian has no rational
+       hits in exact searches and no good mod-7 solutions.
+
+The common remaining caveat is boundary reduction at p=7.  A full proof of
+impossibility would need a p-adic boundary/blowup analysis at 7.  For the
+purpose of finding larger torsion examples, however, the M(2,2,2,6) route
+looks exhausted and not promising.

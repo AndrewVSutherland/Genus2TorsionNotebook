@@ -1,0 +1,9 @@
+genus 4
+places over x = infinity: 1
+  degree 8, ramification 1
+rational points over x = infinity: 0
+places over x = 0: 2
+  degree 1, ramification 2
+  degree 1, ramification 6
+rational points over x = 0: 2
+FIBRES_DONE

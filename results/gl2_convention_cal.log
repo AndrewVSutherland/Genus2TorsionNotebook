@@ -1,0 +1,18 @@
+TYPE [ 1, 1, 1, 1 ]
+frame=1 sgn=1 blk=1 : IsBigPeriodMatrix=false
+frame=1 sgn=1 blk=2 : IsBigPeriodMatrix=true
+  RECONSTRUCTED over Rational Field ; G2_MATCH_X023 = true
+CONVENTION_FOUND frame=1 sgn=1 blk=2
+frame=1 sgn=-1 blk=1 : IsBigPeriodMatrix=true
+  RECONSTRUCTED over Rational Field ; G2_MATCH_X023 = true
+CONVENTION_FOUND frame=1 sgn=-1 blk=1
+frame=1 sgn=-1 blk=2 : IsBigPeriodMatrix=false
+frame=2 sgn=1 blk=1 : IsBigPeriodMatrix=false
+frame=2 sgn=1 blk=2 : IsBigPeriodMatrix=true
+  RECONSTRUCTED over Rational Field ; G2_MATCH_X023 = true
+CONVENTION_FOUND frame=2 sgn=1 blk=2
+frame=2 sgn=-1 blk=1 : IsBigPeriodMatrix=true
+  RECONSTRUCTED over Rational Field ; G2_MATCH_X023 = true
+CONVENTION_FOUND frame=2 sgn=-1 blk=1
+frame=2 sgn=-1 blk=2 : IsBigPeriodMatrix=false
+CALIBRATION_DONE

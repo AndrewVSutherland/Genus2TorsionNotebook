@@ -1,0 +1,14 @@
+Loading "code/claude_ov_2216_delta.m"
+claude_ov_2216_delta_validate height=14 nsample=10 #rationals=255
+SAMPLE u=1/7 v=-13/2 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=2/11 v=1/4 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=3/4 v=1/9 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=-6 v=5/8 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=13/2 v=-3/7 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=12/13 v=13/2 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=1/4 v=-12/11 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=-9/4 v=-9/10 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=-3/7 v=13/9 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+SAMPLE u=5/9 v=6/5 torsion=[ 2, 2, 8 ] classes=31 agree=31 disagree=0 divisible=3 skipped=0
+TOTAL samples=10 classes=310 agree=310 disagree=0 positives=30 skipped=0 homoerr=0
+SEARCH_DONE

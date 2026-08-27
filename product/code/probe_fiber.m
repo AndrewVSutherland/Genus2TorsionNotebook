@@ -1,0 +1,36 @@
+// probe_fiber.m — diagnose the si2/u=-1 fiber stall: time each step.
+SetColumns(0);
+SetMemoryLimit(4*10^9);
+SetClassGroupBounds("GRH");
+Qx<x> := PolynomialRing(Rationals());
+quart := 12*(x^2-240)*(x^2+80);
+C := HyperellipticCurve(quart);
+t0 := Realtime();
+pts := Points(C : Bound := 1000);
+printf "points bound 1000: %o found, %o s\n", #pts, Realtime()-t0;
+aff := [ P : P in pts | P[3] ne 0 ];
+error if #aff eq 0, "no affine point";
+P0 := aff[1];
+printf "base %o\n", P0;
+t0 := Realtime();
+E, mE := EllipticCurve(C, P0);
+printf "EllipticCurve: %o s\n", Realtime()-t0;
+t0 := Realtime();
+Em, phi := MinimalModel(E);
+printf "MinimalModel: %o s (aInvs %o)\n", Realtime()-t0, aInvariants(Em);
+t0 := Realtime();
+T, mT := TorsionSubgroup(Em);
+printf "Torsion %o: %o s\n", Invariants(T), Realtime()-t0;
+t0 := Realtime();
+rlo, rhi := RankBounds(Em);
+printf "RankBounds [%o,%o]: %o s\n", rlo, rhi, Realtime()-t0;
+t0 := Realtime();
+S, mps := TwoDescent(Em);
+printf "TwoDescent: %o covers, %o s\n", #S, Realtime()-t0;
+for k in [1..#S] do
+    t0 := Realtime();
+    pk := Points(S[k] : Bound := 3000);
+    printf "cover %o: %o pts, %o s\n", k, #pk, Realtime()-t0;
+end for;
+printf "PROBE_DONE\n";
+quit;

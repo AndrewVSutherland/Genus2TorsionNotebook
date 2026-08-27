@@ -1,0 +1,44 @@
+M_1(8,2,2) fast Q-halving residue search
+height 30 prime_bound 43 max_hits 20
+primes [ 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+local p 7 open 12 Q_order8 12 allowed_open_halving_residues 0
+local p 11 open 24 Q_order8 24 allowed_open_halving_residues 0
+local p 13 open 48 Q_order8 48 allowed_open_halving_residues 6
+local p 17 open 132 Q_order8 132 allowed_open_halving_residues 6
+local p 19 open 168 Q_order8 168 allowed_open_halving_residues 18
+local p 23 open 300 Q_order8 300 allowed_open_halving_residues 24
+local p 29 open 528 Q_order8 528 allowed_open_halving_residues 42
+local p 31 open 636 Q_order8 636 allowed_open_halving_residues 66
+local p 37 open 960 Q_order8 960 allowed_open_halving_residues 96
+local p 41 open 1236 Q_order8 1236 allowed_open_halving_residues 96
+local p 43 open 1368 Q_order8 1368 allowed_open_halving_residues 102
+params 1111 pairs 1234321
+progress checked 100000 curve_ok 97100 residue_pass 13 exact 13 hits 0
+progress checked 200000 curve_ok 196417 residue_pass 26 exact 26 hits 0
+progress checked 300000 curve_ok 295745 residue_pass 42 exact 42 hits 0
+progress checked 400000 curve_ok 395132 residue_pass 60 exact 60 hits 0
+progress checked 500000 curve_ok 494524 residue_pass 80 exact 80 hits 0
+progress checked 600000 curve_ok 593935 residue_pass 118 exact 118 hits 0
+progress checked 700000 curve_ok 693373 residue_pass 136 exact 136 hits 0
+progress checked 800000 curve_ok 792878 residue_pass 168 exact 168 hits 0
+progress checked 900000 curve_ok 892395 residue_pass 197 exact 197 hits 0
+progress checked 1000000 curve_ok 991930 residue_pass 241 exact 241 hits 0
+progress checked 1100000 curve_ok 1091459 residue_pass 273 exact 273 hits 0
+progress checked 1200000 curve_ok 1191019 residue_pass 308 exact 308 hits 0
+DONE
+checked 1234321
+curve_ok 1225214
+residue_pass 318
+exact_checked 318
+hits 0
+rejected_at 7 231840
+rejected_at 11 179260
+rejected_at 13 177802
+rejected_at 17 260662
+rejected_at 19 148598
+rejected_at 23 110350
+rejected_at 29 63148
+rejected_at 31 35040
+rejected_at 37 12884
+rejected_at 41 4196
+rejected_at 43 1116

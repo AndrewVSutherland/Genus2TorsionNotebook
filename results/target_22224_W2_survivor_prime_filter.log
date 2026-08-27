@@ -1,0 +1,6 @@
+SURVIVOR_PRIME_FILTER_START family W2 rows [ <-913, -676, 3>, <-913, -52, 3>, <-841, -100, 3> ]
+bound 997
+CLASS_KILLED family W2 row <-913, -52, 3> prime 101 t 26
+CLASS_KILLED family W2 row <-841, -100, 3> prime 101 t 26
+CLASS_KILLED family W2 row <-913, -676, 3> prime 109 t 8
+SURVIVOR_PRIME_FILTER_DONE family W2 killed 3 survivors []

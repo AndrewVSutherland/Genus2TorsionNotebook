@@ -1,0 +1,38 @@
+Contact-6 core slice search
+height 16 parameter_count 319 simple_only true
+progress 5000 slice_solutions 632 verified 0 hits 0
+progress 10000 slice_solutions 640 verified 0 hits 0
+progress 15000 slice_solutions 648 verified 0 hits 0
+progress 20000 slice_solutions 652 verified 0 hits 0
+progress 25000 slice_solutions 652 verified 0 hits 0
+progress 30000 slice_solutions 652 verified 0 hits 0
+progress 35000 slice_solutions 652 verified 0 hits 0
+progress 40000 slice_solutions 660 verified 0 hits 0
+progress 45000 slice_solutions 660 verified 0 hits 0
+progress 50000 slice_solutions 672 verified 0 hits 0
+progress 55000 slice_solutions 676 verified 0 hits 0
+progress 60000 slice_solutions 680 verified 0 hits 0
+progress 65000 slice_solutions 684 verified 0 hits 0
+progress 70000 slice_solutions 684 verified 0 hits 0
+progress 75000 slice_solutions 684 verified 0 hits 0
+HIT66 a 133/39 b -7/13 L 29/16 U -9/4 v 5/2 invs [ 6, 6 ]
+simple true pcert 23
+ f 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+HIT66 a 133/39 b -7/13 L -29/16 U -9/4 v 5/2 invs [ 6, 6 ]
+simple true pcert 23
+ f 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+HIT66 a 133/39 b -7/13 L 13/4 U -17/2 v -5/4 invs [ 6, 6 ]
+simple true pcert 23
+ f 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+HIT66 a 133/39 b -7/13 L -13/4 U -17/2 v -5/4 invs [ 6, 6 ]
+simple true pcert 23
+ f 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x
+Done
+checked_slices 79008
+slice_solutions 692
+verified 4
+hits 4
+H <133/39, -7/13, 29/16, -9/4, 5/2, [ 6, 6 ], 6, 3, true, 23, 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x>
+H <133/39, -7/13, -29/16, -9/4, 5/2, [ 6, 6 ], 6, 3, true, 23, 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x>
+H <133/39, -7/13, 13/4, -17/2, -5/4, [ 6, 6 ], 6, 3, true, 23, 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x>
+H <133/39, -7/13, -13/4, -17/2, -5/4, [ 6, 6 ], 6, 3, true, 23, 11389248*x^5 - 18252000*x^4 + 42399396*x^3 - 10288044*x^2 + 29659500*x>

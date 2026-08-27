@@ -1,0 +1,19 @@
+# Five geometrically simple genus-2 curves with J(Q)_tors = [2,10] on Elkies'
+# A_1(5) threefold (universal curve y^2+(Q'-xQ)y = Q^2 Q', Q = q2 x^2+q1 x+q0,
+# Q' = Q-x), found by the (2,30)-direction sieve (code/claude_230_elkies5_scan.c).
+# All lie on the odd-degree boundary q2 = -1/4 (rational Weierstrass point at
+# infinity). Models below are y^2 = f(x) integral rescalings of
+# F = (Q'-xQ)^2 + 4Q^2Q'. cert_p = prime of the repo simplicity certificate
+# (L_p charpoly irreducible + 12th-power transform irreducible).
+# Verified in Magma (TorsionSubgroup): exact torsion [2,10] each.
+#
+# q0 q1 q2 | cert_p | model
+(-16, 4, -1/4)    | 11 | y^2 = 10*x^5 - 391*x^4 + 5992*x^3 - 45296*x^2 + 170496*x - 258048
+(-12, 11/3, -1/4) |  7 | y^2 = 702*x^5 - 25047*x^4 + 340224*x^3 - 2212128*x^2 + 7008768*x - 8771328
+(-9, 3, -1/4)     | 11 | y^2 = 6*x^5 - 187*x^4 + 2240*x^3 - 13112*x^2 + 38304*x - 45360
+(-9, 27/4, -1/4)  | 17 | y^2 = 21*x^5 - 1177*x^4 + 18935*x^3 - 69347*x^2 + 95544*x - 45360
+(-4, 3, -1/4)     |  7 | y^2 = 6*x^5 - 167*x^4 + 1520*x^3 - 5152*x^2 + 7424*x - 3840
+#
+# Curiosity (NOT certified simple, no cert p <= 97; involution-fixed line, likely
+# split/RM — relevant to the (5,10) target): q = (3/5, 1/2, 3/5) has exact
+# torsion [5,10].

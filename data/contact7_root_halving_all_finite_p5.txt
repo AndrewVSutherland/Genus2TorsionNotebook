@@ -1,0 +1,18 @@
+contact-7 intrinsic root + first-halving finite diagnostic
+p 5
+curve_checked 25
+curve_good 18
+root_good 10
+surface 2
+exact_h4 2
+h4_divisible_by_2 0
+TAG_ROOTS
+  open_s 6
+  r=0 4
+TAG_SURFACE
+  open_s 2
+TAG_EXACT_H4
+  open_s 2
+TAG_DIV2
+samples [ <"open_s", 3, 4, 2, 1, 1, 4, 2, 28, 7>, <"open_s", 3, 4, 2, 4, 1, 1, 2, 28, 7> ]
+div2_samples []

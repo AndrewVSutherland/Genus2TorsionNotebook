@@ -1,0 +1,49 @@
+== squareclass conditions for P_R in 2J(Q) ==
+C1 = -c4*R:
+  numerator factors: [
+<R, 1>,
+<R - 1, 1>,
+<R + 1, 1>
+]
+  denominator factors: [
+<w - 1, 1>,
+<w + 1, 1>
+]
+C2 = A(-R):
+  numerator factors: [
+<R, 1>,
+<R - 1, 2>,
+<R^2 - 1/2*R*w^2 + 1/2*R - w^2, 1>
+]
+  denominator factors: [
+<w - 1, 1>,
+<w + 1, 1>
+]
+C3 = c4*B(-R):
+  numerator factors: [
+<R - 1, 3>,
+<R + 1, 1>,
+<R^2 - 1/2*R*w^2 + 1/2*R - w^2, 1>
+]
+  denominator factors: [
+<w - 1, 2>,
+<w + 1, 2>
+]
+C1*C2*C3 / Y_R^2 factorization (should be all even exponents):
+ num [
+<R - 1, 2>,
+<R + 1, 2>
+]
+ den [
+<w - 1, 2>,
+<w + 1, 2>
+]
+
+== validation vs exact Jacobian divisibility ==
+rational validation: 30/30 agree
+F_11 validation: tested=28 (halvable=6) agree=28
+F_13 validation: tested=56 (halvable=6) agree=56
+
+== fast descent sieve, height=20 ==
+sieve: tested=258064 C1pass=552 C2pass=24 FULL=0
+DONE

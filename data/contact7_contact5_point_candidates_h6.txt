@@ -1,0 +1,3 @@
+# simultaneous contact7/contact5 point candidates
+# height=6 checked=95128 hits=0
+# columns: a b r c0 c1 c2 d e

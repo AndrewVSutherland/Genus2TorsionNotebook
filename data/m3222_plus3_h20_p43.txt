@@ -1,0 +1,89 @@
+M_1(8,2,2) / [2,2,8] plus 3-torsion search
+height 20 prime_bound 43 max_exact 200
+Precomputing finite 3-residue filters
+ p 5 nonsingular 0 allowed3 0
+ p 7 nonsingular 12 allowed3 0
+ p 11 nonsingular 24 allowed3 0
+ p 13 nonsingular 48 allowed3 0
+ p 17 nonsingular 132 allowed3 60
+ p 19 nonsingular 168 allowed3 84
+ p 23 nonsingular 300 allowed3 108
+ p 29 nonsingular 528 allowed3 168
+ p 31 nonsingular 636 allowed3 276
+ p 37 nonsingular 960 allowed3 432
+ p 41 nonsingular 1236 allowed3 564
+ p 43 nonsingular 1368 allowed3 432
+SURVIVOR u -20 v 9/16 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 2
+SURVIVOR u -19 v 20/7 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 3
+SURVIVOR u -19 v -16/13 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 6
+SURVIVOR u -19 v -12/17 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 3
+SURVIVOR u -19 v 13/19 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 3
+SURVIVOR u -19 v 7/20 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 4
+SURVIVOR u -18 v -19/10 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 4
+SURVIVOR u -18 v -10/11 torsion [ 2, 2, 8 ]
+order 32 bound 768 used_primes 3
+SURVIVOR u -17 v -11/2 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 4
+SURVIVOR u -17 v -1/10 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 5
+SURVIVOR u -16 v 2/3 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 4
+SURVIVOR u -16 v 13/4 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 4
+SURVIVOR u -16 v -7/11 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 3
+SURVIVOR u -16 v 11/12 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 5
+SURVIVOR u -11 v -3/4 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 2
+SURVIVOR u -11 v -15/7 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 5
+SURVIVOR u -11 v 12/11 torsion [ 2, 2, 8 ]
+order 32 bound 768 used_primes 2
+SURVIVOR u -11 v -17/13 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 3
+SURVIVOR u -11 v 7/15 torsion [ 2, 2, 8 ]
+order 32 bound 192 used_primes 5
+SURVIVOR u -10 v 7/3 torsion [ 2, 2, 8 ]
+order 32 bound 96 used_primes 6
+progress 50000 curve_ok 48248 survivors 257 exact 200 hits 0
+progress 100000 curve_ok 97561 survivors 551 exact 200 hits 0
+progress 150000 curve_ok 146949 survivors 831 exact 200 hits 0
+progress 200000 curve_ok 196399 survivors 1211 exact 200 hits 0
+progress 250000 curve_ok 245906 survivors 1592 exact 200 hits 0
+DONE height 20
+checked 261121 curve_ok 256938 survivors 1686 exact 200 hits 0
+Rejected first at
+  7 53856
+  11 36856
+  13 41186
+  17 27646
+  19 20724
+  23 32948
+  29 20970
+  31 9774
+  37 5672
+  41 3404
+  43 2216
+Surviving gcd bounds
+  0 2
+  1536 22
+  1632 4
+  1728 4
+  192 818
+  2304 8
+  2688 2
+  288 44
+  384 24
+  576 20
+  768 40
+  864 6
+  96 678
+  960 14

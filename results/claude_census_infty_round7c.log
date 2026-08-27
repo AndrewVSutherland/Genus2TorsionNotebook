@@ -1,0 +1,22 @@
+t2=3: deg 8; factors:
+  lin: b - 3
+  lin: b + 3
+  lin: a - 3
+  lin: a - b
+  lin: a + b
+  FACTOR deg 3 genus 0 : a^3 + 5*a^2 - 5/9*a*b^2 + 1/3*b^2
+t2=2: deg 8; factors:
+  lin: b - 2
+  lin: b + 2
+  lin: a - 2
+  lin: a - b
+  lin: a + b
+  FACTOR deg 3 genus 0 : a^3 + 4*a^2 - 3/4*a*b^2 + 1/2*b^2
+t2=5: deg 8; factors:
+  lin: b - 5
+  lin: b + 5
+  lin: a - 5
+  lin: a - b
+  lin: a + b
+  FACTOR deg 3 genus 0 : a^3 + 7*a^2 - 9/25*a*b^2 + 1/5*b^2
+ROUND7C_DONE

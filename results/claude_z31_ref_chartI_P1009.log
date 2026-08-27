@@ -1,0 +1,23 @@
+Z31REF Mode=chartI PP=1009 NRand=400 NInfRand=300
+CHARTI_KNOWN P=1009 f14 depressed_c=[6,4,9,4,4] jac_order=14 cf_order=14 expected=14 PASS
+CHARTI_KNOWN P=1009 f18 depressed_c=[682,497,222,934,589] jac_order=18 cf_order=18 expected=18 PASS
+CHARTI_KNOWN P=1009 f28guess depressed_c=[666,181,904,72,326] jac_order=7 cf_order=7 expected=7 PASS
+PROGRESS chartI P=1009 rows=50 t=0.100s
+PROGRESS chartI P=1009 rows=100 t=0.180s
+PROGRESS chartI P=1009 rows=150 t=0.270s
+PROGRESS chartI P=1009 rows=200 t=0.390s
+PROGRESS chartI P=1009 rows=250 t=0.470s
+PROGRESS chartI P=1009 rows=300 t=0.560s
+CHARTI_FORCED P=1009 c=[435,976,902,573,26] N_inf=42 tries=979 t=1.040s
+CHARTI_FORCED P=1009 c=[131,274,220,1000,288] N_inf=99 tries=12404 t=6.560s
+CHARTI_FORCED P=1009 c=[112,574,522,5,342] N_inf=103 tries=13228 t=6.960s
+CHARTI_FORCED P=1009 c=[981,229,996,347,345] N_inf=193 tries=16180 t=8.400s
+CHARTI_FORCED P=1009 c=[450,941,686,719,206] N_inf=161 tries=16517 t=8.560s
+CHARTI_FORCED P=1009 c=[469,982,454,631,857] N_inf=13 tries=19531 t=10.020s
+CHARTI_FORCED P=1009 c=[489,36,6,42,435] N_inf=9 tries=21932 t=11.180s
+PROGRESS chartI-force P=1009 tries=25000 forced=7 t=12.660s
+CHARTI_FORCED P=1009 c=[995,762,401,35,619] N_inf=131 tries=26134 t=13.210s
+CHARTI_FORCED P=1009 c=[599,64,437,309,955] N_inf=195 tries=27603 t=13.920s
+CHARTI_FORCED P=1009 c=[135,335,391,883,427] N_inf=133 tries=30714 t=15.420s
+CHARTI_SUMMARY P=1009 knowns_pass=3/3 raw=300 rows=300 skip=0 small_order=0 cf_agree=300 cf_mismatch=0 forced=10 forced_tries=30714 forced_disagree=0 time=15.420s
+ALLDONE

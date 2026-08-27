@@ -1,0 +1,44 @@
+HIT R 16/9 w -4/3 t 4/9 splitA false splitB true discA 16909312/531441 discB 2401/6561 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple false pcert 0
+  f = 1569052980450*x^5 + 17480455510401*x^4 + 53939339809344*x^3 + 65460742603776*x^2 + 27862813900800*x
+  A = x^2 + 6176/729*x + 65536/6561
+  B = 50/9*x^2 + 1201/81*x + 800/81
+HIT R 16/9 w 4/3 t 4/9 splitA false splitB true discA 16909312/531441 discB 2401/6561 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple false pcert 0
+  f = 1569052980450*x^5 + 17480455510401*x^4 + 53939339809344*x^3 + 65460742603776*x^2 + 27862813900800*x
+  A = x^2 + 6176/729*x + 65536/6561
+  B = 50/9*x^2 + 1201/81*x + 800/81
+HIT R -16/11 w -14/11 t 42/55 splitA true splitB false discA 63872064/366025 discB -5297643/73205 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple true pcert 47
+  f = 7061463847622250*x^5 + 104632219276049025*x^4 + 135735215960638800*x^3 + 188573481843278400*x^2 + 51200550567936000*x
+  A = x^2 + 8392/605*x + 65536/14641
+  B = 18/5*x^2 + 2061/605*x + 3528/605
+HIT R -16/11 w 14/11 t 42/55 splitA true splitB false discA 63872064/366025 discB -5297643/73205 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple true pcert 47
+  f = 7061463847622250*x^5 + 104632219276049025*x^4 + 135735215960638800*x^3 + 188573481843278400*x^2 + 51200550567936000*x
+  A = x^2 + 8392/605*x + 65536/14641
+  B = 18/5*x^2 + 2061/605*x + 3528/605
+HIT R -11/16 w -11/14 t 231/640 splitA true splitB false discA 14611732641/1677721600 discB -5297643/327680 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple true pcert 47
+  f = 484884627849216000*x^5 + 1785847643268710400*x^4 + 1285453358353612800*x^3 + 990898616165990400*x^2 + 66874188496896000*x
+  A = x^2 + 126929/40960*x + 14641/65536
+  B = 441/160*x^2 + 2061/1280*x + 1089/640
+HIT R -11/16 w 11/14 t 231/640 splitA true splitB false discA 14611732641/1677721600 discB -5297643/327680 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple true pcert 47
+  f = 484884627849216000*x^5 + 1785847643268710400*x^4 + 1285453358353612800*x^3 + 990898616165990400*x^2 + 66874188496896000*x
+  A = x^2 + 126929/40960*x + 14641/65536
+  B = 441/160*x^2 + 2061/1280*x + 1089/640
+HIT R 9/16 w -3/4 t 9/64 splitA false splitB true discA 1337553/4194304 discB 2401/65536 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple false pcert 0
+  f = 879609302220800*x^5 + 2066549284274176*x^4 + 1702826757586944*x^3 + 551845600690176*x^2 + 49533891379200*x
+  A = x^2 + 1737/2048*x + 6561/65536
+  B = 25/8*x^2 + 1201/256*x + 225/128
+HIT R 9/16 w 3/4 t 9/64 splitA false splitB true discA 1337553/4194304 discB 2401/65536 candidates 4 half_order 4 torsion [ 2, 4, 8 ]
+order 64 simple false pcert 0
+  f = 879609302220800*x^5 + 2066549284274176*x^4 + 1702826757586944*x^3 + 551845600690176*x^2 + 49533891379200*x
+  A = x^2 + 1737/2048*x + 6561/65536
+  B = 25/8*x^2 + 1201/256*x + 225/128
+DONE height 20
+checked 259080 one_split 1132 both_split 0 tangent_points 8 verified 8 hits 8
+TORSION_COUNTS
+  [ 2, 4, 8 ] 8

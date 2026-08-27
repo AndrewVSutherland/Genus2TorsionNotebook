@@ -1,0 +1,14 @@
+Contact-6 [1,2,2] direct curve search for simple [6,6]
+height 30 parameter_count 1111 prime_bound 31 max_exact 10000 simple_only true
+precomputing finite filters
+ p 5 good 10 allowed66 1 target 1
+ p 7 good 24 allowed66 3 target 3
+ p 11 good 76 allowed66 14 target 14
+ p 13 good 114 allowed66 33 target 33
+ p 17 good 214 allowed66 23 target 23
+ p 19 good 276 allowed66 69 target 69
+ p 23 good 424 allowed66 52 target 52
+ p 29 good 706 allowed66 81 target 81
+ p 31 good 816 allowed66 246 target 246
+
+[Interrupted]

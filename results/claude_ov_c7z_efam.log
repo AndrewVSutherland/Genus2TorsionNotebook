@@ -1,0 +1,4 @@
+E (minimal) = Elliptic Curve defined by y^2 = x^3 - 12*x over Rational Field   conductor 288
+MW invariants = [ 2, 0 ]
+gens = [ (-2 : 4 : 1), (0 : 0 : 1) ]
+torsion gens = [ (0 : 0 : 1) ] ; free gens = [ (-2 : 4 : 1) ]

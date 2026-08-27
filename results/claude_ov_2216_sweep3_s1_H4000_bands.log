@@ -1,0 +1,19 @@
+# claude_ov_2216_sweep3 surface=1 Hu=4000 Hk=4000 qlo=1 qhi=250 threads=10 nsmall=8 nbig=24
+HIT 1 -17 8 235 48
+HIT 1 -17 8 935 48
+HIT 1 -17 8 265 72
+HIT 1 -17 8 1445 216
+HIT 1 16 25 267 275
+HIT 1 16 25 192 1975
+HIT 1 24 25 9 175
+HIT 1 24 25 64 175
+HIT 1 -15 49 72 245
+HIT 1 -15 49 40 343
+HIT 1 40 49 192 245
+HIT 1 40 49 15 343
+HIT 1 -217 72 799 144
+HIT 1 -161 81 583 162
+HIT 1 105 121 356 605
+# TOTAL pq=1216708 pairs=19472194832000 tierB=2663619313 survivors=15 degenerate_dropped=173
+SEARCH_DONE surface=1 Hu=4000 Hk=4000 qlo=1 qhi=250 nsmall=8 nbig=24
+# BAND qlo=251..4000 NOT RUN -- stopped deliberately, see notes/claude_ov_2216_2026_07_25.md sec.7

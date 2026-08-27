@@ -1,0 +1,12 @@
+BOX shard=0/1 npr=8 minnt=6 dedupe=0 t5=0 tasks=1 threads=32 ranges [-3356,-3356] [11364,11364] [-18347,-18347] [17202,17202] [-9863,-9863] [3262,3266] [-506,-502]
+SURV -3356 11364 -18347 17202 -9863 3264 -504 nt=7
+BOX_DONE shard=0/1 enum=25 skip=0 tested=25 lowntdrop=0 surv=1 wall=0.01s
+PRIME p=37 tested=25 passed=2 rate=0.08000 (1/31=0.03226)
+PRIME p=41 tested=2 passed=1 rate=0.50000 (1/31=0.03226)
+PRIME p=43 tested=1 passed=1 rate=1.00000 (1/31=0.03226)
+PRIME p=47 tested=1 passed=1 rate=1.00000 (1/31=0.03226)
+PRIME p=53 tested=1 passed=1 rate=1.00000 (1/31=0.03226)
+PRIME p=59 tested=1 passed=1 rate=1.00000 (1/31=0.03226)
+PRIME p=61 tested=0 passed=0 rate=0.00000 (1/31=0.03226)
+PRIME p=67 tested=1 passed=1 rate=1.00000 (1/31=0.03226)
+RATE tested_per_sec=2.355e+03 per_core=7.360e+01 (threads=32)

@@ -1,0 +1,421 @@
+M612_HLP_DIRECTION_ORDER_PREFILTER box=2 directions=35136
+PRIME_PROGRESS p=5 records=1000/35136 cache=720
+PRIME_PROGRESS p=5 records=2000/35136 cache=1376
+PRIME_PROGRESS p=5 records=3000/35136 cache=2376
+PRIME_PROGRESS p=5 records=4000/35136 cache=3376
+PRIME_PROGRESS p=5 records=5000/35136 cache=3600
+PRIME_PROGRESS p=5 records=6000/35136 cache=3600
+PRIME_PROGRESS p=5 records=7000/35136 cache=3688
+PRIME_PROGRESS p=5 records=8000/35136 cache=4688
+PRIME_PROGRESS p=5 records=9000/35136 cache=5688
+PRIME_PROGRESS p=5 records=10000/35136 cache=6688
+PRIME_PROGRESS p=5 records=11000/35136 cache=7688
+PRIME_PROGRESS p=5 records=12000/35136 cache=8688
+PRIME_PROGRESS p=5 records=13000/35136 cache=9688
+PRIME_PROGRESS p=5 records=14000/35136 cache=10688
+PRIME_PROGRESS p=5 records=15000/35136 cache=11688
+PRIME_PROGRESS p=5 records=16000/35136 cache=12688
+PRIME_PROGRESS p=5 records=17000/35136 cache=13688
+PRIME_PROGRESS p=5 records=18000/35136 cache=14688
+PRIME_PROGRESS p=5 records=19000/35136 cache=15688
+PRIME_PROGRESS p=5 records=20000/35136 cache=16688
+PRIME_PROGRESS p=5 records=21000/35136 cache=17688
+PRIME_PROGRESS p=5 records=22000/35136 cache=18000
+PRIME_PROGRESS p=5 records=23000/35136 cache=18000
+PRIME_PROGRESS p=5 records=24000/35136 cache=18000
+PRIME_PROGRESS p=5 records=25000/35136 cache=18000
+PRIME_PROGRESS p=5 records=26000/35136 cache=18000
+PRIME_PROGRESS p=5 records=27000/35136 cache=18000
+PRIME_PROGRESS p=5 records=28000/35136 cache=18000
+PRIME_PROGRESS p=5 records=29000/35136 cache=18000
+PRIME_PROGRESS p=5 records=30000/35136 cache=18000
+PRIME_PROGRESS p=5 records=31000/35136 cache=18000
+PRIME_PROGRESS p=5 records=32000/35136 cache=18000
+PRIME_PROGRESS p=5 records=33000/35136 cache=18000
+PRIME_PROGRESS p=5 records=34000/35136 cache=18000
+PRIME_PROGRESS p=5 records=35000/35136 cache=18000
+PRIME_DONE p=5 records=35136 unique_projective=18000
+PRIME_PROGRESS p=7 records=1000/35136 cache=1000
+PRIME_PROGRESS p=7 records=2000/35136 cache=2000
+PRIME_PROGRESS p=7 records=3000/35136 cache=3000
+PRIME_PROGRESS p=7 records=4000/35136 cache=4000
+PRIME_PROGRESS p=7 records=5000/35136 cache=5000
+PRIME_PROGRESS p=7 records=6000/35136 cache=6000
+PRIME_PROGRESS p=7 records=7000/35136 cache=7000
+PRIME_PROGRESS p=7 records=8000/35136 cache=8000
+PRIME_PROGRESS p=7 records=9000/35136 cache=9000
+PRIME_PROGRESS p=7 records=10000/35136 cache=10000
+PRIME_PROGRESS p=7 records=11000/35136 cache=11000
+PRIME_PROGRESS p=7 records=12000/35136 cache=12000
+PRIME_PROGRESS p=7 records=13000/35136 cache=13000
+PRIME_PROGRESS p=7 records=14000/35136 cache=14000
+PRIME_PROGRESS p=7 records=15000/35136 cache=15000
+PRIME_PROGRESS p=7 records=16000/35136 cache=16000
+PRIME_PROGRESS p=7 records=17000/35136 cache=17000
+PRIME_PROGRESS p=7 records=18000/35136 cache=18000
+PRIME_PROGRESS p=7 records=19000/35136 cache=19000
+PRIME_PROGRESS p=7 records=20000/35136 cache=20000
+PRIME_PROGRESS p=7 records=21000/35136 cache=21000
+PRIME_PROGRESS p=7 records=22000/35136 cache=22000
+PRIME_PROGRESS p=7 records=23000/35136 cache=23000
+PRIME_PROGRESS p=7 records=24000/35136 cache=24000
+PRIME_PROGRESS p=7 records=25000/35136 cache=25000
+PRIME_PROGRESS p=7 records=26000/35136 cache=26000
+PRIME_PROGRESS p=7 records=27000/35136 cache=27000
+PRIME_PROGRESS p=7 records=28000/35136 cache=28000
+PRIME_PROGRESS p=7 records=29000/35136 cache=29000
+PRIME_PROGRESS p=7 records=30000/35136 cache=30000
+PRIME_PROGRESS p=7 records=31000/35136 cache=31000
+PRIME_PROGRESS p=7 records=32000/35136 cache=32000
+PRIME_PROGRESS p=7 records=33000/35136 cache=33000
+PRIME_PROGRESS p=7 records=34000/35136 cache=34000
+PRIME_PROGRESS p=7 records=35000/35136 cache=35000
+PRIME_DONE p=7 records=35136 unique_projective=35136
+REPORT STAGE1 records=35136 showing=20
+RANK 1 G=(2, 1, 2, 2, 1, 0, -1) score=(1, 3, 0.75, -6)
+ MASK p=5 possible72=() bad=(0, 1, 2, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3, 6) bad=(2, 4) infinity=SEPARATE
+RANK 2 G=(2, -1, 2, -2, 1, 0, -1) score=(1, 3, 0.75, -6)
+ MASK p=5 possible72=() bad=(0, 1, 2, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3, 6) bad=(2, 4) infinity=SEPARATE
+RANK 3 G=(1, 0, -1, 2, -2, 1, -2) score=(1, 3, 0.75, -6)
+ MASK p=5 possible72=() bad=(0, 1, 3, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 4, 6) bad=(3, 5) infinity=SEPARATE
+RANK 4 G=(1, 0, -1, -2, -2, -1, -2) score=(1, 3, 0.75, -6)
+ MASK p=5 possible72=() bad=(0, 1, 3, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 4, 6) bad=(3, 5) infinity=SEPARATE
+RANK 5 G=(2, 1, 0, -1, 1, 1, -2) score=(1, 3, 0.5, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 4, 5) bad=() infinity=SEPARATE
+RANK 6 G=(2, 1, -1, -1, 0, 1, -2) score=(1, 3, 0.5, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 3, 4) bad=() infinity=SEPARATE
+RANK 7 G=(2, -1, 0, 1, 1, -1, -2) score=(1, 3, 0.5, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 4, 5) bad=() infinity=SEPARATE
+RANK 8 G=(2, -1, -1, 1, 0, -1, -2) score=(1, 3, 0.5, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 3, 4) bad=() infinity=SEPARATE
+RANK 9 G=(2, 1, 0, 0, 2, 1, 0) score=(1, 3, 0.5, -2)
+ MASK p=5 possible72=() bad=(0, 1) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3, 6) bad=() infinity=SEPARATE
+RANK 10 G=(2, -1, 0, 0, 2, -1, 0) score=(1, 3, 0.5, -2)
+ MASK p=5 possible72=() bad=(0, 1) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3, 6) bad=() infinity=SEPARATE
+RANK 11 G=(0, 1, 2, 0, 0, 1, 2) score=(1, 3, 0.5, -2)
+ MASK p=5 possible72=() bad=(0, 1) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3, 6) bad=() infinity=SEPARATE
+RANK 12 G=(0, 1, -2, 0, 0, 1, -2) score=(1, 3, 0.5, -2)
+ MASK p=5 possible72=() bad=(0, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 4, 6) bad=() infinity=SEPARATE
+RANK 13 G=(2, 1, -1, -1, -1, 0, 0) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 4, 6) bad=(2, 3) infinity=SEPARATE
+RANK 14 G=(2, -1, -1, 1, -1, 0, 0) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 4, 6) bad=(2, 3) infinity=SEPARATE
+RANK 15 G=(1, 2, 1, 1, -1, 2, -1) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 5) bad=(3, 4) infinity=SEPARATE
+RANK 16 G=(1, -2, 1, -1, -1, -2, -1) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 5) bad=(3, 4) infinity=SEPARATE
+RANK 17 G=(0, 0, 1, 1, 1, -1, -2) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3) bad=(4, 5) infinity=SEPARATE
+RANK 18 G=(0, 0, 1, -1, 1, 1, -2) score=(1, 2, 0.5, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 3) bad=(4, 5) infinity=SEPARATE
+RANK 19 G=(2, 0, 0, 2, -1, 1, -1) score=(1, 2, 0.5, -4)
+ MASK p=5 possible72=() bad=(0, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 5) bad=(1, 6) infinity=SEPARATE
+RANK 20 G=(2, 0, 0, -2, -1, -1, -1) score=(1, 2, 0.5, -4)
+ MASK p=5 possible72=() bad=(0, 4) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 5) bad=(1, 6) infinity=SEPARATE
+PRIME_PROGRESS p=11 records=1000/5000 cache=1000
+PRIME_PROGRESS p=11 records=2000/5000 cache=2000
+PRIME_PROGRESS p=11 records=3000/5000 cache=3000
+PRIME_PROGRESS p=11 records=4000/5000 cache=4000
+PRIME_PROGRESS p=11 records=5000/5000 cache=5000
+PRIME_DONE p=11 records=5000 unique_projective=5000
+PRIME_PROGRESS p=13 records=1000/5000 cache=1000
+PRIME_PROGRESS p=13 records=2000/5000 cache=2000
+PRIME_PROGRESS p=13 records=3000/5000 cache=3000
+PRIME_PROGRESS p=13 records=4000/5000 cache=4000
+PRIME_PROGRESS p=13 records=5000/5000 cache=5000
+PRIME_DONE p=13 records=5000 unique_projective=5000
+REPORT STAGE2 records=5000 showing=20
+RANK 1 G=(2, 2, 2, -1, 0, -1, 2) score=(3, 5, 0.5333333333333333, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 2, 6) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 5, 9) bad=() infinity=SEPARATE
+RANK 2 G=(2, 1, 0, 1, 2, -2, 2) score=(3, 5, 0.5333333333333333, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 2, 6) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 5, 9) bad=() infinity=SEPARATE
+RANK 3 G=(2, -1, 0, -1, 2, 2, 2) score=(3, 5, 0.5333333333333333, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 2, 6) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 5, 9) bad=() infinity=SEPARATE
+RANK 4 G=(2, -2, 2, 1, 0, 1, 2) score=(3, 5, 0.5333333333333333, -1)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 2, 6) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 5, 9) bad=() infinity=SEPARATE
+RANK 5 G=(1, 2, 1, -1, 1, 0, 0) score=(3, 4, 0.6944444444444445, -5)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 6) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(3,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 3) bad=() infinity=SEPARATE
+RANK 6 G=(1, -2, 1, 1, 1, 0, 0) score=(3, 4, 0.6944444444444445, -5)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 6) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(3,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 3) bad=() infinity=SEPARATE
+RANK 7 G=(0, 0, 1, 1, 1, -2, 1) score=(3, 4, 0.6944444444444445, -5)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 6) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(3,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 3) bad=() infinity=SEPARATE
+RANK 8 G=(0, 0, 1, -1, 1, 2, 1) score=(3, 4, 0.6944444444444445, -5)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3, 6) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(3,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 3) bad=() infinity=SEPARATE
+RANK 9 G=(2, 1, 2, 0, -1, 1, -1) score=(3, 4, 0.5944444444444444, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 6) bad=(5,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 6) bad=(2,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 11) bad=() infinity=SEPARATE
+RANK 10 G=(2, -1, 2, 0, -1, -1, -1) score=(3, 4, 0.5944444444444444, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2, 6) bad=(5,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 6) bad=(2,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 11) bad=() infinity=SEPARATE
+RANK 11 G=(1, 1, 1, 0, -2, 1, -2) score=(3, 4, 0.5944444444444444, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 5) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 5) bad=(9,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 2) bad=() infinity=SEPARATE
+RANK 12 G=(1, -1, 1, 0, -2, -1, -2) score=(3, 4, 0.5944444444444444, -3)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1, 5) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 5) bad=(9,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 2) bad=() infinity=SEPARATE
+RANK 13 G=(1, 2, -1, 2, 0, 0, -1) score=(3, 4, 0.5746753246753247, -8)
+ MASK p=5 possible72=() bad=(0, 2) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(2, 3) infinity=SEPARATE
+ MASK p=11 possible72=(0, 8) bad=(3, 7, 10) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 11) bad=(10,) infinity=SEPARATE
+RANK 14 G=(1, 0, 0, 2, 1, 2, -1) score=(3, 4, 0.5746753246753247, -8)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 3) bad=(1, 4, 8) infinity=SEPARATE
+ MASK p=13 possible72=(0, 2, 7) bad=(3,) infinity=SEPARATE
+RANK 15 G=(1, 0, 0, -2, 1, -2, -1) score=(3, 4, 0.5746753246753247, -8)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 3) bad=(1, 4, 8) infinity=SEPARATE
+ MASK p=13 possible72=(0, 2, 7) bad=(3,) infinity=SEPARATE
+RANK 16 G=(1, -2, -1, -2, 0, 0, -1) score=(3, 4, 0.5746753246753247, -8)
+ MASK p=5 possible72=() bad=(0, 2) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(2, 3) infinity=SEPARATE
+ MASK p=11 possible72=(0, 8) bad=(3, 7, 10) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 11) bad=(10,) infinity=SEPARATE
+RANK 17 G=(2, 1, 0, 2, -1, 1, 1) score=(3, 4, 0.5068181818181818, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+RANK 18 G=(2, -1, 0, -2, -1, -1, 1) score=(3, 4, 0.5068181818181818, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+RANK 19 G=(1, 1, -1, 2, 0, 1, 2) score=(3, 4, 0.5068181818181818, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+RANK 20 G=(1, -1, -1, -2, 0, -1, 2) score=(3, 4, 0.5068181818181818, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+PRIME_DONE p=17 records=250 unique_projective=250
+PRIME_DONE p=19 records=250 unique_projective=250
+PRIME_DONE p=23 records=250 unique_projective=250
+REPORT FINAL records=250 showing=20
+RANK 1 G=(2, 2, 1, 1, 2, 0, -1) score=(6, 6, 0.6490079365079364, -12)
+ MASK p=5 possible72=() bad=(0, 2) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(2, 3) infinity=SEPARATE
+ MASK p=11 possible72=(0, 3) bad=(7,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6) bad=(3, 10, 11) infinity=SEPARATE
+ MASK p=17 possible72=(0, 14) bad=(1,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 9) bad=(1, 14) infinity=SEPARATE
+ MASK p=23 possible72=(0, 15) bad=(11,) infinity=SEPARATE
+RANK 2 G=(2, -2, 1, -1, 2, 0, -1) score=(6, 6, 0.6490079365079364, -12)
+ MASK p=5 possible72=() bad=(0, 2) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(2, 3) infinity=SEPARATE
+ MASK p=11 possible72=(0, 3) bad=(7,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6) bad=(3, 10, 11) infinity=SEPARATE
+ MASK p=17 possible72=(0, 14) bad=(1,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 9) bad=(1, 14) infinity=SEPARATE
+ MASK p=23 possible72=(0, 15) bad=(11,) infinity=SEPARATE
+RANK 3 G=(1, 0, -2, 1, -1, 2, -2) score=(6, 6, 0.6490079365079364, -12)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 8) bad=(4,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 7) bad=(2, 3, 10) infinity=SEPARATE
+ MASK p=17 possible72=(0, 3) bad=(16,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 10) bad=(5, 18) infinity=SEPARATE
+ MASK p=23 possible72=(0, 8) bad=(12,) infinity=SEPARATE
+RANK 4 G=(1, 0, -2, -1, -1, -2, -2) score=(6, 6, 0.6490079365079364, -12)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 2) bad=(4, 5) infinity=SEPARATE
+ MASK p=11 possible72=(0, 8) bad=(4,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 7) bad=(2, 3, 10) infinity=SEPARATE
+ MASK p=17 possible72=(0, 3) bad=(16,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 10) bad=(5, 18) infinity=SEPARATE
+ MASK p=23 possible72=(0, 8) bad=(12,) infinity=SEPARATE
+RANK 5 G=(1, 2, 2, 1, 1, -1, 1) score=(6, 6, 0.559039979628215, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(4,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=17 possible72=(0, 1) bad=(11, 13) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(4,) infinity=SEPARATE
+ MASK p=23 possible72=(0, 7) bad=() infinity=SEPARATE
+RANK 6 G=(1, 1, 1, -1, 2, -2, 1) score=(6, 6, 0.559039979628215, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(4,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=17 possible72=(0, 1) bad=(11, 13) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(4,) infinity=SEPARATE
+ MASK p=23 possible72=(0, 7) bad=() infinity=SEPARATE
+RANK 7 G=(1, -1, 1, 1, 2, 2, 1) score=(6, 6, 0.559039979628215, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(4,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=17 possible72=(0, 1) bad=(11, 13) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(4,) infinity=SEPARATE
+ MASK p=23 possible72=(0, 7) bad=() infinity=SEPARATE
+RANK 8 G=(1, -2, 2, -1, 1, 1, 1) score=(6, 6, 0.559039979628215, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 5) bad=(4,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 9) bad=() infinity=SEPARATE
+ MASK p=17 possible72=(0, 1) bad=(11, 13) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(4,) infinity=SEPARATE
+ MASK p=23 possible72=(0, 7) bad=() infinity=SEPARATE
+RANK 9 G=(2, 1, 1, 2, 0, 1, 1) score=(5, 10, 0.8708333333333333, -14)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=(2, 6) infinity=SEPARATE
+ MASK p=11 possible72=(0,) bad=(2, 3, 5) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 10) bad=(3, 9) infinity=SEPARATE
+ MASK p=17 possible72=(0, 2, 5) bad=(15,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 3, 5, 15) bad=(2, 9) infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 10) bad=(6, 16) infinity=SEPARATE
+RANK 10 G=(2, -1, 1, -2, 0, -1, 1) score=(5, 10, 0.8708333333333333, -14)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=(2, 6) infinity=SEPARATE
+ MASK p=11 possible72=(0,) bad=(2, 3, 5) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 10) bad=(3, 9) infinity=SEPARATE
+ MASK p=17 possible72=(0, 2, 5) bad=(15,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 3, 5, 15) bad=(2, 9) infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 10) bad=(6, 16) infinity=SEPARATE
+RANK 11 G=(1, 1, 0, 2, 1, 1, 2) score=(5, 10, 0.8708333333333333, -14)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=(2, 6) infinity=SEPARATE
+ MASK p=11 possible72=(0,) bad=(2, 3, 5) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 10) bad=(3, 9) infinity=SEPARATE
+ MASK p=17 possible72=(0, 2, 5) bad=(15,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 3, 5, 15) bad=(2, 9) infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 10) bad=(6, 16) infinity=SEPARATE
+RANK 12 G=(1, -1, 0, -2, 1, -1, 2) score=(5, 10, 0.8708333333333333, -14)
+ MASK p=5 possible72=() bad=(0, 3) infinity=SEPARATE
+ MASK p=7 possible72=(0, 1) bad=(2, 6) infinity=SEPARATE
+ MASK p=11 possible72=(0,) bad=(2, 3, 5) infinity=SEPARATE
+ MASK p=13 possible72=(0, 6, 10) bad=(3, 9) infinity=SEPARATE
+ MASK p=17 possible72=(0, 2, 5) bad=(15,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 3, 5, 15) bad=(2, 9) infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 10) bad=(6, 16) infinity=SEPARATE
+RANK 13 G=(2, 1, 0, 2, -1, 1, 1) score=(5, 7, 0.6734848484848485, -11)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=(12,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(11, 12, 15) infinity=SEPARATE
+ MASK p=23 possible72=(0, 5, 18) bad=(16, 22) infinity=SEPARATE
+RANK 14 G=(2, -1, 0, -2, -1, -1, 1) score=(5, 7, 0.6734848484848485, -11)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=(12,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(11, 12, 15) infinity=SEPARATE
+ MASK p=23 possible72=(0, 5, 18) bad=(16, 22) infinity=SEPARATE
+RANK 15 G=(1, 1, -1, 2, 0, 1, 2) score=(5, 7, 0.6734848484848485, -11)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=(12,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(11, 12, 15) infinity=SEPARATE
+ MASK p=23 possible72=(0, 5, 18) bad=(16, 22) infinity=SEPARATE
+RANK 16 G=(1, -1, -1, -2, 0, -1, 2) score=(5, 7, 0.6734848484848485, -11)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=(2,) infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4, 9) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 8) bad=(2,) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=(12,) infinity=SEPARATE
+ MASK p=19 possible72=(0, 13) bad=(11, 12, 15) infinity=SEPARATE
+ MASK p=23 possible72=(0, 5, 18) bad=(16, 22) infinity=SEPARATE
+RANK 17 G=(2, 2, 1, 2, 1, 2, -1) score=(5, 7, 0.6333333333333333, -6)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 4) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(7,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 11, 12) bad=(7, 8) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=19 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 13) bad=(9, 21) infinity=SEPARATE
+RANK 18 G=(2, -2, 1, -2, 1, -2, -1) score=(5, 7, 0.6333333333333333, -6)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 4) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 1) bad=(7,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 11, 12) bad=(7, 8) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=19 possible72=(0, 1) bad=() infinity=SEPARATE
+ MASK p=23 possible72=(0, 3, 13) bad=(9, 21) infinity=SEPARATE
+RANK 19 G=(1, 2, -1, 2, -1, 2, -2) score=(5, 7, 0.6333333333333333, -6)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 2) bad=(5, 6) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=19 possible72=(0, 18) bad=() infinity=SEPARATE
+ MASK p=23 possible72=(0, 10, 20) bad=(2, 14) infinity=SEPARATE
+RANK 20 G=(1, -2, -1, -2, -1, -2, -2) score=(5, 7, 0.6333333333333333, -6)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0, 3) bad=() infinity=SEPARATE
+ MASK p=11 possible72=(0, 10) bad=(4,) infinity=SEPARATE
+ MASK p=13 possible72=(0, 1, 2) bad=(5, 6) infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=19 possible72=(0, 18) bad=() infinity=SEPARATE
+ MASK p=23 possible72=(0, 10, 20) bad=(2, 14) infinity=SEPARATE
+REPORT BASELINE_1_PLUS_X records=1 showing=1
+RANK 1 G=(1, 1, 0, 0, 0, 0, 0) score=(1, 1, 0.08333333333333333, -5)
+ MASK p=5 possible72=() bad=(0,) infinity=SEPARATE
+ MASK p=7 possible72=(0,) bad=(1,) infinity=SEPARATE
+ MASK p=11 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=13 possible72=(0, 2) bad=() infinity=SEPARATE
+ MASK p=17 possible72=(0,) bad=(3, 4) infinity=SEPARATE
+ MASK p=19 possible72=(0,) bad=() infinity=SEPARATE
+ MASK p=23 possible72=(0,) bad=(5,) infinity=SEPARATE
+M612_HLP_DIRECTION_ORDER_PREFILTER_DONE

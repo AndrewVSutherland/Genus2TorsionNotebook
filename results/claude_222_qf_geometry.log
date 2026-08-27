@@ -1,0 +1,16 @@
+Flynn43: irred=true absirred=true
+Flynn43 GENUS 0
+Flynn43 small points (111 found): [ (-11/100, 2401/1600), (-49/20, 361/100), (-1133/147, 6241/441), (-11/45, 361/225), (247/180, 961/900), (911/64, 3249/64), (-151/3, 1849/36), (-683/98, 8649/784) ]
+DSv2 rational roots over Q(t): [
+<-1/2*t, 1>
+]
+DSv2 quintic cofactor irreducible over Q(t): true
+
+Current total memory usage: 2834.2MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+
+In file "code/claude_222_qf_geometry.m", line 51, column 55:
+>> printf "DSv2 quintic QF incidence: %o components\n", #comps;
+                                                         ^
+Runtime error: Variable 'comps' has not been initialized
+

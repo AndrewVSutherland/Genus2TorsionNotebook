@@ -1,0 +1,10 @@
+minimized: Hyperelliptic Curve defined by y^2 = -3*x^6 + 24*x^3 - 75 over Rational Field
+rank bounds (minimized): 1..1
+IsEven failed: Runtime error in '[]': Bad argument types
+
+2-Selmer (minimized): rank 1
+CT call forms failed: Runtime error in 'CasselsTatePairing': Bad argument types
+Argument types given: JacHyp[FldRat], RngUPolResElt[FldRat]
+ | Runtime error in 'CasselsTatePairing': Bad argument types
+Argument types given: RngUPolResElt[FldRat], RngUPolResElt[FldRat]
+

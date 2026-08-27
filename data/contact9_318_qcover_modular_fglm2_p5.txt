@@ -1,0 +1,2 @@
+original_degree 40 gb 14
+changed_degree 40 gb 18

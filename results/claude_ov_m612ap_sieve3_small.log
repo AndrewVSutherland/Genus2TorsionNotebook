@@ -1,0 +1,6 @@
+=== claude_ov_m612ap_sieve3 : intrinsic Abel-Prym MW sieve on E8 ===
+generators verified over Q: 3 cubic place pairs
+memory limit per process: 6 GB, nfork = 8
+primes: [ 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103 ]
+workers finished
+AP3_SIEVE_DONE

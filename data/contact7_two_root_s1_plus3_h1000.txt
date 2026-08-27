@@ -1,0 +1,57 @@
+CONTACT7_TWO_ROOT_S1_PLUS3_SIEVE
+height 1000
+prime 5 chart 2 good 2 pass 0 fail 2 unknown 3 base_anomaly 0 required 84
+prime 7 chart 4 good 4 pass 1 fail 3 unknown 3 base_anomaly 0 required 12
+prime 11 chart 8 good 6 pass 3 fail 3 unknown 5 base_anomaly 0 required 84
+prime 13 chart 10 good 9 pass 3 fail 6 unknown 4 base_anomaly 0 required 84
+prime 17 chart 14 good 10 pass 2 fail 8 unknown 7 base_anomaly 0 required 84
+prime 19 chart 16 good 13 pass 8 fail 5 unknown 6 base_anomaly 0 required 84
+prime 23 chart 20 good 17 pass 7 fail 10 unknown 6 base_anomaly 0 required 84
+prime 29 chart 26 good 23 pass 5 fail 18 unknown 6 base_anomaly 0 required 84
+prime 31 chart 28 good 25 pass 7 fail 18 unknown 6 base_anomaly 0 required 84
+prime 37 chart 34 good 33 pass 12 fail 21 unknown 4 base_anomaly 0 required 84
+prime 41 chart 38 good 37 pass 16 fail 21 unknown 4 base_anomaly 0 required 84
+prime 43 chart 40 good 40 pass 18 fail 22 unknown 3 base_anomaly 0 required 84
+prime 47 chart 44 good 38 pass 18 fail 20 unknown 9 base_anomaly 0 required 84
+prime 53 chart 50 good 44 pass 9 fail 35 unknown 9 base_anomaly 0 required 84
+prime 59 chart 56 good 52 pass 25 fail 27 unknown 7 base_anomaly 0 required 84
+prime 61 chart 58 good 51 pass 18 fail 33 unknown 10 base_anomaly 0 required 84
+prime 67 chart 64 good 64 pass 19 fail 45 unknown 3 base_anomaly 0 required 84
+prime 71 chart 68 good 66 pass 32 fail 34 unknown 5 base_anomaly 0 required 84
+prime 73 chart 70 good 69 pass 25 fail 44 unknown 4 base_anomaly 0 required 84
+prime 79 chart 76 good 73 pass 23 fail 50 unknown 6 base_anomaly 0 required 84
+prime 83 chart 80 good 75 pass 43 fail 32 unknown 8 base_anomaly 0 required 84
+prime 89 chart 86 good 83 pass 34 fail 49 unknown 6 base_anomaly 0 required 84
+prime 97 chart 94 good 86 pass 23 fail 63 unknown 11 base_anomaly 0 required 84
+prime 101 chart 98 good 97 pass 39 fail 58 unknown 4 base_anomaly 0 required 84
+prime 103 chart 100 good 100 pass 35 fail 65 unknown 3 base_anomaly 0 required 84
+prime 107 chart 104 good 101 pass 44 fail 57 unknown 6 base_anomaly 0 required 84
+prime 109 chart 106 good 104 pass 35 fail 69 unknown 5 base_anomaly 0 required 84
+prime 113 chart 110 good 106 pass 47 fail 59 unknown 7 base_anomaly 0 required 84
+prime 127 chart 124 good 121 pass 34 fail 87 unknown 6 base_anomaly 0 required 84
+prime 131 chart 128 good 124 pass 60 fail 64 unknown 7 base_anomaly 0 required 84
+prime 137 chart 134 good 130 pass 42 fail 88 unknown 7 base_anomaly 0 required 84
+prime 139 chart 136 good 133 pass 54 fail 79 unknown 6 base_anomaly 0 required 84
+prime 149 chart 146 good 145 pass 52 fail 93 unknown 4 base_anomaly 0 required 84
+prime 151 chart 148 good 140 pass 54 fail 86 unknown 11 base_anomaly 0 required 84
+prime 157 chart 154 good 146 pass 52 fail 94 unknown 11 base_anomaly 0 required 84
+prime 163 chart 160 good 150 pass 70 fail 80 unknown 13 base_anomaly 0 required 84
+prime 167 chart 164 good 159 pass 71 fail 88 unknown 8 base_anomaly 0 required 84
+prime 173 chart 170 good 164 pass 65 fail 99 unknown 9 base_anomaly 0 required 84
+prime 179 chart 176 good 172 pass 59 fail 113 unknown 7 base_anomaly 0 required 84
+prime 181 chart 178 good 176 pass 61 fail 115 unknown 5 base_anomaly 0 required 84
+prime 191 chart 188 good 184 pass 73 fail 111 unknown 7 base_anomaly 0 required 84
+prime 193 chart 190 good 189 pass 83 fail 106 unknown 4 base_anomaly 0 required 84
+prime 197 chart 194 good 190 pass 79 fail 111 unknown 7 base_anomaly 0 required 84
+prime 199 chart 196 good 188 pass 54 fail 134 unknown 11 base_anomaly 0 required 84
+prime 211 chart 208 good 200 pass 87 fail 113 unknown 11 base_anomaly 0 required 84
+prime 223 chart 220 good 214 pass 93 fail 121 unknown 9 base_anomaly 0 required 84
+prime 227 chart 224 good 216 pass 101 fail 115 unknown 11 base_anomaly 0 required 84
+prime 229 chart 226 good 221 pass 65 fail 156 unknown 8 base_anomaly 0 required 84
+prime 233 chart 230 good 226 pass 83 fail 143 unknown 7 base_anomaly 0 required 84
+prime 239 chart 236 good 232 pass 101 fail 131 unknown 7 base_anomaly 0 required 84
+prime 241 chart 238 good 228 pass 91 fail 137 unknown 13 base_anomaly 0 required 84
+prime 251 chart 248 good 244 pass 124 fail 120 unknown 7 base_anomaly 0 required 84
+filter_order 127 229 199 67 53 97 137 181 109 79 179 103 149 29 233 73 157 191 31 101 173 151 241 139 37 197 89 193 239 223 61 211 107 167 113 41 43 227 163 131 71 251 17 13 59 23 7 47 5 83 11 19
+SUMMARY rational_parameters 1216767 exact_boundary 3 tested 1216764 survivors 0
+KILL_COUNTS 127:827396 229:264480 199:83643 67:27484 53:9031 97:3012 137:1082 181:399 109:159 79:44 179:24 103:4 149:3 29:2 233:1

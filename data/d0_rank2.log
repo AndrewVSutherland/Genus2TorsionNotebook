@@ -1,0 +1,8 @@
+genuine (t,m) component deg = 12
+genus = 1
+== trying Jacobian route ==
+Jacobian(PC) failed: Runtime error in 'GenusOneModel': Failed to obtain a genus one model.
+
+GenusOneModel route failed: Runtime error in 'GenusOneModel': The curve does not define a genus one model (the ambient space might be of the wrong kind).
+
+DONE

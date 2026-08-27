@@ -1,0 +1,33 @@
+Contact-6 core slice search
+height 6 parameter_count 47 simple_only false
+progress 200 slice_solutions 84 verified 0 hits 0
+progress 400 slice_solutions 84 verified 0 hits 0
+progress 600 slice_solutions 88 verified 0 hits 0
+HIT66 a -19/9 b 3/2 L 28/27 U -64/27 v -2/3 invs [ 6, 6 ]
+simple false pcert 0
+ f 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x
+HIT66 a -19/9 b 3/2 L -28/27 U -64/27 v -2/3 invs [ 6, 6 ]
+simple false pcert 0
+ f 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x
+HIT66 a -19/9 b 3/2 L 10/27 U -14/27 v 2/3 invs [ 6, 6 ]
+simple false pcert 0
+ f 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x
+HIT66 a -19/9 b 3/2 L -10/27 U -14/27 v 2/3 invs [ 6, 6 ]
+simple false pcert 0
+ f 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x
+progress 800 slice_solutions 94 verified 4 hits 4
+progress 1000 slice_solutions 94 verified 4 hits 4
+progress 1200 slice_solutions 98 verified 4 hits 4
+progress 1400 slice_solutions 98 verified 4 hits 4
+progress 1600 slice_solutions 98 verified 4 hits 4
+progress 1800 slice_solutions 98 verified 4 hits 4
+progress 2000 slice_solutions 98 verified 4 hits 4
+Done
+checked_slices 2115
+slice_solutions 98
+verified 4
+hits 4
+H <-19/9, 3/2, 28/27, -64/27, -2/3, [ 6, 6 ], 6, 3, false, 0, 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x>
+H <-19/9, 3/2, -28/27, -64/27, -2/3, [ 6, 6 ], 6, 3, false, 0, 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x>
+H <-19/9, 3/2, 10/27, -14/27, 2/3, [ 6, 6 ], 6, 3, false, 0, 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x>
+H <-19/9, 3/2, -10/27, -14/27, 2/3, [ 6, 6 ], 6, 3, false, 0, 944784*x^5 - 1781676*x^4 + 1644624*x^3 - 791856*x^2 + 186624*x>

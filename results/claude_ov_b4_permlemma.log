@@ -1,0 +1,12 @@
+swap(2,3): H1 -> -H1 ? 1
+swap(2,3): H2 -> -H3 ? 1
+swap(2,3): H3 -> -H2 ? 1
+swap(2,3): Delta -> -Delta ? 1
+swap(2,3): H1H2H3/Delta INVARIANT ? 1
+cycle: {H} permuted, product/Delta INVARIANT ? 1
+cycle: the H-triple is the cyclic shift of the old one ? 1
+cycle: Delta invariant ? 1
+deg H_i = [2, 2, 2]
+2-rank of factor type [6]   = 0
+2-rank of factor type [3,3] = 0
+PERMLEMMA_DONE

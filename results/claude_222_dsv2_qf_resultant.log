@@ -1,0 +1,12 @@
+  ***   Warning: new maximum stack size = 8000000000 (7629.395 Mbytes).
+q5 cleared; coefficient u-degrees: [26, 25, 29, 28, 27, 26]
+e1 degs (u,A,B): [29, 4, 2]
+e0 degs (u,A,B): [29, 3, 2]
+Res_B computed: degs (u,A) = [111, 10]
+factors (mult, deg_u, deg_A):
+  [15] deg_u=1 deg_A=0
+    u
+  [6] deg_u=5 deg_A=0
+    u^5 + 8
+  [1] deg_u=66 deg_A=10
+V2QF_RESULTANT_DONE

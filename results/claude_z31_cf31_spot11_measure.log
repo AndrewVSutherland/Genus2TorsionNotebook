@@ -1,0 +1,9 @@
+SAMPLE p=499 target=31 n=20000000000 hits=163839 sing31=533  est|Sigma|=2.5345e+08 (+-0.2%)  c=est/P^3=2.0398  density=8.192e-06  (320.9 s, 62.33 Mcand/s)
+FIBSTAT p=1009 target=31 slices=2000 avg_fiber=2.051 empty=257 (12.8%)  histo: 0:257 1:507 2:567 3:382 4:172 5:77 6:29 7:7 9:1 10:1  (32.0 s wall)
+SWEEP target=31 H=30 int #slice-coords=61 shard=[37,38) slices=3721 nprimes=4 1009 1013 1019 1021 M=1.063e+12 recbound=20000 chkP=4001 threads=184
+PROGRESS slices=2000/3721 cand=0  108.3 s  (18.46 slices/s)
+SWEEP_DONE H=30 shard=[37,38) slices=3721 skipped=0 tuples=68695 cand=0 conf=0 overflow=0  205.8 s  (10.177 s/slice avg)
+SWEEP_FIBSTAT p=1009 fibers=3721 empty=504 (13.5%) avg_size=2.009
+SWEEP_FIBSTAT p=1013 fibers=3217 empty=420 (13.1%) avg_size=2.097
+SWEEP_FIBSTAT p=1019 fibers=2797 empty=382 (13.7%) avg_size=2.063
+SWEEP_FIBSTAT p=1021 fibers=2415 empty=323 (13.4%) avg_size=2.038

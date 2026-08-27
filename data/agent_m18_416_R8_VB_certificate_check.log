@@ -1,0 +1,11 @@
+== validation: exact S_B vs V_B-quotient prediction ==
+validation: 295/295 agree
+== rational points of y^2 = 3969 l^3 + 3654 l^2 - 4095 l - 3528 ==
+small points: [ <1, 0, 0>, <1, 0, 1>, <-8, 0, 7>, <-7, 0, 9> ]
+cubic roots (2-torsion lambdas, y=0): [ -8/7, -7/9, 1 ]
+== full test at each rank-0-allowed lambda ==
+
+In file "code/agent_m18_416_R8_VB_certificate_check.m", line 168, column 14:
+>>     okX, mrt := IsSquareQ(Xl);
+                ^
+Runtime error in :=: Expected to assign 2 value(s) but only computed 1 value(s)

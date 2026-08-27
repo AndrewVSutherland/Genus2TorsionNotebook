@@ -1,0 +1,21 @@
+
+== tw12 ==
+p=5: #C(F_p)=128, realized pure-2-power orders [ 1, 2, 8 ]
+p=7: #C(F_p)=384, realized pure-2-power orders [ 1, 2 ]
+p=11: #C(F_p)=2304, realized pure-2-power orders [ 1, 2 ]
+p=13: #C(F_p)=4096, realized pure-2-power orders [ 1, 2, 8 ]
+p=17: #C(F_p)=4096, realized pure-2-power orders [ 1, 2, 8, 16 ]
+p=19: #C(F_p)=5376, realized pure-2-power orders [ 1, 2 ]
+ORDER_SIEVE tw12 over p in [ 5, 7, 11, 13, 17, 19 ]: intersection = [ 1, 2 ]
+CQ_FINAL tw12: every rational class has order <= 2 => C(Q) = {infinity} + rational Weierstrass points (x = [ 36 ]) - degenerate points EXHAUST C(Q), UNCONDITIONALLY
+
+== tw10 ==
+p=3: #C(F_p)=32, realized pure-2-power orders [ 1, 2 ]
+p=7: #C(F_p)=480, realized pure-2-power orders [ 1, 2 ]
+p=11: #C(F_p)=2048, realized pure-2-power orders [ 1, 2, 16 ]
+p=13: #C(F_p)=2560, realized pure-2-power orders [ 1, 2, 8 ]
+p=17: #C(F_p)=4096, realized pure-2-power orders [ 1, 2, 8, 16 ]
+p=19: #C(F_p)=4096, realized pure-2-power orders [ 1, 2 ]
+ORDER_SIEVE tw10 over p in [ 3, 7, 11, 13, 17, 19 ]: intersection = [ 1, 2 ]
+CQ_FINAL tw10: every rational class has order <= 2 => C(Q) = {infinity} + rational Weierstrass points (x = [ 32, 16, 0 ]) - degenerate points EXHAUST C(Q), UNCONDITIONALLY
+TWCLEANUP4_DONE

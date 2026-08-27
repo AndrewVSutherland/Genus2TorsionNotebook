@@ -1,0 +1,10 @@
+  ***   Warning: new maximum stack size = 2000003072 (1907.352 Mbytes).
+selftest A: 1 1
+family B cubic extracted: 1
+HIT famA- par=0 roots=[0]~
+famA-: tot=2736727 survivors=14 hits=1
+HIT famA+ par=0 roots=[0]~
+famA+: tot=2736727 survivors=14 hits=1
+HIT famB par=58/3 roots=[0]~
+famB: tot=2736727 survivors=10 hits=1
+SIEVE_PILOT_DONE

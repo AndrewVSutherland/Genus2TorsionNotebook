@@ -1,0 +1,2 @@
+SKIP genus 2
+TIME 0.030

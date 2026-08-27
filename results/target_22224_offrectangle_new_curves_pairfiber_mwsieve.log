@@ -1,0 +1,35 @@
+PAIRFIBER_MWSIEVE_START fibers 1 1 primes [ 11, 13, 17, 19, 23, 29, 31, 37, 41 ]
+MaxN 500 HeightCeiling 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+FAMILY_START P1 torsion [ 2, 2 ]
+Q (2095425/1404928 : 56576475/68841472 : 1)
+PRIME_SKIP P1 11 E_bad_reduction
+PRIME_SIEVE P1 p 13 ordQ 4 allowed [ 4, 4, 4, 4 ]
+boundary [ 4, 4, 4, 4 ]
+classes 16
+PRIME_SIEVE P1 p 17 ordQ 6 allowed [ 2, 2, 2, 2 ]
+boundary [ 0, 1, 0, 1 ]
+classes 16
+PRIME_SIEVE P1 p 19 ordQ 2 allowed [ 2, 2, 2, 2 ]
+boundary [ 0, 1, 0, 1 ]
+classes 16
+PRIME_SIEVE P1 p 23 ordQ 6 allowed [ 2, 2, 2, 2 ]
+boundary [ 2, 2, 2, 2 ]
+classes 16
+PRIME_SIEVE P1 p 29 ordQ 8 allowed [ 1, 0, 0, 1 ]
+boundary [ 1, 0, 0, 1 ]
+classes 2
+PRIME_SKIP P1 31 E_bad_reduction
+PRIME_SIEVE P1 p 37 ordQ 4 allowed [ 4, 4, 4, 4 ]
+boundary [ 0, 0, 1, 1 ]
+classes 2
+PRIME_SIEVE P1 p 41 ordQ 10 allowed [ 6, 6, 6, 6 ]
+boundary [ 6, 6, 6, 6 ]
+classes 6
+FAMILY_CLASSES P1 used_primes [ 13, 17, 19, 23, 29, 37, 41 ]
+count 6
+[ <1, 83, 120>, <1, 107, 120>, <1, 59, 120>, <4, 23, 120>, <4, 47, 120>, <4, 119, 120> ]
+
+In file "code/target_22224_offrectangle_new_curves_pairfiber_mwsieve.m", line 229, column 13:
+>>             fprintf out,"%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o\t%o
+               ^
+Runtime error in fprintf: Not enough arguments for % conversions

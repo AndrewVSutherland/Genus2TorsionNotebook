@@ -1,0 +1,15 @@
+family	n	d	parameter	status	jacobian_order
+4	0	1	0	boundary	0
+4	1	1	1	boundary	0
+4	2	1	2	good_allowed	288
+4	4	1	4	boundary	0
+4	5	1	5	good_allowed	288
+4	7	1	7	boundary	0
+4	8	1	8	boundary	0
+4	9	1	9	boundary	0
+4	10	1	10	good_allowed	288
+4	11	1	11	boundary	0
+4	12	1	12	boundary	0
+4	13	1	13	boundary	0
+4	16	1	16	boundary	0
+4	1	0	infinity	boundary	0

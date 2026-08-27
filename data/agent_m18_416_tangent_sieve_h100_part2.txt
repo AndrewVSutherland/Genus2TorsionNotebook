@@ -1,0 +1,2 @@
+# columns: R W st0 st1 gate_R gate_W plus minus tangent
+-48/89 2/39 3 4 38 88 1 0 0

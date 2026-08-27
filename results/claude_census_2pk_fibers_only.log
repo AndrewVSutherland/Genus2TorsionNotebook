@@ -1,0 +1,31 @@
+Loading "data/claude_census_2pk_lmfdb_pool.m"
+POOL_DONE
+AUD|7|contact7(1,1)|inv=[ 7 ]|nr=7|maxdoubled=YES
+AUD|7|contact7(2,1)|inv=[ 7 ]|nr=7|maxdoubled=YES
+AUD|7|contact7(1,-1)|inv=[ 7 ]|nr=7|maxdoubled=YES
+AUD|7|contact7(3,2)|inv=[ 7 ]|nr=7|maxdoubled=YES
+AUD|9|contact9(1)|inv=[ 9 ]|nr=9|maxdoubled=YES
+AUD|9|contact9(2)|inv=[ 9 ]|nr=9|maxdoubled=YES
+AUD|9|contact9(-1)|inv=[ 9 ]|nr=9|maxdoubled=YES
+AUD|9|contact9(3)|inv=[ 9 ]|nr=9|maxdoubled=YES
+AUD|11|Flynn11(1)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|Flynn11(2)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|Flynn11(3)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|Flynn11(-2)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|DS11(1)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|DS11(2)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|DS11(3)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|11|DS11(-1)|inv=[ 11 ]|nr=11|maxdoubled=YES
+AUD|12|M12z(3,2)|inv=[ 12 ]|nr=12|maxdoubled=NO
+AUD|12|M12z(2,3)|inv=[ 12 ]|nr=12|maxdoubled=NO
+AUD|12|M12z(5,2)|inv=[ 12 ]|nr=12|maxdoubled=NO
+AUD|12|M12z(3,4)|inv=[ 12 ]|nr=12|maxdoubled=NO
+AUD|21|Lep21(1)|inv=[ 21 ]|nr=21|maxdoubled=YES
+AUD|21|Lep21(2)|inv=[ 21 ]|nr=21|maxdoubled=YES
+AUD|21|Lep21(3)|inv=[ 21 ]|nr=21|maxdoubled=YES
+AUD|21|Lep21(-3)|inv=[ 21 ]|nr=21|maxdoubled=YES
+AUD|23|KS23(2)|inv=[ 23 ]|nr=23|maxdoubled=YES
+AUD|23|KS23(3)|inv=[ 23 ]|nr=23|maxdoubled=YES
+AUD|23|KS23(4)|inv=[ 23 ]|nr=23|maxdoubled=YES
+AUD|23|KS23(-2)|inv=[ 23 ]|nr=23|maxdoubled=YES
+FIBERS_DONE

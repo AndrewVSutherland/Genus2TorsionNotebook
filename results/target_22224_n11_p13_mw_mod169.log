@@ -1,0 +1,21 @@
+BASE_TRY (26360 : -4013100 : 1) 12
+BASE_TRY (28265/4 : 1466325/8 : 1) 156
+BASE_TRY (13880 : 1298700 : 1) 6
+BASE_TRY (5430 : 36400 : 1) 6
+BASE_TRY (-11370 : -137200 : 1) 78
+BASE_TRY (5885 : 20475 : 1) 12
+BASE_TRY (7460 : -239400 : 1) 156
+BASE_TRY (-394 : -642096 : 1) 6
+BASE_TRY (5654 : 1008 : 1) 39
+N11_P13_MW_MOD169_START E Elliptic Curve defined by y^2 = x^3 - 98064300*x + 373711102000 over Rational Field
+gens [ (4310 : 176400 : 1), (26360 : -4013100 : 1), (28265/4 : 1466325/8 : 1) ]
+base (28265/4 : 1466325/8 : 1) period 156
+LOCAL_LOGS free [ -1, 1 ]
+torsion [ 0, 117, 78, 39 ]
+cyclic false
+TWO_G1_IN_BASE true 146 146
+COSET_ALLOWED eps 0 [ 4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 148, 154 ]
+count 26 ambiguous [ <154, 2, 3> ]
+COSET_ALLOWED eps 1 []
+count 0 ambiguous []
+N11_P13_MW_MOD169_DONE

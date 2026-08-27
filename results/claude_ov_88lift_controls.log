@@ -1,0 +1,5 @@
+=== POSITIVE CONTROL A: x-T test on D = 2E, random y^2=l1*l2*l3 (2-rank 2) ===
+CONTROL_A: 60 classes D=2E, x-T said divisible for 60; 16 of the E themselves NOT divisible
+=== POSITIVE CONTROL B: factor type [1,1,2,2] (the shape of the Lambda_334 sextic) ===
+CONTROL_B: 60 classes D=2E, x-T said divisible for 60; 18 of the E themselves NOT divisible
+CONTROLS_DONE

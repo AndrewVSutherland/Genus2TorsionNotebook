@@ -1,0 +1,42 @@
+Contact-6 extra-root algebraic search for [6,6]
+height 12 parameter_count 183 eps_values [ 1 ]
+r_values [ 2 ]
+max_hits 20 progress_interval 200000
+progress 200000 nonboundary 197418 quadratic_roots 84 contact_hits 0 hits66 0
+progress 400000 nonboundary 394841 quadratic_roots 31465 contact_hits 0 hits66 0
+progress 600000 nonboundary 592266 quadratic_roots 66554 contact_hits 0 hits66 0
+progress 800000 nonboundary 789689 quadratic_roots 66640 contact_hits 0 hits66 0
+progress 1000000 nonboundary 987112 quadratic_roots 66875 contact_hits 0 hits66 0
+progress 1200000 nonboundary 1184537 quadratic_roots 67110 contact_hits 0 hits66 0
+progress 1400000 nonboundary 1381956 quadratic_roots 67200 contact_hits 0 hits66 0
+progress 1600000 nonboundary 1579375 quadratic_roots 67364 contact_hits 0 hits66 0
+progress 1800000 nonboundary 1776801 quadratic_roots 67452 contact_hits 0 hits66 0
+progress 2000000 nonboundary 1974226 quadratic_roots 67619 contact_hits 0 hits66 0
+progress 2200000 nonboundary 2171649 quadratic_roots 67724 contact_hits 0 hits66 0
+progress 2400000 nonboundary 2369068 quadratic_roots 67786 contact_hits 0 hits66 0
+progress 2600000 nonboundary 2566487 quadratic_roots 67926 contact_hits 0 hits66 0
+progress 2800000 nonboundary 2763910 quadratic_roots 67974 contact_hits 0 hits66 0
+progress 3000000 nonboundary 2961335 quadratic_roots 68113 contact_hits 0 hits66 0
+progress 3200000 nonboundary 3158758 quadratic_roots 68160 contact_hits 0 hits66 0
+progress 3400000 nonboundary 3356183 quadratic_roots 68268 contact_hits 0 hits66 0
+progress 3600000 nonboundary 3553610 quadratic_roots 68408 contact_hits 0 hits66 0
+progress 3800000 nonboundary 3751040 quadratic_roots 68464 contact_hits 0 hits66 0
+progress 4000000 nonboundary 3948469 quadratic_roots 68525 contact_hits 0 hits66 0
+progress 4200000 nonboundary 4145898 quadratic_roots 68620 contact_hits 0 hits66 0
+progress 4400000 nonboundary 4343327 quadratic_roots 68654 contact_hits 0 hits66 0
+progress 4600000 nonboundary 4540756 quadratic_roots 68738 contact_hits 0 hits66 0
+progress 4800000 nonboundary 4738187 quadratic_roots 68774 contact_hits 0 hits66 0
+progress 5000000 nonboundary 4935616 quadratic_roots 68870 contact_hits 0 hits66 0
+progress 5200000 nonboundary 5133043 quadratic_roots 68904 contact_hits 0 hits66 0
+progress 5400000 nonboundary 5330474 quadratic_roots 68944 contact_hits 0 hits66 0
+progress 5600000 nonboundary 5527903 quadratic_roots 68976 contact_hits 0 hits66 0
+progress 5800000 nonboundary 5725333 quadratic_roots 69010 contact_hits 0 hits66 0
+progress 6000000 nonboundary 5922762 quadratic_roots 69048 contact_hits 0 hits66 0
+Done
+checked 6094998
+nonboundary 6016556
+quadratic_roots 69076
+zero_f1_polys 0
+contact_hits 0
+exact_hits66 0
+hits 0

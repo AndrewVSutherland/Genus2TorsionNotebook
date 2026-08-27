@@ -1,0 +1,5312 @@
+Loading "split_lab.m"
+Loading "../data/fib2_usets.m"
+VERIFY E26: 3/3
+FIB2 Sig=2 sg=[ 2, 1, 3 ] fibers=1673 ufile=default
+JOIN fibers=4113
+GENS2 u=2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=17 u=2
+SKIPISO t=17 u=2
+GENS2 u=3/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=33 u=3/2
+SKIPISO t=33 u=3/2
+GENS2 u=-1/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11 u=-1/3
+SKIPISO t=-11 u=-1/3
+GENS2 u=4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=19/3 u=4
+SKIPISO t=19/3 u=4
+GENS2 u=-5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-5/3 u=-5
+SKIPISO t=-5/3 u=-5
+GENS2 u=-3/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-9 u=-3/5
+SKIPISO t=-9 u=-3/5
+GENS2 u=-6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-9/7 u=-6
+SKIPISO t=-9/7 u=-6
+GENS2 u=-9/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-6 u=-9/7
+SKIPISO t=-6 u=-9/7
+GENS2 u=-9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/5 u=-9
+SKIPISO t=-3/5 u=-9
+GENS2 u=9/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=39/7 u=9/2
+SKIPISO t=39/7 u=9/2
+GENS2 u=-10 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-5/11 u=-10
+SKIPISO t=-5/11 u=-10
+GENS2 u=-10/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-35/13 u=-10/3
+SKIPISO t=-35/13 u=-10/3
+GENS2 u=-11/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-4 u=-11/5
+SKIPISO t=-4 u=-11/5
+GENS2 u=11/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=29 u=11/7
+SKIPISO t=29 u=11/7
+GENS2 u=-11/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17/7 u=-11/3
+SKIPISO t=-17/7 u=-11/3
+GENS2 u=11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/5 u=11
+SKIPISO t=13/5 u=11
+GENS2 u=-12 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/13 u=-12
+SKIPISO t=-3/13 u=-12
+GENS2 u=12 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=27/11 u=12
+SKIPISO t=27/11 u=12
+GENS2 u=-13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-1/7 u=-13
+SKIPISO t=-1/7 u=-13
+GENS2 u=14 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=29/13 u=14
+SKIPISO t=29/13 u=14
+GENS2 u=15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=15/7 u=15
+SKIPISO t=15/7 u=15
+GENS2 u=15/8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=135/7 u=15/8
+SKIPISO t=135/7 u=15/8
+GENS2 u=-16 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=1/17 u=-16
+SKIPISO t=1/17 u=-16
+GENS2 u=-16/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-59/21 u=-16/5
+SKIPISO t=-59/21 u=-16/5
+GENS2 u=18 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=33/17 u=18
+SKIPISO t=33/17 u=18
+GENS2 u=-19/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-11/2 u=-19/13
+SKIPISO t=-11/2 u=-19/13
+GENS2 u=-19/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/7 u=-19/9
+SKIPISO t=-29/7 u=-19/9
+GENS2 u=15/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-75 u=15/19
+SKIPISO t=-75 u=15/19
+GENS2 u=-19/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/25 u=-19/6
+SKIPISO t=-71/25 u=-19/6
+GENS2 u=19/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=4 u=19/3
+SKIPISO t=4 u=19/3
+GENS2 u=19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=17/9 u=19
+SKIPISO t=17/9 u=19
+GENS2 u=-22/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/25 u=-22/3
+SKIPISO t=-23/25 u=-22/3
+GENS2 u=-22 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=7/23 u=-22
+SKIPISO t=7/23 u=-22
+GENS2 u=22 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=37/21 u=22
+SKIPISO t=37/21 u=22
+GENS2 u=-23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=1/3 u=-23
+SKIPISO t=1/3 u=-23
+GENS2 u=-23/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/13 u=-23/3
+SKIPISO t=-11/13 u=-23/3
+GENS2 u=15/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-45 u=15/23
+SKIPISO t=-45 u=15/23
+GENS2 u=7/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-22 u=7/23
+SKIPISO t=-22 u=7/23
+GENS2 u=24/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=99/19 u=24/5
+SKIPISO t=99/19 u=24/5
+GENS2 u=-25/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-5/27 u=-25/2
+SKIPISO t=-5/27 u=-25/2
+GENS2 u=-25/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-5/7 u=-25/3
+SKIPISO t=-5/7 u=-25/3
+GENS2 u=-27/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/2 u=-27/5
+SKIPISO t=-3/2 u=-27/5
+GENS2 u=28/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=73/25 u=28/3
+SKIPISO t=73/25 u=28/3
+GENS2 u=28 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=43/27 u=28
+SKIPISO t=43/27 u=28
+GENS2 u=29/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/3 u=29/5
+SKIPISO t=13/3 u=29/5
+GENS2 u=29/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=37/13 u=29/3
+SKIPISO t=37/13 u=29/3
+GENS2 u=29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=11/7 u=29
+SKIPISO t=11/7 u=29
+GENS2 u=31/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=17/3 u=31/7
+SKIPISO t=17/3 u=31/7
+GENS2 u=32 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=47/31 u=32
+SKIPISO t=47/31 u=32
+GENS2 u=-33/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-21/19 u=-33/5
+SKIPISO t=-21/19 u=-33/5
+GENS2 u=33/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=27/7 u=33/5
+SKIPISO t=27/7 u=33/5
+GENS2 u=33/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=18 u=33/17
+SKIPISO t=18 u=33/17
+GENS2 u=33/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=57/5 u=33/13
+SKIPISO t=57/5 u=33/13
+GENS2 u=-34 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=19/35 u=-34
+SKIPISO t=19/35 u=-34
+GENS2 u=-35 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=5/9 u=-35
+SKIPISO t=5/9 u=-35
+GENS2 u=-36/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-39/41 u=-36/5
+SKIPISO t=-39/41 u=-36/5
+GENS2 u=-37/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-1/5 u=-37/3
+SKIPISO t=-1/5 u=-37/3
+GENS2 u=37/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/35 u=37/2
+SKIPISO t=67/35 u=37/2
+GENS2 u=29/37 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-73 u=29/37
+SKIPISO t=-73 u=29/37
+GENS2 u=40/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=85/37 u=40/3
+SKIPISO t=85/37 u=40/3
+GENS2 u=41/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=43/19 u=41/3
+SKIPISO t=43/19 u=41/3
+GENS2 u=-23/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-37/4 u=-23/41
+SKIPISO t=-37/4 u=-23/41
+GENS2 u=43/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=11/5 u=43/3
+SKIPISO t=11/5 u=43/3
+GENS2 u=43/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=41/3 u=43/19
+SKIPISO t=41/3 u=43/19
+GENS2 u=-43/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-19/7 u=-43/13
+SKIPISO t=-19/7 u=-43/13
+GENS2 u=45/41 bounds=[2,2] cands=12 indep=2
+GENS2 u=45/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=15/2 u=45/13
+SKIPISO t=15/2 u=45/13
+GENS2 u=46/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=121/41 u=46/5
+SKIPISO t=121/41 u=46/5
+GENS2 u=-47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=2/3 u=-47
+SKIPISO t=2/3 u=-47
+GENS2 u=-47/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-13/4 u=-47/17
+SKIPISO t=-13/4 u=-47/17
+GENS2 u=47/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=23/11 u=47/3
+SKIPISO t=23/11 u=47/3
+GENS2 u=51/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=99/7 u=51/23
+SKIPISO t=99/7 u=51/23
+GENS2 u=51/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=39/11 u=51/7
+SKIPISO t=39/11 u=51/7
+GENS2 u=-53/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/29 u=-53/5
+SKIPISO t=-11/29 u=-53/5
+GENS2 u=-55/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=25/57 u=-55/2
+SKIPISO t=25/57 u=-55/2
+GENS2 u=55/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=25/13 u=55/3
+SKIPISO t=25/13 u=55/3
+GENS2 u=-55/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-25/9 u=-55/17
+SKIPISO t=-25/9 u=-55/17
+GENS2 u=55/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=10/3 u=55/7
+SKIPISO t=10/3 u=55/7
+GENS2 u=57/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=33/13 u=57/5
+SKIPISO t=33/13 u=57/5
+GENS2 u=57 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=9/7 u=57
+SKIPISO t=9/7 u=57
+GENS2 u=29/57 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-221/7 u=29/57
+SKIPISO t=-221/7 u=29/57
+GENS2 u=-59/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17/9 u=-59/13
+SKIPISO t=-17/9 u=-59/13
+GENS2 u=-59/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=7/31 u=-59/3
+SKIPISO t=7/31 u=-59/3
+GENS2 u=-59/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-1/4 u=-59/5
+SKIPISO t=-1/4 u=-59/5
+GENS2 u=45/61 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-60 u=45/61
+SKIPISO t=-60 u=45/61
+GENS2 u=-61/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-41/19 u=-61/15
+SKIPISO t=-41/19 u=-61/15
+GENS2 u=61/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=17/7 u=61/5
+SKIPISO t=17/7 u=61/5
+GENS2 u=-61/12 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-119/73 u=-61/12
+SKIPISO t=-119/73 u=-61/12
+GENS2 u=-63/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=33/65 u=-63/2
+SKIPISO t=33/65 u=-63/2
+GENS2 u=63/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=69/29 u=63/5
+SKIPISO t=69/29 u=63/5
+GENS2 u=66/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=141/61 u=66/5
+SKIPISO t=141/61 u=66/5
+GENS2 u=-45/67 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-60/7 u=-45/67
+SKIPISO t=-60/7 u=-45/67
+GENS2 u=67/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=22/3 u=67/19
+SKIPISO t=22/3 u=67/19
+GENS2 u=67/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=97/65 u=67/2
+SKIPISO t=97/65 u=67/2
+GENS2 u=69/53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=54 u=69/53
+SKIPISO t=54 u=69/53
+GENS2 u=69/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=81/13 u=69/17
+SKIPISO t=81/13 u=69/17
+GENS2 u=-71/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/37 u=-71/3
+SKIPISO t=13/37 u=-71/3
+GENS2 u=-71/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17/39 u=-71/7
+SKIPISO t=-17/39 u=-71/7
+GENS2 u=71/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=89/13 u=71/19
+SKIPISO t=89/13 u=71/19
+GENS2 u=73/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/4 u=73/9
+SKIPISO t=13/4 u=73/9
+GENS2 u=75/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=105/73 u=75/2
+SKIPISO t=105/73 u=75/2
+GENS2 u=77/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=61/37 u=77/3
+SKIPISO t=61/37 u=77/3
+GENS2 u=-79/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=1/21 u=-79/5
+SKIPISO t=1/21 u=-79/5
+GENS2 u=79/31 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=34/3 u=79/31
+SKIPISO t=34/3 u=79/31
+GENS2 u=-53/83 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/17 u=-53/83
+SKIPISO t=-149/17 u=-53/83
+GENS2 u=83/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=79/39 u=83/5
+SKIPISO t=79/39 u=83/5
+GENS2 u=-83/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-7/6 u=-83/13
+SKIPISO t=-7/6 u=-83/13
+GENS2 u=-83/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-73/27 u=-83/25
+SKIPISO t=-73/27 u=-83/25
+GENS2 u=-85/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-25/13 u=-85/19
+SKIPISO t=-25/13 u=-85/19
+GENS2 u=87/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=27/4 u=87/23
+SKIPISO t=27/4 u=87/23
+GENS2 u=-89/47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-77/17 u=-89/47
+SKIPISO t=-77/17 u=-89/47
+GENS2 u=89/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/43 u=89/3
+SKIPISO t=67/43 u=89/3
+GENS2 u=89/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=41/21 u=89/5
+SKIPISO t=41/21 u=89/5
+GENS2 u=-93/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/25 u=-93/7
+SKIPISO t=-3/25 u=-93/7
+GENS2 u=-95 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=5/6 u=-95
+SKIPISO t=5/6 u=-95
+GENS2 u=-99/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=3/13 u=-99/5
+SKIPISO t=3/13 u=-99/5
+GENS2 u=-99/53 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-87/19 u=-99/53
+SKIPISO t=-87/19 u=-99/53
+GENS2 u=99/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=24/5 u=99/19
+SKIPISO t=24/5 u=99/19
+GENS2 u=-99/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/53 u=-99/7
+SKIPISO t=-3/53 u=-99/7
+GENS2 u=99/92 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=1479/7 u=99/92
+SKIPISO t=1479/7 u=99/92
+GENS2 u=101 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=29/25 u=101
+SKIPISO t=29/25 u=101
+GENS2 u=-103/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17/8 u=-103/25
+SKIPISO t=-17/8 u=-103/25
+GENS2 u=-103/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=7/27 u=-103/5
+SKIPISO t=7/27 u=-103/5
+GENS2 u=106/79 bounds=[2,2] cands=12 indep=2
+GENS2 u=109/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=23/13 u=109/5
+SKIPISO t=23/13 u=109/5
+GENS2 u=-109/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=4/7 u=-109/3
+SKIPISO t=4/7 u=-109/3
+GENS2 u=111/47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=51/4 u=111/47
+SKIPISO t=51/4 u=111/47
+GENS2 u=113/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=109/53 u=113/7
+SKIPISO t=109/53 u=113/7
+GENS2 u=-115/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-125/39 u=-115/41
+SKIPISO t=-125/39 u=-115/41
+GENS2 u=121/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=79/27 u=121/13
+SKIPISO t=79/27 u=121/13
+GENS2 u=-121/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-13/17 u=-121/15
+SKIPISO t=-13/17 u=-121/15
+GENS2 u=-121/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=1/8 u=-121/7
+SKIPISO t=1/8 u=-121/7
+GENS2 u=123/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=117/25 u=123/23
+SKIPISO t=117/25 u=123/23
+GENS2 u=-123/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=3/8 u=-123/5
+SKIPISO t=3/8 u=-123/5
+GENS2 u=-124 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=109/125 u=-124
+SKIPISO t=109/125 u=-124
+GENS2 u=129/113 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=114 u=129/113
+SKIPISO t=114 u=129/113
+GENS2 u=-129/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-39/37 u=-129/19
+SKIPISO t=-39/37 u=-129/19
+GENS2 u=-129/71 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-117/25 u=-129/71
+SKIPISO t=-117/25 u=-129/71
+GENS2 u=129/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=51/31 u=129/5
+SKIPISO t=51/31 u=129/5
+GENS2 u=130 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=145/129 u=130
+SKIPISO t=145/129 u=130
+GENS2 u=133/5 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=13/8 u=133/5
+SKIPISO t=13/8 u=133/5
+GENS2 u=135/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=15/8 u=135/7
+SKIPISO t=15/8 u=135/7
+GENS2 u=9/137 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-129/8 u=9/137
+SKIPISO t=-129/8 u=9/137
+GENS2 u=141/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=123/67 u=141/7
+SKIPISO t=123/67 u=141/7
+GENS2 u=149/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=101/33 u=149/17
+SKIPISO t=101/33 u=149/17
+GENS2 u=-4/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-41/7 u=-4/3
+SKIPISO t=-41/7 u=-4/3
+GENS2 u=4/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=49 u=4/3
+SKIPISO t=49 u=4/3
+GENS2 u=1/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-19 u=1/5
+SKIPISO t=-19 u=1/5
+GENS2 u=-4/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-71/9 u=-4/5
+SKIPISO t=-71/9 u=-4/5
+GENS2 u=5/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=65 u=5/4
+SKIPISO t=65 u=5/4
+GENS2 u=5/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=35/3 u=5/2
+SKIPISO t=35/3 u=5/2
+GENS2 u=5/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=25 u=5/3
+SKIPISO t=25 u=5/3
+GENS2 u=6/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=81 u=6/5
+SKIPISO t=81 u=6/5
+GENS2 u=-5/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-85/11 u=-5/6
+SKIPISO t=-85/11 u=-5/6
+GENS2 u=-1/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-89/7 u=-1/6
+SKIPISO t=-89/7 u=-1/6
+GENS2 u=7/6 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=97 u=7/6
+SKIPISO t=97 u=7/6
+GENS2 u=7/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=37/5 u=7/2
+SKIPISO t=37/5 u=7/2
+GENSHORT u=-7/6 target=3 indep=2 cands=12
+GENS2 u=-7/6 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=-83/13 u=-7/6
+SKIPISO t=-83/13 u=-7/6
+GENS2 u=-5/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-25/3 u=-5/7
+SKIPISO t=-25/3 u=-5/7
+GENS2 u=-2/7 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-103/9 u=-2/7
+SKIPISO t=-103/9 u=-2/7
+GENS2 u=7/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/3 u=7/4
+SKIPISO t=67/3 u=7/4
+GENS2 u=8/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=113 u=8/7
+SKIPISO t=113 u=8/7
+GENS2 u=8/5 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=83/3 u=8/5
+SKIPISO t=83/3 u=8/5
+GENS2 u=8/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=53/5 u=8/3
+SKIPISO t=53/5 u=8/3
+GENS2 u=-5/8 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-115/13 u=-5/8
+SKIPISO t=-115/13 u=-5/8
+GENS2 u=3/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-123/5 u=3/8
+SKIPISO t=-123/5 u=3/8
+GENS2 u=-8/7 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-97/15 u=-8/7
+SKIPISO t=-97/15 u=-8/7
+GENS2 u=-3/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-117/11 u=-3/8
+SKIPISO t=-117/11 u=-3/8
+GENS2 u=-1/8 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-119/9 u=-1/8
+SKIPISO t=-119/9 u=-1/8
+GENS2 u=5/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-125/3 u=5/8
+SKIPISO t=-125/3 u=5/8
+GENS2 u=-8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-7/9 u=-8
+SKIPISO t=-7/9 u=-8
+GENS2 u=9/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=69/5 u=9/4
+SKIPISO t=69/5 u=9/4
+GENS2 u=9/8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=129 u=9/8
+SKIPISO t=129 u=9/8
+GENSHORT u=-8/9 target=3 indep=2 cands=9
+GENS2 u=-8/9 bounds=[3,3] cands=9 indep=2
+FIBSURV Sig=2 t=-127/17 u=-8/9
+SKIPISO t=-127/17 u=-8/9
+GENS2 u=2/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-137/7 u=2/9
+SKIPISO t=-137/7 u=2/9
+GENS2 u=1/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17 u=1/9
+SKIPISO t=-17 u=1/9
+GENS2 u=-5/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-65/7 u=-5/9
+SKIPISO t=-65/7 u=-5/9
+GENS2 u=-7/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-8 u=-7/9
+SKIPISO t=-8 u=-7/9
+GENS2 u=10/7 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=115/3 u=10/7
+SKIPISO t=115/3 u=10/7
+GENS2 u=-9/10 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-141/19 u=-9/10
+SKIPISO t=-141/19 u=-9/10
+GENS2 u=-10/7 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-95/17 u=-10/7
+SKIPISO t=-95/17 u=-10/7
+GENS2 u=10/9 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=145 u=10/9
+SKIPISO t=145 u=10/9
+GENS2 u=-1/10 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/11 u=-1/10
+SKIPISO t=-149/11 u=-1/10
+GENS2 u=10/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=55/7 u=10/3
+SKIPISO t=55/7 u=10/3
+GENS2 u=-5/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-10 u=-5/11
+SKIPISO t=-10 u=-5/11
+GENSHORT u=11/6 target=2 indep=1 cands=3
+GENS2 u=11/6 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=101/5 u=11/6
+SKIPISO t=101/5 u=11/6
+GENS2 u=-11/7 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-47/9 u=-11/7
+SKIPISO t=-47/9 u=-11/7
+GENS2 u=11/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=73 u=11/9
+SKIPISO t=73 u=11/9
+GENS2 u=-11/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-31/5 u=-11/9
+SKIPISO t=-31/5 u=-11/9
+GENS2 u=11/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=43/3 u=11/5
+SKIPISO t=43/3 u=11/5
+GENS2 u=-11/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-19/13 u=-11/2
+SKIPISO t=-19/13 u=-11/2
+GENS2 u=7/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-43 u=7/11
+SKIPISO t=-43 u=7/11
+GENS2 u=11/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=131/3 u=11/8
+SKIPISO t=131/3 u=11/8
+GENS2 u=12/7 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=117/5 u=12/7
+SKIPISO t=117/5 u=12/7
+GENS2 u=-13/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-19/3 u=-13/11
+SKIPISO t=-19/3 u=-13/11
+GENS2 u=-7/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-47/5 u=-7/13
+SKIPISO t=-47/5 u=-7/13
+GENS2 u=13/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=29/5 u=13/3
+SKIPISO t=29/5 u=13/3
+GENS2 u=-1/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-97/7 u=-1/13
+SKIPISO t=-97/7 u=-1/13
+GENS2 u=-3/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-12 u=-3/13
+SKIPISO t=-12 u=-3/13
+GENSHORT u=13/8 target=2 indep=1 cands=2
+GENS2 u=13/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=133/5 u=13/8
+SKIPISO t=133/5 u=13/8
+GENS2 u=1/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-49/3 u=1/13
+SKIPISO t=-49/3 u=1/13
+GENS2 u=-13/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-17/15 u=-13/2
+SKIPISO t=-17/15 u=-13/2
+GENS2 u=13/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=89 u=13/11
+SKIPISO t=89 u=13/11
+GENS2 u=-13/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-107/21 u=-13/8
+SKIPISO t=-107/21 u=-13/8
+GENS2 u=3/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-99/5 u=3/13
+SKIPISO t=-99/5 u=3/13
+GENS2 u=5/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-25 u=5/13
+SKIPISO t=-25 u=5/13
+GENS2 u=-13/10 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-137/23 u=-13/10
+SKIPISO t=-137/23 u=-13/10
+GENSHORT u=-5/13 target=2 indep=1 cands=2
+GENS2 u=-5/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-95/9 u=-5/13
+SKIPISO t=-95/9 u=-5/13
+GENS2 u=-13/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-47/17 u=-13/4
+SKIPISO t=-47/17 u=-13/4
+GENS2 u=-13/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/5 u=-13/7
+SKIPISO t=-23/5 u=-13/7
+GENS2 u=9/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-51 u=9/13
+SKIPISO t=-51 u=9/13
+GENS2 u=13/6 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=103/7 u=13/6
+SKIPISO t=103/7 u=13/6
+GENS2 u=13/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=59/3 u=13/7
+SKIPISO t=59/3 u=13/7
+GENS2 u=-14 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-1/15 u=-14
+SKIPISO t=-1/15 u=-14
+GENS2 u=-14/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-121/23 u=-14/9
+SKIPISO t=-121/23 u=-14/9
+GENS2 u=-14/3 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-31/17 u=-14/3
+SKIPISO t=-31/17 u=-14/3
+GENSHORT u=14/9 target=2 indep=1 cands=2
+GENS2 u=14/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=149/5 u=14/9
+SKIPISO t=149/5 u=14/9
+GENS2 u=14/5 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=89/9 u=14/5
+SKIPISO t=89/9 u=14/5
+GENS2 u=14/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=59/11 u=14/3
+SKIPISO t=59/11 u=14/3
+GENS2 u=11/15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-59 u=11/15
+SKIPISO t=-59 u=11/15
+GENS2 u=7/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-29 u=7/15
+SKIPISO t=-29 u=7/15
+GENS2 u=-15/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-45/7 u=-15/13
+SKIPISO t=-45/7 u=-15/13
+GENS2 u=-1/15 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-14 u=-1/15
+SKIPISO t=-14 u=-1/15
+GENS2 u=-15/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-15/17 u=-15/2
+SKIPISO t=-15/17 u=-15/2
+GENS2 u=-13/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-53/7 u=-13/15
+SKIPISO t=-53/7 u=-13/15
+GENS2 u=-15/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-45/19 u=-15/4
+SKIPISO t=-45/19 u=-15/4
+GENS2 u=15/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=75/11 u=15/4
+SKIPISO t=75/11 u=15/4
+GENS2 u=-16/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/19 u=-16/3
+SKIPISO t=-29/19 u=-16/3
+GENS2 u=16/5 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=91/11 u=16/5
+SKIPISO t=91/11 u=16/5
+GENS2 u=16 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=31/15 u=16
+SKIPISO t=31/15 u=16
+GENS2 u=17/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=61/5 u=17/7
+SKIPISO t=61/5 u=17/7
+GENS2 u=17/8 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=137/9 u=17/8
+SKIPISO t=137/9 u=17/8
+GENS2 u=1/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-16 u=1/17
+SKIPISO t=-16 u=1/17
+GENS2 u=-1/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-127/9 u=-1/17
+SKIPISO t=-127/9 u=-1/17
+GENS2 u=-17/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/3 u=-17/7
+SKIPISO t=-11/3 u=-17/7
+GENS2 u=17/15 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=121 u=17/15
+SKIPISO t=121 u=17/15
+GENS2 u=17/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=77/13 u=17/4
+SKIPISO t=77/13 u=17/4
+GENS2 u=-17/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-89/15 u=-17/13
+SKIPISO t=-89/15 u=-17/13
+GENS2 u=17/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=107/11 u=17/6
+SKIPISO t=107/11 u=17/6
+GENS2 u=9/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-33 u=9/17
+SKIPISO t=-33 u=9/17
+GENS2 u=-17/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-103/25 u=-17/8
+SKIPISO t=-103/25 u=-17/8
+GENS2 u=5/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-65/3 u=5/17
+SKIPISO t=-65/3 u=5/17
+GENS2 u=-3/17 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-63/5 u=-3/17
+SKIPISO t=-63/5 u=-3/17
+GENS2 u=-17/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-7/5 u=-17/3
+SKIPISO t=-7/5 u=-17/3
+GENS2 u=-17/15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-13/2 u=-17/15
+SKIPISO t=-13/2 u=-17/15
+GENS2 u=17/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=91/3 u=17/11
+SKIPISO t=91/3 u=17/11
+GENS2 u=-7/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-31/3 u=-7/17
+SKIPISO t=-31/3 u=-7/17
+GENS2 u=-17/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-73/23 u=-17/6
+SKIPISO t=-73/23 u=-17/6
+GENS2 u=-17/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/11 u=-17/5
+SKIPISO t=-29/11 u=-17/5
+GENS2 u=-17/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-13/19 u=-17/2
+SKIPISO t=-13/19 u=-17/2
+GENS2 u=-17/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-43/21 u=-17/4
+SKIPISO t=-43/21 u=-17/4
+GENS2 u=-18/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-57/23 u=-18/5
+SKIPISO t=-57/23 u=-18/5
+GENS2 u=-18 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=3/19 u=-18
+SKIPISO t=3/19 u=-18
+GENS2 u=18/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=123/11 u=18/7
+SKIPISO t=123/11 u=18/7
+GENS2 u=7/19 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-73/3 u=7/19
+SKIPISO t=-73/3 u=7/19
+GENS2 u=-19/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/21 u=-19/2
+SKIPISO t=-11/21 u=-19/2
+GENS2 u=13/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/3 u=13/19
+SKIPISO t=-149/3 u=13/19
+GENS2 u=-11/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-137/15 u=-11/19
+SKIPISO t=-137/15 u=-11/19
+GENS2 u=5/19 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-145/7 u=5/19
+SKIPISO t=-145/7 u=5/19
+GENS2 u=-19/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-59/9 u=-19/17
+SKIPISO t=-59/9 u=-19/17
+GENS2 u=-15/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-135/17 u=-15/19
+SKIPISO t=-135/17 u=-15/19
+GENS2 u=19/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=77/5 u=19/9
+SKIPISO t=77/5 u=19/9
+GENS2 u=-17/19 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-67/9 u=-17/19
+SKIPISO t=-67/9 u=-17/19
+GENS2 u=-1/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/5 u=-1/19
+SKIPISO t=-71/5 u=-1/19
+GENS2 u=3/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-18 u=3/19
+SKIPISO t=-18 u=3/19
+GENS2 u=19/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=79/15 u=19/4
+SKIPISO t=79/15 u=19/4
+GENS2 u=-19/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-13/11 u=-19/3
+SKIPISO t=-13/11 u=-19/3
+GENS2 u=19/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=47/7 u=19/5
+SKIPISO t=47/7 u=19/5
+GENS2 u=11/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-37 u=11/19
+SKIPISO t=-37 u=11/19
+GENS2 u=19/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=107/3 u=19/13
+SKIPISO t=107/3 u=19/13
+GENS2 u=19/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=137 u=19/17
+SKIPISO t=137 u=19/17
+GENS2 u=-9/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-69/7 u=-9/19
+SKIPISO t=-69/7 u=-9/19
+GENS2 u=19/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=109/13 u=19/6
+SKIPISO t=109/13 u=19/6
+GENS2 u=19/8 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=139/11 u=19/8
+SKIPISO t=139/11 u=19/8
+GENS2 u=-5/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-35/3 u=-5/19
+SKIPISO t=-35/3 u=-5/19
+GENS2 u=-3/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-141/11 u=-3/19
+SKIPISO t=-141/11 u=-3/19
+GENS2 u=-19/4 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-41/23 u=-19/4
+SKIPISO t=-41/23 u=-19/4
+GENS2 u=20 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=35/19 u=20
+SKIPISO t=35/19 u=20
+GENS2 u=-20 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=5/21 u=-20
+SKIPISO t=5/21 u=-20
+GENS2 u=20/7 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=125/13 u=20/7
+SKIPISO t=125/13 u=20/7
+GENS2 u=-20/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-25/23 u=-20/3
+SKIPISO t=-25/23 u=-20/3
+GENS2 u=-20/11 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-145/31 u=-20/11
+SKIPISO t=-145/31 u=-20/11
+GENS2 u=-21/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-39/25 u=-21/4
+SKIPISO t=-39/25 u=-21/4
+GENS2 u=-21/2 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-9/23 u=-21/2
+SKIPISO t=-9/23 u=-21/2
+GENS2 u=17/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-83 u=17/21
+SKIPISO t=-83 u=17/21
+GENS2 u=13/21 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-41 u=13/21
+SKIPISO t=-41 u=13/21
+GENS2 u=-21/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-27/13 u=-21/5
+SKIPISO t=-27/13 u=-21/5
+GENS2 u=21/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=93/5 u=21/11
+SKIPISO t=93/5 u=21/11
+GENS2 u=-21/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-33/5 u=-21/19
+SKIPISO t=-33/5 u=-21/19
+GENS2 u=1/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-79/5 u=1/21
+SKIPISO t=-79/5 u=1/21
+GENS2 u=-19/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-37/5 u=-19/21
+SKIPISO t=-37/5 u=-19/21
+GENSHORT u=-17/21 target=3 indep=2 cands=12
+GENS2 u=-17/21 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=-149/19 u=-17/21
+SKIPISO t=-149/19 u=-17/21
+GENS2 u=21/8 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=141/13 u=21/8
+SKIPISO t=141/13 u=21/8
+GENS2 u=-21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=3/11 u=-21
+SKIPISO t=3/11 u=-21
+GENS2 u=5/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-20 u=5/21
+SKIPISO t=-20 u=5/21
+GENS2 u=21/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=27 u=21/13
+SKIPISO t=27 u=21/13
+GENS2 u=-22/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-53/27 u=-22/5
+SKIPISO t=-53/27 u=-22/5
+GENS2 u=22/7 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=127/15 u=22/7
+SKIPISO t=127/15 u=22/7
+GENS2 u=-22/7 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-83/29 u=-22/7
+SKIPISO t=-83/29 u=-22/7
+GENS2 u=22/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=67/19 u=22/3
+SKIPISO t=67/19 u=22/3
+GENS2 u=22/5 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=97/17 u=22/5
+SKIPISO t=97/17 u=22/5
+GENS2 u=23/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=53/21 u=23/2
+SKIPISO t=53/21 u=23/2
+GENS2 u=-23/10 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-127/33 u=-23/10
+SKIPISO t=-127/33 u=-23/10
+GENS2 u=-13/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-83/9 u=-13/23
+SKIPISO t=-83/9 u=-13/23
+GENS2 u=-23/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-7/25 u=-23/2
+SKIPISO t=-7/25 u=-23/2
+GENS2 u=-21/23 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-81/11 u=-21/23
+SKIPISO t=-81/11 u=-21/23
+GENS2 u=-23/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-73/11 u=-23/21
+SKIPISO t=-73/11 u=-23/21
+GENS2 u=-23/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-43/9 u=-23/13
+SKIPISO t=-43/9 u=-23/13
+GENS2 u=23/6 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=113/17 u=23/6
+SKIPISO t=113/17 u=23/6
+GENS2 u=-23/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/5 u=-23/17
+SKIPISO t=-29/5 u=-23/17
+GENS2 u=-23/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-97/31 u=-23/8
+SKIPISO t=-97/31 u=-23/8
+GENS2 u=-1/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-43/3 u=-1/23
+SKIPISO t=-43/3 u=-1/23
+GENS2 u=23/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=79/7 u=23/9
+SKIPISO t=79/7 u=23/9
+GENS2 u=3/23 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-87/5 u=3/23
+SKIPISO t=-87/5 u=3/23
+GENS2 u=-23/6 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-67/29 u=-23/6
+SKIPISO t=-67/29 u=-23/6
+GENS2 u=23/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=109/5 u=23/13
+SKIPISO t=109/5 u=23/13
+GENS2 u=-23/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-7/2 u=-23/9
+SKIPISO t=-7/2 u=-23/9
+GENS2 u=-23/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-41/15 u=-23/7
+SKIPISO t=-41/15 u=-23/7
+GENS2 u=-5/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-85/7 u=-5/23
+SKIPISO t=-85/7 u=-5/23
+GENS2 u=23/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=143/15 u=23/8
+SKIPISO t=143/15 u=23/8
+GENS2 u=23/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=47/3 u=23/11
+SKIPISO t=47/3 u=23/11
+GENS2 u=11/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-89/3 u=11/23
+SKIPISO t=-89/3 u=11/23
+GENS2 u=-23/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-37/27 u=-23/4
+SKIPISO t=-37/27 u=-23/4
+GENS2 u=23/17 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=139/3 u=23/17
+SKIPISO t=139/3 u=23/17
+GENS2 u=-9/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-21/2 u=-9/23
+SKIPISO t=-21/2 u=-9/23
+GENS2 u=-24/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-51/29 u=-24/5
+SKIPISO t=-51/29 u=-24/5
+GENS2 u=-24 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=9/25 u=-24
+SKIPISO t=9/25 u=-24
+GENS2 u=-24/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-81/31 u=-24/7
+SKIPISO t=-81/31 u=-24/7
+GENS2 u=24/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=129/17 u=24/7
+SKIPISO t=129/17 u=24/7
+GENS2 u=-24/11 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-141/35 u=-24/11
+SKIPISO t=-141/35 u=-24/11
+GENS2 u=24 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=39/23 u=24
+SKIPISO t=39/23 u=24
+GENS2 u=25/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=65/9 u=25/7
+SKIPISO t=65/9 u=25/7
+GENS2 u=-25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=5/13 u=-25
+SKIPISO t=5/13 u=-25
+GENS2 u=13/25 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-97/3 u=13/25
+SKIPISO t=-97/3 u=13/25
+GENSHORT u=25/6 target=2 indep=1 cands=3
+GENS2 u=25/6 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=115/19 u=25/6
+SKIPISO t=115/19 u=25/6
+GENS2 u=17/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-49 u=17/25
+SKIPISO t=-49 u=17/25
+GENS2 u=-25/6 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-65/31 u=-25/6
+SKIPISO t=-65/31 u=-25/6
+GENS2 u=4/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-379/21 u=4/25
+SKIPISO t=-379/21 u=4/25
+GENS2 u=25/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=10 u=25/9
+SKIPISO t=10 u=25/9
+GENS2 u=-11/25 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-91/9 u=-11/25
+SKIPISO t=-91/9 u=-11/25
+GENS2 u=25/11 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=95/7 u=25/11
+SKIPISO t=95/7 u=25/11
+GENS2 u=-25/8 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-95/33 u=-25/8
+SKIPISO t=-95/33 u=-25/8
+GENS2 u=-25/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-20/3 u=-25/23
+SKIPISO t=-20/3 u=-25/23
+GENS2 u=21/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-99 u=21/25
+SKIPISO t=-99 u=21/25
+GENS2 u=25/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=55/23 u=25/2
+SKIPISO t=55/23 u=25/2
+GENS2 u=-25/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-35/29 u=-25/4
+SKIPISO t=-35/29 u=-25/4
+GENS2 u=-23/25 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-22/3 u=-23/25
+SKIPISO t=-22/3 u=-23/25
+GENS2 u=25/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=145/17 u=25/8
+SKIPISO t=145/17 u=25/8
+GENS2 u=-25/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-85/19 u=-25/13
+SKIPISO t=-85/19 u=-25/13
+GENS2 u=-26 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=11/27 u=-26
+SKIPISO t=11/27 u=-26
+GENSHORT u=-26/5 target=2 indep=1 cands=2
+GENS2 u=-26/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-49/31 u=-26/5
+SKIPISO t=-49/31 u=-26/5
+GENS2 u=26 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=41/25 u=26
+SKIPISO t=41/25 u=26
+GENSHORT u=-26/7 target=2 indep=1 cands=3
+GENS2 u=-26/7 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-79/33 u=-26/7
+SKIPISO t=-79/33 u=-26/7
+GENS2 u=-26/3 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-19/29 u=-26/3
+SKIPISO t=-19/29 u=-26/3
+GENS2 u=-1/27 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-101/7 u=-1/27
+SKIPISO t=-101/7 u=-1/27
+GENS2 u=-27/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-57/11 u=-27/17
+SKIPISO t=-57/11 u=-27/17
+GENS2 u=-5/27 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-25/2 u=-5/27
+SKIPISO t=-25/2 u=-5/27
+GENS2 u=27/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=111/7 u=27/13
+SKIPISO t=111/7 u=27/13
+GENS2 u=27/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=141/5 u=27/17
+SKIPISO t=141/5 u=27/17
+GENSHORT u=11/27 target=2 indep=1 cands=3
+GENS2 u=11/27 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-26 u=11/27
+SKIPISO t=-26 u=11/27
+GENS2 u=-17/27 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-97/11 u=-17/27
+SKIPISO t=-97/11 u=-17/27
+GENS2 u=27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=21/13 u=27
+SKIPISO t=21/13 u=27
+GENS2 u=27/8 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=147/19 u=27/8
+SKIPISO t=147/19 u=27/8
+GENS2 u=-13/27 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-49/5 u=-13/27
+SKIPISO t=-49/5 u=-13/27
+GENS2 u=-27/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-39/17 u=-27/7
+SKIPISO t=-39/17 u=-27/7
+GENS2 u=19/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-53 u=19/27
+SKIPISO t=-53 u=19/27
+GENS2 u=23/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-107 u=23/27
+SKIPISO t=-107 u=23/27
+GENS2 u=-27/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-3/29 u=-27/2
+SKIPISO t=-3/29 u=-27/2
+GENS2 u=-27/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-33/31 u=-27/4
+SKIPISO t=-33/31 u=-27/4
+GENS2 u=-27/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-93/35 u=-27/8
+SKIPISO t=-93/35 u=-27/8
+GENS2 u=-27/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-21/5 u=-27/13
+SKIPISO t=-21/5 u=-27/13
+GENS2 u=-27/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-87/13 u=-27/25
+SKIPISO t=-87/13 u=-27/25
+GENS2 u=27/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=57/25 u=27/2
+SKIPISO t=57/25 u=27/2
+GENS2 u=-28/9 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-107/37 u=-28/9
+SKIPISO t=-107/37 u=-28/9
+GENS2 u=-28 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=13/29 u=-28
+SKIPISO t=13/29 u=-28
+GENS2 u=-28/5 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-47/33 u=-28/5
+SKIPISO t=-47/33 u=-28/5
+GENS2 u=-28/3 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-17/31 u=-28/3
+SKIPISO t=-17/31 u=-28/3
+GENS2 u=-19/29 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-26/3 u=-19/29
+SKIPISO t=-26/3 u=-19/29
+GENSHORT u=-29/2 target=2 indep=1 cands=3
+GENS2 u=-29/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-1/31 u=-29/2
+SKIPISO t=-1/31 u=-29/2
+GENS2 u=-29/10 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-121/39 u=-29/10
+SKIPISO t=-121/39 u=-29/10
+GENS2 u=9/29 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-111/5 u=9/29
+SKIPISO t=-111/5 u=9/29
+GENS2 u=29/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=127/7 u=29/15
+SKIPISO t=127/7 u=29/15
+GENS2 u=29/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=41/5 u=29/9
+SKIPISO t=41/5 u=29/9
+GENS2 u=-29/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-16/3 u=-29/19
+SKIPISO t=-16/3 u=-29/19
+GENS2 u=29/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/11 u=29/7
+SKIPISO t=67/11 u=29/7
+GENS2 u=-29/8 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-91/37 u=-29/8
+SKIPISO t=-91/37 u=-29/8
+GENS2 u=-29/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-31/33 u=-29/4
+SKIPISO t=-31/33 u=-29/4
+GENS2 u=-23/29 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-103/13 u=-23/29
+SKIPISO t=-103/13 u=-23/29
+GENS2 u=-29/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-79/13 u=-29/23
+SKIPISO t=-79/13 u=-29/23
+GENS2 u=-27/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-51/7 u=-27/29
+SKIPISO t=-51/7 u=-27/29
+GENS2 u=5/29 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-55/3 u=5/29
+SKIPISO t=-55/3 u=5/29
+GENS2 u=1/29 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-109/7 u=1/29
+SKIPISO t=-109/7 u=1/29
+GENS2 u=29/6 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=119/23 u=29/6
+SKIPISO t=119/23 u=29/6
+GENS2 u=29/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=101 u=29/25
+SKIPISO t=101 u=29/25
+GENS2 u=29/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=14 u=29/13
+SKIPISO t=14 u=29/13
+GENS2 u=13/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-28 u=13/29
+SKIPISO t=-28 u=13/29
+GENSHORT u=-29/6 target=2 indep=1 cands=3
+GENS2 u=-29/6 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-61/35 u=-29/6
+SKIPISO t=-61/35 u=-29/6
+GENS2 u=-29/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-53/19 u=-29/9
+SKIPISO t=-53/19 u=-29/9
+GENS2 u=25/29 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-115 u=25/29
+SKIPISO t=-115 u=25/29
+GENS2 u=-29/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-1/2 u=-29/3
+SKIPISO t=-1/2 u=-29/3
+GENS2 u=29/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=59/27 u=29/2
+SKIPISO t=59/27 u=29/2
+GENS2 u=-29/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/17 u=-29/5
+SKIPISO t=-23/17 u=-29/5
+GENS2 u=17/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-113/3 u=17/29
+SKIPISO t=-113/3 u=17/29
+GENS2 u=29/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=43 u=29/21
+SKIPISO t=43 u=29/21
+GENS2 u=-29/27 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-47/7 u=-29/27
+SKIPISO t=-47/7 u=-29/27
+GENS2 u=-11/29 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-53/5 u=-11/29
+SKIPISO t=-53/5 u=-11/29
+GENS2 u=-29 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=7/15 u=-29
+SKIPISO t=7/15 u=-29
+GENS2 u=-3/29 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-27/2 u=-3/29
+SKIPISO t=-27/2 u=-3/29
+GENS2 u=29/8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=149/21 u=29/8
+SKIPISO t=149/21 u=29/8
+GENS2 u=-29/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-49/11 u=-29/15
+SKIPISO t=-49/11 u=-29/15
+GENS2 u=-7/29 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-107/9 u=-7/29
+SKIPISO t=-107/9 u=-7/29
+GENS2 u=-29/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-113/23 u=-29/17
+SKIPISO t=-113/23 u=-29/17
+GENS2 u=-15/29 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-105/11 u=-15/29
+SKIPISO t=-105/11 u=-15/29
+GENS2 u=30/7 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=135/23 u=30/7
+SKIPISO t=135/23 u=30/7
+GENS2 u=30 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=45/29 u=30
+SKIPISO t=45/29 u=30
+GENS2 u=-30/7 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-75/37 u=-30/7
+SKIPISO t=-75/37 u=-30/7
+GENS2 u=-29/31 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-109/15 u=-29/31
+SKIPISO t=-109/15 u=-29/31
+GENS2 u=-17/31 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-28/3 u=-17/31
+SKIPISO t=-28/3 u=-17/31
+GENS2 u=-31/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/35 u=-31/4
+SKIPISO t=-29/35 u=-31/4
+GENS2 u=-31/21 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-71/13 u=-31/21
+SKIPISO t=-71/13 u=-31/21
+GENS2 u=19/31 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-121/3 u=19/31
+SKIPISO t=-121/3 u=19/31
+GENS2 u=31/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=143/7 u=31/17
+SKIPISO t=143/7 u=31/17
+GENS2 u=-31/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-43/7 u=-31/25
+SKIPISO t=-43/7 u=-31/25
+GENS2 u=-13/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-113/11 u=-13/31
+SKIPISO t=-113/11 u=-13/31
+GENS2 u=31/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=16 u=31/15
+SKIPISO t=16 u=31/15
+GENS2 u=23/31 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-61 u=23/31
+SKIPISO t=-61 u=23/31
+GENS2 u=3/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-117/7 u=3/31
+SKIPISO t=-117/7 u=3/31
+GENS2 u=-31/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/9 u=-31/5
+SKIPISO t=-11/9 u=-31/5
+GENS2 u=15/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-30 u=15/31
+SKIPISO t=-30 u=15/31
+GENS2 u=-21/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-111/13 u=-21/31
+SKIPISO t=-111/13 u=-21/31
+GENS2 u=-31/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-101/15 u=-31/29
+SKIPISO t=-101/15 u=-31/29
+GENS2 u=7/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-59/3 u=7/31
+SKIPISO t=-59/3 u=7/31
+GENS2 u=-31/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-7/17 u=-31/3
+SKIPISO t=-7/17 u=-31/3
+GENS2 u=-1/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/2 u=-1/31
+SKIPISO t=-29/2 u=-1/31
+GENS2 u=-31/2 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=1/33 u=-31/2
+SKIPISO t=1/33 u=-31/2
+GENS2 u=-31/6 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-59/37 u=-31/6
+SKIPISO t=-59/37 u=-31/6
+GENS2 u=-31/12 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/43 u=-31/12
+SKIPISO t=-149/43 u=-31/12
+GENS2 u=31/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=61/29 u=31/2
+SKIPISO t=61/29 u=31/2
+GENS2 u=31/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=113/9 u=31/13
+SKIPISO t=113/9 u=31/13
+GENS2 u=-31/17 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-14/3 u=-31/17
+SKIPISO t=-14/3 u=-31/17
+GENS2 u=31/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=83/11 u=31/9
+SKIPISO t=83/11 u=31/9
+GENS2 u=-31/8 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-89/39 u=-31/8
+SKIPISO t=-89/39 u=-31/8
+GENS2 u=-25/31 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-55/7 u=-25/31
+SKIPISO t=-55/7 u=-25/31
+GENS2 u=-31/7 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-37/19 u=-31/7
+SKIPISO t=-37/19 u=-31/7
+GENS2 u=31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=23/15 u=31
+SKIPISO t=23/15 u=31
+GENS2 u=-32/5 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-43/37 u=-32/5
+SKIPISO t=-43/37 u=-32/5
+GENSHORT u=-32/11 target=3 indep=2 cands=12
+GENS2 u=-32/11 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=-133/43 u=-32/11
+SKIPISO t=-133/43 u=-32/11
+GENSHORT u=-32 target=2 indep=1 cands=2
+GENS2 u=-32 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=17/33 u=-32
+SKIPISO t=17/33 u=-32
+GENS2 u=-32/9 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-103/41 u=-32/9
+SKIPISO t=-103/41 u=-32/9
+GENS2 u=32/7 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=137/25 u=32/7
+SKIPISO t=137/25 u=32/7
+GENS2 u=-32/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-13/35 u=-32/3
+SKIPISO t=-13/35 u=-32/3
+GENS2 u=-32/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-73/39 u=-32/7
+SKIPISO t=-73/39 u=-32/7
+GENS2 u=32/3 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=77/29 u=32/3
+SKIPISO t=77/29 u=32/3
+GENS2 u=-33/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-39/7 u=-33/23
+SKIPISO t=-39/7 u=-33/23
+GENSHORT u=-7/33 target=2 indep=1 cands=3
+GENS2 u=-7/33 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-61/5 u=-7/33
+SKIPISO t=-61/5 u=-7/33
+GENS2 u=-33/31 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-27/4 u=-33/31
+SKIPISO t=-27/4 u=-33/31
+GENS2 u=-33/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-63/13 u=-33/19
+SKIPISO t=-63/13 u=-33/19
+GENSHORT u=-19/33 target=2 indep=1 cands=3
+GENS2 u=-19/33 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-119/13 u=-19/33
+SKIPISO t=-119/13 u=-19/33
+GENS2 u=13/33 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-127/5 u=13/33
+SKIPISO t=-127/5 u=13/33
+GENS2 u=-23/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-59/7 u=-23/33
+SKIPISO t=-59/7 u=-23/33
+GENS2 u=33/8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=153/25 u=33/8
+SKIPISO t=153/25 u=33/8
+GENS2 u=-33 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=9/17 u=-33
+SKIPISO t=9/17 u=-33
+GENS2 u=29/33 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-131 u=29/33
+SKIPISO t=-131 u=29/33
+GENS2 u=-33/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=3/35 u=-33/2
+SKIPISO t=3/35 u=-33/2
+GENS2 u=25/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-65 u=25/33
+SKIPISO t=-65 u=25/33
+GENS2 u=5/33 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-125/7 u=5/33
+SKIPISO t=-125/7 u=5/33
+GENS2 u=-31/33 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-29/4 u=-31/33
+SKIPISO t=-29/4 u=-31/33
+GENS2 u=-33/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-87/41 u=-33/8
+SKIPISO t=-87/41 u=-33/8
+GENS2 u=33/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=63/31 u=33/2
+SKIPISO t=63/31 u=33/2
+GENS2 u=-33/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-27/37 u=-33/4
+SKIPISO t=-27/37 u=-33/4
+GENS2 u=17/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-32 u=17/33
+SKIPISO t=-32 u=17/33
+GENSHORT u=-33/10 target=2 indep=1 cands=3
+GENS2 u=-33/10 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-117/43 u=-33/10
+SKIPISO t=-117/43 u=-33/10
+GENS2 u=-34/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-41/39 u=-34/5
+SKIPISO t=-41/39 u=-34/5
+GENS2 u=34/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=139/27 u=34/7
+SKIPISO t=139/27 u=34/7
+GENS2 u=34 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=49/33 u=34
+SKIPISO t=49/33 u=34
+GENS2 u=-34/11 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-131/45 u=-34/11
+SKIPISO t=-131/45 u=-34/11
+GENS2 u=-34/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-101/43 u=-34/9
+SKIPISO t=-101/43 u=-34/9
+GENS2 u=34/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=79/31 u=34/3
+SKIPISO t=79/31 u=34/3
+GENS2 u=34/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=109/29 u=34/5
+SKIPISO t=109/29 u=34/5
+GENS2 u=-34/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-11/37 u=-34/3
+SKIPISO t=-11/37 u=-34/3
+GENSHORT u=-34/7 target=2 indep=1 cands=2
+GENS2 u=-34/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-71/41 u=-34/7
+SKIPISO t=-71/41 u=-34/7
+GENS2 u=35/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=5/2 u=35/3
+SKIPISO t=5/2 u=35/3
+GENSHORT u=-35/6 target=2 indep=1 cands=2
+GENS2 u=-35/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-55/41 u=-35/6
+SKIPISO t=-55/41 u=-35/6
+GENS2 u=-35/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-55/13 u=-35/17
+SKIPISO t=-55/13 u=-35/17
+GENS2 u=-35/8 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-85/43 u=-35/8
+SKIPISO t=-85/43 u=-35/8
+GENS2 u=35 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=25/17 u=35
+SKIPISO t=25/17 u=35
+GENS2 u=19/35 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-34 u=19/35
+SKIPISO t=-34 u=19/35
+GENS2 u=35/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=125 u=35/31
+SKIPISO t=125 u=35/31
+GENS2 u=-35/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-10/3 u=-35/13
+SKIPISO t=-10/3 u=-35/13
+GENS2 u=-29/35 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-31/4 u=-29/35
+SKIPISO t=-31/4 u=-29/35
+GENS2 u=-35/3 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-5/19 u=-35/3
+SKIPISO t=-5/19 u=-35/3
+GENSHORT u=-35/33 target=2 indep=1 cands=3
+GENS2 u=-35/33 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-115/17 u=-35/33
+SKIPISO t=-115/17 u=-35/33
+GENSHORT u=-13/35 target=2 indep=1 cands=3
+GENS2 u=-13/35 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-32/3 u=-13/35
+SKIPISO t=-32/3 u=-13/35
+GENS2 u=35/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=95/3 u=35/23
+SKIPISO t=95/3 u=35/23
+GENSHORT u=35/13 target=2 indep=1 cands=2
+GENS2 u=35/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=115/11 u=35/13
+SKIPISO t=115/11 u=35/13
+GENS2 u=11/35 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-67/3 u=11/35
+SKIPISO t=-67/3 u=11/35
+GENS2 u=3/35 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-33/2 u=3/35
+SKIPISO t=-33/2 u=3/35
+GENS2 u=35/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=65/33 u=35/2
+SKIPISO t=65/33 u=35/2
+GENS2 u=-33/35 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-123/17 u=-33/35
+SKIPISO t=-123/17 u=-33/35
+GENS2 u=23/35 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-137/3 u=23/35
+SKIPISO t=-137/3 u=23/35
+GENS2 u=-17/35 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-127/13 u=-17/35
+SKIPISO t=-127/13 u=-17/35
+GENS2 u=35/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=85/13 u=35/9
+SKIPISO t=85/13 u=35/9
+GENS2 u=31/35 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-139 u=31/35
+SKIPISO t=-139 u=31/35
+GENSHORT u=-35/4 target=2 indep=1 cands=2
+GENS2 u=-35/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-25/39 u=-35/4
+SKIPISO t=-25/39 u=-35/4
+GENS2 u=-35/12 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-145/47 u=-35/12
+SKIPISO t=-145/47 u=-35/12
+GENS2 u=-35/11 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-65/23 u=-35/11
+SKIPISO t=-65/23 u=-35/11
+GENS2 u=-36/11 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-129/47 u=-36/11
+SKIPISO t=-129/47 u=-36/11
+GENS2 u=36/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=291/19 u=36/17
+SKIPISO t=291/19 u=36/17
+GENSHORT u=-36/7 target=2 indep=1 cands=2
+GENS2 u=-36/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-69/43 u=-36/7
+SKIPISO t=-69/43 u=-36/7
+GENSHORT u=-36 target=2 indep=1 cands=2
+GENS2 u=-36 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=21/37 u=-36
+SKIPISO t=21/37 u=-36
+GENSHORT u=-37/10 target=2 indep=1 cands=2
+GENS2 u=-37/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-113/47 u=-37/10
+SKIPISO t=-113/47 u=-37/10
+GENS2 u=-37/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-107/17 u=-37/31
+SKIPISO t=-107/17 u=-37/31
+GENS2 u=-19/37 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-67/7 u=-19/37
+SKIPISO t=-67/7 u=-19/37
+GENS2 u=-37/27 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-23/4 u=-37/27
+SKIPISO t=-23/4 u=-37/27
+GENS2 u=-35/37 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-65/9 u=-35/37
+SKIPISO t=-65/9 u=-35/37
+GENS2 u=37/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=59 u=37/29
+SKIPISO t=59 u=37/29
+GENS2 u=-31/37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-131/17 u=-31/37
+SKIPISO t=-131/17 u=-31/37
+GENS2 u=-23/37 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-133/15 u=-23/37
+SKIPISO t=-133/15 u=-23/37
+GENS2 u=33/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-147 u=33/37
+SKIPISO t=-147 u=33/37
+GENS2 u=-37/12 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-143/49 u=-37/12
+SKIPISO t=-143/49 u=-37/12
+GENS2 u=-37/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-77/15 u=-37/23
+SKIPISO t=-77/15 u=-37/23
+GENS2 u=-37/15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-47/13 u=-37/15
+SKIPISO t=-47/13 u=-37/15
+GENS2 u=-11/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-34/3 u=-11/37
+SKIPISO t=-34/3 u=-11/37
+GENS2 u=37/21 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=22 u=37/21
+SKIPISO t=22 u=37/21
+GENS2 u=-37/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-49/23 u=-37/9
+SKIPISO t=-49/23 u=-37/9
+GENS2 u=-37/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-83/45 u=-37/8
+SKIPISO t=-83/45 u=-37/8
+GENS2 u=13/37 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-71/3 u=13/37
+SKIPISO t=-71/3 u=13/37
+GENS2 u=21/37 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-36 u=21/37
+SKIPISO t=-36 u=21/37
+GENS2 u=37/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=127/31 u=37/6
+SKIPISO t=127/31 u=37/6
+GENSHORT u=1/37 target=2 indep=1 cands=2
+GENS2 u=1/37 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-139/9 u=1/37
+SKIPISO t=-139/9 u=1/37
+GENS2 u=37/33 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=133 u=37/33
+SKIPISO t=133 u=37/33
+GENS2 u=-37/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/41 u=-37/4
+SKIPISO t=-23/41 u=-37/4
+GENS2 u=-37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=11/19 u=-37
+SKIPISO t=11/19 u=-37
+GENS2 u=-37/19 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-31/7 u=-37/19
+SKIPISO t=-31/7 u=-37/19
+GENS2 u=-37/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=7/39 u=-37/2
+SKIPISO t=7/39 u=-37/2
+GENS2 u=-37/5 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-19/21 u=-37/5
+SKIPISO t=-19/21 u=-37/5
+GENS2 u=-7/37 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-137/11 u=-7/37
+SKIPISO t=-137/11 u=-7/37
+GENS2 u=37/15 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=131/11 u=37/15
+SKIPISO t=131/11 u=37/15
+GENS2 u=-3/37 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-69/5 u=-3/37
+SKIPISO t=-69/5 u=-3/37
+GENS2 u=25/37 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-145/3 u=25/37
+SKIPISO t=-145/3 u=25/37
+GENS2 u=9/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-141/7 u=9/37
+SKIPISO t=-141/7 u=9/37
+GENS2 u=-37/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-53/43 u=-37/6
+SKIPISO t=-53/43 u=-37/6
+GENS2 u=37/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=41/17 u=37/3
+SKIPISO t=41/17 u=37/3
+GENS2 u=-27/37 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-33/4 u=-27/37
+SKIPISO t=-33/4 u=-27/37
+GENS2 u=37/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=97/33 u=37/4
+SKIPISO t=97/33 u=37/4
+GENSHORT u=38 target=2 indep=1 cands=2
+GENS2 u=38 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=53/37 u=38
+SKIPISO t=53/37 u=38
+GENS2 u=-38/3 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-7/41 u=-38/3
+SKIPISO t=-7/41 u=-38/3
+GENS2 u=-38/5 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-37/43 u=-38/5
+SKIPISO t=-37/43 u=-38/5
+GENS2 u=-38 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=23/39 u=-38
+SKIPISO t=23/39 u=-38
+GENS2 u=38/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=83/35 u=38/3
+SKIPISO t=83/35 u=38/3
+GENSHORT u=-38/11 target=2 indep=1 cands=2
+GENS2 u=-38/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-127/49 u=-38/11
+SKIPISO t=-127/49 u=-38/11
+GENS2 u=-38/9 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-97/47 u=-38/9
+SKIPISO t=-97/47 u=-38/9
+GENS2 u=39/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=24 u=39/23
+SKIPISO t=24 u=39/23
+GENSHORT u=-39/8 target=2 indep=1 cands=3
+GENS2 u=-39/8 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-81/47 u=-39/8
+SKIPISO t=-81/47 u=-39/8
+GENS2 u=-25/39 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-35/4 u=-25/39
+SKIPISO t=-35/4 u=-25/39
+GENS2 u=-39/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-123/29 u=-39/19
+SKIPISO t=-123/29 u=-39/19
+GENS2 u=-39/25 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-21/4 u=-39/25
+SKIPISO t=-21/4 u=-39/25
+GENS2 u=-39/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=9/41 u=-39/2
+SKIPISO t=9/41 u=-39/2
+GENS2 u=39/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=81/5 u=39/19
+SKIPISO t=81/5 u=39/19
+GENS2 u=7/39 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-37/2 u=7/39
+SKIPISO t=-37/2 u=7/39
+GENS2 u=-39/10 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-111/49 u=-39/10
+SKIPISO t=-111/49 u=-39/10
+GENS2 u=39/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=99/35 u=39/4
+SKIPISO t=99/35 u=39/4
+GENS2 u=31/39 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-77 u=31/39
+SKIPISO t=-77 u=31/39
+GENS2 u=-1/39 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-73/5 u=-1/39
+SKIPISO t=-73/5 u=-1/39
+GENS2 u=-39/29 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-99/17 u=-39/29
+SKIPISO t=-99/17 u=-39/29
+GENS2 u=39/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=147/11 u=39/17
+SKIPISO t=147/11 u=39/17
+GENSHORT u=-37/39 target=2 indep=1 cands=3
+GENS2 u=-37/39 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-137/19 u=-37/39
+SKIPISO t=-137/19 u=-37/39
+GENS2 u=-39/11 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-63/25 u=-39/11
+SKIPISO t=-63/25 u=-39/11
+GENS2 u=39 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=27/19 u=39
+SKIPISO t=27/19 u=39
+GENS2 u=-39/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-33/23 u=-39/7
+SKIPISO t=-33/23 u=-39/7
+GENS2 u=-5/39 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-145/11 u=-5/39
+SKIPISO t=-145/11 u=-5/39
+GENS2 u=-39/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-27/7 u=-39/17
+SKIPISO t=-27/7 u=-39/17
+GENS2 u=11/39 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/7 u=11/39
+SKIPISO t=-149/7 u=11/39
+GENS2 u=39/2 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=69/37 u=39/2
+SKIPISO t=69/37 u=39/2
+GENS2 u=-17/39 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-71/7 u=-17/39
+SKIPISO t=-71/7 u=-17/39
+GENS2 u=23/39 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-38 u=23/39
+SKIPISO t=-38 u=23/39
+GENS2 u=-29/39 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-139/17 u=-29/39
+SKIPISO t=-139/17 u=-29/39
+GENS2 u=-40/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-5/43 u=-40/3
+SKIPISO t=-5/43 u=-40/3
+GENS2 u=-40/7 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-65/47 u=-40/7
+SKIPISO t=-65/47 u=-40/7
+GENS2 u=40 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=55/39 u=40
+SKIPISO t=55/39 u=40
+GENSHORT u=-40/11 target=2 indep=1 cands=2
+GENS2 u=-40/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-125/51 u=-40/11
+SKIPISO t=-125/51 u=-40/11
+GENS2 u=-40/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-95/49 u=-40/9
+SKIPISO t=-95/49 u=-40/9
+GENS2 u=-40 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=25/41 u=-40
+SKIPISO t=25/41 u=-40
+GENS2 u=-41/9 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-47/25 u=-41/9
+SKIPISO t=-47/25 u=-41/9
+GENSHORT u=-41/10 target=2 indep=1 cands=2
+GENS2 u=-41/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-109/51 u=-41/10
+SKIPISO t=-109/51 u=-41/10
+GENS2 u=33/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-81 u=33/41
+SKIPISO t=-81 u=33/41
+GENS2 u=-41/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-23/7 u=-41/15
+SKIPISO t=-23/7 u=-41/15
+GENS2 u=-41/35 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-121/19 u=-41/35
+SKIPISO t=-121/19 u=-41/35
+GENS2 u=-41/27 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-91/17 u=-41/27
+SKIPISO t=-91/17 u=-41/27
+GENS2 u=-19/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/15 u=-19/41
+SKIPISO t=-149/15 u=-19/41
+GENS2 u=41/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=119/3 u=41/29
+SKIPISO t=119/3 u=41/29
+GENS2 u=1/41 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-77/5 u=1/41
+SKIPISO t=-77/5 u=1/41
+GENS2 u=41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=7/5 u=41
+SKIPISO t=7/5 u=41
+GENS2 u=-11/41 bounds=[4,4] cands=12 indep=4
+GENS2 u=41/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=29/9 u=41/5
+SKIPISO t=29/9 u=41/5
+GENS2 u=-41/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-77/27 u=-41/13
+SKIPISO t=-77/27 u=-41/13
+GENSHORT u=-41/17 target=2 indep=1 cands=2
+GENS2 u=-41/17 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-107/29 u=-41/17
+SKIPISO t=-107/29 u=-41/17
+GENS2 u=41/37 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=149 u=41/37
+SKIPISO t=149 u=41/37
+GENS2 u=-31/41 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-73/9 u=-31/41
+SKIPISO t=-73/9 u=-31/41
+GENS2 u=-41/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-19/4 u=-41/23
+SKIPISO t=-19/4 u=-41/23
+GENS2 u=-41/19 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-61/15 u=-41/19
+SKIPISO t=-61/15 u=-41/19
+GENS2 u=17/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-79/3 u=17/41
+SKIPISO t=-79/3 u=17/41
+GENS2 u=-41/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=11/43 u=-41/2
+SKIPISO t=11/43 u=-41/2
+GENS2 u=41/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=133/13 u=41/15
+SKIPISO t=133/13 u=41/15
+GENS2 u=41/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=131/35 u=41/6
+SKIPISO t=131/35 u=41/6
+GENS2 u=41/11 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=103/15 u=41/11
+SKIPISO t=103/15 u=41/11
+GENS2 u=-41/5 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-17/23 u=-41/5
+SKIPISO t=-17/23 u=-41/5
+GENSHORT u=41/2 target=2 indep=1 cands=3
+GENS2 u=41/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=71/39 u=41/2
+SKIPISO t=71/39 u=41/2
+GENS2 u=-41/6 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-49/47 u=-41/6
+SKIPISO t=-49/47 u=-41/6
+GENS2 u=-35/41 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-145/19 u=-35/41
+SKIPISO t=-145/19 u=-35/41
+GENS2 u=-39/41 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-36/5 u=-39/41
+SKIPISO t=-36/5 u=-39/41
+GENS2 u=-41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/21 u=-41
+SKIPISO t=13/21 u=-41
+GENSHORT u=-7/41 target=2 indep=1 cands=3
+GENS2 u=-7/41 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-38/3 u=-7/41
+SKIPISO t=-38/3 u=-7/41
+GENS2 u=-15/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-75/7 u=-15/41
+SKIPISO t=-75/7 u=-15/41
+GENS2 u=-41/8 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-79/49 u=-41/8
+SKIPISO t=-79/49 u=-41/8
+GENS2 u=41/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=101/37 u=41/4
+SKIPISO t=101/37 u=41/4
+GENS2 u=-41/39 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-34/5 u=-41/39
+SKIPISO t=-34/5 u=-41/39
+GENS2 u=-42 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=27/43 u=-42
+SKIPISO t=27/43 u=-42
+GENS2 u=-42/11 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-123/53 u=-42/11
+SKIPISO t=-123/53 u=-42/11
+GENSHORT u=42 target=2 indep=1 cands=2
+GENS2 u=42 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=57/41 u=42
+SKIPISO t=57/41 u=42
+GENSHORT u=-42/5 target=2 indep=1 cands=2
+GENS2 u=-42/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-33/47 u=-42/5
+SKIPISO t=-33/47 u=-42/5
+GENS2 u=43/4 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=103/39 u=43/4
+SKIPISO t=103/39 u=43/4
+GENS2 u=19/43 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-83/3 u=19/43
+SKIPISO t=-83/3 u=19/43
+GENS2 u=43/2 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=73/41 u=43/2
+SKIPISO t=73/41 u=43/2
+GENS2 u=-43/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-47/49 u=-43/6
+SKIPISO t=-47/49 u=-43/6
+GENS2 u=-43/10 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-107/53 u=-43/10
+SKIPISO t=-107/53 u=-43/10
+GENS2 u=27/43 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-42 u=27/43
+SKIPISO t=-42 u=27/43
+GENS2 u=43/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=149/13 u=43/17
+SKIPISO t=149/13 u=43/17
+GENS2 u=43/27 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=28 u=43/27
+SKIPISO t=28 u=43/27
+GENS2 u=43/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=89/17 u=43/9
+SKIPISO t=89/17 u=43/9
+GENS2 u=-37/43 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-38/5 u=-37/43
+SKIPISO t=-38/5 u=-37/43
+GENS2 u=-21/43 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-39/4 u=-21/43
+SKIPISO t=-39/4 u=-21/43
+GENS2 u=43 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=29/21 u=43
+SKIPISO t=29/21 u=43
+GENSHORT u=-43/29 target=2 indep=1 cands=2
+GENS2 u=-43/29 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-49/9 u=-43/29
+SKIPISO t=-49/9 u=-43/29
+GENS2 u=-43/21 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-17/4 u=-43/21
+SKIPISO t=-17/4 u=-43/21
+GENS2 u=-43/37 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-32/5 u=-43/37
+SKIPISO t=-32/5 u=-43/37
+GENS2 u=23/43 bounds=[4,4] cands=12 indep=4
+GENS2 u=-43/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-113/19 u=-43/33
+SKIPISO t=-113/19 u=-43/33
+GENS2 u=-43/7 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-31/25 u=-43/7
+SKIPISO t=-31/25 u=-43/7
+GENS2 u=-43/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-61/27 u=-43/11
+SKIPISO t=-61/27 u=-43/11
+GENSHORT u=-43/8 target=2 indep=1 cands=3
+GENS2 u=-43/8 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-77/51 u=-43/8
+SKIPISO t=-77/51 u=-43/8
+GENSHORT u=43/13 target=2 indep=1 cands=2
+GENS2 u=43/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=119/15 u=43/13
+SKIPISO t=119/15 u=43/13
+GENS2 u=-13/43 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-79/7 u=-13/43
+SKIPISO t=-79/7 u=-13/43
+GENS2 u=43/23 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=97/5 u=43/23
+SKIPISO t=97/5 u=43/23
+GENS2 u=43/15 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=67/7 u=43/15
+SKIPISO t=67/7 u=43/15
+GENSHORT u=-43/12 target=2 indep=1 cands=2
+GENS2 u=-43/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-137/55 u=-43/12
+SKIPISO t=-137/55 u=-43/12
+GENS2 u=43/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=13/2 u=43/11
+SKIPISO t=13/2 u=43/11
+GENS2 u=-29/43 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-77/9 u=-29/43
+SKIPISO t=-77/9 u=-29/43
+GENS2 u=-43/3 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-1/23 u=-43/3
+SKIPISO t=-1/23 u=-43/3
+GENS2 u=3/43 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-81/5 u=3/43
+SKIPISO t=-81/5 u=3/43
+GENS2 u=-43/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=13/45 u=-43/2
+SKIPISO t=13/45 u=-43/2
+GENSHORT u=43/6 target=3 indep=2 cands=12
+GENS2 u=43/6 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=133/37 u=43/6
+SKIPISO t=133/37 u=43/6
+GENS2 u=-5/43 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-40/3 u=-5/43
+SKIPISO t=-40/3 u=-5/43
+GENS2 u=-43/41 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-143/21 u=-43/41
+SKIPISO t=-143/21 u=-43/41
+GENS2 u=44 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=59/43 u=44
+SKIPISO t=59/43 u=44
+GENS2 u=44/3 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=89/41 u=44/3
+SKIPISO t=89/41 u=44/3
+GENS2 u=44/7 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=149/37 u=44/7
+SKIPISO t=149/37 u=44/7
+GENS2 u=-44/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-61/51 u=-44/7
+SKIPISO t=-61/51 u=-44/7
+GENS2 u=-44/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-91/53 u=-44/9
+SKIPISO t=-91/53 u=-44/9
+GENSHORT u=-44/3 target=2 indep=1 cands=3
+GENS2 u=-44/3 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-1/47 u=-44/3
+SKIPISO t=-1/47 u=-44/3
+GENS2 u=-44/5 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-31/49 u=-44/5
+SKIPISO t=-31/49 u=-44/5
+GENS2 u=45/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=105/41 u=45/4
+SKIPISO t=105/41 u=45/4
+GENS2 u=45/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=165/13 u=45/19
+SKIPISO t=165/13 u=45/19
+GENS2 u=-45/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=15/47 u=-45/2
+SKIPISO t=15/47 u=-45/2
+GENS2 u=45/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=75/43 u=45/2
+SKIPISO t=75/43 u=45/2
+GENS2 u=45/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=105/17 u=45/11
+SKIPISO t=105/17 u=45/11
+GENS2 u=-45/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-15/49 u=-45/4
+SKIPISO t=-15/49 u=-45/4
+GENS2 u=-43/45 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-79/11 u=-43/45
+SKIPISO t=-79/11 u=-43/45
+GENSHORT u=29/45 target=2 indep=1 cands=3
+GENS2 u=29/45 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-44 u=29/45
+SKIPISO t=-44 u=29/45
+GENS2 u=-45/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-75/29 u=-45/13
+SKIPISO t=-75/29 u=-45/13
+GENS2 u=-45/8 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-75/53 u=-45/8
+SKIPISO t=-75/53 u=-45/8
+GENS2 u=37/45 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-89 u=37/45
+SKIPISO t=-89 u=37/45
+GENS2 u=-45/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-105/19 u=-45/31
+SKIPISO t=-105/19 u=-45/31
+GENS2 u=-45/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-75/17 u=-45/23
+SKIPISO t=-75/17 u=-45/23
+GENS2 u=-45/43 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-75/11 u=-45/43
+SKIPISO t=-75/11 u=-45/43
+GENS2 u=-46/11 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-119/57 u=-46/11
+SKIPISO t=-119/57 u=-46/11
+GENS2 u=-46/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-89/55 u=-46/9
+SKIPISO t=-89/55 u=-46/9
+GENS2 u=-46 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=31/47 u=-46
+SKIPISO t=31/47 u=-46
+GENS2 u=46 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=61/45 u=46
+SKIPISO t=61/45 u=46
+GENS2 u=-46/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-149/59 u=-46/13
+SKIPISO t=-149/59 u=-46/13
+GENSHORT u=46/3 target=2 indep=1 cands=2
+GENS2 u=46/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=91/43 u=46/3
+SKIPISO t=91/43 u=46/3
+GENS2 u=-46/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=1/49 u=-46/3
+SKIPISO t=1/49 u=-46/3
+GENSHORT u=-46/5 target=4 indep=3 cands=12
+GENS2 u=-46/5 bounds=[4,4] cands=12 indep=3
+FIBSURV Sig=2 t=-29/51 u=-46/5
+SKIPISO t=-29/51 u=-46/5
+GENS2 u=47/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=19/5 u=47/7
+SKIPISO t=19/5 u=47/7
+GENS2 u=-1/47 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-44/3 u=-1/47
+SKIPISO t=-44/3 u=-1/47
+GENS2 u=-33/47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-42/5 u=-33/47
+SKIPISO t=-42/5 u=-33/47
+GENS2 u=-47/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/11 u=-47/41
+SKIPISO t=-71/11 u=-47/41
+GENS2 u=-17/47 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-43/4 u=-17/47
+SKIPISO t=-43/4 u=-17/47
+GENSHORT u=-47/10 target=2 indep=1 cands=2
+GENS2 u=-47/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-103/57 u=-47/10
+SKIPISO t=-103/57 u=-47/10
+GENS2 u=47/23 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=49/3 u=47/23
+SKIPISO t=49/3 u=47/23
+GENS2 u=47 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=31/23 u=47
+SKIPISO t=31/23 u=47
+GENS2 u=-47/21 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-67/17 u=-47/21
+SKIPISO t=-67/17 u=-47/21
+GENS2 u=47/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=121/17 u=47/13
+SKIPISO t=121/17 u=47/13
+GENS2 u=31/47 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-46 u=31/47
+SKIPISO t=-46 u=31/47
+GENSHORT u=-47/11 target=2 indep=1 cands=2
+GENS2 u=-47/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-59/29 u=-47/11
+SKIPISO t=-59/29 u=-47/11
+GENS2 u=-47/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=17/49 u=-47/2
+SKIPISO t=17/49 u=-47/2
+GENS2 u=47/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=61/21 u=47/5
+SKIPISO t=61/21 u=47/5
+GENS2 u=-47/29 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-97/19 u=-47/29
+SKIPISO t=-97/19 u=-47/29
+GENS2 u=47/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=83/7 u=47/19
+SKIPISO t=83/7 u=47/19
+GENS2 u=23/47 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-91/3 u=23/47
+SKIPISO t=-91/3 u=23/47
+GENSHORT u=-47/12 target=2 indep=1 cands=2
+GENS2 u=-47/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-133/59 u=-47/12
+SKIPISO t=-133/59 u=-47/12
+GENS2 u=47/15 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=17/2 u=47/15
+SKIPISO t=17/2 u=47/15
+GENS2 u=15/47 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-45/2 u=15/47
+SKIPISO t=-45/2 u=15/47
+GENS2 u=47/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=113/5 u=47/27
+SKIPISO t=113/5 u=47/27
+GENS2 u=47/35 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=143/3 u=47/35
+SKIPISO t=143/3 u=47/35
+GENS2 u=-47/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-13/51 u=-47/4
+SKIPISO t=-13/51 u=-47/4
+GENS2 u=-47/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-29/27 u=-47/7
+SKIPISO t=-29/27 u=-47/7
+GENS2 u=47/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=107/43 u=47/4
+SKIPISO t=107/43 u=47/4
+GENS2 u=-47/8 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-73/55 u=-47/8
+SKIPISO t=-73/55 u=-47/8
+GENSHORT u=-41/47 target=2 indep=1 cands=2
+GENS2 u=-41/47 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-83/11 u=-41/47
+SKIPISO t=-83/11 u=-41/47
+GENS2 u=-47/23 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-149/35 u=-47/23
+SKIPISO t=-149/35 u=-47/23
+GENS2 u=-47/37 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-127/21 u=-47/37
+SKIPISO t=-127/21 u=-47/37
+GENS2 u=-47/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-28/5 u=-47/33
+SKIPISO t=-28/5 u=-47/33
+GENS2 u=-47/15 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-89/31 u=-47/15
+SKIPISO t=-89/31 u=-47/15
+GENS2 u=-47/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-41/9 u=-47/25
+SKIPISO t=-41/9 u=-47/25
+GENS2 u=-47/3 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=1/25 u=-47/3
+SKIPISO t=1/25 u=-47/3
+GENS2 u=-25/47 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-85/9 u=-25/47
+SKIPISO t=-85/9 u=-25/47
+GENSHORT u=-47/6 target=2 indep=1 cands=3
+GENS2 u=-47/6 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-43/53 u=-47/6
+SKIPISO t=-43/53 u=-47/6
+GENSHORT u=-48/5 target=2 indep=1 cands=3
+GENS2 u=-48/5 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-27/53 u=-48/5
+SKIPISO t=-27/53 u=-48/5
+GENS2 u=48 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=63/47 u=48
+SKIPISO t=63/47 u=48
+GENS2 u=-48/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-147/61 u=-48/13
+SKIPISO t=-147/61 u=-48/13
+GENS2 u=-48 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=33/49 u=-48
+SKIPISO t=33/49 u=-48
+GENS2 u=48/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=123/43 u=48/5
+SKIPISO t=123/43 u=48/5
+GENS2 u=-48/11 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-117/59 u=-48/11
+SKIPISO t=-117/59 u=-48/11
+GENS2 u=-15/49 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-45/4 u=-15/49
+SKIPISO t=-45/4 u=-15/49
+GENSHORT u=-49/43 target=2 indep=1 cands=2
+GENS2 u=-49/43 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-149/23 u=-49/43
+SKIPISO t=-149/23 u=-49/43
+GENS2 u=-49/39 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-67/11 u=-49/39
+SKIPISO t=-67/11 u=-49/39
+GENS2 u=-49 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=17/25 u=-49
+SKIPISO t=17/25 u=-49
+GENS2 u=-49/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-37/9 u=-49/23
+SKIPISO t=-37/9 u=-49/23
+GENS2 u=45/49 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-195 u=45/49
+SKIPISO t=-195 u=45/49
+GENS2 u=-49/11 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-29/15 u=-49/11
+SKIPISO t=-29/15 u=-49/11
+GENS2 u=-47/49 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-43/6 u=-47/49
+SKIPISO t=-43/6 u=-47/49
+GENS2 u=25/49 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-95/3 u=25/49
+SKIPISO t=-95/3 u=25/49
+GENS2 u=-49/10 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-101/59 u=-49/10
+SKIPISO t=-101/59 u=-49/10
+GENSHORT u=-31/49 target=2 indep=1 cands=2
+GENS2 u=-31/49 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-44/5 u=-31/49
+SKIPISO t=-44/5 u=-31/49
+GENS2 u=-49/12 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-131/61 u=-49/12
+SKIPISO t=-131/61 u=-49/12
+
+
+Magma: Internal error
+
+Please report this issue with the entire run [*** WITH THE DETAILS BELOW ***] at:
+    https://github.com/Magma-Maths/Magma/issues
+or by email to:
+    magma-bugs@maths.usyd.edu.au
+
+You may check if the issue has been resolved by upgrading to the latest version of Magma or trying the online calculator: https://magma.maths.usyd.edu.au/calc/
+
+You can print the entire input by entering:
+%P
+
+Version: 2.29-9
+Binary variant: avx2-linux
+Initial seed: 2706054231
+Time to this point: 445.11
+Memory usage: 158.91MB
+Segmentation fault
+Loading "split_lab.m"
+Loading "../data/fib2_usets.m"
+VERIFY E26: 3/3
+FIB2 Sig=2 sg=[ 2, 1, 3 ] fibers=1673 ufile=default
+JOIN fibers=4113
+GENSHORT u=-49/2 target=2 indep=1 cands=3
+GENS2 u=-49/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=19/51 u=-49/2
+SKIPISO t=19/51 u=-49/2
+GENS2 u=49/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=107/19 u=49/11
+SKIPISO t=107/19 u=49/11
+GENSHORT u=-49/27 target=3 indep=2 cands=12
+GENS2 u=-49/27 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=-89/19 u=-49/27
+SKIPISO t=-89/19 u=-49/27
+GENS2 u=-49/9 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-43/29 u=-49/9
+SKIPISO t=-43/29 u=-49/9
+GENS2 u=49/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=79/47 u=49/2
+SKIPISO t=79/47 u=49/2
+GENS2 u=-49/13 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-73/31 u=-49/13
+SKIPISO t=-73/31 u=-49/13
+GENS2 u=-49/8 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/57 u=-49/8
+SKIPISO t=-71/57 u=-49/8
+GENS2 u=9/49 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-93/5 u=9/49
+SKIPISO t=-93/5 u=9/49
+GENS2 u=41/49 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-97 u=41/49
+SKIPISO t=-97 u=41/49
+GENS2 u=-49/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-59/17 u=-49/19
+SKIPISO t=-59/17 u=-49/19
+GENS2 u=-49/5 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-13/27 u=-49/5
+SKIPISO t=-13/27 u=-49/5
+GENS2 u=1/49 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-46/3 u=1/49
+SKIPISO t=-46/3 u=1/49
+GENS2 u=-49/4 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-11/53 u=-49/4
+SKIPISO t=-11/53 u=-49/4
+GENS2 u=49/29 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=121/5 u=49/29
+SKIPISO t=121/5 u=49/29
+GENS2 u=-49/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-11/4 u=-49/15
+SKIPISO t=-11/4 u=-49/15
+GENS2 u=49/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=83 u=49/41
+SKIPISO t=83 u=49/41
+GENS2 u=-49/31 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-26/5 u=-49/31
+SKIPISO t=-26/5 u=-49/31
+GENS2 u=-49/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-103/33 u=-49/17
+SKIPISO t=-103/33 u=-49/17
+GENS2 u=49/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=61/9 u=49/13
+SKIPISO t=61/9 u=49/13
+GENS2 u=49/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=137/17 u=49/15
+SKIPISO t=137/17 u=49/15
+GENS2 u=-49/47 bounds=[3,3] cands=8 indep=3
+FIBSURV Sig=2 t=-41/6 u=-49/47
+SKIPISO t=-41/6 u=-49/47
+GENS2 u=49/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=109/45 u=49/4
+SKIPISO t=109/45 u=49/4
+GENS2 u=49/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=47/23 u=49/3
+SKIPISO t=47/23 u=49/3
+GENS2 u=33/49 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-48 u=33/49
+SKIPISO t=-48 u=33/49
+GENSHORT u=-50 target=2 indep=1 cands=2
+GENS2 u=-50 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=35/51 u=-50
+SKIPISO t=35/51 u=-50
+GENS2 u=-50/11 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-115/61 u=-50/11
+SKIPISO t=-115/61 u=-50/11
+GENS2 u=50/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=95/47 u=50/3
+SKIPISO t=95/47 u=50/3
+GENS2 u=-50/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-55/57 u=-50/7
+SKIPISO t=-55/57 u=-50/7
+GENSHORT u=-50/13 target=2 indep=1 cands=2
+GENS2 u=-50/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-145/63 u=-50/13
+SKIPISO t=-145/63 u=-50/13
+GENS2 u=-50/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=5/53 u=-50/3
+SKIPISO t=5/53 u=-50/3
+GENS2 u=-51/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-57/31 u=-51/11
+SKIPISO t=-57/31 u=-51/11
+GENS2 u=51/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=21/2 u=51/19
+SKIPISO t=21/2 u=51/19
+GENS2 u=-13/51 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-47/4 u=-13/51
+SKIPISO t=-47/4 u=-13/51
+GENSHORT u=-51/10 target=2 indep=1 cands=3
+GENS2 u=-51/10 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-99/61 u=-51/10
+SKIPISO t=-99/61 u=-51/10
+GENSHORT u=-51/2 target=2 indep=1 cands=3
+GENS2 u=-51/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=21/53 u=-51/2
+SKIPISO t=21/53 u=-51/2
+GENS2 u=-51/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-9/55 u=-51/4
+SKIPISO t=-9/55 u=-51/4
+GENS2 u=11/51 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-97/5 u=11/51
+SKIPISO t=-97/5 u=11/51
+GENS2 u=51/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=81/49 u=51/2
+SKIPISO t=81/49 u=51/2
+GENS2 u=-51/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-3/7 u=-51/5
+SKIPISO t=-3/7 u=-51/5
+GENS2 u=51/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=123/19 u=51/13
+SKIPISO t=123/19 u=51/13
+GENS2 u=-51/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-24/5 u=-51/29
+SKIPISO t=-24/5 u=-51/29
+GENSHORT u=-51/8 target=2 indep=1 cands=3
+GENS2 u=-51/8 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-69/59 u=-51/8
+SKIPISO t=-69/59 u=-51/8
+GENSHORT u=-29/51 target=2 indep=1 cands=2
+GENS2 u=-29/51 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-46/5 u=-29/51
+SKIPISO t=-46/5 u=-29/51
+GENS2 u=51/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=111/47 u=51/4
+SKIPISO t=111/47 u=51/4
+GENS2 u=-5/51 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-95/7 u=-5/51
+SKIPISO t=-95/7 u=-5/51
+GENS2 u=51/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=63/23 u=51/5
+SKIPISO t=63/23 u=51/5
+GENSHORT u=-51/7 target=2 indep=1 cands=3
+GENS2 u=-51/7 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-27/29 u=-51/7
+SKIPISO t=-27/29 u=-51/7
+GENSHORT u=35/51 target=2 indep=1 cands=3
+GENS2 u=35/51 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-50 u=35/51
+SKIPISO t=-50 u=35/51
+GENS2 u=-51/41 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-141/23 u=-51/41
+SKIPISO t=-141/23 u=-51/41
+GENS2 u=-37/51 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-91/11 u=-37/51
+SKIPISO t=-91/11 u=-37/51
+GENS2 u=-51/25 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-81/19 u=-51/25
+SKIPISO t=-81/19 u=-51/25
+GENS2 u=-51 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=9/13 u=-51
+SKIPISO t=9/13 u=-51
+GENS2 u=52 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=67/51 u=52
+SKIPISO t=67/51 u=52
+GENS2 u=-52/7 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-53/59 u=-52/7
+SKIPISO t=-53/59 u=-52/7
+GENS2 u=52/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=127/47 u=52/5
+SKIPISO t=127/47 u=52/5
+GENS2 u=-52 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=37/53 u=-52
+SKIPISO t=37/53 u=-52
+GENS2 u=52/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=97/49 u=52/3
+SKIPISO t=97/49 u=52/3
+GENS2 u=-52/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=7/55 u=-52/3
+SKIPISO t=7/55 u=-52/3
+GENS2 u=-52/5 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-23/57 u=-52/5
+SKIPISO t=-23/57 u=-52/5
+GENS2 u=-52/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-83/61 u=-52/9
+SKIPISO t=-83/61 u=-52/9
+GENS2 u=-19/53 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-97/9 u=-19/53
+SKIPISO t=-97/9 u=-19/53
+GENS2 u=45/53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-105 u=45/53
+SKIPISO t=-105 u=45/53
+GENS2 u=-53/17 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-101/35 u=-53/17
+SKIPISO t=-101/35 u=-53/17
+GENS2 u=53/6 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=143/47 u=53/6
+SKIPISO t=143/47 u=53/6
+GENS2 u=53/45 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=91 u=53/45
+SKIPISO t=91 u=53/45
+GENS2 u=53/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=109/21 u=53/11
+SKIPISO t=109/21 u=53/11
+GENS2 u=53/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=23/2 u=53/21
+SKIPISO t=23/2 u=53/21
+GENS2 u=-53/4 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-7/57 u=-53/4
+SKIPISO t=-7/57 u=-53/4
+GENS2 u=53/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=47/11 u=53/9
+SKIPISO t=47/11 u=53/9
+GENS2 u=53/15 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=139/19 u=53/15
+SKIPISO t=139/19 u=53/15
+GENSHORT u=-53/8 target=2 indep=1 cands=2
+GENS2 u=-53/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-67/61 u=-53/8
+SKIPISO t=-67/61 u=-53/8
+GENS2 u=-43/53 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-47/6 u=-43/53
+SKIPISO t=-47/6 u=-43/53
+GENS2 u=-53/10 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-97/63 u=-53/10
+SKIPISO t=-97/63 u=-53/10
+GENS2 u=-53/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-41/31 u=-53/9
+SKIPISO t=-41/31 u=-53/9
+GENS2 u=13/53 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-101/5 u=13/53
+SKIPISO t=-101/5 u=13/53
+GENS2 u=53/7 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=79/23 u=53/7
+SKIPISO t=79/23 u=53/7
+GENS2 u=-27/53 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-48/5 u=-27/53
+SKIPISO t=-48/5 u=-27/53
+GENSHORT u=-53/6 target=2 indep=1 cands=2
+GENS2 u=-53/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-37/59 u=-53/6
+SKIPISO t=-37/59 u=-53/6
+GENS2 u=53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=17/13 u=53
+SKIPISO t=17/13 u=53
+GENS2 u=-53/12 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-127/65 u=-53/12
+SKIPISO t=-127/65 u=-53/12
+GENS2 u=53/3 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=49/25 u=53/3
+SKIPISO t=49/25 u=53/3
+GENS2 u=53/33 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=137/5 u=53/33
+SKIPISO t=137/5 u=53/33
+GENS2 u=29/53 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-103/3 u=29/53
+SKIPISO t=-103/3 u=29/53
+GENS2 u=37/53 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-52 u=37/53
+SKIPISO t=-52 u=37/53
+GENS2 u=21/53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-51/2 u=21/53
+SKIPISO t=-51/2 u=21/53
+GENSHORT u=-53/2 target=2 indep=1 cands=3
+GENS2 u=-53/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=23/55 u=-53/2
+SKIPISO t=23/55 u=-53/2
+GENS2 u=-53/15 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-43/17 u=-53/15
+SKIPISO t=-43/17 u=-53/15
+GENS2 u=-53/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-71/33 u=-53/13
+SKIPISO t=-71/33 u=-53/13
+GENS2 u=-53/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-13/15 u=-53/7
+SKIPISO t=-13/15 u=-53/7
+GENS2 u=-53/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-22/5 u=-53/27
+SKIPISO t=-22/5 u=-53/27
+GENS2 u=53/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=83/51 u=53/2
+SKIPISO t=83/51 u=53/2
+GENS2 u=53/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=113/49 u=53/4
+SKIPISO t=113/49 u=53/4
+GENS2 u=-53/35 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-59/11 u=-53/35
+SKIPISO t=-59/11 u=-53/35
+GENS2 u=-53 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=19/27 u=-53
+SKIPISO t=19/27 u=-53
+GENS2 u=-11/53 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-49/4 u=-11/53
+SKIPISO t=-49/4 u=-11/53
+GENSHORT u=-53/39 target=2 indep=1 cands=3
+GENS2 u=-53/39 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-133/23 u=-53/39
+SKIPISO t=-133/23 u=-53/39
+GENS2 u=5/53 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-50/3 u=5/53
+SKIPISO t=-50/3 u=5/53
+GENS2 u=-53/23 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-73/19 u=-53/23
+SKIPISO t=-73/19 u=-53/23
+GENS2 u=-53/31 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-103/21 u=-53/31
+SKIPISO t=-103/21 u=-53/31
+GENS2 u=-54/5 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-21/59 u=-54/5
+SKIPISO t=-21/59 u=-54/5
+GENS2 u=-54/7 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-51/61 u=-54/7
+SKIPISO t=-51/61 u=-54/7
+GENS2 u=-54 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=39/55 u=-54
+SKIPISO t=39/55 u=-54
+GENS2 u=-54/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-141/67 u=-54/13
+SKIPISO t=-141/67 u=-54/13
+GENSHORT u=-54/11 target=2 indep=1 cands=2
+GENS2 u=-54/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-111/65 u=-54/11
+SKIPISO t=-111/65 u=-54/11
+GENS2 u=54/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=129/49 u=54/5
+SKIPISO t=129/49 u=54/5
+GENS2 u=54 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=69/53 u=54
+SKIPISO t=69/53 u=54
+GENS2 u=-55/4 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-5/59 u=-55/4
+SKIPISO t=-5/59 u=-55/4
+GENSHORT u=-55/12 target=2 indep=1 cands=2
+GENS2 u=-55/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-125/67 u=-55/12
+SKIPISO t=-125/67 u=-55/12
+GENS2 u=55/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=145/49 u=55/6
+SKIPISO t=145/49 u=55/6
+GENS2 u=47/55 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-109 u=47/55
+SKIPISO t=-109 u=47/55
+GENS2 u=55/39 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=40 u=55/39
+SKIPISO t=40 u=55/39
+GENS2 u=55/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=115/51 u=55/4
+SKIPISO t=115/51 u=55/4
+GENS2 u=-55/6 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-35/61 u=-55/6
+SKIPISO t=-35/61 u=-55/6
+GENS2 u=-55/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=5/29 u=-55/3
+SKIPISO t=5/29 u=-55/3
+GENS2 u=55/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=85/53 u=55/2
+SKIPISO t=85/53 u=55/2
+GENS2 u=55 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=35/27 u=55
+SKIPISO t=35/27 u=55
+GENS2 u=39/55 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-54 u=39/55
+SKIPISO t=-54 u=39/55
+GENS2 u=-55/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-95/21 u=-55/29
+SKIPISO t=-95/21 u=-55/29
+GENS2 u=-9/55 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-51/4 u=-9/55
+SKIPISO t=-51/4 u=-9/55
+GENS2 u=55/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=125/21 u=55/13
+SKIPISO t=125/21 u=55/13
+GENS2 u=-55/37 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-125/23 u=-55/37
+SKIPISO t=-125/23 u=-55/37
+GENS2 u=-55/8 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-65/63 u=-55/8
+SKIPISO t=-65/63 u=-55/8
+GENS2 u=55/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=85/9 u=55/19
+SKIPISO t=85/9 u=55/19
+GENS2 u=-55/21 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-65/19 u=-55/21
+SKIPISO t=-65/19 u=-55/21
+GENS2 u=-17/55 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-101/9 u=-17/55
+SKIPISO t=-101/9 u=-17/55
+GENS2 u=-49/55 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-97/13 u=-49/55
+SKIPISO t=-97/13 u=-49/55
+GENS2 u=-55/49 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-85/13 u=-55/49
+SKIPISO t=-85/13 u=-55/49
+GENSHORT u=-1/55 target=2 indep=1 cands=2
+GENS2 u=-1/55 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-103/7 u=-1/55
+SKIPISO t=-103/7 u=-1/55
+GENS2 u=55/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=25/2 u=55/23
+SKIPISO t=25/2 u=55/23
+GENS2 u=55/47 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=95 u=55/47
+SKIPISO t=95 u=55/47
+GENS2 u=31/55 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-107/3 u=31/55
+SKIPISO t=-107/3 u=31/55
+GENS2 u=7/55 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-52/3 u=7/55
+SKIPISO t=-52/3 u=7/55
+GENS2 u=23/55 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-53/2 u=23/55
+SKIPISO t=-53/2 u=23/55
+GENS2 u=55/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=65/3 u=55/31
+SKIPISO t=65/3 u=55/31
+GENS2 u=56/3 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=101/53 u=56/3
+SKIPISO t=101/53 u=56/3
+GENSHORT u=-56/11 target=2 indep=1 cands=2
+GENS2 u=-56/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-109/67 u=-56/11
+SKIPISO t=-109/67 u=-56/11
+GENSHORT u=-56/3 target=2 indep=1 cands=3
+GENS2 u=-56/3 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=11/59 u=-56/3
+SKIPISO t=11/59 u=-56/3
+GENSHORT u=56/5 target=2 indep=1 cands=2
+GENS2 u=56/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=131/51 u=56/5
+SKIPISO t=131/51 u=56/5
+GENSHORT u=56 target=2 indep=1 cands=2
+GENS2 u=56 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=71/55 u=56
+SKIPISO t=71/55 u=56
+GENSHORT u=-56/5 target=2 indep=1 cands=2
+GENS2 u=-56/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-19/61 u=-56/5
+SKIPISO t=-19/61 u=-56/5
+GENS2 u=-56 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=41/57 u=-56
+SKIPISO t=41/57 u=-56
+GENS2 u=-56/13 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-139/69 u=-56/13
+SKIPISO t=-139/69 u=-56/13
+GENSHORT u=-56/9 target=2 indep=1 cands=2
+GENS2 u=-56/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-79/65 u=-56/9
+SKIPISO t=-79/65 u=-56/9
+GENS2 u=49/57 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-113 u=49/57
+SKIPISO t=-113 u=49/57
+GENS2 u=-57/31 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-51/11 u=-57/31
+SKIPISO t=-51/11 u=-57/31
+GENS2 u=-23/57 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-52/5 u=-23/57
+SKIPISO t=-52/5 u=-23/57
+GENS2 u=-7/57 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-53/4 u=-7/57
+SKIPISO t=-53/4 u=-7/57
+GENS2 u=-47/57 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-101/13 u=-47/57
+SKIPISO t=-101/13 u=-47/57
+GENS2 u=57/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=87/55 u=57/2
+SKIPISO t=87/55 u=57/2
+GENS2 u=-57/8 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-63/65 u=-57/8
+SKIPISO t=-63/65 u=-57/8
+GENS2 u=-57 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=21/29 u=-57
+SKIPISO t=21/29 u=-57
+GENS2 u=-57/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=27/59 u=-57/2
+SKIPISO t=27/59 u=-57/2
+GENS2 u=57/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=63/11 u=57/13
+SKIPISO t=63/11 u=57/13
+GENS2 u=1/57 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-107/7 u=1/57
+SKIPISO t=-107/7 u=1/57
+GENS2 u=57/49 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=99 u=57/49
+SKIPISO t=99 u=57/49
+GENS2 u=-57/17 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-99/37 u=-57/17
+SKIPISO t=-99/37 u=-57/17
+GENS2 u=-57/43 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-147/25 u=-57/43
+SKIPISO t=-147/25 u=-57/43
+GENS2 u=-57/47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-81/13 u=-57/47
+SKIPISO t=-81/13 u=-57/47
+GENS2 u=-57/4 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-3/61 u=-57/4
+SKIPISO t=-3/61 u=-57/4
+GENS2 u=-57/5 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-9/31 u=-57/5
+SKIPISO t=-9/31 u=-57/5
+GENS2 u=-55/57 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-50/7 u=-55/57
+SKIPISO t=-50/7 u=-55/57
+GENS2 u=-57/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-69/35 u=-57/13
+SKIPISO t=-69/35 u=-57/13
+GENS2 u=25/57 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-55/2 u=25/57
+SKIPISO t=-55/2 u=25/57
+GENS2 u=-57/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-18/5 u=-57/23
+SKIPISO t=-18/5 u=-57/23
+GENS2 u=57/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=117/53 u=57/4
+SKIPISO t=117/53 u=57/4
+GENSHORT u=-57/35 target=2 indep=1 cands=3
+GENS2 u=-57/35 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-117/23 u=-57/35
+SKIPISO t=-117/23 u=-57/35
+GENSHORT u=-57/55 target=2 indep=1 cands=2
+GENS2 u=-57/55 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-48/7 u=-57/55
+SKIPISO t=-48/7 u=-57/55
+GENS2 u=57/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=42 u=57/41
+SKIPISO t=42 u=57/41
+GENSHORT u=17/57 target=2 indep=1 cands=2
+GENS2 u=17/57 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-109/5 u=17/57
+SKIPISO t=-109/5 u=17/57
+GENS2 u=-58/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=13/61 u=-58/3
+SKIPISO t=13/61 u=-58/3
+GENS2 u=58 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=73/57 u=58
+SKIPISO t=73/57 u=58
+GENSHORT u=-58/11 target=2 indep=1 cands=2
+GENS2 u=-58/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-107/69 u=-58/11
+SKIPISO t=-107/69 u=-58/11
+GENS2 u=58/5 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=133/53 u=58/5
+SKIPISO t=133/53 u=58/5
+GENS2 u=58/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=103/55 u=58/3
+SKIPISO t=103/55 u=58/3
+GENS2 u=-58/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-77/67 u=-58/9
+SKIPISO t=-77/67 u=-58/9
+GENS2 u=-58/7 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-47/65 u=-58/7
+SKIPISO t=-47/65 u=-58/7
+GENS2 u=-58/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-137/71 u=-58/13
+SKIPISO t=-137/71 u=-58/13
+GENS2 u=-59/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-19/17 u=-59/9
+SKIPISO t=-19/17 u=-59/9
+GENS2 u=59/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=43/5 u=59/19
+SKIPISO t=43/5 u=59/19
+GENS2 u=59/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=127/23 u=59/13
+SKIPISO t=127/23 u=59/13
+GENS2 u=59/2 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=89/57 u=59/2
+SKIPISO t=89/57 u=59/2
+GENSHORT u=-59/10 target=2 indep=1 cands=2
+GENS2 u=-59/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-91/69 u=-59/10
+SKIPISO t=-91/69 u=-59/10
+GENS2 u=-59/15 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-83/37 u=-59/15
+SKIPISO t=-83/37 u=-59/15
+GENSHORT u=-59/2 target=2 indep=1 cands=2
+GENS2 u=-59/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=29/61 u=-59/2
+SKIPISO t=29/61 u=-59/2
+GENS2 u=-59/19 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-113/39 u=-59/19
+SKIPISO t=-113/39 u=-59/19
+GENS2 u=59 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=37/29 u=59
+SKIPISO t=37/29 u=59
+GENS2 u=-59/29 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-47/11 u=-59/29
+SKIPISO t=-47/11 u=-59/29
+GENSHORT u=-21/59 target=2 indep=1 cands=3
+GENS2 u=-21/59 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-54/5 u=-21/59
+SKIPISO t=-54/5 u=-21/59
+GENS2 u=-59/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-53/35 u=-59/11
+SKIPISO t=-53/35 u=-59/11
+GENS2 u=59/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=14/3 u=59/11
+SKIPISO t=14/3 u=59/11
+GENS2 u=59/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=101/9 u=59/23
+SKIPISO t=101/9 u=59/23
+GENS2 u=59/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=71/11 u=59/15
+SKIPISO t=71/11 u=59/15
+GENSHORT u=35/59 target=2 indep=1 cands=2
+GENS2 u=35/59 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-115/3 u=35/59
+SKIPISO t=-115/3 u=35/59
+GENS2 u=-59/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-143/41 u=-59/23
+SKIPISO t=-143/41 u=-59/23
+GENSHORT u=-59/6 target=2 indep=1 cands=2
+GENS2 u=-59/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-31/65 u=-59/6
+SKIPISO t=-31/65 u=-59/6
+GENS2 u=59/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=97/25 u=59/9
+SKIPISO t=97/25 u=59/9
+GENS2 u=-53/59 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-52/7 u=-53/59
+SKIPISO t=-52/7 u=-53/59
+GENS2 u=51/59 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-117 u=51/59
+SKIPISO t=-117 u=51/59
+GENSHORT u=-59/12 target=2 indep=1 cands=2
+GENS2 u=-59/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-121/71 u=-59/12
+SKIPISO t=-121/71 u=-59/12
+GENS2 u=3/59 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-111/7 u=3/59
+SKIPISO t=-111/7 u=3/59
+GENSHORT u=-59/7 target=2 indep=1 cands=2
+GENS2 u=-59/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-23/33 u=-59/7
+SKIPISO t=-23/33 u=-59/7
+GENS2 u=-13/59 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-109/9 u=-13/59
+SKIPISO t=-109/9 u=-13/59
+GENS2 u=-59/21 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-16/5 u=-59/21
+SKIPISO t=-16/5 u=-59/21
+GENS2 u=59/6 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=149/53 u=59/6
+SKIPISO t=149/53 u=59/6
+GENS2 u=-59/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-1/63 u=-59/4
+SKIPISO t=-1/63 u=-59/4
+GENS2 u=59/27 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=29/2 u=59/27
+SKIPISO t=29/2 u=59/27
+GENS2 u=-59/53 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-46/7 u=-59/53
+SKIPISO t=-46/7 u=-59/53
+GENS2 u=59/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=131/7 u=59/31
+SKIPISO t=131/7 u=59/31
+GENS2 u=59/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=41/13 u=59/7
+SKIPISO t=41/13 u=59/7
+GENS2 u=-59/33 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-109/23 u=-59/33
+SKIPISO t=-109/23 u=-59/33
+GENS2 u=47/59 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-233/3 u=47/59
+SKIPISO t=-233/3 u=47/59
+GENS2 u=-59/25 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-79/21 u=-59/25
+SKIPISO t=-79/21 u=-59/25
+GENS2 u=-59/45 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-77/13 u=-59/45
+SKIPISO t=-77/13 u=-59/45
+GENS2 u=-59/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-31/6 u=-59/37
+SKIPISO t=-31/6 u=-59/37
+GENS2 u=-45/59 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-105/13 u=-45/59
+SKIPISO t=-105/13 u=-45/59
+GENSHORT u=59/4 target=2 indep=1 cands=2
+GENS2 u=59/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=119/55 u=59/4
+SKIPISO t=119/55 u=59/4
+GENS2 u=43/59 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-58 u=43/59
+SKIPISO t=-58 u=43/59
+GENS2 u=-29/59 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-107/11 u=-29/59
+SKIPISO t=-107/11 u=-29/59
+GENS2 u=59/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/27 u=59/5
+SKIPISO t=67/27 u=59/5
+GENS2 u=-5/59 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-55/4 u=-5/59
+SKIPISO t=-55/4 u=-5/59
+GENSHORT u=-59/41 target=2 indep=1 cands=2
+GENS2 u=-59/41 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-139/25 u=-59/41
+SKIPISO t=-139/25 u=-59/41
+GENSHORT u=11/59 target=2 indep=1 cands=2
+GENS2 u=11/59 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-56/3 u=11/59
+SKIPISO t=-56/3 u=11/59
+GENS2 u=-60/13 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-135/73 u=-60/13
+SKIPISO t=-135/73 u=-60/13
+GENS2 u=-60 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=45/61 u=-60
+SKIPISO t=45/61 u=-60
+GENSHORT u=-60/11 target=2 indep=1 cands=3
+GENS2 u=-60/11 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-105/71 u=-60/11
+SKIPISO t=-105/71 u=-60/11
+GENS2 u=60 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=75/59 u=60
+SKIPISO t=75/59 u=60
+GENSHORT u=-60/7 target=2 indep=1 cands=2
+GENS2 u=-60/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-45/67 u=-60/7
+SKIPISO t=-45/67 u=-60/7
+GENS2 u=-61/59 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-103/15 u=-61/59
+SKIPISO t=-103/15 u=-61/59
+GENS2 u=-61/6 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-29/67 u=-61/6
+SKIPISO t=-29/67 u=-61/6
+GENS2 u=-61/39 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-131/25 u=-61/39
+SKIPISO t=-131/25 u=-61/39
+GENS2 u=-61/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-11/17 u=-61/7
+SKIPISO t=-11/17 u=-61/7
+GENS2 u=61/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=49/13 u=61/9
+SKIPISO t=49/13 u=61/9
+GENS2 u=-61/9 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-37/35 u=-61/9
+SKIPISO t=-37/35 u=-61/9
+GENS2 u=13/61 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-58/3 u=13/61
+SKIPISO t=-58/3 u=13/61
+GENS2 u=-61/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/21 u=-61/23
+SKIPISO t=-71/21 u=-61/23
+GENS2 u=21/61 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-117/5 u=21/61
+SKIPISO t=-117/5 u=21/61
+GENS2 u=61/3 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=53/29 u=61/3
+SKIPISO t=53/29 u=61/3
+GENSHORT u=-61/51 target=2 indep=1 cands=2
+GENS2 u=-61/51 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-44/7 u=-61/51
+SKIPISO t=-44/7 u=-61/51
+GENS2 u=-61/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-13/9 u=-61/11
+SKIPISO t=-13/9 u=-61/11
+GENSHORT u=-61/8 target=2 indep=1 cands=2
+GENS2 u=-61/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-59/69 u=-61/8
+SKIPISO t=-59/69 u=-61/8
+GENS2 u=-61/43 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-73/13 u=-61/43
+SKIPISO t=-73/13 u=-61/43
+GENS2 u=-35/61 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-55/6 u=-35/61
+SKIPISO t=-55/6 u=-35/61
+GENS2 u=61/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=31/2 u=61/29
+SKIPISO t=31/2 u=61/29
+GENS2 u=-61/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-43/11 u=-61/27
+SKIPISO t=-43/11 u=-61/27
+GENS2 u=61/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=47/5 u=61/21
+SKIPISO t=47/5 u=61/21
+GENS2 u=-27/61 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-111/11 u=-27/61
+SKIPISO t=-111/11 u=-27/61
+GENS2 u=61/53 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=107 u=61/53
+SKIPISO t=107 u=61/53
+GENS2 u=61/25 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=109/9 u=61/25
+SKIPISO t=109/9 u=61/25
+GENS2 u=-3/61 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-57/4 u=-3/61
+SKIPISO t=-57/4 u=-3/61
+GENS2 u=-61/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-67/37 u=-61/13
+SKIPISO t=-67/37 u=-61/13
+GENS2 u=-59/61 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-107/15 u=-59/61
+SKIPISO t=-107/15 u=-59/61
+GENS2 u=61/45 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=46 u=61/45
+SKIPISO t=46 u=61/45
+GENS2 u=61/15 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=143/23 u=61/15
+SKIPISO t=143/23 u=61/15
+GENS2 u=-51/61 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-54/7 u=-51/61
+SKIPISO t=-54/7 u=-51/61
+GENS2 u=5/61 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-115/7 u=5/61
+SKIPISO t=-115/7 u=5/61
+GENS2 u=-61/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=1/4 u=-61/3
+SKIPISO t=1/4 u=-61/3
+GENSHORT u=-61/5 target=2 indep=1 cands=2
+GENS2 u=-61/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-7/33 u=-61/5
+SKIPISO t=-7/33 u=-61/5
+GENS2 u=-61/14 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-149/75 u=-61/14
+SKIPISO t=-149/75 u=-61/14
+GENS2 u=-61 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=23/31 u=-61
+SKIPISO t=23/31 u=-61
+GENS2 u=-43/61 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-109/13 u=-43/61
+SKIPISO t=-109/13 u=-43/61
+GENS2 u=-61/10 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-89/71 u=-61/10
+SKIPISO t=-89/71 u=-61/10
+GENSHORT u=61/2 target=2 indep=1 cands=3
+GENS2 u=61/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=91/59 u=61/2
+SKIPISO t=91/59 u=61/2
+GENS2 u=-61/2 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=31/63 u=-61/2
+SKIPISO t=31/63 u=-61/2
+GENSHORT u=-61/17 target=2 indep=1 cands=2
+GENS2 u=-61/17 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-97/39 u=-61/17
+SKIPISO t=-97/39 u=-61/17
+GENS2 u=61/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=121/57 u=61/4
+SKIPISO t=121/57 u=61/4
+GENS2 u=-62/9 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-73/71 u=-62/9
+SKIPISO t=-73/71 u=-62/9
+GENSHORT u=-62/7 target=2 indep=1 cands=2
+GENS2 u=-62/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-43/69 u=-62/7
+SKIPISO t=-43/69 u=-62/7
+GENS2 u=62 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=77/61 u=62
+SKIPISO t=77/61 u=62
+GENSHORT u=-62 target=2 indep=1 cands=2
+GENS2 u=-62 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=47/63 u=-62
+SKIPISO t=47/63 u=-62
+GENS2 u=-62/11 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-103/73 u=-62/11
+SKIPISO t=-103/73 u=-62/11
+GENSHORT u=62/3 target=2 indep=1 cands=3
+GENS2 u=62/3 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=107/59 u=62/3
+SKIPISO t=107/59 u=62/3
+GENS2 u=62/5 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=137/57 u=62/5
+SKIPISO t=137/57 u=62/5
+GENSHORT u=-62/5 target=2 indep=1 cands=2
+GENS2 u=-62/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-13/67 u=-62/5
+SKIPISO t=-13/67 u=-62/5
+GENS2 u=55/63 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-125 u=55/63
+SKIPISO t=-125 u=55/63
+GENS2 u=-63/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-111/41 u=-63/19
+SKIPISO t=-111/41 u=-63/19
+GENSHORT u=31/63 target=2 indep=1 cands=2
+GENS2 u=31/63 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-61/2 u=31/63
+SKIPISO t=-61/2 u=31/63
+GENS2 u=-63/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-123/25 u=-63/37
+SKIPISO t=-123/25 u=-63/37
+GENS2 u=-63/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=3/67 u=-63/4
+SKIPISO t=3/67 u=-63/4
+GENS2 u=63/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=87/11 u=63/19
+SKIPISO t=87/11 u=63/19
+GENS2 u=-17/63 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-58/5 u=-17/63
+SKIPISO t=-58/5 u=-17/63
+GENSHORT u=63/2 target=2 indep=1 cands=3
+GENS2 u=63/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=93/61 u=63/2
+SKIPISO t=93/61 u=63/2
+GENS2 u=-63/8 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-57/71 u=-63/8
+SKIPISO t=-57/71 u=-63/8
+GENSHORT u=-63/23 target=2 indep=1 cands=2
+GENS2 u=-63/23 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-141/43 u=-63/23
+SKIPISO t=-141/43 u=-63/23
+GENS2 u=-63/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-3/17 u=-63/5
+SKIPISO t=-3/17 u=-63/5
+GENSHORT u=-1/63 target=2 indep=1 cands=2
+GENS2 u=-1/63 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-59/4 u=-1/63
+SKIPISO t=-59/4 u=-1/63
+GENS2 u=-63/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-93/23 u=-63/29
+SKIPISO t=-93/23 u=-63/29
+GENSHORT u=47/63 target=2 indep=1 cands=2
+GENS2 u=47/63 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-62 u=47/63
+SKIPISO t=-62 u=47/63
+GENSHORT u=-63/11 target=2 indep=1 cands=2
+GENS2 u=-63/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-51/37 u=-63/11
+SKIPISO t=-51/37 u=-63/11
+GENS2 u=63 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=39/31 u=63
+SKIPISO t=39/31 u=63
+GENS2 u=-63/10 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-87/73 u=-63/10
+SKIPISO t=-87/73 u=-63/10
+GENS2 u=-41/63 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-113/13 u=-41/63
+SKIPISO t=-113/13 u=-41/63
+GENSHORT u=-64/3 target=2 indep=1 cands=2
+GENS2 u=-64/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=19/67 u=-64/3
+SKIPISO t=19/67 u=-64/3
+GENS2 u=64/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=109/61 u=64/3
+SKIPISO t=109/61 u=64/3
+GENSHORT u=-64/5 target=2 indep=1 cands=2
+GENS2 u=-64/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-11/69 u=-64/5
+SKIPISO t=-11/69 u=-64/5
+GENS2 u=-64/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-101/75 u=-64/11
+SKIPISO t=-101/75 u=-64/11
+GENSHORT u=-64/7 target=2 indep=1 cands=2
+GENS2 u=-64/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-41/71 u=-64/7
+SKIPISO t=-41/71 u=-64/7
+GENS2 u=-64/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-131/77 u=-64/13
+SKIPISO t=-131/77 u=-64/13
+GENS2 u=64/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=139/59 u=64/5
+SKIPISO t=139/59 u=64/5
+GENSHORT u=-64/9 target=2 indep=1 cands=2
+GENS2 u=-64/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-71/73 u=-64/9
+SKIPISO t=-71/73 u=-64/9
+GENSHORT u=-64 target=2 indep=1 cands=3
+GENS2 u=-64 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=49/65 u=-64
+SKIPISO t=49/65 u=-64
+GENS2 u=9/65 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-123/7 u=9/65
+SKIPISO t=-123/7 u=9/65
+GENS2 u=49/65 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-64 u=49/65
+SKIPISO t=-64 u=49/65
+GENS2 u=-65/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-125/43 u=-65/21
+SKIPISO t=-125/43 u=-65/21
+GENS2 u=65/3 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=55/31 u=65/3
+SKIPISO t=55/31 u=65/3
+RBOPEN u=-65/4 bounds=[1,2] indep=1 - rank UNRESOLVED, fiber incomplete
+GENS2 u=-65/4 bounds=[1,2] cands=2 indep=1
+FIBSURV Sig=2 t=5/69 u=-65/4
+SKIPISO t=5/69 u=-65/4
+GENS2 u=-65/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-35/11 u=-65/23
+SKIPISO t=-35/11 u=-65/23
+GENS2 u=65/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=85/29 u=65/7
+SKIPISO t=85/29 u=65/7
+GENS2 u=-65/6 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-25/71 u=-65/6
+SKIPISO t=-25/71 u=-65/6
+GENS2 u=-65/19 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-55/21 u=-65/19
+SKIPISO t=-55/21 u=-65/19
+GENS2 u=-65/63 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-55/8 u=-65/63
+SKIPISO t=-55/8 u=-65/63
+GENS2 u=-65/27 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-85/23 u=-65/27
+SKIPISO t=-85/23 u=-65/27
+GENS2 u=1/65 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-61/4 u=1/65
+SKIPISO t=-61/4 u=1/65
+GENS2 u=-65 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=25/33 u=-65
+SKIPISO t=25/33 u=-65
+GENS2 u=65/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=95/11 u=65/21
+SKIPISO t=95/11 u=65/21
+GENSHORT u=65/2 target=2 indep=1 cands=3
+GENS2 u=65/2 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=95/63 u=65/2
+SKIPISO t=95/63 u=65/2
+GENSHORT u=-7/65 target=2 indep=1 cands=2
+GENS2 u=-7/65 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-121/9 u=-7/65
+SKIPISO t=-121/9 u=-7/65
+GENS2 u=-65/47 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-40/7 u=-65/47
+SKIPISO t=-40/7 u=-65/47
+GENS2 u=-23/65 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-119/11 u=-23/65
+SKIPISO t=-119/11 u=-23/65
+GENS2 u=-47/65 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-58/7 u=-47/65
+SKIPISO t=-58/7 u=-47/65
+GENSHORT u=-65/12 target=2 indep=1 cands=2
+GENS2 u=-65/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-115/77 u=-65/12
+SKIPISO t=-115/77 u=-65/12
+GENS2 u=-65/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=5/17 u=-65/3
+SKIPISO t=5/17 u=-65/3
+GENS2 u=-63/65 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-57/8 u=-63/65
+SKIPISO t=-57/8 u=-63/65
+GENSHORT u=-65/9 target=2 indep=1 cands=2
+GENS2 u=-65/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-35/37 u=-65/9
+SKIPISO t=-35/37 u=-65/9
+GENS2 u=-65/43 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-145/27 u=-65/43
+SKIPISO t=-145/27 u=-65/43
+GENS2 u=17/65 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-62/3 u=17/65
+SKIPISO t=-62/3 u=17/65
+GENSHORT u=-65/14 target=2 indep=1 cands=2
+GENS2 u=-65/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-145/79 u=-65/14
+SKIPISO t=-145/79 u=-65/14
+GENSHORT u=-65/2 target=2 indep=1 cands=2
+GENS2 u=-65/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=35/67 u=-65/2
+SKIPISO t=35/67 u=-65/2
+GENSHORT u=-65/8 target=2 indep=1 cands=2
+GENS2 u=-65/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-55/73 u=-65/8
+SKIPISO t=-55/73 u=-65/8
+GENS2 u=65/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=25/7 u=65/9
+SKIPISO t=25/7 u=65/9
+GENS2 u=-65/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-95/41 u=-65/17
+SKIPISO t=-95/41 u=-65/17
+GENSHORT u=33/65 target=3 indep=2 cands=12
+GENS2 u=33/65 bounds=[3,3] cands=12 indep=2
+FIBSURV Sig=2 t=-63/2 u=33/65
+SKIPISO t=-63/2 u=33/65
+GENS2 u=57/65 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-129 u=57/65
+SKIPISO t=-129 u=57/65
+GENS2 u=66/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=321/49 u=66/17
+SKIPISO t=321/49 u=66/17
+GENS2 u=-66 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=51/67 u=-66
+SKIPISO t=51/67 u=-66
+GENSHORT u=-66/7 target=2 indep=1 cands=2
+GENS2 u=-66/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-39/73 u=-66/7
+SKIPISO t=-39/73 u=-66/7
+GENSHORT u=-66/5 target=2 indep=1 cands=3
+GENS2 u=-66/5 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-9/71 u=-66/5
+SKIPISO t=-9/71 u=-66/5
+GENS2 u=66 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=81/65 u=66
+SKIPISO t=81/65 u=66
+GENS2 u=-67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=13/17 u=-67
+SKIPISO t=13/17 u=-67
+GENS2 u=-67/7 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-19/37 u=-67/7
+SKIPISO t=-19/37 u=-67/7
+GENSHORT u=-13/67 target=2 indep=1 cands=2
+GENS2 u=-13/67 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-62/5 u=-13/67
+SKIPISO t=-62/5 u=-13/67
+GENS2 u=23/67 bounds=[4,4] cands=12 indep=4
+GENSHORT u=-67/29 target=2 indep=1 cands=2
+GENS2 u=-67/29 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-23/6 u=-67/29
+SKIPISO t=-23/6 u=-67/29
+GENS2 u=-67/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-47/21 u=-67/17
+SKIPISO t=-47/21 u=-67/17
+GENS2 u=67 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=41/33 u=67
+SKIPISO t=41/33 u=67
+GENS2 u=-67/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-8/5 u=-67/13
+SKIPISO t=-8/5 u=-67/13
+GENS2 u=-67/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-109/43 u=-67/19
+SKIPISO t=-109/43 u=-67/19
+GENS2 u=-67/2 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=37/69 u=-67/2
+SKIPISO t=37/69 u=-67/2
+GENS2 u=67/27 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=59/5 u=67/27
+SKIPISO t=59/5 u=67/27
+GENS2 u=59/67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-133 u=59/67
+SKIPISO t=-133 u=59/67
+GENS2 u=67/5 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=71/31 u=67/5
+SKIPISO t=71/31 u=67/5
+GENSHORT u=3/67 target=2 indep=1 cands=3
+GENS2 u=3/67 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-63/4 u=3/67
+SKIPISO t=-63/4 u=3/67
+GENS2 u=-67/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-17/19 u=-67/9
+SKIPISO t=-17/19 u=-67/9
+GENS2 u=-67/23 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-139/45 u=-67/23
+SKIPISO t=-139/45 u=-67/23
+GENS2 u=-67/8 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-53/75 u=-67/8
+SKIPISO t=-53/75 u=-67/8
+GENSHORT u=-67/15 target=2 indep=1 cands=3
+GENS2 u=-67/15 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-79/41 u=-67/15
+SKIPISO t=-79/41 u=-67/15
+GENS2 u=-37/67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-121/13 u=-37/67
+SKIPISO t=-121/13 u=-37/67
+GENSHORT u=-67/45 target=2 indep=1 cands=2
+GENS2 u=-67/45 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-38/7 u=-67/45
+SKIPISO t=-38/7 u=-67/45
+GENSHORT u=19/67 target=2 indep=1 cands=2
+GENS2 u=19/67 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-64/3 u=19/67
+SKIPISO t=-64/3 u=19/67
+GENS2 u=27/67 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-129/5 u=27/67
+SKIPISO t=-129/5 u=27/67
+GENS2 u=-67/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-137/27 u=-67/41
+SKIPISO t=-137/27 u=-67/41
+GENS2 u=-61/67 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-59/8 u=-61/67
+SKIPISO t=-59/8 u=-61/67
+GENSHORT u=-67/11 target=2 indep=1 cands=2
+GENS2 u=-67/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-49/39 u=-67/11
+SKIPISO t=-49/39 u=-67/11
+GENS2 u=-67/25 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-77/23 u=-67/25
+SKIPISO t=-77/23 u=-67/25
+GENS2 u=43/67 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-131/3 u=43/67
+SKIPISO t=-131/3 u=43/67
+GENS2 u=-29/67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-61/6 u=-29/67
+SKIPISO t=-61/6 u=-29/67
+GENS2 u=67/35 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=37/2 u=67/35
+SKIPISO t=37/2 u=67/35
+GENS2 u=-53/67 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-119/15 u=-53/67
+SKIPISO t=-119/15 u=-53/67
+GENS2 u=-67/12 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-113/79 u=-67/12
+SKIPISO t=-113/79 u=-67/12
+GENS2 u=-67/53 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-91/15 u=-67/53
+SKIPISO t=-91/15 u=-67/53
+GENS2 u=-67/6 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/73 u=-67/6
+SKIPISO t=-23/73 u=-67/6
+GENS2 u=-67/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=11/35 u=-67/3
+SKIPISO t=11/35 u=-67/3
+GENS2 u=67/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=103/11 u=67/23
+SKIPISO t=103/11 u=67/23
+GENS2 u=-5/67 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-125/9 u=-5/67
+SKIPISO t=-125/9 u=-5/67
+GENSHORT u=-67/4 target=2 indep=1 cands=2
+GENS2 u=-67/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=7/71 u=-67/4
+SKIPISO t=7/71 u=-67/4
+GENS2 u=-21/67 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-123/11 u=-21/67
+SKIPISO t=-123/11 u=-21/67
+GENS2 u=51/67 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-66 u=51/67
+SKIPISO t=-66 u=51/67
+GENS2 u=-68/9 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-67/77 u=-68/9
+SKIPISO t=-67/77 u=-68/9
+GENSHORT u=-68/7 target=2 indep=1 cands=2
+GENS2 u=-68/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-37/75 u=-68/7
+SKIPISO t=-37/75 u=-68/7
+GENS2 u=-68/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-127/81 u=-68/13
+SKIPISO t=-127/81 u=-68/13
+GENS2 u=-68 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=53/69 u=-68
+SKIPISO t=53/69 u=-68
+GENSHORT u=-68/11 target=2 indep=1 cands=2
+GENS2 u=-68/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-97/79 u=-68/11
+SKIPISO t=-97/79 u=-68/11
+GENS2 u=68/3 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=113/65 u=68/3
+SKIPISO t=113/65 u=68/3
+GENSHORT u=68 target=2 indep=1 cands=2
+GENS2 u=68 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=83/67 u=68
+SKIPISO t=83/67 u=68
+GENSHORT u=-68/5 target=2 indep=1 cands=2
+GENS2 u=-68/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-7/73 u=-68/5
+SKIPISO t=-7/73 u=-68/5
+GENS2 u=68/5 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=143/63 u=68/5
+SKIPISO t=143/63 u=68/5
+GENS2 u=-69/43 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-36/7 u=-69/43
+SKIPISO t=-36/7 u=-69/43
+GENS2 u=-35/69 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-125/13 u=-35/69
+SKIPISO t=-125/13 u=-35/69
+GENS2 u=-69 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=27/35 u=-69
+SKIPISO t=27/35 u=-69
+GENS2 u=-69/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-93/43 u=-69/17
+SKIPISO t=-93/43 u=-69/17
+GENS2 u=61/69 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-137 u=61/69
+SKIPISO t=-137 u=61/69
+GENS2 u=-69/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-99/25 u=-69/31
+SKIPISO t=-99/25 u=-69/31
+GENS2 u=5/69 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-65/4 u=5/69
+SKIPISO t=-65/4 u=5/69
+GENSHORT u=-69/13 target=2 indep=1 cands=2
+GENS2 u=-69/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-63/41 u=-69/13
+SKIPISO t=-63/41 u=-69/13
+GENS2 u=-59/69 bounds=[3,3] cands=8 indep=3
+FIBSURV Sig=2 t=-61/8 u=-59/69
+SKIPISO t=-61/8 u=-59/69
+GENSHORT u=-69/14 target=2 indep=1 cands=2
+GENS2 u=-69/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-141/83 u=-69/14
+SKIPISO t=-141/83 u=-69/14
+GENSHORT u=29/69 target=2 indep=1 cands=2
+GENS2 u=29/69 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-133/5 u=29/69
+SKIPISO t=-133/5 u=29/69
+GENS2 u=69/7 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=87/31 u=69/7
+SKIPISO t=87/31 u=69/7
+GENS2 u=-11/69 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-64/5 u=-11/69
+SKIPISO t=-64/5 u=-11/69
+GENSHORT u=-69/2 target=2 indep=1 cands=2
+GENS2 u=-69/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=39/71 u=-69/2
+SKIPISO t=39/71 u=-69/2
+GENS2 u=13/69 bounds=[3,3] cands=11 indep=3
+FIBSURV Sig=2 t=-131/7 u=13/69
+SKIPISO t=-131/7 u=13/69
+GENS2 u=-69/8 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-51/77 u=-69/8
+SKIPISO t=-51/77 u=-69/8
+GENS2 u=69/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=177/25 u=69/19
+SKIPISO t=177/25 u=69/19
+GENS2 u=-67/69 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-121/17 u=-67/69
+SKIPISO t=-121/17 u=-67/69
+GENSHORT u=-43/69 target=2 indep=1 cands=2
+GENS2 u=-43/69 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-62/7 u=-43/69
+SKIPISO t=-62/7 u=-43/69
+GENS2 u=53/69 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-68 u=53/69
+SKIPISO t=-68 u=53/69
+GENS2 u=-69/7 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-9/19 u=-69/7
+SKIPISO t=-9/19 u=-69/7
+GENS2 u=-69/4 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=9/73 u=-69/4
+SKIPISO t=9/73 u=-69/4
+GENS2 u=69/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=129/65 u=69/4
+SKIPISO t=129/65 u=69/4
+GENS2 u=69/61 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=123 u=69/61
+SKIPISO t=123 u=69/61
+GENS2 u=69/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=33/7 u=69/13
+SKIPISO t=33/7 u=69/13
+GENS2 u=69/37 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=39/2 u=69/37
+SKIPISO t=39/2 u=69/37
+GENS2 u=-69/35 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-57/13 u=-69/35
+SKIPISO t=-57/13 u=-69/35
+GENSHORT u=-69/10 target=2 indep=1 cands=3
+GENS2 u=-69/10 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-81/79 u=-69/10
+SKIPISO t=-81/79 u=-69/10
+GENS2 u=-19/69 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-127/11 u=-19/69
+SKIPISO t=-127/11 u=-19/69
+GENS2 u=69/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=99/67 u=69/2
+SKIPISO t=99/67 u=69/2
+GENS2 u=69/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=111/11 u=69/25
+SKIPISO t=111/11 u=69/25
+GENSHORT u=70 target=2 indep=1 cands=3
+GENS2 u=70 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=85/69 u=70
+SKIPISO t=85/69 u=70
+GENS2 u=-70 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=55/71 u=-70
+SKIPISO t=55/71 u=-70
+GENS2 u=-70/13 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-125/83 u=-70/13
+SKIPISO t=-125/83 u=-70/13
+GENS2 u=-70/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=25/73 u=-70/3
+SKIPISO t=25/73 u=-70/3
+GENS2 u=70/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=115/67 u=70/3
+SKIPISO t=115/67 u=70/3
+GENS2 u=71/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=59/15 u=71/11
+SKIPISO t=59/15 u=71/11
+GENS2 u=-71/21 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-61/23 u=-71/21
+SKIPISO t=-61/23 u=-71/21
+GENS2 u=71/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=131/67 u=71/4
+SKIPISO t=131/67 u=71/4
+GENS2 u=-9/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-66/5 u=-9/71
+SKIPISO t=-66/5 u=-9/71
+GENS2 u=-71 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=7/9 u=-71
+SKIPISO t=7/9 u=-71
+GENS2 u=71/5 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=73/33 u=71/5
+SKIPISO t=73/33 u=71/5
+GENS2 u=-71/4 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=11/75 u=-71/4
+SKIPISO t=11/75 u=-71/4
+GENS2 u=-71/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-137/47 u=-71/23
+SKIPISO t=-137/47 u=-71/23
+GENS2 u=-65/71 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-125/17 u=-65/71
+SKIPISO t=-125/17 u=-65/71
+GENS2 u=-71/17 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-23/11 u=-71/17
+SKIPISO t=-23/11 u=-71/17
+GENS2 u=71/31 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=67/5 u=71/31
+SKIPISO t=67/5 u=71/31
+GENSHORT u=-71/8 target=2 indep=1 cands=2
+GENS2 u=-71/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-49/79 u=-71/8
+SKIPISO t=-49/79 u=-71/8
+GENS2 u=-71/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-1/19 u=-71/5
+SKIPISO t=-1/19 u=-71/5
+GENS2 u=-17/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-131/11 u=-17/71
+SKIPISO t=-131/11 u=-17/71
+GENS2 u=-57/71 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-63/8 u=-57/71
+SKIPISO t=-63/8 u=-57/71
+GENS2 u=71/39 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=41/2 u=71/39
+SKIPISO t=41/2 u=71/39
+GENS2 u=-71/15 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-77/43 u=-71/15
+SKIPISO t=-77/43 u=-71/15
+GENSHORT u=23/71 target=2 indep=1 cands=2
+GENS2 u=23/71 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-68/3 u=23/71
+SKIPISO t=-68/3 u=23/71
+GENS2 u=-71/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-31/21 u=-71/13
+SKIPISO t=-31/21 u=-71/13
+GENS2 u=31/71 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-137/5 u=31/71
+SKIPISO t=-137/5 u=31/71
+GENS2 u=71 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=43/35 u=71
+SKIPISO t=43/35 u=71
+GENSHORT u=71/2 target=2 indep=1 cands=2
+GENS2 u=71/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=101/69 u=71/2
+SKIPISO t=101/69 u=71/2
+GENS2 u=47/71 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-139/3 u=47/71
+SKIPISO t=-139/3 u=47/71
+GENSHORT u=-71/14 target=2 indep=1 cands=2
+GENS2 u=-71/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-139/85 u=-71/14
+SKIPISO t=-139/85 u=-71/14
+GENS2 u=-71/2 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=41/73 u=-71/2
+SKIPISO t=41/73 u=-71/2
+GENS2 u=-71/6 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-19/77 u=-71/6
+SKIPISO t=-19/77 u=-71/6
+GENS2 u=71/23 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=26/3 u=71/23
+SKIPISO t=26/3 u=71/23
+GENS2 u=63/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-141 u=63/71
+SKIPISO t=-141 u=63/71
+GENS2 u=55/71 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-70 u=55/71
+SKIPISO t=-70 u=55/71
+GENSHORT u=-71/33 target=2 indep=1 cands=2
+GENS2 u=-71/33 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-53/13 u=-71/33
+SKIPISO t=-53/13 u=-71/33
+GENSHORT u=-71/65 target=3 indep=2 cands=8
+GENS2 u=-71/65 bounds=[3,3] cands=8 indep=2
+FIBSURV Sig=2 t=-113/17 u=-71/65
+SKIPISO t=-113/17 u=-71/65
+GENS2 u=-71/19 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-107/45 u=-71/19
+SKIPISO t=-107/45 u=-71/19
+GENS2 u=71/35 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=149/9 u=71/35
+SKIPISO t=149/9 u=71/35
+GENS2 u=-33/71 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-129/13 u=-33/71
+SKIPISO t=-129/13 u=-33/71
+GENS2 u=-71/41 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-34/7 u=-71/41
+SKIPISO t=-34/7 u=-71/41
+GENS2 u=-71/49 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-83/15 u=-71/49
+SKIPISO t=-83/15 u=-71/49
+GENS2 u=-71/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-91/25 u=-71/29
+SKIPISO t=-91/25 u=-71/29
+GENS2 u=7/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-67/4 u=7/71
+SKIPISO t=-67/4 u=7/71
+GENS2 u=39/71 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-69/2 u=39/71
+SKIPISO t=-69/2 u=39/71
+GENS2 u=-71/10 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-79/81 u=-71/10
+SKIPISO t=-79/81 u=-71/10
+GENS2 u=-1/71 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-133/9 u=-1/71
+SKIPISO t=-133/9 u=-1/71
+GENSHORT u=-49/71 target=2 indep=1 cands=2
+GENS2 u=-49/71 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-127/15 u=-49/71
+SKIPISO t=-127/15 u=-49/71
+GENS2 u=-71/37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-121/27 u=-71/37
+SKIPISO t=-121/27 u=-71/37
+GENS2 u=15/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-135/7 u=15/71
+SKIPISO t=-135/7 u=15/71
+GENS2 u=72 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=87/71 u=72
+SKIPISO t=87/71 u=72
+GENSHORT u=-72/11 target=2 indep=1 cands=2
+GENS2 u=-72/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-93/83 u=-72/11
+SKIPISO t=-93/83 u=-72/11
+GENS2 u=-72/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-123/85 u=-72/13
+SKIPISO t=-123/85 u=-72/13
+GENS2 u=-72 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=57/73 u=-72
+SKIPISO t=57/73 u=-72
+GENS2 u=-72/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-3/77 u=-72/5
+SKIPISO t=-3/77 u=-72/5
+GENS2 u=72/7 bounds=[4,4] cands=12 indep=4
+GENSHORT u=72/5 target=2 indep=1 cands=2
+GENS2 u=72/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=147/67 u=72/5
+SKIPISO t=147/67 u=72/5
+GENS2 u=-73/5 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-1/39 u=-73/5
+SKIPISO t=-1/39 u=-73/5
+GENS2 u=73/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=43/2 u=73/41
+SKIPISO t=43/2 u=73/41
+GENS2 u=-73/43 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-143/29 u=-73/43
+SKIPISO t=-143/29 u=-73/43
+GENS2 u=-73/27 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-83/25 u=-73/27
+SKIPISO t=-83/25 u=-73/27
+GENS2 u=-73/4 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=13/77 u=-73/4
+SKIPISO t=13/77 u=-73/4
+GENS2 u=73/15 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=149/29 u=73/15
+SKIPISO t=149/29 u=73/15
+GENS2 u=-73/67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-233/35 u=-73/67
+SKIPISO t=-233/35 u=-73/67
+GENS2 u=-73/9 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-31/41 u=-73/9
+SKIPISO t=-31/41 u=-73/9
+GENS2 u=-73/12 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-107/85 u=-73/12
+SKIPISO t=-107/85 u=-73/12
+GENSHORT u=-7/73 target=2 indep=1 cands=2
+GENS2 u=-7/73 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-68/5 u=-7/73
+SKIPISO t=-68/5 u=-7/73
+GENSHORT u=-73/6 target=2 indep=1 cands=2
+GENS2 u=-73/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-17/79 u=-73/6
+SKIPISO t=-17/79 u=-73/6
+GENSHORT u=-39/73 target=2 indep=1 cands=3
+GENS2 u=-39/73 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-66/7 u=-39/73
+SKIPISO t=-66/7 u=-39/73
+GENSHORT u=-63/73 target=2 indep=1 cands=3
+GENS2 u=-63/73 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-129/17 u=-63/73
+SKIPISO t=-129/17 u=-63/73
+GENS2 u=73/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=28/3 u=73/25
+SKIPISO t=28/3 u=73/25
+GENS2 u=-27/73 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-267/25 u=-27/73
+SKIPISO t=-267/25 u=-27/73
+GENSHORT u=-73/10 target=2 indep=1 cands=2
+GENS2 u=-73/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-77/83 u=-73/10
+SKIPISO t=-77/83 u=-73/10
+GENSHORT u=-73/21 target=2 indep=1 cands=3
+GENS2 u=-73/21 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-121/47 u=-73/21
+SKIPISO t=-121/47 u=-73/21
+GENS2 u=-73/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-23/21 u=-73/11
+SKIPISO t=-23/21 u=-73/11
+GENS2 u=-71/73 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-64/9 u=-71/73
+SKIPISO t=-64/9 u=-71/73
+GENS2 u=41/73 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-71/2 u=41/73
+SKIPISO t=-71/2 u=41/73
+GENS2 u=57/73 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-72 u=57/73
+SKIPISO t=-72 u=57/73
+GENS2 u=73/21 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=97/13 u=73/21
+SKIPISO t=97/13 u=73/21
+GENS2 u=-73/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-49/13 u=-73/31
+SKIPISO t=-49/13 u=-73/31
+GENSHORT u=-73/39 target=2 indep=1 cands=2
+GENS2 u=-73/39 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-32/7 u=-73/39
+SKIPISO t=-32/7 u=-73/39
+GENS2 u=-15/73 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-135/11 u=-15/73
+SKIPISO t=-135/11 u=-15/73
+GENS2 u=73/33 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=71/5 u=73/33
+SKIPISO t=71/5 u=73/33
+GENS2 u=65/73 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-145 u=65/73
+SKIPISO t=-145 u=65/73
+GENS2 u=-73/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-17/6 u=-73/23
+SKIPISO t=-17/6 u=-73/23
+GENS2 u=1/73 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-137/9 u=1/73
+SKIPISO t=-137/9 u=1/73
+GENS2 u=25/73 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-70/3 u=25/73
+SKIPISO t=-70/3 u=25/73
+GENS2 u=-55/73 bounds=[3,3] cands=10 indep=3
+FIBSURV Sig=2 t=-65/8 u=-55/73
+SKIPISO t=-65/8 u=-55/73
+GENS2 u=73/4 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=133/69 u=73/4
+SKIPISO t=133/69 u=73/4
+GENSHORT u=-73/55 target=3 indep=2 cands=7
+GENS2 u=-73/55 bounds=[3,3] cands=7 indep=2
+FIBSURV Sig=2 t=-47/8 u=-73/55
+SKIPISO t=-47/8 u=-73/55
+GENSHORT u=-73/14 target=2 indep=1 cands=2
+GENS2 u=-73/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-137/87 u=-73/14
+SKIPISO t=-137/87 u=-73/14
+RBOPEN u=-47/73 bounds=[1,2] indep=1 - rank UNRESOLVED, fiber incomplete
+GENS2 u=-47/73 bounds=[1,2] cands=2 indep=1
+FIBSURV Sig=2 t=-131/15 u=-47/73
+SKIPISO t=-131/15 u=-47/73
+GENSHORT u=-31/73 target=2 indep=1 cands=2
+GENS2 u=-31/73 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-133/13 u=-31/73
+SKIPISO t=-133/13 u=-31/73
+GENS2 u=73/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=59/35 u=73/3
+SKIPISO t=59/35 u=73/3
+GENS2 u=-73/47 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-79/15 u=-73/47
+SKIPISO t=-79/15 u=-73/47
+GENS2 u=-73/2 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=43/75 u=-73/2
+SKIPISO t=43/75 u=-73/2
+GENS2 u=73/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=67/15 u=73/13
+SKIPISO t=67/15 u=73/13
+GENS2 u=73/2 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=103/71 u=73/2
+SKIPISO t=103/71 u=73/2
+GENS2 u=-73 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=29/37 u=-73
+SKIPISO t=29/37 u=-73
+GENS2 u=-73/53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-361/63 u=-73/53
+SKIPISO t=-361/63 u=-73/53
+GENS2 u=-73/63 bounds=[3,3] cands=8 indep=3
+FIBSURV Sig=2 t=-109/17 u=-73/63
+SKIPISO t=-109/17 u=-73/63
+GENS2 u=9/73 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-69/4 u=9/73
+SKIPISO t=-69/4 u=9/73
+GENS2 u=33/73 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-141/5 u=33/73
+SKIPISO t=-141/5 u=33/73
+GENSHORT u=-73/13 target=2 indep=1 cands=2
+GENS2 u=-73/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-61/43 u=-73/13
+SKIPISO t=-61/43 u=-73/13
+GENS2 u=73 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=11/9 u=73
+SKIPISO t=11/9 u=73
+GENS2 u=73/7 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=89/33 u=73/7
+SKIPISO t=89/33 u=73/7
+GENS2 u=-73/35 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-113/27 u=-73/35
+SKIPISO t=-113/27 u=-73/35
+GENS2 u=-73/19 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-53/23 u=-73/19
+SKIPISO t=-53/23 u=-73/19
+GENS2 u=74/5 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=149/69 u=74/5
+SKIPISO t=149/69 u=74/5
+GENS2 u=74 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=89/73 u=74
+SKIPISO t=89/73 u=74
+GENS2 u=-74/3 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=29/77 u=-74/3
+SKIPISO t=29/77 u=-74/3
+GENS2 u=-74/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-61/83 u=-74/9
+SKIPISO t=-61/83 u=-74/9
+GENSHORT u=74/3 target=2 indep=1 cands=3
+GENS2 u=74/3 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=119/71 u=74/3
+SKIPISO t=119/71 u=74/3
+GENS2 u=-74/5 bounds=[3,3] cands=10 indep=3
+FIBSURV Sig=2 t=-1/79 u=-74/5
+SKIPISO t=-1/79 u=-74/5
+GENSHORT u=-74 target=2 indep=1 cands=2
+GENS2 u=-74 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=59/75 u=-74
+SKIPISO t=59/75 u=-74
+GENSHORT u=-74/13 target=2 indep=1 cands=2
+GENS2 u=-74/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-121/87 u=-74/13
+SKIPISO t=-121/87 u=-74/13
+GENS2 u=-75/61 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-105/17 u=-75/61
+SKIPISO t=-105/17 u=-75/61
+GENSHORT u=-75/14 target=2 indep=1 cands=3
+GENS2 u=-75/14 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-135/89 u=-75/14
+SKIPISO t=-135/89 u=-75/14
+GENSHORT u=59/75 target=2 indep=1 cands=2
+GENS2 u=59/75 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-74 u=59/75
+SKIPISO t=-74 u=59/75
+GENS2 u=75/43 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=45/2 u=75/43
+SKIPISO t=45/2 u=75/43
+GENSHORT u=19/75 target=2 indep=1 cands=2
+GENS2 u=19/75 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-143/7 u=19/75
+SKIPISO t=-143/7 u=19/75
+GENS2 u=-75/11 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-45/43 u=-75/11
+SKIPISO t=-45/43 u=-75/11
+GENS2 u=-75/8 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-45/83 u=-75/8
+SKIPISO t=-45/83 u=-75/8
+GENS2 u=-53/75 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-67/8 u=-53/75
+SKIPISO t=-67/8 u=-53/75
+GENS2 u=75 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=45/37 u=75
+SKIPISO t=45/37 u=75
+GENS2 u=75/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=135/31 u=75/13
+SKIPISO t=135/31 u=75/13
+GENS2 u=75/59 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=60 u=75/59
+SKIPISO t=60 u=75/59
+GENSHORT u=-13/75 target=2 indep=1 cands=2
+GENS2 u=-13/75 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-139/11 u=-13/75
+SKIPISO t=-139/11 u=-13/75
+GENS2 u=-75/53 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-45/8 u=-75/53
+SKIPISO t=-45/8 u=-75/53
+GENS2 u=11/75 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-71/4 u=11/75
+SKIPISO t=-71/4 u=11/75
+GENS2 u=-75/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-45/23 u=-75/17
+SKIPISO t=-45/23 u=-75/17
+GENS2 u=-75/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-135/49 u=-75/23
+SKIPISO t=-135/49 u=-75/23
+GENS2 u=-75/41 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-135/29 u=-75/41
+SKIPISO t=-135/29 u=-75/41
+GENS2 u=-75/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-45/13 u=-75/29
+SKIPISO t=-45/13 u=-75/29
+GENS2 u=-75/4 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=15/79 u=-75/4
+SKIPISO t=15/79 u=-75/4
+GENS2 u=75/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=45/7 u=75/19
+SKIPISO t=45/7 u=75/19
+GENSHORT u=-61/75 target=2 indep=1 cands=2
+GENS2 u=-61/75 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-133/17 u=-61/75
+SKIPISO t=-133/17 u=-61/75
+GENS2 u=75/4 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=135/71 u=75/4
+SKIPISO t=135/71 u=75/4
+GENS2 u=-75/19 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-105/47 u=-75/19
+SKIPISO t=-105/47 u=-75/19
+GENS2 u=-75/37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-30/7 u=-75/37
+SKIPISO t=-30/7 u=-75/37
+GENS2 u=-75/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=45/77 u=-75/2
+SKIPISO t=45/77 u=-75/2
+GENS2 u=75/67 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=135 u=75/67
+SKIPISO t=135 u=75/67
+GENS2 u=-75/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-15/41 u=-75/7
+SKIPISO t=-15/41 u=-75/7
+GENS2 u=-29/75 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-137/13 u=-29/75
+SKIPISO t=-137/13 u=-29/75
+GENS2 u=-37/75 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-68/7 u=-37/75
+SKIPISO t=-68/7 u=-37/75
+GENSHORT u=-76/13 target=2 indep=1 cands=2
+GENS2 u=-76/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-119/89 u=-76/13
+SKIPISO t=-119/89 u=-76/13
+GENS2 u=-76/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-29/83 u=-76/7
+SKIPISO t=-29/83 u=-76/7
+GENS2 u=76 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=91/75 u=76
+SKIPISO t=91/75 u=76
+GENS2 u=76/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=121/73 u=76/3
+SKIPISO t=121/73 u=76/3
+GENS2 u=-76/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=31/79 u=-76/3
+SKIPISO t=31/79 u=-76/3
+GENS2 u=-76/9 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-59/85 u=-76/9
+SKIPISO t=-59/85 u=-76/9
+GENSHORT u=-76/15 target=2 indep=1 cands=2
+GENS2 u=-76/15 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-149/91 u=-76/15
+SKIPISO t=-149/91 u=-76/15
+GENS2 u=-76 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=61/77 u=-76
+SKIPISO t=61/77 u=-76
+GENS2 u=-59/77 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-137/17 u=-59/77
+SKIPISO t=-137/17 u=-59/77
+GENS2 u=77/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=113/13 u=77/25
+SKIPISO t=113/13 u=77/25
+GENSHORT u=-77/13 target=2 indep=1 cands=2
+GENS2 u=-77/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-59/45 u=-77/13
+SKIPISO t=-59/45 u=-77/13
+GENSHORT u=37/77 target=2 indep=1 cands=2
+GENS2 u=37/77 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-149/5 u=37/77
+SKIPISO t=-149/5 u=37/77
+GENSHORT u=5/77 target=2 indep=1 cands=2
+GENS2 u=5/77 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-145/9 u=5/77
+SKIPISO t=-145/9 u=5/77
+GENSHORT u=-77/4 target=2 indep=1 cands=2
+GENS2 u=-77/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=17/81 u=-77/4
+SKIPISO t=17/81 u=-77/4
+GENS2 u=-19/77 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-71/6 u=-19/77
+SKIPISO t=-71/6 u=-19/77
+GENS2 u=77/9 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=53/17 u=77/9
+SKIPISO t=53/17 u=77/9
+GENS2 u=77/45 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=47/2 u=77/45
+SKIPISO t=47/2 u=77/45
+GENS2 u=-77/39 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-127/29 u=-77/39
+SKIPISO t=-127/29 u=-77/39
+GENS2 u=77/13 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=17/4 u=77/13
+SKIPISO t=17/4 u=77/13
+GENS2 u=61/77 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-76 u=61/77
+SKIPISO t=-76 u=61/77
+GENS2 u=-77/15 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-37/23 u=-77/15
+SKIPISO t=-37/23 u=-77/15
+GENSHORT u=-3/77 target=2 indep=1 cands=3
+GENS2 u=-3/77 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-72/5 u=-3/77
+SKIPISO t=-72/5 u=-3/77
+GENSHORT u=-77/5 target=2 indep=1 cands=2
+GENS2 u=-77/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=1/41 u=-77/5
+SKIPISO t=1/41 u=-77/5
+GENS2 u=-77/51 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-43/8 u=-77/51
+SKIPISO t=-43/8 u=-77/51
+GENS2 u=-77 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=31/39 u=-77
+SKIPISO t=31/39 u=-77
+GENS2 u=77 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=23/19 u=77
+SKIPISO t=23/19 u=77
+GENS2 u=-77/43 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-71/15 u=-77/43
+SKIPISO t=-71/15 u=-77/43
+GENSHORT u=-77/67 target=2 indep=1 cands=2
+GENS2 u=-77/67 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-58/9 u=-77/67
+SKIPISO t=-58/9 u=-77/67
+GENSHORT u=-77/6 target=2 indep=1 cands=2
+GENS2 u=-77/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-13/83 u=-77/6
+SKIPISO t=-13/83 u=-77/6
+GENSHORT u=-77/25 target=2 indep=1 cands=2
+GENS2 u=-77/25 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-149/51 u=-77/25
+SKIPISO t=-149/51 u=-77/25
+GENS2 u=77/4 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=137/73 u=77/4
+SKIPISO t=137/73 u=77/4
+GENS2 u=-27/77 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-141/13 u=-27/77
+SKIPISO t=-141/13 u=-27/77
+GENS2 u=-77/8 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-43/85 u=-77/8
+SKIPISO t=-43/85 u=-77/8
+GENSHORT u=-77/31 target=2 indep=1 cands=2
+GENS2 u=-77/31 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-97/27 u=-77/31
+SKIPISO t=-97/27 u=-77/31
+GENS2 u=-77/9 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-29/43 u=-77/9
+SKIPISO t=-29/43 u=-77/9
+GENSHORT u=-77/10 target=2 indep=1 cands=2
+GENS2 u=-77/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-73/87 u=-77/10
+SKIPISO t=-73/87 u=-77/10
+GENS2 u=-75/77 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-135/19 u=-75/77
+SKIPISO t=-135/19 u=-75/77
+GENSHORT u=-77/75 target=2 indep=1 cands=2
+GENS2 u=-77/75 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-131/19 u=-77/75
+SKIPISO t=-131/19 u=-77/75
+GENSHORT u=-77/12 target=2 indep=1 cands=2
+GENS2 u=-77/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-103/89 u=-77/12
+SKIPISO t=-103/89 u=-77/12
+GENS2 u=-77/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-13/6 u=-77/19
+SKIPISO t=-13/6 u=-77/19
+GENSHORT u=77/2 target=2 indep=1 cands=2
+GENS2 u=77/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=107/75 u=77/2
+SKIPISO t=107/75 u=77/2
+GENS2 u=-77/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=47/79 u=-77/2
+SKIPISO t=47/79 u=-77/2
+GENS2 u=-77/27 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-41/13 u=-77/27
+SKIPISO t=-41/13 u=-77/27
+GENS2 u=78 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=93/77 u=78
+SKIPISO t=93/77 u=78
+GENSHORT u=-78/7 target=2 indep=1 cands=3
+GENS2 u=-78/7 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-27/85 u=-78/7
+SKIPISO t=-27/85 u=-78/7
+GENSHORT u=-78/11 target=2 indep=1 cands=2
+GENS2 u=-78/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-87/89 u=-78/11
+SKIPISO t=-87/89 u=-78/11
+GENSHORT u=-78 target=2 indep=1 cands=2
+GENS2 u=-78 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=63/79 u=-78
+SKIPISO t=63/79 u=-78
+GENS2 u=-79 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=4/5 u=-79
+SKIPISO t=4/5 u=-79
+GENS2 u=63/79 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-78 u=63/79
+SKIPISO t=-78 u=63/79
+GENS2 u=-79/7 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-13/43 u=-79/7
+SKIPISO t=-13/43 u=-79/7
+GENS2 u=-1/79 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-74/5 u=-1/79
+SKIPISO t=-74/5 u=-1/79
+GENS2 u=79/11 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=61/17 u=79/11
+SKIPISO t=61/17 u=79/11
+GENS2 u=-65/79 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-70/9 u=-65/79
+SKIPISO t=-70/9 u=-65/79
+GENS2 u=-9/79 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-147/11 u=-9/79
+SKIPISO t=-147/11 u=-9/79
+GENS2 u=-25/79 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-145/13 u=-25/79
+SKIPISO t=-145/13 u=-25/79
+GENS2 u=79/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=137/33 u=79/13
+SKIPISO t=137/33 u=79/13
+GENS2 u=79/55 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=113/3 u=79/55
+SKIPISO t=113/3 u=79/55
+GENS2 u=79/47 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=49/2 u=79/47
+SKIPISO t=49/2 u=79/47
+GENS2 u=-73/79 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-139/19 u=-73/79
+SKIPISO t=-139/19 u=-73/79
+GENS2 u=79/39 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=83/5 u=79/39
+SKIPISO t=83/5 u=79/39
+GENS2 u=-79/8 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-41/87 u=-79/8
+SKIPISO t=-41/87 u=-79/8
+GENS2 u=15/79 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-75/4 u=15/79
+SKIPISO t=-75/4 u=15/79
+GENS2 u=7/79 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-149/9 u=7/79
+SKIPISO t=-149/9 u=7/79
+GENS2 u=-79/45 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-149/31 u=-79/45
+SKIPISO t=-149/31 u=-79/45
+GENSHORT u=-79/23 target=2 indep=1 cands=2
+GENS2 u=-79/23 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-133/51 u=-79/23
+SKIPISO t=-133/51 u=-79/23
+GENS2 u=-79/17 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-11/6 u=-79/17
+SKIPISO t=-11/6 u=-79/17
+GENS2 u=-79/73 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-127/19 u=-79/73
+SKIPISO t=-127/19 u=-79/73
+GENSHORT u=-41/79 target=2 indep=1 cands=2
+GENS2 u=-41/79 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-143/15 u=-41/79
+SKIPISO t=-143/15 u=-41/79
+GENS2 u=-79/10 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-71/89 u=-79/10
+SKIPISO t=-71/89 u=-79/10
+GENS2 u=-79/49 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-41/8 u=-79/49
+SKIPISO t=-41/8 u=-79/49
+GENS2 u=-79/41 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-67/15 u=-79/41
+SKIPISO t=-67/15 u=-79/41
+GENS2 u=-57/79 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-141/17 u=-57/79
+SKIPISO t=-141/17 u=-57/79
+GENSHORT u=31/79 target=2 indep=1 cands=2
+GENS2 u=31/79 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-76/3 u=31/79
+SKIPISO t=-76/3 u=31/79
+GENS2 u=79/6 bounds=[2,2] cands=12 indep=2
+GENS2 u=-79/12 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-101/91 u=-79/12
+SKIPISO t=-101/91 u=-79/12
+GENS2 u=79 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=47/39 u=79
+SKIPISO t=47/39 u=79
+GENS2 u=-79/57 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-97/17 u=-79/57
+SKIPISO t=-97/17 u=-79/57
+GENS2 u=79/71 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=143 u=79/71
+SKIPISO t=143 u=79/71
+GENS2 u=79/5 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=77/37 u=79/5
+SKIPISO t=77/37 u=79/5
+GENS2 u=-79/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-29/23 u=-79/13
+SKIPISO t=-29/23 u=-79/13
+GENS2 u=79/27 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=121/13 u=79/27
+SKIPISO t=121/13 u=79/27
+GENS2 u=-79/19 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-103/49 u=-79/19
+SKIPISO t=-103/49 u=-79/19
+GENSHORT u=-79/4 target=2 indep=1 cands=2
+GENS2 u=-79/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=19/83 u=-79/4
+SKIPISO t=19/83 u=-79/4
+GENSHORT u=-79/33 target=2 indep=1 cands=3
+GENS2 u=-79/33 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-26/7 u=-79/33
+SKIPISO t=-26/7 u=-79/33
+GENSHORT u=-33/79 target=2 indep=1 cands=2
+GENS2 u=-33/79 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-72/7 u=-33/79
+SKIPISO t=-72/7 u=-33/79
+GENS2 u=79/15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=19/4 u=79/15
+SKIPISO t=19/4 u=79/15
+GENS2 u=79/2 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=109/77 u=79/2
+SKIPISO t=109/77 u=79/2
+GENS2 u=-79/29 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-89/27 u=-79/29
+SKIPISO t=-89/27 u=-79/29
+GENS2 u=-79/37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-119/29 u=-79/37
+SKIPISO t=-119/29 u=-79/37
+GENSHORT u=47/79 target=2 indep=1 cands=2
+GENS2 u=47/79 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-77/2 u=47/79
+SKIPISO t=-77/2 u=47/79
+GENS2 u=79/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=53/7 u=79/23
+SKIPISO t=53/7 u=79/23
+GENS2 u=79/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=31/19 u=79/3
+SKIPISO t=31/19 u=79/3
+GENS2 u=-79/6 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-11/85 u=-79/6
+SKIPISO t=-11/85 u=-79/6
+GENS2 u=79/4 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=139/75 u=79/4
+SKIPISO t=139/75 u=79/4
+GENSHORT u=80 target=2 indep=1 cands=2
+GENS2 u=80 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=95/79 u=80
+SKIPISO t=95/79 u=80
+GENSHORT u=-80/3 target=2 indep=1 cands=2
+GENS2 u=-80/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=35/83 u=-80/3
+SKIPISO t=35/83 u=-80/3
+GENSHORT u=-80/13 target=2 indep=1 cands=2
+GENS2 u=-80/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-115/93 u=-80/13
+SKIPISO t=-115/93 u=-80/13
+GENS2 u=-80/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-55/89 u=-80/9
+SKIPISO t=-55/89 u=-80/9
+GENSHORT u=-80/11 target=2 indep=1 cands=2
+GENS2 u=-80/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-85/91 u=-80/11
+SKIPISO t=-85/91 u=-80/11
+GENS2 u=-80 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=65/81 u=-80
+SKIPISO t=65/81 u=-80
+GENS2 u=-80/7 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-25/87 u=-80/7
+SKIPISO t=-25/87 u=-80/7
+GENS2 u=-81/13 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-57/47 u=-81/13
+SKIPISO t=-57/47 u=-81/13
+GENSHORT u=81/2 target=2 indep=1 cands=2
+GENS2 u=81/2 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=111/79 u=81/2
+SKIPISO t=111/79 u=81/2
+GENS2 u=81/65 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=66 u=81/65
+SKIPISO t=66 u=81/65
+GENS2 u=-81/55 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-93/17 u=-81/55
+SKIPISO t=-93/17 u=-81/55
+GENS2 u=-81/4 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=21/85 u=-81/4
+SKIPISO t=21/85 u=-81/4
+GENS2 u=-23/81 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-149/13 u=-23/81
+SKIPISO t=-149/13 u=-23/81
+GENS2 u=-81/31 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-24/7 u=-81/31
+SKIPISO t=-24/7 u=-81/31
+GENS2 u=81/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=93/37 u=81/7
+SKIPISO t=93/37 u=81/7
+GENS2 u=-81/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=51/83 u=-81/2
+SKIPISO t=51/83 u=-81/2
+GENS2 u=-81/43 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-141/31 u=-81/43
+SKIPISO t=-141/31 u=-81/43
+GENS2 u=81/41 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=87/5 u=81/41
+SKIPISO t=87/5 u=81/41
+GENS2 u=49/81 bounds=[3,3] cands=5 indep=3
+FIBSURV Sig=2 t=-79/2 u=49/81
+SKIPISO t=-79/2 u=49/81
+GENS2 u=1/81 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-76/5 u=1/81
+SKIPISO t=-76/5 u=1/81
+GENS2 u=-81/17 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-87/49 u=-81/17
+SKIPISO t=-87/49 u=-81/17
+GENSHORT u=-81/25 target=2 indep=1 cands=2
+GENS2 u=-81/25 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-147/53 u=-81/25
+SKIPISO t=-147/53 u=-81/25
+GENS2 u=-81 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=33/41 u=-81
+SKIPISO t=33/41 u=-81
+GENS2 u=-81/35 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-111/29 u=-81/35
+SKIPISO t=-111/29 u=-81/35
+GENS2 u=-55/81 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-145/17 u=-55/81
+SKIPISO t=-145/17 u=-55/81
+GENS2 u=-81/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=3/43 u=-81/5
+SKIPISO t=3/43 u=-81/5
+GENSHORT u=-31/81 target=2 indep=1 cands=2
+GENS2 u=-31/81 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-74/7 u=-31/81
+SKIPISO t=-74/7 u=-31/81
+GENS2 u=81/4 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=141/77 u=81/4
+SKIPISO t=141/77 u=81/4
+GENS2 u=81/25 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=57/7 u=81/25
+SKIPISO t=57/7 u=81/25
+GENS2 u=-81/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-33/13 u=-81/23
+SKIPISO t=-33/13 u=-81/23
+GENS2 u=-81/71 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-123/19 u=-81/71
+SKIPISO t=-123/19 u=-81/71
+GENSHORT u=-81/8 target=2 indep=1 cands=2
+GENS2 u=-81/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-39/89 u=-81/8
+SKIPISO t=-39/89 u=-81/8
+GENSHORT u=-81/14 target=2 indep=1 cands=2
+GENS2 u=-81/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-129/95 u=-81/14
+SKIPISO t=-129/95 u=-81/14
+GENSHORT u=-81/10 target=2 indep=1 cands=2
+GENS2 u=-81/10 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-69/91 u=-81/10
+SKIPISO t=-69/91 u=-81/10
+GENS2 u=81/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=39/19 u=81/5
+SKIPISO t=39/19 u=81/5
+GENSHORT u=17/81 target=2 indep=1 cands=2
+GENS2 u=17/81 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-77/4 u=17/81
+SKIPISO t=-77/4 u=17/81
+GENS2 u=81/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=69/17 u=81/13
+SKIPISO t=69/17 u=81/13
+GENS2 u=-82/9 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-53/91 u=-82/9
+SKIPISO t=-53/91 u=-82/9
+GENS2 u=-82/11 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-83/93 u=-82/11
+SKIPISO t=-83/93 u=-82/11
+GENS2 u=-82/3 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=37/85 u=-82/3
+SKIPISO t=37/85 u=-82/3
+GENSHORT u=82/3 target=2 indep=1 cands=2
+GENS2 u=82/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=127/79 u=82/3
+SKIPISO t=127/79 u=82/3
+GENS2 u=-82/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-113/95 u=-82/13
+SKIPISO t=-113/95 u=-82/13
+GENS2 u=82 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=97/81 u=82
+SKIPISO t=97/81 u=82
+GENSHORT u=-82 target=2 indep=1 cands=2
+GENS2 u=-82 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=67/83 u=-82
+SKIPISO t=67/83 u=-82
+GENSHORT u=-82/15 target=2 indep=1 cands=2
+GENS2 u=-82/15 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-143/97 u=-82/15
+SKIPISO t=-143/97 u=-82/15
+GENS2 u=-83/5 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=1/11 u=-83/5
+SKIPISO t=1/11 u=-83/5
+GENS2 u=19/83 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-79/4 u=19/83
+SKIPISO t=-79/4 u=19/83
+GENS2 u=-83/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-11/45 u=-83/7
+SKIPISO t=-11/45 u=-83/7
+GENS2 u=-69/83 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-147/19 u=-69/83
+SKIPISO t=-147/19 u=-69/83
+GENS2 u=83/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=109/37 u=83/9
+SKIPISO t=109/37 u=83/9
+GENS2 u=-45/83 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-75/8 u=-45/83
+SKIPISO t=-75/8 u=-45/83
+GENSHORT u=83/13 target=2 indep=1 cands=2
+GENS2 u=83/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=139/35 u=83/13
+SKIPISO t=139/35 u=83/13
+GENSHORT u=-83/14 target=3 indep=2 cands=6
+GENS2 u=-83/14 bounds=[3,3] cands=6 indep=2
+FIBSURV Sig=2 t=-127/97 u=-83/14
+SKIPISO t=-127/97 u=-83/14
+GENS2 u=-83/15 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-71/49 u=-83/15
+SKIPISO t=-71/49 u=-83/15
+GENSHORT u=-29/83 target=2 indep=1 cands=2
+GENS2 u=-29/83 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-76/7 u=-29/83
+SKIPISO t=-76/7 u=-29/83
+GENS2 u=-83/11 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-41/47 u=-83/11
+SKIPISO t=-41/47 u=-83/11
+GENS2 u=83/23 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=107/15 u=83/23
+SKIPISO t=107/15 u=83/23
+GENS2 u=-83/61 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-52/9 u=-83/61
+SKIPISO t=-52/9 u=-83/61
+GENS2 u=-83/69 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-119/19 u=-83/69
+SKIPISO t=-119/19 u=-83/69
+GENS2 u=-83/9 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-13/23 u=-83/9
+SKIPISO t=-13/23 u=-83/9
+GENS2 u=-83/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-43/25 u=-83/17
+SKIPISO t=-43/25 u=-83/17
+GENSHORT u=35/83 target=2 indep=1 cands=2
+GENS2 u=35/83 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-80/3 u=35/83
+SKIPISO t=-80/3 u=35/83
+GENS2 u=83/67 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=68 u=83/67
+SKIPISO t=68 u=83/67
+GENS2 u=83/15 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=77/17 u=83/15
+SKIPISO t=77/17 u=83/15
+GENS2 u=-83/8 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-37/91 u=-83/8
+SKIPISO t=-37/91 u=-83/8
+GENSHORT u=-83/6 target=2 indep=1 cands=2
+GENS2 u=-83/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-7/89 u=-83/6
+SKIPISO t=-7/89 u=-83/6
+GENSHORT u=-61/83 target=3 indep=2 cands=6
+GENS2 u=-61/83 bounds=[3,3] cands=6 indep=2
+FIBSURV Sig=2 t=-74/9 u=-61/83
+SKIPISO t=-74/9 u=-61/83
+GENS2 u=-83/77 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-67/10 u=-83/77
+SKIPISO t=-67/10 u=-83/77
+GENS2 u=83/27 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=61/7 u=83/27
+SKIPISO t=61/7 u=83/27
+GENS2 u=-83/4 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=23/87 u=-83/4
+SKIPISO t=23/87 u=-83/4
+GENS2 u=-77/83 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-73/10 u=-77/83
+SKIPISO t=-73/10 u=-77/83
+GENS2 u=-83/29 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-22/7 u=-83/29
+SKIPISO t=-22/7 u=-83/29
+GENS2 u=83 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=49/41 u=83
+SKIPISO t=49/41 u=83
+GENS2 u=-83/3 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=19/43 u=-83/3
+SKIPISO t=19/43 u=-83/3
+GENS2 u=-83/21 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-29/13 u=-83/21
+SKIPISO t=-29/13 u=-83/21
+GENS2 u=83/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=143/79 u=83/4
+SKIPISO t=143/79 u=83/4
+GENS2 u=67/83 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-82 u=67/83
+SKIPISO t=-82 u=67/83
+GENS2 u=3/83 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-78/5 u=3/83
+SKIPISO t=-78/5 u=3/83
+GENS2 u=75/83 bounds=[3,3] cands=12 indep=3
+GENS2 u=-83 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=17/21 u=-83
+SKIPISO t=17/21 u=-83
+GENS2 u=-83/19 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-101/51 u=-83/19
+SKIPISO t=-101/51 u=-83/19
+GENS2 u=-83/33 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-103/29 u=-83/33
+SKIPISO t=-103/29 u=-83/33
+GENS2 u=-83/2 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=53/85 u=-83/2
+SKIPISO t=53/85 u=-83/2
+GENS2 u=83/2 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=113/81 u=83/2
+SKIPISO t=113/81 u=83/2
+GENS2 u=-83/53 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-89/17 u=-83/53
+SKIPISO t=-89/17 u=-83/53
+GENS2 u=-83/23 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-131/53 u=-83/23
+SKIPISO t=-131/53 u=-83/23
+GENS2 u=83/3 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=8/5 u=83/3
+SKIPISO t=8/5 u=83/3
+GENS2 u=-84/13 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-111/97 u=-84/13
+SKIPISO t=-111/97 u=-84/13
+GENSHORT u=84 target=2 indep=1 cands=2
+GENS2 u=84 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=99/83 u=84
+SKIPISO t=99/83 u=84
+GENSHORT u=-84 target=2 indep=1 cands=2
+GENS2 u=-84 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=69/85 u=-84
+SKIPISO t=69/85 u=-84
+GENSHORT u=-84/5 target=2 indep=1 cands=2
+GENS2 u=-84/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=9/89 u=-84/5
+SKIPISO t=9/89 u=-84/5
+GENS2 u=-84/11 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-81/95 u=-84/11
+SKIPISO t=-81/95 u=-84/11
+GENS2 u=-85/31 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-95/29 u=-85/31
+SKIPISO t=-95/29 u=-85/31
+GENS2 u=-85/9 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-25/47 u=-85/9
+SKIPISO t=-25/47 u=-85/9
+GENS2 u=-11/85 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-79/6 u=-11/85
+SKIPISO t=-79/6 u=-11/85
+GENS2 u=-85/11 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-5/6 u=-85/11
+SKIPISO t=-5/6 u=-85/11
+GENSHORT u=37/85 target=2 indep=1 cands=2
+GENS2 u=37/85 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-82/3 u=37/85
+SKIPISO t=-82/3 u=37/85
+GENSHORT u=69/85 target=2 indep=1 cands=2
+GENS2 u=69/85 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-84 u=69/85
+SKIPISO t=-84 u=69/85
+GENS2 u=-85/8 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-35/93 u=-85/8
+SKIPISO t=-35/93 u=-85/8
+GENS2 u=53/85 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-83/2 u=53/85
+SKIPISO t=-83/2 u=53/85
+GENS2 u=85/3 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=65/41 u=85/3
+SKIPISO t=65/41 u=85/3
+GENS2 u=-85/12 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-95/97 u=-85/12
+SKIPISO t=-95/97 u=-85/12
+GENS2 u=-85/2 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=55/87 u=-85/2
+SKIPISO t=55/87 u=-85/2
+GENSHORT u=-85/4 target=2 indep=1 cands=2
+GENS2 u=-85/4 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=25/89 u=-85/4
+SKIPISO t=25/89 u=-85/4
+GENS2 u=85/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=115/83 u=85/2
+SKIPISO t=115/83 u=85/2
+GENS2 u=-43/85 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-77/8 u=-43/85
+SKIPISO t=-77/8 u=-43/85
+GENSHORT u=21/85 target=2 indep=1 cands=3
+GENS2 u=21/85 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-81/4 u=21/85
+SKIPISO t=-81/4 u=21/85
+GENS2 u=-85/13 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-55/49 u=-85/13
+SKIPISO t=-55/49 u=-85/13
+GENS2 u=-85/83 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-145/21 u=-85/83
+SKIPISO t=-145/21 u=-85/83
+GENS2 u=-85/6 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-5/91 u=-85/6
+SKIPISO t=-5/91 u=-85/6
+GENS2 u=-83/85 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-149/21 u=-83/85
+SKIPISO t=-149/21 u=-83/85
+GENS2 u=85 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=25/21 u=85
+SKIPISO t=25/21 u=85
+GENS2 u=-85/59 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-50/9 u=-85/59
+SKIPISO t=-50/9 u=-85/59
+GENS2 u=85/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=35/9 u=85/13
+SKIPISO t=35/9 u=85/13
+GENS2 u=-85/43 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-35/8 u=-85/43
+SKIPISO t=-35/8 u=-85/43
+GENSHORT u=-85/14 target=2 indep=1 cands=2
+GENS2 u=-85/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-125/99 u=-85/14
+SKIPISO t=-125/99 u=-85/14
+GENSHORT u=-85/67 target=2 indep=1 cands=2
+GENS2 u=-85/67 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-115/19 u=-85/67
+SKIPISO t=-115/19 u=-85/67
+GENS2 u=-59/85 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-76/9 u=-59/85
+SKIPISO t=-76/9 u=-59/85
+GENSHORT u=-85/21 target=2 indep=1 cands=2
+GENS2 u=-85/21 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-115/53 u=-85/21
+SKIPISO t=-115/53 u=-85/21
+GENS2 u=85/7 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=95/39 u=85/7
+SKIPISO t=95/39 u=85/7
+GENSHORT u=-27/85 target=2 indep=1 cands=2
+GENS2 u=-27/85 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-78/7 u=-27/85
+SKIPISO t=-78/7 u=-27/85
+GENS2 u=-85/39 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-125/31 u=-85/39
+SKIPISO t=-125/31 u=-85/39
+GENS2 u=86 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=101/85 u=86
+SKIPISO t=101/85 u=86
+GENS2 u=-86/3 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=41/89 u=-86/3
+SKIPISO t=41/89 u=-86/3
+GENS2 u=-86/15 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-139/101 u=-86/15
+SKIPISO t=-139/101 u=-86/15
+GENSHORT u=-86/7 target=2 indep=1 cands=2
+GENS2 u=-86/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-19/93 u=-86/7
+SKIPISO t=-19/93 u=-86/7
+GENSHORT u=-86/9 target=2 indep=1 cands=2
+GENS2 u=-86/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-49/95 u=-86/9
+SKIPISO t=-49/95 u=-86/9
+GENSHORT u=-86/11 target=2 indep=1 cands=2
+GENS2 u=-86/11 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-79/97 u=-86/11
+SKIPISO t=-79/97 u=-86/11
+GENS2 u=-86/5 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=11/91 u=-86/5
+SKIPISO t=11/91 u=-86/5
+GENSHORT u=-86 target=2 indep=1 cands=2
+GENS2 u=-86 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=71/87 u=-86
+SKIPISO t=71/87 u=-86
+GENS2 u=87/47 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=99/5 u=87/47
+SKIPISO t=99/5 u=87/47
+GENS2 u=87/4 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=147/83 u=87/4
+SKIPISO t=147/83 u=87/4
+GENS2 u=87/55 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=57/2 u=87/55
+SKIPISO t=57/2 u=87/55
+GENS2 u=87/5 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=81/41 u=87/5
+SKIPISO t=81/41 u=87/5
+GENSHORT u=71/87 target=2 indep=1 cands=2
+GENS2 u=71/87 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-86 u=71/87
+SKIPISO t=-86 u=71/87
+GENS2 u=-87/2 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=57/89 u=-87/2
+SKIPISO t=57/89 u=-87/2
+GENSHORT u=7/87 target=2 indep=1 cands=2
+GENS2 u=7/87 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-82/5 u=7/87
+SKIPISO t=-82/5 u=7/87
+GENSHORT u=23/87 target=2 indep=1 cands=2
+GENS2 u=23/87 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-83/4 u=23/87
+SKIPISO t=-83/4 u=23/87
+GENS2 u=55/87 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-85/2 u=55/87
+SKIPISO t=-85/2 u=55/87
+GENS2 u=-87/8 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-33/95 u=-87/8
+SKIPISO t=-33/95 u=-87/8
+GENS2 u=-87/13 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-27/25 u=-87/13
+SKIPISO t=-27/25 u=-87/13
+GENS2 u=87 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=51/43 u=87
+SKIPISO t=51/43 u=87
+GENS2 u=-87/23 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-129/55 u=-87/23
+SKIPISO t=-129/55 u=-87/23
+GENS2 u=-87/37 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-117/31 u=-87/37
+SKIPISO t=-117/31 u=-87/37
+GENS2 u=-87/41 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-33/8 u=-87/41
+SKIPISO t=-33/8 u=-87/41
+GENS2 u=-87 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=9/11 u=-87
+SKIPISO t=9/11 u=-87
+GENS2 u=87/2 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=117/85 u=87/2
+SKIPISO t=117/85 u=87/2
+GENS2 u=87/79 bounds=[3,3] cands=12 indep=3
+GENS2 u=-87/7 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=-9/47 u=-87/7
+SKIPISO t=-9/47 u=-87/7
+GENS2 u=-87/19 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-99/53 u=-87/19
+SKIPISO t=-99/53 u=-87/19
+GENS2 u=-87/17 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-21/13 u=-87/17
+SKIPISO t=-21/13 u=-87/17
+GENS2 u=-87/49 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-81/17 u=-87/49
+SKIPISO t=-81/17 u=-87/49
+GENSHORT u=-87/4 target=2 indep=1 cands=3
+GENS2 u=-87/4 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=27/91 u=-87/4
+SKIPISO t=27/91 u=-87/4
+GENSHORT u=-87/14 target=2 indep=1 cands=2
+GENS2 u=-87/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-123/101 u=-87/14
+SKIPISO t=-123/101 u=-87/14
+GENS2 u=-88/5 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=13/93 u=-88/5
+SKIPISO t=13/93 u=-88/5
+GENS2 u=-88/13 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-107/101 u=-88/13
+SKIPISO t=-107/101 u=-88/13
+GENS2 u=-88/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=43/91 u=-88/3
+SKIPISO t=43/91 u=-88/3
+GENSHORT u=-88 target=2 indep=1 cands=2
+GENS2 u=-88 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=73/89 u=-88
+SKIPISO t=73/89 u=-88
+GENS2 u=88/3 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=133/85 u=88/3
+SKIPISO t=133/85 u=88/3
+GENSHORT u=88 target=2 indep=1 cands=2
+GENS2 u=88 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=103/87 u=88
+SKIPISO t=103/87 u=88
+GENSHORT u=-88/15 target=2 indep=1 cands=2
+GENS2 u=-88/15 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-137/103 u=-88/15
+SKIPISO t=-137/103 u=-88/15
+GENS2 u=-88/9 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-47/97 u=-88/9
+SKIPISO t=-47/97 u=-88/9
+GENS2 u=-87/89 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-78/11 u=-87/89
+SKIPISO t=-78/11 u=-87/89
+GENS2 u=-71/89 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-79/10 u=-71/89
+SKIPISO t=-79/10 u=-71/89
+GENS2 u=73/89 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-88 u=73/89
+SKIPISO t=-88 u=73/89
+GENSHORT u=-89/8 target=2 indep=1 cands=2
+GENS2 u=-89/8 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-31/97 u=-89/8
+SKIPISO t=-31/97 u=-89/8
+GENS2 u=-89/7 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-1/6 u=-89/7
+SKIPISO t=-1/6 u=-89/7
+GENS2 u=-89/55 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-46/9 u=-89/55
+SKIPISO t=-46/9 u=-89/55
+GENS2 u=-89/35 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-109/31 u=-89/35
+SKIPISO t=-109/31 u=-89/35
+GENS2 u=-89/5 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=7/47 u=-89/5
+SKIPISO t=7/47 u=-89/5
+GENS2 u=89 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=13/11 u=89
+SKIPISO t=13/11 u=89
+GENS2 u=-89/9 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-23/49 u=-89/9
+SKIPISO t=-23/49 u=-89/9
+GENS2 u=-89/25 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-143/57 u=-89/25
+SKIPISO t=-143/57 u=-89/25
+GENSHORT u=41/89 target=2 indep=1 cands=2
+GENS2 u=41/89 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-86/3 u=41/89
+SKIPISO t=-86/3 u=41/89
+GENS2 u=89/49 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=103/5 u=89/49
+SKIPISO t=103/5 u=89/49
+GENS2 u=89/33 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=73/7 u=89/33
+SKIPISO t=73/7 u=89/33
+GENSHORT u=-89/63 target=2 indep=1 cands=2
+GENS2 u=-89/63 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-107/19 u=-89/63
+SKIPISO t=-107/19 u=-89/63
+GENSHORT u=-89/31 target=2 indep=1 cands=3
+GENS2 u=-89/31 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-47/15 u=-89/31
+SKIPISO t=-47/15 u=-89/31
+GENS2 u=-89/13 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-53/51 u=-89/13
+SKIPISO t=-53/51 u=-89/13
+GENSHORT u=-89/14 target=2 indep=1 cands=2
+GENS2 u=-89/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-121/103 u=-89/14
+SKIPISO t=-121/103 u=-89/14
+GENS2 u=-89/4 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=29/93 u=-89/4
+SKIPISO t=29/93 u=-89/4
+GENS2 u=89/73 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=74 u=89/73
+SKIPISO t=74 u=89/73
+GENS2 u=89/7 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=97/41 u=89/7
+SKIPISO t=97/41 u=89/7
+GENS2 u=-89/43 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-139/33 u=-89/43
+SKIPISO t=-139/33 u=-89/43
+GENSHORT u=-89/6 target=2 indep=1 cands=2
+GENS2 u=-89/6 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-1/95 u=-89/6
+SKIPISO t=-1/95 u=-89/6
+GENSHORT u=-89/12 target=2 indep=1 cands=2
+GENS2 u=-89/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-91/101 u=-89/12
+SKIPISO t=-91/101 u=-89/12
+GENS2 u=-89 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=37/45 u=-89
+SKIPISO t=37/45 u=-89
+GENS2 u=-89/71 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-61/10 u=-89/71
+SKIPISO t=-61/10 u=-89/71
+GENS2 u=89/25 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=29/4 u=89/25
+SKIPISO t=29/4 u=89/25
+GENSHORT u=9/89 target=2 indep=1 cands=2
+GENS2 u=9/89 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-84/5 u=9/89
+SKIPISO t=-84/5 u=9/89
+GENS2 u=-23/89 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-82/7 u=-23/89
+SKIPISO t=-82/7 u=-23/89
+GENS2 u=-89/17 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-83/53 u=-89/17
+SKIPISO t=-83/53 u=-89/17
+GENS2 u=-89/15 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-17/13 u=-89/15
+SKIPISO t=-17/13 u=-89/15
+GENS2 u=57/89 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-87/2 u=57/89
+SKIPISO t=-87/2 u=57/89
+GENS2 u=89/21 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=101/17 u=89/21
+SKIPISO t=101/17 u=89/21
+GENS2 u=89/2 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=119/87 u=89/2
+SKIPISO t=119/87 u=89/2
+GENS2 u=25/89 bounds=[4,4] cands=12 indep=4
+FIBSURV Sig=2 t=-85/4 u=25/89
+SKIPISO t=-85/4 u=25/89
+GENSHORT u=-89/21 target=2 indep=1 cands=2
+GENS2 u=-89/21 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-113/55 u=-89/21
+SKIPISO t=-113/55 u=-89/21
+GENS2 u=-89/27 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=-79/29 u=-89/27
+SKIPISO t=-79/29 u=-89/27
+GENSHORT u=90 target=2 indep=1 cands=3
+GENS2 u=90 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=105/89 u=90
+SKIPISO t=105/89 u=90
+GENS2 u=-90/13 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-105/103 u=-90/13
+SKIPISO t=-105/103 u=-90/13
+GENS2 u=-90/7 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-15/97 u=-90/7
+SKIPISO t=-15/97 u=-90/7
+GENS2 u=-90 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=75/91 u=-90
+SKIPISO t=75/91 u=-90
+GENS2 u=-91 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=19/23 u=-91
+SKIPISO t=19/23 u=-91
+GENS2 u=91/67 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=137/3 u=91/67
+SKIPISO t=137/3 u=91/67
+GENS2 u=91/23 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=109/17 u=91/23
+SKIPISO t=109/17 u=91/23
+GENS2 u=-91/8 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-29/99 u=-91/8
+SKIPISO t=-29/99 u=-91/8
+GENS2 u=-91/33 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-101/31 u=-91/33
+SKIPISO t=-101/31 u=-91/33
+GENS2 u=-91/29 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-43/15 u=-91/29
+SKIPISO t=-43/15 u=-91/29
+GENS2 u=43/91 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-88/3 u=43/91
+SKIPISO t=-88/3 u=43/91
+GENSHORT u=-91/45 target=2 indep=1 cands=2
+GENS2 u=-91/45 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-73/17 u=-91/45
+SKIPISO t=-73/17 u=-91/45
+GENS2 u=-91/4 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=31/95 u=-91/4
+SKIPISO t=31/95 u=-91/4
+GENS2 u=75/91 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-90 u=75/91
+SKIPISO t=-90 u=75/91
+GENSHORT u=27/91 target=2 indep=1 cands=2
+GENS2 u=27/91 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-87/4 u=27/91
+SKIPISO t=-87/4 u=27/91
+GENS2 u=-53/91 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-82/9 u=-53/91
+SKIPISO t=-82/9 u=-53/91
+GENSHORT u=-91/23 target=2 indep=1 cands=2
+GENS2 u=-91/23 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-127/57 u=-91/23
+SKIPISO t=-127/57 u=-91/23
+GENS2 u=-85/91 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-80/11 u=-85/91
+SKIPISO t=-80/11 u=-85/91
+GENS2 u=91/15 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=79/19 u=91/15
+SKIPISO t=79/19 u=91/15
+GENS2 u=91/51 bounds=[3,3] cands=9 indep=3
+FIBSURV Sig=2 t=107/5 u=91/51
+SKIPISO t=107/5 u=91/51
+GENSHORT u=-91/53 target=3 indep=2 cands=5
+GENS2 u=-91/53 bounds=[3,3] cands=5 indep=2
+FIBSURV Sig=2 t=-44/9 u=-91/53
+SKIPISO t=-44/9 u=-91/53
+GENSHORT u=91/5 target=2 indep=1 cands=2
+GENS2 u=91/5 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=83/43 u=91/5
+SKIPISO t=83/43 u=91/5
+GENS2 u=-69/91 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-81/10 u=-69/91
+SKIPISO t=-81/10 u=-69/91
+GENS2 u=91/31 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=139/15 u=91/31
+SKIPISO t=139/15 u=91/31
+GENS2 u=91/59 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=61/2 u=91/59
+SKIPISO t=61/2 u=91/59
+GENS2 u=91/9 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=113/41 u=91/9
+SKIPISO t=113/41 u=91/9
+GENSHORT u=-91/19 target=2 indep=1 cands=2
+GENS2 u=-91/19 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-97/55 u=-91/19
+SKIPISO t=-97/55 u=-91/19
+GENS2 u=-91/6 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=1/97 u=-91/6
+SKIPISO t=1/97 u=-91/6
+GENS2 u=-91/61 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-103/19 u=-91/61
+SKIPISO t=-103/19 u=-91/61
+GENSHORT u=-91/12 target=2 indep=1 cands=2
+GENS2 u=-91/12 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-89/103 u=-91/12
+SKIPISO t=-89/103 u=-91/12
+GENSHORT u=-91/11 target=2 indep=1 cands=3
+GENS2 u=-91/11 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-37/51 u=-91/11
+SKIPISO t=-37/51 u=-91/11
+GENSHORT u=-91/15 target=2 indep=1 cands=3
+GENS2 u=-91/15 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-67/53 u=-91/15
+SKIPISO t=-67/53 u=-91/15
+GENSHORT u=-92/9 target=2 indep=1 cands=2
+GENS2 u=-92/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-43/101 u=-92/9
+SKIPISO t=-43/101 u=-92/9
+GENSHORT u=-92/7 target=3 indep=2 cands=3
+GENS2 u=-92/7 bounds=[3,3] cands=3 indep=2
+FIBSURV Sig=2 t=-13/99 u=-92/7
+SKIPISO t=-13/99 u=-92/7
+GENS2 u=-92/5 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=17/97 u=-92/5
+SKIPISO t=17/97 u=-92/5
+GENSHORT u=92 target=2 indep=1 cands=2
+GENS2 u=92 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=107/91 u=92
+SKIPISO t=107/91 u=92
+GENSHORT u=92/3 target=2 indep=1 cands=2
+GENS2 u=92/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=137/89 u=92/3
+SKIPISO t=137/89 u=92/3
+GENS2 u=-92 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=77/93 u=-92
+SKIPISO t=77/93 u=-92
+GENS2 u=-92/13 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-103/105 u=-92/13
+SKIPISO t=-103/105 u=-92/13
+GENS2 u=93/2 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=123/91 u=93/2
+SKIPISO t=123/91 u=93/2
+GENSHORT u=-93/16 target=2 indep=1 cands=2
+GENS2 u=-93/16 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-147/109 u=-93/16
+SKIPISO t=-147/109 u=-93/16
+GENS2 u=-93/10 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-57/103 u=-93/10
+SKIPISO t=-57/103 u=-93/10
+GENS2 u=-93/35 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-27/8 u=-93/35
+SKIPISO t=-27/8 u=-93/35
+GENS2 u=29/93 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-89/4 u=29/93
+SKIPISO t=-89/4 u=29/93
+GENS2 u=93/5 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=21/11 u=93/5
+SKIPISO t=21/11 u=93/5
+GENSHORT u=-67/93 target=3 indep=2 cands=6
+GENS2 u=-67/93 bounds=[3,3] cands=6 indep=2
+FIBSURV Sig=2 t=-83/10 u=-67/93
+SKIPISO t=-83/10 u=-67/93
+GENS2 u=-35/93 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=-85/8 u=-35/93
+SKIPISO t=-85/8 u=-35/93
+GENSHORT u=-93/67 target=2 indep=1 cands=3
+GENS2 u=-93/67 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=-57/10 u=-93/67
+SKIPISO t=-57/10 u=-93/67
+GENS2 u=93/61 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=63/2 u=93/61
+SKIPISO t=63/2 u=93/61
+GENS2 u=-93/59 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=-99/19 u=-93/59
+SKIPISO t=-99/19 u=-93/59
+GENS2 u=-93/4 bounds=[2,2] cands=10 indep=2
+FIBSURV Sig=2 t=33/97 u=-93/4
+SKIPISO t=33/97 u=-93/4
+GENS2 u=93/13 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=18/5 u=93/13
+SKIPISO t=18/5 u=93/13
+GENS2 u=93 bounds=[2,2] cands=11 indep=2
+FIBSURV Sig=2 t=27/23 u=93
+SKIPISO t=27/23 u=93
+GENSHORT u=93/7 target=2 indep=1 cands=3
+GENS2 u=93/7 bounds=[2,2] cands=3 indep=1
+FIBSURV Sig=2 t=99/43 u=93/7
+SKIPISO t=99/43 u=93/7
+GENS2 u=-93/13 bounds=[2,2] cands=3 indep=2
+FIBSURV Sig=2 t=-51/53 u=-93/13
+SKIPISO t=-51/53 u=-93/13
+GENS2 u=13/93 bounds=[2,2] cands=4 indep=2
+FIBSURV Sig=2 t=-88/5 u=13/93
+SKIPISO t=-88/5 u=13/93
+GENS2 u=-93/43 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-69/17 u=-93/43
+SKIPISO t=-69/17 u=-93/43
+GENS2 u=-93/8 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-27/101 u=-93/8
+SKIPISO t=-27/101 u=-93/8
+GENS2 u=93/37 bounds=[3,3] cands=12 indep=3
+FIBSURV Sig=2 t=81/7 u=93/37
+SKIPISO t=81/7 u=93/37
+GENS2 u=93/53 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=111/5 u=93/53
+SKIPISO t=111/5 u=93/53
+GENS2 u=-93/2 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=63/95 u=-93/2
+SKIPISO t=63/95 u=-93/2
+GENSHORT u=77/93 target=2 indep=1 cands=2
+GENS2 u=77/93 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-92 u=77/93
+SKIPISO t=-92 u=77/93
+GENS2 u=-93/83 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-72/11 u=-93/83
+SKIPISO t=-72/11 u=-93/83
+GENS2 u=-93 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=39/47 u=-93
+SKIPISO t=39/47 u=-93
+GENS2 u=-19/93 bounds=[2,2] cands=6 indep=2
+FIBSURV Sig=2 t=-86/7 u=-19/93
+SKIPISO t=-86/7 u=-19/93
+GENSHORT u=-93/25 target=2 indep=1 cands=2
+GENS2 u=-93/25 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-141/59 u=-93/25
+SKIPISO t=-141/59 u=-93/25
+GENS2 u=-93/17 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-81/55 u=-93/17
+SKIPISO t=-81/55 u=-93/17
+GENSHORT u=-93/14 target=2 indep=1 cands=2
+GENS2 u=-93/14 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-117/107 u=-93/14
+SKIPISO t=-117/107 u=-93/14
+GENS2 u=-93/5 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=9/49 u=-93/5
+SKIPISO t=9/49 u=-93/5
+GENS2 u=-83/93 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-82/11 u=-83/93
+SKIPISO t=-82/11 u=-83/93
+GENS2 u=93/17 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=87/19 u=93/17
+SKIPISO t=87/19 u=93/17
+GENS2 u=94/3 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=139/91 u=94/3
+SKIPISO t=139/91 u=94/3
+GENSHORT u=-94/9 target=2 indep=1 cands=2
+GENS2 u=-94/9 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-41/103 u=-94/9
+SKIPISO t=-41/103 u=-94/9
+GENSHORT u=-94/3 target=2 indep=1 cands=2
+GENS2 u=-94/3 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=49/97 u=-94/3
+SKIPISO t=49/97 u=-94/3
+GENS2 u=-94/15 bounds=[2,2] cands=12 indep=2
+FIBSURV Sig=2 t=-131/109 u=-94/15
+SKIPISO t=-131/109 u=-94/15
+GENSHORT u=-94/7 target=2 indep=1 cands=2
+GENS2 u=-94/7 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-11/101 u=-94/7
+SKIPISO t=-11/101 u=-94/7
+GENS2 u=-94 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=79/95 u=-94
+SKIPISO t=79/95 u=-94
+GENS2 u=-94/11 bounds=[2,2] cands=9 indep=2
+FIBSURV Sig=2 t=-71/105 u=-94/11
+SKIPISO t=-71/105 u=-94/11
+GENSHORT u=-94/13 target=2 indep=1 cands=2
+GENS2 u=-94/13 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=-101/107 u=-94/13
+SKIPISO t=-101/107 u=-94/13
+GENS2 u=-94/5 bounds=[2,2] cands=5 indep=2
+FIBSURV Sig=2 t=19/99 u=-94/5
+SKIPISO t=19/99 u=-94/5
+GENSHORT u=94 target=2 indep=1 cands=2
+GENS2 u=94 bounds=[2,2] cands=2 indep=1
+FIBSURV Sig=2 t=109/93 u=94
+SKIPISO t=109/93 u=94
+GENS2 u=-95/17 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-10/7 u=-95/17
+SKIPISO t=-10/7 u=-95/17
+GENS2 u=-95/21 bounds=[2,2] cands=7 indep=2
+FIBSURV Sig=2 t=-55/29 u=-95/21
+SKIPISO t=-55/29 u=-95/21
+GENS2 u=-95/49 bounds=[2,2] cands=8 indep=2
+FIBSURV Sig=2 t=-40/9 u=-95/49
+SKIPISO t=-40/9 u=-95/49
+GENSHORT-LIST Sig=2: [ <-49/2, 2, 1>, <-49/27, 3, 2>, <-50, 2, 1>, <-50/13, 2, 1>, <-51/10, 2, 1>, <-51/2, 2, 1>, <-51/8, 2, 1>, <-29/51, 2, 1>, <-51/7, 2, 1>, <35/51, 2, 1>, <-53/8, 2, 1>, <-53/6, 2, 1>, <-53/2, 2, 1>, <-53/39, 2, 1>, <-54/11, 2, 1>, <-55/12, 2, 1>, <-1/55, 2, 1>, <-56/11, 2, 1>, <-56/3, 2, 1>, <56/5, 2, 1>, <56, 2, 1>, <-56/5, 2, 1>, <-56/9, 2, 1>, <-57/35, 2, 1>, <-57/55, 2, 1>, <17/57, 2, 1>, <-58/11, 2, 1>, <-59/10, 2, 1>, <-59/2, 2, 1>, <-21/59, 2, 1>, <35/59, 2, 1>, <-59/6, 2, 1>, <-59/12, 2, 1>, <-59/7, 2, 1>, <59/4, 2, 1>, <-59/41, 2, 1>, <11/59, 2, 1>, <-60/11, 2, 1>, <-60/7, 2, 1>, <-61/51, 2, 1>, <-61/8, 2, 1>, <-61/5, 2, 1>, <61/2, 2, 1>, <-61/17, 2, 1>, <-62/7, 2, 1>, <-62, 2, 1>, <62/3, 2, 1>, <-62/5, 2, 1>, <31/63, 2, 1>, <63/2, 2, 1>, <-63/23, 2, 1>, <-1/63, 2, 1>, <47/63, 2, 1>, <-63/11, 2, 1>, <-64/3, 2, 1>, <-64/5, 2, 1>, <-64/7, 2, 1>, <-64/9, 2, 1>, <-64, 2, 1>, <65/2, 2, 1>, <-7/65, 2, 1>, <-65/12, 2, 1>, <-65/9, 2, 1>, <-65/14, 2, 1>, <-65/2, 2, 1>, <-65/8, 2, 1>, <33/65, 3, 2>, <-66/7, 2, 1>, <-66/5, 2, 1>, <-13/67, 2, 1>, <-67/29, 2, 1>, <3/67, 2, 1>, <-67/15, 2, 1>, <-67/45, 2, 1>, <19/67, 2, 1>, <-67/11, 2, 1>, <-67/4, 2, 1>, <-68/7, 2, 1>, <-68/11, 2, 1>, <68, 2, 1>, <-68/5, 2, 1>, <-69/13, 2, 1>, <-69/14, 2, 1>, <29/69, 2, 1>, <-69/2, 2, 1>, <-43/69, 2, 1>, <-69/10, 2, 1>, <70, 2, 1>, <-71/8, 2, 1>, <23/71, 2, 1>, <71/2, 2, 1>, <-71/14, 2, 1>, <-71/33, 2, 1>, <-71/65, 3, 2>, <-49/71, 2, 1>, <-72/11, 2, 1>, <72/5, 2, 1>, <-7/73, 2, 1>, <-73/6, 2, 1>, <-39/73, 2, 1>, <-63/73, 2, 1>, <-73/10, 2, 1>, <-73/21, 2, 1>, <-73/39, 2, 1>, <-73/55, 3, 2>, <-73/14, 2, 1>, <-31/73, 2, 1>, <-73/13, 2, 1>, <74/3, 2, 1>, <-74, 2, 1>, <-74/13, 2, 1>, <-75/14, 2, 1>, <59/75, 2, 1>, <19/75, 2, 1>, <-13/75, 2, 1>, <-61/75, 2, 1>, <-76/13, 2, 1>, <-76/15, 2, 1>, <-77/13, 2, 1>, <37/77, 2, 1>, <5/77, 2, 1>, <-77/4, 2, 1>, <-3/77, 2, 1>, <-77/5, 2, 1>, <-77/67, 2, 1>, <-77/6, 2, 1>, <-77/25, 2, 1>, <-77/31, 2, 1>, <-77/10, 2, 1>, <-77/75, 2, 1>, <-77/12, 2, 1>, <77/2, 2, 1>, <-78/7, 2, 1>, <-78/11, 2, 1>, <-78, 2, 1>, <-79/23, 2, 1>, <-41/79, 2, 1>, <31/79, 2, 1>, <-79/4, 2, 1>, <-79/33, 2, 1>, <-33/79, 2, 1>, <47/79, 2, 1>, <80, 2, 1>, <-80/3, 2, 1>, <-80/13, 2, 1>, <-80/11, 2, 1>, <81/2, 2, 1>, <-81/25, 2, 1>, <-31/81, 2, 1>, <-81/8, 2, 1>, <-81/14, 2, 1>, <-81/10, 2, 1>, <17/81, 2, 1>, <82/3, 2, 1>, <-82, 2, 1>, <-82/15, 2, 1>, <83/13, 2, 1>, <-83/14, 3, 2>, <-29/83, 2, 1>, <35/83, 2, 1>, <-83/6, 2, 1>, <-61/83, 3, 2>, <84, 2, 1>, <-84, 2, 1>, <-84/5, 2, 1>, <37/85, 2, 1>, <69/85, 2, 1>, <-85/4, 2, 1>, <21/85, 2, 1>, <-85/14, 2, 1>, <-85/67, 2, 1>, <-85/21, 2, 1>, <-27/85, 2, 1>, <-86/7, 2, 1>, <-86/9, 2, 1>, <-86/11, 2, 1>, <-86, 2, 1>, <71/87, 2, 1>, <7/87, 2, 1>, <23/87, 2, 1>, <-87/4, 2, 1>, <-87/14, 2, 1>, <-88, 2, 1>, <88, 2, 1>, <-88/15, 2, 1>, <-89/8, 2, 1>, <41/89, 2, 1>, <-89/63, 2, 1>, <-89/31, 2, 1>, <-89/14, 2, 1>, <-89/6, 2, 1>, <-89/12, 2, 1>, <9/89, 2, 1>, <-89/21, 2, 1>, <90, 2, 1>, <-91/45, 2, 1>, <27/91, 2, 1>, <-91/23, 2, 1>, <-91/53, 3, 2>, <91/5, 2, 1>, <-91/19, 2, 1>, <-91/12, 2, 1>, <-91/11, 2, 1>, <-91/15, 2, 1>, <-92/9, 2, 1>, <-92/7, 3, 2>, <92, 2, 1>, <92/3, 2, 1>, <-93/16, 2, 1>, <-67/93, 3, 2>, <-93/67, 2, 1>, <93/7, 2, 1>, <77/93, 2, 1>, <-93/25, 2, 1>, <-93/14, 2, 1>, <-94/9, 2, 1>, <-94/3, 2, 1>, <-94/7, 2, 1>, <-94/13, 2, 1>, <94, 2, 1> ]
+SEARCH_DONE 2266sigfib2 Sig=2 fibers=1673 proc=937 complete=715 genshort=220 nobase=0 rbopen=2 satfix=0 satwarn=0 mwskip=0 surv=932 deck=932 funneled=0 curves=0 aborts=0 known=0 hits=0 fails=0 877.330 s
+DRIVER: natural end (attempt 1, rc=0)

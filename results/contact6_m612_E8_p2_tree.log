@@ -1,0 +1,6 @@
+chart polynomials verified symbolically
+chart w,e : node explosion (8192) at depth 8 -- report and stop
+chart 1/W,e : node explosion (8192) at depth 8 -- report and stop
+chart w,1/E : tree DIED at depth 5  => no smooth Q_2 point in chart
+chart 1/W,1/E : tree DIED at depth 1  => no smooth Q_2 point in chart
+E8_P2_TREE_DONE

@@ -1,0 +1,3 @@
+TARGET_22224_DIRECT_CONTACT_VERIFY_START results/target_22224_direct_contact_deep13_padic_tangent_crt.tsv lines 155
+RECORD_CONTROL identity true split true branches [ 1183/209760, 17238221/91665120, 41327/209760, 100793/209760 ]
+TARGET_22224_DIRECT_CONTACT_VERIFY_DONE rows 154 split 0 cover_presentations 0 jacobian_tests 0 hits 0

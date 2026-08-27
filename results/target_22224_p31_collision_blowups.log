@@ -1,0 +1,57 @@
+TARGET_22224_P31_COLLISION_BLOWUPS_START
+EXACT_IDENTITY R-S=(x-1)(y-1)(z-1)
+EXACT_INTERNAL x=y R=(x-1)^2(2x+1)/x^2 S=(x-1)^2(x+2)/x
+EXACT_EXTERNAL S-xR=-(x-1)^3/x
+KUMMER K0=D Ki=wi*prod_(j!=i)(wi+wj) product(Ki)=D*square
+FINITE_CONTROL p 29 smooth_sheets 384 kummer_target_sheets 24 expected 24 presentations 72 collision_sheets 720 match True
+FINITE_CONTROL p 31 smooth_sheets 192 kummer_target_sheets 0 expected 0 presentations 0 collision_sheets 768 match True
+FINITE_CONTROL p 37 smooth_sheets 768 kummer_target_sheets 24 expected 24 presentations 72 collision_sheets 848 match True
+FINITE_CONTROL p 41 smooth_sheets 768 kummer_target_sheets 72 expected 72 presentations 216 collision_sheets 1104 match True
+P31_COLLISION_SHEETS 768 file results/target_22224_p31_collision_blowups_residue.tsv
+P31_STRATUM AB + dead_nonsquare_unit 16
+P31_STRATUM AB - dead_nonsquare_unit 12
+P31_STRATUM AB - deep_zero_factor 4
+P31_STRATUM AC + dead_nonsquare_unit 16
+P31_STRATUM AC - dead_nonsquare_unit 12
+P31_STRATUM AC - deep_zero_factor 4
+P31_STRATUM AD + dead_nonsquare_unit 100
+P31_STRATUM AD + resolved_unit_square 12
+P31_STRATUM AD - dead_nonsquare_unit 56
+P31_STRATUM AD - deep_zero_factor 56
+P31_STRATUM BC + dead_nonsquare_unit 16
+P31_STRATUM BC - dead_nonsquare_unit 12
+P31_STRATUM BC - deep_zero_factor 4
+P31_STRATUM BD + dead_nonsquare_unit 100
+P31_STRATUM BD + resolved_unit_square 12
+P31_STRATUM BD - dead_nonsquare_unit 56
+P31_STRATUM BD - deep_zero_factor 56
+P31_STRATUM CD + dead_nonsquare_unit 100
+P31_STRATUM CD + resolved_unit_square 12
+P31_STRATUM CD - dead_nonsquare_unit 56
+P31_STRATUM CD - deep_zero_factor 56
+INTERNAL_NORMAL_CONSTANT_LEGENDRES {(1, -1): 12}
+EXTERNAL_NORMAL_CONSTANT_LEGENDRES {(-1, -1): 84, (1, 1): 84}
+INTERNAL_STRICT_TRANSFORM potential_residue_sheets 12 constant_legendres (+1,-1) conclusion all_smooth_depths_killed
+INTERNAL_P2 total 92256 resolved_live 0 killed 92256 deep 0
+INTERNAL_P3_FROM_DEEP total 0 resolved_live 0 killed 0 deep 0
+EXTERNAL_P2 total 645792 resolved_live 34596 killed 605988 deep 5208
+EXTERNAL_P3_FROM_DEEP total 5004888 resolved_live 2421720 killed 2421720 deep 161448
+ALL_SIX_P2 total 738048 resolved_live 34596 killed 698244 deep 5208
+ALL_SIX_P3_FROM_DEEP total 5004888 resolved_live 2421720 killed 2421720 deep 161448
+RS_EXCEPTIONAL_FILE results/target_22224_p31_collision_blowups_rs_intersection.tsv
+RS_EXCEPTIONAL all_plus resolved_live 15
+RS_EXCEPTIONAL balanced_+--+ killed 11
+RS_EXCEPTIONAL balanced_+--+ resolved_live 2
+RS_EXCEPTIONAL balanced_+--+ tower_odd_m_c_nonsquare 1
+RS_EXCEPTIONAL balanced_+--+ tower_odd_m_c_square 1
+RS_EXCEPTIONAL balanced_-+-+ killed 11
+RS_EXCEPTIONAL balanced_-+-+ resolved_live 2
+RS_EXCEPTIONAL balanced_-+-+ tower_odd_m_c_nonsquare 2
+RS_EXCEPTIONAL balanced_--++ killed 11
+RS_EXCEPTIONAL balanced_--++ resolved_live 2
+RS_EXCEPTIONAL balanced_--++ tower_odd_m_c_square 2
+RS_EXCEPTIONAL base dead_nonsquare 15
+RS_EXCEPTIONAL base killed_odd_split 2
+RS_QSQUARE_DIRECTION_SUMMARY Q_square 15 Q_nonsquare 15 Q_zero_killed_odd_split 2 generic_sheet_resolved_live 42 generic_sheet_killed 186 balanced_intersection_tower_sheets 12
+BALANCED_RATIONAL_SEARCH height 300 tested 328773 open_hits 0 degenerate_hits 10 file results/target_22224_p31_collision_blowups_balanced_rational.tsv
+TARGET_22224_P31_COLLISION_BLOWUPS_DONE

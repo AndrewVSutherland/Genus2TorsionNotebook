@@ -1,0 +1,14 @@
+S1_GLOBAL13_CLASSES_START depth 5 period 30758 classes 61516 formal_step_v 5 local_information <13, 4, 1, 2, I4, false> bank_keys 144 precision 120 block_size 1 base_point (440168/121 : 292107900/1331 : 1) base_t 314319221/337351087 base_key <1, 8371, 86230, 95861> base_key_in_bank false
+S1_GLOBAL13_VALUATION_DISTRIBUTION
+-12,-12 24
+-15,-15 1
+-6,-6 4056
+-9,-9 312
+0,0 21971
+1,1 30758
+116,116 1
+2,2 4056
+3,3 312
+4,4 24
+5,5 1
+S1_GLOBAL13_CLASSES_DONE tested 61516 unique_keys 508 basepoints 1 bank_hits 0 parent_period 2366 parent_mismatches 0 output results/target_22224_S1_global13_classes_depth5.tsv

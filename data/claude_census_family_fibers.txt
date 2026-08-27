@@ -1,0 +1,20 @@
+FIBER|control66|inv=[ 6, 6 ]|strictprime=37
+FIBER|contact6(a=1,b=1)|inv=[ 2, 6 ]|strictprime=0
+FIBER|contact6(a=2,b=-1)|inv=[ 2, 6 ]|strictprime=29
+FIBER|contact6(a=3,b=1)|inv=[ 2, 6 ]|strictprime=29
+FIBER|contact7(a=1,b=1)|inv=[ 7 ]|strictprime=5
+FIBER|contact7(a=2,b=1)|inv=[ 7 ]|strictprime=5
+FIBER|contact7(a=1,b=-1)|inv=[ 7 ]|strictprime=7
+FIBER|contact7(a=3,b=2)|inv=[ 7 ]|strictprime=17
+FIBER|M12plain(a=1,r=3)|inv=[ 6 ]|strictprime=13
+FIBER|M12plain(a=2,r=3)|inv=[ 6 ]|strictprime=11
+FIBER|M12plain(a=1,r=-2)|inv=[ 6 ]|strictprime=13
+FIBER|M12plain(a=3,r=2)|inv=[ 6 ]|strictprime=11
+FIBER|M12z(r=3,z=2)|inv=[ 12 ]|strictprime=13
+FIBER|M12z(r=2,z=3)|inv=[ 12 ]|strictprime=11
+FIBER|M12z(r=5,z=2)|inv=[ 12 ]|strictprime=17
+FIBER|M12z(r=3,z=4)|inv=[ 12 ]|strictprime=11
+FIBER|Z2xZ12(r=3)|inv=[ 2, 12 ]|strictprime=17
+FIBER|Z2xZ12(r=5)|inv=[ 2, 12 ]|strictprime=11
+FIBER|Z2xZ12(r=-3)|inv=[ 2, 12 ]|strictprime=7
+FIBERS_DONE

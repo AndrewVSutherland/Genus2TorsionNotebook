@@ -1,0 +1,122 @@
+R tridegree (3,3,3)
+
+=== (A) X-bar in P1xP1xP1 : tridegree (3,3,3) ===
+dim X-bar = 2, irreducible = true
+singular subscheme: dim = 0
+singular locus has 14 irreducible components:
+   dim 0  points (Segre model): {@ (0 : 0 : 0 : -1/2 : 0 : 0 : 0 : 1) @}
+     equations: [
+a0 + 1/2*a1,
+b0,
+c0v
+]
+   dim 0  points (Segre model): {@ (-1 : 1 : 1 : -1 : 1 : -1 : -1 : 1) @}
+     equations: [
+a0 + a1,
+b0 + b1,
+c0v + c1v
+]
+   dim 0  points (Segre model): {@ (1 : 1 : -1 : -1 : -1 : -1 : 1 : 1) @}
+     equations: [
+a0 + a1,
+b0 + b1,
+c0v - c1v
+]
+   dim 0  points (Segre model): {@ (1 : 0 : -1 : 0 : -1 : 0 : 1 : 0) @}
+     equations: [
+a0 + a1,
+b0 + b1,
+c1v
+]
+   dim 0  points (Segre model): {@ (1 : -1 : 1 : -1 : -1 : 1 : -1 : 1) @}
+     equations: [
+a0 + a1,
+b0 - b1,
+c0v + c1v
+]
+   dim 0  points (Segre model): {@ (1 : -1 : 0 : 0 : -1 : 1 : 0 : 0) @}
+     equations: [
+a0 + a1,
+b1,
+c0v + c1v
+]
+   dim 0  points (Segre model): {@ (-1 : 0 : 0 : 0 : 1 : 0 : 0 : 0) @}
+     equations: [
+a0 + a1,
+b1,
+c1v
+]
+   dim 0  points (Segre model): {@ (1 : -1 : -1 : 1 : 1 : -1 : -1 : 1) @}
+     equations: [
+a0 - a1,
+b0 + b1,
+c0v + c1v
+]
+   dim 0  points (Segre model): {@ (0 : 0 : 0 : 0 : 0 : -1/2 : 0 : 1) @}
+     equations: [
+a0,
+b0 + 1/2*b1,
+c0v
+]
+   dim 0  points (Segre model): {@ (0 : 0 : 0 : 0 : 0 : 0 : -1/2 : 1) @}
+     equations: [
+a0,
+b0,
+c0v + 1/2*c1v
+]
+   dim 0  points (Segre model): {@ (0 : 0 : 0 : 0 : 0 : 0 : 0 : 1) @}
+     equations: [
+a0,
+b0,
+c0v
+]
+   dim 0  points (Segre model): {@ (1 : -1 : -1 : 1 : 0 : 0 : 0 : 0) @}
+     equations: [
+a1,
+b0 + b1,
+c0v + c1v
+]
+   dim 0  points (Segre model): {@ (-1 : 0 : 1 : 0 : 0 : 0 : 0 : 0) @}
+     equations: [
+a1,
+b0 + b1,
+c1v
+]
+   dim 0  points (Segre model): {@ (-1 : 1 : 0 : 0 : 0 : 0 : 0 : 0) @}
+     equations: [
+a1,
+b1,
+c0v + c1v
+]
+adjunction: K_Xbar = (-2,-2,-2)+(3,3,3) = O(1,1,1)|_Xbar, AMPLE; K^2 = 18
+=> X is of GENERAL TYPE if the singularities above are canonical.
+
+=== (B) e-model: R quadratic in e3, branch = Disc_e3(R) ===
+R (e-model) = 2*E1^2*E2 + 4*E1*E2^2 + 4*E1*E2*E3 + E1*E2 - 2*E1*E3 + 2*E2^3 + 4*E2^2*E3 + 2*E2*E3^2 - 4*E2*E3 - 4*E3^2 - E3
+Disc_e3(R) = 16*e1^2*e2 + 4*e1^2 + 8*e1*e2^2 + 24*e1*e2 + 4*e1 + 8*e2^2 + 8*e2 + 1
+  total degree = 3
+  factorisation = [
+<e1^2*e2 + 1/4*e1^2 + 1/2*e1*e2^2 + 3/2*e1*e2 + 1/4*e1 + 1/2*e2^2 + 1/2*e2 + 1/16, 1>
+] (unit 16)
+projective branch curve: degree 3, geometric genus 0, singular points {@ (-1/2 : 0 : 1) @}
+arithmetic genus of a smooth plane quartic = 3
+=> branch curve is singular / not a quartic; the double cover is a
+   (possibly singular) degree-2 del Pezzo or a weak dP2.
+
+e-images of the eleven known X(Q)-points, and Disc value (square iff e3 rational):
+  (e1,e2,e3) = (-167/14, 20, -50/7)   R=0   Disc=270400/49 square=true
+  (e1,e2,e3) = (-665/88, 225/16, -1125/176)   R=0   Disc=7338681/30976 square=true
+  (e1,e2,e3) = (-87/20, 9/2, -27/20)   R=0   Disc=44521/100 square=true
+  (e1,e2,e3) = (-481/152, 45/16, -225/304)   R=0   Disc=13950225/92416 square=true
+  (e1,e2,e3) = (-3697/14994, -25/441, 100/7497)   R=0   Disc=283922500/2754045441 square=true
+  (e1,e2,e3) = (-1412/3825, -16/225, 64/3825)   R=0   Disc=32041/365765625 square=true
+  (e1,e2,e3) = (-739217/76250, 7154/625, -261121/76250)   R=0   Disc=5328914736341056/908447265625 square=true
+  (e1,e2,e3) = (-1262217/189584, 27225/2312, -898425/189584)   R=0   Disc=1141454942430625/2596816223296 square=true
+  (e1,e2,e3) = (-128209/214434, -656/3249, 13448/107217)   R=0   Disc=11079205159936/37348831054161 square=true
+  (e1,e2,e3) = (-273173/1143450, -2312/27225, 9826/571725)   R=0   Disc=16582943150656/355960858955625 square=true
+  (e1,e2,e3) = (-619/1225, -13/196, 169/4900)   R=0   Disc=1493284/73530625 square=true
+
+NOTE: Xe being (uni)rational does NOT give [2,2,14] curves -- the cubic
+T^3-e1T^2+e2T-e3 must SPLIT COMPLETELY.  That splitting cover is X itself,
+which is of general type (A).  This is the precise obstruction.
+LANE1_GEOMETRY_DONE

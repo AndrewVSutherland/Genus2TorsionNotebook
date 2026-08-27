@@ -1,0 +1,64 @@
+S1_GLOBAL13_PROBE_START
+E Elliptic Curve defined by y^2 = x^3 + x^2 + 3392*x + 62288 over Rational Field
+discriminant -4112784000000 v13 4
+gens [ (-17 : 0 : 1), (152 : -2028 : 1) ]
+free [ (152 : -2028 : 1) ]
+tors [ (0 : 1 : 0), (-17 : 0 : 1) ]
+raw_map [
+17689/20449*$.1 - 7786131752/2474329*$.3,
+-1581838825/32166277*$.1 + 2352637/2924207*$.2 + 74801474300/32166277*$.3,
+$.3
+]
+curve_map [
+$.2*$.3,
+2*$.1^3*$.3 + 15363705000/2474329*$.1^2*$.3^2 - 178850/1573*$.1*$.2*$.3^2 - $.2^2*$.3^2,
+2*$.1*$.3 + $.2*$.3
+]
+t_num_integral -89425*Xw + 1463*Yw + 4228700*Zw
+t_den_integral -86279*Xw + 1463*Yw - 7215668*Zw
+nvec [ -89425, 1463, 4228700 ]
+dvec [ -86279, 1463, -7215668 ]
+base_intersection [ -4841848, -292107900, -1331 ]
+base_curve_value 0 valuation13 Infinity
+base_point_on_E (440168/121 : 292107900/1331 : 1)
+base_point_MW 3 2
+cInvariants [ -162800, -52840000 ]
+local_information <13, 4, 1, 2, I4, false>
+reduced_cubic_factorization [
+<X + 4, 2>,
+<X + 6, 1>
+]
+multiple 1 vx 0 vy 2
+multiple 2 vx 0 vy 0
+multiple 3 vx 0 vy 2
+multiple 4 vx 0 vy 0
+multiple 5 vx 0 vy 2
+multiple 6 vx 0 vy 0
+multiple 7 vx 0 vy 4
+multiple 8 vx 0 vy 0
+multiple 9 vx 0 vy 2
+multiple 10 vx 0 vy 0
+multiple 11 vx 0 vy 2
+multiple 12 vx 0 vy 0
+multiple 13 vx 0 vy 2
+multiple 14 vx -4 vy -6
+multiple 15 vx 0 vy 2
+multiple 16 vx 0 vy 0
+multiple 17 vx 0 vy 2
+multiple 18 vx 0 vy 0
+multiple 19 vx 0 vy 2
+multiple 20 vx 0 vy 0
+oG_vx -4 oG_vy -6
+oG_formal_z -572118456809105970995020195410622617673740958405794986874623789113451875070751076264761891158610293486*13^2 + O(13^94) valuation 2
+formal_depth 1 mult 14 zval 2
+formal_depth 2 mult 182 zval 3
+formal_depth 3 mult 2366 zval 4
+formal_depth 4 mult 30758 zval 5
+formal_depth 5 mult 399854 zval 6
+formal_depth 6 mult 5198102 zval 7
+formal_depth 7 mult 67575326 zval 8
+near_base_depth 5 m 30761 vN 5 vD 5
+near_base_depth 6 m 399857 vN 6 vD 6
+near_base_depth 7 m 5198105 vN 7 vD 7
+near_base_depth 8 m 67575329 vN 8 vD 8
+S1_GLOBAL13_PROBE_DONE

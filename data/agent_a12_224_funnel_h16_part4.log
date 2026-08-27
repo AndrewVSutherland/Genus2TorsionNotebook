@@ -1,0 +1,7 @@
+SEARCH pH=16 zH=16 vH=16 Part=4/6  (r = (v^2-p^2)/p)
+PROGRESS tested=500000 funnelpass=0 halvable=0
+
+Current total memory usage: 2189.4MB, failed memory request: 681.0MB
+System Error: User memory limit has been reached
+SEARCH_DONE tested=513210 funnelpass=0 halvable=0
+DONE

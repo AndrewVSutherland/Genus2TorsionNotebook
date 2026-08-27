@@ -1,0 +1,36 @@
+# New exact split-torsion witnesses, session 2026-08-12.
+# All curves y^2 = g(x), Jacobian geometrically split (L-polynomial reducible
+# at every good prime tested < 200; explicit elliptic factors via a rational
+# Richelot isogeny to a product).  Exact torsion by Magma TorsionSubgroup on
+# the integral model; independent verification logs:
+#   product/logs/verify_witnesses.log, product/logs/verify_witnesses2.log
+# Construction: Genus2Elliptic2 (BHLS/HLP (2,2)-gluing; genus2.m at repo root).
+#
+# format: torsion | g coefficients [c0,...,c6] | provenance | elliptic factors (cond, torsion)
+#
+# The first two rows are exact witnesses from earlier stages of this project
+# (they complete the six rows marked "new" in paper/split_torsion_table.tex);
+# their verification artifacts are the repo files cited in the provenance.
+
+[45] | [168300000000,0,49996210000,0,29240200,0,13981] | lane-8 split anchor bank, session 2026-07-25 (HLP sec. 3.6 family instance); exact torsion + split certificate in results/claude_ov_lane8_verify.log | cond 38130 [5] x cond 15810 [9]
+[2,2,4,4] | y^2+(x^2+x)y = 60x^5+1000x^4-671x^3-5657x^2+867x+4913 | gluing 210.c5 x 2310.o4 (split-census session 2026-08-14, branch agent/torsion-cover-followups, notes/split_census_2026_08_13.md); exact torsion [2,2,4,4] and splitness verified 2026-08-22: RichelotIsogenousSurfaces has the degenerate codomain E1 x E2, conductors 210 and 2310, each with torsion [2,4] | supersedes the source-51 audit quintic x(x+3048806656)(x+3197902500)(x+3873070756)(x+4107528100) (notes/target_2248_source51_audit.md), which remains a valid independent witness
+
+[8,8] | [84285504,-4535664,-4045487,1800118,88597,88596,836] | glue of X1(8)-family fibers t=1/7, t=-5/7 (lane_x1fam) | 82110.bs5 [2,8] x 210.e6 [2,8]
+[8,8] | [-3741868748800,0,246368752516,0,1077715393,0,814016] | glue of LMFDB [2,8]-curves 210.e6 x 46410.ck6 (lane_glue2); even model | 46410.ck6 [2,8] x 210.e6 [2,8]
+[6,12] | [88825,81950,75207,-13354,-6347,396,132] | glue of LMFDB [2,6]-curves 30.a6 x 630.h2 (lane_glue2) | cond 630 [2,6] x 30.a6 [2,6]
+[6,12] | [-15993254144,0,413375730009,0,-178475623260,0,19299418112] | glue of X1(12)-family fibers t=1/7, t=-2 (lane_x1fam); even model | cond 3131310 [12] x cond 274170 [12]
+[2,2,24] | [-1729978236,11223443268,-15881777387,10516435114,-574778279,-4134794160,581449680] | HLP sec.3.7 condition (6) at (t,u)=(241/81,1/3) (their own point y=2/9): E_{2,6}^t x E_{2,8}^u (lane_hlp37) | cond 249690 [2,8] x cond 825330 [2,6]
+[2,2,24] | [0,-32640753600,548428255729,365172573934,-179818919099,-75368404020,21208976100] | HLP sec.3.7 condition (6) at (t,u)=(-95,3/7) (lane_hlp37) | cond 62790 [2,6] x cond 831527970 [2,8]
+[2,2,4,8] | [949701503960100,812225828599020,-1568053362370059,-1006367755763986,860505249465645,289009358554092,-144295356865660] | HLP sec.3.7 condition (5) at (t,u)=(1/6,4/17): E_{2,8}^t x E_{2,8}^u (lane_hlp37) | cond 19291662390 [2,8] x 82110 [2,8]
+
+# HLP universal-curve reconstruction used for lane_hlp37 (from HLP Table 5
+# 2-torsion x-coordinates; runtime-verified torsion [2,6] / [2,8]):
+#   E_{2,6}^t: y^2 = (x-r1)(x-r2)(x-r3),
+#     r1=(-2t+10)/((t+3)(t-3)), r2=(-t^3+7t^2-11t+5)/(4(t+3)(t-3)^2), r3=(-2t^2+4t-2)/((t+3)^2(t-3))
+#   E_{2,8}^u: r1=(16u^3+12u^2+2u)/(8u^2-1)^2, r2=(32u^3+24u^2+8u+1)/(16u^2(8u^2-1)),
+#     r3=(-32u^4-32u^3-12u^2-2u)/((4u+1)^2(8u^2-1))
+
+# Session 2026-08-26 (Q-simple geometrically split constructions; AVS
+# relaxation: gluings over quadratic fields now allowed).
+
+[11] | [9471400,94188680,99564424,-65405928,31412066,-5109634,1204142] | FIRST split realization of [11] (previously simple-only: Ogg 353.a).  Construction: X1(11) quadratic point s0=4/5 on the raw model r^2-r(s^3-3s^2+4s)+s=0 gives E/K, K=Q(sqrt 11), with E(K)tors=[11], j not in Q, non-CM, E NOT isogenous to E^sigma (trace mismatches; no Phi_d relation d<=13); E[2] ~ E^sigma[2] with UNIQUE equivariant iso (S3 2-division field), so the (2,2)-gluing (E x E^sigma)/graph descends to Q (cocycle trivial: x -> 1/x + Hilbert-90); Jacobian is Q-SIMPLE, geometrically split.  Exact torsion [11] by TorsionSubgroup on the minimal model; point-count identities #J(F_p) = #E(k_p1)#E(k_p2) (split) and #E(F_p^2) (inert) verified at fresh primes; construction+validation scripts scratchpad s45*.m, session note notes/claude_split_gaps_campaign_2026_08_26.md; lane product/code/lane_qglue.m | E/Q(sqrt 11) (X1(11) fiber s0=4/5) x conjugate; Norm(cond E) = 2*5^2*11^2

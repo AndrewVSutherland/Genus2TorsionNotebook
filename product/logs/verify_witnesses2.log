@@ -1,0 +1,20 @@
+Loading "/home/claude/torsion_jac/product/code/split_lab.m"
+== WITNESS 2.2.24_hlp37_t=241/81_u=1/3 ==
+g = 581449680*x^6 - 4134794160*x^5 - 574778279*x^4 + 10516435114*x^3 - 15881777387*x^2 + 11223443268*x - 1729978236
+disc(g) = 100 digits
+EXACT TORSION = [ 2, 2, 24 ]
+L-poly reducible at 37/37 good primes < 200
+FACTORS: E1 cond 249690 tors [ 2, 8 ] ainvs [ 1, 0, 0, -673039570, -5895575919100 ] ; E2 cond 825330 tors [ 2, 6 ] ainvs [ 1, 0, 0, -1362433018010, -603188297771007900 ]
+== WITNESS 2.2.24_hlp37_t=-95_u=3/7 ==
+g = 21208976100*x^6 - 75368404020*x^5 - 179818919099*x^4 + 365172573934*x^3 + 548428255729*x^2 - 32640753600*x
+disc(g) = 112 digits
+EXACT TORSION = [ 2, 2, 24 ]
+L-poly reducible at 36/36 good primes < 200
+FACTORS: E1 cond 62790 tors [ 2, 6 ] ainvs [ 1, 0, 0, -2691000050, 53729999002500 ] ; E2 cond 831527970 tors [ 2, 8 ] ainvs [ 1, 0, 0, -5486323681939930, -15321793887819323598748 ]
+== WITNESS 2.2.4.8_hlp37_t=1/6_u=4/17 ==
+g = -144295356865660*x^6 + 289009358554092*x^5 + 860505249465645*x^4 - 1006367755763986*x^3 - 1568053362370059*x^2 + 812225828599020*x + 949701503960100
+disc(g) = 147 digits
+EXACT TORSION = [ 2, 2, 4, 8 ]
+L-poly reducible at 33/33 good primes < 200
+FACTORS: E1 cond 19291662390 tors [ 2, 8 ] ainvs [ 1, 0, 0, -165217981313574668360, 595398048987105563975142081600 ] ; E2 cond 82110 tors [ 2, 8 ] ainvs [ 1, 0, 0, -49423080, 130545230400 ]
+SEARCH_DONE verify2

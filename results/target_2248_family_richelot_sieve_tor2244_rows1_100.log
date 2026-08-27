@@ -1,0 +1,2796 @@
+TARGET_2248_TOR2244_SOURCE_PROBE bank_file paper/scripts_and_data/tor2244.txt start 1 last 100
+CANDIDATE row 1 tuple [ 55944, 64800, 64935, 65160 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 1 tuple [ 55944, 64800, 64935, 65160 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <17, 256, 8>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 1 tuple [ 55944, 64800, 64935, 65160 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 1 tuple [ 55944, 64800, 64935, 65160 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <17, 256, 8>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 1 tuple [ 55944, 64800, 64935, 65160 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 2 tuple [ 63189, 64428, 64605, 65195 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 3 tuple [ 48024, 62424, 64872, 65076 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <31, 1024, 10>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <13, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <13, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 4 tuple [ 58290, 59570, 64824, 65250 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <43, 2240, 6>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <47, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 576, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 576, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <47, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <47, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 5 tuple [ 43384, 61880, 64525, 65416 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 576, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 6 tuple [ 31830, 63750, 64500, 65450 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 7 tuple [ 57876, 63504, 64064, 65136 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 12 fd [ 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 8 tuple [ 17160, 63206, 64090, 65494 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 9 tuple [ 60762, 62118, 64090, 65190 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <31, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <31, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 10 tuple [ 46980, 60885, 64260, 65520 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <19, 576, 6>, <23, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 11 tuple [ 53360, 59860, 64240, 64960 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 11 tuple [ 53360, 59860, 64240, 64960 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 11 tuple [ 53360, 59860, 64240, 64960 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 11 tuple [ 53360, 59860, 64240, 64960 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 11 tuple [ 53360, 59860, 64240, 64960 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 12 tuple [ 25479, 40641, 64308, 65113 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 12 tuple [ 25479, 40641, 64308, 65113 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 12 tuple [ 25479, 40641, 64308, 65113 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 12 tuple [ 25479, 40641, 64308, 65113 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 12 tuple [ 25479, 40641, 64308, 65113 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 13 tuple [ 55998, 63342, 63954, 65331 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 14 tuple [ 54264, 63336, 63714, 64090 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 14 tuple [ 54264, 63336, 63714, 64090 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 14 tuple [ 54264, 63336, 63714, 64090 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 14 tuple [ 54264, 63336, 63714, 64090 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 14 tuple [ 54264, 63336, 63714, 64090 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 16 tuple [ 62163, 62325, 63750, 63987 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 16 tuple [ 62163, 62325, 63750, 63987 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 16 tuple [ 62163, 62325, 63750, 63987 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 16 tuple [ 62163, 62325, 63750, 63987 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 17 tuple [ 61248, 63360, 63600, 63800 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 19 tuple [ 46053, 60372, 63597, 65403 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1856, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 20 tuple [ 36315, 60635, 63531, 65367 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 21 tuple [ 24480, 56160, 63648, 64824 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 22 tuple [ 46546, 55954, 63529, 64046 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <19, 576, 6>, <23, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 22 tuple [ 46546, 55954, 63529, 64046 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 22 tuple [ 46546, 55954, 63529, 64046 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 22 tuple [ 46546, 55954, 63529, 64046 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <19, 576, 6>, <23, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 22 tuple [ 46546, 55954, 63529, 64046 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 23 tuple [ 61992, 62328, 63364, 65436 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 24 tuple [ 56805, 62853, 63297, 64575 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 24 tuple [ 56805, 62853, 63297, 64575 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 24 tuple [ 56805, 62853, 63297, 64575 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 24 tuple [ 56805, 62853, 63297, 64575 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 24 tuple [ 56805, 62853, 63297, 64575 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 25 tuple [ 46561, 62689, 63259, 65311 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 25 tuple [ 46561, 62689, 63259, 65311 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 25 tuple [ 46561, 62689, 63259, 65311 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 25 tuple [ 46561, 62689, 63259, 65311 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 25 tuple [ 46561, 62689, 63259, 65311 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 26 tuple [ 46560, 62640, 63200, 64032 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <29, 576, 6>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <43, 2304, 8>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 27 tuple [ 34563, 62883, 63119, 64911 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <23, 576, 6>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 28 tuple [ 21834, 62826, 63076, 64084 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <31, 1024, 10>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 29 tuple [ 18072, 62853, 63072, 64728 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 29 tuple [ 18072, 62853, 63072, 64728 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 29 tuple [ 18072, 62853, 63072, 64728 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 29 tuple [ 18072, 62853, 63072, 64728 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 29 tuple [ 18072, 62853, 63072, 64728 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 30 tuple [ 57057, 62700, 62985, 63745 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <23, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 31 tuple [ 52320, 61600, 63000, 64092 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1600, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <19, 256, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <19, 256, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 33 tuple [ 17960, 58630, 63040, 63960 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <19, 256, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1856, 6>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 34 tuple [ 26176, 53176, 62986, 65416 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 35 tuple [ 25206, 51906, 63015, 64581 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 35 tuple [ 25206, 51906, 63015, 64581 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 35 tuple [ 25206, 51906, 63015, 64581 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1600, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1600, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 36 tuple [ 51894, 62031, 62744, 64032 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1600, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 37 tuple [ 28125, 62115, 62721, 64575 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 38 tuple [ 54900, 62100, 62700, 64050 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <13, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 39 tuple [ 37230, 57810, 62730, 63690 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <13, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 40 tuple [ 61152, 61740, 62475, 63700 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <23, 576, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 41 tuple [ 10197, 57717, 62568, 65493 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 42 tuple [ 39039, 45936, 62832, 64064 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 43 tuple [ 24525, 38475, 62675, 64200 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1856 red [ <41, 1856, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 44 tuple [ 51874, 61632, 62370, 63090 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <31, 1024, 10>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 44 tuple [ 51874, 61632, 62370, 63090 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 44 tuple [ 51874, 61632, 62370, 63090 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 44 tuple [ 51874, 61632, 62370, 63090 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <31, 1024, 10>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 44 tuple [ 51874, 61632, 62370, 63090 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <47, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 45 tuple [ 60840, 61425, 62361, 63375 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <37, 1024, 10>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 46 tuple [ 19637, 61525, 62225, 63215 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 47 tuple [ 35757, 58707, 62265, 63705 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 768 red [ <37, 1536, 9>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 47 tuple [ 35757, 58707, 62265, 63705 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 47 tuple [ 35757, 58707, 62265, 63705 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <19, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 48 tuple [ 49608, 61992, 62010, 62730 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 49 tuple [ 50778, 60333, 62118, 63882 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1856, 6>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 50 tuple [ 49608, 61200, 62010, 62730 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 960, 6>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <31, 1024, 10>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <31, 1024, 10>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 13 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 4, 8 ]
+order 64
+SOURCE_248_HIT row 51 edge 13 f 16633507796891244495522000000*x^6 + 375731550549005049099490924391400000000*x^5 + 3447221208888787720776161775196774873639200000000*x^4 + 16456130898754906769235131513326699202156076319920000000000*x^3 + 43123997237457252615633029864133903751554732833261910026880000000000*x^2 + 58807184230962976823782682415515634125071264673752545811493818368000000000000*x + 32577753415456012465780736414149987636082659112751024287530345308958752768000000000000
+h 0
+CANDIDATE row 51 tuple [ 55216, 56550, 62234, 64090 ]
+edge 14 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <31, 1024, 10> ]
+torsion [ 2, 4, 8 ]
+order 64
+SOURCE_248_HIT row 51 edge 14 f 12989551065856432869126176768*x^6 + 295796164524739720021370626083974545408*x^5 + 2748353290784038539255728210738243554495747325952*x^4 + 13350477959347411360408202964471618827129547229385103245312*x^3 + 35783969304453712392285176574684359784218084218927389731941934694400*x^2 + 50188422250879990886164967304518984705719436585219315744358490907344896000000*x + 28761251496566834252768691813470862031222594020426852332060534013635497820160000000000
+h 0
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <41, 1536, 9>, <43, 1792, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 52 tuple [ 11220, 54900, 62220, 65509 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 53 tuple [ 58888, 61113, 61919, 64313 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 54 tuple [ 5600, 61720, 61907, 64219 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 54 tuple [ 5600, 61720, 61907, 64219 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 54 tuple [ 5600, 61720, 61907, 64219 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 54 tuple [ 5600, 61720, 61907, 64219 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 54 tuple [ 5600, 61720, 61907, 64219 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 55 tuple [ 54168, 61272, 61864, 63196 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1856, 6>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1600, 6>, <43, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 56 tuple [ 52910, 60830, 61864, 63250 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <29, 960, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 57 tuple [ 46920, 59670, 61880, 65280 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <47, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 58 tuple [ 28678, 59450, 61828, 65500 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 59 tuple [ 57744, 60264, 61754, 62946 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1856, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 60 tuple [ 55454, 61586, 61659, 63609 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <29, 1024, 10>, <43, 1792, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 61 tuple [ 56539, 61336, 61664, 64616 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 62 tuple [ 44205, 60270, 61698, 63150 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 62 tuple [ 44205, 60270, 61698, 63150 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 62 tuple [ 44205, 60270, 61698, 63150 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 62 tuple [ 44205, 60270, 61698, 63150 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 62 tuple [ 44205, 60270, 61698, 63150 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <19, 576, 6>, <23, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 63 tuple [ 18130, 53690, 61880, 65120 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1536, 9>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 64 tuple [ 58500, 60900, 61625, 64380 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 65 tuple [ 25914, 61446, 61586, 64914 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1216, 6>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <41, 1536, 9>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 66 tuple [ 36990, 60030, 61650, 62382 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 67 tuple [ 38760, 57000, 61750, 64600 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <29, 576, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 68 tuple [ 21606, 60918, 61494, 62868 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 2304, 8>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 69 tuple [ 49698, 60450, 61490, 65175 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 70 tuple [ 55212, 58748, 61502, 65038 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 70 tuple [ 55212, 58748, 61502, 65038 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 70 tuple [ 55212, 58748, 61502, 65038 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <29, 1024, 10>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 70 tuple [ 55212, 58748, 61502, 65038 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <41, 1536, 9>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 70 tuple [ 55212, 58748, 61502, 65038 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <29, 1024, 10>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 71 tuple [ 43400, 54880, 61600, 63616 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 72 tuple [ 24217, 57046, 61535, 64825 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <17, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <23, 512, 9>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 73 tuple [ 59976, 61152, 61320, 61880 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 74 tuple [ 59976, 61152, 61320, 62475 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <31, 1024, 10>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <43, 1536, 9>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 75 tuple [ 12136, 60520, 61336, 62900 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <19, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <47, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 76 tuple [ 60375, 61272, 61295, 63825 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <47, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <19, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 576, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 77 tuple [ 36777, 61272, 61295, 63825 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1024, 10>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 78 tuple [ 49590, 58650, 61350, 64090 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 320 red [ <31, 960, 6>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 79 tuple [ 55097, 61183, 61268, 63257 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 80 tuple [ 36777, 60375, 61295, 63825 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <43, 1856, 6>, <47, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 81 tuple [ 59550, 60663, 61138, 62050 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 81 tuple [ 59550, 60663, 61138, 62050 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 81 tuple [ 59550, 60663, 61138, 62050 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 81 tuple [ 59550, 60663, 61138, 62050 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 81 tuple [ 59550, 60663, 61138, 62050 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 960 red [ <29, 960, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 82 tuple [ 21896, 57225, 61271, 64855 ]
+edge 15 fd [ 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1024, 10>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <41, 1600, 6>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 83 tuple [ 51795, 57915, 61204, 63525 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1024, 10>, <41, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <37, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <31, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 84 tuple [ 56653, 60800, 61035, 62445 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <31, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 85 tuple [ 39936, 57344, 61152, 64512 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <29, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <47, 2624, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 86 tuple [ 42768, 60480, 61020, 61200 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1024 red [ <29, 1024, 10>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 87 tuple [ 17136, 54000, 61200, 63600 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 88 tuple [ 23460, 53820, 60996, 62123 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 960, 6>, <31, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <23, 576, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 89 tuple [ 54765, 60750, 60850, 61662 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 128 red [ <41, 1536, 9>, <47, 2176, 7> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 768 red [ <37, 1536, 9>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <19, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 768 red [ <37, 1536, 9>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <19, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 90 tuple [ 47943, 58800, 60880, 64960 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <47, 2624, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <19, 256, 8>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <43, 2240, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <19, 256, 8>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 91 tuple [ 42840, 58968, 60840, 62118 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 92 tuple [ 53445, 59590, 60819, 64539 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 92 tuple [ 53445, 59590, 60819, 64539 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 92 tuple [ 53445, 59590, 60819, 64539 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 93 tuple [ 46092, 58617, 60788, 64128 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 1536 red [ <37, 1536, 9>, <41, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 576 red [ <29, 576, 6>, <41, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 94 tuple [ 42471, 58905, 60775, 62271 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <29, 576, 6>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <43, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <29, 1024, 10>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 95 tuple [ 30952, 60352, 60632, 62893 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 512 red [ <29, 1024, 10>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <13, 256, 8>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <13, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 96 tuple [ 57951, 59925, 60630, 64390 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <37, 1216, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <43, 1856, 6>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <47, 3136, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 97 tuple [ 59202, 60273, 60606, 61902 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 1024, 10>, <43, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 192 red [ <31, 960, 6>, <37, 1536, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <31, 960, 6>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <17, 256, 8>, <31, 960, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 98 tuple [ 53070, 60030, 60610, 61915 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1536, 9>, <41, 1856, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <23, 512, 9>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <13, 256, 8>, <37, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 12 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 512, 9>, <31, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 99 tuple [ 57715, 59245, 60639, 65025 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <13, 256, 8>, <23, 512, 9> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 100 tuple [ 58425, 59160, 60639, 61625 ]
+edge 2 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <37, 1024, 10>, <43, 1600, 6> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 100 tuple [ 58425, 59160, 60639, 61625 ]
+edge 3 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 100 tuple [ 58425, 59160, 60639, 61625 ]
+edge 4 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <43, 1600, 6>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 100 tuple [ 58425, 59160, 60639, 61625 ]
+edge 7 fd [ 1, 1, 1, 1, 2 ]
+gcd 64 red [ <23, 576, 6>, <37, 1024, 10> ]
+torsion [ 2, 2, 4 ]
+order 16
+CANDIDATE row 100 tuple [ 58425, 59160, 60639, 61625 ]
+edge 15 fd [ 1, 1, 1, 1, 2 ]
+gcd 256 red [ <37, 1024, 10>, <47, 2304, 8> ]
+torsion [ 2, 2, 4 ]
+order 16
+SUMMARY rows 100 edges 1500 one_split 600 reduction_pass 558 exact 558 hits 2

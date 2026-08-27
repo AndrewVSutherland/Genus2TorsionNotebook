@@ -1,0 +1,21 @@
+f70 integral model : y^2 = 3168*x^5 + 697*x^4 - 23220*x^3 + 37620*x^2 - 23328*x + 5184
+genus              : 2
+TORSION            : [ 70 ]   order 70
+E1 = [ 1, 0, 0, -45, 81 ]  cond 66  torsion [ 10 ]  rank-ish
+E2 = [ 1, 0, 0, -5774401, 5346023177 ]  cond 858  torsion [ 7 ]
+j(E1) = 10091699281/2737152   j(E2) = -21293376668673906679951249/26211168887701209984
+Cond(E1)*Cond(E2) = 56628
+bad primes (union) : [ 2, 3, 11, 13 ]
+SPLIT CHECK  #J(F_p) = #E1(F_p)*#E2(F_p)  at 299 good primes < 2000 : agree=299  DISAGREE=0 []
+E1 2-division poly factor degrees : [ <1, 1>, <2, 1> ]
+E2 2-division poly factor degrees : [ <3, 1> ]
+disc(E1) squarefree core 33 ; disc(E2) squarefree core -286
+E1[2] and E2[2] have different factor types => NOT a (2,2)-gluing
+  mod-3 congruence a_p(E1) = a_p(E2) for all good p<500 : true  (primes tested 91)
+  mod-5 congruence a_p(E1) = a_p(E2) for all good p<500 : false  (primes tested 1)
+  mod-7 congruence a_p(E1) = a_p(E2) for all good p<500 : false  (primes tested 1)
+  mod-11 congruence a_p(E1) = a_p(E2) for all good p<500 : false  (primes tested 1)
+  mod-13 congruence a_p(E1) = a_p(E2) for all good p<500 : false  (primes tested 1)
+E1(Q)_tors x E2(Q)_tors = [ 10 ] x [ 7 ]  (order 70)
+Z/35 subgroup of J(Q)_tors=Z/70 : index 2, i.e. 2*J(Q)_tors -- exists but on the SAME split surface
+SEARCH_DONE f70split

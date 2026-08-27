@@ -1,0 +1,4 @@
+DIRECT_CONTACT_CRT seed 22224 trials 1000000 modulus 136572143279 reconstruction_bound 261316
+MASK_SIZES p11sq 600 p13sq 650 good [(17, 47, 46, 1), (19, 63, 61, 2), (23, 87, 83, 4), (29, 115, 112, 3), (31, 140, 132, 8)]
+RECONSTRUCTED 62276 UNIQUE 62276
+OUTPUT results/target_22224_direct_contact_deep13_crt_seed22224.tsv

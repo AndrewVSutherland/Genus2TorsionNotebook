@@ -1,0 +1,10 @@
+N9_RANK3_MWSIEVE_START N 0 E Elliptic Curve defined by y^2 = x^3 - x^2 + 34591*x + 34593 over Rational Field
+rank_bounds 3 3 generators [ (-1 : 0 : 1), (577 : -14552 : 1), (17249/49 : -2560104/343 : 1), (1873/49 : 407464/343 : 1) ]
+known_t 5/7 primes [ 71, 73, 79, 83, 89, 97 ]
+PRIME_PROFILE p 71 orders 12 4 36 total 3456 local_fail 1056 open_no3 1152 open3 384 boundary 864 allowed 1248
+PRIME_PROFILE p 73 orders 15 30 30 total 27000 local_fail 7200 open_no3 9900 open3 3600 boundary 6300 allowed 9900
+PRIME_PROFILE p 79 orders 18 36 12 total 15552 local_fail 3456 open_no3 6912 open3 3456 boundary 1728 allowed 5184
+PRIME_PROFILE p 83 orders 92 92 92 total 1557376 local_fail 761760 open_no3 541696 open3 135424 boundary 118496 allowed 253920
+PRIME_PROFILE p 89 orders 11 22 4 total 1936 local_fail 1056 open_no3 484 open3 352 boundary 44 allowed 396
+PRIME_PROFILE p 97 orders 16 48 16 total 24576 local_fail 6144 open_no3 6144 open3 8192 boundary 4096 allowed 12288
+N9_RANK3_MWSIEVE_DONE tested 2 modular 0 distinct_exact_t 0 exact_full 0 three_hits 0 modular_file results/target_22224_N9_rank3_modular_N0.tsv

@@ -1,0 +1,23 @@
+SEARCH contact-7 plus 5
+height 20 parameters 511 max_exact 500 filter_primes [ 3, 7, 11, 13, 17, 19, 23,
+29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+progress checked 50000 smooth 49940 five_survivors 0 exact_tests 0 hits 0
+progress checked 100000 smooth 99889 five_survivors 0 exact_tests 0 hits 0
+progress checked 150000 smooth 149859 five_survivors 0 exact_tests 0 hits 0
+progress checked 200000 smooth 199843 five_survivors 0 exact_tests 0 hits 0
+progress checked 250000 smooth 249837 five_survivors 0 exact_tests 0 hits 0
+DONE contact-7 plus 5
+checked 261121 smooth 260959 five_survivors 0 exact_tests 0 hits 0
+FIRST_KILL_5
+  3 83761
+  7 89622
+  11 55710
+  13 18813
+  17 8264
+  19 3311
+  23 1044
+  29 314
+  31 93
+  37 24
+  41 3
+Torsion counts among exact survivors

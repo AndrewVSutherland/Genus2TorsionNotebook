@@ -1,0 +1,24 @@
+FINITE M(12) plus 7 necessary condition
+finite_primes [ 3, 5, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 ]
+p 3 total 2 good 0 seven_possible 0 samples []
+p 5 total 12 good 6 seven_possible 0 samples []
+p 11 total 90 good 70 seven_possible 6 samples [ <4, 1>, <4, 3>, <5, 6>, <6, 6>,
+<7, 1>, <7, 3> ]
+p 13 total 132 good 110 seven_possible 14 samples [ <2, 7>, <3, 4>, <3, 5>, <4, 
+2>, <4, 3>, <4, 11>, <6, 11>, <7, 11> ]
+p 17 total 240 good 198 seven_possible 28 samples [ <3, 9>, <3, 13>, <4, 9>, <5,
+6>, <5, 14>, <6, 7>, <6, 13>, <6, 15> ]
+p 19 total 306 good 260 seven_possible 44 samples [ <2, 6>, <3, 4>, <3, 11>, <3,
+13>, <3, 17>, <4, 10>, <4, 14>, <5, 3> ]
+p 23 total 462 good 404 seven_possible 44 samples [ <3, 15>, <3, 19>, <4, 13>, 
+<4, 16>, <5, 3>, <5, 6>, <5, 7>, <6, 15> ]
+p 29 total 756 good 680 seven_possible 54 samples [ <2, 2>, <2, 21>, <3, 4>, <3,
+6>, <3, 17>, <3, 22>, <3, 27>, <4, 3> ]
+p 31 total 870 good 790 seven_possible 150 samples [ <2, 2>, <2, 6>, <2, 14>, 
+<2, 15>, <2, 17>, <2, 20>, <2, 23>, <2, 24> ]
+p 37 total 1260 good 1166 seven_possible 190 samples [ <2, 4>, <2, 7>, <2, 16>, 
+<2, 18>, <2, 22>, <2, 24>, <2, 32>, <2, 33> ]
+p 41 total 1560 good 1450 seven_possible 230 samples [ <2, 2>, <2, 6>, <2, 11>, 
+<2, 17>, <2, 25>, <2, 26>, <2, 29>, <2, 31> ]
+p 43 total 1722 good 1600 seven_possible 240 samples [ <2, 1>, <2, 7>, <2, 14>, 
+<2, 18>, <2, 19>, <2, 39>, <2, 40>, <3, 15> ]

@@ -1,0 +1,82 @@
+
+== close 1: si=3 t(u)=u + 4 ==
+residual classes: [
+U^2 - 2*U - 63,
+-U^2 + 2*U + 3
+]
+quartic model W^2 = -U^4 - 4*U^3 - 118*U^2 - 228*U - 4209 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 1 si=3 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 2: si=3 t(u)=m - 4 ==
+residual classes: [
+-U^2 + 10*U - 21,
+U^2 - 10*U - 39
+]
+quartic model W^2 = -15*U^4 - 34*U^2 - 15 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 2 si=3 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 3: si=3 t(u)=(6*m - 9)/m ==
+residual classes: [
+-3*U,
+-15*U^2 + 102*U - 135
+]
+quartic model W^2 = -393216*U^4 - 466944*U^3 - 216064*U^2 - 46080*U - 3840 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 3 si=3 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 4: si=3 t(u)=-9/(m - 6) ==
+residual classes: [
+-15*U^2 + 78*U - 63,
+3*U - 18
+]
+quartic model W^2 = -15*U^4 - 34*U^2 - 15 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 4 si=3 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 5: si=5 t(u)=(21/5*m - 9/5)/(m - 9/5) ==
+residual classes: [
+-15*U^2 + 102*U - 135,
+-3*U
+]
+quartic model W^2 = -393216*U^4 - 466944*U^3 - 216064*U^2 - 46080*U - 3840 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 5 si=5 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 6: si=5 t(u)=(21/5*m - 9/5)/(m - 9/5) ==
+residual classes: [
+-15*U^2 + 102*U - 135,
+-3*U
+]
+quartic model W^2 = -393216*U^4 - 466944*U^3 - 216064*U^2 - 46080*U - 3840 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 6 si=5 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 7: si=6 t(u)=(5*m + 11)/(m - 1) ==
+residual classes: [
+-U^2 + 2*U + 3,
+U^2 - 2*U - 63
+]
+quartic model W^2 = -15*U^4 - 34*U^2 - 15 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 7 si=6 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 8: si=6 t(u)=(5*m + 11)/(m - 1) ==
+residual classes: [
+-U^2 + 2*U + 3,
+U^2 - 2*U - 63
+]
+quartic model W^2 = -15*U^4 - 34*U^2 - 15 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 8 si=6 LOCALLY INSOLUBLE at p=3 - empty
+
+== close 9: si=6 t(u)=(5*m + 11)/(m - 1) ==
+residual classes: [
+-U^2 + 2*U + 3,
+U^2 - 2*U - 63
+]
+quartic model W^2 = -15*U^4 - 34*U^2 - 15 (deg 4)
+small points on quartic (1e4): 0
+LINE_CLOSED curve 9 si=6 LOCALLY INSOLUBLE at p=3 - empty
+LINE_CLOSE_DONE

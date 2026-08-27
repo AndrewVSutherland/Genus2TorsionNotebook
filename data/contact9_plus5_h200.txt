@@ -1,0 +1,37 @@
+CONTACT9 plus 5 rational search
+height 200 params 48927 target 45 max_exact 1000
+filter_primes [ 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
+67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149 ]
+progress checked 5000 smooth 4997 marked9 4997 target_survivors 0 exact_tests 0 
+hits 0
+progress checked 10000 smooth 9997 marked9 9997 target_survivors 0 exact_tests 0
+hits 0
+progress checked 15000 smooth 14997 marked9 14997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 20000 smooth 19997 marked9 19997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 25000 smooth 24997 marked9 24997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 30000 smooth 29997 marked9 29997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 35000 smooth 34997 marked9 34997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 40000 smooth 39997 marked9 39997 target_survivors 0 exact_tests
+0 hits 0
+progress checked 45000 smooth 44997 marked9 44997 target_survivors 0 exact_tests
+0 hits 0
+DONE contact9 plus 5
+checked 48927 smooth 48925 marked9 48925 target_survivors 0 exact_tests 0 hits 0
+FIRST_KILL
+  3 12319
+  7 13781
+  11 15239
+  13 4871
+  17 2149
+  19 355
+  23 137
+  29 57
+  31 13
+  37 1
+  41 3
+TORSION_COUNTS

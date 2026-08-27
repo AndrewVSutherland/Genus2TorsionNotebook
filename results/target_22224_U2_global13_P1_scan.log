@@ -1,0 +1,20 @@
+U2_GLOBAL13_P1_SCAN_START bank results/target_22224_direct_contact_deep13_padic_tangent_p13.tsv
+U2_GLOBAL13_FAMILY U2 fixed [ -1071, -1054, 1116 ]
+moving_coefficient 1134
+U2_GLOBAL13_LEVEL family U2 exponent 1 modulus 13 bank_keys 3 finite_classes 13 infinity_classes 1 projective_classes 14 line_keys 5 hit_classes 0 hit_keys 0
+U2_GLOBAL13_MOD13_BANK_KEYS [ <1, 1, 1, 1>, <1, 1, 3, 3>, <1, 1, 5, 5> ]
+U2_GLOBAL13_MOD13_LINE_KEYS U2 [ <0, 0, 0, 1>, <0, 1, 2, 5>, <1, 1, 2, 5>, <1, 2, 3, 5>, <1, 2, 3, 6> ]
+U2_GLOBAL13_LEVEL family U2 exponent 2 modulus 169 bank_keys 5 finite_classes 169 infinity_classes 13 projective_classes 182 line_keys 41 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U2 exponent 3 modulus 2197 bank_keys 11 finite_classes 2197 infinity_classes 169 projective_classes 2366 line_keys 515 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U2 exponent 4 modulus 28561 bank_keys 12 finite_classes 28561 infinity_classes 2197 projective_classes 30758 line_keys 6671 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U2 exponent 5 modulus 371293 bank_keys 144 finite_classes 371293 infinity_classes 28561 projective_classes 399854 line_keys 86705 hit_classes 0 hit_keys 0
+U2_GLOBAL13_FAMILY U1 fixed [ -1071, 1116, 1134 ]
+moving_coefficient -1054
+U2_GLOBAL13_LEVEL family U1 exponent 1 modulus 13 bank_keys 3 finite_classes 13 infinity_classes 1 projective_classes 14 line_keys 5 hit_classes 0 hit_keys 0
+U2_GLOBAL13_MOD13_BANK_KEYS [ <1, 1, 1, 1>, <1, 1, 3, 3>, <1, 1, 5, 5> ]
+U2_GLOBAL13_MOD13_LINE_KEYS U1 [ <0, 0, 0, 1>, <0, 1, 2, 3>, <1, 1, 5, 6>, <1, 2, 3, 5>, <1, 2, 3, 6> ]
+U2_GLOBAL13_LEVEL family U1 exponent 2 modulus 169 bank_keys 5 finite_classes 169 infinity_classes 13 projective_classes 182 line_keys 41 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U1 exponent 3 modulus 2197 bank_keys 11 finite_classes 2197 infinity_classes 169 projective_classes 2366 line_keys 515 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U1 exponent 4 modulus 28561 bank_keys 12 finite_classes 28561 infinity_classes 2197 projective_classes 30758 line_keys 6671 hit_classes 0 hit_keys 0
+U2_GLOBAL13_LEVEL family U1 exponent 5 modulus 371293 bank_keys 144 finite_classes 371293 infinity_classes 28561 projective_classes 399854 line_keys 86705 hit_classes 0 hit_keys 0
+U2_GLOBAL13_P1_SCAN_DONE output results/target_22224_U2_global13_P1_scan.tsv

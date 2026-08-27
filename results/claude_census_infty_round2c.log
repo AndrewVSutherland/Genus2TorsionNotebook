@@ -1,0 +1,9 @@
+  t=3 torsion [ 2, 4 ]  STRICT p=17(true)
+  t=5 torsion [ 2, 4 ]  STRICT p=11(true)
+  t=7 torsion [ 2, 4 ]  STRICT p=11(true)
+  t=-2 torsion [ 2, 4 ]  STRICT p=13(true)
+  t=1/2 torsion [ 2, 4 ]  STRICT p=29(true)
+  t=-4 torsion [ 2, 4 ]  STRICT p=11(true)
+  t=11 torsion [ 2, 4 ]  STRICT p=13(true)
+  t=13 torsion [ 2, 4 ]  STRICT p=37(true)
+DONE_2C

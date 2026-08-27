@@ -1,0 +1,29 @@
+CRT-guided reduced [8,8] exact search
+height 1000 primes [ 7, 11, 13, 17, 19, 23, 29, 31 ]
+max_hits 10 max_candidates 0 progress_interval 250
+prime_profile 7 open_good 8 first_pairs 8 reduced_pairs 4
+prime_profile 11 open_good 28 first_pairs 20 reduced_pairs 12
+prime_profile 13 open_good 48 first_pairs 24 reduced_pairs 8
+prime_profile 17 open_good 120 first_pairs 56 reduced_pairs 28
+prime_profile 19 open_good 164 first_pairs 72 reduced_pairs 28
+prime_profile 23 open_good 288 first_pairs 144 reduced_pairs 44
+prime_profile 29 open_good 512 first_pairs 208 reduced_pairs 144
+prime_profile 31 open_good 640 first_pairs 280 reduced_pairs 132
+parameter_count 1216767 strict_good_parameters 743091 denominator_bad_parameters 473676 s_residue_buckets 743091
+progress 250 open_good 249 first_bases 16 first_solutions 64 second_solutions 0 verified 0 hits 0
+progress 500 open_good 499 first_bases 28 first_solutions 112 second_solutions 0 verified 0 hits 0
+progress 750 open_good 749 first_bases 44 first_solutions 176 second_solutions 0 verified 0 hits 0
+progress 1000 open_good 999 first_bases 66 first_solutions 264 second_solutions 0 verified 0 hits 0
+progress 1250 open_good 1249 first_bases 82 first_solutions 328 second_solutions 0 verified 0 hits 0
+progress 1500 open_good 1499 first_bases 110 first_solutions 440 second_solutions 0 verified 0 hits 0
+progress 1750 open_good 1749 first_bases 120 first_solutions 480 second_solutions 0 verified 0 hits 0
+progress 2000 open_good 1999 first_bases 138 first_solutions 552 second_solutions 0 verified 0 hits 0
+progress 2250 open_good 2249 first_bases 152 first_solutions 608 second_solutions 0 verified 0 hits 0
+progress 2500 open_good 2499 first_bases 171 first_solutions 684 second_solutions 0 verified 0 hits 0
+progress 2750 open_good 2749 first_bases 190 first_solutions 760 second_solutions 0 verified 0 hits 0
+progress 3000 open_good 2999 first_bases 204 first_solutions 816 second_solutions 0 verified 0 hits 0
+progress 3250 open_good 3249 first_bases 222 first_solutions 888 second_solutions 0 verified 0 hits 0
+progress 3500 open_good 3499 first_bases 244 first_solutions 976 second_solutions 0 verified 0 hits 0
+DONE height 1000 primes [ 7, 11, 13, 17, 19, 23, 29, 31 ]
+pair_candidates 3604 open_good 3604 first_bases 248 first_solutions 992 second_solutions 0 exact_verified 0 torsion_tests 0 hits 0
+TORSION_COUNTS

@@ -1,0 +1,16 @@
+############ ARCS of degree 3 through anchor 3 : Z/63       (N = 63)
+  normal functional to the bielliptic locus = [-1391376168184, 57812376816008, 49406324108611592]
+  sanity: anchor fails compat at 0 good p < 200 (must be 0)
+  sanity: the CONSTANT arc f_t = f0 is not killed : 1
+    PROGRESS transverse 5000/20000 killed 5000
+    PROGRESS transverse 10000/20000 killed 10000
+    PROGRESS transverse 15000/20000 killed 15000
+    PROGRESS transverse 20000/20000 killed 19999
+    PROGRESS tangent 5000/20000 killed 5000
+    PROGRESS tangent 10000/20000 killed 10000
+    PROGRESS tangent 15000/20000 killed 15000
+    PROGRESS tangent 20000/20000 killed 20000
+  TRANSVERSE-AT-FIRST-ORDER arcs : 19999 tested, 19999 KILLED, 0 survivors
+  TANGENT-THEN-LEAVING      arcs : 20000 tested, 20000 KILLED, 0 survivors
+  hardest (p,t) needed = [7, 6]
+SEARCH_DONE arcs anchor 3 deg 3

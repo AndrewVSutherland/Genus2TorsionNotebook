@@ -1,0 +1,122 @@
+PIECE 22
+N_BRANCHES 2 dims [ 2, 2 ]
+PERIOD_TERMS 80457
+PERIODS ok
+E1 [ 0, 0, 2, 1, 0, 0, 1, 1, -2, -1, 0, 0, -1, -1, 0, 0 ]
+E2 [ 0, -3, 0, -2, 3, 0, 2, 4, 0, -2, 0, 3, 2, -4, -3, 0 ]
+BRANCH 1 starvecs plus=( 1 36  2 30) minus=( 1  6  0 15)
+BRANCH 2 starvecs plus=( 1 36  2  3) minus=( 1 29  0 22)
+Bcontrol LATTICE_INDEX 1/1
+Bcontrol AB_BASIS [ 1, 0 ] [ 0, 1 ] (dd2=1)
+Bcontrol N_POSFORMS 14 types [ 2, 3, 11 ]
+Bcontrol_d2_a-7_b3_n1 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a-7_b3_n1 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d2_a-5_b1_n2 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a-5_b1_n2 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d2_a-3_b1_n3 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a-3_b1_n3 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d2_a3_b-1_n4 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a3_b-1_n4 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d2_a5_b-1_n5 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a5_b-1_n5 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d2_a7_b-3_n6 BIGP_OK sgn=1 blk=1
+Bcontrol_d2_a7_b-3_n6 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a-5_b2_n7 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a-5_b2_n7 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a-5_b2_n8 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a-5_b2_n8 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a-4_b1_n9 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a-4_b1_n9 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a-4_b1_n10 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a-4_b1_n10 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a4_b-1_n11 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a4_b-1_n11 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+Bcontrol_d3_a4_b-1_n12 BIGP_OK sgn=1 blk=1
+Bcontrol_d3_a4_b-1_n12 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus LATTICE_INDEX 1/37
+B1plus AB_BASIS [ 1, -2 ] [ 15, 7 ] (dd2=37)
+B1plus N_POSFORMS 6 types [ 2, 3 ]
+B1plus_d2_a-23_b9_n1 BIGP_OK sgn=1 blk=1
+B1plus_d2_a-23_b9_n1 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d2_a-21_b5_n2 BIGP_OK sgn=1 blk=1
+B1plus_d2_a-21_b5_n2 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d2_a21_b-5_n3 BIGP_OK sgn=1 blk=1
+B1plus_d2_a21_b-5_n3 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d2_a23_b-9_n4 BIGP_OK sgn=1 blk=1
+B1plus_d2_a23_b-9_n4 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d3_a-22_b7_n5 BIGP_OK sgn=1 blk=1
+B1plus_d3_a-22_b7_n5 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d3_a-22_b7_n6 BIGP_OK sgn=1 blk=1
+B1plus_d3_a-22_b7_n6 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d3_a22_b-7_n7 BIGP_OK sgn=1 blk=1
+B1plus_d3_a22_b-7_n7 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1plus_d3_a22_b-7_n8 BIGP_OK sgn=1 blk=1
+B1plus_d3_a22_b-7_n8 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus LATTICE_INDEX 1/37
+B1minus AB_BASIS [ 1, -2 ] [ 15, 7 ] (dd2=37)
+B1minus N_POSFORMS 6 types [ 2, 3 ]
+B1minus_d2_a-23_b9_n1 BIGP_OK sgn=1 blk=1
+B1minus_d2_a-23_b9_n1 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d2_a-21_b5_n2 BIGP_OK sgn=1 blk=1
+B1minus_d2_a-21_b5_n2 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d2_a21_b-5_n3 BIGP_OK sgn=1 blk=1
+B1minus_d2_a21_b-5_n3 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d2_a23_b-9_n4 BIGP_OK sgn=1 blk=1
+B1minus_d2_a23_b-9_n4 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d3_a-22_b7_n5 BIGP_OK sgn=1 blk=1
+B1minus_d3_a-22_b7_n5 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d3_a-22_b7_n6 BIGP_OK sgn=1 blk=1
+B1minus_d3_a-22_b7_n6 NUMINV_ERR Runtime error in 'Max': Bad argument types
+Argument types given: FldComElt, FldComElt
+
+B1minus_d3_a22_b-7_n7 BIGP_OK sgn=1 blk=1

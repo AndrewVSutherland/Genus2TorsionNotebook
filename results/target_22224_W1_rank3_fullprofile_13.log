@@ -1,0 +1,25 @@
+RANK3_MWSIEVE_START family W1 pair <1, 3> remaining 2 N 0 E Elliptic Curve defined by y^2 = x^3 - x^2 + 34591*x + 34593 over Rational Field
+rank_bounds 3 3 generators [ (-1 : 0 : 1), (577 : -14552 : 1), (17249/49 : -2560104/343 : 1), (1873/49 : 407464/343 : 1) ]
+known_t 7/5 primes [ 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 ]
+PRIME_PROFILE p 11 orders 8 4 8 total 512 local_fail 256 open_no3 0 open3 0 boundary 256 allowed 256
+PRIME_PROFILE p 13 orders 8 8 8 total 1024 local_fail 448 open_no3 0 open3 0 boundary 576 allowed 576
+PRIME_PROFILE p 17 orders 2 6 12 total 288 local_fail 96 open_no3 0 open3 168 boundary 24 allowed 192
+PRIME_PROFILE p 19 orders 12 6 12 total 1728 local_fail 864 open_no3 0 open3 0 boundary 864 allowed 864
+PRIME_SKIP 23 E_bad_reduction
+PRIME_PROFILE p 29 orders 8 8 4 total 512 local_fail 192 open_no3 128 open3 112 boundary 80 allowed 192
+PRIME_SKIP 31 E_bad_reduction
+PRIME_PROFILE p 37 orders 18 2 18 total 1296 local_fail 0 open_no3 0 open3 0 boundary 1296 allowed 1296
+PRIME_PROFILE p 41 orders 11 22 11 total 5324 local_fail 1936 open_no3 726 open3 1936 boundary 726 allowed 2662
+PRIME_PROFILE p 43 orders 14 28 14 total 10976 local_fail 3724 open_no3 4704 open3 784 boundary 1764 allowed 2548
+PRIME_SKIP 47 E_bad_reduction
+PRIME_PROFILE p 53 orders 10 10 2 total 400 local_fail 120 open_no3 0 open3 80 boundary 200 allowed 280
+PRIME_PROFILE p 59 orders 36 36 36 total 93312 local_fail 42768 open_no3 20736 open3 20736 boundary 9072 allowed 29808
+PRIME_PROFILE p 61 orders 30 30 30 total 54000 local_fail 23400 open_no3 17100 open3 0 boundary 13500 allowed 13500
+PRIME_PROFILE p 67 orders 6 36 18 total 7776 local_fail 3024 open_no3 3348 open3 432 boundary 972 allowed 1404
+PRIME_PROFILE p 71 orders 12 4 36 total 3456 local_fail 1056 open_no3 1152 open3 384 boundary 864 allowed 1248
+PRIME_PROFILE p 73 orders 15 30 30 total 27000 local_fail 7200 open_no3 9900 open3 3600 boundary 6300 allowed 9900
+PRIME_PROFILE p 79 orders 18 36 12 total 15552 local_fail 3456 open_no3 6912 open3 3456 boundary 1728 allowed 5184
+PRIME_PROFILE p 83 orders 92 92 92 total 1557376 local_fail 761760 open_no3 541696 open3 135424 boundary 118496 allowed 253920
+PRIME_PROFILE p 89 orders 11 22 4 total 1936 local_fail 1056 open_no3 484 open3 352 boundary 44 allowed 396
+PRIME_PROFILE p 97 orders 16 48 16 total 24576 local_fail 6144 open_no3 6144 open3 8192 boundary 4096 allowed 12288
+RANK3_MWSIEVE_DONE family W1 pair <1, 3> tested 2 modular 0 distinct_exact_t 0 exact_full 0 three_hits 0 modular_file results/target_22224_W1_rank3_fullprofile_13_modular.tsv

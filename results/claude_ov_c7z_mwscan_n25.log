@@ -1,0 +1,14 @@
+slice-c2 correspondence curve: irreducible=true genus=1
+
+Current total memory usage: 7606.7MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached
+E2 = Elliptic Curve defined by y^2 = x^3 - 12*x over Rational Field   conductor=288
+
+Current total memory usage: 7613.4MB, failed memory request: 26.5MB
+System Error: User memory limit has been reached
+
+In file "code/claude_ov_c7z_mwscan.m", line 33, column 47:
+>> printf "MW = %o proven=(%o,%o)\n", Invariants(G), f1, f2;
+                                                 ^
+Runtime error: Variable 'G' has not been initialized
+

@@ -1,0 +1,23 @@
+Loading "split_lab.m"
+Loading "analytic_glue.m"
+class 66.3: torsions [
+[ 10 ],
+[ 10 ],
+[ 2 ],
+[ 2 ]
+]
+gluing N=7: [ 10 ] [ 1, 0, 0, -45, 81 ] x [ 10 ] [ 1, 0, 0, 115, 561 ]
+GLUESCAN M=[1,0;4,6] heights 57 55 55
+GLUESCAN M=[1,5;3,0] heights 66 62 61
+GLUESCAN M=[2,0;2,3] heights 52 49 47
+GLUESCAN M=[2,3;5,0] heights 49 49 47
+GLUESCAN M=[3,0;6,2] heights 58 55 56
+GLUESCAN M=[3,1;1,0] heights 57 54 54
+GLUESCAN M=[4,0;1,5] heights 58 55 56
+GLUESCAN M=[4,6;6,0] heights 57 54 54
+GLUESCAN M=[5,0;5,4] heights 52 49 47
+GLUESCAN M=[5,4;2,0] heights 49 49 47
+GLUESCAN M=[6,0;3,1] heights 57 55 55
+GLUESCAN M=[6,2;4,0] heights 66 62 61
+scan: 12 hits
+M=[ 5, 4, 2, 0 ] reduced IC heights [ 42, 248, 271, 283 ]

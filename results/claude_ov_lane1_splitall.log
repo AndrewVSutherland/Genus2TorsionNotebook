@@ -1,0 +1,31 @@
+=== numerical check of B, C on family members ===
+k=-5 eps=0 m=625/229 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-3130820487794375/7210703958866496 square=false
+k=-5 eps=1 m=-361/493 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=84116198436957009/51943537876562500 square=false
+k=-4 eps=0 m=16/41 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-3184593984/937890625 square=false
+k=-4 eps=1 m=-98/73 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=122345894461/30781298916 square=false
+k=-3 eps=0 m=1/13 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-1313975/3779136 square=false
+k=-3 eps=1 m=-9/5 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=252225/9604 square=false
+k=-2 eps=1 m=-4/5 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=103600/59049 square=false
+k=2 eps=1 m=-4/5 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=103600/59049 square=false
+k=3 eps=0 m=1/13 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-1313975/3779136 square=false
+k=3 eps=1 m=-9/5 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=252225/9604 square=false
+k=4 eps=0 m=16/41 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-3184593984/937890625 square=false
+k=4 eps=1 m=-98/73 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=122345894461/30781298916 square=false
+k=5 eps=0 m=625/229 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=-3130820487794375/7210703958866496 square=false
+k=5 eps=1 m=-361/493 : Q has the 3 roots true ; residual = x^2+Bx+C true ; Delta=84116198436957009/51943537876562500 square=false
+
+function field Kw = Q(m)[w]/(w^2 - (-m^4 + 6*m^2 + 4*m)), genus 1
+Delta (as an element of Kw):
+  (-4*m^4 + 24*m^2 - 16*m)/(m^6 - 6*m^4 + 4*m^3 + 9*m^2 - 12*m + 4)
+
+=== closed form of Delta ===
+Delta == 4*g(-m)/((m-1)^4 (m+2)^2) identically in Kw : true
+  => Delta is a SQUARE  <=>  g(-m) = -m^4+6m^2-4m is a square
+  => the order-112 locus on this family is the curve
+       C : w^2 = g(m),  z^2 = g(-m)   (genus 5) -- see claude_ov_lane1_order112.m
+
+SPLITALL cover z^2 = Delta : genus = 4
+
+=== search for SPLITALL along E(Q), |k| <= 400 ===
+SPLITALL hits along E(Q) with |k| <= 400 : 0
+LANE1_SPLITALL_DONE
