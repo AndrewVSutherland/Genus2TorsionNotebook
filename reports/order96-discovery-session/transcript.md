@@ -3,7 +3,7 @@
 The complete Claude Code session of **July 17–18, 2026** in which the torsion group
 (Z/2)³ × Z/12 — order **96**, the record for a geometrically simple genus-2 Jacobian
 over Q, and the first realization of that group on any genus-2 Jacobian over Q — was
-found overnight. Drew (A. Sutherland) gives the assignment in the evening; Fable
+found overnight. Drew (Andrew V. Sutherland) gives the assignment in the evening; Fable
 (Anthropic's Claude, model `claude-fable-5`, via Claude Code) reads the repository,
 ranks the ten most promising unrealized torsion groups, reconciles its ranking against
 a competing list from GPT 5.6 codex, launches probe and production lanes as background
@@ -4819,7 +4819,11 @@ result:
 collisions: 0
  create mode 100644 results/contact6_m612_prym_rank_verifier.log
 Switched to branch 'claude/22212-record-and-top10-campaign'
-Rebasing (1/3)Rebasing (2/3)Rebasing (3/3)[KSuccessfully rebased and updated refs/heads/claude/22212-record-and-top10-campaign.
+Rebasing (1/3)
+Rebasing (2/3)
+Rebasing (3/3)
+
+[KSuccessfully rebased and updated refs/heads/claude/22212-record-and-top10-campaign.
 ````
 
 </details>
