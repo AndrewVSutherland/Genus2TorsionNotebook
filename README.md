@@ -1,9 +1,7 @@
 # Genus2TorsionNotebook
 
-This is the shared **lab notebook** of the project behind the paper
+This is the shared **lab notebook** for the project behind the paper [Rational Torsion on Simple Genus Two Jacobians](http://arxiv.org/abs/2608.28543) by Jennifer S. Balakrishnan, Filip Najman, Ari Shnidman, and Andrew V. Sutherland.
 
-> *Rational torsion on simple genus two Jacobians*,
-> J.S. Balakrishnan, F. Najman, A. Shnidman, A.V. Sutherland.
 
 It is not a polished software package. It is the working record — largely
 unplanned, only loosely coordinated, and deliberately preserved warts and
